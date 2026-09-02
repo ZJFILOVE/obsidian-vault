@@ -1,0 +1,10 @@
+{
+  "cssTheme": "Minimal",
+  "interfaceFontFamily": "LXGW WenKai",
+  "textFontFamily": "LXGW WenKai",
+  "enabledCssSnippets": [
+    "knowledge-workspace"
+  ],
+  "theme": "obsidian",
+  "baseFontSize": 18
+}

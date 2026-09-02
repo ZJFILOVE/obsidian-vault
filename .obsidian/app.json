@@ -1,0 +1,8 @@
+{
+  "attachmentFolderPath": "90-assets",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00-inbox",
+  "showUnsupportedFiles": true,
+  "useMarkdownLinks": false
+}

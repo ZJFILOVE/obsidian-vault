@@ -1,0 +1,14 @@
+/* Local workspace overrides. Minimal remains responsible for the layout. */
+body {
+  --font-interface-theme: "LXGW WenKai", "Noto Sans CJK SC", sans-serif;
+  --font-text-theme: "LXGW WenKai", "Noto Serif CJK SC", serif;
+}
+
+.knowledge-home .markdown-preview-sizer,
+.knowledge-home .cm-sizer {
+  max-width: 920px;
+}
+
+.knowledge-home h1 {
+  letter-spacing: 0.04em;
+}
