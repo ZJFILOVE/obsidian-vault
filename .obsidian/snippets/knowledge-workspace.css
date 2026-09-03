@@ -1,14 +1,155 @@
-/* Local workspace overrides. Minimal remains responsible for the layout. */
+/* Local workspace overrides. Minimal remains responsible for the base layout. */
 body {
   --font-interface-theme: "LXGW WenKai", "Noto Sans CJK SC", sans-serif;
   --font-text-theme: "LXGW WenKai", "Noto Serif CJK SC", serif;
 }
 
-.knowledge-home .markdown-preview-sizer,
-.knowledge-home .cm-sizer {
-  max-width: 920px;
+/* ---------- Homepage width + hero ---------- */
+.markdown-preview-view.knowledge-home .markdown-preview-sizer {
+  max-width: 1180px;
+  padding-top: 0;
 }
 
-.knowledge-home h1 {
-  letter-spacing: 0.04em;
+.markdown-preview-view.knowledge-home::before {
+  content: "";
+  display: block;
+  width: min(1180px, calc(100% - 24px));
+  height: 190px;
+  margin: 0 auto 34px;
+  border-radius: 0 0 14px 14px;
+  background:
+    radial-gradient(circle at 18% 38%, rgba(246, 130, 196, 0.72), transparent 28%),
+    radial-gradient(circle at 47% 30%, rgba(191, 111, 255, 0.72), transparent 30%),
+    radial-gradient(circle at 76% 58%, rgba(72, 184, 255, 0.62), transparent 30%),
+    radial-gradient(circle at 61% 12%, rgba(255, 181, 104, 0.38), transparent 22%),
+    linear-gradient(115deg, #22152f 0%, #35214b 33%, #1d2f52 70%, #111827 100%);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
+}
+
+.markdown-preview-view.knowledge-home h1 {
+  letter-spacing: 0.025em;
+  margin-top: 0;
+}
+
+.markdown-preview-view.knowledge-home hr {
+  margin: 1.4rem 0;
+  opacity: 0.55;
+}
+
+/* ---------- nlx-404-inspired multi-column callout grid ---------- */
+.knowledge-home .callout[data-callout="multi-column"] {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+  margin: 1rem 0 1.35rem;
+}
+
+.knowledge-home .callout[data-callout="multi-column"] > .callout-title {
+  display: none;
+}
+
+.knowledge-home .callout[data-callout="multi-column"] > .callout-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding: 0;
+}
+
+.knowledge-home .callout[data-callout="multi-column"] > .callout-content > .callout {
+  flex: 1 1 220px;
+  min-width: 0;
+  margin: 0;
+  border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--background-modifier-border) 76%, transparent);
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.knowledge-home .callout[data-callout="multi-column"] > .callout-content > .callout .callout-title {
+  font-weight: 700;
+}
+
+.knowledge-home .callout[data-callout="library"],
+.knowledge-home .callout[data-callout="books"] {
+  --callout-color: 168, 122, 255;
+  background: rgba(137, 100, 205, 0.14);
+}
+
+.knowledge-home .callout[data-callout="english"] {
+  --callout-color: 63, 201, 154;
+  background: rgba(63, 201, 154, 0.12);
+}
+
+.knowledge-home .callout[data-callout="templates"],
+.knowledge-home .callout[data-callout="films"] {
+  --callout-color: 77, 181, 225;
+  background: rgba(77, 181, 225, 0.12);
+}
+
+.knowledge-home .callout[data-callout="review"],
+.knowledge-home .callout[data-callout="weekly-review"] {
+  --callout-color: 230, 180, 64;
+  background: rgba(230, 180, 64, 0.11);
+}
+
+.knowledge-home .callout[data-callout="library"] a,
+.knowledge-home .callout[data-callout="english"] a,
+.knowledge-home .callout[data-callout="templates"] a,
+.knowledge-home .callout[data-callout="review"] a,
+.knowledge-home .callout[data-callout="books"] a,
+.knowledge-home .callout[data-callout="films"] a {
+  text-decoration: none;
+}
+
+/* ---------- Library / review tables ---------- */
+.knowledge-home .dataview.table-view-table,
+.library-hub .dataview.table-view-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+}
+
+.knowledge-home .dataview.table-view-table th,
+.knowledge-home .dataview.table-view-table td,
+.library-hub .dataview.table-view-table th,
+.library-hub .dataview.table-view-table td {
+  padding: 0.55rem 0.7rem;
+}
+
+.knowledge-home .dataview.table-view-table tr:nth-child(even) td,
+.library-hub .dataview.table-view-table tr:nth-child(even) td {
+  background: color-mix(in srgb, var(--background-secondary) 82%, transparent);
+}
+
+.library-hub .markdown-preview-sizer,
+.library-hub .cm-sizer {
+  max-width: 1120px;
+}
+
+.library-hub img {
+  border-radius: 6px;
+}
+
+/* Keep the existing general home sizing useful in edit mode too. */
+.knowledge-home .cm-sizer {
+  max-width: 1180px;
+}
+
+@media (max-width: 760px) {
+  .markdown-preview-view.knowledge-home::before {
+    height: 128px;
+    margin-bottom: 22px;
+  }
+
+  .knowledge-home .callout[data-callout="multi-column"] > .callout-content {
+    display: block;
+  }
+
+  .knowledge-home .callout[data-callout="multi-column"] > .callout-content > .callout {
+    margin-bottom: 12px;
+  }
 }
