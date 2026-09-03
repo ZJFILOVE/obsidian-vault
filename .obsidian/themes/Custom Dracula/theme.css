@@ -1,0 +1,298 @@
+/*
+ * Custom Dracula for this vault.
+ * Palette and visual direction follow nlx-404's public custom-dracula.css,
+ * adapted to current Obsidian selectors and the Calendar plugin.
+ */
+
+.theme-dark,
+.theme-light {
+  color-scheme: dark;
+
+  --color-red: #fb464c;
+  --color-orange: #e9973f;
+  --color-yellow: #e0de71;
+  --color-green: #44cf6e;
+  --color-cyan: #53dfdd;
+  --color-blue: #027aff;
+  --color-purple: #a882ff;
+  --color-pink: #fa99cd;
+
+  --background-primary: #282a36;
+  --background-primary-alt: #44475a;
+  --background-secondary: #21222b;
+  --background-secondary-alt: #282a36;
+  --background-modifier-border: #44475a;
+  --background-modifier-border-hover: #6272a4;
+  --background-modifier-hover: rgba(189, 147, 249, 0.10);
+  --background-modifier-active-hover: rgba(189, 147, 249, 0.16);
+  --background-modifier-form-field: #343746;
+
+  --text-normal: #f8f8f2;
+  --text-muted: #a7a9b8;
+  --text-faint: #6f7390;
+  --text-on-accent: #282a36;
+  --text-accent: #bd93f9;
+  --text-accent-hover: #d6b8ff;
+  --text-selection: rgba(189, 147, 249, 0.28);
+
+  --interactive-normal: #343746;
+  --interactive-hover: #44475a;
+  --interactive-accent: #bd93f9;
+  --interactive-accent-hover: #caa7ff;
+  --interactive-accent-rgb: 189, 147, 249;
+
+  --link-color: #ff79c6;
+  --link-color-hover: #ff92d0;
+  --link-external-color: #8be9fd;
+  --link-external-color-hover: #a9f1ff;
+
+  --tag-color: #50fa7b;
+  --tag-background: rgba(80, 250, 123, 0.10);
+  --tag-border-color: rgba(80, 250, 123, 0.25);
+
+  --code-normal: #f8f8f2;
+  --code-background: #44475a;
+
+  --blockquote-color: #bd93f9;
+  --blockquote-border-color: #bd93f9;
+  --blockquote-background-color: rgba(189, 147, 249, 0.06);
+
+  --h1-color: #bd93f9;
+  --h2-color: #8be9fd;
+  --h3-color: #50fa7b;
+  --h4-color: #ff79c6;
+  --h5-color: #ff5555;
+  --h6-color: #ffb86c;
+
+  --checkbox-color: #50fa7b;
+  --checkbox-color-hover: #8aff80;
+  --checkbox-border-color: #6272a4;
+
+  --nav-item-color: #c7c8d2;
+  --nav-item-color-hover: #f8f8f2;
+  --nav-item-color-active: #f8f8f2;
+  --nav-item-background-hover: rgba(189, 147, 249, 0.10);
+  --nav-item-background-active: rgba(189, 147, 249, 0.16);
+
+  --tab-text-color: #a7a9b8;
+  --tab-text-color-focused: #f8f8f2;
+  --tab-text-color-focused-active: #f8f8f2;
+  --tab-container-background: #21222b;
+  --tab-background-active: #282a36;
+
+  --titlebar-background: #21222b;
+  --titlebar-background-focused: #21222b;
+  --ribbon-background: #21222b;
+  --status-bar-background: #bd93f9;
+  --status-bar-text-color: #282a36;
+
+  --graph-line: rgba(241, 250, 140, 0.42);
+  --graph-node: #bd93f9;
+  --graph-node-focused: #ff79c6;
+  --graph-node-tag: #50fa7b;
+  --graph-node-attachment: #8be9fd;
+  --graph-node-unresolved: #6272a4;
+}
+
+/* Make light mode intentionally use the same dark Dracula surface, as in nlx-404's theme. */
+.theme-light {
+  --background-primary: #282a36;
+  --background-primary-alt: #44475a;
+  --background-secondary: #21222b;
+  --background-secondary-alt: #282a36;
+  --text-normal: #f8f8f2;
+  --text-muted: #a7a9b8;
+}
+
+/* Headings */
+.markdown-rendered h1,
+.HyperMD-header-1 { color: var(--h1-color) !important; }
+.markdown-rendered h2,
+.HyperMD-header-2 { color: var(--h2-color) !important; }
+.markdown-rendered h3,
+.HyperMD-header-3 { color: var(--h3-color) !important; }
+.markdown-rendered h4,
+.HyperMD-header-4 { color: var(--h4-color) !important; }
+.markdown-rendered h5,
+.HyperMD-header-5 { color: var(--h5-color) !important; }
+.markdown-rendered h6,
+.HyperMD-header-6 { color: var(--h6-color) !important; }
+
+/* Links and embeds */
+.internal-link,
+.cm-hmd-internal-link,
+.cm-link .cm-underline { color: #ff79c6 !important; }
+.external-link,
+.cm-url { color: #8be9fd !important; }
+a:not(.internal-link) { font-style: italic; }
+
+.markdown-embed,
+.internal-embed {
+  border-color: #44475a;
+  background: rgba(68, 71, 90, 0.32);
+}
+
+/* Quotes */
+blockquote {
+  color: #bd93f9;
+  border-color: #bd93f9 !important;
+}
+
+/* Code */
+.cm-inline-code,
+:not(pre) > code {
+  color: #ffb86c !important;
+  background: #44475a !important;
+  border: 1px solid #52566b;
+  border-radius: 4px;
+}
+
+pre,
+.markdown-rendered pre {
+  background: #21222b !important;
+  border: 1px solid #44475a;
+}
+
+.token.comment,
+.cm-comment { color: #6272a4 !important; }
+.token.keyword,
+.token.operator,
+.cm-keyword,
+.cm-operator { color: #ff79c6 !important; }
+.token.function,
+.cm-def { color: #50fa7b !important; }
+.token.number,
+.token.boolean,
+.cm-number { color: #bd93f9 !important; }
+.token.string,
+.cm-string { color: #f1fa8c !important; }
+.token.builtin { color: #8be9fd !important; }
+
+/* Tables */
+.markdown-rendered table,
+.dataview.table-view-table {
+  border: 1px solid #44475a;
+}
+.markdown-rendered th,
+.dataview.table-view-table th {
+  background: #343746;
+  color: #f8f8f2;
+  border-color: #44475a !important;
+}
+.markdown-rendered td,
+.dataview.table-view-table td {
+  border-color: #44475a !important;
+}
+
+/* Workspace / sidebars */
+.workspace-ribbon,
+.workspace-sidedock-vault-profile,
+.workspace-tab-header-container,
+.titlebar,
+.status-bar,
+.view-header {
+  border-color: #44475a;
+}
+
+.workspace-ribbon,
+.workspace-sidedock-vault-profile,
+.mod-left-split .workspace-tab-header-container,
+.mod-right-split .workspace-tab-header-container {
+  background: #21222b;
+}
+
+.workspace-tab-header.is-active {
+  background: #282a36;
+}
+
+.nav-file-title:hover,
+.nav-folder-title:hover,
+.tree-item-self:hover {
+  background: rgba(189, 147, 249, 0.10);
+}
+
+.nav-file-title.is-active,
+.nav-folder-title.is-active,
+.tree-item-self.is-active {
+  background: rgba(189, 147, 249, 0.16);
+  color: #f8f8f2;
+}
+
+.status-bar {
+  background: #bd93f9 !important;
+  color: #282a36 !important;
+  font-weight: 650;
+}
+
+/* Callouts */
+.callout {
+  border-color: color-mix(in srgb, rgb(var(--callout-color)) 36%, #44475a);
+  background: color-mix(in srgb, rgb(var(--callout-color)) 10%, #282a36);
+}
+
+/* Graph */
+.graph-view.color-fill { color: #bd93f9; }
+.graph-view.color-fill-focused { color: #ff79c6; }
+.graph-view.color-fill-tag { color: #50fa7b; }
+.graph-view.color-fill-attachment { color: #8be9fd; }
+.graph-view.color-fill-unresolved { color: #6272a4; }
+.graph-view.color-line { color: rgba(241, 250, 140, 0.42); }
+
+/* ---------------- Calendar plugin ---------------- */
+#calendar-container {
+  --color-background-heading: transparent;
+  --color-background-day: transparent;
+  --color-background-weeknum: rgba(189, 147, 249, 0.07);
+  --color-background-weekend: rgba(98, 114, 164, 0.10);
+
+  --color-dot: #50fa7b;
+  --color-arrow: #bd93f9;
+  --color-button: #bd93f9;
+
+  --color-text-title: #bd93f9;
+  --color-text-heading: #8be9fd;
+  --color-text-day: #f8f8f2;
+  --color-text-today: #282a36;
+  --color-text-weeknum: #a7a9b8;
+
+  color: #f8f8f2;
+}
+
+#calendar-container .title,
+#calendar-container .month,
+#calendar-container .year {
+  color: #bd93f9 !important;
+  font-weight: 700;
+}
+
+#calendar-container .weekdays {
+  color: #8be9fd;
+}
+
+#calendar-container .day {
+  border-radius: 6px;
+  transition: background-color 100ms ease, color 100ms ease;
+}
+
+#calendar-container .day:hover {
+  background: rgba(189, 147, 249, 0.16) !important;
+}
+
+#calendar-container .today {
+  background: #bd93f9 !important;
+  color: #282a36 !important;
+  font-weight: 800;
+  border-radius: 6px;
+}
+
+#calendar-container .has-note:not(.today) {
+  color: #50fa7b !important;
+}
+
+#calendar-container .dot {
+  background: #50fa7b !important;
+}
+
+#calendar-container button:hover {
+  color: #ff79c6 !important;
+}
