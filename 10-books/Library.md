@@ -1,4 +1,9 @@
 ---
+type: area
+homepage: true
+icon: "📚"
+description: "书评、影评与章节笔记"
+order: 10
 cssclasses:
   - library-hub
   - cards
