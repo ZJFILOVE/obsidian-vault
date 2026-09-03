@@ -8,8 +8,40 @@
 - `book.md`：书籍总页；包含自动章节目录与书评区
 - `chapter.md`：书籍章节笔记；通过 `book` + `chapter` 属性归入母书
 - `film.md`：电影总页 / 影评
+- `area.md`：主页领域入口；用于 Research、Programming、Chemistry 等新板块
 - `paper.md`：论文笔记
 - `blog.md`：博客草稿
+
+## 动态主页工作流
+
+主页不再把 English、Research、Programming 等入口写死。每个领域只需要有一张 `type: area` 的入口笔记，例如：
+
+```yaml
+---
+type: area
+homepage: true
+icon: "🧪"
+description: "科研、文献与实验笔记"
+order: 20
+---
+```
+
+满足 `type: area` 且 `homepage: true` 的笔记会自动出现在 `Home.md` 的 Areas 卡片区。
+
+- `icon`：主页卡片图标
+- `description`：卡片简介
+- `order`：数值越小越靠前
+- `homepage: false`：保留领域入口页，但不显示在主页
+
+建议把领域入口笔记放在它管理的目录根部，例如：
+
+```text
+20-research/Research.md
+40-programming/Programming.md
+50-courses/English/English.md
+```
+
+插入 `area.md` 后，其“最近笔记”查询会自动收集该入口文件所在目录下的内容。
 
 ## 图书馆工作流
 
