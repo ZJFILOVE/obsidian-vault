@@ -1,10 +1,11 @@
 {
-  "cssTheme": "Minimal",
+  "cssTheme": "Custom Dracula",
   "interfaceFontFamily": "LXGW WenKai",
   "textFontFamily": "LXGW WenKai",
   "enabledCssSnippets": [
     "knowledge-workspace"
   ],
   "theme": "obsidian",
+  "accentColor": "#bd93f9",
   "baseFontSize": 18
 }
