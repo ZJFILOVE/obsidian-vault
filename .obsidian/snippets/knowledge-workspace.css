@@ -36,6 +36,90 @@ body {
   opacity: 0.55;
 }
 
+/* ---------- Dynamic area cards ---------- */
+.knowledge-home .callout[data-callout="areas"] {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+  margin: 0.8rem 0 1.25rem;
+}
+
+.knowledge-home .callout[data-callout="areas"] > .callout-title {
+  display: none;
+}
+
+.knowledge-home .callout[data-callout="areas"] > .callout-content {
+  padding: 0;
+}
+
+.knowledge-home .callout[data-callout="areas"] .dataview.table-view-table {
+  display: block;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.knowledge-home .callout[data-callout="areas"] .dataview.table-view-table thead {
+  display: none;
+}
+
+.knowledge-home .callout[data-callout="areas"] .dataview.table-view-table tbody {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.knowledge-home .callout[data-callout="areas"] .dataview.table-view-table tr {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  column-gap: 10px;
+  row-gap: 4px;
+  min-height: 118px;
+  padding: 16px;
+  border: 1px solid color-mix(in srgb, var(--background-modifier-border) 78%, transparent);
+  border-radius: 11px;
+  background: color-mix(in srgb, var(--background-secondary) 88%, transparent);
+  transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
+}
+
+.knowledge-home .callout[data-callout="areas"] .dataview.table-view-table tr:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--interactive-accent) 45%, var(--background-modifier-border));
+  background: color-mix(in srgb, var(--background-secondary-alt) 92%, transparent);
+}
+
+.knowledge-home .callout[data-callout="areas"] .dataview.table-view-table td {
+  display: block;
+  border: 0;
+  padding: 0;
+  background: transparent !important;
+}
+
+.knowledge-home .callout[data-callout="areas"] .dataview.table-view-table td:nth-child(1) {
+  grid-row: 1 / span 2;
+  font-size: 1.75rem;
+  line-height: 1;
+  padding-top: 2px;
+}
+
+.knowledge-home .callout[data-callout="areas"] .dataview.table-view-table td:nth-child(2) {
+  font-size: 1.02rem;
+  font-weight: 700;
+}
+
+.knowledge-home .callout[data-callout="areas"] .dataview.table-view-table td:nth-child(2) a {
+  text-decoration: none;
+}
+
+.knowledge-home .callout[data-callout="areas"] .dataview.table-view-table td:nth-child(3) {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
 /* ---------- nlx-404-inspired multi-column callout grid ---------- */
 .knowledge-home .callout[data-callout="multi-column"] {
   background: transparent;
@@ -139,10 +223,20 @@ body {
   max-width: 1180px;
 }
 
+@media (max-width: 980px) {
+  .knowledge-home .callout[data-callout="areas"] .dataview.table-view-table tbody {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 760px) {
   .markdown-preview-view.knowledge-home::before {
     height: 128px;
     margin-bottom: 22px;
+  }
+
+  .knowledge-home .callout[data-callout="areas"] .dataview.table-view-table tbody {
+    grid-template-columns: 1fr;
   }
 
   .knowledge-home .callout[data-callout="multi-column"] > .callout-content {
