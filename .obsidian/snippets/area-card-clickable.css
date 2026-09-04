@@ -1,0 +1,17 @@
+/* Make the whole Home > Areas card clickable, not only the title text. */
+.knowledge-home .callout[data-callout="areas"] .dataview.table-view-table tr {
+  position: relative;
+  cursor: pointer;
+}
+
+.knowledge-home .callout[data-callout="areas"] .dataview.table-view-table td:nth-child(2) a {
+  position: static;
+}
+
+.knowledge-home .callout[data-callout="areas"] .dataview.table-view-table td:nth-child(2) a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  border-radius: 11px;
+}
