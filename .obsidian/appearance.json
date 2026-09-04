@@ -3,7 +3,8 @@
   "interfaceFontFamily": "LXGW WenKai",
   "textFontFamily": "LXGW WenKai",
   "enabledCssSnippets": [
-    "knowledge-workspace"
+    "knowledge-workspace",
+    "area-card-clickable"
   ],
   "theme": "obsidian",
   "accentColor": "#bd93f9",
