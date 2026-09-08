@@ -4,5 +4,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "00-inbox",
   "showUnsupportedFiles": true,
-  "useMarkdownLinks": false
+  "useMarkdownLinks": false,
+  "promptDelete": false
 }

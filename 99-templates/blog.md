@@ -1,13 +1,16 @@
 ---
+layout: post
 title: "{{title}}"
-type: blog
-status: draft
-created: "{{date}}"
-published:
+subtitle:
+date: "{{date:YYYY-MM-DD HH:mm:ss ZZ}}"
+author: "ZJF"
+header-img: "img/webb-deep-field.jpg"
+header-img-credit: "NASA / ESA / CSA / STScI"
+header-img-credit-href: "https://images.nasa.gov/details-webb_first_deep_field"
+catalog: true
 tags:
-  - blog
+  - 随笔
 ---
 
 # {{title}}
-
 
