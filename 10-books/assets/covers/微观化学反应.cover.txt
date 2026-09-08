@@ -1,3 +1,0 @@
-ORIGINAL COVER SOURCE: page 1 of the user's scanned PDF 微观化学反应 (俞书勤编著).pdf
-The actual image asset could not be committed through this text-only GitHub contents action. The library entry remains ready for the image at:
-10-books/assets/covers/微观化学反应.jpg
