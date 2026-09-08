@@ -3,9 +3,22 @@ title: "{{title}}"
 type: book
 author:
 year:
+publisher:
+pages:
 status: reading
+read: false
 cover:
+image:
 rating:
+personalRating:
+onlineRating:
+isbn:
+isbn13:
+dataSource: local
+url:
+id:
+douban_url:
+douban_rating:
 reviewed: false
 created: "{{date}}"
 tags:
@@ -25,3 +38,4 @@ WHERE type = "chapter" AND book = this.file.name
 SORT chapter ASC
 ```
 
+## 阅读笔记
