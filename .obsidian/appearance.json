@@ -5,7 +5,7 @@
   "enabledCssSnippets": [
     "knowledge-workspace",
     "area-card-clickable",
-    "library-media-dashboard"
+    "hub-editorial"
   ],
   "theme": "obsidian",
   "accentColor": "#bd93f9",
