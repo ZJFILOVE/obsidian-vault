@@ -5,7 +5,8 @@
   "enabledCssSnippets": [
     "hub-editorial",
     "editorial-layout",
-    "vault-ui-polish"
+    "vault-ui-polish",
+    "detail-polish"
   ],
   "theme": "obsidian",
   "accentColor": "#bd93f9",
