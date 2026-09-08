@@ -1,5 +1,5 @@
 {
-  "enableDataviewJs": false,
+  "enableDataviewJs": true,
   "enableInlineDataviewJs": false,
   "enableInlineDataview": true,
   "warnOnEmptyResult": false,
