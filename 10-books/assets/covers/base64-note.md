@@ -1,0 +1,1 @@
+Cover binary is prepared locally; if binary upload through connector is unavailable, copy `微观化学反应_cover.jpg` into this folder and set `cover: "[[10-books/assets/covers/微观化学反应.jpg]]"`.
