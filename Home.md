@@ -8,34 +8,50 @@ cssclasses:
 
 > [!hub-hero]
 > **A quiet front door to the vault.**
-> Research、学习、书影音与每日信息流都从这里进入；保留 Dracula 的深色底与紫青强调，但把界面收敛成更耐看的现代编辑式布局。
+> Research、学习、书影音与每日信息流都从这里进入。保留 Dracula 的深色底与紫青强调，但让层级、间距与卡片更克制。
 >
 > [[10-books/Library|Library]] · [[Music/Music|Music]] · [[50-courses/English/English|English]] · [[News/News|News]]
 
-> [!hub-metrics]
-> ```dataview
-> TABLE WITHOUT ID
->   length(rows) AS "Notes",
->   length(filter(rows, (r) => r.type = "area")) AS "Areas",
->   length(filter(rows, (r) => r.type = "book" OR r.type = "movie" OR r.type = "film" OR r.type = "series")) AS "Media",
->   length(filter(rows, (r) => r.file.mtime >= (date(today) - dur(7 days)))) AS "7 Days"
-> FROM ""
-> WHERE !startswith(file.folder, "99-templates")
-> GROUP BY true
-> ```
+```dataviewjs
+const pages = dv.pages("").array().filter(p => !p.file.path.startsWith("99-templates/"));
+const media = pages.filter(p => ["book", "movie", "film", "series"].includes(p.type));
+const areas = pages.filter(p => p.type === "area");
+const recent = pages.filter(p => (p.file.mtime?.ts ?? 0) >= Date.now() - 7 * 86400000);
+const metrics = [
+  [pages.length, "Notes"],
+  [areas.length, "Areas"],
+  [media.length, "Media"],
+  [recent.length, "7 Days"]
+];
+const root = this.container.createDiv({ cls: "hub-metrics-js" });
+for (const [value, label] of metrics) {
+  const card = root.createDiv({ cls: "hub-metric" });
+  card.createDiv({ cls: "hub-metric-value", text: String(value) });
+  card.createDiv({ cls: "hub-metric-label", text: label });
+}
+```
 
 ## Areas
 
-> [!hub-grid]
-> ```dataview
-> TABLE WITHOUT ID
->   icon AS "",
->   file.link AS "",
->   description AS ""
-> FROM ""
-> WHERE type = "area" AND homepage = true
-> SORT order ASC, file.name ASC
-> ```
+```dataviewjs
+function internalLink(parent, path, text) {
+  const a = parent.createEl("a", { text, cls: "internal-link" });
+  a.setAttr("data-href", path);
+  a.setAttr("href", path);
+  return a;
+}
+const areas = dv.pages("")
+  .where(p => p.type === "area" && p.homepage === true)
+  .array()
+  .sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
+const grid = this.container.createDiv({ cls: "hub-area-grid" });
+for (const p of areas) {
+  const card = grid.createDiv({ cls: "hub-area-card" });
+  card.createDiv({ cls: "hub-area-icon", text: p.icon || "◇" });
+  internalLink(card, p.file.path, p.file.name);
+  card.createDiv({ cls: "hub-area-description", text: p.description || "" });
+}
+```
 
 ## Recently Active
 
@@ -56,19 +72,53 @@ cssclasses:
 
 ## From the Collection
 
-> [!feature-row]
-> ```dataview
-> TABLE WITHOUT ID
->   choice(cover, embed(cover), choice(image, embed(image), "")) AS "",
->   file.link AS "",
->   choice(type = "book", author, choice(type = "movie" OR type = "film", director, genres)) AS "",
->   year AS "",
->   status AS ""
-> FROM "10-books"
-> WHERE type = "book" OR type = "movie" OR type = "film" OR type = "series"
-> SORT file.mtime DESC
-> LIMIT 4
-> ```
+```dataviewjs
+function link(parent, path, text) {
+  const a = parent.createEl("a", { text, cls: "internal-link hub-media-title" });
+  a.setAttr("data-href", path);
+  a.setAttr("href", path);
+}
+function pathOf(raw) {
+  if (!raw) return null;
+  let path = raw.path ?? String(raw);
+  return path.replace(/^!?\[\[/, "").replace(/\]\]$/, "").split("|")[0];
+}
+function textOf(v) {
+  if (v == null) return "";
+  if (Array.isArray(v)) return v.join(", ");
+  try { if (typeof v !== "string" && v[Symbol.iterator]) return Array.from(v).join(", "); } catch (_) {}
+  return String(v);
+}
+function cover(parent, p) {
+  const box = parent.createDiv({ cls: "hub-feature-cover" });
+  const path = pathOf(p.cover || p.image);
+  const file = path ? app.vault.getAbstractFileByPath(path) : null;
+  if (file) {
+    const img = box.createEl("img");
+    img.src = app.vault.getResourcePath(file);
+    img.alt = p.title || p.file.name;
+  }
+}
+const items = dv.pages('"10-books"')
+  .where(p => ["book", "movie", "film", "series"].includes(p.type))
+  .array()
+  .sort((a, b) => (b.file.mtime?.ts ?? 0) - (a.file.mtime?.ts ?? 0))
+  .slice(0, 4);
+if (!items.length) {
+  this.container.createDiv({ cls: "hub-empty-state", text: "No media entries yet." });
+} else {
+  const grid = this.container.createDiv({ cls: "hub-feature-grid" });
+  for (const p of items) {
+    const card = grid.createDiv({ cls: "hub-feature-card" });
+    cover(card, p);
+    const body = card.createDiv({ cls: "hub-feature-body" });
+    link(body, p.file.path, p.title || p.file.name);
+    const who = p.type === "book" ? p.author : (p.director || p.genres);
+    body.createDiv({ cls: "hub-media-meta", text: [textOf(who), p.year].filter(Boolean).join(" · ") });
+    body.createDiv({ cls: "hub-media-meta", text: p.status || p.type || "" });
+  }
+}
+```
 
 ## Weekly Review
 
