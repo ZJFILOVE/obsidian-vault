@@ -41,7 +41,7 @@ function internalLink(parent, path, text) {
   return a;
 }
 const areas = dv.pages("")
-  .where(p => p.type === "area" && p.homepage === true)
+  .where(p => p.type === "area" && p.homepage === true && !p.file.path.startsWith("99-templates/"))
   .array()
   .sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
 const grid = this.container.createDiv({ cls: "hub-area-grid" });
