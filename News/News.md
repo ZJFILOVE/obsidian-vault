@@ -55,16 +55,6 @@ SORT date DESC
 
 ## Coverage
 
-> [!hub-grid]
-> ```dataview
-> TABLE WITHOUT ID
->   "◆" AS "",
->   topic AS "",
->   scope AS ""
-> FROM "News"
-> WHERE false
-> ```
-
 - **Geopolitics & institutions** — 地缘政治、制度变化与关键政策
 - **Macro & industry** — 宏观经济、金融与产业结构
 - **AI & compute** — AI、半导体、计算基础设施
