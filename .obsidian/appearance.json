@@ -3,9 +3,9 @@
   "interfaceFontFamily": "LXGW WenKai",
   "textFontFamily": "LXGW WenKai",
   "enabledCssSnippets": [
-    "knowledge-workspace",
     "hub-editorial",
-    "editorial-layout"
+    "editorial-layout",
+    "vault-ui-polish"
   ],
   "theme": "obsidian",
   "accentColor": "#bd93f9",
