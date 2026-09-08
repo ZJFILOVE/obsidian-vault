@@ -4,6 +4,8 @@ tags:
   - library
   - obsidian
   - media-db
+cssclasses:
+  - wide-note
 ---
 
 # Media Library 使用说明
