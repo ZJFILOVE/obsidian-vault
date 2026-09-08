@@ -1,0 +1,151 @@
+/* Shared reading/editing layout for ordinary notes and hub pages.
+   Goal: keep normal Markdown comfortably wide while preserving a slightly wider dashboard canvas. */
+
+body {
+  --vault-prose-width: 980px;
+  --vault-wide-width: 1180px;
+  --vault-hub-width: 1180px;
+  --vault-page-gutter: 56px;
+}
+
+/* ---------- Ordinary Markdown ---------- */
+.markdown-preview-view:not(.hub-page),
+.markdown-source-view.mod-cm6:not(.hub-page) {
+  --file-line-width: var(--vault-prose-width);
+}
+
+.markdown-preview-view:not(.hub-page) .markdown-preview-sizer,
+.markdown-source-view.mod-cm6:not(.hub-page) .cm-sizer {
+  width: min(var(--vault-prose-width), calc(100% - var(--vault-page-gutter))) !important;
+  max-width: none !important;
+  margin-inline: auto !important;
+}
+
+/* Technical/documentation notes can opt into the same width as dashboards. */
+.markdown-preview-view.wide-note,
+.markdown-source-view.mod-cm6.wide-note {
+  --file-line-width: var(--vault-wide-width);
+}
+
+.markdown-preview-view.wide-note .markdown-preview-sizer,
+.markdown-source-view.mod-cm6.wide-note .cm-sizer {
+  width: min(var(--vault-wide-width), calc(100% - var(--vault-page-gutter))) !important;
+}
+
+/* Rare cases: large tables, research matrices, etc. */
+.markdown-preview-view.full-width-note,
+.markdown-source-view.mod-cm6.full-width-note {
+  --file-line-width: 1400px;
+}
+
+.markdown-preview-view.full-width-note .markdown-preview-sizer,
+.markdown-source-view.mod-cm6.full-width-note .cm-sizer {
+  width: min(1400px, calc(100% - 44px)) !important;
+}
+
+/* Ordinary prose should feel related to the dashboard without becoming a dashboard. */
+.markdown-preview-view:not(.hub-page) .markdown-rendered,
+.markdown-source-view.mod-cm6:not(.hub-page) .cm-content {
+  line-height: 1.72;
+}
+
+.markdown-preview-view:not(.hub-page) .metadata-container,
+.markdown-source-view.mod-cm6:not(.hub-page) .metadata-container {
+  margin-bottom: 2rem;
+}
+
+.markdown-preview-view:not(.hub-page) h1,
+.markdown-source-view.mod-cm6:not(.hub-page) .HyperMD-header-1 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.2rem;
+}
+
+.markdown-preview-view:not(.hub-page) h2,
+.markdown-source-view.mod-cm6:not(.hub-page) .HyperMD-header-2 {
+  margin-top: 2.15rem;
+}
+
+.markdown-preview-view:not(.hub-page) table {
+  width: 100%;
+}
+
+.markdown-preview-view:not(.hub-page) pre,
+.markdown-source-view.mod-cm6:not(.hub-page) .HyperMD-codeblock {
+  border-radius: 8px;
+}
+
+/* ---------- Hub canvas ---------- */
+.markdown-preview-view.hub-page,
+.markdown-source-view.mod-cm6.hub-page {
+  --file-line-width: var(--vault-hub-width) !important;
+}
+
+.markdown-preview-view.hub-page .markdown-preview-sizer,
+.markdown-source-view.mod-cm6.hub-page .cm-sizer {
+  width: min(var(--vault-hub-width), calc(100% - 48px)) !important;
+  max-width: none !important;
+  margin-inline: auto !important;
+}
+
+/* Media shelves should behave like a curated collection rather than stretched spreadsheet rows. */
+.hub-page .hub-media-grid {
+  grid-template-columns: repeat(auto-fill, minmax(150px, 178px)) !important;
+  justify-content: start;
+  gap: 18px !important;
+}
+
+.hub-page .hub-media-card {
+  width: 100%;
+}
+
+.hub-page .hub-feature-grid {
+  grid-template-columns: repeat(auto-fill, minmax(340px, 520px)) !important;
+  justify-content: start;
+}
+
+.hub-page .hub-feature-card {
+  width: 100%;
+}
+
+/* Area cards: keep descriptions quiet and prevent long Chinese text from exploding the layout. */
+.hub-page .hub-area-card {
+  min-height: 112px;
+}
+
+.hub-page .hub-area-description {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-height: 1.45;
+}
+
+/* Slightly tighter dashboard rhythm. */
+.hub-page h2 {
+  margin-top: 2.35rem !important;
+}
+
+@media (max-width: 900px) {
+  body {
+    --vault-page-gutter: 34px;
+  }
+
+  .hub-page .hub-media-grid {
+    grid-template-columns: repeat(auto-fill, minmax(138px, 1fr)) !important;
+  }
+
+  .hub-page .hub-feature-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 620px) {
+  body {
+    --vault-page-gutter: 24px;
+  }
+
+  .markdown-preview-view.hub-page .markdown-preview-sizer,
+  .markdown-source-view.mod-cm6.hub-page .cm-sizer {
+    width: calc(100% - 24px) !important;
+  }
+}
