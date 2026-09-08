@@ -1,0 +1,16 @@
+{
+  "imageDownload": true,
+  "imageFolder": "10-books/assets/covers",
+  "bookFolder": "10-books/books",
+  "movieFolder": "10-books/movies",
+  "seriesFolder": "10-books/series",
+  "seasonFolder": "10-books/series",
+  "bookFileNameTemplate": "{{ title }} ({{ year }})",
+  "movieFileNameTemplate": "{{ title }} ({{ year }})",
+  "seriesFileNameTemplate": "{{ title }} ({{ year }})",
+  "seasonFileNameTemplate": "{{ title }} S{{ season }}",
+  "openNoteInNewTab": true,
+  "sfwFilter": true,
+  "templates": true,
+  "useDefaultFrontMatter": true
+}
