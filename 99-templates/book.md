@@ -20,7 +20,6 @@ id:
 douban_url:
 douban_rating:
 reviewed: false
-created: "{{date}}"
 tags:
   - book
 ---
