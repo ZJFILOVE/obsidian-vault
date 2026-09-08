@@ -4,8 +4,8 @@
   "textFontFamily": "LXGW WenKai",
   "enabledCssSnippets": [
     "knowledge-workspace",
-    "area-card-clickable",
-    "hub-editorial"
+    "hub-editorial",
+    "editorial-layout"
   ],
   "theme": "obsidian",
   "accentColor": "#bd93f9",
