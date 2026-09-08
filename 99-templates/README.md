@@ -1,100 +1,141 @@
 # Templates
 
-模板保持为普通 Markdown，Obsidian 和 Neovim 都可以直接编辑。
+这套模板采用一个原则：**自动化应该减少重复操作，而不是替你规定思考方式。**
 
-## 当前模板
+因此模板分成两层：
 
-- `daily.md`：日记；Obsidian 会自动放进 `60-daily/`
-- `book.md`：书籍总页；包含自动章节目录与书评区
-- `chapter.md`：基础章节模板；手工填写 `book` + `chapter` 后自动归入母书
-- `chapter-auto.md`：Templater 版章节模板；创建时选择母书和章节号，自动建立双向关联并移动到对应章节目录
-- `film.md`：电影总页 / 影评
-- `area.md`：主页领域入口；用于 Research、Programming、Chemistry 等新板块
-- `paper.md`：论文笔记
-- `blog.md`：博客草稿
+- **自动化层可以很重**：负责命名、日期、frontmatter、目录、父子关系、移动文件。
+- **写作层保持很轻**：真正开始写正文时，尽量只留下标题、必要导航和光标。
 
-## 动态主页工作流
+生成后的文件仍然是普通 Markdown，Obsidian 与 Neovim 都可以直接编辑；Templater 只负责“创建时”执行一次。
 
-主页不再把 English、Research、Programming 等入口写死。每个领域只需要有一张 `type: area` 的入口笔记，例如：
+## 依赖
 
-```yaml
----
-type: area
-homepage: true
-icon: "🧪"
-description: "科研、文献与实验笔记"
-order: 20
----
-```
+这些模板使用社区插件 **Templater**，核心语法是 `<%* ... %>`。
 
-满足 `type: area` 且 `homepage: true` 的笔记会自动出现在 `Home.md` 的 Areas 卡片区。
+推荐入口：
 
-- `icon`：主页卡片图标
-- `description`：卡片简介
-- `order`：数值越小越靠前
-- `homepage: false`：保留领域入口页，但不显示在主页
+`Command Palette → Templater: Create new note from template`
 
-建议把领域入口笔记放在它管理的目录根部，例如：
+模板目录仍为：
 
 ```text
-20-research/Research.md
-40-programming/Programming.md
-50-courses/English/English.md
+99-templates/
 ```
 
-插入 `area.md` 后，其“最近笔记”查询会自动收集该入口文件所在目录下的内容。
+如果使用 Obsidian 核心 Daily Notes 创建日记，需要让 Templater 在新文件创建后执行模板；当前 Daily Notes 已经配置为：
 
-## 图书馆工作流
+```text
+folder: 60-daily
+template: 99-templates/daily
+```
 
-书籍和章节的关系统一通过章节 frontmatter 中的 `book` 字段建立。推荐把它写成指向书籍总页的 WikiLink：
+## 当前自动模板
+
+| 模板 | 自动行为 | 最终位置 | 正文策略 |
+| --- | --- | --- | --- |
+| `book.md` | 获取书名、命名、生成书籍 metadata | `10-books/` | 只保留动态章节目录 |
+| `chapter.md` | 扫描 `type: book`、选择母书、询问章节号、建立 WikiLink、自动建目录 | `10-books/chapters/<书名>/` | 只保留母书导航 + 空白正文 |
+| `film.md` | 获取片名、命名、归档 | `10-books/movies/` | 空白正文 |
+| `series.md` | 获取剧名、命名、归档 | `10-books/movies/` | 空白正文 |
+| `concept.md` | 获取概念名、命名、日期 | `30-concepts/` | 空白正文 |
+| `paper.md` | 获取论文标题、命名、日期、自动建目录 | `Resources/Papers/` | 空白正文 |
+| `reference.md` | 获取资料标题、命名、日期、自动建目录 | `Resources/Reference/` | 空白正文 |
+| `daily.md` | 使用当天日期、命名、归档 | `60-daily/` | 空白正文 |
+| `area.md` | 获取 Area 名称和目标目录、生成主页 metadata 与最近活动查询 | 用户选择 | 保留导航功能，不规定内容结构 |
+| `blog.md` | 获取标题、自动日期 | 保持创建位置 | 空白正文；原博客 YAML schema 不变 |
+
+## 为什么不再使用复杂正文骨架
+
+普通写作笔记不再默认生成：
+
+```text
+## 要点
+## 正文
+## 总结
+## 问题
+```
+
+这类标题看似帮助写作，实际上会提前假定你的思考结构。数学章节、论文阅读、科研想法和随笔的自然结构并不相同，因此创建后直接把光标交给你。
+
+需要结构时，在写作过程中自然创建标题即可。
+
+## 导航型页面例外
+
+`book.md` 和 `area.md` 不是普通正文笔记，而是 Hub，因此会保留功能性内容：
+
+- Book 自动查询所属 Chapter。
+- Area 自动查询同目录最近修改的笔记。
+
+这些结构负责“找到内容”，而不是告诉你“怎样写内容”。
+
+## Book → Chapter
+
+`chapter.md` 已经包含原 `chapter-auto.md` 的全部自动逻辑，因此不再维护手动版和自动版两套 Chapter 模板。
+
+创建 Chapter 时：
+
+1. 自动扫描整个 Vault 中所有 `type: book` 的文件；
+2. 选择母书；
+3. 可填写章节编号；
+4. 输入章节标题；
+5. 自动移动到 `10-books/chapters/<书名>/`；
+6. 自动写入：
 
 ```yaml
----
 type: chapter
-book: "[[10-books/微观化学反应]]"
-chapter: "1"
----
+book: "[[10-books/母书]]"
+chapter: "..."
 ```
 
-书籍总页会自动查询：
+书籍主页的 Dataview 会自动把它收进章节目录。
 
-```dataview
-WHERE type = "chapter"
-  AND (book = this.file.link OR book = this.file.name)
+## Concepts
+
+`30-concepts/` 现在有独立的 `concept.md` 自动模板。
+
+Concept 不预设 Definition / Example / Feynman / Questions 等栏目。一个概念需要什么结构，由概念本身决定。
+
+## Papers / References
+
+论文与一般资料都归入现有的 `Resources/` 体系：
+
+```text
+Resources/
+├── Papers/
+├── Reference/
+├── Reddit/
+└── YouTube/
 ```
 
-因此章节文件放在 `10-books/` 下哪个子目录都可以，只要 `book` 指向正确母书，它就会自动出现在母书的章节目录中。
+`Papers/` 和 `Reference/` 不存在时，模板首次使用会自动创建。
 
-### 方式 A：不安装额外插件
+## Blog
 
-1. 新建章节 Markdown。
-2. 使用 `Templates: Insert template` 插入 `chapter.md`。
-3. 把 `book` 填成 `[[10-books/微观化学反应]]` 这类母书链接。
-4. 填写 `chapter` 序号。
-5. 回到母书页面，Dataview 会自动显示该章节。
+博客模板继续使用原来的 Jekyll YAML 字段和默认配置：
 
-### 方式 B：全自动，推荐
+- `layout: post`
+- `author: "ZJF"`
+- Webb Deep Field header image
+- `catalog: true`
+- `tags: 随笔`
 
-安装社区插件 **Templater**，然后使用 `chapter-auto.md`。
+自动化只负责把标题和日期填进去，不改变博客 metadata schema。
 
-运行 `Templater: Create new note from template` → 选择 `chapter-auto.md` 后，模板会：
+## Neovim
 
-1. 自动扫描所有 `type: book` 的书籍总页；
-2. 弹出列表让你选择母书；
-3. 询问章节编号；
-4. 自动写入 `book: "[[母书]]"`；
-5. 自动添加 `type: chapter` 和 `chapter-note` 样式；
-6. 自动把文件移动到 `10-books/chapters/<书名>/`；
-7. 母书的 Dataview 章节目录立即出现这篇笔记。
+模板文件本身包含 JavaScript，但模板运行后生成的是普通 Markdown。因此日常编辑无需 Templater，也不会把 Obsidian 专用脚本散落到实际笔记中。
 
-例如你选择《微观化学反应》、章节号 `1`，生成后的关键字段会类似：
+整体工作流是：
 
-```yaml
-type: chapter
-book: "[[10-books/微观化学反应]]"
-chapter: "1"
+```text
+Templater
+   ↓
+创建 / 命名 / 归档 / 建立关系
+   ↓
+普通 Markdown
+   ↓
+Obsidian 或 Neovim 自由写作
 ```
 
-这就是章节和母书的正式关联，不需要再维护手工目录链接。
-
-在 Obsidian 中基础模板继续使用 `Templates: Insert template`。自动章节模板需要 Templater。用 Neovim 编辑时，这些文件仍然只是普通 Markdown。
+以后如果需要更快的入口，可以在这套模板之上增加 QuickAdd 或 Meta Bind；它们只应作为“启动按钮”，不需要改变模板和 Markdown 数据结构。
