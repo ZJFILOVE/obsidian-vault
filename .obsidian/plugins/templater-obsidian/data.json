@@ -32,6 +32,21 @@
       "template": "99-templates/chapter.md",
       "insert_enabled": false,
       "create_enabled": true
+    },
+    {
+      "template": "99-templates/insert-image.md",
+      "insert_enabled": true,
+      "create_enabled": false
+    },
+    {
+      "template": "99-templates/insert-claim.md",
+      "insert_enabled": true,
+      "create_enabled": false
+    },
+    {
+      "template": "99-templates/insert-question.md",
+      "insert_enabled": true,
+      "create_enabled": false
     }
   ],
   "startup_templates": [],
