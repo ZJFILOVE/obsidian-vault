@@ -1,1 +1,2 @@
-> [!question] <% tp.file.cursor() %>
+> [!question]
+>
