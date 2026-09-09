@@ -57,6 +57,5 @@ tags:
 > [!chapter-nav]
 > [[${bookPath}|${bookTitle}]]${chapterNo ? ` · Chapter ${chapterNo}` : ""} · [[10-books/Library|Library]]
 
-${tp.file.cursor()}
 `;
-%>
+%><% tp.file.cursor() %>

@@ -19,5 +19,5 @@ if (["concept", "method"].includes(type)) {
   if (tp.file.folder(true) !== targetFolder) await tp.file.move(`${targetFolder}/${fileName}`);
 }
 
-tR += `---\ntype: ${type}\ncreated: "${created}"\n---\n\n# ${title}\n\n${tp.file.cursor()}\n`;
-%>
+tR += `---\ntype: ${type}\ncreated: "${created}"\n---\n\n# ${title}\n\n`;
+%><% tp.file.cursor() %>

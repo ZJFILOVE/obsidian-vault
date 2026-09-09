@@ -1,5 +1,5 @@
 <%*
-const types = ["paper", "reference", "video", "web"];
+const types = ["reference", "video", "web"];
 const type = await tp.system.suggester(types, types, false, "来源类型");
 if (!type) return;
 
@@ -11,7 +11,6 @@ const title = rawTitle.trim();
 const fileName = title.replace(/[\\/:*?"<>|]/g, " - ").replace(/\s+/g, " ").trim();
 const created = tp.date.now("YYYY-MM-DD");
 const folders = {
-  paper: "Resources/Papers",
   reference: "Resources/Reference",
   video: "Resources/YouTube",
   web: "Resources/Reference"
@@ -30,5 +29,5 @@ await ensureFolder(targetFolder);
 if (tp.file.title !== fileName) await tp.file.rename(fileName);
 if (tp.file.folder(true) !== targetFolder) await tp.file.move(`${targetFolder}/${fileName}`);
 
-tR += `---\ntype: ${type}\ncreated: "${created}"\n---\n\n# ${title}\n\n${tp.file.cursor()}\n`;
-%>
+tR += `---\ntype: ${type}\ncreated: "${created}"\n---\n\n# ${title}\n\n`;
+%><% tp.file.cursor() %>

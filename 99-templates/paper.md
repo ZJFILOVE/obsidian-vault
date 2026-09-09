@@ -20,5 +20,5 @@ await ensureFolder(targetFolder);
 if (tp.file.title !== fileName) await tp.file.rename(fileName);
 if (tp.file.folder(true) !== targetFolder) await tp.file.move(`${targetFolder}/${fileName}`);
 
-tR += `---\ntype: paper\ncreated: "${created}"\n---\n\n# ${title}\n\n${tp.file.cursor()}\n`;
-%>
+tR += `---\ntype: paper\ncreated: "${created}"\n---\n\n# ${title}\n\n`;
+%><% tp.file.cursor() %>

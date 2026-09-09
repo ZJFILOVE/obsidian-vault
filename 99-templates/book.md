@@ -58,6 +58,5 @@ WHERE type = "chapter"
 SORT chapter ASC
 \`\`\`
 
-${tp.file.cursor()}
 `;
-%>
+%><% tp.file.cursor() %>

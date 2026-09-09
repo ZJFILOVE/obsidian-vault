@@ -14,6 +14,5 @@ tags:
 
 # ${fileDate}
 
-${tp.file.cursor()}
 `;
-%>
+%><% tp.file.cursor() %>

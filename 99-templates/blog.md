@@ -24,6 +24,5 @@ tags:
 
 # ${title}
 
-${tp.file.cursor()}
 `;
-%>
+%><% tp.file.cursor() %>

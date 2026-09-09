@@ -13,5 +13,5 @@ const created = tp.date.now("YYYY-MM-DD");
 
 if (tp.file.title !== fileName) await tp.file.rename(fileName);
 
-tR += `---\ntype: ${type}\ncreated: "${created}"\n---\n\n# ${title}\n\n${tp.file.cursor()}\n`;
-%>
+tR += `---\ntype: ${type}\ncreated: "${created}"\n---\n\n# ${title}\n\n`;
+%><% tp.file.cursor() %>
