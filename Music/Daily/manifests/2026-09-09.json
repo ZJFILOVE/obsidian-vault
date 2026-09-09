@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-09",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-09.md",
+  "tracks": [
+    {"position":1,"title":"Royals","artist":"Lorde","album":"Pure Heroine","canonical_id":"Lorde::Royals","apple_music":{"url":"https://music.apple.com/cn/song/1440818664","song_id":"1440818664","storefront":"cn"},"analysis_summary":"极简电子鼓、手拍与多层人声把大量空间留给节奏和音色本身，低频靠短促脉冲建立张力，适合检查底噪、瞬态和人声叠层。","listening_cue":"注意主唱与和声叠轨的前后距离，并听低频落下后是否迅速收净。"},
+    {"position":2,"title":"So What","artist":"Miles Davis","album":"Kind of Blue","canonical_id":"Miles Davis::So What","apple_music":{"url":"https://music.apple.com/cn/song/268443097","song_id":"268443097","storefront":"cn"},"analysis_summary":"开放的 modal jazz 和声让乐手之间的呼吸、动态与空间位置格外清楚，适合训练定位和音色辨识。","listening_cue":"从低音提琴开场锁定声场位置，再比较小号、萨克斯与镲片的质地和距离。"},
+    {"position":3,"title":"Roads","artist":"Portishead","album":"Dummy","canonical_id":"Portishead::Roads","apple_music":{"url":"https://music.apple.com/cn/song/1440653203","song_id":"1440653203","storefront":"cn"},"analysis_summary":"慢速 trip-hop 节拍、阴影感键盘和脆弱声线用大量留白构成情绪，适合听中频密度和空间衰减。","listening_cue":"听主唱长音尾部如何融入背景，同时确认鼓点仍保持独立轮廓。"},
+    {"position":4,"title":"Redbone","artist":"Childish Gambino","album":"\"Awaken, My Love!\"","canonical_id":"Childish Gambino::Redbone","apple_music":{"url":"https://music.apple.com/cn/song/1771719595","song_id":"1771719595","storefront":"cn"},"analysis_summary":"psychedelic funk 的肥厚贝斯、松弛鼓组、Falsetto 与颗粒键盘形成黏稠 groove，适合检查低频弹性和密集音色的层次。","listening_cue":"跟住贝斯和底鼓的咬合，判断两者起音能否分开，同时听背景键盘是否仍有层次。"},
+    {"position":5,"title":"月亮代表我的心","artist":"邓丽君","album":"Uncle Ray 70th Anniversary – Always On My Mind","canonical_id":"邓丽君::月亮代表我的心","apple_music":{"url":"https://music.apple.com/cn/song/1489305925","song_id":"1489305925","storefront":"cn"},"analysis_summary":"经典华语人声与克制伴奏把注意力拉回呼吸、咬字、声线厚薄和句子连贯性，适合校准中频自然度。","listening_cue":"固定音量听轻声段，观察人声实体感以及字尾与伴奏残响是否自然消失。"}
+  ]
+}
