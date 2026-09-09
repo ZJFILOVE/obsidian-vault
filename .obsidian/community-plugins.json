@@ -2,5 +2,7 @@
   "calendar",
   "homepage",
   "dataview",
-  "obsidian-media-db-plugin"
+  "obsidian-media-db-plugin",
+  "templater-obsidian",
+  "quickadd"
 ]
