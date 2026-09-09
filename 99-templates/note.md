@@ -1,6 +1,7 @@
 <%*
-const types = ["concept", "idea", "method", "note"];
-const type = await tp.system.suggester(types, types, false, "笔记类型");
+const labels = ["General", "Concept"];
+const values = ["note", "concept"];
+const type = await tp.system.suggester(labels, values, false, "笔记类型");
 if (!type) return;
 
 let rawTitle = tp.file.title;
@@ -13,7 +14,7 @@ const created = tp.date.now("YYYY-MM-DD");
 
 if (tp.file.title !== fileName) await tp.file.rename(fileName);
 
-if (["concept", "method"].includes(type)) {
+if (type === "concept") {
   const targetFolder = "30-concepts";
   if (!app.vault.getAbstractFileByPath(targetFolder)) await app.vault.createFolder(targetFolder);
   if (tp.file.folder(true) !== targetFolder) await tp.file.move(`${targetFolder}/${fileName}`);

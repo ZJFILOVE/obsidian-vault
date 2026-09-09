@@ -24,11 +24,6 @@
       "create_enabled": true
     },
     {
-      "template": "99-templates/blog.md",
-      "insert_enabled": false,
-      "create_enabled": true
-    },
-    {
       "template": "99-templates/writing.md",
       "insert_enabled": false,
       "create_enabled": true

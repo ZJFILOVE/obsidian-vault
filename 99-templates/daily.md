@@ -5,14 +5,5 @@ if (tp.file.title !== fileDate) await tp.file.rename(fileDate);
 const currentPath = tp.file.path(true);
 if (!currentPath.startsWith("60-daily/")) await tp.file.move(`60-daily/${fileDate}`);
 
-tR += `---
-date: "${fileDate}"
-type: daily
-tags:
-  - daily
----
-
-# ${fileDate}
-
-`;
+tR += `---\ntype: daily\ndate: "${fileDate}"\n---\n\n# ${fileDate}\n\n`;
 %><% tp.file.cursor() %>

@@ -21,9 +21,9 @@ if (!rawTitle?.trim()) { new Notice("已取消创建章节笔记"); return; }
 
 const title = rawTitle.trim();
 const fileName = title.replace(/[\\/:*?"<>|]/g, " - ").replace(/\s+/g, " ").trim();
-const bookTitle = chosen.fm?.title ?? chosen.file.basename;
 const bookPath = chosen.file.path.replace(/\.md$/, "");
 const targetFolder = `10-books/chapters/${chosen.file.basename}`;
+const created = tp.date.now("YYYY-MM-DD");
 
 async function ensureFolder(path) {
   let current = "";
@@ -32,30 +32,10 @@ async function ensureFolder(path) {
     if (!app.vault.getAbstractFileByPath(current)) await app.vault.createFolder(current);
   }
 }
+
 await ensureFolder(targetFolder);
 if (tp.file.title !== fileName) await tp.file.rename(fileName);
-await tp.file.move(`${targetFolder}/${fileName}`);
+if (tp.file.folder(true) !== targetFolder) await tp.file.move(`${targetFolder}/${fileName}`);
 
-const yamlTitle = title.replace(/"/g, '\\"');
-const created = tp.date.now("YYYY-MM-DD");
-
-tR += `---
-title: "${yamlTitle}"
-type: chapter
-book: "[[${bookPath}]]"
-chapter: "${(chapterNo ?? "").replace(/"/g, '\\"')}"
-reviewed: false
-created: "${created}"
-cssclasses:
-  - chapter-note
-tags:
-  - book/chapter
----
-
-# ${title}
-
-> [!chapter-nav]
-> [[${bookPath}|${bookTitle}]]${chapterNo ? ` · Chapter ${chapterNo}` : ""} · [[10-books/Library|Library]]
-
-`;
+tR += `---\ntype: chapter\nbook: "[[${bookPath}]]"\nchapter: "${(chapterNo ?? "").replace(/"/g, '\\"')}"\ncreated: "${created}"\n---\n\n# ${title}\n\n`;
 %><% tp.file.cursor() %>
