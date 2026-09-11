@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-11",
+  "workflow": "english",
+  "mode": "manual_repair_after_quality_audit",
+  "policy_version": 2,
+  "candidate_count": null,
+  "candidate_count_note": "Candidate-count logging was introduced during this repair; future weekday automated runs require at least 8 source candidates.",
+  "selected_source": {
+    "title": "The Language Sounds That Could Exist, But Don't",
+    "source": "Tom Scott",
+    "url": "https://www.youtube.com/watch?v=9uZam0ubq-Y"
+  },
+  "source_repeat": false,
+  "source_verification": "passed",
+  "translation_exercises": 2,
+  "translation_independently_authored": true,
+  "vocabulary_items": 9,
+  "topic_diversity": "improved_vs_original_climate_selection",
+  "post_write_readback": "passed",
+  "history_index_updated": true
+}
