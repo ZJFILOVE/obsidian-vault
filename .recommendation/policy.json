@@ -1,0 +1,75 @@
+{
+  "version": 2,
+  "strict_from": "2026-09-11",
+  "principles": [
+    "relevance_is_not_sufficient_for_selection",
+    "exact_and_semantic_duplicates_are_rejected_before_writing",
+    "recommendation_quality_must_not_be_lowered_to_fill_a_quota",
+    "verification_and_post_write_readback_are_required"
+  ],
+  "scoring": {
+    "quality": 0.30,
+    "usefulness": 0.25,
+    "curiosity": 0.20,
+    "novelty_to_user": 0.15,
+    "fit": 0.10,
+    "penalties": ["recent_similarity", "topic_concentration", "same_creator", "generic_explanation", "weak_source"]
+  },
+  "composition": {
+    "high_confidence_fraction": 0.50,
+    "adjacent_exploration_fraction": 0.30,
+    "wildcard_fraction": 0.20
+  },
+  "youtube": {
+    "candidate_pool_min": 25,
+    "exact_video_id_repeat": "permanent_block",
+    "same_work_or_mirror_repeat": "permanent_block",
+    "creator_cooldown_days": 7,
+    "narrow_topic_cooldown_days": 3,
+    "max_narrow_topic_fraction": 0.40,
+    "wildcard_min": 1,
+    "final_count": 5
+  },
+  "reddit": {
+    "candidate_pool_min": 35,
+    "post_id_repeat": "permanent_block",
+    "narrow_topic_cooldown_days": 3,
+    "max_narrow_topic_fraction": 0.40,
+    "wildcard_min": 2,
+    "final_count": 10
+  },
+  "english": {
+    "candidate_pool_min": 8,
+    "source_url_repeat": "permanent_block",
+    "narrow_topic_cooldown_days": 7,
+    "weekday_source_minutes": [5, 15],
+    "translation_levels": ["CET-6", "TOEFL/academic"],
+    "translation_must_not_be_source_paraphrase": true,
+    "vocabulary_count": [6, 10]
+  },
+  "music": {
+    "candidate_pool_min": 15,
+    "canonical_track_repeat": "permanent_block",
+    "artist_cooldown_days": 7,
+    "wildcard_min": 1,
+    "final_count": 5,
+    "storefront": "cn",
+    "direct_song_url_required": true,
+    "required_analysis_sections": ["why_selected", "arrangement_and_timbre", "specific_listening_cue"]
+  },
+  "news": {
+    "preferred_count": [3, 6],
+    "ongoing_story_requires_material_update": true,
+    "padding_is_forbidden": true,
+    "long_horizon_months_min": 6
+  },
+  "qa": {
+    "exact_duplicates": 0,
+    "semantic_duplicates": 0,
+    "dead_links": 0,
+    "unverified_links": 0,
+    "missing_required_fields": 0,
+    "post_write_readback": true,
+    "cross_repository_music_consistency": true
+  }
+}
