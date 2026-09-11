@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-11",
+  "workflow": "news-youtube-reddit",
+  "mode": "manual_repair_after_quality_audit",
+  "policy_version": 2,
+  "candidate_count": {
+    "youtube": null,
+    "reddit": null,
+    "note": "This repair was performed before candidate-count logging was introduced; future automated runs enforce minimum pools of 25 YouTube and 35 Reddit candidates."
+  },
+  "rejected_duplicates_detected_in_original_output": {
+    "youtube_exact_or_same_work": 4,
+    "reddit_exact": 2
+  },
+  "selected": {"news": 5, "youtube": 5, "reddit": 10},
+  "final_exact_duplicates": {"youtube": 0, "reddit": 0},
+  "final_semantic_or_mirror_duplicates": {"youtube": 0},
+  "link_verification": "passed_for_final_selection",
+  "diversity": {
+    "youtube": "passed; AI, experimental chemistry, physics, film language, internet/game history",
+    "reddit": "passed; research practice, physics, math, cycling, programming, music, history, lab workflow, geology, photography"
+  },
+  "wildcards": {"youtube": 1, "reddit": 2},
+  "post_write_readback": "passed",
+  "history_indexes_updated": true
+}
