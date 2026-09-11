@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-11",
+  "workflow": "apple-music-daily-5",
+  "mode": "manual_repair_after_quality_audit",
+  "policy_version": 2,
+  "candidate_count": null,
+  "candidate_count_note": "Candidate-count logging was introduced during this repair; future automated runs require at least 15 verified candidates.",
+  "replaced_same_day_tracks_retained_in_history": true,
+  "selected": 5,
+  "canonical_duplicates_in_final_manifest": 0,
+  "storefront_verification": "passed_cn_direct_song_resources",
+  "full_analysis_sections": "passed",
+  "wildcard_present": true,
+  "cross_repo_consistency": {
+    "main_manifest_vs_obsidian_manifest": "passed",
+    "note_song_id_order_vs_manifest": "passed",
+    "main_state_vs_obsidian_state": "passed"
+  },
+  "post_write_readback": "passed"
+}
