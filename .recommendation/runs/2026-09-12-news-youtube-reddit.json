@@ -1,0 +1,88 @@
+{
+  "date": "2026-09-12",
+  "workflow": "news-youtube-reddit",
+  "policy_version": 2,
+  "candidate_counts": {
+    "news": 9,
+    "youtube": 30,
+    "reddit": 45
+  },
+  "rejected_duplicate_counts": {
+    "youtube_exact_id": 0,
+    "youtube_semantic_or_mirror": 0,
+    "reddit_exact_post_id": 0,
+    "news_ongoing_without_material_update": 2
+  },
+  "selected_counts": {
+    "news": 4,
+    "youtube": 5,
+    "reddit": 10
+  },
+  "selected_ids": {
+    "youtube": [
+      "08mwXICY4JM",
+      "1YFrISfN7jo",
+      "3hYSnyVLmGE",
+      "NtkuZ0b5c6A",
+      "YQ_xWvX1n9g"
+    ],
+    "reddit": [
+      "16lmw2y",
+      "1v3h07d",
+      "1p2eyqh",
+      "1w3hcac",
+      "1tl12d5",
+      "qfm4ob",
+      "1ejlgca",
+      "1iwjbup",
+      "1tswwi1",
+      "1mhj1eq"
+    ]
+  },
+  "link_verification": {
+    "news_source_urls_checked": 7,
+    "youtube_final_urls_checked": 5,
+    "reddit_final_urls_checked": 10,
+    "dead_links": 0,
+    "unverified_final_links": 0,
+    "result": "pass"
+  },
+  "diversity": {
+    "youtube": {
+      "wildcards": 1,
+      "max_narrow_topic_fraction": 0.2,
+      "creator_cooldown_respected_for_all_selected": true,
+      "result": "pass"
+    },
+    "reddit": {
+      "wildcards": 2,
+      "max_narrow_topic_fraction": 0.1,
+      "result": "pass"
+    }
+  },
+  "dedup_qa": {
+    "youtube_exact_duplicates_in_final": 0,
+    "youtube_semantic_or_mirror_duplicates_in_final": 0,
+    "reddit_exact_duplicates_in_final": 0,
+    "result": "pass"
+  },
+  "readback": {
+    "news_required_sections_present": true,
+    "youtube_count": 5,
+    "reddit_count": 10,
+    "youtube_unique_fresh_ids": 5,
+    "reddit_unique_fresh_ids": 10,
+    "notes_section_present_youtube": true,
+    "notes_section_present_reddit": true,
+    "result": "pass"
+  },
+  "publishing": {
+    "markdown_commit": "70ca4bb87f8c62afe8b7ee26c2b7d75b00e92437",
+    "markdown_files": [
+      "News/Daily/2026-09-12.md",
+      "Resources/YouTube/Daily/2026-09-12.md",
+      "Resources/Reddit/Daily/2026-09-12.md"
+    ]
+  },
+  "overall_result": "pass"
+}
