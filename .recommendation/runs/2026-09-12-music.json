@@ -1,0 +1,99 @@
+{
+  "date": "2026-09-12",
+  "type": "music",
+  "policy_version": 2,
+  "candidate_count": 25,
+  "history_before_run_count": 45,
+  "final_count": 5,
+  "duplicate_rejections": {
+    "exact": 0,
+    "semantic": 1,
+    "details": [
+      "陈绮贞::旅行的意义 was rejected at candidate stage because the same underlying work had already appeared in history as 苏嘉妍::旅行的意义."
+    ]
+  },
+  "artist_cooldown": {
+    "days": 7,
+    "final_artist_violations": 0
+  },
+  "storefront_verification": {
+    "required_storefront": "cn",
+    "direct_song_url_required": true,
+    "verified_count": 5,
+    "tracks": [
+      {
+        "canonical_id": "王若琳::Let's Start from Here",
+        "url": "https://music.apple.com/cn/song/307678080",
+        "song_id": "307678080",
+        "verified": true
+      },
+      {
+        "canonical_id": "鹿先森乐队::一场雨落下来要用多久",
+        "url": "https://music.apple.com/cn/song/1411900456",
+        "song_id": "1411900456",
+        "verified": true
+      },
+      {
+        "canonical_id": "陈百强::愛在今宵",
+        "url": "https://music.apple.com/cn/song/71951943",
+        "song_id": "71951943",
+        "verified": true
+      },
+      {
+        "canonical_id": "齐豫::Diamonds And Rust",
+        "url": "https://music.apple.com/cn/song/1546706890",
+        "song_id": "1546706890",
+        "verified": true,
+        "version_note": "Intentional 1987 Qi Yu cover of the Joan Baez composition; not treated as the original recording."
+      },
+      {
+        "canonical_id": "林强::奇林",
+        "url": "https://music.apple.com/cn/song/1758716200",
+        "song_id": "1758716200",
+        "verified": true
+      }
+    ]
+  },
+  "diversity": {
+    "unique_artists": 5,
+    "eras_represented": ["1980s", "2000s", "2010s", "2020s"],
+    "languages_or_scenes": ["English-language vocal", "Mandarin indie", "Cantonese pop", "Taiwanese/Chinese electronic"],
+    "production_contrast": ["intimate jazz-pop", "indie folk/rock band build", "1980s Cantopop", "English folk cover", "electronic soundscape"],
+    "wildcard": {
+      "count": 1,
+      "canonical_id": "林强::奇林",
+      "reason": "Expands beyond recent vocal/rock-heavy selections into contemporary electronic and soundtrack-oriented listening."
+    }
+  },
+  "cross_repo_consistency": {
+    "main_manifest_matches_obsidian_manifest": true,
+    "main_state_matches_obsidian_state": true,
+    "note_order_and_song_ids_match_manifest": true,
+    "historical_entries_preserved": true,
+    "state_count_after_run": 50
+  },
+  "repository_validation": {
+    "validator_present": "ZJFILOVE/music-daily/scripts/validate.py",
+    "contract_check": "pass",
+    "checks": [
+      "exactly 5 tracks",
+      "positions 1 through 5",
+      "unique canonical IDs",
+      "direct cn song URLs",
+      "numeric song IDs matching URL IDs",
+      "storefront cn",
+      "non-empty albums",
+      "analysis_summary length >= 35",
+      "listening_cue length >= 20",
+      "all manifest IDs present in state"
+    ]
+  },
+  "readback_status": {
+    "main_manifest": "verified",
+    "obsidian_manifest": "verified",
+    "obsidian_note": "verified",
+    "main_state": "verified",
+    "obsidian_state": "verified",
+    "overall": "pass"
+  }
+}
