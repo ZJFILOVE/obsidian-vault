@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-13",
+  "type": "music-daily",
+  "status": "passed",
+  "candidate_count": 28,
+  "history": {
+    "pre_run_canonical_count": 50,
+    "post_run_canonical_count": 55,
+    "duplicate_rejections": 0,
+    "final_tracks_previously_recorded": 0,
+    "permanent_history_preserved": true
+  },
+  "storefront_verification": {
+    "required_storefront": "cn",
+    "direct_song_resource_required": true,
+    "final_verified": 5,
+    "final_failed": 0,
+    "candidate_resources_rejected_when_exact_cn_resolution_failed": 10,
+    "song_ids": ["1413542882", "1850810463", "1538260334", "1783205879", "96216872"],
+    "urls": [
+      "https://music.apple.com/cn/song/1413542882",
+      "https://music.apple.com/cn/song/1850810463",
+      "https://music.apple.com/cn/song/1538260334",
+      "https://music.apple.com/cn/song/1783205879",
+      "https://music.apple.com/cn/song/96216872"
+    ]
+  },
+  "diversity": {
+    "artist_cooldown_days": 7,
+    "artist_cooldown_passed": true,
+    "same_artist_within_cooldown": 0,
+    "languages_and_modes": ["Mandarin", "instrumental", "Japanese", "Afrobeat/vocal", "English"],
+    "styles": ["mainland indie singer-songwriter", "minimal indie/electronic", "J-pop ballad", "Afrobeat", "new-age/ambient pop"],
+    "eras_represented": ["1970s", "2000s", "2010s"]
+  },
+  "wildcard": {
+    "required_min": 1,
+    "count": 1,
+    "tracks": ["Fela Kuti::Water No Get Enemy"],
+    "result": "passed"
+  },
+  "cross_repo_consistency": {
+    "main_manifest_track_count": 5,
+    "obsidian_manifest_track_count": 5,
+    "same_track_order": true,
+    "same_song_ids": true,
+    "same_canonical_ids": true,
+    "state_content_sha_match": true,
+    "result": "passed"
+  },
+  "readback": {
+    "main_manifest": "passed",
+    "obsidian_manifest": "passed",
+    "obsidian_note": "passed",
+    "music_daily_state": "passed",
+    "obsidian_state": "passed",
+    "exactly_five_tracks": true,
+    "unique_canonical_ids": true,
+    "cn_direct_urls": true,
+    "album_fields_complete": true,
+    "analysis_fields_complete": true,
+    "listening_cue_fields_complete": true,
+    "note_song_id_order_matches_manifests": true,
+    "all_historical_and_new_ids_present_in_both_states": true,
+    "result": "passed"
+  },
+  "repository_validation": {
+    "validator_found_by_repository_search": false,
+    "structural_policy_checks": "passed"
+  }
+}
