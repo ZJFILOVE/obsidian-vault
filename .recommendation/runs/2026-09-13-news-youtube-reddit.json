@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-13",
+  "workflow": "news-youtube-reddit",
+  "policy_version": 2,
+  "candidate_counts": {
+    "news": 8,
+    "youtube": 31,
+    "reddit": 42
+  },
+  "rejected_duplicate_counts": {
+    "youtube_exact_id": 0,
+    "youtube_semantic_or_mirror": 0,
+    "reddit_exact_post_id": 0,
+    "news_ongoing_without_material_update": 1
+  },
+  "selected_counts": {
+    "news": 3,
+    "youtube": 5,
+    "reddit": 10
+  },
+  "selected_ids": {
+    "youtube": [
+      "7Pq-S557XQU",
+      "9uZam0ubq-Y",
+      "myO8fxhDRW0",
+      "YFI6cQF1ros",
+      "QwXK4e4uqXY"
+    ],
+    "reddit": [
+      "1una48q",
+      "1sjugxj",
+      "n817vr",
+      "1nx0ujs",
+      "5i7fhb",
+      "4wrxnx",
+      "1st54h2",
+      "1qi3ooj",
+      "wg5v6f",
+      "1rz1ea1"
+    ]
+  },
+  "link_verification": {
+    "news_source_urls_checked": 8,
+    "youtube_final_urls_checked": 5,
+    "reddit_final_urls_checked": 10,
+    "dead_links": 0,
+    "unverified_final_links": 0,
+    "result": "pass"
+  },
+  "diversity": {
+    "youtube": {
+      "wildcards": 1,
+      "max_narrow_topic_fraction": 0.4,
+      "creator_cooldown_respected_for_all_selected": true,
+      "result": "pass"
+    },
+    "reddit": {
+      "wildcards": 3,
+      "max_narrow_topic_fraction": 0.2,
+      "result": "pass"
+    }
+  },
+  "dedup_qa": {
+    "youtube_exact_duplicates_in_final": 0,
+    "youtube_semantic_or_mirror_duplicates_in_final": 0,
+    "reddit_exact_duplicates_in_final": 0,
+    "result": "pass"
+  },
+  "readback": {
+    "news_required_sections_present": true,
+    "youtube_count": 5,
+    "reddit_count": 10,
+    "youtube_unique_fresh_ids": 5,
+    "reddit_unique_fresh_ids": 10,
+    "notes_section_present_youtube": true,
+    "notes_section_present_reddit": true,
+    "result": "pass"
+  },
+  "history_updates": {
+    "youtube_commit": "f1df6c696312eb30ad74d92dd09fdf24ee71d469",
+    "reddit_commit": "3f4428b544f6ba1bf573f36380fd7ec7e3245cc5"
+  },
+  "publishing": {
+    "markdown_commit": "e181e3062452441a5ea8301b77d1f305601d7f11",
+    "markdown_files": [
+      "News/Daily/2026-09-13.md",
+      "Resources/YouTube/Daily/2026-09-13.md",
+      "Resources/Reddit/Daily/2026-09-13.md"
+    ]
+  },
+  "overall_result": "pass"
+}
