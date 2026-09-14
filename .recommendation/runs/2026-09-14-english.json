@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-14",
+  "selected_title": "6 Ways Coffee Helped Transform the World",
+  "selected_source_url": "https://www.history.com/articles/coffee-history-facts",
+  "candidate_count": 10,
+  "duplicate_rejections": 0,
+  "source_verification": {
+    "status": "ok",
+    "method": "public_web_open",
+    "verified_url": "https://www.history.com/articles/coffee-history-facts"
+  },
+  "topic_diversity": {
+    "candidate_topics": [
+      "food and global social history",
+      "space weather and auroras",
+      "ocean currents",
+      "technology history and Hedy Lamarr",
+      "printing and media history",
+      "World's Fair inventions",
+      "architecture and natural materials",
+      "architecture and community memory",
+      "Mars habitat design",
+      "heritage reconstruction and engineering"
+    ],
+    "recent_topics_avoided": [
+      "dreams and neuroscience",
+      "music and the brain",
+      "linguistics and speech sounds"
+    ],
+    "selected_topic": "coffee, globalization, labor, public space, and social history"
+  },
+  "readback": {
+    "status": "passed",
+    "daily": {
+      "source_url": true,
+      "first_second_pass": true,
+      "output_task": true,
+      "question_count": 3,
+      "cross_links": true
+    },
+    "translation": {
+      "exercise_count": 2,
+      "folded_answers": true,
+      "precision_rewrite": true,
+      "spaced_review": true,
+      "cross_links": true
+    },
+    "vocabulary": {
+      "item_count": 9,
+      "retrieval_quiz": true,
+      "cross_links": true
+    }
+  }
+}
