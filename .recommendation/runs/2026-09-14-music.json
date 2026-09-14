@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-14",
+  "type": "music-daily-run",
+  "policy_version": 2,
+  "candidate_count": 25,
+  "duplicate_rejections": {
+    "canonical": 0,
+    "semantic": 1,
+    "notes": "Björk::Hyper-Ballad was not selected because the same work had already appeared via kotoringo::Hyperballad; no final canonical_id existed in either pre-run history."
+  },
+  "storefront_verification": {
+    "storefront": "cn",
+    "status": "passed",
+    "tracks": [
+      {"position":1,"canonical_id":"窦唯::高级动物","song_id":"158799064","url":"https://music.apple.com/cn/song/158799064","verified":true},
+      {"position":2,"canonical_id":"Bill Withers::Ain't No Sunshine","song_id":"293521573","url":"https://music.apple.com/cn/song/293521573","verified":true},
+      {"position":3,"canonical_id":"Massive Attack::Teardrop (Remastered 2018)","song_id":"1428688265","url":"https://music.apple.com/cn/song/1428688265","verified":true},
+      {"position":4,"canonical_id":"Nick Drake::Northern Sky","song_id":"1440822868","url":"https://music.apple.com/cn/song/1440822868","verified":true},
+      {"position":5,"canonical_id":"马克思・李希特, 路易莎・富勒, Natalia Bonner, 约翰・梅特卡夫, Philip Sheppard & 克里斯・沃西::On the Nature of Daylight","song_id":"1775435315","url":"https://music.apple.com/cn/song/1775435315","verified":true}
+    ]
+  },
+  "diversity": {
+    "status": "passed",
+    "artist_cooldown_days": 7,
+    "artist_cooldown_violations": 0,
+    "genres": ["中国另类摇滚","soul","trip-hop","英式民谣","当代古典/弦乐"],
+    "eras": ["1970s","1990s","2000s/20th-anniversary edition"],
+    "languages_or_modes": ["中文","英文","器乐"],
+    "production_density": ["dense","sparse","electronic-layered","acoustic-intimate","long-form orchestral"],
+    "wildcard": {
+      "count": 1,
+      "canonical_id": "马克思・李希特, 路易莎・富勒, Natalia Bonner, 约翰・梅特卡夫, Philip Sheppard & 克里斯・沃西::On the Nature of Daylight",
+      "reason": "expands the set from song-centered structures into slow-form string texture and harmonic-density listening"
+    }
+  },
+  "cross_repo_consistency": {
+    "status": "passed",
+    "main_manifest_matches_obsidian_manifest": true,
+    "track_order_matches_note": true,
+    "song_ids_match_note": true,
+    "state_files_match": true,
+    "history_count_after_run": 60
+  },
+  "readback_status": {
+    "status": "passed",
+    "main_manifest": true,
+    "obsidian_manifest": true,
+    "obsidian_note": true,
+    "music_daily_state": true,
+    "obsidian_state": true,
+    "track_count": 5,
+    "unique_canonical_ids": 5,
+    "all_new_against_pre_run_history": true,
+    "all_direct_cn_song_urls": true,
+    "all_required_manifest_fields_complete": true,
+    "all_required_note_sections_present": true
+  },
+  "repository_validation": {
+    "validation_found": false,
+    "status": "not_applicable"
+  },
+  "overall_status": "passed"
+}
