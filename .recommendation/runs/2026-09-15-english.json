@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-15",
+  "weekday": "Tuesday",
+  "selected": {
+    "title": "How Do Atomic Clocks Work?",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+    "source_type": "explanatory article",
+    "estimated_source_minutes": "8-10"
+  },
+  "candidate_count": 9,
+  "candidates_considered": [
+    {"topic": "astronomy/exoplanets", "source": "NASA", "title": "What is an exoplanet?"},
+    {"topic": "economics/inflation", "source": "Federal Reserve Bank of St. Louis", "title": "Adjusting for Inflation"},
+    {"topic": "history/time zones", "source": "Smithsonian", "title": "Sandford Fleming Sets the World's Clock"},
+    {"topic": "environment/food waste", "source": "Our World in Data", "title": "Food waste is responsible for 6% of global greenhouse gas emissions"},
+    {"topic": "architecture/community", "source": "TED", "title": "Can architecture help us remember what it made us forget?"},
+    {"topic": "geoscience/earthquake warning", "source": "USGS", "title": "The Blind Zone of Earthquake Early Warning"},
+    {"topic": "weather/language history", "source": "NOAA", "title": "Hurricane FAQ — origin of the word hurricane"},
+    {"topic": "health/psychology", "source": "NCCIH", "title": "Placebo Effect"},
+    {"topic": "metrology/technology", "source": "NIST", "title": "How Do Atomic Clocks Work?"}
+  ],
+  "duplicate_rejections": 0,
+  "source_verification": {
+    "status": "passed",
+    "method": "public web search followed by direct page open",
+    "verified_url": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work"
+  },
+  "topic_diversity": {
+    "status": "passed",
+    "recent_topics_checked": [
+      "dreams and scientific theories",
+      "linguistics and speech sounds",
+      "coffee, globalization, and social history"
+    ],
+    "selected_topic": "atomic clocks, metrology, and technical explanation",
+    "reason": "Distinct from recent psychology, linguistics, and social-history inputs while remaining suitable for CET-6 to introductory TOEFL reading."
+  },
+  "readback": {
+    "status": "passed",
+    "daily": {
+      "source_url_present": true,
+      "first_and_second_pass_present": true,
+      "output_task_present": true,
+      "question_count": 3,
+      "cross_links_present": true
+    },
+    "translation": {
+      "substantial_exercise_count": 2,
+      "folded_answers_present": true,
+      "precision_or_rewrite_present": true,
+      "spaced_review_present": true,
+      "cross_links_present": true
+    },
+    "vocabulary": {
+      "item_count": 9,
+      "retrieval_quiz_present": true,
+      "cross_links_present": true
+    }
+  }
+}
