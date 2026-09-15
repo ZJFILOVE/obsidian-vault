@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-15",
+  "workflow": "news-youtube-reddit",
+  "candidate_counts": {
+    "news": 7,
+    "youtube": 31,
+    "reddit": 47
+  },
+  "rejected_duplicate_counts": {
+    "youtube_exact_history": 7,
+    "youtube_semantic_or_mirror": 2,
+    "reddit_exact_history": 8
+  },
+  "selected_counts": {
+    "news": 4,
+    "youtube": 5,
+    "reddit": 10
+  },
+  "link_verification": {
+    "news": "verified_current_web",
+    "youtube": {
+      "checked": 5,
+      "passed": 5
+    },
+    "reddit": {
+      "checked": 10,
+      "passed": 10
+    }
+  },
+  "dedup": {
+    "youtube_exact_duplicates": 0,
+    "youtube_semantic_or_mirror_duplicates": 0,
+    "reddit_exact_duplicates": 0
+  },
+  "diversity": {
+    "youtube_pass": true,
+    "youtube_max_narrow_topic_share": 0.2,
+    "youtube_wildcards": 1,
+    "reddit_pass": true,
+    "reddit_max_narrow_topic_share": 0.1,
+    "reddit_wildcards": 3
+  },
+  "readback": {
+    "news": true,
+    "youtube": true,
+    "reddit": true,
+    "required_sections": true,
+    "passed": true
+  },
+  "daily_commit": "e6a225234cb04fbdebe30a5e9afd2c13f6edaf6c",
+  "status": "passed"
+}
