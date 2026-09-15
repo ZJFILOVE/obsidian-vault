@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-15",
+  "type": "music-daily",
+  "candidate_count": 25,
+  "duplicate_rejections": 1,
+  "duplicate_rejection_notes": [
+    "A candidate using 陈绮贞《旅行的意义》was excluded during screening because the same underlying work is already represented in permanent history by 苏嘉妍::旅行的意义; the historical record remains permanently blocked from resurfacing."
+  ],
+  "storefront_verification": {
+    "status": "passed",
+    "required_storefront": "cn",
+    "verified_count": 5,
+    "all_urls_direct_song_resources": true,
+    "tracks": [
+      {"canonical_id":"林宥嘉::病态","song_id":"547536995","url":"https://music.apple.com/cn/song/547536995","storefront":"cn"},
+      {"canonical_id":"Fleetwood Mac::The Chain","song_id":"594061861","url":"https://music.apple.com/cn/song/594061861","storefront":"cn"},
+      {"canonical_id":"尼尔斯・弗拉姆::Says","song_id":"1451166669","url":"https://music.apple.com/cn/song/1451166669","storefront":"cn"},
+      {"canonical_id":"Oscar Peterson::You Look Good To Me (Live At The Salle Pleyel, Paris, France / June 25, 1996)","song_id":"1639284372","url":"https://music.apple.com/cn/song/1639284372","storefront":"cn"},
+      {"canonical_id":"陈绮贞::雨水一盒","song_id":"1598248092","url":"https://music.apple.com/cn/song/1598248092","storefront":"cn"}
+    ]
+  },
+  "diversity_wildcard": {
+    "status": "passed",
+    "artist_cooldown_conflicts": 0,
+    "wildcard_count": 1,
+    "wildcard_canonical_id": "尼尔斯・弗拉姆::Says",
+    "coverage": [
+      "Mandarin theatrical pop / 2008 studio production",
+      "English-language classic rock / 1977 band recording",
+      "electronic-modern-classical long-form instrumental / 2013",
+      "live acoustic jazz / Paris 1996 performance",
+      "Mandarin indie singer-songwriter / 2013 studio production"
+    ]
+  },
+  "cross_repo_consistency": {
+    "status": "passed",
+    "manifests_identical": true,
+    "manifest_blob_sha": "e348cea20ac3b39edfad8d26cd2de5b49d4724c6",
+    "state_files_identical": true,
+    "state_blob_sha": "f2af546f83cde621f5874ba699ba520b48c49916"
+  },
+  "readback_status": {
+    "status": "passed",
+    "main_manifest": true,
+    "obsidian_manifest": true,
+    "obsidian_note": true,
+    "main_state": true,
+    "obsidian_state": true,
+    "track_count": 5,
+    "unique_canonical_ids": 5,
+    "preexisting_history_conflicts": 0,
+    "historical_count_before": 60,
+    "historical_count_after": 65,
+    "song_id_order_matches_note_and_manifests": true,
+    "all_required_editorial_fields_complete": true
+  },
+  "repository_validation": {
+    "status": "passed_static_contract_check",
+    "validator": "scripts/validate_daily_recommendations.py",
+    "music_note_required_markers_present_exactly_five_times_each": true,
+    "manifest_track_count": 5,
+    "manifest_song_id_order_matches_note": true,
+    "analysis_and_listening_cue_minimum_lengths_satisfied": true,
+    "validator_execution": "not_run_locally"
+  }
+}
