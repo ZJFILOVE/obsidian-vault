@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-16",
+  "workflow": "english-weekday",
+  "candidate_count": 10,
+  "duplicate_rejections": 0,
+  "selected": {
+    "title": "The architectural wonder of impermanent cities",
+    "source": "TED",
+    "source_url": "https://www.ted.com/talks/rahul_mehrotra_the_architectural_wonder_of_impermanent_cities",
+    "topic": "impermanent cities, urban design, adaptability",
+    "source_length": "13:24"
+  },
+  "source_verification": {
+    "status": "passed",
+    "direct_url_opened": true,
+    "transcript_available": true,
+    "length_within_policy_minutes": true
+  },
+  "topic_diversity": {
+    "recent_topics_checked": [
+      "dreams and sleep",
+      "phonetics and possible language sounds",
+      "coffee, globalization, and social history",
+      "atomic clocks and timekeeping"
+    ],
+    "candidate_topics_considered": [
+      "invasive species and ecology",
+      "air pollution and public health",
+      "ocean currents",
+      "temporary urbanism and architecture",
+      "participatory city planning",
+      "plastic pollution and waste management",
+      "telegraph history and communication",
+      "walkable cities",
+      "video games and urban planning",
+      "urban materials and street-level design"
+    ],
+    "selected_topic_within_7_day_narrow_topic_cooldown": false
+  },
+  "readback": {
+    "status": "passed",
+    "daily": {
+      "source_url": true,
+      "expected_sections": true,
+      "cross_links": true,
+      "question_count": 3,
+      "output_or_shadowing_task": true
+    },
+    "translation": {
+      "exercise_count": 2,
+      "folded_answers": true,
+      "structures_and_collocations": true,
+      "transfer_errors": true,
+      "precision_or_rewrite": true,
+      "spaced_review": true,
+      "cross_links": true
+    },
+    "vocabulary": {
+      "item_count": 9,
+      "retrieval_quiz": true,
+      "cross_links": true
+    }
+  }
+}
