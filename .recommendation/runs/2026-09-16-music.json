@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-16",
+  "type": "music-daily",
+  "candidate_count": 20,
+  "duplicate_rejections": 0,
+  "duplicate_rejection_notes": [],
+  "storefront_verification": {
+    "status": "passed",
+    "required_storefront": "cn",
+    "verified_count": 5,
+    "all_urls_direct_song_resources": true,
+    "tracks": [
+      {"canonical_id":"王力宏::白纸","song_id":"552898139","url":"https://music.apple.com/cn/song/552898139","storefront":"cn"},
+      {"canonical_id":"David Bowie::Space Oddity (US Mono Single Edit) [2009 Remaster]","song_id":"1451618843","url":"https://music.apple.com/cn/song/1451618843","storefront":"cn"},
+      {"canonical_id":"宇多田光::Be My Last (Remastered 2018)","song_id":"1444982808","url":"https://music.apple.com/cn/song/1444982808","storefront":"cn"},
+      {"canonical_id":"杨乃文::一个人 (feat. 伍佰) [Live]","song_id":"996894158","url":"https://music.apple.com/cn/song/996894158","storefront":"cn"},
+      {"canonical_id":"Tame Impala::The Less I Know the Better (Mixed)","song_id":"1666403852","url":"https://music.apple.com/cn/song/1666403852","storefront":"cn"}
+    ]
+  },
+  "diversity_wildcard": {
+    "status": "passed",
+    "artist_cooldown_conflicts": 0,
+    "wildcard_count": 1,
+    "wildcard_canonical_id": "Tame Impala::The Less I Know the Better (Mixed)",
+    "coverage": [
+      "Mandarin pop / 1997 studio recording",
+      "English art rock / 1969 US mono single edit, 2009 remaster",
+      "Japanese pop / 2005 song, 2018 remaster",
+      "Mandarin live rock-pop duet / concert recording",
+      "psychedelic pop in DJ-mix context / 2022 set"
+    ]
+  },
+  "cross_repo_consistency": {
+    "status": "passed",
+    "manifests_identical": true,
+    "manifest_blob_sha": "53ca6b7dadb457e838f1d792f2dd319a2b121d6d",
+    "state_files_identical": true,
+    "state_blob_sha": "7ca09288c87ef57c243e028da3ae324b90b6778d"
+  },
+  "readback_status": {
+    "status": "passed",
+    "main_manifest": true,
+    "obsidian_manifest": true,
+    "obsidian_note": true,
+    "main_state": true,
+    "obsidian_state": true,
+    "track_count": 5,
+    "unique_canonical_ids": 5,
+    "preexisting_history_conflicts": 0,
+    "historical_count_before": 65,
+    "historical_count_after": 70,
+    "song_id_order_matches_note_and_manifests": true,
+    "all_required_editorial_fields_complete": true
+  },
+  "repository_validation": {
+    "status": "passed_static_contract_check",
+    "validator": "scripts/validate_daily_recommendations.py",
+    "music_note_required_markers_present_exactly_five_times_each": true,
+    "manifest_track_count": 5,
+    "manifest_song_id_order_matches_note": true,
+    "analysis_and_listening_cue_minimum_lengths_satisfied": true,
+    "validator_execution": "not_run_locally"
+  }
+}
