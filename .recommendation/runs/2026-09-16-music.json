@@ -5,6 +5,9 @@
   "candidate_count": 20,
   "duplicate_rejections": 0,
   "duplicate_rejection_notes": [],
+  "repair_notes": [
+    "Apple Music China credits song_id 1444982808 to artist Utada. The manifest and note were repaired to the exact verified artist credit. The earlier same-run alias key 宇多田光::Be My Last (Remastered 2018) remains in both history states so no recorded history entry is deleted; the corrected canonical Utada::Be My Last (Remastered 2018) is also permanently blocked."
+  ],
   "storefront_verification": {
     "status": "passed",
     "required_storefront": "cn",
@@ -13,7 +16,7 @@
     "tracks": [
       {"canonical_id":"王力宏::白纸","song_id":"552898139","url":"https://music.apple.com/cn/song/552898139","storefront":"cn"},
       {"canonical_id":"David Bowie::Space Oddity (US Mono Single Edit) [2009 Remaster]","song_id":"1451618843","url":"https://music.apple.com/cn/song/1451618843","storefront":"cn"},
-      {"canonical_id":"宇多田光::Be My Last (Remastered 2018)","song_id":"1444982808","url":"https://music.apple.com/cn/song/1444982808","storefront":"cn"},
+      {"canonical_id":"Utada::Be My Last (Remastered 2018)","song_id":"1444982808","url":"https://music.apple.com/cn/song/1444982808","storefront":"cn"},
       {"canonical_id":"杨乃文::一个人 (feat. 伍佰) [Live]","song_id":"996894158","url":"https://music.apple.com/cn/song/996894158","storefront":"cn"},
       {"canonical_id":"Tame Impala::The Less I Know the Better (Mixed)","song_id":"1666403852","url":"https://music.apple.com/cn/song/1666403852","storefront":"cn"}
     ]
@@ -34,9 +37,9 @@
   "cross_repo_consistency": {
     "status": "passed",
     "manifests_identical": true,
-    "manifest_blob_sha": "53ca6b7dadb457e838f1d792f2dd319a2b121d6d",
+    "manifest_blob_sha": "7a672e648529aa290ace44f78f43f217d29e5b0d",
     "state_files_identical": true,
-    "state_blob_sha": "7ca09288c87ef57c243e028da3ae324b90b6778d"
+    "state_blob_sha": "5f16266008a56286b33bde250134648f51f98be1"
   },
   "readback_status": {
     "status": "passed",
@@ -49,7 +52,7 @@
     "unique_canonical_ids": 5,
     "preexisting_history_conflicts": 0,
     "historical_count_before": 65,
-    "historical_count_after": 70,
+    "historical_count_after": 71,
     "song_id_order_matches_note_and_manifests": true,
     "all_required_editorial_fields_complete": true
   },
