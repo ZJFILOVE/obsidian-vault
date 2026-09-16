@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-16",
+  "workflow": "news-youtube-reddit",
+  "policy_version": 2,
+  "candidate_counts": {
+    "news_evaluated": 18,
+    "youtube": 31,
+    "reddit": 44
+  },
+  "rejected_duplicates": {
+    "youtube_exact_id": 1,
+    "youtube_semantic_same_work": 1,
+    "reddit_exact_post_id": 3,
+    "reddit_semantic": 0
+  },
+  "selected_counts": {
+    "news": 4,
+    "youtube": 5,
+    "reddit": 10
+  },
+  "youtube_selected": [
+    {"video_id": "7muPttN8GRU", "title": "How Semiconductor Yields Vastly Improved", "channel": "Asianometry"},
+    {"video_id": "v5DqmTtCPiQ", "title": "Who’s Afraid of Modern Art: Vandalism, Video Games, and Fascism", "channel": "Jacob Geller"},
+    {"video_id": "PS6SBnccxMA", "title": "DOOM Documentary: Part 1 — To Hell & Back", "channel": "Noclip", "wildcard": true},
+    {"video_id": "VS46DZe5usY", "title": "Relativity Isn’t Relative", "channel": "minutephysics"},
+    {"video_id": "LOCBWh5Iwm4", "title": "Caesar in Britain (55 B.C.E.)", "channel": "Historia Civilis"}
+  ],
+  "reddit_selected": [
+    {"post_id": "1uvyr9l", "subreddit": "AskPhysics"},
+    {"post_id": "1vb7h8v", "subreddit": "labrats"},
+    {"post_id": "1kyhh3b", "subreddit": "MechanicalEngineering"},
+    {"post_id": "1turw29", "subreddit": "cinematography", "wildcard": true},
+    {"post_id": "1udkc0c", "subreddit": "languagelearning"},
+    {"post_id": "l35jko", "subreddit": "conlangs", "wildcard": true},
+    {"post_id": "1k7n546", "subreddit": "selfhosted"},
+    {"post_id": "1l5ty65", "subreddit": "dataengineering"},
+    {"post_id": "14xxceo", "subreddit": "Velo"},
+    {"post_id": "ep7tak", "subreddit": "woodworking", "wildcard": true}
+  ],
+  "link_verification": {
+    "news_source_links_verified": true,
+    "youtube_final_urls_verified": 5,
+    "reddit_final_urls_verified": 10,
+    "dead_links": 0,
+    "unverified_final_links": 0
+  },
+  "dedup_qa": {
+    "youtube_selected_exact_history_duplicates": 0,
+    "youtube_selected_semantic_or_mirror_duplicates": 0,
+    "reddit_selected_exact_history_duplicates": 0
+  },
+  "diversity": {
+    "youtube_pass": true,
+    "youtube_max_narrow_topic_fraction": 0.20,
+    "youtube_recent_creator_cooldown_pass": true,
+    "youtube_wildcard_count": 1,
+    "reddit_pass": true,
+    "reddit_max_narrow_topic_fraction": 0.10,
+    "reddit_wildcard_or_expansion_count": 3
+  },
+  "readback": {
+    "news_file": true,
+    "youtube_file": true,
+    "reddit_file": true,
+    "youtube_exactly_5": true,
+    "reddit_exactly_10": true,
+    "required_sections_present": true,
+    "user_notes_preserved": true,
+    "passed": true
+  },
+  "history_updated_after_readback": {
+    "youtube": true,
+    "reddit": true
+  },
+  "result": "pass"
+}
