@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-17",
+  "workflow": "english-weekday",
+  "candidate_count": 10,
+  "duplicate_rejections": 0,
+  "recent_similarity_rejections": 2,
+  "candidates_considered": [
+    "IMF F&D — How Animal Spirits Affect the Economy",
+    "IMF F&D — Uncertainty about Uncertainty",
+    "APA — Think that conversation will be boring? Science says think again",
+    "APA — When you stumble, laughter beats embarrassment",
+    "Smithsonian — Why Does Laughter Have Such a Strange Power Over Us?",
+    "National Geographic — Did Mount Vesuvius’ ash cloud really transform a brain into glass?",
+    "National Geographic — 4 Everyday Items Einstein Helped Create",
+    "PBS Eons — When Our Culture Changed Our DNA",
+    "PBS Eons — When Humans Were Prey",
+    "The Met — Mokume-gane"
+  ],
+  "selected": {
+    "title": "How Animal Spirits Affect the Economy",
+    "source": "IMF Finance & Development",
+    "url": "https://www.imf.org/en/publications/fandd/issues/2025/03/how-animal-spirits-affect-the-economy-karthik-sastry",
+    "topic": "narrative economics, sentiment, and business cycles",
+    "estimated_source_minutes": "8-10"
+  },
+  "source_verification": {
+    "status": "passed",
+    "method": "public web open/read",
+    "http_access": "working page",
+    "verified_title": "How Animal Spirits Affect the Economy",
+    "verified_publisher": "IMF Finance & Development",
+    "verified_date": "March 2025"
+  },
+  "topic_diversity": {
+    "status": "passed",
+    "recent_topics": [
+      "dreams and sleep",
+      "possible speech sounds",
+      "coffee history",
+      "atomic clocks and scientific measurement",
+      "impermanent cities and urban design"
+    ],
+    "selected_topic": "economics and the role of narratives in business decisions",
+    "notes": "Selected an economics/social-science reading after recent history, physics, language, psychology, and urban-design material. Candidates close to the recent technical-measurement theme were deprioritized."
+  },
+  "readback": {
+    "status": "passed",
+    "daily": {
+      "path": "50-courses/English/Daily/2026-09-17.md",
+      "source_url_present": true,
+      "expected_sections_present": true,
+      "cross_links_present": true,
+      "comprehension_output_questions": 3
+    },
+    "translation": {
+      "path": "50-courses/English/Translation/2026-09-17.md",
+      "substantial_exercises": 2,
+      "folded_answer_callouts_present": true,
+      "precision_rewrite_present": true,
+      "spaced_review_present": true,
+      "cross_links_present": true
+    },
+    "vocabulary": {
+      "path": "50-courses/English/Vocabulary/2026-09-17.md",
+      "vocabulary_items": 9,
+      "retrieval_quiz_present": true,
+      "cross_links_present": true
+    }
+  }
+}
