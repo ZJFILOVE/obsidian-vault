@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-17",
+  "type": "music-daily",
+  "provider": "apple_music",
+  "candidate_count": 24,
+  "duplicate_rejections": {
+    "permanent_canonical": 0,
+    "same_work_or_substitution": 0,
+    "note": "Final five were checked against both pre-run history states; none of their canonical IDs existed before this run. Existing historical entries, including repaired/removed selections, were retained."
+  },
+  "storefront_verification": {
+    "status": "passed",
+    "storefront": "cn",
+    "direct_song_resources": [
+      {"position":1,"song_id":"159835554","url":"https://music.apple.com/cn/song/159835554","verified":true},
+      {"position":2,"song_id":"1215424074","url":"https://music.apple.com/cn/song/1215424074","verified":true},
+      {"position":3,"song_id":"1808898128","url":"https://music.apple.com/cn/song/1808898128","verified":true},
+      {"position":4,"song_id":"1452374025","url":"https://music.apple.com/cn/song/1452374025","verified":true},
+      {"position":5,"song_id":"1687563654","url":"https://music.apple.com/cn/song/1687563654","verified":true}
+    ]
+  },
+  "diversity": {
+    "status": "passed",
+    "artist_cooldown_conflicts": 0,
+    "languages_and_formats": ["Mandarin pop", "English soul/R&B", "Mandarin indie rock/new wave", "instrumental classical piano", "instrumental/electronic DJ mix"],
+    "eras": ["1990s", "2000s", "2010s", "2020s"],
+    "production_density": ["voice-forward studio pop", "deep sparse groove", "dense band/electronic rock", "solo acoustic piano", "continuous electronic mix"]
+  },
+  "wildcard": {
+    "status": "passed",
+    "position": 5,
+    "canonical_id": "Kraftwerk & Der Zyklus::Computer Love / Formenverwandler (Mixed)",
+    "reason": "Expansion into DJ-mix/electro listening logic rather than another conventional standalone pop song."
+  },
+  "cross_repo_consistency": {
+    "status": "passed",
+    "main_manifest_matches_obsidian_manifest": true,
+    "state_files_match": true,
+    "song_id_order_matches_note": true,
+    "manifest_song_ids": ["159835554","1215424074","1808898128","1452374025","1687563654"]
+  },
+  "readback_status": {
+    "status": "passed",
+    "main_manifest": true,
+    "obsidian_manifest": true,
+    "obsidian_note": true,
+    "music_daily_state": true,
+    "obsidian_state": true,
+    "track_count": 5,
+    "unique_canonical_ids": 5,
+    "state_canonical_id_count": 76
+  },
+  "repository_validation": {
+    "repository": "ZJFILOVE/music-daily",
+    "workflow": "validate",
+    "run_number": 44,
+    "head_sha": "cc8607ef99a48c0cd5270487a3d8f994f9fc25ab",
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "qa_status": "passed"
+}
