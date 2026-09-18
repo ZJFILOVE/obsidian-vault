@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-18",
+  "workflow": "music-daily",
+  "provider": "apple_music",
+  "candidate_count": 22,
+  "duplicate_rejections": 1,
+  "duplicate_rejection_ids": [
+    "The Cranberries::Dreams"
+  ],
+  "storefront_verification": {
+    "required_storefront": "cn",
+    "hard_gate": true,
+    "verified_final_count": 5,
+    "verified_song_ids": [
+      "1080244092",
+      "1440762757",
+      "1498700482",
+      "1861300688",
+      "203258554"
+    ],
+    "all_final_urls_are_direct_cn_song_resources": true,
+    "url_song_id_match": true,
+    "rejected_unverified_candidates": [
+      "JOLIN蔡依林::我知道你很难过",
+      "Bon Iver::Holocene",
+      "M83::Midnight City",
+      "Beach House::Space Song",
+      "Fiona Apple::Paper Bag",
+      "Talking Heads::This Must Be the Place (Naive Melody)",
+      "Depeche Mode::Enjoy the Silence",
+      "Björk::Jóga"
+    ]
+  },
+  "diversity": {
+    "artist_cooldown_days": 7,
+    "artist_cooldown_conflicts": 0,
+    "languages_or_vocal_modes": [
+      "Mandarin Chinese",
+      "English",
+      "instrumental"
+    ],
+    "eras": [
+      "1960s",
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "styles": [
+      "Mandopop/rock",
+      "soul",
+      "film score",
+      "alternative/art pop",
+      "minimalism"
+    ],
+    "wildcard": {
+      "position": 5,
+      "canonical_id": "菲利普・格拉斯, 格拉斯合奏团 & 迈克尔・里斯曼::Opening",
+      "result": "passed",
+      "reason": "Expands beyond conventional vocal-song structure into minimalist pulse, repetition and harmonic micro-change."
+    },
+    "result": "passed"
+  },
+  "cross_repo_consistency": {
+    "main_manifest_matches_obsidian_manifest": true,
+    "main_manifest_blob_sha": "e2ad0074519697a2f402427996a212b3831f8290",
+    "obsidian_manifest_blob_sha": "e2ad0074519697a2f402427996a212b3831f8290",
+    "main_state_matches_obsidian_state": true,
+    "main_state_blob_sha": "41a179f58f27ba1091bd9df1d01403327fedc90c",
+    "obsidian_state_blob_sha": "41a179f58f27ba1091bd9df1d01403327fedc90c",
+    "song_id_order_matches_note": true,
+    "result": "passed"
+  },
+  "readback": {
+    "main_manifest": "passed",
+    "obsidian_manifest": "passed",
+    "obsidian_note": "passed",
+    "main_state": "passed",
+    "obsidian_state": "passed",
+    "exact_track_count": 5,
+    "unique_canonical_ids": 5,
+    "pre_run_history_collisions": 0,
+    "all_required_editorial_fields_complete": true,
+    "all_historical_ids_retained": true,
+    "accumulated_state_id_count": 81,
+    "status": "passed"
+  },
+  "repository_validation": {
+    "workflow": "validate",
+    "run_number": 46,
+    "head_sha": "d29483fdb8115c98f94a6926c54141e779a86a86",
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "status": "passed"
+}
