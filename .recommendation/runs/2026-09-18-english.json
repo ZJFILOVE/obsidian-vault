@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-18",
+  "weekday": "Friday",
+  "candidate_count": 8,
+  "duplicate_rejections": 0,
+  "candidates": [
+    {
+      "title": "Spotlight: Keeping Culture Alive",
+      "source": "The Metropolitan Museum of Art",
+      "topic": "cultural heritage, museums, displacement",
+      "url": "https://www.metmuseum.org/perspectives/assyrian-reliefs-keeping-culture-alive"
+    },
+    {
+      "title": "10 Things Einstein Got Right",
+      "source": "NASA Science",
+      "topic": "relativity and astronomy",
+      "url": "https://science.nasa.gov/universe/10-things-einstein-got-right/"
+    },
+    {
+      "title": "What is vertical migration of zooplankton and why does it matter?",
+      "source": "NOAA Ocean Exploration",
+      "topic": "marine ecology and animal behavior",
+      "url": "https://oceanexplorer.noaa.gov/ocean-fact/vertical-migration/"
+    },
+    {
+      "title": "The Blind Zone of Earthquake Early Warning",
+      "source": "U.S. Geological Survey",
+      "topic": "earthquake warning and risk communication",
+      "url": "https://www.usgs.gov/programs/earthquake-hazards/science/blind-zone-earthquake-early-warning"
+    },
+    {
+      "title": "Perpetual Moonlight May Be Disrupting Animals’ Life Cycles",
+      "source": "U.S. National Park Service",
+      "topic": "light pollution and wildlife",
+      "url": "https://home.nps.gov/articles/000/psv39n2rr_perpetual-moonlight-may-be-disrupting-animals-life-cycles.htm"
+    },
+    {
+      "title": "Why Fire Makes Us Human",
+      "source": "Smithsonian Magazine",
+      "topic": "human evolution and cooking",
+      "url": "https://www.smithsonianmag.com/science-nature/why-fire-makes-us-human-72989884/"
+    },
+    {
+      "title": "Teens’ Experiences on TikTok, Instagram and Snapchat",
+      "source": "Pew Research Center",
+      "topic": "social media and teen experience",
+      "url": "https://www.pewresearch.org/internet/2026/04/15/teens-experiences-on-tiktok-instagram-and-snapchat/"
+    },
+    {
+      "title": "Jive: Vocabulary as Style",
+      "source": "The Metropolitan Museum of Art",
+      "topic": "language, style, and Black cultural history",
+      "url": "https://www.metmuseum.org/perspectives/jive-vocabulary-as-style"
+    }
+  ],
+  "selected": {
+    "title": "Spotlight: Keeping Culture Alive",
+    "source": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/perspectives/assyrian-reliefs-keeping-culture-alive",
+    "reason": "High-quality authentic spoken humanities English with a transcript, clear topic separation from the previous week's dreams, phonetics, coffee history, atomic clocks, temporary architecture, and economics topics, and strong reusable language for description, qualification, interpretation, and comparison."
+  },
+  "source_verification": {
+    "status": "passed",
+    "checked_on": "2026-09-18",
+    "direct_url_accessible": true,
+    "publisher_page": true,
+    "transcript_or_page_text_present": true
+  },
+  "topic_diversity": {
+    "status": "passed",
+    "recent_topics_checked": [
+      "dreams and sleep",
+      "phonetics and language sounds",
+      "coffee and social history",
+      "atomic clocks and metrology",
+      "impermanent architecture",
+      "narrative economics"
+    ],
+    "selected_topic": "cultural heritage, museum context, displacement, and identity",
+    "narrow_topic_repeat_within_7_days": false
+  },
+  "readback": {
+    "status": "passed",
+    "daily": {
+      "source_url": true,
+      "expected_sections": true,
+      "cross_links": true,
+      "questions": 3,
+      "output_or_shadowing_task": true
+    },
+    "translation": {
+      "substantial_exercises": 2,
+      "independent_from_source": true,
+      "folded_answers": true,
+      "structures_and_collocations": true,
+      "transfer_errors": true,
+      "precision_or_rewrite": true,
+      "spaced_review": 2,
+      "cross_links": true
+    },
+    "vocabulary": {
+      "item_count": 9,
+      "within_required_range": true,
+      "retrieval_quiz": true,
+      "cross_links": true
+    }
+  }
+}
