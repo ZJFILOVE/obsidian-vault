@@ -1,0 +1,94 @@
+{
+  "date": "2026-09-19",
+  "status": "passed",
+  "candidate_count": 25,
+  "duplicate_rejections": {
+    "canonical_history": 0,
+    "semantic": 0
+  },
+  "storefront_verification": {
+    "storefront": "cn",
+    "hard_gate": true,
+    "verified_final_tracks": 5,
+    "direct_song_resources": 5,
+    "url_song_id_match": 5,
+    "rejected_unresolved_cn": 2,
+    "rejected_candidates": [
+      "Slipknot::Surfacing",
+      "区瑞强::星"
+    ]
+  },
+  "diversity_wildcard_result": {
+    "passed": true,
+    "artist_cooldown_days": 7,
+    "artist_cooldown_conflicts": 0,
+    "wildcard_count": 1,
+    "wildcard": "Nusrat Fateh Ali Khan::Shahbaaz Qalandar",
+    "coverage": [
+      "粤语流行",
+      "1970s soul",
+      "live rock with orchestra",
+      "1980s electronic/cross-cultural rhythm",
+      "live qawwali"
+    ]
+  },
+  "cross_repo_consistency": {
+    "passed": true,
+    "main_manifest": "ZJFILOVE/music-daily/recommendations/2026/09/2026-09-19.json",
+    "obsidian_manifest": "ZJFILOVE/obsidian-vault/Music/Daily/manifests/2026-09-19.json",
+    "manifest_content_sha": "2d2999277022bc329e15ce43477453edc5e8fc21",
+    "main_state": "ZJFILOVE/music-daily/state/tracks.json",
+    "obsidian_state": "ZJFILOVE/obsidian-vault/Music/Daily/state/tracks.json",
+    "state_content_sha": "95997af8fd38873b33ea303095deb9027cfc5887"
+  },
+  "readback_status": {
+    "passed": true,
+    "main_manifest": true,
+    "obsidian_manifest": true,
+    "obsidian_note": true,
+    "main_state": true,
+    "obsidian_state": true,
+    "track_count": 5,
+    "unique_canonical_ids": 5,
+    "preexisting_final_canonical_ids": 0,
+    "manifest_note_song_id_order_match": true,
+    "all_direct_cn_song_urls": true,
+    "complete_album_analysis_listening_cue": true,
+    "historical_ids_preserved": true
+  },
+  "repository_validation": {
+    "passed": true,
+    "workflow": "validate",
+    "run_number": 48,
+    "run_id": 35412731492,
+    "head_sha": "190092e76a615dfbb28bcc2de12a4f5eb6ddcbac",
+    "conclusion": "success"
+  },
+  "final_tracks": [
+    {
+      "position": 1,
+      "canonical_id": "陈奕迅::富士山下",
+      "song_id": "1720091290"
+    },
+    {
+      "position": 2,
+      "canonical_id": "Aretha Franklin::Day Dreaming",
+      "song_id": "934216882"
+    },
+    {
+      "position": 3,
+      "canonical_id": "Metallica::Nothing Else Matters (Live)",
+      "song_id": "1440875870"
+    },
+    {
+      "position": 4,
+      "canonical_id": "坂本龙一::NEO GEO",
+      "song_id": "1539160973"
+    },
+    {
+      "position": 5,
+      "canonical_id": "Nusrat Fateh Ali Khan::Shahbaaz Qalandar",
+      "song_id": "1653591757"
+    }
+  ]
+}
