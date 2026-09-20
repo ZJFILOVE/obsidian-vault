@@ -1,0 +1,94 @@
+{
+  "date": "2026-09-20",
+  "status": "passed",
+  "candidate_count": 25,
+  "duplicate_rejections": {
+    "canonical_history": 0,
+    "semantic": 0
+  },
+  "storefront_verification": {
+    "storefront": "cn",
+    "hard_gate": true,
+    "verified_final_tracks": 5,
+    "direct_song_resources": 5,
+    "url_song_id_match": 5,
+    "rejected_unresolved_cn": 1,
+    "rejected_candidates": [
+      "张惠妹::寂寞保龄球"
+    ]
+  },
+  "diversity_wildcard_result": {
+    "passed": true,
+    "artist_cooldown_days": 7,
+    "artist_cooldown_conflicts": 0,
+    "wildcard_count": 1,
+    "wildcard": "Rebecca Hirsch, 阿尔斯特管弦乐团, Takuo Yuasa, Lesley Hatfield & Leslie Hatfield::Tabula Rasa: Ludus",
+    "coverage": [
+      "2000-era Mandopop",
+      "1980s new wave/art rock remaster",
+      "1950s solo jazz piano",
+      "acoustic alternate take/remaster",
+      "contemporary classical/minimalist expansion"
+    ]
+  },
+  "cross_repo_consistency": {
+    "passed": true,
+    "main_manifest": "ZJFILOVE/music-daily/recommendations/2026/09/2026-09-20.json",
+    "obsidian_manifest": "ZJFILOVE/obsidian-vault/Music/Daily/manifests/2026-09-20.json",
+    "manifest_content_sha": "03cf1cc76eebfd74b0342fb74a8c1e616942c737",
+    "main_state": "ZJFILOVE/music-daily/state/tracks.json",
+    "obsidian_state": "ZJFILOVE/obsidian-vault/Music/Daily/state/tracks.json",
+    "state_content_sha": "d67ee20e3e4d00c2e859d8b98800d32414856fc8"
+  },
+  "readback_status": {
+    "passed": true,
+    "main_manifest": true,
+    "obsidian_manifest": true,
+    "obsidian_note": true,
+    "main_state": true,
+    "obsidian_state": true,
+    "track_count": 5,
+    "unique_canonical_ids": 5,
+    "preexisting_final_canonical_ids": 0,
+    "manifest_note_song_id_order_match": true,
+    "all_direct_cn_song_urls": true,
+    "complete_album_analysis_listening_cue": true,
+    "historical_ids_preserved": true,
+    "state_files_identical": true
+  },
+  "repository_validation": {
+    "passed": true,
+    "workflow": "validate",
+    "run_number": 50,
+    "run_id": 35480015863,
+    "head_sha": "96a42bc3ebdec618baea1671482b45f3a5cae55e",
+    "conclusion": "success"
+  },
+  "final_tracks": [
+    {
+      "position": 1,
+      "canonical_id": "张惠妹::纯真年代",
+      "song_id": "1854813610"
+    },
+    {
+      "position": 2,
+      "canonical_id": "Talking Heads::Radio Head (2005 Remaster)",
+      "song_id": "726289927"
+    },
+    {
+      "position": 3,
+      "canonical_id": "Thelonious Monk::'Round Midnight",
+      "song_id": "1412801356"
+    },
+    {
+      "position": 4,
+      "canonical_id": "The Beatles::Blackbird (Take 4 - Remastered)",
+      "song_id": "1834472875"
+    },
+    {
+      "position": 5,
+      "canonical_id": "Rebecca Hirsch, 阿尔斯特管弦乐团, Takuo Yuasa, Lesley Hatfield & Leslie Hatfield::Tabula Rasa: Ludus",
+      "song_id": "536374634"
+    }
+  ]
+}
