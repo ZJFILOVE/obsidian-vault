@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-21",
+  "workflow": "apple-music-daily-5",
+  "candidate_count": 18,
+  "history": {
+    "pre_run_canonical_count": 91,
+    "post_run_canonical_count": 96,
+    "permanent_history_preserved": true,
+    "new_canonical_ids": [
+      "王菲::冷战",
+      "Marvin Gaye::What's Going On",
+      "Herbie Hancock::Cantaloupe Island",
+      "PJ Harvey::Down by the Water",
+      "布莱恩・伊诺::An Ending (Ascent)"
+    ]
+  },
+  "duplicate_rejections": {
+    "exact_history": 0,
+    "semantic": 0,
+    "artist_cooldown": 0,
+    "final_tracks_preexisting_in_history": 0
+  },
+  "storefront_verification": {
+    "status": "passed",
+    "storefront": "cn",
+    "final_verified_count": 5,
+    "all_direct_song_urls": true,
+    "song_id_url_match": true,
+    "rejected_unverified_candidates": [
+      "Björk::Jóga",
+      "Buena Vista Social Club::Chan Chan",
+      "Stevie Wonder::As",
+      "Nina Simone::Sinnerman",
+      "Joni Mitchell::Both Sides Now"
+    ]
+  },
+  "diversity": {
+    "status": "passed",
+    "artist_cooldown_conflicts": 0,
+    "languages": ["Chinese", "English", "instrumental"],
+    "styles": ["Mandopop/Cantopop-era art pop", "soul", "jazz", "alternative/art rock", "ambient"],
+    "production_range": ["sparse studio pop", "layered soul studio production", "small-combo jazz", "dark alternative rock", "ambient synthesis"],
+    "wildcard_count": 1,
+    "wildcard_canonical_id": "布莱恩・伊诺::An Ending (Ascent)"
+  },
+  "cross_repo_consistency": {
+    "status": "passed",
+    "manifests_match": true,
+    "manifest_content_sha": "125ab7faf9a2fd4c08812b1bffc57686f65a1e4d",
+    "same_track_order": true,
+    "same_song_ids": true,
+    "state_files_match": true,
+    "state_content_sha": "3bb9dd54d813b1e59584dd5eb8fc2c3d1f90d780"
+  },
+  "readback": {
+    "status": "passed",
+    "exactly_five_tracks": true,
+    "unique_canonical_ids": true,
+    "cn_direct_urls": true,
+    "complete_album_analysis_and_listening_cue": true,
+    "note_matches_manifest_order_and_song_ids": true,
+    "history_contains_all_new_ids": true,
+    "files_checked": [
+      "ZJFILOVE/music-daily/recommendations/2026/09/2026-09-21.json",
+      "ZJFILOVE/music-daily/state/tracks.json",
+      "ZJFILOVE/obsidian-vault/Music/Daily/manifests/2026-09-21.json",
+      "ZJFILOVE/obsidian-vault/Music/Daily/2026-09-21.md",
+      "ZJFILOVE/obsidian-vault/Music/Daily/state/tracks.json"
+    ]
+  },
+  "repository_validation": {
+    "status": "passed",
+    "repository": "ZJFILOVE/music-daily",
+    "workflow": "validate",
+    "run_number": 52,
+    "run_id": 35550085095,
+    "head_sha": "2c6e40680123843b8109e37e16aef52dc0b301bf",
+    "conclusion": "success"
+  }
+}
