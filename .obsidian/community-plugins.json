@@ -4,5 +4,6 @@
   "dataview",
   "obsidian-media-db-plugin",
   "templater-obsidian",
-  "quickadd"
+  "quickadd",
+  "obsidian-excalidraw-plugin"
 ]
