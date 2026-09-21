@@ -1,0 +1,129 @@
+{
+  "date": "2026-09-21",
+  "weekday": "Monday",
+  "candidate_count": 10,
+  "duplicate_rejections": 0,
+  "candidates": [
+    {
+      "title": "Protecting Tranquility in a Bright, Noisy World",
+      "source": "U.S. National Park Service",
+      "url": "https://www.nps.gov/articles/000/protecting-tranquility-in-a-bright-noisy-world.htm",
+      "topic": "noise and light pollution / environmental management",
+      "selected": true
+    },
+    {
+      "title": "Five Reasons Seamounts Matter",
+      "source": "NOAA National Marine Sanctuaries",
+      "url": "https://sanctuaries.noaa.gov/news/2025/reasons-seamounts-matter.html",
+      "topic": "deep-sea ecology",
+      "selected": false
+    },
+    {
+      "title": "Earth and Moon Once Shared a Magnetic Shield, Protecting Their Atmospheres",
+      "source": "NASA",
+      "url": "https://www.nasa.gov/solar-system/earth-and-moon-once-shared-a-magnetic-shield-protecting-their-atmospheres/",
+      "topic": "planetary science",
+      "selected": false
+    },
+    {
+      "title": "Narcissists more likely to feel ostracized",
+      "source": "American Psychological Association",
+      "url": "https://www.apa.org/news/press/releases/2025/02/narcissists-feel-ostracized",
+      "topic": "social psychology",
+      "selected": false
+    },
+    {
+      "title": "Retiring abroad puts older adults at risk for loneliness, study finds",
+      "source": "American Psychological Association",
+      "url": "https://www.apa.org/news/press/releases/2025/03/retiring-abroad-loneliness",
+      "topic": "migration and social connection",
+      "selected": false
+    },
+    {
+      "title": "Working Out to Stay Sharp",
+      "source": "NIH News in Health",
+      "url": "https://newsinhealth.nih.gov/2025/01/working-out-stay-sharp",
+      "topic": "exercise and brain health",
+      "selected": false
+    },
+    {
+      "title": "Most adults across 24 countries are online at least several times a day",
+      "source": "Pew Research Center",
+      "url": "https://www.pewresearch.org/short-reads/2025/09/08/most-adults-across-24-countries-are-online-at-least-several-times-a-day/",
+      "topic": "technology use and demographics",
+      "selected": false
+    },
+    {
+      "title": "Everyday Mysteries",
+      "source": "Library of Congress",
+      "url": "https://www.loc.gov/everyday-mysteries/",
+      "topic": "everyday science and scientific inquiry",
+      "selected": false
+    },
+    {
+      "title": "How much plastic waste ends up in the ocean?",
+      "source": "Our World in Data",
+      "url": "https://ourworldindata.org/how-much-plastic-waste-ends-up-in-the-ocean",
+      "topic": "plastic waste and environmental data",
+      "selected": false
+    },
+    {
+      "title": "Natural Sounds and Night Skies",
+      "source": "U.S. National Park Service",
+      "url": "https://www.nps.gov/articles/natural-sounds-and-night-skies.htm",
+      "topic": "natural soundscapes and dark skies",
+      "selected": false
+    }
+  ],
+  "source_verification": {
+    "status": "passed",
+    "url": "https://www.nps.gov/articles/000/protecting-tranquility-in-a-bright-noisy-world.htm",
+    "direct_page_fetch": true,
+    "title_matched": true,
+    "content_available": true,
+    "checked_date": "2026-09-21"
+  },
+  "topic_diversity": {
+    "status": "passed",
+    "selected_topic": "noise and light pollution / environmental management",
+    "narrow_topic_repeat_within_7_days": false,
+    "recent_topics_avoided": [
+      "coffee and global history",
+      "atomic clocks and measurement science",
+      "impermanent cities and architecture",
+      "animal spirits and macroeconomics",
+      "museum heritage and displacement"
+    ],
+    "candidate_topics": [
+      "environmental management",
+      "deep-sea ecology",
+      "planetary science",
+      "social psychology",
+      "migration and social connection",
+      "exercise and brain health",
+      "technology use and demographics",
+      "everyday science",
+      "plastic waste",
+      "natural soundscapes"
+    ]
+  },
+  "readback": {
+    "status": "passed",
+    "files": {
+      "daily": "50-courses/English/Daily/2026-09-21.md",
+      "translation": "50-courses/English/Translation/2026-09-21.md",
+      "vocabulary": "50-courses/English/Vocabulary/2026-09-21.md"
+    },
+    "checks": {
+      "source_url_present": true,
+      "expected_daily_sections_present": true,
+      "cross_links_present_in_all_three": true,
+      "translation_substantial_exercise_count": 2,
+      "translation_answers_folded": true,
+      "spaced_review_present": true,
+      "vocabulary_count": 9,
+      "vocabulary_retrieval_quiz_present": true,
+      "notes_section_preserved": true
+    }
+  }
+}
