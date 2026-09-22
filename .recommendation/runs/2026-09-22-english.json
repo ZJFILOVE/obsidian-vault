@@ -1,0 +1,77 @@
+{
+  "date": "2026-09-22",
+  "workflow": "english",
+  "weekday": "Tuesday",
+  "candidate_count": 10,
+  "candidate_pool": [
+    {"title": "FTC, ICPEN, GPEN Announce Results of Review of Use of Dark Patterns Affecting Subscription Services, Privacy", "topic": "digital consumer protection / choice architecture", "source": "FTC"},
+    {"title": "Astronaut Exercise", "topic": "spaceflight physiology / exercise", "source": "NASA"},
+    {"title": "Rip Current Science", "topic": "ocean safety / physical oceanography", "source": "NOAA"},
+    {"title": "Antimicrobial resistance", "topic": "global public health", "source": "WHO"},
+    {"title": "Inside the mind of a master procrastinator", "topic": "behavior / procrastination", "source": "TED"},
+    {"title": "The Daguerreotype Medium", "topic": "history of photography", "source": "Library of Congress"},
+    {"title": "The Science of Earthquakes", "topic": "earth science / measurement", "source": "USGS"},
+    {"title": "Analyze a Photograph", "topic": "historical evidence / visual literacy", "source": "National Archives"},
+    {"title": "How the Brain Creates New Memories While Maintaining Old Ones", "topic": "memory / neuroscience", "source": "NIMH"},
+    {"title": "How Air Traffic Works", "topic": "aviation operations / systems", "source": "FAA"}
+  ],
+  "selected_source": {
+    "title": "FTC, ICPEN, GPEN Announce Results of Review of Use of Dark Patterns Affecting Subscription Services, Privacy",
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2024/07/ftc-icpen-gpen-announce-results-review-use-dark-patterns-affecting-subscription-services-privacy",
+    "source": "U.S. Federal Trade Commission",
+    "source_type": "government press release / review summary",
+    "estimated_source_time": "5-7 minutes"
+  },
+  "duplicate_rejections": {
+    "exact_url_history_matches": 0,
+    "recent_topic_similarity_rejections": 3,
+    "notes": [
+      "History contained no exact match for the selected FTC URL.",
+      "Photography / historical-evidence candidates were down-ranked because the 2026-09-18 input was already museum/cultural-interpretation focused.",
+      "Earthquake-measurement material was down-ranked because measurement-science English had recently appeared in the 2026-09-15 atomic-clock lesson."
+    ]
+  },
+  "source_verification": {
+    "status": "passed",
+    "checked_date": "2026-09-22",
+    "direct_url_opened": true,
+    "publisher": "U.S. Federal Trade Commission",
+    "content_checks": [
+      "page accessible",
+      "review scope identifies 642 selected websites and apps",
+      "percentages reported for reviewed services",
+      "article explicitly states no determination that identified practices were unlawful"
+    ]
+  },
+  "topic_diversity": {
+    "status": "passed",
+    "selected_topic": "digital interfaces, subscription services, privacy, and consumer protection",
+    "recent_topics_avoided": [
+      "noise/light pollution and park management",
+      "museum heritage and interpretation",
+      "macroeconomic animal spirits",
+      "impermanent architecture",
+      "atomic clocks and measurement"
+    ]
+  },
+  "readback": {
+    "status": "passed",
+    "files_checked": [
+      "50-courses/English/Daily/2026-09-22.md",
+      "50-courses/English/Translation/2026-09-22.md",
+      "50-courses/English/Vocabulary/2026-09-22.md"
+    ],
+    "checks": {
+      "daily_source_url_present": true,
+      "daily_required_sections_present": true,
+      "daily_three_questions_present": true,
+      "cross_links_present": true,
+      "translation_substantial_exercise_count": 2,
+      "translation_folded_answers_present": true,
+      "translation_independent_of_source": true,
+      "spaced_review_present": true,
+      "vocabulary_count": 9,
+      "vocabulary_retrieval_quiz_present": true
+    }
+  }
+}
