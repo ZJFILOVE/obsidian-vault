@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-22",
+  "workflow": "music-daily",
+  "provider": "apple_music",
+  "candidate_count": 24,
+  "duplicate_rejections": 0,
+  "history": {
+    "pre_run_canonical_count": 96,
+    "post_run_canonical_count": 101,
+    "final_tracks_previously_present": 0,
+    "permanent_history_preserved": true
+  },
+  "storefront_verification": {
+    "storefront": "cn",
+    "direct_song_url_required": true,
+    "verified_final_count": 5,
+    "unverified_candidates_rejected": 15,
+    "verified_song_ids": [
+      "1071753633",
+      "1046187586",
+      "1438430509",
+      "281116081",
+      "1541673399"
+    ],
+    "all_final_urls_are_direct_cn_song_resources": true,
+    "url_song_id_match": true,
+    "status": "passed"
+  },
+  "diversity": {
+    "artist_cooldown_days": 7,
+    "artist_cooldown_conflicts": 0,
+    "languages_or_vocal_modes": [
+      "Mandarin Chinese",
+      "English",
+      "Portuguese",
+      "Instrumental",
+      "Japanese"
+    ],
+    "eras": [
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "wildcard": {
+      "position": 4,
+      "canonical_id": "Boards of Canada::Roygbiv",
+      "reason": "instrumental IDM/electronic expansion centered on synthesis, tape coloration and texture rather than vocal songwriting"
+    },
+    "status": "passed"
+  },
+  "cross_repo_consistency": {
+    "manifest_match": true,
+    "state_match": true,
+    "song_id_order_match": true,
+    "status": "passed"
+  },
+  "readback": {
+    "main_manifest": "passed",
+    "obsidian_manifest": "passed",
+    "obsidian_note": "passed",
+    "main_state": "passed",
+    "obsidian_state": "passed",
+    "repository_validation": {
+      "workflow": "validate",
+      "run_number": 54,
+      "head_sha": "2c77d2da8d0f7b8843cb9375a9c1abf4e0b922bc",
+      "conclusion": "success"
+    },
+    "status": "passed"
+  },
+  "result": "passed"
+}
