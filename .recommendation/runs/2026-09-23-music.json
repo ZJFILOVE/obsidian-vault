@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-23",
+  "provider": "apple_music",
+  "status": "passed",
+  "candidate_count": 24,
+  "duplicate_rejections": {
+    "count": 3,
+    "examples": [
+      "Nujabes::Aruarian Dance — exact history block",
+      "Massive Attack::Teardrop — prior canonical/version family already recommended",
+      "Stan Getz::Aguas de Marco — semantic composition duplicate of the previously recommended Águas de Março"
+    ]
+  },
+  "history": {
+    "pre_run_count": 101,
+    "post_run_count": 106,
+    "new_canonical_ids": [
+      "陈百强::不再流泪",
+      "Anita Baker::Sweet Love (2012 Remaster)",
+      "Radiohead::Everything In Its Right Place",
+      "Art Blakey::Moanin' (Live)",
+      "细野晴臣::Sports Men (2019 Remastering)"
+    ],
+    "none_existed_before_run": true,
+    "historical_entries_preserved": true
+  },
+  "storefront_verification": {
+    "required_storefront": "cn",
+    "final_verified": 5,
+    "final_failed": 0,
+    "unverified_candidates_excluded": true,
+    "direct_song_urls": [
+      "https://music.apple.com/cn/song/1442592938",
+      "https://music.apple.com/cn/song/1477082929",
+      "https://music.apple.com/cn/song/1097863108",
+      "https://music.apple.com/cn/song/532942801",
+      "https://music.apple.com/cn/song/1464660099"
+    ],
+    "song_ids_match_urls": true,
+    "verified_title_artist_album": true
+  },
+  "diversity": {
+    "artist_cooldown_result": "passed",
+    "recent_7_day_artist_collisions": 0,
+    "eras": ["1950s", "1980", "1982", "1986", "2000"],
+    "languages_or_scenes": ["Hong Kong Chinese pop", "English-language R&B", "English-language art rock/electronic", "instrumental/live hard bop", "Japanese electronic pop"],
+    "recording_styles": ["vintage studio pop", "2012 remaster", "digitally processed studio production", "live jazz", "2019 remaster"],
+    "production_density": "varied",
+    "mood": "varied"
+  },
+  "wildcard": {
+    "present": true,
+    "canonical_id": "细野晴臣::Sports Men (2019 Remastering)",
+    "reason": "expands the set toward early Japanese electronic/technopop sound design and deliberately artificial timbre"
+  },
+  "cross_repo_consistency": {
+    "main_manifest_matches_obsidian_manifest": true,
+    "song_id_order": ["1442592938", "1477082929", "1097863108", "532942801", "1464660099"],
+    "note_matches_manifest_order_and_ids": true,
+    "state_files_match": true,
+    "state_content_sha": "7c31e21cfb5afe5646c07b168df78ebeab69dada"
+  },
+  "readback": {
+    "main_manifest": "passed",
+    "obsidian_manifest": "passed",
+    "obsidian_note": "passed",
+    "music_daily_state": "passed",
+    "obsidian_state": "passed",
+    "exactly_5_tracks": true,
+    "unique_canonical_ids": true,
+    "required_editorial_fields_complete": true,
+    "required_note_sections_complete": true
+  },
+  "repository_validation": {
+    "workflow": "validate",
+    "final_run_number": 56,
+    "final_head_sha": "7dfab2922b6bc1a9c4eda1a897e26778232262ab",
+    "conclusion": "success"
+  }
+}
