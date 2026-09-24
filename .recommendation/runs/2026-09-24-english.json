@@ -1,0 +1,77 @@
+{
+  "date": "2026-09-24",
+  "workflow": "english",
+  "weekday": "Thursday",
+  "candidate_count": 10,
+  "duplicate_rejections": 0,
+  "selected": {
+    "title": "What makes a language... a language?",
+    "source": "TED-Ed",
+    "source_url": "https://ed.ted.com/lessons/what-makes-a-language-a-language-martin-hilpert",
+    "source_type": "video",
+    "duration": "4:57",
+    "topic": "sociolinguistics, language/dialect classification, standardization"
+  },
+  "candidate_pool": [
+    {"title": "What makes a language... a language?", "source": "TED-Ed", "topic": "sociolinguistics", "selected": true},
+    {"title": "How one design flaw almost toppled a skyscraper", "source": "TED-Ed", "topic": "engineering ethics", "selected": false},
+    {"title": "William Henry Perkin", "source": "Science History Institute", "topic": "chemistry and industrial history", "selected": false},
+    {"title": "What is bioluminescence?", "source": "NOAA Ocean Exploration", "topic": "marine biology", "selected": false},
+    {"title": "Why do earthquakes occur in the middle of the continent far from plate boundaries?", "source": "U.S. Geological Survey", "topic": "geology", "selected": false},
+    {"title": "Weakened gut-brain connection may contribute to memory loss", "source": "NIH", "topic": "neuroscience and aging", "selected": false},
+    {"title": "What Hath God Wrought?", "source": "Library of Congress", "topic": "communications history", "selected": false},
+    {"title": "The last banana: A thought experiment in probability", "source": "TED-Ed", "topic": "probability", "selected": false},
+    {"title": "A different way to visualize rhythm", "source": "TED-Ed", "topic": "music and representation", "selected": false},
+    {"title": "A brief history of chess", "source": "TED-Ed", "topic": "game and cultural history", "selected": false}
+  ],
+  "source_verification": {
+    "status": "passed",
+    "direct_url_working": true,
+    "official_source": true,
+    "duration_verified": true,
+    "copyright_handling": "link, summary, timestamps, and independently authored exercises; no long transcript reproduced"
+  },
+  "topic_diversity": {
+    "status": "passed",
+    "distinct_candidate_topics": 10,
+    "recent_topics_reviewed": [
+      "exoplanet detection and scientific confirmation",
+      "digital consumer protection and dark patterns",
+      "noise/light pollution and park management",
+      "museum interpretation and cultural heritage",
+      "economic expectations and animal spirits"
+    ],
+    "selected_topic_recent_repeat": false,
+    "note": "Selected sociolinguistics to avoid another consecutive science or policy source; the last language-focused history entry was 2026-09-11, outside the seven-day narrow-topic cooldown."
+  },
+  "readback": {
+    "status": "passed",
+    "daily": {
+      "path": "50-courses/English/Daily/2026-09-24.md",
+      "source_url_present": true,
+      "frontmatter_present": true,
+      "first_pass_present": true,
+      "second_pass_present": true,
+      "output_or_shadowing_present": true,
+      "question_count": 3,
+      "cross_links_present": true
+    },
+    "translation": {
+      "path": "50-courses/English/Translation/2026-09-24.md",
+      "substantial_translation_exercises": 2,
+      "independent_from_source": true,
+      "folded_answer_callouts_present": true,
+      "transfer_error_notes_present": true,
+      "precision_exercise_present": true,
+      "spaced_review_sentences": 2,
+      "cross_links_present": true
+    },
+    "vocabulary": {
+      "path": "50-courses/English/Vocabulary/2026-09-24.md",
+      "vocabulary_count": 10,
+      "retrieval_quiz_present": true,
+      "cross_links_present": true,
+      "etymology_notes_checked": true
+    }
+  }
+}
