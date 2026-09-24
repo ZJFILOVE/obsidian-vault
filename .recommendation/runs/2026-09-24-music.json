@@ -1,0 +1,89 @@
+{
+  "date": "2026-09-24",
+  "type": "music-daily-run",
+  "provider": "Apple Music",
+  "candidate_count": 20,
+  "duplicate_rejections": {
+    "count": 2,
+    "items": [
+      {
+        "canonical_id": "Sade::Smooth Operator",
+        "reason": "permanent_history_block"
+      },
+      {
+        "canonical_id": "Radiohead::No Surprises",
+        "reason": "permanent_history_block"
+      }
+    ]
+  },
+  "storefront_verification": {
+    "status": "passed",
+    "storefront": "cn",
+    "direct_song_resource_required": true,
+    "verified_count": 5,
+    "tracks": [
+      {
+        "canonical_id": "苏打绿::无与伦比的美丽",
+        "song_id": "1443209403",
+        "url": "https://music.apple.com/cn/song/%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E7%BE%8E%E4%B8%BD/1443209403"
+      },
+      {
+        "canonical_id": "Stevie Wonder::As",
+        "song_id": "1440788744",
+        "url": "https://music.apple.com/cn/song/as/1440788744"
+      },
+      {
+        "canonical_id": "Miriam Makeba::Pata Pata (Mono Version)",
+        "song_id": "1472549630",
+        "url": "https://music.apple.com/cn/song/pata-pata-mono-version/1472549630"
+      },
+      {
+        "canonical_id": "Cocteau Twins::Heaven or Las Vegas",
+        "song_id": "258200075",
+        "url": "https://music.apple.com/cn/song/heaven-or-las-vegas/258200075"
+      },
+      {
+        "canonical_id": "Aphex Twin::Xtal",
+        "song_id": "1668862649",
+        "url": "https://music.apple.com/cn/song/xtal/1668862649"
+      }
+    ]
+  },
+  "diversity_wildcard_result": {
+    "status": "passed",
+    "artist_cooldown_days": 7,
+    "artist_cooldown_conflicts": 0,
+    "wildcard_count": 1,
+    "wildcard": "Aphex Twin::Xtal",
+    "coverage": {
+      "eras": ["1960s", "1970s", "1990s", "2000s"],
+      "languages_or_vocal_contexts": ["Mandarin", "English", "South African multilingual pop context", "instrumental/electronic"],
+      "recording_styles": ["modern stereo band production", "dense organic soul/funk", "mono historical recording", "effects-heavy dream pop", "ambient techno/electronic"],
+      "moods": ["expansive", "warm/grooving", "buoyant", "dreamlike", "hypnotic"]
+    }
+  },
+  "cross_repo_consistency": {
+    "status": "passed",
+    "main_manifest_sha": "6bb9b98980a1f6dc7883d45cf2a4744879ea40c7",
+    "obsidian_manifest_sha": "6bb9b98980a1f6dc7883d45cf2a4744879ea40c7",
+    "main_state_sha": "bc20b5465b2cdd8ad0366be08b13f04f7933a1df",
+    "obsidian_state_sha": "bc20b5465b2cdd8ad0366be08b13f04f7933a1df",
+    "song_id_order": ["1443209403", "1440788744", "1472549630", "258200075", "1668862649"]
+  },
+  "readback_status": "passed",
+  "readback": {
+    "exactly_five_tracks": true,
+    "unique_canonical_ids": true,
+    "none_in_pre_run_history": true,
+    "manifest_note_song_id_order_match": true,
+    "all_urls_direct_cn_song_resources": true,
+    "album_analysis_listening_cue_complete": true,
+    "both_states_preserve_history_and_include_new_tracks": true,
+    "repository_validation": {
+      "workflow": "validate",
+      "run_number": 58,
+      "head_sha": "e79db59f34aeb70af899f683242c0ea61aae12c1",
+      "conclusion": "success"
+    }
+  }
+}
