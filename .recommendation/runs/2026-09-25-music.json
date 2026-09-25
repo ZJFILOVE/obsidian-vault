@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-25",
+  "candidate_count": 22,
+  "duplicate_rejections": 1,
+  "storefront_verification": "passed: 5/5 final tracks verified as direct cn song resources with matching song_id",
+  "diversity_wildcard_result": "passed: 0 artist cooldown conflicts; wildcard Rebekah Del Rio::Llorando; Mandarin, English and Spanish; varied eras and production density",
+  "cross_repo_consistency": "passed: manifests and state files match exactly after readback",
+  "readback_status": "passed: exactly 5 unique canonical IDs; none existed in pre-run history; note order/song_ids match manifests; required note sections present; album, analysis and listening cues complete; both states contain all 116 historical and new IDs"
+}
