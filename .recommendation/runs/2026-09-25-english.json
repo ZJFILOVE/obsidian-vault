@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-25",
+  "workflow": "english",
+  "candidate_count": 10,
+  "duplicate_rejections": 0,
+  "source_verification": {
+    "status": "passed",
+    "working_url": "https://news.harvard.edu/gazette/story/2021/10/are-google-and-smartphones-degrading-our-memories/",
+    "exact_history_duplicate": false,
+    "estimated_source_time_minutes": 5
+  },
+  "topic_diversity": {
+    "status": "passed",
+    "selected_topic": "memory, technology, and limits of generalization",
+    "narrow_topic_repeat_within_7_days": false
+  },
+  "readback": {
+    "status": "passed",
+    "daily": true,
+    "translation": true,
+    "vocabulary": true,
+    "cross_links": true,
+    "folded_answers": true,
+    "translation_exercise_count": 2,
+    "vocabulary_count": 8
+  }
+}
