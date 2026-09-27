@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-27",
+  "workflow": "news-youtube-reddit",
+  "candidate_counts": {
+    "youtube": 31,
+    "reddit": 39
+  },
+  "rejected_duplicates": {
+    "youtube_exact": 0,
+    "youtube_semantic": 0,
+    "reddit_exact": 4,
+    "reddit_semantic": 0,
+    "finalist_exact": 0,
+    "finalist_semantic": 0
+  },
+  "selected_counts": {
+    "news": 4,
+    "youtube": 5,
+    "reddit": 10
+  },
+  "link_verification": {
+    "youtube": "5/5",
+    "reddit": "10/10",
+    "news_sources": "verified",
+    "passed": true
+  },
+  "diversity": {
+    "youtube_passed": true,
+    "reddit_passed": true,
+    "youtube_max_narrow_topic_share": 0.2,
+    "reddit_max_narrow_topic_share": 0.2,
+    "youtube_wildcards": 1,
+    "reddit_wildcards": 3
+  },
+  "readback": {
+    "passed": true,
+    "youtube_unique_ids": 5,
+    "reddit_unique_ids": 10,
+    "required_sections": true,
+    "news_auto_markers": true
+  },
+  "history_update": {
+    "youtube_appended": 5,
+    "reddit_appended": 10,
+    "passed": true
+  },
+  "status": "passed"
+}
