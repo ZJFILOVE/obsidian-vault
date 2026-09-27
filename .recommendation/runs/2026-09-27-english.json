@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-27",
+  "component": "weekly-long",
+  "candidate_count": 10,
+  "duplicate_rejections": 0,
+  "selected_source": {
+    "title": "A Class Divided",
+    "url": "https://www.pbs.org/wgbh/frontline/documentary/class-divided/",
+    "source": "PBS FRONTLINE"
+  },
+  "source_verification": {
+    "status": "passed",
+    "official_source": true
+  },
+  "topic_diversity": {
+    "status": "passed",
+    "note": "Documentary/education/social psychology format rotates away from recent daily and weekly materials."
+  },
+  "readback": {
+    "status": "passed",
+    "branch": "main",
+    "sections": true,
+    "back_link": true,
+    "vocabulary_count": 12,
+    "comprehension_questions": 5,
+    "output_tasks": 2,
+    "folded_translation_answer": true
+  }
+}
