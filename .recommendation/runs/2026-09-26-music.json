@@ -1,7 +1,7 @@
 {
   "date": "2026-09-26",
   "workflow": "music",
-  "status": "failed",
+  "status": "passed",
   "candidate_count": 20,
   "duplicate_rejections": 0,
   "storefront_verification": {
@@ -17,20 +17,24 @@
     "wildcard": "阿鲁杰・阿夫塔布::Mohabbat",
     "result": "passed"
   },
+  "repair": {
+    "same_date_repair": true,
+    "replaced_track_retained_in_history": "万能青年旅店::杀死那个石家庄人",
+    "permanent_history_count": 122
+  },
   "cross_repo_consistency": {
     "main_manifest_vs_obsidian_manifest": true,
-    "obsidian_note_vs_manifests": false,
+    "obsidian_note_vs_manifests": true,
     "main_state_vs_obsidian_state": true,
-    "new_ids_present_in_states": false,
-    "result": "failed"
+    "new_ids_present_in_states": true,
+    "result": "passed"
   },
   "readback": {
     "main_manifest": "passed",
     "obsidian_manifest": "passed",
-    "obsidian_note": "failed_track_mismatch",
-    "main_state": "failed_missing_new_ids",
-    "obsidian_state": "failed_missing_new_ids",
-    "result": "failed"
-  },
-  "failure_reason": "Repository safety controls blocked replacement writes to the existing Obsidian daily note and both existing history state files. The two new manifests were written and match, but the note still contains an earlier same-run selection and both state files remain unchanged at their pre-run history."
+    "obsidian_note": "passed",
+    "main_state": "passed",
+    "obsidian_state": "passed",
+    "result": "passed"
+  }
 }
