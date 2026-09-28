@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-28",
+  "workflow": "music",
+  "status": "passed",
+  "candidate_count": 20,
+  "duplicate_rejections": 0,
+  "storefront_verification": {
+    "required": 5,
+    "verified": 5,
+    "storefront": "cn",
+    "direct_song_urls": true,
+    "song_ids_match_urls": true
+  },
+  "diversity_wildcard": {
+    "artist_cooldown_conflicts": 0,
+    "wildcard_included": true,
+    "result": "passed"
+  },
+  "cross_repo_consistency": {
+    "main_manifest_vs_obsidian_manifest": true,
+    "main_state_vs_obsidian_state": true,
+    "note_song_ids_and_order_match": true,
+    "result": "passed"
+  },
+  "readback": {
+    "main_manifest": "passed",
+    "obsidian_manifest": "passed",
+    "obsidian_note": "passed",
+    "main_state": "passed",
+    "obsidian_state": "passed",
+    "result": "passed"
+  }
+}
