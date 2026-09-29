@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-29",
+  "workflow": "music",
+  "status": "passed",
+  "candidate_count": 31,
+  "duplicate_rejections": 3,
+  "pre_run_history_count": 127,
+  "post_run_history_count": 132,
+  "pre_run_history_collisions": [],
+  "storefront_verification": {
+    "required": 5,
+    "verified": 5,
+    "storefront": "cn",
+    "direct_song_urls": true,
+    "song_ids_match_urls": true,
+    "tracks": [
+      {
+        "canonical_id": "许美静::发呆",
+        "song_id": "1442363759"
+      },
+      {
+        "canonical_id": "Erykah Badu::On & On",
+        "song_id": "1440837273"
+      },
+      {
+        "canonical_id": "Talking Heads::This Must Be the Place (Naive Melody)",
+        "song_id": "300202271"
+      },
+      {
+        "canonical_id": "Kate Bush::Running Up That Hill (A Deal With God) [2018 Remaster]",
+        "song_id": "1675560578"
+      },
+      {
+        "canonical_id": "Sigur Rós::Starálfur",
+        "song_id": "1447442939"
+      }
+    ]
+  },
+  "diversity_wildcard": {
+    "artist_cooldown_conflicts": 0,
+    "wildcard_included": true,
+    "wildcard": "Sigur Rós::Starálfur",
+    "genre_era_language_recording_mood_variation": true,
+    "result": "passed"
+  },
+  "cross_repo_consistency": {
+    "main_manifest_vs_obsidian_manifest": true,
+    "obsidian_note_vs_manifests": true,
+    "main_state_vs_obsidian_state": true,
+    "new_ids_present_in_states": true,
+    "result": "passed"
+  },
+  "readback": {
+    "main_manifest": "passed",
+    "obsidian_manifest": "passed",
+    "obsidian_note": "passed",
+    "main_state": "passed",
+    "obsidian_state": "passed",
+    "exactly_5_tracks": true,
+    "unique_canonical_ids": 5,
+    "matching_song_id_order": true,
+    "complete_album_analysis_listening_cue": true,
+    "result": "passed"
+  },
+  "repository_validation": {
+    "available": true,
+    "workflow": "validate",
+    "run_id": 36507572835,
+    "run_number": 66,
+    "status": "completed",
+    "conclusion": "success"
+  }
+}
