@@ -1,0 +1,112 @@
+{
+  "date": "2026-09-30",
+  "component": "weekday",
+  "candidate_count": 10,
+  "duplicate_rejections": 0,
+  "candidate_pool": [
+    {
+      "source": "NIH Research Matters",
+      "title": "How the nose decodes complex odors",
+      "topic": "sensory coding / odor mixtures"
+    },
+    {
+      "source": "NOAA",
+      "title": "How Do I Escape Rip Currents?",
+      "topic": "coastal safety / fluid motion"
+    },
+    {
+      "source": "Smithsonian Ocean",
+      "title": "The Ocean at Night",
+      "topic": "marine ecology / diel behavior"
+    },
+    {
+      "source": "The Metropolitan Museum of Art",
+      "title": "Honoring a Legacy: The Conservation of Margareta Haverman's A Vase of Flowers",
+      "topic": "art conservation / pigments"
+    },
+    {
+      "source": "Federal Reserve History",
+      "title": "National Banking Acts of 1863 and 1864",
+      "topic": "economic history / banking"
+    },
+    {
+      "source": "U.S. Geological Survey",
+      "title": "Groundwater Flow and the Water Cycle",
+      "topic": "hydrology"
+    },
+    {
+      "source": "The Metropolitan Museum of Art",
+      "title": "How Artificial Intelligence Sees Art History",
+      "topic": "digital humanities / museums"
+    },
+    {
+      "source": "Science History Institute",
+      "title": "Making the Process",
+      "topic": "industrial chemistry history"
+    },
+    {
+      "source": "Smithsonian Ocean",
+      "title": "Penguins",
+      "topic": "animal adaptation"
+    },
+    {
+      "source": "NIH Research Matters",
+      "title": "Detailed structure of bitter taste receptor revealed",
+      "topic": "taste receptors / structural biology"
+    }
+  ],
+  "selected_source": {
+    "title": "How the nose decodes complex odors",
+    "source": "NIH Research Matters",
+    "url": "https://www.nih.gov/news-events/nih-research-matters/how-nose-decodes-complex-odors",
+    "published": "2020-05-12",
+    "estimated_source_time_minutes": "5-6",
+    "selection_reason": "Clear CET-6/intro-TOEFL research narrative with a strong distinction between observed cellular responses, inferred mechanism, and broader perceptual claims."
+  },
+  "source_verification": {
+    "status": "passed",
+    "official_source": true,
+    "checked_on": "2026-09-30",
+    "note": "Direct NIH page opened successfully and exposed the full article."
+  },
+  "topic_diversity": {
+    "status": "passed",
+    "recent_topics": [
+      "exoplanet confirmation",
+      "language vs dialect",
+      "digital memory",
+      "discrimination/documentary interpretation",
+      "earthquake early warning",
+      "historical source criticism"
+    ],
+    "selected_topic": "sensory coding and odor-mixture interactions",
+    "note": "Selected topic is outside the recent narrow-topic cluster and does not rely on the user's research interests for relevance."
+  },
+  "readback": {
+    "status": "passed",
+    "daily": {
+      "source_url": true,
+      "first_pass": true,
+      "second_pass": true,
+      "output_task": true,
+      "question_count": 3,
+      "cross_links": true
+    },
+    "translation": {
+      "substantial_exercise_count": 2,
+      "folded_answer_blocks": 6,
+      "precision_rewrite": true,
+      "spaced_review": true,
+      "cross_links": true
+    },
+    "vocabulary": {
+      "count": 9,
+      "retrieval_quiz": true,
+      "cross_links": true
+    }
+  },
+  "history_update": {
+    "status": "passed",
+    "exact_url_count_expected": 1
+  }
+}
