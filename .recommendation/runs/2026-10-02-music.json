@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-02",
+  "workflow": "music",
+  "status": "passed",
+  "candidate_count": 20,
+  "duplicate_rejections": 0,
+  "storefront_verification": {
+    "required": 5,
+    "verified": 5,
+    "storefront": "cn",
+    "direct_song_urls": true,
+    "song_ids_match_urls": true
+  },
+  "diversity_wildcard": {
+    "artist_cooldown_conflicts": 0,
+    "wildcard_included": true,
+    "wildcard": "Michael Stipe::Sunday Morning",
+    "result": "passed"
+  },
+  "cross_repo_consistency": {
+    "main_manifest_vs_obsidian_manifest": true,
+    "main_state_vs_obsidian_state": true,
+    "note_song_ids_and_order_match": true,
+    "new_ids_present_in_both_states": true,
+    "result": "passed"
+  },
+  "readback": {
+    "main_manifest": "passed",
+    "obsidian_manifest": "passed",
+    "obsidian_note": "passed",
+    "main_state": "passed",
+    "obsidian_state": "passed",
+    "exact_track_count": 5,
+    "unique_canonical_ids": 5,
+    "required_note_sections": true,
+    "result": "passed"
+  }
+}
