@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-02",
+  "component": "weekday",
+  "candidate_count": 10,
+  "duplicate_rejections": 0,
+  "candidate_pool": [
+    {
+      "source": "HISTORY",
+      "title": "How the Shopping Cart Went From Failure to Fixture",
+      "topic": "consumer technology / adoption / retail design"
+    },
+    {
+      "source": "IMF Finance & Development",
+      "title": "New Lessons from Behavioral Economics",
+      "topic": "behavioral economics / experience effects"
+    },
+    {
+      "source": "NOAA",
+      "title": "Rip Currents",
+      "topic": "coastal safety / fluid motion"
+    },
+    {
+      "source": "U.S. National Park Service",
+      "title": "Why Do Leaves Change Colors in the Fall",
+      "topic": "seasonal plant biology"
+    },
+    {
+      "source": "Federal Reserve Bank of St. Louis",
+      "title": "Generative AI, Productivity and the Future of Work",
+      "topic": "technology / labor productivity"
+    },
+    {
+      "source": "TED",
+      "title": "Got a wicked problem? First, tell me how you make toast",
+      "topic": "visual problem solving / systems mapping"
+    },
+    {
+      "source": "TED",
+      "title": "Learn to use the 13th-century astrolabe",
+      "topic": "historical instrument / procedural explanation"
+    },
+    {
+      "source": "HISTORY",
+      "title": "How the Barcode Was Invented",
+      "topic": "information systems / retail standards"
+    },
+    {
+      "source": "HISTORY",
+      "title": "Who Invented the Dishwasher?",
+      "topic": "household technology / invention history"
+    },
+    {
+      "source": "U.S. Geological Survey",
+      "title": "Find-A-Feature: Meander",
+      "topic": "river morphology / erosion and deposition"
+    }
+  ],
+  "selected_source": {
+    "title": "How the Shopping Cart Went From Failure to Fixture",
+    "source": "HISTORY",
+    "url": "https://www.history.com/articles/shopping-cart-inventor-sylvan-goldman-supermarkets",
+    "published": "2025-07-29",
+    "updated": "2025-07-30",
+    "estimated_source_time_minutes": "7-9",
+    "selection_reason": "Everyday-object history that broadens recent topic coverage and trains distinctions among invention, rollout, resistance, adoption, design refinement, and infrastructure."
+  },
+  "source_verification": {
+    "status": "passed",
+    "checked_on": "2026-10-02",
+    "direct_url_worked": true,
+    "note": "Direct article opened successfully; full article text and publication metadata were available."
+  },
+  "topic_diversity": {
+    "status": "passed",
+    "recent_topics": [
+      "digital memory and evidence scope",
+      "earthquake early warning and latency",
+      "historical source criticism",
+      "olfactory neuroscience",
+      "art conservation and technical imaging"
+    ],
+    "selected_topic": "consumer technology adoption and retail design",
+    "note": "Outside the recent seven-day narrow-topic cluster and not selected because of the user's research interests."
+  },
+  "readback": {
+    "status": "passed",
+    "daily": {
+      "source_url": true,
+      "yaml_frontmatter": true,
+      "first_pass": true,
+      "second_pass": true,
+      "output_task": true,
+      "comprehension_output_questions": 3,
+      "cross_links": true
+    },
+    "translation": {
+      "substantial_exercise_count": 2,
+      "folded_answer_blocks": 6,
+      "precision_rewrite": true,
+      "spaced_review_sentences": 2,
+      "cross_links": true
+    },
+    "vocabulary": {
+      "count": 9,
+      "retrieval_quiz": true,
+      "cross_links": true
+    }
+  },
+  "history_update": {
+    "status": "passed",
+    "exact_url_count": 1
+  }
+}
