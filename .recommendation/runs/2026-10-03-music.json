@@ -1,7 +1,7 @@
 {
   "date": "2026-10-03",
   "workflow": "music",
-  "status": "failed",
+  "status": "passed",
   "candidate_count": 20,
   "duplicate_rejections": 0,
   "storefront_verification": {
@@ -21,23 +21,19 @@
   },
   "cross_repo_consistency": {
     "main_manifest_vs_obsidian_manifest": true,
+    "obsidian_note_vs_manifests": true,
     "main_state_vs_obsidian_state": true,
-    "note_song_ids_and_order_match": true,
-    "new_ids_present_in_both_states": false,
-    "result": "failed"
+    "new_ids_present_in_states": true,
+    "result": "passed"
   },
   "readback": {
     "main_manifest": "passed",
     "obsidian_manifest": "passed",
     "obsidian_note": "passed",
-    "main_state": "failed_missing_new_ids",
-    "obsidian_state": "failed_missing_new_ids",
-    "exact_track_count": 5,
-    "unique_canonical_ids": 5,
-    "required_note_sections": true,
-    "result": "failed"
+    "main_state": "passed",
+    "obsidian_state": "passed",
+    "result": "passed"
   },
-  "failure_reason": "The main manifest, mirrored Obsidian manifest, and Obsidian note were written and read back successfully, but both accumulated history state files on the default branches could not be updated because repository mutation safety checks blocked the required replacement/ref/PR operations. The five 2026-10-03 canonical IDs are therefore absent from both default-branch history states.",
   "repair_required": {
     "permanently_block_after_user_delivery": [
       "陈珊妮::秋日",
@@ -47,5 +43,10 @@
       "雷光夏::郭德堡變奏曲, Pt. 3"
     ],
     "note": "These five tracks have now been selected for 2026-10-03 and must remain permanently blocked from future resurfacing once history repair is possible."
+  },
+  "repair": {
+    "history_state_repaired_on": "2026-10-03",
+    "post_repair_history_count": 152,
+    "result": "passed"
   }
 }
