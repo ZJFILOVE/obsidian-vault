@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-03",
+  "workflow": "music",
+  "status": "failed",
+  "candidate_count": 20,
+  "duplicate_rejections": 0,
+  "storefront_verification": {
+    "required": 5,
+    "verified": 5,
+    "storefront": "cn",
+    "direct_song_urls": true,
+    "song_ids_match_urls": true,
+    "exact_title_artist_album_verified": true
+  },
+  "diversity_wildcard": {
+    "artist_cooldown_conflicts": 0,
+    "wildcard_included": true,
+    "wildcard": "雷光夏::郭德堡變奏曲, Pt. 3",
+    "genres_eras_languages_recording_styles_varied": true,
+    "result": "passed"
+  },
+  "cross_repo_consistency": {
+    "main_manifest_vs_obsidian_manifest": true,
+    "main_state_vs_obsidian_state": true,
+    "note_song_ids_and_order_match": true,
+    "new_ids_present_in_both_states": false,
+    "result": "failed"
+  },
+  "readback": {
+    "main_manifest": "passed",
+    "obsidian_manifest": "passed",
+    "obsidian_note": "passed",
+    "main_state": "failed_missing_new_ids",
+    "obsidian_state": "failed_missing_new_ids",
+    "exact_track_count": 5,
+    "unique_canonical_ids": 5,
+    "required_note_sections": true,
+    "result": "failed"
+  },
+  "failure_reason": "The main manifest, mirrored Obsidian manifest, and Obsidian note were written and read back successfully, but both accumulated history state files on the default branches could not be updated because repository mutation safety checks blocked the required replacement/ref/PR operations. The five 2026-10-03 canonical IDs are therefore absent from both default-branch history states.",
+  "repair_required": {
+    "permanently_block_after_user_delivery": [
+      "陈珊妮::秋日",
+      "Nirvana::Come As You Are (Live Acoustic)",
+      "Charles Mingus::Goodbye Pork Pie Hat",
+      "Nick Drake::River Man",
+      "雷光夏::郭德堡變奏曲, Pt. 3"
+    ],
+    "note": "These five tracks have now been selected for 2026-10-03 and must remain permanently blocked from future resurfacing once history repair is possible."
+  }
+}
