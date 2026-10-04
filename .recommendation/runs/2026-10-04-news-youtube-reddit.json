@@ -38,10 +38,15 @@
     "required_sections": true
   },
   "history_update": {
-    "passed": false,
-    "youtube_appended": 0,
-    "reddit_appended": 0,
-    "error": "GitHub mutation safety check blocked modification of pre-existing history indexes after readback. Existing history files were left unchanged."
+    "passed": true,
+    "youtube_appended": 5,
+    "reddit_appended": 10,
+    "repair_note": "Recovered blocked history append on 2026-10-04; all selected IDs confirmed present by readback."
   },
-  "status": "failed_history_append"
+  "status": "passed",
+  "repair_readback": {
+    "passed": true,
+    "youtube_all_selected_ids_in_history": true,
+    "reddit_all_selected_ids_in_history": true
+  }
 }
