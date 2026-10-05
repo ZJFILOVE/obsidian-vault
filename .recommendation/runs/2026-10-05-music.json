@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-05",
+  "workflow": "music",
+  "status": "passed",
+  "candidate_count": 20,
+  "duplicate_rejections": 0,
+  "pre_run_history_count": 157,
+  "post_run_history_count": 162,
+  "storefront_verification": {
+    "final_required": 5,
+    "final_verified": 5,
+    "storefront": "cn",
+    "direct_song_urls": true,
+    "song_ids_match_urls": true,
+    "exact_title_artist_album_verified": true,
+    "candidate_storefront_rejections": 14,
+    "result": "passed"
+  },
+  "diversity_wildcard": {
+    "artist_cooldown_conflicts": 0,
+    "wildcard_included": true,
+    "wildcard": "Chet Baker::I Fall In Love Too Easily",
+    "eras": [
+      "1953",
+      "1992",
+      "1996",
+      "2011",
+      "2012"
+    ],
+    "languages": [
+      "English",
+      "Mandarin"
+    ],
+    "recording_styles": [
+      "vintage small-combo jazz",
+      "piano/string alternative rock",
+      "hip-hop/R&B cover",
+      "dense synth-pop",
+      "Mandarin singer-songwriter/band"
+    ],
+    "result": "passed"
+  },
+  "cross_repo_consistency": {
+    "main_manifest_vs_obsidian_manifest": true,
+    "main_manifest_sha": "bd8e8944afd975565557ac3a88f1ac3b8e16a8f7",
+    "obsidian_manifest_sha": "bd8e8944afd975565557ac3a88f1ac3b8e16a8f7",
+    "main_state_vs_obsidian_state": true,
+    "state_sha": "4c3d9937106a9dd56194ce689bb7ef28fbbb9485",
+    "note_song_ids_and_order_match": true,
+    "new_ids_present_in_both_states": true,
+    "result": "passed"
+  },
+  "readback": {
+    "main_manifest": "passed",
+    "obsidian_manifest": "passed",
+    "obsidian_note": "passed",
+    "main_state": "passed",
+    "obsidian_state": "passed",
+    "exact_track_count": 5,
+    "unique_canonical_ids": 5,
+    "required_note_sections": true,
+    "complete_album_analysis_listening_cue": true,
+    "result": "passed"
+  },
+  "history_gate": {
+    "none_of_final_ids_existed_before_run": true,
+    "permanently_blocked_history_preserved": true,
+    "result": "passed"
+  },
+  "repository_validation": {
+    "workflow": "validate",
+    "run_id": 37251922460,
+    "conclusion": "success",
+    "result": "passed"
+  }
+}
