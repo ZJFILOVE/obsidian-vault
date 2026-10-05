@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-05",
+  "candidate_count": 10,
+  "duplicate_rejections": 0,
+  "source_verification": {
+    "status": "passed",
+    "direct_url_working": true,
+    "official_source": true,
+    "verified_date": "2026-10-05",
+    "page_date": "2026-06-03"
+  },
+  "topic_diversity": {
+    "status": "passed",
+    "note": "Selected economics and decision-making after recent materials on earth science, source analysis, olfaction, art conservation, and product adoption."
+  },
+  "readback": {
+    "status": "passed",
+    "daily": true,
+    "translation": true,
+    "vocabulary": true,
+    "translation_exercises": 2,
+    "folded_answer_callouts": 6,
+    "vocabulary_count": 9,
+    "crosslinks": true,
+    "history_entry_count": 1
+  }
+}
