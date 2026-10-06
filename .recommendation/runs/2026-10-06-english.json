@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-06",
+  "component": "weekday",
+  "candidate_count": 11,
+  "duplicate_rejections": 2,
+  "candidates": [
+    {
+      "topic": "Indigenous language digitization and community control",
+      "source": "Smithsonian Magazine",
+      "status": "selected"
+    },
+    {
+      "topic": "Ocean currents and multi-causal circulation",
+      "source": "NOAA",
+      "status": "considered"
+    },
+    {
+      "topic": "Expansion of the universe and analogy limits",
+      "source": "Library of Congress",
+      "status": "considered"
+    },
+    {
+      "topic": "Touch-screen sensing and input pipelines",
+      "source": "Library of Congress",
+      "status": "considered"
+    },
+    {
+      "topic": "Radio-disrupting ionospheric clouds",
+      "source": "NASA",
+      "status": "considered"
+    },
+    {
+      "topic": "Art-conservation laboratory methods",
+      "source": "Getty",
+      "status": "rejected_recent_similarity"
+    },
+    {
+      "topic": "Brain-wide decision making in mice",
+      "source": "Princeton",
+      "status": "considered"
+    },
+    {
+      "topic": "Human-machine collective behavior through dance",
+      "source": "Princeton",
+      "status": "rejected_recent_similarity"
+    },
+    {
+      "topic": "Benjamin Franklin's kitchen experiments",
+      "source": "Smithsonian Magazine",
+      "status": "considered"
+    },
+    {
+      "topic": "Hourglass calibration and measurement",
+      "source": "Library of Congress",
+      "status": "considered"
+    },
+    {
+      "topic": "Rip currents and coastal dynamics",
+      "source": "NOAA",
+      "status": "considered"
+    }
+  ],
+  "selected_source": {
+    "title": "Millions of Maya Still Call Mesoamerica Home. This Groundbreaking Initiative Ushers the Rich Tapestry of Mayan Languages Into the Digital Age",
+    "url": "https://www.smithsonianmag.com/history/millions-of-maya-still-call-mesoamerica-home-this-groundbreaking-initiative-ushers-the-rich-tapestry-of-mayan-languages-into-the-digital-age-180987113/",
+    "source": "Smithsonian Magazine",
+    "published": "2025-08-08",
+    "estimated_minutes": "12-15"
+  },
+  "source_verification": {
+    "status": "passed",
+    "checked_on": "2026-10-06",
+    "direct_url_working": true,
+    "publisher_page": true,
+    "exact_history_duplicate_before_selection": false,
+    "caveat": "Feature article profiles MLPP and relies substantially on participants and partners; digital tool creation is evidence of access-building, not by itself proof of long-term language vitality."
+  },
+  "topic_diversity": {
+    "status": "passed",
+    "note": "Selected culture/language/digital-access material rotates away from the recent opportunity-cost, consumer-design, olfactory-neuroscience, art-conservation, earthquake-warning, and long-form geometry topics. The last language-focused Daily source in history was 2026-09-24, outside the 7-day narrow-topic cooldown."
+  },
+  "readback": {
+    "status": "passed",
+    "files": {
+      "daily": {
+        "source_url": true,
+        "required_sections": true,
+        "cross_links": true
+      },
+      "translation": {
+        "exercise_count": 2,
+        "folded_answer_callouts": 8,
+        "precision_rewrite": true,
+        "spaced_review": true,
+        "cross_links": true
+      },
+      "vocabulary": {
+        "item_count": 9,
+        "retrieval_quiz": true,
+        "cross_links": true
+      }
+    }
+  },
+  "history_update": {
+    "status": "passed",
+    "selected_url_count": 1
+  }
+}
