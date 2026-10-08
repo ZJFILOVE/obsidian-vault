@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-07",
+  "workflow": "music",
+  "status": "passed",
+  "backfill": true,
+  "candidate_count": 18,
+  "duplicate_rejections": 2,
+  "pre_run_history_count": 167,
+  "post_run_history_count": 172,
+  "storefront_verification": {
+    "required": 5,
+    "verified": 5,
+    "storefront": "cn",
+    "direct_song_urls": true,
+    "song_ids_match_urls": true,
+    "exact_title_artist_album_verified": true
+  },
+  "diversity_wildcard": {
+    "artist_cooldown_conflicts": 0,
+    "wildcard_included": true,
+    "wildcard": "Youssou N'Dour::Létt Ma",
+    "genres_eras_languages_recording_styles_varied": true,
+    "result": "passed"
+  },
+  "cross_repo_consistency": {
+    "main_manifest_vs_obsidian_manifest": true,
+    "main_state_vs_obsidian_state": true,
+    "note_song_ids_and_order_match": true,
+    "note_urls_match": true,
+    "new_ids_present_in_both_states": true,
+    "result": "passed"
+  },
+  "readback": {
+    "main_manifest": "passed",
+    "obsidian_manifest": "passed",
+    "obsidian_note": "passed",
+    "main_state": "passed",
+    "obsidian_state": "passed",
+    "exact_track_count": 5,
+    "unique_canonical_ids": 5,
+    "required_note_sections": true,
+    "result": "passed"
+  },
+  "repository_validation": {
+    "validator": "music-daily/scripts/validate.py",
+    "schema_checks": "passed",
+    "execution": "not_run"
+  },
+  "evidence": {
+    "manifest_sha": "ed9f6ab90943f1a35219cc8b41017559955aec86",
+    "note_sha": "335449deab189e166588e4798b7b2e00ec7a6599",
+    "final_state_sha": "77cf758db38dba609d927341a7cf4d1849a9eba8"
+  }
+}
