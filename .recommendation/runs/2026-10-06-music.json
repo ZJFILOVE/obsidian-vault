@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-06",
+  "workflow": "music",
+  "status": "passed",
+  "candidate_count": 20,
+  "duplicate_rejections": 0,
+  "storefront_verification": {
+    "required": 5,
+    "verified": 5,
+    "storefront": "cn",
+    "direct_song_urls": true,
+    "song_ids_match_urls": true,
+    "exact_title_artist_album_verified": true
+  },
+  "diversity_wildcard": {
+    "artist_cooldown_conflicts": 0,
+    "wildcard_included": true,
+    "wildcard": "哈妮雅・拉尼::Glass",
+    "result": "passed"
+  },
+  "cross_repo_consistency": {
+    "main_manifest_vs_obsidian_manifest": true,
+    "main_state_vs_obsidian_state": true,
+    "note_song_ids_and_order_match": true,
+    "new_ids_present_in_both_states": true,
+    "result": "passed"
+  },
+  "readback": {
+    "main_manifest": "passed",
+    "obsidian_manifest": "passed",
+    "obsidian_note": "passed",
+    "main_state": "passed",
+    "obsidian_state": "passed",
+    "exact_track_count": 5,
+    "unique_canonical_ids": 5,
+    "required_note_sections": true,
+    "result": "passed"
+  },
+  "repair": {
+    "date": "2026-10-08",
+    "reason": "October 6 history update was incomplete in obsidian-vault; repaired by appending five already recommended canonical IDs, preserving all prior history.",
+    "prior_obsidian_history_count": 162,
+    "post_repair_history_count": 167,
+    "main_history_unchanged": true,
+    "result": "passed"
+  },
+  "repository_validation": {
+    "validator": "music-daily/scripts/validate.py",
+    "schema_checks": "passed",
+    "note": "Main repository validation previously succeeded (workflow #82); Oct 8 repair changes only the Obsidian history mirror."
+  }
+}
