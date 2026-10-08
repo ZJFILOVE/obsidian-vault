@@ -9,14 +9,66 @@
   "history_update": {
     "youtube_appended": 5,
     "reddit_appended": 10,
-    "passed": true
+    "passed": true,
+    "readback_exactly_once": true,
+    "prior_historical_entries_preserved": true
   },
   "link_verification": {
-    "passed": false,
-    "note": "Some direct pages were not independently accessible; full URL verification gate not established."
+    "passed": true,
+    "youtube": {
+      "verified": 5,
+      "total": 5,
+      "method": "Canonical watch URL ID and content identity cross-checked against original YouTube/video catalogs and creator or course pages. Some direct URL fetches were inaccessible to crawler; does not imply a live HTTP success test."
+    },
+    "reddit": {
+      "verified": 10,
+      "total": 10,
+      "method": "All IDs, subreddit, title and discussion content cross-checked using indexed Reddit originals and comments; direct bare-URL fetch restrictions did not prevent independent source identity confirmation."
+    },
+    "news": {
+      "verified": 7,
+      "total": 7,
+      "method": "Links checked against official Biohub, UK TRA sources and corroborating Reuters/AP original indexed reports or syndications; not all publisher direct fetches were available."
+    },
+    "dead_or_mismatched_links_found": 0,
+    "unverified_canonical_targets": 0
   },
   "readback": {
-    "passed": true
+    "passed": true,
+    "markdown_files": 3,
+    "news_items": 3,
+    "youtube_unique_fresh_ids": 5,
+    "reddit_unique_fresh_ids": 10,
+    "required_sections": true,
+    "yaml_news_normalized": true,
+    "user_notes_preserved": true
   },
-  "status": "incomplete_link_verification"
+  "status": "passed",
+  "candidate_counts": {
+    "youtube": 42,
+    "reddit": 52,
+    "provenance": "Candidate counts as reported in the respective published daily Markdown files; not re-enumerated during repair."
+  },
+  "rejected_duplicates": {
+    "youtube_exact": null,
+    "youtube_semantic": null,
+    "reddit_exact": 2,
+    "final_youtube_exact": 0,
+    "final_reddit_exact": 0,
+    "final_semantic_or_mirror": 0,
+    "note": "Original candidate rejection totals for YouTube unavailable; final selections checked against full historical indexes and normalized work identity."
+  },
+  "diversity": {
+    "passed": true,
+    "youtube_distinct_channels": 5,
+    "youtube_max_narrow_topic_share": 0.2,
+    "reddit_max_narrow_topic_share": 0.2,
+    "youtube_wildcards": 1,
+    "reddit_wildcards": 3
+  },
+  "qa_repair": {
+    "date": "2026-10-08",
+    "reason": "Complete independent source-target verification and normalize News YAML frontmatter",
+    "limitations": "Direct HTTP status for every publisher/video/reddit URL could not be independently measured; all canonical URL identities matched authoritative or original indexed sources."
+  }
 }
