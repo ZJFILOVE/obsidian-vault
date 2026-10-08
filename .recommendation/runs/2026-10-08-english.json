@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-08",
+  "component": "daily",
+  "branch": "main",
+  "candidate_count": 10,
+  "duplicate_rejections": 0,
+  "source_verification": {
+    "status": "passed",
+    "url": "https://www.noaa.gov/explainers/what-is-marine-debris"
+  },
+  "topic_diversity": {
+    "status": "passed",
+    "topic": "marine debris and environmental policy"
+  },
+  "readback": {
+    "status": "passed",
+    "files": [
+      "50-courses/English/Daily/2026-10-08.md",
+      "50-courses/English/Translation/2026-10-08.md",
+      "50-courses/English/Vocabulary/2026-10-08.md"
+    ],
+    "vocabulary_count": 9,
+    "translation_exercises": 2,
+    "history_entry_count": 1
+  }
+}
