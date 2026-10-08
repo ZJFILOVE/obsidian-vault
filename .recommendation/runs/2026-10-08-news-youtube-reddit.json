@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-08",
+  "workflow": "news-youtube-reddit",
+  "selected_counts": {
+    "news": 3,
+    "youtube": 5,
+    "reddit": 10
+  },
+  "history_update": {
+    "youtube_appended": 5,
+    "reddit_appended": 10,
+    "passed": true
+  },
+  "link_verification": {
+    "passed": false,
+    "note": "Some direct pages were not independently accessible; full URL verification gate not established."
+  },
+  "readback": {
+    "passed": true
+  },
+  "status": "incomplete_link_verification"
+}
