@@ -71,5 +71,16 @@
     "missing_required_fields": 0,
     "post_write_readback": true,
     "cross_repository_music_consistency": true
+  },
+  "publishing": {
+    "github_write_strategy": "Serial GitHub Contents API mutations. Fetch latest blob SHA immediately before update_file; use create_file only on confirmed 404.",
+    "transaction_order": "Write 3 Daily notes, read back; append exactly-once history entries, read back; then create/update QA run JSON and read back.",
+    "same_day_retries": "Resume incomplete steps without duplicate history entries; preserve user Notes and content outside AUTO markers.",
+    "on_409": "Refetch latest content and SHA; reconcile changes rather than overwriting.",
+    "on_422": "Inspect validation message; do not blindly retry unchanged payload.",
+    "on_403_or_429": "Capture raw error and exposed rate-limit headers; obey Retry-After or reset. If permission denied, stop.",
+    "on_transport_error_or_5xx": "Fetch target before retry because commit may have succeeded despite lost response.",
+    "failure_audit": "Record UTC time, operation, path, HTTP status/message if exposed, SHA/commit if known. Never store secrets.",
+    "success_gate": "Only report full success after exact ID, semantic duplicate, verification and post-write readback gates pass."
   }
 }
