@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-09",
+  "workflow": "news-youtube-reddit",
+  "candidate_counts": {
+    "youtube": 31,
+    "reddit": 50,
+    "reddit_count_is_lower_bound": true
+  },
+  "rejected_duplicate_counts": {
+    "youtube": null,
+    "reddit": null,
+    "reason": "not persisted by original discovery run"
+  },
+  "selected_counts": {
+    "news": 4,
+    "youtube": 5,
+    "reddit": 10
+  },
+  "duplicate_checks": {
+    "historical_exact_duplicates_before_append": 0,
+    "current_day_unique": true,
+    "semantic_mirror_check": "previous run reported passing; not independently reverified in repair"
+  },
+  "link_verification": {
+    "status": "incomplete_reverification",
+    "explanation": "Several original URL fetches were throttled/disabled. Previous run reported verified links; this repair cannot independently confirm all 15."
+  },
+  "diversity": {
+    "youtube_distinct_channels": 5,
+    "reddit_distinct_subreddits": 9,
+    "status": "passes count-based distribution"
+  },
+  "readback": {
+    "news_stories": 4,
+    "youtube_count": 5,
+    "reddit_count": 10,
+    "unique_youtube": 5,
+    "unique_reddit": 10,
+    "youtube_indexed": true,
+    "reddit_indexed": true,
+    "yaml": true,
+    "news_auto_markers": true,
+    "youtube_notes": true,
+    "reddit_priority": true,
+    "readback": true
+  },
+  "qa_passed": false,
+  "repair_notes": "Permanent history updated successfully; run record restored; strict link and semantic gates still require independent evidence."
+}
