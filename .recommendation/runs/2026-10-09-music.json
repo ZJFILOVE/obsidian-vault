@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-09",
+  "status": "failed",
+  "candidate_count": 28,
+  "duplicate_rejections": 1,
+  "storefront_verification": "5/5",
+  "diversity_wildcard": "Yosi Horikawa::Bubbles",
+  "cross_repo_consistency": false,
+  "readback": {
+    "manifest": true,
+    "note": true,
+    "state": false
+  },
+  "failure": "Obsidian history state is stale (177 instead of 182). Update was blocked."
+}
