@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-09",
+  "component": "daily",
+  "branch": "main",
+  "candidate_count": 10,
+  "duplicate_rejections": 0,
+  "source_verification": {
+    "status": "passed",
+    "url": "https://education.nationalgeographic.org/resource/map/"
+  },
+  "topic_diversity": {
+    "status": "passed",
+    "topic": "cartography and model trade-offs"
+  },
+  "readback": {
+    "status": "passed",
+    "daily": true,
+    "translation_exercises": 2,
+    "folded_answers": true,
+    "vocabulary_count": 9,
+    "english_backlinks": true,
+    "history_entry_count": 1
+  },
+  "note": "Restored after incomplete initial GitHub publication; generated content rebuilt without overwriting personal Notes."
+}
