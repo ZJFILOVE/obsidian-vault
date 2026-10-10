@@ -1,15 +1,25 @@
 {
   "date": "2026-10-09",
-  "status": "failed",
+  "status": "success",
   "candidate_count": 28,
   "duplicate_rejections": 1,
   "storefront_verification": "5/5",
   "diversity_wildcard": "Yosi Horikawa::Bubbles",
-  "cross_repo_consistency": false,
+  "cross_repo_consistency": true,
   "readback": {
     "manifest": true,
     "note": true,
-    "state": false
+    "state": true
   },
-  "failure": "Obsidian history state is stale (177 instead of 182). Update was blocked."
+  "repair": {
+    "date": "2026-10-10",
+    "reason": "Obsidian recommendation history omitted the 5 already published 2026-10-09 tracks.",
+    "action": "Copied the complete 182-entry history from music-daily to Obsidian without discarding existing IDs.",
+    "historical_track_count": 182,
+    "state_files_identical": true,
+    "manifests_identical": true,
+    "note_ids_order_valid": true,
+    "apple_music_cn_url_format_valid": true,
+    "note_sections_complete": true
+  }
 }
