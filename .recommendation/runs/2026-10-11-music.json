@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-11",
+  "status": "success",
+  "operation": "same-day repair of previously published five recommendations",
+  "provider": "apple_music",
+  "candidate_count": 25,
+  "duplicate_rejections": 1,
+  "history_before": 182,
+  "history_after": 187,
+  "zero_prior_history_matches": true,
+  "five_unique_canonical_ids": true,
+  "storefront_verification": "5/5",
+  "storefront": "cn",
+  "verified_songs": [
+    {
+      "title": "Chicago (Acoustic Version)",
+      "artist": "Sufjan Stevens",
+      "song_id": "160174685",
+      "url": "https://music.apple.com/cn/song/160174685"
+    },
+    {
+      "title": "Hasta la Raíz",
+      "artist": "Natalia Lafourcade",
+      "song_id": "1055384375",
+      "url": "https://music.apple.com/cn/song/1055384375"
+    },
+    {
+      "title": "4:00A.M.",
+      "artist": "大贯妙子",
+      "song_id": "1597423772",
+      "url": "https://music.apple.com/cn/song/1597423772"
+    },
+    {
+      "title": "秦皇岛",
+      "artist": "万能青年旅店",
+      "song_id": "1538548884",
+      "url": "https://music.apple.com/cn/song/1538548884"
+    },
+    {
+      "title": "Vardavar",
+      "artist": "Tigran Hamasyan",
+      "song_id": "1444311551",
+      "url": "https://music.apple.com/cn/song/1444311551"
+    }
+  ],
+  "diversity_wildcard": "Tigran Hamasyan::Vardavar",
+  "diversity": {
+    "wildcard_count": 1,
+    "genres": "acoustic folk / Spanish-language folk-pop / Japanese city pop / Chinese indie rock / Armenian-influenced modern jazz",
+    "artist_cooldown_overlap": 0,
+    "languages": "English, Spanish, Japanese, Mandarin, instrumental"
+  },
+  "cross_repo_consistency": true,
+  "readback": {
+    "manifest": true,
+    "note": true,
+    "state": true
+  },
+  "readback_status": "passed",
+  "notes": {
+    "frontmatter": true,
+    "sections_why_selected": 5,
+    "sections_arrangement_and_timbre": 5,
+    "sections_listening_cue": 5,
+    "album_song_id_url_order_match": true,
+    "explicit_user_notes_preserved": true
+  },
+  "validation": {
+    "github_actions": {
+      "repository": "ZJFILOVE/music-daily",
+      "workflow": "validate",
+      "run_id": 38110978692,
+      "head_sha": "628f5f87f0270534d67cf47c3d7c7681183f7419",
+      "event": "push",
+      "conclusion": "success"
+    }
+  },
+  "repaired_from": "2026-10-11 initial recommendation text was shown in ChatGPT, while repository writes had failed",
+  "failure_resolved": "All files created with serial GitHub Contents API writes and individually read back."
+}
