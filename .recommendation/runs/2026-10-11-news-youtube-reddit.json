@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-11",
+  "workflow": "news-youtube-reddit",
+  "status": "passed",
+  "repair": true,
+  "reason": "Recovered missing News and Reddit Daily files from partial automated run; preserved the existing YouTube file, restored both permanent history indexes and verified their readback",
+  "candidate_counts": {
+    "youtube": 27,
+    "youtube_provenance": "Count declared in previously published original YouTube Daily; candidates not individually re-enumerated during repair",
+    "reddit_at_least": 40,
+    "reddit_provenance": "Conservative lower bound from distinct indexed Reddit posts discovered during repair across multiple subreddits; not an exact tally"
+  },
+  "rejected_duplicates": {
+    "youtube_exact": null,
+    "youtube_semantic_or_mirror": null,
+    "youtube_note": "Original candidate rejection counts not retained. All five final videos were independently tested against full history and approximate same-work title matches.",
+    "reddit_exact_observed": 3,
+    "reddit_semantic_observed": 0,
+    "final_youtube_exact": 0,
+    "final_reddit_exact": 0,
+    "final_semantic_or_mirror": 0
+  },
+  "selected_counts": {
+    "news": 3,
+    "youtube": 5,
+    "reddit": 10
+  },
+  "source_verification": {
+    "news": {
+      "stories_verified": 3,
+      "stories_total": 3,
+      "linked_sources": 8,
+      "method": "FSB official release, Reuters/AP/FT, NEJM primary clinical article and PubMed metadata were checked against published source identities"
+    },
+    "youtube": {
+      "canonical_video_id_and_work_identity_verified": 5,
+      "total": 5,
+      "method": "YouTube original indexed pages where accessible, creator archive or original embedded video, and independent source cross-checks for the same exact video ID",
+      "direct_http_status_all_confirmed": false,
+      "limitation": "Several direct YouTube watch requests were rate-throttled or failed to fetch; indexed canonical source identity was verified. Do not interpret these crawler errors as dead URLs."
+    },
+    "reddit": {
+      "original_post_id_subreddit_title_verified": 10,
+      "total": 10,
+      "method": "Each post was discovered in original Reddit indexed content, including post body or substantive comments; partial direct page readback was possible",
+      "direct_http_status_all_confirmed": false,
+      "limitation": "Some direct Reddit page opens returned crawler Internal Error, while original indexed Reddit result carried the matching canonical post ID and title."
+    },
+    "canonical_target_identity_passed": true,
+    "known_dead_or_mismatched_links": 0,
+    "unchecked_canonical_target_identities": 0,
+    "note": "URL verification means original-source identity and canonical target match, not a claim that every site returned a live 200 status to this client."
+  },
+  "diversity": {
+    "passed": true,
+    "youtube_distinct_channels": 5,
+    "youtube_max_narrow_topic_fraction": 0.4,
+    "youtube_wildcards": 1,
+    "reddit_distinct_subreddits": 10,
+    "reddit_max_narrow_topic_fraction": 0.2,
+    "reddit_wildcards_at_least": 2,
+    "no_recent_youtube_channel_overlap": true
+  },
+  "readback": {
+    "passed": true,
+    "markdown_files": 3,
+    "news_items": 3,
+    "youtube_unique_fresh_ids": 5,
+    "reddit_unique_fresh_ids": 10,
+    "youtube_history_total": 175,
+    "reddit_history_total": 330,
+    "youtube_history_exactly_once": true,
+    "reddit_history_exactly_once": true,
+    "all_yaml_frontmatter": true,
+    "news_auto_markers": true,
+    "required_sections": true,
+    "checklists_complete": true,
+    "user_notes_preserved": true,
+    "existing_youtube_note_unchanged": true
+  },
+  "commits": {
+    "news": "f90b9e72a0884fe2974be36a0ca8fad79ba979a7",
+    "reddit": "0a7357fa9ba3117b32b7a766958ea671f6aff8a8",
+    "youtube_history": "721baefecbe49a59fc6c905380d680597a85e806",
+    "reddit_history": "b1e59afa553c3b3a3100775f00799b788b079e68"
+  },
+  "original_failure": {
+    "error": "This tool call was blocked by OpenAI's safety checks",
+    "origin": "previous partial run report",
+    "github_http_error_code_observed": null,
+    "diagnosis": "The original block was reported before a GitHub HTTP response; precise trigger not available. The present authorized file writes and readbacks succeeded."
+  }
+}
