@@ -30,26 +30,44 @@
       "stories_verified": 3,
       "stories_total": 3,
       "linked_sources": 8,
-      "method": "FSB official release, Reuters/AP/FT, NEJM primary clinical article and PubMed metadata were checked against published source identities"
+      "method": "FSB official release, Reuters/AP/FT, NEJM primary clinical article and PubMed metadata were checked against published source identities",
+      "verified_primary_sources": [
+        "FSB 2026-10-09",
+        "NEJM DOI 10.1056/NEJMoa2602215",
+        "PubMed PMID 42842903"
+      ],
+      "indexed_reporting": [
+        "Reuters hybrid vehicle 2026-10-09",
+        "Reuters optogenetics 2026-10-09"
+      ],
+      "unverified_direct_access": [
+        "AP original article",
+        "FT original article",
+        "Reuters original article direct HTTP"
+      ]
     },
     "youtube": {
       "canonical_video_id_and_work_identity_verified": 5,
       "total": 5,
       "method": "YouTube original indexed pages where accessible, creator archive or original embedded video, and independent source cross-checks for the same exact video ID",
       "direct_http_status_all_confirmed": false,
-      "limitation": "Several direct YouTube watch requests were rate-throttled or failed to fetch; indexed canonical source identity was verified. Do not interpret these crawler errors as dead URLs."
+      "limitation": "Several direct YouTube watch requests were rate-throttled or failed to fetch; indexed canonical source identity was verified. Do not interpret these crawler errors as dead URLs.",
+      "independent_id_identity_evidence_found": 5
     },
     "reddit": {
       "original_post_id_subreddit_title_verified": 10,
       "total": 10,
       "method": "Each post was discovered in original Reddit indexed content, including post body or substantive comments; partial direct page readback was possible",
       "direct_http_status_all_confirmed": false,
-      "limitation": "Some direct Reddit page opens returned crawler Internal Error, while original indexed Reddit result carried the matching canonical post ID and title."
+      "limitation": "Some direct Reddit page opens returned crawler Internal Error, while original indexed Reddit result carried the matching canonical post ID and title.",
+      "unverified_original_post_content": [
+        "okm6rm"
+      ]
     },
-    "canonical_target_identity_passed": true,
+    "canonical_target_identity_passed": false,
     "known_dead_or_mismatched_links": 0,
-    "unchecked_canonical_target_identities": 0,
-    "note": "URL verification means original-source identity and canonical target match, not a claim that every site returned a live 200 status to this client."
+    "unchecked_canonical_target_identities": 1,
+    "note": "2026-10-13 verification: original primary news sources and five YouTube identities cross-checked; direct access remains restricted for some publishers and Reddit post okm6rm cannot be independently retrieved. Do not mark passed."
   },
   "diversity": {
     "passed": true,
