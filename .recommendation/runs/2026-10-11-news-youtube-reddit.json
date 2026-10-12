@@ -1,7 +1,7 @@
 {
   "date": "2026-10-11",
   "workflow": "news-youtube-reddit",
-  "status": "needs_revalidation",
+  "status": "verification_incomplete",
   "repair": true,
   "reason": "Recovered missing News and Reddit Daily files from partial automated run; preserved the existing YouTube file, restored both permanent history indexes and verified their readback",
   "candidate_counts": {
