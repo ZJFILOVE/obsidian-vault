@@ -1,7 +1,7 @@
 {
   "date": "2026-10-11",
   "workflow": "news-youtube-reddit",
-  "status": "passed",
+  "status": "needs_revalidation",
   "repair": true,
   "reason": "Recovered missing News and Reddit Daily files from partial automated run; preserved the existing YouTube file, restored both permanent history indexes and verified their readback",
   "candidate_counts": {
@@ -62,7 +62,7 @@
     "no_recent_youtube_channel_overlap": true
   },
   "readback": {
-    "passed": true,
+    "passed": false,
     "markdown_files": 3,
     "news_items": 3,
     "youtube_unique_fresh_ids": 5,
