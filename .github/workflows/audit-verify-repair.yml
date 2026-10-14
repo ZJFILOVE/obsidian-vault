@@ -1,0 +1,71 @@
+name: Verify pinned recommendation repair (read-only)
+on:
+  push:
+    branches: ['audit/2026-10-14-system-review']
+    paths: ['.github/workflows/audit-verify-repair.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 1c9674208e02ff20be3f7f02d4dc600527ef7eda
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Existing validator and negative regression tests
+        run: |
+          python scripts/validate_daily_recommendations.py
+          python -m unittest discover -s scripts -p 'test_daily_validator.py' -v
+      - name: Verify exact tree, append-only preservation and bounded diff
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib,json,subprocess,zipfile
+          from pathlib import Path
+          def git(*args):return subprocess.check_output(['git',*args])
+          def require(ok,message):
+              if not ok:raise ValueError(message)
+          before='22bcbe4dceaa8983c9cb89cb0d4a31a4bc4aa8a2'
+          head='1c9674208e02ff20be3f7f02d4dc600527ef7eda'
+          require(git('rev-parse','HEAD').decode().strip()==head,'Unexpected checkout')
+          require(git('rev-parse','HEAD^{tree}').decode().strip()=='f654068c13a6bcc1629c0e0193f7596b47b553f0','Unexpected tree')
+          state_path='Music/Daily/state/tracks.json';history_path='.recommendation/history/english.jsonl'
+          old=json.loads(git('show',before+':'+state_path))['recommended'];new=json.loads(Path(state_path).read_text())['recommended']
+          require(len(old)==187 and len(new)==193,'Unexpected history sizes')
+          require(all(k in new and new[k]==v for k,v in old.items()),'Existing history changed')
+          require('费玉清::苏州夜曲' in new,'Retired track lost')
+          old_lines=git('show',before+':'+history_path).splitlines();new_lines=Path(history_path).read_bytes().splitlines()
+          require(new_lines[:len(old_lines)]==old_lines,'English history prefix changed')
+          require(len(old_lines)==20 and len(new_lines)==37,'Unexpected English history sizes')
+          rows=[json.loads(x) for x in new_lines];require(len({(x['date'],x['source_url']) for x in rows})==37,'Repeated English append')
+          dates=['2026-09-05','2026-09-06','2026-09-07','2026-09-08','2026-09-09','2026-09-10','2026-09-11','2026-09-13','2026-10-01']
+          allowed={state_path,history_path,'Resources/YouTube/Daily/2026-09-30.md','scripts/validate_daily_recommendations.py','scripts/test_daily_validator.py'}|{'Music/Daily/manifests/'+d+'.json' for d in dates}
+          paths=git('diff','--name-only','-z',before,head).decode().strip('\0').split('\0');require(set(paths)==allowed,'Unexpected modified path')
+          note_path='Resources/YouTube/Daily/2026-09-30.md'
+          require(Path(note_path).read_bytes()==git('show',before+':'+note_path).replace(b'wcodghatch',b'watch'),'Unexpected YouTube note edit')
+          manifests=sorted(Path('Music/Daily/manifests').glob('*.json'));require(len(manifests)==37,'Missing manifest')
+          all_ids=[]
+          for p in manifests:
+              d=json.loads(p.read_text());require(len(d['tracks'])==5,'Not Daily 5')
+              for t in d['tracks']:
+                  require(t['canonical_id'] in new,'Manifest absent from history');all_ids.append(t['canonical_id'])
+          require(len(all_ids)==len(set(all_ids))==185,'Duplicate current recommendation')
+          result={'status':'passed_data_and_parser_checks','commit':head,'tree':'f654068c13a6bcc1629c0e0193f7596b47b553f0','changed_files':len(paths),'state_count':len(new),'old_state_values_unchanged':True,'english_rows':len(rows),'english_prefix_unchanged':True,'manifests':len(manifests),'manual_notes_unchanged':True,'cross_repository_compare':'not_performed_by_this_repository_scoped_job','source_identity_and_semantic_quality':'separate_checks_not_claimed_here'}
+          out=Path('repair-verification');out.mkdir()
+          (out/'summary.json').write_text(json.dumps(result,indent=2)+'\n')
+          with zipfile.ZipFile(out/'changed-files.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for p in paths:z.write(p,p)
+          print(json.dumps(result,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: repair-verification
+          path: repair-verification/
+          if-no-files-found: error
+          retention-days: 7
