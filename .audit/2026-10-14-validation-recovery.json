@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "operation_id": "system-audit-2026-10-14-repair-2",
+  "audited_on": "2026-10-14",
+  "status": "code_and_readonly_ci_deployed",
+  "repository": "ZJFILOVE/obsidian-vault",
+  "base_commit": "83e192921337a10cb623c266fd53215b7e570113",
+  "patch_commit": "67807acd2b8cd13e86585035ca8ba0bc6c1ef9b7",
+  "patch_tree": "a17eac3fad17e6800c9a6c98f9ba7693d156e09f",
+  "verification_branch": "repair/2026-10-14-validation-recovery",
+  "publish": {
+    "branch": "main",
+    "expected_previous_sha": "83e192921337a10cb623c266fd53215b7e570113",
+    "force": false,
+    "result": "success",
+    "default_branch_readback": "67807acd2b8cd13e86585035ca8ba0bc6c1ef9b7"
+  },
+  "ci": {
+    "branch_run": 38520422348,
+    "branch_result": "success",
+    "main_run": 38520618595,
+    "main_job": 115709229427,
+    "main_result": "success",
+    "tested_commit": "67807acd2b8cd13e86585035ca8ba0bc6c1ef9b7",
+    "daily_validator_tests": 63,
+    "recovery_tests": 15,
+    "total_tests": 78,
+    "new_tests": 66,
+    "append_only_base": "83e192921337a10cb623c266fd53215b7e570113",
+    "append_only_result": "passed_against_base",
+    "scope": "Actual GitHub job steps and decoded main job logs were read; success is local repository structural integrity, not full content/source QA."
+  },
+  "readback_blobs": {
+    "scripts/validate_daily_recommendations.py": "b1b5cacc3ff1754233103b9f57513a3acb5d1db2",
+    "scripts/check_daily_integrity.py": "ee55e6addd709f84ac35962c3eb94873e2409195",
+    "scripts/test_daily_integrity.py": "da742f5bea65bbba1166d01c75f0c9af16bbe9ac",
+    "scripts/publication_recovery.py": "439e64231b6ec6cdb18edf56c616c62cb28e0ce3",
+    "scripts/test_publication_recovery.py": "872e7692ad023480eddc0e822214174b2bbb3b33",
+    ".github/workflows/recommendation-health.yml": "d9365778be4dde9390ac1c06b09ae04536c62dfe",
+    ".recommendation/RECOVERY.md": "4114794ccd70578cf81e32ed23e391b289ab290f"
+  },
+  "data_checks": {
+    "youtube_history_rows": 175,
+    "youtube_unique_resources": 171,
+    "youtube_legacy_duplicate_groups": 3,
+    "youtube_legacy_repeat_occurrences": 4,
+    "reddit_history_rows": 330,
+    "reddit_unique_resources": 330,
+    "english_history_rows": 37,
+    "english_unique_resources": 37,
+    "music_manifests": 37,
+    "current_music_tracks": 185,
+    "permanent_music_history_entries": 193,
+    "retired_music_entries_retained": 8,
+    "music_state_blob_sha": "7467a6fefff1b1a9993b8aa8410dfa3610f81dc6",
+    "vault_state_blob_sha": "7467a6fefff1b1a9993b8aa8410dfa3610f81dc6"
+  },
+  "deployed": {
+    "workflow": ".github/workflows/recommendation-health.yml",
+    "permissions": "contents: read",
+    "schedule_utc": "47 0 * * *",
+    "schedule_business_timezone": "08:47 Asia/Shanghai",
+    "first_future_scheduled_execution": "not_observed",
+    "recovery_tool": "scripts/publication_recovery.py",
+    "recovery_tool_mode": "read_only_retry_decisions_no_github_writes",
+    "production_task_adoption": "not_completed",
+    "scheduled_private_cross_repository_check": "not_deployed"
+  },
+  "invariants": {
+    "recommendation_content_files_changed": 0,
+    "manifest_files_changed": 0,
+    "history_data_files_changed": 0,
+    "manual_notes_overwritten": 0,
+    "policy_changed": false,
+    "chatgpt_automation_changes": 0,
+    "credentials_or_repository_security_settings_changed": 0,
+    "blog_or_scientific_model_changes": 0
+  },
+  "open_items": [
+    "Integrate immutable prepared plans and staged retry decisions into actual publishing tasks.",
+    "Daily cross-private-repository checking still requires two authorized checkouts; repo-local CI does not certify it.",
+    "Live-source availability, resource metadata, semantic novelty and original candidate-pool evidence remain separate checks.",
+    "Local Obsidian synchronization and notification delivery were not tested.",
+    "All repositories were not re-audited in this patch batch."
+  ],
+  "execution_notes": [
+    "Seven patch files were read back and blob hashes matched locally calculated expectations. Four readbacks were pinned to the tested commit; three were read from main after publication.",
+    "No GitHub mutation failed in this batch. A missing new receipt path was confirmed by 404 against the readable pinned commit before creation.",
+    "This receipt is metadata written after the tested patch. CI results above apply to patch_commit, not automatically to the later receipt commit."
+  ]
+}
