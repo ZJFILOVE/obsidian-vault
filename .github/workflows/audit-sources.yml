@@ -1,0 +1,118 @@
+name: Historical source probe (read-only)
+on:
+  push:
+    branches: ['audit/2026-10-14-system-review']
+    paths: ['.github/workflows/audit-sources.yml']
+permissions:
+  contents: read
+jobs:
+  source-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 1c9674208e02ff20be3f7f02d4dc600527ef7eda
+          persist-credentials: false
+      - name: Probe URLs without credentials; never equate HTTP success with full QA
+        shell: bash
+        run: |
+          python - <<'PY'
+          import concurrent.futures,datetime,hashlib,html,ipaddress,json,re,socket,threading,time
+          from pathlib import Path
+          from urllib.parse import urlsplit,urlunsplit,parse_qs,urlencode
+          from urllib.request import Request,build_opener,HTTPRedirectHandler
+          from urllib.error import HTTPError
+          START=time.monotonic();BUDGET=600;MAX_BYTES=262144
+          lock=threading.Lock();blocked={};failures={};semaphores={}
+          def safe(url):
+              p=urlsplit(url)
+              if p.scheme not in {'http','https'} or not p.hostname or p.username or p.password or p.port not in {None,80,443}:raise ValueError('unsafe_url')
+              if any(k.lower() in {'token','api_key','access_token','authorization','signature','sig'} for k in parse_qs(p.query)):raise ValueError('credential_like_query_not_requested')
+              answers=socket.getaddrinfo(p.hostname,p.port or (443 if p.scheme=='https' else 80),type=socket.SOCK_STREAM)
+              if not answers or any(not ipaddress.ip_address(a[4][0]).is_global for a in answers):raise ValueError('non_public_destination_not_requested')
+              return p
+          class GuardedRedirect(HTTPRedirectHandler):
+              max_redirections=5
+              def redirect_request(self,req,fp,code,msg,headers,newurl):
+                  safe(newurl)
+                  return super().redirect_request(req,fp,code,msg,headers,newurl)
+          def display_url(url):
+              p=urlsplit(url);q=parse_qs(p.query)
+              return urlunsplit((p.scheme,p.netloc,p.path,urlencode({'v':q['v'][0]}) if 'v' in q else '', ''))
+          def probe(item):
+              url,paths=item;host=urlsplit(url).hostname
+              record={'url':url,'source_paths':paths,'checked_at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'semantic_identity_verified':False}
+              with lock:sem=semaphores.setdefault(host,threading.Semaphore(1))
+              with sem:
+                  with lock:reason=blocked.get(host)
+                  if reason:return dict(record,result='not_requested_host_backoff',reason=reason)
+                  if time.monotonic()-START>BUDGET:return dict(record,result='not_requested_budget_exhausted')
+                  try:
+                      p=safe(url);target=url
+                      if host in {'www.youtube.com','youtube.com','youtu.be'}:
+                          vid=parse_qs(p.query).get('v',[None])[0] if host!='youtu.be' else p.path.strip('/')
+                          if vid and re.fullmatch('[A-Za-z0-9_-]{11}',vid):
+                              target='https://www.youtube.com/oembed?'+urlencode({'url':'https://www.youtube.com/watch?v='+vid,'format':'json'})
+                              record['probe_method']='official_youtube_oembed';record['resource_id']=vid
+                          else:record['probe_method']='page_get'
+                      else:record['probe_method']='page_get'
+                      safe(target)
+                      req=Request(target,headers={'User-Agent':'ZJFILOVE-Repository-Audit/1.0 (read-only link verification)','Accept':'text/html,application/json;q=0.9,*/*;q=0.1'})
+                      with build_opener(GuardedRedirect()).open(req,timeout=12) as response:
+                          data=response.read(MAX_BYTES+1);record['http_status']=response.status
+                          record['final_url']=display_url(response.url);record['content_type']=response.headers.get('Content-Type','')
+                      prefix=data[:MAX_BYTES];record['response_prefix_sha256']=hashlib.sha256(prefix).hexdigest();record['prefix_truncated']=len(data)>MAX_BYTES
+                      text=prefix.decode('utf-8',errors='replace');match=re.search(r'<title\b[^>]*>(.*?)</title>',text,re.I|re.S)
+                      if match:record['response_title']=re.sub(r'\s+',' ',html.unescape(match.group(1))).strip()[:180]
+                      if record['probe_method']=='official_youtube_oembed':
+                          obj=json.loads(prefix);record['response_title']=str(obj.get('title',''))[:180];record['response_author']=str(obj.get('author_name',''))[:120]
+                          record['result']='oembed_metadata_returned_not_playback_verified'
+                      else:record['result']='http_success_not_identity_verified'
+                      return record
+                  except HTTPError as exc:
+                      record.update(http_status=exc.code,result='http_error',reason=exc.reason)
+                      if exc.code in {401,403,429}:
+                          with lock:blocked[host]='HTTP '+str(exc.code)+'; avoid repeated unauthenticated requests'
+                          record['retry_after']=exc.headers.get('Retry-After');record['result']='access_restricted_or_rate_limited'
+                      return record
+                  except Exception as exc:
+                      record.update(result='request_unverified',reason=type(exc).__name__)
+                      with lock:
+                          failures[host]=failures.get(host,0)+1
+                          if failures[host]>=2:blocked[host]='two transport/parse failures; defer further requests'
+                      return record
+                  finally:time.sleep(0.3)
+          sources={}
+          for directory in ['Music/Daily','50-courses/English/Daily','50-courses/English/Weekly','News/Daily','Resources/YouTube/Daily','Resources/Reddit/Daily']:
+              for path in Path(directory).rglob('*.md'):
+                  if not re.fullmatch(r'\d{4}-\d{2}-\d{2}',path.stem):continue
+                  for url in re.findall(r'https?://[^\s<>\]"\u3000]+',path.read_text(encoding='utf-8')):
+                      url=url.rstrip(').,;，。；')
+                      try:
+                          parsed=urlsplit(url)
+                          if parsed.hostname and parsed.scheme in {'https','http'}:sources.setdefault(url,[]).append(str(path))
+                      except ValueError:pass
+          groups={}
+          for u,paths in sources.items():groups.setdefault(urlsplit(u).hostname,[]).append((u,paths))
+          work=[]
+          while any(groups.values()):
+              for group in groups.values():
+                  if group:work.append(group.pop())
+          rows=[]
+          with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+              for record in pool.map(probe,work):rows.append(record)
+          counts={}
+          for row in rows:counts[row['result']]=counts.get(row['result'],0)+1
+          summary={'status':'completed_probe_not_full_source_QA','snapshot_commit':'1c9674208e02ff20be3f7f02d4dc600527ef7eda','urls_enumerated':len(sources),'records':len(rows),'results':counts,'budget_seconds':BUDGET,'network_attempts':sum(not x['result'].startswith('not_requested') for x in rows),'limitations':['HTTP 200 is not proof of correct title, date, version or factual content','401/403/429 and transport failures are unverified, not proof of a dead link','Remaining URLs for blocked hosts are explicitly not requested','Current dated notes across all retained dates; deleted historical note bodies not probed','No cookies, credentials or provider account playback used'],'host_backoffs':blocked}
+          out=Path('source-probe-output');out.mkdir()
+          (out/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
+          (out/'results.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n')
+          print(json.dumps(summary,ensure_ascii=False,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: historical-source-probe
+          path: source-probe-output/
+          if-no-files-found: error
+          retention-days: 7
