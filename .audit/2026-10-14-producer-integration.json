@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "operation_id": "system-audit-2026-10-14-repair-3",
+  "audited_on": "2026-10-14",
+  "status": "code_deployed_and_producer_configuration_updated",
+  "repository": "ZJFILOVE/obsidian-vault",
+  "base_commit": "f1789f58faaa512b307ac04483e72f6dd3665013",
+  "patch_commit": "585d81e26c0ee1ce6f9782b2d2b004872e90c9b7",
+  "patch_tree": "87293779319367ba56512d27d28e5a946a7c8bcd",
+  "publish": {
+    "branch": "main",
+    "expected_previous_sha": "f1789f58faaa512b307ac04483e72f6dd3665013",
+    "force": false,
+    "result": "success"
+  },
+  "ci": {
+    "branch_run": 38523919863,
+    "branch_result": "success",
+    "main_run": 38524116695,
+    "main_job": 115720320875,
+    "main_result": "success",
+    "full_main_job_logs_read": true,
+    "daily_tests": 63,
+    "publication_and_recovery_tests": 41,
+    "remote_snapshot_tests": 15,
+    "total_tests": 119,
+    "new_tests": 41,
+    "append_only_result": "passed_against_base",
+    "production_journal_bundles_at_test_time": 0,
+    "scope": "Structural/history/code checks, not live-source QA or actual scheduled publication."
+  },
+  "readback_blobs": {
+    "scripts/publication_recovery.py": "deda24c3da708841779aa328f2aceb96431a86f2",
+    "scripts/publication_bundle.py": "83b1567891513afabec7960fb80888eed3e870df",
+    "scripts/check_remote_music_snapshot.py": "00410cd856b3ec02a0da743dddbb1d427192bb78",
+    "scripts/test_publication_bundle.py": "64a0b8a82cff48569146d5caceb4794df90e7792",
+    "scripts/test_remote_music_snapshot.py": "77993a5429bdd2b3eac9e5c158c6091838163cb7",
+    ".github/workflows/recommendation-health.yml": "4152514cc4b699451f5586731c206fb2c2ad8c59",
+    ".recommendation/PUBLISHING.md": "cc67ccd8d20b22487f2667848cdda4b3181724c5",
+    ".recommendation/policy.json": "cf9d1b486e07ca1efe965cf6af6f0ea422497670"
+  },
+  "cross_repository_check": {
+    "result": "passed_current_music_mirrors",
+    "music_snapshot_head": "6882e88621add74797323b432e28805048459043",
+    "vault_snapshot_head": "f1789f58faaa512b307ac04483e72f6dd3665013",
+    "heads_reread_stable": true,
+    "provenance": "Root tree entries and subtree commitments read through the authorized GitHub connector. Complete relevant subtree objects reconstructed from authorized snapshots and verified byte-for-byte by recomputed Git tree hashes against those commitments.",
+    "manifests_compared": 37,
+    "state_blob_sha_both_repositories": "7467a6fefff1b1a9993b8aa8410dfa3610f81dc6",
+    "notes_exist_for_all_manifest_dates": true,
+    "content_unchanged_through_patch_commit": "GitHub compare confirmed exactly eight code/workflow/policy/document files changed; no publication or history changed.",
+    "repo_local_ci_itself_has_cross_private_access": false
+  },
+  "read_only_real_content_replays": [
+    {"project":"music","date":"2026-10-12","targets":5,"result":"artifacts_match","all_actions":"no_op"},
+    {"project":"english","date":"2026-10-12","targets":4,"result":"artifacts_match","all_actions":"no_op"},
+    {"project":"english","date":"2026-10-11","targets":2,"result":"artifacts_match","all_actions":"no_op"},
+    {"project":"news-youtube-reddit","date":"2026-10-11","targets":5,"result":"artifacts_match","all_actions":"no_op"}
+  ],
+  "replay_scope": "Local freeze/baseline/retry checks against existing content; zero publication writes, no new recommendations and no reconstructed source/candidate QA.",
+  "task_configuration": {
+    "service_updates": [
+      {"title":"Apple Music Daily 5","updated_at":"2026-10-14T06:47:29.475245Z","result":"SUCCESS","is_enabled":true,"existing_schedule_preserved":true},
+      {"title":"English Daily + Diet","updated_at":"2026-10-14T06:48:18.360637Z","result":"SUCCESS","is_enabled":true,"existing_schedule_preserved":true},
+      {"title":"Daily News + YouTube + Reddit","updated_at":"2026-10-14T06:48:53.863601Z","result":"SUCCESS","is_enabled":true,"existing_schedule_preserved":true}
+    ],
+    "producer_adoption": "Actual stored prompts now require PUBLISHING.md, full immutable payload bundles, original-baseline retries, grouped repository stages and independent current-publication QA. Configuration responses were inspected.",
+    "new_watch": {"title":"跨仓库健康巡检","created_at":"2026-10-14T06:49:57.925553Z","result":"SUCCESS","is_enabled":true,"timing_mode":"condition_watch","schedule":"daily around 10:00 Asia/Shanghai","mode":"read_only_connector_checks_no_repository_mutations"},
+    "first_scheduled_production_run_with_new_configuration": "not_observed",
+    "first_scheduled_watch_execution": "not_observed",
+    "device_sync_and_notification_delivery": "not_tested"
+  },
+  "data_invariants": {
+    "music_manifests": 37,
+    "music_current_tracks": 185,
+    "music_permanent_history_entries": 193,
+    "retired_music_entries_retained": 8,
+    "english_history_rows": 37,
+    "youtube_history_rows": 175,
+    "youtube_unique_resources": 171,
+    "reddit_history_rows": 330,
+    "reddit_unique_resources": 330,
+    "publication_files_changed": 0,
+    "history_files_changed": 0,
+    "manual_notes_overwritten": 0,
+    "new_recommendations_generated": 0,
+    "credentials_or_repository_security_settings_changed": 0,
+    "content_quality_thresholds_changed": false,
+    "policy_change_scope": "Publishing execution protocol and explicit historical-backlog separation only."
+  },
+  "remaining_limitations": [
+    "The production executor remains a model-driven connector workflow; unit tests and updated prompts do not establish end-to-end scheduled-run reliability.",
+    "No real production PREPARED bundle or newly generated publication was committed in this batch.",
+    "Two repositories remain separate transactions; the implemented protocol provides recovery rather than true cross-repository atomicity.",
+    "Full historical live-source, semantic, recording-equivalence and candidate-pool QA is not certified.",
+    "Local Obsidian synchronization, notification delivery and the first future executions remain unverified.",
+    "Other repositories were not comprehensively re-audited in this patch batch."
+  ],
+  "execution_notes": [
+    "Eight patch-file blob hashes matched local expected bytes; two readbacks were pinned to the tested commit and six used main. Some readbacks were line slices, not full text.",
+    "All GitHub mutations and the four automation configuration operations in this batch returned success. The new receipt path was confirmed absent on the readable pinned commit before creation.",
+    "CI results above apply to patch_commit. This later metadata receipt is not automatically covered by a new CI run."
+  ]
+}
