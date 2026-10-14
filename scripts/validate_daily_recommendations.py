@@ -91,12 +91,17 @@ def validate_reddit() -> int:
 
 
 def extract_source_url(note: str) -> str | None:
+    value = frontmatter_value(note, "source_url")
+    if value:
+        value = value.strip("\"' ")
+        if re.fullmatch(r"https?://[^\s<>]+", value):
+            return value
     for line in note.splitlines():
-        low = line.lower()
-        if "source url" in low or re.match(r"^\s*-?\s*\*\*?source\*\*?\s*:", line, re.I) or re.match(r"^\s*-\s*source\s*:", line, re.I):
-            m = URL_RE.search(line)
-            if m:
-                return m.group(0).rstrip(".,;\"")
+        plain = re.sub(r"^\s*-\s*", "", line).replace("**", "").strip()
+        if re.match(r"^source(?:\s+url)?\s*:", plain, re.I):
+            match = URL_RE.search(plain)
+            if match:
+                return match.group(0).rstrip(".,;\"")
     return None
 
 
@@ -135,9 +140,6 @@ def validate_music() -> int:
         "### 为什么今天推荐",
         "### 编曲与音色",
         "### 具体聆听点",
-        "**Album:**",
-        "**song_id:**",
-        "**Apple Music：中国大陆区**",
     ]
     for path in sorted(MUSIC_DIR.glob("????-??-??.md")):
         date = date_from_path(path)
@@ -152,10 +154,30 @@ def validate_music() -> int:
             expected = 5 if marker.startswith("###") or marker.startswith("**Album") or marker.startswith("**song_id") or marker.startswith("**Apple Music") else 1
             if count != expected:
                 fail(f"{path.relative_to(ROOT)}: expected {expected} occurrences of {marker!r}, found {count}")
+        # Markdown presentation is not a data constraint: both existing bold
+        # metadata and ordinary list metadata are accepted. Values remain required.
+        fields = {"Album": [], "song_id": [], "Apple Music": []}
+        for line in note.splitlines():
+            plain = re.sub(r"^\s*[-*]\s+", "", line).replace("**", "").strip()
+            for field, pattern in (
+                ("Album", r"^Album:\s*(\S.*)$"),
+                ("song_id", r"^song_id:\s*`?([0-9]+)`?\s*$"),
+                ("Apple Music", r"^Apple Music(?:\s*CN)?\s*[:：](?:中国大陆区)?\s*(https://\S+)$"),
+            ):
+                match = re.match(pattern, plain, re.I)
+                if match:
+                    fields[field].append(match.group(1))
+        for field, values in fields.items():
+            if len(values) != 5:
+                fail(f"{path.relative_to(ROOT)}: expected 5 non-empty {field} fields, found {len(values)}")
+        if fields["song_id"] != song_ids:
+            fail(f"{path.relative_to(ROOT)}: song_id fields do not match direct URL order")
         manifest = frontmatter_value(note, "manifest")
         if not manifest:
             fail(f"{path.relative_to(ROOT)}: missing manifest frontmatter")
-        manifest_path = ROOT / manifest
+        manifest_path = (ROOT / manifest).resolve()
+        if not manifest_path.is_relative_to(ROOT.resolve()):
+            fail(f"{path.relative_to(ROOT)}: manifest path escapes vault")
         if not manifest_path.exists():
             fail(f"{path.relative_to(ROOT)}: referenced manifest does not exist: {manifest}")
         try:
