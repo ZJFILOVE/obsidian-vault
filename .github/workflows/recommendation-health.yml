@@ -1,0 +1,59 @@
+name: Recommendation integrity (read-only)
+'on':
+  push:
+    paths:
+      - 'scripts/validate_daily_recommendations.py'
+      - 'scripts/check_daily_integrity.py'
+      - 'scripts/publication_recovery.py'
+      - 'scripts/test_daily*.py'
+      - 'scripts/test_publication_recovery.py'
+      - '.recommendation/**'
+      - 'Music/Daily/**'
+      - 'Resources/YouTube/Daily/**'
+      - 'Resources/Reddit/Daily/**'
+      - '50-courses/English/**'
+      - '.github/workflows/recommendation-health.yml'
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 0 * * *' # 08:47 Asia/Shanghai; integrity, not content generation
+permissions:
+  contents: read
+concurrency:
+  group: recommendation-health-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5, verified 2026-10-14
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Validate publications and full source-history coverage
+        run: python3 scripts/validate_daily_recommendations.py
+      - name: Negative regressions and interrupted-publication recovery
+        run: |
+          python3 -m unittest discover -s scripts -p 'test_daily*.py' -v
+          python3 -m unittest discover -s scripts -p 'test_publication_recovery.py' -v
+      - name: Compare permanent history with the actual base commit
+        shell: bash
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          case "$BASE_SHA" in
+            ''|0000000000000000000000000000000000000000) BASE_SHA="$(git rev-parse HEAD^)" ;;
+          esac
+          python3 scripts/check_daily_integrity.py --base-ref "$BASE_SHA" | tee "$RUNNER_TEMP/recommendation-health.json"
+      - name: Record scope of checks
+        if: always()
+        shell: bash
+        run: |
+          echo '## Recommendation integrity' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Read-only checks. Live sources, semantic quality, private cross-repository access, device sync and delivery are NOT certified.' >> "$GITHUB_STEP_SUMMARY"
+          if [ -f "$RUNNER_TEMP/recommendation-health.json" ]; then
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat "$RUNNER_TEMP/recommendation-health.json" >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi
