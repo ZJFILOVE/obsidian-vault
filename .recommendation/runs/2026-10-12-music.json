@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-12",
+  "task": "music",
+  "mode": "repair",
+  "audited_on": "2026-10-14",
+  "operation_id": "system-audit-2026-10-14-repair-1",
+  "status": "data_repaired_verification_partial",
+  "data_repair_status": "passed",
+  "full_content_qa_status": "not_certified",
+  "new_recommendations_generated": false,
+  "existing_note_modified": false,
+  "automation_reenabled": false,
+  "evidence": {
+    "music_repair_commit": "f9a057c4ee90b09a1f30aa2059e23ef213c866f4",
+    "vault_repair_commit": "1c9674208e02ff20be3f7f02d4dc600527ef7eda",
+    "music_main_ci_run": 38514940759,
+    "music_main_ci_result": "success",
+    "vault_pinned_repair_ci_run": 38513801521,
+    "vault_pinned_repair_ci_result": "success",
+    "vault_verification_artifact_id": 11870034013,
+    "vault_verification_artifact_sha256": "ef5d7bda4e43b24b3437b1f8e0aa9afb9bb2323c5984dd8ca9564719b5b5805e",
+    "vault_all_14_changed_files_read_back_and_byte_compared": true,
+    "state_blob_sha_both_default_branches": "7467a6fefff1b1a9993b8aa8410dfa3610f81dc6",
+    "manifest_blob_sha_both_repositories": "35f974e89bd209addcfef98ba16f5b7bc5e0ace3",
+    "unchanged_note_blob_sha": "6e9df76b4d3d253b852dcd3d9d47a82ca4a4b556"
+  },
+  "history": {
+    "before_count": 187,
+    "after_count": 193,
+    "old_entries_and_values_unchanged": true,
+    "october_12_missing_entries_appended": 5,
+    "retired_september_5_entry_restored": "费玉清::苏州夜曲",
+    "retired_entries_retained_total": 8,
+    "all_reachable_pre_audit_music_exposures_covered": 193,
+    "scope": "Repository manifests and history versions; recommendations shown only in external conversations cannot be reconstructed from Git alone."
+  },
+  "structural_checks": {
+    "daily_track_count": 5,
+    "current_manifests_compared": 37,
+    "current_tracks": 185,
+    "cross_date_exact_canonical_duplicates": 0,
+    "cross_date_exact_song_id_duplicates": 0,
+    "all_music_manifest_mirrors_byte_equal": true,
+    "state_mirrors_byte_equal": true,
+    "all_current_music_note_song_ids_match_manifest_order": true,
+    "required_october_12_analysis_sections_present": true,
+    "october_12_direct_cn_song_urls_match_ids": true,
+    "exact_artist_name_cooldown_check": "no violation in the strict policy period",
+    "wildcard_marker_present": true
+  },
+  "october_12_source_checks": {
+    "method": "Official Apple Music China song pages were opened during this audit and title, artist, album and exact song ID checked.",
+    "verified_song_ids": ["1171898023", "1443845526", "1592614854", "1451077338", "1203034552"],
+    "catalog_metadata_result": "passed_for_these_five",
+    "authenticated_china_account_playback": "not_tested"
+  },
+  "open_checks": [
+    "Original candidate pool and subjective semantic novelty cannot be fully reconstructed from the committed October 12 files.",
+    "Artist aliases, recording-equivalence aliases and musicological interpretation are not proven by exact-string checks.",
+    "Full historical live-source availability and metadata are separate from this data repair.",
+    "Twenty historical CN song URLs use a schema-valid slug form rather than the requested shortest /cn/song/ID form.",
+    "The September 4 legacy manifest does not satisfy every field in the later unversioned JSON Schema.",
+    "Local Obsidian device synchronization and notification delivery are not verified."
+  ],
+  "resume_condition": "Do not infer permission to re-enable a publishing task from data_repair_status alone. Complete the remaining applicable content/source gates and record a distinct reviewed result. Never delete historical entries to clear an audit finding."
+}
