@@ -8,17 +8,23 @@
     "verification_and_post_write_readback_are_required"
   ],
   "scoring": {
-    "quality": 0.30,
+    "quality": 0.3,
     "usefulness": 0.25,
-    "curiosity": 0.20,
+    "curiosity": 0.2,
     "novelty_to_user": 0.15,
-    "fit": 0.10,
-    "penalties": ["recent_similarity", "topic_concentration", "same_creator", "generic_explanation", "weak_source"]
+    "fit": 0.1,
+    "penalties": [
+      "recent_similarity",
+      "topic_concentration",
+      "same_creator",
+      "generic_explanation",
+      "weak_source"
+    ]
   },
   "composition": {
-    "high_confidence_fraction": 0.50,
-    "adjacent_exploration_fraction": 0.30,
-    "wildcard_fraction": 0.20
+    "high_confidence_fraction": 0.5,
+    "adjacent_exploration_fraction": 0.3,
+    "wildcard_fraction": 0.2
   },
   "youtube": {
     "candidate_pool_min": 25,
@@ -26,7 +32,7 @@
     "same_work_or_mirror_repeat": "permanent_block",
     "creator_cooldown_days": 7,
     "narrow_topic_cooldown_days": 3,
-    "max_narrow_topic_fraction": 0.40,
+    "max_narrow_topic_fraction": 0.4,
     "wildcard_min": 1,
     "final_count": 5
   },
@@ -34,7 +40,7 @@
     "candidate_pool_min": 35,
     "post_id_repeat": "permanent_block",
     "narrow_topic_cooldown_days": 3,
-    "max_narrow_topic_fraction": 0.40,
+    "max_narrow_topic_fraction": 0.4,
     "wildcard_min": 2,
     "final_count": 10
   },
@@ -42,10 +48,19 @@
     "candidate_pool_min": 8,
     "source_url_repeat": "permanent_block",
     "narrow_topic_cooldown_days": 7,
-    "weekday_source_minutes": [5, 15],
-    "translation_levels": ["CET-6", "TOEFL/academic"],
+    "weekday_source_minutes": [
+      5,
+      15
+    ],
+    "translation_levels": [
+      "CET-6",
+      "TOEFL/academic"
+    ],
     "translation_must_not_be_source_paraphrase": true,
-    "vocabulary_count": [6, 10]
+    "vocabulary_count": [
+      6,
+      10
+    ]
   },
   "music": {
     "candidate_pool_min": 15,
@@ -55,10 +70,17 @@
     "final_count": 5,
     "storefront": "cn",
     "direct_song_url_required": true,
-    "required_analysis_sections": ["why_selected", "arrangement_and_timbre", "specific_listening_cue"]
+    "required_analysis_sections": [
+      "why_selected",
+      "arrangement_and_timbre",
+      "specific_listening_cue"
+    ]
   },
   "news": {
-    "preferred_count": [3, 6],
+    "preferred_count": [
+      3,
+      6
+    ],
     "ongoing_story_requires_material_update": true,
     "padding_is_forbidden": true,
     "long_horizon_months_min": 6
@@ -73,14 +95,16 @@
     "cross_repository_music_consistency": true
   },
   "publishing": {
-    "github_write_strategy": "Serial GitHub Contents API mutations. Fetch latest blob SHA immediately before update_file; use create_file only on confirmed 404.",
-    "transaction_order": "Write 3 Daily notes, read back; append exactly-once history entries, read back; then create/update QA run JSON and read back.",
-    "same_day_retries": "Resume incomplete steps without duplicate history entries; preserve user Notes and content outside AUTO markers.",
+    "github_write_strategy": "Use .recommendation/PUBLISHING.md and immutable publication bundles. Prefer one ordinary Git commit per repository/stage with the actual base tree SHA, current parent commit and non-force ref update; otherwise use serial Contents API mutations with fresh matching blob SHAs.",
+    "transaction_order": "Verify current selection and all final payloads; persist/read back immutable PREPARED bundle; apply stage 1 then stage 2 where applicable, grouped per repository; read back complete notes/manifests and append-only history; only then write/read back independent QA receipt.",
+    "same_day_retries": "Load the original bundle, digest and frozen payloads; resume only missing stages. Same-operation reservations are not new duplicates. Preserve every earlier exposure and user Notes; divergent target content is a conflict.",
     "on_409": "Refetch latest content and SHA; reconcile changes rather than overwriting.",
     "on_422": "Inspect validation message; do not blindly retry unchanged payload.",
     "on_403_or_429": "Capture raw error and exposed rate-limit headers; obey Retry-After or reset. If permission denied, stop.",
     "on_transport_error_or_5xx": "Fetch target before retry because commit may have succeeded despite lost response.",
     "failure_audit": "Record UTC time, operation, path, HTTP status/message if exposed, SHA/commit if known. Never store secrets.",
-    "success_gate": "Only report full success after exact ID, semantic duplicate, verification and post-write readback gates pass."
+    "success_gate": "Only report full success after exact ID, semantic duplicate, verification and post-write readback gates pass.",
+    "execution_protocol": ".recommendation/PUBLISHING.md",
+    "legacy_findings": "Retain historical source/format findings as explicit backlog without deleting or replacing exposed content. They do not waive current-publication source gates. Broken history or inconsistent music mirrors blocks publication."
   }
 }

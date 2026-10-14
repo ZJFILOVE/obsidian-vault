@@ -49,7 +49,8 @@ def validate(plan: dict) -> None:
                 and PurePosixPath(path).as_posix() == path, "non-canonical or unsafe target path")
         require((repo, path) not in seen, "duplicate target")
         seen.add((repo, path))
-        sha(target.get("base_sha"), optional=True); sha(target.get("target_sha"))
+        require("base_sha" in target, "base_sha must be explicit; missing is not confirmed absence")
+        sha(target["base_sha"], optional=True); sha(target.get("target_sha"))
         require(type(target.get("stage")) is int and target["stage"] >= 1, "invalid stage")
 
 
