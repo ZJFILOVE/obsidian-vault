@@ -1,0 +1,223 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+TOOL_VERSION = "2.2"
+r"""
+gen_config.py — 由项目目录的 config.yaml 生成 LaTeX 参数文件
+  输出: <project>/config-class.tex  (\PassOptionsToClass，须在 \documentclass 前 \input)
+        <project>/config.tex        (geometry 版面与全部文本参数宏)
+用法: python gen_config.py --project <项目目录>
+依赖: 无第三方依赖（优先使用 PyYAML，缺失时退回内置解析器；
+      两条路径在本配置使用的扁平子集上结果一致，见 parse_flat_yaml）。
+
+配置语义（扁平 key: value，单行值）：
+  - 值可用双引号或单引号包裹；引号内的 # 不视为注释；
+  - 未加引号的值在第一个 " #" 处截断注释；加引号的值不支持行内注释；
+  - 未知键、非法枚举、缺单位尺寸均报错（绝不静默忽略）。
+"""
+import argparse
+import os
+import re
+import sys
+
+for stream in (sys.stdout, sys.stderr):
+    if hasattr(stream, "reconfigure"):
+        stream.reconfigure(encoding="utf-8", errors="replace")
+
+# 已知字段：kind 决定校验与转义方式
+FIELDS = {
+    "font_size": ("enum", ("10pt", "11pt", "12pt")),
+    "paperwidth": ("dim", None),
+    "paperheight": ("dim", None),
+    "orientation": ("enum", ("landscape", "portrait")),
+    "margin_top": ("dim", None),
+    "margin_bottom": ("dim", None),
+    "margin_left": ("dim", None),
+    "margin_right": ("dim", None),
+    "headheight": ("dim", None),
+    "columns": ("int", None),
+    "main_title": ("text", None),
+    "teacher_head_left": ("text", None),
+    # ---- 对话层开关（references/tex-interface.md 配置字段表；值为受信标识符，不转义） ----
+    "dialogue_enabled": ("dlg_enable", None),
+    "dialogue_section_opening": ("bool", None),
+    "dialogue_example_opening": ("bool", None),
+    "dialogue_max_section_turns": ("int", None),
+    "dialogue_max_example_turns": ("int", None),
+    "dialogue_student_reveal": ("enum", ("prompt_only", "full")),
+    "dialogue_require_coverage_hook": ("bool", None),
+}
+DIM_RE = re.compile(r"^\d+(\.\d+)?(mm|cm|in|pt|em|ex|bp|pc)$")
+DLG_ENABLE_RE = re.compile(r"^(true|false|sec\d+(,sec\d+)*)$")
+
+
+def parse_flat_yaml(text):
+    """解析本配置使用的扁平 YAML 子集，两条解析路径共用同一语义。
+
+    与 PyYAML 在该子集上保持一致：单/双引号包裹的值原样取引号内内容
+    （引号内 # 不是注释）；未包裹的值在 " #" 处截断注释并去首尾空白。
+    """
+    data = {}
+    for lineno, line in enumerate(text.splitlines(), 1):
+        s = line.strip()
+        if not s or s.startswith("#") or ":" not in s:
+            continue
+        key, _, val = s.partition(":")
+        key, val = key.strip(), val.strip()
+        if val[:1] in ('"', "'"):
+            q = val[0]
+            end = val.find(q, 1)
+            if end < 0:
+                raise ValueError("config.yaml:%d: 引号未闭合: %s"
+                                 % (lineno, line.strip()))
+            val = val[1:end]
+        else:
+            val = val.split(" #", 1)[0].strip()
+        data[key] = val
+    return data
+
+
+def load_config(path):
+    """读取扁平的 key: value 配置。优先 PyYAML，缺失时用内置解析器。"""
+    with open(path, encoding="utf-8") as f:
+        text = f.read()
+    try:
+        import yaml  # type: ignore
+    except ImportError:
+        return parse_flat_yaml(text)
+    data = yaml.safe_load(text)
+    # PyYAML 会把 true/false 解析为 Python 布尔值，统一回小写字符串
+    return {k: (str(v).lower() if isinstance(v, bool) else str(v))
+            for k, v in (data or {}).items()}
+
+
+def validate(cfg):
+    """字段类型、枚举与单位校验；返回错误消息列表。"""
+    errors = []
+    for k, v in cfg.items():
+        if k not in FIELDS:
+            errors.append("未知配置键 “%s”（已知键: %s）"
+                          % (k, ", ".join(sorted(FIELDS))))
+            continue
+        kind, enum = FIELDS[k]
+        if kind == "enum" and v not in enum:
+            errors.append("%s 取值 “%s” 非法，只能是: %s"
+                          % (k, v, " / ".join(enum)))
+        elif kind == "bool" and v not in ("true", "false"):
+            errors.append("%s 取值 “%s” 非法，只能是: true / false" % (k, v))
+        elif kind == "dlg_enable" and not DLG_ENABLE_RE.match(v):
+            errors.append("%s 取值 “%s” 非法，只能是 true / false / "
+                          "逗号分隔的小节列表（如 sec0,sec1）" % (k, v))
+        elif kind == "int":
+            if not v.isdigit() or int(v) < 1:
+                errors.append("%s 必须是正整数（收到 “%s”）" % (k, v))
+        elif kind == "dim" and not DIM_RE.match(v):
+            errors.append("%s 必须带单位（mm/cm/in/pt 等），收到 “%s”"
+                          % (k, v))
+    return errors
+
+
+def esc(v):
+    """转义普通文本参数中的 LaTeX 特殊字符（配置为受信纯文本）。"""
+    out = []
+    for c in v:
+        if c in "%&_#":
+            out.append("\\" + c)
+        elif c == "$":
+            out.append(r"\$")
+        else:
+            out.append(c)
+    return "".join(out)
+
+
+def generate(tdir):
+    """由 <tdir>/config.yaml 确定性生成 config-class.tex 与 config.tex。
+
+    供 build.py 等直接调用（不依赖外部进程状态）。内容相同则不重写文件
+    （内容比较，不看 mtime）。返回 0=成功, 2=缺少配置/解析或校验失败。
+    """
+    tdir = os.path.abspath(tdir)
+    cfg_path = os.path.join(tdir, "config.yaml")
+    if not os.path.exists(cfg_path):
+        print("[gen_config] 缺少 %s" % cfg_path)
+        return 2
+    try:
+        cfg = load_config(cfg_path)
+    except ValueError as e:
+        print("[gen_config] 配置解析失败: %s" % e)
+        return 2
+
+    errors = validate(cfg)
+    if errors:
+        print("[gen_config] 配置校验失败:")
+        for e in errors:
+            print("  - " + e)
+        return 2
+
+    banner = ("% Auto-generated by scripts/gen_config.py from config.yaml\n"
+              "% 请勿手改本文件；修改 config.yaml 后重新运行 gen_config.py。\n")
+
+    # ---- config-class.tex：\documentclass 之前的选项注入 ----
+    class_tex = (banner + "\\PassOptionsToClass{%s}{ctexart}\n"
+                 % cfg.get("font_size", "12pt"))
+
+    # ---- config.tex：geometry 与文本参数 ----
+    geo_keys = ["paperwidth", "paperheight", "orientation", "margin_top",
+                "margin_bottom", "margin_left", "margin_right", "headheight"]
+    geo_map = {"margin_top": "top", "margin_bottom": "bottom",
+               "margin_left": "left", "margin_right": "right"}
+    opts = []
+    for k in geo_keys:
+        if k not in cfg:
+            continue
+        if k == "orientation":
+            opts.append(cfg[k])  # landscape / portrait 为无值选项
+        else:
+            opts.append("%s=%s" % (geo_map.get(k, k), cfg[k]))
+    geometry = "\\usepackage[\n  " + ",\n  ".join(opts) + "\n]{geometry}\n"
+
+    text_keys = ["columns", "main_title", "teacher_head_left"]
+    defaults = {"columns": "2"}
+    # 对话层开关原样导出为 \pdDialogue* 宏（值已校验为安全标识符，不转义）
+    dialogue_keys = [k for k in FIELDS if k.startswith("dialogue_")]
+    dialogue_defaults = {"dialogue_student_reveal": "prompt_only"}
+
+    def csname(k):  # 下划线转 CamelCase（@ 在导言区不是字母，不可用）
+        return "pd" + "".join(w.capitalize() for w in k.split("_"))
+
+    macros = []
+    for k in text_keys:
+        val = cfg.get(k, defaults.get(k, ""))
+        if FIELDS[k][0] == "text":
+            val = esc(val)  # 普通文本字段转义 LaTeX 特殊字符
+        macros.append("\\providecommand{\\%s}{%s}" % (csname(k), val))
+    for k in dialogue_keys:
+        val = cfg.get(k, dialogue_defaults.get(k, ""))
+        macros.append("\\providecommand{\\%s}{%s}" % (csname(k), val))
+
+    config_tex = (banner + "\n% --- 纸张与版面几何 ---\n" + geometry
+                  + "\n% --- 文本参数 (\\pd<Key>) ---\n"
+                  + "\n".join(macros) + "\n")
+
+    for name, content in [("config-class.tex", class_tex),
+                          ("config.tex", config_tex)]:
+        out = os.path.join(tdir, name)
+        old = open(out, encoding="utf-8").read() if os.path.exists(out) else None
+        if old == content:
+            print("[gen_config] %s 无变化" % name)
+        else:
+            with open(out, "w", encoding="utf-8") as f:
+                f.write(content)
+            print("[gen_config] 已生成 %s" % out)
+    return 0
+
+
+def main():
+    ap = argparse.ArgumentParser(description="由 config.yaml 生成 LaTeX 参数文件")
+    ap.add_argument("--project", required=True,
+                    help="项目目录（含 config.yaml；config*.tex 生成于此）")
+    args = ap.parse_args()
+    return generate(args.project)
+
+
+if __name__ == "__main__":
+    sys.exit(main())
