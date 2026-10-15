@@ -1,0 +1,1445 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "project": "news-youtube-reddit",
+  "operation_id": "news-youtube-reddit:2026-10-15",
+  "status": "passed_current_publication_with_explicit_reddit_original_post_waiver",
+  "content_qa": "passed_with_user_authorized_reddit_verification_scope",
+  "original_bundle_sha256": "b88e1ca0d92e8e2814a3c9a8e4d15573767382f688c8c158ec2cd07d9bb15ee6",
+  "original_plan_sha256": "7437840198895d6b8ce28ed85466b71b845ae66c8fdd025dac574339d94b8ac6",
+  "prepared_creation_commit": "3f14bc2e4467458d946905da2320f06b91499f7a",
+  "prepared_blob_sha": "c57c31dff9e3030d837b9f624046e20d83254f2d",
+  "publication_commit": "2abe268649bf4a5dbc468ce3ca2d4be6f7b1589d",
+  "publication_tree": "3ef57d591212069bf8e7297dacca86a769d94d66",
+  "readbacks": [
+    {
+      "path": "News/Daily/2026-10-15.md",
+      "sha": "b62ac222855103ccfa6a5d48014c75cdcd6d5025",
+      "exact_content_match": true
+    },
+    {
+      "path": "Resources/YouTube/Daily/2026-10-15.md",
+      "sha": "aca76897d3a09956ec3bd5c11cbf57ab0e14f13f",
+      "exact_content_match": true
+    },
+    {
+      "path": "Resources/Reddit/Daily/2026-10-15.md",
+      "sha": "892ae4390f7ead17db6881dd5fdaa4d0656873f6",
+      "exact_content_match": true
+    },
+    {
+      "path": ".recommendation/history/youtube.jsonl",
+      "sha": "c07206c15a2064c8570ef6f168fd700e03a9df6d",
+      "exact_content_match": true
+    },
+    {
+      "path": ".recommendation/history/reddit.jsonl",
+      "sha": "2f4fa07de30ea01801d1808837764907f6357310",
+      "exact_content_match": true
+    }
+  ],
+  "checks": {
+    "status": "passed_current_publication_artifacts_and_scoped_validators",
+    "bundle_sha256": "b88e1ca0d92e8e2814a3c9a8e4d15573767382f688c8c158ec2cd07d9bb15ee6",
+    "planner": "artifacts_match",
+    "counts": {
+      "youtube": {
+        "selected": 5,
+        "original_history_rows": 175,
+        "final_history_rows": 180,
+        "repository_validator_checked": 155
+      },
+      "reddit": {
+        "selected": 10,
+        "original_history_rows": 330,
+        "final_history_rows": 340,
+        "repository_validator_checked": 310
+      }
+    },
+    "news_stories": 3,
+    "reddit_waiver_labels": 10,
+    "append_only_against_original_bytes": true,
+    "all_five_remote_readbacks_exact": true,
+    "manual_notes_preserved": "three confirmed new notes; Notes reserved outside AUTO",
+    "not_certified": [
+      "full-video watch-through",
+      "Reddit original posts/comments per user waiver",
+      "device sync",
+      "notification delivery"
+    ]
+  },
+  "ci": [
+    {
+      "id": 38675119253,
+      "name": "Recommendation integrity (read-only)",
+      "head_sha": "2abe268649bf4a5dbc468ce3ca2d4be6f7b1589d",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/38675119253"
+    }
+  ],
+  "evidence": {
+    "schema_version": 1,
+    "operation_id": "news-youtube-reddit:2026-10-15",
+    "business_date": "2026-10-15",
+    "observed_at_utc": "2026-10-15 03:12:32 UTC",
+    "original_history": {
+      "youtube": {
+        "sha": "959c538240420228c512078a7eecd19cb32d84f6",
+        "rows": 175
+      },
+      "reddit": {
+        "sha": "5e7a46aa8ad7906f0a79622c978f37abaf7d2166",
+        "rows": 330
+      }
+    },
+    "preflight": {
+      "pinned_commit": "58aa7b364747a29ae0f38a1035cd4aed959d92ba",
+      "full_tree_truncated": false,
+      "all_prepared_reservations_read": [
+        "english:2026-10-15",
+        "music:2026-10-15"
+      ],
+      "same_operation_bundle_before_create": "confirmed_absent",
+      "dated_targets_before_create": "all_three_confirmed_absent",
+      "policy_version": 2
+    },
+    "candidate_pools": {
+      "youtube": [
+        {
+          "video_id": "hUhisi2FBuw",
+          "url": "https://www.youtube.com/watch?v=hUhisi2FBuw",
+          "channel": "engineerguy",
+          "topic": "beverage can",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "rejected_permanent_exposure"
+        },
+        {
+          "video_id": "0MwMkBET_5I",
+          "url": "https://www.youtube.com/watch?v=0MwMkBET_5I",
+          "channel": "engineerguy",
+          "topic": "fiber optics",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "selected",
+          "verification": "actual_source_title_and_channel_confirmed",
+          "full_video_watched": false
+        },
+        {
+          "video_id": "kp33ZprO0Ck",
+          "url": "https://www.youtube.com/watch?v=kp33ZprO0Ck",
+          "channel": "engineerguy",
+          "topic": "microwave oven",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "jiejNAUwcQ8",
+          "url": "https://www.youtube.com/watch?v=jiejNAUwcQ8",
+          "channel": "engineerguy",
+          "topic": "LCD",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "ddYZITaxlTQ",
+          "url": "https://www.youtube.com/watch?v=ddYZITaxlTQ",
+          "channel": "engineerguy",
+          "topic": "Betamax VHS",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "KZVgKu6v808",
+          "url": "https://www.youtube.com/watch?v=KZVgKu6v808",
+          "channel": "engineerguy",
+          "topic": "accelerometer",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "F5Ri_HhziI0",
+          "url": "https://www.youtube.com/watch?v=F5Ri_HhziI0",
+          "channel": "engineerguy",
+          "topic": "queueing",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "Wiy_eHdj8kg",
+          "url": "https://www.youtube.com/watch?v=Wiy_eHdj8kg",
+          "channel": "engineerguy",
+          "topic": "hard drive",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "qCxco6227xo",
+          "url": "https://www.youtube.com/watch?v=qCxco6227xo",
+          "channel": "engineerguy",
+          "topic": "NERF",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "oUEbMjtWc-A",
+          "url": "https://www.youtube.com/watch?v=oUEbMjtWc-A",
+          "channel": "engineerguy",
+          "topic": "laser",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "1pM6uD8nePo",
+          "url": "https://www.youtube.com/watch?v=1pM6uD8nePo",
+          "channel": "engineerguy",
+          "topic": "quartz watch",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "bRCNenhcvpw",
+          "url": "https://www.youtube.com/watch?v=bRCNenhcvpw",
+          "channel": "engineerguy",
+          "topic": "Selectric",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "OcgKDSwINOA",
+          "url": "https://www.youtube.com/watch?v=OcgKDSwINOA",
+          "channel": "engineerguy",
+          "topic": "nuclear proliferation",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "RMjtmsr3CqA",
+          "url": "https://www.youtube.com/watch?v=RMjtmsr3CqA",
+          "channel": "engineerguy",
+          "topic": "injection molding",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "3ZhVOy-ytJY",
+          "url": "https://www.youtube.com/watch?v=3ZhVOy-ytJY",
+          "channel": "engineerguy",
+          "topic": "anodizing",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "p2BxAu6WZI8",
+          "url": "https://www.youtube.com/watch?v=p2BxAu6WZI8",
+          "channel": "engineerguy",
+          "topic": "atomic clock",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "fHmgF4ibmuk",
+          "url": "https://www.youtube.com/watch?v=fHmgF4ibmuk",
+          "channel": "engineerguy",
+          "topic": "Titanic",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "4j4Q_YBRJEI",
+          "url": "https://www.youtube.com/watch?v=4j4Q_YBRJEI",
+          "channel": "engineerguy",
+          "topic": "coffee maker",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "DIGqBb3iZPo",
+          "url": "https://www.youtube.com/watch?v=DIGqBb3iZPo",
+          "channel": "engineerguy",
+          "topic": "filament",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "xlY5W7be5jU",
+          "url": "https://www.youtube.com/watch?v=xlY5W7be5jU",
+          "channel": "engineerguy",
+          "topic": "flight recorder",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "oFUUQcpGR3k",
+          "url": "https://www.youtube.com/watch?v=oFUUQcpGR3k",
+          "channel": "engineerguy",
+          "topic": "smoke detector",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "wsdmt0De8Hw",
+          "url": "https://www.youtube.com/watch?v=wsdmt0De8Hw",
+          "channel": "engineerguy",
+          "topic": "CCD",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "RdYHljZi7ys",
+          "url": "https://www.youtube.com/watch?v=RdYHljZi7ys",
+          "channel": "engineerguy",
+          "topic": "first transistor",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "z7r8sKzt7HM",
+          "url": "https://www.youtube.com/watch?v=z7r8sKzt7HM",
+          "channel": "engineerguy",
+          "topic": "cell phone",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "En__V0oEJsU",
+          "url": "https://www.youtube.com/watch?v=En__V0oEJsU",
+          "channel": "engineerguy",
+          "topic": "film projector",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "rhIRD5YVNbs",
+          "url": "https://www.youtube.com/watch?v=rhIRD5YVNbs",
+          "channel": "engineerguy",
+          "topic": "lead acid",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "xYNX8y6lQMc",
+          "url": "https://www.youtube.com/watch?v=xYNX8y6lQMc",
+          "channel": "engineerguy",
+          "topic": "diaper",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "hVCNS2jQQ6g",
+          "url": "https://www.youtube.com/watch?v=hVCNS2jQQ6g",
+          "channel": "engineerguy",
+          "topic": "Apollo telescope",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "COty6_oDEkk",
+          "url": "https://www.youtube.com/watch?v=COty6_oDEkk",
+          "channel": "engineerguy",
+          "topic": "music box",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "UCKC-QVcVn0",
+          "url": "https://www.youtube.com/watch?v=UCKC-QVcVn0",
+          "channel": "engineerguy",
+          "topic": "drinking bird",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "ixxXhZVFXxQ",
+          "url": "https://www.youtube.com/watch?v=ixxXhZVFXxQ",
+          "channel": "engineerguy",
+          "topic": "R101",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "wI-qAxKJoSU",
+          "url": "https://www.youtube.com/watch?v=wI-qAxKJoSU",
+          "channel": "engineerguy",
+          "topic": "Nitinol",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "GOOOsBhCVe4",
+          "url": "https://www.youtube.com/watch?v=GOOOsBhCVe4",
+          "channel": "engineerguy",
+          "topic": "production process",
+          "observed_source": "https://engineerguy.com/videos.htm",
+          "observation": "Actual creator catalogue DOM data-embed and corresponding heading read; catalogue topic summaries read. Not a full viewing.",
+          "decision": "not_selected_same_creator_concentration_or_stronger_cross_domain_fit"
+        },
+        {
+          "video_id": "xWL40q3DMoQ",
+          "title": "This is an excuse to show you a really good tunnel",
+          "channel": "Tom Scott",
+          "topic": "vehicle testing",
+          "url": "https://www.youtube.com/watch?v=xWL40q3DMoQ",
+          "observed_source": "https://www.youtube.com/watch?v=xWL40q3DMoQ",
+          "observation": "actual YouTube h1/channel; author's 2023-05-29 newsletter cross-reference",
+          "decision": "selected",
+          "verification": "actual_source_title_and_channel_confirmed",
+          "full_video_watched": false
+        },
+        {
+          "video_id": "eXR1olg_I0w",
+          "title": "Hovering a Helicopter is Hilariously Hard - Smarter Every Day 145",
+          "channel": "SmarterEveryDay",
+          "topic": "feedback coordination",
+          "url": "https://www.youtube.com/watch?v=eXR1olg_I0w",
+          "observed_source": "https://www.youtube.com/watch?v=eXR1olg_I0w",
+          "observation": "actual YouTube h1/channel and page overview",
+          "decision": "selected",
+          "verification": "actual_source_title_and_channel_confirmed",
+          "full_video_watched": false
+        },
+        {
+          "video_id": "lKIbT-4UFaE",
+          "title": "爱德华·霍普的《夜游者》：杰作解析",
+          "channel": "Great Art Explained",
+          "topic": "painting composition",
+          "url": "https://www.youtube.com/watch?v=lKIbT-4UFaE",
+          "observed_source": "https://www.youtube.com/watch?v=lKIbT-4UFaE",
+          "observation": "actual YouTube h1/channel; expanded description chapters 0:00 context, 4:30 crafting, 5:57 composition, 8:50 isolation; 2021-07-23",
+          "decision": "selected",
+          "verification": "actual_source_title_and_channel_confirmed",
+          "full_video_watched": false
+        },
+        {
+          "video_id": "RPfORR5ffuY",
+          "title": "Fried Chicken From 1736 - Comfort Food Origins - 18th Century Cooking",
+          "channel": "Townsends",
+          "topic": "food history",
+          "url": "https://www.youtube.com/watch?v=RPfORR5ffuY",
+          "observed_source": "https://www.youtube.com/watch?v=RPfORR5ffuY",
+          "observation": "actual YouTube h1/channel; identify 1736 as historical recipe frame, not proof of global origin",
+          "decision": "selected",
+          "verification": "actual_source_title_and_channel_confirmed",
+          "full_video_watched": false
+        }
+      ],
+      "reddit": [
+        {
+          "post_id": "1u1fg3q",
+          "title": "Firmware Flashing via Drag&Drop",
+          "subreddit": "embedded",
+          "url": "https://www.reddit.com/r/embedded/comments/1u1fg3q/firmware_flashing_via_dragdrop/",
+          "observed_age": "4 months ago",
+          "source_reference": "turn24reddit47",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1tqdykg",
+          "title": "USB Storage device as a way to get data into/out of an embedded firmware application?",
+          "subreddit": "embedded",
+          "url": "https://www.reddit.com/r/embedded/comments/1tqdykg/usb_storage_device_as_a_way_to_get_data_intoout/",
+          "observed_age": "4 months ago",
+          "source_reference": "turn24reddit48",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "selected"
+        },
+        {
+          "post_id": "kf0888",
+          "title": "Are there any accounts of the medieval west by foreign travelers?",
+          "subreddit": "AskHistorians",
+          "url": "https://www.reddit.com/r/AskHistorians/comments/kf0888",
+          "observed_age": "5.8 years ago",
+          "source_reference": "turn24reddit49",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "selected"
+        },
+        {
+          "post_id": "mq2ot8",
+          "title": "Book you reread and had a change of heart?",
+          "subreddit": "books",
+          "url": "https://www.reddit.com/r/books/comments/mq2ot8",
+          "observed_age": "5.5 years ago",
+          "source_reference": "turn24reddit50",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "selected"
+        },
+        {
+          "post_id": "1tx5i2l",
+          "title": "How to de-clump a sauce?",
+          "subreddit": "AskCulinary",
+          "url": "https://www.reddit.com/r/AskCulinary/comments/1tx5i2l/how_to_declump_a_sauce/",
+          "observed_age": "4 months ago",
+          "source_reference": "turn24reddit51",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "1vxtfte",
+          "title": "Why does my pan sauce keep breaking even off the heat?",
+          "subreddit": "AskCulinary",
+          "url": "https://www.reddit.com/r/AskCulinary/comments/1vxtfte/why_does_my_pan_sauce_keep_breaking_even_off_the/",
+          "observed_age": "last month",
+          "source_reference": "turn24reddit52",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "jqcxwi",
+          "title": "How can I purposely get clumps in my spaghetti : AskCulinary",
+          "subreddit": "AskCulinary",
+          "url": "https://en.reddit.com/r/AskCulinary/comments/jqcxwi/how_can_i_purposely_get_clumps_in_my_spaghetti/?sort=qa",
+          "observed_age": "5.9 years ago",
+          "source_reference": "turn24search1",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "selected"
+        },
+        {
+          "post_id": "18ao1t2",
+          "title": "What types of stories did people outside of Latin West tell about medieval Europe?",
+          "subreddit": "AskHistorians",
+          "url": "https://www.reddit.com/r/AskHistorians/comments/18ao1t2",
+          "observed_age": "2.9 years ago",
+          "source_reference": "turn24reddit53",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "mgoymp",
+          "title": "What is the effect of boiling intensity on emulsions?",
+          "subreddit": "AskCulinary",
+          "url": "https://www.reddit.com/r/AskCulinary/comments/mgoymp",
+          "observed_age": "5.5 years ago",
+          "source_reference": "turn24reddit54",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "1edxj52",
+          "title": "Why did my sauce break?",
+          "subreddit": "AskCulinary",
+          "url": "https://www.reddit.com/r/AskCulinary/comments/1edxj52",
+          "observed_age": "2.2 years ago",
+          "source_reference": "turn24reddit55",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "lh84k6",
+          "title": "Emulsions and breaking",
+          "subreddit": "AskCulinary",
+          "url": "https://www.reddit.com/r/AskCulinary/comments/lh84k6",
+          "observed_age": "5.7 years ago",
+          "source_reference": "turn24reddit56",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "lsiwbx",
+          "title": "Question about emulsions",
+          "subreddit": "AskCulinary",
+          "url": "https://www.reddit.com/r/AskCulinary/comments/lsiwbx",
+          "observed_age": "5.6 years ago",
+          "source_reference": "turn24reddit57",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "nm67xu",
+          "title": "Cacio e peppe clumped up",
+          "subreddit": "AskCulinary",
+          "url": "https://www.reddit.com/r/AskCulinary/comments/nm67xu",
+          "observed_age": "5.4 years ago",
+          "source_reference": "turn24reddit58",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "1ipnh8i",
+          "title": "We were assigned The Grapes of Wrath in high school and for most people it was long, slow and boring, but that book RADICALIZED me. What books in your high school classes changed how you understood people or society? : books",
+          "subreddit": "books",
+          "url": "https://en.reddit.com/r/books/comments/1ipnh8i/we_were_assigned_the_grapes_of_wrath_in_high/",
+          "observed_age": "1.7 years ago",
+          "source_reference": "turn24search2",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "dfd9se",
+          "title": "Just finished Catcher in the Rye, my life has been changed:books",
+          "subreddit": "books",
+          "url": "https://no.reddit.com/r/books/comments/dfd9se/just_finished_catcher_in_the_rye_my_life_has_been/",
+          "observed_age": "7.0 years ago",
+          "source_reference": "turn24search3",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1nanvp",
+          "title": "What book(s) destroyed you? : books",
+          "subreddit": "books",
+          "url": "https://en.reddit.com/r/books/comments/1nanvp/what_books_destroyed_you/",
+          "observed_age": "13.1 years ago",
+          "source_reference": "turn24search4",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1rqopj1",
+          "title": "Which book have you read more than one time? : booksuggestions",
+          "subreddit": "booksuggestions",
+          "url": "https://tr.reddit.com/r/booksuggestions/comments/1rqopj1/which_book_have_you_read_more_than_one_time/",
+          "observed_age": "7 months ago",
+          "source_reference": "turn24search5",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1mhj1eq",
+          "title": "Preachiness and modern literature : books",
+          "subreddit": "books",
+          "url": "https://vi.reddit.com/r/books/comments/1mhj1eq/preachiness_and_modern_literature/",
+          "observed_age": "1.2 years ago",
+          "source_reference": "turn24search6",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_permanent_exposure"
+        },
+        {
+          "post_id": "1lp21it",
+          "title": "How did Justinian aide his uncle in seizing power? : AskHistorians",
+          "subreddit": "AskHistorians",
+          "url": "https://tr.reddit.com/r/AskHistorians/comments/1lp21it/how_did_justinian_aide_his_uncle_in_seizing_power/",
+          "observed_age": "1.3 years ago",
+          "source_reference": "turn24search7",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1r69b88",
+          "title": "What’s the biggest changes you make when editing your first draft? : writing",
+          "subreddit": "writing",
+          "url": "https://vi.reddit.com/r/writing/comments/1r69b88/whats_the_biggest_changes_you_make_when_editing/?sort=new",
+          "observed_age": "8 months ago",
+          "source_reference": "turn24search9",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "selected"
+        },
+        {
+          "post_id": "1ttniy5",
+          "title": "What Books did You Start or Finish Reading this Week?: June 01, 2026 : books",
+          "subreddit": "books",
+          "url": "https://ja.reddit.com/r/books/comments/1ttniy5/what_books_did_you_start_or_finish_reading_this/",
+          "observed_age": "4 months ago",
+          "source_reference": "turn24search10",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1jyv689",
+          "title": "What Books did You Start or Finish Reading this Week?: April 14, 2025 : books",
+          "subreddit": "books",
+          "url": "https://tr.reddit.com/r/books/comments/1jyv689/what_books_did_you_start_or_finish_reading_this/",
+          "observed_age": "1.5 years ago",
+          "source_reference": "turn24search11",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "bqv0yo",
+          "title": "Under what circumstances were Aztec death whistles originally used? : AskHistorians",
+          "subreddit": "AskHistorians",
+          "url": "https://vi.reddit.com/r/AskHistorians/comments/bqv0yo/under_what_circumstances_were_aztec_death/?sort=old",
+          "observed_age": "7.4 years ago",
+          "source_reference": "turn24search12",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_permanent_exposure"
+        },
+        {
+          "post_id": "mhkpd3",
+          "title": "Just finished Ishiguro's Klara and the Sun and I want to talk to folks about it! : books",
+          "subreddit": "books",
+          "url": "https://ca.reddit.com/r/books/comments/mhkpd3/just_finished_ishiguros_klara_and_the_sun_and_i/",
+          "observed_age": "5.5 years ago",
+          "source_reference": "turn24search13",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "12ji35z",
+          "title": "The First Book to ever make me cry : books",
+          "subreddit": "books",
+          "url": "https://ja.reddit.com/r/books/comments/12ji35z/the_first_book_to_ever_make_me_cry/",
+          "observed_age": "3.5 years ago",
+          "source_reference": "turn24search14",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "gs467",
+          "title": "What Vonnegut book should I start with? : books",
+          "subreddit": "books",
+          "url": "https://vi.reddit.com/r/books/comments/gs467/what_vonnegut_book_should_i_start_with/",
+          "observed_age": "15.5 years ago",
+          "source_reference": "turn24search15",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "14jd20y",
+          "title": "What Books did You Start or Finish Reading this Week?: June 26, 2023: books",
+          "subreddit": "books",
+          "url": "https://nl.reddit.com/r/books/comments/14jd20y/what_books_did_you_start_or_finish_reading_this/",
+          "observed_age": "3.3 years ago",
+          "source_reference": "turn24search16",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "6sykij",
+          "title": "How involved was the Mormon Church in the American Civil War? : AskHistorians",
+          "subreddit": "AskHistorians",
+          "url": "https://hu.reddit.com/r/AskHistorians/comments/6sykij/how_involved_was_the_mormon_church_in_the/",
+          "observed_age": "9.2 years ago",
+          "source_reference": "turn24search18",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1dw0d62",
+          "title": "Was ist hier in meinem Skyr? : WerWieWas",
+          "subreddit": "WerWieWas",
+          "url": "https://fr.reddit.com/r/WerWieWas/comments/1dw0d62/was_ist_hier_in_meinem_skyr/",
+          "observed_age": "2.3 years ago",
+          "source_reference": "turn24search22",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1ujkps2",
+          "title": "My country is lowkey dying : Italian",
+          "subreddit": "Italian",
+          "url": "https://fr.reddit.com/r/Italian/comments/1ujkps2/my_country_is_lowkey_dying/",
+          "observed_age": "3 months ago",
+          "source_reference": "turn24search26",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1x2rsxo",
+          "title": "Pinholes in fired glaze?",
+          "subreddit": "Pottery",
+          "url": "https://www.reddit.com/r/Pottery/comments/1x2rsxo/pinholes_in_fired_glaze/",
+          "observed_age": "4 days ago",
+          "source_reference": "turn24view0",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "1u6og3o",
+          "title": "Help with pinholing pls 😭",
+          "subreddit": "Pottery",
+          "url": "https://www.reddit.com/r/Pottery/comments/1u6og3o/help_with_pinholing_pls/",
+          "observed_age": "4 months ago",
+          "source_reference": "turn25reddit26",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "selected"
+        },
+        {
+          "post_id": "1ubbiji",
+          "title": "Any suggestions to prevent pinholes?",
+          "subreddit": "Pottery",
+          "url": "https://www.reddit.com/r/Pottery/comments/1ubbiji/any_suggestions_to_prevent_pinholes/",
+          "observed_age": "3 months ago",
+          "source_reference": "turn25reddit27",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "1u1up7x",
+          "title": "Fixing pinholes",
+          "subreddit": "Pottery",
+          "url": "https://www.reddit.com/r/Pottery/comments/1u1up7x/fixing_pinholes/",
+          "observed_age": "4 months ago",
+          "source_reference": "turn25reddit28",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "1wj5w48",
+          "title": "Can I re-bisque?",
+          "subreddit": "Pottery",
+          "url": "https://www.reddit.com/r/Pottery/comments/1wj5w48/can_i_rebisque/",
+          "observed_age": "3 weeks ago",
+          "source_reference": "turn25reddit29",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1u0mu11",
+          "title": "Pinholes on Glazed Standard Clay 112",
+          "subreddit": "Pottery",
+          "url": "https://www.reddit.com/r/Pottery/comments/1u0mu11/pinholes_on_glazed_standard_clay_112/",
+          "observed_age": "4 months ago",
+          "source_reference": "turn25reddit30",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "1f0znek",
+          "title": "Help me understand pinholes in glaze?",
+          "subreddit": "Pottery",
+          "url": "https://www.reddit.com/r/Pottery/comments/1f0znek",
+          "observed_age": "2.1 years ago",
+          "source_reference": "turn25reddit31",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "1ate6c4",
+          "title": "More pinholes than Hellraiser",
+          "subreddit": "Pottery",
+          "url": "https://www.reddit.com/r/Pottery/comments/1ate6c4",
+          "observed_age": "2.7 years ago",
+          "source_reference": "turn25reddit32",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "1skmwxe",
+          "title": "Glaze Firing Struggle Bus",
+          "subreddit": "Pottery",
+          "url": "https://www.reddit.com/r/Pottery/comments/1skmwxe/glaze_firing_struggle_bus/",
+          "observed_age": "6 months ago",
+          "source_reference": "turn25reddit33",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "1w269qt",
+          "title": "How to prevent pinholes with speckled clay & commercial glaze",
+          "subreddit": "Pottery",
+          "url": "https://www.reddit.com/r/Pottery/comments/1w269qt/how_to_prevent_pinholes_with_speckled_clay/",
+          "observed_age": "last month",
+          "source_reference": "turn25reddit34",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "1vzgiun",
+          "title": "Are these pinholes, or something else?",
+          "subreddit": "Pottery",
+          "url": "https://www.reddit.com/r/Pottery/comments/1vzgiun/are_these_pinholes_or_something_else/",
+          "observed_age": "last month",
+          "source_reference": "turn25reddit35",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "1uhj60c",
+          "title": "Question about pinholes",
+          "subreddit": "Pottery",
+          "url": "https://www.reddit.com/r/Pottery/comments/1uhj60c/question_about_pinholes/",
+          "observed_age": "3 months ago",
+          "source_reference": "turn25reddit36",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "1ndif15",
+          "title": "How do you stop staring at your feet? : hiking",
+          "subreddit": "hiking",
+          "url": "https://pl.reddit.com/r/hiking/comments/1ndif15/how_do_you_stop_staring_at_your_feet/",
+          "observed_age": "1.1 years ago",
+          "source_reference": "turn25search0",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "selected"
+        },
+        {
+          "post_id": "1ukgenq",
+          "title": "Having hard a time throwing with reclaimed clay : Pottery",
+          "subreddit": "Pottery",
+          "url": "https://hr.reddit.com/r/Pottery/comments/1ukgenq/having_hard_a_time_throwing_with_reclaimed_clay/",
+          "observed_age": "3 months ago",
+          "source_reference": "turn25search1",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "bfrxku",
+          "title": "Serious question: how do you calibrate a digital kiln to get it to the actual cone? : Pottery",
+          "subreddit": "Pottery",
+          "url": "https://es.reddit.com/r/Pottery/comments/bfrxku/serious_question_how_do_you_calibrate_a_digital/?sort=top",
+          "observed_age": "7.5 years ago",
+          "source_reference": "turn25search2",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1q8u2xu",
+          "title": "to the people who have ruined perfect cylinders with horrible trimming … i need your advice and hacks!!:Pottery",
+          "subreddit": "Pottery",
+          "url": "https://bg.reddit.com/r/Pottery/comments/1q8u2xu/to_the_people_who_have_ruined_perfect_cylinders/?sort=top",
+          "observed_age": "9 months ago",
+          "source_reference": "turn25search3",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1edtx2s",
+          "title": "Patchy, streaky underglaze : Ceramics",
+          "subreddit": "Ceramics",
+          "url": "https://th.reddit.com/r/Ceramics/comments/1edtx2s/patchy_streaky_underglaze/?sort=qa",
+          "observed_age": "2.2 years ago",
+          "source_reference": "turn25search4",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "f174u4",
+          "title": "I’ve noticed that sometimes, when I place my freshly thrown pieces on my wood planks to dry, the wood warps a bit, also causing my pieces to warp. Are their any just as cheap alternatives y’all use to prevent this or, recommendations?：Pottery",
+          "subreddit": "Pottery",
+          "url": "https://zh.reddit.com/r/Pottery/comments/f174u4/ive_noticed_that_sometimes_when_i_place_my/",
+          "observed_age": "6.7 years ago",
+          "source_reference": "turn25search5",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "xiu1ly",
+          "title": "Critique My Thrown Yarn Bowl || How Can It Be Improved? : YarnAddicts",
+          "subreddit": "YarnAddicts",
+          "url": "https://de.reddit.com/r/YarnAddicts/comments/xiu1ly/critique_my_thrown_yarn_bowl_how_can_it_be/",
+          "observed_age": "4.1 years ago",
+          "source_reference": "turn25search6",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1dpebvl",
+          "title": "What's that bird call you often hear near your house that makes you smile, because you know that bird is around? : AustralianBirds",
+          "subreddit": "AustralianBirds",
+          "url": "https://uk.reddit.com/r/AustralianBirds/comments/1dpebvl/whats_that_bird_call_you_often_hear_near_your/",
+          "observed_age": "2.3 years ago",
+          "source_reference": "turn25search7",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "selected"
+        },
+        {
+          "post_id": "1ge4sm2",
+          "title": "Soap Fail:soapmaking",
+          "subreddit": "soapmaking",
+          "url": "https://bg.reddit.com/r/soapmaking/comments/1ge4sm2/soap_fail/",
+          "observed_age": "2.0 years ago",
+          "source_reference": "turn25search8",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1usdv0m",
+          "title": "Kintsugi (Jinshan repair) : oddlysatisfying",
+          "subreddit": "oddlysatisfying",
+          "url": "https://tr.reddit.com/r/oddlysatisfying/comments/1usdv0m/kintsugi_jinshan_repair/?sort=old",
+          "observed_age": "3 months ago",
+          "source_reference": "turn25search9",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "15gcwse",
+          "title": "A Rationale for Immutable Desktop Linux",
+          "subreddit": "linux",
+          "url": "https://www.reddit.com/r/linux/comments/15gcwse/a_rationale_for_immutable_desktop_linux_warning/",
+          "observed_age": "By 2023-08-04 externally linked; exact post date not verified",
+          "source_reference": "turn30search0; turn30search3",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "selected"
+        },
+        {
+          "post_id": "6mbbr6",
+          "title": "Why do you not feel hungry after not eating for a long time?",
+          "subreddit": "askscience",
+          "url": "https://www.reddit.com/r/askscience/comments/6mbbr6/why_do_you_not_feel_hungry_after_not_eating_for_a/",
+          "observed_age": null,
+          "source_reference": "turn30search2",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "7htq8k",
+          "title": "What's underneath the sand at the beach? How far does ...",
+          "subreddit": "askscience",
+          "url": "https://www.reddit.com/r/askscience/comments/7htq8k/whats_underneath_the_sand_at_the_beach_how_far/",
+          "observed_age": null,
+          "source_reference": "turn30search5",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "188p660",
+          "title": "What's the draw with immutable distros and who's ...",
+          "subreddit": "linux",
+          "url": "https://www.reddit.com/r/linux/comments/188p660/whats_the_draw_with_immutable_distros_and_whos/",
+          "observed_age": null,
+          "source_reference": "turn30search6",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "rejected_semantic_overlap_or_topic_concentration"
+        },
+        {
+          "post_id": "m4cry",
+          "title": "Physiologically, in what ways were Bruce Lee's intensely- ...",
+          "subreddit": "askscience",
+          "url": "https://www.reddit.com/r/askscience/comments/m4cry/physiologically_in_what_ways_were_bruce_lees/",
+          "observed_age": null,
+          "source_reference": "turn30search8",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "19c3fvg",
+          "title": "Since cold sores are so contagious and typically caught as ...",
+          "subreddit": "askscience",
+          "url": "https://www.reddit.com/r/askscience/comments/19c3fvg/since_cold_sores_are_so_contagious_and_typically/",
+          "observed_age": null,
+          "source_reference": "turn30search10",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1briez4",
+          "title": "How does testosterone levels during puberty affect the ...",
+          "subreddit": "askscience",
+          "url": "https://www.reddit.com/r/askscience/comments/1briez4/how_does_testosterone_levels_during_puberty/",
+          "observed_age": null,
+          "source_reference": "turn30search12",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "78xinz",
+          "title": "What % of my weight am I actually lifting when doing a ...",
+          "subreddit": "askscience",
+          "url": "https://www.reddit.com/r/askscience/comments/78xinz/what_of_my_weight_am_i_actually_lifting_when/",
+          "observed_age": null,
+          "source_reference": "turn30search14",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1yz9ay",
+          "title": "I've heard that there is gold in our bodies. Is that true, and if ...",
+          "subreddit": "askscience",
+          "url": "https://www.reddit.com/r/askscience/comments/1yz9ay/ive_heard_that_there_is_gold_in_our_bodies_is/",
+          "observed_age": null,
+          "source_reference": "turn30search16",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "e63chh",
+          "title": "How do aircraft carriers stay so high above the water ...",
+          "subreddit": "askscience",
+          "url": "https://www.reddit.com/r/askscience/comments/e63chh/how_do_aircraft_carriers_stay_so_high_above_the/",
+          "observed_age": null,
+          "source_reference": "turn30search18",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "n51hf",
+          "title": "Can we make a yy chromosome human? : r/askscience",
+          "subreddit": "askscience",
+          "url": "https://www.reddit.com/r/askscience/comments/n51hf/can_we_make_a_yy_chromosome_human/",
+          "observed_age": null,
+          "source_reference": "turn30search20",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "hd0sto",
+          "title": "Does water always freeze at 32 F or can it be colder and ...",
+          "subreddit": "askscience",
+          "url": "https://www.reddit.com/r/askscience/comments/hd0sto/does_water_always_freeze_at_32_f_or_can_it_be/",
+          "observed_age": null,
+          "source_reference": "turn30search22",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "selected"
+        },
+        {
+          "post_id": "1mty6io",
+          "title": "What’s the most underappreciated piece of trekking advice you’ve ever received?",
+          "subreddit": "TrailAndTrek",
+          "url": "https://www.reddit.com/r/TrailAndTrek/comments/1mty6io",
+          "observed_age": "1.2 years ago",
+          "source_reference": "turn31reddit8",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1f5icfs",
+          "title": "Sedentary to hiker: anyone done it so far?",
+          "subreddit": "hiking",
+          "url": "https://www.reddit.com/r/hiking/comments/1f5icfs/sedentary_to_hiker_anyone_done_it_so_far/",
+          "observed_age": "2.1 years ago",
+          "source_reference": "turn31reddit9",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        },
+        {
+          "post_id": "1i4kgx9",
+          "title": "[WP] You’d been hiking in the mountains for hours when you realized you didn’t leave footprints in the snow.",
+          "subreddit": "WritingPrompts",
+          "url": "https://www.reddit.com/r/WritingPrompts/comments/1i4kgx9",
+          "observed_age": "1.7 years ago",
+          "source_reference": "turn31reddit10",
+          "observation_scope": "accessible search result, original thread not opened",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "not_selected_weaker_fit_insufficient_context_or_outside_scope"
+        }
+      ]
+    },
+    "selected": {
+      "youtube": [
+        "youtube:0MwMkBET_5I",
+        "youtube:xWL40q3DMoQ",
+        "youtube:eXR1olg_I0w",
+        "youtube:lKIbT-4UFaE",
+        "youtube:RPfORR5ffuY"
+      ],
+      "reddit": [
+        {
+          "date": "2026-10-15",
+          "post_id": "15gcwse",
+          "title": "A Rationale for Immutable Desktop Linux",
+          "subreddit": "linux",
+          "original_post_verification": "not_performed_user_waived"
+        },
+        {
+          "date": "2026-10-15",
+          "post_id": "1tqdykg",
+          "title": "USB Storage device as a way to get data into/out of an embedded firmware application?",
+          "subreddit": "embedded",
+          "original_post_verification": "not_performed_user_waived"
+        },
+        {
+          "date": "2026-10-15",
+          "post_id": "kf0888",
+          "title": "Are there any accounts of the medieval west by foreign travelers?",
+          "subreddit": "AskHistorians",
+          "original_post_verification": "not_performed_user_waived"
+        },
+        {
+          "date": "2026-10-15",
+          "post_id": "mq2ot8",
+          "title": "Book you reread and had a change of heart?",
+          "subreddit": "books",
+          "original_post_verification": "not_performed_user_waived"
+        },
+        {
+          "date": "2026-10-15",
+          "post_id": "jqcxwi",
+          "title": "How can I purposely get clumps in my spaghetti",
+          "subreddit": "AskCulinary",
+          "original_post_verification": "not_performed_user_waived"
+        },
+        {
+          "date": "2026-10-15",
+          "post_id": "1ndif15",
+          "title": "How do you stop staring at your feet?",
+          "subreddit": "hiking",
+          "original_post_verification": "not_performed_user_waived"
+        },
+        {
+          "date": "2026-10-15",
+          "post_id": "1u6og3o",
+          "title": "Help with pinholing pls 😭",
+          "subreddit": "Pottery",
+          "original_post_verification": "not_performed_user_waived"
+        },
+        {
+          "date": "2026-10-15",
+          "post_id": "1dpebvl",
+          "title": "What's that bird call you often hear near your house that makes you smile, because you know that bird is around?",
+          "subreddit": "AustralianBirds",
+          "original_post_verification": "not_performed_user_waived"
+        },
+        {
+          "date": "2026-10-15",
+          "post_id": "1r69b88",
+          "title": "What’s the biggest changes you make when editing your first draft?",
+          "subreddit": "writing",
+          "original_post_verification": "not_performed_user_waived"
+        },
+        {
+          "date": "2026-10-15",
+          "post_id": "hd0sto",
+          "title": "Does water always freeze at 32 F or can it be colder and still be a liquid?",
+          "subreddit": "askscience",
+          "original_post_verification": "not_performed_user_waived"
+        }
+      ]
+    },
+    "selection_review": {
+      "weights": {
+        "quality": 0.3,
+        "usefulness": 0.25,
+        "curiosity": 0.2,
+        "novelty": 0.15,
+        "fit": 0.1
+      },
+      "scope": "Editorial assessment from actual sources/creator descriptions for YouTube; accessible search material only for Reddit. Not a watch-through or full-discussion review.",
+      "youtube": [
+        {
+          "id": "0MwMkBET_5I",
+          "q": 4.5,
+          "u": 4.5,
+          "c": 4,
+          "n": 5,
+          "f": 4,
+          "group": "high_confidence",
+          "rationale": "visual demonstration, compact specific question"
+        },
+        {
+          "id": "xWL40q3DMoQ",
+          "q": 4.5,
+          "u": 4,
+          "c": 4.5,
+          "n": 5,
+          "f": 4,
+          "group": "high_confidence",
+          "rationale": "real testing facility, creator context verified"
+        },
+        {
+          "id": "eXR1olg_I0w",
+          "q": 4,
+          "u": 4,
+          "c": 4.5,
+          "n": 5,
+          "f": 4,
+          "group": "adjacent",
+          "rationale": "multi-variable coordination made observable"
+        },
+        {
+          "id": "lKIbT-4UFaE",
+          "q": 4.5,
+          "u": 4,
+          "c": 4.5,
+          "n": 5,
+          "f": 3.5,
+          "group": "adjacent",
+          "rationale": "chapter-specific composition study, shifts away from engineering"
+        },
+        {
+          "id": "RPfORR5ffuY",
+          "q": 4,
+          "u": 3.5,
+          "c": 5,
+          "n": 5,
+          "f": 3.5,
+          "group": "wildcard",
+          "rationale": "historical cooking, avoid unsupported origin claim"
+        }
+      ],
+      "reddit_grouping": {
+        "high_confidence": [
+          "15gcwse",
+          "1tqdykg",
+          "1u6og3o",
+          "1r69b88",
+          "hd0sto"
+        ],
+        "adjacent": [
+          "kf0888",
+          "1ndif15",
+          "1dpebvl"
+        ],
+        "wildcard": [
+          "mq2ot8",
+          "jqcxwi"
+        ]
+      },
+      "penalties_applied": [
+        "Permanent IDs and same works excluded before ranking",
+        "Other engineerguy works lose to creator concentration",
+        "Reddit emulsion questions rejected: recent pasta-water recommendation",
+        "Wood-movement candidate rejected: recent semantic overlap",
+        "Repeated glaze questions rejected within current list",
+        "Unverified scientific or historical claims omitted, rather than elevated from anecdote"
+      ]
+    },
+    "diversity": {
+      "youtube_narrow_topics": [
+        "fiber optics",
+        "vehicle test facilities",
+        "rotor feedback coordination",
+        "painting composition",
+        "food history"
+      ],
+      "youtube_max_narrow_topic_fraction": 0.2,
+      "reddit_narrow_topics": [
+        "desktop architecture",
+        "embedded file interfaces",
+        "foreign travel accounts",
+        "rereading",
+        "pasta texture preference",
+        "hiking attention",
+        "glaze defects",
+        "bird calls",
+        "draft editing",
+        "phase change questions"
+      ],
+      "reddit_max_narrow_topic_fraction": 0.1,
+      "youtube_distinct_creators": 5,
+      "creator_cooldown_check": "engineerguy and Tom Scott last 2026-10-07; Great Art Explained last 2026-10-06; final others no use in last seven days"
+    },
+    "news_sources": [
+      {
+        "url": "https://mediacenter.imf.org/news/imf---world-economic-outlook-annual-meetings--2026/s/22f94667-d194-473b-87b2-34c692b5a5a3",
+        "event_date": "2026-10-13",
+        "observation": "Read official release: forecasts 3.1%/3.4%, uneven resilience, buffers narrowing",
+        "cross_check": "Reuters 2026-10-13 article read"
+      },
+      {
+        "url": "https://investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+        "event_date": "2026-10-14",
+        "observation": "Read actual press release incl CEO: revenue 11.662bn EUR; long-term order interest distinct from confirmed orders; planned capacity constraints",
+        "cross_check": "Reuters 2026-10-14 article read"
+      },
+      {
+        "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+        "event_date": "2026-10-14",
+        "observation": "Read public official highlights and analysis; September observed recovery separated from 2026/2027 projections, diesel supply constraint"
+      }
+    ],
+    "semantic_review": {
+      "exact_id_against_original_history": "passed",
+      "normalized_title_creator_against_all_dated_youtube_notes": "no same work identified; localized Hopper title also reviewed as Nighthawks",
+      "reddit_against_all_dated_notes": "no semantic duplicate identified; emulsion/wood movement removed",
+      "method": "complete stored indexes plus all dated note headings/topic comparisons, string similarity as screening aid, editorial review; not a proof by string similarity"
+    },
+    "reddit_exception": {
+      "authorized": "User explicitly waived original-post verification this and future runs, reaffirmed in current prompt",
+      "status": "not_performed_user_waived",
+      "required_label_count": 10,
+      "no_claim_of_original_access_or_comments_verification": true
+    },
+    "limits": [
+      "Live full-video playback not tested",
+      "Reddit original pages/comments not examined under explicit waiver",
+      "Device sync and notification delivery not tested"
+    ],
+    "historical_backlog": [
+      "Prior published source/format issues preserved; no historical recommendations or history bytes rewritten",
+      "Original preflight blocked receipt retained; today's original-post gate explicitly waived by user"
+    ],
+    "evidence_corrections": [
+      "Preflight aggregation assigned Linux candidate an unrelated ASML reference marker. Corrected here to actual observed Reddit URL and turn30search0/turn30search3; no ID, selection or payload changed."
+    ]
+  },
+  "qa_scopes": {
+    "news": "actual primary releases, dates and fact/analysis separation checked; IMF/ASML Reuters cross-checks read",
+    "youtube": "five actual watch pages opened, title/channel checked; selected creator descriptions/chapters used; not a full watch-through",
+    "reddit": "observed real post URL/ID/title/subreddit from accessible search; all ten original_post_verification explicitly not_performed_user_waived; original accessibility/comments/current discussion quality unverified by authorization",
+    "historical_freshness": "original 175 YouTube and 330 Reddit rows plus all prior dated discovery notes; other PREPARED reservations read",
+    "structure": "actual repository YouTube/Reddit validators locally; exact publication CI success; source quality assessed separately",
+    "device_sync": "not_tested",
+    "notification_delivery": "not_tested"
+  },
+  "recorded_at_utc": "2026-10-15 03:14:30 UTC"
+}
