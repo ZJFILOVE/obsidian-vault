@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "purpose": "Owner-requested GitHub write-access diagnostic; verify this payload by a separate readback.",
+  "repository": "ZJFILOVE/obsidian-vault",
+  "branch": "main",
+  "baseline_commit": "066bd69536fd4b9e625d1ba8495e9a7c04c41584",
+  "observed_app_permission": "Allow all actions",
+  "observed_repository_permissions": {"push": true, "admin": true},
+  "observed_branch_protected": false,
+  "reported_error": "tool call was blocked by OpenAI's safety checks",
+  "scope": "Diagnostic file only. No notes, history, publication policy or QA status changes.",
+  "limitation": "A successful diagnostic write does not establish that an earlier blocked publication or future writes are fixed."
+}
