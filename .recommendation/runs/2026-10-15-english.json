@@ -1,0 +1,140 @@
+{
+  "operation_id": "english:2026-10-15",
+  "evaluated_at_utc": "2026-10-15T02:47:06.296280+00:00",
+  "mode": "new",
+  "candidate_pool": [
+    {
+      "title": "Star Wars and the hero myth",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/star-wars-hero-myth",
+      "decision": "selected",
+      "reason": "电影叙事题材补充近期地图、环境、数学与团队访谈；B2可完成短时精读；保留理论范围及剧情顺序提醒。",
+      "observation": "Official British Council page opened; title, reading-lesson identity and available text observed."
+    },
+    {
+      "title": "The Buy Nothing movement",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/buy-nothing-movement",
+      "decision": "not_selected",
+      "reason": "内容可读，但若干统计缺少清晰的当前统计时间；不把教学文数字作为当前财经事实。",
+      "observation": "Official British Council page opened; title, reading-lesson identity and available text observed."
+    },
+    {
+      "title": "Cultural expectations and leadership",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/cultural-expectations-leadership",
+      "decision": "not_selected",
+      "reason": "文化解释有练习价值，但与10月11日团队访谈主题接近，且需避免国家刻板化。",
+      "observation": "Official British Council page opened; title, reading-lesson identity and available text observed."
+    },
+    {
+      "title": "Work–life balance",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/work-life-balance",
+      "decision": "not_selected",
+      "reason": "人物观点比较适合阅读；今日优先选择不同叙事体裁。",
+      "observation": "Official British Council page opened; title, reading-lesson identity and available text observed."
+    },
+    {
+      "title": "The sharing economy",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/sharing-economy",
+      "decision": "not_selected",
+      "reason": "可用于解释制度和交易，但与近期机会成本等经济内容较近。",
+      "observation": "Official British Council page opened; title, reading-lesson identity and available text observed."
+    },
+    {
+      "title": "Why bridges collapse",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/why-bridges-collapse",
+      "decision": "not_selected",
+      "reason": "工程解释清楚，但10月12日已做系统与模型主题。",
+      "observation": "Official British Council page opened; title, reading-lesson identity and available text observed."
+    },
+    {
+      "title": "Asteroids",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/asteroids",
+      "decision": "not_selected",
+      "reason": "可核验的B2科学文章，但不把英语材料总局限在科技。",
+      "observation": "Official British Council page opened; title, reading-lesson identity and available text observed."
+    },
+    {
+      "title": "Millennials in the workplace",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/millennials-workplace",
+      "decision": "not_selected",
+      "reason": "可比较观点，但世代分类不宜当普遍规律，且与近期团队主题接近。",
+      "observation": "Official British Council page opened; title, reading-lesson identity and available text observed."
+    }
+  ],
+  "candidate_count": 8,
+  "source_verification": {
+    "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/star-wars-hero-myth",
+    "title": "Star Wars and the hero myth",
+    "publisher": "British Council LearnEnglish",
+    "method": "Opened official lesson and read main reading text; observed B2 label and exercises. Not a search-snippet-only verification.",
+    "source_kind_caveat": "Authentic institutional teaching resource; not an unadapted research article.",
+    "scope_caveats": [
+      "Universal monomyth claim is not established by a single film example.",
+      "Series-sequel phrasing is not treated as a verified film-history fact."
+    ],
+    "audio_verification": "not_applicable_reading_article"
+  },
+  "freshness": {
+    "original_history_sha": "28ac063c7589e6a81f4153b32a3da3142cefc3df",
+    "original_history_rows": 37,
+    "published_input_notes_checked": 37,
+    "url_used_before": false,
+    "prepared_reservations": "No .recommendation/transactions path exists in complete pinned tree 3b7e6ab4929c551f95ce7ecbdba781dc13f8f006."
+  },
+  "bundle_sha256": "6c3b5cf58e40281d642ba475701ad417e442bcd5836eecd0de75207ff014fda0",
+  "plan_sha256": "5c5a1cd3c07822e6f5c7b4b7d54e79768c0d1e19b3f88b0787d4fda81f604fe4",
+  "teaching_review": {
+    "independent_translation_passages": 2,
+    "vocabulary_items": 8,
+    "folded_answers": true,
+    "cross_links": true,
+    "diet_excluded_from_repository": true,
+    "copyright": "No source article/transcript reproduced; examples and exercises independently authored."
+  },
+  "status": "passed_current_publication",
+  "content_qa": "passed",
+  "prepared_creation_commit": "44afe154a7dec3e234c98e9685c30a870487dbcc",
+  "publication_commit": "392457d597a2c0d700cfa2c40d826061c294a8db",
+  "readbacks": [
+    {
+      "path": "50-courses/English/Daily/2026-10-15.md",
+      "sha": "3454f6fd463bb56c4f67d2d5fe8333f44a18d98c",
+      "exact": true
+    },
+    {
+      "path": "50-courses/English/Translation/2026-10-15.md",
+      "sha": "7477760021570c045988969772d752cab57a3c6a",
+      "exact": true
+    },
+    {
+      "path": "50-courses/English/Vocabulary/2026-10-15.md",
+      "sha": "57c245934a981f1cbbe06bad0a05bc7bc0346f21",
+      "exact": true
+    },
+    {
+      "path": ".recommendation/history/english.jsonl",
+      "sha": "112fc9ed599eba0bd9d12246ce1376c1dbf4e459",
+      "exact": true
+    }
+  ],
+  "checks": {
+    "source_identity_and_official_text": "passed",
+    "source_url_permanent_dedup": "passed_against_original_history_and_all_input_notes",
+    "complete_weekday_set": "passed",
+    "independent_translation_passages": 2,
+    "vocabulary_items": 8,
+    "folded_answers": "passed",
+    "cross_links": "passed",
+    "history_append_only": "passed_exact_frozen_prefix",
+    "history_registration": "exactly_once",
+    "repository_validator": "passed; english=32,youtube=150,reddit=300,music=150",
+    "local_tests": "104 passed",
+    "ci": {
+      "run_id": 38672943271,
+      "head_sha": "392457d597a2c0d700cfa2c40d826061c294a8db",
+      "conclusion": "success",
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/38672943271"
+    },
+    "device_sync": "unverified",
+    "notification_delivery": "unverified"
+  }
+}
