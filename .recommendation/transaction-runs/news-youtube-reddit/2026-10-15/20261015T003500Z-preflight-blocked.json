@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-10-15",
+  "status": "blocked_before_freeze",
+  "date": "2026-10-15",
+  "reason": "Full first-party verification unavailable for the required ten Reddit discussions; several YouTube watch pages also inaccessible. Cannot claim current-source QA.",
+  "checks": {
+    "policy_and_history_read": "passed",
+    "youtube_history_records": 175,
+    "reddit_history_records": 330,
+    "dated_note_targets": "confirmed_absent",
+    "dated_bundle": "confirmed_absent",
+    "all_prepared_reservations": "not_exhaustively_enumerated",
+    "youtube_candidate_research": "performed; final five not independently verified",
+    "reddit_candidate_research": "performed; final ten not independently verified",
+    "readback": "not_applicable_no_publication"
+  },
+  "publication": {
+    "notes_written": 0,
+    "history_entries_appended": 0,
+    "bundle_created": false,
+    "qa_passed": false
+  },
+  "retry": "For next date, re-read current policy/history, reservations, and live source threads; do not backfill or silently waive gates."
+}
