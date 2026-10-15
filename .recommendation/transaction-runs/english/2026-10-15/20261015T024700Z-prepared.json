@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-15",
+  "status": "prepared_readback_verified",
+  "prepared_creation_commit": "44afe154a7dec3e234c98e9685c30a870487dbcc",
+  "prepared_blob_sha": "27ec70439a351f3bce6cf132707575a179bbd76d",
+  "original_bundle_sha256": "6c3b5cf58e40281d642ba475701ad417e442bcd5836eecd0de75207ff014fda0",
+  "original_plan_sha256": "5c5a1cd3c07822e6f5c7b4b7d54e79768c0d1e19b3f88b0787d4fda81f604fe4",
+  "publication_stages_applied": [],
+  "content_qa": "not_evaluated"
+}
