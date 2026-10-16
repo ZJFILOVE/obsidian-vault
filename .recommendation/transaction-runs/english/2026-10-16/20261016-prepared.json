@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-16",
+  "attempt": "20261016-prepared",
+  "stage": "PREPARED_readback_verified",
+  "recorded_at_utc": "2026-10-16 00:08:07 UTC",
+  "prepared_path": ".recommendation/transactions/english/2026-10-16.json",
+  "prepared_creation_commit": "63946a682122c1b4a4cb7425525b39df3487a588",
+  "prepared_blob_sha": "de8a818a65870fe20f6e0bb3f5882e6857d463a7",
+  "original_bundle_sha256": "df92655322c6c9a25e2b712d5b8b53578f727c42bb5ad41e8e1df6b8b8b230b9",
+  "original_plan_sha256": "cd368639fc38af024c5c941f17f85d4e4771808ae208a6cda144a2223b21672e",
+  "evidence": {
+    "date": "2026-10-16",
+    "operation_id": "english:2026-10-16",
+    "mode": "new",
+    "preflight": {
+      "pinned_commit": "cbee84f7bca454a36f409c50005ea8a120eb65cf",
+      "tree_truncated": false,
+      "policy_version": 2,
+      "complete_english_history_rows": 38,
+      "history_blob_sha": "112fc9ed599eba0bd9d12246ce1376c1dbf4e459",
+      "all_english_notes_read": 94,
+      "all_prepared_records_read": 3,
+      "current_dated_notes": "three confirmed absent",
+      "current_operation_bundle": "confirmed absent before create",
+      "local_snapshot": "104 connector file contents hash-checked against returned Git blob SHAs"
+    },
+    "candidates": [
+      {
+        "title": "A short story extract",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/short-story-extract",
+        "source": "British Council LearnEnglish",
+        "verification_scope": "actual source retrieved; title, displayed text and learning context inspected; not external fact-check of all claims",
+        "observed_at_utc": "2026-10-16 00:02:12 UTC",
+        "decision": "not_selected",
+        "reason": "Literary inference overlaps yesterday's story-analysis domain; not selected for today's rotation",
+        "source_reference": "turn46view0",
+        "editorial_estimates": {
+          "quality": 4.2,
+          "usefulness": 4,
+          "curiosity": 4.3,
+          "novelty": 3.2,
+          "fit": 3.8,
+          "penalty": 0.5,
+          "weighted_score": 3.48
+        }
+      },
+      {
+        "title": "An email from a friend",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/email-friend",
+        "source": "British Council LearnEnglish",
+        "verification_scope": "actual source retrieved; title, displayed text and learning context inspected; not external fact-check of all claims",
+        "observed_at_utc": "2026-10-16 00:02:12 UTC",
+        "decision": "not_selected",
+        "reason": "Useful informal narrative, but less aligned with today's concessive argument practice",
+        "source_reference": "turn37view0",
+        "editorial_estimates": {
+          "quality": 4.2,
+          "usefulness": 4.2,
+          "curiosity": 3.6,
+          "novelty": 4.3,
+          "fit": 3.8,
+          "penalty": 0.1,
+          "weighted_score": 3.96
+        }
+      },
+      {
+        "title": "Asteroids",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/asteroids",
+        "source": "British Council LearnEnglish",
+        "verification_scope": "actual source retrieved; title, displayed text and learning context inspected; not external fact-check of all claims",
+        "observed_at_utc": "2026-10-16 00:02:12 UTC",
+        "decision": "not_selected",
+        "reason": "Actual text frames DART as a future test and uses older inventories; avoid outdated science framing",
+        "source_reference": "turn44view0",
+        "editorial_estimates": {
+          "quality": 3.3,
+          "usefulness": 3.7,
+          "curiosity": 4.2,
+          "novelty": 4.1,
+          "fit": 3.6,
+          "penalty": 0.7,
+          "weighted_score": 3.03
+        }
+      },
+      {
+        "title": "Cultural expectations and leadership",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/cultural-expectations-leadership",
+        "source": "British Council LearnEnglish",
+        "verification_scope": "actual source retrieved; title, displayed text and learning context inspected; not external fact-check of all claims",
+        "observed_at_utc": "2026-10-16 00:02:12 UTC",
+        "decision": "not_selected",
+        "reason": "Leadership/cultural-expectations topic too close to 2026-10-11 team-leadership long input",
+        "source_reference": "turn42view0",
+        "editorial_estimates": {
+          "quality": 4,
+          "usefulness": 4.2,
+          "curiosity": 4,
+          "novelty": 3,
+          "fit": 3.7,
+          "penalty": 0.7,
+          "weighted_score": 3.17
+        }
+      },
+      {
+        "title": "Instant messages",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/instant-messages",
+        "source": "British Council LearnEnglish",
+        "verification_scope": "actual source retrieved; title, displayed text and learning context inspected; not external fact-check of all claims",
+        "observed_at_utc": "2026-10-16 00:02:12 UTC",
+        "decision": "not_selected",
+        "reason": "Short informal chat offers less sustained reading and argumentative structure for this date",
+        "source_reference": "turn39view0",
+        "editorial_estimates": {
+          "quality": 4,
+          "usefulness": 3.8,
+          "curiosity": 3.4,
+          "novelty": 4.2,
+          "fit": 3.4,
+          "penalty": 0.25,
+          "weighted_score": 3.55
+        }
+      },
+      {
+        "title": "Millennials in the workplace",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/millennials-workplace",
+        "source": "British Council LearnEnglish",
+        "verification_scope": "actual source retrieved; title, displayed text and learning context inspected; not external fact-check of all claims",
+        "observed_at_utc": "2026-10-16 00:02:12 UTC",
+        "decision": "not_selected",
+        "reason": "Cohort generalisations and undated survey framing require caveats; recent workplace/leadership exposure penalty",
+        "source_reference": "turn41view0",
+        "editorial_estimates": {
+          "quality": 3.5,
+          "usefulness": 4,
+          "curiosity": 3.7,
+          "novelty": 3,
+          "fit": 3.6,
+          "penalty": 0.5,
+          "weighted_score": 3.1
+        }
+      },
+      {
+        "title": "The Buy Nothing movement",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/buy-nothing-movement",
+        "source": "British Council LearnEnglish",
+        "verification_scope": "actual source retrieved; title, displayed text and learning context inspected; not external fact-check of all claims",
+        "observed_at_utc": "2026-10-16 00:02:12 UTC",
+        "decision": "not_selected",
+        "reason": "Consumption topic viable, but many uncontextualised monetary/waste figures; sharing text has lower factual burden",
+        "source_reference": "turn38view0",
+        "editorial_estimates": {
+          "quality": 4,
+          "usefulness": 4.2,
+          "curiosity": 4.3,
+          "novelty": 4.3,
+          "fit": 4.2,
+          "penalty": 0.35,
+          "weighted_score": 3.83
+        }
+      },
+      {
+        "title": "The sharing economy",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/sharing-economy",
+        "source": "British Council LearnEnglish",
+        "verification_scope": "actual source retrieved; title, displayed text and learning context inspected; not external fact-check of all claims",
+        "observed_at_utc": "2026-10-16 00:02:12 UTC",
+        "decision": "selected",
+        "reason": "selected: short bounded B2 argument, clear examples-to-concession transition; teach precision and register",
+        "source_reference": "turn40view0",
+        "editorial_estimates": {
+          "quality": 4.3,
+          "usefulness": 4.6,
+          "curiosity": 4.1,
+          "novelty": 4.5,
+          "fit": 4.6,
+          "penalty": 0.1,
+          "weighted_score": 4.3
+        }
+      },
+      {
+        "title": "Why bridges collapse",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/why-bridges-collapse",
+        "source": "British Council LearnEnglish",
+        "verification_scope": "actual source retrieved; title, displayed text and learning context inspected; not external fact-check of all claims",
+        "observed_at_utc": "2026-10-16 00:02:12 UTC",
+        "decision": "not_selected",
+        "reason": "Concrete causal exposition viable, but prefer a non-engineering topic after 2026-10-12 systems material",
+        "source_reference": "turn43view0",
+        "editorial_estimates": {
+          "quality": 4,
+          "usefulness": 4,
+          "curiosity": 4.2,
+          "novelty": 3.8,
+          "fit": 4,
+          "penalty": 0.25,
+          "weighted_score": 3.76
+        }
+      },
+      {
+        "title": "Work–life balance",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/work-life-balance",
+        "source": "British Council LearnEnglish",
+        "verification_scope": "actual source retrieved; title, displayed text and learning context inspected; not external fact-check of all claims",
+        "observed_at_utc": "2026-10-16 00:02:12 UTC",
+        "decision": "not_selected",
+        "reason": "Strong contrasting voices, but workplace/leadership adjacency and less argumentative paragraph structure than selected text",
+        "source_reference": "turn45view0",
+        "editorial_estimates": {
+          "quality": 4.1,
+          "usefulness": 4.4,
+          "curiosity": 4,
+          "novelty": 3.4,
+          "fit": 4.2,
+          "penalty": 0.35,
+          "weighted_score": 3.71
+        }
+      }
+    ],
+    "candidate_pool_count": 10,
+    "scoring_scope": "Editorial 1-5 judgments using source text, pedagogic fit and recent history; weighted estimates are not empirical scores or external quality certifications.",
+    "source_verification": {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/sharing-economy",
+      "title": "The sharing economy",
+      "publisher": "British Council LearnEnglish",
+      "type": "institutional B2 reading lesson",
+      "source_reference": "turn40view0",
+      "observed_at_utc": "2026-10-16 00:02:12 UTC",
+      "actual_page_read": true,
+      "main_text_words_approx": 424,
+      "estimated_reading_minutes": "5-7, learner estimate, not publisher runtime",
+      "observations": [
+        "Actual title and complete Reading text paragraphs observed",
+        "Official B2 upper-intermediate label and preparation/two comprehension tasks observed",
+        "Main text contrasts examples, platform intermediation and an objection/concession",
+        "Publication date not shown in main text; learner comment dates not adopted as publication date"
+      ],
+      "caveats": [
+        "Institutional graded learning text, not an unadapted research or news article",
+        "Broad taxonomy groups resale, rental and service matching; not used as a precise professional definition",
+        "No jurisdiction/time-scoped current regulatory claim adopted",
+        "Environmental conclusion treated as conditional, not an independently proven universal benefit",
+        "Learner comments excluded from model language; no source audio claimed"
+      ]
+    },
+    "freshness": {
+      "exact_url_against_original_history": "passed",
+      "canonical_host_path_against_all_prior_english_notes_and_prepared": "passed",
+      "same_work_recommendation": "none found",
+      "recent_topics_reviewed": [
+        "2026-10-15 narrative/art",
+        "2026-10-12 boarding optimization",
+        "2026-10-11 team leadership",
+        "2026-10-09 maps",
+        "2026-10-08 marine debris"
+      ],
+      "choice_rationale": "everyday economic argument and concessive language, rather than another literary framework, engineering model or workplace-leadership input",
+      "same_publisher_as_previous_day": true,
+      "same_publisher_penalty_applied": 0.1
+    },
+    "content_review": {
+      "translation_exercises": 2,
+      "translation_levels": [
+        "CET-6",
+        "TOEFL/academic"
+      ],
+      "translation_topics": [
+        "community theatre visitor barriers",
+        "hypothetical revision-strategy study"
+      ],
+      "independently_authored": true,
+      "source_paraphrase": false,
+      "fictional_scenarios_labelled": true,
+      "folded_reference_answers": true,
+      "vocabulary_items": 8,
+      "original_examples": true,
+      "etymology_invented": false,
+      "spaced_review_sentences": 2,
+      "source_and_all_three_crosslinks": true,
+      "twenty_minute_core_not_claimed_complete_workload": true
+    },
+    "historical_backlog": [
+      "Previously recorded historical source/format issues retained; no earlier source was replaced or revalidated by today's structural checks"
+    ],
+    "not_certified": [
+      "official source audio",
+      "local device synchronization",
+      "notification delivery"
+    ]
+  }
+}
