@@ -1,0 +1,719 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-10-16",
+  "phase": "prepared",
+  "recorded_at_utc": "2026-10-16 01:14:19 UTC",
+  "prepared_path": ".recommendation/transactions/music/2026-10-16.json",
+  "prepared_creation_commit": "a1ba4c78791eff4579af239bf0fffd6fa843a988",
+  "prepared_blob_sha": "bf759b0b0d935bb32da75ac53636e123fcb0cb63",
+  "original_bundle_sha256": "b67b518dd0cf68365892c1ed55d7c5952b5d3e4d14614ea2e24049c192b0655d",
+  "original_plan_sha256": "0a5b46cd55923afe90c3e63c318f3b03bac6148429edc574b10cc4f89107254d",
+  "prepared_readback": "exact_text_blob_and_digests_passed",
+  "evidence": {
+    "schema_version": 1,
+    "operation_id": "music:2026-10-16",
+    "mode": "new_generation",
+    "recorded_at_utc": "2026-10-16 01:13:31 UTC",
+    "preflight_heads": {
+      "music": "8df6542786af4d0c616016da6e80343e397b3c38",
+      "vault": "02a45a699ba69eecea473218f2341c0001245c71"
+    },
+    "preflight": {
+      "complete_file_blob_hashes_verified": 57,
+      "complete_state_entries": 198,
+      "historical_manifests_read": 38,
+      "existing_manifest_tracks": 190,
+      "all_prepared_read": [
+        ".recommendation/transactions/english/2026-10-15.json",
+        ".recommendation/transactions/english/2026-10-16.json",
+        ".recommendation/transactions/music/2026-10-15.json",
+        ".recommendation/transactions/news-youtube-reddit/2026-10-15.json",
+        ".recommendation/transactions/news-youtube-reddit/2026-10-16.json"
+      ],
+      "states_byte_identical": true,
+      "all_38_manifest_blob_mirrors_identical": true,
+      "today_note_manifest_and_bundle": "confirmed absent in complete accessible pinned trees"
+    },
+    "candidate_count": 20,
+    "candidate_pool": [
+      {
+        "song_id": "1854813955",
+        "title": "口是心非",
+        "artist": "张雨生",
+        "album": "口是心非",
+        "url": "https://music.apple.com/cn/song/1854813955",
+        "source_url_observed": "https://music.apple.com/cn/song/%E5%8F%A3%E6%98%AF%E5%BF%83%E9%9D%9E/1854813955",
+        "source_observed_at": "2026-10-16T01:05:55.198Z",
+        "source_evidence": "Actual CN song page: title/artist/album match; displayed date 1997-10-16; 张雨生 credited voice/composer/lyrics. Album row showed 4:52 and catalogue copyright 2025; not used to infer a new recording. No Live/Remix suffix.",
+        "decision": "selected",
+        "tier": "high_confidence",
+        "scores": [
+          5,
+          4,
+          4,
+          5,
+          5
+        ],
+        "weighted_score": 4.55,
+        "reason": "以同名专辑中的张雨生录音作为华语入口，借页面标示的 10 月 16 日发行日重听演唱的张力。重点不是孤立欣赏高音，而是比较字头、长句、人声位置与流行摇滚伴奏密度怎样共同形成推进。",
+        "scope": "actual CN song resource identity and version verified; original listening guide; no full playback claim"
+      },
+      {
+        "song_id": "1492262289",
+        "title": "Coyote",
+        "artist": "Joni Mitchell",
+        "album": "Hejira",
+        "url": "https://music.apple.com/cn/song/1492262289",
+        "source_url_observed": "https://music.apple.com/cn/song/coyote/1492262289",
+        "source_observed_at": "2026-10-16T00:57:59.366Z",
+        "source_evidence": "Actual CN song page: title Coyote, Joni Mitchell, Hejira, displayed 1976-11-22. Credits observed: Joni voice/rhythm guitar; Jaco Pastorius fretless bass; Larry Carlton lead guitar; Bobbye Hall percussion.",
+        "decision": "selected",
+        "tier": "high_confidence",
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          4
+        ],
+        "weighted_score": 4.9,
+        "reason": "选择《Hejira》专辑录音，避开现场与 demo 条目。作者的伸缩句法、吉他的起音和无品低音的流动形成多条可跟随的线，适合把低音从背景节拍提升为独立旋律来听。",
+        "scope": "actual CN song resource identity and version verified; original listening guide; no full playback claim"
+      },
+      {
+        "song_id": "1288804817",
+        "title": "Two Thousand and Seventeen",
+        "artist": "Four Tet",
+        "album": "Two Thousand and Seventeen - Single",
+        "url": "https://music.apple.com/cn/song/1288804817",
+        "source_url_observed": "https://music.apple.com/cn/song/two-thousand-and-seventeen/1288804817",
+        "source_observed_at": "2026-10-16T01:05:22.971Z",
+        "source_evidence": "Actual CN song page: exact title, Four Tet, Two Thousand and Seventeen - Single, 2017-07-05. Credits: Four Tet programming; Kieran Hebden composer/producer. No identity of a specific acoustic instrument inferred from sound.",
+        "decision": "selected",
+        "tier": "high_confidence",
+        "scores": [
+          5,
+          4,
+          5,
+          5,
+          4
+        ],
+        "weighted_score": 4.65,
+        "reason": "选择独立单曲条目而非混音串烧版本。以明亮短音、余音和电子节奏的层次关系为入口，比较旋律持续重复时，织体变化怎样仍然带来方向感；不臆造具体声源或采样出处。",
+        "scope": "actual CN song resource identity and version verified; original listening guide; no full playback claim"
+      },
+      {
+        "song_id": "1451900035",
+        "title": "Orpheus",
+        "artist": "David Sylvian",
+        "album": "Secrets of the Beehive (Remastered 2003)",
+        "url": "https://music.apple.com/cn/song/1451900035",
+        "source_url_observed": "https://music.apple.com/cn/song/orpheus/1451900035",
+        "source_observed_at": "2026-10-16T01:05:07.658Z",
+        "source_evidence": "Actual CN song page title/artist/album read; displayed original date 1987-11-07. Credits: David Sylvian voice/synth/acoustic guitar, Ryuichi Sakamoto synth, Steve Jansen drums, Danny Thompson double bass, P Palmer guitar, B Gascoigne orchestral arrangement. Album explicitly Remastered 2003, no new-performance claim.",
+        "decision": "selected",
+        "tier": "adjacent",
+        "scores": [
+          5,
+          4,
+          5,
+          5,
+          4
+        ],
+        "weighted_score": 4.65,
+        "reason": "明确选择 2003 重制版的专辑资源，不与新录音混淆。低沉人声、原声与电子材质、低音提琴和管弦编排提供相互衬托的空间，适合练习听起音、持续与留白的比例。",
+        "scope": "actual CN song resource identity and version verified; original listening guide; no full playback claim"
+      },
+      {
+        "song_id": "573377330",
+        "title": "Sodade",
+        "artist": "Cesária Evora",
+        "album": "Miss Perfumado (20th Anniversary Edition)",
+        "url": "https://music.apple.com/cn/song/573377330",
+        "source_url_observed": "https://music.apple.com/cn/song/sodade/573377330",
+        "source_observed_at": "2026-10-16T01:04:12.608Z",
+        "source_evidence": "Actual CN song page title/artist/album verified; original date displayed 1992-06-01; solo Cesária Evora resource, not duet, live, club remix or cover. Anniversary edition is preserved explicitly; personal-account full playback not tested.",
+        "decision": "selected",
+        "tier": "wildcard",
+        "scores": [
+          5,
+          4,
+          5,
+          5,
+          3
+        ],
+        "weighted_score": 4.55,
+        "reason": "以明确标示的周年发行版独唱条目拓展到佛得角 morna，不混用二重唱、现场或重混版本。听轻摆脉冲、带沙质的人声边缘和句尾留白，先描述具体声音，再形成情绪判断。",
+        "scope": "actual CN song resource identity and version verified; original listening guide; no full playback claim"
+      },
+      {
+        "song_id": "1854813952",
+        "title": "如果你要离开我",
+        "artist": "张雨生",
+        "album": "口是心非",
+        "url": "https://music.apple.com/cn/song/1854813952",
+        "observed_catalogue": "https://music.apple.com/cn/album/kou-shi-xin-fei/1854813950",
+        "recorded_at_utc": "2026-10-16 01:13:31 UTC",
+        "decision": "rejected",
+        "reason": "实际国区专辑曲目表观察到标题和直达ID；只保留同专辑一首，避免作者/唱片/年代集中；个别条目未做最终单曲原页核验",
+        "scores": [
+          3,
+          3,
+          3,
+          4,
+          3
+        ],
+        "diversity_penalty": 0.8,
+        "evaluation_scope": "catalogue-level preliminary assessment, not full listening or final song-page verification"
+      },
+      {
+        "song_id": "1854813957",
+        "title": "Cappuccino",
+        "artist": "张雨生",
+        "album": "口是心非",
+        "url": "https://music.apple.com/cn/song/1854813957",
+        "observed_catalogue": "https://music.apple.com/cn/album/kou-shi-xin-fei/1854813950",
+        "recorded_at_utc": "2026-10-16 01:13:31 UTC",
+        "decision": "rejected",
+        "reason": "实际国区专辑曲目表观察到标题和直达ID；只保留同专辑一首，避免作者/唱片/年代集中；个别条目未做最终单曲原页核验",
+        "scores": [
+          3,
+          3,
+          3,
+          4,
+          3
+        ],
+        "diversity_penalty": 0.8,
+        "evaluation_scope": "catalogue-level preliminary assessment, not full listening or final song-page verification"
+      },
+      {
+        "song_id": "1854813959",
+        "title": "玫瑰的名字",
+        "artist": "张雨生",
+        "album": "口是心非",
+        "url": "https://music.apple.com/cn/song/1854813959",
+        "observed_catalogue": "https://music.apple.com/cn/album/kou-shi-xin-fei/1854813950",
+        "recorded_at_utc": "2026-10-16 01:13:31 UTC",
+        "decision": "rejected",
+        "reason": "实际国区专辑曲目表观察到标题和直达ID；只保留同专辑一首，避免作者/唱片/年代集中；个别条目未做最终单曲原页核验",
+        "scores": [
+          3,
+          3,
+          3,
+          4,
+          3
+        ],
+        "diversity_penalty": 0.8,
+        "evaluation_scope": "catalogue-level preliminary assessment, not full listening or final song-page verification"
+      },
+      {
+        "song_id": "1854813964",
+        "title": "河",
+        "artist": "张雨生",
+        "album": "口是心非",
+        "url": "https://music.apple.com/cn/song/1854813964",
+        "observed_catalogue": "https://music.apple.com/cn/album/kou-shi-xin-fei/1854813950",
+        "recorded_at_utc": "2026-10-16 01:13:31 UTC",
+        "decision": "rejected",
+        "reason": "实际国区专辑曲目表观察到标题和直达ID；只保留同专辑一首，避免作者/唱片/年代集中；个别条目未做最终单曲原页核验",
+        "scores": [
+          3,
+          3,
+          3,
+          4,
+          3
+        ],
+        "diversity_penalty": 0.8,
+        "evaluation_scope": "catalogue-level preliminary assessment, not full listening or final song-page verification"
+      },
+      {
+        "song_id": "1854813967",
+        "title": "爱情…",
+        "artist": "张雨生",
+        "album": "口是心非",
+        "url": "https://music.apple.com/cn/song/1854813967",
+        "observed_catalogue": "https://music.apple.com/cn/album/kou-shi-xin-fei/1854813950",
+        "recorded_at_utc": "2026-10-16 01:13:31 UTC",
+        "decision": "rejected",
+        "reason": "实际国区专辑曲目表观察到标题和直达ID；只保留同专辑一首，避免作者/唱片/年代集中；个别条目未做最终单曲原页核验",
+        "scores": [
+          3,
+          3,
+          3,
+          4,
+          3
+        ],
+        "diversity_penalty": 0.8,
+        "evaluation_scope": "catalogue-level preliminary assessment, not full listening or final song-page verification"
+      },
+      {
+        "song_id": "1854813969",
+        "title": "...的图案",
+        "artist": "张雨生",
+        "album": "口是心非",
+        "url": "https://music.apple.com/cn/song/1854813969",
+        "observed_catalogue": "https://music.apple.com/cn/album/kou-shi-xin-fei/1854813950",
+        "recorded_at_utc": "2026-10-16 01:13:31 UTC",
+        "decision": "rejected",
+        "reason": "实际国区专辑曲目表观察到标题和直达ID；只保留同专辑一首，避免作者/唱片/年代集中；个别条目未做最终单曲原页核验",
+        "scores": [
+          3,
+          3,
+          3,
+          4,
+          3
+        ],
+        "diversity_penalty": 0.8,
+        "evaluation_scope": "catalogue-level preliminary assessment, not full listening or final song-page verification"
+      },
+      {
+        "song_id": "1854813973",
+        "title": "随你",
+        "artist": "张雨生",
+        "album": "口是心非",
+        "url": "https://music.apple.com/cn/song/1854813973",
+        "observed_catalogue": "https://music.apple.com/cn/album/kou-shi-xin-fei/1854813950",
+        "recorded_at_utc": "2026-10-16 01:13:31 UTC",
+        "decision": "rejected",
+        "reason": "实际国区专辑曲目表观察到标题和直达ID；只保留同专辑一首，避免作者/唱片/年代集中；个别条目未做最终单曲原页核验",
+        "scores": [
+          3,
+          3,
+          3,
+          4,
+          3
+        ],
+        "diversity_penalty": 0.8,
+        "evaluation_scope": "catalogue-level preliminary assessment, not full listening or final song-page verification"
+      },
+      {
+        "song_id": "1854814097",
+        "title": "神采",
+        "artist": "张雨生",
+        "album": "口是心非",
+        "url": "https://music.apple.com/cn/song/1854814097",
+        "observed_catalogue": "https://music.apple.com/cn/album/kou-shi-xin-fei/1854813950",
+        "recorded_at_utc": "2026-10-16 01:13:31 UTC",
+        "decision": "rejected",
+        "reason": "实际国区专辑曲目表观察到标题和直达ID；只保留同专辑一首，避免作者/唱片/年代集中；个别条目未做最终单曲原页核验",
+        "scores": [
+          3,
+          3,
+          3,
+          4,
+          3
+        ],
+        "diversity_penalty": 0.8,
+        "evaluation_scope": "catalogue-level preliminary assessment, not full listening or final song-page verification"
+      },
+      {
+        "song_id": "1854814099",
+        "title": "在黄昏融化了世界的色彩以前",
+        "artist": "张雨生",
+        "album": "口是心非",
+        "url": "https://music.apple.com/cn/song/1854814099",
+        "observed_catalogue": "https://music.apple.com/cn/album/kou-shi-xin-fei/1854813950",
+        "recorded_at_utc": "2026-10-16 01:13:31 UTC",
+        "decision": "rejected",
+        "reason": "实际国区专辑曲目表观察到标题和直达ID；只保留同专辑一首，避免作者/唱片/年代集中；个别条目未做最终单曲原页核验",
+        "scores": [
+          3,
+          3,
+          3,
+          4,
+          3
+        ],
+        "diversity_penalty": 0.8,
+        "evaluation_scope": "catalogue-level preliminary assessment, not full listening or final song-page verification"
+      },
+      {
+        "song_id": "1854814100",
+        "title": "若我告诉你其实我爱的只是你",
+        "artist": "张雨生",
+        "album": "口是心非",
+        "url": "https://music.apple.com/cn/song/1854814100",
+        "observed_catalogue": "https://music.apple.com/cn/album/kou-shi-xin-fei/1854813950",
+        "recorded_at_utc": "2026-10-16 01:13:31 UTC",
+        "decision": "rejected",
+        "reason": "实际国区专辑曲目表观察到标题和直达ID；只保留同专辑一首，避免作者/唱片/年代集中；个别条目未做最终单曲原页核验",
+        "scores": [
+          3,
+          3,
+          3,
+          4,
+          3
+        ],
+        "diversity_penalty": 0.8,
+        "evaluation_scope": "catalogue-level preliminary assessment, not full listening or final song-page verification"
+      },
+      {
+        "song_id": "300205497",
+        "title": "Human Behaviour",
+        "artist": "Björk",
+        "album": "Debut",
+        "url": "https://music.apple.com/us/song/300205497",
+        "decision": "rejected",
+        "reason": "Actual CN browser page says cannot find requested page; overseas metadata not proof of CN availability",
+        "recorded_at_utc": "2026-10-16 01:13:31 UTC",
+        "scores": [
+          3,
+          3,
+          4,
+          4,
+          3
+        ],
+        "evaluation_scope": "real observed resource candidate; CN final verification not completed unless explicitly stated"
+      },
+      {
+        "song_id": "1726662711",
+        "title": "Human Behaviour",
+        "artist": "Björk",
+        "album": "Debut",
+        "url": "https://music.apple.com/gr/song/1726662711",
+        "decision": "rejected",
+        "reason": "Observed real overseas resource; CN identity not verified; same work as other Human Behaviour candidate, not counted as a second distinct work",
+        "recorded_at_utc": "2026-10-16 01:13:31 UTC",
+        "scores": [
+          3,
+          3,
+          4,
+          4,
+          3
+        ],
+        "evaluation_scope": "real observed resource candidate; CN final verification not completed unless explicitly stated"
+      },
+      {
+        "song_id": "260336471",
+        "title": "Kiss",
+        "artist": "Prince & The Revolution",
+        "album": "Parade (Music from the Motion Picture Under the Cherry Moon)",
+        "url": "https://music.apple.com/us/song/260336471",
+        "decision": "rejected",
+        "reason": "Attractive rhythmic contrast but final CN song identity not verified; must not use overseas result as publication proof",
+        "recorded_at_utc": "2026-10-16 01:13:31 UTC",
+        "scores": [
+          3,
+          3,
+          4,
+          4,
+          3
+        ],
+        "evaluation_scope": "real observed resource candidate; CN final verification not completed unless explicitly stated"
+      },
+      {
+        "song_id": "1397955896",
+        "title": "Sodade",
+        "artist": "Cesária Evora & Bonga",
+        "album": "Anthologie / Mornas & Coladeras",
+        "url": "https://music.apple.com/cn/album/sodade/1397952824?i=1397955896",
+        "decision": "rejected",
+        "reason": "Observed CN search resource for duet, deliberate different version; choose clearly identified solo album recording instead",
+        "recorded_at_utc": "2026-10-16 01:13:31 UTC",
+        "scores": [
+          3,
+          3,
+          4,
+          4,
+          3
+        ],
+        "evaluation_scope": "real observed resource candidate; CN final verification not completed unless explicitly stated"
+      },
+      {
+        "song_id": "594038186",
+        "title": "Dor di Sodade",
+        "artist": "Cesária Evora",
+        "album": "Mãe Carinhosa",
+        "url": "https://music.apple.com/cn/album/dor-di-sodade/594038172?i=594038186",
+        "decision": "rejected",
+        "reason": "Observed different real song in CN search; same creator concentration penalty, exact final song page not examined",
+        "recorded_at_utc": "2026-10-16 01:13:31 UTC",
+        "scores": [
+          3,
+          3,
+          4,
+          4,
+          3
+        ],
+        "evaluation_scope": "real observed resource candidate; CN final verification not completed unless explicitly stated"
+      }
+    ],
+    "candidate_pool_scope": "At least 15 distinct works: 11 observed Zhang album tracks plus four other selected works; additional real search candidates retained. Catalogue candidates are preliminarily evaluated, not falsely marked as final source-verified or fully listened.",
+    "selection": [
+      {
+        "position": 1,
+        "title": "口是心非",
+        "artist": "张雨生",
+        "album": "口是心非",
+        "canonical_id": "张雨生::口是心非",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/1854813955",
+          "song_id": "1854813955",
+          "storefront": "cn"
+        }
+      },
+      {
+        "position": 2,
+        "title": "Coyote",
+        "artist": "Joni Mitchell",
+        "album": "Hejira",
+        "canonical_id": "Joni Mitchell::Coyote",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/1492262289",
+          "song_id": "1492262289",
+          "storefront": "cn"
+        }
+      },
+      {
+        "position": 3,
+        "title": "Two Thousand and Seventeen",
+        "artist": "Four Tet",
+        "album": "Two Thousand and Seventeen - Single",
+        "canonical_id": "Four Tet::Two Thousand and Seventeen",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/1288804817",
+          "song_id": "1288804817",
+          "storefront": "cn"
+        }
+      },
+      {
+        "position": 4,
+        "title": "Orpheus",
+        "artist": "David Sylvian",
+        "album": "Secrets of the Beehive (Remastered 2003)",
+        "canonical_id": "David Sylvian::Orpheus",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/1451900035",
+          "song_id": "1451900035",
+          "storefront": "cn"
+        }
+      },
+      {
+        "position": 5,
+        "title": "Sodade",
+        "artist": "Cesária Evora",
+        "album": "Miss Perfumado (20th Anniversary Edition)",
+        "canonical_id": "Cesária Evora::Sodade",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/573377330",
+          "song_id": "573377330",
+          "storefront": "cn"
+        }
+      }
+    ],
+    "permanent_dedup": {
+      "baseline": "original complete state + all current manifests + all PREPARED music reservations",
+      "canonical_and_normalized_artist_title_repeats": 0,
+      "prior_song_id_repeats": 0,
+      "same_recording_review": "Five different artists/works, none of these artists appears in earlier state or current manifests; no cover/tribute/karaoke substituted. Compilation/remaster copies are not treated as new recordings.",
+      "retired_state_entries_preserved": 8
+    },
+    "diversity": {
+      "artists": 5,
+      "eras": [
+        "1970s",
+        "1980s",
+        "1990s",
+        "2010s"
+      ],
+      "language_modes": [
+        "Mandarin",
+        "English",
+        "Cape Verdean Creole",
+        "instrumental"
+      ],
+      "genres": [
+        "国语流行 / 摇滚取向",
+        "民谣唱作 / 爵士化律动",
+        "电子 / 循环与细部编排",
+        "艺术流行 / 室内乐式编排",
+        "佛得角 morna / 世界音乐"
+      ],
+      "high_confidence": 3,
+      "adjacent": 1,
+      "wildcard": 1,
+      "wildcard_position": 5,
+      "recent_7_day_artist_repeats": 0,
+      "rounding": "5 slots: 60/20/20"
+    },
+    "local_checks": {
+      "music_consistency": {
+        "status": "passed_structural_with_url_warnings",
+        "legacy_url_warnings": [
+          {
+            "manifest": "2026-09-24.json",
+            "song_id": "1443209403",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-24.json",
+            "song_id": "1440788744",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-24.json",
+            "song_id": "1472549630",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-24.json",
+            "song_id": "258200075",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-24.json",
+            "song_id": "1668862649",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-26.json",
+            "song_id": "1752629180",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-26.json",
+            "song_id": "300865222",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-26.json",
+            "song_id": "1673536432",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-26.json",
+            "song_id": "1675123649",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-26.json",
+            "song_id": "1598994872",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-28.json",
+            "song_id": "1443363499",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-28.json",
+            "song_id": "1440841917",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-28.json",
+            "song_id": "1078914485",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-28.json",
+            "song_id": "1477652823",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-28.json",
+            "song_id": "1440719297",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-29.json",
+            "song_id": "1442363759",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-29.json",
+            "song_id": "1440837273",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-29.json",
+            "song_id": "300202271",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-29.json",
+            "song_id": "1675560578",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-29.json",
+            "song_id": "1447442939",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          }
+        ],
+        "manifests": 39,
+        "current_tracks": 195,
+        "state_entries": 203,
+        "historical_exposures_checked": 198,
+        "retired_entries_retained": 8,
+        "cross_repository": "not_checked",
+        "unverified": [
+          "live source availability and metadata",
+          "semantic quality and artist diversity",
+          "local Obsidian sync",
+          "task scheduling and delivery"
+        ]
+      },
+      "vault_music_scope": "2026-10-12, 2026-10-15 and current 2026-10-16 notes; not the full vault",
+      "vault_music_track_checks": 15,
+      "prepared_journal": {
+        "status": "passed_immutable_publication_bundles",
+        "bundles": 5,
+        "base_ref": null,
+        "content_qa": "not_evaluated"
+      },
+      "bundle_freeze_verify_check_baselines": "passed"
+    },
+    "research_failures": [
+      {
+        "resource": "https://music.apple.com/cn/song/300205497",
+        "kind": "actual_page_not_found",
+        "action": "rejected"
+      },
+      {
+        "kind": "web_research_internal_inaccessible",
+        "resources": [
+          "Joni CN resource",
+          "Cesaria CN resource",
+          "Prince CN candidate",
+          "Björk CN candidate"
+        ],
+        "http_status": "not exposed",
+        "action": "final Joni/Cesaria directly verified in actual CN browser; Prince/Björk not selected"
+      },
+      {
+        "kind": "local_materialization_newline_normalization",
+        "paths": [
+          "recommendations/2026/09/2026-09-13.json",
+          "recommendations/2026/09/2026-09-23.json"
+        ],
+        "action": "removed only the final newline added to local copies; all 57 original connector blob hashes then matched; no remote history mutation"
+      }
+    ],
+    "historical_backlog": {
+      "prior_music_bundle_2026_10_15_artifact_drift": [
+        {
+          "repo": "ZJFILOVE/music-daily",
+          "path": "recommendations/2026/10/2026-10-15.json",
+          "original_target_sha": "7790e3664e26f1a8a681d6106f7c0b60f828c8e1",
+          "current_sha": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26"
+        },
+        {
+          "repo": "ZJFILOVE/obsidian-vault",
+          "path": "Music/Daily/manifests/2026-10-15.json",
+          "original_target_sha": "7790e3664e26f1a8a681d6106f7c0b60f828c8e1",
+          "current_sha": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26"
+        }
+      ],
+      "handling": "Immutable older bundle preserved; current two manifest copies agree and validate; earlier corrected manifest differs from original frozen target. Retain as explicit historical recovery/format backlog, not a reason to replace known exposures or block unrelated current publication."
+    },
+    "not_certified": [
+      "account-specific full playback",
+      "historical live-source quality",
+      "local device sync",
+      "notification delivery"
+    ],
+    "bundle_sha256": "b67b518dd0cf68365892c1ed55d7c5952b5d3e4d14614ea2e24049c192b0655d",
+    "plan_sha256": "0a5b46cd55923afe90c3e63c318f3b03bac6148429edc574b10cc4f89107254d",
+    "timestamp_scope": "Five final song-page observations retain actual browser capture timestamps. Other candidate recorded_at_utc is evidence assembly time, not an invented original observation time."
+  }
+}
