@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-10-16",
+  "phase": "stage1_complete",
+  "recorded_at_utc": "2026-10-16 00:46:31 UTC",
+  "original_bundle_sha256": "73643a0897bd7acbff4943bfdbf4f7433c8f7c5451227efdfebfc4ae9bb68449",
+  "original_plan_sha256": "4368952490923c9336e172c25a65b0e51176ac9f195815ffd10d87c71aacfdd2",
+  "prepared_creation_commit": "f02b42abab3cdd00f8a347269779e93f90dc0bc5",
+  "parent_commit": "df13220003056a43c37d25397508fc4467a171c2",
+  "actual_base_tree": "f590222a2517d41f2447705175b45a6288c5c6e8",
+  "publication_tree": "cac2c5592374cd5eede9c5a06f55335935a641b2",
+  "publication_commit": "fc85aebd999d72b563ef346c250fcbceb629acf2",
+  "non_force_expected_head_update": {
+    "success": true
+  },
+  "artifact_readbacks": {
+    "News/Daily/2026-10-16.md": {
+      "sha": "42daad9606c4980cfdd17eff30c5d7819483cf5d",
+      "bytes": 6724,
+      "complete_payload_equal": true
+    },
+    "Resources/YouTube/Daily/2026-10-16.md": {
+      "sha": "dd21c955167d4a5bebcfd4a92ef51cbbcc64c78e",
+      "bytes": 6008,
+      "complete_payload_equal": true
+    },
+    "Resources/Reddit/Daily/2026-10-16.md": {
+      "sha": "4562dddfbfb181fe2024150823dc89bba97eeb54",
+      "bytes": 12806,
+      "complete_payload_equal": true
+    },
+    ".recommendation/history/youtube.jsonl": {
+      "sha": "68df5b9b8c6d66cfb9efa6fe394eb019347342c1",
+      "bytes": 23255,
+      "complete_payload_equal": true
+    },
+    ".recommendation/history/reddit.jsonl": {
+      "sha": "cb7a176d0e4bda190cf5b8143cab4119e817c913",
+      "bytes": 28923,
+      "complete_payload_equal": true
+    }
+  },
+  "planner": {
+    "operation_id": "news-youtube-reddit:2026-10-16",
+    "plan_sha256": "4368952490923c9336e172c25a65b0e51176ac9f195815ffd10d87c71aacfdd2",
+    "status": "artifacts_match",
+    "next_stage": null,
+    "decisions": [
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "News/Daily/2026-10-16.md",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "42daad9606c4980cfdd17eff30c5d7819483cf5d"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Resources/YouTube/Daily/2026-10-16.md",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "dd21c955167d4a5bebcfd4a92ef51cbbcc64c78e"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Resources/Reddit/Daily/2026-10-16.md",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "4562dddfbfb181fe2024150823dc89bba97eeb54"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": ".recommendation/history/youtube.jsonl",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": "c07206c15a2064c8570ef6f168fd700e03a9df6d",
+        "target_sha": "68df5b9b8c6d66cfb9efa6fe394eb019347342c1"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": ".recommendation/history/reddit.jsonl",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": "2f4fa07de30ea01801d1808837764907f6357310",
+        "target_sha": "cb7a176d0e4bda190cf5b8143cab4119e817c913"
+      }
+    ],
+    "content_qa": "not_evaluated",
+    "github_writes_performed": 0
+  },
+  "errors": [],
+  "scope": "Complete frozen stage applied in one ordinary commit; not a notification/device-sync test."
+}
