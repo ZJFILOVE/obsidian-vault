@@ -1,0 +1,1946 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-16",
+  "project": "news-youtube-reddit",
+  "operation_id": "news-youtube-reddit:2026-10-16",
+  "mode": "new_generation",
+  "status": "passed_current_publication_applicable_gates",
+  "content_qa": "passed_with_explicit_reddit_user_waiver",
+  "completed_at_utc": "2026-10-16 00:46:56 UTC",
+  "prepared": {
+    "path": ".recommendation/transactions/news-youtube-reddit/2026-10-16.json",
+    "creation_commit": "f02b42abab3cdd00f8a347269779e93f90dc0bc5",
+    "blob_sha": "9efef6111091c4caeb3f2ca5c8fcfafa6130907c",
+    "original_bundle_sha256": "73643a0897bd7acbff4943bfdbf4f7433c8f7c5451227efdfebfc4ae9bb68449",
+    "original_plan_sha256": "4368952490923c9336e172c25a65b0e51176ac9f195815ffd10d87c71aacfdd2",
+    "unchanged_readback": true
+  },
+  "publication_commit": "fc85aebd999d72b563ef346c250fcbceb629acf2",
+  "prepared_receipt": {
+    "path": ".recommendation/transaction-runs/news-youtube-reddit/2026-10-16/20261016T004412Z-prepared.json",
+    "commit": "df13220003056a43c37d25397508fc4467a171c2",
+    "blob_sha": "bb256d81e90ae65c5d45d53594bd576046ca1d06",
+    "readback": "complete_exact_match"
+  },
+  "stage_receipt": {
+    "path": ".recommendation/transaction-runs/news-youtube-reddit/2026-10-16/20261016T0046-stage1.json",
+    "commit": "64b9d0c65bf7168baf52721eb9d7b22a81c17639",
+    "blob_sha": "6fd40c4cbc6eda637e54290a095bdea12632a3ee",
+    "readback": "complete_exact_match"
+  },
+  "post_write_checks": {
+    "status": "passed_current_publication_code_checks",
+    "bundle_sha256": "73643a0897bd7acbff4943bfdbf4f7433c8f7c5451227efdfebfc4ae9bb68449",
+    "readback": {
+      "News/Daily/2026-10-16.md": {
+        "sha": "42daad9606c4980cfdd17eff30c5d7819483cf5d",
+        "bytes": 6724,
+        "complete_payload_equal": true
+      },
+      "Resources/YouTube/Daily/2026-10-16.md": {
+        "sha": "dd21c955167d4a5bebcfd4a92ef51cbbcc64c78e",
+        "bytes": 6008,
+        "complete_payload_equal": true
+      },
+      "Resources/Reddit/Daily/2026-10-16.md": {
+        "sha": "4562dddfbfb181fe2024150823dc89bba97eeb54",
+        "bytes": 12806,
+        "complete_payload_equal": true
+      },
+      ".recommendation/history/youtube.jsonl": {
+        "sha": "68df5b9b8c6d66cfb9efa6fe394eb019347342c1",
+        "bytes": 23255,
+        "complete_payload_equal": true
+      },
+      ".recommendation/history/reddit.jsonl": {
+        "sha": "cb7a176d0e4bda190cf5b8143cab4119e817c913",
+        "bytes": 28923,
+        "complete_payload_equal": true
+      }
+    },
+    "structural": {
+      "all_hash_verified_discovery_notes": 108,
+      "youtube_strict_ids_checked": 160,
+      "reddit_strict_ids_checked": 320,
+      "history_append_only": {
+        "youtube": {
+          "original_rows": 180,
+          "current_rows": 185,
+          "new_exactly_once": 5
+        },
+        "reddit": {
+          "original_rows": 340,
+          "current_rows": 350,
+          "new_exactly_once": 10
+        }
+      },
+      "creator_latest_prior_date": {
+        "3Blue1Brown": "2026-10-08",
+        "Captain Disillusion": "2026-09-19",
+        "CGP Grey": "2026-09-21",
+        "NativLang": "2026-10-05",
+        "Beau Miles": "2026-09-14"
+      },
+      "journal": {
+        "status": "passed_immutable_publication_bundles",
+        "bundles": 5,
+        "base_ref": null,
+        "content_qa": "not_evaluated"
+      }
+    },
+    "planner": {
+      "operation_id": "news-youtube-reddit:2026-10-16",
+      "plan_sha256": "4368952490923c9336e172c25a65b0e51176ac9f195815ffd10d87c71aacfdd2",
+      "status": "artifacts_match",
+      "next_stage": null,
+      "decisions": [
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "News/Daily/2026-10-16.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "42daad9606c4980cfdd17eff30c5d7819483cf5d"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Resources/YouTube/Daily/2026-10-16.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "dd21c955167d4a5bebcfd4a92ef51cbbcc64c78e"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Resources/Reddit/Daily/2026-10-16.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "4562dddfbfb181fe2024150823dc89bba97eeb54"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/youtube.jsonl",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "c07206c15a2064c8570ef6f168fd700e03a9df6d",
+          "target_sha": "68df5b9b8c6d66cfb9efa6fe394eb019347342c1"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/reddit.jsonl",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "2f4fa07de30ea01801d1808837764907f6357310",
+          "target_sha": "cb7a176d0e4bda190cf5b8143cab4119e817c913"
+        }
+      ],
+      "content_qa": "not_evaluated",
+      "github_writes_performed": 0
+    },
+    "source_editorial_review": "Five actual video pages plus listed original news sources reviewed before freezing; Reddit waiver applies. Current-list works/questions are distinct. Manual semantic assessment is separate from structural validators.",
+    "not_certified": [
+      "complete video playback",
+      "Reddit original pages/comments/accessibility",
+      "historical live sources",
+      "device synchronization",
+      "notification delivery"
+    ]
+  },
+  "independent_content_review": {
+    "phase": "separate_post_write_review_of_complete_readback_payloads",
+    "news": "Three material developments; dates distinct from publication dates, goals/forecasts distinguished from achieved outcomes, facts separated from analysis. Official TSMC/WHO texts and original Reuters BoE reporting read; official BoE schedule corroborates event. CNA corroboration only search-visible, clearly labelled.",
+    "youtube": "Five verified original watch page identities; five distinct works, normalized title and creator plus underlying-work review; zero permanent ID repeats; no creators used within prior seven days based on full notes plus history.",
+    "reddit": "Ten observed real IDs/titles/subreddits and search-displayed dates, no permanent post ID repeats, ten distinct current-list questions, two labelled expansion/wildcard choices. All original pages not performed user waived; no comments/date/accessibility verification claimed.",
+    "counts_order_diversity": "5 YouTube / 10 Reddit in note and history order. 29 / 38 retained candidates. Narrow-topic shares 20% / 10%.",
+    "editorial": "Substantive original Chinese explanations, priorities and checklists; original Notes sections outside AUTO; no older note rewritten."
+  },
+  "source_and_selection_evidence": {
+    "schema_version": 1,
+    "operation_id": "news-youtube-reddit:2026-10-16",
+    "mode": "new_generation",
+    "preflight_head": "82165d02baaa2c890a3072ab0b6f09b726c988ef",
+    "observed_at_utc": "2026-10-16T00:43:07Z",
+    "complete_discovery_notes_hash_verified": 105,
+    "original_history_rows": {
+      "youtube": 180,
+      "reddit": 340
+    },
+    "all_prepared_read": 4,
+    "permanent_history_byte_prefix_preserved": true,
+    "youtube_candidates": [
+      {
+        "video_id": "OkmNXy7er84",
+        "title": "The hardest problem on the hardest test",
+        "channel": "3Blue1Brown",
+        "topic": "几何概率与解题重构",
+        "tier": "high_confidence",
+        "scores": [
+          5,
+          5,
+          5,
+          4,
+          5
+        ],
+        "observed_at": "2026-10-16T00:34:31.878Z",
+        "published_display": "2017-12-08",
+        "evidence": "Actual YouTube watch page and expanded description identify a Putnam problem, channel and 1992 exam links. Creator's full companion lesson directly read: random tetrahedron; reduce dimension, reframe by lines and endpoint choices. No full-playback claim.",
+        "url": "https://www.youtube.com/watch?v=OkmNXy7er84",
+        "weighted_score": 4.85,
+        "source_verification": "actual_watch_page_title_channel_expanded_description",
+        "decision": "selected"
+      },
+      {
+        "video_id": "2yCjO-wRxyM",
+        "title": "SNL VFX Mystery | Quick D",
+        "channel": "Captain Disillusion",
+        "topic": "视觉特效与竞争性解释",
+        "tier": "high_confidence",
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          4
+        ],
+        "observed_at": "2026-10-16T00:35:09.982Z",
+        "published_display": "2024-12-20",
+        "evidence": "Actual YouTube page, channel, expanded description and chapters read. Description concerns a visual anomaly in a sketch comedy video; chapters show theories, root cause and final conclusion. Not treated as proof that all visual glitches are fabricated.",
+        "url": "https://www.youtube.com/watch?v=2yCjO-wRxyM",
+        "weighted_score": 4.9,
+        "source_verification": "actual_watch_page_title_channel_expanded_description",
+        "decision": "selected"
+      },
+      {
+        "video_id": "rStL7niR7gs",
+        "title": "Try to Rule Fairly and You'll Be Overthrown",
+        "channel": "CGP Grey",
+        "topic": "制度激励与权力联盟",
+        "tier": "high_confidence",
+        "scores": [
+          5,
+          4,
+          5,
+          4,
+          4
+        ],
+        "observed_at": "2026-10-16T00:32:53.948Z",
+        "published_display": "2016-10-24",
+        "evidence": "Actual YouTube title/channel and expanded description read: adapted from The Dictator's Handbook, authors acknowledged, linked follow-up and Cortex discussion. Historically called The Rules for Rulers; one work, not two recommendations. Normative/generalization caveat retained.",
+        "penalty": 0.2,
+        "url": "https://www.youtube.com/watch?v=rStL7niR7gs",
+        "weighted_score": 4.3,
+        "source_verification": "actual_watch_page_title_channel_expanded_description",
+        "decision": "selected"
+      },
+      {
+        "video_id": "CF3MRMBjd20",
+        "title": "Kanji Story - How Japan Overloaded Chinese Characters",
+        "channel": "NativLang",
+        "topic": "日语汉字与文字系统层累",
+        "tier": "adjacent",
+        "scores": [
+          4,
+          4,
+          5,
+          5,
+          4
+        ],
+        "observed_at": "2026-10-16T00:36:00.794Z",
+        "published_display": "2016-07-22",
+        "evidence": "Actual YouTube title/channel/expanded creator notes read. Notes discuss on'yomi, kun'yomi, nanori, ateji, kokuji and form variants; creator correction says long on'yomi strings need not be unintelligible. The humorous difficulty claim is not an objective ranking.",
+        "url": "https://www.youtube.com/watch?v=CF3MRMBjd20",
+        "weighted_score": 4.35,
+        "source_verification": "actual_watch_page_title_channel_expanded_description",
+        "decision": "selected"
+      },
+      {
+        "video_id": "R-Zyud8xh2c",
+        "title": "Walking 90km to work",
+        "channel": "Beau Miles",
+        "topic": "日常地理与冒险纪录片",
+        "tier": "wildcard",
+        "scores": [
+          5,
+          3,
+          5,
+          5,
+          4
+        ],
+        "observed_at": "2026-10-16T00:35:37.247Z",
+        "published_display": "2021-03-07 (browser locale; search showed March 6)",
+        "evidence": "Actual watch page and expanded description read: commute adventure, first walk October 2014, second July 2018. Official film catalogue independently names Walk to Work. Different film from previously exposed A Mile an Hour. Not a training/safety prescription.",
+        "url": "https://www.youtube.com/watch?v=R-Zyud8xh2c",
+        "weighted_score": 4.4,
+        "source_verification": "actual_watch_page_title_channel_expanded_description",
+        "decision": "selected"
+      },
+      {
+        "video_id": "fXuWQg7uJKg",
+        "url": "https://www.youtube.com/watch?v=fXuWQg7uJKg",
+        "title": "The ENTIRE History of CHINA [No AI]",
+        "channel": "Historically",
+        "decision": "rejected",
+        "reason": "史纲篇幅较长且未核对史料，本期不选",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "jNgP6d9HraI",
+        "url": "https://www.youtube.com/watch?v=jNgP6d9HraI",
+        "title": "The Royal Family Runs on Rules You've Never Heard Of",
+        "channel": "CGP Grey",
+        "decision": "rejected",
+        "reason": "与入选作者相同，制度主题集中惩罚",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "Y-W-w8yNiKU",
+        "url": "https://www.youtube.com/watch?v=Y-W-w8yNiKU",
+        "title": "Why is there antimatter?",
+        "channel": "Veritasium",
+        "decision": "rejected",
+        "reason": "有相邻科学价值；本期优先数学方法，未做最终原页审阅",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "JEYh5WACqEk",
+        "url": "https://www.youtube.com/watch?v=JEYh5WACqEk",
+        "title": "Why Some Diseases Only Traveled One Direction",
+        "channel": "CGP Grey",
+        "decision": "rejected",
+        "reason": "同作者集中；历史疾病因果需额外核验",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "axRhjqd-rus",
+        "url": "https://www.youtube.com/watch?v=axRhjqd-rus",
+        "title": "中国究竟是如何建成这一切的",
+        "channel": "Johnny Harris / Max Fisher",
+        "decision": "rejected",
+        "reason": "宏大概括需进一步材料核验，不以时效压过证据",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "mnuOZcmoGD8",
+        "url": "https://www.youtube.com/watch?v=mnuOZcmoGD8",
+        "title": "Once You Understand MONEY, You'll Stop Saving It [PART #1]",
+        "channel": "LITTLE BIT BETTER",
+        "decision": "rejected",
+        "reason": "标题作强行为承诺，泛化及理财误导风险惩罚",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "ujkD4SxPKOI",
+        "url": "https://www.youtube.com/watch?v=ujkD4SxPKOI",
+        "title": "AI Just Crossed the Terrifying Line - Now What?",
+        "channel": "Kurzgesagt – In a Nutshell",
+        "decision": "rejected",
+        "reason": "恐惧式标题及AI题材集中，非本期最优",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "EHLI2WZUtXs",
+        "url": "https://www.youtube.com/watch?v=EHLI2WZUtXs",
+        "title": "The ENTIRE History of ROME [No AI]",
+        "channel": "Historically",
+        "decision": "rejected",
+        "reason": "与另一史纲候选近似，长度及证据门槛使其降级",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "mScpHTIi-kM",
+        "url": "https://www.youtube.com/watch?v=mScpHTIi-kM",
+        "title": "Once you understand game theory, you understand the world.",
+        "channel": "Veritasium",
+        "decision": "rejected",
+        "reason": "标题过度概括；制度模型主题已有入选",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "_y9JuojAIg0",
+        "url": "https://www.youtube.com/watch?v=_y9JuojAIg0",
+        "title": "We Finally Know More About Humanity’s First Civilization",
+        "channel": "Kurzgesagt – In a Nutshell",
+        "decision": "rejected",
+        "reason": "古史新结论需专门核查，未完成最终来源审阅",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "HSRmfNDk87s",
+        "url": "https://www.youtube.com/watch?v=HSRmfNDk87s",
+        "title": "Why Runways Have to Be Repainted",
+        "channel": "CGP Grey",
+        "decision": "rejected",
+        "reason": "原页侧栏观察到的具体工程候选，但同作者惩罚",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "I0YRu6EpLFE",
+        "url": "https://www.youtube.com/watch?v=I0YRu6EpLFE",
+        "title": "Rules for Rulers - CGP Grey Reaction",
+        "channel": "Vlogging Through History",
+        "decision": "rejected",
+        "reason": "同一底层作品的反应视频；不作为额外独立作品入选",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "zhQVjly5Gos",
+        "url": "https://www.youtube.com/watch?v=zhQVjly5Gos",
+        "title": "Which Rich Country Goes Bankrupt First?",
+        "channel": "OBF",
+        "decision": "rejected",
+        "reason": "标题强断言，财政结论未独立核验，拒绝",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "l4w6808wJcU",
+        "url": "https://www.youtube.com/watch?v=l4w6808wJcU",
+        "title": "So Many State Flags Failed I Had to Split the F Tier",
+        "channel": "CGP Grey",
+        "decision": "rejected",
+        "reason": "同作者重复且本期已有制度主题",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "Mh5LY4Mz15o",
+        "url": "https://www.youtube.com/watch?v=Mh5LY4Mz15o",
+        "title": "history of japan",
+        "channel": "bill wurtz",
+        "decision": "rejected",
+        "reason": "富趣味但高压缩史纲，暂让位于证据范围更清晰材料",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "lrBRV3WK2x4",
+        "url": "https://www.youtube.com/watch?v=lrBRV3WK2x4",
+        "title": "SOCIALISM: An In-Depth Explanation",
+        "channel": "Ryan Chapman",
+        "decision": "rejected",
+        "reason": "与制度主题集中且长篇需要完整论证审阅",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "ig_qpNfXHIU",
+        "url": "https://www.youtube.com/watch?v=ig_qpNfXHIU",
+        "title": "Every Ruler Makes the Same Mistake When They Die",
+        "channel": "CGP Grey",
+        "decision": "rejected",
+        "reason": "本次入选作品的后续；同作者同主题不占第二席",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "thOifuHs6eY",
+        "url": "https://www.youtube.com/watch?v=thOifuHs6eY",
+        "title": "Circles Waste Space. Hexagons Don't.",
+        "channel": "CGP Grey",
+        "decision": "rejected",
+        "reason": "永久历史已用同ID（旧名Hexagons are the Bestagons），拒绝改名重推",
+        "evidence_scope": "actual_watch_page_sidebar",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "Rskw8-4KlkE",
+        "url": "https://www.youtube.com/watch?v=Rskw8-4KlkE",
+        "title": "[Audio Backup] The Rules for Rulers | CGP Grey",
+        "channel": "Bibliotheca Digitalis Youtube",
+        "decision": "rejected",
+        "reason": "音频备份，同底层作品，拒绝镜像",
+        "evidence_scope": "observed_web_search_or_browser_candidate",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "HysX3_aBI3I",
+        "url": "https://www.youtube.com/watch?v=HysX3_aBI3I",
+        "title": "The Rules for Rulers by CGP Grey",
+        "channel": "AmericansLearn",
+        "decision": "rejected",
+        "reason": "反应/转引同底层作品，拒绝镜像式重复",
+        "evidence_scope": "observed_web_search_or_browser_candidate",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "s8xeBzMLPKM",
+        "url": "https://www.youtube.com/watch?v=s8xeBzMLPKM",
+        "title": "Pop-up Videos | Quick D",
+        "channel": "Captain Disillusion",
+        "decision": "rejected",
+        "reason": "同作者候选；SNL案例章节与竞争解释切口更明确",
+        "evidence_scope": "observed_web_search_or_browser_candidate",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "Cvp5HzqMZok",
+        "url": "https://www.youtube.com/watch?v=Cvp5HzqMZok",
+        "title": "Walking 90km to work changed my life",
+        "channel": "Beau Miles",
+        "decision": "rejected",
+        "reason": "回看同一次步行主题，不能与原片同时入选",
+        "evidence_scope": "observed_web_search_or_browser_candidate",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "ahXIMUkSXX0",
+        "url": "https://www.youtube.com/watch?v=ahXIMUkSXX0",
+        "title": "Doodling in Math: Spirals, Fibonacci, and Being a Plant [1 of 3]",
+        "channel": "Vihart",
+        "decision": "rejected",
+        "reason": "Royal Institution资料观察到链接，但实际原页显示此视频无法再播放，淘汰",
+        "evidence_scope": "observed_web_search_or_browser_candidate",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "video_id": "VIVIegSt81k",
+        "url": "https://www.youtube.com/watch?v=VIVIegSt81k",
+        "title": "Hexaflexagon video (exact current title unverified)",
+        "channel": "Vihart (external attribution only)",
+        "decision": "rejected",
+        "reason": "外部链接候选；原页没有可读取的标题与频道，无法确认身份，淘汰",
+        "evidence_scope": "observed_web_search_or_browser_candidate",
+        "identity_final_verified": false,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      }
+    ],
+    "reddit_candidates": [
+      {
+        "title": "Thought I was asking the seller about the grain direction, but AI answered instead. And what an answer it is.",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1uteq0z/thought_i_was_asking_the_seller_about_the_grain/",
+        "subreddit": "bookbinding",
+        "post_id": "1uteq0z",
+        "source_ref": "turn55reddit12",
+        "observed_metadata": [
+          "Published: 3 months ago",
+          "I was looking for some 75-110 GSM paper for making a bunch of class notebooks on Amazon (yeah, I know, my bad) and wanted to ask the seller the grain direction. ... Anyway, any recommendations for paper that’s perfect for binding class notebooks?"
+        ],
+        "observed_excerpt": "[Saturday July 11 2026] [+366 votes] SHARED URL I was looking for some 75-110 GSM paper for making a bunch of class notebooks on Amazon (yeah, I know, my bad) and wanted to ask the",
+        "query_index": 0,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同纸纹主题只保留追问原理的一个入口；图片/AI客服笑谈不足以替代它",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Wonder what direction the grain is on this paper? 🤣🤣",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1s4k5rj/wonder_what_direction_the_grain_is_on_this_paper/",
+        "subreddit": "bookbinding",
+        "post_id": "1s4k5rj",
+        "source_ref": "turn55reddit13",
+        "observed_metadata": [
+          "Published: 6 months ago",
+          "It’s the most obvious curl for the cut against the grain I’ve seen in my admittedly short bookbinding experience so far.Good thing I was planning on folding it the other direction anyway. ... Though, considering how thin the paper has turned out to be, I might make it some kind of journal instead…."
+        ],
+        "observed_excerpt": "[Thursday March 26 2026] [+33 votes] SHARED URL I’m just joking. It’s the most obvious curl for the cut against the grain I’ve seen in my admittedly short bookbinding experience so",
+        "query_index": 0,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同纸纹主题只保留追问原理的一个入口；图片/AI客服笑谈不足以替代它",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "grain direction",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1rj2sxb/grain_direction/",
+        "subreddit": "bookbinding",
+        "post_id": "1rj2sxb",
+        "source_ref": "turn55reddit14",
+        "observed_metadata": [
+          "Published: 7 months ago",
+          "so in pretty confused about grain direction.so i know most normal A4 printing paper is long grain."
+        ],
+        "observed_excerpt": "[Monday March 02 2026] [+2 votes] so in pretty confused about grain direction.  so i know most normal A4 printing paper is long grain.  so if you pint on that and fold it to A5 is ",
+        "query_index": 0,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同纸纹主题只保留追问原理的一个入口；图片/AI客服笑谈不足以替代它",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Tolerancing When Designing Dimensions for a Product",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/kfxetm",
+        "subreddit": "AskEngineers",
+        "post_id": "kfxetm",
+        "source_ref": "turn57reddit12",
+        "observed_metadata": [
+          "Published: 5.8 years ago",
+          "Crawled: 5.8 years ago"
+        ],
+        "observed_excerpt": "[Saturday December 19 2020] [+21 votes] How do you know how much tolerance to provide different dimensions on a product you are designing?  Any very good sources to study toleranci",
+        "query_index": 1,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同公差主题只保留功能需求切口；移除帖或仅经验数值不足",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "How do you settle on a certain tolerance?",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/si27i1",
+        "subreddit": "AskEngineers",
+        "post_id": "si27i1",
+        "source_ref": "turn57reddit13",
+        "observed_metadata": [
+          "Published: 4.7 years ago",
+          "Crawled: 4.7 years ago"
+        ],
+        "observed_excerpt": "[Tuesday February 01 2022] [+4 votes] Hello all.   I am a technician who recently graduated with a BEng and I am hoping to move into a design role soon. As such I have been learnin",
+        "query_index": 1,
+        "selected": true,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "topic": "尺寸公差与功能要求",
+        "tier": "high_confidence",
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          4
+        ],
+        "decision": "selected",
+        "reason": "明确可观察的提问与可迁移阅读任务；题材与已选条目不同；非评论质量认证；早期同领域主题有相似性，施加多样性惩罚；非最近三天主题且不是相同帖子",
+        "weighted_score": 4.4,
+        "recorded_at_utc": "2026-10-16T00:43:07Z",
+        "recent_similarity_penalty": 0.2
+      },
+      {
+        "title": "[Removed]",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/1su0jrr/removed/",
+        "subreddit": "AskEngineers",
+        "post_id": "1su0jrr",
+        "source_ref": "turn57reddit14",
+        "observed_metadata": [
+          "Published: 5 months ago",
+          "Your post to AskEngineers was automatically removed for the following reason: ... If your post doesn't go through on the second try, [**message us**](URL bending tolerances) for help."
+        ],
+        "observed_excerpt": "[Friday April 24 2026] [+0 votes] [Removed]  [Friday April 24 2026] [+1 votes] Your post to AskEngineers was automatically removed for the following reason: > ### The title of your",
+        "query_index": 1,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          2,
+          2,
+          3,
+          3,
+          2
+        ],
+        "decision": "rejected",
+        "reason": "同公差主题只保留功能需求切口；移除帖或仅经验数值不足",
+        "weighted_score": 2.35,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "How were hours calculated prior to the widespread use of clocks?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1u2qmjn/how_were_hours_calculated_prior_to_the_widespread/",
+        "subreddit": "AskHistorians",
+        "post_id": "1u2qmjn",
+        "source_ref": "turn56reddit12",
+        "observed_metadata": [
+          "Published: 4 months ago",
+          "Or am I just guesstimating it, like, “Eh, it’s been a while since noon but it’s not sunset yet, so I guess it’s time to ring the bells for None”?(I’m also cool with answers earlier than the medieval era or non-Christian contexts, I just happen to know the Catholic canonical hours) ... Welcome to /r/AskHistorians.**Please Read Our Rules before you comment in this community**."
+        ],
+        "observed_excerpt": "[Thursday June 11 2026] [+0 votes] So, I know that some liturgical hours were based on relative times (Lauds was “whenever sunrise is,” Vespers was “whenever sunset is,” etc.), but",
+        "query_index": 2,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同计时史主题只保留校准问题，避免用宽泛年代概括替代史料",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "The history of the clock?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1v8l5d3/the_history_of_the_clock/",
+        "subreddit": "AskHistorians",
+        "post_id": "1v8l5d3",
+        "source_ref": "turn56reddit13",
+        "observed_metadata": [
+          "Published: 2 months ago",
+          "I was just watching a doc on Hampton court and they mentioned the clock that Henry 8 installed that still works today.And that made me think, how did clocks first come about? ... Welcome to /r/AskHistorians.**Please Read Our Rules before you comment in this community**. ... #Please consider **Clicking Here for RemindMeBot** as it takes time for an answer to be written."
+        ],
+        "observed_excerpt": "[Tuesday July 28 2026] [+2 votes] I was just watching a doc on Hampton court and they mentioned the clock that Henry 8 installed that still works today. And that made me think, how",
+        "query_index": 2,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同计时史主题只保留校准问题，避免用宽泛年代概括替代史料",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "How did ordinary people in medieval Europe keep track of time before mechanical clocks became widespread?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1n32vpq",
+        "subreddit": "AskHistorians",
+        "post_id": "1n32vpq",
+        "source_ref": "turn56reddit14",
+        "observed_metadata": [
+          "Published: 1.1 years ago",
+          "Crawled: 1.1 years ago"
+        ],
+        "observed_excerpt": "[Friday August 29 2025] [+7 votes] I’ve read that mechanical clocks didn’t become common until the later Middle Ages. Before that, how did regular people (farmers, merchants, etc.)",
+        "query_index": 2,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同计时史主题只保留校准问题，避免用宽泛年代概括替代史料",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Guys I made caramalized onions and it went horrible",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/1u79rd6/guys_i_made_caramalized_onions_and_it_went/",
+        "subreddit": "AskCulinary",
+        "post_id": "1u79rd6",
+        "source_ref": "turn59reddit12",
+        "observed_metadata": [
+          "Published: 4 months ago",
+          "I attempted to make caramalized onions after I had come across it a few times on the internet. ... I made them and they had an indescribable oniony bitterness and offputting taste. ... The recipe had seemed simple so I tried making it for filling for my sandwiches. ... Added water to wrinkle onions a little and closing the lid for 10 mins."
+        ],
+        "observed_excerpt": "[Tuesday June 16 2026] [+106 votes] I attempted to make caramalized onions after I had come across it a few times on the internet. I've never actually had caramalized onions so nev",
+        "query_index": 3,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同洋葱主题只保留明确对照条件的提问，排除重复烹饪故障",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Why do my caramelized onions have so much liquid?",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/rb9bnm",
+        "subreddit": "AskCulinary",
+        "post_id": "rb9bnm",
+        "source_ref": "turn59reddit13",
+        "observed_metadata": [
+          "Published: 4.9 years ago",
+          "Crawled: 2.2 years ago"
+        ],
+        "observed_excerpt": "[Tuesday December 07 2021] [+165 votes] It’s my first attempt at French onion soup. Recipe calls for 5lbs onion, 1tbsp sugar, 2 tbsp butter, 1/4tsp baking soda and 2 tsp kosher sal",
+        "query_index": 3,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同洋葱主题只保留明确对照条件的提问，排除重复烹饪故障",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Sweating onions vs not sweating onions when caramelizing",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/113zwvc",
+        "subreddit": "AskCulinary",
+        "post_id": "113zwvc",
+        "source_ref": "turn59reddit14",
+        "observed_metadata": [
+          "Published: 3.7 years ago",
+          "Crawled: 1.8 years ago"
+        ],
+        "observed_excerpt": "[Thursday February 16 2023] [+22 votes] When caramelizing onions, I always just put a little oil and butter in and did the low and slow cook down.  Results were always flavorful an",
+        "query_index": 3,
+        "selected": true,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "topic": "洋葱烹饪的对照实验",
+        "tier": "high_confidence",
+        "scores": [
+          4,
+          4,
+          5,
+          5,
+          4
+        ],
+        "decision": "selected",
+        "reason": "明确可观察的提问与可迁移阅读任务；题材与已选条目不同；非评论质量认证",
+        "weighted_score": 4.35,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Is limited communication mechanic necessary for a co-op game to work?",
+        "url": "https://www.reddit.com/r/boardgames/comments/1wudbra/is_limited_communication_mechanic_necessary_for_a/",
+        "subreddit": "boardgames",
+        "post_id": "1wudbra",
+        "source_ref": "turn58reddit12",
+        "observed_metadata": [
+          "Published: 2 weeks ago",
+          "Games with limited communication, however, leave every player with the lack of knowledge required to beat the game, thus making every player's choice crucial for the whole group (e.g. ... Personally, I think Spirit Island does a good job of handling co-op without limiting communication, it just has enough going on that quarterbacking becomes harder."
+        ],
+        "observed_excerpt": "[Wednesday September 30 2026] [+21 votes] Most of the co-op games can be played solo or handled by the most experienced player in the group (e.g. Pandemic, Eldritch horror, etc).  ",
+        "query_index": 4,
+        "selected": true,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "topic": "合作桌游与玩家能动性",
+        "tier": "wildcard",
+        "scores": [
+          4,
+          4,
+          5,
+          5,
+          4
+        ],
+        "decision": "selected",
+        "reason": "明确可观察的提问与可迁移阅读任务；题材与已选条目不同；非评论质量认证",
+        "weighted_score": 4.35,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "How to Play Cooperatively and Maintain Agency",
+        "url": "https://www.reddit.com/r/boardgames/comments/1x0lr0l/how_to_play_cooperatively_and_maintain_agency/",
+        "subreddit": "boardgames",
+        "post_id": "1x0lr0l",
+        "source_ref": "turn58reddit13",
+        "observed_metadata": [
+          "Published: last week",
+          "Our group has played cooperative games only a very few times. ... Not one player quarterbacking, let that be clear, just us as a whole group were quarterbacking the player playing next (while also getting their input)."
+        ],
+        "observed_excerpt": "[Thursday October 08 2026] [+18 votes] The question is in the title. Our group has played cooperative games only a very few times. My wife and I have also played very few cooperati",
+        "query_index": 4,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同合作桌游主题只保留机制问题，其他为相近体验或求推荐",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Cooperative boardgames: let me play!",
+        "url": "https://www.reddit.com/r/boardgames/comments/1q4exih/cooperative_boardgames_let_me_play/",
+        "subreddit": "boardgames",
+        "post_id": "1q4exih",
+        "source_ref": "turn58reddit14",
+        "observed_metadata": [
+          "Published: 9 months ago",
+          "But what I hated, is something I felt a few times playing co-op games: one or two players will take over the strategy, develop an optimal plan for the next 3 or 4 turns, and therefore remove all the thinking (and the fun) for others. ... I always think that the right boardgame should be played at the right time, with the right people, so that everyone is having fun. ... This is the phenomenon called quarterbacking which is a player issue but also can be considered how much a game allows you to quarterback."
+        ],
+        "observed_excerpt": "[Monday January 05 2026] [+183 votes] Played a game of Horrified with family and friends. Didn't really like the game, I think some of its mechanics are flawed. But what I hated, i",
+        "query_index": 4,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同合作桌游主题只保留机制问题，其他为相近体验或求推荐",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Request (I Hope This Allowed): Looking for jokes that “don’t survive translation” into English from Hindi, Mexican Spanish, Mandarin, Ukrainian, Swedish, Kenyan languages, and Rioplatense Spanish (research project on cross‑linguistic humor)",
+        "url": "https://www.reddit.com/r/linguisticshumor/comments/1t6fwc4/request_i_hope_this_allowed_looking_for_jokes/",
+        "subreddit": "linguisticshumor",
+        "post_id": "1t6fwc4",
+        "source_ref": "turn60reddit12",
+        "observed_metadata": [
+          "Published: 5 months ago",
+          "Hi all — I’m working on a project about cross‑linguistic communication and why certain kinds of humor don’t survive translation. ... \\- Any Kenyan language (e.g., Swahili, Kikuyu, Luo, etc.) ... Are genuinely funny in the original language, ... But lose their humor when translated literally into English,"
+        ],
+        "observed_excerpt": "[Thursday May 07 2026] [+52 votes] Hi all — I’m working on a project about cross‑linguistic communication and why certain kinds of humor don’t survive translation. I’m looking for ",
+        "query_index": 5,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "双关/翻译搜索的笑话、删帖或笼统例子不及清晰的语言分析问题",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Is there any language in which the concept of a pun or \"play on words\" doesn't exist?",
+        "url": "https://www.reddit.com/r/languagelearning/comments/ech7k8",
+        "subreddit": "languagelearning",
+        "post_id": "ech7k8",
+        "source_ref": "turn60reddit13",
+        "observed_metadata": [
+          "Published: 6.8 years ago",
+          "Crawled: 6.8 years ago"
+        ],
+        "observed_excerpt": "[Wednesday December 18 2019] [+6 votes] Random shower thought today. If so, there would be an entire side of comedy that wouldn't exist for its speakers.  [Wednesday December 18 20",
+        "query_index": 5,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "双关/翻译搜索的笑话、删帖或笼统例子不及清晰的语言分析问题",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Navigating Joke Translations: Humor's Cross-Cultural Challenge*",
+        "url": "https://www.reddit.com/r/TranslationStudies/comments/15n9wgh",
+        "subreddit": "TranslationStudies",
+        "post_id": "15n9wgh",
+        "source_ref": "turn60reddit14",
+        "observed_metadata": [
+          "Published: 3.2 years ago",
+          "Crawled: 3.2 years ago"
+        ],
+        "observed_excerpt": "[Thursday August 10 2023] [+4 votes] Hey Reddit,  Let's explore the fascinating world of translating jokes, where laughter doesn't always travel seamlessly between languages. Here'",
+        "query_index": 5,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "双关/翻译搜索的笑话、删帖或笼统例子不及清晰的语言分析问题",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Table reads",
+        "url": "https://www.reddit.com/r/Screenwriting/comments/1tjwd19/table_reads/",
+        "subreddit": "Screenwriting",
+        "post_id": "1tjwd19",
+        "source_ref": "turn61reddit12",
+        "observed_metadata": [
+          "Published: 4 months ago",
+          "*My question*: Have you ever found a table read (local actors, on your own dime) to be helpful to you in what your actual screen time might look like, and if the page count doesn’t accurately represent it (in either direction), is that something you want to share with a reader etc.? ... *AS OF TIMED READING* and that is the reading of a scene or an act or an entire screenplay - i usually do it myself, in the presence of someone who can track time. that's it. at the moment it's only you who knows how it should flow, so read while imagining people actually doing it or doing it yourself. observer will tell you if you rushed, so do it again if it was so. and remember: dialog eats up space on the page, action eats up actual screen time."
+        ],
+        "observed_excerpt": "[Thursday May 21 2026] [+5 votes] Yesterday there was a question about the 1 page = 1 min rule (which I was taught 30+ yrs ago and doesn’t seem to be true anymore). I am currently ",
+        "query_index": 6,
+        "selected": true,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "topic": "剧本朗读与银幕时间",
+        "tier": "adjacent",
+        "scores": [
+          4,
+          4,
+          5,
+          5,
+          4
+        ],
+        "decision": "selected",
+        "reason": "明确可观察的提问与可迁移阅读任务；题材与已选条目不同；非评论质量认证",
+        "weighted_score": 4.35,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Finding a Table Read",
+        "url": "https://www.reddit.com/r/Screenwriting/comments/1rksaqy/finding_a_table_read/",
+        "subreddit": "Screenwriting",
+        "post_id": "1rksaqy",
+        "source_ref": "turn61reddit13",
+        "observed_metadata": [
+          "Published: 7 months ago",
+          "I’m a screenwriter based in the NJ/NY area and I’m moving forward with self-producing a scripted narrative podcast. ... Part of the reason I want to do a table read is to hear how the dialogue actually plays and make improvements before committing financially."
+        ],
+        "observed_excerpt": "[Wednesday March 04 2026] [+4 votes] Hi everyone  I’m a screenwriter based in the NJ/NY area and I’m moving forward with self-producing a scripted narrative podcast. Before I start",
+        "query_index": 6,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同围读主题只保留朗读与片长的测量边界，招募和一般体验不选",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Did my first ever table read!",
+        "url": "https://www.reddit.com/r/Screenwriting/comments/1fw7w8s",
+        "subreddit": "Screenwriting",
+        "post_id": "1fw7w8s",
+        "source_ref": "turn61reddit14",
+        "observed_metadata": [
+          "Published: 2.0 years ago",
+          "Crawled: 1.7 years ago"
+        ],
+        "observed_excerpt": "[Friday October 04 2024] [+106 votes] Last night I got together with my roommates and did a table read of my script for the first time! It was incredibly exciting hearing the scrip",
+        "query_index": 6,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同围读主题只保留朗读与片长的测量边界，招募和一般体验不选",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Ocean Color",
+        "url": "https://www.reddit.com/r/AskForAnswers/comments/1rm0dhh/ocean_color/",
+        "subreddit": "AskForAnswers",
+        "post_id": "1rm0dhh",
+        "source_ref": "turn69reddit12",
+        "observed_metadata": [
+          "Published: 7 months ago",
+          "The Ocean Is Blue Because Water Absorbs Color in The Red Part of The Light Spectrum (Like a Filter) and Leaves Behind The Colors From The Blue Spectrum for Us To See."
+        ],
+        "observed_excerpt": "[Friday March 06 2026] [+4 votes] The Ocean Is Blue Because Water Absorbs Color in The Red Part of The Light Spectrum (Like a Filter) and Leaves Behind The Colors From The Blue Spe",
+        "query_index": 7,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "检索出现讽刺社区、泛化或未经证实的科学断言，不选",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Colour of non-water oceans on another planet?",
+        "url": "https://www.reddit.com/r/AskScienceDiscussion/comments/s4cse3",
+        "subreddit": "AskScienceDiscussion",
+        "post_id": "s4cse3",
+        "source_ref": "turn69reddit13",
+        "observed_metadata": [
+          "Published: 4.8 years ago",
+          "Crawled: 4.5 years ago"
+        ],
+        "observed_excerpt": "[Saturday January 15 2022] [+6 votes] Hi,  My understanding is this question should go here since r/askscience doesn't allow hypotheticals, if this is inappropriate for this sub to",
+        "query_index": 7,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "检索出现讽刺社区、泛化或未经证实的科学断言，不选",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "What makes the sea's color change?",
+        "url": "https://www.reddit.com/r/shittyaskscience/comments/bjgghl/what_makes_the_seas_color_change/",
+        "subreddit": "shittyaskscience",
+        "post_id": "bjgghl",
+        "source_ref": "turn69reddit14",
+        "observed_metadata": [
+          "Published: 7.5 years ago",
+          "It's actually the fallout from the nuclear attacks in Hiroshima and Nagasaki, that contaminate the water, turning the fish a lighter blue."
+        ],
+        "observed_excerpt": "[Wednesday May 01 2019] [+2567 votes] SHARED URL  [Wednesday May 01 2019] [+597 votes] It's actually the fallout from the nuclear attacks in Hiroshima and Nagasaki, that contaminat",
+        "query_index": 7,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "检索出现讽刺社区、泛化或未经证实的科学断言，不选",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Focal length effects",
+        "url": "https://www.reddit.com/r/photography/comments/1s3lt87/focal_length_effects/",
+        "subreddit": "photography",
+        "post_id": "1s3lt87",
+        "source_ref": "turn68reddit12",
+        "observed_metadata": [
+          "Published: 6 months ago",
+          "If you take a photo with a 50mm lens and crop it to give the same field of view as an 85mm, the image would be identical. ... There's a misconception out there that focal length changes perspective distortion, but actually perspective distortion is a function of distance."
+        ],
+        "observed_excerpt": "[Wednesday March 25 2026] [+3 votes] Something I've been trying to understand for a while now. What does focal length actually do?  Of course, I understand the narrower field of vi",
+        "query_index": 8,
+        "selected": true,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "topic": "摄影中的控制变量",
+        "tier": "adjacent",
+        "scores": [
+          4,
+          4,
+          5,
+          5,
+          4
+        ],
+        "decision": "selected",
+        "reason": "明确可观察的提问与可迁移阅读任务；题材与已选条目不同；非评论质量认证",
+        "weighted_score": 4.35,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Effects of Lens Focal Length visualized",
+        "url": "https://www.reddit.com/r/photography/comments/shj5x6",
+        "subreddit": "photography",
+        "post_id": "shj5x6",
+        "source_ref": "turn68reddit13",
+        "observed_metadata": [
+          "Published: 4.7 years ago",
+          "Crawled: 3.0 years ago"
+        ],
+        "observed_excerpt": "[Tuesday February 01 2022] [+550 votes] ​  Image: gif  \\-\"Compression effect\" happens because light rays get more parallel with higher Focal Length. This is not happening because o",
+        "query_index": 8,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同摄影主题只保留明确固定位置的思想实验；图片和购买意图降级",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Perspective with different focal lenght. What is the technical term?",
+        "url": "https://www.reddit.com/r/photography/comments/1f1jqpk",
+        "subreddit": "photography",
+        "post_id": "1f1jqpk",
+        "source_ref": "turn68reddit14",
+        "observed_metadata": [
+          "Published: 2.1 years ago",
+          "Crawled: 2.1 years ago"
+        ],
+        "observed_excerpt": "[Monday August 26 2024] [+2 votes] I probably got it wrong with that title but i am looking for a specific term for a topic i wanna learn. A while ago i saw a Video about someone w",
+        "query_index": 8,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同摄影主题只保留明确固定位置的思想实验；图片和购买意图降级",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "What limit, if one exists at all, is there on the orthographic opaqueness of the writing systems of natural languages?",
+        "url": "https://www.reddit.com/r/linguistics/comments/uw9lnh",
+        "subreddit": "linguistics",
+        "post_id": "uw9lnh",
+        "source_ref": "turn67reddit12",
+        "observed_metadata": [
+          "Published: 4.4 years ago",
+          "Crawled: 4.2 years ago"
+        ],
+        "observed_excerpt": "[Monday May 23 2022] [+50 votes] The Chinese writing system is frequently held up as a supposed example of a writing system that is totally opaque, but while it's far less transpar",
+        "query_index": 9,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "语言主题只留语义与语用边界，避免与今日汉字视频过近",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "How do linguists distinguish ambiguity in language from differences in how people construct meaning?",
+        "url": "https://www.reddit.com/r/asklinguistics/comments/1x4iykn/how_do_linguists_distinguish_ambiguity_in/",
+        "subreddit": "asklinguistics",
+        "post_id": "1x4iykn",
+        "source_ref": "turn67reddit13",
+        "observed_metadata": [
+          "Published: 2 days ago",
+          "What interests me is where the ambiguity in the language ends and the reader's own interpretation begins. ... I'm curious how linguistics approaches the distinction between what a message explicitly communicates and what someone infers based on context, expectations, and their own way of processing information."
+        ],
+        "observed_excerpt": "[Tuesday October 13 2026] [+6 votes] I've been looking into why people can read the same written message and come away with quite different interpretations, particularly where the ",
+        "query_index": 9,
+        "selected": true,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "topic": "语义歧义与语用推断",
+        "tier": "adjacent",
+        "scores": [
+          4,
+          4,
+          5,
+          5,
+          4
+        ],
+        "decision": "selected",
+        "reason": "明确可观察的提问与可迁移阅读任务；题材与已选条目不同；非评论质量认证",
+        "weighted_score": 4.35,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Is there such thing as a \"bad\" writing system for a language and how do you recognise it?",
+        "url": "https://www.reddit.com/r/linguistics/comments/jcwlaf",
+        "subreddit": "linguistics",
+        "post_id": "jcwlaf",
+        "source_ref": "turn67reddit14",
+        "observed_metadata": [
+          "Published: 6.0 years ago",
+          "Crawled: 5.8 years ago"
+        ],
+        "observed_excerpt": "[Saturday October 17 2020] [+247 votes] As a teen I used to say \"that's a really bad writing system for that language\"  to things like the latin alphabet for English/Greenlandic or",
+        "query_index": 9,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "语言主题只留语义与语用边界，避免与今日汉字视频过近",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Based on your experience, is bitrot real or just very rare?",
+        "url": "https://www.reddit.com/r/DataHoarder/comments/1la86pe/based_on_your_experience_is_bitrot_real_or_just/",
+        "subreddit": "DataHoarder",
+        "post_id": "1la86pe",
+        "source_ref": "turn72reddit12",
+        "observed_metadata": [
+          "Published: 1.3 years ago",
+          "Is bit rot a real concern for data stored on 24/7 spinning hard drives, as well as for data on external hard drives kept on shelves for years? ...   Yep, just pulled a 6TB backup drive that had 93,000 check sum errors on a ZFS scrub."
+        ],
+        "observed_excerpt": "[Friday June 13 2025] [+93 votes] Is bit rot a real concern for data stored on 24/7 spinning hard drives, as well as for data on external hard drives kept on shelves for years?  [F",
+        "query_index": 10,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同备份主题优先延迟发现问题；单纯bitrot经历不能证明频率",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Have you ever experienced bit rot?",
+        "url": "https://www.reddit.com/r/DataHoarder/comments/1o9q9h4/have_you_ever_experienced_bit_rot/",
+        "subreddit": "DataHoarder",
+        "post_id": "1o9q9h4",
+        "source_ref": "turn72reddit13",
+        "observed_metadata": [
+          "Published: last year",
+          "I was copying some files from a backup drive yesterday and after copying when I tried to open them, some of the files were corrupted.I am assuming bit rot because the drive heath is at 100%."
+        ],
+        "observed_excerpt": "[Saturday October 18 2025] [+87 votes] I was copying some files from a backup drive yesterday and after copying when I tried to open them, some of the files were corrupted. I am as",
+        "query_index": 10,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同备份主题优先延迟发现问题；单纯bitrot经历不能证明频率",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "How do you handle backups when you don't know when a file got corrupted?",
+        "url": "https://www.reddit.com/r/DataHoarder/comments/1w8rm2u/how_do_you_handle_backups_when_you_dont_know_when/",
+        "subreddit": "DataHoarder",
+        "post_id": "1w8rm2u",
+        "source_ref": "turn72reddit14",
+        "observed_metadata": [
+          "Published: last month",
+          "Since the backup sees the corrupted file as the current version, it copies it to the backup and **replaces the previously healthy copy**. ... I'm using Duplicati at the moment, and this has made me wonder how people deal with long-term file integrity for data they rarely access."
+        ],
+        "observed_excerpt": "[Sunday September 06 2026] [+34 votes] How do you guys handle this kind of backup problem?  Say I have a file that I rarely use. At some point, it gets corrupted, but I don't notic",
+        "query_index": 10,
+        "selected": true,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "topic": "备份与延迟发现损坏",
+        "tier": "high_confidence",
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          4
+        ],
+        "decision": "selected",
+        "reason": "明确可观察的提问与可迁移阅读任务；题材与已选条目不同；非评论质量认证；早期同领域主题有相似性，施加多样性惩罚；非最近三天主题且不是相同帖子",
+        "weighted_score": 4.4,
+        "recorded_at_utc": "2026-10-16T00:43:07Z",
+        "recent_similarity_penalty": 0.2
+      },
+      {
+        "title": "Do geothermal power plants have any significant effect on the underground temperature in an area? Can a geothermal field be “used up”",
+        "url": "https://www.reddit.com/r/askscience/comments/zzm2qq",
+        "subreddit": "askscience",
+        "post_id": "zzm2qq",
+        "source_ref": "turn73reddit12",
+        "observed_metadata": [
+          "Published: 3.8 years ago",
+          "Crawled: 3.6 years ago"
+        ],
+        "observed_excerpt": "[Saturday December 31 2022] [+51 votes] Do geothermal plants have any significant long-term effect on the temperature of the rocks they draw heat from? Would a heavily used area of",
+        "query_index": 11,
+        "selected": true,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "topic": "地热储层与持续性",
+        "tier": "high_confidence",
+        "scores": [
+          4,
+          4,
+          5,
+          5,
+          4
+        ],
+        "decision": "selected",
+        "reason": "明确可观察的提问与可迁移阅读任务；题材与已选条目不同；非评论质量认证",
+        "weighted_score": 4.35,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Why isnt geothermal energy not widely used?",
+        "url": "https://www.reddit.com/r/askscience/comments/p0cwsx",
+        "subreddit": "askscience",
+        "post_id": "p0cwsx",
+        "source_ref": "turn73reddit13",
+        "observed_metadata": [
+          "Published: 5.2 years ago",
+          "Crawled: 4.7 years ago"
+        ],
+        "observed_excerpt": "[Sunday August 08 2021] [+2681 votes] Since it can do the same thing nuclear reactors do and its basically free and has more energy potential why is it so under utilized?  [Sunday ",
+        "query_index": 11,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同地热主题优先局部持续性问题，不以全球热量或未经审核数字充当答案",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "Do Geothermal power plants need to be built in geologically active areas, or can you build them anywhere if you dig deep enough?",
+        "url": "https://www.reddit.com/r/askscience/comments/nwl00r",
+        "subreddit": "askscience",
+        "post_id": "nwl00r",
+        "source_ref": "turn73reddit14",
+        "observed_metadata": [
+          "Published: 5.4 years ago",
+          "Crawled: 4.9 years ago"
+        ],
+        "observed_excerpt": "[Thursday June 10 2021] [+4256 votes]   [Thursday June 10 2021] [+1714 votes] Ideal locations for geothermal power are those where you can easily reach the target temperatures (50 ",
+        "query_index": 11,
+        "selected": false,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "scores": [
+          3,
+          3,
+          4,
+          3,
+          3
+        ],
+        "decision": "rejected",
+        "reason": "同地热主题优先局部持续性问题，不以全球热量或未经审核数字充当答案",
+        "weighted_score": 3.2,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "how important is grain direction?",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1q3a0zx/how_important_is_grain_direction/",
+        "subreddit": "bookbinding",
+        "post_id": "1q3a0zx",
+        "source_ref": "turn55reddit18",
+        "observed_metadata": [
+          "Published: 9 months ago",
+          "Hi, ive been doing some 'bookbinding' projects (don't know if they really count since theyre both just hardcover cases), but I also tried making a paperback  double fan booklet with some leftover supplies, and it didn't necessarily turn out great. but what i'm asking is that, because i heard DAS frequently talk about the grain of the text bllock, bookboard, etc, what does it really prevent from happening, in hardcovers and paperbacks? ... In perfect binding and textblocks in general, going the wrong grain direction gives a very noticeable feel difference when opening up the book."
+        ],
+        "observed_excerpt": "[Saturday January 03 2026] [+18 votes] Hi, ive been doing some 'bookbinding' projects (don't know if they really count since theyre both just hardcover cases), but I also tried mak",
+        "query_index": 0,
+        "selected": true,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "topic": "装帧材料与纸纹",
+        "tier": "wildcard",
+        "scores": [
+          4,
+          4,
+          5,
+          5,
+          4
+        ],
+        "decision": "selected",
+        "reason": "明确可观察的提问与可迁移阅读任务；题材与已选条目不同；非评论质量认证",
+        "weighted_score": 4.35,
+        "recorded_at_utc": "2026-10-16T00:43:07Z"
+      },
+      {
+        "title": "How were clocks set in the middle ages?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/n8fvmz",
+        "subreddit": "AskHistorians",
+        "post_id": "n8fvmz",
+        "source_ref": "turn56reddit15",
+        "observed_metadata": [
+          "Published: 5.4 years ago",
+          "Crawled: 5.4 years ago"
+        ],
+        "observed_excerpt": "[Sunday May 09 2021] [+6 votes] Wikipedia states that by the eleventh century clocks were regularly encountered in towns. But watches were developed much later.  How did they make ",
+        "query_index": 2,
+        "selected": true,
+        "original_post_verification": "not_performed_user_waived",
+        "date_evidence": "search_display_only_not_original_page",
+        "quality_scope": "question_and_accessible_search_information; comments_unverified_user_waived",
+        "topic": "公共计时与校准史",
+        "tier": "high_confidence",
+        "scores": [
+          4,
+          4,
+          5,
+          5,
+          4
+        ],
+        "decision": "selected",
+        "reason": "明确可观察的提问与可迁移阅读任务；题材与已选条目不同；非评论质量认证；早期同领域主题有相似性，施加多样性惩罚；非最近三天主题且不是相同帖子",
+        "weighted_score": 4.15,
+        "recorded_at_utc": "2026-10-16T00:43:07Z",
+        "recent_similarity_penalty": 0.2
+      }
+    ],
+    "candidate_counts": {
+      "youtube": 29,
+      "reddit": 38
+    },
+    "diversity": {
+      "youtube": {
+        "high_confidence": 3,
+        "adjacent": 1,
+        "wildcard": 1,
+        "max_narrow_topic_fraction": 0.2,
+        "unique_creators": 5,
+        "last_7_days_creator_repeats": 0,
+        "rounding": "5 slots: closest feasible 60/20/20"
+      },
+      "reddit": {
+        "high_confidence": 5,
+        "adjacent": 3,
+        "wildcard": 2,
+        "max_narrow_topic_fraction": 0.1,
+        "unique_subreddits": 10
+      }
+    },
+    "source_scope": {
+      "youtube": "all five actual watch pages title/channel and expanded description; no complete playback claim",
+      "reddit": "original_post_verification: not_performed_user_waived for all ten; search-observed identities and dates only",
+      "news": "TSMC official full announcement; Reuters Breeden full report and BoE event schedule; WHO full release",
+      "supplemental": "Borg 1.2.8 check docs and US DOE geothermal overview read directly"
+    },
+    "news_sources": [
+      {
+        "url": "https://pr.tsmc.com/chinese/news/3346",
+        "source_ref": "turn53view0",
+        "event_date": "2026-10-15",
+        "scope": "official full results/forward-looking guidance, no stock prediction"
+      },
+      {
+        "url": "https://www.reuters.com/legal/litigation/banks-need-bare-metal-recovery-face-ai-risks-says-boes-breeden-2026-10-15/",
+        "source_ref": "turn70view2",
+        "event_date": "2026-10-15",
+        "scope": "full original reporting read"
+      },
+      {
+        "url": "https://www.bankofengland.co.uk/events/upcoming-events?trk=public_post_comment-text",
+        "source_ref": "turn76view1",
+        "scope": "official schedule confirms event, not speech transcript"
+      },
+      {
+        "url": "https://www.who.int/news/item/12-10-2026-who-pandemic-hub-sets-ambitious-goal-to-detect-new-outbreaks-within-24-hours",
+        "source_ref": "turn76view2",
+        "event_date": "2026-10-12",
+        "scope": "official full release; future goal not accomplishment"
+      }
+    ],
+    "normalized_title_review": [
+      {
+        "selected": "OkmNXy7er84",
+        "nearest_prior_titles": [
+          [
+            0.5,
+            "The Hairy Ball Theorem",
+            "3Blue1Brown",
+            "BHdbsHFs2P0"
+          ],
+          [
+            0.466,
+            "The Craziest Experiment Humans Have Ever Built",
+            "Cleo Abram",
+            "kr3iXUcNt2g"
+          ],
+          [
+            0.462,
+            "The Map of Mathematics",
+            "Domain of Science",
+            "OmJ-4B-mS-Y"
+          ]
+        ]
+      },
+      {
+        "selected": "2yCjO-wRxyM",
+        "nearest_prior_titles": [
+          [
+            0.4,
+            "Van Gogh's Ugliest Masterpiece",
+            "Nerdwriter",
+            "nKNAZr0QJzs"
+          ],
+          [
+            0.377,
+            "Disney Channel's Theme: A History Mystery",
+            "Defunctland",
+            "b_rjBWmc1iQ"
+          ],
+          [
+            0.345,
+            "Is This Earth’s Most Important Climate Mystery?",
+            "PBS Terra",
+            "dkJuKLrxQ4c"
+          ]
+        ]
+      },
+      {
+        "selected": "rStL7niR7gs",
+        "nearest_prior_titles": [
+          [
+            0.444,
+            "The Hairy Ball Theorem",
+            "3Blue1Brown",
+            "BHdbsHFs2P0"
+          ],
+          [
+            0.388,
+            "What Latin Sounded Like - and how we know",
+            "NativLang",
+            "_enn7NIo-S0"
+          ],
+          [
+            0.375,
+            "Atomic Layer Deposition of copper - If you like sputtering, you'll love this!",
+            "Applied Science",
+            "ih_D6OLzqo4"
+          ]
+        ]
+      },
+      {
+        "selected": "CF3MRMBjd20",
+        "nearest_prior_titles": [
+          [
+            0.436,
+            "The History of Wii Sports World Records",
+            "Summoning Salt",
+            "NscWoJVrEfw"
+          ],
+          [
+            0.411,
+            "Music Theory and White Supremacy",
+            "Adam Neely",
+            "Kr3quGh7pJA"
+          ],
+          [
+            0.405,
+            "history of the entire world, i guess",
+            "bill wurtz",
+            "xuCn8ux2gbs"
+          ]
+        ]
+      },
+      {
+        "selected": "R-Zyud8xh2c",
+        "nearest_prior_titles": [
+          [
+            0.474,
+            "How semiconductors work",
+            "Ben Eater",
+            "33vbFFFn04k"
+          ],
+          [
+            0.462,
+            "How does a transistor work?",
+            "CuriosaMente",
+            "ljSdrYmdF44"
+          ],
+          [
+            0.421,
+            "Making transparent wood",
+            "NileRed",
+            "uUU3jW7Y9Ak"
+          ]
+        ]
+      }
+    ],
+    "same_work_manual_review": "Five different works: Putnam A6, SNL anomaly, Rules for Rulers original, kanji layers, 90km commute. No overlaps with earlier known works; Grey retitled original is one work. Beau commute is distinct from permanent A Mile an Hour. Reaction/audio backups excluded; retrospective commute not doubled.",
+    "historical_backlog": "Prior source/format findings remain unchanged. Structural checks do not certify historical live sources; original history contains legacy pre-policy repeated YouTube IDs retained verbatim.",
+    "local_checks": {
+      "youtube_strict_ids_checked": 160,
+      "reddit_strict_ids_checked": 320,
+      "journal": {
+        "status": "passed_immutable_publication_bundles",
+        "bundles": 4,
+        "base_ref": null,
+        "content_qa": "not_evaluated"
+      },
+      "bundle_freeze_verify_baselines": "passed",
+      "current_counts_order_dates_AUTO_waiver_checkboxes": "passed"
+    },
+    "errors": [
+      {
+        "kind": "source_unavailable",
+        "resource": "youtube:ahXIMUkSXX0",
+        "observation": "actual browser displayed video no longer playable",
+        "action": "candidate rejected"
+      },
+      {
+        "kind": "source_unverified",
+        "resource": "youtube:VIVIegSt81k",
+        "observation": "no readable current identity in actual browser",
+        "action": "candidate rejected"
+      },
+      {
+        "kind": "research_transport",
+        "resource": "Reuters TSMC and CNA direct open",
+        "observation": "web research tool returned inaccessible/internal error, no HTTP status disclosed",
+        "action": "TSMC full official announcement remains primary; CNA search corroboration labelled partial, no false full-read claim"
+      }
+    ],
+    "bundle_sha256": "73643a0897bd7acbff4943bfdbf4f7433c8f7c5451227efdfebfc4ae9bb68449",
+    "plan_sha256": "4368952490923c9336e172c25a65b0e51176ac9f195815ffd10d87c71aacfdd2",
+    "evidence_timestamp_scope": "Exact browser observation timestamps retained for five final videos. Search candidate per-result times were not individually captured; recorded_at_utc is evidence assembly time, not an invented original observation time.",
+    "reddit_semantic_review": "Ten different questions within current list. Historical tolerance and clock-calibration topics noted (Oct 2 / Oct 6) with penalties, not falsely described as never-covered fields. Exact post IDs permanently fresh. No current-list semantic duplicate."
+  },
+  "ci": {
+    "id": 38831228302,
+    "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/38831228302",
+    "head_sha": "fc85aebd999d72b563ef346c250fcbceb629acf2",
+    "status": "completed",
+    "conclusion": "success",
+    "workflow_path": ".github/workflows/recommendation-health.yml",
+    "workflow_blob_sha": "4152514cc4b699451f5586731c206fb2c2ad8c59",
+    "jobs": [
+      {
+        "id": 116750228614,
+        "name": "validate",
+        "head_sha": "fc85aebd999d72b563ef346c250fcbceb629acf2",
+        "status": "completed",
+        "conclusion": "success",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1,
+            "started_at": "2026-10-16T00:44:51Z",
+            "completed_at": "2026-10-16T00:44:52Z"
+          },
+          {
+            "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2,
+            "started_at": "2026-10-16T00:44:52Z",
+            "completed_at": "2026-10-16T00:44:55Z"
+          },
+          {
+            "name": "Validate publications and full source-history coverage",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3,
+            "started_at": "2026-10-16T00:44:55Z",
+            "completed_at": "2026-10-16T00:44:55Z"
+          },
+          {
+            "name": "Negative regressions and interrupted-publication recovery",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4,
+            "started_at": "2026-10-16T00:44:55Z",
+            "completed_at": "2026-10-16T00:44:55Z"
+          },
+          {
+            "name": "Compare permanent history with the actual base commit",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5,
+            "started_at": "2026-10-16T00:44:55Z",
+            "completed_at": "2026-10-16T00:44:55Z"
+          },
+          {
+            "name": "Record scope of checks",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 6,
+            "started_at": "2026-10-16T00:44:55Z",
+            "completed_at": "2026-10-16T00:44:55Z"
+          },
+          {
+            "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 12,
+            "started_at": "2026-10-16T00:44:55Z",
+            "completed_at": "2026-10-16T00:44:55Z"
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 13,
+            "started_at": "2026-10-16T00:44:55Z",
+            "completed_at": "2026-10-16T00:44:55Z"
+          }
+        ]
+      }
+    ],
+    "scope": "Actual repository validator, regression tests, append-only comparison and immutable-journal check passed for exact publication commit. This is structural/history verification, not live-source/content/delivery certification."
+  },
+  "latest_verified_head_before_qa": "64b9d0c65bf7168baf52721eb9d7b22a81c17639",
+  "limitations": [
+    "Reddit original thread reading/accessibility/comments waived and not tested",
+    "YouTube full playback not tested",
+    "Historical live-source/format issues retained as backlog, not silently repaired",
+    "Device synchronization and notification delivery not tested"
+  ],
+  "out_of_scope_untouched": [
+    "automations",
+    "credentials",
+    "security settings",
+    "other dates' publications",
+    "original PREPARED bundles",
+    "prior history bytes"
+  ]
+}
