@@ -1,0 +1,579 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-17",
+  "stage": "PREPARED",
+  "status": "persisted_verified_not_published",
+  "observed_at_utc": "2026-10-17 00:11:27 UTC",
+  "original_bundle_sha256": "b8ec157dede3d2ea4f41b8589d6007acbaf24be445d4a377a559fa4d1be4fb49",
+  "original_plan_sha256": "44a30d0fc7386fb9287d959958a69d47b6f8297e0e38df0f725644e2afacd262",
+  "prepared_path": ".recommendation/transactions/english/2026-10-17.json",
+  "prepared_creation_commit": "c544aa4d7e4019c1bb4976d3aeccd9889e774584",
+  "prepared_blob_sha": "ff55e3144a1f2d6a2c47f86224615af47d87c176",
+  "preselection_head": "3e01c4315ec3c020cd81467b66ff1920a63a1ce2",
+  "input_blob_shas": {
+    ".recommendation/policy.json": "cf9d1b486e07ca1efe965cf6af6f0ea422497670",
+    ".recommendation/PUBLISHING.md": "cc67ccd8d20b22487f2667848cdda4b3181724c5",
+    "scripts/publication_bundle.py": "83b1567891513afabec7960fb80888eed3e870df",
+    "scripts/publication_recovery.py": "deda24c3da708841779aa328f2aceb96431a86f2",
+    ".recommendation/history/english.jsonl": "9d76f0a62c4aacacda5db5c654d2f54d976b5fc9",
+    ".github/workflows/recommendation-health.yml": "4152514cc4b699451f5586731c206fb2c2ad8c59",
+    ".recommendation/transactions/english/2026-10-15.json": "27ec70439a351f3bce6cf132707575a179bbd76d",
+    ".recommendation/transactions/english/2026-10-16.json": "de8a818a65870fe20f6e0bb3f5882e6857d463a7",
+    ".recommendation/transactions/music/2026-10-15.json": "23aaa2338fecaef704624b62f2935caf93d4a4da",
+    ".recommendation/transactions/music/2026-10-16.json": "bf759b0b0d935bb32da75ac53636e123fcb0cb63",
+    ".recommendation/transactions/news-youtube-reddit/2026-10-15.json": "c57c31dff9e3030d837b9f624046e20d83254f2d",
+    ".recommendation/transactions/news-youtube-reddit/2026-10-16.json": "9efef6111091c4caeb3f2ca5c8fcfafa6130907c",
+    "50-courses/English/Daily/2026-09-04.md": "2010cce1de3a851a26fc4d95e9c54485064dcb98",
+    "50-courses/English/Daily/2026-09-07.md": "316a40354b52618882ee3da124b77f4fbe037459",
+    "50-courses/English/Daily/2026-09-08.md": "b35ba58ec3c56004aaa29166b227da6692913d3c",
+    "50-courses/English/Daily/2026-09-09.md": "8ecf41a7a9efebc54d92265f4f958f84cffd1980",
+    "50-courses/English/Daily/2026-09-10.md": "dea9eb017a77caa01a6581a8985274d74aac7cec",
+    "50-courses/English/Daily/2026-09-11.md": "57c0b9966d0a3c48bd923929f52919250d62aea9",
+    "50-courses/English/Daily/2026-09-14.md": "9b1cd6c4abfa12fbdddd2e37eabd1c6b3473812e",
+    "50-courses/English/Daily/2026-09-15.md": "8153917582a0a6afceae741dc046ef8c40ee3809",
+    "50-courses/English/Daily/2026-09-16.md": "07a4281d558a62b817b6ef41430000082aadc535",
+    "50-courses/English/Daily/2026-09-17.md": "f51e5df460f05af6223991cc1ac416bb1df1ac97",
+    "50-courses/English/Daily/2026-09-18.md": "5d2bb362b7ecbadd5bee6437c81eff8142598fed",
+    "50-courses/English/Daily/2026-09-21.md": "a09aa965832e0ec56267d09634a6ae1836d8f0da",
+    "50-courses/English/Daily/2026-09-22.md": "a0e956f3abd3d56b1cc22b2d565edd2ce2e13bd9",
+    "50-courses/English/Daily/2026-09-23.md": "c1a28fa7fdd47e2e6f0459733f7ca69999bd0548",
+    "50-courses/English/Daily/2026-09-24.md": "368f064f748d60ae26bca51363ebcea31a2792d8",
+    "50-courses/English/Daily/2026-09-25.md": "f2417d61437e31873169371c8fd7f7566667a207",
+    "50-courses/English/Daily/2026-09-28.md": "e6820e96c79d57adc2bd04565424b620ef85d4e6",
+    "50-courses/English/Daily/2026-09-29.md": "8353994fc36e33f2e51523ef3ae20d8dcbe9be00",
+    "50-courses/English/Daily/2026-09-30.md": "70078efb8e5f57010673a462a6265ce3d2cc47bc",
+    "50-courses/English/Daily/2026-10-01.md": "f7e1265686bb8336e5622b549c4067a2aa051a1c",
+    "50-courses/English/Daily/2026-10-02.md": "6def75db5f3f95dcbcb3b90b54a0d6b0df1e398c",
+    "50-courses/English/Daily/2026-10-05.md": "8be5ed0b18c1396f5c8cae1534b42a93d428ef13",
+    "50-courses/English/Daily/2026-10-06.md": "70f2d9e6df840fa260bca7bed431797be0141bc8",
+    "50-courses/English/Daily/2026-10-07.md": "1d7f50aa764eec2dd27665459aab1292cd2256ed",
+    "50-courses/English/Daily/2026-10-08.md": "e74c93cc26f89049cceb2ea7b6665d173d5378e5",
+    "50-courses/English/Daily/2026-10-09.md": "b09ff287d192c62d3c62727e66d365973cff75a6",
+    "50-courses/English/Daily/2026-10-12.md": "5c532592cb3656abacf8f01c260e760f644f3a56",
+    "50-courses/English/Daily/2026-10-15.md": "3454f6fd463bb56c4f67d2d5fe8333f44a18d98c",
+    "50-courses/English/Daily/2026-10-16.md": "8f04d61fa27f34eb91118d511502e815b94bea27",
+    "50-courses/English/Translation/2026-09-04.md": "608a754c4043e8d2aeef0334ef5a2d57fbfec7cb",
+    "50-courses/English/Translation/2026-09-07.md": "e67c42f4dd558bfecc79c881cb459471003e46ec",
+    "50-courses/English/Translation/2026-09-08.md": "72a4ef36f1bdf5d4738d2026a6aa1214b6c5a650",
+    "50-courses/English/Translation/2026-09-09.md": "f0fff19b1f06ef089c109e433ec2dff1fd8d8a46",
+    "50-courses/English/Translation/2026-09-10.md": "bf9acc7bf4e2a77b0a575900dc040e9e1dbffe2a",
+    "50-courses/English/Translation/2026-09-11.md": "bde9c5f020a0eb6540304a6dd472edcd234a228f",
+    "50-courses/English/Translation/2026-09-14.md": "c1d221da5dc9e8e4882397611aa0c8ee9ebb3ba0",
+    "50-courses/English/Translation/2026-09-15.md": "97b3b5a2ea17493bc13bd116ac51de4501de809b",
+    "50-courses/English/Translation/2026-09-16.md": "be6dff807c9807d7cef5a583c8c6b27741095e10",
+    "50-courses/English/Translation/2026-09-17.md": "3ea07c575cdb6110dc42da9e61824f08f0b1ab28",
+    "50-courses/English/Translation/2026-09-18.md": "4eeb8ea4f23f90353e25161af5c0645903340c7d",
+    "50-courses/English/Translation/2026-09-21.md": "9b63e6ca9d73aeef9d1c73ff73a3426d0d59e15c",
+    "50-courses/English/Translation/2026-09-22.md": "130a0474407f77a8328c2c1cbfd8459a8210a52f",
+    "50-courses/English/Translation/2026-09-23.md": "f5b8d0c5dee386ccfa1ff16fbfca1bf7e88dc0c7",
+    "50-courses/English/Translation/2026-09-24.md": "dfe22180523dbda05b857dde9e3feb60be4c43e9",
+    "50-courses/English/Translation/2026-09-25.md": "8b79687576098fd7519314b5095fa2fff63bd389",
+    "50-courses/English/Translation/2026-09-28.md": "0d15cc9c65c3eafa7c0960b47be6f92b9f910e0c",
+    "50-courses/English/Translation/2026-09-29.md": "531cf46bd7b38f46446353fbc56689209b68b816",
+    "50-courses/English/Translation/2026-09-30.md": "4c0e0bbdf0addcf791b3d672f70cf9ce8a03dc40",
+    "50-courses/English/Translation/2026-10-01.md": "06afae274dbc330c04e1e9767ede056b5d8126b7",
+    "50-courses/English/Translation/2026-10-02.md": "fad6512ef75d8fb205c1e3933971b8d9aec341b3",
+    "50-courses/English/Translation/2026-10-05.md": "5da748be9e000237e49ab3d5c771c71af15bdbc8",
+    "50-courses/English/Translation/2026-10-06.md": "96b2fb164a5c416d00b22be09e405790f25a202a",
+    "50-courses/English/Translation/2026-10-07.md": "615406cd0c351714111145e61e6f23e186e7e0ac",
+    "50-courses/English/Translation/2026-10-08.md": "402778d32af6383eded3538c34c2326604ceba42",
+    "50-courses/English/Translation/2026-10-09.md": "68b5219cad596fcf58a009aa180046ce3e71ebf1",
+    "50-courses/English/Translation/2026-10-12.md": "2905391b63b3c7015d17f9832e25dcb1c1732a71",
+    "50-courses/English/Translation/2026-10-15.md": "7477760021570c045988969772d752cab57a3c6a",
+    "50-courses/English/Translation/2026-10-16.md": "0273b4cfce6a05af440df670c75bad5ee5f23176",
+    "50-courses/English/Vocabulary/2026-09-04.md": "fa56efca7160ccd89c7fa26961034b352f5aedb8",
+    "50-courses/English/Vocabulary/2026-09-07.md": "478e58cdd7cf11290f52e69e83fc655bcaf3a926",
+    "50-courses/English/Vocabulary/2026-09-08.md": "28b4b9e6cad8cf836f9624fb27e4f3eed4e591c7",
+    "50-courses/English/Vocabulary/2026-09-09.md": "76ea4dc7916f56a9309b2ec3e24188ff01847b1e",
+    "50-courses/English/Vocabulary/2026-09-10.md": "2f3bf450dfdb0373e56acbe832743d6e6ce2845d",
+    "50-courses/English/Vocabulary/2026-09-11.md": "270554527dbd4f578b669c388acbe9b5476f3f10",
+    "50-courses/English/Vocabulary/2026-09-14.md": "cc8a736d8dcf233d3c19c369699ed68b39204e51",
+    "50-courses/English/Vocabulary/2026-09-15.md": "8dee67b3748f06d8430149362fd8fadeebb51285",
+    "50-courses/English/Vocabulary/2026-09-16.md": "1de743aacc2d966e319e16a64f8ae69e3460f902",
+    "50-courses/English/Vocabulary/2026-09-17.md": "3a67d0ff57e38b504c5208dadacab0b4ad5aea98",
+    "50-courses/English/Vocabulary/2026-09-18.md": "1a0a6e575cb0283c132a5bff2e5298f52d8d6cab",
+    "50-courses/English/Vocabulary/2026-09-21.md": "b2b268e975ea9ff98d640b77655201744e42bc67",
+    "50-courses/English/Vocabulary/2026-09-22.md": "3042e645b5537e495f7c0d9238655eb6014fdd8b",
+    "50-courses/English/Vocabulary/2026-09-23.md": "e3236446fe30604fc0ce6a029a241c246be381d7",
+    "50-courses/English/Vocabulary/2026-09-24.md": "3bf1bd60dc22c99acaec99d1fc8467eac68595ed",
+    "50-courses/English/Vocabulary/2026-09-25.md": "d86d49e4f1acac7d5d8ca478d2fb5d9f65e04c03",
+    "50-courses/English/Vocabulary/2026-09-28.md": "565d19ec85a0ec0a7fbed5b51f0e4dab9a4adfbb",
+    "50-courses/English/Vocabulary/2026-09-29.md": "1ba2544c541e1e34961426c063d436fb846d4118",
+    "50-courses/English/Vocabulary/2026-09-30.md": "ab6647376daa2bf44ed1527d3f2878fb1d01be63",
+    "50-courses/English/Vocabulary/2026-10-01.md": "a929135a040db048689c349ed8a5f4befcc44c2f",
+    "50-courses/English/Vocabulary/2026-10-02.md": "6699c55b635e3aa5bf2109f727f983f0f7a4f24a",
+    "50-courses/English/Vocabulary/2026-10-05.md": "65f30b4f5818f86e467a2fcd1cbdd4dd0f044164",
+    "50-courses/English/Vocabulary/2026-10-06.md": "3c3648cb89b5c0fcbd9cf1262905bc275451a471",
+    "50-courses/English/Vocabulary/2026-10-07.md": "0d06e34afcadffe514e703f32e6d3dd93ca26e3c",
+    "50-courses/English/Vocabulary/2026-10-08.md": "f2f58f26cdfb32c003deeeb76b37ce8b6bf8928d",
+    "50-courses/English/Vocabulary/2026-10-09.md": "86090fb26a6b517b09504f5435a38c0d29491848",
+    "50-courses/English/Vocabulary/2026-10-12.md": "8cc485fd48baf25820e7197e81d98d8923a89012",
+    "50-courses/English/Vocabulary/2026-10-15.md": "57c245934a981f1cbbe06bad0a05bc7bc0346f21",
+    "50-courses/English/Vocabulary/2026-10-16.md": "bd1ba466204a5921b5cf10398185de90744a5a7c",
+    "50-courses/English/Weekly/2026-09-06.md": "16ebcfcd38bba65d6b74e64ddd99473afd188507",
+    "50-courses/English/Weekly/2026-09-13.md": "f46263813dc71492f9e0f2e034e809f42dc7540b",
+    "50-courses/English/Weekly/2026-09-20.md": "84d0f045ed4f5770cf93bb19af99daffc655f9a2",
+    "50-courses/English/Weekly/2026-09-27.md": "349e19094ebac6cfe012c8beac389ad275521d5a",
+    "50-courses/English/Weekly/2026-10-04.md": "b00383a5b268db854be49b8d89e6d100866e3e8f",
+    "50-courses/English/Weekly/2026-10-11.md": "89a3b1b5496c61d43546673fec8307e9ffb1e2bd",
+    "50-courses/English/Weekly/TV/2026-09-12.md": "1d2ff8d5dbae385ad883a107a2121311e0095ddf",
+    "50-courses/English/Weekly/TV/2026-09-19.md": "05b310db8f63038d5554bfb1b0d2cc6484a5b82f",
+    "50-courses/English/Weekly/TV/2026-09-26.md": "e67bcd1795b409a8fcb1e261ca8ca7fa671fc134",
+    "50-courses/English/Weekly/TV/2026-10-03.md": "84db8dbc695ff99db774abc28201bfd2620ca0b8",
+    "scripts/check_daily_integrity.py": "ee55e6addd709f84ac35962c3eb94873e2409195",
+    "scripts/check_remote_music_snapshot.py": "00410cd856b3ec02a0da743dddbb1d427192bb78",
+    "scripts/test_daily_integrity.py": "da742f5bea65bbba1166d01c75f0c9af16bbe9ac",
+    "scripts/test_daily_validator.py": "ddb0bd1bd950631b529a6875d5835b27cded9bc4",
+    "scripts/test_publication_bundle.py": "64a0b8a82cff48569146d5caceb4794df90e7792",
+    "scripts/test_publication_recovery.py": "872e7692ad023480eddc0e822214174b2bbb3b33",
+    "scripts/test_remote_music_snapshot.py": "77993a5429bdd2b3eac9e5c158c6091838163cb7",
+    "scripts/validate_daily_recommendations.py": "b1b5cacc3ff1754233103b9f57513a3acb5d1db2"
+  },
+  "preflight": {
+    "history_rows": 39,
+    "published_sources": [
+      {
+        "path": "50-courses/English/Daily/2026-09-04.md",
+        "url": "https://www.ted.com/talks/ted_ed_why_you_procrastinate_even_when_it_feels_bad?view=transcript"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-07.md",
+        "url": "https://www.ted.com/talks/adam_savage_how_simple_ideas_lead_to_scientific_discoveries?view=transcript"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-08.md",
+        "url": "https://www.ted.com/talks/catharine_young_how_memories_form_and_how_we_lose_them?view=transcript"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-09.md",
+        "url": "https://www.ted.com/talks/anita_collins_how_playing_an_instrument_benefits_your_brain/details/transcript"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-10.md",
+        "url": "https://www.ted.com/talks/amy_adkins_why_do_we_dream?view=transcript"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-11.md",
+        "url": "https://www.youtube.com/watch?v=9uZam0ubq-Y"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-14.md",
+        "url": "https://www.history.com/articles/coffee-history-facts"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-15.md",
+        "url": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-16.md",
+        "url": "https://www.ted.com/talks/rahul_mehrotra_the_architectural_wonder_of_impermanent_cities"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-17.md",
+        "url": "https://www.imf.org/en/publications/fandd/issues/2025/03/how-animal-spirits-affect-the-economy-karthik-sastry"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-18.md",
+        "url": "https://www.metmuseum.org/perspectives/assyrian-reliefs-keeping-culture-alive"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-21.md",
+        "url": "https://www.nps.gov/articles/000/protecting-tranquility-in-a-bright-noisy-world.htm"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-22.md",
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2024/07/ftc-icpen-gpen-announce-results-review-use-dark-patterns-affecting-subscription-services-privacy"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-23.md",
+        "url": "https://science.nasa.gov/universe/exoplanets/how-do-you-find-and-confirm-a-planet-10-things-about-the-search-for-exoplanets/"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-24.md",
+        "url": "https://ed.ted.com/lessons/what-makes-a-language-a-language-martin-hilpert"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-25.md",
+        "url": "https://news.harvard.edu/gazette/story/2021/10/are-google-and-smartphones-degrading-our-memories/"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-28.md",
+        "url": "https://www.usgs.gov/programs/earthquake-hazards/science/blind-zone-earthquake-early-warning"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-29.md",
+        "url": "https://www.archives.gov/education/research/history-in-the-raw.html"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-09-30.md",
+        "url": "https://www.nih.gov/news-events/nih-research-matters/how-nose-decodes-complex-odors"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-10-01.md",
+        "url": "https://www.nga.gov/stories/articles/mysterious-fantasy-fragonard-young-girl-reading"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-10-02.md",
+        "url": "https://www.history.com/articles/shopping-cart-inventor-sylvan-goldman-supermarkets"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-10-05.md",
+        "url": "https://www.stlouisfed.org/open-vault/2020/january/real-life-examples-opportunity-cost"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-10-06.md",
+        "url": "https://www.smithsonianmag.com/history/millions-of-maya-still-call-mesoamerica-home-this-groundbreaking-initiative-ushers-the-rich-tapestry-of-mayan-languages-into-the-digital-age-180987113/"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-10-07.md",
+        "url": "https://news.harvard.edu/gazette/story/2026/02/did-i-say-too-much/"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-10-08.md",
+        "url": "https://www.noaa.gov/explainers/what-is-marine-debris"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-10-09.md",
+        "url": "https://education.nationalgeographic.org/resource/map/"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-10-12.md",
+        "url": "https://ed.ted.com/lessons/the-fastest-way-to-board-a-plane-according-to-mathematics-rachel-yang"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-10-15.md",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/star-wars-hero-myth"
+      },
+      {
+        "path": "50-courses/English/Daily/2026-10-16.md",
+        "url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/sharing-economy"
+      },
+      {
+        "path": "50-courses/English/Weekly/2026-09-06.md",
+        "url": "https://www.hiddenbrain.org/podcast/making-the-most-of-your-mistakes/"
+      },
+      {
+        "path": "50-courses/English/Weekly/2026-09-13.md",
+        "url": "https://www.youtube.com/watch?v=kBdfcR-8hEY"
+      },
+      {
+        "path": "50-courses/English/Weekly/2026-09-20.md",
+        "url": "https://99percentinvisible.org/episode/683-doves-type/"
+      },
+      {
+        "path": "50-courses/English/Weekly/2026-09-27.md",
+        "url": "https://www.pbs.org/wgbh/frontline/documentary/class-divided/"
+      },
+      {
+        "path": "50-courses/English/Weekly/2026-10-04.md",
+        "url": "https://www.quantamagazine.org/does-form-really-shape-function-20250612/"
+      },
+      {
+        "path": "50-courses/English/Weekly/2026-10-11.md",
+        "url": "https://shows.acast.com/rethinking/episodes/megan-rapinoe-sue-bird-on-leading-great-teams-and-moving-on"
+      },
+      {
+        "path": "50-courses/English/Weekly/TV/2026-09-12.md",
+        "url": "https://abc.com/shows/abbott-elementary/about-the-show/1000"
+      },
+      {
+        "path": "50-courses/English/Weekly/TV/2026-09-19.md",
+        "url": "https://www.fxnetworks.com/shows/reservation-dogs"
+      },
+      {
+        "path": "50-courses/English/Weekly/TV/2026-09-26.md",
+        "url": "https://www.fxnetworks.com/shows/the-bear"
+      },
+      {
+        "path": "50-courses/English/Weekly/TV/2026-10-03.md",
+        "url": "https://www.paramountplus.com/shows/the_good_wife/"
+      }
+    ],
+    "reservations": [
+      {
+        "path": ".recommendation/transactions/english/2026-10-15.json",
+        "operation_id": "english:2026-10-15",
+        "bundle_sha256": "6c3b5cf58e40281d642ba475701ad417e442bcd5836eecd0de75207ff014fda0",
+        "exposed_resource_ids": [
+          "https://learnenglish.britishcouncil.org/free-resources/reading/b2/star-wars-hero-myth"
+        ]
+      },
+      {
+        "path": ".recommendation/transactions/english/2026-10-16.json",
+        "operation_id": "english:2026-10-16",
+        "bundle_sha256": "df92655322c6c9a25e2b712d5b8b53578f727c42bb5ad41e8e1df6b8b8b230b9",
+        "exposed_resource_ids": [
+          "https://learnenglish.britishcouncil.org/free-resources/reading/b2/sharing-economy"
+        ]
+      },
+      {
+        "path": ".recommendation/transactions/music/2026-10-15.json",
+        "operation_id": "music:2026-10-15",
+        "bundle_sha256": "6f528f228bc06a123416263a414416e2c24bfa5de35e6b82428ee88fffba1f49",
+        "exposed_resource_ids": [
+          "曹方::冰川",
+          "José González::El Invento",
+          "黄莺莺::三年三月到九天九夜",
+          "奇克・考瑞亚 & Return to Forever::Spain",
+          "柏林爱乐乐团 & 赫伯特・冯・卡拉扬::Boléro, M. 81"
+        ]
+      },
+      {
+        "path": ".recommendation/transactions/music/2026-10-16.json",
+        "operation_id": "music:2026-10-16",
+        "bundle_sha256": "b67b518dd0cf68365892c1ed55d7c5952b5d3e4d14614ea2e24049c192b0655d",
+        "exposed_resource_ids": [
+          "张雨生::口是心非",
+          "Joni Mitchell::Coyote",
+          "Four Tet::Two Thousand and Seventeen",
+          "David Sylvian::Orpheus",
+          "Cesária Evora::Sodade"
+        ]
+      },
+      {
+        "path": ".recommendation/transactions/news-youtube-reddit/2026-10-15.json",
+        "operation_id": "news-youtube-reddit:2026-10-15",
+        "bundle_sha256": "b88e1ca0d92e8e2814a3c9a8e4d15573767382f688c8c158ec2cd07d9bb15ee6",
+        "exposed_resource_ids": [
+          "youtube:0MwMkBET_5I",
+          "youtube:xWL40q3DMoQ",
+          "youtube:eXR1olg_I0w",
+          "youtube:lKIbT-4UFaE",
+          "youtube:RPfORR5ffuY",
+          "reddit:15gcwse",
+          "reddit:1tqdykg",
+          "reddit:kf0888",
+          "reddit:mq2ot8",
+          "reddit:jqcxwi",
+          "reddit:1ndif15",
+          "reddit:1u6og3o",
+          "reddit:1dpebvl",
+          "reddit:1r69b88",
+          "reddit:hd0sto"
+        ]
+      },
+      {
+        "path": ".recommendation/transactions/news-youtube-reddit/2026-10-16.json",
+        "operation_id": "news-youtube-reddit:2026-10-16",
+        "bundle_sha256": "73643a0897bd7acbff4943bfdbf4f7433c8f7c5451227efdfebfc4ae9bb68449",
+        "exposed_resource_ids": [
+          "youtube:OkmNXy7er84",
+          "youtube:2yCjO-wRxyM",
+          "youtube:rStL7niR7gs",
+          "youtube:CF3MRMBjd20",
+          "youtube:R-Zyud8xh2c",
+          "reddit:1w8rm2u",
+          "reddit:si27i1",
+          "reddit:n8fvmz",
+          "reddit:113zwvc",
+          "reddit:zzm2qq",
+          "reddit:1x4iykn",
+          "reddit:1s3lt87",
+          "reddit:1tjwd19",
+          "reddit:1q3a0zx",
+          "reddit:1wudbra"
+        ]
+      }
+    ],
+    "blocked_urls": [
+      "https://99percentinvisible.org/episode/683-doves-type/",
+      "https://abc.com/shows/abbott-elementary/about-the-show/1000",
+      "https://ed.ted.com/lessons/the-fastest-way-to-board-a-plane-according-to-mathematics-rachel-yang",
+      "https://ed.ted.com/lessons/what-makes-a-language-a-language-martin-hilpert",
+      "https://education.nationalgeographic.org/resource/map/",
+      "https://learnenglish.britishcouncil.org/free-resources/reading/b2/sharing-economy",
+      "https://learnenglish.britishcouncil.org/free-resources/reading/b2/star-wars-hero-myth",
+      "https://news.harvard.edu/gazette/story/2021/10/are-google-and-smartphones-degrading-our-memories/",
+      "https://news.harvard.edu/gazette/story/2026/02/did-i-say-too-much/",
+      "https://science.nasa.gov/universe/exoplanets/how-do-you-find-and-confirm-a-planet-10-things-about-the-search-for-exoplanets/",
+      "https://shows.acast.com/rethinking/episodes/megan-rapinoe-sue-bird-on-leading-great-teams-and-moving-on",
+      "https://www.archives.gov/education/research/history-in-the-raw.html",
+      "https://www.ftc.gov/news-events/news/press-releases/2024/07/ftc-icpen-gpen-announce-results-review-use-dark-patterns-affecting-subscription-services-privacy",
+      "https://www.fxnetworks.com/shows/reservation-dogs",
+      "https://www.fxnetworks.com/shows/the-bear",
+      "https://www.hiddenbrain.org/podcast/making-the-most-of-your-mistakes/",
+      "https://www.history.com/articles/coffee-history-facts",
+      "https://www.history.com/articles/shopping-cart-inventor-sylvan-goldman-supermarkets",
+      "https://www.imf.org/en/publications/fandd/issues/2025/03/how-animal-spirits-affect-the-economy-karthik-sastry",
+      "https://www.metmuseum.org/perspectives/assyrian-reliefs-keeping-culture-alive",
+      "https://www.nga.gov/stories/articles/mysterious-fantasy-fragonard-young-girl-reading",
+      "https://www.nih.gov/news-events/nih-research-matters/how-nose-decodes-complex-odors",
+      "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+      "https://www.noaa.gov/explainers/what-is-marine-debris",
+      "https://www.nps.gov/articles/000/protecting-tranquility-in-a-bright-noisy-world.htm",
+      "https://www.paramountplus.com/shows/the_good_wife/",
+      "https://www.pbs.org/wgbh/frontline/documentary/class-divided/",
+      "https://www.quantamagazine.org/does-form-really-shape-function-20250612/",
+      "https://www.smithsonianmag.com/history/millions-of-maya-still-call-mesoamerica-home-this-groundbreaking-initiative-ushers-the-rich-tapestry-of-mayan-languages-into-the-digital-age-180987113/",
+      "https://www.stlouisfed.org/open-vault/2020/january/real-life-examples-opportunity-cost",
+      "https://www.ted.com/talks/adam_savage_how_simple_ideas_lead_to_scientific_discoveries?view=transcript",
+      "https://www.ted.com/talks/amy_adkins_why_do_we_dream?view=transcript",
+      "https://www.ted.com/talks/anita_collins_how_playing_an_instrument_benefits_your_brain/details/transcript",
+      "https://www.ted.com/talks/catharine_young_how_memories_form_and_how_we_lose_them?view=transcript",
+      "https://www.ted.com/talks/rahul_mehrotra_the_architectural_wonder_of_impermanent_cities",
+      "https://www.ted.com/talks/ted_ed_why_you_procrastinate_even_when_it_feels_bad?view=transcript",
+      "https://www.usgs.gov/programs/earthquake-hazards/science/blind-zone-earthquake-early-warning",
+      "https://www.youtube.com/watch?v=9uZam0ubq-Y",
+      "https://www.youtube.com/watch?v=kBdfcR-8hEY"
+    ]
+  },
+  "selection_evidence": {
+    "operation_id": "english:2026-10-17",
+    "mode": "new",
+    "policy_version": 2,
+    "observed_at_utc": "2026-10-17 00:10:47 UTC",
+    "candidate_pool_min": 8,
+    "candidate_pool_count": 8,
+    "selection": "Joe Pera Talks With You",
+    "weights": {
+      "quality": 0.3,
+      "usefulness": 0.25,
+      "curiosity": 0.2,
+      "novelty": 0.15,
+      "fit": 0.1
+    },
+    "scoring_scope": "Qualitative editorial application of policy weights; no invented audience statistics or full-viewing observations.",
+    "candidates": [
+      {
+        "title": "Joe Pera Talks With You",
+        "url": "https://www.adultswim.com/videos/joe-pera-talks-with-you",
+        "status": "selected",
+        "source_level": "direct official series and three official episode pages read",
+        "reason": "Specific ordinary-life observation and direct-to-viewer framing diversify previous legal/workplace picks; short episode is a manageable language experiment; series and all known source URLs absent from complete English history, all source notes and reservations."
+      },
+      {
+        "title": "Better Things",
+        "url": "https://www.fxnetworks.com/shows/better-things",
+        "status": "not_selected",
+        "source_level": "direct official page read",
+        "reason": "Strong alternative: actor/single-parent family life, but chose a more bounded short-format shift from previous workplace/family dramas."
+      },
+      {
+        "title": "Lodge 49",
+        "url": "https://www.amcplus.com/shows/lodge-49--1002230",
+        "status": "not_selected",
+        "source_level": "official search observation plus direct geographic-restriction response",
+        "reason": "Real ex-surfer/fraternal-lodge premise in official discovery evidence; direct page redirected to geographic restriction, not counted as verified playable source."
+      },
+      {
+        "title": "Halt and Catch Fire",
+        "url": "https://www.amcplus.com/shows/halt-and-catch-fire--1002226",
+        "status": "not_selected",
+        "source_level": "official search observation plus direct geographic-restriction response",
+        "reason": "1980s computing-boom drama has genuine interest, but would overfit research/technology interests and returns to dense professional speech; direct page not verified beyond restriction."
+      },
+      {
+        "title": "The Good Place",
+        "url": "https://www.nbc.com/the-good-place",
+        "status": "not_selected",
+        "source_level": "real NBC series URL observed in search; direct request 403",
+        "reason": "Philosophical comedy offers conceptual curiosity, but final source identity/content not directly verified in this attempt."
+      },
+      {
+        "title": "Superstore",
+        "url": "https://www.nbc.com/superstore",
+        "status": "not_selected",
+        "source_level": "real NBC series URL and official NBCUniversal material in discovery; direct request 403",
+        "reason": "Useful retail-workplace language, but repeats workplace-comedy learning frame and actual series-page read was denied."
+      },
+      {
+        "title": "Somebody Somewhere",
+        "url": "https://www.hbo.com/somebody-somewhere",
+        "status": "not_selected",
+        "source_level": "official HBO catalogue and WBD press search; direct series/press requests 403",
+        "reason": "Kansas outsider-community premise offers strong adjacent exploration; source access uncertain for final-page verification, so did not lower selected-source standard."
+      },
+      {
+        "title": "Ghosts (US CBS)",
+        "url": "https://www.cbs.com/shows/ghosts/",
+        "status": "not_selected",
+        "source_level": "direct official CBS series page read",
+        "reason": "US version clearly identified, country-estate comedy is a viable option; larger ensemble/historical register changes less suited to today's bounded descriptive-language focus."
+      }
+    ],
+    "source_verification": [
+      {
+        "url": "https://www.adultswim.com/videos/joe-pera-talks-with-you",
+        "observation": "Actual official page body read: series heading, 3 season directories, ordered S1 E1/E2/E3 identities and synopses. No reliance on URL or HTTP status alone.",
+        "result": "verified_identity_and_editorial_material"
+      },
+      {
+        "url": "https://www.adultswim.com/videos/joe-pera-talks-with-you/joe-pera-shows-you-iron",
+        "title": "Joe Pera Shows You Iron",
+        "season": 1,
+        "episode": 1,
+        "observation": "Direct official episode heading and synopsis identifies middle-school choir teacher and Northern Michigan geology/minerals.",
+        "result": "verified_official_episode_identity"
+      },
+      {
+        "url": "https://www.adultswim.com/videos/joe-pera-talks-with-you/joe-pera-takes-you-to-breakfast",
+        "title": "Joe Pera Takes You to Breakfast",
+        "season": 1,
+        "episode": 2,
+        "observation": "Direct official heading/synopsis: Saturday-morning visit to his preferred family restaurant. TV-14 L displayed.",
+        "result": "verified_official_episode_identity"
+      },
+      {
+        "url": "https://www.adultswim.com/videos/joe-pera-talks-with-you/joe-pera-takes-you-on-a-fall-drive",
+        "title": "Joe Pera Takes You on a Fall Drive",
+        "season": 1,
+        "episode": 3,
+        "observation": "Direct official heading/synopsis: recurring fall route on Saturday after Halloween. TV-14 D displayed.",
+        "result": "verified_official_episode_identity"
+      },
+      {
+        "url": "https://tv.apple.com/us/episode/joe-pera-shows-you-iron/umc.cmc.567eu0nz4b6cbg2052wmpxidq?showId=umc.cmc.2djfthdwxf9n1dan8fzaa63wz",
+        "observation": "Actual distributor page identifies S1 E1, region of origin United States, 10-minute runtime and US English closed-caption metadata. Does not verify another player or user account.",
+        "result": "verified_supplementary_metadata"
+      },
+      {
+        "url": "https://www.adultswim.com/videos/joe-pera-talks-with-you/joe-pera-on-dance",
+        "observation": "Actual official clip page read; clip identity confirmed, page includes cable-provider login caveat. Did not claim playback.",
+        "result": "verified_clip_page_not_full_playback"
+      },
+      {
+        "url": "https://press.wbd.com/us/media-release/joe-pera-talks-you-season-three-arrives-sunday-november-7-adult-swim?language_content_entity=en",
+        "observation": "Official press search description calls it slow-paced, direct fetch returns 403. Retained as search-level corroboration only, not a successful full source read.",
+        "result": "unverified_full_page_403"
+      }
+    ],
+    "semantic_and_diversity": {
+      "prior_tv_titles_blocked": [
+        "Abbott Elementary",
+        "Reservation Dogs",
+        "The Bear",
+        "The Good Wife"
+      ],
+      "novel_series": true,
+      "topic": "observational everyday description / Upper Midwest small-town life",
+      "recent_week_shift": "From educational short articles and sports/leadership interview to fictional everyday-life descriptive speech; not technology research.",
+      "difficulty": "Editorial estimate, not acoustic audit or TOEFL score equivalence",
+      "composition": "One Saturday slot: distinctive exploration; 50/30/20 list ratio not applicable to a single series."
+    },
+    "manual_content_review": {
+      "spoiler_free": true,
+      "early_episode_plan": 3,
+      "viewing_modes": 3,
+      "original_language_chunks": 12,
+      "examples_independently_authored": true,
+      "no_copied_script_or_invented_timestamps": true
+    },
+    "limitations": [
+      "No complete episode audio review",
+      "No authenticated full playback or user-region rights verification",
+      "No player-specific subtitle availability verification",
+      "No Obsidian device sync or notification delivery verification"
+    ],
+    "historical_backlog": [
+      "Historical source/format observations remain unchanged; no past recommendations replaced.",
+      "Oct15 music PREPARED-versus-corrected-manifest drift remains a separate explicitly recorded historical issue; no effect on today's English source or preserved English history."
+    ]
+  },
+  "checks": {
+    "freeze": "passed",
+    "baselines": "passed",
+    "prepared_exact_readback": "passed",
+    "publication_regressions": 41,
+    "content_qa": "pending_independent_post_write_review"
+  }
+}
