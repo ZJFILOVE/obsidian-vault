@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-17",
+  "date": "2026-10-17",
+  "project": "english",
+  "status": "passed_current_publication_gates",
+  "checked_at_utc": "2026-10-17 00:13:27 UTC",
+  "mode": "new",
+  "content_review_scope": "Independent post-write review pass of complete connector readbacks, source-page identity/material and original exercises; not an independent external reviewer and not a full-episode playback test.",
+  "selected_source_url": "https://www.adultswim.com/videos/joe-pera-talks-with-you",
+  "selected_series": "Joe Pera Talks With You",
+  "bundle": {
+    "path": ".recommendation/transactions/english/2026-10-17.json",
+    "creation_commit": "c544aa4d7e4019c1bb4976d3aeccd9889e774584",
+    "blob_sha": "ff55e3144a1f2d6a2c47f86224615af47d87c176",
+    "original_bundle_sha256": "b8ec157dede3d2ea4f41b8589d6007acbaf24be445d4a377a559fa4d1be4fb49",
+    "original_plan_sha256": "44a30d0fc7386fb9287d959958a69d47b6f8297e0e38df0f725644e2afacd262",
+    "readback": "complete_exact_utf8_both_digests_verified"
+  },
+  "execution": {
+    "preselection_head": "3e01c4315ec3c020cd81467b66ff1920a63a1ce2",
+    "prepared_receipt": ".recommendation/transaction-runs/english/2026-10-17/20261017001127-prepared.json",
+    "stage_receipt": ".recommendation/transaction-runs/english/2026-10-17/20261017001257-stage1.json",
+    "stage_receipt_creation_commit": "22309cb5302624063ce96281e8d7ce1074e9dd49",
+    "stage_receipt_blob_sha": "ba17617771ff0ce9fff339f621b030cf7748b868",
+    "publication_commit": "20ccd192fe7b359b470868e10fa7d967e945f8ab",
+    "strategy": "one ordinary Git commit for note and history, actual base tree/current parent, expected-head non-force ref update",
+    "readbacks": {
+      "50-courses/English/Weekly/TV/2026-10-17.md": {
+        "sha": "1d95c4410d2e00749f8ed9b300a4a12b070f1169",
+        "bytes": 14800,
+        "complete_utf8": true
+      },
+      ".recommendation/history/english.jsonl": {
+        "sha": "0c7a35fccd29ab0b8e9458040648f457f846cac5",
+        "bytes": 10996,
+        "complete_utf8": true
+      }
+    }
+  },
+  "candidate_and_source_evidence": {
+    "operation_id": "english:2026-10-17",
+    "mode": "new",
+    "policy_version": 2,
+    "observed_at_utc": "2026-10-17 00:10:47 UTC",
+    "candidate_pool_min": 8,
+    "candidate_pool_count": 8,
+    "selection": "Joe Pera Talks With You",
+    "weights": {
+      "quality": 0.3,
+      "usefulness": 0.25,
+      "curiosity": 0.2,
+      "novelty": 0.15,
+      "fit": 0.1
+    },
+    "scoring_scope": "Qualitative editorial application of policy weights; no invented audience statistics or full-viewing observations.",
+    "candidates": [
+      {
+        "title": "Joe Pera Talks With You",
+        "url": "https://www.adultswim.com/videos/joe-pera-talks-with-you",
+        "status": "selected",
+        "source_level": "direct official series and three official episode pages read",
+        "reason": "Specific ordinary-life observation and direct-to-viewer framing diversify previous legal/workplace picks; short episode is a manageable language experiment; series and all known source URLs absent from complete English history, all source notes and reservations."
+      },
+      {
+        "title": "Better Things",
+        "url": "https://www.fxnetworks.com/shows/better-things",
+        "status": "not_selected",
+        "source_level": "direct official page read",
+        "reason": "Strong alternative: actor/single-parent family life, but chose a more bounded short-format shift from previous workplace/family dramas."
+      },
+      {
+        "title": "Lodge 49",
+        "url": "https://www.amcplus.com/shows/lodge-49--1002230",
+        "status": "not_selected",
+        "source_level": "official search observation plus direct geographic-restriction response",
+        "reason": "Real ex-surfer/fraternal-lodge premise in official discovery evidence; direct page redirected to geographic restriction, not counted as verified playable source."
+      },
+      {
+        "title": "Halt and Catch Fire",
+        "url": "https://www.amcplus.com/shows/halt-and-catch-fire--1002226",
+        "status": "not_selected",
+        "source_level": "official search observation plus direct geographic-restriction response",
+        "reason": "1980s computing-boom drama has genuine interest, but would overfit research/technology interests and returns to dense professional speech; direct page not verified beyond restriction."
+      },
+      {
+        "title": "The Good Place",
+        "url": "https://www.nbc.com/the-good-place",
+        "status": "not_selected",
+        "source_level": "real NBC series URL observed in search; direct request 403",
+        "reason": "Philosophical comedy offers conceptual curiosity, but final source identity/content not directly verified in this attempt."
+      },
+      {
+        "title": "Superstore",
+        "url": "https://www.nbc.com/superstore",
+        "status": "not_selected",
+        "source_level": "real NBC series URL and official NBCUniversal material in discovery; direct request 403",
+        "reason": "Useful retail-workplace language, but repeats workplace-comedy learning frame and actual series-page read was denied."
+      },
+      {
+        "title": "Somebody Somewhere",
+        "url": "https://www.hbo.com/somebody-somewhere",
+        "status": "not_selected",
+        "source_level": "official HBO catalogue and WBD press search; direct series/press requests 403",
+        "reason": "Kansas outsider-community premise offers strong adjacent exploration; source access uncertain for final-page verification, so did not lower selected-source standard."
+      },
+      {
+        "title": "Ghosts (US CBS)",
+        "url": "https://www.cbs.com/shows/ghosts/",
+        "status": "not_selected",
+        "source_level": "direct official CBS series page read",
+        "reason": "US version clearly identified, country-estate comedy is a viable option; larger ensemble/historical register changes less suited to today's bounded descriptive-language focus."
+      }
+    ],
+    "source_verification": [
+      {
+        "url": "https://www.adultswim.com/videos/joe-pera-talks-with-you",
+        "observation": "Actual official page body read: series heading, 3 season directories, ordered S1 E1/E2/E3 identities and synopses. No reliance on URL or HTTP status alone.",
+        "result": "verified_identity_and_editorial_material"
+      },
+      {
+        "url": "https://www.adultswim.com/videos/joe-pera-talks-with-you/joe-pera-shows-you-iron",
+        "title": "Joe Pera Shows You Iron",
+        "season": 1,
+        "episode": 1,
+        "observation": "Direct official episode heading and synopsis identifies middle-school choir teacher and Northern Michigan geology/minerals.",
+        "result": "verified_official_episode_identity"
+      },
+      {
+        "url": "https://www.adultswim.com/videos/joe-pera-talks-with-you/joe-pera-takes-you-to-breakfast",
+        "title": "Joe Pera Takes You to Breakfast",
+        "season": 1,
+        "episode": 2,
+        "observation": "Direct official heading/synopsis: Saturday-morning visit to his preferred family restaurant. TV-14 L displayed.",
+        "result": "verified_official_episode_identity"
+      },
+      {
+        "url": "https://www.adultswim.com/videos/joe-pera-talks-with-you/joe-pera-takes-you-on-a-fall-drive",
+        "title": "Joe Pera Takes You on a Fall Drive",
+        "season": 1,
+        "episode": 3,
+        "observation": "Direct official heading/synopsis: recurring fall route on Saturday after Halloween. TV-14 D displayed.",
+        "result": "verified_official_episode_identity"
+      },
+      {
+        "url": "https://tv.apple.com/us/episode/joe-pera-shows-you-iron/umc.cmc.567eu0nz4b6cbg2052wmpxidq?showId=umc.cmc.2djfthdwxf9n1dan8fzaa63wz",
+        "observation": "Actual distributor page identifies S1 E1, region of origin United States, 10-minute runtime and US English closed-caption metadata. Does not verify another player or user account.",
+        "result": "verified_supplementary_metadata"
+      },
+      {
+        "url": "https://www.adultswim.com/videos/joe-pera-talks-with-you/joe-pera-on-dance",
+        "observation": "Actual official clip page read; clip identity confirmed, page includes cable-provider login caveat. Did not claim playback.",
+        "result": "verified_clip_page_not_full_playback"
+      },
+      {
+        "url": "https://press.wbd.com/us/media-release/joe-pera-talks-you-season-three-arrives-sunday-november-7-adult-swim?language_content_entity=en",
+        "observation": "Official press search description calls it slow-paced, direct fetch returns 403. Retained as search-level corroboration only, not a successful full source read.",
+        "result": "unverified_full_page_403"
+      }
+    ],
+    "semantic_and_diversity": {
+      "prior_tv_titles_blocked": [
+        "Abbott Elementary",
+        "Reservation Dogs",
+        "The Bear",
+        "The Good Wife"
+      ],
+      "novel_series": true,
+      "topic": "observational everyday description / Upper Midwest small-town life",
+      "recent_week_shift": "From educational short articles and sports/leadership interview to fictional everyday-life descriptive speech; not technology research.",
+      "difficulty": "Editorial estimate, not acoustic audit or TOEFL score equivalence",
+      "composition": "One Saturday slot: distinctive exploration; 50/30/20 list ratio not applicable to a single series."
+    },
+    "manual_content_review": {
+      "spoiler_free": true,
+      "early_episode_plan": 3,
+      "viewing_modes": 3,
+      "original_language_chunks": 12,
+      "examples_independently_authored": true,
+      "no_copied_script_or_invented_timestamps": true
+    },
+    "limitations": [
+      "No complete episode audio review",
+      "No authenticated full playback or user-region rights verification",
+      "No player-specific subtitle availability verification",
+      "No Obsidian device sync or notification delivery verification"
+    ],
+    "historical_backlog": [
+      "Historical source/format observations remain unchanged; no past recommendations replaced.",
+      "Oct15 music PREPARED-versus-corrected-manifest drift remains a separate explicitly recorded historical issue; no effect on today's English source or preserved English history."
+    ]
+  },
+  "checks": {
+    "local_code": {
+      "status": "passed_current_english_code_gates",
+      "readbacks": {
+        "50-courses/English/Weekly/TV/2026-10-17.md": {
+          "sha": "1d95c4410d2e00749f8ed9b300a4a12b070f1169",
+          "bytes": 14800,
+          "complete_utf8": true
+        },
+        ".recommendation/history/english.jsonl": {
+          "sha": "0c7a35fccd29ab0b8e9458040648f457f846cac5",
+          "bytes": 10996,
+          "complete_utf8": true
+        }
+      },
+      "original_history_rows": 39,
+      "current_history_rows": 40,
+      "history_prefix": "byte_exact_preserved",
+      "same_day_registration": "exactly_once",
+      "freshness_reference": "original_preselection_history_all_published_sources_and_all_six_PREPARED_reservations",
+      "repository_english_validator": {
+        "strict_sources_checked": 34,
+        "scope": "all English Daily/Weekly/TV source notes plus weekday companion existence; full repository CI checked separately"
+      },
+      "required_saturday_targets": 2,
+      "language_chunks": 12,
+      "early_episode_plans": 3,
+      "viewing_modes": 3,
+      "diet_in_repository": false,
+      "planner": {
+        "operation_id": "english:2026-10-17",
+        "plan_sha256": "44a30d0fc7386fb9287d959958a69d47b6f8297e0e38df0f725644e2afacd262",
+        "status": "artifacts_match",
+        "next_stage": null,
+        "decisions": [
+          {
+            "repository": "ZJFILOVE/obsidian-vault",
+            "path": "50-courses/English/Weekly/TV/2026-10-17.md",
+            "stage": 1,
+            "action": "no_op",
+            "reason": "target already present, including a lost successful response",
+            "expected_sha": null,
+            "target_sha": "1d95c4410d2e00749f8ed9b300a4a12b070f1169"
+          },
+          {
+            "repository": "ZJFILOVE/obsidian-vault",
+            "path": ".recommendation/history/english.jsonl",
+            "stage": 1,
+            "action": "no_op",
+            "reason": "target already present, including a lost successful response",
+            "expected_sha": "9d76f0a62c4aacacda5db5c654d2f54d976b5fc9",
+            "target_sha": "0c7a35fccd29ab0b8e9458040648f457f846cac5"
+          }
+        ],
+        "content_qa": "not_evaluated",
+        "github_writes_performed": 0
+      },
+      "original_six_bundle_validation": "passed",
+      "manual_content_qa": "separate_editorial_review_not_certified_by_structure",
+      "unverified": [
+        "full episode playback",
+        "user regional streaming rights",
+        "player subtitle control",
+        "device sync",
+        "notification delivery"
+      ]
+    },
+    "immutable_journal": {
+      "status": "passed",
+      "bundles": 7,
+      "local_base_ref_check": "not_executed_without_full_git_checkout",
+      "actual_base_comparison": "passed_exact_commit_CI"
+    },
+    "regressions": {
+      "publication": 41,
+      "daily": 63
+    },
+    "ci": {
+      "run_id": 38985216326,
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/38985216326",
+      "head_sha": "20ccd192fe7b359b470868e10fa7d967e945f8ab",
+      "workflow_blob_sha": "4152514cc4b699451f5586731c206fb2c2ad8c59",
+      "status": "completed",
+      "conclusion": "success",
+      "inspected_actual_job_steps": [
+        {
+          "id": 117255001283,
+          "name": "validate",
+          "status": "completed",
+          "conclusion": "success",
+          "run_id": 38985216326,
+          "logs_url": null,
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 1
+            },
+            {
+              "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 2
+            },
+            {
+              "name": "Validate publications and full source-history coverage",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 3
+            },
+            {
+              "name": "Negative regressions and interrupted-publication recovery",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 4
+            },
+            {
+              "name": "Compare permanent history with the actual base commit",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 5
+            },
+            {
+              "name": "Record scope of checks",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 6
+            },
+            {
+              "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 12
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 13
+            }
+          ]
+        }
+      ]
+    },
+    "manual_editorial": {
+      "status": "passed_with_explicit_scope_limits",
+      "official_series_identity_and_three_episode_details": "verified_directly",
+      "source_page_rechecked_after_write": true,
+      "same_series_semantic_repeat": "none_in_complete_English_sources_history_and_PREPARED_reservations",
+      "required_sections": "all_present",
+      "original_examples": "12 independently authored patterns, not copied dialogue; no invented in-episode occurrence claims",
+      "saturday_completeness": "one American series TV note plus exactly-once permanent history",
+      "spoilers_and_copyright": "spoiler-free premise and short metadata summaries, no long script reproduction",
+      "teaching_difficulty": "clearly editorial estimate, no score-equivalence/acoustic-audit claim",
+      "entertainment_and_culture": "specific small-topic/direct-to-viewer descriptive language and Upper Midwest fictional setting; no stereotype generalized to all Americans",
+      "limitations_visible_in_note": true
+    }
+  },
+  "historical_backlog": [
+    "Historical source/format observations remain unchanged; no past recommendations replaced.",
+    "Oct15 music PREPARED-versus-corrected-manifest drift remains a separate explicitly recorded historical issue; no effect on today's English source or preserved English history."
+  ],
+  "not_certified": [
+    "authenticated full-episode playback",
+    "user regional streaming entitlement",
+    "player-specific caption control",
+    "local Obsidian device synchronization",
+    "ChatGPT notification delivery"
+  ],
+  "retry_safety": {
+    "current_artifacts": "match_original_immutable_payloads",
+    "history_registration": "exactly_once",
+    "reselection_performed": false,
+    "original_bundle_modified": false
+  },
+  "publication_errors": [],
+  "unrelated_files_or_tasks_changed": false
+}
