@@ -1,0 +1,298 @@
+{
+  "operation_id": "news-youtube-reddit:2026-10-17",
+  "stage": "publication_readback_and_postwrite_checks",
+  "observed_at": "2026-10-17 00:48:42 UTC",
+  "original_bundle_sha256": "926479baa83baed7b6783bab94c9c4bbffc0244c4bf958b4146be7f92b025558",
+  "original_plan_sha256": "a3512accd99804312ee00dedb9d557b7bf8c9a4dd6f65f082d1f86b02ed002a1",
+  "prepared_creation_commit": "8fbd12d38491330c48405bdf1ed4d1797bcfdec3",
+  "prepared_blob_sha": "fb863cb8a946d67a3cfd9ed71f87c5d8907102a7",
+  "prepared_audit_path": ".recommendation/transaction-runs/news-youtube-reddit/2026-10-17/20261017004737Z-prepared.json",
+  "prepared_audit_commit": "57727d2167c0b8d8a53917b014cbe72c810d01b6",
+  "publication_parent": "57727d2167c0b8d8a53917b014cbe72c810d01b6",
+  "publication_base_tree": "ede4c8c3f69f7daff31d3b631d7d9e744b48c354",
+  "publication_tree": "4aa00f075a5e6149d10e4f7638f0a8f01fbf9ed7",
+  "publication_commit": "fda96363e1c141aa365943b2a5ce5c4df5072fb8",
+  "ref_update": {
+    "expected_head": "57727d2167c0b8d8a53917b014cbe72c810d01b6",
+    "force": false,
+    "result": {
+      "success": true
+    }
+  },
+  "postwrite": {
+    "status": "passed_current_publication_code_checks",
+    "bundle_sha256": "926479baa83baed7b6783bab94c9c4bbffc0244c4bf958b4146be7f92b025558",
+    "readback": {
+      "News/Daily/2026-10-17.md": {
+        "sha": "5b128918916b1ff3436b4b6330de39d364a3184c",
+        "bytes": 8104,
+        "complete_payload_equal": true
+      },
+      "Resources/YouTube/Daily/2026-10-17.md": {
+        "sha": "222cccbebc9d5cea6562cd29a1f63b82b58d7e85",
+        "bytes": 6981,
+        "complete_payload_equal": true
+      },
+      "Resources/Reddit/Daily/2026-10-17.md": {
+        "sha": "5fb4214910002d83b8d4ac4c7f60ab954f9a3596",
+        "bytes": 14113,
+        "complete_payload_equal": true
+      },
+      ".recommendation/history/youtube.jsonl": {
+        "sha": "78a09f2ad91625ffbf7bae505a7749d6d97ea96c",
+        "bytes": 24619,
+        "complete_payload_equal": true
+      },
+      ".recommendation/history/reddit.jsonl": {
+        "sha": "082356b8bff1718e0c9b5644a08b45e638b939a8",
+        "bytes": 32813,
+        "complete_payload_equal": true
+      }
+    },
+    "diversity": {
+      "youtube": {
+        "topics": {
+          "bearing_selection": 1,
+          "downstream_vacuum_transients": 1,
+          "panel_painting_structural_conservation": 1,
+          "musical_phasing": 1,
+          "rainforest_shelter_process": 1
+        },
+        "composition": {
+          "high_confidence": 3,
+          "adjacent": 1,
+          "wildcard": 1
+        }
+      },
+      "reddit": {
+        "topics": {
+          "mechanism state detection": 1,
+          "repair total-cost model": 1,
+          "historical relative-price comparison": 1,
+          "harmonic context": 1,
+          "translation aesthetics": 1,
+          "knitted fabric measurement": 1,
+          "community library programming": 1,
+          "public-service bundling": 1,
+          "plant-human dispersal question": 1,
+          "premodern communication logistics": 1
+        },
+        "composition": {
+          "high_confidence": 5,
+          "adjacent": 3,
+          "wildcard": 2
+        }
+      }
+    },
+    "structural": {
+      "all_hash_verified_discovery_notes": 111,
+      "youtube_strict_ids_checked": 165,
+      "reddit_strict_ids_checked": 330,
+      "history_append_only": {
+        "youtube": {
+          "original_rows": 185,
+          "current_rows": 190,
+          "new_exactly_once": 5
+        },
+        "reddit": {
+          "original_rows": 350,
+          "current_rows": 360,
+          "new_exactly_once": 10
+        }
+      },
+      "creator_latest_prior_date": {
+        "tim hunkin": null,
+        "Practical Engineering": "2026-10-04",
+        "Baumgartner Restoration": "2026-10-03",
+        "HAINBACH": null,
+        "Primitive Technology": "2026-09-27"
+      },
+      "journal": {
+        "status": "passed_immutable_publication_bundles",
+        "bundles": 8,
+        "base_ref": null,
+        "content_qa": "not_evaluated"
+      }
+    },
+    "planner": {
+      "operation_id": "news-youtube-reddit:2026-10-17",
+      "plan_sha256": "a3512accd99804312ee00dedb9d557b7bf8c9a4dd6f65f082d1f86b02ed002a1",
+      "status": "artifacts_match",
+      "next_stage": null,
+      "decisions": [
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "News/Daily/2026-10-17.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "5b128918916b1ff3436b4b6330de39d364a3184c"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Resources/YouTube/Daily/2026-10-17.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "222cccbebc9d5cea6562cd29a1f63b82b58d7e85"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Resources/Reddit/Daily/2026-10-17.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "5fb4214910002d83b8d4ac4c7f60ab954f9a3596"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/youtube.jsonl",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "68df5b9b8c6d66cfb9efa6fe394eb019347342c1",
+          "target_sha": "78a09f2ad91625ffbf7bae505a7749d6d97ea96c"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/reddit.jsonl",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "cb7a176d0e4bda190cf5b8143cab4119e817c913",
+          "target_sha": "082356b8bff1718e0c9b5644a08b45e638b939a8"
+        }
+      ],
+      "content_qa": "not_evaluated",
+      "github_writes_performed": 0
+    },
+    "source_editorial_review": "Five actual video pages plus listed original news sources reviewed before freezing; Reddit waiver applies. Current-list works/questions are distinct. Manual semantic assessment is separate from structural validators.",
+    "not_certified": [
+      "complete video playback",
+      "Reddit original pages/comments/accessibility",
+      "historical live sources",
+      "device synchronization",
+      "notification delivery"
+    ]
+  },
+  "regressions": {
+    "daily": {
+      "actual_tests_run": 63,
+      "result": "passed"
+    },
+    "publication": {
+      "actual_tests_run": 41,
+      "result": "passed"
+    }
+  },
+  "exact_publication_ci": {
+    "id": 38988014320,
+    "name": "Recommendation integrity (read-only)",
+    "node_id": "WFR_kwLOUMOAQc8AAAAJE93i8A",
+    "head_branch": "main",
+    "head_sha": "fda96363e1c141aa365943b2a5ce5c4df5072fb8",
+    "path": ".github/workflows/recommendation-health.yml",
+    "display_title": "Publish 2026-10-17 News YouTube Reddit with immutable bundle and appe…",
+    "run_number": 50,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "workflow_id": 383994881,
+    "check_suite_id": 105663278566,
+    "check_suite_node_id": "CS_kwDOUMOAQc8AAAAYmgWt5g",
+    "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/actions/runs/38988014320",
+    "html_url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/38988014320",
+    "pull_requests": [],
+    "created_at": "2026-10-17T00:47:56Z",
+    "updated_at": "2026-10-17T00:48:04Z",
+    "run_attempt": 1,
+    "referenced_workflows": [],
+    "run_started_at": "2026-10-17T00:47:56Z",
+    "jobs_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/actions/runs/38988014320/jobs",
+    "logs_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/actions/runs/38988014320/logs",
+    "check_suite_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/check-suites/105663278566",
+    "artifacts_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/actions/runs/38988014320/artifacts",
+    "cancel_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/actions/runs/38988014320/cancel",
+    "rerun_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/actions/runs/38988014320/rerun",
+    "previous_attempt_url": null,
+    "workflow_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/actions/workflows/383994881",
+    "head_commit": {
+      "id": "fda96363e1c141aa365943b2a5ce5c4df5072fb8",
+      "tree_id": "4aa00f075a5e6149d10e4f7638f0a8f01fbf9ed7",
+      "message": "Publish 2026-10-17 News YouTube Reddit with immutable bundle and append-only exposure histories",
+      "timestamp": "2026-10-17T00:47:53Z",
+      "author": {
+        "name": "ZJFILOVE",
+        "email": "zhujunfeng07@gmail.com"
+      },
+      "committer": {
+        "name": "ZJFILOVE",
+        "email": "zhujunfeng07@gmail.com"
+      }
+    }
+  },
+  "ci_jobs": [
+    {
+      "id": 117263897272,
+      "name": "validate",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 38988014320,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Validate publications and full source-history coverage",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Negative regressions and interrupted-publication recovery",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Compare permanent history with the actual base commit",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Record scope of checks",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
