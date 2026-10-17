@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-17",
+  "observed_at_utc": "2026-10-17 00:12:57 UTC",
+  "stage": 1,
+  "status": "artifacts_match",
+  "prepared_path": ".recommendation/transactions/english/2026-10-17.json",
+  "prepared_creation_commit": "c544aa4d7e4019c1bb4976d3aeccd9889e774584",
+  "original_bundle_sha256": "b8ec157dede3d2ea4f41b8589d6007acbaf24be445d4a377a559fa4d1be4fb49",
+  "original_plan_sha256": "44a30d0fc7386fb9287d959958a69d47b6f8297e0e38df0f725644e2afacd262",
+  "prepared_evidence_receipt": ".recommendation/transaction-runs/english/2026-10-17/20261017001127-prepared.json",
+  "parent_commit": "3a670269e28b8dae0f3f41629b474bed4ed98b61",
+  "actual_base_tree": "c5ef857900b1c5d6190d5b118ebce1759d6bbb30",
+  "new_tree_sha": "20a74921108f69c55bf202dffe024ecc29f4dece",
+  "publication_commit": "20ccd192fe7b359b470868e10fa7d967e945f8ab",
+  "non_force_ref_update": {
+    "success": true
+  },
+  "readbacks": {
+    "50-courses/English/Weekly/TV/2026-10-17.md": {
+      "sha": "1d95c4410d2e00749f8ed9b300a4a12b070f1169",
+      "bytes": 14800,
+      "complete_utf8": true
+    },
+    ".recommendation/history/english.jsonl": {
+      "sha": "0c7a35fccd29ab0b8e9458040648f457f846cac5",
+      "bytes": 10996,
+      "complete_utf8": true
+    }
+  },
+  "planner": {
+    "operation_id": "english:2026-10-17",
+    "plan_sha256": "44a30d0fc7386fb9287d959958a69d47b6f8297e0e38df0f725644e2afacd262",
+    "status": "artifacts_match",
+    "next_stage": null,
+    "decisions": [
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "50-courses/English/Weekly/TV/2026-10-17.md",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "1d95c4410d2e00749f8ed9b300a4a12b070f1169"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": ".recommendation/history/english.jsonl",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": "9d76f0a62c4aacacda5db5c654d2f54d976b5fc9",
+        "target_sha": "0c7a35fccd29ab0b8e9458040648f457f846cac5"
+      }
+    ],
+    "content_qa": "not_evaluated",
+    "github_writes_performed": 0
+  },
+  "local_checks": {
+    "publication_regressions": 41,
+    "daily_regressions": 63,
+    "immutable_bundles": 7,
+    "current_english_validator": {
+      "strict_sources_checked": 34,
+      "scope": "all English Daily/Weekly/TV source notes plus weekday companion existence; full repository CI checked separately"
+    }
+  },
+  "errors": [
+    {
+      "scope": "local QA harness only",
+      "error": "initial numbered-heading counter also counted four why-watch subsections",
+      "resolution": "scoped counter to language-chunk section and reran successfully; no publication or frozen payload changed"
+    }
+  ],
+  "remote_errors": [],
+  "ci": {
+    "run_id": 38985216326,
+    "head_sha": "20ccd192fe7b359b470868e10fa7d967e945f8ab",
+    "status": "completed",
+    "conclusion": "success",
+    "workflow_path": ".github/workflows/recommendation-health.yml",
+    "workflow_blob_sha": "4152514cc4b699451f5586731c206fb2c2ad8c59",
+    "jobs": [
+      {
+        "id": 117255001283,
+        "name": "validate",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 38985216326,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Validate publications and full source-history coverage",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Negative regressions and interrupted-publication recovery",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Compare permanent history with the actual base commit",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Record scope of checks",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 6
+          },
+          {
+            "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 12
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 13
+          }
+        ]
+      }
+    ]
+  },
+  "not_certified": [
+    "full episode playback",
+    "regional account availability",
+    "device synchronization",
+    "notification delivery"
+  ]
+}
