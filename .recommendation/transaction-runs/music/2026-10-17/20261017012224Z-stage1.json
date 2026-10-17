@@ -1,0 +1,27 @@
+{
+  "operation_id": "music:2026-10-17",
+  "stage": 1,
+  "observed_at": "2026-10-17 01:22:24 UTC",
+  "original_bundle_sha256": "3b148790e840cd9d43d41887dea55756e57357f62c6a285ff115cb3c1daa5447",
+  "prepared_creation_commit": "117525a9c31f060e89559c8abdc7b4af9310e8a3",
+  "prepared_blob_sha": "e18ed86160c99ebbb63a298ed4e282dfc906e7b6",
+  "publication_parent": "5165768e4b7a9f8088a40ac1fb6e5dbc5168e926",
+  "base_tree": "dafce803944a3863b2810c8d05a5292a15225ebb",
+  "publication_commit": "278213ec9caab8d6c7df56a13d80e4fe844e18b3",
+  "publication_tree": "c93d2c5bb48f625924c94c59129507593fe910d6",
+  "non_force_expected_head_update": {
+    "success": true
+  },
+  "readbacks": {
+    "recommendations/2026/10/2026-10-17.json": {
+      "sha": "28d482f6649e2b6cb3d67817ed0ecbfbf18e0a65",
+      "full_payload_equal": true
+    },
+    "state/tracks.json": {
+      "sha": "5f943a95c4882cdd074cc9d42e1678d390b16396",
+      "full_payload_equal": true
+    }
+  },
+  "errors": [],
+  "content_qa": "pending_stage2_and_postwrite"
+}
