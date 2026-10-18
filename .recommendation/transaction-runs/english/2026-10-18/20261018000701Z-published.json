@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-18",
+  "stage": "publication_readback",
+  "recorded_at": "2026-10-18 00:07:01 UTC",
+  "prepared_creation_commit": "260506efeb17dcbc31553b8570aca4adbc27c8ba",
+  "original_bundle_sha256": "4a1157e7458d49e73d117505142506b17caa3db62985ab96d871089257b3f435",
+  "publication_commit": "677faf91e5caaf1a8996168b821ab358bf50de7d",
+  "publication_parent": "bc7419086d9855f5891aa4e72c22daf6566d0639",
+  "publication_base_tree": "4c1dfd34155e34e60502ee9163dc0baf583b9a0f",
+  "publication_tree": "e9c332b0b88141533bfd0c40637c4962efb0f944",
+  "expected_head_nonforce_update": true,
+  "readbacks": [
+    {
+      "path": "50-courses/English/Weekly/2026-10-18.md",
+      "sha": "49805072638b2da16f45cc18e78c9874170ee9f2",
+      "exact_frozen_utf8_match": true
+    },
+    {
+      "path": ".recommendation/history/english.jsonl",
+      "sha": "da146f78d6fb5d626337f4fe94c70f934ad5f676",
+      "exact_frozen_utf8_match": true
+    }
+  ],
+  "prepared_readback_unchanged": true,
+  "qa_status": "post_write_checks_in_progress",
+  "errors": []
+}
