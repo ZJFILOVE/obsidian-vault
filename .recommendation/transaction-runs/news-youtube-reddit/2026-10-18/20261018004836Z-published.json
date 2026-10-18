@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-10-18",
+  "stage": "publication_readback",
+  "recorded_at": "2026-10-18 00:48:36 UTC",
+  "prepared_creation_commit": "6d12112eba73f401c94e3c78fda37a73457ad0fa",
+  "original_bundle_sha256": "2431ac89e2934894d9d00fad280e171a641cbfb976f0d557d31b6b1aa38e551c",
+  "publication_commit": "5466ccca3c2d0940b7a661acb3bd77e51a69e163",
+  "publication_parent": "7fccc65bc5909074590087a82b8608032cf464db",
+  "publication_base_tree": "d226ccec4ba39ac8419398296e945ab3aa368a08",
+  "publication_tree": "5714430d136038cdaf2846c4e895ea2175a9328d",
+  "expected_head_non_force": true,
+  "atomic_targets": 5,
+  "readbacks": [
+    {
+      "path": "News/Daily/2026-10-18.md",
+      "sha": "3f5187fa407b64f4e7b4512441a11542f089065f",
+      "complete_frozen_utf8_match": true
+    },
+    {
+      "path": "Resources/YouTube/Daily/2026-10-18.md",
+      "sha": "60d69bfd9315217450d3b5e492b0ec9beaa3023c",
+      "complete_frozen_utf8_match": true
+    },
+    {
+      "path": "Resources/Reddit/Daily/2026-10-18.md",
+      "sha": "49148fe7776307b3f798c0e17fd172dcebdc13cb",
+      "complete_frozen_utf8_match": true
+    },
+    {
+      "path": ".recommendation/history/youtube.jsonl",
+      "sha": "d80916599523b7e2581c7e8e0c5c04ffd2eb9511",
+      "complete_frozen_utf8_match": true
+    },
+    {
+      "path": ".recommendation/history/reddit.jsonl",
+      "sha": "abd9af749bcd586a1bf45d837c356a099fb40c1f",
+      "complete_frozen_utf8_match": true
+    }
+  ],
+  "qa_status": "post_write_checks_in_progress",
+  "errors": []
+}
