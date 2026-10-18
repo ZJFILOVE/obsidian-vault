@@ -1,0 +1,2191 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-10-18",
+  "project": "news-youtube-reddit",
+  "date": "2026-10-18",
+  "status": "passed_current_publication_applicable_gates_with_explicit_reddit_waiver",
+  "recorded_at": "2026-10-18 00:49:28 UTC",
+  "prepared": {
+    "path": ".recommendation/transactions/news-youtube-reddit/2026-10-18.json",
+    "creation_commit": "6d12112eba73f401c94e3c78fda37a73457ad0fa",
+    "blob_sha": "70b484270baba4f2ac88e736105f9eda87a45ec1",
+    "original_bundle_sha256": "2431ac89e2934894d9d00fad280e171a641cbfb976f0d557d31b6b1aa38e551c",
+    "original_plan_sha256": "1094dd7a551f1162ad82e91b96ae7c2f1fa8ede784e1daa9bf7f09e5805009f7",
+    "creation_digest_and_candidate_audit_path": ".recommendation/transaction-runs/news-youtube-reddit/2026-10-18/20261018004743Z-prepared.json",
+    "audit_commit": "7fccc65bc5909074590087a82b8608032cf464db",
+    "audit_readback": "exact_utf8_match"
+  },
+  "publication": {
+    "commit": "5466ccca3c2d0940b7a661acb3bd77e51a69e163",
+    "parent": "7fccc65bc5909074590087a82b8608032cf464db",
+    "base_tree": "d226ccec4ba39ac8419398296e945ab3aa368a08",
+    "tree": "5714430d136038cdaf2846c4e895ea2175a9328d",
+    "atomic_three_notes_and_both_histories": true,
+    "expected_head_non_force_update": true,
+    "stage_receipt": ".recommendation/transaction-runs/news-youtube-reddit/2026-10-18/20261018004836Z-published.json",
+    "stage_receipt_commit": "42cb90c00e42a97c9bcceee9c690ede430daee09",
+    "stage_receipt_readback": "exact_utf8_match",
+    "latest_verified_head": "42cb90c00e42a97c9bcceee9c690ede430daee09",
+    "latest_verified_tree": "0f2bd75fda9d4f5343f766144fef4199102bf3d4",
+    "changed_paths": [
+      ".recommendation/history/reddit.jsonl",
+      ".recommendation/history/youtube.jsonl",
+      ".recommendation/transaction-runs/news-youtube-reddit/2026-10-18/20261018004743Z-prepared.json",
+      ".recommendation/transaction-runs/news-youtube-reddit/2026-10-18/20261018004836Z-published.json",
+      ".recommendation/transactions/news-youtube-reddit/2026-10-18.json",
+      "News/Daily/2026-10-18.md",
+      "Resources/Reddit/Daily/2026-10-18.md",
+      "Resources/YouTube/Daily/2026-10-18.md"
+    ],
+    "deleted_paths": []
+  },
+  "preselection_and_source_evidence": {
+    "operation_id": "news-youtube-reddit:2026-10-18",
+    "business_date": "2026-10-18",
+    "original_head": "82994fcae23ea8db7b9dc06df67f2317ffc6654d",
+    "verified_fresh_connector_inputs": 38,
+    "fresh_input_blob_shas": {
+      ".github/workflows/recommendation-health.yml": "4152514cc4b699451f5586731c206fb2c2ad8c59",
+      ".recommendation/PUBLISHING.md": "cc67ccd8d20b22487f2667848cdda4b3181724c5",
+      ".recommendation/RECOVERY.md": "4114794ccd70578cf81e32ed23e391b289ab290f",
+      ".recommendation/history/reddit.jsonl": "082356b8bff1718e0c9b5644a08b45e638b939a8",
+      ".recommendation/history/youtube.jsonl": "78a09f2ad91625ffbf7bae505a7749d6d97ea96c",
+      ".recommendation/policy.json": "cf9d1b486e07ca1efe965cf6af6f0ea422497670",
+      ".recommendation/transactions/english/2026-10-15.json": "27ec70439a351f3bce6cf132707575a179bbd76d",
+      ".recommendation/transactions/english/2026-10-16.json": "de8a818a65870fe20f6e0bb3f5882e6857d463a7",
+      ".recommendation/transactions/english/2026-10-17.json": "ff55e3144a1f2d6a2c47f86224615af47d87c176",
+      ".recommendation/transactions/english/2026-10-18.json": "f7826754339e5156abe1a08f8e2aafee386488e2",
+      ".recommendation/transactions/music/2026-10-15.json": "23aaa2338fecaef704624b62f2935caf93d4a4da",
+      ".recommendation/transactions/music/2026-10-16.json": "bf759b0b0d935bb32da75ac53636e123fcb0cb63",
+      ".recommendation/transactions/music/2026-10-17.json": "e18ed86160c99ebbb63a298ed4e282dfc906e7b6",
+      ".recommendation/transactions/news-youtube-reddit/2026-10-15.json": "c57c31dff9e3030d837b9f624046e20d83254f2d",
+      ".recommendation/transactions/news-youtube-reddit/2026-10-16.json": "9efef6111091c4caeb3f2ca5c8fcfafa6130907c",
+      ".recommendation/transactions/news-youtube-reddit/2026-10-17.json": "fb863cb8a946d67a3cfd9ed71f87c5d8907102a7",
+      "News/Daily/2026-10-11.md": "b505dbed658c51b718d681303b4932505bedb76e",
+      "News/Daily/2026-10-15.md": "b62ac222855103ccfa6a5d48014c75cdcd6d5025",
+      "News/Daily/2026-10-16.md": "42daad9606c4980cfdd17eff30c5d7819483cf5d",
+      "News/Daily/2026-10-17.md": "5b128918916b1ff3436b4b6330de39d364a3184c",
+      "Resources/Reddit/Daily/2026-10-11.md": "8e4765458715df19f638113d63736213b7c54864",
+      "Resources/Reddit/Daily/2026-10-15.md": "892ae4390f7ead17db6881dd5fdaa4d0656873f6",
+      "Resources/Reddit/Daily/2026-10-16.md": "4562dddfbfb181fe2024150823dc89bba97eeb54",
+      "Resources/Reddit/Daily/2026-10-17.md": "5fb4214910002d83b8d4ac4c7f60ab954f9a3596",
+      "Resources/YouTube/Daily/2026-10-11.md": "d8b1d0c79eafbfa19c64fad1a4858de340c68f2b",
+      "Resources/YouTube/Daily/2026-10-15.md": "aca76897d3a09956ec3bd5c11cbf57ab0e14f13f",
+      "Resources/YouTube/Daily/2026-10-16.md": "dd21c955167d4a5bebcfd4a92ef51cbbcc64c78e",
+      "Resources/YouTube/Daily/2026-10-17.md": "222cccbebc9d5cea6562cd29a1f63b82b58d7e85",
+      "scripts/check_daily_integrity.py": "ee55e6addd709f84ac35962c3eb94873e2409195",
+      "scripts/check_remote_music_snapshot.py": "00410cd856b3ec02a0da743dddbb1d427192bb78",
+      "scripts/publication_bundle.py": "83b1567891513afabec7960fb80888eed3e870df",
+      "scripts/publication_recovery.py": "deda24c3da708841779aa328f2aceb96431a86f2",
+      "scripts/test_daily_integrity.py": "da742f5bea65bbba1166d01c75f0c9af16bbe9ac",
+      "scripts/test_daily_validator.py": "ddb0bd1bd950631b529a6875d5835b27cded9bc4",
+      "scripts/test_publication_bundle.py": "64a0b8a82cff48569146d5caceb4794df90e7792",
+      "scripts/test_publication_recovery.py": "872e7692ad023480eddc0e822214174b2bbb3b33",
+      "scripts/test_remote_music_snapshot.py": "77993a5429bdd2b3eac9e5c158c6091838163cb7",
+      "scripts/validate_daily_recommendations.py": "b1b5cacc3ff1754233103b9f57513a3acb5d1db2"
+    },
+    "complete_tree_entries": 727,
+    "cached_historical_notes_verified_against_current_tree": {
+      "News/Daily/2026-09-07.md": "709da750e28f38b32803e9a3be2150eeaa838466",
+      "News/Daily/2026-09-08.md": "7f21563142cf3cf744cf6c2823f5f05f389b069e",
+      "News/Daily/2026-09-09.md": "9767f2d8bf6d7c491c47853d57647c57272f3d0f",
+      "News/Daily/2026-09-10.md": "82c93cf39ca893a8d66ba761d4baf69b58cc663c",
+      "News/Daily/2026-09-11.md": "94aca32ff1b9b3bfb9ec968ee4cee35177368cd2",
+      "News/Daily/2026-09-12.md": "6cf0ea0705b26cee35da5792627c53d92e60cd36",
+      "News/Daily/2026-09-13.md": "7ff4e29c56e7b55698609782944d2c45fdc4eded",
+      "News/Daily/2026-09-14.md": "ac67f2fdce98795ed79c5b2a0ff8075aa0e14298",
+      "News/Daily/2026-09-15.md": "3cfe8de3a8184767c39b436d97861ce39f501518",
+      "News/Daily/2026-09-16.md": "1ff0d81f89c7d10cb1e95ea03cf89c2bad1a0843",
+      "News/Daily/2026-09-17.md": "593ae40458d3f8c4752787a43e4453f9688445ed",
+      "News/Daily/2026-09-18.md": "dc1e49df4cfbf47ef45bde66e49e70ce34ee9e30",
+      "News/Daily/2026-09-19.md": "fe34a0c4d3d08fa07772d2dcc8aad0d321507b91",
+      "News/Daily/2026-09-20.md": "c6ae62294ac5bc31cffa69bca07d1d3ba7ea4f13",
+      "News/Daily/2026-09-21.md": "42a45325fe662be67c291441dfb3f190f840bda2",
+      "News/Daily/2026-09-22.md": "201c063b2d7adbc4ae179b290187ff1899ae3a19",
+      "News/Daily/2026-09-23.md": "821b87b9f61be1f6016c7fc05184941f8a0493a6",
+      "News/Daily/2026-09-24.md": "40c51c7fb5fc5017c52032b5b73f9226188c93e6",
+      "News/Daily/2026-09-25.md": "4d83ff590764a899afac53f3d3b0fa0f47578489",
+      "News/Daily/2026-09-26.md": "508768482dc5193bdc69dd810033e277aed9534e",
+      "News/Daily/2026-09-27.md": "0366b66c4965e7f024f652ba816f30c38b80ac77",
+      "News/Daily/2026-09-28.md": "ee74bf417300faeb6aae44b23ae33c063ac40d01",
+      "News/Daily/2026-09-29.md": "a4fd64f7a7b5fe87169795353e3e60df91b79882",
+      "News/Daily/2026-09-30.md": "ede307dccaee3f37c871ced5f249296d634e6d12",
+      "News/Daily/2026-10-01.md": "5b8390204344225b3ecbe00a2b3fe4e3f38c11a2",
+      "News/Daily/2026-10-02.md": "0907a75d1294f01df61d7e692e81dcfe7a6d4dc0",
+      "News/Daily/2026-10-03.md": "8d9fa5d9f9fa83901eb71e1287f2354fd0ff6577",
+      "News/Daily/2026-10-04.md": "9ef58968914d357e7f5d53c0f20882acc745212e",
+      "News/Daily/2026-10-05.md": "429ef9de16fb033920e30390ea0c2a4d6e54bcf4",
+      "News/Daily/2026-10-06.md": "30b493880ffd369a48330d41ab58338d7d1bacc1",
+      "News/Daily/2026-10-07.md": "2c61bf7d7d6a596d7fb4921379426fe72e6e495d",
+      "News/Daily/2026-10-08.md": "06cd0c616a5c9e2e6f239f1b808c51c90e93e5a0",
+      "News/Daily/2026-10-09.md": "361dbddbdce96fe1a7a013e2e6e28a7675555c59",
+      "News/Daily/2026-10-11.md": "b505dbed658c51b718d681303b4932505bedb76e",
+      "News/Daily/2026-10-15.md": "b62ac222855103ccfa6a5d48014c75cdcd6d5025",
+      "News/Daily/2026-10-16.md": "42daad9606c4980cfdd17eff30c5d7819483cf5d",
+      "News/Daily/2026-10-17.md": "5b128918916b1ff3436b4b6330de39d364a3184c",
+      "Resources/YouTube/Daily/2026-09-06.md": "857a81cf35eee868a580fec8235261154d04da74",
+      "Resources/YouTube/Daily/2026-09-07.md": "0557628fd48a287a263bcfb3090ce97872d32bef",
+      "Resources/YouTube/Daily/2026-09-08.md": "d3341592df78b27e9625e5595d9d7622d8bd985f",
+      "Resources/YouTube/Daily/2026-09-09.md": "11e34829c51d51823bc06fc00267b4b2dcbe7170",
+      "Resources/YouTube/Daily/2026-09-10.md": "c1721017ca734facbcbef141a07f4820e684ff40",
+      "Resources/YouTube/Daily/2026-09-11.md": "de2da4788ed8021966897175ab8f14da268ca62b",
+      "Resources/YouTube/Daily/2026-09-12.md": "f213802c9c3f6704be2dc7e12d0a4829c4a52356",
+      "Resources/YouTube/Daily/2026-09-13.md": "40262d9962121c34349621a64ecc1c79e1cba559",
+      "Resources/YouTube/Daily/2026-09-14.md": "786bd5b9fae939fe3956fe8f829bff030487e78e",
+      "Resources/YouTube/Daily/2026-09-15.md": "443a9c189265c2e177debb16f515818961c218cc",
+      "Resources/YouTube/Daily/2026-09-16.md": "d42ca727777fdb88caf5d260234bbb94815ffd15",
+      "Resources/YouTube/Daily/2026-09-17.md": "46f2c5179acb04a186853da17a1f76758bdd9fe7",
+      "Resources/YouTube/Daily/2026-09-18.md": "5df04cf4f934d268f264ecbe3342017c95ecfa00",
+      "Resources/YouTube/Daily/2026-09-19.md": "3ab950cf5e130bc11844a7854e84d19c608109f9",
+      "Resources/YouTube/Daily/2026-09-20.md": "eef4f8fe77622507581046cc5e682d518444fc2b",
+      "Resources/YouTube/Daily/2026-09-21.md": "7f8bb6af57fb99f3995a09c6a5df17abf69788e7",
+      "Resources/YouTube/Daily/2026-09-22.md": "befea536ea4a42d573906c68f1824dbd15c29ba8",
+      "Resources/YouTube/Daily/2026-09-23.md": "caf5b616ff6a49e2d5fc1e7fe15436832fc35ec6",
+      "Resources/YouTube/Daily/2026-09-24.md": "a5ea8f5edf5f6084cb7b519294aed277dca56d7d",
+      "Resources/YouTube/Daily/2026-09-25.md": "6d4b8acc3bb648f52a1eb77d32fe725aad9ffa82",
+      "Resources/YouTube/Daily/2026-09-26.md": "79b061d8159dadf03dd94602d1fc2bf3ef61bab3",
+      "Resources/YouTube/Daily/2026-09-27.md": "cdfcddc05c08fa227719ae6fc3b76aa63c74a838",
+      "Resources/YouTube/Daily/2026-09-28.md": "21fc0aed46c8632f978369752a4bd324411c63c2",
+      "Resources/YouTube/Daily/2026-09-29.md": "23a4e883297eb47dc9b67373a01d698ba1e80905",
+      "Resources/YouTube/Daily/2026-09-30.md": "0d5c165bf6c6d3436759d0ed9f270b5b64d5f9ab",
+      "Resources/YouTube/Daily/2026-10-01.md": "2dfc9797343ff81467a03f7c72c567d5b5929c54",
+      "Resources/YouTube/Daily/2026-10-02.md": "6e1a15f4be0e0b7360d0dedae1ca4dbe77ea3814",
+      "Resources/YouTube/Daily/2026-10-03.md": "b4477d1955ad8a4779e21696cf8b802a012c0883",
+      "Resources/YouTube/Daily/2026-10-04.md": "242f6bbd15f0c0dc31fd7477b81c21d187e02ee9",
+      "Resources/YouTube/Daily/2026-10-05.md": "63bdeafe85937800ea2f770322bf49e16c5ca8b8",
+      "Resources/YouTube/Daily/2026-10-06.md": "bd5216c04573d73df65298f0e6cec4136ce7259f",
+      "Resources/YouTube/Daily/2026-10-07.md": "e77e6b9e51b2750d9a1d41de63fc0597547878ab",
+      "Resources/YouTube/Daily/2026-10-08.md": "e8863ca2894d111365d1dc486f6a3a79045caa47",
+      "Resources/YouTube/Daily/2026-10-09.md": "59452cfde3bed1c76c3a1ff81e08e9d257d4497a",
+      "Resources/YouTube/Daily/2026-10-11.md": "d8b1d0c79eafbfa19c64fad1a4858de340c68f2b",
+      "Resources/YouTube/Daily/2026-10-15.md": "aca76897d3a09956ec3bd5c11cbf57ab0e14f13f",
+      "Resources/YouTube/Daily/2026-10-16.md": "dd21c955167d4a5bebcfd4a92ef51cbbcc64c78e",
+      "Resources/YouTube/Daily/2026-10-17.md": "222cccbebc9d5cea6562cd29a1f63b82b58d7e85",
+      "Resources/Reddit/Daily/2026-09-08.md": "a36113e47916dd15098c22127d72615954ad283f",
+      "Resources/Reddit/Daily/2026-09-09.md": "776a91ba6473f19ff4bcf9767c1e660775e021e7",
+      "Resources/Reddit/Daily/2026-09-10.md": "952ae2e517827e7f522ac4cc338a4836ab0406de",
+      "Resources/Reddit/Daily/2026-09-11.md": "d0586b09582b9a6e9e2cc40ef7e0066ace8e44c8",
+      "Resources/Reddit/Daily/2026-09-12.md": "1cab13e176ab473c54f5acb36464c134680aea6a",
+      "Resources/Reddit/Daily/2026-09-13.md": "a8cc68f4e4eff669079cc4e48489d435b2f687e2",
+      "Resources/Reddit/Daily/2026-09-14.md": "25e942a85d911244a585fb1961a79e50912a6cb5",
+      "Resources/Reddit/Daily/2026-09-15.md": "0894e3c5b10a1dedbcce126e17b429c7d4c3fb93",
+      "Resources/Reddit/Daily/2026-09-16.md": "4dd6166592b6f6b129a0c97c1d6cb1c6ebb0cfbb",
+      "Resources/Reddit/Daily/2026-09-17.md": "3367a96fe89bb9a57977d821a27c780e6bd1c87b",
+      "Resources/Reddit/Daily/2026-09-18.md": "7fb1054c7c09ffb7f3545f6eb3e38ae782b81e47",
+      "Resources/Reddit/Daily/2026-09-19.md": "50d13a6927a214dfdf623ddeea32e9055b3e3073",
+      "Resources/Reddit/Daily/2026-09-20.md": "508bc9763b9c3bf4c4631eb79835e92fb1f77c27",
+      "Resources/Reddit/Daily/2026-09-21.md": "78dabc20381a6fbaa2021bb1f857fd03fe466936",
+      "Resources/Reddit/Daily/2026-09-22.md": "a7f695da71678e224f99bdd5e311e5146cadf54f",
+      "Resources/Reddit/Daily/2026-09-23.md": "cc8723335dc85dd07f5d31065e8bbc584a085e9a",
+      "Resources/Reddit/Daily/2026-09-24.md": "c7b0357356d0357d27a44e37f3dfe7e536053780",
+      "Resources/Reddit/Daily/2026-09-25.md": "34060cf1925a06a6d066d017e27ef4bee6dabc4e",
+      "Resources/Reddit/Daily/2026-09-26.md": "5ab0579a217d6c183834b8a8914adcef297b11e1",
+      "Resources/Reddit/Daily/2026-09-27.md": "a1986773c83532de623e45e36098a773d8c1e75a",
+      "Resources/Reddit/Daily/2026-09-28.md": "4474fb9812d97ba8030a61db3b722bec964a871f",
+      "Resources/Reddit/Daily/2026-09-29.md": "16a42c4aac35659cbf066a7776b6d7f9b9dcf620",
+      "Resources/Reddit/Daily/2026-09-30.md": "0f7d6260a501fa1dc0aad2f46979d7be6dd76032",
+      "Resources/Reddit/Daily/2026-10-01.md": "f1312d166d53e258ca3b4b828a76c97c5fcaadff",
+      "Resources/Reddit/Daily/2026-10-02.md": "b6a73650a93c3805ff05aaa84cf119512d4b3ae1",
+      "Resources/Reddit/Daily/2026-10-03.md": "a9ba380c4571d9869d7fca788b3114261c76915c",
+      "Resources/Reddit/Daily/2026-10-04.md": "a52afef39606e01b8b5910a37262ec118db53c52",
+      "Resources/Reddit/Daily/2026-10-05.md": "45f4e688da9e44436665aa425c957bb05529fda1",
+      "Resources/Reddit/Daily/2026-10-06.md": "c9b5b960e2ce2e1e406b1b31dce5225287d08ee0",
+      "Resources/Reddit/Daily/2026-10-07.md": "a5ec904ceb12108ed0f0905a4be00ecee3ff2e7b",
+      "Resources/Reddit/Daily/2026-10-08.md": "e937e281facd7db3a5775db1974b8cf659158738",
+      "Resources/Reddit/Daily/2026-10-09.md": "696f7410b65b5bae4a886a71d2df9b9768081e6a",
+      "Resources/Reddit/Daily/2026-10-11.md": "8e4765458715df19f638113d63736213b7c54864",
+      "Resources/Reddit/Daily/2026-10-15.md": "892ae4390f7ead17db6881dd5fdaa4d0656873f6",
+      "Resources/Reddit/Daily/2026-10-16.md": "4562dddfbfb181fe2024150823dc89bba97eeb54",
+      "Resources/Reddit/Daily/2026-10-17.md": "5fb4214910002d83b8d4ac4c7f60ab954f9a3596"
+    },
+    "original_history_rows": {
+      "youtube": 190,
+      "reddit": 360
+    },
+    "prepared_reservations": [
+      {
+        "path": ".recommendation/transactions/english/2026-10-15.json",
+        "operation_id": "english:2026-10-15",
+        "bundle_sha256": "6c3b5cf58e40281d642ba475701ad417e442bcd5836eecd0de75207ff014fda0"
+      },
+      {
+        "path": ".recommendation/transactions/english/2026-10-16.json",
+        "operation_id": "english:2026-10-16",
+        "bundle_sha256": "df92655322c6c9a25e2b712d5b8b53578f727c42bb5ad41e8e1df6b8b8b230b9"
+      },
+      {
+        "path": ".recommendation/transactions/english/2026-10-17.json",
+        "operation_id": "english:2026-10-17",
+        "bundle_sha256": "b8ec157dede3d2ea4f41b8589d6007acbaf24be445d4a377a559fa4d1be4fb49"
+      },
+      {
+        "path": ".recommendation/transactions/english/2026-10-18.json",
+        "operation_id": "english:2026-10-18",
+        "bundle_sha256": "4a1157e7458d49e73d117505142506b17caa3db62985ab96d871089257b3f435"
+      },
+      {
+        "path": ".recommendation/transactions/music/2026-10-15.json",
+        "operation_id": "music:2026-10-15",
+        "bundle_sha256": "6f528f228bc06a123416263a414416e2c24bfa5de35e6b82428ee88fffba1f49"
+      },
+      {
+        "path": ".recommendation/transactions/music/2026-10-16.json",
+        "operation_id": "music:2026-10-16",
+        "bundle_sha256": "b67b518dd0cf68365892c1ed55d7c5952b5d3e4d14614ea2e24049c192b0655d"
+      },
+      {
+        "path": ".recommendation/transactions/music/2026-10-17.json",
+        "operation_id": "music:2026-10-17",
+        "bundle_sha256": "3b148790e840cd9d43d41887dea55756e57357f62c6a285ff115cb3c1daa5447"
+      },
+      {
+        "path": ".recommendation/transactions/news-youtube-reddit/2026-10-15.json",
+        "operation_id": "news-youtube-reddit:2026-10-15",
+        "bundle_sha256": "b88e1ca0d92e8e2814a3c9a8e4d15573767382f688c8c158ec2cd07d9bb15ee6"
+      },
+      {
+        "path": ".recommendation/transactions/news-youtube-reddit/2026-10-16.json",
+        "operation_id": "news-youtube-reddit:2026-10-16",
+        "bundle_sha256": "73643a0897bd7acbff4943bfdbf4f7433c8f7c5451227efdfebfc4ae9bb68449"
+      },
+      {
+        "path": ".recommendation/transactions/news-youtube-reddit/2026-10-17.json",
+        "operation_id": "news-youtube-reddit:2026-10-17",
+        "bundle_sha256": "926479baa83baed7b6783bab94c9c4bbffc0244c4bf958b4146be7f92b025558"
+      }
+    ],
+    "journal_validation": {
+      "status": "passed_immutable_publication_bundles",
+      "bundles": 10,
+      "base_ref": null,
+      "content_qa": "not_evaluated"
+    },
+    "youtube_candidate_pool": [
+      {
+        "video_id": "NSS6yAMZF78",
+        "title": "Motion Extraction",
+        "channel": "Posy",
+        "topic": "video difference imaging",
+        "decision": "selected",
+        "category": "high_confidence",
+        "scores": [
+          4.7,
+          4.6,
+          4.7,
+          4.8,
+          4.5
+        ],
+        "evidence": "actual YouTube watch page, full expanded author description and complete visible 0:04–6:56 transcript read; source footage declared shot by creator",
+        "selection_reason": "七分钟把时间差分做成直接观察，不是泛泛介绍图像处理；新创作者与新作品",
+        "url": "https://www.youtube.com/watch?v=NSS6yAMZF78",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "YGLNyHd2w10",
+        "title": "I Solved Klotski",
+        "channel": "2swap",
+        "topic": "puzzle state graphs",
+        "decision": "selected",
+        "category": "high_confidence",
+        "scores": [
+          4.5,
+          4.6,
+          4.7,
+          4.6,
+          4.7
+        ],
+        "evidence": "actual watch page title/channel/date and expanded description read; author links interactive Klotski graph and SwapTube source; transcript panel did not finish loading",
+        "selection_reason": "把滑块谜题连接到状态图，适合组合数学兴趣；不把影片当完整证明",
+        "url": "https://www.youtube.com/watch?v=YGLNyHd2w10",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "RSTNhvDGbYI",
+        "title": "Old-fashioned rice cookers are extremely clever",
+        "channel": "Technology Connections",
+        "topic": "appliance thermomechanical control",
+        "decision": "selected",
+        "category": "high_confidence",
+        "scores": [
+          4.5,
+          4.7,
+          4.5,
+          4.3,
+          4.3
+        ],
+        "penalty": 0.15,
+        "evidence": "actual watch page identity/date2020-01-15 and expanded author description read; player duration11:11; creator-linked patent US4315139A/en directly read including thermoswitch and temperature-dependent magnetic permeability; transcript panel remained loading, not counted as read",
+        "selection_reason": "日常装置里的温度与反馈问题；同创作者上次10月11日，恰为七天，保留近期创作者惩罚而非忽略",
+        "url": "https://www.youtube.com/watch?v=RSTNhvDGbYI",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "Qr3VsZYQy4s",
+        "title": "How I released a game that has no assets",
+        "channel": "Zanzlanz",
+        "topic": "procedural game assets and constraints",
+        "decision": "selected",
+        "category": "adjacent_exploration",
+        "scores": [
+          4.6,
+          4.3,
+          4.8,
+          4.8,
+          4.1
+        ],
+        "evidence": "actual watch page and complete expanded creator description/chapters read; date 2026-08-04; duration 33:10; playable Crow Sign link observed; transcript panel remained loading",
+        "selection_reason": "正弦波约束贯穿图像、声音和游戏，具体制作过程比抽象编程鼓励更值得看",
+        "url": "https://www.youtube.com/watch?v=Qr3VsZYQy4s",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "W8oIeL_OPc8",
+        "title": "Line Rider - Fade",
+        "channel": "DoodleChaos",
+        "topic": "hand-authored music synchronization",
+        "decision": "selected",
+        "category": "wildcard",
+        "scores": [
+          4.4,
+          3.6,
+          4.8,
+          4.8,
+          4
+        ],
+        "evidence": "actual watch page and complete creator description read; date2018-02-06; author describes hand-drawn synchronization, 58 sessions and 2618 lines, recommended60fps; not independently reproduced",
+        "selection_reason": "音乐与轨道动作的纯观看体验；创作说明而非营销摘要，不把游戏当物理实验",
+        "url": "https://www.youtube.com/watch?v=W8oIeL_OPc8",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "8fl2xSBhkkM",
+        "title": "Round HiFi",
+        "channel": "Posy",
+        "decision": "rejected",
+        "reason": "actual related card; same creator as stronger verified pick, final content not examined",
+        "url": "https://www.youtube.com/watch?v=8fl2xSBhkkM",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "6k_Ui76iLps",
+        "title": "The Secret Climate Engine Hidden Inside Forests",
+        "channel": "The Natural Code",
+        "decision": "rejected",
+        "reason": "actual related card; broad factual claim not source-checked, insufficient evidence",
+        "url": "https://www.youtube.com/watch?v=6k_Ui76iLps",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "78aefts1nPI",
+        "title": "Golden Autumn Riverside Escape 🍁 Soft Piano & Campfire for Cozy Background Ambience",
+        "channel": "Healing River",
+        "decision": "rejected",
+        "reason": "actual related card; generic long ambience lacks particular editorial value",
+        "url": "https://www.youtube.com/watch?v=78aefts1nPI",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "VckU9UXI_XE",
+        "title": "Dots",
+        "channel": "Posy",
+        "decision": "rejected",
+        "reason": "actual related card; same creator concentration, not final verified",
+        "url": "https://www.youtube.com/watch?v=VckU9UXI_XE",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "wPCrbAjyl6U",
+        "title": "Boston Common LIVE - Fall Foliage 🍂 | 24/7 Boston Skyline Webcam",
+        "channel": "Third Polar Arch",
+        "decision": "rejected",
+        "reason": "actual related card; live ambient scene not a durable substantive recommendation",
+        "url": "https://www.youtube.com/watch?v=wPCrbAjyl6U",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "PEJnsBeQ_Y8",
+        "title": "Lamps",
+        "channel": "Posy",
+        "decision": "rejected",
+        "reason": "actual related card; same creator penalty, prefer complete-source-checked Motion Extraction",
+        "url": "https://www.youtube.com/watch?v=PEJnsBeQ_Y8",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "yqUv2JO2BCs",
+        "title": "Portals to Non-Euclidean Geometries",
+        "channel": "ZenoRogue",
+        "decision": "rejected",
+        "reason": "actual related card; good mathematical exploration but would concentrate list on game/geometry, not directly examined",
+        "url": "https://www.youtube.com/watch?v=yqUv2JO2BCs",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "5PXrpAKSA9k",
+        "title": "3 Generations of VFX Artists Blow Up The Same Building",
+        "channel": "Windows",
+        "decision": "rejected",
+        "reason": "actual related card; sponsor-branded comparison not fully evaluated, effects topic follows recent VFX pick",
+        "url": "https://www.youtube.com/watch?v=5PXrpAKSA9k",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "gsJHzBTPG0Y",
+        "title": "Better Mountain Generators That Aren't Perlin Noise or Erosion",
+        "channel": "Josh's Channel",
+        "decision": "rejected",
+        "reason": "actual related card; procedural graphics overlaps today's game-asset candidate, final source not examined",
+        "url": "https://www.youtube.com/watch?v=gsJHzBTPG0Y",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "hCQCP-5g5bo",
+        "title": "I Saved a PNG Image To A Bird",
+        "channel": "Benn Jordan",
+        "decision": "rejected",
+        "reason": "actual related card; interesting but strong technical interpretation and bird behavior require more primary checking than title supplies",
+        "url": "https://www.youtube.com/watch?v=hCQCP-5g5bo",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "ckiZf9X8GrY",
+        "title": "Scifi Hifi",
+        "channel": "Posy",
+        "decision": "rejected",
+        "reason": "actual related card; same creator concentration",
+        "url": "https://www.youtube.com/watch?v=ckiZf9X8GrY",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "J6ak_Mo5T2M",
+        "title": "The Frozen North, Slowly Explained for Sleep | A Calm Arctic Night of Snow, Ice and Northern Lights",
+        "channel": "Sandman Science",
+        "decision": "rejected",
+        "reason": "actual related card; generic long sleep exposition, source not examined",
+        "url": "https://www.youtube.com/watch?v=J6ak_Mo5T2M",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "Uapad3pVxBY",
+        "title": "Real-Time Datamoshing in Unreal Looks Mesmerizing",
+        "channel": "Jam2go",
+        "decision": "rejected",
+        "reason": "actual related card; overlaps digital image transformation, not final source checked",
+        "url": "https://www.youtube.com/watch?v=Uapad3pVxBY",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "8jMU9-RdS1g",
+        "title": "當初都猜錯了！俄烏戰爭已打得比一戰還久，還要耗到什麼時候？打下去是深淵，停下來為何也是困局？（文昭談古論今1769期）",
+        "channel": "文昭談古論今 -Wen Zhao Official",
+        "decision": "rejected",
+        "reason": "actual related card; high-stakes current geopolitical interpretation lacks independent verification, rhetorical headline",
+        "url": "https://www.youtube.com/watch?v=8jMU9-RdS1g",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "JxERpjVbiGs",
+        "title": "What Yellowstone Would Do to the Entire Planet",
+        "channel": "AEVANT",
+        "decision": "rejected",
+        "reason": "actual related card; catastrophe framing and insufficient verified evidence",
+        "url": "https://www.youtube.com/watch?v=JxERpjVbiGs",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "ylXeuDp_8XM",
+        "title": "The Best Motion Design & Animation of 2026 (So Far...)",
+        "channel": "Ben Marriott",
+        "decision": "rejected",
+        "reason": "actual related card; broad roundup versus today's particular mechanism and one coherent creative project",
+        "url": "https://www.youtube.com/watch?v=ylXeuDp_8XM",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "7wLQmJN6-VM",
+        "title": "The Impossible Lens In You",
+        "channel": "Pseudoodle",
+        "decision": "rejected",
+        "reason": "actual related card; biological/optical claims not examined, does not pass final source gate",
+        "url": "https://www.youtube.com/watch?v=7wLQmJN6-VM",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "SthcxWPXG_E",
+        "title": "I heard you like polyrhythms",
+        "channel": "Virtual Riot",
+        "decision": "rejected",
+        "reason": "actual related card; yesterday's phasing already music-technique heavy, today choose a different creative viewing format",
+        "url": "https://www.youtube.com/watch?v=SthcxWPXG_E",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "KaljD3Q3ct0",
+        "title": "I Solved Connect 4",
+        "channel": "2swap",
+        "decision": "rejected",
+        "reason": "actual related card; same creator and solved-game narrow-topic concentration",
+        "url": "https://www.youtube.com/watch?v=KaljD3Q3ct0",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "Ed1gsyxxwM0",
+        "title": "Mandelbrot's Evil Twin",
+        "channel": "2swap",
+        "decision": "rejected",
+        "reason": "actual related card; same creator and mathematical topic concentration",
+        "url": "https://www.youtube.com/watch?v=Ed1gsyxxwM0",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "n1aAmGuWX0M",
+        "title": "llama.cpp runs MoE models up to 2.2x faster when VRAM runs out",
+        "channel": "Code Presenter",
+        "decision": "rejected",
+        "reason": "actual related card; software/version benchmark unverified, would imply unstable technical recommendation",
+        "url": "https://www.youtube.com/watch?v=n1aAmGuWX0M",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "9HIy5dJE-zQ",
+        "title": "Mystery of the Quintic",
+        "channel": "2swap",
+        "decision": "rejected",
+        "reason": "actual related card; same creator and math-topic concentration, unexamined final source",
+        "url": "https://www.youtube.com/watch?v=9HIy5dJE-zQ",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "dtjb2OhEQcU",
+        "title": "Double Pendulums are Chaoticn't",
+        "channel": "2swap",
+        "decision": "rejected",
+        "reason": "actual related card; same creator, physics claim unexamined",
+        "url": "https://www.youtube.com/watch?v=dtjb2OhEQcU",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "ioWH8BsZwZ8",
+        "title": "0% of Numbers Are Knowable",
+        "channel": "QuasarBright",
+        "decision": "rejected",
+        "reason": "actual related card; provocative mathematical scope requires careful definitions, not examined",
+        "url": "https://www.youtube.com/watch?v=ioWH8BsZwZ8",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "v68zYyaEmEA",
+        "title": "Solving Wordle using information theory",
+        "channel": "3Blue1Brown",
+        "decision": "rejected",
+        "reason": "actual related card; creator used two days ago, puzzle/algorithm topic already represented",
+        "url": "https://www.youtube.com/watch?v=v68zYyaEmEA",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "s86-Z-CbaHA",
+        "title": "The Banach–Tarski Paradox",
+        "channel": "Vsauce",
+        "decision": "rejected",
+        "reason": "actual related card; permanent prior exact ID exposure September8, never eligible",
+        "url": "https://www.youtube.com/watch?v=s86-Z-CbaHA",
+        "fresh_exact_id": false,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      },
+      {
+        "video_id": "d7XKX2WsEnA",
+        "title": "Can this house slow down time?",
+        "channel": "DamiLee",
+        "decision": "rejected",
+        "reason": "actual watch identity and sponsorship-heavy expanded description read, transcript remained loading; insufficient particular content evidence for final recommendation",
+        "url": "https://www.youtube.com/watch?v=d7XKX2WsEnA",
+        "fresh_exact_id": true,
+        "assessment_scope": "direct source review for final picks; observed actual related cards or search metadata for unselected candidates, not complete playback"
+      }
+    ],
+    "reddit_candidate_pool": [
+      {
+        "title": "How inaccurate were maps before satelite imagery?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/f08bge",
+        "subreddit": "AskHistorians",
+        "post_id": "f08bge",
+        "source_ref": "turn167reddit49",
+        "observed_search_text": " [wordlim: 200] Published: 6.7 years ago; Crawled: 6.7 years ago; Welcome to /r/AskHistorians.**Please Read Our Rules before you comment in this community**. ... To first answer your specific question: much of the populated Western world was surprisingly well mapped by 1900, and even at large scales, mapped features typically are within 10 meters of the positions that could be more exactly revealed in the 1930s by widespread use of aerial photography. ... A 19th century atlas will show the Iberian peninsula almost as accurately as a satellite image. ... These sketch maps sometimes proved to have errors of more than a hundred miles when more accurate positions could be recorded. ... This was done with a little less accuracy than precise triangulation, but was more comprehensive, because the surveyors recorded on their plats the rivers, forests, swamps, lakes, and roads they encountered while walking the section lines.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "selected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "selected for a specific readable question and distinct topic; detailed editorial evidence retained in selection"
+      },
+      {
+        "title": "Tips for beginners?",
+        "url": "https://www.reddit.com/r/weaving/comments/1rfskus/tips_for_beginners/",
+        "subreddit": "weaving",
+        "post_id": "1rfskus",
+        "source_ref": "turn167reddit50",
+        "observed_search_text": " [wordlim: 200] Published: 7 months ago; I’m new to weaving and this is actually my very first project on a real loom, but does anyone know how to keep it from cinching in the middle like this? ... I saw a YouTube video that has someone make kind of a hill with the weft thread they are working on and then beating that down as a way of making sure the tension isn’t too tight.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "In general, when working with whole spices (that can be toasted) or dried chillies is there ever a reason not to toast them before working with them?",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/11fh6sg",
+        "subreddit": "AskCulinary",
+        "post_id": "11fh6sg",
+        "source_ref": "turn167reddit51",
+        "observed_search_text": " [wordlim: 200] Published: 3.6 years ago; Crawled: 3.6 years ago; I usually keep whole spices on hand and most of the recipes I've seen from professional chefs for things like chili call for at least some of the spices to be toasted before you grind them. ... I'm about to make a recipe (not from a professional chef) that omits the toasting steps (to be fair, the author uses ground spices so toasting them wouldn't make a ton on sense).\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "selected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "selected for a specific readable question and distinct topic; detailed editorial evidence retained in selection"
+      },
+      {
+        "title": "How to get the most flavor out of whole spices?",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/xflod8",
+        "subreddit": "AskCulinary",
+        "post_id": "xflod8",
+        "source_ref": "turn167reddit52",
+        "observed_search_text": " [wordlim: 200] Published: 4.1 years ago; Crawled: 4.1 years ago; Specifically to making chicken stock in a pressure cooker, what's the \"ideal\" method to getting the most flavor out of whole spices (e.g. peppercorns, star anise, fennel seeds, etc.). ... Then, I realized that it might be more flavorful to use the M+P and then toast the ground up spices? ... Why not use a larger quantity of spices?\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Toasting fresh grounds spices vs whole",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/wia434",
+        "subreddit": "AskCulinary",
+        "post_id": "wia434",
+        "source_ref": "turn167reddit53",
+        "observed_search_text": " [wordlim: 200] Published: 4.2 years ago; Crawled: 4.2 years ago; Basically the title, I know toasting whole spices adds additional depth and flavor and such, but I would like to know if toasting freshly ground spices yields similar results. ... Can I ask why you want to grind without toasting?\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "First time weaving help",
+        "url": "https://www.reddit.com/r/weaving/comments/1t4j4cp/first_time_weaving_help/",
+        "subreddit": "weaving",
+        "post_id": "1t4j4cp",
+        "source_ref": "turn167reddit54",
+        "observed_search_text": " [wordlim: 200] Published: 5 months ago; Very basic hand loom, simple weave. ... Also, there was a tension issue on the left side that im trying to address. ... I've looked through the wiki, and scoured YouTube, but I find a lot of the tutorials are more advanced or for a style of weaving/loom im not set up for.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Update in the spice toasting thread",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/fsble3",
+        "subreddit": "AskCulinary",
+        "post_id": "fsble3",
+        "source_ref": "turn167reddit55",
+        "observed_search_text": " [wordlim: 200] Published: 6.6 years ago; Crawled: 6.6 years ago; https://www.reddit.com/r/AskCulinary/comments/fpl8h7/toasting\\_spices\\_to\\_improve\\_flavor\\_is\\_a\\_common/flloc16/? ... Generally, to make a spice mix, or a masala, whole spices are heated dry, in a pan, and then ground.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Order of toasting and grinding spices",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/ffv2dz",
+        "subreddit": "AskCulinary",
+        "post_id": "ffv2dz",
+        "source_ref": "turn167reddit56",
+        "observed_search_text": " [wordlim: 200] Published: 6.6 years ago; Crawled: 6.6 years ago; Should whole spices be toasted and then ground, or ground before toasting?\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "How accurate were maps before satellite?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/ccm2me",
+        "subreddit": "AskHistorians",
+        "post_id": "ccm2me",
+        "source_ref": "turn167reddit57",
+        "observed_search_text": " [wordlim: 200] Published: 7.3 years ago; Crawled: 7.3 years ago; I’ve seen maps and globes from before we had satellites and pretty much all of them look pretty accurate. ... Welcome to /r/AskHistorians. ... This question has come up before: ... * For more, and how accuracy improved over time, see my comment and u/qed1 in URL ... See URL for a map of the survey points.For a history of the Survey of India, see Strahan, C.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Toasting Indian spices: does it always improve flavour?",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/sa36er",
+        "subreddit": "AskCulinary",
+        "post_id": "sa36er",
+        "source_ref": "turn167reddit58",
+        "observed_search_text": " [wordlim: 200] Published: 4.7 years ago; Crawled: 4.7 years ago; I've been getting into Indian cooking recently, and making my own spice mixes and using whole spices.Conventional wisdom says that we should be toasting our spices before grinding them.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Beginner Help - Tension and Gaps",
+        "url": "https://www.reddit.com/r/weaving/comments/1kgdh10",
+        "subreddit": "weaving",
+        "post_id": "1kgdh10",
+        "source_ref": "turn167reddit59",
+        "observed_search_text": " [wordlim: 200] Published: 1.4 years ago; Crawled: 1.4 years ago; I have just started practicing weaving on a rigid heddle loom. ... Warp bunching on the edges - is this too much tension on the weft? ... Is this good spacing on the weave?\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Should whole spices be toasted AND bloomed, or just one or the other?",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/l0z88y",
+        "subreddit": "AskCulinary",
+        "post_id": "l0z88y",
+        "source_ref": "turn167reddit60",
+        "observed_search_text": " [wordlim: 200] Published: 5.7 years ago; Crawled: 5.7 years ago; However, I’ve seen a lot of recipes that say to toast, grind, and bloom, especially when making snd using spice blends. ...   Generally it goes toast whole spices, grind them, then bloom when incorporating into the dish; not trying to grind bloomed spices.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "I should get it, shouldn't I:weaving",
+        "url": "https://no.reddit.com/r/weaving/comments/1qpfstt/i_should_get_it_shouldnt_i/?sort=confidence",
+        "subreddit": "weaving",
+        "post_id": "1qpfstt",
+        "source_ref": "turn167search0",
+        "observed_search_text": " [wordlim: 200] Published: 8 months ago; Crawled: 3 months ago; I've no idea what I'm doing, but I'm pretty sure reddit needs more weaving. ... 325 · 16 kommentarer Scarf for my daughter 79 · 9 kommentarer A tied-on warp is so satisfying to look at.63 · 7 kommentarer First attempt at overshot 3 · 5 kommentarer Weft-dominant waffle weave 🌈5 · 7 kommentarer Can i weave small rugs and make a bigger rug 22 · 23 kommentarer I found a loom, now I need help 76 · 5 kommentarer Morning Musings ... I've been weaving on a 24-in Ashford rigid heddle loom and I'm looking to go further down the weaving rabbit hole.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Why use sidewalk when you can use desire path (and save 2 seconds).",
+        "url": "https://www.reddit.com/r/DesirePath/comments/1twqmvz/why_use_sidewalk_when_you_can_use_desire_path_and/",
+        "subreddit": "DesirePath",
+        "post_id": "1twqmvz",
+        "source_ref": "turn168reddit48",
+        "observed_search_text": " [wordlim: 200] Published: 4 months ago;     Asphalt sidewalk next to an asphalt roadway is just asking for somebody to drive on it ... What are sidewalks made of where you are from? ...         There are raised higher than the road!\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Relocated a perfectly good sidewalk, but the people said nah",
+        "url": "https://www.reddit.com/r/DesirePath/comments/1ur5qrf/relocated_a_perfectly_good_sidewalk_but_the/",
+        "subreddit": "DesirePath",
+        "post_id": "1ur5qrf",
+        "source_ref": "turn168reddit49",
+        "observed_search_text": " [wordlim: 200] Published: 3 months ago; bonus path at the new sharp corner ... Sidewalks away from roads are safer. ... When you're already walking forward and want to go straight, you see the sidewalk continue in front of you and if you want to turn left, you can see the crosswalk right there.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Ask: why don't landscape architects pave over desire paths?",
+        "url": "https://www.reddit.com/r/DesirePaths/comments/xn6ww2",
+        "subreddit": "DesirePaths",
+        "post_id": "xn6ww2",
+        "source_ref": "turn168reddit50",
+        "observed_search_text": " [wordlim: 200] Published: 4.1 years ago; Crawled: 3.8 years ago; The sidewalks between buildings are all following the foot traffic. ... I do remember a desire path at my university that the university refused to pave, and they instead put up fences to stop people from using the desire path.People just started walking around the fences and making new desire paths.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "selected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "selected for a specific readable question and distinct topic; detailed editorial evidence retained in selection"
+      },
+      {
+        "title": "When Desire Paths win",
+        "url": "https://www.reddit.com/r/DesirePath/comments/1riozc2/when_desire_paths_win/",
+        "subreddit": "DesirePath",
+        "post_id": "1riozc2",
+        "source_ref": "turn168reddit51",
+        "observed_search_text": " [wordlim: 200] Published: 7 months ago; Desire paths will always win. ... Why spend money putting the sidewalks in the wrong areas? ...   you really don't need to wait, people desire the easiest path.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Evolution",
+        "url": "https://www.reddit.com/r/DesirePaths/comments/1jlfbng",
+        "subreddit": "DesirePaths",
+        "post_id": "1jlfbng",
+        "source_ref": "turn168reddit52",
+        "observed_search_text": " [wordlim: 200] Published: 1.6 years ago; Crawled: 1.3 years ago; I'm glad they ultimately followed the desire path and didn't add another sidewalk next to the road. ...   At least there _are_ sidewalks. ... And there's (generally) no flat grassy areas to create desire paths (especially in the big cities, in smaller areas you might be able to walk on some grass if it's not overridden with bushes), it's just buildings and roads packed as tightly as possible.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "This Sidewalk",
+        "url": "https://www.reddit.com/r/DesirePath/comments/dxzvma",
+        "subreddit": "DesirePath",
+        "post_id": "dxzvma",
+        "source_ref": "turn168reddit53",
+        "observed_search_text": " [wordlim: 200] Published: 6.9 years ago; Crawled: 6.8 years ago; This path deserves a chance to live. ...   I actually like the swoopy paths since it feels like I'm riding on a race track with my bicycle. ... Riding my bike on a narrow 2 lane road at 7am with a bunch of fuck tards driving like they are attempting to murder me may sound fun, but I don't want to end up like my friends.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "The struggles of urban planning",
+        "url": "https://www.reddit.com/r/urbandesign/comments/1skdbxz/the_struggles_of_urban_planning/",
+        "subreddit": "urbandesign",
+        "post_id": "1skdbxz",
+        "source_ref": "turn168reddit54",
+        "observed_search_text": " [wordlim: 200] Published: 6 months ago; Welll, maybe parks planners should make paths where people want to go and not what looks pretty on their diagram ... That path should absolutely be aligned with the crosswalk, or at least closer to it, and it would probably cancel the need for an additional mini desire path ...         It's depicting bad urban planning, yeah.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Question: Is there a way to see the optical sizes of a typeface?",
+        "url": "https://www.reddit.com/r/typography/comments/17wwkkb",
+        "subreddit": "typography",
+        "post_id": "17wwkkb",
+        "source_ref": "turn168reddit55",
+        "observed_search_text": " [wordlim: 200] Published: 2.9 years ago; Crawled: 2.9 years ago; \"Optical sizes in a variable font are different versions of a typeface optimized for use at singular specific sizes, such as 14 pt or 144 pt.\"Source: https://fonts.google.com/knowledge/glossary/optical\\_size\\_axis\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "selected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "selected for a specific readable question and distinct topic; detailed editorial evidence retained in selection"
+      },
+      {
+        "title": "Building a cue light system",
+        "url": "https://www.reddit.com/r/techtheatre/comments/1nzl5v7",
+        "subreddit": "techtheatre",
+        "post_id": "1nzl5v7",
+        "source_ref": "turn168reddit56",
+        "observed_search_text": " [wordlim: 200] Published: last year; Crawled: last year; I am trying to create a cue light system that is modular and can be brought into any theatre space. ... Often you don't know about problems anyway until an audience shows up, so surprise opening night tech issues!\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "selected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "selected for a specific readable question and distinct topic; detailed editorial evidence retained in selection"
+      },
+      {
+        "title": "I need advice on lighting design",
+        "url": "https://www.reddit.com/r/techtheatre/comments/1sji7uo/i_need_advice_on_lighting_design/",
+        "subreddit": "techtheatre",
+        "post_id": "1sji7uo",
+        "source_ref": "turn168reddit57",
+        "observed_search_text": " [wordlim: 200] Published: 6 months ago; I have done many different positions but have been doing a lot of lighting op with eos consoles. ... I was told he would have someone there to from my local theater who would help teach me to design. ... I'm assuming you usually have tech rehearsals and build cue stacks for each show.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Put sidewalks where people actually walk, rather than where it looks good on your landscaping map.",
+        "url": "https://www.reddit.com/r/Lightbulb/comments/fduuly",
+        "subreddit": "Lightbulb",
+        "post_id": "fduuly",
+        "source_ref": "turn168reddit58",
+        "observed_search_text": " [wordlim: 200] Published: 6.6 years ago; Crawled: 6.6 years ago; r/desirepaths but also sidewalks are surprisingly heavily regulated in most countries so their location is usually just to follow the law. ...   Just put white paint on the edges of every sidewalk so the people walking across the street make their own sidewalks. ... /r/DesirePath would like to have a word with you\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Do optical sizes actually matter?",
+        "url": "https://www.reddit.com/r/typography/comments/16p1pd1",
+        "subreddit": "typography",
+        "post_id": "16p1pd1",
+        "source_ref": "turn168reddit59",
+        "observed_search_text": " [wordlim: 200] Published: 3.1 years ago; Crawled: 3.1 years ago;         It isn't bad design practice to show users consistent typography across their device, which is why Apple themselves have made the font-family values sans, serif, system, and -apple-system all default to the Apple system fonts. ... Frankly, I can't think of anything more important in professional font design than optical sizing.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Reddit, please make this happen. I need the font for the letter \"A\" to recreate my portfolio and apply to a theater group. Applications close today. : identifythisfont",
+        "url": "https://th.reddit.com/r/identifythisfont/comments/1uburif/reddit_please_make_this_happen_i_need_the_font/?sort=random",
+        "subreddit": "identifythisfont",
+        "post_id": "1uburif",
+        "source_ref": "turn168search2",
+        "observed_search_text": " [wordlim: 200] Published: 3 months ago; Crawled: 3 months ago;   * Whatfontis: Image recognition tool or specify a URL. ... /r/typography A subreddit for discussion of the arts of typesetting and glyph design. ... Open Question Reddit, please make this happen.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Linking notes way too much",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1qoiwgk/linking_notes_way_too_much/",
+        "subreddit": "ObsidianMD",
+        "post_id": "1qoiwgk",
+        "source_ref": "turn169reddit48",
+        "observed_search_text": " [wordlim: 200] Published: 8 months ago;     I would say to try and avoid scattering information about 'DNS' in those notes; since the link means 'im deferring this to that note', not explaining what DNS is or why it exists, just that your current note is somehow related to DNS. ... I started a thread on this here if anyone has ideas: https://www.reddit.com/r/ObsidianMD/comments/1qolhhz/how\\_to\\_add\\_context\\_to\\_links\\_in\\_obsidian/\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "selected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "selected for a specific readable question and distinct topic; detailed editorial evidence retained in selection"
+      },
+      {
+        "title": "How to get link of today's daily note so that i can link it in some other note?",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1ugtjzo/how_to_get_link_of_todays_daily_note_so_that_i/",
+        "subreddit": "ObsidianMD",
+        "post_id": "1ugtjzo",
+        "source_ref": "turn169reddit49",
+        "observed_search_text": " [wordlim: 200] Published: 3 months ago; how to get link of today's daily note so that i can link it in some other note? ... Low tech answer: If you want to have, say, links to each of the notes of a month in a single note, you can generate them from with Excel, concatenate the double square brackets at both ends of the date with the corresponding formula, and copy all the links into your obsidian note.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Everyone’s posting graphs, meanwhile none of my notes are linked to each other. How are you taking notes?",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/yykjjo",
+        "subreddit": "ObsidianMD",
+        "post_id": "yykjjo",
+        "source_ref": "turn169reddit50",
+        "observed_search_text": " [wordlim: 200] Published: 3.9 years ago; Crawled: 1.4 years ago; Of course apart from this, the corresponding links in the note content if you mention other \"thoughts/notes\" ... I don't link anything either.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Links and Tags",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1ij6c0f",
+        "subreddit": "ObsidianMD",
+        "post_id": "1ij6c0f",
+        "source_ref": "turn169reddit51",
+        "observed_search_text": " [wordlim: 200] Published: 1.7 years ago; Crawled: 1.7 years ago; I leverage Maps of Content (MoC) to provide topical landing pages to organize my notes, so links are the magic sauce in my use case. ... * I ensure that EVERY note has at least one link to a MoC and other MoCs or notes as needed\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Embeding whole sections or seeing context of backlinks",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/12fgh7w",
+        "subreddit": "ObsidianMD",
+        "post_id": "12fgh7w",
+        "source_ref": "turn169reddit52",
+        "observed_search_text": " [wordlim: 200] Published: 3.5 years ago; Crawled: 1.5 years ago; I like to keep most of my notes in the Daily notes and using [[links]] to mention different topics. ... - I really want to be able to use [[link]] in the heading and be able to use a backlink, plugin or a query to include the whole section under all headings like that inside the linked note. ... Obsidian seems to be able to do almost anything so I find it really surprising when I can search within a section, I can also collapse a section so the section detection already exists.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Obsidian",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1hcmkve",
+        "subreddit": "ObsidianMD",
+        "post_id": "1hcmkve",
+        "source_ref": "turn169reddit53",
+        "observed_search_text": " [wordlim: 200] Published: 1.8 years ago; Crawled: 1.8 years ago; Here's a great resource: https://www.reddit.com/r/ObsidianMD/comments/1ezhjrr/connecting\\_information\\_and\\_notes/ ... Configure Obsidian to create all new notes in an \"Inbox\" folder: \"Settings > \"Files and Links\" > \"Default Location for new notes\" Later, you can review those notes and \"process\" them as needed (moving to folders, adding links or tags, etc.) ... Add a link to a related MoC note to EVERY new note.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Starting with obsidian for my study notes, Any recommendations?",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1jjk6r8",
+        "subreddit": "ObsidianMD",
+        "post_id": "1jjk6r8",
+        "source_ref": "turn169reddit54",
+        "observed_search_text": " [wordlim: 200] Published: 1.6 years ago; Crawled: 1.4 years ago; I also try to avoid those star-clusters where many notes are tied to a single one but sometimes its the only reasonable thing to do. ... * Learn about Links and how to use them to create a wiki-like structure\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "I'm stuck with folders",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1blw1de",
+        "subreddit": "ObsidianMD",
+        "post_id": "1blw1de",
+        "source_ref": "turn169reddit55",
+        "observed_search_text": " [wordlim: 200] Published: 2.6 years ago; Crawled: 2.3 years ago; I've been using Obsidian since summer 2023 and I have around 100 notes only. ... I'm feeling like can't unlock the real potential of Obsidian without using links, but I just don't see the point for my case.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "How do you manage backlinks and connections for imported or scanned notes?",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/scdxou",
+        "subreddit": "ObsidianMD",
+        "post_id": "scdxou",
+        "source_ref": "turn169reddit56",
+        "observed_search_text": " [wordlim: 200] Published: 4.7 years ago; Crawled: 4.7 years ago; What I do is create a \"container\" note in Obsidian to include the attachment as a trasncluded link (so that the attachment appears in the note).With this as part of a regular note, I can then tag the note, and add additional notes to it, including links, from which I can then see the backlinks.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Plugin for simpler saving and formatting of links?",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1es9z1v/plugin_for_simpler_saving_and_formatting_of_links/",
+        "subreddit": "ObsidianMD",
+        "post_id": "1es9z1v",
+        "source_ref": "turn169reddit57",
+        "observed_search_text": " [wordlim: 200] Published: 2.2 years ago; I want to quickly add links to web pages in a note. ... If I'm feeling fancier I type the markdown for a nicely formatted link, like \\[Obsidian subreddit\\](URL). ... What I'd like is something where I can just have a URL like https://www.reddit.com/r/ObsidianMD/ in my clipboard and press a button and it inserts the markdown.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Scattered notes that I want to put in order",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/18oc6bq",
+        "subreddit": "ObsidianMD",
+        "post_id": "18oc6bq",
+        "source_ref": "turn169reddit58",
+        "observed_search_text": " [wordlim: 200] Published: 2.8 years ago; Crawled: 2.8 years ago; I want to bring these notes (or at least the best ones) to obsidian. ... I think this would be helpful with finding links between my scattered notes. ... Is there a feature that adds a link or a tag with the date of creation to the new note?\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Why people prefer using notes as tags instead of actual tags?",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1r5ftmd/why_people_prefer_using_notes_as_tags_instead_of/",
+        "subreddit": "ObsidianMD",
+        "post_id": "1r5ftmd",
+        "source_ref": "turn169reddit59",
+        "observed_search_text": " [wordlim: 200] Published: 8 months ago; The first idea that comes to my mind: this system was used before the tags were implemented as a core plugin in Obsidian. ...   i do this i make tags have toc/indexes on other notes and also that unlike tags i can get a full screen backlink view with using the backlink feature its vs tag search in a note.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Improving calculation in endgames",
+        "url": "https://www.reddit.com/r/chess/comments/1tbwt6j/improving_calculation_in_endgames/",
+        "subreddit": "chess",
+        "post_id": "1tbwt6j",
+        "source_ref": "turn170reddit48",
+        "observed_search_text": " [wordlim: 200] Published: 5 months ago; **https://www.chess.com/analysis/game/pgn/3gDWyScwjk/analysis? ... WIth still some time on the clock (for context I had around 20 minutes when the endgame began, 15 minutes on move 31, 9 minutes on move 34 and someone else started notated for me after move 41 so around then I got under 5 minutes, but if I look at some 1100 elo calculation mistakes I made it feels like I was playing on increment the entire game) I made the following huge calculations errors:\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "selected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "selected for a specific readable question and distinct topic; detailed editorial evidence retained in selection"
+      },
+      {
+        "title": "If my ink is feathering, is it because paper is bad or the ink?",
+        "url": "https://www.reddit.com/r/fountainpens/comments/v1l9mw",
+        "subreddit": "fountainpens",
+        "post_id": "v1l9mw",
+        "source_ref": "turn170reddit49",
+        "observed_search_text": " [wordlim: 200] Published: 4.4 years ago; Crawled: 4.4 years ago; I recommend a fountain pen friendly paper, whether you get some that dries longer (to better show off the sheen/shade qualities of your ink at the risk of smudging or requiring patience) or find a balance somewhere in the middle where your ink won't feather, still looks good, but won't take too long to dry.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "selected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "selected for a specific readable question and distinct topic; detailed editorial evidence retained in selection"
+      },
+      {
+        "title": "Issues with feathering",
+        "url": "https://www.reddit.com/r/fountainpens/comments/1k3ddsk",
+        "subreddit": "fountainpens",
+        "post_id": "1k3ddsk",
+        "source_ref": "turn170reddit50",
+        "observed_search_text": " [wordlim: 200] Published: 1.5 years ago; Crawled: 1.5 years ago; I currently am using a Pilot CH 92 and have been loving it so far, only issue I am having is that it tends to write really well then other times it just blobs ink on the page and causes feathering on decent paper. ... Recycled paper is not good for fountain pens.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Why is Pelikan Ink Fuzzy? Looks like this on all paper, with any of my pens.",
+        "url": "https://www.reddit.com/r/fountainpens/comments/10w6jjl",
+        "subreddit": "fountainpens",
+        "post_id": "10w6jjl",
+        "source_ref": "turn170reddit51",
+        "observed_search_text": " [wordlim: 200] Published: 3.7 years ago; Crawled: 2.8 years ago; It’s called feathering, and it is 90% due to the paper and 10% due to the ink. ...     fr, for budget fountain pen friendliness kokyo campus is great\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Is the ink bad or am I doing something wrong?",
+        "url": "https://www.reddit.com/r/fountainpens/comments/1epl20t",
+        "subreddit": "fountainpens",
+        "post_id": "1epl20t",
+        "source_ref": "turn170reddit52",
+        "observed_search_text": " [wordlim: 200] Published: 2.2 years ago; Crawled: 2.2 years ago; Bought my first bottle of ink for my first fountain pen. ... Might be feathering, which can occur on paper, and amount of feathering differs per ink and per brand.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Non-feathering inks other than Xfeather?",
+        "url": "https://www.reddit.com/r/fountainpens/comments/1gal5lt",
+        "subreddit": "fountainpens",
+        "post_id": "1gal5lt",
+        "source_ref": "turn170reddit53",
+        "observed_search_text": " [wordlim: 200] Published: 2.0 years ago; Crawled: 1.4 years ago; I tried Noodler’s X-feather but the ink is feathering horribly, even on nicer fountain-pen friendly paper!!\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Best Low-Feathering Ink?",
+        "url": "https://www.reddit.com/r/fountainpens/comments/1mmpdfj",
+        "subreddit": "fountainpens",
+        "post_id": "1mmpdfj",
+        "source_ref": "turn170reddit54",
+        "observed_search_text": " [wordlim: 200] Published: 1.2 years ago; Crawled: 1.2 years ago; I've been looking for ink which I could use in most paper without it feathering or bleeding through.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Bad feathering on bad paper",
+        "url": "https://www.reddit.com/r/fountainpens/comments/1wukeg0/bad_feathering_on_bad_paper/",
+        "subreddit": "fountainpens",
+        "post_id": "1wukeg0",
+        "source_ref": "turn170reddit55",
+        "observed_search_text": " [wordlim: 200] Published: 2 weeks ago; Brought a fountain pen with a nice OF. ... Feathering was terrible - the paper was the lowest grade copy paper. ... X-Feather Blue bleeds out just as far as the brown ink I used at this site.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "What do you do with feathering inks?",
+        "url": "https://www.reddit.com/r/fountainpens/comments/1nsfcz1",
+        "subreddit": "fountainpens",
+        "post_id": "1nsfcz1",
+        "source_ref": "turn170reddit56",
+        "observed_search_text": " [wordlim: 200] Published: 1.1 years ago; Crawled: last year; Every pen I tried it in feathered *so* badly.It was actually a big bummer for me because I opened this new bottle to fill pens right before I went on a trip, so half the pens I brought with me were unusable.I’ve gone through multiple bottles of this ink before and I’ve noticed a small amount of feathering with it in the past but never this bad, so I assume it was a batch issue. ... **Edit:** This happened on multiple types of paper, including both Rhodia and Stillman & Birn Epsilon paper.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Beginner question: are some inks just very prone to feathering and bleeding even on high quality paper? I’ve had a couple samples be unusable due to extreme feathering. I use Rhodia and Life brand paper.",
+        "url": "https://www.reddit.com/r/fountainpens/comments/uv1w39",
+        "subreddit": "fountainpens",
+        "post_id": "uv1w39",
+        "source_ref": "turn170reddit57",
+        "observed_search_text": " [wordlim: 200] Published: 4.4 years ago; Crawled: 4.2 years ago; Yes, inks vary wildly in their resistance to feathering, their bleed through, ghosting, sheen, dry time, wetness (how easily it flows due to capillary action, causing them to more easily flow from the feed to the nib to the paper), and viscosity. ... Yes, but, technique can also account for this (as in: the ink may be fine with good technique and feather with bad technique, and another ink may be so well behaved that it will accommodate bad technique).\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "[Question] on \"feathering,\" \"bleed-through,\" and fountain pen performance on cheap paper.",
+        "url": "https://www.reddit.com/r/fountainpens/comments/y9vi4o",
+        "subreddit": "fountainpens",
+        "post_id": "y9vi4o",
+        "source_ref": "turn170reddit58",
+        "observed_search_text": " [wordlim: 200] Published: 4.0 years ago; Crawled: 3.8 years ago; This just seems like the normal kind of bold line that I used to enjoy when I could get my hands on a gel pen in grade school. ... You can get much, much better quality paper than this, but if you're enjoying the experience don't let anyone take that away from you!There is some feathering though not loads, and the bleeding is quite bad, and I think typically Grape is considered a shading ink and there's no sign of shading here.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Ink suggestions for a pen that tends to heavily bleed/feather",
+        "url": "https://www.reddit.com/r/fountainpens/comments/odk4x2",
+        "subreddit": "fountainpens",
+        "post_id": "odk4x2",
+        "source_ref": "turn170reddit59",
+        "observed_search_text": " [wordlim: 200] Published: 5.3 years ago; Crawled: 5.3 years ago; I have seven fountain pens now and this one by far is the most prone to bleeding and feathering. ... Honestly, I’d love for this to be my workhorse pen to use with a simple blue or black ink, but it’ll have to be an ink that’s relatively dry & resistant to feathering/bleeding, even when a lot of it ends up on the page.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Can anybody explain to me in the simplest terms how positive and negative controls are selected?",
+        "url": "https://www.reddit.com/r/labrats/comments/cf3arh",
+        "subreddit": "labrats",
+        "post_id": "cf3arh",
+        "source_ref": "turn171reddit48",
+        "observed_search_text": " [wordlim: 200] Published: 7.3 years ago; 4. toxicant + drug which is not expected to show benefit under oxidative stress (negative control) ... In comparing your treatment agent directly to both the positive and negative controls, you can be more confident about that result, as opposed to having any doubts about how the assay was performed, whether the chemicals you're using are good, whether it was a fluke experiment, etc.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "selected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "selected for a specific readable question and distinct topic; detailed editorial evidence retained in selection"
+      },
+      {
+        "title": "What constitutes a good positive control?",
+        "url": "https://www.reddit.com/r/labrats/comments/zrns9u",
+        "subreddit": "labrats",
+        "post_id": "zrns9u",
+        "source_ref": "turn171reddit49",
+        "observed_search_text": " [wordlim: 200] Published: 3.8 years ago; Crawled: 3.8 years ago; I tried including mouse lung and gut tissue as my negative and positive controls, respectively (it has been characterized in the literature that this receptor is/isn’t in either tissue, which is why I chose them)Because I wasn’t sure if there could be a problem with the homogenization of those tissues, I also included a lane containing a human placental cell lysate that another student in my lab has shown to express that receptor (unpublished).I ran this Western blot… only for my supervisor to say that I’m not allowed using the human cell lysate as my positive control BECAUSE its unpublished.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Contaminated negative control",
+        "url": "https://www.reddit.com/r/labrats/comments/1guyd4g",
+        "subreddit": "labrats",
+        "post_id": "1guyd4g",
+        "source_ref": "turn171reddit50",
+        "observed_search_text": " [wordlim: 200] Published: 1.9 years ago; Crawled: 1.9 years ago; I am a hardcore computational/dry lab worker (if that exists lol). ... Three months later, some unlucky stars may have aligned but two weeks of consecutive contaminated negative controls always show up in gel electrophoresis (band that is common across all positive samples.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Feeling discouraged",
+        "url": "https://www.reddit.com/r/labrats/comments/1jw92b0",
+        "subreddit": "labrats",
+        "post_id": "1jw92b0",
+        "source_ref": "turn171reddit51",
+        "observed_search_text": " [wordlim: 200] Published: 1.5 years ago; Crawled: 1.5 years ago; I have NEVER had one come back with all of my negative controls being positive. ... Any experienced labrats have test results come back just completely messed up?\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "This, my fellow labrats, is why you run positive and negative controls",
+        "url": "https://www.reddit.com/r/labrats/comments/kac7sj",
+        "subreddit": "labrats",
+        "post_id": "kac7sj",
+        "source_ref": "turn171reddit52",
+        "observed_search_text": " [wordlim: 200] Published: 5.9 years ago; Crawled: 5.8 years ago; There's currently a false positive rate of up to 4% with RT-PCR COVID testing.Unless you've good evidence of them not having appropriate controls in PCR plates (which there would be no reason not to do), you are quite literally making shit up. ...   For my work, I've been tested every week for the past ~30 weeks and was negative all the time.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Negative results",
+        "url": "https://www.reddit.com/r/labrats/comments/1iyomk2",
+        "subreddit": "labrats",
+        "post_id": "1iyomk2",
+        "source_ref": "turn171reddit53",
+        "observed_search_text": " [wordlim: 200] Published: 1.6 years ago; Crawled: 1.5 years ago; We all know that negative results will show up, that it is part of science, but how do you deal when the do show up? ... But then, second experiment kinda ruins everything, messes everything up, even the control condition.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Not my best work...",
+        "url": "https://www.reddit.com/r/labrats/comments/12uysb7",
+        "subreddit": "labrats",
+        "post_id": "12uysb7",
+        "source_ref": "turn171reddit54",
+        "observed_search_text": " [wordlim: 200] Published: 3.5 years ago; Crawled: 2.4 years ago;   Noticed while facsing when I asked myself which ones are my controls. ...   Idk man how do you know they’re really negative then?\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "[Q] Positive and Negative Controls?",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/l6n3ob",
+        "subreddit": "AskStatistics",
+        "post_id": "l6n3ob",
+        "source_ref": "turn171reddit55",
+        "observed_search_text": " [wordlim: 200] Published: 5.7 years ago; Crawled: 5.7 years ago; The study used a \"negative control\", which was a collection of samples with no treatment administered to get a sense of the baseline effect we were measuring absent any treatment. ... I'm wondering if there is any part of experimental design (especially in a wet lab setting) providing theory about how to incorporate multiple controls into a study.Can anyone recommend papers or provide a context for the positive-negative control paradigm and its interpretation in statistics?\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Why is my bread unbeatably sour?",
+        "url": "https://www.reddit.com/r/Sourdough/comments/1jo3r49",
+        "subreddit": "Sourdough",
+        "post_id": "1jo3r49",
+        "source_ref": "turn171reddit56",
+        "observed_search_text": " [wordlim: 200] Published: 1.5 years ago; Crawled: 1.5 years ago; I made some loafes with my starter that I felt was good but I thought they were too gummy and tried with increasing my bulk fermentation time. ... I need some help as too get softer in gummy crumb, hard edges and a not so sour taste.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "selected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "selected for a specific readable question and distinct topic; detailed editorial evidence retained in selection"
+      },
+      {
+        "title": "Negative and positive controls",
+        "url": "https://www.reddit.com/r/Mcat/comments/i657ij",
+        "subreddit": "Mcat",
+        "post_id": "i657ij",
+        "source_ref": "turn171reddit57",
+        "observed_search_text": " [wordlim: 200] Published: 6.2 years ago; Crawled: 6.2 years ago; Can someone explain negative and positive controls in simple terms? ... If you want to test if a drug heals headaches more than other brands, you can have 3 groups: a positive control, a negative control, and the experimental group.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "How much does the starter affect the sourness of the bread?",
+        "url": "https://www.reddit.com/r/Sourdough/comments/e6gv4y",
+        "subreddit": "Sourdough",
+        "post_id": "e6gv4y",
+        "source_ref": "turn171reddit58",
+        "observed_search_text": " [wordlim: 200] Published: 6.9 years ago; Crawled: 6.8 years ago; I've tried using less starter and extending ferment time, using more starter, using starter that isnt as ripe, fermenting at a higher temperature, fermenting at a lower temperature, and other methods that I've been told help the sourness. ... Do some cultures just not produce a sour flavor?\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      },
+      {
+        "title": "Sourness fluctuates, why and how to control?",
+        "url": "https://www.reddit.com/r/Sourdough/comments/1gs4ynp",
+        "subreddit": "Sourdough",
+        "post_id": "1gs4ynp",
+        "source_ref": "turn171reddit59",
+        "observed_search_text": " [wordlim: 200] Published: 1.9 years ago; Crawled: 1.9 years ago; I have gotten decent at reading my dough, so I don't go strictly by time, or do any fancy temperature monitoring etc. ... What I experience is that some days the starter just doesn't want to make bread (too cold?)and sometimes, I'll have a beautiful looking loaf that just does not taste sour at all!I can handle the sluggish starter, as if it doesn't look right a couple hours in I can move it near the fireplace,  it then it becomes tough to nail the fermentation.\n",
+        "original_post_verification": "not_performed_user_waived",
+        "decision": "rejected",
+        "candidate_assessment_scope": "observed accessible search information only, not original page or comments",
+        "reason": "alternative in same search family not chosen: avoid semantic/topic repetition, photo-only or generic prompts, purchase/brand requests, and unsupported answer claims; original discussion quality not evaluated"
+      }
+    ],
+    "candidate_counts": {
+      "youtube": 32,
+      "reddit": 62
+    },
+    "selection": {
+      "youtube": [
+        {
+          "video_id": "NSS6yAMZF78",
+          "title": "Motion Extraction",
+          "channel": "Posy",
+          "topic": "video difference imaging",
+          "decision": "selected",
+          "category": "high_confidence",
+          "scores": [
+            4.7,
+            4.6,
+            4.7,
+            4.8,
+            4.5
+          ],
+          "evidence": "actual YouTube watch page, full expanded author description and complete visible 0:04–6:56 transcript read; source footage declared shot by creator",
+          "selection_reason": "七分钟把时间差分做成直接观察，不是泛泛介绍图像处理；新创作者与新作品",
+          "position": 1,
+          "url": "https://www.youtube.com/watch?v=NSS6yAMZF78",
+          "closest_prior_titles": [
+            {
+              "title": "The Most Radioactive Places on Earth",
+              "similarity": 0.468
+            },
+            {
+              "title": "Laserdisc: An Introduction",
+              "similarity": 0.462
+            },
+            {
+              "title": "Introduction to Tuning Forks",
+              "similarity": 0.439
+            }
+          ],
+          "latest_prior_creator_date": null,
+          "weighted_editorial_score": 4.67,
+          "actual_source_identity_verified": true
+        },
+        {
+          "video_id": "YGLNyHd2w10",
+          "title": "I Solved Klotski",
+          "channel": "2swap",
+          "topic": "puzzle state graphs",
+          "decision": "selected",
+          "category": "high_confidence",
+          "scores": [
+            4.5,
+            4.6,
+            4.7,
+            4.6,
+            4.7
+          ],
+          "evidence": "actual watch page title/channel/date and expanded description read; author links interactive Klotski graph and SwapTube source; transcript panel did not finish loading",
+          "selection_reason": "把滑块谜题连接到状态图，适合组合数学兴趣；不把影片当完整证明",
+          "position": 2,
+          "url": "https://www.youtube.com/watch?v=YGLNyHd2w10",
+          "closest_prior_titles": [
+            {
+              "title": "How Singapore Solved Housing",
+              "similarity": 0.513
+            },
+            {
+              "title": "Press dots to check.",
+              "similarity": 0.4
+            },
+            {
+              "title": "In Search Of A Flat Earth",
+              "similarity": 0.353
+            }
+          ],
+          "latest_prior_creator_date": null,
+          "weighted_editorial_score": 4.6,
+          "actual_source_identity_verified": true
+        },
+        {
+          "video_id": "RSTNhvDGbYI",
+          "title": "Old-fashioned rice cookers are extremely clever",
+          "channel": "Technology Connections",
+          "topic": "appliance thermomechanical control",
+          "decision": "selected",
+          "category": "high_confidence",
+          "scores": [
+            4.5,
+            4.7,
+            4.5,
+            4.3,
+            4.3
+          ],
+          "penalty": 0.15,
+          "evidence": "actual watch page identity/date2020-01-15 and expanded author description read; player duration11:11; creator-linked patent US4315139A/en directly read including thermoswitch and temperature-dependent magnetic permeability; transcript panel remained loading, not counted as read",
+          "selection_reason": "日常装置里的温度与反馈问题；同创作者上次10月11日，恰为七天，保留近期创作者惩罚而非忽略",
+          "position": 3,
+          "url": "https://www.youtube.com/watch?v=RSTNhvDGbYI",
+          "closest_prior_titles": [
+            {
+              "title": "How Do Lithium-Ion Batteries Store Energy?",
+              "similarity": 0.421
+            },
+            {
+              "title": "Is Kinetic Energy actually ½mv²?",
+              "similarity": 0.412
+            },
+            {
+              "title": "How to Build a Scanning Electron Microscope from Scratch",
+              "similarity": 0.382
+            }
+          ],
+          "latest_prior_creator_date": "2026-10-11",
+          "weighted_editorial_score": 4.35,
+          "actual_source_identity_verified": true
+        },
+        {
+          "video_id": "Qr3VsZYQy4s",
+          "title": "How I released a game that has no assets",
+          "channel": "Zanzlanz",
+          "topic": "procedural game assets and constraints",
+          "decision": "selected",
+          "category": "adjacent_exploration",
+          "scores": [
+            4.6,
+            4.3,
+            4.8,
+            4.8,
+            4.1
+          ],
+          "evidence": "actual watch page and complete expanded creator description/chapters read; date 2026-08-04; duration 33:10; playable Crow Sign link observed; transcript panel remained loading",
+          "selection_reason": "正弦波约束贯穿图像、声音和游戏，具体制作过程比抽象编程鼓励更值得看",
+          "position": 4,
+          "url": "https://www.youtube.com/watch?v=Qr3VsZYQy4s",
+          "closest_prior_titles": [
+            {
+              "title": "POLYBIUS - The Video Game That Doesn't Exist",
+              "similarity": 0.418
+            },
+            {
+              "title": "How Airlines Schedule Flights",
+              "similarity": 0.414
+            },
+            {
+              "title": "The Language Sounds That Could Exist, But Don’t",
+              "similarity": 0.4
+            }
+          ],
+          "latest_prior_creator_date": null,
+          "weighted_editorial_score": 4.545,
+          "actual_source_identity_verified": true
+        },
+        {
+          "video_id": "W8oIeL_OPc8",
+          "title": "Line Rider - Fade",
+          "channel": "DoodleChaos",
+          "topic": "hand-authored music synchronization",
+          "decision": "selected",
+          "category": "wildcard",
+          "scores": [
+            4.4,
+            3.6,
+            4.8,
+            4.8,
+            4
+          ],
+          "evidence": "actual watch page and complete creator description read; date2018-02-06; author describes hand-drawn synchronization, 58 sessions and 2618 lines, recommended60fps; not independently reproduced",
+          "selection_reason": "音乐与轨道动作的纯观看体验；创作说明而非营销摘要，不把游戏当物理实验",
+          "position": 5,
+          "url": "https://www.youtube.com/watch?v=W8oIeL_OPc8",
+          "closest_prior_titles": [
+            {
+              "title": "In Search Of A Flat Earth",
+              "similarity": 0.424
+            },
+            {
+              "title": "POLYBIUS - The Video Game That Doesn't Exist",
+              "similarity": 0.375
+            },
+            {
+              "title": "Inventing on Principle",
+              "similarity": 0.364
+            }
+          ],
+          "latest_prior_creator_date": null,
+          "weighted_editorial_score": 4.3,
+          "actual_source_identity_verified": true
+        }
+      ],
+      "reddit": [
+        {
+          "title": "Linking notes way too much",
+          "url": "https://www.reddit.com/r/ObsidianMD/comments/1qoiwgk/linking_notes_way_too_much/",
+          "subreddit": "ObsidianMD",
+          "post_id": "1qoiwgk",
+          "source_ref": "turn169reddit48",
+          "observed_search_text": " [wordlim: 200] Published: 8 months ago;     I would say to try and avoid scattering information about 'DNS' in those notes; since the link means 'im deferring this to that note', not explaining what DNS is or why it exists, just that your current note is somehow related to DNS. ... I started a thread on this here if anyone has ideas: https://www.reddit.com/r/ObsidianMD/comments/1qolhhz/how\\_to\\_add\\_context\\_to\\_links\\_in\\_obsidian/\n",
+          "original_post_verification": "not_performed_user_waived",
+          "topic": "知识链接的功能与过量链接",
+          "category": "high_confidence",
+          "scores": [
+            4.2,
+            4.6,
+            4.1,
+            4.3,
+            4.7
+          ],
+          "why": "链接过多究竟损害了什么？可见提问不只是追求图谱好看，而涉及一段内容应该当场解释，还是交给另一条笔记。对真正拿笔记复习的人，这比再装一个自动链接插件更接近使用中的判断：未来的自己点过去以后，能不能明白两条信息为什么放在一起。\n\n读前任选三条现有链接，在旁边各写一句关系说明，例如支持、反例或待核实。如果关系说不出来，先保留问题，不急着大规模删链接。这里只推荐检索中可见的问题与阅读方法，不声称评论已经提供了最佳组织法。",
+          "discussion": "个人知识管理经验，不能把某人的笔记习惯当学习效果证据；不建议据此批量改动仓库。",
+          "position": 1,
+          "date_label": "检索标注 8 months ago；原帖日期未核验。",
+          "weighted_editorial_score": 4.345
+        },
+        {
+          "title": "Can anybody explain to me in the simplest terms how positive and negative controls are selected?",
+          "url": "https://www.reddit.com/r/labrats/comments/cf3arh",
+          "subreddit": "labrats",
+          "post_id": "cf3arh",
+          "source_ref": "turn171reddit48",
+          "observed_search_text": " [wordlim: 200] Published: 7.3 years ago; 4. toxicant + drug which is not expected to show benefit under oxidative stress (negative control) ... In comparing your treatment agent directly to both the positive and negative controls, you can be more confident about that result, as opposed to having any doubts about how the assay was performed, whether the chemicals you're using are good, whether it was a fluke experiment, etc.\n",
+          "original_post_verification": "not_performed_user_waived",
+          "topic": "实验对照究竟排除了什么",
+          "category": "high_confidence",
+          "scores": [
+            4.2,
+            4.6,
+            4.3,
+            4.1,
+            4.6
+          ],
+          "why": "阳性、阴性两个名字很容易背下来，但一旦换了测量目标，就可能不知道对照到底要回答哪个问题。这个标题直截了当，适合把阅读重点放在‘要排除哪一种替代解释’，而不是看到结果有信号就把它命名为阳性对照。\n\n可以先给一个与你当前实验无关的假想检测写出目标、空白背景和已知可检测情形，再检查三者各自支持什么判断。可见摘要里的具体试剂与处理例子未独立核实，因此本条不转述为可照做的实验方案，也不把帖子当导师意见的裁决。",
+          "discussion": "概念讨论入口；未核验完整实验设计、剂量、材料或回帖答案，不作为实验操作和安全依据。",
+          "position": 2,
+          "date_label": "检索标注 7.3 years ago；原帖日期未核验。",
+          "weighted_editorial_score": 4.345
+        },
+        {
+          "title": "How inaccurate were maps before satelite imagery?",
+          "url": "https://www.reddit.com/r/AskHistorians/comments/f08bge",
+          "subreddit": "AskHistorians",
+          "post_id": "f08bge",
+          "source_ref": "turn167reddit49",
+          "observed_search_text": " [wordlim: 200] Published: 6.7 years ago; Crawled: 6.7 years ago; Welcome to /r/AskHistorians.**Please Read Our Rules before you comment in this community**. ... To first answer your specific question: much of the populated Western world was surprisingly well mapped by 1900, and even at large scales, mapped features typically are within 10 meters of the positions that could be more exactly revealed in the 1930s by widespread use of aerial photography. ... A 19th century atlas will show the Iberian peninsula almost as accurately as a satellite image. ... These sketch maps sometimes proved to have errors of more than a hundred miles when more accurate positions could be recorded. ... This was done with a little less accuracy than precise triangulation, but was more comprehensive, because the surveyors recorded on their plats the rivers, forests, swamps, lakes, and roads they encountered while walking the section lines.\n",
+          "original_post_verification": "not_performed_user_waived",
+          "topic": "卫星之前的地图与准确性尺度",
+          "category": "high_confidence",
+          "scores": [
+            4.4,
+            4.1,
+            4.7,
+            4.5,
+            4.1
+          ],
+          "why": "没有卫星，人们怎么画出看起来那么像的地图？好处在于它能拆开‘海岸线轮廓像不像’和‘某一个位置错了多远’这两种准确性。地图不是整张同时变准，讨论区域、用途和比例尺，比拿古地图与手机导航比一眼更有意思。\n\n带着三个问题读：参照位置怎么获得，测量如何连接，误差怎样被发现？检索里出现的米数和十九世纪测绘结论没有在这里独立复核，所以今天不把它们写成历史事实。旧帖子可作问题入口，不等于最新测绘史综述。",
+          "discussion": "历史数量与引文需要回到原始地图、测量记录或可靠研究；未核验评论中的具体答案。",
+          "position": 3,
+          "date_label": "检索标注 6.7 years ago；原帖日期未核验。",
+          "weighted_editorial_score": 4.37
+        },
+        {
+          "title": "In general, when working with whole spices (that can be toasted) or dried chillies is there ever a reason not to toast them before working with them?",
+          "url": "https://www.reddit.com/r/AskCulinary/comments/11fh6sg",
+          "subreddit": "AskCulinary",
+          "post_id": "11fh6sg",
+          "source_ref": "turn167reddit51",
+          "observed_search_text": " [wordlim: 200] Published: 3.6 years ago; Crawled: 3.6 years ago; I usually keep whole spices on hand and most of the recipes I've seen from professional chefs for things like chili call for at least some of the spices to be toasted before you grind them. ... I'm about to make a recipe (not from a professional chef) that omits the toasting steps (to be fair, the author uses ground spices so toasting them wouldn't make a ton on sense).\n",
+          "original_post_verification": "not_performed_user_waived",
+          "topic": "香料处理与‘总是更好’的边界",
+          "category": "high_confidence",
+          "scores": [
+            4.2,
+            4.3,
+            4.4,
+            4.3,
+            4
+          ],
+          "why": "‘香料先烘一下更香’很容易变成一个不问对象的通用规则，而这个标题反过来问：有没有不该先烘的情形？比追求一个神奇步骤更值得读的，是把整粒或研磨、干热或油脂、想要的香味与最终菜肴用途分别列出来。\n\n可见提问提到了整粒香料与干辣椒，也区分了食谱作者使用研磨香料的情况。读时只追踪作者究竟改变了什么条件，不用评论里的‘更好吃’替所有菜肴作决定。本条不提供未经核验的温度、时长或食品安全建议。",
+          "discussion": "感官经验与口味判断有个体差异；没有验证所谓总能增香的化学解释，也不推荐在宿舍自行用火试验。",
+          "position": 4,
+          "date_label": "检索标注 3.6 years ago；原帖日期未核验。",
+          "weighted_editorial_score": 4.26
+        },
+        {
+          "title": "Why is my bread unbeatably sour?",
+          "url": "https://www.reddit.com/r/Sourdough/comments/1jo3r49",
+          "subreddit": "Sourdough",
+          "post_id": "1jo3r49",
+          "source_ref": "turn171reddit56",
+          "observed_search_text": " [wordlim: 200] Published: 1.5 years ago; Crawled: 1.5 years ago; I made some loafes with my starter that I felt was good but I thought they were too gummy and tried with increasing my bulk fermentation time. ... I need some help as too get softer in gummy crumb, hard edges and a not so sour taste.\n",
+          "original_post_verification": "not_performed_user_waived",
+          "topic": "酸面包排查与多个目标的冲突",
+          "category": "high_confidence",
+          "scores": [
+            4,
+            4.2,
+            4.3,
+            4.4,
+            3.9
+          ],
+          "why": "可见提问者为了改善黏湿的组织，尝试延长发酵，却又遇到过酸的口味问题。它比一张成品照片更有阅读价值：至少能看到想改善的指标与一次过程调整，因此可以练习追踪‘我解决了哪个问题，又让另一个问题变得怎样’。\n\n带着记录表读：组织、边缘硬度和酸味是三个指标，不要用一句‘发得不够’把它们合并。先区分观察、处理与猜测，再看建议有没有足够背景。本条不是配方或可食用判定；检索中的温度、培养和保存建议未验证。",
+          "discussion": "个人烘焙排查经验；不把酸味、外观或社区回复当食品安全证明。",
+          "position": 5,
+          "date_label": "检索标注 1.5 years ago；原帖日期未核验。",
+          "weighted_editorial_score": 4.16
+        },
+        {
+          "title": "Question: Is there a way to see the optical sizes of a typeface?",
+          "url": "https://www.reddit.com/r/typography/comments/17wwkkb",
+          "subreddit": "typography",
+          "post_id": "17wwkkb",
+          "source_ref": "turn168reddit55",
+          "observed_search_text": " [wordlim: 200] Published: 2.9 years ago; Crawled: 2.9 years ago; \"Optical sizes in a variable font are different versions of a typeface optimized for use at singular specific sizes, such as 14 pt or 144 pt.\"Source: https://fonts.google.com/knowledge/glossary/optical\\_size\\_axis\n",
+          "original_post_verification": "not_performed_user_waived",
+          "topic": "字体光学尺寸与使用语境",
+          "category": "adjacent_exploration",
+          "scores": [
+            4.2,
+            4.1,
+            4.6,
+            4.6,
+            3.9
+          ],
+          "why": "同一种字体放大缩小，是否就足以应付所有阅读距离？这条可见问题聚焦怎么识别一个字体的光学尺寸，比泛泛争论‘哪个字体好看’更容易形成清楚的观察对象。它是从排版进入设计判断的好入口：改字号与改字形设计，不必被当成同一件事。\n\n可拿自己已有、合法可用的字体做一次比较，但先确认它是否真的提供相关版本或轴；没有就别凭空寻找开关。阅读时区分字体本身、应用设置和屏幕显示三个层次，不据此购买字体，也不把检索摘要的一句定义当完整教程。",
+          "discussion": "未测试帖子所提软件与字体，未核验评论链接；本文提出的是比较框架，不保证某个界面功能存在。",
+          "position": 6,
+          "date_label": "检索标注 2.9 years ago；原帖日期未核验。",
+          "weighted_editorial_score": 4.285
+        },
+        {
+          "title": "If my ink is feathering, is it because paper is bad or the ink?",
+          "url": "https://www.reddit.com/r/fountainpens/comments/v1l9mw",
+          "subreddit": "fountainpens",
+          "post_id": "v1l9mw",
+          "source_ref": "turn170reddit49",
+          "observed_search_text": " [wordlim: 200] Published: 4.4 years ago; Crawled: 4.4 years ago; I recommend a fountain pen friendly paper, whether you get some that dries longer (to better show off the sheen/shade qualities of your ink at the risk of smudging or requiring patience) or find a balance somewhere in the middle where your ink won't feather, still looks good, but won't take too long to dry.\n",
+          "original_post_verification": "not_performed_user_waived",
+          "topic": "钢笔、墨水和纸张的组合排查",
+          "category": "adjacent_exploration",
+          "scores": [
+            4.1,
+            4.2,
+            4.4,
+            4.5,
+            3.9
+          ],
+          "why": "字迹洇开，是纸不好还是墨水不好？这个二选一问法很适合拿来检查自己的排查习惯：一套组合出现问题，不一定能只给其中一个零件贴好坏标签。它的趣味在于把抽象的兼容性，落到每天都能看到的线条边缘上。\n\n先写一个不花钱的两两比较方案：保留同一支笔换纸，保留同一张纸换现有墨水，并记录书写速度和停顿。这里只把它当个人经验的阅读入口；没有核验任何品牌性能，不采纳检索回复中‘百分之多少由纸决定’的数量断言。",
+          "discussion": "个人使用经验；不引导购入新笔或新墨水，也不把未看见的原帖照片当作已诊断。",
+          "position": 7,
+          "date_label": "检索标注 4.4 years ago；原帖日期未核验。",
+          "weighted_editorial_score": 4.225
+        },
+        {
+          "title": "Ask: why don't landscape architects pave over desire paths?",
+          "url": "https://www.reddit.com/r/DesirePaths/comments/xn6ww2",
+          "subreddit": "DesirePaths",
+          "post_id": "xn6ww2",
+          "source_ref": "turn168reddit50",
+          "observed_search_text": " [wordlim: 200] Published: 4.1 years ago; Crawled: 3.8 years ago; The sidewalks between buildings are all following the foot traffic. ... I do remember a desire path at my university that the university refused to pave, and they instead put up fences to stop people from using the desire path.People just started walking around the fences and making new desire paths.\n",
+          "original_post_verification": "not_performed_user_waived",
+          "topic": "自发路径与公共空间决策",
+          "category": "adjacent_exploration",
+          "scores": [
+            4.1,
+            4,
+            4.7,
+            4.5,
+            4
+          ],
+          "why": "既然有人已经踩出一条路，为什么不直接铺好？这个标题的价值不是证明规划者总是错，而是把‘看见需求’与‘决定怎样回应需求’分开。它能让散步时遇到的小现象，变成一个关于公共空间、不同使用者和长期维护的问题。\n\n读前自己列出需要了解但标题没有提供的条件：这条线是否适合所有人、雨天怎样、是否跨越危险位置、维护由谁承担。不要把检索里的某个校园故事当普遍规律，也不因为路径存在就鼓励越过护栏或践踏保护区。",
+          "discussion": "政策与使用经验讨论；未检查原帖图片、地点和地方规定，不认定具体方案合法或安全。",
+          "position": 8,
+          "date_label": "检索标注 4.1 years ago；原帖日期未核验。",
+          "weighted_editorial_score": 4.245
+        },
+        {
+          "title": "Building a cue light system",
+          "url": "https://www.reddit.com/r/techtheatre/comments/1nzl5v7",
+          "subreddit": "techtheatre",
+          "post_id": "1nzl5v7",
+          "source_ref": "turn168reddit56",
+          "observed_search_text": " [wordlim: 200] Published: last year; Crawled: last year; I am trying to create a cue light system that is modular and can be brought into any theatre space. ... Often you don't know about problems anyway until an audience shows up, so surprise opening night tech issues!\n",
+          "original_post_verification": "not_performed_user_waived",
+          "topic": "剧场提示灯与可靠协作",
+          "category": "wildcard",
+          "scores": [
+            4.1,
+            4,
+            4.8,
+            4.8,
+            3.7
+          ],
+          "why": "今日 wildcard。舞台上一次动作准时发生，背后可能不是所有人都在看同一块屏幕，而是清楚的提示与确认。可见提问希望做一个模块化、能带到不同剧场的 cue light 系统，因此值得从‘信号代表什么、谁负责确认、失效时怎么办’来读，而不只比较灯的颜色和外壳。\n\n即使没有剧场经验，也能先画出等待、准备、执行、取消四种状态，问每种状态是否可能被误会。这个陌生行业提供的是协作设计视角；没有看过完整接线或负载信息，不把它当 DIY 电气施工指南。",
+          "discussion": "工作经验与方案讨论；未核验电气安全、协议或任何评论给出的实施方案。",
+          "position": 9,
+          "date_label": "检索标注 last year；原帖日期未核验。",
+          "weighted_editorial_score": 4.28
+        },
+        {
+          "title": "Improving calculation in endgames",
+          "url": "https://www.reddit.com/r/chess/comments/1tbwt6j/improving_calculation_in_endgames/",
+          "subreddit": "chess",
+          "post_id": "1tbwt6j",
+          "source_ref": "turn170reddit48",
+          "observed_search_text": " [wordlim: 200] Published: 5 months ago; **https://www.chess.com/analysis/game/pgn/3gDWyScwjk/analysis? ... WIth still some time on the clock (for context I had around 20 minutes when the endgame began, 15 minutes on move 31, 9 minutes on move 34 and someone else started notated for me after move 41 so around then I got under 5 minutes, but if I look at some 1100 elo calculation mistakes I made it feels like I was playing on increment the entire game) I made the following huge calculations errors:\n",
+          "original_post_verification": "not_performed_user_waived",
+          "topic": "残局计算、候选着法与时间分配",
+          "category": "wildcard",
+          "scores": [
+            4.1,
+            3.9,
+            4.7,
+            4.7,
+            3.7
+          ],
+          "why": "今日第二个 wildcard。棋子变少以后，为什么计算仍然会出错？可见提问者保留了对局链接与若干时间信息，让问题不只是‘我怎么变强’，而可以进一步区分看漏候选、算错变化和在时限下放弃检查。对不会下国际象棋的人，这种把失误定位到步骤的想法也有可读性。\n\n有基础可以挑一次自己确认的失误，先写当时考虑过哪些着法，再看材料；没基础则只读问题结构，不必追求引擎分数。本文没有打开棋谱、计算变例或检查评论，因此不复述具体着法优劣，也不保证回帖的训练建议有效。",
+          "discussion": "个人棋局复盘经验；检索中的等级分和自我评价不是普适学习证据。",
+          "position": 10,
+          "date_label": "检索标注 5 months ago；原帖日期未核验。",
+          "weighted_editorial_score": 4.22
+        }
+      ]
+    },
+    "diversity": {
+      "youtube": {
+        "distinct_narrow_topics": {
+          "video difference imaging": 1,
+          "puzzle state graphs": 1,
+          "appliance thermomechanical control": 1,
+          "procedural game assets and constraints": 1,
+          "hand-authored music synchronization": 1
+        },
+        "composition": {
+          "high_confidence": 3,
+          "adjacent_exploration": 1,
+          "wildcard": 1
+        },
+        "max_narrow_topic_fraction": 0.2
+      },
+      "reddit": {
+        "distinct_narrow_topics": {
+          "知识链接的功能与过量链接": 1,
+          "实验对照究竟排除了什么": 1,
+          "卫星之前的地图与准确性尺度": 1,
+          "香料处理与‘总是更好’的边界": 1,
+          "酸面包排查与多个目标的冲突": 1,
+          "字体光学尺寸与使用语境": 1,
+          "钢笔、墨水和纸张的组合排查": 1,
+          "自发路径与公共空间决策": 1,
+          "剧场提示灯与可靠协作": 1,
+          "残局计算、候选着法与时间分配": 1
+        },
+        "composition": {
+          "high_confidence": 5,
+          "adjacent_exploration": 3,
+          "wildcard": 2
+        },
+        "max_narrow_topic_fraction": 0.1
+      }
+    },
+    "score_scope": "subjective editorial scores with quality30/usefulness25/curiosity20/novelty15/fit10; candidate-card discovery is not full review; final rice-cooker creator penalty0.15 retained",
+    "manual_same_work_review": "All five titles and creators compared with complete 190-row history, all current historical note headings and immutable bundle payloads; no same-work/mirror/reupload match. New final creators except Technology Connections lastOct11. Current five underlying works and ten Reddit questions are distinct.",
+    "broad_topic_caveat": "Two videos use programmed visual structures (puzzle graph and procedural game), 2/5=40% even under that broader grouping; not all digital work treated as one narrow topic. Other picks cover image comparison, appliance control and musical synchronization.",
+    "youtube_source_observations": {
+      "Posy": "watch title/channel/date and complete transcript0:04–6:56, method/time-offset/stability/artistic boundary; no full audiovisual audition",
+      "2swap": "watch title/channel/date and expanded creator description; actual author-linked canvas inspected, board+graph and labels Distance from Start/Shortest Path shown; no independent solver validation; transcript unavailable",
+      "Technology Connections": "watch title/channel/date and full expanded creator description; actual creator-linked original patent US4315139A/en description174–175 covers thermosensor/permeability; no assumption all patent features match filmed unit; transcript unavailable",
+      "Zanzlanz": "watch identity/date and expanded chapters for graphics/compression/SFX synthesis/music/playtest/gameplay; no game execution or paid-code access; transcript unavailable",
+      "DoodleChaos": "watch identity/date and expanded creator-authored fan-work description, hand-drawn track sync and60fps caveat; no independent synchronization or complete audio/video test"
+    },
+    "news_sources": [
+      {
+        "topic": "MDB coordination",
+        "date": "2026-10-17",
+        "url": "https://www.ndb.int/news/joint-statement-by-mdb-heads-advancing-joint-action-amid-global-uncertainty/",
+        "method": "full actual publisher browser DOM read; IDB same statement full text available in search",
+        "observed_at": "2026-10-18T00:40:10.076Z",
+        "scope": "institutional statement, not independent delivery audit"
+      },
+      {
+        "topic": "COP17 implementation review",
+        "publication_date": "2026-10-16",
+        "event_date": "2026-10-19 scheduled, not occurred",
+        "url": "https://www.unep.org/en/news-and-stories/story/heres-what-expect-pivotal-un-conference-biodiversity",
+        "method": "web full article plus actual browser date16Oct2026; CBD report page dated24Sep2026 directly read",
+        "date_observed_at": "2026-10-18T00:43:26.187Z",
+        "scope": "pre-conference interpretation and report landing-page scope, not negotiation outcome or full reportPDF"
+      },
+      {
+        "topic": "organoid tactile interface",
+        "date": "2026-10-16",
+        "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1800219/full",
+        "method": "actual primary paper date/authors/abstract/encoding-decoding pipeline/methods opening plus full publisher researcher-interview article",
+        "observations": "61% single,83% ensemble; open-loop; no learning demonstrated; no end-to-end efficiency result claimed",
+        "scope": "not independent data reanalysis or replication"
+      }
+    ],
+    "reddit_waiver": {
+      "authorization_date": "2026-10-15",
+      "applies_to_all_10": true,
+      "label": "not_performed_user_waived",
+      "original_pages_comments_dates_accessibility_not_verified": true,
+      "important_unverified_factual_answers_not_adopted": true
+    },
+    "transient_research_failures": [
+      "some web source opens returned Internal Error or timeout without exposed HTTP status",
+      "one YouTube web open explicitly Online fetch throttled; actual watch source read by independently required browser inspection",
+      "four YouTube transcript panels remained loading; not treated as read, identity/description and relevant primary supporting material used",
+      "DamiLee rejected after actual identity/sponsorship description read because substantive content verification incomplete"
+    ],
+    "historical_backlog": "Historical live-source/format failures remain untouched. Earlier exact YouTube repeats remain in immutable history; missing titles in old history are cross-checked against retained note headings. No history clearing, old-day repair, music drift repair or security changes."
+  },
+  "post_write_qa": {
+    "status": "passed_current_publication_scoped_post_write_checks",
+    "operation_id": "news-youtube-reddit:2026-10-18",
+    "bundle_sha256": "2431ac89e2934894d9d00fad280e171a641cbfb976f0d557d31b6b1aa38e551c",
+    "readbacks": {
+      "News/Daily/2026-10-18.md": {
+        "blob_sha": "3f5187fa407b64f4e7b4512441a11542f089065f",
+        "bytes": 8027,
+        "exact_frozen_payload_match": true
+      },
+      "Resources/YouTube/Daily/2026-10-18.md": {
+        "blob_sha": "60d69bfd9315217450d3b5e492b0ec9beaa3023c",
+        "bytes": 6645,
+        "exact_frozen_payload_match": true
+      },
+      "Resources/Reddit/Daily/2026-10-18.md": {
+        "blob_sha": "49148fe7776307b3f798c0e17fd172dcebdc13cb",
+        "bytes": 12810,
+        "exact_frozen_payload_match": true
+      },
+      ".recommendation/history/youtube.jsonl": {
+        "blob_sha": "d80916599523b7e2581c7e8e0c5c04ffd2eb9511",
+        "bytes": 25726,
+        "exact_frozen_payload_match": true
+      },
+      ".recommendation/history/reddit.jsonl": {
+        "blob_sha": "abd9af749bcd586a1bf45d837c356a099fb40c1f",
+        "bytes": 36035,
+        "exact_frozen_payload_match": true
+      }
+    },
+    "history": {
+      "youtube": {
+        "before": 190,
+        "after": 195,
+        "exactly_once_new_rows": 5,
+        "prior_raw_bytes_unchanged": true
+      },
+      "reddit": {
+        "before": 360,
+        "after": 370,
+        "exactly_once_new_rows": 10,
+        "prior_raw_bytes_unchanged": true
+      }
+    },
+    "structural": {
+      "youtube_strict_ids_validated": 170,
+      "reddit_strict_ids_validated": 340,
+      "journal": {
+        "status": "passed_immutable_publication_bundles",
+        "bundles": 11,
+        "base_ref": null,
+        "content_qa": "not_evaluated"
+      }
+    },
+    "recovery_planner": {
+      "operation_id": "news-youtube-reddit:2026-10-18",
+      "plan_sha256": "1094dd7a551f1162ad82e91b96ae7c2f1fa8ede784e1daa9bf7f09e5805009f7",
+      "status": "artifacts_match",
+      "next_stage": null,
+      "decisions": [
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "News/Daily/2026-10-18.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "3f5187fa407b64f4e7b4512441a11542f089065f"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Resources/YouTube/Daily/2026-10-18.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "60d69bfd9315217450d3b5e492b0ec9beaa3023c"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Resources/Reddit/Daily/2026-10-18.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "49148fe7776307b3f798c0e17fd172dcebdc13cb"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/youtube.jsonl",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "78a09f2ad91625ffbf7bae505a7749d6d97ea96c",
+          "target_sha": "d80916599523b7e2581c7e8e0c5c04ffd2eb9511"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/reddit.jsonl",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "082356b8bff1718e0c9b5644a08b45e638b939a8",
+          "target_sha": "abd9af749bcd586a1bf45d837c356a099fb40c1f"
+        }
+      ],
+      "content_qa": "not_evaluated",
+      "github_writes_performed": 0
+    },
+    "candidate_counts": {
+      "youtube": 32,
+      "reddit": 62
+    },
+    "diversity": {
+      "youtube": {
+        "distinct_narrow_topics": {
+          "video difference imaging": 1,
+          "puzzle state graphs": 1,
+          "appliance thermomechanical control": 1,
+          "procedural game assets and constraints": 1,
+          "hand-authored music synchronization": 1
+        },
+        "composition": {
+          "high_confidence": 3,
+          "adjacent_exploration": 1,
+          "wildcard": 1
+        },
+        "max_narrow_topic_fraction": 0.2
+      },
+      "reddit": {
+        "distinct_narrow_topics": {
+          "知识链接的功能与过量链接": 1,
+          "实验对照究竟排除了什么": 1,
+          "卫星之前的地图与准确性尺度": 1,
+          "香料处理与‘总是更好’的边界": 1,
+          "酸面包排查与多个目标的冲突": 1,
+          "字体光学尺寸与使用语境": 1,
+          "钢笔、墨水和纸张的组合排查": 1,
+          "自发路径与公共空间决策": 1,
+          "剧场提示灯与可靠协作": 1,
+          "残局计算、候选着法与时间分配": 1
+        },
+        "composition": {
+          "high_confidence": 5,
+          "adjacent_exploration": 3,
+          "wildcard": 2
+        },
+        "max_narrow_topic_fraction": 0.1
+      }
+    },
+    "prior_fresh_input_files_unchanged": 36,
+    "prior_dated_notes_unchanged": 111,
+    "manual_post_write_editorial_review": {
+      "completed": true,
+      "news_facts_versus_analysis_separated": true,
+      "event_and_publication_dates_distinguished": true,
+      "no_future_outcomes_claimed": true,
+      "youtube_identity_and_content_scope_honest": true,
+      "same_work_current_list_and_history_reviewed": true,
+      "reddit_waiver_labels_10": true,
+      "unverified_reddit_answers_not_adopted_as_facts": true,
+      "rich_editorial_sections_present": true
+    },
+    "unverified_or_not_certified": [
+      "complete audiovisual playback of five videos",
+      "four unavailable YouTube transcripts",
+      "Reddit originals, comments, current accessibility and original post dates (user waived)",
+      "independent data reanalysis of research",
+      "historical live-source quality backlog",
+      "device sync",
+      "notification delivery"
+    ]
+  },
+  "executed_local_regressions": [
+    {
+      "command": "python -m unittest discover -s discovery18/vault/scripts -p 'test_daily*.py'",
+      "tests": 63,
+      "result": "OK"
+    },
+    {
+      "command": "python -m unittest discover -s discovery18/vault/scripts -p 'test_publication*.py'",
+      "tests": 41,
+      "result": "OK"
+    },
+    {
+      "command": "python -m unittest discover -s discovery18/vault/scripts -p 'test_remote_music_snapshot.py'",
+      "tests": 15,
+      "result": "OK",
+      "scope": "checker regression only; no live cross-repository music audit performed in this discovery run"
+    }
+  ],
+  "ci": {
+    "run_id": 39084098370,
+    "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/39084098370",
+    "head_sha": "5466ccca3c2d0940b7a661acb3bd77e51a69e163",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "id": 117546935552,
+        "name": "validate",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 39084098370,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Validate publications and full source-history coverage",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Negative regressions and interrupted-publication recovery",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Compare permanent history with the actual base commit",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Record scope of checks",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 6
+          },
+          {
+            "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 12
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 13
+          }
+        ]
+      }
+    ],
+    "scope": "actual full-repository structural/source-history coverage, regression tests, actual-base append-only history and immutable PREPARED checks; no live-source, playback, semantic-quality or delivery certification"
+  },
+  "applicable_gates": {
+    "three_dated_notes": true,
+    "exact_five_youtube_and_ten_reddit_in_frozen_order": true,
+    "real_candidate_counts_32_and_62": true,
+    "permanent_id_and_same_work_checks": true,
+    "current_semantic_duplicates_zero_by_editorial_review": true,
+    "youtube_actual_watch_identity_and_title_creator": true,
+    "youtube_particular_content_grounded_in_observed_transcript_description_chapters_and_primary_support": true,
+    "news_primary_sources_and_event_dates_verified": true,
+    "future_events_distinguished": true,
+    "reddit_real_observed_identity_and_waiver_labels_10": true,
+    "unsupported_reddit_answers_not_presented_as_facts": true,
+    "wildcards_and_diversity_checked": true,
+    "persisted_bundle_and_original_digests_before_publication": true,
+    "all_five_exact_readbacks": true,
+    "original_history_bytes_retained": true,
+    "exactly_once_registration": true,
+    "post_write_planner_all_no_op": true,
+    "prior_manual_and_other_dated_content_unchanged": true,
+    "available_validators_and_actual_ci_passed": true
+  },
+  "unverified_or_not_certified": [
+    "complete audiovisual playback of five videos",
+    "four unavailable YouTube transcripts",
+    "Reddit originals, comments, current accessibility and original post dates (user waived)",
+    "independent data reanalysis of research",
+    "historical live-source quality backlog",
+    "device sync",
+    "notification delivery"
+  ],
+  "historical_backlog": "Retained without repair or deletion. Prior exact YouTube repeats and historical source/format caveats remain explicit backlog; unrelated music historical transaction drift is not re-certified by this run.",
+  "mutation_scope": "Today's three discovery notes, append-only five/ten dated history rows, immutable transaction and audit/QA receipts only. No backfill, other recommendation producer writes, credentials, safety/policy/security settings or task changes.",
+  "remote_write_errors": [],
+  "research_transient_errors": [
+    "some web source opens returned Internal Error or timeout without exposed HTTP status",
+    "one YouTube web open explicitly Online fetch throttled; actual watch source read by independently required browser inspection",
+    "four YouTube transcript panels remained loading; not treated as read, identity/description and relevant primary supporting material used",
+    "DamiLee rejected after actual identity/sponsorship description read because substantive content verification incomplete"
+  ]
+}
