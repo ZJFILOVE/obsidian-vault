@@ -1,0 +1,1234 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-10-18",
+  "stage": "prepared_verified",
+  "recorded_at_utc": "2026-10-18 01:01:14 UTC",
+  "original_bundle_sha256": "450adef96825eab1678fbf4d193a96b2fa5aa391dec65f6669edac91c1c6e9a1",
+  "original_plan_sha256": "f6860e8c29b77b613d17cc1ce8705ac2f4643fd92bdccfc61beec0da79ea9f5e",
+  "prepared_creation_commit": "7c4aa0924d2fc1cdd0984e4691ca37380af5d65c",
+  "prepared_readback": {
+    "sha": "51fc259bdef430dd6018adbc8595e75c7e43279b",
+    "full_payload_match": true
+  },
+  "evidence": {
+    "schema_version": 1,
+    "operation_id": "music:2026-10-18",
+    "mode": "new_generation",
+    "recorded_at_utc": "2026-10-18T01:00:39Z",
+    "preflight_heads": {
+      "ZJFILOVE/obsidian-vault": {
+        "name": "main",
+        "commit": {
+          "sha": "81e58b5158f80ee21a46185e751bd16464aeaa8a",
+          "node_id": "C_kwDOUMOAQdoAKDgxZTU4YjUxNThmODBlZTIxYTQ2MTg1ZTc1MWJkMTY0NjRhZWFhOGE",
+          "commit": {
+            "author": {
+              "name": "ZJFILOVE",
+              "email": "zhujunfeng07@gmail.com",
+              "date": "2026-10-18T00:49:29Z"
+            },
+            "committer": {
+              "name": "ZJFILOVE",
+              "email": "zhujunfeng07@gmail.com",
+              "date": "2026-10-18T00:49:29Z"
+            },
+            "message": "Record discovery source, waiver, post-write and CI QA 2026-10-18",
+            "tree": {
+              "sha": "d679bfca5a922752aa5513673c7491300f92aec6",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/d679bfca5a922752aa5513673c7491300f92aec6"
+            },
+            "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/commits/81e58b5158f80ee21a46185e751bd16464aeaa8a",
+            "comment_count": 0,
+            "verification": {
+              "verified": false,
+              "reason": "unsigned",
+              "signature": null,
+              "payload": null,
+              "verified_at": null
+            }
+          },
+          "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/commits/81e58b5158f80ee21a46185e751bd16464aeaa8a",
+          "html_url": "https://github.com/ZJFILOVE/obsidian-vault/commit/81e58b5158f80ee21a46185e751bd16464aeaa8a",
+          "comments_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/commits/81e58b5158f80ee21a46185e751bd16464aeaa8a/comments",
+          "author": {
+            "login": "ZJFILOVE",
+            "id": 187031297,
+            "node_id": "U_kgDOCyXfAQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ZJFILOVE",
+            "html_url": "https://github.com/ZJFILOVE",
+            "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+            "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+            "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+            "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+            "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "committer": {
+            "login": "ZJFILOVE",
+            "id": 187031297,
+            "node_id": "U_kgDOCyXfAQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ZJFILOVE",
+            "html_url": "https://github.com/ZJFILOVE",
+            "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+            "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+            "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+            "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+            "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "parents": [
+            {
+              "sha": "42cb90c00e42a97c9bcceee9c690ede430daee09",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/commits/42cb90c00e42a97c9bcceee9c690ede430daee09",
+              "html_url": "https://github.com/ZJFILOVE/obsidian-vault/commit/42cb90c00e42a97c9bcceee9c690ede430daee09"
+            }
+          ]
+        },
+        "_links": {
+          "self": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/branches/main",
+          "html": "https://github.com/ZJFILOVE/obsidian-vault/tree/main"
+        },
+        "protected": false,
+        "protection": {
+          "enabled": false,
+          "required_status_checks": {
+            "enforcement_level": "off",
+            "contexts": [],
+            "checks": []
+          }
+        },
+        "protection_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/branches/main/protection"
+      },
+      "ZJFILOVE/music-daily": {
+        "name": "main",
+        "commit": {
+          "sha": "278213ec9caab8d6c7df56a13d80e4fe844e18b3",
+          "node_id": "C_kwDOUN9GidoAKDI3ODIxM2VjOWNhYWI4ZDZjN2RmNTZhMTNkODBlNGZlODQ0ZTE4YjM",
+          "commit": {
+            "author": {
+              "name": "ZJFILOVE",
+              "email": "zhujunfeng07@gmail.com",
+              "date": "2026-10-17T01:22:07Z"
+            },
+            "committer": {
+              "name": "ZJFILOVE",
+              "email": "zhujunfeng07@gmail.com",
+              "date": "2026-10-17T01:22:07Z"
+            },
+            "message": "Publish 2026-10-17 Apple Music Daily 5 and preserve every prior exposure",
+            "tree": {
+              "sha": "c93d2c5bb48f625924c94c59129507593fe910d6",
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/c93d2c5bb48f625924c94c59129507593fe910d6"
+            },
+            "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/commits/278213ec9caab8d6c7df56a13d80e4fe844e18b3",
+            "comment_count": 0,
+            "verification": {
+              "verified": false,
+              "reason": "unsigned",
+              "signature": null,
+              "payload": null,
+              "verified_at": null
+            }
+          },
+          "url": "https://api.github.com/repos/ZJFILOVE/music-daily/commits/278213ec9caab8d6c7df56a13d80e4fe844e18b3",
+          "html_url": "https://github.com/ZJFILOVE/music-daily/commit/278213ec9caab8d6c7df56a13d80e4fe844e18b3",
+          "comments_url": "https://api.github.com/repos/ZJFILOVE/music-daily/commits/278213ec9caab8d6c7df56a13d80e4fe844e18b3/comments",
+          "author": {
+            "login": "ZJFILOVE",
+            "id": 187031297,
+            "node_id": "U_kgDOCyXfAQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ZJFILOVE",
+            "html_url": "https://github.com/ZJFILOVE",
+            "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+            "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+            "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+            "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+            "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "committer": {
+            "login": "ZJFILOVE",
+            "id": 187031297,
+            "node_id": "U_kgDOCyXfAQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ZJFILOVE",
+            "html_url": "https://github.com/ZJFILOVE",
+            "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+            "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+            "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+            "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+            "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "parents": [
+            {
+              "sha": "5165768e4b7a9f8088a40ac1fb6e5dbc5168e926",
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/commits/5165768e4b7a9f8088a40ac1fb6e5dbc5168e926",
+              "html_url": "https://github.com/ZJFILOVE/music-daily/commit/5165768e4b7a9f8088a40ac1fb6e5dbc5168e926"
+            }
+          ]
+        },
+        "_links": {
+          "self": "https://api.github.com/repos/ZJFILOVE/music-daily/branches/main",
+          "html": "https://github.com/ZJFILOVE/music-daily/tree/main"
+        },
+        "protected": false,
+        "protection": {
+          "enabled": false,
+          "required_status_checks": {
+            "enforcement_level": "off",
+            "contexts": [],
+            "checks": []
+          }
+        },
+        "protection_url": "https://api.github.com/repos/ZJFILOVE/music-daily/branches/main/protection"
+      }
+    },
+    "preflight": {
+      "complete_file_blob_hashes_verified": 148,
+      "complete_state_entries": 208,
+      "historical_manifests_read": 40,
+      "existing_manifest_tracks": 200,
+      "all_prepared_read": [
+        ".recommendation/transactions/english/2026-10-15.json",
+        ".recommendation/transactions/english/2026-10-16.json",
+        ".recommendation/transactions/english/2026-10-17.json",
+        ".recommendation/transactions/english/2026-10-18.json",
+        ".recommendation/transactions/music/2026-10-15.json",
+        ".recommendation/transactions/music/2026-10-16.json",
+        ".recommendation/transactions/music/2026-10-17.json",
+        ".recommendation/transactions/news-youtube-reddit/2026-10-15.json",
+        ".recommendation/transactions/news-youtube-reddit/2026-10-16.json",
+        ".recommendation/transactions/news-youtube-reddit/2026-10-17.json",
+        ".recommendation/transactions/news-youtube-reddit/2026-10-18.json"
+      ],
+      "states_byte_identical": true,
+      "all_historical_manifest_mirrors_byte_identical": true,
+      "today_publications_bundle": "confirmed absent in accessible complete pinned trees"
+    },
+    "candidate_count": 22,
+    "candidate_pool": [
+      {
+        "song_id": "1707829783",
+        "title": "米店",
+        "artist": "张玮玮",
+        "album": "白银饭店",
+        "source_url_observed": "https://music.apple.com/cn/song/%E7%B1%B3%E5%BA%97/1707829783",
+        "source_observed_at": "2026-10-18T00:58:19.714Z",
+        "source_evidence": "Actual CN song page: 米店; 张玮玮; 白银饭店; URL song_id1707829783; 2012-05-26. Credits: Zhang Weiwei vocals/songwriter/producer, 范世杰 recording engineer, 萬曉利 mixing engineer. Not 2008 Beijing live1775898684 or later live1852182710; no lyrics reproduced.",
+        "tier": "high_confidence",
+        "scores": [
+          4.6,
+          4.4,
+          4,
+          4.8,
+          4.5
+        ],
+        "analysis_summary": "从《白银饭店》专辑录音进入张玮玮的慢叙述：不靠大幅度的声势变化，而把注意力放在声线的颗粒、句子松紧和伴奏留下的余地。明确区别于2008北京现场和后来现场录音。",
+        "decision": "selected",
+        "url": "https://music.apple.com/cn/song/%E7%B1%B3%E5%BA%97/1707829783",
+        "weighted_score": 4.45,
+        "evaluation_scope": "Actual exact CN song metadata and versions; original appreciation. No account playback test or full audition claim."
+      },
+      {
+        "song_id": "1876508755",
+        "title": "Song for Our Daughter",
+        "artist": "Laura Marling",
+        "album": "Song for Our Daughter",
+        "source_url_observed": "https://music.apple.com/cn/song/song-for-our-daughter/1876508755",
+        "source_observed_at": "2026-10-18T00:57:40.597Z",
+        "source_evidence": "Actual CN song page: Song for Our Daughter, Laura Marling, album Song for Our Daughter, song_id1876508755; dated2020-04-10; explicit/儿童不宜 badge observed. CN search confirms other eight distinct album song IDs. Apple Music album editorial explains figurative daughter and preparing next generation, not literal biography.",
+        "tier": "high_confidence",
+        "scores": [
+          4.7,
+          4.5,
+          4.3,
+          4.8,
+          4.4
+        ],
+        "analysis_summary": "把亲密与提醒放在同一首歌里：Laura Marling写给想象中的下一代，而不是需要按现实亲子传记理解的自述。用原声质地、克制的人声与逐渐展开的声部关系，听关怀如何不变成说教。国区条目标有儿童不宜。",
+        "decision": "selected",
+        "url": "https://music.apple.com/cn/song/song-for-our-daughter/1876508755",
+        "weighted_score": 4.555,
+        "evaluation_scope": "Actual exact CN song metadata and versions; original appreciation. No account playback test or full audition claim."
+      },
+      {
+        "song_id": "1445769464",
+        "title": "Poinciana (Live at The Pershing, Chicago, 1958)",
+        "artist": "Ahmad Jamal Trio",
+        "album": "Ahmad Jamal At The Pershing: But Not for Me",
+        "source_url_observed": "https://music.apple.com/cn/song/poinciana-live-at-the-pershing-chicago-1958/1445769464",
+        "source_observed_at": "2026-10-18T00:57:44.857Z",
+        "source_evidence": "Actual CN song page title includes Live at The Pershing, Chicago,1958; Ahmad Jamal Trio; Ahmad Jamal At The Pershing: But Not for Me; ID1445769464. Credits Ahmad Jamal piano, Israel Crosby bass, Vernell Fournier drums, Dave Usher producer, Malcolm Chisholm engineer. Apple Music CN Ahmad Jamal Essentials editorial independently describes this 1958 performance's drums/bass/piano space.",
+        "tier": "high_confidence",
+        "scores": [
+          4.9,
+          4.6,
+          4.5,
+          4.8,
+          4.3
+        ],
+        "analysis_summary": "1958年Pershing现场不是任意一份同名录音：钢琴、贝斯和鼓的分工让停顿仍然有推进力。把钢琴暂时移出注意力中心，听Israel Crosby和Vernell Fournier如何把时间维持在音乐里。",
+        "decision": "selected",
+        "url": "https://music.apple.com/cn/song/poinciana-live-at-the-pershing-chicago-1958/1445769464",
+        "weighted_score": 4.67,
+        "evaluation_scope": "Actual exact CN song metadata and versions; original appreciation. No account playback test or full audition claim."
+      },
+      {
+        "song_id": "1528519982",
+        "title": "Diaraby (with Ry Cooder) [with Ry Cooder]",
+        "artist": "Ali Farka Touré",
+        "album": "Talking Timbuktu (with Ry Cooder)",
+        "source_url_observed": "https://music.apple.com/cn/song/diaraby-with-ry-cooder-with-ry-cooder/1528519982",
+        "source_observed_at": "2026-10-18T00:57:52.908Z",
+        "source_evidence": "Actual CN song page confirms full title with duplicated with Ry Cooder, Ali Farka Touré, Talking Timbuktu(with Ry Cooder),ID1528519982. Credits Ali vocals/electric guitar, Ry electric guitar/bass/marimba/sampler; Hamma Sankare percussion/vocals; Oumar Toure congas/vocals. Date conflict: song1984-03-28 versus exact CN parent album1994-03-28 and phonogram1994; album read at00:58:27.299Z, 7:26 duration. Keep caveat, no inferred recording date.",
+        "tier": "adjacent",
+        "scores": [
+          4.8,
+          4.5,
+          4.7,
+          4.9,
+          4.1
+        ],
+        "analysis_summary": "让循环保持生命力的不是不断换和弦，而是吉他短句、人声与打击乐彼此让位。保留国区目录中重复的合作艺人括注，不混用选集或翻奏ID；单曲页1984与专辑页1994的年份冲突明确披露，未猜测录音日期。",
+        "decision": "selected",
+        "url": "https://music.apple.com/cn/song/diaraby-with-ry-cooder-with-ry-cooder/1528519982",
+        "weighted_score": 4.65,
+        "evaluation_scope": "Actual exact CN song metadata and versions; original appreciation. No account playback test or full audition claim."
+      },
+      {
+        "song_id": "1830552219",
+        "title": "Partita for 8 Singers: 1. Allemande",
+        "artist": "Roomful of Teeth & Brad Wells",
+        "album": "Caroline Shaw: Partita for 8 Voices - EP",
+        "source_url_observed": "https://music.apple.com/cn/song/partita-for-8-singers-1-allemande/1830552219",
+        "source_observed_at": "2026-10-18T00:58:07.089Z",
+        "source_evidence": "Actual CN song page Partita for8Singers:1.Allemande; Roomful of Teeth and Brad Wells; Caroline Shaw:Partita for8Voices-EP;ID1830552219;2012-10-30. Credits ensemble Roomful of Teeth, conductor Brad Wells, composer 卡洛琳・肖. Exact original EP not Olga Bell remix1830551982; alternate album1830481415 treated same work not extra candidate.",
+        "tier": "wildcard",
+        "scores": [
+          4.8,
+          4.2,
+          5,
+          5,
+          3.8
+        ],
+        "analysis_summary": "真正的wildcard：Caroline Shaw组曲第一乐章，把说话、呼吸感与和声当作可组合的声音材料，而非传统主唱加伴唱。明确只推荐第一乐章，不把整部四乐章作品或混音版算成同一首资源。",
+        "decision": "selected",
+        "url": "https://music.apple.com/cn/song/partita-for-8-singers-1-allemande/1830552219",
+        "weighted_score": 4.62,
+        "evaluation_scope": "Actual exact CN song metadata and versions; original appreciation. No account playback test or full audition claim."
+      },
+      {
+        "song_id": "1876508741",
+        "title": "Alexandra",
+        "artist": "Laura Marling",
+        "album": "Song for Our Daughter",
+        "url": "https://music.apple.com/cn/song/1876508741",
+        "observed_catalogue": "https://music.apple.com/cn/search?term=Laura%20Marling%20Song%20for%20Our%20Daughter",
+        "catalogue_observed_at": "2026-10-18T00:57:36.274Z",
+        "decision": "rejected",
+        "reason": "国区实际搜索列出的同专辑候选；本期保留标题曲作为清醒关怀的入口，其余不占用同作者名额。",
+        "evaluation_scope": "Observed real CN catalogue identity and preliminary editorial diversity decision only; not a full audition or final exact-song verification.",
+        "scores": [
+          3.8,
+          3.5,
+          3.7,
+          4.5,
+          3.5
+        ],
+        "same_creator_penalty": 1,
+        "weighted_score_before_penalty": 3.78
+      },
+      {
+        "song_id": "1876508744",
+        "title": "Held Down",
+        "artist": "Laura Marling",
+        "album": "Song for Our Daughter",
+        "url": "https://music.apple.com/cn/song/1876508744",
+        "observed_catalogue": "https://music.apple.com/cn/search?term=Laura%20Marling%20Song%20for%20Our%20Daughter",
+        "catalogue_observed_at": "2026-10-18T00:57:36.274Z",
+        "decision": "rejected",
+        "reason": "国区实际搜索列出的同专辑候选；本期保留标题曲作为清醒关怀的入口，其余不占用同作者名额。",
+        "evaluation_scope": "Observed real CN catalogue identity and preliminary editorial diversity decision only; not a full audition or final exact-song verification.",
+        "scores": [
+          3.8,
+          3.5,
+          3.7,
+          4.5,
+          3.5
+        ],
+        "same_creator_penalty": 1,
+        "weighted_score_before_penalty": 3.78
+      },
+      {
+        "song_id": "1876508749",
+        "title": "Only the Strong",
+        "artist": "Laura Marling",
+        "album": "Song for Our Daughter",
+        "url": "https://music.apple.com/cn/song/1876508749",
+        "observed_catalogue": "https://music.apple.com/cn/search?term=Laura%20Marling%20Song%20for%20Our%20Daughter",
+        "catalogue_observed_at": "2026-10-18T00:57:36.274Z",
+        "decision": "rejected",
+        "reason": "国区实际搜索列出的同专辑候选；本期保留标题曲作为清醒关怀的入口，其余不占用同作者名额。",
+        "evaluation_scope": "Observed real CN catalogue identity and preliminary editorial diversity decision only; not a full audition or final exact-song verification.",
+        "scores": [
+          3.8,
+          3.5,
+          3.7,
+          4.5,
+          3.5
+        ],
+        "same_creator_penalty": 1,
+        "weighted_score_before_penalty": 3.78
+      },
+      {
+        "song_id": "1876508752",
+        "title": "Blow by Blow",
+        "artist": "Laura Marling",
+        "album": "Song for Our Daughter",
+        "url": "https://music.apple.com/cn/song/1876508752",
+        "observed_catalogue": "https://music.apple.com/cn/search?term=Laura%20Marling%20Song%20for%20Our%20Daughter",
+        "catalogue_observed_at": "2026-10-18T00:57:36.274Z",
+        "decision": "rejected",
+        "reason": "国区实际搜索列出的同专辑候选；本期保留标题曲作为清醒关怀的入口，其余不占用同作者名额。",
+        "evaluation_scope": "Observed real CN catalogue identity and preliminary editorial diversity decision only; not a full audition or final exact-song verification.",
+        "scores": [
+          3.8,
+          3.5,
+          3.7,
+          4.5,
+          3.5
+        ],
+        "same_creator_penalty": 1,
+        "weighted_score_before_penalty": 3.78
+      },
+      {
+        "song_id": "1876508756",
+        "title": "Fortune",
+        "artist": "Laura Marling",
+        "album": "Song for Our Daughter",
+        "url": "https://music.apple.com/cn/song/1876508756",
+        "observed_catalogue": "https://music.apple.com/cn/search?term=Laura%20Marling%20Song%20for%20Our%20Daughter",
+        "catalogue_observed_at": "2026-10-18T00:57:36.274Z",
+        "decision": "rejected",
+        "reason": "国区实际搜索列出的同专辑候选；本期保留标题曲作为清醒关怀的入口，其余不占用同作者名额。",
+        "evaluation_scope": "Observed real CN catalogue identity and preliminary editorial diversity decision only; not a full audition or final exact-song verification.",
+        "scores": [
+          3.8,
+          3.5,
+          3.7,
+          4.5,
+          3.5
+        ],
+        "same_creator_penalty": 1,
+        "weighted_score_before_penalty": 3.78
+      },
+      {
+        "song_id": "1876508760",
+        "title": "Hope We Meet Again",
+        "artist": "Laura Marling",
+        "album": "Song for Our Daughter",
+        "url": "https://music.apple.com/cn/song/1876508760",
+        "observed_catalogue": "https://music.apple.com/cn/search?term=Laura%20Marling%20Song%20for%20Our%20Daughter",
+        "catalogue_observed_at": "2026-10-18T00:57:36.274Z",
+        "decision": "rejected",
+        "reason": "国区实际搜索列出的同专辑候选；本期保留标题曲作为清醒关怀的入口，其余不占用同作者名额。",
+        "evaluation_scope": "Observed real CN catalogue identity and preliminary editorial diversity decision only; not a full audition or final exact-song verification.",
+        "scores": [
+          3.8,
+          3.5,
+          3.7,
+          4.5,
+          3.5
+        ],
+        "same_creator_penalty": 1,
+        "weighted_score_before_penalty": 3.78
+      },
+      {
+        "song_id": "1876508758",
+        "title": "The End of the Affair",
+        "artist": "Laura Marling",
+        "album": "Song for Our Daughter",
+        "url": "https://music.apple.com/cn/song/1876508758",
+        "observed_catalogue": "https://music.apple.com/cn/search?term=Laura%20Marling%20Song%20for%20Our%20Daughter",
+        "catalogue_observed_at": "2026-10-18T00:57:36.274Z",
+        "decision": "rejected",
+        "reason": "国区实际搜索列出的同专辑候选；本期保留标题曲作为清醒关怀的入口，其余不占用同作者名额。",
+        "evaluation_scope": "Observed real CN catalogue identity and preliminary editorial diversity decision only; not a full audition or final exact-song verification.",
+        "scores": [
+          3.8,
+          3.5,
+          3.7,
+          4.5,
+          3.5
+        ],
+        "same_creator_penalty": 1,
+        "weighted_score_before_penalty": 3.78
+      },
+      {
+        "song_id": "1876508761",
+        "title": "For You",
+        "artist": "Laura Marling",
+        "album": "Song for Our Daughter",
+        "url": "https://music.apple.com/cn/song/1876508761",
+        "observed_catalogue": "https://music.apple.com/cn/search?term=Laura%20Marling%20Song%20for%20Our%20Daughter",
+        "catalogue_observed_at": "2026-10-18T00:57:36.274Z",
+        "decision": "rejected",
+        "reason": "国区实际搜索列出的同专辑候选；本期保留标题曲作为清醒关怀的入口，其余不占用同作者名额。",
+        "evaluation_scope": "Observed real CN catalogue identity and preliminary editorial diversity decision only; not a full audition or final exact-song verification.",
+        "scores": [
+          3.8,
+          3.5,
+          3.7,
+          4.5,
+          3.5
+        ],
+        "same_creator_penalty": 1,
+        "weighted_score_before_penalty": 3.78
+      },
+      {
+        "song_id": "1528519971",
+        "title": "Bonde (with Ry Cooder) [with Ry Cooder]",
+        "artist": "Ali Farka Touré",
+        "album": "Talking Timbuktu (with Ry Cooder)",
+        "url": "https://music.apple.com/cn/song/1528519971",
+        "observed_catalogue": "https://music.apple.com/cn/album/talking-timbuktu-with-ry-cooder/1528519970",
+        "catalogue_observed_at": "2026-10-18T00:58:27.299Z",
+        "decision": "rejected",
+        "reason": "国区专辑完整十曲目录；Diaraby保留为较长循环的入口，其余同唱片曲目排除以保护艺人与风格多样性。",
+        "evaluation_scope": "Observed real CN catalogue identity and preliminary editorial diversity decision only; not a full audition or final exact-song verification.",
+        "scores": [
+          3.8,
+          3.5,
+          3.7,
+          4.5,
+          3.5
+        ],
+        "same_creator_penalty": 1,
+        "weighted_score_before_penalty": 3.78
+      },
+      {
+        "song_id": "1528519972",
+        "title": "Soukora (with Ry Cooder) [with Ry Cooder]",
+        "artist": "Ali Farka Touré",
+        "album": "Talking Timbuktu (with Ry Cooder)",
+        "url": "https://music.apple.com/cn/song/1528519972",
+        "observed_catalogue": "https://music.apple.com/cn/album/talking-timbuktu-with-ry-cooder/1528519970",
+        "catalogue_observed_at": "2026-10-18T00:58:27.299Z",
+        "decision": "rejected",
+        "reason": "国区专辑完整十曲目录；Diaraby保留为较长循环的入口，其余同唱片曲目排除以保护艺人与风格多样性。",
+        "evaluation_scope": "Observed real CN catalogue identity and preliminary editorial diversity decision only; not a full audition or final exact-song verification.",
+        "scores": [
+          3.8,
+          3.5,
+          3.7,
+          4.5,
+          3.5
+        ],
+        "same_creator_penalty": 1,
+        "weighted_score_before_penalty": 3.78
+      },
+      {
+        "song_id": "1528519973",
+        "title": "Gomni (with Ry Cooder) [with Ry Cooder]",
+        "artist": "Ali Farka Touré",
+        "album": "Talking Timbuktu (with Ry Cooder)",
+        "url": "https://music.apple.com/cn/song/1528519973",
+        "observed_catalogue": "https://music.apple.com/cn/album/talking-timbuktu-with-ry-cooder/1528519970",
+        "catalogue_observed_at": "2026-10-18T00:58:27.299Z",
+        "decision": "rejected",
+        "reason": "国区专辑完整十曲目录；Diaraby保留为较长循环的入口，其余同唱片曲目排除以保护艺人与风格多样性。",
+        "evaluation_scope": "Observed real CN catalogue identity and preliminary editorial diversity decision only; not a full audition or final exact-song verification.",
+        "scores": [
+          3.8,
+          3.5,
+          3.7,
+          4.5,
+          3.5
+        ],
+        "same_creator_penalty": 1,
+        "weighted_score_before_penalty": 3.78
+      },
+      {
+        "song_id": "1528519974",
+        "title": "Sega (with Ry Cooder) [with Ry Cooder]",
+        "artist": "Ali Farka Touré",
+        "album": "Talking Timbuktu (with Ry Cooder)",
+        "url": "https://music.apple.com/cn/song/1528519974",
+        "observed_catalogue": "https://music.apple.com/cn/album/talking-timbuktu-with-ry-cooder/1528519970",
+        "catalogue_observed_at": "2026-10-18T00:58:27.299Z",
+        "decision": "rejected",
+        "reason": "国区专辑完整十曲目录；Diaraby保留为较长循环的入口，其余同唱片曲目排除以保护艺人与风格多样性。",
+        "evaluation_scope": "Observed real CN catalogue identity and preliminary editorial diversity decision only; not a full audition or final exact-song verification.",
+        "scores": [
+          3.8,
+          3.5,
+          3.7,
+          4.5,
+          3.5
+        ],
+        "same_creator_penalty": 1,
+        "weighted_score_before_penalty": 3.78
+      },
+      {
+        "song_id": "1528519975",
+        "title": "Amandrai (with Ry Cooder) [with Ry Cooder]",
+        "artist": "Ali Farka Touré",
+        "album": "Talking Timbuktu (with Ry Cooder)",
+        "url": "https://music.apple.com/cn/song/1528519975",
+        "observed_catalogue": "https://music.apple.com/cn/album/talking-timbuktu-with-ry-cooder/1528519970",
+        "catalogue_observed_at": "2026-10-18T00:58:27.299Z",
+        "decision": "rejected",
+        "reason": "国区专辑完整十曲目录；Diaraby保留为较长循环的入口，其余同唱片曲目排除以保护艺人与风格多样性。",
+        "evaluation_scope": "Observed real CN catalogue identity and preliminary editorial diversity decision only; not a full audition or final exact-song verification.",
+        "scores": [
+          3.8,
+          3.5,
+          3.7,
+          4.5,
+          3.5
+        ],
+        "same_creator_penalty": 1,
+        "weighted_score_before_penalty": 3.78
+      },
+      {
+        "song_id": "1528519976",
+        "title": "Lasidan (with Ry Cooder) [with Ry Cooder]",
+        "artist": "Ali Farka Touré",
+        "album": "Talking Timbuktu (with Ry Cooder)",
+        "url": "https://music.apple.com/cn/song/1528519976",
+        "observed_catalogue": "https://music.apple.com/cn/album/talking-timbuktu-with-ry-cooder/1528519970",
+        "catalogue_observed_at": "2026-10-18T00:58:27.299Z",
+        "decision": "rejected",
+        "reason": "国区专辑完整十曲目录；Diaraby保留为较长循环的入口，其余同唱片曲目排除以保护艺人与风格多样性。",
+        "evaluation_scope": "Observed real CN catalogue identity and preliminary editorial diversity decision only; not a full audition or final exact-song verification.",
+        "scores": [
+          3.8,
+          3.5,
+          3.7,
+          4.5,
+          3.5
+        ],
+        "same_creator_penalty": 1,
+        "weighted_score_before_penalty": 3.78
+      },
+      {
+        "song_id": "1528519978",
+        "title": "Keito (with Ry Cooder) [with Ry Cooder]",
+        "artist": "Ali Farka Touré",
+        "album": "Talking Timbuktu (with Ry Cooder)",
+        "url": "https://music.apple.com/cn/song/1528519978",
+        "observed_catalogue": "https://music.apple.com/cn/album/talking-timbuktu-with-ry-cooder/1528519970",
+        "catalogue_observed_at": "2026-10-18T00:58:27.299Z",
+        "decision": "rejected",
+        "reason": "国区专辑完整十曲目录；Diaraby保留为较长循环的入口，其余同唱片曲目排除以保护艺人与风格多样性。",
+        "evaluation_scope": "Observed real CN catalogue identity and preliminary editorial diversity decision only; not a full audition or final exact-song verification.",
+        "scores": [
+          3.8,
+          3.5,
+          3.7,
+          4.5,
+          3.5
+        ],
+        "same_creator_penalty": 1,
+        "weighted_score_before_penalty": 3.78
+      },
+      {
+        "song_id": "1528519979",
+        "title": "Banga (with Ry Cooder) [with Ry Cooder]",
+        "artist": "Ali Farka Touré",
+        "album": "Talking Timbuktu (with Ry Cooder)",
+        "url": "https://music.apple.com/cn/song/1528519979",
+        "observed_catalogue": "https://music.apple.com/cn/album/talking-timbuktu-with-ry-cooder/1528519970",
+        "catalogue_observed_at": "2026-10-18T00:58:27.299Z",
+        "decision": "rejected",
+        "reason": "国区专辑完整十曲目录；Diaraby保留为较长循环的入口，其余同唱片曲目排除以保护艺人与风格多样性。",
+        "evaluation_scope": "Observed real CN catalogue identity and preliminary editorial diversity decision only; not a full audition or final exact-song verification.",
+        "scores": [
+          3.8,
+          3.5,
+          3.7,
+          4.5,
+          3.5
+        ],
+        "same_creator_penalty": 1,
+        "weighted_score_before_penalty": 3.78
+      },
+      {
+        "song_id": "1528519981",
+        "title": "Ai Du (with Ry Cooder) [with Ry Cooder]",
+        "artist": "Ali Farka Touré",
+        "album": "Talking Timbuktu (with Ry Cooder)",
+        "url": "https://music.apple.com/cn/song/1528519981",
+        "observed_catalogue": "https://music.apple.com/cn/album/talking-timbuktu-with-ry-cooder/1528519970",
+        "catalogue_observed_at": "2026-10-18T00:58:27.299Z",
+        "decision": "rejected",
+        "reason": "国区专辑完整十曲目录；Diaraby保留为较长循环的入口，其余同唱片曲目排除以保护艺人与风格多样性。",
+        "evaluation_scope": "Observed real CN catalogue identity and preliminary editorial diversity decision only; not a full audition or final exact-song verification.",
+        "scores": [
+          3.8,
+          3.5,
+          3.7,
+          4.5,
+          3.5
+        ],
+        "same_creator_penalty": 1,
+        "weighted_score_before_penalty": 3.78
+      }
+    ],
+    "candidate_pool_scope": "22 distinct works with observed actual Apple Music CN IDs/titles: nine Laura Marling tracks from actual CN search, ten Talking Timbuktu tracks from full CN album catalogue, plus three other final artists. Seventeen unselected works assessed at preliminary catalogue/editorial-diversity scope, not falsely claimed fully auditioned or exact-song verified. Alternate releases/live versions/remixes of the same work not counted as additional distinct works.",
+    "score_scope": "Subjective editorial judgments on 1-5 scale using requested weights, not measured outcomes; only observed source identity is a factual verification.",
+    "selection": [
+      {
+        "position": 1,
+        "title": "米店",
+        "artist": "张玮玮",
+        "album": "白银饭店",
+        "analysis_summary": "从《白银饭店》专辑录音进入张玮玮的慢叙述：不靠大幅度的声势变化，而把注意力放在声线的颗粒、句子松紧和伴奏留下的余地。明确区别于2008北京现场和后来现场录音。",
+        "listening_cue": "挑两处相似的句尾，分别留意最后一个音的长度、气息和它后面的空隙。第一遍只随叙述走，第二遍只跟伴奏落点；看看你感觉的“慢”，究竟来自速度，还是一句话没有被急着唱满。不要抄歌词，用一句自己的话描述这份距离感。",
+        "canonical_id": "张玮玮::米店",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/%E7%B1%B3%E5%BA%97/1707829783",
+          "song_id": "1707829783",
+          "storefront": "cn"
+        }
+      },
+      {
+        "position": 2,
+        "title": "Song for Our Daughter",
+        "artist": "Laura Marling",
+        "album": "Song for Our Daughter",
+        "analysis_summary": "把亲密与提醒放在同一首歌里：Laura Marling写给想象中的下一代，而不是需要按现实亲子传记理解的自述。用原声质地、克制的人声与逐渐展开的声部关系，听关怀如何不变成说教。国区条目标有儿童不宜。",
+        "listening_cue": "第一遍只听人声的语气变化，找一处像提醒、另一处更像安慰的位置。第二遍跟着吉他的短起音，再切换到更长的背景声：情绪变宽时，是音量在增加、声部长了，还是主唱的发声方式改变了？选一种你真正听到的变化描述即可。",
+        "canonical_id": "Laura Marling::Song for Our Daughter",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/song-for-our-daughter/1876508755",
+          "song_id": "1876508755",
+          "storefront": "cn"
+        }
+      },
+      {
+        "position": 3,
+        "title": "Poinciana (Live at The Pershing, Chicago, 1958)",
+        "artist": "Ahmad Jamal Trio",
+        "album": "Ahmad Jamal At The Pershing: But Not for Me",
+        "analysis_summary": "1958年Pershing现场不是任意一份同名录音：钢琴、贝斯和鼓的分工让停顿仍然有推进力。把钢琴暂时移出注意力中心，听Israel Crosby和Vernell Fournier如何把时间维持在音乐里。",
+        "listening_cue": "找一处钢琴明显减少音符的位置，暂时只跟鼓与贝斯轻轻打拍；等钢琴重新进入，注意它是在你预期的位置，还是用一个偏移改变了句子的重量。再回听同一段，比较只听旋律和听三人互动时，你对“安静”的理解有什么不同。",
+        "canonical_id": "Ahmad Jamal Trio::Poinciana (Live at The Pershing, Chicago, 1958)",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/poinciana-live-at-the-pershing-chicago-1958/1445769464",
+          "song_id": "1445769464",
+          "storefront": "cn"
+        }
+      },
+      {
+        "position": 4,
+        "title": "Diaraby (with Ry Cooder) [with Ry Cooder]",
+        "artist": "Ali Farka Touré",
+        "album": "Talking Timbuktu (with Ry Cooder)",
+        "analysis_summary": "让循环保持生命力的不是不断换和弦，而是吉他短句、人声与打击乐彼此让位。保留国区目录中重复的合作艺人括注，不混用选集或翻奏ID；单曲页1984与专辑页1994的年份冲突明确披露，未猜测录音日期。",
+        "listening_cue": "这份专辑条目时长7分26秒，最好留出一整段时间。先连续跟一个循环，再在相似的下一轮只听人声背后的回应，找出音长、重音或空隙的一处变化。不要把听不懂的语言自动归为神秘或悲伤，先用声音的近远、松紧和明暗描述它。",
+        "canonical_id": "Ali Farka Touré::Diaraby (with Ry Cooder) [with Ry Cooder]",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/diaraby-with-ry-cooder-with-ry-cooder/1528519982",
+          "song_id": "1528519982",
+          "storefront": "cn"
+        }
+      },
+      {
+        "position": 5,
+        "title": "Partita for 8 Singers: 1. Allemande",
+        "artist": "Roomful of Teeth & Brad Wells",
+        "album": "Caroline Shaw: Partita for 8 Voices - EP",
+        "analysis_summary": "真正的wildcard：Caroline Shaw组曲第一乐章，把说话、呼吸感与和声当作可组合的声音材料，而非传统主唱加伴唱。明确只推荐第一乐章，不把整部四乐章作品或混音版算成同一首资源。",
+        "listening_cue": "第一遍不追词义，只区分“说出来”“唱出来”和介于两者之间的声音。第二遍找一次多个声部突然形成整体的位置，判断是哪种变化让你察觉聚合：节奏对齐、音高稳定，还是音色接近？只记一个瞬间，再决定是否另找时间听完整组曲。",
+        "canonical_id": "Roomful of Teeth & Brad Wells::Partita for 8 Singers: 1. Allemande",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/partita-for-8-singers-1-allemande/1830552219",
+          "song_id": "1830552219",
+          "storefront": "cn"
+        }
+      }
+    ],
+    "permanent_dedup": {
+      "baseline": "original complete state208 + all40 music manifests + all11 PREPARED records",
+      "canonical_and_normalized_artist_title_repeats": 0,
+      "prior_song_id_repeats": 0,
+      "same_recording_review": "All five artists absent from complete prior state, historical manifests and music reservations; no same recording hidden as reissue, compilation, remaster, translation or cover. No earlier Poinciana/米店/Diaraby/Allemande/Song for Our Daughter work exposure. Distinct works and genre contexts; current list no semantic duplicates.",
+      "retired_state_entries_preserved": 8
+    },
+    "diversity": {
+      "artists": 5,
+      "eras": [
+        "1950s",
+        "1990s",
+        "2010s",
+        "2020s"
+      ],
+      "language_modes": [
+        "Mandarin",
+        "English",
+        "Malian vocal music (language not independently established)",
+        "instrumental",
+        "spoken/vocal experiment"
+      ],
+      "genres": [
+        "中文民谣唱作",
+        "英国民谣唱作",
+        "爵士钢琴三重奏现场",
+        "马里吉他与跨大西洋合作",
+        "当代无伴奏人声实验"
+      ],
+      "high_confidence": 3,
+      "adjacent": 1,
+      "wildcard": 1,
+      "wildcard_position": 5,
+      "recent_7_day_artist_repeats": 0,
+      "rounding": "5 slots:60/20/20",
+      "narrow_topic_max_fraction": 0.4
+    },
+    "source_verification": [
+      {
+        "song_id": "1707829783",
+        "source_url_observed": "https://music.apple.com/cn/song/%E7%B1%B3%E5%BA%97/1707829783",
+        "source_observed_at": "2026-10-18T00:58:19.714Z",
+        "source_evidence": "Actual CN song page: 米店; 张玮玮; 白银饭店; URL song_id1707829783; 2012-05-26. Credits: Zhang Weiwei vocals/songwriter/producer, 范世杰 recording engineer, 萬曉利 mixing engineer. Not 2008 Beijing live1775898684 or later live1852182710; no lyrics reproduced."
+      },
+      {
+        "song_id": "1876508755",
+        "source_url_observed": "https://music.apple.com/cn/song/song-for-our-daughter/1876508755",
+        "source_observed_at": "2026-10-18T00:57:40.597Z",
+        "source_evidence": "Actual CN song page: Song for Our Daughter, Laura Marling, album Song for Our Daughter, song_id1876508755; dated2020-04-10; explicit/儿童不宜 badge observed. CN search confirms other eight distinct album song IDs. Apple Music album editorial explains figurative daughter and preparing next generation, not literal biography."
+      },
+      {
+        "song_id": "1445769464",
+        "source_url_observed": "https://music.apple.com/cn/song/poinciana-live-at-the-pershing-chicago-1958/1445769464",
+        "source_observed_at": "2026-10-18T00:57:44.857Z",
+        "source_evidence": "Actual CN song page title includes Live at The Pershing, Chicago,1958; Ahmad Jamal Trio; Ahmad Jamal At The Pershing: But Not for Me; ID1445769464. Credits Ahmad Jamal piano, Israel Crosby bass, Vernell Fournier drums, Dave Usher producer, Malcolm Chisholm engineer. Apple Music CN Ahmad Jamal Essentials editorial independently describes this 1958 performance's drums/bass/piano space."
+      },
+      {
+        "song_id": "1528519982",
+        "source_url_observed": "https://music.apple.com/cn/song/diaraby-with-ry-cooder-with-ry-cooder/1528519982",
+        "source_observed_at": "2026-10-18T00:57:52.908Z",
+        "source_evidence": "Actual CN song page confirms full title with duplicated with Ry Cooder, Ali Farka Touré, Talking Timbuktu(with Ry Cooder),ID1528519982. Credits Ali vocals/electric guitar, Ry electric guitar/bass/marimba/sampler; Hamma Sankare percussion/vocals; Oumar Toure congas/vocals. Date conflict: song1984-03-28 versus exact CN parent album1994-03-28 and phonogram1994; album read at00:58:27.299Z, 7:26 duration. Keep caveat, no inferred recording date."
+      },
+      {
+        "song_id": "1830552219",
+        "source_url_observed": "https://music.apple.com/cn/song/partita-for-8-singers-1-allemande/1830552219",
+        "source_observed_at": "2026-10-18T00:58:07.089Z",
+        "source_evidence": "Actual CN song page Partita for8Singers:1.Allemande; Roomful of Teeth and Brad Wells; Caroline Shaw:Partita for8Voices-EP;ID1830552219;2012-10-30. Credits ensemble Roomful of Teeth, conductor Brad Wells, composer 卡洛琳・肖. Exact original EP not Olga Bell remix1830551982; alternate album1830481415 treated same work not extra candidate."
+      }
+    ],
+    "local_checks": {
+      "music_consistency": {
+        "status": "passed_structural_with_url_warnings",
+        "legacy_url_warnings": [
+          {
+            "manifest": "2026-09-24.json",
+            "song_id": "1443209403",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-24.json",
+            "song_id": "1440788744",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-24.json",
+            "song_id": "1472549630",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-24.json",
+            "song_id": "258200075",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-24.json",
+            "song_id": "1668862649",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-26.json",
+            "song_id": "1752629180",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-26.json",
+            "song_id": "300865222",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-26.json",
+            "song_id": "1673536432",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-26.json",
+            "song_id": "1675123649",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-26.json",
+            "song_id": "1598994872",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-28.json",
+            "song_id": "1443363499",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-28.json",
+            "song_id": "1440841917",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-28.json",
+            "song_id": "1078914485",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-28.json",
+            "song_id": "1477652823",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-28.json",
+            "song_id": "1440719297",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-29.json",
+            "song_id": "1442363759",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-29.json",
+            "song_id": "1440837273",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-29.json",
+            "song_id": "300202271",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-29.json",
+            "song_id": "1675560578",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-29.json",
+            "song_id": "1447442939",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-17.json",
+            "song_id": "1491316305",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-17.json",
+            "song_id": "1710206776",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-17.json",
+            "song_id": "1763223953",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-17.json",
+            "song_id": "1551592392",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-17.json",
+            "song_id": "715651844",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-18.json",
+            "song_id": "1707829783",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-18.json",
+            "song_id": "1876508755",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-18.json",
+            "song_id": "1445769464",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-18.json",
+            "song_id": "1528519982",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-18.json",
+            "song_id": "1830552219",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          }
+        ],
+        "manifests": 41,
+        "current_tracks": 205,
+        "state_entries": 213,
+        "historical_exposures_checked": 208,
+        "retired_entries_retained": 8,
+        "cross_repository": "not_checked",
+        "unverified": [
+          "live source availability and metadata",
+          "semantic quality and artist diversity",
+          "local Obsidian sync",
+          "task scheduling and delivery"
+        ]
+      },
+      "vault_music_validator_scope": "All41 current music notes and41 manifests including complete original40, strict music checks where policy applies",
+      "vault_music_track_checks": 170,
+      "prepared_journal": {
+        "status": "passed_immutable_publication_bundles",
+        "bundles": 11,
+        "base_ref": null,
+        "content_qa": "not_evaluated"
+      },
+      "bundle_freeze_verify_check_baselines": "passed"
+    },
+    "research_failures": [
+      {
+        "kind": "actual_cn_page_not_found",
+        "song_ids": [
+          "1073045892"
+        ],
+        "source": "https://music.apple.com/cn/song/1073045892",
+        "action": "陈升不再让你孤单海外选集ID在CN显示无法找到页面。国区搜索仅见其他演唱者版本，未替换或选用；转向独立发现的张玮玮米店。No source validity inferred from overseas result."
+      }
+    ],
+    "catalogue_caveats": [
+      {
+        "song_id": "1528519982",
+        "song_page_date": "1984-03-28",
+        "parent_album_date": "1994-03-28",
+        "parent_phonogram": "1994",
+        "handling": "Conflict disclosed in note. Version identified by direct linked CN album/title/artist/ID, recording date not invented."
+      },
+      {
+        "song_id": "1876508755",
+        "advisory": "儿童不宜 observed and disclosed; no lyrics quoted."
+      }
+    ],
+    "local_preparation_errors": [],
+    "historical_backlog": {
+      "original_bundle_manifest_drift": [
+        {
+          "operation_id": "music:2026-10-15",
+          "path": "recommendations/2026/10/2026-10-15.json",
+          "original_frozen_sha": "7790e3664e26f1a8a681d6106f7c0b60f828c8e1",
+          "current_preflight_sha": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26"
+        },
+        {
+          "operation_id": "music:2026-10-15",
+          "path": "Music/Daily/manifests/2026-10-15.json",
+          "original_frozen_sha": "7790e3664e26f1a8a681d6106f7c0b60f828c8e1",
+          "current_preflight_sha": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26"
+        }
+      ],
+      "legacy_url_warnings": [
+        {
+          "manifest": "2026-09-24.json",
+          "song_id": "1443209403",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-24.json",
+          "song_id": "1440788744",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-24.json",
+          "song_id": "1472549630",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-24.json",
+          "song_id": "258200075",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-24.json",
+          "song_id": "1668862649",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-26.json",
+          "song_id": "1752629180",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-26.json",
+          "song_id": "300865222",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-26.json",
+          "song_id": "1673536432",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-26.json",
+          "song_id": "1675123649",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-26.json",
+          "song_id": "1598994872",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-28.json",
+          "song_id": "1443363499",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-28.json",
+          "song_id": "1440841917",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-28.json",
+          "song_id": "1078914485",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-28.json",
+          "song_id": "1477652823",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-28.json",
+          "song_id": "1440719297",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-29.json",
+          "song_id": "1442363759",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-29.json",
+          "song_id": "1440837273",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-29.json",
+          "song_id": "300202271",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-29.json",
+          "song_id": "1675560578",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-29.json",
+          "song_id": "1447442939",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-17.json",
+          "song_id": "1491316305",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-17.json",
+          "song_id": "1710206776",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-17.json",
+          "song_id": "1763223953",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-17.json",
+          "song_id": "1551592392",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-17.json",
+          "song_id": "715651844",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-18.json",
+          "song_id": "1707829783",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-18.json",
+          "song_id": "1876508755",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-18.json",
+          "song_id": "1445769464",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-18.json",
+          "song_id": "1528519982",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-18.json",
+          "song_id": "1830552219",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        }
+      ],
+      "handling": "Older immutable bundles, notes and every exposure retained unchanged. Legacy URL-format and historical live-source findings not silently rewritten; today source and mirror gates remain mandatory."
+    },
+    "not_certified": [
+      "complete audio audition",
+      "account-specific full playback",
+      "historical live-source quality",
+      "local device sync",
+      "notification delivery"
+    ],
+    "bundle_sha256": "450adef96825eab1678fbf4d193a96b2fa5aa391dec65f6669edac91c1c6e9a1",
+    "plan_sha256": "f6860e8c29b77b613d17cc1ce8705ac2f4643fd92bdccfc61beec0da79ea9f5e"
+  }
+}
