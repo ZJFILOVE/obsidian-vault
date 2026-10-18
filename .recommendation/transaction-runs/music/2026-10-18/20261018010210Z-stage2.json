@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-10-18",
+  "stage": 2,
+  "recorded_at_utc": "2026-10-18 01:02:10 UTC",
+  "original_bundle_sha256": "450adef96825eab1678fbf4d193a96b2fa5aa391dec65f6669edac91c1c6e9a1",
+  "prepared_creation_commit": "7c4aa0924d2fc1cdd0984e4691ca37380af5d65c",
+  "publication_commit": "e26bc36f76dcf0fad43cdb016a517c649ad7e317",
+  "stage1_commit": "191793e542f1645ca30a22d3178b2a07f16db660",
+  "base_tree_sha": "e47a934c9d4737a9e0a710e97fd457fcc96a3eb9",
+  "parent_commit": "3363785db5af08848b19584838f07732551d5bd9",
+  "expected_head_nonforce_update": true,
+  "all_five_complete_readbacks": {
+    "ZJFILOVE/music-daily:recommendations/2026/10/2026-10-18.json": {
+      "sha": "ecbdb7dbd5007784bdfb7eee4a9c3cc7706aa054",
+      "utf8_bytes": 5273,
+      "full_payload_match": true
+    },
+    "ZJFILOVE/music-daily:state/tracks.json": {
+      "sha": "7ea37c092ce57292e7e0f9ccd391d5be436c6340",
+      "utf8_bytes": 17201,
+      "full_payload_match": true
+    },
+    "ZJFILOVE/obsidian-vault:Music/Daily/2026-10-18.md": {
+      "sha": "3ec519fc88cd910b17655a2c69790520db06e09a",
+      "utf8_bytes": 10124,
+      "full_payload_match": true
+    },
+    "ZJFILOVE/obsidian-vault:Music/Daily/manifests/2026-10-18.json": {
+      "sha": "ecbdb7dbd5007784bdfb7eee4a9c3cc7706aa054",
+      "utf8_bytes": 5273,
+      "full_payload_match": true
+    },
+    "ZJFILOVE/obsidian-vault:Music/Daily/state/tracks.json": {
+      "sha": "7ea37c092ce57292e7e0f9ccd391d5be436c6340",
+      "utf8_bytes": 17201,
+      "full_payload_match": true
+    }
+  },
+  "readback_length_correction": {
+    "prior_receipt": ".recommendation/transaction-runs/music/2026-10-18/20261018010136Z-stage1.json",
+    "scope": "Prior stage1 readbacks.bytes recorded JavaScript UTF-16 code-unit length, not UTF-8 bytes; all SHAs and exact content comparisons were correct. This receipt corrects length labels and gives actual UTF-8 lengths without replacing any prior receipt.",
+    "correct_utf8_lengths": {
+      "ZJFILOVE/music-daily:recommendations/2026/10/2026-10-18.json": 5273,
+      "ZJFILOVE/music-daily:state/tracks.json": 17201
+    }
+  }
+}
