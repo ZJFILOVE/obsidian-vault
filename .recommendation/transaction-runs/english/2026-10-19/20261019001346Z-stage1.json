@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-19",
+  "stage": 1,
+  "recorded_at_utc": "2026-10-19 00:13:46 UTC",
+  "original_bundle_sha256": "e8c09610703f555f386194df1dfee2d76e9dfb1c9f174b440359007cb4229c9d",
+  "original_plan_sha256": "a86c21b7391146720825e995c9c004a20e0e2a7d33d2632c846c13f87feca441",
+  "prepared_creation_commit": "17c0b2067a222dfdc6bec95e46f18a1f9e9b5b29",
+  "publication_commit": "0233f2e3404c944c3a652ebd06c37c03a7b93ea6",
+  "base_tree_sha": "48b35e647d600ef8b65f16f2db6ba68eeb322c84",
+  "parent_commit": "3676c567ceb78fc59045072f36264b9154e5edf4",
+  "expected_head_nonforce_update": true,
+  "complete_readbacks": {
+    "ZJFILOVE/obsidian-vault:50-courses/English/Daily/2026-10-19.md": {
+      "sha": "11531dcb9365259aa174c7156e1df34ca743cabc",
+      "utf8_bytes": 6989,
+      "full_payload_match": true
+    },
+    "ZJFILOVE/obsidian-vault:50-courses/English/Translation/2026-10-19.md": {
+      "sha": "9863c771a1ff7f2ae4769599df3033a0af6d040e",
+      "utf8_bytes": 10408,
+      "full_payload_match": true
+    },
+    "ZJFILOVE/obsidian-vault:50-courses/English/Vocabulary/2026-10-19.md": {
+      "sha": "2d8e5b8a70af6e7cebbd2723eb66d7dca95fa645",
+      "utf8_bytes": 8437,
+      "full_payload_match": true
+    },
+    "ZJFILOVE/obsidian-vault:.recommendation/history/english.jsonl": {
+      "sha": "b4671344e4cad950cf56526121960cd459fc2f08",
+      "utf8_bytes": 11393,
+      "full_payload_match": true
+    }
+  },
+  "planner_after_readback": {
+    "operation_id": "english:2026-10-19",
+    "plan_sha256": "a86c21b7391146720825e995c9c004a20e0e2a7d33d2632c846c13f87feca441",
+    "status": "artifacts_match",
+    "next_stage": null,
+    "decisions": [
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "50-courses/English/Daily/2026-10-19.md",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "11531dcb9365259aa174c7156e1df34ca743cabc"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "50-courses/English/Translation/2026-10-19.md",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "9863c771a1ff7f2ae4769599df3033a0af6d040e"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "50-courses/English/Vocabulary/2026-10-19.md",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "2d8e5b8a70af6e7cebbd2723eb66d7dca95fa645"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": ".recommendation/history/english.jsonl",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": "da146f78d6fb5d626337f4fe94c70f934ad5f676",
+        "target_sha": "b4671344e4cad950cf56526121960cd459fc2f08"
+      }
+    ],
+    "content_qa": "not_evaluated",
+    "github_writes_performed": 0
+  },
+  "exact_publication_ci": {
+    "id": 39179724206,
+    "head_sha": "0233f2e3404c944c3a652ebd06c37c03a7b93ea6",
+    "conclusion": "success",
+    "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/39179724206"
+  }
+}
