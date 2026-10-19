@@ -1,0 +1,109 @@
+{
+  "operation_id": "news-youtube-reddit:2026-10-19",
+  "attempt_time_utc": "2026-10-19 00:42:44 UTC",
+  "stage": 1,
+  "status": "applied_and_exact_full_readback",
+  "original_bundle_sha256": "6ef498da7c63156e5040bb78d6aad18ed35ebe56445cc4ab1e7d081d7bd7bcd9",
+  "original_plan_sha256": "2f1b6549b2e0f5a5eefa3000632542f5e89e49c7945c1716c8a23f34249869f0",
+  "prepared_creation_commit": "6bfd11cdb552a0a5bf15e0c8315f509706b54d0f",
+  "prepared_digest_receipt_path": ".recommendation/transaction-runs/news-youtube-reddit/2026-10-19/20261019004052Z-prepared.json",
+  "prepared_digest_receipt_commit": "ae2765a75451ce4fee38ab895a70d54a3014c141",
+  "actual_parent": "ae2765a75451ce4fee38ab895a70d54a3014c141",
+  "actual_base_tree": "c68dba3d4c804d0b69e37982923547a4a8ac6e31",
+  "publication_commit": "26bd4c29ff375ec09bafabe29e063f3f5ebcb001",
+  "publication_tree": "bd979a27d3f3783649bc7d975eda1edee1793f73",
+  "expected_head_nonforce_update": true,
+  "readback_head": "26bd4c29ff375ec09bafabe29e063f3f5ebcb001",
+  "changed_paths": [
+    ".recommendation/history/reddit.jsonl",
+    ".recommendation/history/youtube.jsonl",
+    "News/Daily/2026-10-19.md",
+    "Resources/Reddit/Daily/2026-10-19.md",
+    "Resources/YouTube/Daily/2026-10-19.md"
+  ],
+  "readbacks": {
+    "ZJFILOVE/obsidian-vault:News/Daily/2026-10-19.md": {
+      "sha": "4fe65f884d0335ff5ca934e448c9c95cdd63c2ad",
+      "full_frozen_payload_match": true
+    },
+    "ZJFILOVE/obsidian-vault:Resources/YouTube/Daily/2026-10-19.md": {
+      "sha": "5768ecf490e7eccac3712ee52c584837d1eebced",
+      "full_frozen_payload_match": true
+    },
+    "ZJFILOVE/obsidian-vault:Resources/Reddit/Daily/2026-10-19.md": {
+      "sha": "347eaf290ba8d43ad2fbd05b803703e573d9d23f",
+      "full_frozen_payload_match": true
+    },
+    "ZJFILOVE/obsidian-vault:.recommendation/history/youtube.jsonl": {
+      "sha": "2fc2e48982fb31a45bd468b7336655f5df4ffc90",
+      "full_frozen_payload_match": true
+    },
+    "ZJFILOVE/obsidian-vault:.recommendation/history/reddit.jsonl": {
+      "sha": "2733151beed3278a0dbd5e8552533b0711a88963",
+      "full_frozen_payload_match": true
+    }
+  },
+  "preapply_planner": {
+    "status": "ready_to_resume",
+    "operation_id": "news-youtube-reddit:2026-10-19",
+    "bundle_sha256": "6ef498da7c63156e5040bb78d6aad18ed35ebe56445cc4ab1e7d081d7bd7bcd9",
+    "github_writes_performed": 0,
+    "content_qa": "not_evaluated",
+    "plan_sha256": "2f1b6549b2e0f5a5eefa3000632542f5e89e49c7945c1716c8a23f34249869f0",
+    "next_stage": 1,
+    "decisions": [
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "News/Daily/2026-10-19.md",
+        "stage": 1,
+        "action": "create",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": null,
+        "target_sha": "4fe65f884d0335ff5ca934e448c9c95cdd63c2ad"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Resources/YouTube/Daily/2026-10-19.md",
+        "stage": 1,
+        "action": "create",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": null,
+        "target_sha": "5768ecf490e7eccac3712ee52c584837d1eebced"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Resources/Reddit/Daily/2026-10-19.md",
+        "stage": 1,
+        "action": "create",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": null,
+        "target_sha": "347eaf290ba8d43ad2fbd05b803703e573d9d23f"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": ".recommendation/history/youtube.jsonl",
+        "stage": 1,
+        "action": "update",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": "d80916599523b7e2581c7e8e0c5c04ffd2eb9511",
+        "target_sha": "2fc2e48982fb31a45bd468b7336655f5df4ffc90"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": ".recommendation/history/reddit.jsonl",
+        "stage": 1,
+        "action": "update",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": "abd9af749bcd586a1bf45d837c356a099fb40c1f",
+        "target_sha": "2733151beed3278a0dbd5e8552533b0711a88963"
+      }
+    ]
+  },
+  "errors": [
+    {
+      "stage": "local_observation_encoding",
+      "classification": "local planner schema error, no GitHub failure or content writes at that point",
+      "detail": "First local invocation encoded confirmed absence as status absent; planner blocked. Corrected representation to required missing+confirmed:true using the same complete pinned Git tree, retained original bundle/baselines/digests; planner then authorized stage1. No repeated creation or payload regeneration."
+    }
+  ]
+}
