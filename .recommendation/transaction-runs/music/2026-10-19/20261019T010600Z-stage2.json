@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-10-19",
+  "stage": 2,
+  "attempt_id": "20261019T010600Z-stage2",
+  "original_bundle_sha256": "6b2d5023f997866a6341e333c530745486854487a846f4d236befee655538646",
+  "original_plan_sha256": "b8d79b3a4565dd702bfc463d061a8ab7a0993070717be394add84767bd9d2593",
+  "bundle_creation_commit": "7164818ad822577a620f132e2b694290150d335c",
+  "expected_parent": "e349035b2fff13505cd709d6a0a75587e95a17f4",
+  "actual_base_tree": "1787cd96da288fc154efe643fca6e0c14299c4b8",
+  "commit": "35022f9bbec7a1a321c2e0ac9d676a35b33053f8",
+  "ref_update": "expected-head non-force success",
+  "readbacks": {
+    "ZJFILOVE/obsidian-vault:Music/Daily/2026-10-19.md": {
+      "sha": "1439b7b247709fcdb641b73ac547db008d237efa",
+      "full_payload_match": true
+    },
+    "ZJFILOVE/obsidian-vault:Music/Daily/manifests/2026-10-19.json": {
+      "sha": "250f0308b004cf080611a943c55d896f47b6cab8",
+      "full_payload_match": true
+    },
+    "ZJFILOVE/obsidian-vault:Music/Daily/state/tracks.json": {
+      "sha": "5754eebeda6475ae51d25ca396217f220496cc32",
+      "full_payload_match": true
+    }
+  },
+  "errors": []
+}
