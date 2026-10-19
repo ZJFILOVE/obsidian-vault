@@ -1,0 +1,1984 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-10-19",
+  "mode": "new_generation",
+  "recorded_at_utc": "2026-10-19T01:03:26Z",
+  "preflight_heads": {
+    "vault": {
+      "name": "main",
+      "commit": {
+        "sha": "b8b58ee34e7d3d500926ed453f9e35a52d595184",
+        "node_id": "C_kwDOUMOAQdoAKGI4YjU4ZWUzNGU3ZDNkNTAwOTI2ZWQ0NTNmOWUzNWE1MmQ1OTUxODQ",
+        "commit": {
+          "author": {
+            "name": "ZJFILOVE",
+            "email": "zhujunfeng07@gmail.com",
+            "date": "2026-10-19T00:43:13Z"
+          },
+          "committer": {
+            "name": "ZJFILOVE",
+            "email": "zhujunfeng07@gmail.com",
+            "date": "2026-10-19T00:43:13Z"
+          },
+          "message": "Record 2026-10-19 discovery candidate evidence, source scopes, exact readbacks and publication CI QA",
+          "tree": {
+            "sha": "6ff5a28ee6810b990399b0e2ef99f40c3ed89f13",
+            "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/6ff5a28ee6810b990399b0e2ef99f40c3ed89f13"
+          },
+          "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/commits/b8b58ee34e7d3d500926ed453f9e35a52d595184",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/commits/b8b58ee34e7d3d500926ed453f9e35a52d595184",
+        "html_url": "https://github.com/ZJFILOVE/obsidian-vault/commit/b8b58ee34e7d3d500926ed453f9e35a52d595184",
+        "comments_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/commits/b8b58ee34e7d3d500926ed453f9e35a52d595184/comments",
+        "author": {
+          "login": "ZJFILOVE",
+          "id": 187031297,
+          "node_id": "U_kgDOCyXfAQ",
+          "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ZJFILOVE",
+          "html_url": "https://github.com/ZJFILOVE",
+          "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+          "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+          "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+          "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+          "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "ZJFILOVE",
+          "id": 187031297,
+          "node_id": "U_kgDOCyXfAQ",
+          "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ZJFILOVE",
+          "html_url": "https://github.com/ZJFILOVE",
+          "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+          "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+          "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+          "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+          "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "b603da25471f1ea0170834c9079ebfb49c3a0fd7",
+            "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/commits/b603da25471f1ea0170834c9079ebfb49c3a0fd7",
+            "html_url": "https://github.com/ZJFILOVE/obsidian-vault/commit/b603da25471f1ea0170834c9079ebfb49c3a0fd7"
+          }
+        ]
+      },
+      "_links": {
+        "self": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/branches/main",
+        "html": "https://github.com/ZJFILOVE/obsidian-vault/tree/main"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/branches/main/protection"
+    },
+    "music": {
+      "name": "main",
+      "commit": {
+        "sha": "191793e542f1645ca30a22d3178b2a07f16db660",
+        "node_id": "C_kwDOUN9GidoAKDE5MTc5M2U1NDJmMTY0NWNhMzBhMjJkMzE3OGIyYTA3ZjE2ZGI2NjA",
+        "commit": {
+          "author": {
+            "name": "ZJFILOVE",
+            "email": "zhujunfeng07@gmail.com",
+            "date": "2026-10-18T01:01:34Z"
+          },
+          "committer": {
+            "name": "ZJFILOVE",
+            "email": "zhujunfeng07@gmail.com",
+            "date": "2026-10-18T01:01:34Z"
+          },
+          "message": "Publish 2026-10-18 Apple Music Daily 5 with append-only music history",
+          "tree": {
+            "sha": "c8ee2df7527970fe49f971de3b34d18a614fb7c5",
+            "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/c8ee2df7527970fe49f971de3b34d18a614fb7c5"
+          },
+          "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/commits/191793e542f1645ca30a22d3178b2a07f16db660",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/ZJFILOVE/music-daily/commits/191793e542f1645ca30a22d3178b2a07f16db660",
+        "html_url": "https://github.com/ZJFILOVE/music-daily/commit/191793e542f1645ca30a22d3178b2a07f16db660",
+        "comments_url": "https://api.github.com/repos/ZJFILOVE/music-daily/commits/191793e542f1645ca30a22d3178b2a07f16db660/comments",
+        "author": {
+          "login": "ZJFILOVE",
+          "id": 187031297,
+          "node_id": "U_kgDOCyXfAQ",
+          "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ZJFILOVE",
+          "html_url": "https://github.com/ZJFILOVE",
+          "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+          "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+          "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+          "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+          "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "ZJFILOVE",
+          "id": 187031297,
+          "node_id": "U_kgDOCyXfAQ",
+          "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ZJFILOVE",
+          "html_url": "https://github.com/ZJFILOVE",
+          "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+          "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+          "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+          "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+          "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "278213ec9caab8d6c7df56a13d80e4fe844e18b3",
+            "url": "https://api.github.com/repos/ZJFILOVE/music-daily/commits/278213ec9caab8d6c7df56a13d80e4fe844e18b3",
+            "html_url": "https://github.com/ZJFILOVE/music-daily/commit/278213ec9caab8d6c7df56a13d80e4fe844e18b3"
+          }
+        ]
+      },
+      "_links": {
+        "self": "https://api.github.com/repos/ZJFILOVE/music-daily/branches/main",
+        "html": "https://github.com/ZJFILOVE/music-daily/tree/main"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/ZJFILOVE/music-daily/branches/main/protection"
+    }
+  },
+  "preflight": {
+    "complete_blob_reads_hash_verified": 154,
+    "complete_state_entries": 213,
+    "historical_manifests": 41,
+    "historical_manifest_tracks": 205,
+    "all_prepared_read": [
+      ".recommendation/transactions/english/2026-10-15.json",
+      ".recommendation/transactions/english/2026-10-16.json",
+      ".recommendation/transactions/english/2026-10-17.json",
+      ".recommendation/transactions/english/2026-10-18.json",
+      ".recommendation/transactions/english/2026-10-19.json",
+      ".recommendation/transactions/music/2026-10-15.json",
+      ".recommendation/transactions/music/2026-10-16.json",
+      ".recommendation/transactions/music/2026-10-17.json",
+      ".recommendation/transactions/music/2026-10-18.json",
+      ".recommendation/transactions/news-youtube-reddit/2026-10-15.json",
+      ".recommendation/transactions/news-youtube-reddit/2026-10-16.json",
+      ".recommendation/transactions/news-youtube-reddit/2026-10-17.json",
+      ".recommendation/transactions/news-youtube-reddit/2026-10-18.json",
+      ".recommendation/transactions/news-youtube-reddit/2026-10-19.json"
+    ],
+    "mirrors_byte_identical": true,
+    "today_files_bundle": "confirmed absent in complete accessible pinned trees"
+  },
+  "candidate_count": 24,
+  "candidate_pool": [
+    {
+      "song_id": "1600888923",
+      "title": "气球 (Acoustic) [feat. 徐研培]",
+      "artist": "许哲珮",
+      "album": "In My Place (feat. 徐研培)",
+      "source_url_observed": "https://music.apple.com/cn/song/%E6%B0%94%E7%90%83-acoustic-feat-%E5%BE%90%E7%A0%94%E5%9F%B9/1600888923",
+      "source_observed_at": "2026-10-19T00:58:47.477Z",
+      "source_evidence": "Actual CN song page opened: heading 气球 (Acoustic) [feat. 徐研培], artist 许哲珮, linked album In My Place (feat. 徐研培), date 2021-12-31; numeric resource1600888923. Composer/lyrics 许哲珮. Deliberately selected acoustic collaboration, not claimed original studio release or another singer's live cover.",
+      "tier": "high_confidence",
+      "scores": [
+        4.5,
+        4.4,
+        4.1,
+        4.6,
+        4.5
+      ],
+      "analysis_summary": "选择明确标注Acoustic及徐研培合作的2021年版本，让熟悉的中文作品转化为关于语句密度、呼吸与轻重的听觉练习；不是把翻唱或早期录音混作同一版本。",
+      "decision": "selected",
+      "weighted_score": 4.41,
+      "evaluation_scope": "Exact actual CN song-resource identity and version; editorial judgment and proposed listening exercise; no full-audition or personal-account playback claim."
+    },
+    {
+      "song_id": "29168235",
+      "title": "Move On Up (Extended Version)",
+      "artist": "Curtis Mayfield",
+      "album": "Curtis (Expanded Edition)",
+      "source_url_observed": "https://music.apple.com/cn/song/move-on-up-extended-version/29168235",
+      "source_observed_at": "2026-10-19T00:59:08.153Z",
+      "source_evidence": "Actual CN song heading Move On Up (Extended Version), artist Curtis Mayfield, album Curtis (Expanded Edition), date1970-09-01, resource29168235. Credits vocals Curtis; drums Donald Simmons; drums/percussion Robert Sims; percussion Master Henry Gibson; horns/strings/guitars listed; arranger Gary Slabo and Riley Hampton. Extended version deliberately preferred over single edit, remix and live result.",
+      "tier": "high_confidence",
+      "scores": [
+        4.9,
+        4.7,
+        4.5,
+        4.5,
+        4.6
+      ],
+      "analysis_summary": "加长版让明亮的铜管、轻盈声线与持续推进的节奏形成完整弧线。推荐重点不是励志标签，而是合奏如何在一个稳定律动中不断增加方向感。",
+      "decision": "selected",
+      "weighted_score": 4.68,
+      "evaluation_scope": "Exact actual CN song-resource identity and version; editorial judgment and proposed listening exercise; no full-audition or personal-account playback claim."
+    },
+    {
+      "song_id": "1440947068",
+      "title": "Los Ageless",
+      "artist": "St. Vincent",
+      "album": "MASSEDUCTION",
+      "source_url_observed": "https://music.apple.com/cn/song/los-ageless/1440947068",
+      "source_observed_at": "2026-10-19T00:59:46.588Z",
+      "source_evidence": "Actual CN song heading Los Ageless; artist St. Vincent; album MASSEDUCTION; date2017-10-13; resource1440947068. Annie Clark vocal/songwriter; St. Vincent and Jack Antonoff producers; Tom Elmhirst and Brandon Bost mix credits. Album grid confirms4:41. Album explicit advisory observed; this track row not individually marked. Not piano, DJDS/EOD remix, live or compilation version.",
+      "tier": "high_confidence",
+      "scores": [
+        4.7,
+        4.4,
+        4.6,
+        4.6,
+        4.4
+      ],
+      "analysis_summary": "从灵魂乐的集体推进切到人工感鲜明的电子摇滚，观察精致表面与人声焦灼如何并存。明确选择MASSEDUCTION原专辑版本，不与钢琴版或混音版混淆。",
+      "decision": "selected",
+      "weighted_score": 4.56,
+      "evaluation_scope": "Exact actual CN song-resource identity and version; editorial judgment and proposed listening exercise; no full-audition or personal-account playback claim."
+    },
+    {
+      "song_id": "1443767437",
+      "title": "The Astounding Eyes of Rita",
+      "artist": "阿瑙尔・伯拉罕",
+      "album": "The Astounding Eyes of Rita",
+      "source_url_observed": "https://music.apple.com/cn/song/the-astounding-eyes-of-rita/1443767437",
+      "source_observed_at": "2026-10-19T01:00:10.039Z",
+      "source_evidence": "Actual CN song title The Astounding Eyes of Rita, localized artist 阿瑙尔・伯拉罕 (Anouar Brahem artistID120882163), same-title album, date2009-09-25, resource1443767437. Oud credit artist; Klaus Gesing wind credit; Björn Meyer bass credit; Khaled Yassine percussion; producer Manfred Eicher; engineer Stefano Amerio. Album catalogue confirms8:42. Instrument subtypes not asserted beyond safe observed broad roles.",
+      "tier": "adjacent",
+      "scores": [
+        4.8,
+        4.4,
+        4.8,
+        4.8,
+        4.2
+      ],
+      "analysis_summary": "用2009年同名专辑标题曲，认识乌德琴的短促起音如何与管乐长线、低音及打击乐组成对话。不是把北非音乐化约成异域背景，而是具体聆听声部的接力。",
+      "decision": "selected",
+      "weighted_score": 4.64,
+      "evaluation_scope": "Exact actual CN song-resource identity and version; editorial judgment and proposed listening exercise; no full-audition or personal-account playback claim."
+    },
+    {
+      "song_id": "1449208109",
+      "title": "Summon the Fire",
+      "artist": "The Comet Is Coming",
+      "album": "Trust In The Lifeforce Of The Deep Mystery",
+      "source_url_observed": "https://music.apple.com/cn/song/summon-the-fire/1449208109",
+      "source_observed_at": "2026-10-19T01:00:22.419Z",
+      "source_evidence": "Actual CN song heading Summon the Fire; artist The Comet Is Coming; album Trust In The Lifeforce Of The Deep Mystery; date2019-03-15; resource1449208109. Composers Danalogue, Max Hallett, Shabaka Hutchings. Production/mix Danalogue and Max Hallett; recording Kristian Craig Robinson; mastering Daddy Kev. No live or alternate recording silently substituted.",
+      "tier": "wildcard",
+      "scores": [
+        4.6,
+        4.2,
+        4.9,
+        4.9,
+        4.0
+      ],
+      "analysis_summary": "以电子爵士的强脉冲与萨克斯动机收尾，是今日真正的高能wildcard。重点听重复如何积累压力，而不是把探索曲误当作安静器乐或要求自己立即喜欢。",
+      "decision": "selected",
+      "weighted_score": 4.545,
+      "evaluation_scope": "Exact actual CN song-resource identity and version; editorial judgment and proposed listening exercise; no full-audition or personal-account playback claim."
+    },
+    {
+      "song_id": "1440947063",
+      "title": "Hang On Me",
+      "artist": "St. Vincent",
+      "album": "MASSEDUCTION",
+      "url": "https://music.apple.com/cn/song/1440947063",
+      "observed_catalogue": "https://music.apple.com/cn/album/masseduction/1440947061",
+      "source_observed_at": "2026-10-19T00:59:58.166Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1440947064",
+      "title": "Pills",
+      "artist": "St. Vincent",
+      "album": "MASSEDUCTION",
+      "url": "https://music.apple.com/cn/song/1440947064",
+      "observed_catalogue": "https://music.apple.com/cn/album/masseduction/1440947061",
+      "source_observed_at": "2026-10-19T00:59:58.166Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。目录有儿童不宜标记，当前入口不优先。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1440947065",
+      "title": "Masseduction",
+      "artist": "St. Vincent",
+      "album": "MASSEDUCTION",
+      "url": "https://music.apple.com/cn/song/1440947065",
+      "observed_catalogue": "https://music.apple.com/cn/album/masseduction/1440947061",
+      "source_observed_at": "2026-10-19T00:59:58.166Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1440947066",
+      "title": "Sugarboy",
+      "artist": "St. Vincent",
+      "album": "MASSEDUCTION",
+      "url": "https://music.apple.com/cn/song/1440947066",
+      "observed_catalogue": "https://music.apple.com/cn/album/masseduction/1440947061",
+      "source_observed_at": "2026-10-19T00:59:58.166Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1440947069",
+      "title": "Happy Birthday, Johnny",
+      "artist": "St. Vincent",
+      "album": "MASSEDUCTION",
+      "url": "https://music.apple.com/cn/song/1440947069",
+      "observed_catalogue": "https://music.apple.com/cn/album/masseduction/1440947061",
+      "source_observed_at": "2026-10-19T00:59:58.166Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1440947070",
+      "title": "Savior",
+      "artist": "St. Vincent",
+      "album": "MASSEDUCTION",
+      "url": "https://music.apple.com/cn/song/1440947070",
+      "observed_catalogue": "https://music.apple.com/cn/album/masseduction/1440947061",
+      "source_observed_at": "2026-10-19T00:59:58.166Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1440947077",
+      "title": "New York",
+      "artist": "St. Vincent",
+      "album": "MASSEDUCTION",
+      "url": "https://music.apple.com/cn/song/1440947077",
+      "observed_catalogue": "https://music.apple.com/cn/album/masseduction/1440947061",
+      "source_observed_at": "2026-10-19T00:59:58.166Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。目录有儿童不宜标记，当前入口不优先。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1440947078",
+      "title": "Fear the Future",
+      "artist": "St. Vincent",
+      "album": "MASSEDUCTION",
+      "url": "https://music.apple.com/cn/song/1440947078",
+      "observed_catalogue": "https://music.apple.com/cn/album/masseduction/1440947061",
+      "source_observed_at": "2026-10-19T00:59:58.166Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1440947080",
+      "title": "Young Lover",
+      "artist": "St. Vincent",
+      "album": "MASSEDUCTION",
+      "url": "https://music.apple.com/cn/song/1440947080",
+      "observed_catalogue": "https://music.apple.com/cn/album/masseduction/1440947061",
+      "source_observed_at": "2026-10-19T00:59:58.166Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1440947321",
+      "title": "Dancing With a Ghost",
+      "artist": "St. Vincent",
+      "album": "MASSEDUCTION",
+      "url": "https://music.apple.com/cn/song/1440947321",
+      "observed_catalogue": "https://music.apple.com/cn/album/masseduction/1440947061",
+      "source_observed_at": "2026-10-19T00:59:58.166Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。此曲目录长度0:46，作为独立日推入口过短。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1440947322",
+      "title": "Slow Disco",
+      "artist": "St. Vincent",
+      "album": "MASSEDUCTION",
+      "url": "https://music.apple.com/cn/song/1440947322",
+      "observed_catalogue": "https://music.apple.com/cn/album/masseduction/1440947061",
+      "source_observed_at": "2026-10-19T00:59:58.166Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1440947323",
+      "title": "Smoking Section",
+      "artist": "St. Vincent",
+      "album": "MASSEDUCTION",
+      "url": "https://music.apple.com/cn/song/1440947323",
+      "observed_catalogue": "https://music.apple.com/cn/album/masseduction/1440947061",
+      "source_observed_at": "2026-10-19T00:59:58.166Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1443767196",
+      "title": "The Lover of Beirut",
+      "artist": "阿瑙尔・伯拉罕",
+      "album": "The Astounding Eyes of Rita",
+      "url": "https://music.apple.com/cn/song/1443767196",
+      "observed_catalogue": "https://music.apple.com/cn/album/the-astounding-eyes-of-rita/1443766830",
+      "source_observed_at": "2026-10-19T01:00:35.566Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1443767414",
+      "title": "Dance With Waves",
+      "artist": "阿瑙尔・伯拉罕",
+      "album": "The Astounding Eyes of Rita",
+      "url": "https://music.apple.com/cn/song/1443767414",
+      "observed_catalogue": "https://music.apple.com/cn/album/the-astounding-eyes-of-rita/1443766830",
+      "source_observed_at": "2026-10-19T01:00:35.566Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1443767419",
+      "title": "Stopover At Djibouti",
+      "artist": "阿瑙尔・伯拉罕",
+      "album": "The Astounding Eyes of Rita",
+      "url": "https://music.apple.com/cn/song/1443767419",
+      "observed_catalogue": "https://music.apple.com/cn/album/the-astounding-eyes-of-rita/1443766830",
+      "source_observed_at": "2026-10-19T01:00:35.566Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1443767688",
+      "title": "Al Birwa",
+      "artist": "阿瑙尔・伯拉罕",
+      "album": "The Astounding Eyes of Rita",
+      "url": "https://music.apple.com/cn/song/1443767688",
+      "observed_catalogue": "https://music.apple.com/cn/album/the-astounding-eyes-of-rita/1443766830",
+      "source_observed_at": "2026-10-19T01:00:35.566Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1443767697",
+      "title": "Galilée mon amour",
+      "artist": "阿瑙尔・伯拉罕",
+      "album": "The Astounding Eyes of Rita",
+      "url": "https://music.apple.com/cn/song/1443767697",
+      "observed_catalogue": "https://music.apple.com/cn/album/the-astounding-eyes-of-rita/1443766830",
+      "source_observed_at": "2026-10-19T01:00:35.566Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1443767709",
+      "title": "Waking State",
+      "artist": "阿瑙尔・伯拉罕",
+      "album": "The Astounding Eyes of Rita",
+      "url": "https://music.apple.com/cn/song/1443767709",
+      "observed_catalogue": "https://music.apple.com/cn/album/the-astounding-eyes-of-rita/1443766830",
+      "source_observed_at": "2026-10-19T01:00:35.566Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    },
+    {
+      "song_id": "1443767906",
+      "title": "For No Apparent Reason",
+      "artist": "阿瑙尔・伯拉罕",
+      "album": "The Astounding Eyes of Rita",
+      "url": "https://music.apple.com/cn/song/1443767906",
+      "observed_catalogue": "https://music.apple.com/cn/album/the-astounding-eyes-of-rita/1443766830",
+      "source_observed_at": "2026-10-19T01:00:35.566Z",
+      "decision": "rejected",
+      "reason": "国区专辑完整目录确认真实标题与ID；与已选同艺人的核心入口竞争同一名额。今天不集中于一张唱片，保留跨风格分布。",
+      "scores": [
+        4.0,
+        3.7,
+        3.9,
+        4.5,
+        3.7
+      ],
+      "weighted_score_before_penalty": 3.95,
+      "same_creator_penalty": 1.0,
+      "evaluation_scope": "Actual complete CN catalogue identities and preliminary editorial diversity screening only; not fully auditioned or exact final-song verified.",
+      "weighted_score_after_penalty": 2.95
+    }
+  ],
+  "candidate_pool_scope": "24 distinct works: all13 MASSEDUCTION tracks, all8 The Astounding Eyes of Rita tracks, plus three other selected artists. Nineteen unselected works screened at real catalogue/editorial scope, not falsely claimed fully auditioned; remixes/reissues/covers of a single underlying work not used to inflate the count.",
+  "scoring_scope": "Subjective 1-5 editorial scores, weights quality30 usefulness25 curiosity20 novelty15 fit10; same-creator concentration penalized. Not measured outcomes.",
+  "selection": [
+    {
+      "position": 1,
+      "title": "气球 (Acoustic) [feat. 徐研培]",
+      "artist": "许哲珮",
+      "album": "In My Place (feat. 徐研培)",
+      "analysis_summary": "选择明确标注Acoustic及徐研培合作的2021年版本，让熟悉的中文作品转化为关于语句密度、呼吸与轻重的听觉练习；不是把翻唱或早期录音混作同一版本。",
+      "listening_cue": "第一遍只跟人声：找出连续短词转成长句时，呼吸与重音怎样改变。第二遍把注意力移到句尾的伴奏，比较它是在填满空隙，还是让上一句的情绪继续停留；用“紧—松—紧”三个字记下你自己的段落感，不必抄歌词。",
+      "canonical_id": "许哲珮::气球 (Acoustic) [feat. 徐研培]",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/%E6%B0%94%E7%90%83-acoustic-feat-%E5%BE%90%E7%A0%94%E5%9F%B9/1600888923",
+        "song_id": "1600888923",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 2,
+      "title": "Move On Up (Extended Version)",
+      "artist": "Curtis Mayfield",
+      "album": "Curtis (Expanded Edition)",
+      "analysis_summary": "加长版让明亮的铜管、轻盈声线与持续推进的节奏形成完整弧线。推荐重点不是励志标签，而是合奏如何在一个稳定律动中不断增加方向感。",
+      "listening_cue": "先挑一个容易跟住的打击乐或鼓的脉冲，整段都别丢；管乐再次进入时，检查你是否仍在同一个身体节拍里。人声退到次要位置后继续听，辨认推动力来自新旋律、节奏加密还是音色轮换。不要因进入器乐段就提前切歌，这正是选择加长版的理由。",
+      "canonical_id": "Curtis Mayfield::Move On Up (Extended Version)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/move-on-up-extended-version/29168235",
+        "song_id": "29168235",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 3,
+      "title": "Los Ageless",
+      "artist": "St. Vincent",
+      "album": "MASSEDUCTION",
+      "analysis_summary": "从灵魂乐的集体推进切到人工感鲜明的电子摇滚，观察精致表面与人声焦灼如何并存。明确选择MASSEDUCTION原专辑版本，不与钢琴版或混音版混淆。",
+      "listening_cue": "先对照主歌与副歌的发声距离、音色密度和句子长度；旋律变得更容易跟唱时，情绪是否真的更轻松？再听一次重复的节奏动机，分辨人声是在贴合它还是试图挣脱它。用一句自己的话写下“好听的表面下面是什么”，不需要复述歌词。",
+      "canonical_id": "St. Vincent::Los Ageless",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/los-ageless/1440947068",
+        "song_id": "1440947068",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 4,
+      "title": "The Astounding Eyes of Rita",
+      "artist": "阿瑙尔・伯拉罕",
+      "album": "The Astounding Eyes of Rita",
+      "analysis_summary": "用2009年同名专辑标题曲，认识乌德琴的短促起音如何与管乐长线、低音及打击乐组成对话。不是把北非音乐化约成异域背景，而是具体聆听声部的接力。",
+      "listening_cue": "找一处乌德琴短句结束后由另一声部接住的时刻：接力的是相近旋律、延长音，还是节奏回应？第二遍只跟低音，感受你对段落边界的判断是否改变。给它完整的一段时间，别只截取最像“安静背景”的半分钟。",
+      "canonical_id": "阿瑙尔・伯拉罕::The Astounding Eyes of Rita",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/the-astounding-eyes-of-rita/1443767437",
+        "song_id": "1443767437",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 5,
+      "title": "Summon the Fire",
+      "artist": "The Comet Is Coming",
+      "album": "Trust In The Lifeforce Of The Deep Mystery",
+      "analysis_summary": "以电子爵士的强脉冲与萨克斯动机收尾，是今日真正的高能wildcard。重点听重复如何积累压力，而不是把探索曲误当作安静器乐或要求自己立即喜欢。",
+      "listening_cue": "先记住最容易辨认的短动机，随后每次它回来，都只比较一件事：鼓是否改变重心、背景是否增加密度，或句尾是否出现新的回应。若几层声音挤在一起，暂时只跟鼓；重新回到整体时，听它是否仍像刚才那个不变的循环。",
+      "canonical_id": "The Comet Is Coming::Summon the Fire",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/summon-the-fire/1449208109",
+        "song_id": "1449208109",
+        "storefront": "cn"
+      }
+    }
+  ],
+  "source_verification": [
+    {
+      "song_id": "1600888923",
+      "source_url_observed": "https://music.apple.com/cn/song/%E6%B0%94%E7%90%83-acoustic-feat-%E5%BE%90%E7%A0%94%E5%9F%B9/1600888923",
+      "source_observed_at": "2026-10-19T00:58:47.477Z",
+      "source_evidence": "Actual CN song page opened: heading 气球 (Acoustic) [feat. 徐研培], artist 许哲珮, linked album In My Place (feat. 徐研培), date 2021-12-31; numeric resource1600888923. Composer/lyrics 许哲珮. Deliberately selected acoustic collaboration, not claimed original studio release or another singer's live cover."
+    },
+    {
+      "song_id": "29168235",
+      "source_url_observed": "https://music.apple.com/cn/song/move-on-up-extended-version/29168235",
+      "source_observed_at": "2026-10-19T00:59:08.153Z",
+      "source_evidence": "Actual CN song heading Move On Up (Extended Version), artist Curtis Mayfield, album Curtis (Expanded Edition), date1970-09-01, resource29168235. Credits vocals Curtis; drums Donald Simmons; drums/percussion Robert Sims; percussion Master Henry Gibson; horns/strings/guitars listed; arranger Gary Slabo and Riley Hampton. Extended version deliberately preferred over single edit, remix and live result."
+    },
+    {
+      "song_id": "1440947068",
+      "source_url_observed": "https://music.apple.com/cn/song/los-ageless/1440947068",
+      "source_observed_at": "2026-10-19T00:59:46.588Z",
+      "source_evidence": "Actual CN song heading Los Ageless; artist St. Vincent; album MASSEDUCTION; date2017-10-13; resource1440947068. Annie Clark vocal/songwriter; St. Vincent and Jack Antonoff producers; Tom Elmhirst and Brandon Bost mix credits. Album grid confirms4:41. Album explicit advisory observed; this track row not individually marked. Not piano, DJDS/EOD remix, live or compilation version."
+    },
+    {
+      "song_id": "1443767437",
+      "source_url_observed": "https://music.apple.com/cn/song/the-astounding-eyes-of-rita/1443767437",
+      "source_observed_at": "2026-10-19T01:00:10.039Z",
+      "source_evidence": "Actual CN song title The Astounding Eyes of Rita, localized artist 阿瑙尔・伯拉罕 (Anouar Brahem artistID120882163), same-title album, date2009-09-25, resource1443767437. Oud credit artist; Klaus Gesing wind credit; Björn Meyer bass credit; Khaled Yassine percussion; producer Manfred Eicher; engineer Stefano Amerio. Album catalogue confirms8:42. Instrument subtypes not asserted beyond safe observed broad roles."
+    },
+    {
+      "song_id": "1449208109",
+      "source_url_observed": "https://music.apple.com/cn/song/summon-the-fire/1449208109",
+      "source_observed_at": "2026-10-19T01:00:22.419Z",
+      "source_evidence": "Actual CN song heading Summon the Fire; artist The Comet Is Coming; album Trust In The Lifeforce Of The Deep Mystery; date2019-03-15; resource1449208109. Composers Danalogue, Max Hallett, Shabaka Hutchings. Production/mix Danalogue and Max Hallett; recording Kristian Craig Robinson; mastering Daddy Kev. No live or alternate recording silently substituted."
+    }
+  ],
+  "permanent_dedup": {
+    "baseline": "Original213-entry state, all41 full historical manifests and all14 PREPARED records, before selection",
+    "exact_canonical_repeats": 0,
+    "normalized_title_artist_repeats": 0,
+    "earlier_song_id_repeats": 0,
+    "semantic_review": "Five distinct works, all five artists absent from original complete state; Anouar Brahem localized alias also checked. No prior work/recording reused through reissue, compilation, alternate title, cover, live or remaster. Acoustic and Extended versions deliberately disclosed.",
+    "retired_entries_preserved": 8
+  },
+  "diversity": {
+    "artists": 5,
+    "language_modes": [
+      "Mandarin",
+      "English",
+      "instrumental"
+    ],
+    "eras": [
+      "1970s",
+      "2000s",
+      "2010s",
+      "2020s"
+    ],
+    "genres": [
+      "中文原声唱作",
+      "1970年代灵魂乐与放克",
+      "电子流行与艺术摇滚",
+      "乌德琴与室内爵士交汇",
+      "高能电子爵士三重奏"
+    ],
+    "high_confidence": 3,
+    "adjacent": 1,
+    "wildcard": 1,
+    "wildcard_position": 5,
+    "recent7day_artist_repeats": 0,
+    "rounding": "Five slots60/20/20 approximates50/30/20",
+    "broad_jazz_adjacent_fraction": 0.4
+  },
+  "research_caveats": [
+    "Björk Jóga CN search returned other performers/covers but no intended original recording was observed. It was not selected, and those alternate performers were not silently substituted or counted as distinct original-work candidates.",
+    "MASSEDUCTION album has an explicit advisory, while observed Los Ageless row and song heading did not individually carry it. No claim that the whole album is child-safe.",
+    "No account-specific playback or full audio audition performed. Candidate catalogue screening and editorial judgment are distinguished from five exact-song metadata checks."
+  ],
+  "local_checks": {
+    "bundle_freeze_verify_check_baselines": "passed",
+    "music_consistency": {
+      "status": "passed_structural_with_url_warnings",
+      "legacy_url_warnings": [
+        {
+          "manifest": "2026-09-24.json",
+          "song_id": "1443209403",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-24.json",
+          "song_id": "1440788744",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-24.json",
+          "song_id": "1472549630",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-24.json",
+          "song_id": "258200075",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-24.json",
+          "song_id": "1668862649",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-26.json",
+          "song_id": "1752629180",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-26.json",
+          "song_id": "300865222",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-26.json",
+          "song_id": "1673536432",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-26.json",
+          "song_id": "1675123649",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-26.json",
+          "song_id": "1598994872",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-28.json",
+          "song_id": "1443363499",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-28.json",
+          "song_id": "1440841917",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-28.json",
+          "song_id": "1078914485",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-28.json",
+          "song_id": "1477652823",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-28.json",
+          "song_id": "1440719297",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-29.json",
+          "song_id": "1442363759",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-29.json",
+          "song_id": "1440837273",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-29.json",
+          "song_id": "300202271",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-29.json",
+          "song_id": "1675560578",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-29.json",
+          "song_id": "1447442939",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-17.json",
+          "song_id": "1491316305",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-17.json",
+          "song_id": "1710206776",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-17.json",
+          "song_id": "1763223953",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-17.json",
+          "song_id": "1551592392",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-17.json",
+          "song_id": "715651844",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-18.json",
+          "song_id": "1707829783",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-18.json",
+          "song_id": "1876508755",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-18.json",
+          "song_id": "1445769464",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-18.json",
+          "song_id": "1528519982",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-18.json",
+          "song_id": "1830552219",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-19.json",
+          "song_id": "1600888923",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-19.json",
+          "song_id": "29168235",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-19.json",
+          "song_id": "1440947068",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-19.json",
+          "song_id": "1443767437",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-19.json",
+          "song_id": "1449208109",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        }
+      ],
+      "manifests": 42,
+      "current_tracks": 210,
+      "state_entries": 218,
+      "historical_exposures_checked": 213,
+      "retired_entries_retained": 8,
+      "cross_repository": "not_checked",
+      "unverified": [
+        "live source availability and metadata",
+        "semantic quality and artist diversity",
+        "local Obsidian sync",
+        "task scheduling and delivery"
+      ]
+    },
+    "vault_music_validator_tracks": 175,
+    "prepared_journal": {
+      "status": "passed_immutable_publication_bundles",
+      "bundles": 14,
+      "base_ref": null,
+      "content_qa": "not_evaluated"
+    }
+  },
+  "historical_backlog": {
+    "original_bundle_manifest_drift": [
+      {
+        "operation_id": "music:2026-10-15",
+        "path": "recommendations/2026/10/2026-10-15.json",
+        "frozen_sha": "7790e3664e26f1a8a681d6106f7c0b60f828c8e1",
+        "observed_current_sha": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26"
+      },
+      {
+        "operation_id": "music:2026-10-15",
+        "path": "Music/Daily/manifests/2026-10-15.json",
+        "frozen_sha": "7790e3664e26f1a8a681d6106f7c0b60f828c8e1",
+        "observed_current_sha": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26"
+      }
+    ],
+    "legacy_url_warnings": [
+      {
+        "manifest": "2026-09-24.json",
+        "song_id": "1443209403",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-24.json",
+        "song_id": "1440788744",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-24.json",
+        "song_id": "1472549630",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-24.json",
+        "song_id": "258200075",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-24.json",
+        "song_id": "1668862649",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-26.json",
+        "song_id": "1752629180",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-26.json",
+        "song_id": "300865222",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-26.json",
+        "song_id": "1673536432",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-26.json",
+        "song_id": "1675123649",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-26.json",
+        "song_id": "1598994872",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-28.json",
+        "song_id": "1443363499",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-28.json",
+        "song_id": "1440841917",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-28.json",
+        "song_id": "1078914485",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-28.json",
+        "song_id": "1477652823",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-28.json",
+        "song_id": "1440719297",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-29.json",
+        "song_id": "1442363759",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-29.json",
+        "song_id": "1440837273",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-29.json",
+        "song_id": "300202271",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-29.json",
+        "song_id": "1675560578",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-29.json",
+        "song_id": "1447442939",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-17.json",
+        "song_id": "1491316305",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-17.json",
+        "song_id": "1710206776",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-17.json",
+        "song_id": "1763223953",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-17.json",
+        "song_id": "1551592392",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-17.json",
+        "song_id": "715651844",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-18.json",
+        "song_id": "1707829783",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-18.json",
+        "song_id": "1876508755",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-18.json",
+        "song_id": "1445769464",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-18.json",
+        "song_id": "1528519982",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-18.json",
+        "song_id": "1830552219",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-19.json",
+        "song_id": "1600888923",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-19.json",
+        "song_id": "29168235",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-19.json",
+        "song_id": "1440947068",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-19.json",
+        "song_id": "1443767437",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-19.json",
+        "song_id": "1449208109",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      }
+    ],
+    "handling": "Original immutable bundles, prior notes and every exposure left unchanged. Historical source/format backlog does not waive current identity checks."
+  },
+  "not_certified": [
+    "full audio audition",
+    "account-specific full playback",
+    "historical live-source quality",
+    "device sync",
+    "notification delivery"
+  ],
+  "bundle_sha256": "6b2d5023f997866a6341e333c530745486854487a846f4d236befee655538646",
+  "plan_sha256": "b8d79b3a4565dd702bfc463d061a8ab7a0993070717be394add84767bd9d2593",
+  "post_write_qa": {
+    "status": "passed_current_publication_checks",
+    "original_bundle_sha256": "6b2d5023f997866a6341e333c530745486854487a846f4d236befee655538646",
+    "complete_artifact_readback": {
+      "ZJFILOVE/music-daily:recommendations/2026/10/2026-10-19.json": {
+        "sha": "250f0308b004cf080611a943c55d896f47b6cab8",
+        "bytes": 4880,
+        "full_payload_match": true
+      },
+      "ZJFILOVE/music-daily:state/tracks.json": {
+        "sha": "5754eebeda6475ae51d25ca396217f220496cc32",
+        "bytes": 17978,
+        "full_payload_match": true
+      },
+      "ZJFILOVE/obsidian-vault:Music/Daily/2026-10-19.md": {
+        "sha": "1439b7b247709fcdb641b73ac547db008d237efa",
+        "bytes": 9393,
+        "full_payload_match": true
+      },
+      "ZJFILOVE/obsidian-vault:Music/Daily/manifests/2026-10-19.json": {
+        "sha": "250f0308b004cf080611a943c55d896f47b6cab8",
+        "bytes": 4880,
+        "full_payload_match": true
+      },
+      "ZJFILOVE/obsidian-vault:Music/Daily/state/tracks.json": {
+        "sha": "5754eebeda6475ae51d25ca396217f220496cc32",
+        "bytes": 17978,
+        "full_payload_match": true
+      }
+    },
+    "mirrors": "manifest_and_state_byte_equal",
+    "original_state_entries_retained_unchanged": 213,
+    "new_state_entries_exactly_once": 5,
+    "ordered_song_ids": [
+      "1600888923",
+      "29168235",
+      "1440947068",
+      "1443767437",
+      "1449208109"
+    ],
+    "source_identity_checks": "Five original CN song-resource title/artist/album/ID observations match the immutable manifest exactly; original observation timestamps retained.",
+    "editorial_review": "Separate post-write review: five distinct works and artists, single/album/remaster versions explicit, three substantive Chinese sections per track, concrete listening tasks, no quoted lyrics, no unsupported playback/sync claims.",
+    "semantic_same_recording_review": "No selected artist or normalized artist/title occurs in original complete state; original manifest/song-ID and earlier reservation checks passed before freeze. No alternate release used to bypass previous exposure.",
+    "structural": {
+      "vault_music_validator_tracks": 175,
+      "vault_music_validator_scope": "all42 current music notes and manifests; strict sections per policy date",
+      "music_consistency": {
+        "status": "passed_structural_with_url_warnings",
+        "legacy_url_warnings": [
+          {
+            "manifest": "2026-09-24.json",
+            "song_id": "1443209403",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-24.json",
+            "song_id": "1440788744",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-24.json",
+            "song_id": "1472549630",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-24.json",
+            "song_id": "258200075",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-24.json",
+            "song_id": "1668862649",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-26.json",
+            "song_id": "1752629180",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-26.json",
+            "song_id": "300865222",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-26.json",
+            "song_id": "1673536432",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-26.json",
+            "song_id": "1675123649",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-26.json",
+            "song_id": "1598994872",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-28.json",
+            "song_id": "1443363499",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-28.json",
+            "song_id": "1440841917",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-28.json",
+            "song_id": "1078914485",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-28.json",
+            "song_id": "1477652823",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-28.json",
+            "song_id": "1440719297",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-29.json",
+            "song_id": "1442363759",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-29.json",
+            "song_id": "1440837273",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-29.json",
+            "song_id": "300202271",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-29.json",
+            "song_id": "1675560578",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-09-29.json",
+            "song_id": "1447442939",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-17.json",
+            "song_id": "1491316305",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-17.json",
+            "song_id": "1710206776",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-17.json",
+            "song_id": "1763223953",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-17.json",
+            "song_id": "1551592392",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-17.json",
+            "song_id": "715651844",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-18.json",
+            "song_id": "1707829783",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-18.json",
+            "song_id": "1876508755",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-18.json",
+            "song_id": "1445769464",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-18.json",
+            "song_id": "1528519982",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-18.json",
+            "song_id": "1830552219",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-19.json",
+            "song_id": "1600888923",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-19.json",
+            "song_id": "29168235",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-19.json",
+            "song_id": "1440947068",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-19.json",
+            "song_id": "1443767437",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          },
+          {
+            "manifest": "2026-10-19.json",
+            "song_id": "1449208109",
+            "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+          }
+        ],
+        "manifests": 42,
+        "current_tracks": 210,
+        "state_entries": 218,
+        "historical_exposures_checked": 213,
+        "retired_entries_retained": 8,
+        "cross_repository": "not_checked",
+        "unverified": [
+          "live source availability and metadata",
+          "semantic quality and artist diversity",
+          "local Obsidian sync",
+          "task scheduling and delivery"
+        ]
+      },
+      "prepared_journal": {
+        "status": "passed_immutable_publication_bundles",
+        "bundles": 15,
+        "base_ref": null,
+        "content_qa": "not_evaluated"
+      }
+    },
+    "planner": {
+      "operation_id": "music:2026-10-19",
+      "plan_sha256": "b8d79b3a4565dd702bfc463d061a8ab7a0993070717be394add84767bd9d2593",
+      "status": "artifacts_match",
+      "next_stage": null,
+      "decisions": [
+        {
+          "repository": "ZJFILOVE/music-daily",
+          "path": "recommendations/2026/10/2026-10-19.json",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "250f0308b004cf080611a943c55d896f47b6cab8"
+        },
+        {
+          "repository": "ZJFILOVE/music-daily",
+          "path": "state/tracks.json",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "7ea37c092ce57292e7e0f9ccd391d5be436c6340",
+          "target_sha": "5754eebeda6475ae51d25ca396217f220496cc32"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Music/Daily/2026-10-19.md",
+          "stage": 2,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "1439b7b247709fcdb641b73ac547db008d237efa"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Music/Daily/manifests/2026-10-19.json",
+          "stage": 2,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "250f0308b004cf080611a943c55d896f47b6cab8"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Music/Daily/state/tracks.json",
+          "stage": 2,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "7ea37c092ce57292e7e0f9ccd391d5be436c6340",
+          "target_sha": "5754eebeda6475ae51d25ca396217f220496cc32"
+        }
+      ],
+      "content_qa": "not_evaluated",
+      "github_writes_performed": 0
+    },
+    "cross_repository_snapshot": {
+      "status": "passed_current_music_mirrors",
+      "manifests": 42,
+      "manifest_blobs": {
+        "2026-09-04.json": "c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+        "2026-09-05.json": "425068f9d2850f6174758c01adee37d25f3bb336",
+        "2026-09-06.json": "cbe1822dfb00e97d8f4aa537dbfd1f52f48dcccf",
+        "2026-09-07.json": "43c49954065383de75f28c4bfd239b7473f1c324",
+        "2026-09-08.json": "1aff7797664028e9729b0b42925909206fbdef2e",
+        "2026-09-09.json": "5b883498386208ef9809ec552e12bd30e5ae0510",
+        "2026-09-10.json": "6981929543fd31c36649815397d89b2bf1632551",
+        "2026-09-11.json": "66b29d99e17bc6da20987d9accd71e57851aa9fa",
+        "2026-09-12.json": "9e852ec43b70c9612f836c60eb55f8d44164dadc",
+        "2026-09-13.json": "b576357c8a83b6e618ce52984d43efb9ccd1e0fa",
+        "2026-09-14.json": "a7e1729f60debf70fd3c922c83508286868bb83a",
+        "2026-09-15.json": "e348cea20ac3b39edfad8d26cd2de5b49d4724c6",
+        "2026-09-16.json": "7a672e648529aa290ace44f78f43f217d29e5b0d",
+        "2026-09-17.json": "b62ae078472ac906c381bf246a59818507688f72",
+        "2026-09-18.json": "e2ad0074519697a2f402427996a212b3831f8290",
+        "2026-09-19.json": "2d2999277022bc329e15ce43477453edc5e8fc21",
+        "2026-09-20.json": "03cf1cc76eebfd74b0342fb74a8c1e616942c737",
+        "2026-09-21.json": "125ab7faf9a2fd4c08812b1bffc57686f65a1e4d",
+        "2026-09-22.json": "08788b30503a3d320b0343f015c213050b43cb21",
+        "2026-09-23.json": "07a2dddee1f9d38067afced0d678e4c578197d64",
+        "2026-09-24.json": "6bb9b98980a1f6dc7883d45cf2a4744879ea40c7",
+        "2026-09-25.json": "03f0f440b402f65da5fbd32943b70ac631e885ff",
+        "2026-09-26.json": "2a6e8cacaec306279f64685e6f4ddd3ddcaedb11",
+        "2026-09-28.json": "a40e31e20b92f129bf2b21f1073e3a69b120e33b",
+        "2026-09-29.json": "05ac05fdddcc456cd6103fb8854a5e77d8882dfe",
+        "2026-09-30.json": "4e2ed9d2f5a7f7a4f8df41a4d4407b6429c8695f",
+        "2026-10-01.json": "08c0655ae1e1a430b803cedfaee28265d9bca7c4",
+        "2026-10-02.json": "977590adad74f3530dc571b9578648372d99b460",
+        "2026-10-03.json": "c0d1ba2c8088bee2b9bfe73c0491112db013d040",
+        "2026-10-04.json": "e21086438c1609a5c65e4dfad5eb17efa390197c",
+        "2026-10-05.json": "bd8e8944afd975565557ac3a88f1ac3b8e16a8f7",
+        "2026-10-06.json": "1edfce17fd8094efd866e294b8cac1cf02f5e72d",
+        "2026-10-07.json": "ed9f6ab90943f1a35219cc8b41017559955aec86",
+        "2026-10-08.json": "2e8c9efd842d7d12ec5e76582d3098b2904de3f7",
+        "2026-10-09.json": "76dff8dedee8c861d72f158e73de4afb106f8d42",
+        "2026-10-11.json": "3da7d2fcf2f9f1417a32ad0e313118646cdc04ea",
+        "2026-10-12.json": "35f974e89bd209addcfef98ba16f5b7bc5e0ace3",
+        "2026-10-15.json": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26",
+        "2026-10-16.json": "08a0e041348374b67cc59fe08080364ce92b4973",
+        "2026-10-17.json": "28d482f6649e2b6cb3d67817ed0ecbfbf18e0a65",
+        "2026-10-18.json": "ecbdb7dbd5007784bdfb7eee4a9c3cc7706aa054",
+        "2026-10-19.json": "250f0308b004cf080611a943c55d896f47b6cab8"
+      },
+      "state_blob_sha": "5754eebeda6475ae51d25ca396217f220496cc32",
+      "heads": {
+        "music": "15801226bea561c8779e3c5b878a4d28c0d36e23",
+        "vault": "d2a0660e0f4c79a0ab0e977f11f16b58faea7341"
+      },
+      "checked": [
+        "all manifest names and blob hashes",
+        "state blob hash",
+        "corresponding music notes exist",
+        "tree evidence completeness",
+        "stable branch observations"
+      ],
+      "not_certified": [
+        "state semantic coverage (run local CI)",
+        "live sources",
+        "editorial quality",
+        "device synchronization",
+        "notification delivery"
+      ]
+    },
+    "snapshot_scope": "Complete hash-recomputed nonrecursive Git tree evidence and stable pinned heads; semantic historical coverage additionally checked by actual full-history repository CI.",
+    "not_certified": [
+      "personal-account full playback",
+      "historical live source quality",
+      "device synchronization",
+      "notification delivery"
+    ]
+  },
+  "publication_execution": {
+    "recorded_at_utc": "2026-10-19T01:06:37Z",
+    "bundle_creation_commit": "7164818ad822577a620f132e2b694290150d335c",
+    "prepared_readback": {
+      "schema_version": 1,
+      "operation_id": "music:2026-10-19",
+      "attempt_id": "20261019T010340Z-prepared",
+      "stage": "PREPARED",
+      "bundle_creation_commit": "7164818ad822577a620f132e2b694290150d335c",
+      "original_bundle_sha256": "6b2d5023f997866a6341e333c530745486854487a846f4d236befee655538646",
+      "original_plan_sha256": "b8d79b3a4565dd702bfc463d061a8ab7a0993070717be394add84767bd9d2593",
+      "prepared_readback_blob_sha": "d0f5b7834666fc09c533f76a0966b16dcc37d35a",
+      "prepared_full_payload_readback_match": true,
+      "errors": []
+    },
+    "stage_commits": {
+      "music_daily": "15801226bea561c8779e3c5b878a4d28c0d36e23",
+      "obsidian_vault": "35022f9bbec7a1a321c2e0ac9d676a35b33053f8"
+    },
+    "stage_receipts": [
+      {
+        "schema_version": 1,
+        "operation_id": "music:2026-10-19",
+        "stage": 1,
+        "attempt_id": "20261019T010500Z-stage1",
+        "original_bundle_sha256": "6b2d5023f997866a6341e333c530745486854487a846f4d236befee655538646",
+        "original_plan_sha256": "b8d79b3a4565dd702bfc463d061a8ab7a0993070717be394add84767bd9d2593",
+        "bundle_creation_commit": "7164818ad822577a620f132e2b694290150d335c",
+        "expected_parent": "191793e542f1645ca30a22d3178b2a07f16db660",
+        "actual_base_tree": "c8ee2df7527970fe49f971de3b34d18a614fb7c5",
+        "commit": "15801226bea561c8779e3c5b878a4d28c0d36e23",
+        "ref_update": "expected-head non-force success",
+        "readbacks": {
+          "ZJFILOVE/music-daily:recommendations/2026/10/2026-10-19.json": {
+            "sha": "250f0308b004cf080611a943c55d896f47b6cab8",
+            "full_payload_match": true
+          },
+          "ZJFILOVE/music-daily:state/tracks.json": {
+            "sha": "5754eebeda6475ae51d25ca396217f220496cc32",
+            "full_payload_match": true
+          }
+        },
+        "errors": []
+      },
+      {
+        "schema_version": 1,
+        "operation_id": "music:2026-10-19",
+        "stage": 2,
+        "attempt_id": "20261019T010600Z-stage2",
+        "original_bundle_sha256": "6b2d5023f997866a6341e333c530745486854487a846f4d236befee655538646",
+        "original_plan_sha256": "b8d79b3a4565dd702bfc463d061a8ab7a0993070717be394add84767bd9d2593",
+        "bundle_creation_commit": "7164818ad822577a620f132e2b694290150d335c",
+        "expected_parent": "e349035b2fff13505cd709d6a0a75587e95a17f4",
+        "actual_base_tree": "1787cd96da288fc154efe643fca6e0c14299c4b8",
+        "commit": "35022f9bbec7a1a321c2e0ac9d676a35b33053f8",
+        "ref_update": "expected-head non-force success",
+        "readbacks": {
+          "ZJFILOVE/obsidian-vault:Music/Daily/2026-10-19.md": {
+            "sha": "1439b7b247709fcdb641b73ac547db008d237efa",
+            "full_payload_match": true
+          },
+          "ZJFILOVE/obsidian-vault:Music/Daily/manifests/2026-10-19.json": {
+            "sha": "250f0308b004cf080611a943c55d896f47b6cab8",
+            "full_payload_match": true
+          },
+          "ZJFILOVE/obsidian-vault:Music/Daily/state/tracks.json": {
+            "sha": "5754eebeda6475ae51d25ca396217f220496cc32",
+            "full_payload_match": true
+          }
+        },
+        "errors": []
+      }
+    ],
+    "post_stage_complete_pinned_readbacks": {
+      "ZJFILOVE/music-daily:recommendations/2026/10/2026-10-19.json": {
+        "sha": "250f0308b004cf080611a943c55d896f47b6cab8",
+        "full_payload_match": true,
+        "pinned_ref": "15801226bea561c8779e3c5b878a4d28c0d36e23",
+        "bytes_utf8_note": "blob hash recomputed by local post-QA"
+      },
+      "ZJFILOVE/obsidian-vault:Music/Daily/state/tracks.json": {
+        "sha": "5754eebeda6475ae51d25ca396217f220496cc32",
+        "full_payload_match": true,
+        "pinned_ref": "d2a0660e0f4c79a0ab0e977f11f16b58faea7341",
+        "bytes_utf8_note": "blob hash recomputed by local post-QA"
+      },
+      "ZJFILOVE/obsidian-vault:Music/Daily/2026-10-19.md": {
+        "sha": "1439b7b247709fcdb641b73ac547db008d237efa",
+        "full_payload_match": true,
+        "pinned_ref": "d2a0660e0f4c79a0ab0e977f11f16b58faea7341",
+        "bytes_utf8_note": "blob hash recomputed by local post-QA"
+      },
+      "ZJFILOVE/music-daily:state/tracks.json": {
+        "sha": "5754eebeda6475ae51d25ca396217f220496cc32",
+        "full_payload_match": true,
+        "pinned_ref": "15801226bea561c8779e3c5b878a4d28c0d36e23",
+        "bytes_utf8_note": "blob hash recomputed by local post-QA"
+      },
+      "ZJFILOVE/obsidian-vault:Music/Daily/manifests/2026-10-19.json": {
+        "sha": "250f0308b004cf080611a943c55d896f47b6cab8",
+        "full_payload_match": true,
+        "pinned_ref": "d2a0660e0f4c79a0ab0e977f11f16b58faea7341",
+        "bytes_utf8_note": "blob hash recomputed by local post-QA"
+      }
+    },
+    "ci": {
+      "ZJFILOVE/music-daily": {
+        "runs": [
+          {
+            "id": 39183627677,
+            "name": "validate",
+            "status": "completed",
+            "conclusion": "success",
+            "head_sha": "15801226bea561c8779e3c5b878a4d28c0d36e23",
+            "url": "https://github.com/ZJFILOVE/music-daily/actions/runs/39183627677"
+          }
+        ],
+        "jobs": {
+          "jobs": [
+            {
+              "id": 117841404229,
+              "name": "validate",
+              "status": "completed",
+              "conclusion": "success",
+              "run_id": 39183627677,
+              "logs_url": null,
+              "steps": [
+                {
+                  "name": "Set up job",
+                  "status": "completed",
+                  "conclusion": "success",
+                  "number": 1
+                },
+                {
+                  "name": "Run actions/checkout@v4",
+                  "status": "completed",
+                  "conclusion": "success",
+                  "number": 2
+                },
+                {
+                  "name": "Run actions/setup-python@v5",
+                  "status": "completed",
+                  "conclusion": "success",
+                  "number": 3
+                },
+                {
+                  "name": "Run python scripts/validate.py",
+                  "status": "completed",
+                  "conclusion": "success",
+                  "number": 4
+                },
+                {
+                  "name": "Run python -m unittest discover -s scripts -p 'test_consistency.py' -v",
+                  "status": "completed",
+                  "conclusion": "success",
+                  "number": 5
+                },
+                {
+                  "name": "Preserve all historically exposed tracks and existing state values",
+                  "status": "completed",
+                  "conclusion": "success",
+                  "number": 6
+                },
+                {
+                  "name": "Post Run actions/setup-python@v5",
+                  "status": "completed",
+                  "conclusion": "success",
+                  "number": 11
+                },
+                {
+                  "name": "Post Run actions/checkout@v4",
+                  "status": "completed",
+                  "conclusion": "success",
+                  "number": 12
+                },
+                {
+                  "name": "Complete job",
+                  "status": "completed",
+                  "conclusion": "success",
+                  "number": 13
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "ZJFILOVE/obsidian-vault": {
+        "runs": [
+          {
+            "id": 39183679839,
+            "name": "Recommendation integrity (read-only)",
+            "status": "completed",
+            "conclusion": "success",
+            "head_sha": "35022f9bbec7a1a321c2e0ac9d676a35b33053f8",
+            "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/39183679839"
+          }
+        ],
+        "jobs": {
+          "jobs": [
+            {
+              "id": 117841557755,
+              "name": "validate",
+              "status": "completed",
+              "conclusion": "success",
+              "run_id": 39183679839,
+              "logs_url": null,
+              "steps": [
+                {
+                  "name": "Set up job",
+                  "status": "completed",
+                  "conclusion": "success",
+                  "number": 1
+                },
+                {
+                  "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+                  "status": "completed",
+                  "conclusion": "success",
+                  "number": 2
+                },
+                {
+                  "name": "Validate publications and full source-history coverage",
+                  "status": "completed",
+                  "conclusion": "success",
+                  "number": 3
+                },
+                {
+                  "name": "Negative regressions and interrupted-publication recovery",
+                  "status": "completed",
+                  "conclusion": "success",
+                  "number": 4
+                },
+                {
+                  "name": "Compare permanent history with the actual base commit",
+                  "status": "completed",
+                  "conclusion": "success",
+                  "number": 5
+                },
+                {
+                  "name": "Record scope of checks",
+                  "status": "completed",
+                  "conclusion": "success",
+                  "number": 6
+                },
+                {
+                  "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+                  "status": "completed",
+                  "conclusion": "success",
+                  "number": 12
+                },
+                {
+                  "name": "Complete job",
+                  "status": "completed",
+                  "conclusion": "success",
+                  "number": 13
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "validators": [
+      {
+        "check": "vault full structural validator",
+        "exit_code": 0,
+        "output": "OK: strict daily recommendations validated — youtube=175, reddit=350, english=36, music=175\n"
+      },
+      {
+        "check": "vault full source-history integrity",
+        "exit_code": 0,
+        "output": "{\n  \"status\": \"passed_local_integrity\",\n  \"history\": {\n    \"youtube\": {\n      \"rows\": 200,\n      \"unique_resources\": 196\n    },\n    \"reddit\": {\n      \"rows\": 380,\n      \"unique_resources\": 380\n    },\n    \"english\": {\n      \"rows\": 42,\n      \"unique_resources\": 42\n    }\n  },\n  \"music\": {\n    \"manifests\": 42,\n    \"current_tracks\": 210,\n    \"state_entries\": 218,\n    \"retired_entries_retained\": 8\n  },\n  \"append_only\": \"not_checked_without_base_ref\",\n  \"base_ref\": null,\n  \"legacy_duplicate_groups\": [\n    {\n      \"project\": \"youtube\",\n      \"resource_id\": \"CbUjuwhQPKs\",\n      \"dates\": [\n        \"2026-09-06\",\n        \"2026-09-09\"\n      ],\n      \"action\": \"retain all historical records; block every future reuse\"\n    },\n    {\n      \"project\": \"youtube\",\n      \"resource_id\": \"TRL7o2kPqw0\",\n      \"dates\": [\n        \"2026-09-07\",\n        \"2026-09-09\",\n        \"2026-09-10\"\n      ],\n      \"action\": \"retain all historical records; block every future reuse\"\n    },\n    {\n      \"project\": \"youtube\",\n      \"resource_id\": \"OmJ-4B-mS-Y\",\n      \"dates\": [\n        \"2026-09-09\",\n        \"2026-09-10\"\n      ],\n      \"action\": \"retain all historical records; block every future reuse\"\n    }\n  ],\n  \"cross_repository\": \"not_checked_requires_two_authorized_checkouts\",\n  \"not_certified\": [\n    \"live sources\",\n    \"semantic quality\",\n    \"candidate pools\",\n    \"local Obsidian sync\",\n    \"task delivery\"\n  ]\n}\n"
+      },
+      {
+        "check": "music validate.py",
+        "exit_code": 0,
+        "output": "OK: 210 unique recommended tracks validated for China storefront\n"
+      }
+    ],
+    "unit_regressions": {
+      "vault": {
+        "count": 119,
+        "exit_code": 0
+      },
+      "music": {
+        "count": 14,
+        "exit_code": 0
+      },
+      "scope": "Actual local execution; tests are structural/negative recovery checks, not proof of live audio, editorial taste, local sync or notification delivery."
+    }
+  },
+  "status": "passed_current_publication_checks",
+  "qa_recorded_at_utc": "2026-10-19T01:06:37Z",
+  "checks_scope": {
+    "local_append_only": "Original213-entry music state value-by-value preservation checked; local git --base-ref not available in materialized snapshot. Full-history/base-commit preservation checks actually passed on both publication commit CIs.",
+    "mirror": "Actual check_remote_music_snapshot.py execution:42 complete manifests byte-identical and both state blobs identical, nonrecursive Git trees hash-recomputed and branch heads stable.",
+    "exact_readback": "All five full UTF-8 payloads read again after both stages, from pinned current branches; not merely an HTTP status or a successful write response.",
+    "sources": "Five exact Apple Music CN song pages opened. Observed titles, artist identities/localization, album identities and song_ids match frozen manifest. Metadata/source verification only, not full personal-account playback.",
+    "candidate_screening": "24 distinct real works, with19 unselected catalogue-level editorial screens. Scores subjective. No claim that all24 were auditioned or individually exact-song verified.",
+    "editorial": "Separate post-write review of full note: five distinct works and artists, acoustic/extended/original-album versions explicit, fifteen substantive Chinese sections, concrete tasks and wildcard, no quoted lyrics.",
+    "independent_qa_meaning": "Separate post-write review and actual validators; not an independent human or a new model audit."
+  }
+}
