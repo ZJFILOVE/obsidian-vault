@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-10-19",
+  "stage": 1,
+  "attempt_id": "20261019T010500Z-stage1",
+  "original_bundle_sha256": "6b2d5023f997866a6341e333c530745486854487a846f4d236befee655538646",
+  "original_plan_sha256": "b8d79b3a4565dd702bfc463d061a8ab7a0993070717be394add84767bd9d2593",
+  "bundle_creation_commit": "7164818ad822577a620f132e2b694290150d335c",
+  "expected_parent": "191793e542f1645ca30a22d3178b2a07f16db660",
+  "actual_base_tree": "c8ee2df7527970fe49f971de3b34d18a614fb7c5",
+  "commit": "15801226bea561c8779e3c5b878a4d28c0d36e23",
+  "ref_update": "expected-head non-force success",
+  "readbacks": {
+    "ZJFILOVE/music-daily:recommendations/2026/10/2026-10-19.json": {
+      "sha": "250f0308b004cf080611a943c55d896f47b6cab8",
+      "full_payload_match": true
+    },
+    "ZJFILOVE/music-daily:state/tracks.json": {
+      "sha": "5754eebeda6475ae51d25ca396217f220496cc32",
+      "full_payload_match": true
+    }
+  },
+  "errors": []
+}
