@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-20",
+  "stage": 1,
+  "attempt_id": "20261020T000500Z-publication",
+  "bundle_creation_commit": "e3deeba9417fe0304a5459f3da02aa02709db144",
+  "original_bundle_sha256": "61e1231ece2a472827d313e2342b7c919935739c2fca41c5dea0e4fe2ae63e55",
+  "original_plan_sha256": "1420e6a419d9d24d6bf7628ea32bfe5b7b96d555cac84cfca89cb4eee0024175",
+  "expected_parent": "544cd10e3251405971810ebfb24b29896d926f60",
+  "actual_base_tree": "ee4631137bc3f04d1a3d747aabcb413be1ef4910",
+  "publication_commit": "8b43aa2f71354366174889f70c5893043901ff22",
+  "ref_update": "expected-head non-force success",
+  "readbacks": {
+    "ZJFILOVE/obsidian-vault:50-courses/English/Daily/2026-10-20.md": {
+      "sha": "fae03ce4e84ae43432cfab4d3e1cd095613bdadc",
+      "pinned_ref": "8b43aa2f71354366174889f70c5893043901ff22",
+      "full_payload_match": true
+    },
+    "ZJFILOVE/obsidian-vault:50-courses/English/Translation/2026-10-20.md": {
+      "sha": "9c525d7c45784fbcdba510ab6055cdc3af2e69f5",
+      "pinned_ref": "8b43aa2f71354366174889f70c5893043901ff22",
+      "full_payload_match": true
+    },
+    "ZJFILOVE/obsidian-vault:50-courses/English/Vocabulary/2026-10-20.md": {
+      "sha": "5f67d706db4add00f4ab42e2a91e3f77624d31f9",
+      "pinned_ref": "8b43aa2f71354366174889f70c5893043901ff22",
+      "full_payload_match": true
+    },
+    "ZJFILOVE/obsidian-vault:.recommendation/history/english.jsonl": {
+      "sha": "251622be67ca0c35a34eb2663368cbe1f051aad5",
+      "pinned_ref": "8b43aa2f71354366174889f70c5893043901ff22",
+      "full_payload_match": true
+    }
+  },
+  "errors": []
+}
