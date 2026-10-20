@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-10-20",
+  "attempt_id": "20261020T003110Z-blocked-source",
+  "recorded_at_utc": "2026-10-20T00:31:10Z",
+  "status": "blocked_before_prepare",
+  "failure_class": "transient_site_served_human_verification",
+  "requested_source": "YouTube watch page",
+  "failure_observations": [
+    {
+      "requested_url": "https://www.youtube.com/watch?v=dvlSjhaCMek",
+      "observed_at_utc": "2026-10-20T00:30:20Z",
+      "visible_state": "Site human-verification checkbox and unusual-traffic message; requested video title/creator/body not reached."
+    },
+    {
+      "action": "one ordinary reload only",
+      "observed_at_utc": "2026-10-20T00:30:38Z",
+      "visible_state": "Same unusual-traffic verification block remained."
+    }
+  ],
+  "http_status": "not exposed; no403/429 inferred",
+  "retry_metadata": "not exposed",
+  "challenge_solved": false,
+  "browser_site_attempts_stopped": true,
+  "internal_bot_report": {
+    "reason": "challenge_loop",
+    "reported_hostname": "www.google.com",
+    "status": "reported"
+  },
+  "safe_alternative_evaluation": {
+    "method": "One web research round for original creator pages; not a browser fingerprint/network change or CAPTCHA bypass.",
+    "actual_sources": [
+      "https://www.jayforeman.co.uk/",
+      "https://linktr.ee/robscallon",
+      "https://www.patreon.com/SebastianLague/posts/ray-tracing-80873363"
+    ],
+    "scope": "Creator directories/project references found; not sufficient completed exact-source checks for five diverse final videos. No candidate accepted merely from plausible URL/search snippet/HTTP success."
+  },
+  "preflight": {
+    "original_head": "1648cb0b83916238571f722c9b03a09395c19ac8",
+    "checked_head_before_receipt": "1648cb0b83916238571f722c9b03a09395c19ac8",
+    "complete_youtube_history_rows": 200,
+    "complete_reddit_history_rows": 380,
+    "all_prepared_records_read": 16,
+    "complete_cached_required_blobs_sha_verified": 147,
+    "protocol_inputs": [
+      ".recommendation/policy.json",
+      ".recommendation/PUBLISHING.md",
+      "scripts/publication_bundle.py",
+      "scripts/publication_recovery.py"
+    ],
+    "history_blob_shas": {
+      "youtube": "2fc2e48982fb31a45bd468b7336655f5df4ffc90",
+      "reddit": "2733151beed3278a0dbd5e8552533b0711a88963"
+    }
+  },
+  "unfinished_gates": {
+    "youtube_candidate_pool_min": 25,
+    "youtube_pool_completed": false,
+    "youtube_exact_final_source_checks_completed": false,
+    "reddit_candidate_pool_min": 35,
+    "reddit_pool_completed": false,
+    "news_primary_source_checks_completed": false
+  },
+  "selection_frozen": false,
+  "prepared_created": false,
+  "publication_writes": 0,
+  "history_writes": 0,
+  "qa_success_receipt_created": false,
+  "notifications_or_device_sync_verified": false,
+  "automation_changes": 0,
+  "notes": "No incomplete/unverified bundle published. Prior publications, histories, PREPARED, policies, credentials and security left unchanged. Temporary verification failure does not justify disabling recurring task. Same-date authorized retry must rerun current preflight; later dates must not automatically backfill this date."
+}
