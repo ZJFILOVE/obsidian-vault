@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-10-15",
+  "stage": 2,
+  "record_type": "retrospective_stage_verification",
+  "verified_on": "2026-10-20",
+  "status": "historical_stage2_content_verified_at_pinned_commits",
+  "contemporaneous_stage2_receipt": false,
+  "reconstruction_method": "Read archived PREPARED, original stage-one receipt, pinned Git commits, their file blob SHAs, schema-only correction record and actual CI jobs. This is NOT a backdated execution log.",
+  "original_prepared": {
+    "path": ".recommendation/transactions/music/2026-10-15.json",
+    "blob_sha": "23aaa2338fecaef704624b62f2935caf93d4a4da",
+    "bundle_sha256": "6f528f228bc06a123416263a414416e2c24bfa5de35e6b82428ee88fffba1f49",
+    "immutable": true
+  },
+  "original_stage2": {
+    "commit": "a6a1707c3021627e173c7ae3a22ac5e264627ea4",
+    "parent": "46c28e43be1fde676e1c40e66a058868b748328c",
+    "files": [
+      {
+        "path": "Music/Daily/2026-10-15.md",
+        "blob_sha": "e3b01207c4f48b865d1c8cc5000367d3c1157d84"
+      },
+      {
+        "path": "Music/Daily/manifests/2026-10-15.json",
+        "blob_sha": "7790e3664e26f1a8a681d6106f7c0b60f828c8e1"
+      },
+      {
+        "path": "Music/Daily/state/tracks.json",
+        "blob_sha": "fe8cbf404d87a454ce88575c68c6560ed6310cc0"
+      }
+    ]
+  },
+  "schema_only_correction": {
+    "original_manifest_missing_schema_version": true,
+    "corrected_schema_version": 1,
+    "music_main_commit": "8df6542786af4d0c616016da6e80343e397b3c38",
+    "vault_commit": "58aa7b364747a29ae0f38a1035cd4aed959d92ba",
+    "correction_record": ".recommendation/transaction-corrections/music/2026-10-15/20261015-schema-version.json",
+    "corrected_manifest_sha": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26",
+    "corrected_bundle_sha256": "cb62976e1dd1926cfd8883dd74dcfa0acab41e4df1c9479e31dd43283a577edf",
+    "note_modified": false,
+    "history_modified": false,
+    "selection_modified": false
+  },
+  "checks": {
+    "initial_stage2_file_shas_match_original_frozen_plan": true,
+    "corrected_manifest_is_only_schema_version_delta": true,
+    "corrected_manifest_mirror_blob_shas_equal": true,
+    "original_stage2_music_state_mirrors_stage1_sha": true,
+    "initial_music_note_song_ids_match_five_manifest_ids_in_order": true,
+    "required_note_sections_five_each": true
+  },
+  "ci": {
+    "music_original_failure": {
+      "run_id": 38673230141,
+      "head_sha": "7ef52fb88b595e7df96e5e1a79795cd267fba646",
+      "conclusion": "failure",
+      "error": "Wrong manifest schema/provider"
+    },
+    "music_corrected": {
+      "run_id": 38673534140,
+      "head_sha": "8df6542786af4d0c616016da6e80343e397b3c38",
+      "conclusion": "success"
+    },
+    "vault_stage2": {
+      "run_id": 38673264389,
+      "head_sha": "a6a1707c3021627e173c7ae3a22ac5e264627ea4",
+      "conclusion": "success"
+    },
+    "vault_corrected": {
+      "run_id": 38673539159,
+      "head_sha": "58aa7b364747a29ae0f38a1035cd4aed959d92ba",
+      "conclusion": "success"
+    }
+  },
+  "limitations": [
+    "The original Stage 2 receipt was never written; this reconstructs evidence rather than asserting contemporaneous readback.",
+    "Original candidate-pool and live Apple Music storefront verification observations cannot be recovered from Git data alone.",
+    "CI verifies repository structure/history, not complete editorial/source identity or local device synchronization."
+  ],
+  "writes_to_publication_data": 0
+}

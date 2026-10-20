@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "project": "music",
+  "operation_id": "music:2026-10-15",
+  "mode": "retrospective_structural_reconciliation",
+  "evaluated_on": "2026-10-20",
+  "status": "data_integrity_verified_full_content_qa_not_certified",
+  "data_integrity_status": "passed_at_pinned_publication_and_correction_commits",
+  "full_content_qa_status": "not_certified",
+  "not_original_publication_success_receipt": true,
+  "scope": "Reconstructed from archived immutable PREPARED, original and corrected manifest blobs, music/English-independent Git history and actual historical CI; no publication changes.",
+  "immutable_original_prepared": {
+    "path": ".recommendation/transactions/music/2026-10-15.json",
+    "blob_sha": "23aaa2338fecaef704624b62f2935caf93d4a4da",
+    "bundle_sha256": "6f528f228bc06a123416263a414416e2c24bfa5de35e6b82428ee88fffba1f49"
+  },
+  "schema_only_correction": {
+    "record": ".recommendation/transaction-corrections/music/2026-10-15/20261015-schema-version.json",
+    "original_manifest_sha": "7790e3664e26f1a8a681d6106f7c0b60f828c8e1",
+    "corrected_manifest_sha": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26",
+    "only_field_added": "schema_version",
+    "value": 1,
+    "content_and_history_unchanged": true
+  },
+  "original_stage_commits": {
+    "stage1_music": "7ef52fb88b595e7df96e5e1a79795cd267fba646",
+    "stage2_vault": "a6a1707c3021627e173c7ae3a22ac5e264627ea4",
+    "correction_music": "8df6542786af4d0c616016da6e80343e397b3c38",
+    "correction_vault": "58aa7b364747a29ae0f38a1035cd4aed959d92ba"
+  },
+  "retrospective_stage2_receipt": ".recommendation/transaction-runs/music/2026-10-15/2026-10-20-retrospective-stage2.json",
+  "readback_evidence": {
+    "method": "Pinned historical Git blob identity and later current path checks; these readbacks were performed retrospectively, not at the original missing stage-2 time.",
+    "five_note_song_ids_in_order": [
+      "1789657071",
+      "1610123019",
+      "206355293",
+      "1443203937",
+      "968867426"
+    ],
+    "note_blob_sha": "e3b01207c4f48b865d1c8cc5000367d3c1157d84",
+    "manifest_mirror_blob_sha": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26",
+    "stage1_and_stage2_state_blob_sha": "fe8cbf404d87a454ce88575c68c6560ed6310cc0",
+    "daily_count": 5,
+    "required_note_sections_five_each": true,
+    "track_ids_match_manifest_order": true,
+    "manifest_mirrors_byte_identical": true
+  },
+  "permanent_history": {
+    "old_entries": 193,
+    "after_stage1_entries": 198,
+    "existing_entries_and_values_preserved": true,
+    "added_today": 5,
+    "new_track_selection_on_repair": 0
+  },
+  "actual_ci": {
+    "original_music": {
+      "run_id": 38673230141,
+      "conclusion": "failure",
+      "error": "Wrong manifest schema/provider"
+    },
+    "corrected_music": {
+      "run_id": 38673534140,
+      "conclusion": "success",
+      "tests": 14
+    },
+    "vault_stage2": {
+      "run_id": 38673264389,
+      "conclusion": "success"
+    },
+    "corrected_vault": {
+      "run_id": 38673539159,
+      "conclusion": "success"
+    }
+  },
+  "unverified": [
+    "Original candidate pool and rejection counts",
+    "Original 2026-10-15 direct-source verification observations for all five Apple Music recordings",
+    "Historical semantic and wildcard editorial review beyond structurally present sections",
+    "The original Stage 2 contemporaneous readback and notification",
+    "China-region authenticated playback and local Obsidian device synchronization"
+  ],
+  "qa_policy": "Do not mark this record as passed_current_publication. Presence of this QA file is not proof that all original publication source/semantic gates passed.",
+  "repair_modifications": {
+    "music_notes": 0,
+    "music_manifests": 0,
+    "music_state_entries": 0,
+    "english_notes": 0,
+    "permanent_history": 0
+  }
+}

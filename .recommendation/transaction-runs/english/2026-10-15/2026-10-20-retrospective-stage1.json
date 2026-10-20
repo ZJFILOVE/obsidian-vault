@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-15",
+  "stage": 1,
+  "record_type": "retrospective_stage_verification",
+  "verified_on": "2026-10-20",
+  "status": "historical_stage1_content_verified_at_pinned_commit",
+  "contemporaneous_stage1_receipt": false,
+  "reconstruction_method": "Compare immutable PREPARED target hashes with four file blobs at original Git publication commit, confirm append-only source history, and read actual CI and existing final QA.",
+  "original_prepared": {
+    "path": ".recommendation/transactions/english/2026-10-15.json",
+    "blob_sha": "27ec70439a351f3bce6cf132707575a179bbd76d",
+    "creation_commit": "44afe154a7dec3e234c98e9685c30a870487dbcc",
+    "bundle_sha256": "6c3b5cf58e40281d642ba475701ad417e442bcd5836eecd0de75207ff014fda0"
+  },
+  "original_publication": {
+    "commit": "392457d597a2c0d700cfa2c40d826061c294a8db",
+    "parent": "290e6b6d538db5d5895fe8f4a05aefb81d05506d",
+    "files": [
+      {
+        "path": "50-courses/English/Daily/2026-10-15.md",
+        "blob_sha": "3454f6fd463bb56c4f67d2d5fe8333f44a18d98c"
+      },
+      {
+        "path": "50-courses/English/Translation/2026-10-15.md",
+        "blob_sha": "7477760021570c045988969772d752cab57a3c6a"
+      },
+      {
+        "path": "50-courses/English/Vocabulary/2026-10-15.md",
+        "blob_sha": "57c245934a981f1cbbe06bad0a05bc7bc0346f21"
+      },
+      {
+        "path": ".recommendation/history/english.jsonl",
+        "blob_sha": "112fc9ed599eba0bd9d12246ce1376c1dbf4e459"
+      }
+    ]
+  },
+  "history": {
+    "original_sha": "28ac063c7589e6a81f4153b32a3da3142cefc3df",
+    "published_sha": "112fc9ed599eba0bd9d12246ce1376c1dbf4e459",
+    "original_lines": 37,
+    "published_lines": 38,
+    "old_bytes_preserved": true,
+    "appended_once": {
+      "date": "2026-10-15",
+      "source_url": "https://learnenglish.britishcouncil.org/free-resources/reading/b2/star-wars-hero-myth"
+    }
+  },
+  "checks": {
+    "all_four_file_sha_match_frozen_plan": true,
+    "single_atomic_git_publication_commit": true,
+    "history_appended_once_without_old_line_changes": true,
+    "original_qa_present": true
+  },
+  "original_final_qa": ".recommendation/runs/2026-10-15-english.json",
+  "ci": {
+    "run_id": 38672943271,
+    "head_sha": "392457d597a2c0d700cfa2c40d826061c294a8db",
+    "conclusion": "success"
+  },
+  "limitations": [
+    "This is not an original 2026-10-15 stage execution receipt, nor an independent recreation of the original source-verification session.",
+    "Local Obsidian synchronization and notification delivery not verified."
+  ],
+  "writes_to_publication_data": 0
+}
