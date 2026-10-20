@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-10-20",
+  "recorded_at_utc": "2026-10-20 00:54:58 UTC",
+  "status": "prepared_bundle_readback_verified",
+  "creation_commit": "fade9b5e5eb7a8e7541c87779564c426ba9267c9",
+  "prepared_blob_sha": "d47f0ead0e6ca783d031390bd51fff936b772ab9",
+  "original_bundle_sha256": "d412a8be7164858c1ce3e87c24c40f3043b347caa8514147bcca9aec10207212",
+  "original_plan_sha256": "3445f5d63cd3c9ac09f96d05ded711c95c99a4b78160a6ef67a493d193aee2bc",
+  "payload_readback": "exact full UTF8 equals freeze",
+  "observations_before": "26835884099d3e6708a72d42c12115a08ecc7de5",
+  "content_qa": "not_yet_postwrite"
+}
