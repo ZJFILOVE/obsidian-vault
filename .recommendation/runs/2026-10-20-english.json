@@ -1,0 +1,1009 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-20",
+  "mode": "new_generation",
+  "recorded_at_utc": "2026-10-20T00:03:14.238960+00:00",
+  "original_head": "73ce6ecb0e2f9a74a76c77bfbd333e4b5a78cc00",
+  "complete_verified_input_blob_count": 216,
+  "input_blob_shas": {
+    ".recommendation/PUBLISHING.md": "cc67ccd8d20b22487f2667848cdda4b3181724c5",
+    ".recommendation/history/english.jsonl": "b4671344e4cad950cf56526121960cd459fc2f08",
+    ".recommendation/policy.json": "cf9d1b486e07ca1efe965cf6af6f0ea422497670",
+    ".recommendation/transactions/english/2026-10-15.json": "27ec70439a351f3bce6cf132707575a179bbd76d",
+    ".recommendation/transactions/english/2026-10-16.json": "de8a818a65870fe20f6e0bb3f5882e6857d463a7",
+    ".recommendation/transactions/english/2026-10-17.json": "ff55e3144a1f2d6a2c47f86224615af47d87c176",
+    ".recommendation/transactions/english/2026-10-18.json": "f7826754339e5156abe1a08f8e2aafee386488e2",
+    ".recommendation/transactions/english/2026-10-19.json": "f99d926eb6fa66503ee53ce4cfb5707bac968580",
+    ".recommendation/transactions/music/2026-10-15.json": "23aaa2338fecaef704624b62f2935caf93d4a4da",
+    ".recommendation/transactions/music/2026-10-16.json": "bf759b0b0d935bb32da75ac53636e123fcb0cb63",
+    ".recommendation/transactions/music/2026-10-17.json": "e18ed86160c99ebbb63a298ed4e282dfc906e7b6",
+    ".recommendation/transactions/music/2026-10-18.json": "51fc259bdef430dd6018adbc8595e75c7e43279b",
+    ".recommendation/transactions/music/2026-10-19.json": "d0f5b7834666fc09c533f76a0966b16dcc37d35a",
+    ".recommendation/transactions/news-youtube-reddit/2026-10-15.json": "c57c31dff9e3030d837b9f624046e20d83254f2d",
+    ".recommendation/transactions/news-youtube-reddit/2026-10-16.json": "9efef6111091c4caeb3f2ca5c8fcfafa6130907c",
+    ".recommendation/transactions/news-youtube-reddit/2026-10-17.json": "fb863cb8a946d67a3cfd9ed71f87c5d8907102a7",
+    ".recommendation/transactions/news-youtube-reddit/2026-10-18.json": "70b484270baba4f2ac88e736105f9eda87a45ec1",
+    ".recommendation/transactions/news-youtube-reddit/2026-10-19.json": "a6fe9454c1570e4415b7b81478fc7260ca616445",
+    "50-courses/English/Daily/2026-09-04.md": "2010cce1de3a851a26fc4d95e9c54485064dcb98",
+    "50-courses/English/Daily/2026-09-07.md": "316a40354b52618882ee3da124b77f4fbe037459",
+    "50-courses/English/Daily/2026-09-08.md": "b35ba58ec3c56004aaa29166b227da6692913d3c",
+    "50-courses/English/Daily/2026-09-09.md": "8ecf41a7a9efebc54d92265f4f958f84cffd1980",
+    "50-courses/English/Daily/2026-09-10.md": "dea9eb017a77caa01a6581a8985274d74aac7cec",
+    "50-courses/English/Daily/2026-09-11.md": "57c0b9966d0a3c48bd923929f52919250d62aea9",
+    "50-courses/English/Daily/2026-09-14.md": "9b1cd6c4abfa12fbdddd2e37eabd1c6b3473812e",
+    "50-courses/English/Daily/2026-09-15.md": "8153917582a0a6afceae741dc046ef8c40ee3809",
+    "50-courses/English/Daily/2026-09-16.md": "07a4281d558a62b817b6ef41430000082aadc535",
+    "50-courses/English/Daily/2026-09-17.md": "f51e5df460f05af6223991cc1ac416bb1df1ac97",
+    "50-courses/English/Daily/2026-09-18.md": "5d2bb362b7ecbadd5bee6437c81eff8142598fed",
+    "50-courses/English/Daily/2026-09-21.md": "a09aa965832e0ec56267d09634a6ae1836d8f0da",
+    "50-courses/English/Daily/2026-09-22.md": "a0e956f3abd3d56b1cc22b2d565edd2ce2e13bd9",
+    "50-courses/English/Daily/2026-09-23.md": "c1a28fa7fdd47e2e6f0459733f7ca69999bd0548",
+    "50-courses/English/Daily/2026-09-24.md": "368f064f748d60ae26bca51363ebcea31a2792d8",
+    "50-courses/English/Daily/2026-09-25.md": "f2417d61437e31873169371c8fd7f7566667a207",
+    "50-courses/English/Daily/2026-09-28.md": "e6820e96c79d57adc2bd04565424b620ef85d4e6",
+    "50-courses/English/Daily/2026-09-29.md": "8353994fc36e33f2e51523ef3ae20d8dcbe9be00",
+    "50-courses/English/Daily/2026-09-30.md": "70078efb8e5f57010673a462a6265ce3d2cc47bc",
+    "50-courses/English/Daily/2026-10-01.md": "f7e1265686bb8336e5622b549c4067a2aa051a1c",
+    "50-courses/English/Daily/2026-10-02.md": "6def75db5f3f95dcbcb3b90b54a0d6b0df1e398c",
+    "50-courses/English/Daily/2026-10-05.md": "8be5ed0b18c1396f5c8cae1534b42a93d428ef13",
+    "50-courses/English/Daily/2026-10-06.md": "70f2d9e6df840fa260bca7bed431797be0141bc8",
+    "50-courses/English/Daily/2026-10-07.md": "1d7f50aa764eec2dd27665459aab1292cd2256ed",
+    "50-courses/English/Daily/2026-10-08.md": "e74c93cc26f89049cceb2ea7b6665d173d5378e5",
+    "50-courses/English/Daily/2026-10-09.md": "b09ff287d192c62d3c62727e66d365973cff75a6",
+    "50-courses/English/Daily/2026-10-12.md": "5c532592cb3656abacf8f01c260e760f644f3a56",
+    "50-courses/English/Daily/2026-10-15.md": "3454f6fd463bb56c4f67d2d5fe8333f44a18d98c",
+    "50-courses/English/Daily/2026-10-16.md": "8f04d61fa27f34eb91118d511502e815b94bea27",
+    "50-courses/English/Daily/2026-10-19.md": "11531dcb9365259aa174c7156e1df34ca743cabc",
+    "50-courses/English/English.md": "ed0e975f81149f629a8d9cfb04a793a0209a212d",
+    "50-courses/English/Translation/2026-09-04.md": "608a754c4043e8d2aeef0334ef5a2d57fbfec7cb",
+    "50-courses/English/Translation/2026-09-07.md": "e67c42f4dd558bfecc79c881cb459471003e46ec",
+    "50-courses/English/Translation/2026-09-08.md": "72a4ef36f1bdf5d4738d2026a6aa1214b6c5a650",
+    "50-courses/English/Translation/2026-09-09.md": "f0fff19b1f06ef089c109e433ec2dff1fd8d8a46",
+    "50-courses/English/Translation/2026-09-10.md": "bf9acc7bf4e2a77b0a575900dc040e9e1dbffe2a",
+    "50-courses/English/Translation/2026-09-11.md": "bde9c5f020a0eb6540304a6dd472edcd234a228f",
+    "50-courses/English/Translation/2026-09-14.md": "c1d221da5dc9e8e4882397611aa0c8ee9ebb3ba0",
+    "50-courses/English/Translation/2026-09-15.md": "97b3b5a2ea17493bc13bd116ac51de4501de809b",
+    "50-courses/English/Translation/2026-09-16.md": "be6dff807c9807d7cef5a583c8c6b27741095e10",
+    "50-courses/English/Translation/2026-09-17.md": "3ea07c575cdb6110dc42da9e61824f08f0b1ab28",
+    "50-courses/English/Translation/2026-09-18.md": "4eeb8ea4f23f90353e25161af5c0645903340c7d",
+    "50-courses/English/Translation/2026-09-21.md": "9b63e6ca9d73aeef9d1c73ff73a3426d0d59e15c",
+    "50-courses/English/Translation/2026-09-22.md": "130a0474407f77a8328c2c1cbfd8459a8210a52f",
+    "50-courses/English/Translation/2026-09-23.md": "f5b8d0c5dee386ccfa1ff16fbfca1bf7e88dc0c7",
+    "50-courses/English/Translation/2026-09-24.md": "dfe22180523dbda05b857dde9e3feb60be4c43e9",
+    "50-courses/English/Translation/2026-09-25.md": "8b79687576098fd7519314b5095fa2fff63bd389",
+    "50-courses/English/Translation/2026-09-28.md": "0d15cc9c65c3eafa7c0960b47be6f92b9f910e0c",
+    "50-courses/English/Translation/2026-09-29.md": "531cf46bd7b38f46446353fbc56689209b68b816",
+    "50-courses/English/Translation/2026-09-30.md": "4c0e0bbdf0addcf791b3d672f70cf9ce8a03dc40",
+    "50-courses/English/Translation/2026-10-01.md": "06afae274dbc330c04e1e9767ede056b5d8126b7",
+    "50-courses/English/Translation/2026-10-02.md": "fad6512ef75d8fb205c1e3933971b8d9aec341b3",
+    "50-courses/English/Translation/2026-10-05.md": "5da748be9e000237e49ab3d5c771c71af15bdbc8",
+    "50-courses/English/Translation/2026-10-06.md": "96b2fb164a5c416d00b22be09e405790f25a202a",
+    "50-courses/English/Translation/2026-10-07.md": "615406cd0c351714111145e61e6f23e186e7e0ac",
+    "50-courses/English/Translation/2026-10-08.md": "402778d32af6383eded3538c34c2326604ceba42",
+    "50-courses/English/Translation/2026-10-09.md": "68b5219cad596fcf58a009aa180046ce3e71ebf1",
+    "50-courses/English/Translation/2026-10-12.md": "2905391b63b3c7015d17f9832e25dcb1c1732a71",
+    "50-courses/English/Translation/2026-10-15.md": "7477760021570c045988969772d752cab57a3c6a",
+    "50-courses/English/Translation/2026-10-16.md": "0273b4cfce6a05af440df670c75bad5ee5f23176",
+    "50-courses/English/Translation/2026-10-19.md": "9863c771a1ff7f2ae4769599df3033a0af6d040e",
+    "50-courses/English/Vocabulary/2026-09-04.md": "fa56efca7160ccd89c7fa26961034b352f5aedb8",
+    "50-courses/English/Vocabulary/2026-09-07.md": "478e58cdd7cf11290f52e69e83fc655bcaf3a926",
+    "50-courses/English/Vocabulary/2026-09-08.md": "28b4b9e6cad8cf836f9624fb27e4f3eed4e591c7",
+    "50-courses/English/Vocabulary/2026-09-09.md": "76ea4dc7916f56a9309b2ec3e24188ff01847b1e",
+    "50-courses/English/Vocabulary/2026-09-10.md": "2f3bf450dfdb0373e56acbe832743d6e6ce2845d",
+    "50-courses/English/Vocabulary/2026-09-11.md": "270554527dbd4f578b669c388acbe9b5476f3f10",
+    "50-courses/English/Vocabulary/2026-09-14.md": "cc8a736d8dcf233d3c19c369699ed68b39204e51",
+    "50-courses/English/Vocabulary/2026-09-15.md": "8dee67b3748f06d8430149362fd8fadeebb51285",
+    "50-courses/English/Vocabulary/2026-09-16.md": "1de743aacc2d966e319e16a64f8ae69e3460f902",
+    "50-courses/English/Vocabulary/2026-09-17.md": "3a67d0ff57e38b504c5208dadacab0b4ad5aea98",
+    "50-courses/English/Vocabulary/2026-09-18.md": "1a0a6e575cb0283c132a5bff2e5298f52d8d6cab",
+    "50-courses/English/Vocabulary/2026-09-21.md": "b2b268e975ea9ff98d640b77655201744e42bc67",
+    "50-courses/English/Vocabulary/2026-09-22.md": "3042e645b5537e495f7c0d9238655eb6014fdd8b",
+    "50-courses/English/Vocabulary/2026-09-23.md": "e3236446fe30604fc0ce6a029a241c246be381d7",
+    "50-courses/English/Vocabulary/2026-09-24.md": "3bf1bd60dc22c99acaec99d1fc8467eac68595ed",
+    "50-courses/English/Vocabulary/2026-09-25.md": "d86d49e4f1acac7d5d8ca478d2fb5d9f65e04c03",
+    "50-courses/English/Vocabulary/2026-09-28.md": "565d19ec85a0ec0a7fbed5b51f0e4dab9a4adfbb",
+    "50-courses/English/Vocabulary/2026-09-29.md": "1ba2544c541e1e34961426c063d436fb846d4118",
+    "50-courses/English/Vocabulary/2026-09-30.md": "ab6647376daa2bf44ed1527d3f2878fb1d01be63",
+    "50-courses/English/Vocabulary/2026-10-01.md": "a929135a040db048689c349ed8a5f4befcc44c2f",
+    "50-courses/English/Vocabulary/2026-10-02.md": "6699c55b635e3aa5bf2109f727f983f0f7a4f24a",
+    "50-courses/English/Vocabulary/2026-10-05.md": "65f30b4f5818f86e467a2fcd1cbdd4dd0f044164",
+    "50-courses/English/Vocabulary/2026-10-06.md": "3c3648cb89b5c0fcbd9cf1262905bc275451a471",
+    "50-courses/English/Vocabulary/2026-10-07.md": "0d06e34afcadffe514e703f32e6d3dd93ca26e3c",
+    "50-courses/English/Vocabulary/2026-10-08.md": "f2f58f26cdfb32c003deeeb76b37ce8b6bf8928d",
+    "50-courses/English/Vocabulary/2026-10-09.md": "86090fb26a6b517b09504f5435a38c0d29491848",
+    "50-courses/English/Vocabulary/2026-10-12.md": "8cc485fd48baf25820e7197e81d98d8923a89012",
+    "50-courses/English/Vocabulary/2026-10-15.md": "57c245934a981f1cbbe06bad0a05bc7bc0346f21",
+    "50-courses/English/Vocabulary/2026-10-16.md": "bd1ba466204a5921b5cf10398185de90744a5a7c",
+    "50-courses/English/Vocabulary/2026-10-19.md": "2d8e5b8a70af6e7cebbd2723eb66d7dca95fa645",
+    "50-courses/English/Weekly/2026-09-06.md": "16ebcfcd38bba65d6b74e64ddd99473afd188507",
+    "50-courses/English/Weekly/2026-09-13.md": "f46263813dc71492f9e0f2e034e809f42dc7540b",
+    "50-courses/English/Weekly/2026-09-20.md": "84d0f045ed4f5770cf93bb19af99daffc655f9a2",
+    "50-courses/English/Weekly/2026-09-27.md": "349e19094ebac6cfe012c8beac389ad275521d5a",
+    "50-courses/English/Weekly/2026-10-04.md": "b00383a5b268db854be49b8d89e6d100866e3e8f",
+    "50-courses/English/Weekly/2026-10-11.md": "89a3b1b5496c61d43546673fec8307e9ffb1e2bd",
+    "50-courses/English/Weekly/2026-10-18.md": "49805072638b2da16f45cc18e78c9874170ee9f2",
+    "50-courses/English/Weekly/TV/2026-09-12.md": "1d2ff8d5dbae385ad883a107a2121311e0095ddf",
+    "50-courses/English/Weekly/TV/2026-09-19.md": "05b310db8f63038d5554bfb1b0d2cc6484a5b82f",
+    "50-courses/English/Weekly/TV/2026-09-26.md": "e67bcd1795b409a8fcb1e261ca8ca7fa671fc134",
+    "50-courses/English/Weekly/TV/2026-10-03.md": "84db8dbc695ff99db774abc28201bfd2620ca0b8",
+    "50-courses/English/Weekly/TV/2026-10-17.md": "1d95c4410d2e00749f8ed9b300a4a12b070f1169",
+    "Music/Daily/2026-09-04.md": "7fe1f90a5114b91bb0124bef2427c00abb56fbb8",
+    "Music/Daily/2026-09-05.md": "361e2f2dbd31d4a0683d09bc02e79de5e2c6fa3f",
+    "Music/Daily/2026-09-06.md": "a22ee6eb6b92a1082e9c0b2034ae65284b7545c1",
+    "Music/Daily/2026-09-07.md": "a0c5f15cb79fc020df2c76040d0cab6145546226",
+    "Music/Daily/2026-09-08.md": "082b12eef2707896bd801c4b233aec04aa87e00c",
+    "Music/Daily/2026-09-09.md": "9c324e6895287a9ebbf00eb72723a71015a583e6",
+    "Music/Daily/2026-09-10.md": "65dea8dc4adadf750795363e4d123b75ac5b33cd",
+    "Music/Daily/2026-09-11.md": "1c70fb2610c9cc169a76932afcf998db827a2667",
+    "Music/Daily/2026-09-12.md": "59ca012e52cb2f939261b40a95a551622081f2b0",
+    "Music/Daily/2026-09-13.md": "fc07c4fb3124d765090a0ae009c7c3c72dc2e019",
+    "Music/Daily/2026-09-14.md": "7f0a3022b941c8933a5202898b1cf25b8369635f",
+    "Music/Daily/2026-09-15.md": "0d28c90a16cdf36331d62052e03fff14a5a2d116",
+    "Music/Daily/2026-09-16.md": "d589a195d3cffe9e3fac65992e09ed2004d96f11",
+    "Music/Daily/2026-09-17.md": "14a6fa742772e35b2f4914007b14634a6393c9c3",
+    "Music/Daily/2026-09-18.md": "4502bacbeb54156c91ecc63b85f1d3d5c4bb42d5",
+    "Music/Daily/2026-09-19.md": "5534630a13e326eb3dc02b72e4953ea64e6cf00e",
+    "Music/Daily/2026-09-20.md": "3556f30ef6db1b789465c58de659c6b69697219d",
+    "Music/Daily/2026-09-21.md": "e800fa01958427c4a9d90613086e8ab7762137a6",
+    "Music/Daily/2026-09-22.md": "5a1645ee0465d5ef891cbfdad5e7200206837826",
+    "Music/Daily/2026-09-23.md": "03db713732e65323256964c98cf9af3a782b3129",
+    "Music/Daily/2026-09-24.md": "51bae9c6b86bae404d6c3ee4e9797e528ebe4feb",
+    "Music/Daily/2026-09-25.md": "35000461f70b4fadbe50eca1d14a91ba79a4cf97",
+    "Music/Daily/2026-09-26.md": "32b5db42fd2e98838153d506c6649a7e181345b9",
+    "Music/Daily/2026-09-28.md": "d082398d6bae6f1f4093750bd9b045760128ac6c",
+    "Music/Daily/2026-09-29.md": "927600da647a83f78a650debf2c706d1773fffb5",
+    "Music/Daily/2026-09-30.md": "4f87a7b679bbd729dddc91d2dcbe35be545e5de8",
+    "Music/Daily/2026-10-01.md": "1aa4a775f9b835562b4f4874d01f39eff5cbc331",
+    "Music/Daily/2026-10-02.md": "b41436a922695b05407cc02f230634b3ba17ef29",
+    "Music/Daily/2026-10-03.md": "7ff82fdd06bb45b0b5e851e780afdc646842dbfd",
+    "Music/Daily/2026-10-04.md": "1af24cbd24767c39cabf9a636fab5f0bbbc93e05",
+    "Music/Daily/2026-10-05.md": "0360a49131b1e92d38d0b37d87d3eab57e2563cc",
+    "Music/Daily/2026-10-06.md": "94dd48f6f18448d6e4a48b8539b177a513859bdf",
+    "Music/Daily/2026-10-07.md": "335449deab189e166588e4798b7b2e00ec7a6599",
+    "Music/Daily/2026-10-08.md": "4b9f84f2c075a4e38d18a5496a3c62996a8fd7cf",
+    "Music/Daily/2026-10-09.md": "dd04c9e33436d28ad18e9e09fea004dc938206c0",
+    "Music/Daily/2026-10-11.md": "709d8a57d80b260e143e4be6cdbd5b3ab7a67ecf",
+    "Music/Daily/2026-10-12.md": "6e9df76b4d3d253b852dcd3d9d47a82ca4a4b556",
+    "Music/Daily/2026-10-15.md": "e3b01207c4f48b865d1c8cc5000367d3c1157d84",
+    "Music/Daily/2026-10-16.md": "62b87de2c0dc7a49e03ed8144ad4413637b0ade1",
+    "Music/Daily/2026-10-17.md": "b8932b9b5d1b2063a64c5b590fcb02e4b28b0506",
+    "Music/Daily/2026-10-18.md": "3ec519fc88cd910b17655a2c69790520db06e09a",
+    "Music/Daily/2026-10-19.md": "1439b7b247709fcdb641b73ac547db008d237efa",
+    "Music/Daily/manifests/2026-09-04.json": "c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+    "Music/Daily/manifests/2026-09-05.json": "425068f9d2850f6174758c01adee37d25f3bb336",
+    "Music/Daily/manifests/2026-09-06.json": "cbe1822dfb00e97d8f4aa537dbfd1f52f48dcccf",
+    "Music/Daily/manifests/2026-09-07.json": "43c49954065383de75f28c4bfd239b7473f1c324",
+    "Music/Daily/manifests/2026-09-08.json": "1aff7797664028e9729b0b42925909206fbdef2e",
+    "Music/Daily/manifests/2026-09-09.json": "5b883498386208ef9809ec552e12bd30e5ae0510",
+    "Music/Daily/manifests/2026-09-10.json": "6981929543fd31c36649815397d89b2bf1632551",
+    "Music/Daily/manifests/2026-09-11.json": "66b29d99e17bc6da20987d9accd71e57851aa9fa",
+    "Music/Daily/manifests/2026-09-12.json": "9e852ec43b70c9612f836c60eb55f8d44164dadc",
+    "Music/Daily/manifests/2026-09-13.json": "b576357c8a83b6e618ce52984d43efb9ccd1e0fa",
+    "Music/Daily/manifests/2026-09-14.json": "a7e1729f60debf70fd3c922c83508286868bb83a",
+    "Music/Daily/manifests/2026-09-15.json": "e348cea20ac3b39edfad8d26cd2de5b49d4724c6",
+    "Music/Daily/manifests/2026-09-16.json": "7a672e648529aa290ace44f78f43f217d29e5b0d",
+    "Music/Daily/manifests/2026-09-17.json": "b62ae078472ac906c381bf246a59818507688f72",
+    "Music/Daily/manifests/2026-09-18.json": "e2ad0074519697a2f402427996a212b3831f8290",
+    "Music/Daily/manifests/2026-09-19.json": "2d2999277022bc329e15ce43477453edc5e8fc21",
+    "Music/Daily/manifests/2026-09-20.json": "03cf1cc76eebfd74b0342fb74a8c1e616942c737",
+    "Music/Daily/manifests/2026-09-21.json": "125ab7faf9a2fd4c08812b1bffc57686f65a1e4d",
+    "Music/Daily/manifests/2026-09-22.json": "08788b30503a3d320b0343f015c213050b43cb21",
+    "Music/Daily/manifests/2026-09-23.json": "07a2dddee1f9d38067afced0d678e4c578197d64",
+    "Music/Daily/manifests/2026-09-24.json": "6bb9b98980a1f6dc7883d45cf2a4744879ea40c7",
+    "Music/Daily/manifests/2026-09-25.json": "03f0f440b402f65da5fbd32943b70ac631e885ff",
+    "Music/Daily/manifests/2026-09-26.json": "2a6e8cacaec306279f64685e6f4ddd3ddcaedb11",
+    "Music/Daily/manifests/2026-09-28.json": "a40e31e20b92f129bf2b21f1073e3a69b120e33b",
+    "Music/Daily/manifests/2026-09-29.json": "05ac05fdddcc456cd6103fb8854a5e77d8882dfe",
+    "Music/Daily/manifests/2026-09-30.json": "4e2ed9d2f5a7f7a4f8df41a4d4407b6429c8695f",
+    "Music/Daily/manifests/2026-10-01.json": "08c0655ae1e1a430b803cedfaee28265d9bca7c4",
+    "Music/Daily/manifests/2026-10-02.json": "977590adad74f3530dc571b9578648372d99b460",
+    "Music/Daily/manifests/2026-10-03.json": "c0d1ba2c8088bee2b9bfe73c0491112db013d040",
+    "Music/Daily/manifests/2026-10-04.json": "e21086438c1609a5c65e4dfad5eb17efa390197c",
+    "Music/Daily/manifests/2026-10-05.json": "bd8e8944afd975565557ac3a88f1ac3b8e16a8f7",
+    "Music/Daily/manifests/2026-10-06.json": "1edfce17fd8094efd866e294b8cac1cf02f5e72d",
+    "Music/Daily/manifests/2026-10-07.json": "ed9f6ab90943f1a35219cc8b41017559955aec86",
+    "Music/Daily/manifests/2026-10-08.json": "2e8c9efd842d7d12ec5e76582d3098b2904de3f7",
+    "Music/Daily/manifests/2026-10-09.json": "76dff8dedee8c861d72f158e73de4afb106f8d42",
+    "Music/Daily/manifests/2026-10-11.json": "3da7d2fcf2f9f1417a32ad0e313118646cdc04ea",
+    "Music/Daily/manifests/2026-10-12.json": "35f974e89bd209addcfef98ba16f5b7bc5e0ace3",
+    "Music/Daily/manifests/2026-10-15.json": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26",
+    "Music/Daily/manifests/2026-10-16.json": "08a0e041348374b67cc59fe08080364ce92b4973",
+    "Music/Daily/manifests/2026-10-17.json": "28d482f6649e2b6cb3d67817ed0ecbfbf18e0a65",
+    "Music/Daily/manifests/2026-10-18.json": "ecbdb7dbd5007784bdfb7eee4a9c3cc7706aa054",
+    "Music/Daily/manifests/2026-10-19.json": "250f0308b004cf080611a943c55d896f47b6cab8",
+    "Music/Daily/state/tracks.json": "5754eebeda6475ae51d25ca396217f220496cc32",
+    "scripts/check_daily_integrity.py": "ee55e6addd709f84ac35962c3eb94873e2409195",
+    "scripts/check_remote_music_snapshot.py": "00410cd856b3ec02a0da743dddbb1d427192bb78",
+    "scripts/publication_bundle.py": "83b1567891513afabec7960fb80888eed3e870df",
+    "scripts/publication_recovery.py": "deda24c3da708841779aa328f2aceb96431a86f2",
+    "scripts/test_daily_integrity.py": "da742f5bea65bbba1166d01c75f0c9af16bbe9ac",
+    "scripts/test_daily_validator.py": "ddb0bd1bd950631b529a6875d5835b27cded9bc4",
+    "scripts/test_publication_bundle.py": "64a0b8a82cff48569146d5caceb4794df90e7792",
+    "scripts/test_publication_recovery.py": "872e7692ad023480eddc0e822214174b2bbb3b33",
+    "scripts/test_remote_music_snapshot.py": "77993a5429bdd2b3eac9e5c158c6091838163cb7",
+    "scripts/validate_daily_recommendations.py": "b1b5cacc3ff1754233103b9f57513a3acb5d1db2"
+  },
+  "original_history_rows": 42,
+  "original_history_blob_sha": "b4671344e4cad950cf56526121960cd459fc2f08",
+  "all_existing_english_source_notes_checked": [
+    "50-courses/English/Daily/2026-09-04.md",
+    "50-courses/English/Daily/2026-09-07.md",
+    "50-courses/English/Daily/2026-09-08.md",
+    "50-courses/English/Daily/2026-09-09.md",
+    "50-courses/English/Daily/2026-09-10.md",
+    "50-courses/English/Daily/2026-09-11.md",
+    "50-courses/English/Daily/2026-09-14.md",
+    "50-courses/English/Daily/2026-09-15.md",
+    "50-courses/English/Daily/2026-09-16.md",
+    "50-courses/English/Daily/2026-09-17.md",
+    "50-courses/English/Daily/2026-09-18.md",
+    "50-courses/English/Daily/2026-09-21.md",
+    "50-courses/English/Daily/2026-09-22.md",
+    "50-courses/English/Daily/2026-09-23.md",
+    "50-courses/English/Daily/2026-09-24.md",
+    "50-courses/English/Daily/2026-09-25.md",
+    "50-courses/English/Daily/2026-09-28.md",
+    "50-courses/English/Daily/2026-09-29.md",
+    "50-courses/English/Daily/2026-09-30.md",
+    "50-courses/English/Daily/2026-10-01.md",
+    "50-courses/English/Daily/2026-10-02.md",
+    "50-courses/English/Daily/2026-10-05.md",
+    "50-courses/English/Daily/2026-10-06.md",
+    "50-courses/English/Daily/2026-10-07.md",
+    "50-courses/English/Daily/2026-10-08.md",
+    "50-courses/English/Daily/2026-10-09.md",
+    "50-courses/English/Daily/2026-10-12.md",
+    "50-courses/English/Daily/2026-10-15.md",
+    "50-courses/English/Daily/2026-10-16.md",
+    "50-courses/English/Daily/2026-10-19.md",
+    "50-courses/English/Weekly/2026-09-06.md",
+    "50-courses/English/Weekly/2026-09-13.md",
+    "50-courses/English/Weekly/2026-09-20.md",
+    "50-courses/English/Weekly/2026-09-27.md",
+    "50-courses/English/Weekly/2026-10-04.md",
+    "50-courses/English/Weekly/2026-10-11.md",
+    "50-courses/English/Weekly/2026-10-18.md",
+    "50-courses/English/Weekly/TV/2026-09-12.md",
+    "50-courses/English/Weekly/TV/2026-09-19.md",
+    "50-courses/English/Weekly/TV/2026-09-26.md",
+    "50-courses/English/Weekly/TV/2026-10-03.md",
+    "50-courses/English/Weekly/TV/2026-10-17.md"
+  ],
+  "all_prepared_reservations": [
+    {
+      "operation_id": "english:2026-10-15",
+      "bundle_sha256": "6c3b5cf58e40281d642ba475701ad417e442bcd5836eecd0de75207ff014fda0",
+      "resources": [
+        "https://learnenglish.britishcouncil.org/free-resources/reading/b2/star-wars-hero-myth"
+      ]
+    },
+    {
+      "operation_id": "english:2026-10-16",
+      "bundle_sha256": "df92655322c6c9a25e2b712d5b8b53578f727c42bb5ad41e8e1df6b8b8b230b9",
+      "resources": [
+        "https://learnenglish.britishcouncil.org/free-resources/reading/b2/sharing-economy"
+      ]
+    },
+    {
+      "operation_id": "english:2026-10-17",
+      "bundle_sha256": "b8ec157dede3d2ea4f41b8589d6007acbaf24be445d4a377a559fa4d1be4fb49",
+      "resources": [
+        "https://www.adultswim.com/videos/joe-pera-talks-with-you"
+      ]
+    },
+    {
+      "operation_id": "english:2026-10-18",
+      "bundle_sha256": "4a1157e7458d49e73d117505142506b17caa3db62985ab96d871089257b3f435",
+      "resources": [
+        "https://99percentinvisible.org/episode/the-pool-and-the-stream/"
+      ]
+    },
+    {
+      "operation_id": "english:2026-10-19",
+      "bundle_sha256": "e8c09610703f555f386194df1dfee2d76e9dfb1c9f174b440359007cb4229c9d",
+      "resources": [
+        "https://learnenglish.britishcouncil.org/free-resources/reading/b2/work-life-balance"
+      ]
+    },
+    {
+      "operation_id": "music:2026-10-15",
+      "bundle_sha256": "6f528f228bc06a123416263a414416e2c24bfa5de35e6b82428ee88fffba1f49",
+      "resources": [
+        "曹方::冰川",
+        "José González::El Invento",
+        "黄莺莺::三年三月到九天九夜",
+        "奇克・考瑞亚 & Return to Forever::Spain",
+        "柏林爱乐乐团 & 赫伯特・冯・卡拉扬::Boléro, M. 81"
+      ]
+    },
+    {
+      "operation_id": "music:2026-10-16",
+      "bundle_sha256": "b67b518dd0cf68365892c1ed55d7c5952b5d3e4d14614ea2e24049c192b0655d",
+      "resources": [
+        "张雨生::口是心非",
+        "Joni Mitchell::Coyote",
+        "Four Tet::Two Thousand and Seventeen",
+        "David Sylvian::Orpheus",
+        "Cesária Evora::Sodade"
+      ]
+    },
+    {
+      "operation_id": "music:2026-10-17",
+      "bundle_sha256": "3b148790e840cd9d43d41887dea55756e57357f62c6a285ff115cb3c1daa5447",
+      "resources": [
+        "Lexie Liu::Manta",
+        "Brittany Howard::Stay High",
+        "Khruangbin::Friday Morning",
+        "Lhasa De Sela::De Cara a la Pared",
+        "Penguin Cafe Orchestra::Music for a Found Harmonium (2008 Digital Remaster)"
+      ]
+    },
+    {
+      "operation_id": "music:2026-10-18",
+      "bundle_sha256": "450adef96825eab1678fbf4d193a96b2fa5aa391dec65f6669edac91c1c6e9a1",
+      "resources": [
+        "张玮玮::米店",
+        "Laura Marling::Song for Our Daughter",
+        "Ahmad Jamal Trio::Poinciana (Live at The Pershing, Chicago, 1958)",
+        "Ali Farka Touré::Diaraby (with Ry Cooder) [with Ry Cooder]",
+        "Roomful of Teeth & Brad Wells::Partita for 8 Singers: 1. Allemande"
+      ]
+    },
+    {
+      "operation_id": "music:2026-10-19",
+      "bundle_sha256": "6b2d5023f997866a6341e333c530745486854487a846f4d236befee655538646",
+      "resources": [
+        "许哲珮::气球 (Acoustic) [feat. 徐研培]",
+        "Curtis Mayfield::Move On Up (Extended Version)",
+        "St. Vincent::Los Ageless",
+        "阿瑙尔・伯拉罕::The Astounding Eyes of Rita",
+        "The Comet Is Coming::Summon the Fire"
+      ]
+    },
+    {
+      "operation_id": "news-youtube-reddit:2026-10-15",
+      "bundle_sha256": "b88e1ca0d92e8e2814a3c9a8e4d15573767382f688c8c158ec2cd07d9bb15ee6",
+      "resources": [
+        "youtube:0MwMkBET_5I",
+        "youtube:xWL40q3DMoQ",
+        "youtube:eXR1olg_I0w",
+        "youtube:lKIbT-4UFaE",
+        "youtube:RPfORR5ffuY",
+        "reddit:15gcwse",
+        "reddit:1tqdykg",
+        "reddit:kf0888",
+        "reddit:mq2ot8",
+        "reddit:jqcxwi",
+        "reddit:1ndif15",
+        "reddit:1u6og3o",
+        "reddit:1dpebvl",
+        "reddit:1r69b88",
+        "reddit:hd0sto"
+      ]
+    },
+    {
+      "operation_id": "news-youtube-reddit:2026-10-16",
+      "bundle_sha256": "73643a0897bd7acbff4943bfdbf4f7433c8f7c5451227efdfebfc4ae9bb68449",
+      "resources": [
+        "youtube:OkmNXy7er84",
+        "youtube:2yCjO-wRxyM",
+        "youtube:rStL7niR7gs",
+        "youtube:CF3MRMBjd20",
+        "youtube:R-Zyud8xh2c",
+        "reddit:1w8rm2u",
+        "reddit:si27i1",
+        "reddit:n8fvmz",
+        "reddit:113zwvc",
+        "reddit:zzm2qq",
+        "reddit:1x4iykn",
+        "reddit:1s3lt87",
+        "reddit:1tjwd19",
+        "reddit:1q3a0zx",
+        "reddit:1wudbra"
+      ]
+    },
+    {
+      "operation_id": "news-youtube-reddit:2026-10-17",
+      "bundle_sha256": "926479baa83baed7b6783bab94c9c4bbffc0244c4bf958b4146be7f92b025558",
+      "resources": [
+        "youtube:LyRzGFHWnIU",
+        "youtube:aspPJ2Wcaig",
+        "youtube:OLxDD1xsjHw",
+        "youtube:3OEhe8Pf8PI",
+        "youtube:qQTVuRrZO8w",
+        "reddit:1f48rpc",
+        "reddit:1us2k57",
+        "reddit:1givg4",
+        "reddit:y8kkaj",
+        "reddit:15h0iuy",
+        "reddit:1x4lzyq",
+        "reddit:1nhjmox",
+        "reddit:1u3lnov",
+        "reddit:1p2nm33",
+        "reddit:1wyjght"
+      ]
+    },
+    {
+      "operation_id": "news-youtube-reddit:2026-10-18",
+      "bundle_sha256": "2431ac89e2934894d9d00fad280e171a641cbfb976f0d557d31b6b1aa38e551c",
+      "resources": [
+        "youtube:NSS6yAMZF78",
+        "youtube:YGLNyHd2w10",
+        "youtube:RSTNhvDGbYI",
+        "youtube:Qr3VsZYQy4s",
+        "youtube:W8oIeL_OPc8",
+        "reddit:1qoiwgk",
+        "reddit:cf3arh",
+        "reddit:f08bge",
+        "reddit:11fh6sg",
+        "reddit:1jo3r49",
+        "reddit:17wwkkb",
+        "reddit:v1l9mw",
+        "reddit:xn6ww2",
+        "reddit:1nzl5v7",
+        "reddit:1tbwt6j"
+      ]
+    },
+    {
+      "operation_id": "news-youtube-reddit:2026-10-19",
+      "bundle_sha256": "6ef498da7c63156e5040bb78d6aad18ed35ebe56445cc4ab1e7d081d7bd7bcd9",
+      "resources": [
+        "youtube:qTLR7FwXUU4",
+        "youtube:3Q3eITC01Fg",
+        "youtube:aESqrP3hfi8",
+        "youtube:aOT_bG-vWyg",
+        "youtube:VGhcSupkNs8",
+        "reddit:nhbc6c",
+        "reddit:16th6yv",
+        "reddit:1tuy2u7",
+        "reddit:md6rlq",
+        "reddit:4hgnc7",
+        "reddit:detvjh",
+        "reddit:gu9zmc",
+        "reddit:1auy7bd",
+        "reddit:1km6kbc",
+        "reddit:1v1z1e0"
+      ]
+    }
+  ],
+  "prepared_journal": {
+    "status": "passed_immutable_publication_bundles",
+    "bundles": 15,
+    "base_ref": null,
+    "content_qa": "not_evaluated"
+  },
+  "current_date_targets": "All three dated notes, same-day PREPARED and QA absent in complete accessible pinned tree; complete permanent history exists.",
+  "candidate_count": 8,
+  "candidates": [
+    {
+      "title": "Leave No Trace Seven Principles",
+      "url": "https://www.nps.gov/articles/leave-no-trace-seven-principles.htm",
+      "publisher": "U.S. National Park Service; principles credited to Leave No Trace Center for Outdoor Ethics",
+      "source_ref": "turn211view0",
+      "observation": "Complete main body read, including seven sections, nested popular/pristine-area conditions, final attribution and last-updated2022-06-16. Public source without login. No audio claimed.",
+      "scope": "full main article",
+      "scores": [
+        4.5,
+        4.8,
+        4.1,
+        4.6,
+        4.6
+      ],
+      "penalties": {
+        "publisher_repetition": 0,
+        "topic_repetition": 0
+      },
+      "decision": "selected",
+      "reason": "Fresh outdoor-ethics instructional genre after recent stories and workplace comparison; imperative sentences plus conditions and purpose clauses make a concrete CET-6/introductory TOEFL language task. Seven sections can be skimmed once in7-10 learner minutes, not an official duration. Rare field terms are optional; no outdoor-safety or legal interpretation required.",
+      "weighted_editorial_score_before_penalties": 4.52,
+      "weighted_editorial_score_after_penalties": 4.52,
+      "fresh_against_original_history_notes_reservations": true
+    },
+    {
+      "title": "Libraries Used to Chain Their Books to Shelves, With the Spines Hidden Away",
+      "url": "https://www.smithsonianmag.com/smart-news/libraries-used-to-chain-their-books-to-shelves-with-the-spines-hidden-away-4392158/",
+      "publisher": "Smithsonian Magazine",
+      "source_ref": "turn209view1",
+      "observation": "Complete article body from opening shelf arrangement to concluding storage comment read; author Colin Schultz, date2013-09-06. Substantial passages quote another author.",
+      "scope": "full main article",
+      "scores": [
+        4.2,
+        4.1,
+        4.6,
+        4.5,
+        4.2
+      ],
+      "penalties": {
+        "secondary_quote_density": 0.2,
+        "genre_similarity_to_recent_design_story": 0.2
+      },
+      "decision": "rejected",
+      "reason": "Interesting material-culture hook, but a recent long design narrative already trained historical story connections. Several quoted passages complicate one compact input; today instructional grammar wins.",
+      "weighted_editorial_score_before_penalties": 4.3,
+      "weighted_editorial_score_after_penalties": 3.9,
+      "fresh_against_original_history_notes_reservations": true
+    },
+    {
+      "title": "The Librarian of Congress Weighs In on Why Card Catalogs Matter",
+      "url": "https://www.smithsonianmag.com/arts-culture/librarian-congress-weighs-why-card-catalogs-matter-180963371/",
+      "publisher": "Smithsonian Magazine",
+      "source_ref": "turn209view2",
+      "observation": "Full interview questions and answers read, with introduction and date2017-05-19. Then-current officeholder and digitization claims explicitly time-bound, not verified as2026 facts.",
+      "scope": "full main interview",
+      "scores": [
+        4.4,
+        4.3,
+        4.3,
+        4.4,
+        4.1
+      ],
+      "penalties": {
+        "historical_context_load": 0.15,
+        "similar_library_pool_topic": 0.15
+      },
+      "decision": "rejected",
+      "reason": "Strong interview and concrete-to-abstract contrast, but needs repeated historical caveats and adds another library topic; keep for a different day, not another recommendation today.",
+      "weighted_editorial_score_before_penalties": 4.325,
+      "weighted_editorial_score_after_penalties": 4.025,
+      "fresh_against_original_history_notes_reservations": true
+    },
+    {
+      "title": "Behind the Scenes of Trinity College Dublin's Old Library Redevelopment Project",
+      "url": "https://www.smithsonianmag.com/history/go-behind-the-scenes-at-an-iconic-irish-library-as-staff-move-700000-historical-treasures-into-storage-180987743/",
+      "publisher": "Smithsonian Magazine",
+      "source_ref": "turn210view4",
+      "observation": "Actual page body excerpts and redevelopment sections observed, including manuscript conservation and storage. Complete main body not established from returned excerpt; opening access is not complete reading.",
+      "scope": "partial main-body observation",
+      "scores": [
+        4.3,
+        4.0,
+        4.5,
+        4.5,
+        3.7
+      ],
+      "penalties": {
+        "incomplete_source_evaluation": 0.45,
+        "specialist_vocabulary": 0.2
+      },
+      "decision": "rejected",
+      "reason": "Conservation details and unfamiliar book-history terms would compete with today's language objective; full-body evaluation remains incomplete, so not eligible as final.",
+      "weighted_editorial_score_before_penalties": 4.235,
+      "weighted_editorial_score_after_penalties": 3.585,
+      "fresh_against_original_history_notes_reservations": true
+    },
+    {
+      "title": "For the Record",
+      "url": "https://naturalhistory.si.edu/education/teaching-resources/featured-collections/for-the-record",
+      "publisher": "Smithsonian National Museum of Natural History",
+      "source_ref": "turn210view2",
+      "observation": "Complete short introduction and reflective questions read; page says associated exhibition closed2024. Objects and image links visible, but linked image collections not independently inspected.",
+      "scope": "complete short introduction; object links unexamined",
+      "scores": [
+        4.0,
+        3.7,
+        4.4,
+        4.6,
+        3.4
+      ],
+      "penalties": {
+        "too_short_as_standalone_input": 0.6
+      },
+      "decision": "rejected",
+      "reason": "Promising visual-description exercise, but the short introduction alone does not fill5-15minutes of authentic input; image analysis cannot be claimed without looking at objects.",
+      "weighted_editorial_score_before_penalties": 4.035,
+      "weighted_editorial_score_after_penalties": 3.435,
+      "fresh_against_original_history_notes_reservations": true
+    },
+    {
+      "title": "What are Tides?",
+      "url": "https://oceanservice.noaa.gov/education/tutorial_tides/tides01_intro.html",
+      "publisher": "NOAA National Ocean Service",
+      "source_ref": "turn210view1",
+      "observation": "Article body read: tides, tidal range and tidal currents, followed by tutorial navigation. Animation caption observed, not animation playback. No downstream tutorial pages counted as read.",
+      "scope": "complete short page body; animation not played",
+      "scores": [
+        4.3,
+        4.0,
+        4.2,
+        4.4,
+        3.8
+      ],
+      "penalties": {
+        "too_short_without_more_pages": 0.35
+      },
+      "decision": "rejected",
+      "reason": "Useful definition/contrast material but short as one self-contained weekday input; expanding to a tutorial changes the task and source boundary. No ocean safety instructions inferred.",
+      "weighted_editorial_score_before_penalties": 4.17,
+      "weighted_editorial_score_after_penalties": 3.82,
+      "fresh_against_original_history_notes_reservations": true
+    },
+    {
+      "title": "Season 3, Episode 4: Why Do We Have a Moon? With Robin Canup",
+      "url": "https://www.nasa.gov/podcasts/gravity-assist/gravity-assist-podcast-why-do-we-have-a-moon-with-robin-canup/",
+      "publisher": "NASA Gravity Assist",
+      "source_ref": "turn210view3",
+      "observation": "Actual page identifies season3 episode4 and2019-05-09; substantial transcript excerpts read from opening through later modeling discussion. Full transcript and audio duration/playback not established.",
+      "scope": "substantial partial transcript; no audio verification",
+      "scores": [
+        4.6,
+        4.1,
+        4.6,
+        4.5,
+        3.5
+      ],
+      "penalties": {
+        "specialist_load": 0.3,
+        "unverified_duration_and_full_body": 0.45
+      },
+      "decision": "rejected",
+      "reason": "Interesting reasoning about hypotheses, but specialist length and incomplete full-source/audio check make it unsuitable for today's short slot. Not overfitting daily English to science interests.",
+      "weighted_editorial_score_before_penalties": 4.35,
+      "weighted_editorial_score_after_penalties": 3.6,
+      "fresh_against_original_history_notes_reservations": true
+    },
+    {
+      "title": "A Brief History of Banned Books in America",
+      "url": "https://www.smithsonianmag.com/history/a-brief-history-of-banned-books-in-america-180983011/",
+      "publisher": "Smithsonian Magazine / There's More to That",
+      "source_ref": "turn210view5",
+      "observation": "Actual introduction and beginning of podcast transcript observed; period-specific context and embedded player present. Full transcript, full playback and duration unverified.",
+      "scope": "partial transcript and introduction",
+      "scores": [
+        4.3,
+        4.0,
+        4.4,
+        4.5,
+        3.5
+      ],
+      "penalties": {
+        "unverified_duration_and_full_body": 0.45,
+        "historical_and_policy_context": 0.2
+      },
+      "decision": "rejected",
+      "reason": "Cultural value is not enough to justify a short daily slot when length/accessibility scope is unverified. Do not use2010s/2020s officeholder descriptions as current facts.",
+      "weighted_editorial_score_before_penalties": 4.195,
+      "weighted_editorial_score_after_penalties": 3.545,
+      "fresh_against_original_history_notes_reservations": true
+    }
+  ],
+  "candidate_scope": "Eight distinct real observed source URLs and identities. Five complete main article/introduction bodies read; three partial pages/transcripts explicitly rejected. No original/canonical/tracking/pagination mirrors counted as separate works; no claim of candidate audio auditions.",
+  "scoring_scope": "Subjective1-5 editorial screen; quality30/usefulness25/curiosity20/novelty15/fit10, explicit penalties for incomplete evaluation, length or recent genre similarity. Not measured learning outcomes.",
+  "source_verification": {
+    "url": "https://www.nps.gov/articles/leave-no-trace-seven-principles.htm",
+    "title": "Leave No Trace Seven Principles",
+    "publisher": "U.S. National Park Service",
+    "attribution": "Principles credited on actual page to Leave No Trace Center for Outdoor Ethics",
+    "source_refs": [
+      "turn209view0",
+      "turn211view0"
+    ],
+    "observed_utc_window": [
+      "2026-10-19T23:59:24Z",
+      "2026-10-19T23:59:45Z"
+    ],
+    "last_updated_observed": "2022-06-16",
+    "method": "Actual canonical publisher article fully read, seven sections and nested conditions plus closing attribution. Public page content, not snippet or HTTP-status-only verification.",
+    "observed_terminal_content": "Closing acknowledgement, third-party copyright attribution and Last updated field all observed.",
+    "official_duration": null,
+    "learner_first_pass_estimate_minutes": [
+      7,
+      10
+    ],
+    "level_scope": "Teaching judgment CET-6 to introductory TOEFL with optional field vocabulary; not an official CEFR label.",
+    "access_scope": "Article text readable without login; audio, linked principles/science pages and personal-device access not tested."
+  },
+  "selection_reason": "Shift from recent myth, sharing economy, workplace statements and design documentary to authentic visitor instructions. Train implied subjects, action/object, nested conditions and purpose. A practical-domain adjacent exploration; one daily source does not literally instantiate50/30/20.",
+  "same_work_dedup": "Canonical and query/fragment/trailing-slash normalized identity absent from original42-row complete history, all42 dated Daily/Weekly/TV source notes and all15 PREPARED records; NPS mirrored park pages excluded from candidate count.",
+  "teaching_content": {
+    "daily_comprehension_output_questions": 3,
+    "independent_translation_exercises": 2,
+    "translation_levels": [
+      "CET-6",
+      "TOEFL/academic"
+    ],
+    "translation_scenarios": [
+      "fictional community theatre ticket collection",
+      "hypothetical classroom-sensor data-processing procedure"
+    ],
+    "not_translation_or_paraphrase_of_selected_source": true,
+    "vocabulary_entries": 8,
+    "folded_reference_answers": true,
+    "all_examples_original": true,
+    "etymology": "No invented roots; productive forms and semantic contrasts only.",
+    "full_work_estimate_minutes": [
+      55,
+      75
+    ],
+    "twenty_minute_start_explicitly_partial": true,
+    "spaced_review_sentences": 2
+  },
+  "source_caveats": [
+    "Visitor guidance language lesson, not a complete safety course or current legal/operational authorization. Local closures/fire rules may differ; no operational burial/fire instructions reproduced.",
+    "Last updated date not represented as original publication date or current event.",
+    "Attribution retained; no full article or seven-principle text copied.",
+    "No audio, complete playback, user-device or notification claims."
+  ],
+  "historical_backlog_scope": "All older English source/format caveats and permanent exposures retained. No historical repair, content replacement or record clearing. Original history/journal valid.",
+  "actual_research_errors": [],
+  "local_preparation_errors": [],
+  "not_certified": [
+    "user-device source access",
+    "official audio",
+    "device synchronization",
+    "notification delivery"
+  ],
+  "bundle_sha256": "61e1231ece2a472827d313e2342b7c919935739c2fca41c5dea0e4fe2ae63e55",
+  "plan_sha256": "1420e6a419d9d24d6bf7628ea32bfe5b7b96d555cac84cfca89cb4eee0024175",
+  "status": "passed_current_english_publication_checks",
+  "qa_recorded_at_utc": "2026-10-20T00:05:32Z",
+  "post_write_qa": {
+    "status": "passed_current_english_publication_checks",
+    "original_bundle_sha256": "61e1231ece2a472827d313e2342b7c919935739c2fca41c5dea0e4fe2ae63e55",
+    "complete_readbacks": {
+      "ZJFILOVE/obsidian-vault:50-courses/English/Daily/2026-10-20.md": {
+        "sha": "fae03ce4e84ae43432cfab4d3e1cd095613bdadc",
+        "utf8_bytes": 7391,
+        "full_payload_match": true
+      },
+      "ZJFILOVE/obsidian-vault:50-courses/English/Translation/2026-10-20.md": {
+        "sha": "9c525d7c45784fbcdba510ab6055cdc3af2e69f5",
+        "utf8_bytes": 10124,
+        "full_payload_match": true
+      },
+      "ZJFILOVE/obsidian-vault:50-courses/English/Vocabulary/2026-10-20.md": {
+        "sha": "5f67d706db4add00f4ab42e2a91e3f77624d31f9",
+        "utf8_bytes": 7982,
+        "full_payload_match": true
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/history/english.jsonl": {
+        "sha": "251622be67ca0c35a34eb2663368cbe1f051aad5",
+        "utf8_bytes": 11595,
+        "full_payload_match": true
+      }
+    },
+    "recovery_planner": {
+      "operation_id": "english:2026-10-20",
+      "plan_sha256": "1420e6a419d9d24d6bf7628ea32bfe5b7b96d555cac84cfca89cb4eee0024175",
+      "status": "artifacts_match",
+      "next_stage": null,
+      "decisions": [
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Daily/2026-10-20.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "fae03ce4e84ae43432cfab4d3e1cd095613bdadc"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Translation/2026-10-20.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "9c525d7c45784fbcdba510ab6055cdc3af2e69f5"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Vocabulary/2026-10-20.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "5f67d706db4add00f4ab42e2a91e3f77624d31f9"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/english.jsonl",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "b4671344e4cad950cf56526121960cd459fc2f08",
+          "target_sha": "251622be67ca0c35a34eb2663368cbe1f051aad5"
+        }
+      ],
+      "content_qa": "not_evaluated",
+      "github_writes_performed": 0
+    },
+    "history_rows_before": 42,
+    "history_rows_after": 43,
+    "exact_once_date_source_title_registration": true,
+    "original_history_bytes_retained": true,
+    "freshness_against_original_history_notes_and_unrelated_reservations": "passed; selected source and same-work canonical/pagination identity absent",
+    "strict_english_source_notes_validated": 37,
+    "existing_input_files_retained_byte_identically": 215,
+    "immutable_journal": {
+      "status": "passed_immutable_publication_bundles",
+      "bundles": 16,
+      "base_ref": null,
+      "content_qa": "not_evaluated"
+    },
+    "required_note_set": [
+      "Daily",
+      "Translation",
+      "Vocabulary"
+    ],
+    "daily_questions": 3,
+    "independent_translation_exercises": 2,
+    "vocabulary_entries": 8,
+    "vocabulary_quiz_questions": 8,
+    "folded_reference_answers": true,
+    "all_crosslinks_and_frontmatter": true,
+    "generated_and_manual_boundaries": true,
+    "independent_teaching_review": {
+      "status": "passed",
+      "scope": "Separate post-write review of full read-back teaching text, not inferred from hashes or CI and not an independent human audit. Fictional community theatre ticket collection and hypothetical sensor-data processing are independently authored, not translations or paraphrases of source outdoor principles. References preserve conditions, exceptions, missing-versus-zero distinction and purpose-versus-result. Eight vocabulary entries each explain meaning, collocations, original example, forms/word family and contrast; no fabricated etymology.",
+      "article_scope_caveats_retained": true,
+      "twenty_minute_start_explicitly_partial": true,
+      "no_invented_audio": true,
+      "three_source_questions_correctly_grounded": true,
+      "closed_book_retrieval_present": true
+    },
+    "source_check_scope": "Canonical public NPS main article fully read via web, including seven sections, nested conditional structure, final attribution and actual last-updated field. Not snippet/status-only verification. Level and learner time are teaching estimates, not official CEFR/audio duration. No operational safety authorization or complete playback/user-device claim.",
+    "not_certified": [
+      "empirical learning outcomes",
+      "all historical live-source quality",
+      "device synchronization",
+      "notification delivery"
+    ]
+  },
+  "execution": {
+    "recorded_at_utc": "2026-10-20T00:05:32Z",
+    "prepared": {
+      "schema_version": 1,
+      "operation_id": "english:2026-10-20",
+      "attempt_id": "20261020T000400Z-prepared",
+      "recorded_at_utc": "2026-10-20 00:03:48 UTC",
+      "stage": "PREPARED",
+      "bundle_creation_commit": "e3deeba9417fe0304a5459f3da02aa02709db144",
+      "original_bundle_sha256": "61e1231ece2a472827d313e2342b7c919935739c2fca41c5dea0e4fe2ae63e55",
+      "original_plan_sha256": "1420e6a419d9d24d6bf7628ea32bfe5b7b96d555cac84cfca89cb4eee0024175",
+      "prepared_readback_blob_sha": "3ab418e0b64cdfb3476f7da0a40357291d45424d",
+      "complete_prepared_payload_readback_match": true,
+      "errors": []
+    },
+    "publication": {
+      "schema_version": 1,
+      "operation_id": "english:2026-10-20",
+      "stage": 1,
+      "attempt_id": "20261020T000500Z-publication",
+      "bundle_creation_commit": "e3deeba9417fe0304a5459f3da02aa02709db144",
+      "original_bundle_sha256": "61e1231ece2a472827d313e2342b7c919935739c2fca41c5dea0e4fe2ae63e55",
+      "original_plan_sha256": "1420e6a419d9d24d6bf7628ea32bfe5b7b96d555cac84cfca89cb4eee0024175",
+      "expected_parent": "544cd10e3251405971810ebfb24b29896d926f60",
+      "actual_base_tree": "ee4631137bc3f04d1a3d747aabcb413be1ef4910",
+      "publication_commit": "8b43aa2f71354366174889f70c5893043901ff22",
+      "ref_update": "expected-head non-force success",
+      "readbacks": {
+        "ZJFILOVE/obsidian-vault:50-courses/English/Daily/2026-10-20.md": {
+          "sha": "fae03ce4e84ae43432cfab4d3e1cd095613bdadc",
+          "pinned_ref": "8b43aa2f71354366174889f70c5893043901ff22",
+          "full_payload_match": true
+        },
+        "ZJFILOVE/obsidian-vault:50-courses/English/Translation/2026-10-20.md": {
+          "sha": "9c525d7c45784fbcdba510ab6055cdc3af2e69f5",
+          "pinned_ref": "8b43aa2f71354366174889f70c5893043901ff22",
+          "full_payload_match": true
+        },
+        "ZJFILOVE/obsidian-vault:50-courses/English/Vocabulary/2026-10-20.md": {
+          "sha": "5f67d706db4add00f4ab42e2a91e3f77624d31f9",
+          "pinned_ref": "8b43aa2f71354366174889f70c5893043901ff22",
+          "full_payload_match": true
+        },
+        "ZJFILOVE/obsidian-vault:.recommendation/history/english.jsonl": {
+          "sha": "251622be67ca0c35a34eb2663368cbe1f051aad5",
+          "pinned_ref": "8b43aa2f71354366174889f70c5893043901ff22",
+          "full_payload_match": true
+        }
+      },
+      "errors": []
+    },
+    "ci": {
+      "runs": [
+        {
+          "id": 39345432290,
+          "name": "Recommendation integrity (read-only)",
+          "status": "completed",
+          "conclusion": "success",
+          "head_sha": "8b43aa2f71354366174889f70c5893043901ff22",
+          "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/39345432290"
+        }
+      ],
+      "jobs": {
+        "jobs": [
+          {
+            "id": 118376761577,
+            "name": "validate",
+            "status": "completed",
+            "conclusion": "success",
+            "run_id": 39345432290,
+            "logs_url": null,
+            "steps": [
+              {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1
+              },
+              {
+                "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2
+              },
+              {
+                "name": "Validate publications and full source-history coverage",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3
+              },
+              {
+                "name": "Negative regressions and interrupted-publication recovery",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4
+              },
+              {
+                "name": "Compare permanent history with the actual base commit",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5
+              },
+              {
+                "name": "Record scope of checks",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6
+              },
+              {
+                "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 12
+              },
+              {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 13
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "actual_local_checks": [
+      {
+        "command": "validate_daily_recommendations.py",
+        "exit_code": 0,
+        "output": "OK: strict daily recommendations validated — youtube=175, reddit=350, english=37, music=175\n"
+      },
+      {
+        "command": "check_daily_integrity.py",
+        "exit_code": 0,
+        "output": "{\n  \"status\": \"passed_local_integrity\",\n  \"history\": {\n    \"youtube\": {\n      \"rows\": 200,\n      \"unique_resources\": 196\n    },\n    \"reddit\": {\n      \"rows\": 380,\n      \"unique_resources\": 380\n    },\n    \"english\": {\n      \"rows\": 43,\n      \"unique_resources\": 43\n    }\n  },\n  \"music\": {\n    \"manifests\": 42,\n    \"current_tracks\": 210,\n    \"state_entries\": 218,\n    \"retired_entries_retained\": 8\n  },\n  \"append_only\": \"not_checked_without_base_ref\",\n  \"base_ref\": null,\n  \"legacy_duplicate_groups\": [\n    {\n      \"project\": \"youtube\",\n      \"resource_id\": \"CbUjuwhQPKs\",\n      \"dates\": [\n        \"2026-09-06\",\n        \"2026-09-09\"\n      ],\n      \"action\": \"retain all historical records; block every future reuse\"\n    },\n    {\n      \"project\": \"youtube\",\n      \"resource_id\": \"TRL7o2kPqw0\",\n      \"dates\": [\n        \"2026-09-07\",\n        \"2026-09-09\",\n        \"2026-09-10\"\n      ],\n      \"action\": \"retain all historical records; block every future reuse\"\n    },\n    {\n      \"project\": \"youtube\",\n      \"resource_id\": \"OmJ-4B-mS-Y\",\n      \"dates\": [\n        \"2026-09-09\",\n        \"2026-09-10\"\n      ],\n      \"action\": \"retain all historical records; block every future reuse\"\n    }\n  ],\n  \"cross_repository\": \"not_checked_requires_two_authorized_checkouts\",\n  \"not_certified\": [\n    \"live sources\",\n    \"semantic quality\",\n    \"candidate pools\",\n    \"local Obsidian sync\",\n    \"task delivery\"\n  ]\n}\n"
+      },
+      {
+        "command": "unittest discover test_*.py -q",
+        "exit_code": 0,
+        "output": "----------------------------------------------------------------------\nRan 119 tests in 0.069s\n\nOK\n"
+      },
+      {
+        "command": "publication_bundle.py --journal-root",
+        "exit_code": 0,
+        "output": "{\n  \"status\": \"passed_immutable_publication_bundles\",\n  \"bundles\": 16,\n  \"base_ref\": null,\n  \"content_qa\": \"not_evaluated\"\n}\n"
+      }
+    ],
+    "readback_pinned_commit": "8b43aa2f71354366174889f70c5893043901ff22"
+  },
+  "check_scopes": {
+    "source": "Full canonical NPS public article actually read. No audio playback, local device or outdoor authorization claims.",
+    "local_structure": "Actual whole-repository structural/history validators, immutable journal and119 negative/recovery regression tests executed. Full structural scan includes older unrelated publication files.",
+    "append_only": "All original English history bytes checked as an exact prefix, same date/source/title appended exactly once. Full Git --base-ref unavailable in materialized local snapshot; actual publication CI successfully compared permanent history with its real base commit.",
+    "teaching_quality": "Separate post-write review of read-back lesson and exercises, including conditional scope, answer fidelity, independent authorship, vocabulary contrasts and estimated timing. Not inferred from a green CI, not an empirical learning-outcome study.",
+    "historical_backlog": "Existing historical source/format caveats and unrelated legacy YouTube duplicate groups retained; no exposed source, old note, PREPARED or policy rewritten.",
+    "cross_repository_music": "Not required for this English-only publication. No music artifact changed; local generic integrity output explicitly does not certify cross-repository mirrors."
+  }
+}
