@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-20",
+  "attempt_id": "20261020T000400Z-prepared",
+  "recorded_at_utc": "2026-10-20 00:03:48 UTC",
+  "stage": "PREPARED",
+  "bundle_creation_commit": "e3deeba9417fe0304a5459f3da02aa02709db144",
+  "original_bundle_sha256": "61e1231ece2a472827d313e2342b7c919935739c2fca41c5dea0e4fe2ae63e55",
+  "original_plan_sha256": "1420e6a419d9d24d6bf7628ea32bfe5b7b96d555cac84cfca89cb4eee0024175",
+  "prepared_readback_blob_sha": "3ab418e0b64cdfb3476f7da0a40357291d45424d",
+  "complete_prepared_payload_readback_match": true,
+  "errors": []
+}
