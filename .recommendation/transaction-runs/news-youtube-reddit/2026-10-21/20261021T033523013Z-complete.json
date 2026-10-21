@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-10-21",
+  "recorded_at_utc": "2026-10-21T03:35:23.013Z",
+  "stage": "publication_and_QA_read_back",
+  "creation_commit": "8c0757a50ef50acdff509846c4194b93a78ed11f",
+  "prepared_blob_sha": "45f6a1e67ca3dabf31ddcf75d64fe34b403f1798",
+  "original_bundle_sha256": "cb60a33c6e9c97156e6957debab53aba7c5f0c5ae1048c9dc1ddcf0783a71c81",
+  "original_plan_sha256": "fb08363c2efc6d75c020e97f8b8b5922198f0b0b276560ea73cf35456e66254c",
+  "errors": [
+    {
+      "classification": "transient_retrieval_failure_no_http_status_exposed",
+      "resource": "NASA water-cycle article",
+      "result": "One bounded original-reference reread returned full article; source observations preserved in QA."
+    }
+  ],
+  "publication_commit": "dc7e4a6579817759c463cb4c18239bc9cefa51fd",
+  "qa_commit": "0e5c927629f86888b7be39716c76e74061dffe6f",
+  "qa_sha": "7c362f3259a4b6a4cad5bdb9c2b6fb365cd47dc5",
+  "artifact_readbacks": [
+    {
+      "path": "News/Daily/2026-10-21.md",
+      "sha": "dbb492ed4ad5f5df09758e11c9b14cb42ef3dbc7",
+      "full_payload_match": true
+    },
+    {
+      "path": "Resources/YouTube/Daily/2026-10-21.md",
+      "sha": "22d609a8de348465dc35dee76005ab5be0763077",
+      "full_payload_match": true
+    },
+    {
+      "path": "Resources/Reddit/Daily/2026-10-21.md",
+      "sha": "3a74791020fb00aed562a8fed3975582d29f7214",
+      "full_payload_match": true
+    },
+    {
+      "path": ".recommendation/history/youtube.jsonl",
+      "sha": "c30c8301f71894564ab9f6d1b1af5310f3a56927",
+      "full_payload_match": true
+    },
+    {
+      "path": ".recommendation/history/reddit.jsonl",
+      "sha": "d1859eb020a8cc1e832768a4829bf92d874c4996",
+      "full_payload_match": true
+    }
+  ]
+}
