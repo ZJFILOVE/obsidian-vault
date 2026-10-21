@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-10-20",
+  "recorded_at_utc": "2026-10-21T03:36:53.675Z",
+  "stage": "post_completion_source_followup",
+  "publication_status": "Completed and original QA read back before starting2026-10-21; no publication or permanent history changed by this followup.",
+  "original_bundle_sha256": "562d4882e16f9facd5d52dd53a9dd3b31f41bce5a6ebf8346bad61dfc94d0759",
+  "publication_commit": "0f4b997bbc1a7473dcd0f7bb1d0cd516738d82e7",
+  "original_qa": {
+    "qa_commit": "01706933d103a7271702f14250f23b927dea564f",
+    "qa_sha": "8534041ddf49d2796d7659c347d77467e641bb0e",
+    "pub_commit": "0f4b997bbc1a7473dcd0f7bb1d0cd516738d82e7"
+  },
+  "news_source_observations": [
+    {
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965618.html",
+      "title": "前三季度经济运行总体平稳 高质量发展取得新成效",
+      "publication_time": "2026-10-19T10:00:00+08:00",
+      "initial_verification": "Full official1149-line release actually read before freeze, including GDP4.6% first3quarters,Q34.5%,Q24.3%,qoq1.2%,retail1.1%,investment-7.2% and methodological notes;turn246view2.",
+      "independent_reference": "Reuters2026-10-19 report turn263news19 confirms quarterly rebound with weak domestic demand; no later Breakingviews article used.",
+      "followup": {
+        "status": "later_reread_unavailable_transient",
+        "attempts": [
+          {
+            "reference": "turn266view0",
+            "result": "Internal retrieval error; no HTTP status exposed"
+          },
+          {
+            "reference": "turn267view0",
+            "result": "(400) Timeout fetching exposed by search tool; origin HTTP status and Retry-After not exposed"
+          }
+        ],
+        "handling": "One bounded direct reread after original-reference failure; stopped further attempts. Retain original complete observation and existing publication, do not invent current live accessibility or replace selected story."
+      }
+    },
+    {
+      "url": "https://www.cbd.int/doc/press/2026/pr-2026-10-19-cop17-en.pdf",
+      "publication_date": "2026-10-19",
+      "verification": "Full3-page opening release read before freeze and again after completion. Nearly90% national targets,over70% reports,underhalf national targets self-assessed ontrack; firstglobalreview. Press release not negotiated official decision.",
+      "source_refs": [
+        "turn246view0",
+        "turn266view1"
+      ]
+    },
+    {
+      "url": "https://www.energy.gov/articles/energy-department-announces-virginia-and-west-virginia-transmission-project-receive",
+      "publication_date": "2026-10-16",
+      "verification": "Full official project announcement read before freeze and after completion. Up to50million,DPA funding intention,estimated290MW,48month proposedproject. No claimed delivered capacity/electricity-price result.",
+      "source_refs": [
+        "turn262view0",
+        "turn266view2"
+      ]
+    }
+  ],
+  "errors_preserved": true,
+  "remaining_publication_mutations": 0,
+  "not_certified": [
+    "current availability of NBS page after later timeout",
+    "device sync",
+    "notification delivery"
+  ]
+}
