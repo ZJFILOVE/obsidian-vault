@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "receipt_type": "failed_attempt",
+  "operation_id": "news-youtube-reddit:2026-10-21",
+  "business_date": "2026-10-21",
+  "workflow": "news-youtube-reddit",
+  "phase": "pre_selection_source_gate",
+  "status": "blocked_no_publication",
+  "started_from_head": "a7033d319d38d2968c6e77a0605a05c2f524fcb8",
+  "recorded_at": "2026-10-21T00:36:04Z",
+  "required_inputs": {
+    "core_and_histories_and_prepared": {
+      "connector_reads": 24,
+      "failed": 0
+    },
+    "recent_daily_notes": {
+      "connector_reads": 15,
+      "failed": 0
+    },
+    "same_day_transaction": "absent",
+    "same_day_publications": {
+      "news": "absent",
+      "youtube": "absent",
+      "reddit": "absent"
+    }
+  },
+  "discovery": {
+    "youtube_candidates_observed_in_youtube_search": 30,
+    "intended_final_watch_pages": [
+      {
+        "video_id": "LFKZLXVO-Dg",
+        "url": "https://www.youtube.com/watch?v=LFKZLXVO-Dg"
+      },
+      {
+        "video_id": "ID-K64Jk6JM",
+        "url": "https://www.youtube.com/watch?v=ID-K64Jk6JM"
+      },
+      {
+        "video_id": "73kIG3HcFq0",
+        "url": "https://www.youtube.com/watch?v=73kIG3HcFq0"
+      },
+      {
+        "video_id": "eXQA6CsBpig",
+        "url": "https://www.youtube.com/watch?v=eXQA6CsBpig"
+      },
+      {
+        "video_id": "ikIeaCE3Ljc",
+        "url": "https://www.youtube.com/watch?v=ikIeaCE3Ljc"
+      }
+    ],
+    "final_selection_frozen": false,
+    "reddit_discovery_started": false,
+    "news_discovery_started": false
+  },
+  "blocker": {
+    "gate": "youtube_actual_source_verification",
+    "classification": "site_served_human_verification_challenge",
+    "evidence": [
+      "Each of the five intended direct YouTube watch URLs redirected this cloud browser to google.com/sorry/index.",
+      "The rendered page displayed reCAPTCHA and stated that unusual traffic was detected and requests must be confirmed as human.",
+      "One permitted reload returned to the same verification page."
+    ],
+    "captcha_interaction": "not_attempted",
+    "retry_policy": "no_loop_no_bypass",
+    "reason_publication_blocked": "Search-result metadata cannot substitute for direct actual-source title/channel verification. The user-authorized Reddit original-post waiver does not waive YouTube verification."
+  },
+  "mutations": {
+    "prepared_bundle_created": false,
+    "notes_written": [],
+    "histories_modified": [],
+    "qa_receipt_created": false,
+    "task_disabled": false
+  },
+  "preserved_invariants": [
+    "No partial notes were published.",
+    "YouTube and Reddit permanent histories were not changed.",
+    "No final recommendation list was exposed or frozen.",
+    "The recurring automation remains enabled because the blocker is transient."
+  ]
+}
