@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-10-20",
+  "recorded_at_utc": "2026-10-21T03:29:33.259Z",
+  "stage": "prepared_read_back",
+  "creation_commit": "c934d8e678c8cbc796915abe2bd60768d1e3179a",
+  "prepared_blob_sha": "0b0a2ca068d82a39eb49a3f8541faac49c728fed",
+  "original_bundle_sha256": "562d4882e16f9facd5d52dd53a9dd3b31f41bce5a6ebf8346bad61dfc94d0759",
+  "original_plan_sha256": "6ce94e746bfc2cad8aebdf7690658a90104a2f63bc6911a676e27436db47f670",
+  "errors": []
+}
