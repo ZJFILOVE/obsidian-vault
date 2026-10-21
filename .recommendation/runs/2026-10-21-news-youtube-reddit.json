@@ -1,0 +1,2016 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-10-21",
+  "mode": "new_generation_explicit_delayed_repair",
+  "recorded_at_utc": "2026-10-21T03:31:57.957016+00:00",
+  "news_cutoff": "2026-10-21T08:30:00+08:00",
+  "source_check_date": "2026-10-21",
+  "preflight_head": "7e876a869a660f071b878ae259068750becc1e62",
+  "all_prepared_read": [
+    ".recommendation/transactions/english/2026-10-15.json",
+    ".recommendation/transactions/english/2026-10-16.json",
+    ".recommendation/transactions/english/2026-10-17.json",
+    ".recommendation/transactions/english/2026-10-18.json",
+    ".recommendation/transactions/english/2026-10-19.json",
+    ".recommendation/transactions/english/2026-10-20.json",
+    ".recommendation/transactions/english/2026-10-21.json",
+    ".recommendation/transactions/music/2026-10-15.json",
+    ".recommendation/transactions/music/2026-10-16.json",
+    ".recommendation/transactions/music/2026-10-17.json",
+    ".recommendation/transactions/music/2026-10-18.json",
+    ".recommendation/transactions/music/2026-10-19.json",
+    ".recommendation/transactions/music/2026-10-20.json",
+    ".recommendation/transactions/music/2026-10-21.json",
+    ".recommendation/transactions/news-youtube-reddit/2026-10-15.json",
+    ".recommendation/transactions/news-youtube-reddit/2026-10-16.json",
+    ".recommendation/transactions/news-youtube-reddit/2026-10-17.json",
+    ".recommendation/transactions/news-youtube-reddit/2026-10-18.json",
+    ".recommendation/transactions/news-youtube-reddit/2026-10-19.json",
+    ".recommendation/transactions/news-youtube-reddit/2026-10-20.json"
+  ],
+  "history_baseline_rows": {
+    "youtube": 205,
+    "reddit": 390
+  },
+  "history_baseline_blob_shas": {
+    "youtube": "d2f8389be4f9aaea9892a52b0098fcf2fde9ebb6",
+    "reddit": "4fc603c4f836bc0db517fd2ef6215f8323ab9c45"
+  },
+  "verified_prior_daily_note_blobs": {
+    "Resources/Reddit/Daily/2026-09-08.md": "a36113e47916dd15098c22127d72615954ad283f",
+    "Resources/Reddit/Daily/2026-09-09.md": "776a91ba6473f19ff4bcf9767c1e660775e021e7",
+    "Resources/Reddit/Daily/2026-09-10.md": "952ae2e517827e7f522ac4cc338a4836ab0406de",
+    "Resources/Reddit/Daily/2026-09-11.md": "d0586b09582b9a6e9e2cc40ef7e0066ace8e44c8",
+    "Resources/Reddit/Daily/2026-09-12.md": "1cab13e176ab473c54f5acb36464c134680aea6a",
+    "Resources/Reddit/Daily/2026-09-13.md": "a8cc68f4e4eff669079cc4e48489d435b2f687e2",
+    "Resources/Reddit/Daily/2026-09-14.md": "25e942a85d911244a585fb1961a79e50912a6cb5",
+    "Resources/Reddit/Daily/2026-09-15.md": "0894e3c5b10a1dedbcce126e17b429c7d4c3fb93",
+    "Resources/Reddit/Daily/2026-09-16.md": "4dd6166592b6f6b129a0c97c1d6cb1c6ebb0cfbb",
+    "Resources/Reddit/Daily/2026-09-17.md": "3367a96fe89bb9a57977d821a27c780e6bd1c87b",
+    "Resources/Reddit/Daily/2026-09-18.md": "7fb1054c7c09ffb7f3545f6eb3e38ae782b81e47",
+    "Resources/Reddit/Daily/2026-09-19.md": "50d13a6927a214dfdf623ddeea32e9055b3e3073",
+    "Resources/Reddit/Daily/2026-09-20.md": "508bc9763b9c3bf4c4631eb79835e92fb1f77c27",
+    "Resources/Reddit/Daily/2026-09-21.md": "78dabc20381a6fbaa2021bb1f857fd03fe466936",
+    "Resources/Reddit/Daily/2026-09-22.md": "a7f695da71678e224f99bdd5e311e5146cadf54f",
+    "Resources/Reddit/Daily/2026-09-23.md": "cc8723335dc85dd07f5d31065e8bbc584a085e9a",
+    "Resources/Reddit/Daily/2026-09-24.md": "c7b0357356d0357d27a44e37f3dfe7e536053780",
+    "Resources/Reddit/Daily/2026-09-25.md": "34060cf1925a06a6d066d017e27ef4bee6dabc4e",
+    "Resources/Reddit/Daily/2026-09-26.md": "5ab0579a217d6c183834b8a8914adcef297b11e1",
+    "Resources/Reddit/Daily/2026-09-27.md": "a1986773c83532de623e45e36098a773d8c1e75a",
+    "Resources/Reddit/Daily/2026-09-28.md": "4474fb9812d97ba8030a61db3b722bec964a871f",
+    "Resources/Reddit/Daily/2026-09-29.md": "16a42c4aac35659cbf066a7776b6d7f9b9dcf620",
+    "Resources/Reddit/Daily/2026-09-30.md": "0f7d6260a501fa1dc0aad2f46979d7be6dd76032",
+    "Resources/Reddit/Daily/2026-10-01.md": "f1312d166d53e258ca3b4b828a76c97c5fcaadff",
+    "Resources/Reddit/Daily/2026-10-02.md": "b6a73650a93c3805ff05aaa84cf119512d4b3ae1",
+    "Resources/Reddit/Daily/2026-10-03.md": "a9ba380c4571d9869d7fca788b3114261c76915c",
+    "Resources/Reddit/Daily/2026-10-04.md": "a52afef39606e01b8b5910a37262ec118db53c52",
+    "Resources/Reddit/Daily/2026-10-05.md": "45f4e688da9e44436665aa425c957bb05529fda1",
+    "Resources/Reddit/Daily/2026-10-06.md": "c9b5b960e2ce2e1e406b1b31dce5225287d08ee0",
+    "Resources/Reddit/Daily/2026-10-07.md": "a5ec904ceb12108ed0f0905a4be00ecee3ff2e7b",
+    "Resources/Reddit/Daily/2026-10-08.md": "e937e281facd7db3a5775db1974b8cf659158738",
+    "Resources/Reddit/Daily/2026-10-09.md": "696f7410b65b5bae4a886a71d2df9b9768081e6a",
+    "Resources/Reddit/Daily/2026-10-11.md": "8e4765458715df19f638113d63736213b7c54864",
+    "Resources/Reddit/Daily/2026-10-15.md": "892ae4390f7ead17db6881dd5fdaa4d0656873f6",
+    "Resources/Reddit/Daily/2026-10-16.md": "4562dddfbfb181fe2024150823dc89bba97eeb54",
+    "Resources/Reddit/Daily/2026-10-17.md": "5fb4214910002d83b8d4ac4c7f60ab954f9a3596",
+    "Resources/Reddit/Daily/2026-10-18.md": "49148fe7776307b3f798c0e17fd172dcebdc13cb",
+    "Resources/Reddit/Daily/2026-10-19.md": "347eaf290ba8d43ad2fbd05b803703e573d9d23f",
+    "Resources/Reddit/Daily/2026-10-20.md": "89d4835b7f49eb2a9cadb8fec98931e33aaebecf",
+    "Resources/YouTube/Daily/2026-09-06.md": "857a81cf35eee868a580fec8235261154d04da74",
+    "Resources/YouTube/Daily/2026-09-07.md": "0557628fd48a287a263bcfb3090ce97872d32bef",
+    "Resources/YouTube/Daily/2026-09-08.md": "d3341592df78b27e9625e5595d9d7622d8bd985f",
+    "Resources/YouTube/Daily/2026-09-09.md": "11e34829c51d51823bc06fc00267b4b2dcbe7170",
+    "Resources/YouTube/Daily/2026-09-10.md": "c1721017ca734facbcbef141a07f4820e684ff40",
+    "Resources/YouTube/Daily/2026-09-11.md": "de2da4788ed8021966897175ab8f14da268ca62b",
+    "Resources/YouTube/Daily/2026-09-12.md": "f213802c9c3f6704be2dc7e12d0a4829c4a52356",
+    "Resources/YouTube/Daily/2026-09-13.md": "40262d9962121c34349621a64ecc1c79e1cba559",
+    "Resources/YouTube/Daily/2026-09-14.md": "786bd5b9fae939fe3956fe8f829bff030487e78e",
+    "Resources/YouTube/Daily/2026-09-15.md": "443a9c189265c2e177debb16f515818961c218cc",
+    "Resources/YouTube/Daily/2026-09-16.md": "d42ca727777fdb88caf5d260234bbb94815ffd15",
+    "Resources/YouTube/Daily/2026-09-17.md": "46f2c5179acb04a186853da17a1f76758bdd9fe7",
+    "Resources/YouTube/Daily/2026-09-18.md": "5df04cf4f934d268f264ecbe3342017c95ecfa00",
+    "Resources/YouTube/Daily/2026-09-19.md": "3ab950cf5e130bc11844a7854e84d19c608109f9",
+    "Resources/YouTube/Daily/2026-09-20.md": "eef4f8fe77622507581046cc5e682d518444fc2b",
+    "Resources/YouTube/Daily/2026-09-21.md": "7f8bb6af57fb99f3995a09c6a5df17abf69788e7",
+    "Resources/YouTube/Daily/2026-09-22.md": "befea536ea4a42d573906c68f1824dbd15c29ba8",
+    "Resources/YouTube/Daily/2026-09-23.md": "caf5b616ff6a49e2d5fc1e7fe15436832fc35ec6",
+    "Resources/YouTube/Daily/2026-09-24.md": "a5ea8f5edf5f6084cb7b519294aed277dca56d7d",
+    "Resources/YouTube/Daily/2026-09-25.md": "6d4b8acc3bb648f52a1eb77d32fe725aad9ffa82",
+    "Resources/YouTube/Daily/2026-09-26.md": "79b061d8159dadf03dd94602d1fc2bf3ef61bab3",
+    "Resources/YouTube/Daily/2026-09-27.md": "cdfcddc05c08fa227719ae6fc3b76aa63c74a838",
+    "Resources/YouTube/Daily/2026-09-28.md": "21fc0aed46c8632f978369752a4bd324411c63c2",
+    "Resources/YouTube/Daily/2026-09-29.md": "23a4e883297eb47dc9b67373a01d698ba1e80905",
+    "Resources/YouTube/Daily/2026-09-30.md": "0d5c165bf6c6d3436759d0ed9f270b5b64d5f9ab",
+    "Resources/YouTube/Daily/2026-10-01.md": "2dfc9797343ff81467a03f7c72c567d5b5929c54",
+    "Resources/YouTube/Daily/2026-10-02.md": "6e1a15f4be0e0b7360d0dedae1ca4dbe77ea3814",
+    "Resources/YouTube/Daily/2026-10-03.md": "b4477d1955ad8a4779e21696cf8b802a012c0883",
+    "Resources/YouTube/Daily/2026-10-04.md": "242f6bbd15f0c0dc31fd7477b81c21d187e02ee9",
+    "Resources/YouTube/Daily/2026-10-05.md": "63bdeafe85937800ea2f770322bf49e16c5ca8b8",
+    "Resources/YouTube/Daily/2026-10-06.md": "bd5216c04573d73df65298f0e6cec4136ce7259f",
+    "Resources/YouTube/Daily/2026-10-07.md": "e77e6b9e51b2750d9a1d41de63fc0597547878ab",
+    "Resources/YouTube/Daily/2026-10-08.md": "e8863ca2894d111365d1dc486f6a3a79045caa47",
+    "Resources/YouTube/Daily/2026-10-09.md": "59452cfde3bed1c76c3a1ff81e08e9d257d4497a",
+    "Resources/YouTube/Daily/2026-10-11.md": "d8b1d0c79eafbfa19c64fad1a4858de340c68f2b",
+    "Resources/YouTube/Daily/2026-10-15.md": "aca76897d3a09956ec3bd5c11cbf57ab0e14f13f",
+    "Resources/YouTube/Daily/2026-10-16.md": "dd21c955167d4a5bebcfd4a92ef51cbbcc64c78e",
+    "Resources/YouTube/Daily/2026-10-17.md": "222cccbebc9d5cea6562cd29a1f63b82b58d7e85",
+    "Resources/YouTube/Daily/2026-10-18.md": "60d69bfd9315217450d3b5e492b0ec9beaa3023c",
+    "Resources/YouTube/Daily/2026-10-19.md": "5768ecf490e7eccac3712ee52c584837d1eebced",
+    "Resources/YouTube/Daily/2026-10-20.md": "f36c463488b9e5500288b2d08d77c197d8d92b54"
+  },
+  "youtube_candidates": [
+    {
+      "video_id": "hUhisi2FBuw",
+      "title": "The Ingenious Design of the Aluminum Beverage Can",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=hUhisi2FBuw",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null
+    },
+    {
+      "video_id": "0MwMkBET_5I",
+      "title": "Fiber optic cables: How they work",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=0MwMkBET_5I",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null
+    },
+    {
+      "video_id": "kp33ZprO0Ck",
+      "title": "How a Microwave Oven Works",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=kp33ZprO0Ck",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "jiejNAUwcQ8",
+      "title": "LCD Monitor Teardown",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=jiejNAUwcQ8",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "ddYZITaxlTQ",
+      "title": "How Sony's Betamax lost to JVC's VHS Cassette Recorder",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=ddYZITaxlTQ",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "KZVgKu6v808",
+      "title": "How a Smartphone Knows Up from Down (accelerometer)",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=KZVgKu6v808",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "F5Ri_HhziI0",
+      "title": "Why the other line is likely to move faster",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=F5Ri_HhziI0",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Official page associates exact data-embed F5Ri_HhziI0 with heading and an original account of Erlang, telephone service and cashier arrangements. DOM title/ID pairing inspected; playback not tested.",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null
+    },
+    {
+      "video_id": "Wiy_eHdj8kg",
+      "title": "Hard drive teardown",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=Wiy_eHdj8kg",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "qCxco6227xo",
+      "title": "NERF Blaster: Air Restriction Mechanism",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=qCxco6227xo",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "oUEbMjtWc-A",
+      "title": "How a Laser Works",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=oUEbMjtWc-A",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "1pM6uD8nePo",
+      "title": "How a quartz watch works",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=1pM6uD8nePo",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "bRCNenhcvpw",
+      "title": "IBM Selectric Typewriter & its digital to analogue converter",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=bRCNenhcvpw",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "OcgKDSwINOA",
+      "title": "What Keeps Nuclear Weapons from Proliferating: The hardest step in making a nuclear bomb",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=OcgKDSwINOA",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "RMjtmsr3CqA",
+      "title": "Plastic Injection Molding",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=RMjtmsr3CqA",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Official catalogue directly pairs exact data-embed RMjtmsr3CqA,title and original description:manufacturing history/process/product markings/Lego. Identity and content verified on creator page, no playback test.",
+      "decision": "selected",
+      "reason": "Selected after source/identity/work review.",
+      "scores": [
+        4.5,
+        4.3,
+        4.4,
+        4.5,
+        4.2
+      ],
+      "weighted_score": 4.4
+    },
+    {
+      "video_id": "3ZhVOy-ytJY",
+      "title": "Anodizing (Or the beauty of corrosion)",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=3ZhVOy-ytJY",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "p2BxAu6WZI8",
+      "title": "How an atomic clock works, and its use in the global positioning system (GPS)",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=p2BxAu6WZI8",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "fHmgF4ibmuk",
+      "title": "RMS Titanic: Fascinating Engineering Facts",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=fHmgF4ibmuk",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "4j4Q_YBRJEI",
+      "title": "Coffee Maker: Pumping water with no moving parts",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=4j4Q_YBRJEI",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "DIGqBb3iZPo",
+      "title": "Light bulb filament",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=DIGqBb3iZPo",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "xlY5W7be5jU",
+      "title": "Black box: Inside a flight data recorder",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=xlY5W7be5jU",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "oFUUQcpGR3k",
+      "title": "How smoke detectors work",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=oFUUQcpGR3k",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "wsdmt0De8Hw",
+      "title": "CCD: The heart of a digital camera (how a charge-coupled device works)",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=wsdmt0De8Hw",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "RdYHljZi7ys",
+      "title": "How the first transistor worked",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=RdYHljZi7ys",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "z7r8sKzt7HM",
+      "title": "Cell Phone Design",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=z7r8sKzt7HM",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "En__V0oEJsU",
+      "title": "How a Film Projector Works",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=En__V0oEJsU",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "rhIRD5YVNbs",
+      "title": "How a lead-acid battery works",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=rhIRD5YVNbs",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "xYNX8y6lQMc",
+      "title": "The Engineering of a Disposable Diaper",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=xYNX8y6lQMc",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "hVCNS2jQQ6g",
+      "title": "Apollo: The Alignment Optical Telescope",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=hVCNS2jQQ6g",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "COty6_oDEkk",
+      "title": "How a Wind Up Music Box Works",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=COty6_oDEkk",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "UCKC-QVcVn0",
+      "title": "The Engineering of the Drinking Bird",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=UCKC-QVcVn0",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "ixxXhZVFXxQ",
+      "title": "Britain's Giant Airship: R.101",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=ixxXhZVFXxQ",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "wI-qAxKJoSU",
+      "title": "Nitinol: The Shape Memory Effect and Superelasticity",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=wI-qAxKJoSU",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "GOOOsBhCVe4",
+      "title": "Why it takes a while to make engineerguy videos",
+      "channel": "engineerguy",
+      "url": "https://www.youtube.com/watch?v=GOOOsBhCVe4",
+      "source_url": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "scope": "Original data-embed/title and creator description observed; not full playback.",
+      "decision": "rejected",
+      "reason": "Do not concentrate five slots in one creator or a related problem; retained different topic/format choices. Candidate screening is not a claim of full audition.",
+      "scores": null
+    },
+    {
+      "video_id": "mScpHTIi-kM",
+      "title": "What The Prisoner’s Dilemma Reveals About Life, The Universe, and Everything",
+      "channel": "Veritasium",
+      "url": "https://www.youtube.com/watch?v=mScpHTIi-kM",
+      "source_url": "https://www.veritasium.com/videos/2024/1/15/what-the-prisoners-dilemma-reveals-about-life-the-universe-and-everything",
+      "observed_at": "2026-10-21T03:18:28.315Z",
+      "scope": "Official episode page and embedded original player identify mScpHTIi-kM and Veritasium; original description credits Axelrod/Strogatz and references cooperation/noise research, plus Nicky Case. Full playback untested.",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null
+    },
+    {
+      "video_id": "MgkhrBSjhag",
+      "title": "Error detection: Parity checking",
+      "channel": "Ben Eater",
+      "url": "https://www.youtube.com/watch?v=MgkhrBSjhag",
+      "source_url": "https://eater.net/crc",
+      "observed_at": "2026-10-21T03:14:53.755Z",
+      "scope": "Creator tutorial page lists exact original watch URL MgkhrBSjhag, title,21:41 and identifies Ben Eater; actual introduction explains parity/checksum/CRC integrity problem and links original code. No full playback claim.",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null
+    },
+    {
+      "video_id": "eXQA6CsBpig",
+      "title": "Feeding the Shogun: The Feasts of Feudal Japan",
+      "channel": "Tasting History with Max Miller",
+      "url": "https://www.youtube.com/watch?v=eXQA6CsBpig",
+      "source_url": "https://www.tastinghistory.com/episodes/shogunmeal",
+      "observed_at": "2026-10-21T03:14:41.848Z",
+      "scope": "Official episode page embeds eXQA6CsBpig; original player displays exact title and Tasting History with Max Miller. Original description situates late Sengoku around1600; linked creator recipe inspected,17th-century Nanban Ryōrisho named. No whole-video viewing asserted.",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null
+    },
+    {
+      "video_id": "qV4vaqQEz5c",
+      "title": "At home science - Coloured pens experiment - ExpeRimental #11",
+      "channel": "The Royal Institution",
+      "url": "https://www.youtube.com/watch?v=qV4vaqQEz5c",
+      "source_url": "https://www.rigb.org/learning/activities-and-resources/colour-quest",
+      "observed_at": "2026-10-21T03:14:48.409Z",
+      "scope": "Official activity page iframe qV4vaqQEz5c and original player display exact video title and The Royal Institution; substantive aims/description identifies Fiona,Samantha,Emma,ink chromatography and matching pen mystery. Audience explicitly12-and-under/families. Playback not tested.",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null
+    },
+    {
+      "video_id": "d4EgbgTm0Bg",
+      "title": "What are quaternions, and how do you visualize them? A story of four dimensions.",
+      "channel": "3Blue1Brown",
+      "url": "https://www.youtube.com/watch?v=d4EgbgTm0Bg",
+      "source_url": "https://eater.net/quaternions",
+      "observed_at": "2026-10-21T03:18:15.589Z",
+      "scope": "Joint creator lesson page credits Grant Sanderson and Ben Eater, directly links d4EgbgTm0Bg with full original title and explains hypersphere/stereographic projection/multiplication. Extensive original lesson text and interactive-module descriptions observed. Other related recordings are not counted as new works.",
+      "decision": "selected",
+      "reason": "Selected after source/identity/work review.",
+      "scores": [
+        4.5,
+        4.3,
+        4.4,
+        4.5,
+        4.2
+      ],
+      "weighted_score": 4.4
+    },
+    {
+      "video_id": "kdDiiP8C3W0",
+      "title": "What People Ate on Ellis Island",
+      "channel": "Tasting History with Max Miller",
+      "url": "https://www.youtube.com/watch?v=kdDiiP8C3W0",
+      "source_url": "https://www.tastinghistory.com/episodes/ellisisland",
+      "observed_at": "2026-10-21T03:14:42.884Z",
+      "scope": "Creator episode page contains exact original embed/watch ID kdDiiP8C3W0,title,Max Miller attribution and original description of early20th-century Ellis Island and two dishes from a1920 menu. Linked recipes include beef/barley soup and tapioca pudding. Full playback not tested.",
+      "decision": "selected",
+      "reason": "Selected after source/identity/work review.",
+      "scores": [
+        4.5,
+        4.3,
+        4.4,
+        4.5,
+        4.2
+      ],
+      "weighted_score": 4.4
+    },
+    {
+      "video_id": "MUiYglgGbos",
+      "title": "How can you you Know the Truth in your News Feed? - Smarter Every Day 212",
+      "channel": "SmarterEveryDay",
+      "url": "https://www.youtube.com/watch?v=MUiYglgGbos",
+      "source_url": "https://eater.net/ooda-loop",
+      "observed_at": "2026-10-21T03:16:30.212Z",
+      "scope": "Collaborating creator Ben Eater lesson page explicitly says built for Destin/SmarterEveryDay, links exact MUiYglgGbos,title and12:18; original simulation explanation gives equal speed/turn rate with only OODA interval varied. No playback tested.",
+      "decision": "selected",
+      "reason": "Selected after source/identity/work review.",
+      "scores": [
+        4.5,
+        4.3,
+        4.4,
+        4.5,
+        4.2
+      ],
+      "weighted_score": 4.4
+    },
+    {
+      "video_id": "qDwdFmU6A_w",
+      "title": "GLUE（作者官网标题）",
+      "channel": "tim hunkin",
+      "url": "https://www.youtube.com/watch?v=qDwdFmU6A_w",
+      "source_url": "https://www.timhunkin.com/a250_GLUE.htm",
+      "observed_at": "2026-10-21T03:18:42Z",
+      "scope": "Official Tim Hunkin page read through web tool: heading GLUE,author identity,original embed qDwdFmU6A_w and substantive author corrections on polyvinyl acetate versus alcohol,workholding and untried viewer tips. Original embed href observed through source link. Browser route had an ordinary upstream transport failure; full playback/player title not verified. Embed fetch throttled; no retry/evasion.",
+      "decision": "selected",
+      "reason": "Selected after source/identity/work review.",
+      "scores": [
+        4.5,
+        4.3,
+        4.4,
+        4.5,
+        4.2
+      ],
+      "weighted_score": 4.4
+    }
+  ],
+  "reddit_candidates": [
+    {
+      "post_id": "w2w5q1",
+      "title": "Is there evidence of people considering timezones before the creation of GMT? If so What is the earliest example of a people planning for timezones, or something like them?",
+      "subreddit": "AskHistorians",
+      "observed_url": "https://www.reddit.com/r/AskHistorians/comments/w2w5q1",
+      "source_ref": "turn252reddit45",
+      "search_evidence": " [wordlim: 200] Published: 4.3 years ago; Crawled: 4.3 years ago; Is there any evidence of travellers considering the time zone of their destination when planning their journey in the centuries before rail travel and the  creation of time zones as we use them today? ... Welcome to /r/AskHistorians.\n[Tuesday July 19 2022] [+16 votes]\nI understand this is likely to be multifaceted and more complicated than it may at first seem since it involves travelling vast distances and any number of things could delay a journey before rail travel and even since it was established. Poor maps, weather being unpredictable or even other people doing what they do.\n\n​\n\nI'm curious though. Is there any evidence of travellers considering the time zone of their destination when planning their journey in the centuries before rail travel and the  creation of time zones as we use them today? There are definitely civilisations large enough that they covered multiple time zones even a thousand years ago or more.\n\n[Tuesday July 19 2022] [+1 votes]\nWelcome to /r/AskHistorians. **Please Read Our Rules before you comment in this community**. Understand that rule breaking comments get removed.\n#Please consider **C",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1l93brx",
+      "title": "Does water hardness really make a difference to tea flavour?",
+      "subreddit": "tea",
+      "observed_url": "https://www.reddit.com/r/tea/comments/1l93brx/does_water_hardness_really_make_a_difference_to/",
+      "source_ref": "turn243reddit53",
+      "search_evidence": " [wordlim: 200] Published: 1.4 years ago; Is this a psychological effect or is the difference actually noticeable, and if it is real is there a way to brew tea with hard water that can improve the flavour? ... Getting water treatment / filtration is the way to go if you have hard enough water to notice in your brewed tea.\n",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "bm39zp",
+      "title": "What’s the best way to practice rhythm?",
+      "subreddit": "musictheory",
+      "observed_url": "https://www.reddit.com/r/musictheory/comments/bm39zp",
+      "source_ref": "turn243reddit47",
+      "search_evidence": " [wordlim: 200] Published: 7.5 years ago; Crawled: 7.4 years ago; Practice with a metronome.\n[Wednesday May 08 2019] [+9 votes]\n\n\n[Wednesday May 08 2019] [+6 votes]\nMetronome/click track and put the hours in until it becomes natural. Once you've got that down you can start getting a feel for a swing/groove.\n\n[Wednesday May 08 2019] [+1 votes]\nPractice with a metronome.\nMentally subdivide.  Need to play precise quarter notes?  Think in 16th notes.\nMove your body to the beat.  Doesn't have to be the whole body;   tap your toe, bang your head, silently bounce your heal in your shoe, just do something.  It helps.\nHave fun!\n\n  [Wednesday May 08 2019] [+2 votes]\n  But my problem is that I always do noises with my mouth, so often when I’ve recorded myself playing, I’ve made noises with my mouth, and felt like I have to cut them out\n\n    [Wednesday May 08 2019] [+3 votes]\n    I do this too, and I didn't even realise it until it was pointed out to me 😄\n    If you want to cut the habit, I think this is an effective way to do it. Play your instrument in the way that you normally would when you make the mouth noises, but do so with one goal in mind: to not make a single noise. ",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1ni3gff",
+      "title": "What role did public libraries play in American society ...",
+      "subreddit": "AskHistorians",
+      "observed_url": "https://www.reddit.com/r/AskHistorians/comments/1ni3gff/what_role_did_public_libraries_play_in_american/",
+      "source_ref": "turn253search10",
+      "search_evidence": " [wordlim: 200] Published: 1.1 years ago; Crawled: 4 months ago; Content type: text/html; TIL that many public libraries eliminated late fees after finding that fines discouraged people from returning at all - and that bringing ... Read more\nWhat role did public libraries play in American society during the Great Depression, and thereafter (1920s-1940s)? What services did libraries provide? Realistically, would someone who lived in an urban area have time to go to a library for leisure? Did libraries provide classes to women during this time (stenography, sewing, etc.)? Were there formal/informal class restrictions on library attendance (race, immigration, religion, etc.)? \n\nArchived post. New comments cannot be posted and votes cannot be cast. \n\n Share   Share  \n\nSort by: \n\nBest\n\nOpen comment sort options\n\n* Best\n\n* Top\n\n* New\n\n* Controversial\n\n* Old\n\n* Q&A\n\n AutoModerator  \n\n•\n\n 9mo ago  \n\nModerator Announcement Read More » \n\nWelcome to r/AskHistorians. Please Read Our Rules before you comment in this community. Understand that rule breaking comments get removed. \n\n",
+      "decision": "selected",
+      "reason": "Selected for a concrete question; only search-visible material assessed.",
+      "scores": [
+        4.2,
+        4.3,
+        4.4,
+        4.4,
+        4.1
+      ],
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "zco48n",
+      "title": "Why are river meanders the way they are? Why are some ...",
+      "subreddit": "askscience",
+      "observed_url": "https://www.reddit.com/r/askscience/comments/zco48n/why_are_river_meanders_the_way_they_are_why_are/",
+      "source_ref": "turn257search1",
+      "search_evidence": " [wordlim: 200] Crawled: last week; Content type: text/html; Is it also possible for oxbows to get \"reconnected\" to the meandering river?\n# Why are river meanders the way they are? Why are some larger than others?\n\nEarth Sciences\n\nIs it also possible for oxbows to get \"reconnected\" to the meandering river?\n\nArchived post. New comments cannot be posted and votes cannot be cast.\n\nShare\n\nSort by:\n\nBest\n\nOpen comment sort options\n\n* Best\n\n* Top\n\n* New\n\n* Controversial\n\n* Old\n\n* Q&A\n\n",
+      "decision": "selected",
+      "reason": "Selected for a concrete question; only search-visible material assessed.",
+      "scores": [
+        4.2,
+        4.3,
+        4.4,
+        4.4,
+        4.1
+      ],
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1nw2zbu",
+      "title": "Board games with hidden roles that aren't social deduction ...",
+      "subreddit": "boardgames",
+      "observed_url": "https://www.reddit.com/r/boardgames/comments/1nw2zbu/board_games_with_hidden_roles_that_arent_social/",
+      "source_ref": "turn257search2",
+      "search_evidence": " [wordlim: 200] Crawled: last week; Content type: text/html; ... deduction games'. Dogs of War, Discworld: Ankh Morpork, Archipelago, and Lords of Waterdeep are some games I own with hidden information . In ... Read more\nDogs of War, Discworld: Ankh Morpork, Archipelago, and Lords of Waterdeep are some games I own with hidden information. In some of them these are clearly 'roles', with names and faces.\n\nBut in others they are perhaps a 'role', perhaps hidden objectives. The line is blurred, and it's subjective when hidden objectives become a role.\n\n",
+      "decision": "selected",
+      "reason": "Selected for a concrete question; only search-visible material assessed.",
+      "scores": [
+        4.2,
+        4.3,
+        4.4,
+        4.4,
+        4.1
+      ],
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "af1ecw",
+      "title": "Why do elevators only run a single car per shaft?",
+      "subreddit": "AskEngineers",
+      "observed_url": "https://www.reddit.com/r/AskEngineers/comments/af1ecw/why_do_elevators_only_run_a_single_car_per_shaft/",
+      "source_ref": "turn253search11",
+      "search_evidence": " [wordlim: 200] Crawled: 2 months ago; Content type: text/html; In train systems, they typically run in pairs, and have a place for turning around the trains at the end. That way, you can run a lot of train ...\n# Why do elevators only run a single car per shaft?\n\nCivil\n\nIn train systems, they typically run in pairs, and have a place for turning around the trains at the end. That way, you can run a lot of train cars per track.\n\nWhy doesn't elevators work that way? With the amount of space that elevators supposedly take up in large skyscrapers, it seemed obvious to run 2 shafts in a configuration more commonly seen in train systems.\n\n",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1t8jsco",
+      "title": "Overcrowding: how much is too much - and how do staff decide? : uktrains",
+      "subreddit": "uktrains",
+      "observed_url": "https://en.reddit.com/r/uktrains/comments/1t8jsco/overcrowding_how_much_is_too_much_and_how_do/",
+      "source_ref": "turn245search26",
+      "search_evidence": " [wordlim: 200] Published: 5 months ago; Crawled: 3 months ago; According to Recent Train Times, that particular train has an on-time performance of just 37%, compared to the 69% of the previous hour's train. ... The Conservatives were in power for the last 14 years and made it clear they wouldn't be investing in the railway in any meaningful way. ... I'm not trying to solve the British rail issues with a post on Reddit, nor am I qualified, so it's bit strange to be presented with \"how would you fix it?\"\n",
+      "decision": "selected",
+      "reason": "Selected for a concrete question; only search-visible material assessed.",
+      "scores": [
+        4.2,
+        4.3,
+        4.4,
+        4.4,
+        4.1
+      ],
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1q4w5vr",
+      "title": "Multi-block registration help : r/printmaking",
+      "subreddit": "printmaking",
+      "observed_url": "https://www.reddit.com/r/printmaking/comments/1q4w5vr/multiblock_registration_help/",
+      "source_ref": "turn257search0",
+      "search_evidence": " [wordlim: 200] Crawled: last month; Content type: text/html; Multi -block registration help. question. r/printmaking - Multi -block registration help. Read more\n# Multi-block registration help\n\nquestion\n\nImage Image: r/printmaking - Multi-block registration help\n\nRecently finished this print, my first time using color and first time with more than one block, as a gift for my spouse — a huge Twin Peaks fan! While I’m overall pleased with the results, it didn’t really turn out like I was attempting, and I’d love some tips.\n\nMy current block in progress.\n\nupvotes · comments\n\n* * *\n\n  * My first multi-block!\n\nr/printmaking •\n\nMy first multi-block!\n\nupvotes · comments\n\n* * *\n\n  * First multi block/jigsaw print\n\nr/printmaking •\n\nFirst multi block/jigsaw print\n\n6\n\nupvotes · comments\n\n* * *\n\n  * What did I do wrong? Trying to learn image transfer\n\nr/printmaking •\n\nWhat did I do wrong? Trying to learn image transfer\n\nupvotes · comments\n\n* * *\n\n  * Blocks/Prints 😘\n\n  * Another design i did, less detailed than the last. I like this better.\n\nr/printmaking •\n\nAnother design i did, less detailed than the last. I like this better.\n\n2\n\nupvotes · comments\n\n* * *\n\n  * My latest block print design!",
+      "decision": "selected",
+      "reason": "Selected for a concrete question; only search-visible material assessed.",
+      "scores": [
+        4.2,
+        4.3,
+        4.4,
+        4.4,
+        4.1
+      ],
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "59sz43",
+      "title": "Spacing vs Timing : r/animation",
+      "subreddit": "animation",
+      "observed_url": "https://www.reddit.com/r/animation/comments/59sz43/spacing_vs_timing/",
+      "source_ref": "turn253search1",
+      "search_evidence": " [wordlim: 200] Crawled: 6 days ago; Content type: text/html; What I mean is, timing and spacing are related but it's like they clash a bit with each other. I'm from an anime influence and I like the look ... Read more\nWhat I mean is, timing and spacing are related but it's like they clash a bit with each other. I'm from an anime influence and I like the look of limited animation, animation on 1s looks \"too fluid\" to me, when animation on 3s (like anime more or less) looks \"good enough\" but they have a \"snappy\" feeling that I think is missing in most Disney.\n\n",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1ryledx",
+      "title": "building 11 interior doors from contruction lumber? : woodworking",
+      "subreddit": "woodworking",
+      "observed_url": "https://es.reddit.com/r/woodworking/comments/1ryledx/building_11_interior_doors_from_contruction_lumber/",
+      "source_ref": "turn243search13",
+      "search_evidence": " [wordlim: 200] Published: 7 months ago; Crawled: 4 months ago; General Discussion (self.woodworking) ... Doors really needs to be very straight and stable so what most professionals use where I live are select timber from reputable lumber dealers and not anything from a construction line of wood. ... Some are even laminating two parts where they turn one part over to have the grain working against each other to eliminate movement/cupping/twisting.\n",
+      "decision": "selected",
+      "reason": "Selected for a concrete question; only search-visible material assessed.",
+      "scores": [
+        4.2,
+        4.3,
+        4.4,
+        4.4,
+        4.1
+      ],
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "7x51tt",
+      "title": "Focal length, Compression and distance to/from the subject.",
+      "subreddit": "AskPhotography",
+      "observed_url": "https://www.reddit.com/r/AskPhotography/comments/7x51tt/focal_length_compression_and_distance_tofrom_the/",
+      "source_ref": "turn253search12",
+      "search_evidence": " [wordlim: 200] Crawled: last week; Content type: text/html; I see tons of articles and images, gifs that show the relativity and distortion of facial features, given this or that focal length, but they generally ...\n# Focal length, Compression and distance to/from the subject.\n\nI see tons of articles and images, gifs that show the relativity and distortion of facial features, given this or that focal length, but they generally (always) keep the subject and background at the same size or ratio... so they MUST necessarily also be moving or changing the distance from the camera to the subject... but no one seems to want to talk about that last part.\n\n",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1dv26v9",
+      "title": "Heading to a dark sky site soon, are red filters for your ...",
+      "subreddit": "Astronomy",
+      "observed_url": "https://www.reddit.com/r/Astronomy/comments/1dv26v9/heading_to_a_dark_sky_site_soon_are_red_filters/",
+      "source_ref": "turn256search6",
+      "search_evidence": " [wordlim: 200] Crawled: 6 days ago; Content type: text/html; I have an iPhone and I can set the entire screen to red (including while locked), is this sufficient in preserving dark adaptation if my brightness is ...\n# Heading to a dark sky site soon, are red filters for your phone bad?\n\nI have an iPhone and I can set the entire screen to red (including while locked), is this sufficient in preserving dark adaptation if my brightness is all the way down?\n\nShare\n\nSort by:\n\nTop (Default)\n\nOpen comment sort options\n\n* Best\n\n* Top (Default)\n\n* New\n\n* Controversial\n\n* Old\n\n* Q&A\n\n",
+      "decision": "selected",
+      "reason": "Selected for a concrete question; only search-visible material assessed.",
+      "scores": [
+        4.2,
+        4.3,
+        4.4,
+        4.4,
+        4.1
+      ],
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1vtmtfc",
+      "title": "Paper grain",
+      "subreddit": "bookbinding",
+      "observed_url": "https://www.reddit.com/r/bookbinding/comments/1vtmtfc/paper_grain/",
+      "source_ref": "turn245reddit42",
+      "search_evidence": " [wordlim: 200] Published: 2 months ago; i am new to bookbinding (one try so far) and i just read about papergrain.\n[Thursday August 20 2026] [+5 votes]\nHi,\n\ni am new to bookbinding (one try so far) and i just read about papergrain.\n\nHow important is it to get the grain in the correct orientation? How do i find Paper that is in the correct grain direction? Or am i overthinking this?\n\n\nI am mostly interested in the Medival/English/Gothic stile of binding. Thanks for your time.\n\n[Thursday August 20 2026] [+5 votes]\nIt is quite important. Using the wrong direction translates on a book which will not lay flat when open, among other things.\nJust start to fold your paper on one direction and then on the other one (don't actually fold them, so as not to damage the paper: just slightly curve it). You will see one direction is easier on the folding attempt. The direction of that fold will be the grain direction. There are other methods, but they damage or destroy a sheet of your paper, so this is gentler.\n\n  [Thursday August 20 2026] [+1 votes]\n  Thx\n  I know how to test for the grain, but my question is how do i buy the right grain in the first place.\n",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "kerop3",
+      "title": "How do you whisper heavily tonal languages? Especially ...",
+      "subreddit": "linguistics",
+      "observed_url": "https://www.reddit.com/r/linguistics/comments/kerop3/how_do_you_whisper_heavily_tonal_languages/",
+      "source_ref": "turn256search1",
+      "search_evidence": " [wordlim: 200] Crawled: last month; Content type: text/html; I don't know if there's any research on this, but some languages are much easier to whisper than others. Or even speak in a low tone . Read more\n# How do you whisper heavily tonal languages? Especially those that are nasal as well?\n\nI don't know if there's any research on this, but some languages are much easier to whisper than others. Or even speak in a low tone. Heavily tonal languages must be super hard in this respect. How do you distinguish between words that are composed of the same sounds but different tone and have a completely different meaning depending on tone?\n\n",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1g4bdqd",
+      "title": "Selvedge tension issues : r/weaving",
+      "subreddit": "weaving",
+      "observed_url": "https://www.reddit.com/r/weaving/comments/1g4bdqd/selvedge_tension_issues/",
+      "source_ref": "turn257search3",
+      "search_evidence": " [wordlim: 200] Crawled: last month; Content type: text/html; As far as prevention goes, is the selvedge thread tension largely due to the tension in my initial warp when I put it on the loom? Read more\nAs far as prevention goes, is the selvedge thread tension largely due to the tension in my initial warp when I put it on the loom?\n\nShare\n\nSort by:\n\nBest\n\nOpen comment sort options\n\n* Best\n\n* Top\n\n* New\n\n* Controversial\n\n* Old\n\n* Q&A\n\nMerlinBracken\n\n•\n\n2y ago\n\n• Edited 2y ago\n\nUsing a temple helps, as it prevents the pull in. Or, as others have said, you can hang weights on those warps.\n\n",
+      "decision": "selected",
+      "reason": "Selected for a concrete question; only search-visible material assessed.",
+      "scores": [
+        4.2,
+        4.3,
+        4.4,
+        4.4,
+        4.1
+      ],
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "ejt66s",
+      "title": "When reading a scientific article, how can you find out if ...",
+      "subreddit": "AskScienceDiscussion",
+      "observed_url": "https://www.reddit.com/r/AskScienceDiscussion/comments/ejt66s/when_reading_a_scientific_article_how_can_you/",
+      "source_ref": "turn256search12",
+      "search_evidence": " [wordlim: 200] Crawled: last month; Content type: text/html; Say I'm reading something on PubMed, how do I determine if the study has been replicated? Is that information available on PubMed, or on the websites ...\n# When reading a scientific article, how can you find out if the study has been replicated or not?\n\nGeneral Discussion\n\nSay I'm reading something on PubMed, how do I determine if the study has been replicated? Is that information available on PubMed, or on the websites of journals?\n\nAny other tips for checking the quality of a paper? How to tell if an article is peer-reviewed, or if the reporting of the data is unrepresentative?\n\nArchived post. New comments cannot be posted and votes cannot be cast.\n\n",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1ucgkon",
+      "title": "What's the point in dynamics? : classicalguitar",
+      "subreddit": "classicalguitar",
+      "observed_url": "https://es.reddit.com/r/classicalguitar/comments/1ucgkon/whats_the_point_in_dynamics/",
+      "source_ref": "turn252search27",
+      "search_evidence": " [wordlim: 200] Published: 4 months ago; Crawled: 3 months ago; Compression kind of homogenizes the audio levels, but you can still get dynamic nuances from the playing in the recording even if you compress, especially if you record a stereo image. ... It makes the distance between your peaks and valleys smaller.\n",
+      "decision": "selected",
+      "reason": "Selected for a concrete question; only search-visible material assessed.",
+      "scores": [
+        4.2,
+        4.3,
+        4.4,
+        4.4,
+        4.1
+      ],
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1midblp",
+      "title": "Decorative scoring impacting oven spring? : r/Sourdough",
+      "subreddit": "Sourdough",
+      "observed_url": "https://www.reddit.com/r/Sourdough/comments/1midblp/decorative_scoring_impacting_oven_spring/",
+      "source_ref": "turn256search27",
+      "search_evidence": " [wordlim: 200] Crawled: 4 months ago; Content type: text/html; Decorative scoring impacting oven spring ? Let's discuss/share knowledge. Read more\n#  Decorative scoring impacting oven spring? \n\n Let's discuss/share knowledge \n\n  * Image Image: r/Sourdough - Decorative scoring impacting oven spring? \n  * Image Image: r/Sourdough - Decorative scoring impacting oven spring? \n\n",
+      "decision": "selected",
+      "reason": "Selected for a concrete question; only search-visible material assessed.",
+      "scores": [
+        4.2,
+        4.3,
+        4.4,
+        4.4,
+        4.1
+      ],
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "jrcu6h",
+      "title": "For emulsions, like mayonnaise, why can’t you add the emulsifier to the oil and then slowly add the vinegar? Or any other similar emulsion?",
+      "subreddit": "AskCulinary",
+      "observed_url": "https://www.reddit.com/r/AskCulinary/comments/jrcu6h",
+      "source_ref": "turn252reddit42",
+      "search_evidence": " [wordlim: 200] Published: 5.9 years ago; Crawled: 5.9 years ago; The simple answer is because doing so results in phase inversion —> resulting in a broken water in oil emulsion (like margarine) as opposed to a dispersed oil phase in water (mayonnaise).\n[Tuesday November 10 2020] [+5 votes]\nMaybe also any tips on unbreaking broken sauces?\n\n[Tuesday November 10 2020] [+10 votes]\nMayonnaise is an oil-in-water (o/w) type emulsion where oil is the dispersed phase and water (vinegar is mostly water) is the continuous phase. You want to have the oil dispersed as finely as possible. This is difficult to do if you reverse the phases from the start by dispersing your water into the oil.\nThe only real way to fix broken sauces in a home kitchen is to greatly increase your batch size. This only works if you start with a very small batch. There are other ways to emulsify mixtures, but your best bet is usually to start over.\n\n[Tuesday November 10 2020] [+8 votes]\nThe simple answer is because doing so results in phase inversion —> resulting in a broken water in oil emulsion (like margarine) as opposed to a dispersed oil phase in water (mayonnaise).\nIt the former case, one of the reasons the emuls",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1ovzg6c",
+      "title": "Does the Way You Pour Water Really Change How Tea Tastes?",
+      "subreddit": "tea",
+      "observed_url": "https://www.reddit.com/r/tea/comments/1ovzg6c/does_the_way_you_pour_water_really_change_how_tea/",
+      "source_ref": "turn243reddit46",
+      "search_evidence": " [wordlim: 200] Published: 11 months ago; Using the **same total brewing time**, we tried **two different pouring methods** to see how they might affect the taste of the tea. ... **Each brew took about 30 seconds from the moment the first drop of water hit the tea leaves to the moment the last drop left the gaiwan.\n[Thursday November 13 2025] [+438 votes]\nSHARED URL\nWe’ve always been curious: **does the speed of pouring and draining really make a big difference in how tea tastes?**\nSo today, we decided to test it ourselves. Using the **same total brewing time**, we tried **two different pouring methods** to see how they might affect the taste of the tea.\nThe first method was a **fast pour: we added water in about 4 seconds, waited around 16 seconds, then poured the tea out quickly(about 10s).**\nThe second method was a **slow pour: we poured the water in over about 8 seconds, waited 5 seconds, then poured it out slowly, taking around 17 seconds in total.**\n**Each brew took about 30 seconds from the moment the first drop of water hit the tea leaves to the moment the last drop left the gaiwan.**\nWe tested teas from **all six major tea categories, plus scented teas, hoping to find some",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1iscdeb",
+      "title": "Does tap water make your brews taste different?",
+      "subreddit": "tea",
+      "observed_url": "https://www.reddit.com/r/tea/comments/1iscdeb",
+      "source_ref": "turn243reddit48",
+      "search_evidence": " [wordlim: 200] Published: 1.7 years ago; Crawled: 1.7 years ago; Water definitely makes a huge difference in tea taste for me, both cold brew and regular hot.\n[Tuesday February 18 2025] [+14 votes]\nWell my situation is a bit different since I only cold brew my teas.\n\n\nUsually I'll use bottled water but yesterday I got lazy and used tap water. I used my favorite shou mei and made it according to my usual water proportions.\n\nToday after steeping overnight I tried it and my god did it taste bad. I couldn't figure it out in the beginning, why did my usually tasty tea become so unrecognizable. The taste was very metallic-y and had some weird taste that completely overpowered the tea. I then thought hard and long and realized it must have been the tap water. Since tea balls aren't gonna change taste from one week to the next.\n\nIs this a thing y'all have experienced too?\n\n[Tuesday February 18 2025] [+22 votes]\nWater definitely makes a huge difference in tea taste for me, both cold brew and regular hot.\n\n  [Tuesday February 18 2025] [+7 votes]\n  Also, it depends on tea type. Blacks are pretty much always fine, but my tap water makes green and oolong not good.\n  I also stopped using tap wa",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "uqg89x",
+      "title": "Practice with metronome.",
+      "subreddit": "musictheory",
+      "observed_url": "https://www.reddit.com/r/musictheory/comments/uqg89x",
+      "source_ref": "turn243reddit49",
+      "search_evidence": " [wordlim: 200] Published: 4.4 years ago; Crawled: 4.3 years ago; I can play over the song but when i try to open metronome and practice with it i can't follow.\n[Sunday May 15 2022] [+87 votes]\nI can practice exercises with metronome correctly but when the time comes to practice songs with metronome i can't play it. I can play over the song but when i try to open metronome and practice with it i can't follow.\n\n[Sunday May 15 2022] [+9 votes]\nPlay it slower.  It's called \"practice\" for a reason.  You'll get there!\n\n  [Sunday May 15 2022] [+4 votes]\n  I slowed and tried again but same result... But i will keep continue to practice.\n\n    [Monday May 16 2022] [+5 votes]\n    When they say slow they mean slowwwwwwww. You need to feel like you’re crawling through the piece, that’s the most critical prt of practice.\n\n[Sunday May 15 2022] [+36 votes]\nWhen you feel yourself getting off from the metronome try to find your way back on beat. Most people have a tendency to either slow down or speed up. If you tend to speed up, just remind yourself of that when you get off time and relax until you’re back on beat. If you’re typically slowing down, remind yourself of that tendency when you’re feel",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1nq14x6",
+      "title": "Reducing Hot Water Taste?",
+      "subreddit": "tea",
+      "observed_url": "https://www.reddit.com/r/tea/comments/1nq14x6",
+      "source_ref": "turn243reddit50",
+      "search_evidence": " [wordlim: 200] Published: 1.1 years ago; Crawled: 1.1 years ago; Hello tea lovers, did any of you tackle the issue of the hot water taste and found some solutions that were able to effectively reduce this taste ? ... Just a reminder how important water quality can be for brewing tea.\n[Thursday September 25 2025] [+19 votes]\nHello tea lovers, did any of you tackle the issue of the hot water taste and found some solutions that were able to effectively reduce this taste ?\n\nI am not sure what's the cause of the hot water taste and why it's different / stronger than the cold water taste.\n\nThis especially troublesome with some teas that have very mild flavor and you can really taste the water in an unpleasant way.\n\nMany thanks.\n\n**Edit:**\n\nProblem solved: Following the advice of many people, I tried filtered water and the bad taste has gone.\n\nThe culprit must have been the tap water. Just a reminder how important water quality can be for brewing tea.\n\nThank you again for your help !\n\n[Thursday September 25 2025] [+14 votes]\nwhat\n\n  [Thursday September 25 2025] [+5 votes]\n  Well, when I heat water - if I pour the pure hot water into my cup, it has a certain taste (not that pleasant).\n  I",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "l14za3",
+      "title": "Rhythmmmmm",
+      "subreddit": "musictheory",
+      "observed_url": "https://www.reddit.com/r/musictheory/comments/l14za3",
+      "source_ref": "turn243reddit51",
+      "search_evidence": " [wordlim: 200] Published: 5.8 years ago; Crawled: 5.7 years ago; If only there was a device that let you practice your rhythm ...     Yes, it does become better from practicing with a metronome.\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1j0ctf8",
+      "title": "Why does oolong always taste watery",
+      "subreddit": "tea",
+      "observed_url": "https://www.reddit.com/r/tea/comments/1j0ctf8",
+      "source_ref": "turn243reddit52",
+      "search_evidence": " [wordlim: 200] Published: 1.6 years ago; Crawled: 1.1 years ago; It always just kind of taste like water.I’m typing at 185 with 5 g of tea in a gaiwan for about 20 seconds after a initial 5 second rinse and I can’t seem to figure it out any tips appreciated\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1wqr3v2",
+      "title": "Tea not getting full flavor",
+      "subreddit": "tea",
+      "observed_url": "https://www.reddit.com/r/tea/comments/1wqr3v2/tea_not_getting_full_flavor/",
+      "source_ref": "turn243reddit54",
+      "search_evidence": " [wordlim: 200] Published: 3 weeks ago; No change in taste. ... Wondering if someone can help me figure out why my tea is tasting sort of bland. ... Cold, filtered water from a brita filter is poured into a kettle.\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1wyjtw2",
+      "title": "How to make tea so it doesn't just taste like hot water?",
+      "subreddit": "tea",
+      "observed_url": "https://www.reddit.com/r/tea/comments/1wyjtw2/how_to_make_tea_so_it_doesnt_just_taste_like_hot/",
+      "source_ref": "turn243reddit55",
+      "search_evidence": " [wordlim: 200] Published: 2 weeks ago; But recently, I started getting into all types of tea and even spending a little bit more on tea, but it seems like they all taste the same, even loose leafs, Whittard, recently it was in a nice shop in a small town, spent around £25 on tea but they all seem to taste the same. ... I've tried tea pots or just letting it sit for 5 minutes after pouring hot water, but I was thinking about actively boiling them, however the tea person advised me not to do that.\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "sn47uo",
+      "title": "Water for brewing?",
+      "subreddit": "tea",
+      "observed_url": "https://www.reddit.com/r/tea/comments/sn47uo",
+      "source_ref": "turn243reddit56",
+      "search_evidence": " [wordlim: 200] Published: 4.7 years ago; Crawled: 4.7 years ago; This may sound like nonsense, but I prefer to brew or steep tea using spring water or ordinary tap water containing minerals, as opposed to purified or distilled water. ... The water in my area has a lot if dissolved minerals and you can also taste the chlorine. ... Distilled water is terrible for brewing tea.\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1i5u97m",
+      "title": "Why does tea brewed in a teapot always taste bad? Am I doing something wrong?",
+      "subreddit": "tea",
+      "observed_url": "https://www.reddit.com/r/tea/comments/1i5u97m",
+      "source_ref": "turn243reddit57",
+      "search_evidence": " [wordlim: 200] Published: 1.7 years ago; Crawled: 1.7 years ago; I've always liked the idea of brewing a nice pot of tea, but aside from struggling to keep it warm, it just never tastes right. ... The strength of the brew depends on the quality of the tea, the tea to water ratio, and the brew temp. ... Glazed ceramic should be the least likely to leave any taste behind, while unglazed ceramic does tend to develop a flavor over time, but many people like it.\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "fnkntf",
+      "title": "[UK] Good fruit teas that don't taste like someone walked past a fruit with a cup of hot water? : tea",
+      "subreddit": "tea",
+      "observed_url": "https://ca.reddit.com/r/tea/comments/fnkntf/uk_good_fruit_teas_that_dont_taste_like_someone/",
+      "source_ref": "turn243search0",
+      "search_evidence": " [wordlim: 200] Published: 6.6 years ago; Crawled: 3 months ago; I've tried Korean cold brew tea with tangerine flavour and it's better than usual fruit teas, however quite unusual. http://www.osulloc.com/kr/en/shop/item/blended/6186 ... Again, they look and taste a bit different from usual teas, cause there is no actual tea leaves in them. ... It brings out the flavor so it doesn't just taste like hot, slightly flavored water. ... All you need for \"tea\" is one sprig, hot water and a small amount of sugar/stevia.\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1q7lmpu",
+      "title": "I feel like I've sinned since I learned I prefer tea bags: tea",
+      "subreddit": "tea",
+      "observed_url": "https://nl.reddit.com/r/tea/comments/1q7lmpu/i_feel_like_ive_sinned_since_i_learned_i_prefer/",
+      "source_ref": "turn243search1",
+      "search_evidence": " [wordlim: 200] Published: 9 months ago; Crawled: 4 months ago; If you are having trouble getting started, the r/tea FAQ includes many topics that may help. ... Assam is great and all but the taste of Yorkshire Gold or even Red with milk seems to be what I prefer the most right now and is what I'm currently drinking. ... I often start a different tea in another vessel without finishing a previous brew (fully intending to get back to it, of course) only for it to end up mouldy by that time. ... I just threw a bag of supermarket decaffeinated green tea into hot water.\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1u849xe",
+      "title": "Visual interactive music theory guides and tools:musictheory",
+      "subreddit": "musictheory",
+      "observed_url": "https://eo.reddit.com/r/musictheory/comments/1u849xe/visual_interactive_music_theory_guides_and_tools/?sort=old",
+      "source_ref": "turn243search2",
+      "search_evidence": " [wordlim: 200] Published: 4 months ago; Crawled: 4 months ago; I'm actively reviewing and updating concept pages (e.g. https://www.asmusictheory.com/concepts/reading-rhythm) as I go. ... The piano roll (https://www.asmusictheory.com/tools/piano-roll) for example facilitates the upload of midi files, with record and loop controls for helping to repeat practice over tricky sections.\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1t9d65f",
+      "title": "Can I see your gongfu tea sets? I need inspiration.:tea",
+      "subreddit": "tea",
+      "observed_url": "https://eo.reddit.com/r/tea/comments/1t9d65f/can_i_see_your_gongfu_tea_sets_i_need_inspiration/",
+      "source_ref": "turn243search3",
+      "search_evidence": " [wordlim: 200] Published: 5 months ago; Crawled: 4 months ago; # tea ... This subreddit is for discussion of beverages made from soaking Camellia sinensis leaves (or twigs) in water, and, to a lesser extent, herbal infusions, yerba mate, and other tisanes. ... Post a comment!\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "8wacyj",
+      "title": "Can you brew normal tea like you do with yerba mate? : tea",
+      "subreddit": "tea",
+      "observed_url": "https://pl.reddit.com/r/tea/comments/8wacyj/can_you_brew_normal_tea_like_you_do_with_yerba/?sort=new",
+      "source_ref": "turn243search4",
+      "search_evidence": " [wordlim: 200] Published: 8.3 years ago; Crawled: 4 months ago; Can you brew normal tea like you do with yerba mate? ... Mao jian types are also cheap but they have a sharper taste though they are more flowery. ... Ripe puerh use boiling water 7-8g 360ml ... It’s really quite similar to brewing and drinking using the Gaiwan method.\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1uvwey8",
+      "title": "Mariage Freres Tea:tea",
+      "subreddit": "tea",
+      "observed_url": "https://no.reddit.com/r/tea/comments/1uvwey8/mariage_freres_tea/",
+      "source_ref": "turn243search5",
+      "search_evidence": " [wordlim: 200] Published: 3 months ago; Crawled: 3 months ago; This subreddit is for discussion of beverages made from soaking Camellia sinensis leaves (or twigs) in water, and, to a lesser extent, herbal infusions, yerba mate, and other tisanes. ... Mariage Freres Tea Photo (no.reddit.com)\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1qi41ol",
+      "title": "New to woodworking here. Which of your tools scares you the most? Around what machine should I always be extra cautious? : woodworking",
+      "subreddit": "woodworking",
+      "observed_url": "https://ru.reddit.com/r/woodworking/comments/1qi41ol/new_to_woodworking_here_which_of_your_tools/",
+      "source_ref": "turn243search6",
+      "search_evidence": " [wordlim: 200] Published: 9 months ago; Crawled: 4 months ago; Post a comment! ... The lesson is that anything that can cut wood can cut you and a tool feeling safe is its own kind of danger. ... In 15+ years woodworking the only blade contact injury I have ever had was on a router table. ... [–]rakrunr 0 очков 1 очко 2 очка 4 месяца назад (0 дочерних комментарев) ... [–]RedditVince 0 очков 1 очко 2 очка 4 месяца назад (0 дочерних комментарев)\n",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1uqwnug",
+      "title": "New place with kitchen big enough for dedicated tea station. Dreams can come true!：tea",
+      "subreddit": "tea",
+      "observed_url": "https://zh.reddit.com/r/tea/comments/1uqwnug/new_place_with_kitchen_big_enough_for_dedicated/",
+      "source_ref": "turn243search7",
+      "search_evidence": " [wordlim: 200] Published: 3 months ago; Crawled: 3 months ago; This subreddit is for discussion of beverages made from soaking Camellia sinensis leaves (or twigs) in water, and, to a lesser extent, herbal infusions, yerba mate, and other tisanes. ... If you are having trouble getting started, the r/tea FAQ includes many topics that may help.\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1hzsbg8",
+      "title": "Not a coffee table : woodworking",
+      "subreddit": "woodworking",
+      "observed_url": "https://en.reddit.com/r/woodworking/comments/1hzsbg8/not_a_coffee_table/",
+      "source_ref": "turn243search8",
+      "search_evidence": " [wordlim: 200] Published: 1.8 years ago; Crawled: 4 months ago; # woodworking ... Not a coffee table OC Project Submission (en.reddit.com) ... How did you make the attachment to the axe blade and wood?\n",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1qpzkcs",
+      "title": "Help with reeded panels! : woodworking",
+      "subreddit": "woodworking",
+      "observed_url": "https://uk.reddit.com/r/woodworking/comments/1qpzkcs/help_with_reeded_panels/",
+      "source_ref": "turn243search9",
+      "search_evidence": " [wordlim: 200] Published: 8 months ago; Crawled: 3 months ago; Help (uk.reddit.com) ... Narrower the elements are, less there will be warping of course, but then you have to design the method how you join the sections together (lap, tongue/groove/whatnot) for example if you are making reeding panels for cabinet door. ... Edit: In any case, you would need to consider the wood movement so that the doors will run smoothly.\n",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "gwqhwg",
+      "title": "Black-owned business that makes REALLY good tea: Hella Tea : tea",
+      "subreddit": "tea",
+      "observed_url": "https://hu.reddit.com/r/tea/comments/gwqhwg/blackowned_business_that_makes_really_good_tea/",
+      "source_ref": "turn243search10",
+      "search_evidence": " [wordlim: 200] Published: 6.4 years ago; Crawled: 3 months ago; Black-owned business that makes REALLY good tea: Hella Tea Recommendation (self.tea) ... Their teas taste great, lots of flavor and freshness, and the names of their teas are fun too. ... https://hellatea.com/\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1uh80xi",
+      "title": "My new teaware! : tea",
+      "subreddit": "tea",
+      "observed_url": "https://th.reddit.com/r/tea/comments/1uh80xi/my_new_teaware/",
+      "source_ref": "turn243search11",
+      "search_evidence": " [wordlim: 200] Published: 3 months ago; Crawled: 3 months ago; Photo (th.reddit.com) ... Unglazed clay is supposed to absorb oils from your tea over time and develop a patina that enhances flavor, though you pretty much have to dedicate it to one type of tea since the clay holds onto what you brew in it.\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "rm5xse",
+      "title": "Does anyone who actually knows music theory believe it's not needed? : musictheory",
+      "subreddit": "musictheory",
+      "observed_url": "https://id.reddit.com/r/musictheory/comments/rm5xse/does_anyone_who_actually_knows_music_theory/",
+      "source_ref": "turn243search12",
+      "search_evidence": " [wordlim: 200] Published: 4.8 years ago; Crawled: 3 months ago; It would be like if the main question on /r/calculus was \"is calculus useful?\". ... I keep seeing people comment how theory is needed to communicate with other musicians. ... Music theory is easy because we have a zillion resources and someone already tempered the notes for us into a nice little series but practice is still like it was 5,000 years ago. ... This is how I think about it, anyone who has been around other musicians for some good time has some sort of music theory, so right of the bat, all those arguments about \"X (cough cough FUCKING BEATLES cough cough) didnt know theory and was amazing\" to me, is bullcrap, I know even NON musicians (music reviewers and journalists) who actually know quite a bit about theory just from constantly hanging around musicians (and a great ear too), on the other hand, I do believe that there is absolutely no need to go to a music school to make music, cause anyways, you can learn whatever you may need from your band mates or honestly on this era, the internet, I think, a lot of people think music theory is all of the complex with big name stuff, like orchestation, nested tuplet",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "136qxdu",
+      "title": "Relative newbie help with plywood cutting : woodworking",
+      "subreddit": "woodworking",
+      "observed_url": "https://gl.reddit.com/r/woodworking/comments/136qxdu/relative_newbie_help_with_plywood_cutting/",
+      "source_ref": "turn243search14",
+      "search_evidence": " [wordlim: 200] Published: 3.5 years ago; Crawled: 3 months ago; I've got the plywood I'm cutting up on sawhorses and I've clamped a scrap piece of plywood on top of the piece I'm cutting to act as a blade guide (with factory edge) but the circular saw is somehow still pulling towards (and into) the guide and binding up against the guide resulting in terrible cuts like this mess: https://imgur.com/a/w6WNIfq ... Focusing more on carpentry than fine woodworking, but excellent info none the less. ... By far the biggest newbie mistake, and the first big lesson in wood working is: \"Don't assume it's square just because it looks square.\"\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "8zwo6s",
+      "title": "Odies Oil vs Rubio Natural Oil (pure) for tabletop : woodworking",
+      "subreddit": "woodworking",
+      "observed_url": "https://ca.reddit.com/r/woodworking/comments/8zwo6s/odies_oil_vs_rubio_natural_oil_pure_for_tabletop/",
+      "source_ref": "turn243search16",
+      "search_evidence": " [wordlim: 200] Published: 8.3 years ago; Crawled: 3 months ago; Their primary market is not furniture applications though, but a few trending Instagram videos of people spreading it around on a slab seemed to make it all the rage like those epoxy river tables. ... I did raise the grain and sand down before applying the rubio then wiped the wood down with their preparation stuff which is also stupid expensive, but it was an exotic species and it's what the company recommended.This project was completed at the start of the year, and aside from some pictures I took of it staged in their house a couple weeks after I delivered it (they had an open house thing with the home builder after they moved in) I haven't seen how well it's held up 6 months in.\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1givg4",
+      "title": "What goods and services have undergone the most significant price changes in the last 100 years, adjusted for inflation?: AskHistorians",
+      "subreddit": "AskHistorians",
+      "observed_url": "https://pt.reddit.com/r/AskHistorians/comments/1givg4/what_goods_and_services_have_undergone_the_most/?sort=new",
+      "source_ref": "turn243search21",
+      "search_evidence": " [wordlim: 200] Published: 13.4 years ago; Crawled: 4 months ago; (self.AskHistorians) ... all 37 comments ... This is obviously a function more of household income increasing, though; many countries today still see similar levels of food expense / income: http://www.economist.com/blogs/graphicdetail/2013/03/daily-chart-5 ... I'm not a historian by any means, but I believe the most likely answers to this question are things that were once common (or legal) and are no longer, or vice-versa. ... It seems to me that comparing punch card cost would simply have been comparing how the cost of paper has increased over time which wasn't my intent. ... This is from Percy Ashley's 'Modern Tariff History', 1920.\n",
+      "decision": "rejected",
+      "reason": "Permanent earlier exposure/reservation.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1rrwz7i",
+      "title": "Does book cloth have grain? If so how do I find it?",
+      "subreddit": "bookbinding",
+      "observed_url": "https://www.reddit.com/r/bookbinding/comments/1rrwz7i/does_book_cloth_have_grain_if_so_how_do_i_find_it/",
+      "source_ref": "turn245reddit40",
+      "search_evidence": " [wordlim: 200] Published: 7 months ago; It’s book cloth I purchased for bookbinding. ... If it's not paper backed you won't need to worry about the grain direction.\n[Thursday March 12 2026] [+5 votes]\nThis is my first time working with book cloth and just need to know if this is something I need to pay attention to.\n\n[Thursday March 12 2026] [+2 votes]\nWoven cloth has grain lengthwise and widthwise because it is made on a loom.\n\n  [Thursday March 12 2026] [+1 votes]\n  This isn’t actual cloth. It’s book cloth I purchased for bookbinding. So I’m not sure what to look for.\n\n    [Thursday March 12 2026] [+2 votes]\n    book cloth is cloth coated with plastic and/or paper.\n\n      [Thursday March 12 2026] [+1 votes]\n      This isn’t. It’s the same on both sides and there’s no coating of any kind but it’s very plastic like.\n\n        [Thursday March 12 2026] [+3 votes]\n        It's probably saturated in some sort of protectant, like acrylic medium. If it's not paper backed you won't need to worry about the grain direction.  Fabrics don't pull the same way paper does.  But for the best longevity it's best to keep the warp threads parallel to the spine, or so I ve heard. ",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1s4k5rj",
+      "title": "Wonder what direction the grain is on this paper? 🤣🤣",
+      "subreddit": "bookbinding",
+      "observed_url": "https://www.reddit.com/r/bookbinding/comments/1s4k5rj/wonder_what_direction_the_grain_is_on_this_paper/",
+      "source_ref": "turn245reddit41",
+      "search_evidence": " [wordlim: 200] Published: 6 months ago; It’s the most obvious curl for the cut against the grain I’ve seen in my admittedly short bookbinding experience so far.\n[Thursday March 26 2026] [+33 votes]\nSHARED URL\nI’m just joking. It’s the most obvious curl for the cut against the grain I’ve seen in my admittedly short bookbinding experience so far. Good thing I was planning on folding it the other direction anyway.\nThis is going in a pencil sketchbook I’ll probably give away. Though, considering how thin the paper has turned out to be, I might make it some kind of journal instead….\n\n[Thursday March 26 2026] [+6 votes]\nSo a dumb question, does this mean the grain is parallell to the long edge?\n\n  [Thursday March 26 2026] [+2 votes]\n  Yes\n\n  [Friday March 27 2026] [+6 votes]\n  Image: img\n  Thinking in \"fibers\" instead of \"grain\" makes interpretation easier though both terms are commonly used in literature.\n\n    [Friday March 27 2026] [+1 votes]\n    Thanks a lot for this!",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1rkmhld",
+      "title": "Does the grain direction of buckram matter?",
+      "subreddit": "bookbinding",
+      "observed_url": "https://www.reddit.com/r/bookbinding/comments/1rkmhld/does_the_grain_direction_of_buckram_matter/",
+      "source_ref": "turn245reddit44",
+      "search_evidence": " [wordlim: 200] Published: 7 months ago; So, I was watching DAS Bookbinding’s video on grain direction and at one point, he mentioned book cloth having a grain which is parallel to the selvage edge.\n[Wednesday March 04 2026] [+7 votes]\nSo, I was watching DAS Bookbinding’s video on grain direction and at one point, he mentioned book cloth having a grain which is parallel to the selvage edge.\n\nIt made me realise that a few days ago, I decided to cut down a strip of buckram to fit an A5 book, but the selvage edge is perpendicular to the spine when folded.\n\nSo, that got me wondering whether or not I could get away with the grain being in the wrong direction with buckram or if I'd be better off cutting a strip in the right direction.\n\nThanks in advance!\n\n[Wednesday March 04 2026] [+11 votes]\nYes to everything you asked. Yes, it matters, yes you can get away with it. Yes, it’s better.\nYou want the grain to align with the grain of the boards, normally.  The wetter the glue, the more important this is.\n\n  [Wednesday March 04 2026] [+1 votes]\n  Thank you!\n\n  [Thursday March 05 2026] [+3 votes]\n  Yeah pretty much this. I use buckram for a lot of projects and I don’t really pay attention to t",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1raj0q1",
+      "title": "What type of paper are we using??",
+      "subreddit": "bookbinding",
+      "observed_url": "https://www.reddit.com/r/bookbinding/comments/1raj0q1/what_type_of_paper_are_we_using/",
+      "source_ref": "turn245reddit45",
+      "search_evidence": " [wordlim: 200] Published: 8 months ago; I source my paper from churchpaper.com they sell short grain paper specifically for bookbinding.\n[Saturday February 21 2026] [+4 votes]\nWhat type of paper do you suggest using for printing and binding a fanfic?\n\n[Saturday February 21 2026] [+2 votes]\nShort grain paper. Basically meaning that the grain of the paper runs left to right, that way, when you fold it in half, It’ll be parallel to the spine. Most paper you buy at the store will be long grain, which you don’t want because it can cause ripples in the paper. Easiest way to get short grain paper is to cut some bigger sheets in half.\nYou want this to apply to the boards and covers too. You want the grain to be parallel to the spine.\nFor gsm, I use 90.\n\n  [Saturday February 21 2026] [+2 votes]\n  Thanks for the input! I’ll look into it\n\n[Sunday February 22 2026] [+1 votes]\nI’m just making rough little journals, so I use Pen+Gear cardstock\n\n[Monday February 23 2026] [+1 votes]\nDepends. If you are new to the craft you can get away with wrong grain paper (eg. Letter sized Hammermill Cream or 92 bright paper.)\nIf you want correct grain you can do Legal Quartos or but short grain 11x8.5\"  paper",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1h2e1oa",
+      "title": "Anyone have experience binding with this paper?",
+      "subreddit": "bookbinding",
+      "observed_url": "https://www.reddit.com/r/bookbinding/comments/1h2e1oa",
+      "source_ref": "turn245reddit46",
+      "search_evidence": " [wordlim: 200] Published: 1.9 years ago; Crawled: 1.9 years ago; Church Paper and bookbinding supply stores also sell short grain letter paper.\n[Friday November 29 2024] [+5 votes]\nSHARED URL\nHi, first time posting. I’m trying to make some journals as holiday gifts. I’ve always like the A5 size and want to fold letter sized paper, but as others have mentioned, finding short grained letter paper can be difficult. I’m liking what I’m seeing with this Ledesma sugarcane paper and wondering if anyone has experience binding with it and knows the grain direction? Amazon reviews say that they’ve used it for binding but don’t specify further. Thanks!\n\n[Friday November 29 2024] [+3 votes]\nI've heard from some other people on this forum that the size listing is a clue to grain direction. The grain usually goes along the second number, so here that would be 11, making it long grain. I don't know how much of a guarantee that is, but I also have never encountered letter paper that came short grain by default that wasn't specifically marketed to bookbinders.\nI don't know where you are, but if you're in the US, the Papermill Store will cut 11x17 paper in half for you (for a fee) to make short gra",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1e1uczt",
+      "title": "Is paper grain that important?",
+      "subreddit": "bookbinding",
+      "observed_url": "https://www.reddit.com/r/bookbinding/comments/1e1uczt",
+      "source_ref": "turn245reddit47",
+      "search_evidence": " [wordlim: 200] Published: 2.3 years ago; Crawled: 2.3 years ago; Yes, it will affect the book as a whole, but the details will depend on the type of binding and where do you use the paper ... One of the main issues that arises from going against the grain for text blocks, is they tend to open up as they age. () with spine at bottom or top.\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "18qohyh",
+      "title": "Long grain or short grain? Help me please",
+      "subreddit": "bookbinding",
+      "observed_url": "https://www.reddit.com/r/bookbinding/comments/18qohyh",
+      "source_ref": "turn245reddit48",
+      "search_evidence": " [wordlim: 200] Published: 2.8 years ago; Crawled: 2.8 years ago; Hi all, I'm completely new to book binding and became interested a few weeks ago and I'd like to make my own watercolour sketchbook. ... Grain is very important if you’re planning to use watercolours in the book!\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "11vvwtn",
+      "title": "Why does grain direction matter?",
+      "subreddit": "bookbinding",
+      "observed_url": "https://www.reddit.com/r/bookbinding/comments/11vvwtn",
+      "source_ref": "turn245reddit49",
+      "search_evidence": " [wordlim: 200] Published: 3.6 years ago; Crawled: 2.9 years ago; This means if you bind paper into the spine, across its grain direction, then as the paper expands and contracts, you will get as much as 400% more movement of the paper, fighting against the anchor of your binding.\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "13ozyp6",
+      "title": "Grain direction in box making",
+      "subreddit": "bookbinding",
+      "observed_url": "https://www.reddit.com/r/bookbinding/comments/13ozyp6",
+      "source_ref": "turn245reddit50",
+      "search_evidence": " [wordlim: 200] Published: 3.4 years ago; Crawled: 3.4 years ago; We all know that the grain direction of the material is the most important property to consider in bookbinding.\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1ua4le2",
+      "title": "Fixing warped boards after casing in/assembly? : bookbinding",
+      "subreddit": "bookbinding",
+      "observed_url": "https://es.reddit.com/r/bookbinding/comments/1ua4le2/fixing_warped_boards_after_casing_inassembly/",
+      "source_ref": "turn245search0",
+      "search_evidence": " [wordlim: 200] Published: 4 months ago; Crawled: 4 months ago; (self.bookbinding) ... The materials are the same for front and back, and I know the grain direction is correct for all the materials.\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "18a5u8h",
+      "title": "Can someone tell me why my stain is coming up spotty like this after hours of sanding from 60 to 150 grit? : woodworking",
+      "subreddit": "woodworking",
+      "observed_url": "https://vi.reddit.com/r/woodworking/comments/18a5u8h/can_someone_tell_me_why_my_stain_is_coming_up/?sort=random",
+      "source_ref": "turn245search8",
+      "search_evidence": " [wordlim: 200] Published: 2.9 years ago; Crawled: 3 months ago; You’ve got some gnarly sanding swirls to get out of that thing any way, sand it down to raw wood, drop down a grit and sand by hand with the grain, then 2 more grits by hand with the grain, clean it well and let it dry, it looks like what ever you had on there to clean wasn’t done coming out of the pours, really hard to say though ... Reddit is so wild!\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1cotj2h",
+      "title": "My Toum broke 🫠",
+      "subreddit": "AskCulinary",
+      "observed_url": "https://www.reddit.com/r/AskCulinary/comments/1cotj2h",
+      "source_ref": "turn252reddit40",
+      "search_evidence": " [wordlim: 200] Published: 2.4 years ago; Crawled: 2.4 years ago; Make a little more toum, when the emulsion comes together start incorporating the broken toum into it little by little.\n[Friday May 10 2024] [+38 votes]\nHello wonderful humans ❤️ \nI made toum on Monday afternoon for the first time. I loved it! Everything seemed perfect until this morning (Thursday) when I saw the emulsion had broken. It was fine these past three days, though. \nI read that you may be able to keep toum for months refrigerated, and I'm thinking something went wrong.\n\nCould you please help me identify my mistake and advise how to fix it? (I'm vegan, so no egg whites, thank you.)\n\nThese are the ingredients I used:\n\n- 123 grams of de-germed garlic\n- 127 grams of lime juice (the green ones)\n- 680 grams of sunflower oil\n- 9 grams of salt\n\nThank you so much!\n\n[Friday May 10 2024] [+46 votes]\nMake a little more toum, when the emulsion comes together start incorporating the broken toum into it little by little. It should come back together.\n\n  [Saturday May 11 2024] [+2 votes]\n  this is the answer\n\n  [Saturday May 11 2024] [+1 votes]\n  Thank you!! 😊\n\n[Friday May 10 2024] [+8 votes]\nI've heard that you can fix ",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1ut0o42",
+      "title": "Emulsifying Issues",
+      "subreddit": "AskCulinary",
+      "observed_url": "https://www.reddit.com/r/AskCulinary/comments/1ut0o42/emulsifying_issues/",
+      "source_ref": "turn252reddit41",
+      "search_evidence": " [wordlim: 200] Published: 3 months ago; You can fix it by getting another egg (or yolk+liquid components) and streaming your broken emulsion into that. ... And I don't mean caked with dirt... leftover dish soap residue will crack an emulsification very quickly. ... Emulsions most commonly break when they either get too much oil too fast, or get too hot.\n\n[Friday July 10 2026] [+17 votes]\nCheck the blade on the immersion blender. Mine randomly stopped emulsifying, and I figured out like a year later that one of the blades had gotten a little bent. It still works for other things, but doesn't emulsify any more.\n\n  [Friday July 10 2026] [+4 votes]\n  Will check it tonight, thank you! Its so frustrating!\n\n[Friday July 10 2026] [+3 votes]\nYou can fix it by getting another egg (or yolk+liquid components) and streaming your broken emulsion into that. The one step immersion blender method is fine but these things are just finicky sometimes. I think starting with your egg and liquids and slowly streaming in the oil is a little more reliable. A little mustard always helps.\n\n[Friday July 10 2026] [+6 votes]\nVery cold ingredients! The heat from the immersion blender could be making the ingredi",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1edxj52",
+      "title": "Why did my sauce break?",
+      "subreddit": "AskCulinary",
+      "observed_url": "https://www.reddit.com/r/AskCulinary/comments/1edxj52",
+      "source_ref": "turn252reddit43",
+      "search_evidence": " [wordlim: 200] Published: 2.2 years ago; Crawled: 2.2 years ago; I came back to it about 2 minutes later and it was totally broken.\n[Sunday July 28 2024] [+7 votes]\nI was making a pan sauce after pan frying chicken with flour on it. The pan sauce had olive oil, butter, white wine, lemon, and rosemary in it. It fully emulsified and then I simmered it to thicken it a little. I then put the chicken back in and dropped it to the lowest heat to keep warm while I worked on something else. I came back to it about 2 minutes later and it was totally broken. I tried putting in a little bit more wine and whisking, then lemon and whisking, and then a little bit of butter but all of them just further broke the sauce. Never encountered this before.\n\n[Sunday July 28 2024] [+24 votes]\nYou overheated it. Butter emulsions like this aren't stable, usually when the sauce is basically done and ready to serve, you kill the heat and whisk in butter at the very last moment.\n\n  [Sunday July 28 2024] [+2 votes]\n  That makes sense. I definitely used a little more butter than I usually do in a pan sauce. Thank you so much! I’ll definitely make sure to finish with the butter in the future.\n",
+      "decision": "rejected",
+      "reason": "Avoid multiple entries about the same narrow question, recent adjacent topic or thin visual-only/underspecified evidence; final mix uses distinct questions.",
+      "scores": null,
+      "original_post_verification": "not_performed_user_waived"
+    }
+  ],
+  "candidate_counts": {
+    "youtube": 41,
+    "reddit": 60
+  },
+  "youtube_selection": [
+    {
+      "id": "RMjtmsr3CqA",
+      "title": "Plastic Injection Molding",
+      "channel": "engineerguy",
+      "topic": "注塑制造与设计痕迹",
+      "tier": "high_confidence",
+      "source": "https://engineerguy.com/videos.htm",
+      "observed_at": "2026-10-21T03:19:08.044Z",
+      "observation": "Official catalogue directly pairs exact data-embed RMjtmsr3CqA,title and original description:manufacturing history/process/product markings/Lego. Identity and content verified on creator page, no playback test.",
+      "why": "一个便宜的塑料外壳，背后可能藏着很昂贵的工具和很严格的制造选择。作者官网明确说明本片从注塑历史进入工艺细节，再教你在成品上寻找制造留下的痕迹，最后以乐高作为具体案例。它值得看的地方，是把“材料是什么”推进成“怎样大量、稳定地制造这个形状”，让接缝和小圆印不再只是外观瑕疵。\n\n看完挑一个身边的塑料件，只描述自己实际看见的线、孔、凹痕，再提出一种制造解释，并保留别的可能。不要仅凭一个印迹就断言已经还原了整副模具。昨天同频道讲的是排队，今天是制造；保留频道重复惩罚后，仍因可观察的成品证据与工艺连接而入选，今天不再叠加该频道的其他作品。也不需要购买设备或尝试自行加工热塑料。"
+    },
+    {
+      "id": "d4EgbgTm0Bg",
+      "title": "What are quaternions, and how do you visualize them? A story of four dimensions.",
+      "channel": "3Blue1Brown",
+      "topic": "四元数、立体投影与几何表示",
+      "tier": "high_confidence",
+      "source": "https://eater.net/quaternions",
+      "observed_at": "2026-10-21T03:18:15.589Z",
+      "observation": "Joint creator lesson page credits Grant Sanderson and Ben Eater, directly links d4EgbgTm0Bg with full original title and explains hypersphere/stereographic projection/multiplication. Extensive original lesson text and interactive-module descriptions observed. Other related recordings are not counted as new works.",
+      "why": "四元数经常被介绍成一串计算规则，这个入口把重点放在：一个四维对象，怎样借助投影进入我们能观察的三维空间。Grant Sanderson与Ben Eater共同制作的课程页既有原始视频链接，也有从低维投影向上推进的解释与互动模块，因此能把“动画很好看”变成可以停下来检验的几何问题。\n\n第一遍只追踪一个对象经过投影后发生什么，不必同时背完乘法表。第二遍再问哪些变化来自对象本身，哪些来自表示方式；图像变形并不自动意味着几何关系失效。官网还列有互动录像与后续短片，它们与本片有内容重叠，今天只推荐这一部，不用同一套材料凑多条。频道近期出现过，作为从竞赛问题转向几何表示的主题变化保留；互动模块并不被当作已经完成所有代数证明。"
+    },
+    {
+      "id": "kdDiiP8C3W0",
+      "title": "What People Ate on Ellis Island",
+      "channel": "Tasting History with Max Miller",
+      "topic": "移民设施、机构菜单与食物史",
+      "tier": "wildcard",
+      "source": "https://www.tastinghistory.com/episodes/ellisisland",
+      "observed_at": "2026-10-21T03:14:42.884Z",
+      "observation": "Creator episode page contains exact original embed/watch ID kdDiiP8C3W0,title,Max Miller attribution and original description of early20th-century Ellis Island and two dishes from a1920 menu. Linked recipes include beef/barley soup and tapioca pudding. Full playback not tested.",
+      "why": "今天的wildcard继续用食物换一个历史尺度：从昨天的精英宴席，转到移民设施如何组织大量人的日常需要。作者将复刻绑定到1920年的一份菜单，并提供两道对应食谱，题目因此不是泛泛的“美国过去吃什么”，而是机构、流动人口和标准化供餐怎样在同一张餐单上相遇。\n\n观看时特别区分一张保存下来的菜单、实际每天供应的情况、不同人获得的体验。菜单是很具体的证据，也有覆盖范围；不能把一份记录扩大成所有移民或所有年份的生活。它和昨天的将军宴席是不同作品、不同制度场景，但同频道连续两日仍是一项多样性惩罚：今天保留它是为了完成“谁在组织这顿饭”的对照，而非只因食物题材轻松。先看文化与制度，不需要照做两道菜。"
+    },
+    {
+      "id": "MUiYglgGbos",
+      "title": "How can you you Know the Truth in your News Feed? - Smarter Every Day 212",
+      "channel": "SmarterEveryDay",
+      "topic": "信息判断与OODA反馈模型",
+      "tier": "high_confidence",
+      "source": "https://eater.net/ooda-loop",
+      "observed_at": "2026-10-21T03:16:30.212Z",
+      "observation": "Collaborating creator Ben Eater lesson page explicitly says built for Destin/SmarterEveryDay, links exact MUiYglgGbos,title and12:18; original simulation explanation gives equal speed/turn rate with only OODA interval varied. No playback tested.",
+      "why": "这条最适合带着“模型解释了什么，又没解释什么”来看。配套模拟由Ben Eater为Destin制作，原始页面把规则写得很清楚：两架飞机的速度与转弯能力相同，只改变观察、判断和行动的更新间隔。这使你可以把一个关于信息流的说法，追溯到一套具体、可改变的假设。\n\n先不要接受“更快一定更接近真相”的口号，先问模型的胜负指标是什么，反馈是否准确，以及现实新闻判断还缺少哪些变量。看完可以在模拟中只改一个间隔，比较不同起始条件；网页给出的两机模型并不是媒体操纵或现实空战的完整证据。标题保留作者配套页实际显示的文字，包括重复的you，不自行伪装修成已核对的YouTube当前标题。它的价值是学习拆解类比，而不是从类比直接推出政治结论。"
+    },
+    {
+      "id": "qDwdFmU6A_w",
+      "title": "GLUE（作者官网标题）",
+      "channel": "tim hunkin",
+      "topic": "胶黏剂选择与作者公开纠错",
+      "tier": "adjacent",
+      "source": "https://www.timhunkin.com/a250_GLUE.htm",
+      "observed_at": "2026-10-21T03:18:42Z",
+      "observation": "Official Tim Hunkin page read through web tool: heading GLUE,author identity,original embed qDwdFmU6A_w and substantive author corrections on polyvinyl acetate versus alcohol,workholding and untried viewer tips. Original embed href observed through source link. Browser route had an ordinary upstream transport failure; full playback/player title not verified. Embed fetch throttled; no retry/evasion.",
+      "why": "手作教学最值得信任的时刻，有时发生在作者承认自己说错之后。Tim Hunkin的本片官网不只放视频，还明确更正了PVA名称的口误，并把自己没试过的观众建议单独说明。这让它成为一个很好的阅读案例：经验、化学名称、用途和未经验证的小技巧，应当怎样分开记录。\n\n看时先选一个黏接问题，列出材料组合、受力方式和是否需要拆卸，再观察作者怎样在选择之间权衡；不要把“强力胶”当成统一类别。配套更正也应一起读，尤其不因推荐了视频就继承其中所有安全或健康说法。本文不转述官网未经独立核实的致癌断言，也不推荐具体危险用法。近期的同频道作品是轴承，本次是不同作品；与注塑合计占今天材料/制造主题的两个名额，之后用数学、历史和媒体判断拉开范围。"
+    }
+  ],
+  "reddit_selection": [
+    {
+      "post_id": "1q4w5vr",
+      "title": "Multi-block registration help",
+      "subreddit": "printmaking",
+      "observed_url": "https://www.reddit.com/r/printmaking/comments/1q4w5vr/multiblock_registration_help/",
+      "source_ref": "turn257search0",
+      "search_evidence": " [wordlim: 200] Crawled: last month; Content type: text/html; Multi -block registration help. question. r/printmaking - Multi -block registration help. Read more\n# Multi-block registration help\n\nquestion\n\nImage Image: r/printmaking - Multi-block registration help\n\nRecently finished this print, my first time using color and first time with more than one block, as a gift for my spouse — a huge Twin Peaks fan! While I’m overall pleased with the results, it didn’t really turn out like I was attempting, and I’d love some tips.\n\nMy current block in progress.\n\nupvotes · comments\n\n* * *\n\n  * My first multi-block!\n\nr/printmaking •\n\nMy first multi-block!\n\nupvotes · comments\n\n* * *\n\n  * First multi block/jigsaw print\n\nr/printmaking •\n\nFirst multi block/jigsaw print\n\n6\n\nupvotes · comments\n\n* * *\n\n  * What did I do wrong? Trying to learn image transfer\n\nr/printmaking •\n\nWhat did I do wrong? Trying to learn image transfer\n\nupvotes · comments\n\n* * *\n\n  * Blocks/Prints 😘\n\n  * Another design i did, less detailed than the last. I like this better.\n\nr/printmaking •\n\nAnother design i did, less detailed than the last. I like this better.\n\n2\n\nupvotes · comments\n\n* * *\n\n  * My latest block print design!",
+      "topic": "多色版画的套准",
+      "tier": "adjacent",
+      "why": "多块版要叠成一幅图，困难不只是每块刻得好。可见题干说明这是首次多版、多色制作，适合从定位基准、纸张移动和误差累积去读一个具体求助。把每次印刷相对什么定位画出来，再看建议是在减少误差来源，还是只在最后补救。即使不刻版，这也是一个非常直观的重复定位问题；漂亮成品图不能替代过程记录，本文也未核验图片里具体错位程度。",
+      "discussion": "手作自述与个案；未检查原图或验证某种套准器材效果。",
+      "age": "检索未提供可确定帖龄；抓取时间不当作发帖日期",
+      "url": "https://www.reddit.com/r/printmaking/comments/1q4w5vr/multiblock_registration_help/",
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "zco48n",
+      "title": "Why are river meanders the way they are? Why are some larger than others?",
+      "subreddit": "askscience",
+      "observed_url": "https://www.reddit.com/r/askscience/comments/zco48n/why_are_river_meanders_the_way_they_are_why_are/",
+      "source_ref": "turn257search1",
+      "search_evidence": " [wordlim: 200] Crawled: last week; Content type: text/html; Is it also possible for oxbows to get \"reconnected\" to the meandering river?\n# Why are river meanders the way they are? Why are some larger than others?\n\nEarth Sciences\n\nIs it also possible for oxbows to get \"reconnected\" to the meandering river?\n\nArchived post. New comments cannot be posted and votes cannot be cast.\n\nShare\n\nSort by:\n\nBest\n\nOpen comment sort options\n\n* Best\n\n* Top\n\n* New\n\n* Controversial\n\n* Old\n\n* Q&A\n\n",
+      "topic": "河曲形状与时间尺度",
+      "tier": "high_confidence",
+      "why": "河流为什么不干脆变直，不同河曲的尺度又为什么不同？这个题目把一张地图上的形状变成需要解释的动态结果，还追问牛轭湖是否可能重新连接。阅读时可先区分某一时刻的河道位置、河岸变化和更长时间的地形演化，避免用一个局部直觉包办所有尺度。如果回答提到特定河流，继续检查测量范围与证据；这里不根据搜索摘要讲授未经复核的地貌机制。",
+      "discussion": "科学提问入口；未核验回复或任何河段的现实变化。",
+      "age": "检索未提供可确定帖龄；抓取时间不当作发帖日期",
+      "url": "https://www.reddit.com/r/askscience/comments/zco48n/why_are_river_meanders_the_way_they_are_why_are/",
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1nw2zbu",
+      "title": "Board games with hidden roles that aren't social deduction ...",
+      "subreddit": "boardgames",
+      "observed_url": "https://www.reddit.com/r/boardgames/comments/1nw2zbu/board_games_with_hidden_roles_that_arent_social/",
+      "source_ref": "turn257search2",
+      "search_evidence": " [wordlim: 200] Crawled: last week; Content type: text/html; ... deduction games'. Dogs of War, Discworld: Ankh Morpork, Archipelago, and Lords of Waterdeep are some games I own with hidden information . In ... Read more\nDogs of War, Discworld: Ankh Morpork, Archipelago, and Lords of Waterdeep are some games I own with hidden information. In some of them these are clearly 'roles', with names and faces.\n\nBut in others they are perhaps a 'role', perhaps hidden objectives. The line is blurred, and it's subjective when hidden objectives become a role.\n\n",
+      "topic": "隐藏角色与社交推理的边界",
+      "tier": "wildcard",
+      "why": "隐藏信息为什么不一定等于狼人杀式的社交推理？可见内容列出角色、秘密目标与游戏类别之间的模糊边界，适合从自己实际做的决策来定义类型。读时分别记录信息藏在哪里、玩家怎样得到它、判断是否需要依赖别人说话，而不要只按包装上的类别名挑游戏。这是一项轻松的wildcard，也能练习把一个概念拆成几条可比较的维度；不把帖子当购物清单，更不保证某款游戏适合你当前的朋友或时间。",
+      "discussion": "玩家经验与主观分类；未核验所有规则或推荐名单。",
+      "age": "检索未提供可确定帖龄；抓取时间不当作发帖日期",
+      "url": "https://www.reddit.com/r/boardgames/comments/1nw2zbu/board_games_with_hidden_roles_that_arent_social/",
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1g4bdqd",
+      "title": "Selvedge tension issues",
+      "subreddit": "weaving",
+      "observed_url": "https://www.reddit.com/r/weaving/comments/1g4bdqd/selvedge_tension_issues/",
+      "source_ref": "turn257search3",
+      "search_evidence": " [wordlim: 200] Crawled: last month; Content type: text/html; As far as prevention goes, is the selvedge thread tension largely due to the tension in my initial warp when I put it on the loom? Read more\nAs far as prevention goes, is the selvedge thread tension largely due to the tension in my initial warp when I put it on the loom?\n\nShare\n\nSort by:\n\nBest\n\nOpen comment sort options\n\n* Best\n\n* Top\n\n* New\n\n* Controversial\n\n* Old\n\n* Q&A\n\nMerlinBracken\n\n•\n\n2y ago\n\n• Edited 2y ago\n\nUsing a temple helps, as it prevents the pull in. Or, as others have said, you can hang weights on those warps.\n\n",
+      "topic": "织边张力与过程排查",
+      "tier": "wildcard",
+      "why": "一条织边出现问题，原因一定在最后一次拉紧吗？可见题干主动追问初始整经张力，适合观察手作者怎样把成品现象追溯到更早的步骤。读之前画出从准备、上机到逐次投梭的流程，再看每条建议需要什么额外观察才能区分。它的扩展价值在于让“手感”与记录相遇：熟练经验可以提示方向，但若几项同时调整，就很难知道哪个改变起作用。不需要先买织机，也能读懂这种排查结构。",
+      "discussion": "手作经验；未核验原图、织机类型及完整诊断。",
+      "age": "检索未提供可确定帖龄；抓取时间不当作发帖日期",
+      "url": "https://www.reddit.com/r/weaving/comments/1g4bdqd/selvedge_tension_issues/",
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1dv26v9",
+      "title": "Heading to a dark sky site soon, are red filters for your phone bad?",
+      "subreddit": "Astronomy",
+      "observed_url": "https://www.reddit.com/r/Astronomy/comments/1dv26v9/heading_to_a_dark_sky_site_soon_are_red_filters/",
+      "source_ref": "turn256search6",
+      "search_evidence": " [wordlim: 200] Crawled: 6 days ago; Content type: text/html; I have an iPhone and I can set the entire screen to red (including while locked), is this sufficient in preserving dark adaptation if my brightness is ...\n# Heading to a dark sky site soon, are red filters for your phone bad?\n\nI have an iPhone and I can set the entire screen to red (including while locked), is this sufficient in preserving dark adaptation if my brightness is all the way down?\n\nShare\n\nSort by:\n\nTop (Default)\n\nOpen comment sort options\n\n* Best\n\n* Top (Default)\n\n* New\n\n* Controversial\n\n* Old\n\n* Q&A\n\n",
+      "topic": "暗空观星与手机屏幕",
+      "tier": "high_confidence",
+      "why": "把屏幕变红，是否就解决了观星时的干扰？题干同时提到颜色和亮度，适合提醒我们：一个方便开关常常只改变暴露条件的一部分。阅读时可把屏幕、观察对象、周围其他光源和自己的使用方式分别列出，看看建议者是否讲清适用场景。今天推荐的是一个细致的观察问题，不转述固定的暗适应分钟数，也不把个人视觉经验当医疗知识；先减少不必要操作，是否比再找一个设置更符合实际需求，也值得自己思考。",
+      "discussion": "天文爱好者经验；未核验视觉生理解释、设备表现或现场安全条件。",
+      "age": "检索未提供可确定帖龄；抓取时间不当作发帖日期",
+      "url": "https://www.reddit.com/r/Astronomy/comments/1dv26v9/heading_to_a_dark_sky_site_soon_are_red_filters/",
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1midblp",
+      "title": "Decorative scoring impacting oven spring?",
+      "subreddit": "Sourdough",
+      "observed_url": "https://www.reddit.com/r/Sourdough/comments/1midblp/decorative_scoring_impacting_oven_spring/",
+      "source_ref": "turn256search27",
+      "search_evidence": " [wordlim: 200] Crawled: 4 months ago; Content type: text/html; Decorative scoring impacting oven spring ? Let's discuss/share knowledge. Read more\n#  Decorative scoring impacting oven spring? \n\n Let's discuss/share knowledge \n\n  * Image Image: r/Sourdough - Decorative scoring impacting oven spring? \n  * Image Image: r/Sourdough - Decorative scoring impacting oven spring? \n\n",
+      "topic": "面包装饰割纹与膨胀目标",
+      "tier": "adjacent",
+      "why": "装饰效果和烘焙表现是否总是一致？这条把好看的图案与出炉后的膨胀放到同一个问题里，适合看一种工艺怎样同时服务不同目标。读时先问发帖者希望改善什么：裂口方向、外形稳定还是图案可见度？如果目标没说清，任何“切得更深”或“少切一点”的建议都可能答非所问。这里只讨论问题如何定义，不根据薄弱截图推断面团发酵状态，也不提供经过验证的割纹参数。",
+      "discussion": "烘焙个案；未读完整配方、照片及过程，不能据此诊断。",
+      "age": "检索未提供可确定帖龄；抓取时间不当作发帖日期",
+      "url": "https://www.reddit.com/r/Sourdough/comments/1midblp/decorative_scoring_impacting_oven_spring/",
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1ucgkon",
+      "title": "What's the point in dynamics?",
+      "subreddit": "classicalguitar",
+      "observed_url": "https://es.reddit.com/r/classicalguitar/comments/1ucgkon/whats_the_point_in_dynamics/",
+      "source_ref": "turn252search27",
+      "search_evidence": " [wordlim: 200] Published: 4 months ago; Crawled: 3 months ago; Compression kind of homogenizes the audio levels, but you can still get dynamic nuances from the playing in the recording even if you compress, especially if you record a stereo image. ... It makes the distance between your peaks and valleys smaller.\n",
+      "topic": "古典吉他力度与录音表达",
+      "tier": "adjacent",
+      "why": "“有力度变化”对演奏和对录音，究竟是不是同一个目标？可见检索讨论把动态范围与录音处理放在一起，值得分别听身体动作、乐句方向和回放响度。读的时候可以找一段自己熟悉的演奏，只描述哪里产生了期待、哪里像句子结束，再比较这些感受是否都能用音量大小解释。它与昨天的节奏练习是不同问题：今天关心表达如何被听到，不转述评论中的压缩技术为统一答案。",
+      "discussion": "音乐审美与录音经验；未核验音频或某种处理的效果。",
+      "age": "4 months ago（检索标注；未核验原帖日期）",
+      "url": "https://www.reddit.com/r/classicalguitar/comments/1ucgkon/whats_the_point_in_dynamics/",
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1ni3gff",
+      "title": "What role did public libraries play in American society ...",
+      "subreddit": "AskHistorians",
+      "observed_url": "https://www.reddit.com/r/AskHistorians/comments/1ni3gff/what_role_did_public_libraries_play_in_american/",
+      "source_ref": "turn253search10",
+      "search_evidence": " [wordlim: 200] Published: 1.1 years ago; Crawled: 4 months ago; Content type: text/html; TIL that many public libraries eliminated late fees after finding that fines discouraged people from returning at all - and that bringing ... Read more\nWhat role did public libraries play in American society during the Great Depression, and thereafter (1920s-1940s)? What services did libraries provide? Realistically, would someone who lived in an urban area have time to go to a library for leisure? Did libraries provide classes to women during this time (stenography, sewing, etc.)? Were there formal/informal class restrictions on library attendance (race, immigration, religion, etc.)? \n\nArchived post. New comments cannot be posted and votes cannot be cast. \n\n Share   Share  \n\nSort by: \n\nBest\n\nOpen comment sort options\n\n* Best\n\n* Top\n\n* New\n\n* Controversial\n\n* Old\n\n* Q&A\n\n AutoModerator  \n\n•\n\n 9mo ago  \n\nModerator Announcement Read More » \n\nWelcome to r/AskHistorians. Please Read Our Rules before you comment in this community. Understand that rule breaking comments get removed. \n\n",
+      "topic": "大萧条时期公共图书馆的功能",
+      "tier": "high_confidence",
+      "why": "题干不满足于知道图书馆提供书，还问谁有时间进去、有哪些服务，以及进入是否受社会条件影响。这让机构史与普通人的生活相接，适合带着用户、服务、开放规则三条线阅读。不要把今天对公共图书馆的期待倒推到所有历史城市；若回答出现具体案例，可以继续核对年代、地点和材料。检索标题有截断，笔记保留可见题名并说明题干范围，不补造完整原标题或转述未经验证的收费、职业培训史。",
+      "discussion": "历史问题入口；未核验引用材料或具体机构的制度。",
+      "age": "1.1 years ago（检索标注；未核验原帖日期）",
+      "url": "https://www.reddit.com/r/AskHistorians/comments/1ni3gff/what_role_did_public_libraries_play_in_american/",
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1ryledx",
+      "title": "building 11 interior doors from contruction lumber?",
+      "subreddit": "woodworking",
+      "observed_url": "https://es.reddit.com/r/woodworking/comments/1ryledx/building_11_interior_doors_from_contruction_lumber/",
+      "source_ref": "turn243search13",
+      "search_evidence": " [wordlim: 200] Published: 7 months ago; Crawled: 4 months ago; General Discussion (self.woodworking) ... Doors really needs to be very straight and stable so what most professionals use where I live are select timber from reputable lumber dealers and not anything from a construction line of wood. ... Some are even laminating two parts where they turn one part over to have the grain working against each other to eliminate movement/cupping/twisting.\n",
+      "topic": "建筑木料能否做室内门",
+      "tier": "high_confidence",
+      "why": "同样叫木料，为什么从结构用途转为门扇，就会让要求改变？这个求助把材料选择与成品任务连起来，适合追问直、稳、尺寸一致和外观分别需要什么条件。阅读时先列出门的使用约束，再看回复区分的是含水状态、板材结构、加工过程还是来源质量。标题里的11扇也让重复制作成为问题：做成一次和稳定做出一批并不相同。本条不提供木工安全或施工参数，只推荐这种从用途反推材料标准的思考方式。",
+      "discussion": "手作个案；未核验木材等级、环境及任何施工方案。",
+      "age": "7 months ago（检索标注；未核验原帖日期）",
+      "url": "https://www.reddit.com/r/woodworking/comments/1ryledx/building_11_interior_doors_from_contruction_lumber/",
+      "original_post_verification": "not_performed_user_waived"
+    },
+    {
+      "post_id": "1t8jsco",
+      "title": "Overcrowding: how much is too much - and how do staff decide?",
+      "subreddit": "uktrains",
+      "observed_url": "https://en.reddit.com/r/uktrains/comments/1t8jsco/overcrowding_how_much_is_too_much_and_how_do/",
+      "source_ref": "turn245search26",
+      "search_evidence": " [wordlim: 200] Published: 5 months ago; Crawled: 3 months ago; According to Recent Train Times, that particular train has an on-time performance of just 37%, compared to the 69% of the previous hour's train. ... The Conservatives were in power for the last 14 years and made it clear they wouldn't be investing in the railway in any meaningful way. ... I'm not trying to solve the British rail issues with a post on Reddit, nor am I qualified, so it's bit strange to be presented with \"how would you fix it?\"\n",
+      "topic": "列车拥挤与运行判断",
+      "tier": "high_confidence",
+      "why": "什么时候“太挤”会成为运行需要处理的问题，而不只是乘客感到不舒服？这个标题适合从主观体验走向制度与操作边界。读时区分车内拥挤、站台压力、发车决策和信息沟通，不要让一种情境替代其他情境。可见摘要里的具体准点率与政治归因未核实，因此不纳入事实说明；真正值得带走的是，若要回答这个问题，还需要哪些车型、线路、规则和现场信息。它不构成任何乘车或现场处置建议。",
+      "discussion": "运营讨论入口；所有具体数字、规则与安全判断均未独立验证。",
+      "age": "5 months ago（检索标注；未核验原帖日期）",
+      "url": "https://www.reddit.com/r/uktrains/comments/1t8jsco/overcrowding_how_much_is_too_much_and_how_do/",
+      "original_post_verification": "not_performed_user_waived"
+    }
+  ],
+  "scoring_scope": "Subjective question/work editorial judgments; weights30/25/20/15/10; rejected scores left null because catalogue/search screening does not support full-work numerical quality ranking. Recent creator and concentration penalties explicitly retained.",
+  "diversity": {
+    "youtube_tiers": {
+      "high_confidence": 3,
+      "wildcard": 1,
+      "adjacent": 1
+    },
+    "reddit_tiers": {
+      "adjacent": 3,
+      "high_confidence": 5,
+      "wildcard": 2
+    },
+    "youtube_max_narrow_topic_fraction": 0.4,
+    "reddit_max_narrow_topic_fraction": 0.1,
+    "recent_creator_penalties": [
+      {
+        "id": "RMjtmsr3CqA",
+        "channel": "engineerguy",
+        "earlier": [
+          "2026-10-15",
+          "2026-10-20"
+        ]
+      },
+      {
+        "id": "d4EgbgTm0Bg",
+        "channel": "3Blue1Brown",
+        "earlier": [
+          "2026-10-16"
+        ]
+      },
+      {
+        "id": "kdDiiP8C3W0",
+        "channel": "Tasting History with Max Miller",
+        "earlier": [
+          "2026-10-20"
+        ]
+      },
+      {
+        "id": "MUiYglgGbos",
+        "channel": "SmarterEveryDay",
+        "earlier": [
+          "2026-10-15"
+        ]
+      },
+      {
+        "id": "qDwdFmU6A_w",
+        "channel": "tim hunkin",
+        "earlier": [
+          "2026-10-17"
+        ]
+      }
+    ],
+    "review": "Each list has distinct questions/works. Same creator is a penalty, not permanent block. Both days have a genuine history/culture wildcard; Reddit two expansion/wildcard questions.21st material/manufacturing entries occupy2/5 slots."
+  },
+  "source_scope": "Creator/publisher official page verification for YouTube; original exact watch/embed ID,title,identifiable maker and original explanatory content retained. No playback success claimed. Reddit original checks waived, dates not inferred from crawl dates.",
+  "source_failures_and_rejections": [
+    {
+      "candidate": "Hiromi Tiny Desk",
+      "reason": "Original text accessible on NPR affiliate but no exact original YouTube ID observed there; not selected."
+    },
+    {
+      "candidate": "Tim Hunkin GLUE",
+      "scope": "Official page/body and original embed link read through web retrieval. Browser ordinary upstream transport failure and embedded-video throttling; no full playback or displayed player-title assertion."
+    }
+  ],
+  "semantic_dedup_review": "Complete original permanent histories and all PREPARED reservations checked; normalized known title/creator plus all current historical YouTube note headings compared. Distinct exact IDs and underlying works; no reuploads/mirrors selected. Reddit titles/questions reviewed as distinct, no duplicate question selected across the two-date draft.",
+  "historical_backlog": "Pre-policy repeats and past source/format failures retained, no historical records or frozen bundles rewritten. Current source/identity gates applied with authorized Reddit waiver.",
+  "bundle_sha256": "cb60a33c6e9c97156e6957debab53aba7c5f0c5ae1048c9dc1ddcf0783a71c81",
+  "plan_sha256": "fb08363c2efc6d75c020e97f8b8b5922198f0b0b276560ea73cf35456e66254c",
+  "not_certified": [
+    "full playback/watch-through",
+    "Reddit original pages/comments under waiver",
+    "local device sync",
+    "notification delivery"
+  ],
+  "status": "passed_current_publication_checks",
+  "qa_recorded_at_utc": "2026-10-21T03:34:16.819248+00:00",
+  "publication_execution": {
+    "schema_version": 1,
+    "operation_id": "news-youtube-reddit:2026-10-21",
+    "recorded_at_utc": "2026-10-21T03:32:52.990Z",
+    "stage": "publication_read_back",
+    "creation_commit": "8c0757a50ef50acdff509846c4194b93a78ed11f",
+    "prepared_blob_sha": "45f6a1e67ca3dabf31ddcf75d64fe34b403f1798",
+    "original_bundle_sha256": "cb60a33c6e9c97156e6957debab53aba7c5f0c5ae1048c9dc1ddcf0783a71c81",
+    "original_plan_sha256": "fb08363c2efc6d75c020e97f8b8b5922198f0b0b276560ea73cf35456e66254c",
+    "errors": [],
+    "publication_commit": "dc7e4a6579817759c463cb4c18239bc9cefa51fd",
+    "readbacks": [
+      {
+        "path": "News/Daily/2026-10-21.md",
+        "sha": "dbb492ed4ad5f5df09758e11c9b14cb42ef3dbc7",
+        "complete_payload_match": true
+      },
+      {
+        "path": "Resources/YouTube/Daily/2026-10-21.md",
+        "sha": "22d609a8de348465dc35dee76005ab5be0763077",
+        "complete_payload_match": true
+      },
+      {
+        "path": "Resources/Reddit/Daily/2026-10-21.md",
+        "sha": "3a74791020fb00aed562a8fed3975582d29f7214",
+        "complete_payload_match": true
+      },
+      {
+        "path": ".recommendation/history/youtube.jsonl",
+        "sha": "c30c8301f71894564ab9f6d1b1af5310f3a56927",
+        "complete_payload_match": true
+      },
+      {
+        "path": ".recommendation/history/reddit.jsonl",
+        "sha": "d1859eb020a8cc1e832768a4829bf92d874c4996",
+        "complete_payload_match": true
+      }
+    ]
+  },
+  "ci": {
+    "run_id": 39539209798,
+    "head_sha": "dc7e4a6579817759c463cb4c18239bc9cefa51fd",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/39539209798",
+    "workflow_path": ".github/workflows/recommendation-health.yml",
+    "jobs": [
+      {
+        "name": "validate",
+        "conclusion": "success",
+        "status": "completed",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1,
+            "started_at": "2026-10-21T03:33:18Z",
+            "completed_at": "2026-10-21T03:33:19Z"
+          },
+          {
+            "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2,
+            "started_at": "2026-10-21T03:33:19Z",
+            "completed_at": "2026-10-21T03:33:20Z"
+          },
+          {
+            "name": "Validate publications and full source-history coverage",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3,
+            "started_at": "2026-10-21T03:33:20Z",
+            "completed_at": "2026-10-21T03:33:20Z"
+          },
+          {
+            "name": "Negative regressions and interrupted-publication recovery",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4,
+            "started_at": "2026-10-21T03:33:20Z",
+            "completed_at": "2026-10-21T03:33:21Z"
+          },
+          {
+            "name": "Compare permanent history with the actual base commit",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5,
+            "started_at": "2026-10-21T03:33:21Z",
+            "completed_at": "2026-10-21T03:33:21Z"
+          },
+          {
+            "name": "Record scope of checks",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 6,
+            "started_at": "2026-10-21T03:33:21Z",
+            "completed_at": "2026-10-21T03:33:21Z"
+          },
+          {
+            "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 12,
+            "started_at": "2026-10-21T03:33:21Z",
+            "completed_at": "2026-10-21T03:33:21Z"
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 13,
+            "started_at": "2026-10-21T03:33:21Z",
+            "completed_at": "2026-10-21T03:33:21Z"
+          }
+        ]
+      }
+    ]
+  },
+  "post_write_qa": {
+    "counts": {
+      "youtube": {
+        "selected": 5,
+        "original_history_rows": 205,
+        "final_history_rows": 210,
+        "ordered_ids": [
+          "RMjtmsr3CqA",
+          "d4EgbgTm0Bg",
+          "kdDiiP8C3W0",
+          "MUiYglgGbos",
+          "qDwdFmU6A_w"
+        ],
+        "exact_once": true,
+        "fresh_against_original_history": true
+      },
+      "reddit": {
+        "selected": 10,
+        "original_history_rows": 390,
+        "final_history_rows": 400,
+        "ordered_ids": [
+          "1q4w5vr",
+          "zco48n",
+          "1nw2zbu",
+          "1g4bdqd",
+          "1dv26v9",
+          "1midblp",
+          "1ucgkon",
+          "1ni3gff",
+          "1ryledx",
+          "1t8jsco"
+        ],
+        "exact_once": true,
+        "fresh_against_original_history": true
+      }
+    },
+    "news_stories": 3,
+    "complete_artifact_readbacks": [
+      {
+        "path": "News/Daily/2026-10-21.md",
+        "sha": "dbb492ed4ad5f5df09758e11c9b14cb42ef3dbc7",
+        "byte_equal_frozen_payload": true
+      },
+      {
+        "path": "Resources/YouTube/Daily/2026-10-21.md",
+        "sha": "22d609a8de348465dc35dee76005ab5be0763077",
+        "byte_equal_frozen_payload": true
+      },
+      {
+        "path": "Resources/Reddit/Daily/2026-10-21.md",
+        "sha": "3a74791020fb00aed562a8fed3975582d29f7214",
+        "byte_equal_frozen_payload": true
+      },
+      {
+        "path": ".recommendation/history/youtube.jsonl",
+        "sha": "c30c8301f71894564ab9f6d1b1af5310f3a56927",
+        "byte_equal_frozen_payload": true
+      },
+      {
+        "path": ".recommendation/history/reddit.jsonl",
+        "sha": "d1859eb020a8cc1e832768a4829bf92d874c4996",
+        "byte_equal_frozen_payload": true
+      }
+    ],
+    "planner": {
+      "operation_id": "news-youtube-reddit:2026-10-21",
+      "plan_sha256": "fb08363c2efc6d75c020e97f8b8b5922198f0b0b276560ea73cf35456e66254c",
+      "status": "artifacts_match",
+      "next_stage": null,
+      "decisions": [
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "News/Daily/2026-10-21.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "dbb492ed4ad5f5df09758e11c9b14cb42ef3dbc7"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Resources/YouTube/Daily/2026-10-21.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "22d609a8de348465dc35dee76005ab5be0763077"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Resources/Reddit/Daily/2026-10-21.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "3a74791020fb00aed562a8fed3975582d29f7214"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/youtube.jsonl",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "d2f8389be4f9aaea9892a52b0098fcf2fde9ebb6",
+          "target_sha": "c30c8301f71894564ab9f6d1b1af5310f3a56927"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/reddit.jsonl",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "4fc603c4f836bc0db517fd2ef6215f8323ab9c45",
+          "target_sha": "d1859eb020a8cc1e832768a4829bf92d874c4996"
+        }
+      ],
+      "content_qa": "not_evaluated",
+      "github_writes_performed": 0
+    },
+    "scoped_repository_checks": {
+      "youtube_validator": 185,
+      "reddit_validator": 370,
+      "prepared_journal": {
+        "status": "passed_immutable_publication_bundles",
+        "bundles": 21,
+        "base_ref": null,
+        "content_qa": "not_evaluated"
+      }
+    },
+    "editorial": "Separate post-write review: all final first-party source identities/content observations match; required fields/Chinese substantive reasons,decision tasks and versions/scopes inspected. Reddit assessments stay at search-information scope and unobserved dates remain unknown.Three dated durable news stories with facts/analysis separated and no post-cutoff event inserted.",
+    "semantic": "Distinct works/questions, original title+creator history/known mirror review; later date excluded all earlier dated recommendations. No claim of automated semantic proof.",
+    "scope": "Separate post-write phase, not a different human/model audit. Local code validators cover materialized files; exact publication-commit CI covers current full Git history and base-ref checks. Device synchronization/notifications remain unverified."
+  },
+  "news_source_verification": [
+    {
+      "source_url": "https://gbcode.rthk.hk/TuniS/news.rthk.hk/rthk/en/component/k2/1874617-20261020.htm",
+      "title": "Apec members urged to ensure stability, resilience",
+      "observed_at_utc": "2026-10-21T03:33:46.744Z",
+      "event_publication_time": "2026-10-20T15:49:00+08:00",
+      "observations": "Full RTHK report read. Opening remarks/four priorities; discussions continue20–21 and consensus not yet established at cutoff.",
+      "source_ref": "turn264view0"
+    },
+    {
+      "source_url": "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/",
+      "title": "The Human Fingerprint on Earth’s Water Cycle",
+      "observed_at_utc": "2026-10-21T03:34:18.790Z",
+      "publication_date": "2026-10-20",
+      "observations": "Complete article read before freeze and again on one bounded reread:2002-04–2025-11 GRACE series,5–10x spatial detail with temporal-detail tradeoff,40 associated regions. PNAS study not asserted as newly published20th.",
+      "source_refs": [
+        "turn250view1",
+        "turn265view0"
+      ],
+      "retry_record": {
+        "first_direct_reread": "Tool returned URL not accessible; no HTTP status or rate metadata exposed. Original complete source remained available.",
+        "bounded_retry": "Existing original source reference reread returned full actual article; no route/fingerprint/network changes."
+      }
+    },
+    {
+      "source_url": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
+      "title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
+      "observed_at_utc": "2026-10-21T03:33:46.744Z",
+      "publication_date": "2026-10-20",
+      "observations": "Full NASA article identifies Sierra Lobo closed Brayton conversion and INL reactor integration; late2028 planned launch not accomplished. Original page related-content index showed7–9 hours earlier during03UTC21st checks, before00:30UTC cutoff. No invented exact release minute.",
+      "source_refs": [
+        "turn248view0",
+        "turn264view2"
+      ]
+    }
+  ],
+  "current_validator_run": {
+    "command": "python scripts/validate_daily_recommendations.py",
+    "exit_code": 0,
+    "result": "youtube185 reddit370 english37 music185 strict-policy entries in materialized snapshot; exact current full Git snapshot separately covered by publication-commit CI"
+  }
+}
