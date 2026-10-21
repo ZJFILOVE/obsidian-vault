@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-10-21",
+  "attempt": "20261021T013613Z-prepared",
+  "recorded_at_utc": "2026-10-21T01:36:13Z",
+  "stage": "prepared_persisted_and_read_back",
+  "prepared_path": ".recommendation/transactions/music/2026-10-21.json",
+  "creation_commit": "87091130ff2dc7c7a32ea78d4ea3d4280152188e",
+  "prepared_blob_sha": "9fd9fd77b01d7eaff0cd0f08e08954bf1bd270e2",
+  "original_bundle_sha256": "9bbf8e1c0f6e44008b94f0b9b81156ea8e03a77b2fe1e2c1ff3c12d5059c0963",
+  "original_plan_sha256": "8e88b0ae8f5a6139ee98f7c030e09e8bcc7522a5b1cd1348b640358d562b7edc",
+  "publication_writes": 0,
+  "errors": []
+}
