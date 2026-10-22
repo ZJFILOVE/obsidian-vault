@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-22",
+  "attempt_id": "20261022T000316Z-prepared",
+  "recorded_at_utc": "20261022T000316Z",
+  "stage": "prepared",
+  "prepared_path": ".recommendation/transactions/english/2026-10-22.json",
+  "prepared_creation_commit": "eb89bc1014bb515597feebef609966c6d332b595",
+  "original_bundle_sha256": "a485356cdbe2f5921d900bc41c9646ac9405346d65ec65c4886e1edaba8555f6",
+  "original_plan_sha256": "0b924e7417cd76bc3f339260e198921adba0534aa08ca3409871e1fc38cf9855",
+  "prepared_blob_sha": "6c51912005695b8f7eb98380ad779c32636a5606",
+  "readback_exact": true,
+  "fresh_target_observations": {
+    "50-courses/English/Daily/2026-10-22.md": {
+      "status": "missing",
+      "confirmed": true
+    },
+    "50-courses/English/Translation/2026-10-22.md": {
+      "status": "missing",
+      "confirmed": true
+    },
+    "50-courses/English/Vocabulary/2026-10-22.md": {
+      "status": "missing",
+      "confirmed": true
+    },
+    ".recommendation/history/english.jsonl": {
+      "status": "ok",
+      "sha": "6f0c113da5f2b37d456f4499a808579c9ab818a3"
+    }
+  },
+  "planner_status": "ready_to_resume",
+  "next_stage": 1,
+  "content_qa": "not_evaluated",
+  "github_writes_performed": 1
+}
