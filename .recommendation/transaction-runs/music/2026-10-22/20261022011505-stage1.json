@@ -1,0 +1,22 @@
+{
+  "operation_id": "music:2026-10-22",
+  "recorded_at": "2026-10-22 01:15:05 UTC",
+  "original_bundle_sha256": "a7198c741a870c2cd6d6b37435c54b54cd07ff931a7aa54135e63beaa04863a7",
+  "prepared_creation_commit": "31548b841b92e2d9333a273aff05eac33fb3899c",
+  "stage": 1,
+  "parent": "70320465742d283704e440b770495b1481d2ef25",
+  "commit": "6b6414987b9024f70f2d1911064bf6ac684cba5d",
+  "readbacks": [
+    {
+      "path": "recommendations/2026/10/2026-10-22.json",
+      "sha": "1c2c2b36491baf68396d30660ce3a3885e4c32c9",
+      "complete_byte_equal": true
+    },
+    {
+      "path": "state/tracks.json",
+      "sha": "b18474ea9183dd12c295bf3de172e1149e2c66b7",
+      "complete_byte_equal": true
+    }
+  ],
+  "errors": []
+}
