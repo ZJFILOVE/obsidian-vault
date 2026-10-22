@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-10-22",
+  "recorded_at_utc": "2026-10-22 00:47:37 UTC",
+  "status": "prepared_read_back",
+  "prepared_creation_commit": "8d7e92503715efe1ba0d211dee50bfd86c5aee80",
+  "prepared_blob_sha": "2d6f73ec8318c1a8fd2234ed36780fdf9ff9b281",
+  "original_bundle_sha256": "b687fc10ebf4a205fe6f826a8a970e4500503f8c34b07dc1798df81e53153773",
+  "original_plan_sha256": "e211905d62721567b7d0a416d3881343ab762309a1dcac8125817e056adeb523",
+  "payloads_read_back_exact": true,
+  "original_head": "24fdcb351a2c8ebc3cb1137a2c5d5bba6ee89cce",
+  "original_histories": {
+    "youtube": {
+      "rows": 210,
+      "sha": "c30c8301f71894564ab9f6d1b1af5310f3a56927"
+    },
+    "reddit": {
+      "rows": 400,
+      "sha": "d1859eb020a8cc1e832768a4829bf92d874c4996"
+    }
+  },
+  "fresh_observations": {
+    "ZJFILOVE/obsidian-vault:News/Daily/2026-10-22.md": {
+      "status": "missing",
+      "confirmed": true
+    },
+    "ZJFILOVE/obsidian-vault:Resources/YouTube/Daily/2026-10-22.md": {
+      "status": "missing",
+      "confirmed": true
+    },
+    "ZJFILOVE/obsidian-vault:Resources/Reddit/Daily/2026-10-22.md": {
+      "status": "missing",
+      "confirmed": true
+    },
+    "ZJFILOVE/obsidian-vault:.recommendation/history/youtube.jsonl": {
+      "status": "ok",
+      "sha": "c30c8301f71894564ab9f6d1b1af5310f3a56927"
+    },
+    "ZJFILOVE/obsidian-vault:.recommendation/history/reddit.jsonl": {
+      "status": "ok",
+      "sha": "d1859eb020a8cc1e832768a4829bf92d874c4996"
+    }
+  },
+  "content_qa": "not_evaluated"
+}
