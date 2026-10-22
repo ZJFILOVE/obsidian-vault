@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-22",
+  "attempt_id": "20261022T000529Z-complete",
+  "recorded_at_utc": "20261022T000529Z",
+  "status": "completed_and_qa_read_back",
+  "original_bundle_sha256": "a485356cdbe2f5921d900bc41c9646ac9405346d65ec65c4886e1edaba8555f6",
+  "original_plan_sha256": "0b924e7417cd76bc3f339260e198921adba0534aa08ca3409871e1fc38cf9855",
+  "prepared": {
+    "commit": "eb89bc1014bb515597feebef609966c6d332b595",
+    "blob_sha": "6c51912005695b8f7eb98380ad779c32636a5606",
+    "readback_exact": true,
+    "identity_receipt_commit": "823421725a9966cdbfdcc3bff12ee8a1bed09252"
+  },
+  "publication": {
+    "commit": "cd15b668c2212e9da1f4ad70373667c8d772391c",
+    "parent": "823421725a9966cdbfdcc3bff12ee8a1bed09252",
+    "tree": "dd751b286d650a3cdc2ceb5c5807cb63ba76f0b8",
+    "expected_head_lease_matched": true,
+    "force": false
+  },
+  "readbacks": {
+    "50-courses/English/Daily/2026-10-22.md": "404c5da854400af38b164fe1509b0f90e7b637b3",
+    "50-courses/English/Translation/2026-10-22.md": "b9fe96475fddaf8fdeeb3a2d8f668cc235fce8ee",
+    "50-courses/English/Vocabulary/2026-10-22.md": "2b232493c1b522337aac95df4cb6f384c2ada204",
+    ".recommendation/history/english.jsonl": "6b15ca0b48690700e44db3bc679b9af4240f7ee7"
+  },
+  "history": {
+    "before_rows": 44,
+    "after_rows": 45,
+    "original_prefix_preserved": true,
+    "exact_once": true
+  },
+  "qa": {
+    "path": ".recommendation/runs/2026-10-22-english.json",
+    "creation_commit": "471709ab98cd380e705eda2b257b53dc071706a5",
+    "blob_sha": "d54ff55520a80eb64181b84c4ccc53082b719d43",
+    "readback_exact": true,
+    "status": "passed_current_english_publication_checks"
+  },
+  "ci": {
+    "run_id": 39697348901,
+    "head_sha": "cd15b668c2212e9da1f4ad70373667c8d772391c",
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "errors": [
+    {
+      "scope": "candidate_research",
+      "classification": "web_retrieval_internal_error",
+      "target": "https://invention.si.edu/invention-stories/documenting-invention-digital-age",
+      "action": "candidate rejected as unverified; no retry used to lower source standards"
+    },
+    {
+      "scope": "local_validation_invocation",
+      "classification": "configuration_error",
+      "detail": "Initial unittest command omitted PYTHONPATH=scripts; corrected invocation executed 104 tests successfully."
+    },
+    {
+      "scope": "local_bundle_journal_invocation",
+      "classification": "guard_rejection",
+      "detail": "Initial command supplied both bundle and --journal-root; corrected journal-only command passed."
+    }
+  ],
+  "writes": {
+    "prepared_create": 1,
+    "prepared_identity_receipt": 1,
+    "publication_atomic_commit": 1,
+    "qa_create": 1,
+    "completion_receipt_create": 1
+  },
+  "not_certified": [
+    "empirical learning outcomes",
+    "all linked source accessibility",
+    "device synchronization",
+    "notification delivery"
+  ]
+}
