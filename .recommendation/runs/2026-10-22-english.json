@@ -15,7 +15,15 @@
       6,
       9
     ],
-    "official_duration": null
+    "official_duration": null,
+    "post_write_recheck": {
+      "performed": true,
+      "source_ref": "turn270view0",
+      "title_and_canonical_url_match": true,
+      "page_body_still_accessible": true,
+      "total_lines_observed": 460,
+      "scope": "Re-opened the same canonical NOAA Fisheries source after publication; main page remained readable. Linked materials and device-specific playback were not tested."
+    }
   },
   "selection": {
     "candidate_count": 8,
@@ -49,10 +57,10 @@
         "estimated_minutes": "3-4",
         "scores": [
           4.5,
-          4.0,
+          4,
           4.7,
           4.4,
-          4.0
+          4
         ],
         "penalties": {
           "too_short_for_target": 0.35,
@@ -75,7 +83,7 @@
           4.4,
           4.6,
           4.2,
-          4.0,
+          4,
           4.4
         ],
         "penalties": {
@@ -143,7 +151,7 @@
         "estimated_minutes": "2-3",
         "scores": [
           4.4,
-          4.0,
+          4,
           4.4,
           4.2,
           3.9
@@ -197,7 +205,7 @@
           null
         ],
         "penalties": {
-          "unverified_full_source": 1.0,
+          "unverified_full_source": 1,
           "recent_publisher": 0.2
         },
         "decision": "rejected",
