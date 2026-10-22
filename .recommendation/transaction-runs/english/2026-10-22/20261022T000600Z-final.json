@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-22",
+  "attempt_id": "20261022T000600Z-final",
+  "recorded_at_utc": "20261022T000600Z",
+  "status": "completed_all_current_publication_gates_passed",
+  "supersedes_completion_receipt": ".recommendation/transaction-runs/english/2026-10-22/20261022T000529Z-complete.json",
+  "immutable_bundle_sha256": "a485356cdbe2f5921d900bc41c9646ac9405346d65ec65c4886e1edaba8555f6",
+  "publication_commit": "cd15b668c2212e9da1f4ad70373667c8d772391c",
+  "source_post_write_recheck": {
+    "ref": "turn270view0",
+    "title_and_url_match": true,
+    "page_body_accessible": true,
+    "total_lines_observed": 460
+  },
+  "qa": {
+    "path": ".recommendation/runs/2026-10-22-english.json",
+    "final_commit": "4069ff4ebd566c3433eccb437cb89aba55b1df69",
+    "final_blob_sha": "0469640e90db565bf46a7d45737389df67c58522",
+    "readback_exact": true
+  },
+  "all_four_frozen_target_readbacks_exact": true,
+  "history_exact_once": true,
+  "repository_validators_passed": true,
+  "unit_tests_passed": 104,
+  "ci": {
+    "run_id": 39697348901,
+    "head_sha": "cd15b668c2212e9da1f4ad70373667c8d772391c",
+    "conclusion": "success"
+  },
+  "not_certified": [
+    "empirical learning outcomes",
+    "all linked source accessibility",
+    "device synchronization",
+    "notification delivery"
+  ]
+}
