@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-10-22",
+  "status": "completed_verified",
+  "recorded_at": "2026-10-22 01:18:36 UTC",
+  "prepared_creation_commit": "31548b841b92e2d9333a273aff05eac33fb3899c",
+  "original_bundle_sha256": "a7198c741a870c2cd6d6b37435c54b54cd07ff931a7aa54135e63beaa04863a7",
+  "original_plan_sha256": "b4e4c44b2184e2fe35d1772a9dc5c38268d0039aadb0e60de181d073ed8a8a7d",
+  "prepared_final_readback_sha": "9ac12b8012bf7fa243028e5bf75bd2132c084364",
+  "publication_commits": {
+    "music_daily": "6b6414987b9024f70f2d1911064bf6ac684cba5d",
+    "obsidian_vault": "73d43b1e95dcaa61ea95b4ab62d65dd4e590d4fe"
+  },
+  "readbacks": [
+    {
+      "repository": "ZJFILOVE/music-daily",
+      "path": "recommendations/2026/10/2026-10-22.json",
+      "sha": "1c2c2b36491baf68396d30660ce3a3885e4c32c9",
+      "complete_byte_equal_frozen": true
+    },
+    {
+      "repository": "ZJFILOVE/music-daily",
+      "path": "state/tracks.json",
+      "sha": "b18474ea9183dd12c295bf3de172e1149e2c66b7",
+      "complete_byte_equal_frozen": true
+    },
+    {
+      "repository": "ZJFILOVE/obsidian-vault",
+      "path": "Music/Daily/2026-10-22.md",
+      "sha": "fe12152690b1f625777122c7aa3aac3e6f156d37",
+      "complete_byte_equal_frozen": true
+    },
+    {
+      "repository": "ZJFILOVE/obsidian-vault",
+      "path": "Music/Daily/manifests/2026-10-22.json",
+      "sha": "1c2c2b36491baf68396d30660ce3a3885e4c32c9",
+      "complete_byte_equal_frozen": true
+    },
+    {
+      "repository": "ZJFILOVE/obsidian-vault",
+      "path": "Music/Daily/state/tracks.json",
+      "sha": "b18474ea9183dd12c295bf3de172e1149e2c66b7",
+      "complete_byte_equal_frozen": true
+    }
+  ],
+  "qa": {
+    "path": ".recommendation/runs/2026-10-22-music.json",
+    "commit": "85f19c7fbb78ba62a81787a0bc7dd451805bda7e",
+    "readback_sha": "463b9388f2ba1194d318cb4c184fc6eeb249b852",
+    "complete_byte_equal": true,
+    "status": "passed_current_publication_checks"
+  },
+  "checks": {
+    "candidate_count": 39,
+    "final_tracks": 5,
+    "source_identity": "five actual exact CN song pages; title/artist/album/song_id match",
+    "freshness": "original 228-entry preselection state + 44 historical manifests + all23 earlier PREPARED bundles; no exact/normalized/same-recording repeat",
+    "state": "233 entries; all228priorvalues preserved;8retired exposures retained",
+    "readbacks": "all5complete",
+    "mirrors": "45 manifests and both states; complete pinned nonrecursive Git trees recomputed and stable heads",
+    "local_tests": {
+      "vault": 119,
+      "music_daily": 14
+    },
+    "bundle_planner": "artifacts_match",
+    "actual_ci": [
+      {
+        "repository": "music-daily",
+        "head": "6b6414987b9024f70f2d1911064bf6ac684cba5d",
+        "run_id": 39704558065,
+        "url": "https://github.com/ZJFILOVE/music-daily/actions/runs/39704558065",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "repository": "obsidian-vault",
+        "head": "73d43b1e95dcaa61ea95b4ab62d65dd4e590d4fe",
+        "run_id": 39704627953,
+        "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/39704627953",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "ci_history_scope": "music full Git union233exposures; vault append-only actualbase passed"
+  },
+  "not_certified": [
+    "full audio audition",
+    "personal-account playback",
+    "device synchronization",
+    "notification delivery"
+  ],
+  "errors": "Research/local report issues recorded in QA; no GitHub mutation errors."
+}
