@@ -1,0 +1,3761 @@
+{
+  "operation_id": "music:2026-10-22",
+  "mode": "new_generation",
+  "recorded_at": "2026-10-22T01:17:24.665751+00:00",
+  "preflight_heads": [
+    {
+      "repo": "obsidian-vault",
+      "branch": {
+        "name": "main",
+        "commit": {
+          "sha": "fdd27e66c3c8f55c85d59d78695a8f175e19504c",
+          "node_id": "C_kwDOUMOAQdoAKGZkZDI3ZTY2YzNjOGY1NWM4NWQ1OWQ3ODY5NWE4ZjE3NWUxOTUwNGM",
+          "commit": {
+            "author": {
+              "name": "ZJFILOVE",
+              "email": "zhujunfeng07@gmail.com",
+              "date": "2026-10-22T00:51:42Z"
+            },
+            "committer": {
+              "name": "ZJFILOVE",
+              "email": "zhujunfeng07@gmail.com",
+              "date": "2026-10-22T00:51:42Z"
+            },
+            "message": "Record completed news YouTube Reddit attempt 2026-10-22",
+            "tree": {
+              "sha": "459b864f6a1243c083183a1e4c4c994a7d6fdb82",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/459b864f6a1243c083183a1e4c4c994a7d6fdb82"
+            },
+            "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/commits/fdd27e66c3c8f55c85d59d78695a8f175e19504c",
+            "comment_count": 0,
+            "verification": {
+              "verified": false,
+              "reason": "unsigned",
+              "signature": null,
+              "payload": null,
+              "verified_at": null
+            }
+          },
+          "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/commits/fdd27e66c3c8f55c85d59d78695a8f175e19504c",
+          "html_url": "https://github.com/ZJFILOVE/obsidian-vault/commit/fdd27e66c3c8f55c85d59d78695a8f175e19504c",
+          "comments_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/commits/fdd27e66c3c8f55c85d59d78695a8f175e19504c/comments",
+          "author": {
+            "login": "ZJFILOVE",
+            "id": 187031297,
+            "node_id": "U_kgDOCyXfAQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ZJFILOVE",
+            "html_url": "https://github.com/ZJFILOVE",
+            "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+            "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+            "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+            "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+            "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "committer": {
+            "login": "ZJFILOVE",
+            "id": 187031297,
+            "node_id": "U_kgDOCyXfAQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ZJFILOVE",
+            "html_url": "https://github.com/ZJFILOVE",
+            "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+            "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+            "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+            "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+            "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "parents": [
+            {
+              "sha": "e39783544c7fee1f30c10d353699514b8b1d2cf1",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/commits/e39783544c7fee1f30c10d353699514b8b1d2cf1",
+              "html_url": "https://github.com/ZJFILOVE/obsidian-vault/commit/e39783544c7fee1f30c10d353699514b8b1d2cf1"
+            }
+          ]
+        },
+        "_links": {
+          "self": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/branches/main",
+          "html": "https://github.com/ZJFILOVE/obsidian-vault/tree/main"
+        },
+        "protected": false,
+        "protection": {
+          "enabled": false,
+          "required_status_checks": {
+            "enforcement_level": "off",
+            "contexts": [],
+            "checks": []
+          }
+        },
+        "protection_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/branches/main/protection"
+      }
+    },
+    {
+      "repo": "music-daily",
+      "branch": {
+        "name": "main",
+        "commit": {
+          "sha": "70320465742d283704e440b770495b1481d2ef25",
+          "node_id": "C_kwDOUN9GidoAKDcwMzIwNDY1NzQyZDI4MzcwNGU0NDBiNzcwNDk1YjE0ODFkMmVmMjU",
+          "commit": {
+            "author": {
+              "name": "ZJFILOVE",
+              "email": "zhujunfeng07@gmail.com",
+              "date": "2026-10-21T01:37:00Z"
+            },
+            "committer": {
+              "name": "ZJFILOVE",
+              "email": "zhujunfeng07@gmail.com",
+              "date": "2026-10-21T01:37:00Z"
+            },
+            "message": "Publish Apple Music Daily 5 for 2026-10-21 with permanent history",
+            "tree": {
+              "sha": "d04c84458f98cfc4fcac6169f41c320fca55089e",
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/d04c84458f98cfc4fcac6169f41c320fca55089e"
+            },
+            "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/commits/70320465742d283704e440b770495b1481d2ef25",
+            "comment_count": 0,
+            "verification": {
+              "verified": false,
+              "reason": "unsigned",
+              "signature": null,
+              "payload": null,
+              "verified_at": null
+            }
+          },
+          "url": "https://api.github.com/repos/ZJFILOVE/music-daily/commits/70320465742d283704e440b770495b1481d2ef25",
+          "html_url": "https://github.com/ZJFILOVE/music-daily/commit/70320465742d283704e440b770495b1481d2ef25",
+          "comments_url": "https://api.github.com/repos/ZJFILOVE/music-daily/commits/70320465742d283704e440b770495b1481d2ef25/comments",
+          "author": {
+            "login": "ZJFILOVE",
+            "id": 187031297,
+            "node_id": "U_kgDOCyXfAQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ZJFILOVE",
+            "html_url": "https://github.com/ZJFILOVE",
+            "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+            "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+            "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+            "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+            "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "committer": {
+            "login": "ZJFILOVE",
+            "id": 187031297,
+            "node_id": "U_kgDOCyXfAQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ZJFILOVE",
+            "html_url": "https://github.com/ZJFILOVE",
+            "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+            "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+            "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+            "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+            "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "parents": [
+            {
+              "sha": "d2062dd44ca244bdde2cfd585102843c59192df1",
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/commits/d2062dd44ca244bdde2cfd585102843c59192df1",
+              "html_url": "https://github.com/ZJFILOVE/music-daily/commit/d2062dd44ca244bdde2cfd585102843c59192df1"
+            }
+          ]
+        },
+        "_links": {
+          "self": "https://api.github.com/repos/ZJFILOVE/music-daily/branches/main",
+          "html": "https://github.com/ZJFILOVE/music-daily/tree/main"
+        },
+        "protected": false,
+        "protection": {
+          "enabled": false,
+          "required_status_checks": {
+            "enforcement_level": "off",
+            "contexts": [],
+            "checks": []
+          }
+        },
+        "protection_url": "https://api.github.com/repos/ZJFILOVE/music-daily/branches/main/protection"
+      }
+    }
+  ],
+  "preflight": {
+    "verified_complete_blobs": 174,
+    "complete_state_before_entries": 228,
+    "historical_manifest_count": 44,
+    "historical_manifest_tracks": 220,
+    "retired_exposures_preserved": 8,
+    "all_prepared_reservations_read": [
+      ".recommendation/transactions/english/2026-10-15.json",
+      ".recommendation/transactions/english/2026-10-16.json",
+      ".recommendation/transactions/english/2026-10-17.json",
+      ".recommendation/transactions/english/2026-10-18.json",
+      ".recommendation/transactions/english/2026-10-19.json",
+      ".recommendation/transactions/english/2026-10-20.json",
+      ".recommendation/transactions/english/2026-10-21.json",
+      ".recommendation/transactions/english/2026-10-22.json",
+      ".recommendation/transactions/music/2026-10-15.json",
+      ".recommendation/transactions/music/2026-10-16.json",
+      ".recommendation/transactions/music/2026-10-17.json",
+      ".recommendation/transactions/music/2026-10-18.json",
+      ".recommendation/transactions/music/2026-10-19.json",
+      ".recommendation/transactions/music/2026-10-20.json",
+      ".recommendation/transactions/music/2026-10-21.json",
+      ".recommendation/transactions/news-youtube-reddit/2026-10-15.json",
+      ".recommendation/transactions/news-youtube-reddit/2026-10-16.json",
+      ".recommendation/transactions/news-youtube-reddit/2026-10-17.json",
+      ".recommendation/transactions/news-youtube-reddit/2026-10-18.json",
+      ".recommendation/transactions/news-youtube-reddit/2026-10-19.json",
+      ".recommendation/transactions/news-youtube-reddit/2026-10-20.json",
+      ".recommendation/transactions/news-youtube-reddit/2026-10-21.json",
+      ".recommendation/transactions/news-youtube-reddit/2026-10-22.json"
+    ],
+    "all_mirrors_byte_equal_before": true,
+    "dated_targets_confirmed_absent_in_complete_pinned_trees": true
+  },
+  "candidate_count": 39,
+  "candidate_pool": [
+    {
+      "song_id": "1717829354",
+      "title": "Opus",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717829354",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact song IDs/title/artist/album observed on actual rendered official CN album. Not individual-source verification or full audition for rejected tracks.",
+      "decision": "rejected",
+      "reason": "钢琴只留一个名额；Aqua的完整旋律与句尾共鸣适合衔接长篇合奏。同一艺人其他曲目留待以后，不据目录信息假装逐曲试听或评价质量。",
+      "scores": null
+    },
+    {
+      "song_id": "1717829844",
+      "title": "Sonatine",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717829844",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact song IDs/title/artist/album observed on actual rendered official CN album. Not individual-source verification or full audition for rejected tracks.",
+      "decision": "rejected",
+      "reason": "钢琴只留一个名额；Aqua的完整旋律与句尾共鸣适合衔接长篇合奏。同一艺人其他曲目留待以后，不据目录信息假装逐曲试听或评价质量。",
+      "scores": null
+    },
+    {
+      "song_id": "1717829852",
+      "title": "Intermezzo",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717829852",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact song IDs/title/artist/album observed on actual rendered official CN album. Not individual-source verification or full audition for rejected tracks.",
+      "decision": "rejected",
+      "reason": "钢琴只留一个名额；Aqua的完整旋律与句尾共鸣适合衔接长篇合奏。同一艺人其他曲目留待以后，不据目录信息假装逐曲试听或评价质量。",
+      "scores": null
+    },
+    {
+      "song_id": "1717829859",
+      "title": "Lorenz and watson",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717829859",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact song IDs/title/artist/album observed on actual rendered official CN album. Not individual-source verification or full audition for rejected tracks.",
+      "decision": "rejected",
+      "reason": "钢琴只留一个名额；Aqua的完整旋律与句尾共鸣适合衔接长篇合奏。同一艺人其他曲目留待以后，不据目录信息假装逐曲试听或评价质量。",
+      "scores": null
+    },
+    {
+      "song_id": "1717830140",
+      "title": "Choral No. 1",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717830140",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact song IDs/title/artist/album observed on actual rendered official CN album. Not individual-source verification or full audition for rejected tracks.",
+      "decision": "rejected",
+      "reason": "钢琴只留一个名额；Aqua的完整旋律与句尾共鸣适合衔接长篇合奏。同一艺人其他曲目留待以后，不据目录信息假装逐曲试听或评价质量。",
+      "scores": null
+    },
+    {
+      "song_id": "1717830147",
+      "title": "Choral No. 2",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717830147",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact song IDs/title/artist/album observed on actual rendered official CN album. Not individual-source verification or full audition for rejected tracks.",
+      "decision": "rejected",
+      "reason": "钢琴只留一个名额；Aqua的完整旋律与句尾共鸣适合衔接长篇合奏。同一艺人其他曲目留待以后，不据目录信息假装逐曲试听或评价质量。",
+      "scores": null
+    },
+    {
+      "song_id": "1717830156",
+      "title": "Do bacteria sleep?",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717830156",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact song IDs/title/artist/album observed on actual rendered official CN album. Not individual-source verification or full audition for rejected tracks.",
+      "decision": "rejected",
+      "reason": "钢琴只留一个名额；Aqua的完整旋律与句尾共鸣适合衔接长篇合奏。同一艺人其他曲目留待以后，不据目录信息假装逐曲试听或评价质量。",
+      "scores": null
+    },
+    {
+      "song_id": "1717830162",
+      "title": "Bachata",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717830162",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact song IDs/title/artist/album observed on actual rendered official CN album. Not individual-source verification or full audition for rejected tracks.",
+      "decision": "rejected",
+      "reason": "钢琴只留一个名额；Aqua的完整旋律与句尾共鸣适合衔接长篇合奏。同一艺人其他曲目留待以后，不据目录信息假装逐曲试听或评价质量。",
+      "scores": null
+    },
+    {
+      "song_id": "1717830439",
+      "title": "Chanson",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717830439",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact song IDs/title/artist/album observed on actual rendered official CN album. Not individual-source verification or full audition for rejected tracks.",
+      "decision": "rejected",
+      "reason": "钢琴只留一个名额；Aqua的完整旋律与句尾共鸣适合衔接长篇合奏。同一艺人其他曲目留待以后，不据目录信息假装逐曲试听或评价质量。",
+      "scores": null
+    },
+    {
+      "song_id": "1717830652",
+      "title": "Distant echo",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717830652",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact song IDs/title/artist/album observed on actual rendered official CN album. Not individual-source verification or full audition for rejected tracks.",
+      "decision": "rejected",
+      "reason": "钢琴只留一个名额；Aqua的完整旋律与句尾共鸣适合衔接长篇合奏。同一艺人其他曲目留待以后，不据目录信息假装逐曲试听或评价质量。",
+      "scores": null
+    },
+    {
+      "song_id": "1717830656",
+      "title": "Prelude",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717830656",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact song IDs/title/artist/album observed on actual rendered official CN album. Not individual-source verification or full audition for rejected tracks.",
+      "decision": "rejected",
+      "reason": "钢琴只留一个名额；Aqua的完整旋律与句尾共鸣适合衔接长篇合奏。同一艺人其他曲目留待以后，不据目录信息假装逐曲试听或评价质量。",
+      "scores": null
+    },
+    {
+      "song_id": "1717830659",
+      "title": "Sonata",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717830659",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact song IDs/title/artist/album observed on actual rendered official CN album. Not individual-source verification or full audition for rejected tracks.",
+      "decision": "rejected",
+      "reason": "钢琴只留一个名额；Aqua的完整旋律与句尾共鸣适合衔接长篇合奏。同一艺人其他曲目留待以后，不据目录信息假装逐曲试听或评价质量。",
+      "scores": null
+    },
+    {
+      "song_id": "1717830669",
+      "title": "Uetax",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717830669",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact song IDs/title/artist/album observed on actual rendered official CN album. Not individual-source verification or full audition for rejected tracks.",
+      "decision": "rejected",
+      "reason": "钢琴只留一个名额；Aqua的完整旋律与句尾共鸣适合衔接长篇合奏。同一艺人其他曲目留待以后，不据目录信息假装逐曲试听或评价质量。",
+      "scores": null
+    },
+    {
+      "song_id": "1717830675",
+      "title": "Aqua",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717830675",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:13:24.022Z",
+      "scope": "Exact current CN song identity/content credits verified; subjective editorial assessment, not full-audition measurement.",
+      "decision": "selected",
+      "reason": "长段合奏之后，用一架钢琴把听觉重新收近。今天选的是《BTTB - 20th Anniversary Edition》中的4分30秒版本，曲页标原作日期1998年9月26日，周年版专辑标2018年；不是《Opus》或管弦音乐会中的另一次演奏。这首适合听熟悉旋律怎样在很有限的材料中积累感情：重复出现的线条并非必须越来越响，触键与句尾的分寸就足以改变气氛。也不用把它当成学习或睡眠的工具，留一遍专门听钢琴本身。",
+      "scores": [
+        9,
+        8.5,
+        8,
+        8.5,
+        9
+      ],
+      "source_url": "https://music.apple.com/cn/song/aqua/1717830675",
+      "source_ref": "browser tab9; turn288view4",
+      "source_observation": "Actual CN1717830675 heading Aqua, album BTTB -20th Anniversary Edition, artist坂本龙一; song date1998-09-26 vsalbum2018-09-26, row4:30; songwriter/arranger坂本龙一,producerR.Sakamoto. Other Aqua recordings deliberately excluded.",
+      "tier": "high_confidence",
+      "weighted_score": 8.6
+    },
+    {
+      "song_id": "1717831052",
+      "title": "Energy flow",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717831052",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact song IDs/title/artist/album observed on actual rendered official CN album. Not individual-source verification or full audition for rejected tracks.",
+      "decision": "rejected",
+      "reason": "钢琴只留一个名额；Aqua的完整旋律与句尾共鸣适合衔接长篇合奏。同一艺人其他曲目留待以后，不据目录信息假装逐曲试听或评价质量。",
+      "scores": null
+    },
+    {
+      "song_id": "1717831060",
+      "title": "Snake eyes",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717831060",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact song IDs/title/artist/album observed on actual rendered official CN album. Not individual-source verification or full audition for rejected tracks.",
+      "decision": "rejected",
+      "reason": "钢琴只留一个名额；Aqua的完整旋律与句尾共鸣适合衔接长篇合奏。同一艺人其他曲目留待以后，不据目录信息假装逐曲试听或评价质量。",
+      "scores": null
+    },
+    {
+      "song_id": "1717831190",
+      "title": "Tong poo",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717831190",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact song IDs/title/artist/album observed on actual rendered official CN album. Not individual-source verification or full audition for rejected tracks.",
+      "decision": "rejected",
+      "reason": "钢琴只留一个名额；Aqua的完整旋律与句尾共鸣适合衔接长篇合奏。同一艺人其他曲目留待以后，不据目录信息假装逐曲试听或评价质量。",
+      "scores": null
+    },
+    {
+      "song_id": "1717831214",
+      "title": "Reversing",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "url": "https://music.apple.com/cn/song/1717831214",
+      "observed_catalogue": "https://music.apple.com/cn/album/bttb-20th-anniversary-edition/1717829350",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact song IDs/title/artist/album observed on actual rendered official CN album. Not individual-source verification or full audition for rejected tracks.",
+      "decision": "rejected",
+      "reason": "钢琴只留一个名额；Aqua的完整旋律与句尾共鸣适合衔接长篇合奏。同一艺人其他曲目留待以后，不据目录信息假装逐曲试听或评价质量。",
+      "scores": null
+    },
+    {
+      "song_id": "1829741832",
+      "title": "Disarray",
+      "artist": "Lianne La Havas",
+      "album": "Disarray - Single",
+      "url": "https://music.apple.com/cn/song/1829741832",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact ID/title/artist/album read from rendered official CN playlist rows. Not whole-track audition.",
+      "decision": "rejected",
+      "reason": "同一艺人只留一首。Green & Gold完整专辑版的节奏与音色层次填补今日律动位置，避免把五首变成单一歌手选集；未据此判其余曲目质量较差。",
+      "scores": null
+    },
+    {
+      "song_id": "1545010213",
+      "title": "Bittersweet (Radio Edit)",
+      "artist": "Lianne La Havas",
+      "album": "Bittersweet (Radio Edit) - Single",
+      "url": "https://music.apple.com/cn/song/1545010213",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact ID/title/artist/album read from rendered official CN playlist rows. Not whole-track audition.",
+      "decision": "rejected",
+      "reason": "同一艺人只留一首。Green & Gold完整专辑版的节奏与音色层次填补今日律动位置，避免把五首变成单一歌手选集；未据此判其余曲目质量较差。",
+      "scores": null
+    },
+    {
+      "song_id": "984653862",
+      "title": "Green & Gold",
+      "artist": "Lianne La Havas",
+      "album": "Blood",
+      "url": "https://music.apple.com/cn/song/984653862",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:13:23.963Z",
+      "scope": "Exact current CN song identity/content credits verified; subjective editorial assessment, not full-audition measurement.",
+      "decision": "selected",
+      "reason": "这是今天最直接的律动入口：歌唱有温度，节拍又足够利落，能同时满足想听旋律和想跟着身体动一下的时刻。选择《Blood》的完整乐队专辑版，不是Solo、GRADES Edit或混音合集版本。它的吸引力在于人声的细小转折与伴奏的松紧关系；不靠一味增加音量，仍能让段落逐渐明亮起来。比起只称赞“嗓音好听”，更值得追踪的是她如何让一句旋律有说话般的起伏。",
+      "scores": [
+        9,
+        9,
+        8.5,
+        9,
+        9
+      ],
+      "source_url": "https://music.apple.com/cn/song/green-gold/984653862",
+      "source_ref": "browser tab10",
+      "source_observation": "Actual CN984653862 heading Green & Gold; album Blood; Lianne La Havas;2015-07-31. Credits voice/guitar Lianne, keys Matt Hales, trumpet Chris Storr; co-producer Jamie Lidell; Matt Hales additional production. Catalogue4:38. Not Solo/remix.",
+      "tier": "high_confidence",
+      "weighted_score": 8.9
+    },
+    {
+      "song_id": "536321380",
+      "title": "Lost & Found",
+      "artist": "Lianne La Havas",
+      "album": "Is Your Love Big Enough? (Deluxe Edition)",
+      "url": "https://music.apple.com/cn/song/536321380",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact ID/title/artist/album read from rendered official CN playlist rows. Not whole-track audition.",
+      "decision": "rejected",
+      "reason": "同一艺人只留一首。Green & Gold完整专辑版的节奏与音色层次填补今日律动位置，避免把五首变成单一歌手选集；未据此判其余曲目质量较差。",
+      "scores": null
+    },
+    {
+      "song_id": "1545263523",
+      "title": "Please Don't Make Me Cry",
+      "artist": "Lianne La Havas",
+      "album": "Lianne La Havas",
+      "url": "https://music.apple.com/cn/song/1545263523",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact ID/title/artist/album read from rendered official CN playlist rows. Not whole-track audition.",
+      "decision": "rejected",
+      "reason": "同一艺人只留一首。Green & Gold完整专辑版的节奏与音色层次填补今日律动位置，避免把五首变成单一歌手选集；未据此判其余曲目质量较差。",
+      "scores": null
+    },
+    {
+      "song_id": "984653861",
+      "title": "Unstoppable",
+      "artist": "Lianne La Havas",
+      "album": "Blood",
+      "url": "https://music.apple.com/cn/song/984653861",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact ID/title/artist/album read from rendered official CN playlist rows. Not whole-track audition.",
+      "decision": "rejected",
+      "reason": "同一艺人只留一首。Green & Gold完整专辑版的节奏与音色层次填补今日律动位置，避免把五首变成单一歌手选集；未据此判其余曲目质量较差。",
+      "scores": null
+    },
+    {
+      "song_id": "536321384",
+      "title": "Age",
+      "artist": "Lianne La Havas",
+      "album": "Is Your Love Big Enough? (Deluxe Edition)",
+      "url": "https://music.apple.com/cn/song/536321384",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact ID/title/artist/album read from rendered official CN playlist rows. Not whole-track audition.",
+      "decision": "rejected",
+      "reason": "同一艺人只留一首。Green & Gold完整专辑版的节奏与音色层次填补今日律动位置，避免把五首变成单一歌手选集；未据此判其余曲目质量较差。",
+      "scores": null
+    },
+    {
+      "song_id": "984653866",
+      "title": "Midnight",
+      "artist": "Lianne La Havas",
+      "album": "Blood",
+      "url": "https://music.apple.com/cn/song/984653866",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact ID/title/artist/album read from rendered official CN playlist rows. Not whole-track audition.",
+      "decision": "rejected",
+      "reason": "同一艺人只留一首。Green & Gold完整专辑版的节奏与音色层次填补今日律动位置，避免把五首变成单一歌手选集；未据此判其余曲目质量较差。",
+      "scores": null
+    },
+    {
+      "song_id": "536321387",
+      "title": "Gone",
+      "artist": "Lianne La Havas",
+      "album": "Is Your Love Big Enough? (Deluxe Edition)",
+      "url": "https://music.apple.com/cn/song/536321387",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact ID/title/artist/album read from rendered official CN playlist rows. Not whole-track audition.",
+      "decision": "rejected",
+      "reason": "同一艺人只留一首。Green & Gold完整专辑版的节奏与音色层次填补今日律动位置，避免把五首变成单一歌手选集；未据此判其余曲目质量较差。",
+      "scores": null
+    },
+    {
+      "song_id": "1545263517",
+      "title": "Paper Thin",
+      "artist": "Lianne La Havas",
+      "album": "Lianne La Havas",
+      "url": "https://music.apple.com/cn/song/1545263517",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact ID/title/artist/album read from rendered official CN playlist rows. Not whole-track audition.",
+      "decision": "rejected",
+      "reason": "同一艺人只留一首。Green & Gold完整专辑版的节奏与音色层次填补今日律动位置，避免把五首变成单一歌手选集；未据此判其余曲目质量较差。",
+      "scores": null
+    },
+    {
+      "song_id": "536321381",
+      "title": "Au Cinéma",
+      "artist": "Lianne La Havas",
+      "album": "Is Your Love Big Enough? (Deluxe Edition)",
+      "url": "https://music.apple.com/cn/song/536321381",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact ID/title/artist/album read from rendered official CN playlist rows. Not whole-track audition.",
+      "decision": "rejected",
+      "reason": "同一艺人只留一首。Green & Gold完整专辑版的节奏与音色层次填补今日律动位置，避免把五首变成单一歌手选集；未据此判其余曲目质量较差。",
+      "scores": null
+    },
+    {
+      "song_id": "984653863",
+      "title": "What You Don't Do",
+      "artist": "Lianne La Havas",
+      "album": "Blood",
+      "url": "https://music.apple.com/cn/song/984653863",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact ID/title/artist/album read from rendered official CN playlist rows. Not whole-track audition.",
+      "decision": "rejected",
+      "reason": "同一艺人只留一首。Green & Gold完整专辑版的节奏与音色层次填补今日律动位置，避免把五首变成单一歌手选集；未据此判其余曲目质量较差。",
+      "scores": null
+    },
+    {
+      "song_id": "536321379",
+      "title": "Is Your Love Big Enough?",
+      "artist": "Lianne La Havas",
+      "album": "Is Your Love Big Enough? (Deluxe Edition)",
+      "url": "https://music.apple.com/cn/song/536321379",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact ID/title/artist/album read from rendered official CN playlist rows. Not whole-track audition.",
+      "decision": "rejected",
+      "reason": "同一艺人只留一首。Green & Gold完整专辑版的节奏与音色层次填补今日律动位置，避免把五首变成单一歌手选集；未据此判其余曲目质量较差。",
+      "scores": null
+    },
+    {
+      "song_id": "536321385",
+      "title": "Elusive",
+      "artist": "Lianne La Havas",
+      "album": "Is Your Love Big Enough? (Deluxe Edition)",
+      "url": "https://music.apple.com/cn/song/536321385",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact ID/title/artist/album read from rendered official CN playlist rows. Not whole-track audition.",
+      "decision": "rejected",
+      "reason": "同一艺人只留一首。Green & Gold完整专辑版的节奏与音色层次填补今日律动位置，避免把五首变成单一歌手选集；未据此判其余曲目质量较差。",
+      "scores": null
+    },
+    {
+      "song_id": "1545263516",
+      "title": "Can't Fight",
+      "artist": "Lianne La Havas",
+      "album": "Lianne La Havas",
+      "url": "https://music.apple.com/cn/song/1545263516",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact ID/title/artist/album read from rendered official CN playlist rows. Not whole-track audition.",
+      "decision": "rejected",
+      "reason": "同一艺人只留一首。Green & Gold完整专辑版的节奏与音色层次填补今日律动位置，避免把五首变成单一歌手选集；未据此判其余曲目质量较差。",
+      "scores": null
+    },
+    {
+      "song_id": "536321383",
+      "title": "Forget",
+      "artist": "Lianne La Havas",
+      "album": "Is Your Love Big Enough? (Deluxe Edition)",
+      "url": "https://music.apple.com/cn/song/536321383",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact ID/title/artist/album read from rendered official CN playlist rows. Not whole-track audition.",
+      "decision": "rejected",
+      "reason": "同一艺人只留一首。Green & Gold完整专辑版的节奏与音色层次填补今日律动位置，避免把五首变成单一歌手选集；未据此判其余曲目质量较差。",
+      "scores": null
+    },
+    {
+      "song_id": "984653864",
+      "title": "Tokyo",
+      "artist": "Lianne La Havas",
+      "album": "Blood",
+      "url": "https://music.apple.com/cn/song/984653864",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact ID/title/artist/album read from rendered official CN playlist rows. Not whole-track audition.",
+      "decision": "rejected",
+      "reason": "同一艺人只留一首。Green & Gold完整专辑版的节奏与音色层次填补今日律动位置，避免把五首变成单一歌手选集；未据此判其余曲目质量较差。",
+      "scores": null
+    },
+    {
+      "song_id": "536321382",
+      "title": "No Room for Doubt (feat. Willy Mason)",
+      "artist": "Lianne La Havas",
+      "album": "Is Your Love Big Enough? (Deluxe Edition)",
+      "url": "https://music.apple.com/cn/song/536321382",
+      "observed_catalogue": "https://music.apple.com/cn/playlist/lianne-la-havas-essentials/pl.34756d8dde2c46249a224a25db8ce96b",
+      "observed_at": "2026-10-22T01:09:56.228Z",
+      "scope": "Exact ID/title/artist/album read from rendered official CN playlist rows. Not whole-track audition.",
+      "decision": "rejected",
+      "reason": "同一艺人只留一首。Green & Gold完整专辑版的节奏与音色层次填补今日律动位置，避免把五首变成单一歌手选集；未据此判其余曲目质量较差。",
+      "scores": null
+    },
+    {
+      "song_id": "818079152",
+      "title": "海洋",
+      "artist": "陈建年",
+      "album": "海洋 音乐创作专辑",
+      "source_url": "https://music.apple.com/cn/song/%E6%B5%B7%E6%B4%8B/818079152",
+      "source_ref": "turn288view0; turn289view2; browser tab12",
+      "observed_at": "2026-10-22T01:13:23.939Z",
+      "source_observation": "Actual CN song page heading 海洋, album 海洋 音乐创作专辑, artist 陈建年, date1999-06-01; displayed songwriter/arranger 陈建年. Exact818079152 URL. Album editorial independently observed guitar, harmonica and struck-string pulse.",
+      "tier": "high_confidence",
+      "scores": [
+        9,
+        8.5,
+        8,
+        9,
+        9
+      ],
+      "decision": "selected",
+      "reason": "今天先从一个有空气、有步幅的声音进入。选择的是1999年《海洋 音乐创作专辑》里的陈建年本人录音；它把很容易唱成大抒情的海景，放在轻盈的行进节奏里。陈建年的声音有向外打开的穿透力，伴奏却没有把每个空隙填满，适合在一天开始时把注意力从屏幕挪向周围。值得听的是歌唱与日常步调之间的亲近感，不必先把它当成某种地域风格的说明书。",
+      "weighted_score": 8.675,
+      "scope": "Exact current CN song identity/content credits verified; subjective editorial assessment, not full-audition measurement."
+    },
+    {
+      "song_id": "1442531594",
+      "title": "New Grass",
+      "artist": "Talk Talk",
+      "album": "Laughing Stock",
+      "source_url": "https://music.apple.com/cn/song/new-grass/1442531594",
+      "source_ref": "browser tab11; turn289search0",
+      "observed_at": "2026-10-22T01:13:23.988Z",
+      "source_observation": "Actual CN1442531594 heading New Grass, album Laughing Stock, Talk Talk, date1991-01-01; Mark Hollis voice/guitar/piano/organ, Lee Harris drums, viola credits, Martin Ditcham percussion, Tim Friese-Greene keys/producer, Phill Brown engineer. CNalbum row supplied exactID after US1444218874 CNpage notfound.",
+      "tier": "adjacent",
+      "scores": [
+        9.5,
+        8,
+        9,
+        9.5,
+        8
+      ],
+      "decision": "selected",
+      "reason": "把这首放在中段，是想留一点时间给“不急着走向副歌”的音乐。它来自1991年的《Laughing Stock》，不是后来别的艺人的同名作品或致敬翻奏。耐心听下去，稳定脉冲会让很细小的和声、触键和音色变化产生重量；如果今天只能分心听半分钟，它未必最合适，留给一段不被打断的时间会更有回报。它也是从流行歌曲向更开放结构跨一步的好入口，旋律仍在，只是叙事的尺度变长了。",
+      "weighted_score": 8.875,
+      "scope": "Exact current CN song identity/content credits verified; subjective editorial assessment, not full-audition measurement."
+    },
+    {
+      "song_id": "78928247",
+      "title": "Tezeta (Nostalgia)",
+      "artist": "Mulatu Astatke",
+      "album": "Éthiopiques, Vol. 4: Ethio Jazz & Musique Instrumentale (1969-1974)",
+      "source_url": "https://music.apple.com/cn/song/tezeta-nostalgia/78928247",
+      "source_ref": "turn288view3; browser tab13",
+      "observed_at": "2026-10-22T01:13:24.051Z",
+      "source_observation": "Actual CN78928247 Tezeta (Nostalgia), Mulatu Astatke, exact Éthiopiques Vol4 album; page date1972-01-01. Credits Rhodes/organ Mulatu, uprightpianoGirmaBeyene, tenorsaxTesfa-MaryamKidane,guitarTèklèAdhanom. Doesnotclaimvibraphone onthisrecording; nofullplaybacktested.",
+      "tier": "wildcard",
+      "scores": [
+        9,
+        8,
+        9.5,
+        9.5,
+        8.5
+      ],
+      "decision": "selected",
+      "reason": "最后一首把今天从熟悉的流行与钢琴语汇，带向埃塞俄比亚爵士。选择的是《Éthiopiques, Vol. 4》所收的“Tezeta (Nostalgia)”，保留完整副标题与合集身份，不与其他同名Tezeta录音混为一谈。它适合当作一次旋律重心的转换：乐句常在少数音之间盘旋，情绪却并不单薄。无需先掌握调式名称，先听它怎样同时带来摇摆感与回望的意味；这是今日wildcard，也是值得完整听的一首。",
+      "weighted_score": 8.875,
+      "scope": "Exact current CN song identity/content credits verified; subjective editorial assessment, not full-audition measurement."
+    }
+  ],
+  "source_verification": [
+    {
+      "song_id": "818079152",
+      "title": "海洋",
+      "artist": "陈建年",
+      "album": "海洋 音乐创作专辑",
+      "source_url": "https://music.apple.com/cn/song/%E6%B5%B7%E6%B4%8B/818079152",
+      "source_ref": "turn288view0; turn289view2; browser tab12",
+      "observed_at": "2026-10-22T01:13:23.939Z",
+      "source_observation": "Actual CN song page heading 海洋, album 海洋 音乐创作专辑, artist 陈建年, date1999-06-01; displayed songwriter/arranger 陈建年. Exact818079152 URL. Album editorial independently observed guitar, harmonica and struck-string pulse.",
+      "verification_method": "exact_cn_song_page",
+      "storefront": "cn",
+      "playback_tested": false
+    },
+    {
+      "song_id": "984653862",
+      "title": "Green & Gold",
+      "artist": "Lianne La Havas",
+      "album": "Blood",
+      "source_url": "https://music.apple.com/cn/song/green-gold/984653862",
+      "source_ref": "browser tab10",
+      "observed_at": "2026-10-22T01:13:23.963Z",
+      "source_observation": "Actual CN984653862 heading Green & Gold; album Blood; Lianne La Havas;2015-07-31. Credits voice/guitar Lianne, keys Matt Hales, trumpet Chris Storr; co-producer Jamie Lidell; Matt Hales additional production. Catalogue4:38. Not Solo/remix.",
+      "verification_method": "exact_cn_song_page",
+      "storefront": "cn",
+      "playback_tested": false
+    },
+    {
+      "song_id": "1442531594",
+      "title": "New Grass",
+      "artist": "Talk Talk",
+      "album": "Laughing Stock",
+      "source_url": "https://music.apple.com/cn/song/new-grass/1442531594",
+      "source_ref": "browser tab11; turn289search0",
+      "observed_at": "2026-10-22T01:13:23.988Z",
+      "source_observation": "Actual CN1442531594 heading New Grass, album Laughing Stock, Talk Talk, date1991-01-01; Mark Hollis voice/guitar/piano/organ, Lee Harris drums, viola credits, Martin Ditcham percussion, Tim Friese-Greene keys/producer, Phill Brown engineer. CNalbum row supplied exactID after US1444218874 CNpage notfound.",
+      "verification_method": "exact_cn_song_page",
+      "storefront": "cn",
+      "playback_tested": false
+    },
+    {
+      "song_id": "1717830675",
+      "title": "Aqua",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "source_url": "https://music.apple.com/cn/song/aqua/1717830675",
+      "source_ref": "browser tab9; turn288view4",
+      "observed_at": "2026-10-22T01:13:24.022Z",
+      "source_observation": "Actual CN1717830675 heading Aqua, album BTTB -20th Anniversary Edition, artist坂本龙一; song date1998-09-26 vsalbum2018-09-26, row4:30; songwriter/arranger坂本龙一,producerR.Sakamoto. Other Aqua recordings deliberately excluded.",
+      "verification_method": "exact_cn_song_page",
+      "storefront": "cn",
+      "playback_tested": false
+    },
+    {
+      "song_id": "78928247",
+      "title": "Tezeta (Nostalgia)",
+      "artist": "Mulatu Astatke",
+      "album": "Éthiopiques, Vol. 4: Ethio Jazz & Musique Instrumentale (1969-1974)",
+      "source_url": "https://music.apple.com/cn/song/tezeta-nostalgia/78928247",
+      "source_ref": "turn288view3; browser tab13",
+      "observed_at": "2026-10-22T01:13:24.051Z",
+      "source_observation": "Actual CN78928247 Tezeta (Nostalgia), Mulatu Astatke, exact Éthiopiques Vol4 album; page date1972-01-01. Credits Rhodes/organ Mulatu, uprightpianoGirmaBeyene, tenorsaxTesfa-MaryamKidane,guitarTèklèAdhanom. Doesnotclaimvibraphone onthisrecording; nofullplaybacktested.",
+      "verification_method": "exact_cn_song_page",
+      "storefront": "cn",
+      "playback_tested": false
+    }
+  ],
+  "selection": [
+    {
+      "position": 1,
+      "title": "海洋",
+      "artist": "陈建年",
+      "album": "海洋 音乐创作专辑",
+      "canonical_id": "陈建年::海洋",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/%E6%B5%B7%E6%B4%8B/818079152",
+        "song_id": "818079152",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先从一个有空气、有步幅的声音进入。选择的是1999年《海洋 音乐创作专辑》里的陈建年本人录音；它把很容易唱成大抒情的海景，放在轻盈的行进节奏里。陈建年的声音有向外打开的穿透力，伴奏却没有把每个空隙填满，适合在一天开始时把注意力从屏幕挪向周围。值得听的是歌唱与日常步调之间的亲近感，不必先把它当成某种地域风格的说明书。 木吉他的打弦给出干净、带弹性的拍点，口琴的气流感与人声互相呼应。可以把两种质地分开听：琴弦的起音短而清楚，嗓音与口琴则能把一个音拉远，于是轻快之中仍有宽阔感。Apple Music的专辑导赏也明确提到这首的吉他、口琴和打弦节拍；整张唱片虽使用自然环境录音，不应因此把专辑里每一种海浪、风声都认作本曲的具体声部。这里把重点放在可辨认的演奏层次。",
+      "listening_cue": "第一遍让手指轻点木吉他的拍子，留意人声什么时候贴着节拍、什么时候把尾音拖出一点空间。第二遍只追口琴：它出现时，是否承担了人声停下来后继续说话的角色？不用计算小节，找出一处“唱完了但情绪还在走”的位置即可。"
+    },
+    {
+      "position": 2,
+      "title": "Green & Gold",
+      "artist": "Lianne La Havas",
+      "album": "Blood",
+      "canonical_id": "Lianne La Havas::Green & Gold",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/green-gold/984653862",
+        "song_id": "984653862",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这是今天最直接的律动入口：歌唱有温度，节拍又足够利落，能同时满足想听旋律和想跟着身体动一下的时刻。选择《Blood》的完整乐队专辑版，不是Solo、GRADES Edit或混音合集版本。它的吸引力在于人声的细小转折与伴奏的松紧关系；不靠一味增加音量，仍能让段落逐渐明亮起来。比起只称赞“嗓音好听”，更值得追踪的是她如何让一句旋律有说话般的起伏。 吉他为节奏提供细碎的边缘，键盘把和声铺得更圆，人声在两者之间保留近距离的颗粒。具体单曲页列出Lianne La Havas的声乐与吉他、Matt Hales的键盘、Chris Storr的小号，并列出Jamie Lidell与Matt Hales等制作署名；这些资料帮助辨认版本，但不意味着页面列出了每一件乐器。听时尤其可以比较拨弦的短促起音与较长的背景声部，感受拍子稳定而表面并不僵硬的原因。",
+      "listening_cue": "先跟住伴奏的基本脉冲，再听她进入一句时有没有提前、拖后或在结尾收轻。回听时把注意力移到人声后面的短声响：哪些只是标记节奏，哪些是在接一句旋律？找到一处主唱收住、伴奏接力的位置，比强行把所有装饰音都唱出来更有趣。"
+    },
+    {
+      "position": 3,
+      "title": "New Grass",
+      "artist": "Talk Talk",
+      "album": "Laughing Stock",
+      "canonical_id": "Talk Talk::New Grass",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/new-grass/1442531594",
+        "song_id": "1442531594",
+        "storefront": "cn"
+      },
+      "analysis_summary": "把这首放在中段，是想留一点时间给“不急着走向副歌”的音乐。它来自1991年的《Laughing Stock》，不是后来别的艺人的同名作品或致敬翻奏。耐心听下去，稳定脉冲会让很细小的和声、触键和音色变化产生重量；如果今天只能分心听半分钟，它未必最合适，留给一段不被打断的时间会更有回报。它也是从流行歌曲向更开放结构跨一步的好入口，旋律仍在，只是叙事的尺度变长了。 鼓并不只是替旋律提供底座，它持续的摆动让稀疏声部有共同的呼吸。吉他、钢琴与风琴类的长短音相互穿插，人声则像从合奏里浮出来的一层，不总被推到最前。单曲页列有Mark Hollis的声乐、吉他、钢琴和管风琴，Lee Harris的鼓，以及Tim Friese-Greene的钢琴和风琴署名；制作人为Friese-Greene、工程师为Phill Brown。聆听时可以感受乐器之间留出的距离，而不必把“稀疏”误听成没有编排。",
+      "listening_cue": "先把耳朵交给鼓，找到一个能一直跟住的循环，再试着听吉他和键盘如何在同一循环上改变光线。人声进入后不要立即丢掉鼓的线索：比较“唱之前”和“唱之后”同一节奏的情绪是否不同。整首听完，再回到开头，留意先前觉得等待的部分是否变成必要的铺垫。"
+    },
+    {
+      "position": 4,
+      "title": "Aqua",
+      "artist": "坂本龙一",
+      "album": "BTTB - 20th Anniversary Edition",
+      "canonical_id": "坂本龙一::Aqua",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/aqua/1717830675",
+        "song_id": "1717830675",
+        "storefront": "cn"
+      },
+      "analysis_summary": "长段合奏之后，用一架钢琴把听觉重新收近。今天选的是《BTTB - 20th Anniversary Edition》中的4分30秒版本，曲页标原作日期1998年9月26日，周年版专辑标2018年；不是《Opus》或管弦音乐会中的另一次演奏。这首适合听熟悉旋律怎样在很有限的材料中积累感情：重复出现的线条并非必须越来越响，触键与句尾的分寸就足以改变气氛。也不用把它当成学习或睡眠的工具，留一遍专门听钢琴本身。 这里的关注点是钢琴音头、持续的共鸣和声部之间的关系。旋律音有清楚的轮廓，下面的和声与低音把空间撑开；前一个音还没完全退去，后一个音已经加入，于是简单的移动也有层次。曲页确认坂本龙一的创作、编曲与R. Sakamoto制作署名。不要把共鸣尾巴都归因于某一种录音设备或踏板技巧：仅凭页面资料无法作那样的工程判断，听见的延续感本身已经值得比较。",
+      "listening_cue": "第一遍只跟上方最容易哼出的线条；第二遍把耳朵移向低音，听和声落下时旋律的同一个音会不会显得更暖或更悬。再挑一个句尾，等到共鸣真正变淡才开始下一次呼吸，体会音乐里的停顿为何仍有内容。保持舒服音量，别为追尾音不断调大。"
+    },
+    {
+      "position": 5,
+      "title": "Tezeta (Nostalgia)",
+      "artist": "Mulatu Astatke",
+      "album": "Éthiopiques, Vol. 4: Ethio Jazz & Musique Instrumentale (1969-1974)",
+      "canonical_id": "Mulatu Astatke::Tezeta (Nostalgia)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/tezeta-nostalgia/78928247",
+        "song_id": "78928247",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后一首把今天从熟悉的流行与钢琴语汇，带向埃塞俄比亚爵士。选择的是《Éthiopiques, Vol. 4》所收的“Tezeta (Nostalgia)”，保留完整副标题与合集身份，不与其他同名Tezeta录音混为一谈。它适合当作一次旋律重心的转换：乐句常在少数音之间盘旋，情绪却并不单薄。无需先掌握调式名称，先听它怎样同时带来摇摆感与回望的意味；这是今日wildcard，也是值得完整听的一首。 单曲页给出的具体署名很有帮助：Mulatu Astatke演奏罗兹钢琴与管风琴，Girma Beyene演奏立式钢琴，Tesfa-Maryam Kidane吹次中音萨克斯，Tèklè Adhanom弹吉他。可把较圆、能延续的键盘声与萨克斯更有气息摩擦的线条并置，再听吉他怎样在边缘补足节奏。不要因为Mulatu常与颤音琴联系在一起，就自动把本曲的每个明亮音色都命名为颤音琴；这次推荐具体以这条录音的身份与可观察署名为准。",
+      "listening_cue": "先记住主旋律的一小段走向，不需要记音名；等它再次出现，注意伴奏是否用不同的留白把同一旋律衬出新表情。再选一遍只听键盘的持续音与吉他的短音，最后把萨克斯放回来，听“怀旧”的感觉更多来自音色、旋律回转，还是两者互相作用。"
+    }
+  ],
+  "deduplication": {
+    "original_state_entries": 228,
+    "original_manifest_song_ids_and_all_music_reservations_checked": true,
+    "canonical_unicode_normalized_repeats": 0,
+    "song_id_repeats": 0,
+    "semantic_review": "Five distinct compositions and recordings; no renamed/reissued known work selected. Aqua different from prior Merry Christmas Mr Lawrence and NEO GEO; identified BTTB version. Tezeta not any other similarly titled artist/recording. Green&Gold original Blood, not Solo/remix. No previously exposed underlying work identified.",
+    "recent_artist_repeats": []
+  },
+  "diversity": {
+    "headline_artists": 5,
+    "high_confidence": 3,
+    "adjacent": 1,
+    "wildcard": 1,
+    "wildcard_position": 5,
+    "genres": [
+      "国语民谣 / 原声流行",
+      "灵魂乐 / R&B",
+      "艺术摇滚 / 后摇源流",
+      "当代钢琴 / 器乐",
+      "埃塞俄比亚爵士 / 器乐"
+    ],
+    "eras": [
+      "1970s",
+      "1990s",
+      "2010s"
+    ],
+    "languages": [
+      "Mandarin",
+      "English",
+      "instrumental"
+    ],
+    "max_same_narrow_genre_fraction": 0.2,
+    "rationale": "Acoustic song, soul groove, open-form art rock, piano solo and Ethiojazz; three confidence/one adjacent/one wildcard approximates50/30/20 in five slots."
+  },
+  "bundle_sha256": "a7198c741a870c2cd6d6b37435c54b54cd07ff931a7aa54135e63beaa04863a7",
+  "plan_sha256": "b4e4c44b2184e2fe35d1772a9dc5c38268d0039aadb0e60de181d073ed8a8a7d",
+  "historical_backlog": {
+    "frozen_old_manifest_drift": [
+      {
+        "operation_id": "music:2026-10-15",
+        "path": "recommendations/2026/10/2026-10-15.json",
+        "frozen_sha": "7790e3664e26f1a8a681d6106f7c0b60f828c8e1",
+        "current_sha": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26"
+      },
+      {
+        "operation_id": "music:2026-10-15",
+        "path": "Music/Daily/manifests/2026-10-15.json",
+        "frozen_sha": "7790e3664e26f1a8a681d6106f7c0b60f828c8e1",
+        "current_sha": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26"
+      }
+    ],
+    "legacy_state_counts": "Preserved exactly, including integer legacy count values.",
+    "prior_source_format_issues": "Not reverified or rewritten in this run; current source gates separately checked."
+  },
+  "errors": [
+    {
+      "operation": "web source open",
+      "classification": "search tool internal inaccessible, no origin HTTP status or retry metadata exposed",
+      "urls": [
+        "cn986317407",
+        "cn1444218874",
+        "cnBlood986317401",
+        "cn1717830675",
+        "cn984653862"
+      ],
+      "resolution": "Used real CN catalogue pages; browser confirms source IDs984653862 and1442531594. Browser1444218874 rendered page not found, discarded wrong-region ID; no bot challenge or evasion."
+    },
+    {
+      "operation": "local preflight report",
+      "classification": "TypeError on legacy integer history values; no mutation",
+      "resolution": "Handled legacy counts by type; full hash/history/mirror verification already succeeded and reran."
+    },
+    {
+      "operation": "local workflow inspection",
+      "classification": "guessed local consistency.yml filename absent, no remote or publication mutation",
+      "resolution": "Enumerated actual workflow filenames and inspected actual CI steps."
+    }
+  ],
+  "not_certified": [
+    "full audio audition",
+    "personal-account playback",
+    "historical live-source quality",
+    "device synchronization",
+    "notification delivery"
+  ],
+  "status": "passed_current_publication_checks",
+  "current_content_qa": {
+    "exact_five_order_unique_ids": "passed",
+    "CN_title_artist_album_song_id": "passed_browser_actual_source",
+    "same_work_recording_semantic_review": "passed",
+    "original_history_freshness": "passed",
+    "all_228_prior_state_values_unchanged": "passed",
+    "233_total_state_entries": "passed",
+    "new_date_exact_once": "passed",
+    "five_complete_readbacks": "passed_byte_equal_frozen",
+    "manual_note_preservation": "new note confirmed absent; Notes outsideAUTO",
+    "required_sections_and_rich_version_specific_analysis": "passed_independent_readback_review",
+    "quoted_lyrics": 0
+  },
+  "local_checks": [
+    {
+      "name": "vault structural/source-history membership",
+      "command": [
+        "python3",
+        "scripts/validate_daily_recommendations.py"
+      ],
+      "cwd": "/workspace/scratch/5eda201f1b19/music22/vault",
+      "exit_code": 0,
+      "stdout": "OK: strict daily recommendations validated — youtube=190, reddit=380, english=39, music=190\n",
+      "stderr": ""
+    },
+    {
+      "name": "vault current history integrity (local no base-ref; actual CI covers git ancestry)",
+      "command": [
+        "python3",
+        "scripts/check_daily_integrity.py"
+      ],
+      "cwd": "/workspace/scratch/5eda201f1b19/music22/vault",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed_local_integrity\",\n  \"history\": {\n    \"youtube\": {\n      \"rows\": 215,\n      \"unique_resources\": 211\n    },\n    \"reddit\": {\n      \"rows\": 410,\n      \"unique_resources\": 410\n    },\n    \"english\": {\n      \"rows\": 45,\n      \"unique_resources\": 45\n    }\n  },\n  \"music\": {\n    \"manifests\": 45,\n    \"current_tracks\": 225,\n    \"state_entries\": 233,\n    \"retired_entries_retained\": 8\n  },\n  \"append_only\": \"not_checked_without_base_ref\",\n  \"base_ref\": null,\n  \"legacy_duplicate_groups\": [\n    {\n      \"project\": \"youtube\",\n      \"resource_id\": \"CbUjuwhQPKs\",\n      \"dates\": [\n        \"2026-09-06\",\n        \"2026-09-09\"\n      ],\n      \"action\": \"retain all historical records; block every future reuse\"\n    },\n    {\n      \"project\": \"youtube\",\n      \"resource_id\": \"TRL7o2kPqw0\",\n      \"dates\": [\n        \"2026-09-07\",\n        \"2026-09-09\",\n        \"2026-09-10\"\n      ],\n      \"action\": \"retain all historical records; block every future reuse\"\n    },\n    {\n      \"project\": \"youtube\",\n      \"resource_id\": \"OmJ-4B-mS-Y\",\n      \"dates\": [\n        \"2026-09-09\",\n        \"2026-09-10\"\n      ],\n      \"action\": \"retain all historical records; block every future reuse\"\n    }\n  ],\n  \"cross_repository\": \"not_checked_requires_two_authorized_checkouts\",\n  \"not_certified\": [\n    \"live sources\",\n    \"semantic quality\",\n    \"candidate pools\",\n    \"local Obsidian sync\",\n    \"task delivery\"\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "vault negative/recovery/remote snapshot tests",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "scripts.test_daily_validator",
+        "scripts.test_daily_integrity",
+        "scripts.test_publication_bundle",
+        "scripts.test_publication_recovery",
+        "scripts.test_remote_music_snapshot"
+      ],
+      "cwd": "/workspace/scratch/5eda201f1b19/music22/vault",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".......................................................................................................................\n----------------------------------------------------------------------\nRan 119 tests in 0.080s\n\nOK\n"
+    },
+    {
+      "name": "music manifest/state validator",
+      "command": [
+        "python3",
+        "scripts/validate.py"
+      ],
+      "cwd": "/workspace/scratch/5eda201f1b19/music22/music",
+      "exit_code": 0,
+      "stdout": "OK: 225 unique recommended tracks validated for China storefront\n",
+      "stderr": ""
+    },
+    {
+      "name": "music consistency regression tests",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "scripts",
+        "-p",
+        "test_consistency.py"
+      ],
+      "cwd": "/workspace/scratch/5eda201f1b19/music22/music",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.053s\n\nOK\n"
+    },
+    {
+      "name": "frozen bundle and post-write planner",
+      "command": [
+        "python3",
+        "scripts/publication_bundle.py",
+        "/workspace/scratch/5eda201f1b19/music22/persisted.json",
+        "--observations",
+        "/workspace/scratch/5eda201f1b19/music22/observations-after.json",
+        "--expected-bundle-digest",
+        "a7198c741a870c2cd6d6b37435c54b54cd07ff931a7aa54135e63beaa04863a7"
+      ],
+      "cwd": "/workspace/scratch/5eda201f1b19/music22/vault",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"artifacts_match\",\n  \"operation_id\": \"music:2026-10-22\",\n  \"bundle_sha256\": \"a7198c741a870c2cd6d6b37435c54b54cd07ff931a7aa54135e63beaa04863a7\",\n  \"github_writes_performed\": 0,\n  \"content_qa\": \"not_evaluated\",\n  \"plan_sha256\": \"b4e4c44b2184e2fe35d1772a9dc5c38268d0039aadb0e60de181d073ed8a8a7d\",\n  \"next_stage\": null,\n  \"decisions\": [\n    {\n      \"repository\": \"ZJFILOVE/music-daily\",\n      \"path\": \"recommendations/2026/10/2026-10-22.json\",\n      \"stage\": 1,\n      \"action\": \"no_op\",\n      \"reason\": \"target already present, including a lost successful response\",\n      \"expected_sha\": null,\n      \"target_sha\": \"1c2c2b36491baf68396d30660ce3a3885e4c32c9\"\n    },\n    {\n      \"repository\": \"ZJFILOVE/music-daily\",\n      \"path\": \"state/tracks.json\",\n      \"stage\": 1,\n      \"action\": \"no_op\",\n      \"reason\": \"target already present, including a lost successful response\",\n      \"expected_sha\": \"26631688498791d28d0bd29065e26e486ec1f006\",\n      \"target_sha\": \"b18474ea9183dd12c295bf3de172e1149e2c66b7\"\n    },\n    {\n      \"repository\": \"ZJFILOVE/obsidian-vault\",\n      \"path\": \"Music/Daily/2026-10-22.md\",\n      \"stage\": 2,\n      \"action\": \"no_op\",\n      \"reason\": \"target already present, including a lost successful response\",\n      \"expected_sha\": null,\n      \"target_sha\": \"fe12152690b1f625777122c7aa3aac3e6f156d37\"\n    },\n    {\n      \"repository\": \"ZJFILOVE/obsidian-vault\",\n      \"path\": \"Music/Daily/manifests/2026-10-22.json\",\n      \"stage\": 2,\n      \"action\": \"no_op\",\n      \"reason\": \"target already present, including a lost successful response\",\n      \"expected_sha\": null,\n      \"target_sha\": \"1c2c2b36491baf68396d30660ce3a3885e4c32c9\"\n    },\n    {\n      \"repository\": \"ZJFILOVE/obsidian-vault\",\n      \"path\": \"Music/Daily/state/tracks.json\",\n      \"stage\": 2,\n      \"action\": \"no_op\",\n      \"reason\": \"target already present, including a lost successful response\",\n      \"expected_sha\": \"26631688498791d28d0bd29065e26e486ec1f006\",\n      \"target_sha\": \"b18474ea9183dd12c295bf3de172e1149e2c66b7\"\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "immutable bundle journal",
+      "command": [
+        "python3",
+        "scripts/publication_bundle.py",
+        "--journal-root",
+        "."
+      ],
+      "cwd": "/workspace/scratch/5eda201f1b19/music22/vault",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed_immutable_publication_bundles\",\n  \"bundles\": 24,\n  \"base_ref\": null,\n  \"content_qa\": \"not_evaluated\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "pinned complete Git tree mirror snapshot",
+      "command": [
+        "python3",
+        "scripts/check_remote_music_snapshot.py",
+        "/workspace/scratch/5eda201f1b19/music22/snapshot.json"
+      ],
+      "cwd": "/workspace/scratch/5eda201f1b19/music22/vault",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed_current_music_mirrors\",\n  \"manifests\": 45,\n  \"manifest_blobs\": {\n    \"2026-09-04.json\": \"c4074fe4298941f0bbb6fe5d00fb8f58d2271c18\",\n    \"2026-09-05.json\": \"425068f9d2850f6174758c01adee37d25f3bb336\",\n    \"2026-09-06.json\": \"cbe1822dfb00e97d8f4aa537dbfd1f52f48dcccf\",\n    \"2026-09-07.json\": \"43c49954065383de75f28c4bfd239b7473f1c324\",\n    \"2026-09-08.json\": \"1aff7797664028e9729b0b42925909206fbdef2e\",\n    \"2026-09-09.json\": \"5b883498386208ef9809ec552e12bd30e5ae0510\",\n    \"2026-09-10.json\": \"6981929543fd31c36649815397d89b2bf1632551\",\n    \"2026-09-11.json\": \"66b29d99e17bc6da20987d9accd71e57851aa9fa\",\n    \"2026-09-12.json\": \"9e852ec43b70c9612f836c60eb55f8d44164dadc\",\n    \"2026-09-13.json\": \"b576357c8a83b6e618ce52984d43efb9ccd1e0fa\",\n    \"2026-09-14.json\": \"a7e1729f60debf70fd3c922c83508286868bb83a\",\n    \"2026-09-15.json\": \"e348cea20ac3b39edfad8d26cd2de5b49d4724c6\",\n    \"2026-09-16.json\": \"7a672e648529aa290ace44f78f43f217d29e5b0d\",\n    \"2026-09-17.json\": \"b62ae078472ac906c381bf246a59818507688f72\",\n    \"2026-09-18.json\": \"e2ad0074519697a2f402427996a212b3831f8290\",\n    \"2026-09-19.json\": \"2d2999277022bc329e15ce43477453edc5e8fc21\",\n    \"2026-09-20.json\": \"03cf1cc76eebfd74b0342fb74a8c1e616942c737\",\n    \"2026-09-21.json\": \"125ab7faf9a2fd4c08812b1bffc57686f65a1e4d\",\n    \"2026-09-22.json\": \"08788b30503a3d320b0343f015c213050b43cb21\",\n    \"2026-09-23.json\": \"07a2dddee1f9d38067afced0d678e4c578197d64\",\n    \"2026-09-24.json\": \"6bb9b98980a1f6dc7883d45cf2a4744879ea40c7\",\n    \"2026-09-25.json\": \"03f0f440b402f65da5fbd32943b70ac631e885ff\",\n    \"2026-09-26.json\": \"2a6e8cacaec306279f64685e6f4ddd3ddcaedb11\",\n    \"2026-09-28.json\": \"a40e31e20b92f129bf2b21f1073e3a69b120e33b\",\n    \"2026-09-29.json\": \"05ac05fdddcc456cd6103fb8854a5e77d8882dfe\",\n    \"2026-09-30.json\": \"4e2ed9d2f5a7f7a4f8df41a4d4407b6429c8695f\",\n    \"2026-10-01.json\": \"08c0655ae1e1a430b803cedfaee28265d9bca7c4\",\n    \"2026-10-02.json\": \"977590adad74f3530dc571b9578648372d99b460\",\n    \"2026-10-03.json\": \"c0d1ba2c8088bee2b9bfe73c0491112db013d040\",\n    \"2026-10-04.json\": \"e21086438c1609a5c65e4dfad5eb17efa390197c\",\n    \"2026-10-05.json\": \"bd8e8944afd975565557ac3a88f1ac3b8e16a8f7\",\n    \"2026-10-06.json\": \"1edfce17fd8094efd866e294b8cac1cf02f5e72d\",\n    \"2026-10-07.json\": \"ed9f6ab90943f1a35219cc8b41017559955aec86\",\n    \"2026-10-08.json\": \"2e8c9efd842d7d12ec5e76582d3098b2904de3f7\",\n    \"2026-10-09.json\": \"76dff8dedee8c861d72f158e73de4afb106f8d42\",\n    \"2026-10-11.json\": \"3da7d2fcf2f9f1417a32ad0e313118646cdc04ea\",\n    \"2026-10-12.json\": \"35f974e89bd209addcfef98ba16f5b7bc5e0ace3\",\n    \"2026-10-15.json\": \"661d359f6937ddfde4e9e7db220fa5ca1a8cee26\",\n    \"2026-10-16.json\": \"08a0e041348374b67cc59fe08080364ce92b4973\",\n    \"2026-10-17.json\": \"28d482f6649e2b6cb3d67817ed0ecbfbf18e0a65\",\n    \"2026-10-18.json\": \"ecbdb7dbd5007784bdfb7eee4a9c3cc7706aa054\",\n    \"2026-10-19.json\": \"250f0308b004cf080611a943c55d896f47b6cab8\",\n    \"2026-10-20.json\": \"3cb0f6c54d5a27fa00adc0a0f5031c119fc69563\",\n    \"2026-10-21.json\": \"91677ae6a1c440bedb3ba1e5fb20753f52b797db\",\n    \"2026-10-22.json\": \"1c2c2b36491baf68396d30660ce3a3885e4c32c9\"\n  },\n  \"state_blob_sha\": \"b18474ea9183dd12c295bf3de172e1149e2c66b7\",\n  \"heads\": {\n    \"music\": \"6b6414987b9024f70f2d1911064bf6ac684cba5d\",\n    \"vault\": \"ac3b17667bb0ab007dc634a43927750d2c360338\"\n  },\n  \"checked\": [\n    \"all manifest names and blob hashes\",\n    \"state blob hash\",\n    \"corresponding music notes exist\",\n    \"tree evidence completeness\",\n    \"stable branch observations\"\n  ],\n  \"not_certified\": [\n    \"state semantic coverage (run local CI)\",\n    \"live sources\",\n    \"editorial quality\",\n    \"device synchronization\",\n    \"notification delivery\"\n  ]\n}\n",
+      "stderr": ""
+    }
+  ],
+  "cross_repository_snapshot": {
+    "status": "passed_current_music_mirrors",
+    "manifests": 45,
+    "manifest_blobs": {
+      "2026-09-04.json": "c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+      "2026-09-05.json": "425068f9d2850f6174758c01adee37d25f3bb336",
+      "2026-09-06.json": "cbe1822dfb00e97d8f4aa537dbfd1f52f48dcccf",
+      "2026-09-07.json": "43c49954065383de75f28c4bfd239b7473f1c324",
+      "2026-09-08.json": "1aff7797664028e9729b0b42925909206fbdef2e",
+      "2026-09-09.json": "5b883498386208ef9809ec552e12bd30e5ae0510",
+      "2026-09-10.json": "6981929543fd31c36649815397d89b2bf1632551",
+      "2026-09-11.json": "66b29d99e17bc6da20987d9accd71e57851aa9fa",
+      "2026-09-12.json": "9e852ec43b70c9612f836c60eb55f8d44164dadc",
+      "2026-09-13.json": "b576357c8a83b6e618ce52984d43efb9ccd1e0fa",
+      "2026-09-14.json": "a7e1729f60debf70fd3c922c83508286868bb83a",
+      "2026-09-15.json": "e348cea20ac3b39edfad8d26cd2de5b49d4724c6",
+      "2026-09-16.json": "7a672e648529aa290ace44f78f43f217d29e5b0d",
+      "2026-09-17.json": "b62ae078472ac906c381bf246a59818507688f72",
+      "2026-09-18.json": "e2ad0074519697a2f402427996a212b3831f8290",
+      "2026-09-19.json": "2d2999277022bc329e15ce43477453edc5e8fc21",
+      "2026-09-20.json": "03cf1cc76eebfd74b0342fb74a8c1e616942c737",
+      "2026-09-21.json": "125ab7faf9a2fd4c08812b1bffc57686f65a1e4d",
+      "2026-09-22.json": "08788b30503a3d320b0343f015c213050b43cb21",
+      "2026-09-23.json": "07a2dddee1f9d38067afced0d678e4c578197d64",
+      "2026-09-24.json": "6bb9b98980a1f6dc7883d45cf2a4744879ea40c7",
+      "2026-09-25.json": "03f0f440b402f65da5fbd32943b70ac631e885ff",
+      "2026-09-26.json": "2a6e8cacaec306279f64685e6f4ddd3ddcaedb11",
+      "2026-09-28.json": "a40e31e20b92f129bf2b21f1073e3a69b120e33b",
+      "2026-09-29.json": "05ac05fdddcc456cd6103fb8854a5e77d8882dfe",
+      "2026-09-30.json": "4e2ed9d2f5a7f7a4f8df41a4d4407b6429c8695f",
+      "2026-10-01.json": "08c0655ae1e1a430b803cedfaee28265d9bca7c4",
+      "2026-10-02.json": "977590adad74f3530dc571b9578648372d99b460",
+      "2026-10-03.json": "c0d1ba2c8088bee2b9bfe73c0491112db013d040",
+      "2026-10-04.json": "e21086438c1609a5c65e4dfad5eb17efa390197c",
+      "2026-10-05.json": "bd8e8944afd975565557ac3a88f1ac3b8e16a8f7",
+      "2026-10-06.json": "1edfce17fd8094efd866e294b8cac1cf02f5e72d",
+      "2026-10-07.json": "ed9f6ab90943f1a35219cc8b41017559955aec86",
+      "2026-10-08.json": "2e8c9efd842d7d12ec5e76582d3098b2904de3f7",
+      "2026-10-09.json": "76dff8dedee8c861d72f158e73de4afb106f8d42",
+      "2026-10-11.json": "3da7d2fcf2f9f1417a32ad0e313118646cdc04ea",
+      "2026-10-12.json": "35f974e89bd209addcfef98ba16f5b7bc5e0ace3",
+      "2026-10-15.json": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26",
+      "2026-10-16.json": "08a0e041348374b67cc59fe08080364ce92b4973",
+      "2026-10-17.json": "28d482f6649e2b6cb3d67817ed0ecbfbf18e0a65",
+      "2026-10-18.json": "ecbdb7dbd5007784bdfb7eee4a9c3cc7706aa054",
+      "2026-10-19.json": "250f0308b004cf080611a943c55d896f47b6cab8",
+      "2026-10-20.json": "3cb0f6c54d5a27fa00adc0a0f5031c119fc69563",
+      "2026-10-21.json": "91677ae6a1c440bedb3ba1e5fb20753f52b797db",
+      "2026-10-22.json": "1c2c2b36491baf68396d30660ce3a3885e4c32c9"
+    },
+    "state_blob_sha": "b18474ea9183dd12c295bf3de172e1149e2c66b7",
+    "heads": {
+      "music": "6b6414987b9024f70f2d1911064bf6ac684cba5d",
+      "vault": "ac3b17667bb0ab007dc634a43927750d2c360338"
+    },
+    "checked": [
+      "all manifest names and blob hashes",
+      "state blob hash",
+      "corresponding music notes exist",
+      "tree evidence completeness",
+      "stable branch observations"
+    ],
+    "not_certified": [
+      "state semantic coverage (run local CI)",
+      "live sources",
+      "editorial quality",
+      "device synchronization",
+      "notification delivery"
+    ]
+  },
+  "two_checkout_consistency_scope": {
+    "status": "passed_structural_with_url_warnings",
+    "legacy_url_warnings": [
+      {
+        "manifest": "2026-09-24.json",
+        "song_id": "1443209403",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-24.json",
+        "song_id": "1440788744",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-24.json",
+        "song_id": "1472549630",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-24.json",
+        "song_id": "258200075",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-24.json",
+        "song_id": "1668862649",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-26.json",
+        "song_id": "1752629180",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-26.json",
+        "song_id": "300865222",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-26.json",
+        "song_id": "1673536432",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-26.json",
+        "song_id": "1675123649",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-26.json",
+        "song_id": "1598994872",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-28.json",
+        "song_id": "1443363499",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-28.json",
+        "song_id": "1440841917",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-28.json",
+        "song_id": "1078914485",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-28.json",
+        "song_id": "1477652823",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-28.json",
+        "song_id": "1440719297",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-29.json",
+        "song_id": "1442363759",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-29.json",
+        "song_id": "1440837273",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-29.json",
+        "song_id": "300202271",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-29.json",
+        "song_id": "1675560578",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-29.json",
+        "song_id": "1447442939",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-17.json",
+        "song_id": "1491316305",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-17.json",
+        "song_id": "1710206776",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-17.json",
+        "song_id": "1763223953",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-17.json",
+        "song_id": "1551592392",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-17.json",
+        "song_id": "715651844",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-18.json",
+        "song_id": "1707829783",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-18.json",
+        "song_id": "1876508755",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-18.json",
+        "song_id": "1445769464",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-18.json",
+        "song_id": "1528519982",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-18.json",
+        "song_id": "1830552219",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-19.json",
+        "song_id": "1600888923",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-19.json",
+        "song_id": "29168235",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-19.json",
+        "song_id": "1440947068",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-19.json",
+        "song_id": "1443767437",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-19.json",
+        "song_id": "1449208109",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-20.json",
+        "song_id": "1720694629",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-20.json",
+        "song_id": "581741461",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-20.json",
+        "song_id": "871146612",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-20.json",
+        "song_id": "1440629980",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-20.json",
+        "song_id": "1504283285",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-21.json",
+        "song_id": "1547211375",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-21.json",
+        "song_id": "1728144213",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-21.json",
+        "song_id": "1419804182",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-21.json",
+        "song_id": "1629109827",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-21.json",
+        "song_id": "1765583656",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-22.json",
+        "song_id": "818079152",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-22.json",
+        "song_id": "984653862",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-22.json",
+        "song_id": "1442531594",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-22.json",
+        "song_id": "1717830675",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-22.json",
+        "song_id": "78928247",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      }
+    ],
+    "manifests": 45,
+    "current_tracks": 225,
+    "state_entries": 233,
+    "historical_exposures_checked": 228,
+    "retired_entries_retained": 8,
+    "cross_repository": "passed_byte_exact",
+    "unverified": [
+      "live source availability and metadata",
+      "semantic quality and artist diversity",
+      "local Obsidian sync",
+      "task scheduling and delivery"
+    ],
+    "english_notes_with_history": 45
+  },
+  "actual_ci": [
+    {
+      "repo": "music-daily",
+      "run": {
+        "id": 39704558065,
+        "name": "validate",
+        "node_id": "WFR_kwLOUN9Gic8AAAAJPpN58Q",
+        "head_branch": "main",
+        "head_sha": "6b6414987b9024f70f2d1911064bf6ac684cba5d",
+        "path": ".github/workflows/validate.yml",
+        "display_title": "Publish Apple Music Daily 5 for 2026-10-22 with permanent history",
+        "run_number": 121,
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "workflow_id": 349958810,
+        "check_suite_id": 107604579768,
+        "check_suite_node_id": "CS_kwDOUN9Gic8AAAAZDbuVuA",
+        "url": "https://api.github.com/repos/ZJFILOVE/music-daily/actions/runs/39704558065",
+        "html_url": "https://github.com/ZJFILOVE/music-daily/actions/runs/39704558065",
+        "pull_requests": [],
+        "created_at": "2026-10-22T01:14:47Z",
+        "updated_at": "2026-10-22T01:14:57Z",
+        "actor": {
+          "login": "ZJFILOVE",
+          "id": 187031297,
+          "node_id": "U_kgDOCyXfAQ",
+          "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ZJFILOVE",
+          "html_url": "https://github.com/ZJFILOVE",
+          "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+          "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+          "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+          "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+          "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "run_attempt": 1,
+        "referenced_workflows": [],
+        "run_started_at": "2026-10-22T01:14:47Z",
+        "triggering_actor": {
+          "login": "ZJFILOVE",
+          "id": 187031297,
+          "node_id": "U_kgDOCyXfAQ",
+          "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ZJFILOVE",
+          "html_url": "https://github.com/ZJFILOVE",
+          "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+          "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+          "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+          "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+          "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "jobs_url": "https://api.github.com/repos/ZJFILOVE/music-daily/actions/runs/39704558065/jobs",
+        "logs_url": "https://api.github.com/repos/ZJFILOVE/music-daily/actions/runs/39704558065/logs",
+        "check_suite_url": "https://api.github.com/repos/ZJFILOVE/music-daily/check-suites/107604579768",
+        "artifacts_url": "https://api.github.com/repos/ZJFILOVE/music-daily/actions/runs/39704558065/artifacts",
+        "cancel_url": "https://api.github.com/repos/ZJFILOVE/music-daily/actions/runs/39704558065/cancel",
+        "rerun_url": "https://api.github.com/repos/ZJFILOVE/music-daily/actions/runs/39704558065/rerun",
+        "previous_attempt_url": null,
+        "workflow_url": "https://api.github.com/repos/ZJFILOVE/music-daily/actions/workflows/349958810",
+        "head_commit": {
+          "id": "6b6414987b9024f70f2d1911064bf6ac684cba5d",
+          "tree_id": "9bcf331b3eca0f4be7d76f3a12c83e69ec077c32",
+          "message": "Publish Apple Music Daily 5 for 2026-10-22 with permanent history",
+          "timestamp": "2026-10-22T01:14:44Z",
+          "author": {
+            "name": "ZJFILOVE",
+            "email": "zhujunfeng07@gmail.com"
+          },
+          "committer": {
+            "name": "ZJFILOVE",
+            "email": "zhujunfeng07@gmail.com"
+          }
+        },
+        "repository": {
+          "id": 1356809865,
+          "node_id": "R_kgDOUN9GiQ",
+          "name": "music-daily",
+          "full_name": "ZJFILOVE/music-daily",
+          "private": true,
+          "owner": {
+            "login": "ZJFILOVE",
+            "id": 187031297,
+            "node_id": "U_kgDOCyXfAQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ZJFILOVE",
+            "html_url": "https://github.com/ZJFILOVE",
+            "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+            "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+            "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+            "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+            "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "html_url": "https://github.com/ZJFILOVE/music-daily",
+          "description": null,
+          "fork": false,
+          "url": "https://api.github.com/repos/ZJFILOVE/music-daily",
+          "forks_url": "https://api.github.com/repos/ZJFILOVE/music-daily/forks",
+          "keys_url": "https://api.github.com/repos/ZJFILOVE/music-daily/keys{/key_id}",
+          "collaborators_url": "https://api.github.com/repos/ZJFILOVE/music-daily/collaborators{/collaborator}",
+          "teams_url": "https://api.github.com/repos/ZJFILOVE/music-daily/teams",
+          "hooks_url": "https://api.github.com/repos/ZJFILOVE/music-daily/hooks",
+          "issue_events_url": "https://api.github.com/repos/ZJFILOVE/music-daily/issues/events{/number}",
+          "events_url": "https://api.github.com/repos/ZJFILOVE/music-daily/events",
+          "assignees_url": "https://api.github.com/repos/ZJFILOVE/music-daily/assignees{/user}",
+          "branches_url": "https://api.github.com/repos/ZJFILOVE/music-daily/branches{/branch}",
+          "tags_url": "https://api.github.com/repos/ZJFILOVE/music-daily/tags",
+          "blobs_url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/tags{/sha}",
+          "git_refs_url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/refs{/sha}",
+          "trees_url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees{/sha}",
+          "statuses_url": "https://api.github.com/repos/ZJFILOVE/music-daily/statuses/{sha}",
+          "languages_url": "https://api.github.com/repos/ZJFILOVE/music-daily/languages",
+          "stargazers_url": "https://api.github.com/repos/ZJFILOVE/music-daily/stargazers",
+          "contributors_url": "https://api.github.com/repos/ZJFILOVE/music-daily/contributors",
+          "subscribers_url": "https://api.github.com/repos/ZJFILOVE/music-daily/subscribers",
+          "subscription_url": "https://api.github.com/repos/ZJFILOVE/music-daily/subscription",
+          "commits_url": "https://api.github.com/repos/ZJFILOVE/music-daily/commits{/sha}",
+          "git_commits_url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/commits{/sha}",
+          "comments_url": "https://api.github.com/repos/ZJFILOVE/music-daily/comments{/number}",
+          "issue_comment_url": "https://api.github.com/repos/ZJFILOVE/music-daily/issues/comments{/number}",
+          "contents_url": "https://api.github.com/repos/ZJFILOVE/music-daily/contents/{+path}",
+          "compare_url": "https://api.github.com/repos/ZJFILOVE/music-daily/compare/{base}...{head}",
+          "merges_url": "https://api.github.com/repos/ZJFILOVE/music-daily/merges",
+          "archive_url": "https://api.github.com/repos/ZJFILOVE/music-daily/{archive_format}{/ref}",
+          "downloads_url": "https://api.github.com/repos/ZJFILOVE/music-daily/downloads",
+          "issues_url": "https://api.github.com/repos/ZJFILOVE/music-daily/issues{/number}",
+          "pulls_url": "https://api.github.com/repos/ZJFILOVE/music-daily/pulls{/number}",
+          "milestones_url": "https://api.github.com/repos/ZJFILOVE/music-daily/milestones{/number}",
+          "notifications_url": "https://api.github.com/repos/ZJFILOVE/music-daily/notifications{?since,all,participating}",
+          "labels_url": "https://api.github.com/repos/ZJFILOVE/music-daily/labels{/name}",
+          "releases_url": "https://api.github.com/repos/ZJFILOVE/music-daily/releases{/id}",
+          "deployments_url": "https://api.github.com/repos/ZJFILOVE/music-daily/deployments"
+        },
+        "head_repository": {
+          "id": 1356809865,
+          "node_id": "R_kgDOUN9GiQ",
+          "name": "music-daily",
+          "full_name": "ZJFILOVE/music-daily",
+          "private": true,
+          "owner": {
+            "login": "ZJFILOVE",
+            "id": 187031297,
+            "node_id": "U_kgDOCyXfAQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ZJFILOVE",
+            "html_url": "https://github.com/ZJFILOVE",
+            "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+            "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+            "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+            "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+            "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "html_url": "https://github.com/ZJFILOVE/music-daily",
+          "description": null,
+          "fork": false,
+          "url": "https://api.github.com/repos/ZJFILOVE/music-daily",
+          "forks_url": "https://api.github.com/repos/ZJFILOVE/music-daily/forks",
+          "keys_url": "https://api.github.com/repos/ZJFILOVE/music-daily/keys{/key_id}",
+          "collaborators_url": "https://api.github.com/repos/ZJFILOVE/music-daily/collaborators{/collaborator}",
+          "teams_url": "https://api.github.com/repos/ZJFILOVE/music-daily/teams",
+          "hooks_url": "https://api.github.com/repos/ZJFILOVE/music-daily/hooks",
+          "issue_events_url": "https://api.github.com/repos/ZJFILOVE/music-daily/issues/events{/number}",
+          "events_url": "https://api.github.com/repos/ZJFILOVE/music-daily/events",
+          "assignees_url": "https://api.github.com/repos/ZJFILOVE/music-daily/assignees{/user}",
+          "branches_url": "https://api.github.com/repos/ZJFILOVE/music-daily/branches{/branch}",
+          "tags_url": "https://api.github.com/repos/ZJFILOVE/music-daily/tags",
+          "blobs_url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/tags{/sha}",
+          "git_refs_url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/refs{/sha}",
+          "trees_url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees{/sha}",
+          "statuses_url": "https://api.github.com/repos/ZJFILOVE/music-daily/statuses/{sha}",
+          "languages_url": "https://api.github.com/repos/ZJFILOVE/music-daily/languages",
+          "stargazers_url": "https://api.github.com/repos/ZJFILOVE/music-daily/stargazers",
+          "contributors_url": "https://api.github.com/repos/ZJFILOVE/music-daily/contributors",
+          "subscribers_url": "https://api.github.com/repos/ZJFILOVE/music-daily/subscribers",
+          "subscription_url": "https://api.github.com/repos/ZJFILOVE/music-daily/subscription",
+          "commits_url": "https://api.github.com/repos/ZJFILOVE/music-daily/commits{/sha}",
+          "git_commits_url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/commits{/sha}",
+          "comments_url": "https://api.github.com/repos/ZJFILOVE/music-daily/comments{/number}",
+          "issue_comment_url": "https://api.github.com/repos/ZJFILOVE/music-daily/issues/comments{/number}",
+          "contents_url": "https://api.github.com/repos/ZJFILOVE/music-daily/contents/{+path}",
+          "compare_url": "https://api.github.com/repos/ZJFILOVE/music-daily/compare/{base}...{head}",
+          "merges_url": "https://api.github.com/repos/ZJFILOVE/music-daily/merges",
+          "archive_url": "https://api.github.com/repos/ZJFILOVE/music-daily/{archive_format}{/ref}",
+          "downloads_url": "https://api.github.com/repos/ZJFILOVE/music-daily/downloads",
+          "issues_url": "https://api.github.com/repos/ZJFILOVE/music-daily/issues{/number}",
+          "pulls_url": "https://api.github.com/repos/ZJFILOVE/music-daily/pulls{/number}",
+          "milestones_url": "https://api.github.com/repos/ZJFILOVE/music-daily/milestones{/number}",
+          "notifications_url": "https://api.github.com/repos/ZJFILOVE/music-daily/notifications{?since,all,participating}",
+          "labels_url": "https://api.github.com/repos/ZJFILOVE/music-daily/labels{/name}",
+          "releases_url": "https://api.github.com/repos/ZJFILOVE/music-daily/releases{/id}",
+          "deployments_url": "https://api.github.com/repos/ZJFILOVE/music-daily/deployments"
+        }
+      },
+      "jobs": {
+        "jobs": [
+          {
+            "id": 119581413821,
+            "name": "validate",
+            "status": "completed",
+            "conclusion": "success",
+            "run_id": 39704558065,
+            "logs_url": null,
+            "steps": [
+              {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1
+              },
+              {
+                "name": "Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2
+              },
+              {
+                "name": "Run actions/setup-python@v5",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3
+              },
+              {
+                "name": "Run python scripts/validate.py",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4
+              },
+              {
+                "name": "Run python -m unittest discover -s scripts -p 'test_consistency.py' -v",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5
+              },
+              {
+                "name": "Preserve all historically exposed tracks and existing state values",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6
+              },
+              {
+                "name": "Post Run actions/setup-python@v5",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 11
+              },
+              {
+                "name": "Post Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 12
+              },
+              {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 13
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "repo": "obsidian-vault",
+      "run": {
+        "id": 39704627953,
+        "name": "Recommendation integrity (read-only)",
+        "node_id": "WFR_kwLOUMOAQc8AAAAJPpSK8Q",
+        "head_branch": "main",
+        "head_sha": "73d43b1e95dcaa61ea95b4ab62d65dd4e590d4fe",
+        "path": ".github/workflows/recommendation-health.yml",
+        "display_title": "Publish Apple Music Daily 5 for 2026-10-22 and byte-exact mirrors",
+        "run_number": 149,
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "workflow_id": 383994881,
+        "check_suite_id": 107604762146,
+        "check_suite_node_id": "CS_kwDOUMOAQc8AAAAZDb5eIg",
+        "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/actions/runs/39704627953",
+        "html_url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/39704627953",
+        "pull_requests": [],
+        "created_at": "2026-10-22T01:15:28Z",
+        "updated_at": "2026-10-22T01:15:43Z",
+        "actor": {
+          "login": "ZJFILOVE",
+          "id": 187031297,
+          "node_id": "U_kgDOCyXfAQ",
+          "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ZJFILOVE",
+          "html_url": "https://github.com/ZJFILOVE",
+          "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+          "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+          "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+          "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+          "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "run_attempt": 1,
+        "referenced_workflows": [],
+        "run_started_at": "2026-10-22T01:15:28Z",
+        "triggering_actor": {
+          "login": "ZJFILOVE",
+          "id": 187031297,
+          "node_id": "U_kgDOCyXfAQ",
+          "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ZJFILOVE",
+          "html_url": "https://github.com/ZJFILOVE",
+          "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+          "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+          "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+          "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+          "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "jobs_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/actions/runs/39704627953/jobs",
+        "logs_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/actions/runs/39704627953/logs",
+        "check_suite_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/check-suites/107604762146",
+        "artifacts_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/actions/runs/39704627953/artifacts",
+        "cancel_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/actions/runs/39704627953/cancel",
+        "rerun_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/actions/runs/39704627953/rerun",
+        "previous_attempt_url": null,
+        "workflow_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/actions/workflows/383994881",
+        "head_commit": {
+          "id": "73d43b1e95dcaa61ea95b4ab62d65dd4e590d4fe",
+          "tree_id": "e2c218ecd7aef59002ddc325b6cb3b46eb5e8cc4",
+          "message": "Publish Apple Music Daily 5 for 2026-10-22 and byte-exact mirrors",
+          "timestamp": "2026-10-22T01:15:25Z",
+          "author": {
+            "name": "ZJFILOVE",
+            "email": "zhujunfeng07@gmail.com"
+          },
+          "committer": {
+            "name": "ZJFILOVE",
+            "email": "zhujunfeng07@gmail.com"
+          }
+        },
+        "repository": {
+          "id": 1354989633,
+          "node_id": "R_kgDOUMOAQQ",
+          "name": "obsidian-vault",
+          "full_name": "ZJFILOVE/obsidian-vault",
+          "private": true,
+          "owner": {
+            "login": "ZJFILOVE",
+            "id": 187031297,
+            "node_id": "U_kgDOCyXfAQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ZJFILOVE",
+            "html_url": "https://github.com/ZJFILOVE",
+            "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+            "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+            "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+            "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+            "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "html_url": "https://github.com/ZJFILOVE/obsidian-vault",
+          "description": null,
+          "fork": false,
+          "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault",
+          "forks_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/forks",
+          "keys_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/keys{/key_id}",
+          "collaborators_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/collaborators{/collaborator}",
+          "teams_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/teams",
+          "hooks_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/hooks",
+          "issue_events_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/issues/events{/number}",
+          "events_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/events",
+          "assignees_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/assignees{/user}",
+          "branches_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/branches{/branch}",
+          "tags_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/tags",
+          "blobs_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/tags{/sha}",
+          "git_refs_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/refs{/sha}",
+          "trees_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees{/sha}",
+          "statuses_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/statuses/{sha}",
+          "languages_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/languages",
+          "stargazers_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/stargazers",
+          "contributors_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/contributors",
+          "subscribers_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/subscribers",
+          "subscription_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/subscription",
+          "commits_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/commits{/sha}",
+          "git_commits_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/commits{/sha}",
+          "comments_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/comments{/number}",
+          "issue_comment_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/issues/comments{/number}",
+          "contents_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/contents/{+path}",
+          "compare_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/compare/{base}...{head}",
+          "merges_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/merges",
+          "archive_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/{archive_format}{/ref}",
+          "downloads_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/downloads",
+          "issues_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/issues{/number}",
+          "pulls_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/pulls{/number}",
+          "milestones_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/milestones{/number}",
+          "notifications_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/notifications{?since,all,participating}",
+          "labels_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/labels{/name}",
+          "releases_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/releases{/id}",
+          "deployments_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/deployments"
+        },
+        "head_repository": {
+          "id": 1354989633,
+          "node_id": "R_kgDOUMOAQQ",
+          "name": "obsidian-vault",
+          "full_name": "ZJFILOVE/obsidian-vault",
+          "private": true,
+          "owner": {
+            "login": "ZJFILOVE",
+            "id": 187031297,
+            "node_id": "U_kgDOCyXfAQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/187031297?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ZJFILOVE",
+            "html_url": "https://github.com/ZJFILOVE",
+            "followers_url": "https://api.github.com/users/ZJFILOVE/followers",
+            "following_url": "https://api.github.com/users/ZJFILOVE/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ZJFILOVE/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ZJFILOVE/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ZJFILOVE/subscriptions",
+            "organizations_url": "https://api.github.com/users/ZJFILOVE/orgs",
+            "repos_url": "https://api.github.com/users/ZJFILOVE/repos",
+            "events_url": "https://api.github.com/users/ZJFILOVE/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ZJFILOVE/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "html_url": "https://github.com/ZJFILOVE/obsidian-vault",
+          "description": null,
+          "fork": false,
+          "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault",
+          "forks_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/forks",
+          "keys_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/keys{/key_id}",
+          "collaborators_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/collaborators{/collaborator}",
+          "teams_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/teams",
+          "hooks_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/hooks",
+          "issue_events_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/issues/events{/number}",
+          "events_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/events",
+          "assignees_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/assignees{/user}",
+          "branches_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/branches{/branch}",
+          "tags_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/tags",
+          "blobs_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/tags{/sha}",
+          "git_refs_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/refs{/sha}",
+          "trees_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees{/sha}",
+          "statuses_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/statuses/{sha}",
+          "languages_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/languages",
+          "stargazers_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/stargazers",
+          "contributors_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/contributors",
+          "subscribers_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/subscribers",
+          "subscription_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/subscription",
+          "commits_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/commits{/sha}",
+          "git_commits_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/commits{/sha}",
+          "comments_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/comments{/number}",
+          "issue_comment_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/issues/comments{/number}",
+          "contents_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/contents/{+path}",
+          "compare_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/compare/{base}...{head}",
+          "merges_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/merges",
+          "archive_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/{archive_format}{/ref}",
+          "downloads_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/downloads",
+          "issues_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/issues{/number}",
+          "pulls_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/pulls{/number}",
+          "milestones_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/milestones{/number}",
+          "notifications_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/notifications{?since,all,participating}",
+          "labels_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/labels{/name}",
+          "releases_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/releases{/id}",
+          "deployments_url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/deployments"
+        }
+      },
+      "jobs": {
+        "jobs": [
+          {
+            "id": 119581635088,
+            "name": "validate",
+            "status": "completed",
+            "conclusion": "success",
+            "run_id": 39704627953,
+            "logs_url": null,
+            "steps": [
+              {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1
+              },
+              {
+                "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2
+              },
+              {
+                "name": "Validate publications and full source-history coverage",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3
+              },
+              {
+                "name": "Negative regressions and interrupted-publication recovery",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4
+              },
+              {
+                "name": "Compare permanent history with the actual base commit",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5
+              },
+              {
+                "name": "Record scope of checks",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6
+              },
+              {
+                "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 12
+              },
+              {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 13
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "execution": {
+    "prepared": {
+      "creation": {
+        "commit_sha": "31548b841b92e2d9333a273aff05eac33fb3899c"
+      },
+      "readback_sha": "9ac12b8012bf7fa243028e5bf75bd2132c084364",
+      "bundle_sha256": "a7198c741a870c2cd6d6b37435c54b54cd07ff931a7aa54135e63beaa04863a7",
+      "observed_at": "2026-10-22 01:14:00 UTC"
+    },
+    "prepared_identity_receipt": {
+      "path": ".recommendation/transaction-runs/music/2026-10-22/20261022T011500Z-prepared.json",
+      "receipt": {
+        "schema_version": 1,
+        "operation_id": "music:2026-10-22",
+        "stage": "PREPARED",
+        "recorded_at": "2026-10-22 01:14:12 UTC",
+        "prepared_creation_commit": "31548b841b92e2d9333a273aff05eac33fb3899c",
+        "prepared_blob_sha": "9ac12b8012bf7fa243028e5bf75bd2132c084364",
+        "original_bundle_sha256": "a7198c741a870c2cd6d6b37435c54b54cd07ff931a7aa54135e63beaa04863a7",
+        "original_plan_sha256": "b4e4c44b2184e2fe35d1772a9dc5c38268d0039aadb0e60de181d073ed8a8a7d",
+        "prepared_readback": "complete_byte_equal",
+        "verified_baselines": "matched_complete_current_reads",
+        "source_gate": "five exact CN resource title/artist/album/id observed before PREPARED",
+        "candidate_count": 39
+      },
+      "creation": {
+        "commit_sha": "b8a2b863b5db8f823b27621b98cd3e541639e333"
+      },
+      "readback_sha": "81ada9a65f4e93002c0180ea5d9592dc1a949b3d"
+    },
+    "stages": [
+      {
+        "parent": "70320465742d283704e440b770495b1481d2ef25",
+        "base_tree": "d04c84458f98cfc4fcac6169f41c320fca55089e",
+        "tree": {
+          "sha": "9bcf331b3eca0f4be7d76f3a12c83e69ec077c32"
+        },
+        "commit": {
+          "sha": "6b6414987b9024f70f2d1911064bf6ac684cba5d"
+        },
+        "update": {
+          "success": true
+        }
+      },
+      {
+        "parent": "c131ba954c6a971d2f6d43a789e29800505955a1",
+        "base_tree": "eef8d49dfcf4f8460c09a28d6a5e79d0b2cbbc8d",
+        "tree": {
+          "sha": "e2c218ecd7aef59002ddc325b6cb3b46eb5e8cc4"
+        },
+        "commit": {
+          "sha": "73d43b1e95dcaa61ea95b4ab62d65dd4e590d4fe"
+        },
+        "update": {
+          "success": true
+        }
+      }
+    ],
+    "stage_receipts": [
+      {
+        "path": ".recommendation/transaction-runs/music/2026-10-22/20261022011505-stage1.json",
+        "creation": {
+          "commit_sha": "c131ba954c6a971d2f6d43a789e29800505955a1"
+        },
+        "sha": "18d99e7ac59cb05c04704fc836278d59ab9cd5dc",
+        "receipt": {
+          "operation_id": "music:2026-10-22",
+          "recorded_at": "2026-10-22 01:15:05 UTC",
+          "original_bundle_sha256": "a7198c741a870c2cd6d6b37435c54b54cd07ff931a7aa54135e63beaa04863a7",
+          "prepared_creation_commit": "31548b841b92e2d9333a273aff05eac33fb3899c",
+          "stage": 1,
+          "parent": "70320465742d283704e440b770495b1481d2ef25",
+          "commit": "6b6414987b9024f70f2d1911064bf6ac684cba5d",
+          "readbacks": [
+            {
+              "path": "recommendations/2026/10/2026-10-22.json",
+              "sha": "1c2c2b36491baf68396d30660ce3a3885e4c32c9",
+              "complete_byte_equal": true
+            },
+            {
+              "path": "state/tracks.json",
+              "sha": "b18474ea9183dd12c295bf3de172e1149e2c66b7",
+              "complete_byte_equal": true
+            }
+          ],
+          "errors": []
+        }
+      },
+      {
+        "path": ".recommendation/transaction-runs/music/2026-10-22/20261022011551-stage2.json",
+        "creation": {
+          "commit_sha": "ac3b17667bb0ab007dc634a43927750d2c360338"
+        },
+        "sha": "89b7508d408cf34d19e041363b814740e260fe41",
+        "receipt": {
+          "operation_id": "music:2026-10-22",
+          "recorded_at": "2026-10-22 01:15:51 UTC",
+          "original_bundle_sha256": "a7198c741a870c2cd6d6b37435c54b54cd07ff931a7aa54135e63beaa04863a7",
+          "prepared_creation_commit": "31548b841b92e2d9333a273aff05eac33fb3899c",
+          "stage": 2,
+          "parent": "c131ba954c6a971d2f6d43a789e29800505955a1",
+          "commit": "73d43b1e95dcaa61ea95b4ab62d65dd4e590d4fe",
+          "readbacks": [
+            {
+              "path": "Music/Daily/2026-10-22.md",
+              "sha": "fe12152690b1f625777122c7aa3aac3e6f156d37",
+              "complete_byte_equal": true
+            },
+            {
+              "path": "Music/Daily/manifests/2026-10-22.json",
+              "sha": "1c2c2b36491baf68396d30660ce3a3885e4c32c9",
+              "complete_byte_equal": true
+            },
+            {
+              "path": "Music/Daily/state/tracks.json",
+              "sha": "b18474ea9183dd12c295bf3de172e1149e2c66b7",
+              "complete_byte_equal": true
+            }
+          ],
+          "errors": []
+        }
+      }
+    ]
+  },
+  "readbacks": [
+    {
+      "repository": "ZJFILOVE/music-daily",
+      "path": "recommendations/2026/10/2026-10-22.json",
+      "sha": "1c2c2b36491baf68396d30660ce3a3885e4c32c9",
+      "target_sha": "1c2c2b36491baf68396d30660ce3a3885e4c32c9"
+    },
+    {
+      "repository": "ZJFILOVE/music-daily",
+      "path": "state/tracks.json",
+      "sha": "b18474ea9183dd12c295bf3de172e1149e2c66b7",
+      "target_sha": "b18474ea9183dd12c295bf3de172e1149e2c66b7"
+    },
+    {
+      "repository": "ZJFILOVE/obsidian-vault",
+      "path": "Music/Daily/2026-10-22.md",
+      "sha": "fe12152690b1f625777122c7aa3aac3e6f156d37",
+      "target_sha": "fe12152690b1f625777122c7aa3aac3e6f156d37"
+    },
+    {
+      "repository": "ZJFILOVE/obsidian-vault",
+      "path": "Music/Daily/manifests/2026-10-22.json",
+      "sha": "1c2c2b36491baf68396d30660ce3a3885e4c32c9",
+      "target_sha": "1c2c2b36491baf68396d30660ce3a3885e4c32c9"
+    },
+    {
+      "repository": "ZJFILOVE/obsidian-vault",
+      "path": "Music/Daily/state/tracks.json",
+      "sha": "b18474ea9183dd12c295bf3de172e1149e2c66b7",
+      "target_sha": "b18474ea9183dd12c295bf3de172e1149e2c66b7"
+    }
+  ],
+  "check_scope": "Current source metadata and subjective editorial review separate from repository structure. Local materialized files hash-verified; full Git history/base preservation additionally checked by exact publication commit CI. No personal playback, device sync or delivery test.",
+  "actual_ci_log_evidence": [
+    {
+      "repo": "ZJFILOVE/music-daily",
+      "job_id": 119581413821,
+      "complete_log_characters": 34163,
+      "scope": "Actual job log inspected; retained only validator outputs and pass evidence, excluding environment/auth setup.",
+      "excerpts": [
+        "2026-10-22T01:14:52.8513510Z OK: 225 unique recommended tracks validated for China storefront",
+        "2026-10-22T01:14:53.0369666Z Ran 14 tests in 0.050s",
+        "2026-10-22T01:14:53.5612864Z   \"status\": \"passed_structural_with_url_warnings\",",
+        "2026-10-22T01:14:53.5839883Z   \"current_tracks\": 225,",
+        "2026-10-22T01:14:53.5840627Z   \"state_entries\": 233,",
+        "2026-10-22T01:14:53.5841315Z   \"historical_exposures_checked\": 233,",
+        "2026-10-22T01:14:53.5842094Z   \"retired_entries_retained\": 8,"
+      ]
+    },
+    {
+      "repo": "ZJFILOVE/obsidian-vault",
+      "job_id": 119581635088,
+      "complete_log_characters": 35206,
+      "scope": "Actual job log inspected; retained only validator outputs and pass evidence, excluding environment/auth setup.",
+      "excerpts": [
+        "2026-10-22T01:15:35.3347407Z OK: strict daily recommendations validated — youtube=190, reddit=380, english=39, music=190",
+        "2026-10-22T01:15:35.5465788Z Ran 63 tests in 0.080s",
+        "2026-10-22T01:15:35.6448219Z test_append_only_can_add_history (test_publication_bundle.BundleTests.test_append_only_can_add_history) ... ok",
+        "2026-10-22T01:15:35.6455923Z test_append_only_cannot_delete_history (test_publication_bundle.BundleTests.test_append_only_cannot_delete_history) ... ok",
+        "2026-10-22T01:15:35.6807264Z Ran 41 tests in 0.015s",
+        "2026-10-22T01:15:35.7357887Z Ran 15 tests in 0.004s",
+        "2026-10-22T01:15:35.8476783Z   \"status\": \"passed_local_integrity\",",
+        "2026-10-22T01:15:35.8503535Z     \"current_tracks\": 225,",
+        "2026-10-22T01:15:35.8505241Z     \"state_entries\": 233,",
+        "2026-10-22T01:15:35.8506849Z     \"retired_entries_retained\": 8",
+        "2026-10-22T01:15:35.8509860Z   \"append_only\": \"passed_against_base\",",
+        "2026-10-22T01:15:35.8512340Z   \"base_ref\": \"c131ba954c6a971d2f6d43a789e29800505955a1\",",
+        "2026-10-22T01:15:36.0547421Z   \"bundles\": 24,",
+        "2026-10-22T01:15:36.0550460Z   \"base_ref\": \"c131ba954c6a971d2f6d43a789e29800505955a1\","
+      ]
+    }
+  ],
+  "cross_repository_snapshot_evidence": {
+    "schema_version": 1,
+    "music": {
+      "head_before": "6b6414987b9024f70f2d1911064bf6ac684cba5d",
+      "head_after": "6b6414987b9024f70f2d1911064bf6ac684cba5d",
+      "commit": {
+        "sha": "6b6414987b9024f70f2d1911064bf6ac684cba5d",
+        "node_id": "C_kwDOUN9GidoAKDZiNjQxNDk4N2I5MDI0ZjcwZjJkMTkxMTA2NGJmNmFjNjg0Y2JhNWQ",
+        "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/commits/6b6414987b9024f70f2d1911064bf6ac684cba5d",
+        "html_url": "https://github.com/ZJFILOVE/music-daily/commit/6b6414987b9024f70f2d1911064bf6ac684cba5d",
+        "author": {
+          "name": "ZJFILOVE",
+          "email": "zhujunfeng07@gmail.com",
+          "date": "2026-10-22T01:14:44Z"
+        },
+        "committer": {
+          "name": "ZJFILOVE",
+          "email": "zhujunfeng07@gmail.com",
+          "date": "2026-10-22T01:14:44Z"
+        },
+        "tree": {
+          "sha": "9bcf331b3eca0f4be7d76f3a12c83e69ec077c32",
+          "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/9bcf331b3eca0f4be7d76f3a12c83e69ec077c32"
+        },
+        "message": "Publish Apple Music Daily 5 for 2026-10-22 with permanent history",
+        "parents": [
+          {
+            "sha": "70320465742d283704e440b770495b1481d2ef25",
+            "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/commits/70320465742d283704e440b770495b1481d2ef25",
+            "html_url": "https://github.com/ZJFILOVE/music-daily/commit/70320465742d283704e440b770495b1481d2ef25"
+          }
+        ],
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "trees": {
+        "9bcf331b3eca0f4be7d76f3a12c83e69ec077c32": {
+          "sha": "9bcf331b3eca0f4be7d76f3a12c83e69ec077c32",
+          "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/9bcf331b3eca0f4be7d76f3a12c83e69ec077c32",
+          "tree": [
+            {
+              "path": ".audit",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "02101051d73680620121e25a1b1c1a23ed136e03",
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/02101051d73680620121e25a1b1c1a23ed136e03"
+            },
+            {
+              "path": ".bootstrap-complete",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "25f349441cad386a916934cc52b3b3ea642d57f8",
+              "size": 53,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/25f349441cad386a916934cc52b3b3ea642d57f8"
+            },
+            {
+              "path": ".github",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3fd56a762276b73a6d9db6a409629e6648116913",
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/3fd56a762276b73a6d9db6a409629e6648116913"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6a1aa048f407f9c045161b96c719e3445e705bb3",
+              "size": 249,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/6a1aa048f407f9c045161b96c719e3445e705bb3"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "c3cebdff839ea3e94fee5ec1c5e234b83e7e7387",
+              "size": 707,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/c3cebdff839ea3e94fee5ec1c5e234b83e7e7387"
+            },
+            {
+              "path": "recommendations",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e7e54046288ac378a8db9beb9a7aa6d6362d099e",
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/e7e54046288ac378a8db9beb9a7aa6d6362d099e"
+            },
+            {
+              "path": "schemas",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "336f47da1ae435cbe4e05863ec8735d1ad7b37c9",
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/336f47da1ae435cbe4e05863ec8735d1ad7b37c9"
+            },
+            {
+              "path": "scripts",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "5d4458649b5d8b699ce428d81831e8e93cc6886b",
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/5d4458649b5d8b699ce428d81831e8e93cc6886b"
+            },
+            {
+              "path": "state",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e18bfe4d46fb5570654bd78aa7b5d0b89f104240",
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/e18bfe4d46fb5570654bd78aa7b5d0b89f104240"
+            }
+          ],
+          "truncated": false
+        },
+        "e7e54046288ac378a8db9beb9a7aa6d6362d099e": {
+          "sha": "e7e54046288ac378a8db9beb9a7aa6d6362d099e",
+          "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/e7e54046288ac378a8db9beb9a7aa6d6362d099e",
+          "tree": [
+            {
+              "path": "2026",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "be1151954885fd27c5739b20dbefe3f65982205a",
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/be1151954885fd27c5739b20dbefe3f65982205a"
+            }
+          ],
+          "truncated": false
+        },
+        "e18bfe4d46fb5570654bd78aa7b5d0b89f104240": {
+          "sha": "e18bfe4d46fb5570654bd78aa7b5d0b89f104240",
+          "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/e18bfe4d46fb5570654bd78aa7b5d0b89f104240",
+          "tree": [
+            {
+              "path": "tracks.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b18474ea9183dd12c295bf3de172e1149e2c66b7",
+              "size": 20126,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/b18474ea9183dd12c295bf3de172e1149e2c66b7"
+            }
+          ],
+          "truncated": false
+        },
+        "be1151954885fd27c5739b20dbefe3f65982205a": {
+          "sha": "be1151954885fd27c5739b20dbefe3f65982205a",
+          "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/be1151954885fd27c5739b20dbefe3f65982205a",
+          "tree": [
+            {
+              "path": "09",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3a9573013cdfed7617398d3bdf575346aee6074c",
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/3a9573013cdfed7617398d3bdf575346aee6074c"
+            },
+            {
+              "path": "10",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8fb641ba259d4e5d3a4a530211826bba2e2cd888",
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/8fb641ba259d4e5d3a4a530211826bba2e2cd888"
+            }
+          ],
+          "truncated": false
+        },
+        "3a9573013cdfed7617398d3bdf575346aee6074c": {
+          "sha": "3a9573013cdfed7617398d3bdf575346aee6074c",
+          "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/3a9573013cdfed7617398d3bdf575346aee6074c",
+          "tree": [
+            {
+              "path": "2026-09-04.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+              "size": 2819,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/c4074fe4298941f0bbb6fe5d00fb8f58d2271c18"
+            },
+            {
+              "path": "2026-09-05.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "425068f9d2850f6174758c01adee37d25f3bb336",
+              "size": 3261,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/425068f9d2850f6174758c01adee37d25f3bb336"
+            },
+            {
+              "path": "2026-09-06.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "cbe1822dfb00e97d8f4aa537dbfd1f52f48dcccf",
+              "size": 3777,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/cbe1822dfb00e97d8f4aa537dbfd1f52f48dcccf"
+            },
+            {
+              "path": "2026-09-07.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "43c49954065383de75f28c4bfd239b7473f1c324",
+              "size": 4173,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/43c49954065383de75f28c4bfd239b7473f1c324"
+            },
+            {
+              "path": "2026-09-08.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "1aff7797664028e9729b0b42925909206fbdef2e",
+              "size": 3439,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/1aff7797664028e9729b0b42925909206fbdef2e"
+            },
+            {
+              "path": "2026-09-09.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "5b883498386208ef9809ec552e12bd30e5ae0510",
+              "size": 4042,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/5b883498386208ef9809ec552e12bd30e5ae0510"
+            },
+            {
+              "path": "2026-09-10.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6981929543fd31c36649815397d89b2bf1632551",
+              "size": 3281,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/6981929543fd31c36649815397d89b2bf1632551"
+            },
+            {
+              "path": "2026-09-11.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "66b29d99e17bc6da20987d9accd71e57851aa9fa",
+              "size": 3464,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/66b29d99e17bc6da20987d9accd71e57851aa9fa"
+            },
+            {
+              "path": "2026-09-12.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "9e852ec43b70c9612f836c60eb55f8d44164dadc",
+              "size": 4707,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/9e852ec43b70c9612f836c60eb55f8d44164dadc"
+            },
+            {
+              "path": "2026-09-13.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b576357c8a83b6e618ce52984d43efb9ccd1e0fa",
+              "size": 4950,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/b576357c8a83b6e618ce52984d43efb9ccd1e0fa"
+            },
+            {
+              "path": "2026-09-14.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "a7e1729f60debf70fd3c922c83508286868bb83a",
+              "size": 5137,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/a7e1729f60debf70fd3c922c83508286868bb83a"
+            },
+            {
+              "path": "2026-09-15.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e348cea20ac3b39edfad8d26cd2de5b49d4724c6",
+              "size": 5939,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/e348cea20ac3b39edfad8d26cd2de5b49d4724c6"
+            },
+            {
+              "path": "2026-09-16.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "7a672e648529aa290ace44f78f43f217d29e5b0d",
+              "size": 5333,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/7a672e648529aa290ace44f78f43f217d29e5b0d"
+            },
+            {
+              "path": "2026-09-17.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b62ae078472ac906c381bf246a59818507688f72",
+              "size": 5767,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/b62ae078472ac906c381bf246a59818507688f72"
+            },
+            {
+              "path": "2026-09-18.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e2ad0074519697a2f402427996a212b3831f8290",
+              "size": 5435,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/e2ad0074519697a2f402427996a212b3831f8290"
+            },
+            {
+              "path": "2026-09-19.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "2d2999277022bc329e15ce43477453edc5e8fc21",
+              "size": 5922,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/2d2999277022bc329e15ce43477453edc5e8fc21"
+            },
+            {
+              "path": "2026-09-20.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "03cf1cc76eebfd74b0342fb74a8c1e616942c737",
+              "size": 5907,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/03cf1cc76eebfd74b0342fb74a8c1e616942c737"
+            },
+            {
+              "path": "2026-09-21.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "125ab7faf9a2fd4c08812b1bffc57686f65a1e4d",
+              "size": 6021,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/125ab7faf9a2fd4c08812b1bffc57686f65a1e4d"
+            },
+            {
+              "path": "2026-09-22.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "08788b30503a3d320b0343f015c213050b43cb21",
+              "size": 5898,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/08788b30503a3d320b0343f015c213050b43cb21"
+            },
+            {
+              "path": "2026-09-23.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "07a2dddee1f9d38067afced0d678e4c578197d64",
+              "size": 6113,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/07a2dddee1f9d38067afced0d678e4c578197d64"
+            },
+            {
+              "path": "2026-09-24.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6bb9b98980a1f6dc7883d45cf2a4744879ea40c7",
+              "size": 6511,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/6bb9b98980a1f6dc7883d45cf2a4744879ea40c7"
+            },
+            {
+              "path": "2026-09-25.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "03f0f440b402f65da5fbd32943b70ac631e885ff",
+              "size": 4733,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/03f0f440b402f65da5fbd32943b70ac631e885ff"
+            },
+            {
+              "path": "2026-09-26.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "2a6e8cacaec306279f64685e6f4ddd3ddcaedb11",
+              "size": 5708,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/2a6e8cacaec306279f64685e6f4ddd3ddcaedb11"
+            },
+            {
+              "path": "2026-09-28.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "a40e31e20b92f129bf2b21f1073e3a69b120e33b",
+              "size": 6182,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/a40e31e20b92f129bf2b21f1073e3a69b120e33b"
+            },
+            {
+              "path": "2026-09-29.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "05ac05fdddcc456cd6103fb8854a5e77d8882dfe",
+              "size": 6505,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/05ac05fdddcc456cd6103fb8854a5e77d8882dfe"
+            },
+            {
+              "path": "2026-09-30.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "4e2ed9d2f5a7f7a4f8df41a4d4407b6429c8695f",
+              "size": 5294,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/4e2ed9d2f5a7f7a4f8df41a4d4407b6429c8695f"
+            }
+          ],
+          "truncated": false
+        },
+        "8fb641ba259d4e5d3a4a530211826bba2e2cd888": {
+          "sha": "8fb641ba259d4e5d3a4a530211826bba2e2cd888",
+          "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/8fb641ba259d4e5d3a4a530211826bba2e2cd888",
+          "tree": [
+            {
+              "path": "2026-10-01.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "08c0655ae1e1a430b803cedfaee28265d9bca7c4",
+              "size": 4769,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/08c0655ae1e1a430b803cedfaee28265d9bca7c4"
+            },
+            {
+              "path": "2026-10-02.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "977590adad74f3530dc571b9578648372d99b460",
+              "size": 5084,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/977590adad74f3530dc571b9578648372d99b460"
+            },
+            {
+              "path": "2026-10-03.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "c0d1ba2c8088bee2b9bfe73c0491112db013d040",
+              "size": 5876,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/c0d1ba2c8088bee2b9bfe73c0491112db013d040"
+            },
+            {
+              "path": "2026-10-04.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e21086438c1609a5c65e4dfad5eb17efa390197c",
+              "size": 4680,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/e21086438c1609a5c65e4dfad5eb17efa390197c"
+            },
+            {
+              "path": "2026-10-05.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "bd8e8944afd975565557ac3a88f1ac3b8e16a8f7",
+              "size": 5013,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/bd8e8944afd975565557ac3a88f1ac3b8e16a8f7"
+            },
+            {
+              "path": "2026-10-06.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "1edfce17fd8094efd866e294b8cac1cf02f5e72d",
+              "size": 3546,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/1edfce17fd8094efd866e294b8cac1cf02f5e72d"
+            },
+            {
+              "path": "2026-10-07.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "ed9f6ab90943f1a35219cc8b41017559955aec86",
+              "size": 6578,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/ed9f6ab90943f1a35219cc8b41017559955aec86"
+            },
+            {
+              "path": "2026-10-08.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "2e8c9efd842d7d12ec5e76582d3098b2904de3f7",
+              "size": 6666,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/2e8c9efd842d7d12ec5e76582d3098b2904de3f7"
+            },
+            {
+              "path": "2026-10-09.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "76dff8dedee8c861d72f158e73de4afb106f8d42",
+              "size": 8228,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/76dff8dedee8c861d72f158e73de4afb106f8d42"
+            },
+            {
+              "path": "2026-10-11.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "3da7d2fcf2f9f1417a32ad0e313118646cdc04ea",
+              "size": 7697,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/3da7d2fcf2f9f1417a32ad0e313118646cdc04ea"
+            },
+            {
+              "path": "2026-10-12.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "35f974e89bd209addcfef98ba16f5b7bc5e0ace3",
+              "size": 8080,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/35f974e89bd209addcfef98ba16f5b7bc5e0ace3"
+            },
+            {
+              "path": "2026-10-15.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26",
+              "size": 7682,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/661d359f6937ddfde4e9e7db220fa5ca1a8cee26"
+            },
+            {
+              "path": "2026-10-16.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "08a0e041348374b67cc59fe08080364ce92b4973",
+              "size": 4402,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/08a0e041348374b67cc59fe08080364ce92b4973"
+            },
+            {
+              "path": "2026-10-17.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "28d482f6649e2b6cb3d67817ed0ecbfbf18e0a65",
+              "size": 4490,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/28d482f6649e2b6cb3d67817ed0ecbfbf18e0a65"
+            },
+            {
+              "path": "2026-10-18.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "ecbdb7dbd5007784bdfb7eee4a9c3cc7706aa054",
+              "size": 5273,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/ecbdb7dbd5007784bdfb7eee4a9c3cc7706aa054"
+            },
+            {
+              "path": "2026-10-19.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "250f0308b004cf080611a943c55d896f47b6cab8",
+              "size": 4880,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/250f0308b004cf080611a943c55d896f47b6cab8"
+            },
+            {
+              "path": "2026-10-20.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "3cb0f6c54d5a27fa00adc0a0f5031c119fc69563",
+              "size": 4850,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/3cb0f6c54d5a27fa00adc0a0f5031c119fc69563"
+            },
+            {
+              "path": "2026-10-21.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "91677ae6a1c440bedb3ba1e5fb20753f52b797db",
+              "size": 4636,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/91677ae6a1c440bedb3ba1e5fb20753f52b797db"
+            },
+            {
+              "path": "2026-10-22.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "1c2c2b36491baf68396d30660ce3a3885e4c32c9",
+              "size": 8689,
+              "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/blobs/1c2c2b36491baf68396d30660ce3a3885e4c32c9"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    },
+    "vault": {
+      "head_before": "ac3b17667bb0ab007dc634a43927750d2c360338",
+      "head_after": "ac3b17667bb0ab007dc634a43927750d2c360338",
+      "commit": {
+        "sha": "ac3b17667bb0ab007dc634a43927750d2c360338",
+        "node_id": "C_kwDOUMOAQdoAKGFjM2IxNzY2N2JiMGFiMDA3ZGM2MzRhNDM5Mjc3NTBkMmMzNjAzMzg",
+        "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/commits/ac3b17667bb0ab007dc634a43927750d2c360338",
+        "html_url": "https://github.com/ZJFILOVE/obsidian-vault/commit/ac3b17667bb0ab007dc634a43927750d2c360338",
+        "author": {
+          "name": "ZJFILOVE",
+          "email": "zhujunfeng07@gmail.com",
+          "date": "2026-10-22T01:15:51Z"
+        },
+        "committer": {
+          "name": "ZJFILOVE",
+          "email": "zhujunfeng07@gmail.com",
+          "date": "2026-10-22T01:15:51Z"
+        },
+        "tree": {
+          "sha": "eb6c89c1c73934dcc90667e665d553cca8cf7e97",
+          "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/eb6c89c1c73934dcc90667e665d553cca8cf7e97"
+        },
+        "message": "Record music stage 2 readback for 2026-10-22",
+        "parents": [
+          {
+            "sha": "73d43b1e95dcaa61ea95b4ab62d65dd4e590d4fe",
+            "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/commits/73d43b1e95dcaa61ea95b4ab62d65dd4e590d4fe",
+            "html_url": "https://github.com/ZJFILOVE/obsidian-vault/commit/73d43b1e95dcaa61ea95b4ab62d65dd4e590d4fe"
+          }
+        ],
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "trees": {
+        "eb6c89c1c73934dcc90667e665d553cca8cf7e97": {
+          "sha": "eb6c89c1c73934dcc90667e665d553cca8cf7e97",
+          "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/eb6c89c1c73934dcc90667e665d553cca8cf7e97",
+          "tree": [
+            {
+              "path": ".audit",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f5f8dbc0fe53a9dbf8b78c1441b8b881d57848fe",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/f5f8dbc0fe53a9dbf8b78c1441b8b881d57848fe"
+            },
+            {
+              "path": ".github",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "6fc9df4a94a62e51bf33c74ac1c6cb87bb30bde1",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/6fc9df4a94a62e51bf33c74ac1c6cb87bb30bde1"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e9ecf0cda67376f12dfe316ffdc11f45c0d93a3e",
+              "size": 216,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/e9ecf0cda67376f12dfe316ffdc11f45c0d93a3e"
+            },
+            {
+              "path": ".obsidian",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8c2bfc2341bc83e7b321893a190978cf0846e599",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/8c2bfc2341bc83e7b321893a190978cf0846e599"
+            },
+            {
+              "path": ".recommendation",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "743df3190e070fbd2d072c980d19eb2cd8792bdf",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/743df3190e070fbd2d072c980d19eb2cd8792bdf"
+            },
+            {
+              "path": "00-inbox",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "9eaa176ce8a046c222b2bd7ee102ed71ae4256d2",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/9eaa176ce8a046c222b2bd7ee102ed71ae4256d2"
+            },
+            {
+              "path": "10-books",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "671ec9b4565e0f74d70927b8597c61657fffcebb",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/671ec9b4565e0f74d70927b8597c61657fffcebb"
+            },
+            {
+              "path": "30-concepts",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "fb79693439fa8deb0ad5fa6784f02f3f4e58999e",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/fb79693439fa8deb0ad5fa6784f02f3f4e58999e"
+            },
+            {
+              "path": "50-courses",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "6a1cc7e1046820fd7f14a57888864c8add936d79",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/6a1cc7e1046820fd7f14a57888864c8add936d79"
+            },
+            {
+              "path": "99-templates",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "fc12976f93777baf20e9dbd351d8809a23a0b3ea",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/fc12976f93777baf20e9dbd351d8809a23a0b3ea"
+            },
+            {
+              "path": "Home.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "8b032a6ebea1637c1b679957c9bd863e4f2bbb87",
+              "size": 4567,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/8b032a6ebea1637c1b679957c9bd863e4f2bbb87"
+            },
+            {
+              "path": "Music",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8517f6f9aa978bfce3b364ffb3bf95639d16f8b2",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/8517f6f9aa978bfce3b364ffb3bf95639d16f8b2"
+            },
+            {
+              "path": "News",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8068e716ae17e2f291f187b3c0bc3ed0701d7327",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/8068e716ae17e2f291f187b3c0bc3ed0701d7327"
+            },
+            {
+              "path": "Resources",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "22dcd7821f57e8c9e435fa4a4ebb7fa7bca1a710",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/22dcd7821f57e8c9e435fa4a4ebb7fa7bca1a710"
+            },
+            {
+              "path": "nvim.log",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "79ed947be54799c09f0b1f855c95921f37d44fa1",
+              "size": 130,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/79ed947be54799c09f0b1f855c95921f37d44fa1"
+            },
+            {
+              "path": "scripts",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "9423b6c7c45ab3b2e3c5b40a423cc8e018644217",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/9423b6c7c45ab3b2e3c5b40a423cc8e018644217"
+            }
+          ],
+          "truncated": false
+        },
+        "8517f6f9aa978bfce3b364ffb3bf95639d16f8b2": {
+          "sha": "8517f6f9aa978bfce3b364ffb3bf95639d16f8b2",
+          "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/8517f6f9aa978bfce3b364ffb3bf95639d16f8b2",
+          "tree": [
+            {
+              "path": "Daily",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "bb830493f249c5195e4eee51c825237615ff4f2c",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/bb830493f249c5195e4eee51c825237615ff4f2c"
+            },
+            {
+              "path": "Music.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "76ad0d76c49335f9ce5cbe5bd73eaf89170e7b4d",
+              "size": 1625,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/76ad0d76c49335f9ce5cbe5bd73eaf89170e7b4d"
+            }
+          ],
+          "truncated": false
+        },
+        "bb830493f249c5195e4eee51c825237615ff4f2c": {
+          "sha": "bb830493f249c5195e4eee51c825237615ff4f2c",
+          "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/bb830493f249c5195e4eee51c825237615ff4f2c",
+          "tree": [
+            {
+              "path": "2026-09-04.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "7fe1f90a5114b91bb0124bef2427c00abb56fbb8",
+              "size": 5443,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/7fe1f90a5114b91bb0124bef2427c00abb56fbb8"
+            },
+            {
+              "path": "2026-09-05.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "361e2f2dbd31d4a0683d09bc02e79de5e2c6fa3f",
+              "size": 3627,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/361e2f2dbd31d4a0683d09bc02e79de5e2c6fa3f"
+            },
+            {
+              "path": "2026-09-06.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "a22ee6eb6b92a1082e9c0b2034ae65284b7545c1",
+              "size": 4751,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/a22ee6eb6b92a1082e9c0b2034ae65284b7545c1"
+            },
+            {
+              "path": "2026-09-07.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "a0c5f15cb79fc020df2c76040d0cab6145546226",
+              "size": 5837,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/a0c5f15cb79fc020df2c76040d0cab6145546226"
+            },
+            {
+              "path": "2026-09-08.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "082b12eef2707896bd801c4b233aec04aa87e00c",
+              "size": 3674,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/082b12eef2707896bd801c4b233aec04aa87e00c"
+            },
+            {
+              "path": "2026-09-09.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "9c324e6895287a9ebbf00eb72723a71015a583e6",
+              "size": 5661,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/9c324e6895287a9ebbf00eb72723a71015a583e6"
+            },
+            {
+              "path": "2026-09-10.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "65dea8dc4adadf750795363e4d123b75ac5b33cd",
+              "size": 4342,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/65dea8dc4adadf750795363e4d123b75ac5b33cd"
+            },
+            {
+              "path": "2026-09-11.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "1c70fb2610c9cc169a76932afcf998db827a2667",
+              "size": 5757,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/1c70fb2610c9cc169a76932afcf998db827a2667"
+            },
+            {
+              "path": "2026-09-12.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "59ca012e52cb2f939261b40a95a551622081f2b0",
+              "size": 8675,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/59ca012e52cb2f939261b40a95a551622081f2b0"
+            },
+            {
+              "path": "2026-09-13.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "fc07c4fb3124d765090a0ae009c7c3c72dc2e019",
+              "size": 9341,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/fc07c4fb3124d765090a0ae009c7c3c72dc2e019"
+            },
+            {
+              "path": "2026-09-14.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "7f0a3022b941c8933a5202898b1cf25b8369635f",
+              "size": 8236,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/7f0a3022b941c8933a5202898b1cf25b8369635f"
+            },
+            {
+              "path": "2026-09-15.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "0d28c90a16cdf36331d62052e03fff14a5a2d116",
+              "size": 8085,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/0d28c90a16cdf36331d62052e03fff14a5a2d116"
+            },
+            {
+              "path": "2026-09-16.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "d589a195d3cffe9e3fac65992e09ed2004d96f11",
+              "size": 8958,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/d589a195d3cffe9e3fac65992e09ed2004d96f11"
+            },
+            {
+              "path": "2026-09-17.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "14a6fa742772e35b2f4914007b14634a6393c9c3",
+              "size": 8444,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/14a6fa742772e35b2f4914007b14634a6393c9c3"
+            },
+            {
+              "path": "2026-09-18.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "4502bacbeb54156c91ecc63b85f1d3d5c4bb42d5",
+              "size": 8835,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/4502bacbeb54156c91ecc63b85f1d3d5c4bb42d5"
+            },
+            {
+              "path": "2026-09-19.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "5534630a13e326eb3dc02b72e4953ea64e6cf00e",
+              "size": 8873,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/5534630a13e326eb3dc02b72e4953ea64e6cf00e"
+            },
+            {
+              "path": "2026-09-20.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "3556f30ef6db1b789465c58de659c6b69697219d",
+              "size": 9647,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/3556f30ef6db1b789465c58de659c6b69697219d"
+            },
+            {
+              "path": "2026-09-21.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e800fa01958427c4a9d90613086e8ab7762137a6",
+              "size": 8014,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/e800fa01958427c4a9d90613086e8ab7762137a6"
+            },
+            {
+              "path": "2026-09-22.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "5a1645ee0465d5ef891cbfdad5e7200206837826",
+              "size": 10939,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/5a1645ee0465d5ef891cbfdad5e7200206837826"
+            },
+            {
+              "path": "2026-09-23.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "03db713732e65323256964c98cf9af3a782b3129",
+              "size": 10836,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/03db713732e65323256964c98cf9af3a782b3129"
+            },
+            {
+              "path": "2026-09-24.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "51bae9c6b86bae404d6c3ee4e9797e528ebe4feb",
+              "size": 8636,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/51bae9c6b86bae404d6c3ee4e9797e528ebe4feb"
+            },
+            {
+              "path": "2026-09-25.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "35000461f70b4fadbe50eca1d14a91ba79a4cf97",
+              "size": 5407,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/35000461f70b4fadbe50eca1d14a91ba79a4cf97"
+            },
+            {
+              "path": "2026-09-26.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "32b5db42fd2e98838153d506c6649a7e181345b9",
+              "size": 8433,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/32b5db42fd2e98838153d506c6649a7e181345b9"
+            },
+            {
+              "path": "2026-09-28.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "d082398d6bae6f1f4093750bd9b045760128ac6c",
+              "size": 7996,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/d082398d6bae6f1f4093750bd9b045760128ac6c"
+            },
+            {
+              "path": "2026-09-29.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "927600da647a83f78a650debf2c706d1773fffb5",
+              "size": 8989,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/927600da647a83f78a650debf2c706d1773fffb5"
+            },
+            {
+              "path": "2026-09-30.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "4f87a7b679bbd729dddc91d2dcbe35be545e5de8",
+              "size": 8127,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/4f87a7b679bbd729dddc91d2dcbe35be545e5de8"
+            },
+            {
+              "path": "2026-10-01.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "1aa4a775f9b835562b4f4874d01f39eff5cbc331",
+              "size": 7044,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/1aa4a775f9b835562b4f4874d01f39eff5cbc331"
+            },
+            {
+              "path": "2026-10-02.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b41436a922695b05407cc02f230634b3ba17ef29",
+              "size": 6410,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/b41436a922695b05407cc02f230634b3ba17ef29"
+            },
+            {
+              "path": "2026-10-03.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "7ff82fdd06bb45b0b5e851e780afdc646842dbfd",
+              "size": 7800,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/7ff82fdd06bb45b0b5e851e780afdc646842dbfd"
+            },
+            {
+              "path": "2026-10-04.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "1af24cbd24767c39cabf9a636fab5f0bbbc93e05",
+              "size": 5810,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/1af24cbd24767c39cabf9a636fab5f0bbbc93e05"
+            },
+            {
+              "path": "2026-10-05.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "0360a49131b1e92d38d0b37d87d3eab57e2563cc",
+              "size": 6511,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/0360a49131b1e92d38d0b37d87d3eab57e2563cc"
+            },
+            {
+              "path": "2026-10-06.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "94dd48f6f18448d6e4a48b8539b177a513859bdf",
+              "size": 8418,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/94dd48f6f18448d6e4a48b8539b177a513859bdf"
+            },
+            {
+              "path": "2026-10-07.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "335449deab189e166588e4798b7b2e00ec7a6599",
+              "size": 6502,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/335449deab189e166588e4798b7b2e00ec7a6599"
+            },
+            {
+              "path": "2026-10-08.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "4b9f84f2c075a4e38d18a5496a3c62996a8fd7cf",
+              "size": 6739,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/4b9f84f2c075a4e38d18a5496a3c62996a8fd7cf"
+            },
+            {
+              "path": "2026-10-09.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "dd04c9e33436d28ad18e9e09fea004dc938206c0",
+              "size": 8214,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/dd04c9e33436d28ad18e9e09fea004dc938206c0"
+            },
+            {
+              "path": "2026-10-11.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "709d8a57d80b260e143e4be6cdbd5b3ab7a67ecf",
+              "size": 7880,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/709d8a57d80b260e143e4be6cdbd5b3ab7a67ecf"
+            },
+            {
+              "path": "2026-10-12.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6e9df76b4d3d253b852dcd3d9d47a82ca4a4b556",
+              "size": 8698,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/6e9df76b4d3d253b852dcd3d9d47a82ca4a4b556"
+            },
+            {
+              "path": "2026-10-15.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e3b01207c4f48b865d1c8cc5000367d3c1157d84",
+              "size": 7833,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/e3b01207c4f48b865d1c8cc5000367d3c1157d84"
+            },
+            {
+              "path": "2026-10-16.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "62b87de2c0dc7a49e03ed8144ad4413637b0ade1",
+              "size": 8322,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/62b87de2c0dc7a49e03ed8144ad4413637b0ade1"
+            },
+            {
+              "path": "2026-10-17.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b8932b9b5d1b2063a64c5b590fcb02e4b28b0506",
+              "size": 9095,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/b8932b9b5d1b2063a64c5b590fcb02e4b28b0506"
+            },
+            {
+              "path": "2026-10-18.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "3ec519fc88cd910b17655a2c69790520db06e09a",
+              "size": 10124,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/3ec519fc88cd910b17655a2c69790520db06e09a"
+            },
+            {
+              "path": "2026-10-19.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "1439b7b247709fcdb641b73ac547db008d237efa",
+              "size": 9393,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/1439b7b247709fcdb641b73ac547db008d237efa"
+            },
+            {
+              "path": "2026-10-20.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "20ca1eb585d5ae7f32230455d52b0241015ab0a8",
+              "size": 9818,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/20ca1eb585d5ae7f32230455d52b0241015ab0a8"
+            },
+            {
+              "path": "2026-10-21.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "41c24039412d3f2a20f61ccbcd773ec28dcb7ad8",
+              "size": 8893,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/41c24039412d3f2a20f61ccbcd773ec28dcb7ad8"
+            },
+            {
+              "path": "2026-10-22.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "fe12152690b1f625777122c7aa3aac3e6f156d37",
+              "size": 9363,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/fe12152690b1f625777122c7aa3aac3e6f156d37"
+            },
+            {
+              "path": "manifests",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "719d7478807d498cd2f9b93f5afa51170155ab7a",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/719d7478807d498cd2f9b93f5afa51170155ab7a"
+            },
+            {
+              "path": "state",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e18bfe4d46fb5570654bd78aa7b5d0b89f104240",
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/e18bfe4d46fb5570654bd78aa7b5d0b89f104240"
+            }
+          ],
+          "truncated": false
+        },
+        "719d7478807d498cd2f9b93f5afa51170155ab7a": {
+          "sha": "719d7478807d498cd2f9b93f5afa51170155ab7a",
+          "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/719d7478807d498cd2f9b93f5afa51170155ab7a",
+          "tree": [
+            {
+              "path": "2026-09-04.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+              "size": 2819,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/c4074fe4298941f0bbb6fe5d00fb8f58d2271c18"
+            },
+            {
+              "path": "2026-09-05.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "425068f9d2850f6174758c01adee37d25f3bb336",
+              "size": 3261,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/425068f9d2850f6174758c01adee37d25f3bb336"
+            },
+            {
+              "path": "2026-09-06.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "cbe1822dfb00e97d8f4aa537dbfd1f52f48dcccf",
+              "size": 3777,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/cbe1822dfb00e97d8f4aa537dbfd1f52f48dcccf"
+            },
+            {
+              "path": "2026-09-07.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "43c49954065383de75f28c4bfd239b7473f1c324",
+              "size": 4173,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/43c49954065383de75f28c4bfd239b7473f1c324"
+            },
+            {
+              "path": "2026-09-08.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "1aff7797664028e9729b0b42925909206fbdef2e",
+              "size": 3439,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/1aff7797664028e9729b0b42925909206fbdef2e"
+            },
+            {
+              "path": "2026-09-09.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "5b883498386208ef9809ec552e12bd30e5ae0510",
+              "size": 4042,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/5b883498386208ef9809ec552e12bd30e5ae0510"
+            },
+            {
+              "path": "2026-09-10.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6981929543fd31c36649815397d89b2bf1632551",
+              "size": 3281,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/6981929543fd31c36649815397d89b2bf1632551"
+            },
+            {
+              "path": "2026-09-11.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "66b29d99e17bc6da20987d9accd71e57851aa9fa",
+              "size": 3464,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/66b29d99e17bc6da20987d9accd71e57851aa9fa"
+            },
+            {
+              "path": "2026-09-12.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "9e852ec43b70c9612f836c60eb55f8d44164dadc",
+              "size": 4707,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/9e852ec43b70c9612f836c60eb55f8d44164dadc"
+            },
+            {
+              "path": "2026-09-13.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b576357c8a83b6e618ce52984d43efb9ccd1e0fa",
+              "size": 4950,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/b576357c8a83b6e618ce52984d43efb9ccd1e0fa"
+            },
+            {
+              "path": "2026-09-14.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "a7e1729f60debf70fd3c922c83508286868bb83a",
+              "size": 5137,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/a7e1729f60debf70fd3c922c83508286868bb83a"
+            },
+            {
+              "path": "2026-09-15.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e348cea20ac3b39edfad8d26cd2de5b49d4724c6",
+              "size": 5939,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/e348cea20ac3b39edfad8d26cd2de5b49d4724c6"
+            },
+            {
+              "path": "2026-09-16.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "7a672e648529aa290ace44f78f43f217d29e5b0d",
+              "size": 5333,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/7a672e648529aa290ace44f78f43f217d29e5b0d"
+            },
+            {
+              "path": "2026-09-17.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b62ae078472ac906c381bf246a59818507688f72",
+              "size": 5767,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/b62ae078472ac906c381bf246a59818507688f72"
+            },
+            {
+              "path": "2026-09-18.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e2ad0074519697a2f402427996a212b3831f8290",
+              "size": 5435,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/e2ad0074519697a2f402427996a212b3831f8290"
+            },
+            {
+              "path": "2026-09-19.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "2d2999277022bc329e15ce43477453edc5e8fc21",
+              "size": 5922,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/2d2999277022bc329e15ce43477453edc5e8fc21"
+            },
+            {
+              "path": "2026-09-20.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "03cf1cc76eebfd74b0342fb74a8c1e616942c737",
+              "size": 5907,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/03cf1cc76eebfd74b0342fb74a8c1e616942c737"
+            },
+            {
+              "path": "2026-09-21.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "125ab7faf9a2fd4c08812b1bffc57686f65a1e4d",
+              "size": 6021,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/125ab7faf9a2fd4c08812b1bffc57686f65a1e4d"
+            },
+            {
+              "path": "2026-09-22.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "08788b30503a3d320b0343f015c213050b43cb21",
+              "size": 5898,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/08788b30503a3d320b0343f015c213050b43cb21"
+            },
+            {
+              "path": "2026-09-23.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "07a2dddee1f9d38067afced0d678e4c578197d64",
+              "size": 6113,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/07a2dddee1f9d38067afced0d678e4c578197d64"
+            },
+            {
+              "path": "2026-09-24.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6bb9b98980a1f6dc7883d45cf2a4744879ea40c7",
+              "size": 6511,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/6bb9b98980a1f6dc7883d45cf2a4744879ea40c7"
+            },
+            {
+              "path": "2026-09-25.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "03f0f440b402f65da5fbd32943b70ac631e885ff",
+              "size": 4733,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/03f0f440b402f65da5fbd32943b70ac631e885ff"
+            },
+            {
+              "path": "2026-09-26.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "2a6e8cacaec306279f64685e6f4ddd3ddcaedb11",
+              "size": 5708,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/2a6e8cacaec306279f64685e6f4ddd3ddcaedb11"
+            },
+            {
+              "path": "2026-09-28.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "a40e31e20b92f129bf2b21f1073e3a69b120e33b",
+              "size": 6182,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/a40e31e20b92f129bf2b21f1073e3a69b120e33b"
+            },
+            {
+              "path": "2026-09-29.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "05ac05fdddcc456cd6103fb8854a5e77d8882dfe",
+              "size": 6505,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/05ac05fdddcc456cd6103fb8854a5e77d8882dfe"
+            },
+            {
+              "path": "2026-09-30.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "4e2ed9d2f5a7f7a4f8df41a4d4407b6429c8695f",
+              "size": 5294,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/4e2ed9d2f5a7f7a4f8df41a4d4407b6429c8695f"
+            },
+            {
+              "path": "2026-10-01.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "08c0655ae1e1a430b803cedfaee28265d9bca7c4",
+              "size": 4769,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/08c0655ae1e1a430b803cedfaee28265d9bca7c4"
+            },
+            {
+              "path": "2026-10-02.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "977590adad74f3530dc571b9578648372d99b460",
+              "size": 5084,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/977590adad74f3530dc571b9578648372d99b460"
+            },
+            {
+              "path": "2026-10-03.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "c0d1ba2c8088bee2b9bfe73c0491112db013d040",
+              "size": 5876,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/c0d1ba2c8088bee2b9bfe73c0491112db013d040"
+            },
+            {
+              "path": "2026-10-04.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e21086438c1609a5c65e4dfad5eb17efa390197c",
+              "size": 4680,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/e21086438c1609a5c65e4dfad5eb17efa390197c"
+            },
+            {
+              "path": "2026-10-05.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "bd8e8944afd975565557ac3a88f1ac3b8e16a8f7",
+              "size": 5013,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/bd8e8944afd975565557ac3a88f1ac3b8e16a8f7"
+            },
+            {
+              "path": "2026-10-06.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "1edfce17fd8094efd866e294b8cac1cf02f5e72d",
+              "size": 3546,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/1edfce17fd8094efd866e294b8cac1cf02f5e72d"
+            },
+            {
+              "path": "2026-10-07.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "ed9f6ab90943f1a35219cc8b41017559955aec86",
+              "size": 6578,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/ed9f6ab90943f1a35219cc8b41017559955aec86"
+            },
+            {
+              "path": "2026-10-08.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "2e8c9efd842d7d12ec5e76582d3098b2904de3f7",
+              "size": 6666,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/2e8c9efd842d7d12ec5e76582d3098b2904de3f7"
+            },
+            {
+              "path": "2026-10-09.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "76dff8dedee8c861d72f158e73de4afb106f8d42",
+              "size": 8228,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/76dff8dedee8c861d72f158e73de4afb106f8d42"
+            },
+            {
+              "path": "2026-10-11.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "3da7d2fcf2f9f1417a32ad0e313118646cdc04ea",
+              "size": 7697,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/3da7d2fcf2f9f1417a32ad0e313118646cdc04ea"
+            },
+            {
+              "path": "2026-10-12.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "35f974e89bd209addcfef98ba16f5b7bc5e0ace3",
+              "size": 8080,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/35f974e89bd209addcfef98ba16f5b7bc5e0ace3"
+            },
+            {
+              "path": "2026-10-15.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26",
+              "size": 7682,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/661d359f6937ddfde4e9e7db220fa5ca1a8cee26"
+            },
+            {
+              "path": "2026-10-16.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "08a0e041348374b67cc59fe08080364ce92b4973",
+              "size": 4402,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/08a0e041348374b67cc59fe08080364ce92b4973"
+            },
+            {
+              "path": "2026-10-17.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "28d482f6649e2b6cb3d67817ed0ecbfbf18e0a65",
+              "size": 4490,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/28d482f6649e2b6cb3d67817ed0ecbfbf18e0a65"
+            },
+            {
+              "path": "2026-10-18.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "ecbdb7dbd5007784bdfb7eee4a9c3cc7706aa054",
+              "size": 5273,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/ecbdb7dbd5007784bdfb7eee4a9c3cc7706aa054"
+            },
+            {
+              "path": "2026-10-19.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "250f0308b004cf080611a943c55d896f47b6cab8",
+              "size": 4880,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/250f0308b004cf080611a943c55d896f47b6cab8"
+            },
+            {
+              "path": "2026-10-20.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "3cb0f6c54d5a27fa00adc0a0f5031c119fc69563",
+              "size": 4850,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/3cb0f6c54d5a27fa00adc0a0f5031c119fc69563"
+            },
+            {
+              "path": "2026-10-21.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "91677ae6a1c440bedb3ba1e5fb20753f52b797db",
+              "size": 4636,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/91677ae6a1c440bedb3ba1e5fb20753f52b797db"
+            },
+            {
+              "path": "2026-10-22.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "1c2c2b36491baf68396d30660ce3a3885e4c32c9",
+              "size": 8689,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/1c2c2b36491baf68396d30660ce3a3885e4c32c9"
+            }
+          ],
+          "truncated": false
+        },
+        "e18bfe4d46fb5570654bd78aa7b5d0b89f104240": {
+          "sha": "e18bfe4d46fb5570654bd78aa7b5d0b89f104240",
+          "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/e18bfe4d46fb5570654bd78aa7b5d0b89f104240",
+          "tree": [
+            {
+              "path": "tracks.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b18474ea9183dd12c295bf3de172e1149e2c66b7",
+              "size": 20126,
+              "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/blobs/b18474ea9183dd12c295bf3de172e1149e2c66b7"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    }
+  }
+}
