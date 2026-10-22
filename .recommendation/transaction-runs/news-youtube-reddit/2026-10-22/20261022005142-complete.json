@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-10-22",
+  "recorded_at_utc": "2026-10-22 00:51:42 UTC",
+  "status": "complete_all_current_publication_gates_passed",
+  "bundle_sha256": "b687fc10ebf4a205fe6f826a8a970e4500503f8c34b07dc1798df81e53153773",
+  "plan_sha256": "e211905d62721567b7d0a416d3881343ab762309a1dcac8125817e056adeb523",
+  "prepared_creation_commit": "8d7e92503715efe1ba0d211dee50bfd86c5aee80",
+  "prepared_blob_sha": "2d6f73ec8318c1a8fd2234ed36780fdf9ff9b281",
+  "identity_receipt_commit": "a817b82961de1ab4726313a3147bfc158d0b0328",
+  "publication": {
+    "prepared_creation_commit": "8d7e92503715efe1ba0d211dee50bfd86c5aee80",
+    "prepared_blob_sha": "2d6f73ec8318c1a8fd2234ed36780fdf9ff9b281",
+    "original_bundle_sha256": "b687fc10ebf4a205fe6f826a8a970e4500503f8c34b07dc1798df81e53153773",
+    "original_plan_sha256": "e211905d62721567b7d0a416d3881343ab762309a1dcac8125817e056adeb523",
+    "identity_receipt_commit": "a817b82961de1ab4726313a3147bfc158d0b0328",
+    "publication_commit": "39d81ede159495d8edb42b034507bbac66b4105b",
+    "parent": "a817b82961de1ab4726313a3147bfc158d0b0328",
+    "base_tree_sha": "e587aeef2321d0e19179ee162b28e62e1404c70a",
+    "publication_tree_sha": "a6e67425614ee4f2cbf57b455c8318c413a74415",
+    "force": false,
+    "expected_head_lease_matched": true
+  },
+  "readbacks": {
+    "News/Daily/2026-10-22.md": {
+      "sha": "0c5f3af6d843ece010987e0f345de9b29d379673",
+      "utf8_bytes": 5754,
+      "full_readback_exact": true
+    },
+    "Resources/YouTube/Daily/2026-10-22.md": {
+      "sha": "90ef77e6b0150440af1a1c9ef69c240c10aeaaad",
+      "utf8_bytes": 6638,
+      "full_readback_exact": true
+    },
+    "Resources/Reddit/Daily/2026-10-22.md": {
+      "sha": "930cb973af8d485c0c8d38fa6ca6e51472ef785d",
+      "utf8_bytes": 10972,
+      "full_readback_exact": true
+    },
+    ".recommendation/history/youtube.jsonl": {
+      "sha": "c10dcdfc477a8836184aa0238313fc5351ad3d0f",
+      "utf8_bytes": 32694,
+      "full_readback_exact": true
+    },
+    ".recommendation/history/reddit.jsonl": {
+      "sha": "892fd7f28f38e761fe3a09ee550799b02d66ab57",
+      "utf8_bytes": 50378,
+      "full_readback_exact": true
+    }
+  },
+  "histories": {
+    "youtube": {
+      "before": 210,
+      "after": 215,
+      "ordered_ids": [
+        "aFZM_BY6jBw",
+        "dfhiVaJj9UY",
+        "xA_cGg-3QIw",
+        "JjX4PKBt96k",
+        "a3b4PFS70CU"
+      ],
+      "exact_once": true,
+      "fresh_against_original_history": true,
+      "byte_prefix_preserved": true
+    },
+    "reddit": {
+      "before": 400,
+      "after": 410,
+      "ordered_ids": [
+        "1acpa58",
+        "lkdpp5",
+        "v79hzp",
+        "1faneov",
+        "1c3ibw5",
+        "mn0r3o",
+        "12jutjy",
+        "byj9dz",
+        "n98m7a",
+        "1jq0wzj"
+      ],
+      "exact_once": true,
+      "fresh_against_original_history": true,
+      "byte_prefix_preserved": true
+    }
+  },
+  "qa": {
+    "path": ".recommendation/runs/2026-10-22-news-youtube-reddit.json",
+    "creation_commit": "e39783544c7fee1f30c10d353699514b8b1d2cf1",
+    "blob_sha": "e4851ddf8d43bd1f9711a50e8ab86c4425ff6fce",
+    "full_readback_exact": true
+  },
+  "ci": {
+    "run_id": 39701881095,
+    "head_sha": "39d81ede159495d8edb42b034507bbac66b4105b",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "id": 119572795365,
+        "name": "validate",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 39701881095,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Validate publications and full source-history coverage",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Negative regressions and interrupted-publication recovery",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Compare permanent history with the actual base commit",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Record scope of checks",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 6
+          },
+          {
+            "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 12
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 13
+          }
+        ]
+      }
+    ]
+  },
+  "local_tests_passed": 104,
+  "source_recheck": {
+    "news_refs": [
+      "turn285view0",
+      "turn285view1",
+      "turn285view2"
+    ],
+    "video_official_pages": "All five existing official browser pages re-observed; same exact iframe IDs, titles and publishers",
+    "video_web_refs": [
+      "turn284view3",
+      "turn284view4",
+      "turn284view5"
+    ],
+    "full_playback": "not_tested",
+    "transient_retrievals": [
+      {
+        "refs": [
+          "turn284view0",
+          "turn284view1",
+          "turn284view2"
+        ],
+        "classification": "tool_retrieval_unavailable_no_origin_status_or_retry_headers",
+        "bounded_retry": "One reread each through the original source reference, same canonical URLs, succeeded as turn285view0/1/2. No route or identity substitution."
+      }
+    ]
+  },
+  "source_waiver": "Reddit original threads not examined by explicit user waiver; search-only scope retained on all ten.",
+  "errors": [
+    {
+      "scope": "browser",
+      "url": "https://smarthistory.org/hemmel-stained-glass/",
+      "classification": "site_served_human_verification",
+      "action": "Stopped route; no CAPTCHA solved, no alternate Smarthistory route probed; selected publisher-owned HENI source instead."
+    },
+    {
+      "scope": "web",
+      "url": "https://www.tomhscott.com",
+      "classification": "ordinary_unavailable_wrong_spelling_attempt",
+      "action": "Discarded; not candidate evidence."
+    },
+    {
+      "scope": "web",
+      "url": "https://www.3blue1brown.com/lessons",
+      "classification": "ordinary_unavailable",
+      "action": "Discarded; no bypass."
+    },
+    {
+      "scope": "web",
+      "url": "https://www.kvue.com/article/syndication/associatedpress/apec-finance-ministers-warn-persistent-global-imbalances-risk-growth-and-stability/616-42ab22e2-3fa8-483a-ada6-3677dbad9a7d",
+      "classification": "403_forbidden_no_bot_evidence",
+      "action": "No retry or bypass; primary original statements used."
+    },
+    {
+      "scope": "web",
+      "url": "https://apnews.com/article/0eff0561e0af1f3d7421a96d9db02ba9",
+      "classification": "ordinary_retrieval_unavailable",
+      "action": "Not used as verified source; official report plus accessible reporting used."
+    }
+  ],
+  "not_certified": [
+    "full playback",
+    "device synchronization",
+    "notification delivery"
+  ]
+}
