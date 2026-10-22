@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-22",
+  "status": "passed_current_english_publication_checks",
+  "mode": "new_generation",
+  "source": {
+    "title": "Understanding Sound in the Ocean",
+    "publisher": "NOAA Fisheries",
+    "source_url": "https://www.fisheries.noaa.gov/insight/understanding-sound-ocean",
+    "verified_directly": true,
+    "verification_ref": "turn269view0",
+    "verification_scope": "The canonical NOAA Fisheries page was read directly through its seven-question body, including sound sources, animal functions, propagation conditions, possible effects, mapping/listening programs and ESA-management context. This was not snippet- or status-only verification.",
+    "access_caveat": "Main article text was readable without login. Linked roadmaps, maps and external documents were not all fully tested.",
+    "estimated_first_pass_minutes": [
+      6,
+      9
+    ],
+    "official_duration": null
+  },
+  "selection": {
+    "candidate_count": 8,
+    "candidates": [
+      {
+        "title": "Understanding Sound in the Ocean",
+        "url": "https://www.fisheries.noaa.gov/insight/understanding-sound-ocean",
+        "publisher": "NOAA Fisheries",
+        "format": "official science explainer",
+        "estimated_minutes": "6-9",
+        "scores": [
+          4.8,
+          4.8,
+          4.7,
+          4.6,
+          4.5
+        ],
+        "penalties": {},
+        "decision": "selected",
+        "evidence_ref": "turn269view0",
+        "reason": "Complete, coherent seven-question explainer; directly read through the management section; useful mechanism-and-qualification language and distinct from recent topics.",
+        "weighted_editorial_score_before_penalties": 4.72,
+        "weighted_editorial_score_after_penalties": 4.72,
+        "fresh_against_original_history_and_reservations": true
+      },
+      {
+        "title": "How far does sound travel in the ocean?",
+        "url": "https://oceanservice.noaa.gov/facts/sound.html",
+        "publisher": "NOAA National Ocean Service",
+        "format": "official fact article",
+        "estimated_minutes": "3-4",
+        "scores": [
+          4.5,
+          4.0,
+          4.7,
+          4.4,
+          4.0
+        ],
+        "penalties": {
+          "too_short_for_target": 0.35,
+          "same_narrow_topic_as_selected": 0.15
+        },
+        "decision": "rejected",
+        "evidence_ref": "turn269view1",
+        "reason": "Directly read and accurate, but too short as the single 5-15 minute input and narrower than the selected source.",
+        "weighted_editorial_score_before_penalties": 4.35,
+        "weighted_editorial_score_after_penalties": 3.85,
+        "fresh_against_original_history_and_reservations": true
+      },
+      {
+        "title": "Seven Ways Astronauts Improve Sleep May Help You Snooze Better on Earth",
+        "url": "https://www.nasa.gov/missions/station/seven-ways-astronauts-improve-sleep-may-help-you-snooze-better-on-earth/",
+        "publisher": "NASA",
+        "format": "official public science article",
+        "estimated_minutes": "5-7",
+        "scores": [
+          4.4,
+          4.6,
+          4.2,
+          4.0,
+          4.4
+        ],
+        "penalties": {
+          "personal_health_advice_boundary": 0.15
+        },
+        "decision": "rejected",
+        "evidence_ref": "turn269view2",
+        "reason": "Directly read and usable, but health-adjacent advice requires more caution and the language structure is less distinctive today.",
+        "weighted_editorial_score_before_penalties": 4.35,
+        "weighted_editorial_score_after_penalties": 4.2,
+        "fresh_against_original_history_and_reservations": true
+      },
+      {
+        "title": "Why Ocean Exploration Matters",
+        "url": "https://oceanexplorer.noaa.gov/why-exploration-matters/",
+        "publisher": "NOAA Ocean Exploration",
+        "format": "official institutional explainer",
+        "estimated_minutes": "10-14",
+        "scores": [
+          4.5,
+          4.4,
+          4.6,
+          4.3,
+          4.2
+        ],
+        "penalties": {
+          "broad_advocacy_structure": 0.15,
+          "same_narrow_topic_as_selected": 0.15
+        },
+        "decision": "rejected",
+        "evidence_ref": "turn269view3",
+        "reason": "Substantive official page, but broader and more advocacy-shaped than the selected mechanism-focused article.",
+        "weighted_editorial_score_before_penalties": 4.435,
+        "weighted_editorial_score_after_penalties": 4.135,
+        "fresh_against_original_history_and_reservations": true
+      },
+      {
+        "title": "Bedrest FAQs",
+        "url": "https://www.nasa.gov/hrp/bedrest-faqs/",
+        "publisher": "NASA Human Research Program",
+        "format": "official FAQ",
+        "estimated_minutes": "5-7",
+        "scores": [
+          4.5,
+          4.3,
+          4.8,
+          4.5,
+          4.2
+        ],
+        "penalties": {
+          "specialist_context": 0.1
+        },
+        "decision": "rejected",
+        "evidence_ref": "turn269view5",
+        "reason": "Directly read and curious, but more specialized and offers fewer reusable cause-condition-management transitions.",
+        "weighted_editorial_score_before_penalties": 4.48,
+        "weighted_editorial_score_after_penalties": 4.38,
+        "fresh_against_original_history_and_reservations": true
+      },
+      {
+        "title": "What is ocean noise?",
+        "url": "https://oceanservice.noaa.gov/facts/ocean-noise.html",
+        "publisher": "NOAA National Ocean Service",
+        "format": "official fact article",
+        "estimated_minutes": "2-3",
+        "scores": [
+          4.4,
+          4.0,
+          4.4,
+          4.2,
+          3.9
+        ],
+        "penalties": {
+          "too_short_for_target": 0.45,
+          "same_narrow_topic_as_selected": 0.15
+        },
+        "decision": "rejected",
+        "evidence_ref": "turn269view6",
+        "reason": "Directly read but too short to meet the target as a standalone weekday input.",
+        "weighted_editorial_score_before_penalties": 4.22,
+        "weighted_editorial_score_after_penalties": 3.62,
+        "fresh_against_original_history_and_reservations": true
+      },
+      {
+        "title": "SanctSound: Studying the Underwater World of Sound",
+        "url": "https://www.ncei.noaa.gov/news/sanctsound-studying-underwater-world-sound",
+        "publisher": "NOAA NCEI",
+        "format": "official project article",
+        "estimated_minutes": "5-7",
+        "scores": [
+          4.5,
+          4.2,
+          4.6,
+          4.4,
+          4.1
+        ],
+        "penalties": {
+          "project_specific": 0.15,
+          "same_narrow_topic_as_selected": 0.15
+        },
+        "decision": "rejected",
+        "evidence_ref": "turn269view7",
+        "reason": "Directly read project page; useful data-access context, but narrower and more project-specific than the selected overview.",
+        "weighted_editorial_score_before_penalties": 4.39,
+        "weighted_editorial_score_after_penalties": 4.09,
+        "fresh_against_original_history_and_reservations": true
+      },
+      {
+        "title": "Documenting Invention in the Digital Age",
+        "url": "https://invention.si.edu/invention-stories/documenting-invention-digital-age",
+        "publisher": "Smithsonian Lemelson Center",
+        "format": "official museum article",
+        "estimated_minutes": "unknown",
+        "scores": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "penalties": {
+          "unverified_full_source": 1.0,
+          "recent_publisher": 0.2
+        },
+        "decision": "rejected",
+        "evidence_ref": "turn269view4",
+        "reason": "Direct page fetch returned an internal error; treated as unverified, not as an empty or usable source.",
+        "weighted_editorial_score_before_penalties": null,
+        "weighted_editorial_score_after_penalties": null,
+        "fresh_against_original_history_and_reservations": true
+      }
+    ],
+    "fresh_against_original_history_and_unrelated_reservations": true,
+    "same_work_normalized_identity_dedup": "passed",
+    "recent_topic_diversity": "passed; ocean acoustics mechanism and management differs from recent visitor-instruction, collections-evidence and work-life topics"
+  },
+  "bundle": {
+    "prepared_path": ".recommendation/transactions/english/2026-10-22.json",
+    "bundle_sha256": "a485356cdbe2f5921d900bc41c9646ac9405346d65ec65c4886e1edaba8555f6",
+    "plan_sha256": "0b924e7417cd76bc3f339260e198921adba0534aa08ca3409871e1fc38cf9855",
+    "prepared_creation_commit": "eb89bc1014bb515597feebef609966c6d332b595",
+    "prepared_blob_sha": "6c51912005695b8f7eb98380ad779c32636a5606",
+    "prepared_readback_exact": true
+  },
+  "publication": {
+    "commit": "cd15b668c2212e9da1f4ad70373667c8d772391c",
+    "parent": "823421725a9966cdbfdcc3bff12ee8a1bed09252",
+    "tree": "dd751b286d650a3cdc2ceb5c5807cb63ba76f0b8",
+    "branch_update": {
+      "expected_head": "823421725a9966cdbfdcc3bff12ee8a1bed09252",
+      "force": false,
+      "success": true
+    },
+    "readbacks": {
+      "ZJFILOVE/obsidian-vault:50-courses/English/Daily/2026-10-22.md": {
+        "sha": "404c5da854400af38b164fe1509b0f90e7b637b3",
+        "utf8_bytes": 6181,
+        "full_payload_match": true
+      },
+      "ZJFILOVE/obsidian-vault:50-courses/English/Translation/2026-10-22.md": {
+        "sha": "b9fe96475fddaf8fdeeb3a2d8f668cc235fce8ee",
+        "utf8_bytes": 8436,
+        "full_payload_match": true
+      },
+      "ZJFILOVE/obsidian-vault:50-courses/English/Vocabulary/2026-10-22.md": {
+        "sha": "2b232493c1b522337aac95df4cb6f384c2ada204",
+        "utf8_bytes": 6261,
+        "full_payload_match": true
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/history/english.jsonl": {
+        "sha": "6b15ca0b48690700e44db3bc679b9af4240f7ee7",
+        "utf8_bytes": 12056,
+        "full_payload_match": true
+      }
+    },
+    "recovery_planner_after_write": {
+      "operation_id": "english:2026-10-22",
+      "plan_sha256": "0b924e7417cd76bc3f339260e198921adba0534aa08ca3409871e1fc38cf9855",
+      "status": "artifacts_match",
+      "next_stage": null,
+      "decisions": [
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Daily/2026-10-22.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "404c5da854400af38b164fe1509b0f90e7b637b3"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Translation/2026-10-22.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "b9fe96475fddaf8fdeeb3a2d8f668cc235fce8ee"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Vocabulary/2026-10-22.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "2b232493c1b522337aac95df4cb6f384c2ada204"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/english.jsonl",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "6f0c113da5f2b37d456f4499a808579c9ab818a3",
+          "target_sha": "6b15ca0b48690700e44db3bc679b9af4240f7ee7"
+        }
+      ],
+      "content_qa": "not_evaluated",
+      "github_writes_performed": 0
+    }
+  },
+  "history": {
+    "rows_before": 44,
+    "rows_after": 45,
+    "original_history_bytes_retained": true,
+    "exact_once_date_source_title_registration": true,
+    "original_history_blob_sha": "6f0c113da5f2b37d456f4499a808579c9ab818a3",
+    "published_history_blob_sha": "6b15ca0b48690700e44db3bc679b9af4240f7ee7"
+  },
+  "teaching_qa": {
+    "required_note_set": [
+      "Daily",
+      "Translation",
+      "Vocabulary"
+    ],
+    "daily_questions": 3,
+    "first_and_second_pass_routines": true,
+    "output_or_reading_task": true,
+    "independent_translation_exercises": 2,
+    "translation_levels": [
+      "CET-6",
+      "TOEFL/academic"
+    ],
+    "translation_independence": "passed; fictional repair-corner service and hypothetical campus bird-observation study do not translate or paraphrase the ocean-sound input",
+    "folded_reference_answers": true,
+    "structure_collocation_transfer_error_and_precision_work": true,
+    "spaced_review_sentences": 2,
+    "vocabulary_entries": 8,
+    "vocabulary_quiz_questions": 8,
+    "word_families_collocations_examples_contrasts": true,
+    "invented_etymology": false,
+    "crosslinks_frontmatter_auto_manual_boundaries": true,
+    "diet_content_in_repository": false
+  },
+  "local_checks": {
+    "strict_daily_validator": "passed; youtube=185, reddit=370, english=38, music=185 in pinned working snapshot",
+    "daily_integrity": "passed; English history 45 rows/45 unique resources; append-only separately proven by baseline prefix",
+    "unit_tests": "104 passed",
+    "immutable_bundle_journal": "passed; 22 bundles",
+    "invocation_notes": [
+      "The first unittest invocation omitted PYTHONPATH=scripts and failed import before executing tests; corrected invocation ran 104 tests successfully.",
+      "The first journal invocation combined a bundle argument with --journal-root and was rejected by its guard; corrected journal-only invocation passed."
+    ]
+  },
+  "ci": {
+    "workflow": "Recommendation integrity (read-only)",
+    "run_id": 39697348901,
+    "head_sha": "cd15b668c2212e9da1f4ad70373667c8d772391c",
+    "status": "completed",
+    "conclusion": "success",
+    "job": "validate",
+    "job_conclusion": "success",
+    "successful_steps": [
+      "Validate publications and full source-history coverage",
+      "Negative regressions and interrupted-publication recovery",
+      "Compare permanent history with the actual base commit",
+      "Record scope of checks"
+    ]
+  },
+  "historical_backlog": "Legacy historical source/format caveats and pre-policy YouTube duplicates remain retained; none was rewritten or used to waive today's gates.",
+  "not_certified": [
+    "empirical learning outcomes",
+    "all historical live-source quality",
+    "all linked NOAA resources",
+    "device synchronization",
+    "notification delivery"
+  ]
+}
