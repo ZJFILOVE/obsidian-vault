@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-10-22",
+  "stage": "PREPARED",
+  "recorded_at": "2026-10-22 01:14:12 UTC",
+  "prepared_creation_commit": "31548b841b92e2d9333a273aff05eac33fb3899c",
+  "prepared_blob_sha": "9ac12b8012bf7fa243028e5bf75bd2132c084364",
+  "original_bundle_sha256": "a7198c741a870c2cd6d6b37435c54b54cd07ff931a7aa54135e63beaa04863a7",
+  "original_plan_sha256": "b4e4c44b2184e2fe35d1772a9dc5c38268d0039aadb0e60de181d073ed8a8a7d",
+  "prepared_readback": "complete_byte_equal",
+  "verified_baselines": "matched_complete_current_reads",
+  "source_gate": "five exact CN resource title/artist/album/id observed before PREPARED",
+  "candidate_count": 39
+}
