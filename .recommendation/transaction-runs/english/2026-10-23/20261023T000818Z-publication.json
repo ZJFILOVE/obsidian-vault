@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-23",
+  "stage": "publication",
+  "recorded_at_utc": "2026-10-23T00:08:18.696Z",
+  "prepared_creation_commit": "1051f1510539e49942ddb1f105ff6802ab554ca5",
+  "original_bundle_sha256": "ba125a41873d263e351b9559571ef584f4b4b207e1cebf7b69e91edee1602093",
+  "original_plan_sha256": "0122ac3fba3d7b6f84c51d8b98b717d7bf05c087552d28b098ae5e63932b2fca",
+  "publication_commit": "192a4914d35e567f7a7df18609be275f838f5cae",
+  "publication_parent": "77f6a24ccda06e00ca63773000f70763811fa653",
+  "publication_tree": "51e33d16646accee29c13a130c0415dc233f4f67",
+  "expected_head": "77f6a24ccda06e00ca63773000f70763811fa653",
+  "force": false,
+  "readbacks": [
+    {
+      "path": "50-courses/English/Daily/2026-10-23.md",
+      "sha": "f3cfc6bf4a384676b0476e5f886bf3e94f1ce5e6",
+      "full_payload_match": true,
+      "chars": 4324
+    },
+    {
+      "path": "50-courses/English/Translation/2026-10-23.md",
+      "sha": "86aee7fe35b193bf8ad46364ff2f0760ab486388",
+      "full_payload_match": true,
+      "chars": 6337
+    },
+    {
+      "path": "50-courses/English/Vocabulary/2026-10-23.md",
+      "sha": "f8fc2e52725c0aa2ffbe0ffa1655f520841e70de",
+      "full_payload_match": true,
+      "chars": 4567
+    },
+    {
+      "path": ".recommendation/history/english.jsonl",
+      "sha": "04fc91c0ac06d83da1af44341cf26981e7d12714",
+      "full_payload_match": true,
+      "chars": 12316
+    }
+  ],
+  "status": "published_readback_exact"
+}
