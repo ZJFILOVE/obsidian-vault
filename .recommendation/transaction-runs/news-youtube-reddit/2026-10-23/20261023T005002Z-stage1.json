@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-10-23",
+  "attempt_id": "20261023T005002Z-stage1",
+  "recorded_at_utc": "2026-10-23T00:50:02Z",
+  "status": "stage1_complete_readback_exact",
+  "prepared_creation_commit": "8b42ef7826da234208208d4b4108793629a05b69",
+  "prepared_identity_commit": "35d38c9788443b428f798ce7b573063d7d7840ba",
+  "original_bundle_sha256": "a7ef2a1f02ef2dfe17bce2c6ff87219750d86877da20fbd2fa6012b335d77749",
+  "original_plan_sha256": "93b66a7ad4481a6c1a624d567ec6a87366deb5fed1b9964a40736b1be33c40da",
+  "publication_parent": "35d38c9788443b428f798ce7b573063d7d7840ba",
+  "publication_commit": "baa0c7466b48dc8c142fa801154f9984b4cbe698",
+  "publication_tree": "15b74f9a9c47e33501a02967d92ccdd822e282b4",
+  "readbacks": {
+    "ZJFILOVE/obsidian-vault:News/Daily/2026-10-23.md": {
+      "sha": "36309372e691f224486623201fc9b9ef0b9cc5ea",
+      "complete_exact": true
+    },
+    "ZJFILOVE/obsidian-vault:Resources/YouTube/Daily/2026-10-23.md": {
+      "sha": "9ded6464766992f83f9f42618ac0a338037f95b1",
+      "complete_exact": true
+    },
+    "ZJFILOVE/obsidian-vault:Resources/Reddit/Daily/2026-10-23.md": {
+      "sha": "a1c2eeffe260c714f49c1e5297bbffd796cf0f0f",
+      "complete_exact": true
+    },
+    "ZJFILOVE/obsidian-vault:.recommendation/history/youtube.jsonl": {
+      "sha": "f16868506af2874285f55f3c782e1110c95eb57f",
+      "complete_exact": true
+    },
+    "ZJFILOVE/obsidian-vault:.recommendation/history/reddit.jsonl": {
+      "sha": "3b61834ae17b57ece785953af764ade748a01c2e",
+      "complete_exact": true
+    }
+  },
+  "github_errors": [],
+  "completed_writes_are_no_op": true
+}
