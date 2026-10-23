@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-23",
+  "stage": "prepared",
+  "recorded_at_utc": "2026-10-23T00:07:20.163Z",
+  "prepared_path": ".recommendation/transactions/english/2026-10-23.json",
+  "prepared_creation_commit": "1051f1510539e49942ddb1f105ff6802ab554ca5",
+  "prepared_blob_sha": "af6ef12ff9dd9af7b78d4901921dad51db7c3b46",
+  "original_bundle_sha256": "ba125a41873d263e351b9559571ef584f4b4b207e1cebf7b69e91edee1602093",
+  "original_plan_sha256": "0122ac3fba3d7b6f84c51d8b98b717d7bf05c087552d28b098ae5e63932b2fca",
+  "full_readback_exact": true
+}
