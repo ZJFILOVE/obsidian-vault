@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-23",
+  "status": "passed_current_english_publication_checks",
+  "mode": "new_generation",
+  "source": {
+    "title": "Talk NISTy to Me: When Everyday Words Take On Different Meanings in Measurement Science",
+    "publisher": "NIST",
+    "author": "Ben P. Stein",
+    "source_url": "https://www.nist.gov/blogs/taking-measure/talk-nisty-me-when-everyday-words-take-different-meanings-measurement-science",
+    "published": "2024-12-04",
+    "verified_directly_pre_and_post_publication": true,
+    "verification_refs": [
+      "turn292view0",
+      "turn292view1",
+      "turn292view2",
+      "turn292view3",
+      "turn293view0",
+      "turn293view1"
+    ],
+    "verification_scope": "Directly read the canonical NIST page from title/author through artifact, realize, standards, harmonization, sensitivity, accuracy/precision, uncertainty, finesse, matrix and the author bio; not snippet- or status-only verification.",
+    "access_caveat": "Main article text was readable without login. Comment submission, linked documentary and every linked technical reference were not tested.",
+    "estimated_first_pass_minutes": [
+      8,
+      12
+    ],
+    "official_duration": null
+  },
+  "selection": {
+    "candidate_count": 8,
+    "candidates": [
+      {
+        "url": "https://www.nist.gov/blogs/taking-measure/talk-nisty-me-when-everyday-words-take-different-meanings-measurement-science",
+        "title": "Talk NISTy to Me: When Everyday Words Take On Different Meanings in Measurement Science",
+        "publisher": "NIST",
+        "topic": "professional vocabulary and metrology",
+        "estimated_minutes": [
+          8,
+          12
+        ],
+        "verification": "direct_page_read",
+        "source_ref": "turn292view0",
+        "decision": "selected",
+        "reason": "Rich, authentic explanation of polysemy and technical precision; clear examples support active reading and output without repeating the previous week's topics.",
+        "scores": [
+          5,
+          5,
+          4.5,
+          5,
+          5
+        ],
+        "penalties": {
+          "recent_topic": 0,
+          "same_publisher": 0,
+          "access_or_scope": 0
+        },
+        "weighted_editorial_score_before_penalties": 4.9,
+        "weighted_editorial_score_after_penalties": 4.9,
+        "fresh_against_original_history_and_reservations": true
+      },
+      {
+        "url": "https://www.nist.gov/news-events/news/2024/06/reason-us-doesnt-use-metric-system",
+        "title": "The Reason the U.S. Doesn't Use the Metric System",
+        "publisher": "NIST",
+        "topic": "metric adoption and policy",
+        "estimated_minutes": [
+          4,
+          6
+        ],
+        "verification": "direct_page_read",
+        "source_ref": "turn291view0",
+        "decision": "rejected",
+        "reason": "Useful but short and partly points readers to an external National Geographic article; the selected NIST piece offers a fuller self-contained learning sequence.",
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "penalties": {
+          "shorter_than_preferred": 0.3
+        },
+        "weighted_editorial_score_before_penalties": 4,
+        "weighted_editorial_score_after_penalties": 3.7,
+        "fresh_against_original_history_and_reservations": true
+      },
+      {
+        "url": "https://blogs.loc.gov/teachers/2025/04/beulah-henry-finds-invention-inspiration-in-everyday-items-primary-sources-in-three-dimensional-science-learning/",
+        "title": "Beulah Henry Finds Invention Inspiration in Everyday Items",
+        "publisher": "Library of Congress",
+        "topic": "invention and primary sources",
+        "estimated_minutes": [
+          6,
+          9
+        ],
+        "verification": "direct_page_read",
+        "source_ref": "turn291view2",
+        "decision": "rejected",
+        "reason": "Authentic and engaging, but primarily a teacher-facing lesson prompt; less efficient for today's individual language routine.",
+        "scores": [
+          4.5,
+          4,
+          4,
+          4.5,
+          3.5
+        ],
+        "penalties": {
+          "teacher_facing": 0.2
+        },
+        "weighted_editorial_score_before_penalties": 4.175,
+        "weighted_editorial_score_after_penalties": 3.975,
+        "fresh_against_original_history_and_reservations": true
+      },
+      {
+        "url": "https://science.nasa.gov/astrobiology/learning-resources/alp/are-we-really-made-of-star-stuff/",
+        "title": "Are we really made of star stuff?",
+        "publisher": "NASA Science",
+        "topic": "stellar nucleosynthesis",
+        "estimated_minutes": [
+          10,
+          15
+        ],
+        "verification": "direct_page_read",
+        "source_ref": "turn291view3",
+        "decision": "rejected",
+        "reason": "Substantive but visually and pedagogically repetitive, with multiple learner levels on one page; science-topic concentration is also higher after yesterday's ocean-science input.",
+        "scores": [
+          4,
+          4,
+          4.5,
+          3.5,
+          3.5
+        ],
+        "penalties": {
+          "recent_science_topic": 0.4,
+          "page_repetition": 0.2
+        },
+        "weighted_editorial_score_before_penalties": 3.975,
+        "weighted_editorial_score_after_penalties": 3.375,
+        "fresh_against_original_history_and_reservations": true
+      },
+      {
+        "url": "https://www.loc.gov/classroom-materials/childrens-lives-at-the-turn-of-the-twentieth-century/",
+        "title": "Children's Lives at the Turn of the Twentieth Century",
+        "publisher": "Library of Congress",
+        "topic": "social history through primary sources",
+        "estimated_minutes": [
+          8,
+          12
+        ],
+        "verification": "search_result_observed_direct_open_403",
+        "source_ref": "turn290search20",
+        "decision": "rejected",
+        "reason": "Real official source, but the direct page returned 403 during verification, so its full current content was not treated as verified.",
+        "scores": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "penalties": {
+          "unverified_full_page": 1
+        },
+        "fresh_against_original_history_and_reservations": true
+      },
+      {
+        "url": "https://www.loc.gov/classroom-materials/inventions-and-innovations/",
+        "title": "Inventions and Innovations",
+        "publisher": "Library of Congress",
+        "topic": "history of invention",
+        "estimated_minutes": [
+          8,
+          12
+        ],
+        "verification": "search_result_observed_direct_open_403",
+        "source_ref": "turn290search7",
+        "decision": "rejected",
+        "reason": "Real official source, but the direct page returned 403 during verification; not eligible as today's final source.",
+        "scores": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "penalties": {
+          "unverified_full_page": 1
+        },
+        "fresh_against_original_history_and_reservations": true
+      },
+      {
+        "url": "https://www.nist.gov/feature-stories/why-you-need-standards/measurement-standards",
+        "title": "Measurement Standards",
+        "publisher": "NIST",
+        "topic": "standards, time and calibration",
+        "estimated_minutes": [
+          8,
+          12
+        ],
+        "verification": "direct_page_read",
+        "source_ref": "turn291view6",
+        "decision": "rejected",
+        "reason": "Strong factual explainer, but denser and less linguistically playful than the selected piece; same-publisher comparison used only for editorial selection.",
+        "scores": [
+          4.5,
+          4.5,
+          4,
+          4,
+          4
+        ],
+        "penalties": {
+          "same_publisher_alternative": 0.1
+        },
+        "weighted_editorial_score_before_penalties": 4.275,
+        "weighted_editorial_score_after_penalties": 4.175,
+        "fresh_against_original_history_and_reservations": true
+      },
+      {
+        "url": "https://science.nasa.gov/astrobiology/learning-resources/alp/alive-or-not/",
+        "title": "How can we tell if something is alive or not?",
+        "publisher": "NASA Science",
+        "topic": "definitions of life",
+        "estimated_minutes": [
+          10,
+          15
+        ],
+        "verification": "direct_page_read",
+        "source_ref": "turn291view7",
+        "decision": "rejected",
+        "reason": "Good concept-boundary practice, but the long multi-level page is less focused and recent science concentration is higher.",
+        "scores": [
+          4,
+          4,
+          4.5,
+          4,
+          3.5
+        ],
+        "penalties": {
+          "recent_science_topic": 0.4,
+          "page_length": 0.2
+        },
+        "weighted_editorial_score_before_penalties": 4.05,
+        "weighted_editorial_score_after_penalties": 3.45,
+        "fresh_against_original_history_and_reservations": true
+      }
+    ],
+    "fresh_against_original_history_and_unrelated_reservations": true,
+    "same_work_normalized_identity_dedup": "passed",
+    "recent_topic_diversity": "passed; technical polysemy/metrology differs from ocean acoustics, museum collecting, outdoor guidance, work-life balance and the weekend audio/TV inputs"
+  },
+  "bundle": {
+    "prepared_path": ".recommendation/transactions/english/2026-10-23.json",
+    "bundle_sha256": "ba125a41873d263e351b9559571ef584f4b4b207e1cebf7b69e91edee1602093",
+    "plan_sha256": "0122ac3fba3d7b6f84c51d8b98b717d7bf05c087552d28b098ae5e63932b2fca",
+    "prepared_creation_commit": "1051f1510539e49942ddb1f105ff6802ab554ca5",
+    "prepared_blob_sha": "af6ef12ff9dd9af7b78d4901921dad51db7c3b46",
+    "prepared_readback_exact": true,
+    "prepared_identity_receipt": {
+      "path": ".recommendation/transaction-runs/english/2026-10-23/20261023T000720Z-prepared.json",
+      "commit": "77f6a24ccda06e00ca63773000f70763811fa653",
+      "blob_sha": "3036a4632562607edc6ca659a06b30b075a1d306",
+      "readback_exact": true
+    }
+  },
+  "publication": {
+    "commit": "192a4914d35e567f7a7df18609be275f838f5cae",
+    "parent": "77f6a24ccda06e00ca63773000f70763811fa653",
+    "tree": "51e33d16646accee29c13a130c0415dc233f4f67",
+    "branch_update": {
+      "expected_head": "77f6a24ccda06e00ca63773000f70763811fa653",
+      "force": false,
+      "success": true
+    },
+    "readbacks": {
+      "ZJFILOVE/obsidian-vault:50-courses/English/Daily/2026-10-23.md": {
+        "sha": "f3cfc6bf4a384676b0476e5f886bf3e94f1ce5e6",
+        "utf8_bytes": 6645,
+        "full_payload_match": true
+      },
+      "ZJFILOVE/obsidian-vault:50-courses/English/Translation/2026-10-23.md": {
+        "sha": "86aee7fe35b193bf8ad46364ff2f0760ab486388",
+        "utf8_bytes": 9170,
+        "full_payload_match": true
+      },
+      "ZJFILOVE/obsidian-vault:50-courses/English/Vocabulary/2026-10-23.md": {
+        "sha": "f8fc2e52725c0aa2ffbe0ffa1655f520841e70de",
+        "utf8_bytes": 7110,
+        "full_payload_match": true
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/history/english.jsonl": {
+        "sha": "04fc91c0ac06d83da1af44341cf26981e7d12714",
+        "utf8_bytes": 12347,
+        "full_payload_match": true
+      }
+    },
+    "recovery_planner_after_write": {
+      "operation_id": "english:2026-10-23",
+      "plan_sha256": "0122ac3fba3d7b6f84c51d8b98b717d7bf05c087552d28b098ae5e63932b2fca",
+      "status": "artifacts_match",
+      "next_stage": null,
+      "decisions": [
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Daily/2026-10-23.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "f3cfc6bf4a384676b0476e5f886bf3e94f1ce5e6"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Translation/2026-10-23.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "86aee7fe35b193bf8ad46364ff2f0760ab486388"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Vocabulary/2026-10-23.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "f8fc2e52725c0aa2ffbe0ffa1655f520841e70de"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/english.jsonl",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "6b15ca0b48690700e44db3bc679b9af4240f7ee7",
+          "target_sha": "04fc91c0ac06d83da1af44341cf26981e7d12714"
+        }
+      ],
+      "content_qa": "not_evaluated",
+      "github_writes_performed": 0
+    },
+    "attempt_receipt": {
+      "path": ".recommendation/transaction-runs/english/2026-10-23/20261023T000818Z-publication.json",
+      "commit": "96aa43b4f6dee88d5ac8f8919dc6238c570af6db",
+      "blob_sha": "7d95e49a9781b3678680b9ced52f9063c55d9236",
+      "readback_exact": true
+    }
+  },
+  "history": {
+    "rows_before": 45,
+    "rows_after": 46,
+    "original_history_bytes_retained": true,
+    "exact_once_date_source_title_registration": true,
+    "original_history_blob_sha": "6b15ca0b48690700e44db3bc679b9af4240f7ee7",
+    "published_history_blob_sha": "04fc91c0ac06d83da1af44341cf26981e7d12714"
+  },
+  "teaching_qa": {
+    "required_note_set": [
+      "Daily",
+      "Translation",
+      "Vocabulary"
+    ],
+    "daily_questions": 3,
+    "first_and_second_pass_routines": true,
+    "output_and_reading_task": true,
+    "independent_translation_exercises": 2,
+    "translation_levels": [
+      "CET-6",
+      "TOEFL/academic"
+    ],
+    "translation_independence": "passed; fictional library tool lending and a hypothetical bus-stop shade observation do not translate or paraphrase the metrology article",
+    "folded_reference_answers": true,
+    "structure_collocation_transfer_error_and_precision_work": true,
+    "spaced_review_sentences": 2,
+    "vocabulary_entries": 8,
+    "vocabulary_quiz_questions": 8,
+    "word_families_collocations_examples_contrasts": true,
+    "invented_etymology": false,
+    "crosslinks_frontmatter_auto_manual_boundaries": true,
+    "diet_content_in_repository": false
+  },
+  "local_checks": {
+    "strict_daily_validator": "passed; youtube=190, reddit=380, english=40, music=190",
+    "daily_integrity": "passed; English history 46 rows/46 unique resources; local append-only unverified without a Git checkout base but frozen baseline prefix matched exactly",
+    "unit_tests": "104 passed",
+    "immutable_bundle_journal": "passed; 25 bundles",
+    "current_bundle_check": "artifacts_match",
+    "invocation_notes": [
+      "An initial publication_recovery CLI attempt used unsupported option names and made no writes; the documented positional plan plus --expected-digest invocation then passed.",
+      "An initial journal invocation pointed to the transactions directory itself and therefore reported zero; the corrected repository-root invocation verified all 25 bundles."
+    ]
+  },
+  "ci": {
+    "workflow": "Recommendation integrity (read-only)",
+    "run_id": 39876248454,
+    "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/39876248454",
+    "head_sha": "192a4914d35e567f7a7df18609be275f838f5cae",
+    "status": "completed",
+    "conclusion": "success",
+    "job_id": 120162444520,
+    "job": "validate",
+    "job_conclusion": "success",
+    "tests": [
+      63,
+      41,
+      15
+    ],
+    "append_only": "passed_against_base",
+    "base_ref": "77f6a24ccda06e00ca63773000f70763811fa653",
+    "immutable_bundles": 25,
+    "successful_steps": [
+      "Validate publications and full source-history coverage",
+      "Negative regressions and interrupted-publication recovery",
+      "Compare permanent history with the actual base commit",
+      "Record scope of checks"
+    ]
+  },
+  "research_errors": [
+    {
+      "candidate_url": "https://www.loc.gov/classroom-materials/childrens-lives-at-the-turn-of-the-twentieth-century/",
+      "classification": "http_403",
+      "effect": "rejected_unverified"
+    },
+    {
+      "candidate_url": "https://www.loc.gov/classroom-materials/inventions-and-innovations/",
+      "classification": "http_403",
+      "effect": "rejected_unverified"
+    }
+  ],
+  "historical_backlog": "Legacy historical source/format caveats and pre-policy YouTube duplicates remain retained; none was rewritten or used to waive today's gates.",
+  "not_certified": [
+    "empirical learning outcomes",
+    "all historical live-source quality",
+    "all linked NIST resources",
+    "device synchronization",
+    "notification delivery"
+  ]
+}
