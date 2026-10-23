@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-10-23",
+  "attempt_id": "20261023T012856Z-stage1",
+  "recorded_at_utc": "2026-10-23T01:28:56Z",
+  "status": "stage1_complete_exact_readback",
+  "prepared_creation_commit": "be0a20da6684055d80f5eeb4caf11804c0474bf2",
+  "original_bundle_sha256": "6691258fe9a652ded8c4f1e378afe772c5a4d114a185d247ef7f50292eb3f850",
+  "stage": 1,
+  "repository": "ZJFILOVE/music-daily",
+  "commit": {
+    "sha": "3f6bedefc74a78bf7ad0e639cad1c57154c9f3a4"
+  },
+  "tree": {
+    "sha": "cc3b9f04bb7a38216b4bcfc6133766b0636e3938"
+  },
+  "parent": "6b6414987b9024f70f2d1911064bf6ac684cba5d",
+  "readbacks": [
+    {
+      "path": "recommendations/2026/10/2026-10-23.json",
+      "sha": "ccd649a467320f7caa9e7dfb45cb5046677e9f81",
+      "target_sha": "ccd649a467320f7caa9e7dfb45cb5046677e9f81",
+      "full_content_match": true
+    },
+    {
+      "path": "state/tracks.json",
+      "sha": "99faa6e7c355634acd9b1e0d2676d2ccf45464d6",
+      "target_sha": "99faa6e7c355634acd9b1e0d2676d2ccf45464d6",
+      "full_content_match": true
+    }
+  ],
+  "errors": []
+}
