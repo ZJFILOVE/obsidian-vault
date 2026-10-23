@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-23",
+  "stage": "complete",
+  "status": "completed_verified",
+  "recorded_at_utc": "2026-10-23T00:10:49.379Z",
+  "prepared_creation_commit": "1051f1510539e49942ddb1f105ff6802ab554ca5",
+  "original_bundle_sha256": "ba125a41873d263e351b9559571ef584f4b4b207e1cebf7b69e91edee1602093",
+  "publication_commit": "192a4914d35e567f7a7df18609be275f838f5cae",
+  "qa_path": ".recommendation/runs/2026-10-23-english.json",
+  "qa_commit": "66a5e2785e4dd32db81fb72dd8c619ad722645db",
+  "qa_blob_sha": "3cf8cffc4da86b2bfd24a63983ae1294e240ec22",
+  "qa_readback_exact": true,
+  "ci": {
+    "run_id": 39876248454,
+    "head_sha": "192a4914d35e567f7a7df18609be275f838f5cae",
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "published_paths": [
+    "50-courses/English/Daily/2026-10-23.md",
+    "50-courses/English/Translation/2026-10-23.md",
+    "50-courses/English/Vocabulary/2026-10-23.md"
+  ],
+  "history_path": ".recommendation/history/english.jsonl",
+  "history_exact_once": true
+}
