@@ -1,0 +1,946 @@
+{
+  "operation_id": "music:2026-10-24",
+  "phase": "PREPARED_readback",
+  "prepared": {
+    "commit": "a11ae3e65f56b16fea1b11c720264ae87ffec5d1",
+    "tree": "78e6c8de20c3245a5e6da04698d5d39049999aa3",
+    "blob": "4050174b711bc0e6430a854fef529ee7d9ef3904",
+    "bundle_sha256": "a9ddee1198d92413e14d88af4941a20665133cf566dbeab32f8fd889cacfea16",
+    "plan_sha256": "e5f5aad0a38d0327a3f97c9d9cef3e5793bcccb19ed9730813e7bc28bded2719"
+  },
+  "original_preselection_evidence": {
+    "operation_id": "music:2026-10-24",
+    "mode": "new_generation",
+    "recorded_at_utc": "2026-10-24T01:21:45.946123+00:00",
+    "original_heads": {
+      "vault": "037ce8f6d816ef287040821790ae7a70c2ce8b64",
+      "music": "3f6bedefc74a78bf7ad0e639cad1c57154c9f3a4"
+    },
+    "preflight": {
+      "complete_connector_reads": 89,
+      "complete_states_byte_equal": true,
+      "prior_manifest_count": 46,
+      "prior_manifest_tracks": 230,
+      "state_entries": 238,
+      "all_prior_manifest_mirror_blob_hashes_equal": true,
+      "required_read_blob_hash_validation": true
+    },
+    "all_PREPARED_reservations": [
+      {
+        "operation_id": "english:2026-10-23",
+        "digest": "ba125a41873d263e351b9559571ef584f4b4b207e1cebf7b69e91edee1602093"
+      },
+      {
+        "operation_id": "english:2026-10-22",
+        "digest": "a485356cdbe2f5921d900bc41c9646ac9405346d65ec65c4886e1edaba8555f6"
+      },
+      {
+        "operation_id": "english:2026-10-19",
+        "digest": "e8c09610703f555f386194df1dfee2d76e9dfb1c9f174b440359007cb4229c9d"
+      },
+      {
+        "operation_id": "english:2026-10-18",
+        "digest": "4a1157e7458d49e73d117505142506b17caa3db62985ab96d871089257b3f435"
+      },
+      {
+        "operation_id": "english:2026-10-15",
+        "digest": "6c3b5cf58e40281d642ba475701ad417e442bcd5836eecd0de75207ff014fda0"
+      },
+      {
+        "operation_id": "english:2026-10-21",
+        "digest": "210ca037415dc5834adcb0f5331b676345826859e9922c81b31200a10df01e72"
+      },
+      {
+        "operation_id": "english:2026-10-20",
+        "digest": "61e1231ece2a472827d313e2342b7c919935739c2fca41c5dea0e4fe2ae63e55"
+      },
+      {
+        "operation_id": "english:2026-10-17",
+        "digest": "b8ec157dede3d2ea4f41b8589d6007acbaf24be445d4a377a559fa4d1be4fb49"
+      },
+      {
+        "operation_id": "english:2026-10-24",
+        "digest": "88c3881045802adb4ac1d74c67d9e3a73a1b0c3cf4d45d6e5794df671c427d81"
+      },
+      {
+        "operation_id": "english:2026-10-16",
+        "digest": "df92655322c6c9a25e2b712d5b8b53578f727c42bb5ad41e8e1df6b8b8b230b9"
+      },
+      {
+        "operation_id": "news-youtube-reddit:2026-10-23",
+        "digest": "a7ef2a1f02ef2dfe17bce2c6ff87219750d86877da20fbd2fa6012b335d77749"
+      },
+      {
+        "operation_id": "news-youtube-reddit:2026-10-22",
+        "digest": "b687fc10ebf4a205fe6f826a8a970e4500503f8c34b07dc1798df81e53153773"
+      },
+      {
+        "operation_id": "news-youtube-reddit:2026-10-19",
+        "digest": "6ef498da7c63156e5040bb78d6aad18ed35ebe56445cc4ab1e7d081d7bd7bcd9"
+      },
+      {
+        "operation_id": "news-youtube-reddit:2026-10-18",
+        "digest": "2431ac89e2934894d9d00fad280e171a641cbfb976f0d557d31b6b1aa38e551c"
+      },
+      {
+        "operation_id": "news-youtube-reddit:2026-10-15",
+        "digest": "b88e1ca0d92e8e2814a3c9a8e4d15573767382f688c8c158ec2cd07d9bb15ee6"
+      },
+      {
+        "operation_id": "news-youtube-reddit:2026-10-21",
+        "digest": "cb60a33c6e9c97156e6957debab53aba7c5f0c5ae1048c9dc1ddcf0783a71c81"
+      },
+      {
+        "operation_id": "news-youtube-reddit:2026-10-20",
+        "digest": "562d4882e16f9facd5d52dd53a9dd3b31f41bce5a6ebf8346bad61dfc94d0759"
+      },
+      {
+        "operation_id": "news-youtube-reddit:2026-10-17",
+        "digest": "926479baa83baed7b6783bab94c9c4bbffc0244c4bf958b4146be7f92b025558"
+      },
+      {
+        "operation_id": "news-youtube-reddit:2026-10-24",
+        "digest": "ffe873ac483c4933e37071e0fde006d5d50d9a86b6f5fbae5fe6939ce84fadbf"
+      },
+      {
+        "operation_id": "news-youtube-reddit:2026-10-16",
+        "digest": "73643a0897bd7acbff4943bfdbf4f7433c8f7c5451227efdfebfc4ae9bb68449"
+      },
+      {
+        "operation_id": "music:2026-10-23",
+        "digest": "6691258fe9a652ded8c4f1e378afe772c5a4d114a185d247ef7f50292eb3f850"
+      },
+      {
+        "operation_id": "music:2026-10-22",
+        "digest": "a7198c741a870c2cd6d6b37435c54b54cd07ff931a7aa54135e63beaa04863a7"
+      },
+      {
+        "operation_id": "music:2026-10-19",
+        "digest": "6b2d5023f997866a6341e333c530745486854487a846f4d236befee655538646"
+      },
+      {
+        "operation_id": "music:2026-10-18",
+        "digest": "450adef96825eab1678fbf4d193a96b2fa5aa391dec65f6669edac91c1c6e9a1"
+      },
+      {
+        "operation_id": "music:2026-10-15",
+        "digest": "6f528f228bc06a123416263a414416e2c24bfa5de35e6b82428ee88fffba1f49"
+      },
+      {
+        "operation_id": "music:2026-10-21",
+        "digest": "9bbf8e1c0f6e44008b94f0b9b81156ea8e03a77b2fe1e2c1ff3c12d5059c0963"
+      },
+      {
+        "operation_id": "music:2026-10-20",
+        "digest": "d412a8be7164858c1ce3e87c24c40f3043b347caa8514147bcca9aec10207212"
+      },
+      {
+        "operation_id": "music:2026-10-17",
+        "digest": "3b148790e840cd9d43d41887dea55756e57357f62c6a285ff115cb3c1daa5447"
+      },
+      {
+        "operation_id": "music:2026-10-16",
+        "digest": "b67b518dd0cf68365892c1ed55d7c5952b5d3e4d14614ea2e24049c192b0655d"
+      }
+    ],
+    "candidate_count": 47,
+    "candidates": [
+      {
+        "title": "Mushaboom",
+        "artist": "Feist",
+        "album": "Let It Die (UK Version)",
+        "song_id": "1443379471",
+        "url": "https://music.apple.com/cn/song/mushaboom/1443379471",
+        "genre": "独立流行／民谣流行",
+        "tier": "high_confidence",
+        "source_ref": "turn358search1; rendered exact CN page",
+        "observation": "Rendered CN heading Mushaboom, Feist, Let It Die (UK Version), 2004-05-18, preview button; exact song path1443379471. No full playback claim.",
+        "why": "把第二首留给一种轻巧、带想象空间的亲密感。Feist 的歌声很容易亲近，但这首并不是单靠“温柔”就成立：旋律的弹性和轻快的推进，让略带憧憬的情绪始终有落脚点。今天明确选择《Let It Die (UK Version)》的原歌曲条目，不是 K-Os、Mocky 或 Postal Service 混音，也不是电影合辑。它适合在周末出门前听，让注意力从严肃叙述转到一句话怎样唱得松而不散。",
+        "arrangement": "可以把拨弦的颗粒、轻的节奏支点和贴近耳边的人声分开听：前两层给身体一个不太用力的摇摆，歌唱则在其上保留自然的呼吸。她的声音既有柔软边缘，又不会把旋律轮廓磨平。Apple Music 的资料列出 Feist 主唱及 Chilly Gonzales 的编曲身份；这里不由署名反推某件乐器一定是谁演奏，也不把 UK Version 理解为另一场重新演唱。",
+        "cue": "先轻点基本拍子，再听一个短句的开头：它是紧贴拍点，还是让语气稍微悬一下？找一处主唱结束而伴奏仍继续的空隙，比较有歌声和没有歌声时，同一层拨弦带给你的轻重感。",
+        "canonical_id": "Feist::Mushaboom",
+        "position": 2,
+        "storefront": "cn",
+        "verification_method": "exact_cn_song_page",
+        "observation_recorded_at_utc": "2026-10-24T01:21:45.946123+00:00",
+        "playback_tested": false,
+        "decision": "selected",
+        "reason": "把第二首留给一种轻巧、带想象空间的亲密感。Feist 的歌声很容易亲近，但这首并不是单靠“温柔”就成立：旋律的弹性和轻快的推进，让略带憧憬的情绪始终有落脚点。今天明确选择《Let It Die (UK Version)》的原歌曲条目，不是 K-Os、Mocky 或 Postal Service 混音，也不是电影合辑。它适合在周末出门前听，让注意力从严肃叙述转到一句话怎样唱得松而不散。",
+        "scores_quality_usefulness_curiosity_novelty_fit": [
+          4.6,
+          4.4,
+          4.6,
+          4.5,
+          4.5
+        ],
+        "weighted_score": 4.535,
+        "scope": "Exact CN song heading, artist, album, ID observed. Editorial appreciation, not whole-track audition or account entitlement test."
+      },
+      {
+        "song_id": "1830531793",
+        "observed_title": "‎Mushaboom - Song with Lyrics by Feist - Apple Music",
+        "url": "https://music.apple.com/us/song/1830531793",
+        "storefront": "us",
+        "source_ref": "turn356search1",
+        "observed_text": "‎Mushaboom - Song with Lyrics by Feist - Apple Music (https://music.apple.com/us/song/1830531793)\n【turn356search1】 [wordlim: 200] Published: 22.4 years ago; Crawled: 4 weeks ago; Image: Mushaboom song by Feist\n\nImage\n\nImage: Mushaboom song by Feist\n\n# Mushaboom\n\nCottage Core Feist May 18, 2004\n\nPreview\n\n## More By Feist\n\n  * Image: The Reminder (Deluxe Version)\n\nThe Reminder (Deluxe Version)\n\nThe Reminder (Deluxe Version)\n\n  * Image: Pleasure\n\nPleasure\n\nPleasure\n\n  * Image: Let It Die\n\nLet It Die\n\nLet It Die\n\n  * Image: Metals\n\nMetals\n\nMetals\n\n  * Image: Let It Die\n\nLet It Die\n\nLet It Die\n\n  * Image: Multitudes\n\nMultitudes\n\nMultitudes\n\n  * Image: The Reminder (Deluxe Version)\n\nThe Reminder (Deluxe Version)\n\nThe Reminder (Deluxe Version)",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1609332492",
+        "observed_title": "‎Mushaboom - Song with Lyrics by Feist - Apple Music",
+        "url": "https://music.apple.com/us/song/1609332492",
+        "storefront": "us",
+        "source_ref": "turn356search2",
+        "observed_text": "‎Mushaboom - Song with Lyrics by Feist - Apple Music (https://music.apple.com/us/song/1609332492)\n【turn356search2】 [wordlim: 200] Published: 22.4 years ago; Crawled: 3 weeks ago; Open in Music ... Image: Mushaboom song by Feist\n\nOpen in Music\n\nImage\n\nImage: Mushaboom song by Feist\n\n# Mushaboom\n\nFrühlingserwachen Feist May 18, 2004\n\nPreview\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "324199978",
+        "observed_title": "‎Mushaboom - Song by Feist - Apple Music",
+        "url": "https://music.apple.com/us/song/324199978",
+        "storefront": "us",
+        "source_ref": "turn356search3",
+        "observed_text": "‎Mushaboom - Song by Feist - Apple Music (https://music.apple.com/us/song/324199978)\n【turn356search3】 [wordlim: 200] Published: 22.4 years ago; Crawled: last month; Image: Mushaboom song by Feist ... (500) Days of Summer (Music from the Motion Picture) [Bonus Track Version] Feist May 18, 2004\n\nImage\n\nImage: Mushaboom song by Feist\n\n# Mushaboom\n\n(500) Days of Summer (Music from the Motion Picture) [Bonus Track Version] Feist May 18, 2004\n\nPreview\n\n## More By Feist\n\n  * Image: The Reminder (Deluxe Version)\n\nThe Reminder (Deluxe Version)\n\nThe Reminder (Deluxe Version)\n\n  * Image: Pleasure\n\nPleasure\n\nPleasure\n\n  * Image: Let It Die\n\nLet It Die\n\nLet It Die\n\n  * Image: Metals\n\nMetals\n\nMetals\n\n  * Image: Multitudes\n\nMultitudes\n\nMultitudes\n\n  * Image: Let It Die\n\nLet It Die\n\nLet It Die\n\n  * Image: The Reminder (Deluxe Version)\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1440737218",
+        "observed_title": "‎Mushaboom - Song by Feist - Apple Music",
+        "url": "https://music.apple.com/us/song/1440737218",
+        "storefront": "us",
+        "source_ref": "turn356search5",
+        "observed_text": "‎Mushaboom - Song by Feist - Apple Music (https://music.apple.com/us/song/1440737218)\n【turn356search5】 [wordlim: 200] Published: 22.4 years ago; Crawled: last month; Image: Mushaboom song by Feist\n\nImage\n\nImage: Mushaboom song by Feist\n\n# Mushaboom\n\nLet It Die Feist May 18, 2004\n\nPreview",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1565051303",
+        "observed_title": "‎Chiraa-Khoor (\"The Yellow Trotter\") - Song with Lyrics by Huun-Huur-Tu - Apple Music",
+        "url": "https://music.apple.com/us/song/1565051303",
+        "storefront": "us",
+        "source_ref": "turn356search10",
+        "observed_text": "‎Chiraa-Khoor (\"The Yellow Trotter\") - Song with Lyrics by Huun-Huur-Tu - Apple Music (https://music.apple.com/us/song/1565051303)\n【turn356search10】 [wordlim: 200] Published: 31.9 years ago; Crawled: 4 weeks ago; # Chiraa-Khoor (\"The Yellow Trotter\")The Orphan's Lament Huun-Huur-Tu November 23, 1994\n\n# Chiraa-Khoor (\"The Yellow Trotter\")\n\nThe Orphan's Lament Huun-Huur-Tu November 23, 1994\n\n## Performing Artists\n\n  * Image\n\nHuun-Huur-Tu\n\nPerformer\n\n## Composition & Lyrics\n\n  * Image\n\nHuun-Huur-Tu\n\nSongwriter",
+        "decision": "rejected",
+        "reason": "Exact CN resource rendered page not found; rejected. No silent recording substitution."
+      },
+      {
+        "song_id": "1722230000",
+        "observed_title": "‎鹿港小鎮 (Live) - Song by Lo Ta-You - Apple Music",
+        "url": "https://music.apple.com/us/song/1722230000",
+        "storefront": "us",
+        "source_ref": "turn356search11",
+        "observed_text": "‎鹿港小鎮 (Live) - Song by Lo Ta-You - Apple Music (https://music.apple.com/us/song/1722230000)\n【turn356search11】 [wordlim: 200] Published: 21.7 years ago; Crawled: last month; Image: 鹿港小鎮 (Live) song by Lo Ta-You ... 羅大佑 北京-香港演唱會 Lo Ta-You February 3, 2005\n\nImage\n\nImage: 鹿港小鎮 (Live) song by Lo Ta-You\n\n# 鹿港小鎮 (Live)\n\n羅大佑 北京-香港演唱會 Lo Ta-You February 3, 2005\n\nPreview",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1443265111",
+        "observed_title": "‎Mushaboom (K-Os Mix) - Song with Lyrics by Feist - Apple Music",
+        "url": "https://music.apple.com/us/song/1443265111",
+        "storefront": "us",
+        "source_ref": "turn356search12",
+        "observed_text": "‎Mushaboom (K-Os Mix) - Song with Lyrics by Feist - Apple Music (https://music.apple.com/us/song/1443265111)\n【turn356search12】 [wordlim: 200] Published: 20.8 years ago; Crawled: 3 weeks ago; # Mushaboom (K-Os Mix)Open Season Feist January 1, 2006\n\n# Mushaboom (K-Os Mix)\n\nOpen Season Feist January 1, 2006\n\nPreview",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "347428162",
+        "observed_title": "‎Chiraa-Khoo - Song by Huun-Huur-Tu - Apple Music",
+        "url": "https://music.apple.com/us/song/347428162",
+        "storefront": "us",
+        "source_ref": "turn356search13",
+        "observed_text": "‎Chiraa-Khoo - Song by Huun-Huur-Tu - Apple Music (https://music.apple.com/us/song/347428162)\n【turn356search13】 [wordlim: 200] Published: 25.1 years ago; Crawled: 3 months ago; Image: Chiraa-Khoo song by Huun-Huur-Tu\n\nImage\n\nImage: Chiraa-Khoo song by Huun-Huur-Tu\n\n# Chiraa-Khoo\n\nBest Live Huun-Huur-Tu September 20, 2001\n\nPreview\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1445281977",
+        "observed_title": "‎Mushaboom (Postal Service Remix) - Song by Feist - Apple Music",
+        "url": "https://music.apple.com/us/song/1445281977",
+        "storefront": "us",
+        "source_ref": "turn356search14",
+        "observed_text": "‎Mushaboom (Postal Service Remix) - Song by Feist - Apple Music (https://music.apple.com/us/song/1445281977)\n【turn356search14】 [wordlim: 200] Published: 21.9 years ago; Crawled: 2 months ago; Image: Mushaboom (Postal Service Remix) song by Feist\n\nImage\n\nImage: Mushaboom (Postal Service Remix) song by Feist\n\n# Mushaboom (Postal Service Remix)\n\nMushaboom (Postal Service Remix) - Single Feist November 23, 2004\n\nPreview\n\n## More By Feist\n\n  * Image: The Reminder (Deluxe Version)\n\nThe Reminder (Deluxe Version)\n\nThe Reminder (Deluxe Version)",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "693063876",
+        "observed_title": "‎La Femme d'argent - Song with Lyrics by Air - Apple Music",
+        "url": "https://music.apple.com/us/song/693063876",
+        "storefront": "us",
+        "source_ref": "turn356search19",
+        "observed_text": "‎La Femme d'argent - Song with Lyrics by Air - Apple Music (https://music.apple.com/us/song/693063876)\n【turn356search19】 [wordlim: 200] Published: 28.8 years ago; Crawled: 3 weeks ago; Image: La Femme d'argent song by Air\n",
+        "decision": "rejected",
+        "reason": "Exact CN resource rendered page not found; rejected. No silent recording substitution."
+      },
+      {
+        "song_id": "1678911439",
+        "observed_title": "‎Chiraa Khoor - 由あがさ演唱 - Apple Music",
+        "url": "https://music.apple.com/cn/song/1678911439",
+        "storefront": "cn",
+        "source_ref": "turn356search23",
+        "observed_text": "‎Chiraa Khoor - 由あがさ演唱 - Apple Music (https://music.apple.com/cn/song/1678911439)\n【turn356search23】 [wordlim: 200] Published: 6.5 years ago; Crawled: 9 months ago; Image: Chiraa Khoor，由あがさ演唱 ... Progressive Tuvan Folklore - EP あがさ 2020年5月3日\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1788373146",
+        "observed_title": "‎La femme d'argent (Mixed) - Song by Air - Apple Music",
+        "url": "https://music.apple.com/us/song/1788373146",
+        "storefront": "us",
+        "source_ref": "turn356search24",
+        "observed_text": "‎La femme d'argent (Mixed) - Song by Air - Apple Music (https://music.apple.com/us/song/1788373146)\n【turn356search24】 [wordlim: 200] Published: 1.8 years ago; Crawled: last month; Image: La femme d'argent (Mixed) song by Air ... Adelphi Music Factory Presents: The Beat Factory 010 (DJ Mix) Air January 10, 2025\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "title": "鹿港小镇",
+        "artist": "罗大佑",
+        "album": "之乎者也",
+        "song_id": "1720705000",
+        "url": "https://music.apple.com/cn/song/1720705000",
+        "genre": "国语摇滚",
+        "tier": "high_confidence",
+        "source_ref": "turn357view3",
+        "observation": "Exact CN song resource directly read; heading 鹿港小镇, artist 罗大佑, album 之乎者也, date1982-04-21, URL ID1720705000.",
+        "why": "今天先从一首有清晰叙述方向的华语摇滚进入。选择《之乎者也》的专辑录音：它的力量来自一段段语句持续向前推进，同时让个人口吻与更大的社会经验彼此碰撞。与只凭熟悉旋律怀旧相比，更值得听的是歌者如何维持长段叙述的重心——不是每句都加重，却能让后一句比前一句更迫切。适合完整听一遍，先感受声音里向前走与想回头的拉扯。",
+        "arrangement": "以摇滚乐队的节奏支撑为坐标，把罗大佑略带沙哑、边缘粗粝的嗓音放在前景听。人声不是装饰在伴奏上，而像一个一直需要把话说完的人；器乐的推进与句子起伏之间，因此有很强的相互牵引。这里选的是1982年专辑条目，未把北京—香港演唱会或宜花东鹿现场的演奏细节混入，也不据页面日期推断具体录音日。",
+        "cue": "第一遍跟住每一段的语气，不急着分析文字。第二遍只抓一个句末，听声音收束后节奏怎样把下一句接起来；再找一处主唱加重的字，判断力量来自音量、音区，还是进入节拍的位置。",
+        "canonical_id": "罗大佑::鹿港小镇",
+        "position": 1,
+        "storefront": "cn",
+        "verification_method": "exact_cn_song_page",
+        "observation_recorded_at_utc": "2026-10-24T01:21:45.946123+00:00",
+        "playback_tested": false,
+        "decision": "selected",
+        "reason": "今天先从一首有清晰叙述方向的华语摇滚进入。选择《之乎者也》的专辑录音：它的力量来自一段段语句持续向前推进，同时让个人口吻与更大的社会经验彼此碰撞。与只凭熟悉旋律怀旧相比，更值得听的是歌者如何维持长段叙述的重心——不是每句都加重，却能让后一句比前一句更迫切。适合完整听一遍，先感受声音里向前走与想回头的拉扯。",
+        "scores_quality_usefulness_curiosity_novelty_fit": [
+          4.6,
+          4.4,
+          4.6,
+          4.5,
+          4.5
+        ],
+        "weighted_score": 4.535,
+        "scope": "Exact CN song heading, artist, album, ID observed. Editorial appreciation, not whole-track audition or account entitlement test."
+      },
+      {
+        "song_id": "1549190060",
+        "observed_title": "‎Chyraa-Khoor (Yellow Pacer) – Song by Huun-Huur-Tu – Apple Music",
+        "url": "https://music.apple.com/ca/song/1549190060",
+        "storefront": "ca",
+        "source_ref": "turn356search29",
+        "observed_text": "‎Chyraa-Khoor (Yellow Pacer) – Song by Huun-Huur-Tu – Apple Music (https://music.apple.com/ca/song/1549190060)\n【turn356search29】 [wordlim: 200] Published: 16.1 years ago; Crawled: 4 months ago; Image: Chyraa-Khoor (Yellow Pacer) song by Huun-Huur-Tu\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1697846945",
+        "observed_title": "‎鹿港小镇 (Live) - Song by Julia Peng - Apple Music",
+        "url": "https://music.apple.com/us/song/1697846945",
+        "storefront": "us",
+        "source_ref": "turn356search30",
+        "observed_text": "‎鹿港小镇 (Live) - Song by Julia Peng - Apple Music (https://music.apple.com/us/song/1697846945)\n【turn356search30】 [wordlim: 200] Published: 12.5 years ago; Crawled: last month; Open in Music ... Image: 鹿港小镇 (Live) song by Julia Peng\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1825697540",
+        "observed_title": "‎La femme d'argent (Mixed) - Song with Lyrics by Air - Apple Music",
+        "url": "https://music.apple.com/us/song/1825697540",
+        "storefront": "us",
+        "source_ref": "turn356search32",
+        "observed_text": "‎La femme d'argent (Mixed) - Song with Lyrics by Air - Apple Music (https://music.apple.com/us/song/1825697540)\n【turn356search32】 [wordlim: 200] Published: 1.3 years ago; Crawled: 4 weeks ago; # La femme d'argent (Mixed) ... 1 (DJ Mix) Air July 18, 2025\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1720916511",
+        "observed_title": "‎鹿港小鎮 (宜花東鹿現場錄音版) - Song by Lo Ta-You - Apple Music",
+        "url": "https://music.apple.com/us/song/1720916511",
+        "storefront": "us",
+        "source_ref": "turn356search33",
+        "observed_text": "‎鹿港小鎮 (宜花東鹿現場錄音版) - Song by Lo Ta-You - Apple Music (https://music.apple.com/us/song/1720916511)\n【turn356search33】 [wordlim: 200] Published: 5.7 years ago; Crawled: 2 months ago; Image: 鹿港小鎮 (宜花東鹿現場錄音版) song by Lo Ta-You ...   * Image: 未來的主人翁\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1827140839",
+        "observed_title": "‎Kozhamyk: Üzheleen bis dörteleen bis (Live) - Song by Huun Huur Tu - Apple Music",
+        "url": "https://music.apple.com/us/song/1827140839",
+        "storefront": "us",
+        "source_ref": "turn356search35",
+        "observed_text": "‎Kozhamyk: Üzheleen bis dörteleen bis (Live) - Song by Huun Huur Tu - Apple Music (https://music.apple.com/us/song/1827140839)\n【turn356search35】 [wordlim: 200] Published: 1.3 years ago; Crawled: 3 months ago; Open in Music ... Image: Kozhamyk: Üzheleen bis dörteleen bis (Live) song by Huun Huur Tu\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1806144060",
+        "observed_title": "‎La femme d'argent (Vegyn Version) - Song with Lyrics by Air - Apple Music",
+        "url": "https://music.apple.com/us/song/1806144060",
+        "storefront": "us",
+        "source_ref": "turn356search37",
+        "observed_text": "‎La femme d'argent (Vegyn Version) - Song with Lyrics by Air - Apple Music (https://music.apple.com/us/song/1806144060)\n【turn356search37】 [wordlim: 200] Published: 2.1 years ago; Crawled: 2 weeks ago; Image: La femme d'argent (Vegyn Version) song by Air\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1853084833",
+        "observed_title": "‎La femme d'argent (Vegyn Version) [Mixed] - Song with Lyrics by Air - Apple Music",
+        "url": "https://music.apple.com/us/song/1853084833",
+        "storefront": "us",
+        "source_ref": "turn356search38",
+        "observed_text": "‎La femme d'argent (Vegyn Version) [Mixed] - Song with Lyrics by Air - Apple Music (https://music.apple.com/us/song/1853084833)\n【turn356search38】 [wordlim: 200] Published: 11 months ago; Crawled: last month; Image: La femme d'argent (Vegyn Version) [Mixed] song by Air\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1827140842",
+        "observed_title": "‎Aa-Shuu Dekei-Oo (Live) - Song with Lyrics by Huun Huur Tu - Apple Music",
+        "url": "https://music.apple.com/us/song/1827140842",
+        "storefront": "us",
+        "source_ref": "turn356search39",
+        "observed_text": "‎Aa-Shuu Dekei-Oo (Live) - Song with Lyrics by Huun Huur Tu - Apple Music (https://music.apple.com/us/song/1827140842)\n【turn356search39】 [wordlim: 200] Published: 1.3 years ago; Crawled: 3 weeks ago; Image: Aa-Shuu Dekei-Oo (Live) song by Huun Huur Tu\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1655281389",
+        "observed_title": "‎La Femme D'argent - Song with Lyrics by Joe Olnick Band - Apple Music",
+        "url": "https://music.apple.com/us/song/1655281389",
+        "storefront": "us",
+        "source_ref": "turn356search41",
+        "observed_text": "‎La Femme D'argent - Song with Lyrics by Joe Olnick Band - Apple Music (https://music.apple.com/us/song/1655281389)\n【turn356search41】 [wordlim: 200] Published: 3.7 years ago; Crawled: 3 weeks ago; # La Femme D'argent\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1565051291",
+        "observed_title": "‎Kaldak Khamar - Song with Lyrics by Huun-Huur-Tu - Apple Music",
+        "url": "https://music.apple.com/us/song/1565051291",
+        "storefront": "us",
+        "source_ref": "turn356search42",
+        "observed_text": "‎Kaldak Khamar - Song with Lyrics by Huun-Huur-Tu - Apple Music (https://music.apple.com/us/song/1565051291)\n【turn356search42】 [wordlim: 200] Published: 31.9 years ago; Crawled: 3 weeks ago; The Orphan's Lament Huun-Huur-Tu November 23, 1994\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "346993444",
+        "observed_title": "‎Kargyraa - Song with Lyrics by Huun-Huur-Tu - Apple Music",
+        "url": "https://music.apple.com/us/song/346993444",
+        "storefront": "us",
+        "source_ref": "turn356search43",
+        "observed_text": "‎Kargyraa - Song with Lyrics by Huun-Huur-Tu - Apple Music (https://music.apple.com/us/song/346993444)\n【turn356search43】 [wordlim: 200] Published: 23.9 years ago; Crawled: 3 weeks ago; More Live Huun-Huur-Tu December 1, 2002\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "568019088",
+        "observed_title": "‎La Femme D'argent - Song with Lyrics by Sensualite - Apple Music",
+        "url": "https://music.apple.com/us/song/568019088",
+        "storefront": "us",
+        "source_ref": "turn356search44",
+        "observed_text": "‎La Femme D'argent - Song with Lyrics by Sensualite - Apple Music (https://music.apple.com/us/song/568019088)\n【turn356search44】 [wordlim: 200] Published: 16.6 years ago; Crawled: 3 weeks ago; # La Femme D'argent\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1396684345",
+        "observed_title": "‎La Femme d'Argent - Song with Lyrics by Corp Sexy Latino Dance Club - Apple Music",
+        "url": "https://music.apple.com/us/song/1396684345",
+        "storefront": "us",
+        "source_ref": "turn356search46",
+        "observed_text": "‎La Femme d'Argent - Song with Lyrics by Corp Sexy Latino Dance Club - Apple Music (https://music.apple.com/us/song/1396684345)\n【turn356search46】 [wordlim: 200] Published: 8.4 years ago; Crawled: 3 weeks ago; # La Femme d'Argent\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1747693637",
+        "observed_title": "‎La Femme D'argent - Song with Lyrics by L'Orchestre d'Academie - Apple Music",
+        "url": "https://music.apple.com/us/song/1747693637",
+        "storefront": "us",
+        "source_ref": "turn356search47",
+        "observed_text": "‎La Femme D'argent - Song with Lyrics by L'Orchestre d'Academie - Apple Music (https://music.apple.com/us/song/1747693637)\n【turn356search47】 [wordlim: 200] Published: 3.8 years ago; Crawled: 3 weeks ago; Image: La Femme D'argent song by L'Orchestre d'Academie\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "title": "Chaser",
+        "artist": "Mammal Hands",
+        "album": "Captured Spirits",
+        "song_id": "1579312329",
+        "url": "https://music.apple.com/cn/song/chaser/1579312329",
+        "genre": "现代爵士／循环合奏",
+        "tier": "adjacent",
+        "source_ref": "turn357search0; rendered exact CN page",
+        "observation": "Exact rendered CN song heading Chaser, Mammal Hands, Captured Spirits, date2020-07-15. Album release date differs; not used as recording date.",
+        "why": "电子循环之后，换成有呼吸、触键和击打触感的合奏，比较“反复”在两种音乐里怎样工作。Mammal Hands 的入口不是先背爵士术语，而是抓住一个短动机，听其他声部怎样让它越来越有方向。选择《Captured Spirits》中的具体歌曲条目；这次不追新发行，也不把同一乐队的其他曲子拼成介绍。它值得专门听的地方，是旋律、伴奏与节奏支撑可以轮流改变你注意的中心。",
+        "arrangement": "钢琴的重复型、萨克斯的气息线条与鼓及打击乐的细密活动，是理解这支合奏语言的三个入口。别只追着最响的声部跑：较小的重音和延续音，也会改变一个循环的重心。可以先把它当成几个彼此配合的动作，再听它们合起来的紧张感。国区曲页与专辑页日期字段并不相同，这里只确认专辑和录音身份，不拿单曲目录日期声称整张专辑的实际首发日。",
+        "cue": "第一遍跟住钢琴短型，第二遍把注意力完全交给节奏层，找它在哪些地方推动、哪些地方留下空隙。再把旋律放回来：同一个重复型上，哪一层的变化最先让你觉得音乐向前走了？",
+        "canonical_id": "Mammal Hands::Chaser",
+        "position": 4,
+        "storefront": "cn",
+        "verification_method": "exact_cn_song_page",
+        "observation_recorded_at_utc": "2026-10-24T01:21:45.946123+00:00",
+        "playback_tested": false,
+        "decision": "selected",
+        "reason": "电子循环之后，换成有呼吸、触键和击打触感的合奏，比较“反复”在两种音乐里怎样工作。Mammal Hands 的入口不是先背爵士术语，而是抓住一个短动机，听其他声部怎样让它越来越有方向。选择《Captured Spirits》中的具体歌曲条目；这次不追新发行，也不把同一乐队的其他曲子拼成介绍。它值得专门听的地方，是旋律、伴奏与节奏支撑可以轮流改变你注意的中心。",
+        "scores_quality_usefulness_curiosity_novelty_fit": [
+          4.6,
+          4.4,
+          4.6,
+          4.5,
+          4.5
+        ],
+        "weighted_score": 4.535,
+        "scope": "Exact CN song heading, artist, album, ID observed. Editorial appreciation, not whole-track audition or account entitlement test."
+      },
+      {
+        "song_id": "1663625239",
+        "observed_title": "Know-How (feat. Feist) [Radio Mix] - 由Kings of Convenience演唱",
+        "url": "https://music.apple.com/cn/song/know-how-feat-feist-radio-mix/1663625239",
+        "storefront": "cn",
+        "source_ref": "turn357search1",
+        "observed_text": "Know-How (feat. Feist) [Radio Mix] - 由Kings of Convenience演唱 (https://music.apple.com/cn/song/know-how-feat-feist-radio-mix/1663625239)\n【turn357search1】 [wordlim: 200] Published: 22.8 years ago; Crawled: last month; Content type: text/html; 作曲和作词 · Erlend Øye. 词曲作者、作曲家、作词 · Feist . 词曲作者、作曲家、作词 · Eirik Glambek Bøe. 词曲作者、作曲家、作词 ...\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1720798915",
+        "observed_title": "‎Land of My Mother - 由Huun-Huur-Tu, Carmen Rizzo & Dhani ...",
+        "url": "https://music.apple.com/cn/song/land-of-my-mother/1720798915",
+        "storefront": "cn",
+        "source_ref": "turn357search3",
+        "observed_text": "‎Land of My Mother - 由Huun-Huur-Tu, Carmen Rizzo & Dhani ... (https://music.apple.com/cn/song/land-of-my-mother/1720798915)\n【turn357search3】 [wordlim: 200] Land of My Mother. Dreamers In the Field Huun-Huur-Tu 、Carmen Rizzo、Dhani Harrison 2024年4月19日. 试听. 出演艺人. Huun-Huur-Tu . 音乐家. Carmen Rizzo.",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1444395324",
+        "observed_title": "My Moon My Man - Feist演唱（含有歌词）",
+        "url": "https://music.apple.com/cn/song/my-moon-my-man/1444395324",
+        "storefront": "cn",
+        "source_ref": "turn357search5",
+        "observed_text": "My Moon My Man - Feist演唱（含有歌词） (https://music.apple.com/cn/song/my-moon-my-man/1444395324)\n【turn357search5】 [wordlim: 200] My Moon My Man. My Moon My Man - EP Feist 2007年3月6日. 试听. 更多 Feist 的作品. The Reminder (Deluxe Version) · The Reminder (Deluxe Version).",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "title": "Odugen Taiga (Live)",
+        "artist": "Huun Huur Tu",
+        "album": "WANDER ABOUT TUVA (Live)",
+        "song_id": "1827140846",
+        "url": "https://music.apple.com/cn/song/odugen-taiga-live/1827140846",
+        "genre": "图瓦人声／现场传统音乐",
+        "tier": "wildcard",
+        "source_ref": "turn357search7; rendered exact CN page",
+        "observation": "Rendered exact CN song heading Odugen Taiga (Live), Huun Huur Tu, WANDER ABOUT TUVA (Live), 2025-07-18. Apple credits Huun-Huur-Tu vocals/arrangement, Kaigal-ool-Khovaly composer, 刘钊 producer, 冀翔 recording/mix.",
+        "why": "今天真正跨出常听范围的一首，留给图瓦的人声传统。这里有意选择2025年《WANDER ABOUT TUVA (Live)》中的现场版本，而不把《The Orphan’s Lament》的另一首歌替进来。它适合暂时放下“主唱在唱什么歌词”的习惯，听声音本身怎样形成持续的底色和更明亮的上层。你不需要模仿发声，只要允许耳朵先适应这种不同于常规流行主唱的音色组织。",
+        "arrangement": "聆听时可先分辨较低、持续的声响与浮在上面的明亮成分，再留意句子呼吸带来的边界。泛音的突出会改变你对“一条声音”的直觉，但不要把每一处高音都直接判成另一位歌者或某件乐器。Apple Music 列出团体的声乐与编曲身份；现场版标注并不自动证明录于某个地点，也不代表没有后期处理。今天把判断停在能够核实的版本和实际可听的层次关系上。",
+        "cue": "先找一个较稳定的持续声，把它当作参照，再留意更亮的声音如何在上方移动。人声停下或换气时，听声音的边缘与余响怎样改变；回听同一小段，比较“跟旋律”与“跟音色”两种听法。",
+        "canonical_id": "Huun Huur Tu::Odugen Taiga (Live)",
+        "position": 5,
+        "storefront": "cn",
+        "verification_method": "exact_cn_song_page",
+        "observation_recorded_at_utc": "2026-10-24T01:21:45.946123+00:00",
+        "playback_tested": false,
+        "decision": "selected",
+        "reason": "今天真正跨出常听范围的一首，留给图瓦的人声传统。这里有意选择2025年《WANDER ABOUT TUVA (Live)》中的现场版本，而不把《The Orphan’s Lament》的另一首歌替进来。它适合暂时放下“主唱在唱什么歌词”的习惯，听声音本身怎样形成持续的底色和更明亮的上层。你不需要模仿发声，只要允许耳朵先适应这种不同于常规流行主唱的音色组织。",
+        "scores_quality_usefulness_curiosity_novelty_fit": [
+          4.6,
+          4.4,
+          4.6,
+          4.5,
+          4.5
+        ],
+        "weighted_score": 4.535,
+        "scope": "Exact CN song heading, artist, album, ID observed. Editorial appreciation, not whole-track audition or account entitlement test."
+      },
+      {
+        "song_id": "1789098529",
+        "observed_title": "‎Working on Me (feat. Feist & Benny Sings) - 由DRIFT, Katerine & ...",
+        "url": "https://music.apple.com/cn/song/working-on-me-feat-feist-benny-sings/1789098529",
+        "storefront": "cn",
+        "source_ref": "turn357search9",
+        "observed_text": "‎Working on Me (feat. Feist & Benny Sings) - 由DRIFT, Katerine & ... (https://music.apple.com/cn/song/working-on-me-feat-feist-benny-sings/1789098529)\n【turn357search9】 [wordlim: 200] 作曲和作词 · Feist . 词曲作者 · LETANG Renaud. 作曲家 · Salole Dominic. 作曲家 · Katerine Philippe. 词曲作者 · LIDELL Jamie. 词曲作者 · VAN BERKESTIJN Tim. 词曲作者 ...",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1565041746",
+        "observed_title": "‎Tuvan Internationale - 由Huun-Huur-Tu演唱",
+        "url": "https://music.apple.com/cn/song/tuvan-internationale/1565041746",
+        "storefront": "cn",
+        "source_ref": "turn357search11",
+        "observed_text": "‎Tuvan Internationale - 由Huun-Huur-Tu演唱 (https://music.apple.com/cn/song/tuvan-internationale/1565041746)\n【turn357search11】 [wordlim: 200] Tuvan Internationale. Sixty Horses In My Herd Huun-Huur-Tu 1994年11月19日. 试听. 出演艺人. Huun-Huur-Tu . 表演者. 作曲和作词. Huun-Huur-Tu . 词曲作者. 更多 Huun- ...",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1663630260",
+        "observed_title": "‎Love Is a Lonely Thing (feat. Feist) - Kings of Convenience演唱 ...",
+        "url": "https://music.apple.com/cn/song/love-is-a-lonely-thing-feat-feist/1663630260",
+        "storefront": "cn",
+        "source_ref": "turn357search12",
+        "observed_text": "‎Love Is a Lonely Thing (feat. Feist) - Kings of Convenience演唱 ... (https://music.apple.com/cn/song/love-is-a-lonely-thing-feat-feist/1663630260)\n【turn357search12】 [wordlim: 200] 声乐、原声吉他. Eirik Glambek Bøe. 声乐、尼龙弦吉他. Feist . 声乐. 作曲和作词. Erlend Øye. 词曲作者. Eirik Glambek Bøe. 词曲作者. Stefano Ortisi. 词曲作者.",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1628519107",
+        "observed_title": "鹿港小镇- 由彭佳慧演唱",
+        "url": "https://music.apple.com/cn/song/%E9%B9%BF%E6%B8%AF%E5%B0%8F%E9%95%87/1628519107",
+        "storefront": "cn",
+        "source_ref": "turn357search13",
+        "observed_text": "鹿港小镇- 由彭佳慧演唱 (https://music.apple.com/cn/song/%E9%B9%BF%E6%B8%AF%E5%B0%8F%E9%95%87/1628519107)\n【turn357search13】 [wordlim: 200] Published: 4.4 years ago; Crawled: 2 days ago; Content type: text/html; 鹿港 小镇. 大玩乐家【 罗大佑 x简文彬x彭佳慧】跨乐卫武营音乐会 彭佳慧 2022年6月17日. 试听. 歌词. 台北不是我的家我的家乡没有霓虹灯. 鹿港 的清晨 鹿港 的黄昏徘徊在文明里 ... Read more\n  * 搜索\n  * 主页\n  * 新发现\n  * 广播\n\n在“音乐”中打开\n\nImage\n\nImage: 鹿港小镇，由彭佳慧演唱\n\n# 鹿港小镇\n\n大玩乐家〖罗大佑x简文彬x彭佳慧〗跨乐卫武营音乐会 彭佳慧 2022年6月17日\n\n试听\n\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1827140840",
+        "observed_title": "Kongurgai (Live) - Huun Huur Tu演唱（含有歌词）",
+        "url": "https://music.apple.com/cn/song/kongurgai-live/1827140840",
+        "storefront": "cn",
+        "source_ref": "turn357search14",
+        "observed_text": "Kongurgai (Live) - Huun Huur Tu演唱（含有歌词） (https://music.apple.com/cn/song/kongurgai-live/1827140840)\n【turn357search14】 [wordlim: 200] Published: 1.3 years ago; Crawled: 6 months ago; Content type: text/html; Jul 18, 2025 — Kongurgai (Live) ; 出演艺人. Huun-Huur-Tu . 声乐 ; 作曲和作词. Huun-Huur-Tu . 编曲 ; 制作和工程. 刘钊. 制作人. Read more\n\n搜索\n\n  *  主页  \n  *  新发现  \n  *  广播  \n  *  搜索  \n\n在“音乐”中打开\n\nImage\n\nImage: Kongurgai (Live)，由Huun Huur Tu演唱\n\n# Kongurgai (Live) \n\nWANDER ABOUT TUVA (Live) Huun Huur Tu 2025年7月18日\n\n试听\n\n## 更多Huun Huur Tu的作品\n\n  * Image: WANDER ABOUT TUVA (Live)\n\nWANDER ABOUT TUVA (Live) \n\nWANDER ABOUT TUVA (Live)\n\n选择国家或地区\n\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1440883899",
+        "observed_title": "The Wind - 由Feist演唱",
+        "url": "https://music.apple.com/cn/song/the-wind/1440883899",
+        "storefront": "cn",
+        "source_ref": "turn357search15",
+        "observed_text": "The Wind - 由Feist演唱 (https://music.apple.com/cn/song/the-wind/1440883899)\n【turn357search15】 [wordlim: 200] Published: 9.5 years ago; Crawled: 2 months ago; Content type: text/html; Apr 28, 2017 — 出演艺人 ; Feist . 声乐、吉他、钢琴 ; Paul Taylor. 编程、打击乐 ; Mocky. 打击乐、键盘 ; 科林・斯特森. 萨克斯管、圆号 ... Read more\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1659819830",
+        "observed_title": "鹿港小镇(feat. BoyViolin, 陈冠荣& 吴登凯) [滚石有琴人Violin Ver.]",
+        "url": "https://music.apple.com/cn/song/%E9%B9%BF%E6%B8%AF%E5%B0%8F%E9%95%87-feat-boyviolin-%E9%99%88%E5%86%A0%E8%8D%A3-%E5%90%B4%E7%99%BB%E5%87%AF-%E6%BB%9A%E7%9F%B3%E6%9C%89%E7%90%B4%E4%BA%BA-violin-ver/1659819830",
+        "storefront": "cn",
+        "source_ref": "turn357search16",
+        "observed_text": "鹿港小镇(feat. BoyViolin, 陈冠荣& 吴登凯) [滚石有琴人Violin Ver.] (https://music.apple.com/cn/song/%E9%B9%BF%E6%B8%AF%E5%B0%8F%E9%95%87-feat-boyviolin-%E9%99%88%E5%86%A0%E8%8D%A3-%E5%90%B4%E7%99%BB%E5%87%AF-%E6%BB%9A%E7%9F%B3%E6%9C%89%E7%90%B4%E4%BA%BA-violin-ver/1659819830)\n【turn357search16】 [wordlim: 200] Published: 3.9 years ago; Crawled: 3 months ago; Content type: text/html; 鹿港小镇(feat. BoyViolin, 陈冠荣& 吴登凯) [滚石有琴人Violin Ver.] ; 出演艺人. 林子安. 小提琴 ; 作曲和作词. 罗 大佑. 作曲家、作词 ; 制作和工程. 屠颖. 制作人.\n\n  *  搜索  \n  *  主页  \n  *  新发现  \n  *  广播  \n\n在“音乐”中打开\n\nImage\n\nImage: 鹿港小镇 (feat. BoyViolin, 陈冠荣 & 吴登凯) [滚石有琴人 Violin Ver.]，由林子安演唱\n\n# 鹿港小镇 (feat. BoyViolin, 陈冠荣 & 吴登凯) [滚石有琴人 Violin Ver.] \n\n滚石40〖滚石有琴人〗林子安AnViolin 小提琴演奏专辑 林子安 2022年11月25日\n\n试听\n\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1827140844",
+        "observed_title": "Mother Taiga (Live) - 由Huun Huur Tu演唱",
+        "url": "https://music.apple.com/cn/song/mother-taiga-live/1827140844",
+        "storefront": "cn",
+        "source_ref": "turn357search17",
+        "observed_text": "Mother Taiga (Live) - 由Huun Huur Tu演唱 (https://music.apple.com/cn/song/mother-taiga-live/1827140844)\n【turn357search17】 [wordlim: 200] Jul 18, 2025 — 出演艺人. Huun-Huur-Tu . 声乐 ; 作曲和作词. Huun-Huur-Tu . 编曲. Carmen Rizzo. 编曲 ; 制作和工程. 刘钊. 制作人. 冀翔. 录音工程师、混音工程师 ... Read more",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1663661519",
+        "observed_title": "Know How (feat. Feist) - 由Kings of Convenience演唱",
+        "url": "https://music.apple.com/cn/song/know-how-feat-feist/1663661519",
+        "storefront": "cn",
+        "source_ref": "turn357search18",
+        "observed_text": "Know How (feat. Feist) - 由Kings of Convenience演唱 (https://music.apple.com/cn/song/know-how-feat-feist/1663661519)\n【turn357search18】 [wordlim: 200] Know How (feat. Feist ) · Riot On an Empty Street · Kings of Convenience · 2004年6月21日 · 出演艺人 · 作曲和作词 · 制作和工程 · 更多Kings of Convenience的作品 · 非洲、 ...",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1161419164",
+        "observed_title": "鹿港小镇- 彭佳慧演唱（含有歌词）",
+        "url": "https://music.apple.com/cn/song/%E9%B9%BF%E6%B8%AF%E5%B0%8F%E9%95%87/1161419164",
+        "storefront": "cn",
+        "source_ref": "turn357search19",
+        "observed_text": "鹿港小镇- 彭佳慧演唱（含有歌词） (https://music.apple.com/cn/song/%E9%B9%BF%E6%B8%AF%E5%B0%8F%E9%95%87/1161419164)\n【turn357search19】 [wordlim: 200] Published: 13.2 years ago; Crawled: 2 months ago; Content type: text/html; Aug 20, 2013 — 鹿港小镇 . 醉佳时分 · 彭佳慧 · 2013年8月20日. 出演艺人. 彭佳慧. 表演者. 作曲和作词. 罗大佑. 作曲家、作词. 更多彭佳慧的作品. 绝对收藏彭佳慧. Read more\n",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1470030133",
+        "observed_title": "It's Time to Wake Up 2023 - 由Solar Punches演唱",
+        "url": "https://music.apple.com/cn/song/its-time-to-wake-up-2023/1470030133",
+        "storefront": "cn",
+        "source_ref": "turn358search2",
+        "observed_text": "It's Time to Wake Up 2023 - 由Solar Punches演唱 (https://music.apple.com/cn/song/its-time-to-wake-up-2023/1470030133)\n【turn358search2】 [wordlim: 200] It's Time to Wake Up 2023. The Qualm Factory - EP Solar Punches 2019年6月26日. 试听. 作曲和作词. La Femme . 词曲作者. 更多Solar Punches的作品.",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "1443264845",
+        "observed_title": "Mushaboom (Mocky Remix) - 由Feist演唱",
+        "url": "https://music.apple.com/cn/song/mushaboom-mocky-remix/1443264845",
+        "storefront": "cn",
+        "source_ref": "turn358search3",
+        "observed_text": "Mushaboom (Mocky Remix) - 由Feist演唱 (https://music.apple.com/cn/song/mushaboom-mocky-remix/1443264845)\n【turn358search3】 [wordlim: 200] Mushaboom (Mocky Remix) ; 出演艺人. Feist . 表演者 ; 作曲和作词. Feist . 词曲作者 ; 制作和工程. Renaud Letang. 混音工程师. Read more",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "song_id": "389827358",
+        "observed_title": "‎Chatroulette (feat. Sophie Favier) - 由Max Boublil演唱",
+        "url": "https://music.apple.com/cn/song/chatroulette-feat-sophie-favier/389827358",
+        "storefront": "cn",
+        "source_ref": "turn358search4",
+        "observed_text": "‎Chatroulette (feat. Sophie Favier) - 由Max Boublil演唱 (https://music.apple.com/cn/song/chatroulette-feat-sophie-favier/389827358)\n【turn358search4】 [wordlim: 200] J'ai passé ces derniers mois sur Internet. À chercher la femme de ma vie. 登录以查看完整歌词. Chatroulette (feat. Sophie Favier).",
+        "decision": "rejected",
+        "reason": "Other region/version/artist-neighbour candidate; exact CN metadata not established or less distinctive than selected five. No complete audition or source verification claimed."
+      },
+      {
+        "title": "La femme d'argent",
+        "artist": "Air",
+        "album": "Moon Safari",
+        "song_id": "697240265",
+        "url": "https://music.apple.com/cn/song/la-femme-dargent/697240265",
+        "genre": "Downtempo／电子",
+        "tier": "high_confidence",
+        "source_ref": "rendered CN album and exact CN song page",
+        "observation": "CN album original track link697240265, duration7:06; exact song page heading La femme d’argent, Air, Moon Safari, 1998-01-16. Other-country ID693063876 displayed CN page not found and was rejected. Vegyn Version1806144060 separately observed and excluded.",
+        "why": "这是今日优先：给一个不靠歌词、也不急着冲向高潮的声音空间留七分钟。它很适合把“旋律主角”暂时放下，改听低音、节拍与上层音色怎样共同构成运动感。选的是《Moon Safari》原专辑中的录音，不是《Blue Moon Safari》的 Vegyn Version 或 DJ 混音片段。前两首以歌声带路，这里则让你发现，反复的底层线条也能成为很有性格的叙述者。",
+        "arrangement": "低音的弹性与较松的鼓点形成稳固的框架，键盘和电子色彩在其上铺出更轻、更漂浮的层次。值得注意的不是声音有多少，而是每层都有自己的起音、延续和退后方式：低处让你保持身体感，高处则打开空间。Apple Music 的原专辑介绍也强调松散节拍与多层配器；具体到这一曲，建议听声部间的距离，不把听感直接归因于未经核实的某台合成器或录音设备。",
+        "cue": "开头先只跟低音，记住它怎样绕回起点。等上层材料增多，再把注意力移到较长的延音：节奏还一样时，空间为何已经不同？最后回到开头，比较你对同一条低音的感受是否变了。",
+        "canonical_id": "Air::La femme d'argent",
+        "position": 3,
+        "storefront": "cn",
+        "verification_method": "exact_cn_song_page",
+        "observation_recorded_at_utc": "2026-10-24T01:21:45.946123+00:00",
+        "playback_tested": false,
+        "decision": "selected",
+        "reason": "这是今日优先：给一个不靠歌词、也不急着冲向高潮的声音空间留七分钟。它很适合把“旋律主角”暂时放下，改听低音、节拍与上层音色怎样共同构成运动感。选的是《Moon Safari》原专辑中的录音，不是《Blue Moon Safari》的 Vegyn Version 或 DJ 混音片段。前两首以歌声带路，这里则让你发现，反复的底层线条也能成为很有性格的叙述者。",
+        "scores_quality_usefulness_curiosity_novelty_fit": [
+          4.6,
+          4.4,
+          4.6,
+          4.5,
+          4.5
+        ],
+        "weighted_score": 4.535,
+        "scope": "Exact CN song heading, artist, album, ID observed. Editorial appreciation, not whole-track audition or account entitlement test."
+      }
+    ],
+    "selection": [
+      {
+        "position": 1,
+        "title": "鹿港小镇",
+        "artist": "罗大佑",
+        "album": "之乎者也",
+        "canonical_id": "罗大佑::鹿港小镇",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/1720705000",
+          "song_id": "1720705000",
+          "storefront": "cn"
+        },
+        "analysis_summary": "今天先从一首有清晰叙述方向的华语摇滚进入。选择《之乎者也》的专辑录音：它的力量来自一段段语句持续向前推进，同时让个人口吻与更大的社会经验彼此碰撞。与只凭熟悉旋律怀旧相比，更值得听的是歌者如何维持长段叙述的重心——不是每句都加重，却能让后一句比前一句更迫切。适合完整听一遍，先感受声音里向前走与想回头的拉扯。 以摇滚乐队的节奏支撑为坐标，把罗大佑略带沙哑、边缘粗粝的嗓音放在前景听。人声不是装饰在伴奏上，而像一个一直需要把话说完的人；器乐的推进与句子起伏之间，因此有很强的相互牵引。这里选的是1982年专辑条目，未把北京—香港演唱会或宜花东鹿现场的演奏细节混入，也不据页面日期推断具体录音日。",
+        "listening_cue": "第一遍跟住每一段的语气，不急着分析文字。第二遍只抓一个句末，听声音收束后节奏怎样把下一句接起来；再找一处主唱加重的字，判断力量来自音量、音区，还是进入节拍的位置。"
+      },
+      {
+        "position": 2,
+        "title": "Mushaboom",
+        "artist": "Feist",
+        "album": "Let It Die (UK Version)",
+        "canonical_id": "Feist::Mushaboom",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/mushaboom/1443379471",
+          "song_id": "1443379471",
+          "storefront": "cn"
+        },
+        "analysis_summary": "把第二首留给一种轻巧、带想象空间的亲密感。Feist 的歌声很容易亲近，但这首并不是单靠“温柔”就成立：旋律的弹性和轻快的推进，让略带憧憬的情绪始终有落脚点。今天明确选择《Let It Die (UK Version)》的原歌曲条目，不是 K-Os、Mocky 或 Postal Service 混音，也不是电影合辑。它适合在周末出门前听，让注意力从严肃叙述转到一句话怎样唱得松而不散。 可以把拨弦的颗粒、轻的节奏支点和贴近耳边的人声分开听：前两层给身体一个不太用力的摇摆，歌唱则在其上保留自然的呼吸。她的声音既有柔软边缘，又不会把旋律轮廓磨平。Apple Music 的资料列出 Feist 主唱及 Chilly Gonzales 的编曲身份；这里不由署名反推某件乐器一定是谁演奏，也不把 UK Version 理解为另一场重新演唱。",
+        "listening_cue": "先轻点基本拍子，再听一个短句的开头：它是紧贴拍点，还是让语气稍微悬一下？找一处主唱结束而伴奏仍继续的空隙，比较有歌声和没有歌声时，同一层拨弦带给你的轻重感。"
+      },
+      {
+        "position": 3,
+        "title": "La femme d'argent",
+        "artist": "Air",
+        "album": "Moon Safari",
+        "canonical_id": "Air::La femme d'argent",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/la-femme-dargent/697240265",
+          "song_id": "697240265",
+          "storefront": "cn"
+        },
+        "analysis_summary": "这是今日优先：给一个不靠歌词、也不急着冲向高潮的声音空间留七分钟。它很适合把“旋律主角”暂时放下，改听低音、节拍与上层音色怎样共同构成运动感。选的是《Moon Safari》原专辑中的录音，不是《Blue Moon Safari》的 Vegyn Version 或 DJ 混音片段。前两首以歌声带路，这里则让你发现，反复的底层线条也能成为很有性格的叙述者。 低音的弹性与较松的鼓点形成稳固的框架，键盘和电子色彩在其上铺出更轻、更漂浮的层次。值得注意的不是声音有多少，而是每层都有自己的起音、延续和退后方式：低处让你保持身体感，高处则打开空间。Apple Music 的原专辑介绍也强调松散节拍与多层配器；具体到这一曲，建议听声部间的距离，不把听感直接归因于未经核实的某台合成器或录音设备。",
+        "listening_cue": "开头先只跟低音，记住它怎样绕回起点。等上层材料增多，再把注意力移到较长的延音：节奏还一样时，空间为何已经不同？最后回到开头，比较你对同一条低音的感受是否变了。"
+      },
+      {
+        "position": 4,
+        "title": "Chaser",
+        "artist": "Mammal Hands",
+        "album": "Captured Spirits",
+        "canonical_id": "Mammal Hands::Chaser",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/chaser/1579312329",
+          "song_id": "1579312329",
+          "storefront": "cn"
+        },
+        "analysis_summary": "电子循环之后，换成有呼吸、触键和击打触感的合奏，比较“反复”在两种音乐里怎样工作。Mammal Hands 的入口不是先背爵士术语，而是抓住一个短动机，听其他声部怎样让它越来越有方向。选择《Captured Spirits》中的具体歌曲条目；这次不追新发行，也不把同一乐队的其他曲子拼成介绍。它值得专门听的地方，是旋律、伴奏与节奏支撑可以轮流改变你注意的中心。 钢琴的重复型、萨克斯的气息线条与鼓及打击乐的细密活动，是理解这支合奏语言的三个入口。别只追着最响的声部跑：较小的重音和延续音，也会改变一个循环的重心。可以先把它当成几个彼此配合的动作，再听它们合起来的紧张感。国区曲页与专辑页日期字段并不相同，这里只确认专辑和录音身份，不拿单曲目录日期声称整张专辑的实际首发日。",
+        "listening_cue": "第一遍跟住钢琴短型，第二遍把注意力完全交给节奏层，找它在哪些地方推动、哪些地方留下空隙。再把旋律放回来：同一个重复型上，哪一层的变化最先让你觉得音乐向前走了？"
+      },
+      {
+        "position": 5,
+        "title": "Odugen Taiga (Live)",
+        "artist": "Huun Huur Tu",
+        "album": "WANDER ABOUT TUVA (Live)",
+        "canonical_id": "Huun Huur Tu::Odugen Taiga (Live)",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/odugen-taiga-live/1827140846",
+          "song_id": "1827140846",
+          "storefront": "cn"
+        },
+        "analysis_summary": "今天真正跨出常听范围的一首，留给图瓦的人声传统。这里有意选择2025年《WANDER ABOUT TUVA (Live)》中的现场版本，而不把《The Orphan’s Lament》的另一首歌替进来。它适合暂时放下“主唱在唱什么歌词”的习惯，听声音本身怎样形成持续的底色和更明亮的上层。你不需要模仿发声，只要允许耳朵先适应这种不同于常规流行主唱的音色组织。 聆听时可先分辨较低、持续的声响与浮在上面的明亮成分，再留意句子呼吸带来的边界。泛音的突出会改变你对“一条声音”的直觉，但不要把每一处高音都直接判成另一位歌者或某件乐器。Apple Music 列出团体的声乐与编曲身份；现场版标注并不自动证明录于某个地点，也不代表没有后期处理。今天把判断停在能够核实的版本和实际可听的层次关系上。",
+        "listening_cue": "先找一个较稳定的持续声，把它当作参照，再留意更亮的声音如何在上方移动。人声停下或换气时，听声音的边缘与余响怎样改变；回听同一小段，比较“跟旋律”与“跟音色”两种听法。"
+      }
+    ],
+    "source_verification": [
+      {
+        "title": "鹿港小镇",
+        "artist": "罗大佑",
+        "album": "之乎者也",
+        "song_id": "1720705000",
+        "url": "https://music.apple.com/cn/song/1720705000",
+        "source_ref": "turn357view3",
+        "observation": "Exact CN song resource directly read; heading 鹿港小镇, artist 罗大佑, album 之乎者也, date1982-04-21, URL ID1720705000.",
+        "observation_recorded_at_utc": "2026-10-24T01:21:45.946123+00:00",
+        "verification_method": "exact_cn_song_page",
+        "storefront": "cn",
+        "playback_tested": false
+      },
+      {
+        "title": "Mushaboom",
+        "artist": "Feist",
+        "album": "Let It Die (UK Version)",
+        "song_id": "1443379471",
+        "url": "https://music.apple.com/cn/song/mushaboom/1443379471",
+        "source_ref": "turn358search1; rendered exact CN page",
+        "observation": "Rendered CN heading Mushaboom, Feist, Let It Die (UK Version), 2004-05-18, preview button; exact song path1443379471. No full playback claim.",
+        "observation_recorded_at_utc": "2026-10-24T01:21:45.946123+00:00",
+        "verification_method": "exact_cn_song_page",
+        "storefront": "cn",
+        "playback_tested": false
+      },
+      {
+        "title": "La femme d'argent",
+        "artist": "Air",
+        "album": "Moon Safari",
+        "song_id": "697240265",
+        "url": "https://music.apple.com/cn/song/la-femme-dargent/697240265",
+        "source_ref": "rendered CN album and exact CN song page",
+        "observation": "CN album original track link697240265, duration7:06; exact song page heading La femme d’argent, Air, Moon Safari, 1998-01-16. Other-country ID693063876 displayed CN page not found and was rejected. Vegyn Version1806144060 separately observed and excluded.",
+        "observation_recorded_at_utc": "2026-10-24T01:21:45.946123+00:00",
+        "verification_method": "exact_cn_song_page",
+        "storefront": "cn",
+        "playback_tested": false
+      },
+      {
+        "title": "Chaser",
+        "artist": "Mammal Hands",
+        "album": "Captured Spirits",
+        "song_id": "1579312329",
+        "url": "https://music.apple.com/cn/song/chaser/1579312329",
+        "source_ref": "turn357search0; rendered exact CN page",
+        "observation": "Exact rendered CN song heading Chaser, Mammal Hands, Captured Spirits, date2020-07-15. Album release date differs; not used as recording date.",
+        "observation_recorded_at_utc": "2026-10-24T01:21:45.946123+00:00",
+        "verification_method": "exact_cn_song_page",
+        "storefront": "cn",
+        "playback_tested": false
+      },
+      {
+        "title": "Odugen Taiga (Live)",
+        "artist": "Huun Huur Tu",
+        "album": "WANDER ABOUT TUVA (Live)",
+        "song_id": "1827140846",
+        "url": "https://music.apple.com/cn/song/odugen-taiga-live/1827140846",
+        "source_ref": "turn357search7; rendered exact CN page",
+        "observation": "Rendered exact CN song heading Odugen Taiga (Live), Huun Huur Tu, WANDER ABOUT TUVA (Live), 2025-07-18. Apple credits Huun-Huur-Tu vocals/arrangement, Kaigal-ool-Khovaly composer, 刘钊 producer, 冀翔 recording/mix.",
+        "observation_recorded_at_utc": "2026-10-24T01:21:45.946123+00:00",
+        "verification_method": "exact_cn_song_page",
+        "storefront": "cn",
+        "playback_tested": false
+      }
+    ],
+    "deduplication": {
+      "original_history_and_reserved_checked": true,
+      "normalized_canonical_and_same_recording_review": "All 238 permanent keys, 230 manifest tracks and music PREPARED payloads inspected; none of these five works or artists previously exposed. Alternate live/remix/reissue candidates rejected or explicitly versioned.",
+      "exact_repeats": 0,
+      "same_recording_repeats": 0,
+      "prior_values_unchanged": true
+    },
+    "diversity": {
+      "artists": 5,
+      "high_confidence": 3,
+      "adjacent": 1,
+      "wildcard": 1,
+      "wildcard_position": 5,
+      "genres": [
+        "国语摇滚",
+        "独立流行／民谣流行",
+        "Downtempo／电子",
+        "现代爵士／循环合奏",
+        "图瓦人声／现场传统音乐"
+      ],
+      "eras": [
+        "1980s",
+        "1990s",
+        "2000s",
+        "2020s"
+      ],
+      "languages": [
+        "Mandarin",
+        "English",
+        "instrumental",
+        "Tuvan"
+      ],
+      "recent_artist_repeats": []
+    },
+    "bundle_sha256": "a9ddee1198d92413e14d88af4941a20665133cf566dbeab32f8fd889cacfea16",
+    "plan_sha256": "e5f5aad0a38d0327a3f97c9d9cef3e5793bcccb19ed9730813e7bc28bded2719",
+    "errors": [
+      {
+        "type": "source_tool_retrieval_unavailable",
+        "origin_status": "not_exposed",
+        "action": "Actual CN browser pages verified; never treated search snippet/HTTP success as final metadata verification."
+      },
+      {
+        "type": "transient_execution_environment_unavailable",
+        "action": "Environment recovered before further execution; no publication mutation attempted during outage."
+      },
+      {
+        "type": "CN_page_not_found",
+        "ids": [
+          "693063876",
+          "1565051303"
+        ],
+        "action": "Rejected; Air original subsequently discovered as697240265 through actual CN album track link; Huun final is different deliberately selected named live work, not a substituted recording."
+      }
+    ],
+    "historical_backlog": "All retired keys, legacy state values and historical format/source warnings retained. No old manifest, state value or PREPARED rewritten.",
+    "not_certified": [
+      "full audio audition",
+      "personal account playback",
+      "device sync",
+      "notifications"
+    ]
+  },
+  "publication_status": "not_applied",
+  "errors": [
+    {
+      "type": "source_tool_retrieval_unavailable",
+      "origin_status": "not_exposed",
+      "action": "Actual CN browser pages verified; never treated search snippet/HTTP success as final metadata verification."
+    },
+    {
+      "type": "transient_execution_environment_unavailable",
+      "action": "Environment recovered before further execution; no publication mutation attempted during outage."
+    },
+    {
+      "type": "CN_page_not_found",
+      "ids": [
+        "693063876",
+        "1565051303"
+      ],
+      "action": "Rejected; Air original subsequently discovered as697240265 through actual CN album track link; Huun final is different deliberately selected named live work, not a substituted recording."
+    }
+  ]
+}
