@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-10-24",
+  "phase": "stage_1_readback_complete",
+  "recorded_at_utc": "2026-10-24T00:49:43.979567+00:00",
+  "execution": {
+    "prepared_creation_commit": "70e0d827d46dcf23480efb596dd030e97fab838e",
+    "prepared_identity_commit": "7812ed1d3a3c13a79929fa29bff8c93cdd02a4dd",
+    "publication_commit": "52448dbbf8ddba79f288b630512a955cedab3ca0",
+    "publication_tree": "debed11d4856112616c02f2acfc02320deccb13d",
+    "publication_parent": "7812ed1d3a3c13a79929fa29bff8c93cdd02a4dd",
+    "bundle_sha256": "ffe873ac483c4933e37071e0fde006d5d50d9a86b6f5fbae5fe6939ce84fadbf",
+    "readbacks": [
+      {
+        "path": "News/Daily/2026-10-24.md",
+        "sha": "e94960cef5ef5fab96520a0c10787d392969712c",
+        "utf8_content_read": true
+      },
+      {
+        "path": "Resources/YouTube/Daily/2026-10-24.md",
+        "sha": "ec36e6cc8c9e755dbed25e95855708be6b43ac82",
+        "utf8_content_read": true
+      },
+      {
+        "path": "Resources/Reddit/Daily/2026-10-24.md",
+        "sha": "0d16207c4b9b326b08ff0668e0d602e694fb8444",
+        "utf8_content_read": true
+      },
+      {
+        "path": ".recommendation/history/youtube.jsonl",
+        "sha": "335ebce503bf4538f4dff45c15ddb92ade6ecc2b",
+        "utf8_content_read": true
+      },
+      {
+        "path": ".recommendation/history/reddit.jsonl",
+        "sha": "de9aaf3c1e6559f99718706b6065eaa8a914957a",
+        "utf8_content_read": true
+      }
+    ],
+    "ci": {
+      "run_id": 40046772032,
+      "job_id": 120730198093,
+      "head_sha": "52448dbbf8ddba79f288b630512a955cedab3ca0",
+      "conclusion": "success",
+      "actual_base": "7812ed1d3a3c13a79929fa29bff8c93cdd02a4dd",
+      "append_only": "passed_against_base",
+      "immutable_bundles": 29,
+      "tests": 119
+    },
+    "errors": []
+  },
+  "readback_checks": {
+    "readbacks": {
+      "News/Daily/2026-10-24.md": {
+        "sha": "e94960cef5ef5fab96520a0c10787d392969712c",
+        "utf8_bytes": 7323,
+        "complete_readback_exact": true
+      },
+      "Resources/YouTube/Daily/2026-10-24.md": {
+        "sha": "ec36e6cc8c9e755dbed25e95855708be6b43ac82",
+        "utf8_bytes": 6140,
+        "complete_readback_exact": true
+      },
+      "Resources/Reddit/Daily/2026-10-24.md": {
+        "sha": "0d16207c4b9b326b08ff0668e0d602e694fb8444",
+        "utf8_bytes": 11458,
+        "complete_readback_exact": true
+      },
+      ".recommendation/history/youtube.jsonl": {
+        "sha": "335ebce503bf4538f4dff45c15ddb92ade6ecc2b",
+        "utf8_bytes": 36517,
+        "complete_readback_exact": true
+      },
+      ".recommendation/history/reddit.jsonl": {
+        "sha": "de9aaf3c1e6559f99718706b6065eaa8a914957a",
+        "utf8_bytes": 57451,
+        "complete_readback_exact": true
+      }
+    },
+    "history": {
+      "youtube": {
+        "before": 220,
+        "after": 225,
+        "ordered_ids": [
+          "34bFgA3H3hQ",
+          "aBYzvPbIFNw",
+          "AS49FzfCZUc",
+          "230uCZj2RPs",
+          "28YKY3GIs2U"
+        ],
+        "exact_once": true,
+        "fresh_against_original_history": true,
+        "prior_bytes_unchanged": true
+      },
+      "reddit": {
+        "before": 420,
+        "after": 430,
+        "ordered_ids": [
+          "1ewnm5y",
+          "1lioguw",
+          "ay64lp",
+          "1tqexea",
+          "1tca85d",
+          "1hwg5lq",
+          "1q6t5xv",
+          "1tdwv32",
+          "1w89z6z",
+          "1axfg32"
+        ],
+        "exact_once": true,
+        "fresh_against_original_history": true,
+        "prior_bytes_unchanged": true
+      }
+    },
+    "planner": {
+      "operation_id": "news-youtube-reddit:2026-10-24",
+      "plan_sha256": "507523a0c546bfb21a7a060289cbd9679af81264992032eb3b62d74f4effe166",
+      "status": "artifacts_match",
+      "next_stage": null,
+      "decisions": [
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "News/Daily/2026-10-24.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "e94960cef5ef5fab96520a0c10787d392969712c"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Resources/YouTube/Daily/2026-10-24.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "ec36e6cc8c9e755dbed25e95855708be6b43ac82"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Resources/Reddit/Daily/2026-10-24.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "0d16207c4b9b326b08ff0668e0d602e694fb8444"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/youtube.jsonl",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "f16868506af2874285f55f3c782e1110c95eb57f",
+          "target_sha": "335ebce503bf4538f4dff45c15ddb92ade6ecc2b"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/reddit.jsonl",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "3b61834ae17b57ece785953af764ade748a01c2e",
+          "target_sha": "de9aaf3c1e6559f99718706b6065eaa8a914957a"
+        }
+      ],
+      "content_qa": "not_evaluated",
+      "github_writes_performed": 0
+    },
+    "journal": {
+      "status": "passed_immutable_publication_bundles",
+      "bundles": 29,
+      "base_ref": null,
+      "content_qa": "not_evaluated"
+    },
+    "sections_dates_counts": "passed",
+    "source_scope": "Five official publisher pages with exact original embedded player title/channel/ID and substantive original text. News primary documents and contemporaneous reporting. Reddit search-information waiver, no full original thread/comment verification. Playback untested.",
+    "semantic_review": "Complete original histories and all 28 unrelated reservations checked; normalized title+creator checked; editorial underlying-work and topic review, no exact or semantic repeat selected. Semantic review is not a mechanical proof.",
+    "diversity": {
+      "youtube_creators": 5,
+      "youtube_narrow_topic_max": 0.2,
+      "youtube_broad_material_craft_max": 0.4,
+      "youtube_tiers": {
+        "high_confidence": 2,
+        "adjacent": 2,
+        "wildcard": 1
+      },
+      "reddit_narrow_topic_max": 0.1,
+      "reddit_broad_engineering_max": 0.2,
+      "reddit_tiers": {
+        "high_confidence": 5,
+        "adjacent": 3,
+        "wildcard": 2
+      },
+      "recent_topic_exception": "Music rhythm repeated as broad area after four days; .3 penalty. Selected question is representation of simultaneous accent layers, not same underlying earlier general rhythm-practice work. Recent weaving, book grain, emulsion, board game and timezone clusters rejected."
+    }
+  },
+  "qa": "current-publication gates passed; separate final run receipt follows",
+  "errors": []
+}
