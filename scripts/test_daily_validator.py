@@ -44,6 +44,14 @@ class ValidatorRegressionTests(unittest.TestCase):
     def test_bold_metadata(self):self.run_music()
     def test_list_metadata(self):self.run_music('list')
     def test_plain_metadata(self):self.run_music('plain')
+    def test_fullwidth_metadata(self):
+        self.run_music('plain',mutate=lambda s:s.replace('Album:', '**Album**：').replace('song_id:', '**song_id**：').replace('Apple Music:', '**Apple Music（中国大陆）**：'))
+    def test_fullwidth_missing_album_fails(self):
+        self.run_music('plain',mutate=lambda s:s.replace('Album: Album 0','Album：'),expect_failure=True)
+    def test_fullwidth_wrong_id_fails(self):
+        self.run_music('plain',mutate=lambda s:s.replace('song_id: 12345670','song_id：99999999'),expect_failure=True)
+    def test_cn_label_foreign_url_still_fails(self):
+        self.run_music('plain',mutate=lambda s:s.replace('Apple Music:', 'Apple Music（中国大陆）：').replace('/cn/song/12345670','/us/song/12345670'),expect_failure=True)
     def test_missing_album_still_fails(self):self.run_music(mutate=lambda s:s.replace('**Album:** Album 0','**Album:**'),expect_failure=True)
     def test_wrong_song_id_still_fails(self):self.run_music(mutate=lambda s:s.replace('**song_id:** `12345670`','**song_id:** `99999999`'),expect_failure=True)
     def test_wrong_storefront_still_fails(self):self.run_music(mutate=lambda s:s.replace('/cn/song/12345670','/us/song/12345670'),expect_failure=True)

@@ -1,0 +1,52 @@
+{
+  "operation_id": "music:2026-10-24",
+  "phase": "stage2_readback_and_format_compatibility_fix",
+  "prepared": {
+    "commit": "a11ae3e65f56b16fea1b11c720264ae87ffec5d1",
+    "tree": "78e6c8de20c3245a5e6da04698d5d39049999aa3",
+    "blob": "4050174b711bc0e6430a854fef529ee7d9ef3904",
+    "bundle_sha256": "a9ddee1198d92413e14d88af4941a20665133cf566dbeab32f8fd889cacfea16",
+    "plan_sha256": "e5f5aad0a38d0327a3f97c9d9cef3e5793bcccb19ed9730813e7bc28bded2719"
+  },
+  "stage1_commit": "459f80e88f4871c0af88851e781873e3e40adb3e",
+  "stage2": {
+    "commit": "979d69f699c5b6ab2f5db1f53fd0cdea40859d15",
+    "parent": "72b1439e822b92549799ef8bec87be20120c061e",
+    "tree": "13ebaf8fb9bce55e2987122dc0276af010003064"
+  },
+  "readbacks": [
+    {
+      "repository": "ZJFILOVE/music-daily",
+      "path": "recommendations/2026/10/2026-10-24.json",
+      "sha": "dedcb8a16ec3de4da60179d16f0552ca79ac7046"
+    },
+    {
+      "repository": "ZJFILOVE/music-daily",
+      "path": "state/tracks.json",
+      "sha": "4cf3c9b0340004b5df549e7904d40aa2dbe7f8de"
+    },
+    {
+      "repository": "ZJFILOVE/obsidian-vault",
+      "path": "Music/Daily/2026-10-24.md",
+      "sha": "3423e7b8b9c5b7dd83425132cbba31fedc2d0d26"
+    },
+    {
+      "repository": "ZJFILOVE/obsidian-vault",
+      "path": "Music/Daily/manifests/2026-10-24.json",
+      "sha": "dedcb8a16ec3de4da60179d16f0552ca79ac7046"
+    },
+    {
+      "repository": "ZJFILOVE/obsidian-vault",
+      "path": "Music/Daily/state/tracks.json",
+      "sha": "4cf3c9b0340004b5df549e7904d40aa2dbe7f8de"
+    }
+  ],
+  "errors": [
+    {
+      "classification": "structural_validator_presentation_incompatibility",
+      "run_id": 40049604989,
+      "message": "song1 needs one non-empty Album field",
+      "resolution": "Frozen payloads remain byte-identical; parser accepts fullwidth colon and exact Chinese-mainland display label; nonempty fields, matching song IDs, direct CN URLs and all semantic checks retained. Four positive/negative regressions added; 123 local tests passed."
+    }
+  ]
+}
