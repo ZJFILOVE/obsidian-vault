@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "attempt": "20261024T000309Z",
+  "operation_id": "english:2026-10-24",
+  "phase": "stage1_applied",
+  "original_bundle_sha256": "88c3881045802adb4ac1d74c67d9e3a73a1b0c3cf4d45d6e5794df671c427d81",
+  "publication_commit": "fe0dd683abe164264800b883ee8735877705d28d",
+  "parent_commit": "254aab5fee0e0774cc0698347ced1427da1d9a58",
+  "tree_sha": "3da1dd643790a1ce191bc3421c5c242653674123",
+  "readbacks": {
+    "50-courses/English/Weekly/TV/2026-10-24.md": "1f4238b8548094998b409e2d9d0fadd641ec3c75",
+    ".recommendation/history/english.jsonl": "9faded146bf4462ffd34d7c540388c39e663d7db"
+  },
+  "readback_exact": true,
+  "errors": []
+}
