@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-24",
+  "project": "english",
+  "operation_id": "english:2026-10-24",
+  "status": "passed_current_publication_checks",
+  "mode": "new",
+  "selected": {
+    "title": "Atlanta",
+    "source_url": "https://www.fxnetworks.com/shows/atlanta",
+    "source": "FX",
+    "component": "weekly-tv"
+  },
+  "candidate_evidence": {
+    "count": 10,
+    "minimum_policy_count": 8,
+    "candidates": [
+      {
+        "title": "Atlanta",
+        "url": "https://www.fxnetworks.com/shows/atlanta",
+        "publisher": "FX",
+        "status": "selected",
+        "evidence": "official direct series page observed; title, season context and page structure read directly",
+        "score": {
+          "quality": 0.96,
+          "usefulness": 0.91,
+          "curiosity": 0.94,
+          "novelty": 0.92,
+          "fit": 0.88
+        }
+      },
+      {
+        "title": "Evil",
+        "url": "https://www.paramountplus.com/shows/evil/",
+        "publisher": "Paramount+",
+        "status": "rejected",
+        "reason": "high quality, but supernatural procedural vocabulary is a less useful contrast immediately after recent institutional-science weekday materials"
+      },
+      {
+        "title": "High Maintenance",
+        "url": "https://www.hbo.com/series/a-z",
+        "publisher": "HBO",
+        "status": "rejected",
+        "reason": "official catalog evidence observed; strong urban vignette candidate, but the final chose a clearer goal/constraint spine"
+      },
+      {
+        "title": "How To With John Wilson",
+        "url": "https://www.hbo.com/series/a-z",
+        "publisher": "HBO",
+        "status": "rejected",
+        "reason": "official catalog evidence observed; documentary voice is distinctive but too close to last Saturday's direct-to-viewer observational mode"
+      },
+      {
+        "title": "Insecure",
+        "url": "https://www.hbo.com/series/genre/comedy",
+        "publisher": "HBO",
+        "status": "rejected",
+        "reason": "official catalog evidence observed; excellent candidate, retained for a future week to avoid stacking friendship-centered comedy immediately"
+      },
+      {
+        "title": "A Black Lady Sketch Show",
+        "url": "https://www.hbo.com/series/genre/comedy",
+        "publisher": "HBO",
+        "status": "rejected",
+        "reason": "official catalog evidence observed; sketch format offers less continuous early-episode character tracking for this week's learning design"
+      },
+      {
+        "title": "Betty",
+        "url": "https://www.hbo.com/series/genre/comedy",
+        "publisher": "HBO",
+        "status": "rejected",
+        "reason": "official catalog evidence observed; strong youth and skateboarding speech, but local culture references may dominate the first-session learning load"
+      },
+      {
+        "title": "Fantasmas",
+        "url": "https://www.hbo.com/series/genre/comedy",
+        "publisher": "HBO",
+        "status": "rejected",
+        "reason": "official catalog evidence observed; compelling wildcard, but surreal structure is less suitable for the chosen two-episode goal/pressure task"
+      },
+      {
+        "title": "Veep",
+        "url": "https://www.hbo.com/series/genre/comedy",
+        "publisher": "HBO",
+        "status": "rejected",
+        "reason": "official catalog evidence observed; exceptionally fast political dialogue raises listening load beyond the intended Saturday entry point"
+      },
+      {
+        "title": "The Wire",
+        "url": "https://www.hbo.com/series/a-z",
+        "publisher": "HBO",
+        "status": "rejected",
+        "reason": "official catalog evidence observed; outstanding cultural value but high institutional and dialect density makes it a less forgiving two-episode trial"
+      }
+    ]
+  },
+  "rejection_summary": {
+    "exact_prior_url_repeats": 0,
+    "same_series_repeats": 0,
+    "recent_topic_conflict": false,
+    "selection_reason": "Distinctive Atlanta-set spoken English, urban and music-industry context, strong cultural value, and a clear goal-pressure-trade-off learning spine; materially different from the prior Saturday's direct-to-viewer small-town observational comedy."
+  },
+  "source_verification": {
+    "before_publication": {
+      "method": "direct_official_page_read",
+      "observed_at_utc": "2026-10-24T00:02:17.785Z",
+      "url": "https://www.fxnetworks.com/shows/atlanta",
+      "observations": [
+        "page title: FX's Atlanta | Watch on Hulu",
+        "official FX navigation with About, Cast and Crew, Video Extras, Galleries, Music and Headlines",
+        "final season label and Season 4 description say the group is back in their hometown"
+      ]
+    },
+    "after_publication": {
+      "method": "direct_official_page_read",
+      "observed_at_utc": "2026-10-24T00:04:13.360Z",
+      "url": "https://www.fxnetworks.com/shows/atlanta",
+      "observations": [
+        "page title remained FX's Atlanta | Watch on Hulu",
+        "official navigation and Season 4/final-season text remained readable"
+      ]
+    },
+    "scope_limits": [
+      "full episode playback not tested",
+      "account and regional playback not tested",
+      "subtitle controls not tested",
+      "teaching analysis is editorial judgment, not a transcript audit"
+    ]
+  },
+  "content_qa": {
+    "exactly_one_series": true,
+    "spoiler_free_premise": true,
+    "official_direct_source_url": true,
+    "why_worth_watching": true,
+    "english_characteristics_and_difficulty": true,
+    "early_episode_strategy": true,
+    "viewing_modes": 3,
+    "original_language_features_or_chunks": 12,
+    "copyrighted_dialogue_reproduced": false,
+    "auto_markers": true,
+    "user_notes_outside_auto": true,
+    "cross_link_to_english": true,
+    "substantive_chinese_teaching_style": true,
+    "semantic_review": "No duplicate of prior five Saturday series. Language advice distinguishes comprehension from identity performance, and separates observed facts from interpretation."
+  },
+  "freshness": {
+    "original_preselection_history_sha": "04fc91c0ac06d83da1af44341cf26981e7d12714",
+    "original_history_rows": 46,
+    "selected_url_present_in_original_history": false,
+    "postwrite_same_date_exact_registration_count": 1,
+    "postwrite_history_rows": 47
+  },
+  "bundle": {
+    "prepared_path": ".recommendation/transactions/english/2026-10-24.json",
+    "prepared_creation_commit": "efbd3ea7f275786303f1b92efed3b3ea4529ce91",
+    "prepared_blob_sha": "1f1e409afe56d2277b7356d8f2f28fc479db031f",
+    "original_bundle_sha256": "88c3881045802adb4ac1d74c67d9e3a73a1b0c3cf4d45d6e5794df671c427d81",
+    "original_plan_sha256": "1ab9078b30ef40b0f29438803a7ee417cc52576858fb64d640f5e987846dec06",
+    "identity_receipt_commit": "254aab5fee0e0774cc0698347ced1427da1d9a58",
+    "planner_postwrite_status": "artifacts_match"
+  },
+  "publication": {
+    "commit": "fe0dd683abe164264800b883ee8735877705d28d",
+    "parent": "254aab5fee0e0774cc0698347ced1427da1d9a58",
+    "tree": "3da1dd643790a1ce191bc3421c5c242653674123",
+    "stage_receipt_commit": "f3b9d6b1b02036064041fc39fa79e30d886e12e0",
+    "readback_head": "f3b9d6b1b02036064041fc39fa79e30d886e12e0",
+    "readbacks": {
+      "50-courses/English/Weekly/TV/2026-10-24.md": "1f4238b8548094998b409e2d9d0fadd641ec3c75",
+      ".recommendation/history/english.jsonl": "9faded146bf4462ffd34d7c540388c39e663d7db",
+      ".recommendation/transactions/english/2026-10-24.json": "1f1e409afe56d2277b7356d8f2f28fc479db031f"
+    },
+    "exact_payload_readback": true
+  },
+  "validators": {
+    "local_persisted_bundle_planner": {
+      "status": "artifacts_match",
+      "next_stage": null
+    },
+    "github_actions": {
+      "run_id": 40043008909,
+      "job_id": 120718191221,
+      "head_sha": "f3b9d6b1b02036064041fc39fa79e30d886e12e0",
+      "workflow": "Recommendation integrity (read-only)",
+      "conclusion": "success",
+      "counts": {
+        "youtube": 195,
+        "reddit": 390,
+        "english": 41,
+        "music": 195
+      },
+      "tests": {
+        "daily_integrity_and_validator": 63,
+        "publication_bundle_and_recovery": 41,
+        "remote_music_snapshot_regressions": 15
+      },
+      "immutable_bundles": 28,
+      "append_only_base": "fe0dd683abe164264800b883ee8735877705d28d"
+    },
+    "scope": "Actual CI checked repository structure, full source-history coverage, append-only history and immutable bundles. It does not certify live-source semantics, playback, regional access, local device sync or notification delivery."
+  },
+  "backlog": [
+    {
+      "issue": "Three pre-strict-policy YouTube duplicate groups remain retained in permanent history.",
+      "action": "Retain as historical backlog and permanently block future reuse; unrelated to today's English publication."
+    }
+  ]
+}
