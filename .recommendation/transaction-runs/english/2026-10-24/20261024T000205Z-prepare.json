@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "attempt": "20261024T000205Z",
+  "operation_id": "english:2026-10-24",
+  "phase": "prepared_identity",
+  "mode": "new",
+  "prepared_creation_commit": "efbd3ea7f275786303f1b92efed3b3ea4529ce91",
+  "prepared_blob_sha": "1f1e409afe56d2277b7356d8f2f28fc479db031f",
+  "original_bundle_sha256": "88c3881045802adb4ac1d74c67d9e3a73a1b0c3cf4d45d6e5794df671c427d81",
+  "original_plan_sha256": "1ab9078b30ef40b0f29438803a7ee417cc52576858fb64d640f5e987846dec06",
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "title": "Atlanta",
+      "url": "https://www.fxnetworks.com/shows/atlanta",
+      "publisher": "FX",
+      "status": "selected",
+      "evidence": "official direct series page observed; title, season context and page structure read directly",
+      "score": {
+        "quality": 0.96,
+        "usefulness": 0.91,
+        "curiosity": 0.94,
+        "novelty": 0.92,
+        "fit": 0.88
+      }
+    },
+    {
+      "title": "Evil",
+      "url": "https://www.paramountplus.com/shows/evil/",
+      "publisher": "Paramount+",
+      "status": "rejected",
+      "reason": "high quality, but supernatural procedural vocabulary is a less useful contrast immediately after recent institutional-science weekday materials"
+    },
+    {
+      "title": "High Maintenance",
+      "url": "https://www.hbo.com/series/a-z",
+      "publisher": "HBO",
+      "status": "rejected",
+      "reason": "official catalog evidence observed; strong urban vignette candidate, but the final chose a clearer goal/constraint spine"
+    },
+    {
+      "title": "How To With John Wilson",
+      "url": "https://www.hbo.com/series/a-z",
+      "publisher": "HBO",
+      "status": "rejected",
+      "reason": "official catalog evidence observed; documentary voice is distinctive but too close to last Saturday's direct-to-viewer observational mode"
+    },
+    {
+      "title": "Insecure",
+      "url": "https://www.hbo.com/series/genre/comedy",
+      "publisher": "HBO",
+      "status": "rejected",
+      "reason": "official catalog evidence observed; excellent candidate, retained for a future week to avoid stacking friendship-centered comedy immediately"
+    },
+    {
+      "title": "A Black Lady Sketch Show",
+      "url": "https://www.hbo.com/series/genre/comedy",
+      "publisher": "HBO",
+      "status": "rejected",
+      "reason": "official catalog evidence observed; sketch format offers less continuous early-episode character tracking for this week's learning design"
+    },
+    {
+      "title": "Betty",
+      "url": "https://www.hbo.com/series/genre/comedy",
+      "publisher": "HBO",
+      "status": "rejected",
+      "reason": "official catalog evidence observed; strong youth and skateboarding speech, but local culture references may dominate the first-session learning load"
+    },
+    {
+      "title": "Fantasmas",
+      "url": "https://www.hbo.com/series/genre/comedy",
+      "publisher": "HBO",
+      "status": "rejected",
+      "reason": "official catalog evidence observed; compelling wildcard, but surreal structure is less suitable for the chosen two-episode goal/pressure task"
+    },
+    {
+      "title": "Veep",
+      "url": "https://www.hbo.com/series/genre/comedy",
+      "publisher": "HBO",
+      "status": "rejected",
+      "reason": "official catalog evidence observed; exceptionally fast political dialogue raises listening load beyond the intended Saturday entry point"
+    },
+    {
+      "title": "The Wire",
+      "url": "https://www.hbo.com/series/a-z",
+      "publisher": "HBO",
+      "status": "rejected",
+      "reason": "official catalog evidence observed; outstanding cultural value but high institutional and dialect density makes it a less forgiving two-episode trial"
+    }
+  ],
+  "selected": {
+    "title": "Atlanta",
+    "source_url": "https://www.fxnetworks.com/shows/atlanta",
+    "publisher": "FX",
+    "component": "weekly-tv"
+  },
+  "source_verification": {
+    "checked_at_utc": "2026-10-24T00:02:17.785Z",
+    "method": "direct_official_page_read",
+    "url": "https://www.fxnetworks.com/shows/atlanta",
+    "observed": [
+      "page title: FX's Atlanta | Watch on Hulu",
+      "official FX navigation with About, Cast and Crew, Video Extras, Galleries, Music and Headlines",
+      "final season label and Season 4 description say the group is back in their hometown"
+    ],
+    "scope_limits": [
+      "full episode playback not tested",
+      "account and regional availability not tested",
+      "subtitle controls not tested",
+      "teaching analysis is editorial judgment, not transcript-derived"
+    ]
+  },
+  "deduplication": {
+    "history_entries_checked": 46,
+    "exact_url_repeat": false,
+    "prior_weekly_tv_titles": [
+      "Abbott Elementary",
+      "Reservation Dogs",
+      "The Bear",
+      "The Good Wife",
+      "Joe Pera Talks With You"
+    ],
+    "same_series_repeat": false,
+    "recent_topic_note": "Atlanta's urban music-industry and social-surrealism frame is materially distinct from the prior Saturday's direct-to-viewer small-town observational comedy."
+  }
+}
