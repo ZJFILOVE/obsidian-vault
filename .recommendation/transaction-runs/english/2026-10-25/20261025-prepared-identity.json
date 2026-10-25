@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-25",
+  "attempt_id": "20261025-prepared-identity",
+  "status": "prepared_identity_verified",
+  "mode": "new",
+  "business_timezone": "Asia/Shanghai",
+  "run_started_at": "2026-10-25T07:58:56+08:00",
+  "preselection": {
+    "vault_head": "8adab70bd81d0857062064418884e66eab25833a",
+    "vault_tree": "10f3c23834ab61c509548f34b60a56cd431d0e01",
+    "tree_complete": true,
+    "history_blob": "9faded146bf4462ffd34d7c540388c39e663d7db",
+    "history_rows": 47,
+    "history_unique_source_urls": 47,
+    "today_note_confirmed_absent": true,
+    "today_bundle_confirmed_absent": true,
+    "all_prepared_records_read": 33,
+    "english_prepared_records_validated": 10,
+    "other_project_prepared_records_read": "complete current tree; large discovery envelopes parsed directly and reservations inspected"
+  },
+  "candidate_pool": [
+    {
+      "url": "https://www.pbs.org/video/composer-amy-beach-cvfc2h/",
+      "title": "Composer: Amy Beach",
+      "publisher": "PBS / Vermont Public",
+      "format": "biographical documentary",
+      "duration": "58m39s",
+      "observed": "official page title, runtime, CC, transcript, PBS streaming statement and substantive transcript",
+      "score": 4.72,
+      "selected": true
+    },
+    {
+      "url": "https://www.pbs.org/video/ken-burns-on-ncs-role-in-the-american-revolution-1nemu8/",
+      "title": "Ken Burns on NC’s Role in the American Revolution",
+      "publisher": "PBS NC",
+      "format": "interview",
+      "duration": "43m42s",
+      "observed": "official PBS page, CC and transcript",
+      "score": 4.3,
+      "rejection": "strong source, but history/institutions recently appeared in the learning rotation"
+    },
+    {
+      "url": "https://www.pbs.org/video/state-of-the-art-0mbdey/",
+      "title": "State of the Art",
+      "publisher": "PBS",
+      "format": "arts documentary",
+      "duration": "55m17s",
+      "observed": "official PBS page, CC, streaming and expiry fields",
+      "score": 4.18,
+      "rejection": "good but broader multi-profile structure is less focused for one-week biography mapping"
+    },
+    {
+      "url": "https://www.pbs.org/video/the-creative-high-x4jzuf/",
+      "title": "The Creative High",
+      "publisher": "PBS",
+      "format": "arts and recovery documentary",
+      "duration": "56m46s",
+      "observed": "official PBS page, CC and transcript",
+      "score": 4.12,
+      "rejection": "sensitive health/recovery framing requires more clinical-context checking than this run permits"
+    },
+    {
+      "url": "https://www.pbs.org/show/art-medicine/",
+      "title": "Art + Medicine: Disability, Culture and Creativity",
+      "publisher": "PBS / TPT",
+      "format": "arts and medicine special",
+      "duration": "56m40s",
+      "observed": "official series page with episode identity and runtime",
+      "score": 4.06,
+      "rejection": "candidate page is a series hub rather than the most direct episode resource"
+    },
+    {
+      "url": "https://www.pbs.org/show/our-new-world/",
+      "title": "Our New World — Episode 2",
+      "publisher": "PBS",
+      "format": "science and nature documentary",
+      "duration": "50m52s",
+      "observed": "official series page with episode identity and runtime",
+      "score": 3.98,
+      "rejection": "climate/ecosystem topic overlaps the recent environment cluster"
+    },
+    {
+      "url": "https://www.pbs.org/video/episode-1-pulse-hec6vw/",
+      "title": "The Molecule That Made Us: Pulse",
+      "publisher": "PBS",
+      "format": "science documentary",
+      "duration": "54m36s",
+      "observed": "official PBS episode result with runtime and CC",
+      "score": 4.03,
+      "rejection": "science topic concentration after ocean sound and measurement science"
+    },
+    {
+      "url": "https://www.pbs.org/video/pbs-indies-clean/",
+      "title": "How We Got to Now: Clean",
+      "publisher": "PBS",
+      "format": "history of technology documentary",
+      "duration": "55m11s",
+      "observed": "official PBS episode page, runtime, CC and learning resources",
+      "score": 4.09,
+      "rejection": "strong, but technology-mechanism exposition is close to recent weekday input style"
+    },
+    {
+      "url": "https://www.pbs.org/video/washington-week-with-the-atlantic-full-episode-13026-k65uig/",
+      "title": "Washington Week with The Atlantic full episode, 1/30/26",
+      "publisher": "PBS",
+      "format": "news discussion",
+      "duration": "26m45s",
+      "observed": "official PBS page, CC and transcript",
+      "score": 3.72,
+      "rejection": "time-sensitive political discussion is less durable and requires wider fact verification"
+    }
+  ],
+  "selection": {
+    "source_url": "https://www.pbs.org/video/composer-amy-beach-cvfc2h/",
+    "title": "Composer: Amy Beach",
+    "publisher": "PBS / Vermont Public",
+    "format": "public-television biographical documentary",
+    "duration": "58m39s",
+    "difficulty": "CET-6 to introductory TOEFL, with music-history and biographical stretches",
+    "diversity_reason": "rotates from recent podcasts and a TV-series guide to a transcript-supported public-television documentary; music biography is outside the prior seven-day environment, natural-history, ocean-sound, measurement and workplace clusters",
+    "freshness_checks": {
+      "exact_history_url_repeat": false,
+      "same_operation_reservation": false,
+      "unrelated_prepared_reservation": false,
+      "recent_narrow_topic_repeat": false
+    }
+  },
+  "source_verification": {
+    "method": "direct official_page_read",
+    "checked_during_run_started_at": "2026-10-25T07:58:56+08:00",
+    "official_url": "https://www.pbs.org/video/composer-amy-beach-cvfc2h/",
+    "observed_title": "Composer: Amy Beach",
+    "observed_identity": [
+      "Made Here",
+      "Season 15 Episode 7",
+      "Vermont Public",
+      "PBS"
+    ],
+    "observed_runtime": "58m 39s",
+    "observed_date": "2022-03-10",
+    "observed_access": [
+      "CC",
+      "Transcript",
+      "PBS page states the program is available on pbs.org and the PBS app"
+    ],
+    "content_observations": [
+      "early ability and training",
+      "Boston debut",
+      "marriage and reduced public performance",
+      "turn toward composition",
+      "symphony and piano concerto discussion",
+      "European performance",
+      "MacDowell residency",
+      "later reception and legacy"
+    ],
+    "not_verified": [
+      "complete start-to-finish playback",
+      "China-mainland playback availability",
+      "user account or device access",
+      "word-perfect transcript accuracy"
+    ]
+  },
+  "prepared": {
+    "path": ".recommendation/transactions/english/2026-10-25.json",
+    "creation_commit": "4b0ed84810b103420f91586fb8c529ff08b2576e",
+    "blob_sha": "cd473cedeebb1d7efb2c36b830125ac0e7075959",
+    "bundle_sha256": "5452699182e791e1205cb03ae4caefc0806e9b34bb00267d1edf79a34be5e9b2",
+    "plan_sha256": "61160db7a6bc7ce165828e11f07127fdac55a4c824e5721c0532b57b25a1363e",
+    "exact_remote_readback": true,
+    "payload_count": 2
+  },
+  "publication_status": "not_started",
+  "structural_checks": {
+    "freeze": "passed",
+    "check_baselines": "passed",
+    "content_qa": "manually_reviewed_before_freeze"
+  },
+  "claims_scope": "Preparation does not certify final publication, complete playback, local device sync or notification delivery."
+}
