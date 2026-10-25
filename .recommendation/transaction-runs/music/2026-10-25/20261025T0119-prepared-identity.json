@@ -1,0 +1,1047 @@
+{
+  "operation_id": "music:2026-10-25",
+  "phase": "prepared_identity_and_selection_evidence",
+  "bundle_creation_commit": "0404f568fe3caa60c491641dcaf782d75a0492d8",
+  "original_bundle_sha256": "97d17e163d9ccebfd355423cbf79946ffe33b0a7f897ead483ada4d94b03e94f",
+  "original_plan_sha256": "d76526c4e0bbc0f761435d6379680062d0f4006fe76e512b78b586fe82f25a4a",
+  "prepared_blob_sha": "6b982ed98f76103bbb67548deaf786718cf8d142",
+  "prepared_readback_exact": true,
+  "evidence": {
+    "operation_id": "music:2026-10-25",
+    "mode": "new_generation",
+    "preflight_heads": {
+      "vault": {
+        "sha": "cb5b13491e0f1d337a606870dcb9f3484c685e3f",
+        "node_id": "C_kwDOUMOAQdoAKGNiNWIxMzQ5MWUwZjFkMzM3YTYwNjg3MGRjYjlmMzQ4NGM2ODVlM2Y",
+        "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/commits/cb5b13491e0f1d337a606870dcb9f3484c685e3f",
+        "html_url": "https://github.com/ZJFILOVE/obsidian-vault/commit/cb5b13491e0f1d337a606870dcb9f3484c685e3f",
+        "author": {
+          "name": "ZJFILOVE",
+          "email": "zhujunfeng07@gmail.com",
+          "date": "2026-10-25T00:42:49Z"
+        },
+        "committer": {
+          "name": "ZJFILOVE",
+          "email": "zhujunfeng07@gmail.com",
+          "date": "2026-10-25T00:42:49Z"
+        },
+        "tree": {
+          "sha": "1f001a58b128fb71b672dc9d1eccf23f494d917b",
+          "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/1f001a58b128fb71b672dc9d1eccf23f494d917b"
+        },
+        "message": "Record independent discovery source and publication QA for 2026-10-25",
+        "parents": [
+          {
+            "sha": "d007dedc7552ac17283ddefde08174e082e1038f",
+            "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/commits/d007dedc7552ac17283ddefde08174e082e1038f",
+            "html_url": "https://github.com/ZJFILOVE/obsidian-vault/commit/d007dedc7552ac17283ddefde08174e082e1038f"
+          }
+        ],
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "music": {
+        "sha": "459f80e88f4871c0af88851e781873e3e40adb3e",
+        "node_id": "C_kwDOUN9GidoAKDQ1OWY4MGU4OGY0ODcxYzBhZjg4ODUxZTc4MTg3M2UzZTQwYWRiM2U",
+        "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/commits/459f80e88f4871c0af88851e781873e3e40adb3e",
+        "html_url": "https://github.com/ZJFILOVE/music-daily/commit/459f80e88f4871c0af88851e781873e3e40adb3e",
+        "author": {
+          "name": "ZJFILOVE",
+          "email": "zhujunfeng07@gmail.com",
+          "date": "2026-10-24T01:23:06Z"
+        },
+        "committer": {
+          "name": "ZJFILOVE",
+          "email": "zhujunfeng07@gmail.com",
+          "date": "2026-10-24T01:23:06Z"
+        },
+        "tree": {
+          "sha": "91bd2db29ede2ab7f1017cea31c7f45ba7accabc",
+          "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/91bd2db29ede2ab7f1017cea31c7f45ba7accabc"
+        },
+        "message": "Publish Apple Music Daily 5 and append permanent state for 2026-10-24",
+        "parents": [
+          {
+            "sha": "3f6bedefc74a78bf7ad0e639cad1c57154c9f3a4",
+            "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/commits/3f6bedefc74a78bf7ad0e639cad1c57154c9f3a4",
+            "html_url": "https://github.com/ZJFILOVE/music-daily/commit/3f6bedefc74a78bf7ad0e639cad1c57154c9f3a4"
+          }
+        ],
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      }
+    },
+    "complete_connector_reads": 150,
+    "complete_pinned_trees": true,
+    "all_prepared": [
+      {
+        "path": ".recommendation/transactions/english/2026-10-15.json",
+        "operation_id": "english:2026-10-15",
+        "bundle_sha256": "6c3b5cf58e40281d642ba475701ad417e442bcd5836eecd0de75207ff014fda0"
+      },
+      {
+        "path": ".recommendation/transactions/english/2026-10-16.json",
+        "operation_id": "english:2026-10-16",
+        "bundle_sha256": "df92655322c6c9a25e2b712d5b8b53578f727c42bb5ad41e8e1df6b8b8b230b9"
+      },
+      {
+        "path": ".recommendation/transactions/english/2026-10-17.json",
+        "operation_id": "english:2026-10-17",
+        "bundle_sha256": "b8ec157dede3d2ea4f41b8589d6007acbaf24be445d4a377a559fa4d1be4fb49"
+      },
+      {
+        "path": ".recommendation/transactions/english/2026-10-18.json",
+        "operation_id": "english:2026-10-18",
+        "bundle_sha256": "4a1157e7458d49e73d117505142506b17caa3db62985ab96d871089257b3f435"
+      },
+      {
+        "path": ".recommendation/transactions/english/2026-10-19.json",
+        "operation_id": "english:2026-10-19",
+        "bundle_sha256": "e8c09610703f555f386194df1dfee2d76e9dfb1c9f174b440359007cb4229c9d"
+      },
+      {
+        "path": ".recommendation/transactions/english/2026-10-20.json",
+        "operation_id": "english:2026-10-20",
+        "bundle_sha256": "61e1231ece2a472827d313e2342b7c919935739c2fca41c5dea0e4fe2ae63e55"
+      },
+      {
+        "path": ".recommendation/transactions/english/2026-10-21.json",
+        "operation_id": "english:2026-10-21",
+        "bundle_sha256": "210ca037415dc5834adcb0f5331b676345826859e9922c81b31200a10df01e72"
+      },
+      {
+        "path": ".recommendation/transactions/english/2026-10-22.json",
+        "operation_id": "english:2026-10-22",
+        "bundle_sha256": "a485356cdbe2f5921d900bc41c9646ac9405346d65ec65c4886e1edaba8555f6"
+      },
+      {
+        "path": ".recommendation/transactions/english/2026-10-23.json",
+        "operation_id": "english:2026-10-23",
+        "bundle_sha256": "ba125a41873d263e351b9559571ef584f4b4b207e1cebf7b69e91edee1602093"
+      },
+      {
+        "path": ".recommendation/transactions/english/2026-10-24.json",
+        "operation_id": "english:2026-10-24",
+        "bundle_sha256": "88c3881045802adb4ac1d74c67d9e3a73a1b0c3cf4d45d6e5794df671c427d81"
+      },
+      {
+        "path": ".recommendation/transactions/english/2026-10-25.json",
+        "operation_id": "english:2026-10-25",
+        "bundle_sha256": "5452699182e791e1205cb03ae4caefc0806e9b34bb00267d1edf79a34be5e9b2"
+      },
+      {
+        "path": ".recommendation/transactions/music/2026-10-15.json",
+        "operation_id": "music:2026-10-15",
+        "bundle_sha256": "6f528f228bc06a123416263a414416e2c24bfa5de35e6b82428ee88fffba1f49"
+      },
+      {
+        "path": ".recommendation/transactions/music/2026-10-16.json",
+        "operation_id": "music:2026-10-16",
+        "bundle_sha256": "b67b518dd0cf68365892c1ed55d7c5952b5d3e4d14614ea2e24049c192b0655d"
+      },
+      {
+        "path": ".recommendation/transactions/music/2026-10-17.json",
+        "operation_id": "music:2026-10-17",
+        "bundle_sha256": "3b148790e840cd9d43d41887dea55756e57357f62c6a285ff115cb3c1daa5447"
+      },
+      {
+        "path": ".recommendation/transactions/music/2026-10-18.json",
+        "operation_id": "music:2026-10-18",
+        "bundle_sha256": "450adef96825eab1678fbf4d193a96b2fa5aa391dec65f6669edac91c1c6e9a1"
+      },
+      {
+        "path": ".recommendation/transactions/music/2026-10-19.json",
+        "operation_id": "music:2026-10-19",
+        "bundle_sha256": "6b2d5023f997866a6341e333c530745486854487a846f4d236befee655538646"
+      },
+      {
+        "path": ".recommendation/transactions/music/2026-10-20.json",
+        "operation_id": "music:2026-10-20",
+        "bundle_sha256": "d412a8be7164858c1ce3e87c24c40f3043b347caa8514147bcca9aec10207212"
+      },
+      {
+        "path": ".recommendation/transactions/music/2026-10-21.json",
+        "operation_id": "music:2026-10-21",
+        "bundle_sha256": "9bbf8e1c0f6e44008b94f0b9b81156ea8e03a77b2fe1e2c1ff3c12d5059c0963"
+      },
+      {
+        "path": ".recommendation/transactions/music/2026-10-22.json",
+        "operation_id": "music:2026-10-22",
+        "bundle_sha256": "a7198c741a870c2cd6d6b37435c54b54cd07ff931a7aa54135e63beaa04863a7"
+      },
+      {
+        "path": ".recommendation/transactions/music/2026-10-23.json",
+        "operation_id": "music:2026-10-23",
+        "bundle_sha256": "6691258fe9a652ded8c4f1e378afe772c5a4d114a185d247ef7f50292eb3f850"
+      },
+      {
+        "path": ".recommendation/transactions/music/2026-10-24.json",
+        "operation_id": "music:2026-10-24",
+        "bundle_sha256": "a9ddee1198d92413e14d88af4941a20665133cf566dbeab32f8fd889cacfea16"
+      },
+      {
+        "path": ".recommendation/transactions/news-youtube-reddit/2026-10-15.json",
+        "operation_id": "news-youtube-reddit:2026-10-15",
+        "bundle_sha256": "b88e1ca0d92e8e2814a3c9a8e4d15573767382f688c8c158ec2cd07d9bb15ee6"
+      },
+      {
+        "path": ".recommendation/transactions/news-youtube-reddit/2026-10-16.json",
+        "operation_id": "news-youtube-reddit:2026-10-16",
+        "bundle_sha256": "73643a0897bd7acbff4943bfdbf4f7433c8f7c5451227efdfebfc4ae9bb68449"
+      },
+      {
+        "path": ".recommendation/transactions/news-youtube-reddit/2026-10-17.json",
+        "operation_id": "news-youtube-reddit:2026-10-17",
+        "bundle_sha256": "926479baa83baed7b6783bab94c9c4bbffc0244c4bf958b4146be7f92b025558"
+      },
+      {
+        "path": ".recommendation/transactions/news-youtube-reddit/2026-10-18.json",
+        "operation_id": "news-youtube-reddit:2026-10-18",
+        "bundle_sha256": "2431ac89e2934894d9d00fad280e171a641cbfb976f0d557d31b6b1aa38e551c"
+      },
+      {
+        "path": ".recommendation/transactions/news-youtube-reddit/2026-10-19.json",
+        "operation_id": "news-youtube-reddit:2026-10-19",
+        "bundle_sha256": "6ef498da7c63156e5040bb78d6aad18ed35ebe56445cc4ab1e7d081d7bd7bcd9"
+      },
+      {
+        "path": ".recommendation/transactions/news-youtube-reddit/2026-10-20.json",
+        "operation_id": "news-youtube-reddit:2026-10-20",
+        "bundle_sha256": "562d4882e16f9facd5d52dd53a9dd3b31f41bce5a6ebf8346bad61dfc94d0759"
+      },
+      {
+        "path": ".recommendation/transactions/news-youtube-reddit/2026-10-21.json",
+        "operation_id": "news-youtube-reddit:2026-10-21",
+        "bundle_sha256": "cb60a33c6e9c97156e6957debab53aba7c5f0c5ae1048c9dc1ddcf0783a71c81"
+      },
+      {
+        "path": ".recommendation/transactions/news-youtube-reddit/2026-10-22.json",
+        "operation_id": "news-youtube-reddit:2026-10-22",
+        "bundle_sha256": "b687fc10ebf4a205fe6f826a8a970e4500503f8c34b07dc1798df81e53153773"
+      },
+      {
+        "path": ".recommendation/transactions/news-youtube-reddit/2026-10-23.json",
+        "operation_id": "news-youtube-reddit:2026-10-23",
+        "bundle_sha256": "a7ef2a1f02ef2dfe17bce2c6ff87219750d86877da20fbd2fa6012b335d77749"
+      },
+      {
+        "path": ".recommendation/transactions/news-youtube-reddit/2026-10-24.json",
+        "operation_id": "news-youtube-reddit:2026-10-24",
+        "bundle_sha256": "ffe873ac483c4933e37071e0fde006d5d50d9a86b6f5fbae5fe6939ce84fadbf"
+      },
+      {
+        "path": ".recommendation/transactions/news-youtube-reddit/2026-10-25.json",
+        "operation_id": "news-youtube-reddit:2026-10-25",
+        "bundle_sha256": "d9b6d367b264e4af1e6264c46608d723d3f910ffada6e7d265f1c7ba998a51b9"
+      }
+    ],
+    "candidate_count": 25,
+    "candidate_pool": [
+      {
+        "song_id": "1450550346",
+        "title": "Andromeda",
+        "artist": "Weyes Blood",
+        "url": "https://music.apple.com/us/song/1450550346",
+        "observed_storefront": "us",
+        "source_ref": "turn378search8",
+        "decision": "rejected",
+        "reason": "CN song metadata unverified: exact page inaccessible in source tool.",
+        "scores": [
+          9,
+          8,
+          8,
+          9,
+          8
+        ],
+        "weighted_score": 8.45,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "1608122095",
+        "title": "Time Moves Slow",
+        "artist": "BADBADNOTGOOD & Samuel T. Herring",
+        "url": "https://music.apple.com/us/song/1608122095",
+        "observed_storefront": "us",
+        "source_ref": "turn378search7",
+        "decision": "rejected",
+        "reason": "CN song metadata unverified: exact page inaccessible in source tool.",
+        "scores": [
+          9,
+          8,
+          8,
+          9,
+          8
+        ],
+        "weighted_score": 8.45,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "1714715534",
+        "title": "Water from an Ancient Well (feat. Noah Jackson & Cleve Guyton Jr.) [Live]",
+        "artist": "Abdullah Ibrahim",
+        "url": "https://music.apple.com/us/song/1714715534",
+        "observed_storefront": "us",
+        "source_ref": "turn378search3",
+        "decision": "rejected",
+        "reason": "CN live recording metadata unverified; no silent substitution with another version.",
+        "scores": [
+          9,
+          8,
+          9,
+          9,
+          8
+        ],
+        "weighted_score": 8.65,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "1744592893",
+        "title": "Screams at the Edge of Dawn",
+        "artist": "Nicolas Jaar",
+        "url": "https://music.apple.com/cn/song/1744592893",
+        "observed_storefront": "cn",
+        "source_ref": "turn379search1",
+        "decision": "rejected",
+        "reason": "Different work by same creator: retain one Jaar track and wider era/genre mix.",
+        "scores": [
+          8,
+          7,
+          8,
+          9,
+          7
+        ],
+        "weighted_score": 7.8,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "1166926730",
+        "title": "少男日记",
+        "artist": "蔡蓝钦",
+        "url": "https://music.apple.com/cn/song/1166926730",
+        "observed_storefront": "cn",
+        "source_ref": "turn379search2",
+        "decision": "rejected",
+        "reason": "Different work by same artist: one Mandarin opening selected; alternative not individually verified.",
+        "scores": [
+          8,
+          8,
+          7,
+          9,
+          8
+        ],
+        "weighted_score": 7.95,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "1166926758",
+        "title": "春去秋来",
+        "artist": "蔡蓝钦",
+        "url": "https://music.apple.com/cn/song/1166926758",
+        "observed_storefront": "cn",
+        "source_ref": "turn379search4",
+        "decision": "rejected",
+        "reason": "Different work by same artist; prioritize original-album title song and five distinct artists.",
+        "scores": [
+          8,
+          8,
+          7,
+          9,
+          8
+        ],
+        "weighted_score": 7.95,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "1745718081",
+        "title": "Sunflower",
+        "artist": "Nicolas Jaar",
+        "url": "https://music.apple.com/cn/song/1745718081",
+        "observed_storefront": "cn",
+        "source_ref": "turn379search5",
+        "decision": "rejected",
+        "reason": "Same artist concentration penalty; title track offers fuller production-listening entry today.",
+        "scores": [
+          8,
+          7,
+          8,
+          9,
+          7
+        ],
+        "weighted_score": 7.8,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "1770305647",
+        "title": "Rio de las tumbas",
+        "artist": "Nicolas Jaar",
+        "url": "https://music.apple.com/cn/song/1770305647",
+        "observed_storefront": "cn",
+        "source_ref": "turn379search7",
+        "decision": "rejected",
+        "reason": "Same artist concentration penalty; newer release not inherently preferable.",
+        "scores": [
+          8,
+          7,
+          9,
+          9,
+          7
+        ],
+        "weighted_score": 8,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "373926302",
+        "title": "Materials",
+        "artist": "Nicolas Jaar",
+        "url": "https://music.apple.com/cn/song/373926302",
+        "observed_storefront": "cn",
+        "source_ref": "turn379search9",
+        "decision": "rejected",
+        "reason": "Same artist concentration; do not fill final list with one electronic producer.",
+        "scores": [
+          8,
+          7,
+          8,
+          9,
+          7
+        ],
+        "weighted_score": 7.8,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "1744592892",
+        "title": "Folie À Deux",
+        "artist": "Nicolas Jaar",
+        "url": "https://music.apple.com/cn/song/1744592892",
+        "observed_storefront": "cn",
+        "source_ref": "turn379search11",
+        "decision": "rejected",
+        "reason": "Same artist concentration; considered but not individually CN verified.",
+        "scores": [
+          8,
+          7,
+          8,
+          9,
+          7
+        ],
+        "weighted_score": 7.8,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "1769237166",
+        "title": "SSS1",
+        "artist": "Nicolas Jaar",
+        "url": "https://music.apple.com/cn/song/1769237166",
+        "observed_storefront": "cn",
+        "source_ref": "turn379search13",
+        "decision": "rejected",
+        "reason": "Same artist concentration; source-result identity only.",
+        "scores": [
+          8,
+          7,
+          8,
+          9,
+          7
+        ],
+        "weighted_score": 7.8,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "1745362330",
+        "title": "Three Sides of Nazareth",
+        "artist": "Nicolas Jaar",
+        "url": "https://music.apple.com/cn/song/1745362330",
+        "observed_storefront": "cn",
+        "source_ref": "turn379search14",
+        "decision": "rejected",
+        "reason": "Same artist concentration; lower usefulness for this compact listening arc.",
+        "scores": [
+          9,
+          7,
+          8,
+          9,
+          7
+        ],
+        "weighted_score": 8.1,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "1708895367",
+        "title": "Good Dub",
+        "artist": "Glen Brown & King Tubby",
+        "url": "https://music.apple.com/cn/song/1708895367",
+        "observed_storefront": "cn",
+        "source_ref": "turn381search3",
+        "decision": "rejected",
+        "reason": "Strong production wildcard alternative; choose Gula Gula to introduce long melodic wind/voice interplay after electronic selection.",
+        "scores": [
+          8,
+          8,
+          9,
+          10,
+          7
+        ],
+        "weighted_score": 8.4,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "383356007",
+        "title": "King Stereo Gav Dub",
+        "artist": "King Tubby",
+        "url": "https://music.apple.com/cn/song/383356007",
+        "observed_storefront": "cn",
+        "source_ref": "turn381search5",
+        "decision": "rejected",
+        "reason": "Dub overlaps the production/space teaching role already occupied by Jaar; not individually verified.",
+        "scores": [
+          8,
+          8,
+          9,
+          10,
+          7
+        ],
+        "weighted_score": 8.4,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "818732607",
+        "title": "Roots of Dub",
+        "artist": "King Tubby",
+        "url": "https://music.apple.com/cn/song/818732607",
+        "observed_storefront": "cn",
+        "source_ref": "turn381search10",
+        "decision": "rejected",
+        "reason": "Exact CN resource inaccessible in source tool; do not infer metadata from title or search alone.",
+        "scores": [
+          9,
+          8,
+          9,
+          10,
+          8
+        ],
+        "weighted_score": 8.8,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "820969379",
+        "title": "Every Time the Sun Comes Up",
+        "artist": "Sharon Van Etten",
+        "url": "https://music.apple.com/cn/song/820969379",
+        "observed_storefront": "cn",
+        "source_ref": "turn382search5",
+        "decision": "rejected",
+        "reason": "Another strong vocal alternative; current mix benefits from film-score textures rather than fourth vocal lead.",
+        "scores": [
+          9,
+          8,
+          8,
+          9,
+          8
+        ],
+        "weighted_score": 8.45,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "975250299",
+        "title": "I Don't Want to Let You Down",
+        "artist": "Sharon Van Etten",
+        "url": "https://music.apple.com/cn/song/975250299",
+        "observed_storefront": "cn",
+        "source_ref": "turn382search11",
+        "decision": "rejected",
+        "reason": "Same-artist alternative; not individually verified; sparse score fills different listening role.",
+        "scores": [
+          8,
+          8,
+          8,
+          9,
+          8
+        ],
+        "weighted_score": 8.15,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "1609476186",
+        "title": "Darkness Fades",
+        "artist": "Sharon Van Etten",
+        "url": "https://music.apple.com/cn/song/1609476186",
+        "observed_storefront": "cn",
+        "source_ref": "turn382search15",
+        "decision": "rejected",
+        "reason": "Same-artist/topic concentration penalty relative to existing vocal candidates.",
+        "scores": [
+          9,
+          8,
+          8,
+          9,
+          8
+        ],
+        "weighted_score": 8.45,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "1606781125",
+        "title": "To Know What You've Got",
+        "artist": "Bobby Caldwell",
+        "url": "https://music.apple.com/cn/song/1606781125",
+        "observed_storefront": "cn",
+        "source_ref": "turn382search8",
+        "decision": "rejected",
+        "reason": "Different work by chosen artist; one soul selection suffices and title song offers clear groove cue.",
+        "scores": [
+          8,
+          8,
+          8,
+          9,
+          8
+        ],
+        "weighted_score": 8.15,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "1606457385",
+        "title": "Every Time You Say My Name",
+        "artist": "Bobby Caldwell",
+        "url": "https://music.apple.com/cn/song/1606457385",
+        "observed_storefront": "cn",
+        "source_ref": "turn382search10",
+        "decision": "rejected",
+        "reason": "Different work by chosen artist; one artist slot, unverified final metadata.",
+        "scores": [
+          8,
+          8,
+          7,
+          9,
+          8
+        ],
+        "weighted_score": 7.95,
+        "scope": "Observed Apple Music result: actual song ID/title/artist. This is candidate discovery, not final CN verification."
+      },
+      {
+        "song_id": "1164538305",
+        "title": "这个世界",
+        "artist": "蔡蓝钦",
+        "album": "这个世界",
+        "url": "https://music.apple.com/cn/song/1164538305",
+        "observed_storefront": "cn",
+        "source_ref": "turn380view0",
+        "decision": "selected",
+        "reason": "周日先从一首容易亲近、却不把复杂心情磨平的歌开始。选择蔡蓝钦《这个世界》专辑中的本人录音，不用后来歌者的现场翻唱替代。它适合听一个年轻的声音如何在明朗旋律里容纳犹疑：情绪的吸引力不只在于乐观，也在于句子并不总是说得笃定。今天把它放在第一首，是想让熟悉的华语歌曲形式重新成为认真听语气的入口，而不只是背景里的怀旧标签。",
+        "scores": [
+          9,
+          9,
+          8,
+          9,
+          9
+        ],
+        "weighted_score": 8.8,
+        "verification_method": "exact_cn_song_resource",
+        "source_observation": "Exact CN song heading 这个世界; artist 蔡蓝钦; linked album 这个世界; song ID1164538305; page date1987-06-06. Linked album separately opened, Mandarin pop1987; no full playback test.",
+        "observed_at_utc_window": [
+          "2026-10-25T01:12:00Z",
+          "2026-10-25T01:17:00Z"
+        ],
+        "playback_tested": false
+      },
+      {
+        "song_id": "1606465804",
+        "title": "What You Won't Do for Love",
+        "artist": "Bobby Caldwell",
+        "album": "Songs for Lovers Only, Vol. 1",
+        "url": "https://music.apple.com/cn/song/what-you-wont-do-for-love/1606465804",
+        "observed_storefront": "cn",
+        "source_ref": "browser tab7",
+        "decision": "selected",
+        "reason": "第二首把注意力从语气移到身体能跟住的律动。Bobby Caldwell 的声音温润，却不是只靠音色讨喜：旋律在节奏之上有从容的弹性，听似轻松，短句的落点却很讲究。今天使用实际核验到的《Songs for Lovers Only, Vol. 1》收录条目，保留真实专辑名称；不把它写成另一个原专辑 ID，也不将 DJ 混音或他人的翻唱当成同一链接。这首适合在出门前完整听一遍，练习把“顺耳”拆成可以指出来的节奏关系。",
+        "scores": [
+          9,
+          9,
+          8,
+          9,
+          9
+        ],
+        "weighted_score": 8.8,
+        "verification_method": "exact_cn_song_resource",
+        "source_observation": "Rendered CN song page: exact title and Bobby Caldwell; album Songs for Lovers Only, Vol.1; URL ID1606465804; date1978-01-01; lead-vocal and songwriter roles visible. Search extractor inaccessible, actual browser resource loaded. No playback test.",
+        "observed_at_utc_window": [
+          "2026-10-25T01:12:00Z",
+          "2026-10-25T01:17:00Z"
+        ],
+        "playback_tested": false
+      },
+      {
+        "song_id": "1745718088",
+        "title": "Space Is Only Noise If You Can See",
+        "artist": "Nicolas Jaar",
+        "album": "Space Is Only Noise",
+        "url": "https://music.apple.com/cn/song/space-is-only-noise-if-you-can-see/1745718088",
+        "observed_storefront": "cn",
+        "source_ref": "turn380view3; browser tab10",
+        "decision": "selected",
+        "reason": "这是今日优先。前两首让人声带路，这里试着反过来：把人声当作空间里的一个声音物件，听它与低处的脉冲怎样相处。选《Space Is Only Noise》的这条专辑录音，不是现场、重混或同名专辑的其他曲子。它的吸引力在于一种不急着交代清楚的推进：材料并不密集，却持续让你重新判断远近、轻重和重心。适合戴上耳机专心听，先不要求音乐给出常规副歌式的释放。",
+        "scores": [
+          9,
+          8,
+          10,
+          9,
+          8
+        ],
+        "weighted_score": 8.85,
+        "verification_method": "exact_cn_song_resource",
+        "source_observation": "Exact rendered CN song title/artist/Space Is Only Noise album; ID1745718088; date2011-01-28. Browser credits sampler, songwriter, producer Nicolas Jaar. No audio/source-sample identification or playback test.",
+        "observed_at_utc_window": [
+          "2026-10-25T01:12:00Z",
+          "2026-10-25T01:17:00Z"
+        ],
+        "playback_tested": false
+      },
+      {
+        "song_id": "485458057",
+        "title": "We Move Lightly",
+        "artist": "Dustin O'Halloran",
+        "album": "Like Crazy (Music from the Motion Picture)",
+        "url": "https://music.apple.com/cn/song/we-move-lightly/485458057",
+        "observed_storefront": "cn",
+        "source_ref": "browser tab8",
+        "decision": "selected",
+        "reason": "电子的悬置之后，让第四首把速度感降到一次触键与一次呼吸的尺度。选择《Like Crazy (Music from the Motion Picture)》中的配乐条目，不用同名钢琴翻奏或另一个发行版本代替。它的价值不在于替你规定一种悲伤，而在于让少量材料有足够时间留下痕迹。即使没看过电影，也可以把它当作独立的小段落听：旋律何时继续、何时愿意停住，本身就能构成情绪。",
+        "scores": [
+          9,
+          9,
+          8,
+          9,
+          9
+        ],
+        "weighted_score": 8.8,
+        "verification_method": "exact_cn_song_resource",
+        "source_observation": "Rendered exact CN song resource: title We Move Lightly; Dustin O'Halloran; linked album Like Crazy (Music from the Motion Picture); ID485458057; date2011-01-01. Credits piano/keyboards/synthesizer; guitar Adam Bryanbaum Wiltzie; cello Anna Müller; viola Katrin Mickiewicz; violin Peter Broderick. No full playback test.",
+        "observed_at_utc_window": [
+          "2026-10-25T01:12:00Z",
+          "2026-10-25T01:17:00Z"
+        ],
+        "playback_tested": false
+      },
+      {
+        "song_id": "1443127171",
+        "title": "Gula Gula",
+        "artist": "杨・葛柏瑞克",
+        "album": "I Took Up the Runes",
+        "url": "https://music.apple.com/cn/song/gula-gula/1443127171",
+        "observed_storefront": "cn",
+        "source_ref": "turn382view0; browser tab9",
+        "decision": "selected",
+        "reason": "最后一首是今天的跨界探索：让萨克斯的长线条、节奏层和声乐材料改变你对“爵士主旋律”的预期。这里特意选择 Jan Garbarek（国区显示名杨・葛柏瑞克）《I Took Up the Runes》中的版本。曲页列出 Mari Boine 的词曲与 Garbarek 的编曲身份，因此应当把它理解为有明确来源的改编，而非声称这是 Garbarek 的原创曲。它值得听的不是一个笼统的“异域”标签，而是不同声音怎样围绕一条有辨识度的旋律互相呼应。",
+        "scores": [
+          9,
+          8,
+          10,
+          10,
+          8
+        ],
+        "weighted_score": 9,
+        "verification_method": "exact_cn_song_resource",
+        "source_observation": "Exact CN title Gula Gula; 杨・葛柏瑞克; I Took Up the Runes; ID1443127171; date1990-10-01. Browser credits Garbarek tenor sax/arranger, Mari Boine composer/lyricist; piano Rainer Brüninghaus, percussion Naná Vasconcelos, drums Manu Katché, synth Bugge Wesseltoft, voice Ingor Ántte Áilu Gaup. Full playback not tested.",
+        "observed_at_utc_window": [
+          "2026-10-25T01:12:00Z",
+          "2026-10-25T01:17:00Z"
+        ],
+        "playback_tested": false
+      }
+    ],
+    "selection": [
+      {
+        "position": 1,
+        "title": "这个世界",
+        "artist": "蔡蓝钦",
+        "album": "这个世界",
+        "canonical_id": "蔡蓝钦::这个世界",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/1164538305",
+          "song_id": "1164538305",
+          "storefront": "cn"
+        },
+        "analysis_summary": "周日先从一首容易亲近、却不把复杂心情磨平的歌开始。选择蔡蓝钦《这个世界》专辑中的本人录音，不用后来歌者的现场翻唱替代。它适合听一个年轻的声音如何在明朗旋律里容纳犹疑：情绪的吸引力不只在于乐观，也在于句子并不总是说得笃定。今天把它放在第一首，是想让熟悉的华语歌曲形式重新成为认真听语气的入口，而不只是背景里的怀旧标签。 以人声的自然起伏为中心，留意键盘、节奏和较明亮的伴奏层怎样托住旋律。蔡蓝钦的演唱有说话般的直接感，句尾没有必要处处做得饱满；这种略带青涩的边缘，反而让规整的流行编曲保有个人温度。听的时候可以比较稳定的伴奏与每一句轻重不完全相同的歌声。这里确认的是国区原专辑歌曲条目；数字目录的版权年份不等于录音年份，也不由页面日期推断某次具体录音。",
+        "listening_cue": "第一遍跟住主唱，找一个听来像自然说话的句尾。第二遍只跟伴奏的基本拍子，再把那一句放回去：它是贴着拍点结束，还是稍稍悬在下一拍之前？比较前后两次相似旋律，判断情绪变化来自音量、咬字还是收尾。"
+      },
+      {
+        "position": 2,
+        "title": "What You Won't Do for Love",
+        "artist": "Bobby Caldwell",
+        "album": "Songs for Lovers Only, Vol. 1",
+        "canonical_id": "Bobby Caldwell::What You Won't Do for Love",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/what-you-wont-do-for-love/1606465804",
+          "song_id": "1606465804",
+          "storefront": "cn"
+        },
+        "analysis_summary": "第二首把注意力从语气移到身体能跟住的律动。Bobby Caldwell 的声音温润，却不是只靠音色讨喜：旋律在节奏之上有从容的弹性，听似轻松，短句的落点却很讲究。今天使用实际核验到的《Songs for Lovers Only, Vol. 1》收录条目，保留真实专辑名称；不把它写成另一个原专辑 ID，也不将 DJ 混音或他人的翻唱当成同一链接。这首适合在出门前完整听一遍，练习把“顺耳”拆成可以指出来的节奏关系。 先听低音与鼓怎样形成略带弹性的底座，再把键盘与管乐的色彩放进来。Caldwell 的歌唱不急着填满每个空隙，伴奏的回应因此也成为旋律的一部分；圆润的人声和更清晰的器乐起音彼此衬托。页面列出 Caldwell 的领唱及他与 Alfons Kettner 的词曲署名，但并未据此确认每件乐器的演奏者。此处讨论这首作品的声音组织，不凭合辑条目声称另有重录、特定母带或音质升级。",
+        "listening_cue": "先轻点拍子，只听一段主唱怎样进入，再挑一处歌声短暂停顿的地方：低音还在怎样走，伴奏有没有接过“说话”的位置？回听时刻意不跟旋律唱，试着用脚保持同一拍速，感受人声在拍点附近的松紧。"
+      },
+      {
+        "position": 3,
+        "title": "Space Is Only Noise If You Can See",
+        "artist": "Nicolas Jaar",
+        "album": "Space Is Only Noise",
+        "canonical_id": "Nicolas Jaar::Space Is Only Noise If You Can See",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/space-is-only-noise-if-you-can-see/1745718088",
+          "song_id": "1745718088",
+          "storefront": "cn"
+        },
+        "analysis_summary": "这是今日优先。前两首让人声带路，这里试着反过来：把人声当作空间里的一个声音物件，听它与低处的脉冲怎样相处。选《Space Is Only Noise》的这条专辑录音，不是现场、重混或同名专辑的其他曲子。它的吸引力在于一种不急着交代清楚的推进：材料并不密集，却持续让你重新判断远近、轻重和重心。适合戴上耳机专心听，先不要求音乐给出常规副歌式的释放。 低频、干湿有别的击打与偏低的人声构成主要坐标；处理过的声音和留白共同组织出空间感。与只数鼓点相比，更值得听的是声音离开之后留下了什么，以及下一层材料在多近的位置出现。国区页面列出 Jaar 的采样器、词曲和制作身份，支持把制作本身视为表达的一部分；但不能据这些署名推断某一声一定取样自哪里。把注意力停在听得见的质地和层次，比猜测设备更有收获。",
+        "listening_cue": "开头先锁定最低的一层，别急着追每个细节。选一处人声进入或退出的段落，比较人声存在时与空下来时，同一节奏听起来是否更紧或更宽。第二遍找一个短声音的尾巴，听它是突然截断、慢慢衰减，还是被后来的声音遮住。"
+      },
+      {
+        "position": 4,
+        "title": "We Move Lightly",
+        "artist": "Dustin O'Halloran",
+        "album": "Like Crazy (Music from the Motion Picture)",
+        "canonical_id": "Dustin O'Halloran::We Move Lightly",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/we-move-lightly/485458057",
+          "song_id": "485458057",
+          "storefront": "cn"
+        },
+        "analysis_summary": "电子的悬置之后，让第四首把速度感降到一次触键与一次呼吸的尺度。选择《Like Crazy (Music from the Motion Picture)》中的配乐条目，不用同名钢琴翻奏或另一个发行版本代替。它的价值不在于替你规定一种悲伤，而在于让少量材料有足够时间留下痕迹。即使没看过电影，也可以把它当作独立的小段落听：旋律何时继续、何时愿意停住，本身就能构成情绪。 以钢琴的清晰起音与逐渐散开的共鸣为入口，再留意较长的背景声如何改变它的重量。实际曲页列出钢琴、键盘、合成器，以及吉他和弦乐演出信息；这提醒我们不要因为钢琴突出就把整首简单称为“纯钢琴独奏”，也不应断言每项署名在每一秒都能听见。把短促的触键和延续的声层分开跟随，便能发现柔和不等于没有层次，安静也并不等于空间里什么都没发生。",
+        "listening_cue": "选两次相近的钢琴起音，比较第一声还没有完全消失时，下一声怎样进入。再把注意力从旋律移到背景延音：它是在托住钢琴，还是让某个停顿显得更长？结束后留几秒安静，回想你记住的是某个音，还是一段声音消退的过程。"
+      },
+      {
+        "position": 5,
+        "title": "Gula Gula",
+        "artist": "杨・葛柏瑞克",
+        "album": "I Took Up the Runes",
+        "canonical_id": "杨・葛柏瑞克::Gula Gula",
+        "apple_music": {
+          "url": "https://music.apple.com/cn/song/gula-gula/1443127171",
+          "song_id": "1443127171",
+          "storefront": "cn"
+        },
+        "analysis_summary": "最后一首是今天的跨界探索：让萨克斯的长线条、节奏层和声乐材料改变你对“爵士主旋律”的预期。这里特意选择 Jan Garbarek（国区显示名杨・葛柏瑞克）《I Took Up the Runes》中的版本。曲页列出 Mari Boine 的词曲与 Garbarek 的编曲身份，因此应当把它理解为有明确来源的改编，而非声称这是 Garbarek 的原创曲。它值得听的不是一个笼统的“异域”标签，而是不同声音怎样围绕一条有辨识度的旋律互相呼应。 萨克斯的明亮边缘与延音很容易吸住注意力，但也请给较细的节奏活动和背景声留位置。实际页面列出次中音萨克斯、钢琴、合成器、鼓、打击乐与声乐署名；不需要一次分清所有人，就能先听出持续线条与颗粒性声音之间的张力。长音并非静止：气息、音色的紧松和句尾的收束都在改变方向。此处保留专辑录音身份，不把它写成 Mari Boine 本人的同名原录音，也不把声乐署名误写成纯器乐版本。",
+        "listening_cue": "第一遍只跟最突出的长线条，记住一个旋律转弯。第二遍让它退到背景，专听鼓与打击乐在长音下面怎样安排疏密，再把两层合起来。遇到声乐色彩时，留意它与萨克斯是互相接续、重叠还是拉开距离；不要急着按常规流行歌曲的主副歌去归类。"
+      }
+    ],
+    "source_verification": [
+      {
+        "song_id": "1164538305",
+        "title": "这个世界",
+        "artist": "蔡蓝钦",
+        "album": "这个世界",
+        "url": "https://music.apple.com/cn/song/1164538305",
+        "observed_storefront": "cn",
+        "source_ref": "turn380view0",
+        "decision": "selected",
+        "reason": "周日先从一首容易亲近、却不把复杂心情磨平的歌开始。选择蔡蓝钦《这个世界》专辑中的本人录音，不用后来歌者的现场翻唱替代。它适合听一个年轻的声音如何在明朗旋律里容纳犹疑：情绪的吸引力不只在于乐观，也在于句子并不总是说得笃定。今天把它放在第一首，是想让熟悉的华语歌曲形式重新成为认真听语气的入口，而不只是背景里的怀旧标签。",
+        "scores": [
+          9,
+          9,
+          8,
+          9,
+          9
+        ],
+        "weighted_score": 8.8,
+        "verification_method": "exact_cn_song_resource",
+        "source_observation": "Exact CN song heading 这个世界; artist 蔡蓝钦; linked album 这个世界; song ID1164538305; page date1987-06-06. Linked album separately opened, Mandarin pop1987; no full playback test.",
+        "observed_at_utc_window": [
+          "2026-10-25T01:12:00Z",
+          "2026-10-25T01:17:00Z"
+        ],
+        "playback_tested": false
+      },
+      {
+        "song_id": "1606465804",
+        "title": "What You Won't Do for Love",
+        "artist": "Bobby Caldwell",
+        "album": "Songs for Lovers Only, Vol. 1",
+        "url": "https://music.apple.com/cn/song/what-you-wont-do-for-love/1606465804",
+        "observed_storefront": "cn",
+        "source_ref": "browser tab7",
+        "decision": "selected",
+        "reason": "第二首把注意力从语气移到身体能跟住的律动。Bobby Caldwell 的声音温润，却不是只靠音色讨喜：旋律在节奏之上有从容的弹性，听似轻松，短句的落点却很讲究。今天使用实际核验到的《Songs for Lovers Only, Vol. 1》收录条目，保留真实专辑名称；不把它写成另一个原专辑 ID，也不将 DJ 混音或他人的翻唱当成同一链接。这首适合在出门前完整听一遍，练习把“顺耳”拆成可以指出来的节奏关系。",
+        "scores": [
+          9,
+          9,
+          8,
+          9,
+          9
+        ],
+        "weighted_score": 8.8,
+        "verification_method": "exact_cn_song_resource",
+        "source_observation": "Rendered CN song page: exact title and Bobby Caldwell; album Songs for Lovers Only, Vol.1; URL ID1606465804; date1978-01-01; lead-vocal and songwriter roles visible. Search extractor inaccessible, actual browser resource loaded. No playback test.",
+        "observed_at_utc_window": [
+          "2026-10-25T01:12:00Z",
+          "2026-10-25T01:17:00Z"
+        ],
+        "playback_tested": false
+      },
+      {
+        "song_id": "1745718088",
+        "title": "Space Is Only Noise If You Can See",
+        "artist": "Nicolas Jaar",
+        "album": "Space Is Only Noise",
+        "url": "https://music.apple.com/cn/song/space-is-only-noise-if-you-can-see/1745718088",
+        "observed_storefront": "cn",
+        "source_ref": "turn380view3; browser tab10",
+        "decision": "selected",
+        "reason": "这是今日优先。前两首让人声带路，这里试着反过来：把人声当作空间里的一个声音物件，听它与低处的脉冲怎样相处。选《Space Is Only Noise》的这条专辑录音，不是现场、重混或同名专辑的其他曲子。它的吸引力在于一种不急着交代清楚的推进：材料并不密集，却持续让你重新判断远近、轻重和重心。适合戴上耳机专心听，先不要求音乐给出常规副歌式的释放。",
+        "scores": [
+          9,
+          8,
+          10,
+          9,
+          8
+        ],
+        "weighted_score": 8.85,
+        "verification_method": "exact_cn_song_resource",
+        "source_observation": "Exact rendered CN song title/artist/Space Is Only Noise album; ID1745718088; date2011-01-28. Browser credits sampler, songwriter, producer Nicolas Jaar. No audio/source-sample identification or playback test.",
+        "observed_at_utc_window": [
+          "2026-10-25T01:12:00Z",
+          "2026-10-25T01:17:00Z"
+        ],
+        "playback_tested": false
+      },
+      {
+        "song_id": "485458057",
+        "title": "We Move Lightly",
+        "artist": "Dustin O'Halloran",
+        "album": "Like Crazy (Music from the Motion Picture)",
+        "url": "https://music.apple.com/cn/song/we-move-lightly/485458057",
+        "observed_storefront": "cn",
+        "source_ref": "browser tab8",
+        "decision": "selected",
+        "reason": "电子的悬置之后，让第四首把速度感降到一次触键与一次呼吸的尺度。选择《Like Crazy (Music from the Motion Picture)》中的配乐条目，不用同名钢琴翻奏或另一个发行版本代替。它的价值不在于替你规定一种悲伤，而在于让少量材料有足够时间留下痕迹。即使没看过电影，也可以把它当作独立的小段落听：旋律何时继续、何时愿意停住，本身就能构成情绪。",
+        "scores": [
+          9,
+          9,
+          8,
+          9,
+          9
+        ],
+        "weighted_score": 8.8,
+        "verification_method": "exact_cn_song_resource",
+        "source_observation": "Rendered exact CN song resource: title We Move Lightly; Dustin O'Halloran; linked album Like Crazy (Music from the Motion Picture); ID485458057; date2011-01-01. Credits piano/keyboards/synthesizer; guitar Adam Bryanbaum Wiltzie; cello Anna Müller; viola Katrin Mickiewicz; violin Peter Broderick. No full playback test.",
+        "observed_at_utc_window": [
+          "2026-10-25T01:12:00Z",
+          "2026-10-25T01:17:00Z"
+        ],
+        "playback_tested": false
+      },
+      {
+        "song_id": "1443127171",
+        "title": "Gula Gula",
+        "artist": "杨・葛柏瑞克",
+        "album": "I Took Up the Runes",
+        "url": "https://music.apple.com/cn/song/gula-gula/1443127171",
+        "observed_storefront": "cn",
+        "source_ref": "turn382view0; browser tab9",
+        "decision": "selected",
+        "reason": "最后一首是今天的跨界探索：让萨克斯的长线条、节奏层和声乐材料改变你对“爵士主旋律”的预期。这里特意选择 Jan Garbarek（国区显示名杨・葛柏瑞克）《I Took Up the Runes》中的版本。曲页列出 Mari Boine 的词曲与 Garbarek 的编曲身份，因此应当把它理解为有明确来源的改编，而非声称这是 Garbarek 的原创曲。它值得听的不是一个笼统的“异域”标签，而是不同声音怎样围绕一条有辨识度的旋律互相呼应。",
+        "scores": [
+          9,
+          8,
+          10,
+          10,
+          8
+        ],
+        "weighted_score": 9,
+        "verification_method": "exact_cn_song_resource",
+        "source_observation": "Exact CN title Gula Gula; 杨・葛柏瑞克; I Took Up the Runes; ID1443127171; date1990-10-01. Browser credits Garbarek tenor sax/arranger, Mari Boine composer/lyricist; piano Rainer Brüninghaus, percussion Naná Vasconcelos, drums Manu Katché, synth Bugge Wesseltoft, voice Ingor Ántte Áilu Gaup. Full playback not tested.",
+        "observed_at_utc_window": [
+          "2026-10-25T01:12:00Z",
+          "2026-10-25T01:17:00Z"
+        ],
+        "playback_tested": false
+      }
+    ],
+    "deduplication": {
+      "original_state_entries": 243,
+      "original_manifest_count": 47,
+      "original_manifest_tracks": 235,
+      "retired_exposures_preserved": 8,
+      "earlier_reservations_permanently_blocked": true,
+      "normalized_canonical_repeats": 0,
+      "exact_recording_repeats": 0,
+      "recent_artist_repeats": 0,
+      "same_work_semantic_review": "Reviewed full 243 canonical keys and235 manifest tracks plus all music reservations. No prior work/recording among selected5; Jan Garbarek/杨・葛柏瑞克 alias checked. Gula Gula is explicitly a Mari Boine composition in Garbarek arrangement, not her original recording; no historical Gula Gula work found. Caldwell compilation identity retained, not claimed as a new recording."
+    },
+    "diversity": {
+      "artists": 5,
+      "high_confidence": 3,
+      "adjacent": 1,
+      "wildcard": 1,
+      "wildcard_position": 5,
+      "genres": [
+        "国语流行／创作歌曲",
+        "灵魂乐／柔和放克",
+        "实验电子／Downtempo",
+        "电影配乐／现代器乐",
+        "北欧爵士／萨米歌曲改编"
+      ],
+      "eras": [
+        "1970s",
+        "1980s",
+        "1990s",
+        "2010s"
+      ],
+      "languages": [
+        "Mandarin",
+        "English",
+        "instrumental",
+        "voice-bearing jazz arrangement"
+      ],
+      "rationale": "Mandarin songwriting, soul groove, experimental electronic, layered film score, Nordic jazz/Sami-song arrangement. No same recent artist."
+    },
+    "historical_backlog": {
+      "frozen_old_manifest_drift": [
+        {
+          "operation_id": "music:2026-10-15",
+          "path": "recommendations/2026/10/2026-10-15.json",
+          "frozen_sha": "7790e3664e26f1a8a681d6106f7c0b60f828c8e1",
+          "current_sha": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26"
+        },
+        {
+          "operation_id": "music:2026-10-15",
+          "path": "Music/Daily/manifests/2026-10-15.json",
+          "frozen_sha": "7790e3664e26f1a8a681d6106f7c0b60f828c8e1",
+          "current_sha": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26"
+        }
+      ],
+      "legacy_exposures": "243 entries including8 retired retained; integer values unchanged.",
+      "scope": "Historical source/format issues retained, no retrospective source pass claimed. Existing repairs and journal payloads not rewritten."
+    },
+    "errors": [
+      {
+        "operation": "web exact CN retrieval",
+        "classification": "tool inaccessible; no HTTP status or retry metadata exposed",
+        "song_ids": [
+          "1450550346",
+          "1608122095",
+          "1714715534",
+          "818732607",
+          "1606465804",
+          "485458057"
+        ],
+        "resolution": "First4 rejected as unverified; last2 exact rendered CN resources independently examined in browser and metadata confirmed. No CAPTCHA or bot block observed."
+      }
+    ],
+    "bundle_sha256": "97d17e163d9ccebfd355423cbf79946ffe33b0a7f897ead483ada4d94b03e94f",
+    "plan_sha256": "d76526c4e0bbc0f761435d6379680062d0f4006fe76e512b78b586fe82f25a4a",
+    "not_certified": [
+      "full audio audition",
+      "personal-account full playback",
+      "lossless playback quality",
+      "historical live sources",
+      "device sync",
+      "notification delivery"
+    ]
+  }
+}
