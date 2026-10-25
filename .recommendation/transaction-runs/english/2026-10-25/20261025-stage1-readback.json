@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-25",
+  "attempt_id": "20261025-stage1-readback",
+  "status": "stage_1_applied_and_read_back",
+  "prepared": {
+    "creation_commit": "4b0ed84810b103420f91586fb8c529ff08b2576e",
+    "identity_commit": "98a4f3309e543cf001a09ddc60d9780139911e25",
+    "bundle_sha256": "5452699182e791e1205cb03ae4caefc0806e9b34bb00267d1edf79a34be5e9b2",
+    "plan_sha256": "61160db7a6bc7ce165828e11f07127fdac55a4c824e5721c0532b57b25a1363e"
+  },
+  "planner_before": {
+    "status": "ready_to_resume",
+    "next_stage": 1,
+    "actions": [
+      "create note",
+      "update history from frozen baseline"
+    ]
+  },
+  "publication": {
+    "commit": "9aabf128888eb1c112e20d07ea87b3519544ebc1",
+    "parent": "98a4f3309e543cf001a09ddc60d9780139911e25",
+    "tree": "b3bf859516a63ed2941da15602044cf5f5e2ddda",
+    "ref_update": {
+      "force": false,
+      "expected_head": "98a4f3309e543cf001a09ddc60d9780139911e25",
+      "success": true
+    }
+  },
+  "readbacks": {
+    "50-courses/English/Weekly/2026-10-25.md": {
+      "blob_sha": "4746b4a9eb0c5646dffe9d990c1f0f751a349592",
+      "exact_frozen_bytes": true
+    },
+    ".recommendation/history/english.jsonl": {
+      "blob_sha": "1a7c886644dbc72409eb47cf4f1c0368defddc43",
+      "exact_frozen_bytes": true,
+      "rows": 48,
+      "today_exact_once": true,
+      "prior_bytes_preserved": true
+    },
+    ".recommendation/transactions/english/2026-10-25.json": {
+      "blob_sha": "cd473cedeebb1d7efb2c36b830125ac0e7075959",
+      "exact_original_bytes": true
+    },
+    ".recommendation/transaction-runs/english/2026-10-25/20261025-prepared-identity.json": {
+      "blob_sha": "72e006fc2af6782e65a4ef18c6a60675079a1ff5",
+      "exact_original_bytes": true
+    }
+  },
+  "planner_after": {
+    "status": "artifacts_match",
+    "next_stage": null
+  },
+  "source_recheck": {
+    "method": "direct official_page_read",
+    "url": "https://www.pbs.org/video/composer-amy-beach-cvfc2h/",
+    "observed_title": "Composer: Amy Beach",
+    "observed_runtime": "58m 39s",
+    "observed_cc": true,
+    "observed_transcript": true,
+    "observed_publisher": "Vermont Public / PBS",
+    "full_playback_not_claimed": true
+  },
+  "content_checks": {
+    "status": "passed",
+    "checks": {
+      "yaml_frontmatter": true,
+      "auto_markers": true,
+      "notes_outside_auto": true,
+      "direct_source_url": true,
+      "format_length_difficulty": true,
+      "three_passes": true,
+      "chunk_count_12": true,
+      "five_comprehension_questions": true,
+      "two_output_tasks": true,
+      "independent_translation": true,
+      "folded_answers": true,
+      "english_crosslink": true,
+      "copyright_scope": true,
+      "history_prefix_preserved": true,
+      "history_append_only_one_line": true,
+      "exact_once_date_url": true,
+      "fresh_against_original_history": true
+    },
+    "history_rows_before": 47,
+    "history_rows_after": 48,
+    "selected_url": "https://www.pbs.org/video/composer-amy-beach-cvfc2h/",
+    "manual_semantic_review": {
+      "claims_distinguish_fact_interpretation_evaluation": true,
+      "exercise_independent_of_source": true,
+      "no_invented_timestamps": true,
+      "source_caveats_present": true,
+      "full_playback_not_claimed": true,
+      "teaching_style_reviewed": true
+    }
+  },
+  "errors": [],
+  "pending": [
+    "repository validators",
+    "bundle journal audit",
+    "GitHub Actions for a commit containing the exact published payloads",
+    "final QA receipt"
+  ],
+  "claims_scope": "Exact readback and structural content checks do not prove full playback, China-mainland video access, local device sync or notification delivery."
+}
