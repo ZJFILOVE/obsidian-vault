@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-25",
+  "date": "2026-10-25",
+  "project": "english",
+  "mode": "new",
+  "status": "passed_current_publication_gates",
+  "candidate_evidence": {
+    "count": 9,
+    "minimum_required": 8,
+    "candidates": [
+      {
+        "url": "https://www.pbs.org/video/composer-amy-beach-cvfc2h/",
+        "title": "Composer: Amy Beach",
+        "publisher": "PBS / Vermont Public",
+        "format": "biographical documentary",
+        "duration": "58m39s",
+        "observed": "official page title, runtime, CC, transcript, PBS streaming statement and substantive transcript",
+        "score": 4.72,
+        "selected": true
+      },
+      {
+        "url": "https://www.pbs.org/video/ken-burns-on-ncs-role-in-the-american-revolution-1nemu8/",
+        "title": "Ken Burns on NC’s Role in the American Revolution",
+        "publisher": "PBS NC",
+        "format": "interview",
+        "duration": "43m42s",
+        "observed": "official PBS page, CC and transcript",
+        "score": 4.3,
+        "rejection": "strong source, but history/institutions recently appeared in the learning rotation"
+      },
+      {
+        "url": "https://www.pbs.org/video/state-of-the-art-0mbdey/",
+        "title": "State of the Art",
+        "publisher": "PBS",
+        "format": "arts documentary",
+        "duration": "55m17s",
+        "observed": "official PBS page, CC, streaming and expiry fields",
+        "score": 4.18,
+        "rejection": "good but broader multi-profile structure is less focused for one-week biography mapping"
+      },
+      {
+        "url": "https://www.pbs.org/video/the-creative-high-x4jzuf/",
+        "title": "The Creative High",
+        "publisher": "PBS",
+        "format": "arts and recovery documentary",
+        "duration": "56m46s",
+        "observed": "official PBS page, CC and transcript",
+        "score": 4.12,
+        "rejection": "sensitive health/recovery framing requires more clinical-context checking than this run permits"
+      },
+      {
+        "url": "https://www.pbs.org/show/art-medicine/",
+        "title": "Art + Medicine: Disability, Culture and Creativity",
+        "publisher": "PBS / TPT",
+        "format": "arts and medicine special",
+        "duration": "56m40s",
+        "observed": "official series page with episode identity and runtime",
+        "score": 4.06,
+        "rejection": "candidate page is a series hub rather than the most direct episode resource"
+      },
+      {
+        "url": "https://www.pbs.org/show/our-new-world/",
+        "title": "Our New World — Episode 2",
+        "publisher": "PBS",
+        "format": "science and nature documentary",
+        "duration": "50m52s",
+        "observed": "official series page with episode identity and runtime",
+        "score": 3.98,
+        "rejection": "climate/ecosystem topic overlaps the recent environment cluster"
+      },
+      {
+        "url": "https://www.pbs.org/video/episode-1-pulse-hec6vw/",
+        "title": "The Molecule That Made Us: Pulse",
+        "publisher": "PBS",
+        "format": "science documentary",
+        "duration": "54m36s",
+        "observed": "official PBS episode result with runtime and CC",
+        "score": 4.03,
+        "rejection": "science topic concentration after ocean sound and measurement science"
+      },
+      {
+        "url": "https://www.pbs.org/video/pbs-indies-clean/",
+        "title": "How We Got to Now: Clean",
+        "publisher": "PBS",
+        "format": "history of technology documentary",
+        "duration": "55m11s",
+        "observed": "official PBS episode page, runtime, CC and learning resources",
+        "score": 4.09,
+        "rejection": "strong, but technology-mechanism exposition is close to recent weekday input style"
+      },
+      {
+        "url": "https://www.pbs.org/video/washington-week-with-the-atlantic-full-episode-13026-k65uig/",
+        "title": "Washington Week with The Atlantic full episode, 1/30/26",
+        "publisher": "PBS",
+        "format": "news discussion",
+        "duration": "26m45s",
+        "observed": "official PBS page, CC and transcript",
+        "score": 3.72,
+        "rejection": "time-sensitive political discussion is less durable and requires wider fact verification"
+      }
+    ],
+    "score_scope": "Holistic 5-point selection score recorded before publication and informed by policy quality/usefulness/curiosity/novelty/fit weights; rejection text records the decisive trade-off rather than fabricating unavailable measurements."
+  },
+  "selection": {
+    "source_url": "https://www.pbs.org/video/composer-amy-beach-cvfc2h/",
+    "title": "Composer: Amy Beach",
+    "source": "PBS / Vermont Public",
+    "format": "public-television biographical documentary",
+    "duration": "58m39s",
+    "difficulty": "CET-6 to introductory TOEFL, with music-history and biographical stretches",
+    "diversity_result": "passed: rotates away from recent podcast and weekday science/environment clusters; single focused music biography; no exact history or PREPARED reservation match",
+    "ordered_exposed_resource_ids": [
+      "https://www.pbs.org/video/composer-amy-beach-cvfc2h/"
+    ]
+  },
+  "source_verification": {
+    "status": "passed_for_identity_and_official_page_content",
+    "method": "direct official PBS page read before freeze and re-read immediately before publication",
+    "observed": {
+      "title": "Composer: Amy Beach",
+      "series": "Made Here",
+      "episode": "Season 15 Episode 7",
+      "runtime": "58m 39s",
+      "cc": true,
+      "transcript": true,
+      "date": "2022-03-10",
+      "presenter": "Vermont Public",
+      "publisher_statement": "available to stream on pbs.org and the PBS app"
+    },
+    "content_scope": [
+      "biographical timeline",
+      "performance and composition career",
+      "expert musical explanations",
+      "MacDowell residency",
+      "reception and legacy"
+    ],
+    "not_claimed": [
+      "complete start-to-finish playback",
+      "China-mainland playback availability",
+      "user account or device access",
+      "word-perfect transcript accuracy"
+    ]
+  },
+  "freshness": {
+    "original_history_blob": "9faded146bf4462ffd34d7c540388c39e663d7db",
+    "original_history_rows": 47,
+    "selected_url_absent_from_original_history": true,
+    "selected_url_absent_from_unrelated_prepared_reservations": true,
+    "recent_narrow_topic_repeat": false,
+    "history_checked_before_selection": true
+  },
+  "prepared": {
+    "path": ".recommendation/transactions/english/2026-10-25.json",
+    "creation_commit": "4b0ed84810b103420f91586fb8c529ff08b2576e",
+    "blob_sha": "cd473cedeebb1d7efb2c36b830125ac0e7075959",
+    "bundle_sha256": "5452699182e791e1205cb03ae4caefc0806e9b34bb00267d1edf79a34be5e9b2",
+    "plan_sha256": "61160db7a6bc7ce165828e11f07127fdac55a4c824e5721c0532b57b25a1363e",
+    "exact_readback": true,
+    "freeze": "passed",
+    "check_baselines": "passed",
+    "final_planner_status": "artifacts_match"
+  },
+  "commits": {
+    "prepared_creation": "4b0ed84810b103420f91586fb8c529ff08b2576e",
+    "prepared_identity": "98a4f3309e543cf001a09ddc60d9780139911e25",
+    "publication": "9aabf128888eb1c112e20d07ea87b3519544ebc1",
+    "stage_readback_receipt": "4dce91e3c67db7d71e702bb3b1776d8c3e64e1ea"
+  },
+  "readbacks": {
+    "50-courses/English/Weekly/2026-10-25.md": {
+      "blob_sha": "4746b4a9eb0c5646dffe9d990c1f0f751a349592",
+      "exact_frozen_bytes": true
+    },
+    ".recommendation/history/english.jsonl": {
+      "blob_sha": "1a7c886644dbc72409eb47cf4f1c0368defddc43",
+      "exact_frozen_bytes": true,
+      "rows": 48,
+      "prior_bytes_preserved": true,
+      "today_source_exact_once": true
+    },
+    ".recommendation/transactions/english/2026-10-25.json": {
+      "blob_sha": "cd473cedeebb1d7efb2c36b830125ac0e7075959",
+      "exact_original_bytes": true
+    },
+    ".recommendation/transaction-runs/english/2026-10-25/20261025-prepared-identity.json": {
+      "blob_sha": "72e006fc2af6782e65a4ef18c6a60675079a1ff5",
+      "exact_original_bytes": true
+    },
+    ".recommendation/transaction-runs/english/2026-10-25/20261025-stage1-readback.json": {
+      "blob_sha": "9febbba76b6638594427651839056901a8e1be4f",
+      "exact_original_bytes": true
+    }
+  },
+  "content_qa": {
+    "status": "passed",
+    "checks": {
+      "yaml_frontmatter": true,
+      "auto_markers": true,
+      "notes_outside_auto": true,
+      "direct_source_url": true,
+      "format_length_difficulty": true,
+      "three_passes": true,
+      "chunk_count_12": true,
+      "five_comprehension_questions": true,
+      "two_output_tasks": true,
+      "independent_translation": true,
+      "folded_answers": true,
+      "english_crosslink": true,
+      "copyright_scope": true,
+      "history_prefix_preserved": true,
+      "history_append_only_one_line": true,
+      "exact_once_date_url": true,
+      "fresh_against_original_history": true
+    },
+    "history_rows_before": 47,
+    "history_rows_after": 48,
+    "selected_url": "https://www.pbs.org/video/composer-amy-beach-cvfc2h/",
+    "manual_semantic_review": {
+      "claims_distinguish_fact_interpretation_evaluation": true,
+      "exercise_independent_of_source": true,
+      "no_invented_timestamps": true,
+      "source_caveats_present": true,
+      "full_playback_not_claimed": true,
+      "teaching_style_reviewed": true
+    }
+  },
+  "repository_checks": {
+    "workflow": "Recommendation integrity (read-only)",
+    "publication_commit_run": {
+      "run_id": 40145480864,
+      "job_id": 121025768910,
+      "head_sha": "9aabf128888eb1c112e20d07ea87b3519544ebc1",
+      "conclusion": "success",
+      "steps_all_success": true
+    },
+    "validator": "OK: strict daily recommendations validated — youtube=200, reddit=400, english=42, music=200",
+    "tests": {
+      "daily": 67,
+      "publication": 41,
+      "remote_music_snapshot_unit_tests": 15,
+      "total": 123,
+      "result": "passed"
+    },
+    "integrity": {
+      "status": "passed_local_integrity",
+      "english_rows": 48,
+      "english_unique_resources": 48,
+      "append_only": "passed_against_base",
+      "base_ref": "98a4f3309e543cf001a09ddc60d9780139911e25"
+    },
+    "bundle_journal": {
+      "status": "passed_immutable_publication_bundles",
+      "bundles": 31,
+      "base_ref": "98a4f3309e543cf001a09ddc60d9780139911e25"
+    },
+    "readback_receipt_commit_run": {
+      "run_id": 40145554323,
+      "job_id": 121025993231,
+      "head_sha": "4dce91e3c67db7d71e702bb3b1776d8c3e64e1ea",
+      "conclusion": "success"
+    }
+  },
+  "historical_backlog": [
+    "Repository CI retains earlier YouTube duplicate groups as permanent blocked exposures; these are unrelated to today's English source and were not deleted or rewritten."
+  ],
+  "unverified_or_out_of_scope": [
+    "complete video playback",
+    "China-mainland playback availability",
+    "local Obsidian device synchronization",
+    "notification delivery"
+  ],
+  "claims_scope": "Structural CI does not certify live-source quality or teaching semantics. Today's source identity/content and teaching quality were checked separately; full playback and local delivery remain unverified."
+}
