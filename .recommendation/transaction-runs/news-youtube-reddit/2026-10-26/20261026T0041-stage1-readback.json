@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-10-26",
+  "attempt_id": "20261026-stage1-readback",
+  "recorded_at_utc": "2026-10-26T00:41:13.677630+00:00",
+  "status": "stage1_published_and_read_back",
+  "prepared": {
+    "commit": "6c5a51b491cf6a2a3501edd678b38183b96a98a8",
+    "tree": "84b8931eac2d0b7f570991da5630fa989a2530f4",
+    "blob": "eb2a26e94acc29fca88ba360d5cf9ff2c7228405",
+    "digest": "72dc94b350fb07b0e6666490277da8b7f5ede4e648d7588d18e422e8736182d0"
+  },
+  "identity_receipt_commit": "82754c634c218ed82f422c932d34c2e451d6f815",
+  "publication": {
+    "commit": "ca5ef9a1b8721cfceccde0abb937f6292b0c353f",
+    "tree": "109559f4958ccc714ab36a1fd692d3fbcd6c52dc"
+  },
+  "readbacks": {
+    "ZJFILOVE/obsidian-vault:News/Daily/2026-10-26.md": {
+      "status": "ok",
+      "sha": "b8e46ed7bc9594205e6b08f28b5d41bce2e4f0ac"
+    },
+    "ZJFILOVE/obsidian-vault:Resources/YouTube/Daily/2026-10-26.md": {
+      "status": "ok",
+      "sha": "28d3885bf9b1eaa8c4ad4ca3acc246b517dbb33d"
+    },
+    "ZJFILOVE/obsidian-vault:Resources/Reddit/Daily/2026-10-26.md": {
+      "status": "ok",
+      "sha": "4e6349658e512dc06578ad439605e478f20a3c6c"
+    },
+    "ZJFILOVE/obsidian-vault:.recommendation/history/youtube.jsonl": {
+      "status": "ok",
+      "sha": "9c74bd3b5711dc69c92209642bf664ff7e26f27e"
+    },
+    "ZJFILOVE/obsidian-vault:.recommendation/history/reddit.jsonl": {
+      "status": "ok",
+      "sha": "bdd402e7d2a6ba3adcd630b13f471d1ce9fa7960"
+    }
+  },
+  "planner_before": "ready_to_resume_stage_1",
+  "planner_after": "artifacts_match",
+  "errors": [
+    {
+      "kind": "source_read",
+      "source": "YouTube direct watch page",
+      "status": "unavailable; no successful playback claim; used authorized creator-owned pages"
+    },
+    {
+      "kind": "source_read",
+      "source": "Smarthistory candidate page",
+      "status": "403; candidate not selected"
+    },
+    {
+      "kind": "source_read",
+      "source": "Sixty Symbols candidate page",
+      "status": "502; candidate not selected"
+    },
+    {
+      "kind": "source_read",
+      "source": "Efficient Engineer via direct HTTP",
+      "status": "406; web retrieval of the exact official page succeeded and provided title, ID and substantive body"
+    },
+    {
+      "kind": "source_read",
+      "source": "Reuters wind article body",
+      "status": "unavailable; primary presidential text read, Reuters search excerpt labeled with limited scope"
+    }
+  ]
+}
