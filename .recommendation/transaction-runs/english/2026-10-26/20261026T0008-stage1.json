@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-26",
+  "attempt_id": "20261026T0008-stage1",
+  "status": "stage1_published_and_read_back",
+  "recorded_at_utc": "2026-10-26T00:08:00Z",
+  "original_bundle_sha256": "5e3de230743b72bd44273e08a8563271f80bead7e612ea4cb75c0e63be443c53",
+  "prepared_creation_commit": "a75478e9392a22b52278e7fd125d593ef7770100",
+  "stage_commit": "24a38954f86d658dc66f7fc771c8ba55b88537a5",
+  "planner_before": {
+    "status": "ready_to_resume",
+    "next_stage": 1
+  },
+  "planner_after": {
+    "status": "artifacts_match",
+    "next_stage": null
+  },
+  "readbacks": {
+    "50-courses/English/Daily/2026-10-26.md": "41e1e32ed41a81128c4d63cbdf767430ccd34d52",
+    "50-courses/English/Translation/2026-10-26.md": "4b742406a8abc39eb83a463208d1a7cb5dbc7416",
+    "50-courses/English/Vocabulary/2026-10-26.md": "847579682c22e6a2bf38e44da3319450ca45d841",
+    ".recommendation/history/english.jsonl": "a9fae4bd3039fb95c5ff366dce94b29807b50cdc"
+  },
+  "readback_exact": true,
+  "checks_at_receipt": {
+    "bundle_and_baselines": "passed",
+    "publication_recovery": "artifacts_match",
+    "local_unit_tests": "41_passed",
+    "english_history_and_note_validator": "passed_43_strict_notes",
+    "immutable_bundle_journal": "passed_34_bundles",
+    "workflow_for_stage_commit": "not_observed_yet"
+  }
+}
