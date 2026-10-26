@@ -1,0 +1,1170 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-26",
+  "project": "music",
+  "operation_id": "music:2026-10-26",
+  "mode": "new",
+  "status": "passed_current_publication_gates",
+  "recorded_at_utc": "2026-10-26T01:31:00.559771+00:00",
+  "preflight": {
+    "complete_input_blobs": 151,
+    "pinned_heads": {
+      "ZJFILOVE/obsidian-vault": {
+        "sha": "18a7791eabab25450db12e3502b68445090987db",
+        "node_id": "C_kwDOUMOAQdoAKDE4YTc3OTFlYWJhYjI1NDUwZGIxMmUzNTAyYjY4NDQ1MDkwOTg3ZGI",
+        "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/commits/18a7791eabab25450db12e3502b68445090987db",
+        "html_url": "https://github.com/ZJFILOVE/obsidian-vault/commit/18a7791eabab25450db12e3502b68445090987db",
+        "author": {
+          "name": "ZJFILOVE",
+          "email": "zhujunfeng07@gmail.com",
+          "date": "2026-10-26T00:41:34Z"
+        },
+        "committer": {
+          "name": "ZJFILOVE",
+          "email": "zhujunfeng07@gmail.com",
+          "date": "2026-10-26T00:41:34Z"
+        },
+        "tree": {
+          "sha": "13878e4857d64da71138d5f0574cce1b0367339c",
+          "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/trees/13878e4857d64da71138d5f0574cce1b0367339c"
+        },
+        "message": "Record source, candidate, dedup and exact-commit discovery QA for 2026-10-26",
+        "parents": [
+          {
+            "sha": "ca5ef9a1b8721cfceccde0abb937f6292b0c353f",
+            "url": "https://api.github.com/repos/ZJFILOVE/obsidian-vault/git/commits/ca5ef9a1b8721cfceccde0abb937f6292b0c353f",
+            "html_url": "https://github.com/ZJFILOVE/obsidian-vault/commit/ca5ef9a1b8721cfceccde0abb937f6292b0c353f"
+          }
+        ],
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "ZJFILOVE/music-daily": {
+        "sha": "2bb1e31c3609e730919874b1f16c2c9e1ca03a71",
+        "node_id": "C_kwDOUN9GidoAKDJiYjFlMzFjMzYwOWU3MzA5MTk4NzRiMWYxNmMyYzllMWNhMDNhNzE",
+        "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/commits/2bb1e31c3609e730919874b1f16c2c9e1ca03a71",
+        "html_url": "https://github.com/ZJFILOVE/music-daily/commit/2bb1e31c3609e730919874b1f16c2c9e1ca03a71",
+        "author": {
+          "name": "ZJFILOVE",
+          "email": "zhujunfeng07@gmail.com",
+          "date": "2026-10-25T01:19:20Z"
+        },
+        "committer": {
+          "name": "ZJFILOVE",
+          "email": "zhujunfeng07@gmail.com",
+          "date": "2026-10-25T01:19:20Z"
+        },
+        "tree": {
+          "sha": "81ea27cb68121f31593c8be06beb6199b74ee0cc",
+          "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/trees/81ea27cb68121f31593c8be06beb6199b74ee0cc"
+        },
+        "message": "Publish five verified CN Apple Music recordings for 2026-10-25",
+        "parents": [
+          {
+            "sha": "459f80e88f4871c0af88851e781873e3e40adb3e",
+            "url": "https://api.github.com/repos/ZJFILOVE/music-daily/git/commits/459f80e88f4871c0af88851e781873e3e40adb3e",
+            "html_url": "https://github.com/ZJFILOVE/music-daily/commit/459f80e88f4871c0af88851e781873e3e40adb3e"
+          }
+        ],
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      }
+    },
+    "prior_state_entries": 248,
+    "prior_manifest_dates": 48,
+    "all_PREPARED_read": true,
+    "today_absence_confirmed_from_complete_trees": true,
+    "original_states_equal": true,
+    "source_history_freshness_basis": "original pre-selection state and all historical manifests/reservations, not the states written by this operation"
+  },
+  "candidate_evidence": {
+    "count": 24,
+    "minimum": 15,
+    "candidates": [
+      {
+        "song_id": "1434924135",
+        "title": "Love and Affection",
+        "artist": "Joan Armatrading",
+        "album": "Track Record",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1434924135",
+        "canonical_url": "https://music.apple.com/cn/song/love-and-affection/1434924135",
+        "duration": "PT4M25S",
+        "date_label": "1976-01-01",
+        "observed_at_utc": "2026-10-26T01:23:37.873417+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "762cefedd6dc68adcb8b0707d88c2482196645333b3f8d2d89cbfb27f112f81d",
+        "metadata_verified": true,
+        "decision": "not_selected_artist_concentration_or_alternate_same_work; one Joan recording only",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.5,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.88
+      },
+      {
+        "song_id": "1429178815",
+        "title": "Love and Affection",
+        "artist": "Joan Armatrading",
+        "album": "Love and Affection: Joan Armatrading Classics (1975-1983)",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1429178815",
+        "canonical_url": "https://music.apple.com/cn/song/love-and-affection/1429178815",
+        "duration": "PT4M29S",
+        "date_label": "1976-07-01",
+        "observed_at_utc": "2026-10-26T01:23:38.149328+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "bf26e72461687b3d069969f5f6b9d420a73037e7a2294d15fef091f695596642",
+        "metadata_verified": true,
+        "decision": "selected; verified exact CN recording; contributes a different voice, texture or listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.395
+      },
+      {
+        "song_id": "1608122095",
+        "title": "Time Moves Slow",
+        "artist": "BADBADNOTGOOD & Samuel T. Herring",
+        "album": "IV",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1608122095",
+        "canonical_url": "https://music.apple.com/cn/song/time-moves-slow/1608122095",
+        "duration": "PT4M33S",
+        "date_label": "2016-01-01",
+        "observed_at_utc": "2026-10-26T01:23:37.849661+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "975a5fbf1753967940336c9d26b5008f0b5ec1bf80e46f8a5732663dc4d37031",
+        "metadata_verified": true,
+        "decision": "selected; verified exact CN recording; contributes a different voice, texture or listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.395
+      },
+      {
+        "song_id": "272104142",
+        "title": "O Virtus Sapientiae (Antiphona)",
+        "artist": "Sequentia & Barbara Thornton",
+        "album": "Hildegard Von Bingen: Spiritual Songs",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/272104142",
+        "canonical_url": "https://music.apple.com/cn/song/o-virtus-sapientiae-antiphona/272104142",
+        "duration": "PT2M50S",
+        "date_label": "1985-07-13",
+        "observed_at_utc": "2026-10-26T01:23:37.943233+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "b8c93fdbab25c26ef76495d3c4852e986751ffdcc190f33c3f2b26dc918fc134",
+        "metadata_verified": true,
+        "decision": "selected; verified exact CN recording; contributes a different voice, texture or listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.8,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.515
+      },
+      {
+        "song_id": "253966262",
+        "title": "O Virtus Sapientiae (Antiphona)",
+        "artist": "Sequentia & Barbara Thornton",
+        "album": "Hildegard Von Bingen: Geistliche Gesänge",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/253966262",
+        "canonical_url": "https://music.apple.com/cn/song/o-virtus-sapientiae-antiphona/253966262",
+        "duration": "PT2M47S",
+        "date_label": "1985-07-13",
+        "observed_at_utc": "2026-10-26T01:23:38.172758+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "a0dd2dfb7b2861910fedd52b2d41f2f6374043ac7f384d1a4eef71a96d7db543",
+        "metadata_verified": true,
+        "decision": "not_selected_alternate_recording_or_arrangement; Sequentia version deliberately chosen",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.5,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.88
+      },
+      {
+        "song_id": "220362600",
+        "title": "O virtus sapiente",
+        "artist": "克罗诺斯四重奏",
+        "album": "Early Music",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/220362600",
+        "canonical_url": "https://music.apple.com/cn/song/o-virtus-sapiente/220362600",
+        "duration": "PT4M31S",
+        "date_label": "1997-08-15",
+        "observed_at_utc": "2026-10-26T01:23:38.221260+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "6decbef3bf4dd566e5caab2be3328508e303e5ef15df4459fb58adc114fffa87",
+        "metadata_verified": true,
+        "decision": "not_selected_alternate_recording_or_arrangement; Sequentia version deliberately chosen",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.5,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.88
+      },
+      {
+        "song_id": "1444099169",
+        "title": "Help Yourself",
+        "artist": "Joan Armatrading",
+        "album": "Joan Armatrading",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1444099169",
+        "canonical_url": "https://music.apple.com/cn/song/help-yourself/1444099169",
+        "duration": "PT4M5S",
+        "date_label": "1976-07-01",
+        "observed_at_utc": "2026-10-26T01:23:44.519861+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "9c2206c7e4c40375637a887dd4d70c211413f89444d68546a69df33682a17548",
+        "metadata_verified": true,
+        "decision": "not_selected_artist_concentration_or_alternate_same_work; one Joan recording only",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.5,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.88
+      },
+      {
+        "song_id": "1610997836",
+        "title": "Songs",
+        "artist": "Joan Armatrading",
+        "album": "What's Inside",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1610997836",
+        "canonical_url": "https://music.apple.com/cn/song/songs/1610997836",
+        "duration": "PT3M49S",
+        "date_label": "1995-10-10",
+        "observed_at_utc": "2026-10-26T01:23:44.905396+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "588c703e0280407d7eb9c02f752810b5351ea50e7a5be355f014ebac0d19a422",
+        "metadata_verified": true,
+        "decision": "not_selected_artist_concentration_or_alternate_same_work; one Joan recording only",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.5,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.88
+      },
+      {
+        "song_id": "1429181230",
+        "title": "Friends",
+        "artist": "Joan Armatrading",
+        "album": "Love and Affection: Joan Armatrading Classics (1975-1983)",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1429181230",
+        "canonical_url": "https://music.apple.com/cn/song/friends/1429181230",
+        "duration": "PT3M6S",
+        "date_label": "1980-05-01",
+        "observed_at_utc": "2026-10-26T01:23:44.474029+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "513e2b82052c1b5a85c727c44f5e08b5328123bd6ce0b55b2b375f6811e445af",
+        "metadata_verified": true,
+        "decision": "not_selected_artist_concentration_or_alternate_same_work; one Joan recording only",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.5,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.88
+      },
+      {
+        "song_id": "1429178507",
+        "title": "Down to Zero",
+        "artist": "Joan Armatrading",
+        "album": "Love and Affection: Joan Armatrading Classics (1975-1983)",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1429178507",
+        "canonical_url": "https://music.apple.com/cn/song/down-to-zero/1429178507",
+        "duration": "PT3M50S",
+        "date_label": "1976-09-01",
+        "observed_at_utc": "2026-10-26T01:23:44.658178+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "85712b271628cff669f98a474a8e159629aaf7ccea38c2f91e02613fe7dbd275",
+        "metadata_verified": true,
+        "decision": "not_selected_artist_concentration_or_alternate_same_work; one Joan recording only",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.5,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.88
+      },
+      {
+        "song_id": "1429180185",
+        "title": "Willow",
+        "artist": "Joan Armatrading",
+        "album": "Love and Affection: Joan Armatrading Classics (1975-1983)",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1429180185",
+        "canonical_url": "https://music.apple.com/cn/song/willow/1429180185",
+        "duration": "PT4M52S",
+        "date_label": "1976-09-01",
+        "observed_at_utc": "2026-10-26T01:23:44.541865+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "e7c71695e0c02f214f03b87185ab1d20f6277329ce17c57885d7ea7271eafae9",
+        "metadata_verified": true,
+        "decision": "not_selected_artist_concentration_or_alternate_same_work; one Joan recording only",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.5,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.88
+      },
+      {
+        "song_id": "1429183130",
+        "title": "(I Love It When You) Call Me Names",
+        "artist": "Joan Armatrading",
+        "album": "Love and Affection: Joan Armatrading Classics (1975-1983)",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1429183130",
+        "canonical_url": "https://music.apple.com/cn/song/i-love-it-when-you-call-me-names/1429183130",
+        "duration": "PT4M21S",
+        "date_label": "1976-09-01",
+        "observed_at_utc": "2026-10-26T01:23:44.941560+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "306f1ef7815bcee4a3fad0f8889d9b299311b95d7a4fdf2447c2f83dcbd6c985",
+        "metadata_verified": true,
+        "decision": "not_selected_artist_concentration_or_alternate_same_work; one Joan recording only",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.5,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.88
+      },
+      {
+        "song_id": "1537594945",
+        "title": "O Virtus Sapientiae",
+        "artist": "Hildegard von Blingin'",
+        "album": "Bingen: O Virtus Sapientiae - Single",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1537594945",
+        "canonical_url": "https://music.apple.com/cn/song/o-virtus-sapientiae/1537594945",
+        "duration": "PT2M10S",
+        "date_label": "2020-11-20",
+        "observed_at_utc": "2026-10-26T01:23:51.653314+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "b696921ce5172ae69e122ec336a451747e087aea26b5e2ab65d867ac49902731",
+        "metadata_verified": true,
+        "decision": "not_selected_alternate_recording_or_arrangement; Sequentia version deliberately chosen",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.5,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.88
+      },
+      {
+        "song_id": "316940217",
+        "title": "O Virtus Sapientiae",
+        "artist": "Schola Magdalena",
+        "album": "O Gracious Light",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/316940217",
+        "canonical_url": "https://music.apple.com/cn/song/o-virtus-sapientiae/316940217",
+        "duration": "PT2M22S",
+        "date_label": "2009-05-07",
+        "observed_at_utc": "2026-10-26T01:23:51.360050+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "4643aca16ab78e9b847b71bfeab29505eaac05b4abf06c867c97df3ab3ad1a48",
+        "metadata_verified": true,
+        "decision": "not_selected_alternate_recording_or_arrangement; Sequentia version deliberately chosen",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.5,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.88
+      },
+      {
+        "song_id": "500659196",
+        "title": "Hildegard of Bingen: O virtus Sapientie (Harp and Treble Recorder)",
+        "artist": "Anna Pihl Lindén & Symphonia & Viveca Servatius & Anna Nord & Ulrika Marklund",
+        "album": "Salve Regina - Gregorian Chant - Hildegard of Bingen",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/500659196",
+        "canonical_url": "https://music.apple.com/cn/song/hildegard-of-bingen-o-virtus-sapientie-harp-and/500659196",
+        "duration": "PT3M12S",
+        "date_label": "2008-01-01",
+        "observed_at_utc": "2026-10-26T01:23:51.466378+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "36060153598b75593810cf8eaa80215e599f86fa7a4c7ac859da2b582a82d6b5",
+        "metadata_verified": true,
+        "decision": "not_selected_alternate_recording_or_arrangement; Sequentia version deliberately chosen",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.5,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.88
+      },
+      {
+        "song_id": "708262824",
+        "title": "Eras",
+        "artist": "Juana Molina",
+        "album": "Wed 21",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/708262824",
+        "canonical_url": "https://music.apple.com/cn/song/eras/708262824",
+        "duration": "PT4M24S",
+        "date_label": "2013-08-19",
+        "observed_at_utc": "2026-10-26T01:23:55.953534+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "1d81c52c754f7da84e7450f1aa0d33e66546b367df2269ba019389c7bdb7147a",
+        "metadata_verified": true,
+        "decision": "selected; verified exact CN recording; contributes a different voice, texture or listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.395
+      },
+      {
+        "song_id": "656679757",
+        "title": "Mouneïssa",
+        "artist": "Rokia Traoré",
+        "album": "Mouneïssa",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/656679757",
+        "canonical_url": "https://music.apple.com/cn/song/moune%C3%AFssa/656679757",
+        "duration": "PT5M43S",
+        "date_label": "1997-01-01",
+        "observed_at_utc": "2026-10-26T01:23:55.393410+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "1fb94e119a422b5de345db1e3ac14b30d4c520b581c0b7270fe5c752a69638bc",
+        "metadata_verified": true,
+        "decision": "selected; verified exact CN recording; contributes a different voice, texture or listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.395
+      },
+      {
+        "song_id": "908180658",
+        "url": "https://music.apple.com/cn/song/908180658",
+        "error": "HTTP Error 404: Not Found",
+        "decision": "rejected_unavailable_CN_resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.5,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.88
+      },
+      {
+        "song_id": "971429795",
+        "title": "The Bottle",
+        "artist": "Gil Scott-Heron",
+        "album": "Johannesburg",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/971429795",
+        "canonical_url": "https://music.apple.com/cn/song/the-bottle/971429795",
+        "duration": "PT9M3S",
+        "date_label": "2015-02-27",
+        "observed_at_utc": "2026-10-26T01:23:55.434572+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "7d33e0bb2c44c35859fa61c563776cb2d7dc7cb66e656e3135d01bf7bea3a6b8",
+        "metadata_verified": true,
+        "decision": "not_selected_version_identity_uncertainty_and_set_balance",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.5,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.88
+      },
+      {
+        "song_id": "1531564648",
+        "title": "Eras (ANRMAL - Live in México)",
+        "artist": "Juana Molina",
+        "album": "Anrmal",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1531564648",
+        "canonical_url": "https://music.apple.com/cn/song/eras-anrmal-live-in-m%C3%A9xico/1531564648",
+        "duration": "PT5M8S",
+        "date_label": "2020-09-25",
+        "observed_at_utc": "2026-10-26T01:23:55.545833+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "2282a69b0503a60be2e6fd99d55cb1ba09780de2ef763890c252170454c98908",
+        "metadata_verified": true,
+        "decision": "not_selected_live_version; studio recording chosen",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.5,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.88
+      },
+      {
+        "song_id": "439194678",
+        "title": "The Bottle (Live)",
+        "artist": "Gil Scott-Heron",
+        "album": "Live!",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/439194678",
+        "canonical_url": "https://music.apple.com/cn/song/the-bottle-live/439194678",
+        "duration": "PT9M",
+        "date_label": "1974-01-01",
+        "observed_at_utc": "2026-10-26T01:23:55.753921+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "826c49a171cfa87237dbaf7e3148ffd3e84ae644a50259c17722f867e6a674fe",
+        "metadata_verified": true,
+        "decision": "not_selected_version_identity_uncertainty_and_set_balance",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.5,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.88
+      },
+      {
+        "song_id": "1046817782",
+        "title": "Feel You",
+        "artist": "Julia Holter",
+        "album": "Have You in My Wilderness",
+        "observed_url": "https://music.apple.com/us/song/1046817782",
+        "source": "accessible Apple Music search result",
+        "metadata_verified_CN": false,
+        "decision": "not_selected; discovery-only source scope, final set already has the intended structural contrast"
+      },
+      {
+        "song_id": "1793630694",
+        "title": "Sisyphus",
+        "artist": "Andrew Bird",
+        "album": "Alternative Youth 2025 by The Circle Session",
+        "observed_url": "https://music.apple.com/us/song/1793630694",
+        "source": "accessible Apple Music search result",
+        "metadata_verified_CN": false,
+        "decision": "not_selected; discovery-only source scope, final set already has the intended structural contrast"
+      },
+      {
+        "song_id": "656679755",
+        "title": "Laidu",
+        "artist": "Rokia Traoré",
+        "album": "Mouneïssa",
+        "observed_url": "https://music.apple.com/us/song/656679755",
+        "source": "accessible Apple Music search result",
+        "metadata_verified_CN": false,
+        "decision": "not_selected; discovery-only source scope, final set already has the intended structural contrast"
+      }
+    ],
+    "scoring_weights": {
+      "quality": 0.3,
+      "usefulness": 0.25,
+      "curiosity": 0.2,
+      "novelty": 0.15,
+      "fit": 0.1
+    },
+    "scope": "Editorial estimates based on recording identity and intended contrast; alternative recordings and reissues considered but not silently substituted. Non-CN entries at the end are discovery-only candidates and explicitly unverified for final use."
+  },
+  "selection": [
+    {
+      "position": 1,
+      "title": "Love and Affection",
+      "artist": "Joan Armatrading",
+      "album": "Love and Affection: Joan Armatrading Classics (1975-1983)",
+      "canonical_id": "Joan Armatrading::Love and Affection",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1429178815",
+        "song_id": "1429178815",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先从一首既有叙述感、又会逐渐向外打开的歌开始。Joan Armatrading 的吸引力并不只在于嗓音厚实，而在于她能把犹疑、靠近和释放放进同一条旋律里，让声音的力度随着关系的变化而调整。这首适合周一在开始工作之前完整听一遍：不急着把它当成怀旧金曲，而是观察一个人如何从较收敛的表达走向更宽的情绪空间。本次选的是《Love and Affection: Joan Armatrading Classics (1975-1983)》中的4分29秒条目，按真实合辑名登记，不冒充另一个原专辑资源。 原声吉他的清晰拨弦给歌声留下可以倚靠的骨架，节奏组、和声与管乐色彩使歌曲的空间逐渐变厚。值得听的是主唱的低处质地与更高、更展开的句子如何形成对照：同一句旋律的重心，可以通过气息、咬字与尾音长度改变，不必一直把音量推高。这里没有凭目录日期判断某次录音日，也不因合辑收录便宣称它经过新的重录或母带升级；版本身份以核验到的标题、时长和专辑为准。",
+      "listening_cue": "第一遍只跟主唱，找出一处从“像说话”转为明显拉长旋律的地方。第二遍在同一处听伴奏：哪些声部继续维持脉冲，哪些在回答歌声？最后只回听一个句尾，比较音高停住后，情绪是否仍由呼吸与伴奏继续推进。"
+    },
+    {
+      "position": 2,
+      "title": "Time Moves Slow",
+      "artist": "BADBADNOTGOOD & Samuel T. Herring",
+      "album": "IV",
+      "canonical_id": "BADBADNOTGOOD & Samuel T. Herring::Time Moves Slow",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1608122095",
+        "song_id": "1608122095",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首把时间感放慢，但不把注意力放松掉。BADBADNOTGOOD 与 Samuel T. Herring 的合作让歌唱有很强的身体重量：它不是轻巧地贴在伴奏上，而像是带着摩擦进入一张稳定的网。今天选择《IV》的专辑录音，保留双方联合艺人署名，排除名称相近的器乐伴奏翻制和DJ混合版本。它的价值是让你听出“节奏稳定”与“情绪安稳”并不是同一回事；乐队的克制，反而给人声里的不平整留下了位置。 缓慢的鼓与低音形成底座，键盘和吉他的轮廓不争着填满每一拍；Herring 带颗粒、带胸腔感的声音，因而能在空隙里成为最明显的纹理。听时可以把伴奏想成几个相互留位置的角色，而不是一块和弦背景：低音推动下一步，鼓标出边界，较细的器乐起音则在歌声停顿时显形。不要把听起来松弛等同于没有设计；真正的张力往往来自落点与留白的关系。",
+      "listening_cue": "先轻点基本拍子，留意主唱进入时是贴紧拍点还是给你稍稍滞后的感觉。第二遍选一处短暂停唱，只追踪低音怎样把段落接住。最后把耳朵从嗓音的沙哑移到一句旋律的收尾：这次听到的是音色效果，还是节奏上的松紧？"
+    },
+    {
+      "position": 3,
+      "title": "Eras",
+      "artist": "Juana Molina",
+      "album": "Wed 21",
+      "canonical_id": "Juana Molina::Eras",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/708262824",
+        "song_id": "708262824",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这是今日优先：它让你从“歌里唱了什么”转向“一个循环怎样不断改变意义”。Juana Molina 把亲密的人声与反复的声音材料放在一起，表面上没有很夸张的戏剧动作，细小的进入、退出和叠层却不断改变重心。选择《Wed 21》的《Eras》专辑条目，而非另一个明确标为墨西哥现场的版本。它适合戴耳机认真听四分多钟，暂时不要求一首歌必须靠传统副歌完成释放，也不要求你懂西班牙语才有入口。 拨弦的循环、人声层与电子纹理相互编织；可听的重点不是只数重复了几次，而是每次重复时周围多了什么、少了什么。同一个动机在低频、敲击与声音远近改变后，会获得不同的紧张度。Molina 的歌声有时像叙述者，有时又成为织物中的一根线，适合比较“听清一个词”和“听见一个音色形状”两种注意力。下文是导听方向，没有声称逐秒测试全曲，也不把录音制作的听感猜测写成未经核对的设备清单。",
+      "listening_cue": "第一遍只挑一个最容易认出的短动机，跟到结尾。第二遍把它当作固定参照，记录两次你觉得空间或密度发生变化的地方，注明是新声部进入、旧声部消失，还是音色改变。不要急着找准确术语，先用“更近、更空、更挤”描述听觉差别。"
+    },
+    {
+      "position": 4,
+      "title": "Mouneïssa",
+      "artist": "Rokia Traoré",
+      "album": "Mouneïssa",
+      "canonical_id": "Rokia Traoré::Mouneïssa",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/656679757",
+        "song_id": "656679757",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首把循环从电子制作带回有手指、有呼吸的合奏里。Rokia Traoré 的表达并不依赖不断抬高声量，声音的细处与器乐之间的空隙足以保持吸引力。选择她《Mouneïssa》的同名歌曲条目，让一首五分多钟的作品拥有完整展开的时间；不要只把它当成“异国气氛”背景。今天值得听的是不同材料如何维持同一个步幅，又不把每个声部压到完全相同的位置，给前面较密集的声音组织换一种质地。 把耳朵放在拨弦的短促起音、打击的颗粒和歌声较长的线条之间。短音负责给出纹理，长句则让你跨过一个个小拍点；人声与器乐的轻重对比，使合奏保有空气。具体传统乐器与每位演奏者的署名没有从单曲页得到充分确认，因此这里不凭印象列名单。Apple目录的歌曲日期与专辑首次发行资料可能采用不同口径，本笔记保留实际专辑名，不用一个目录年份推定录音现场或制作年代。",
+      "listening_cue": "第一遍随整体步幅轻点拍子。第二遍只听一个拨弦声部，试着判断它在歌声停顿时怎样继续前进；再把人声放回去，找出一处它没有跟器乐一起收尾的地方。比较这些错开的边缘，是否让你感到更松、更有牵引力。"
+    },
+    {
+      "position": 5,
+      "title": "O Virtus Sapientiae (Antiphona)",
+      "artist": "Sequentia & Barbara Thornton",
+      "album": "Hildegard Von Bingen: Spiritual Songs",
+      "canonical_id": "Sequentia & Barbara Thornton::O Virtus Sapientiae (Antiphona)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/272104142",
+        "song_id": "272104142",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后一首故意离开今天前四首熟悉的节奏组织，进入 Sequentia 与 Barbara Thornton 演绎的希尔德加德作品。这是今日wildcard：尝试不用鼓点与和弦更替判断一段音乐走到了哪里，而以旋律的上行、回落、停顿和呼吸认识时间。选择《Hildegard Von Bingen: Spiritual Songs》中带有 Antiphona 标注的2分50秒录音，不把同作品的弦乐四重奏、竖琴与竖笛改编或其他歌者版本混作一条。作品历史与本次具体数字录音的身份也分开处理。 这里把注意力集中在人声的线条、元音的延展和句尾余响：少了流行歌曲里显著的节奏组，就更容易听见音与音之间如何牵引。音节与旋律不必保持一字一音的直线对应，延长的音群会改变一句话的比例；听起来静，并不表示内部没有方向。不要预先把宽阔的余响归因于某座具体教堂，也不依据演出者名称推断未经确认的录音地点、麦克风或全部声部配置。",
+      "listening_cue": "第一次不要数拍，只在你感觉一句结束时轻轻抬一下手。第二次听同一句，区分真正的呼吸停顿与还在延续的共鸣；再追踪一条上行音线何时回落。听完后保持十秒安静，比较你对“推进”的感觉，是否仍需要依赖明显的鼓点。"
+    }
+  ],
+  "source_verification": {
+    "provider": "Apple Music only",
+    "storefront": "cn",
+    "method": "direct exact CN song-page body and MusicComposition/MusicRecording metadata, including title, artist, album, canonical URL and ID",
+    "observations": [
+      {
+        "song_id": "1429178815",
+        "title": "Love and Affection",
+        "artist": "Joan Armatrading",
+        "album": "Love and Affection: Joan Armatrading Classics (1975-1983)",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1429178815",
+        "canonical_url": "https://music.apple.com/cn/song/love-and-affection/1429178815",
+        "duration": "PT4M29S",
+        "date_label": "1976-07-01",
+        "observed_at_utc": "2026-10-26T01:23:38.149328+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "bf26e72461687b3d069969f5f6b9d420a73037e7a2294d15fef091f695596642",
+        "metadata_verified": true,
+        "decision": "selected; verified exact CN recording; contributes a different voice, texture or listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.395
+      },
+      {
+        "song_id": "1608122095",
+        "title": "Time Moves Slow",
+        "artist": "BADBADNOTGOOD & Samuel T. Herring",
+        "album": "IV",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1608122095",
+        "canonical_url": "https://music.apple.com/cn/song/time-moves-slow/1608122095",
+        "duration": "PT4M33S",
+        "date_label": "2016-01-01",
+        "observed_at_utc": "2026-10-26T01:23:37.849661+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "975a5fbf1753967940336c9d26b5008f0b5ec1bf80e46f8a5732663dc4d37031",
+        "metadata_verified": true,
+        "decision": "selected; verified exact CN recording; contributes a different voice, texture or listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.395
+      },
+      {
+        "song_id": "272104142",
+        "title": "O Virtus Sapientiae (Antiphona)",
+        "artist": "Sequentia & Barbara Thornton",
+        "album": "Hildegard Von Bingen: Spiritual Songs",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/272104142",
+        "canonical_url": "https://music.apple.com/cn/song/o-virtus-sapientiae-antiphona/272104142",
+        "duration": "PT2M50S",
+        "date_label": "1985-07-13",
+        "observed_at_utc": "2026-10-26T01:23:37.943233+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "b8c93fdbab25c26ef76495d3c4852e986751ffdcc190f33c3f2b26dc918fc134",
+        "metadata_verified": true,
+        "decision": "selected; verified exact CN recording; contributes a different voice, texture or listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.8,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.515
+      },
+      {
+        "song_id": "708262824",
+        "title": "Eras",
+        "artist": "Juana Molina",
+        "album": "Wed 21",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/708262824",
+        "canonical_url": "https://music.apple.com/cn/song/eras/708262824",
+        "duration": "PT4M24S",
+        "date_label": "2013-08-19",
+        "observed_at_utc": "2026-10-26T01:23:55.953534+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "1d81c52c754f7da84e7450f1aa0d33e66546b367df2269ba019389c7bdb7147a",
+        "metadata_verified": true,
+        "decision": "selected; verified exact CN recording; contributes a different voice, texture or listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.395
+      },
+      {
+        "song_id": "656679757",
+        "title": "Mouneïssa",
+        "artist": "Rokia Traoré",
+        "album": "Mouneïssa",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/656679757",
+        "canonical_url": "https://music.apple.com/cn/song/moune%C3%AFssa/656679757",
+        "duration": "PT5M43S",
+        "date_label": "1997-01-01",
+        "observed_at_utc": "2026-10-26T01:23:55.393410+00:00",
+        "method": "direct_cn_song_page_visible_metadata_and_MusicComposition_MusicRecording",
+        "page_sha256": "1fb94e119a422b5de345db1e3ac14b30d4c520b581c0b7270fe5c752a69638bc",
+        "metadata_verified": true,
+        "decision": "selected; verified exact CN recording; contributes a different voice, texture or listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.395
+      }
+    ],
+    "scope": "Identity and visible recording metadata verified. Full-track playback, user account entitlement, audio quality and local-device availability were not tested. No quoted lyrics retained."
+  },
+  "diversity": {
+    "artists_unique": 5,
+    "recent_artist_reuse_count": 0,
+    "canonical_or_same_recording_prior_repeat_count": 0,
+    "within_list_same_work_count": 0,
+    "genres": [
+      "singer-songwriter/soul",
+      "jazz/soul vocal ensemble",
+      "experimental electronic folk",
+      "Malian acoustic song",
+      "early music/chant"
+    ],
+    "languages": [
+      "English",
+      "Spanish",
+      "Rokia Traore vocal tradition; exact language not independently verified in page metadata",
+      "Latin"
+    ],
+    "eras": "catalogue labels span 1976, 1985, 1990s, 2013 and 2016; catalogue dates are not asserted as recording-session dates",
+    "composition": "2 high-confidence, 2 adjacent, 1 wildcard",
+    "wildcard": "Sequentia & Barbara Thornton: O Virtus Sapientiae (Antiphona)"
+  },
+  "bundle": {
+    "commit": "76eb7812c36abe4c9f41cdcacdeb5903aa660f2d",
+    "tree": "344bb47b6a876bb2c9e3bb4d02ed8ffc936189b1",
+    "blob": "4c59c9066479396641deec8df10e5684725443b4",
+    "bundle_sha256": "a2f26b253f2fd82ec2fd2d98195027eddb62da76e198d755eb2c54fe6bb757dc",
+    "plan_sha256": "55b2d974905b94f31d0ea4e6ffc3538939ef4d38e15852db48a6c8692aa4489d"
+  },
+  "stage1": {
+    "commit": "a8c73018983688b0246233b70e947039aeb5df40",
+    "tree": "04f50a401b90b2a2267dcfcee353585bf61deb77",
+    "readbacks": [
+      {
+        "path": "recommendations/2026/10/2026-10-26.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0b3edb0e598e9c51c7eab9b712033708bbb622ba"
+      },
+      {
+        "path": "state/tracks.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "70fb0def7658bf2e850eecc0d5755cde7bf74498"
+      }
+    ]
+  },
+  "stage2": {
+    "commit": "217ee992f5a9f6084a86d8fbc24167419abc0dcb",
+    "tree": "c9894265d2d54dfe464873ab99a3e933bec44b61",
+    "readbacks": [
+      {
+        "path": "Music/Daily/manifests/2026-10-26.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0b3edb0e598e9c51c7eab9b712033708bbb622ba"
+      },
+      {
+        "path": "Music/Daily/state/tracks.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "70fb0def7658bf2e850eecc0d5755cde7bf74498"
+      },
+      {
+        "path": "Music/Daily/2026-10-26.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "90819b445173355b7618559d23df261fc87716d0"
+      }
+    ]
+  },
+  "readbacks": {
+    "ZJFILOVE/music-daily:recommendations/2026/10/2026-10-26.json": {
+      "status": "ok",
+      "sha": "0b3edb0e598e9c51c7eab9b712033708bbb622ba",
+      "exact_payload": true
+    },
+    "ZJFILOVE/music-daily:state/tracks.json": {
+      "status": "ok",
+      "sha": "70fb0def7658bf2e850eecc0d5755cde7bf74498",
+      "exact_payload": true
+    },
+    "ZJFILOVE/obsidian-vault:Music/Daily/manifests/2026-10-26.json": {
+      "status": "ok",
+      "sha": "0b3edb0e598e9c51c7eab9b712033708bbb622ba",
+      "exact_payload": true
+    },
+    "ZJFILOVE/obsidian-vault:Music/Daily/state/tracks.json": {
+      "status": "ok",
+      "sha": "70fb0def7658bf2e850eecc0d5755cde7bf74498",
+      "exact_payload": true
+    },
+    "ZJFILOVE/obsidian-vault:Music/Daily/2026-10-26.md": {
+      "status": "ok",
+      "sha": "90819b445173355b7618559d23df261fc87716d0",
+      "exact_payload": true
+    }
+  },
+  "checks": {
+    "exact_five_and_order": true,
+    "normalized_artist_title_and_permanent_state": "passed",
+    "full_historical_manifest_song_id_scan": "passed",
+    "same_work_manual_review": "passed; all five different compositions and artists",
+    "current_note_required_fields_and_sections": "passed",
+    "prior_state_values_unchanged": true,
+    "exact_once_new_state_registration": true,
+    "states_after": 253,
+    "manifest_and_state_mirrors_byte_equal": true,
+    "local_music_validator": {
+      "scope": "materialized recent 2026-10-20 through 2026-10-26 music notes",
+      "checked": 35
+    },
+    "local_unit_tests": "123 passed",
+    "immutable_bundle_journal": {
+      "status": "passed_immutable_publication_bundles",
+      "bundles": 36,
+      "base_ref": null,
+      "content_qa": "not_evaluated"
+    },
+    "remote_all_dates_mirror_snapshot": {
+      "status": "passed_current_music_mirrors",
+      "manifests": 49,
+      "manifest_blobs": {
+        "2026-09-04.json": "c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+        "2026-09-05.json": "425068f9d2850f6174758c01adee37d25f3bb336",
+        "2026-09-06.json": "cbe1822dfb00e97d8f4aa537dbfd1f52f48dcccf",
+        "2026-09-07.json": "43c49954065383de75f28c4bfd239b7473f1c324",
+        "2026-09-08.json": "1aff7797664028e9729b0b42925909206fbdef2e",
+        "2026-09-09.json": "5b883498386208ef9809ec552e12bd30e5ae0510",
+        "2026-09-10.json": "6981929543fd31c36649815397d89b2bf1632551",
+        "2026-09-11.json": "66b29d99e17bc6da20987d9accd71e57851aa9fa",
+        "2026-09-12.json": "9e852ec43b70c9612f836c60eb55f8d44164dadc",
+        "2026-09-13.json": "b576357c8a83b6e618ce52984d43efb9ccd1e0fa",
+        "2026-09-14.json": "a7e1729f60debf70fd3c922c83508286868bb83a",
+        "2026-09-15.json": "e348cea20ac3b39edfad8d26cd2de5b49d4724c6",
+        "2026-09-16.json": "7a672e648529aa290ace44f78f43f217d29e5b0d",
+        "2026-09-17.json": "b62ae078472ac906c381bf246a59818507688f72",
+        "2026-09-18.json": "e2ad0074519697a2f402427996a212b3831f8290",
+        "2026-09-19.json": "2d2999277022bc329e15ce43477453edc5e8fc21",
+        "2026-09-20.json": "03cf1cc76eebfd74b0342fb74a8c1e616942c737",
+        "2026-09-21.json": "125ab7faf9a2fd4c08812b1bffc57686f65a1e4d",
+        "2026-09-22.json": "08788b30503a3d320b0343f015c213050b43cb21",
+        "2026-09-23.json": "07a2dddee1f9d38067afced0d678e4c578197d64",
+        "2026-09-24.json": "6bb9b98980a1f6dc7883d45cf2a4744879ea40c7",
+        "2026-09-25.json": "03f0f440b402f65da5fbd32943b70ac631e885ff",
+        "2026-09-26.json": "2a6e8cacaec306279f64685e6f4ddd3ddcaedb11",
+        "2026-09-28.json": "a40e31e20b92f129bf2b21f1073e3a69b120e33b",
+        "2026-09-29.json": "05ac05fdddcc456cd6103fb8854a5e77d8882dfe",
+        "2026-09-30.json": "4e2ed9d2f5a7f7a4f8df41a4d4407b6429c8695f",
+        "2026-10-01.json": "08c0655ae1e1a430b803cedfaee28265d9bca7c4",
+        "2026-10-02.json": "977590adad74f3530dc571b9578648372d99b460",
+        "2026-10-03.json": "c0d1ba2c8088bee2b9bfe73c0491112db013d040",
+        "2026-10-04.json": "e21086438c1609a5c65e4dfad5eb17efa390197c",
+        "2026-10-05.json": "bd8e8944afd975565557ac3a88f1ac3b8e16a8f7",
+        "2026-10-06.json": "1edfce17fd8094efd866e294b8cac1cf02f5e72d",
+        "2026-10-07.json": "ed9f6ab90943f1a35219cc8b41017559955aec86",
+        "2026-10-08.json": "2e8c9efd842d7d12ec5e76582d3098b2904de3f7",
+        "2026-10-09.json": "76dff8dedee8c861d72f158e73de4afb106f8d42",
+        "2026-10-11.json": "3da7d2fcf2f9f1417a32ad0e313118646cdc04ea",
+        "2026-10-12.json": "35f974e89bd209addcfef98ba16f5b7bc5e0ace3",
+        "2026-10-15.json": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26",
+        "2026-10-16.json": "08a0e041348374b67cc59fe08080364ce92b4973",
+        "2026-10-17.json": "28d482f6649e2b6cb3d67817ed0ecbfbf18e0a65",
+        "2026-10-18.json": "ecbdb7dbd5007784bdfb7eee4a9c3cc7706aa054",
+        "2026-10-19.json": "250f0308b004cf080611a943c55d896f47b6cab8",
+        "2026-10-20.json": "3cb0f6c54d5a27fa00adc0a0f5031c119fc69563",
+        "2026-10-21.json": "91677ae6a1c440bedb3ba1e5fb20753f52b797db",
+        "2026-10-22.json": "1c2c2b36491baf68396d30660ce3a3885e4c32c9",
+        "2026-10-23.json": "ccd649a467320f7caa9e7dfb45cb5046677e9f81",
+        "2026-10-24.json": "dedcb8a16ec3de4da60179d16f0552ca79ac7046",
+        "2026-10-25.json": "612db9ac80c1b59f2cfdb35e6afd6c801f7d6894",
+        "2026-10-26.json": "0b3edb0e598e9c51c7eab9b712033708bbb622ba"
+      },
+      "state_blob_sha": "70fb0def7658bf2e850eecc0d5755cde7bf74498",
+      "heads": {
+        "music": "a8c73018983688b0246233b70e947039aeb5df40",
+        "vault": "217ee992f5a9f6084a86d8fbc24167419abc0dcb"
+      },
+      "checked": [
+        "all manifest names and blob hashes",
+        "state blob hash",
+        "corresponding music notes exist",
+        "tree evidence completeness",
+        "stable branch observations"
+      ],
+      "not_certified": [
+        "state semantic coverage (run local CI)",
+        "live sources",
+        "editorial quality",
+        "device synchronization",
+        "notification delivery"
+      ]
+    },
+    "repository_CI": [
+      {
+        "repo": "ZJFILOVE/music-daily",
+        "runs": [
+          {
+            "id": 40254420151,
+            "head_sha": "a8c73018983688b0246233b70e947039aeb5df40",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/ZJFILOVE/music-daily/actions/runs/40254420151"
+          }
+        ]
+      },
+      {
+        "repo": "ZJFILOVE/obsidian-vault",
+        "runs": [
+          {
+            "id": 40254458141,
+            "head_sha": "217ee992f5a9f6084a86d8fbc24167419abc0dcb",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/40254458141"
+          }
+        ]
+      }
+    ],
+    "repository_CI_jobs": [
+      {
+        "repo": "ZJFILOVE/music-daily",
+        "run": {
+          "id": 40254420151,
+          "head_sha": "a8c73018983688b0246233b70e947039aeb5df40",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/ZJFILOVE/music-daily/actions/runs/40254420151"
+        },
+        "jobs": [
+          {
+            "name": "validate",
+            "conclusion": "success",
+            "steps": [
+              {
+                "name": "Set up job",
+                "conclusion": "success"
+              },
+              {
+                "name": "Run actions/checkout@v4",
+                "conclusion": "success"
+              },
+              {
+                "name": "Run actions/setup-python@v5",
+                "conclusion": "success"
+              },
+              {
+                "name": "Run python scripts/validate.py",
+                "conclusion": "success"
+              },
+              {
+                "name": "Run python -m unittest discover -s scripts -p 'test_consistency.py' -v",
+                "conclusion": "success"
+              },
+              {
+                "name": "Preserve all historically exposed tracks and existing state values",
+                "conclusion": "success"
+              },
+              {
+                "name": "Post Run actions/setup-python@v5",
+                "conclusion": "success"
+              },
+              {
+                "name": "Post Run actions/checkout@v4",
+                "conclusion": "success"
+              },
+              {
+                "name": "Complete job",
+                "conclusion": "success"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "repo": "ZJFILOVE/obsidian-vault",
+        "run": {
+          "id": 40254458141,
+          "head_sha": "217ee992f5a9f6084a86d8fbc24167419abc0dcb",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/40254458141"
+        },
+        "jobs": [
+          {
+            "name": "validate",
+            "conclusion": "success",
+            "steps": [
+              {
+                "name": "Set up job",
+                "conclusion": "success"
+              },
+              {
+                "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+                "conclusion": "success"
+              },
+              {
+                "name": "Validate publications and full source-history coverage",
+                "conclusion": "success"
+              },
+              {
+                "name": "Negative regressions and interrupted-publication recovery",
+                "conclusion": "success"
+              },
+              {
+                "name": "Compare permanent history with the actual base commit",
+                "conclusion": "success"
+              },
+              {
+                "name": "Record scope of checks",
+                "conclusion": "success"
+              },
+              {
+                "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+                "conclusion": "success"
+              },
+              {
+                "name": "Complete job",
+                "conclusion": "success"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "local_full_repository_validation": "not run in partial local checkout; full repository validators and append-only/history checks confirmed in pinned CI runs",
+    "device_sync": "not_tested",
+    "notification_delivery": "not_tested"
+  },
+  "source_failures": [
+    {
+      "source": "Apple iTunes catalogue search country=cn",
+      "result": "zero results; not treated as missing permanent history; discovery moved to real Apple Music resource search"
+    },
+    {
+      "source": "https://music.apple.com/cn/song/908180658",
+      "result": "404; rejected, no silent substitution of another The Bottle version"
+    }
+  ],
+  "historical_backlog": [
+    "Retained all previous state values, historical aliases, removed exposures and old source/format findings. Current checks do not certify all historical live sources."
+  ]
+}
