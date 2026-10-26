@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-10-26",
+  "operation_id": "english:2026-10-26",
+  "mode": "new",
+  "status": "passed_current_publication_gates",
+  "recorded_at_utc": "2026-10-26T00:10:00Z",
+  "selection": {
+    "source_url": "https://www.smithsonianmag.com/history/duplication-nation-3D-printing-rise-180954332/",
+    "title": "How the Photocopier Changed the Way We Worked—and Played",
+    "source": "Smithsonian Magazine",
+    "component": "daily",
+    "estimated_minutes": "10-13",
+    "level": "CET-6 / introductory TOEFL",
+    "topic": "technology history, information flow, institutions and unintended consequences",
+    "recent_topic_cooldown": "passed; no narrow photocopying, office information-flow or technology-diffusion source in the prior seven days",
+    "diversity_result": "Selected a technology-and-institutions article after a week dominated by environment, collections, acoustics, measurement, television and music biography."
+  },
+  "candidate_policy": {
+    "minimum": 8,
+    "actual": 11,
+    "scoring_weights": {
+      "quality": 0.3,
+      "usefulness": 0.25,
+      "curiosity": 0.2,
+      "novelty": 0.15,
+      "fit": 0.1
+    },
+    "candidates": [
+      {
+        "title": "How the Photocopier Changed the Way We Worked—and Played",
+        "url": "https://www.smithsonianmag.com/history/duplication-nation-3D-printing-rise-180954332/",
+        "source": "Smithsonian Magazine",
+        "format": "history feature",
+        "estimated_minutes": "10-13",
+        "verification_scope": "direct_page_opened_title_author_date_body_and_editor_corrections_observed",
+        "scores": {
+          "quality": 90,
+          "usefulness": 92,
+          "curiosity": 93,
+          "novelty": 90,
+          "fit": 90
+        },
+        "decision": "selected",
+        "reason": "Strong mechanism-based argument, varied institutional examples, appropriate length; 2015 predictions can be taught as claims with dated scope.",
+        "weighted_score": 91.1
+      },
+      {
+        "title": "What is legal tender?",
+        "url": "https://www.bankofengland.co.uk/explainers/what-is-legal-tender",
+        "source": "Bank of England",
+        "format": "official explainer",
+        "estimated_minutes": "4-6",
+        "verification_scope": "direct_page_opened_title_update_date_and_full_core_explanation_observed",
+        "scores": {
+          "quality": 91,
+          "usefulness": 91,
+          "curiosity": 82,
+          "novelty": 87,
+          "fit": 86
+        },
+        "decision": "not_selected",
+        "reason": "Excellent misconception correction but borderline short for the 5-15 minute target.",
+        "weighted_score": 88.1
+      },
+      {
+        "title": "Why does money depend on trust?",
+        "url": "https://www.bankofengland.co.uk/explainers/why-does-money-depend-on-trust",
+        "source": "Bank of England",
+        "format": "official explainer",
+        "estimated_minutes": "5-7",
+        "verification_scope": "direct_page_opened_core_argument_observed",
+        "scores": {
+          "quality": 88,
+          "usefulness": 86,
+          "curiosity": 84,
+          "novelty": 83,
+          "fit": 84
+        },
+        "decision": "not_selected",
+        "reason": "Clear but less textually rich; overlaps the economics stream used earlier in the archive.",
+        "weighted_score": 85.55
+      },
+      {
+        "title": "What is inflation?",
+        "url": "https://www.bankofengland.co.uk/explainers/what-is-inflation",
+        "source": "Bank of England",
+        "format": "official explainer",
+        "estimated_minutes": "8-11",
+        "verification_scope": "direct_page_opened_mechanism_and_current_examples_observed",
+        "scores": {
+          "quality": 89,
+          "usefulness": 90,
+          "curiosity": 78,
+          "novelty": 77,
+          "fit": 83
+        },
+        "decision": "not_selected",
+        "reason": "Useful but narrower topic variety and the central-bank institutional perspective needs more external framing.",
+        "weighted_score": 84.65
+      },
+      {
+        "title": "Domestic Fantasies",
+        "url": "https://www.metmuseum.org/perspectives/domestic-fantasies",
+        "source": "The Metropolitan Museum of Art",
+        "format": "museum essay",
+        "estimated_minutes": "13",
+        "verification_scope": "direct_page_opened_title_author_date_read_time_and_body_observed",
+        "scores": {
+          "quality": 91,
+          "usefulness": 84,
+          "curiosity": 91,
+          "novelty": 86,
+          "fit": 85
+        },
+        "decision": "not_selected",
+        "reason": "Excellent, but material culture and art history are too close to the immediately preceding Amy Beach documentary and recent museum input.",
+        "weighted_score": 87.9
+      },
+      {
+        "title": "The Accidental Invention of Play-Doh",
+        "url": "https://www.smithsonianmag.com/innovation/accidental-invention-play-doh-180973527/",
+        "source": "Smithsonian Magazine",
+        "format": "innovation history feature",
+        "estimated_minutes": "7-9",
+        "verification_scope": "direct_page_opened_title_author_date_and_body_observed",
+        "scores": {
+          "quality": 86,
+          "usefulness": 82,
+          "curiosity": 92,
+          "novelty": 88,
+          "fit": 86
+        },
+        "decision": "not_selected",
+        "reason": "Engaging adaptation story, but offers less evidence-status work than the selected photocopier feature.",
+        "weighted_score": 86.5
+      },
+      {
+        "title": "Using Newspaper Journalism to Introduce Units of Study in United States History",
+        "url": "https://blogs.loc.gov/teachers/2026/10/using-newspaper-journalism-to-introduce-units-of-study-in-united-states-history/",
+        "source": "Library of Congress",
+        "format": "official teaching blog",
+        "estimated_minutes": "6-9",
+        "verification_scope": "direct_page_opened_title_author_date_procedure_and_source_analysis_guidance_observed",
+        "scores": {
+          "quality": 90,
+          "usefulness": 88,
+          "curiosity": 78,
+          "novelty": 84,
+          "fit": 81
+        },
+        "decision": "not_selected",
+        "reason": "Strong primary-source routine but written mainly for teachers and tied closely to U.S. history classrooms.",
+        "weighted_score": 85.3
+      },
+      {
+        "title": "A Short History of the ACT UP Art Box",
+        "url": "https://www.metmuseum.org/perspectives/act-up-art-box-peter-antony",
+        "source": "The Metropolitan Museum of Art",
+        "format": "first-person museum history",
+        "estimated_minutes": "8-11",
+        "verification_scope": "direct_page_opened_project_description_and_participant_account_observed",
+        "scores": {
+          "quality": 88,
+          "usefulness": 80,
+          "curiosity": 90,
+          "novelty": 86,
+          "fit": 81
+        },
+        "decision": "not_selected",
+        "reason": "Valuable first-person account, but proper-name density and background load are higher for a weekday input.",
+        "weighted_score": 85.4
+      },
+      {
+        "title": "The Evolution of Coinage",
+        "url": "https://www.royalmint.com/stories/collect/the-evolution-of-coinage/",
+        "source": "The Royal Mint",
+        "format": "institutional history article",
+        "estimated_minutes": "6-9",
+        "verification_scope": "official_search_result_and_page_metadata_observed_not_full_body_reviewed",
+        "scores": {
+          "quality": 82,
+          "usefulness": 79,
+          "curiosity": 84,
+          "novelty": 83,
+          "fit": 80
+        },
+        "decision": "not_selected",
+        "reason": "Candidate identity is real, but the full body was not reviewed and the site has a collector/commercial context.",
+        "weighted_score": 81.6
+      },
+      {
+        "title": "@metlibrary: A History of Social Media in the Stacks",
+        "url": "https://www.metmuseum.org/perspectives/history-of-social-media",
+        "source": "The Metropolitan Museum of Art",
+        "format": "museum library essay",
+        "estimated_minutes": "4",
+        "verification_scope": "direct_page_metadata_observed",
+        "scores": {
+          "quality": 85,
+          "usefulness": 79,
+          "curiosity": 83,
+          "novelty": 81,
+          "fit": 75
+        },
+        "decision": "not_selected",
+        "reason": "Below the policy's approximate weekday duration floor.",
+        "weighted_score": 81.5
+      },
+      {
+        "title": "Ten Surprising Facts About Everyday Household Objects",
+        "url": "https://www.smithsonianmag.com/innovation/ten-surprising-facts-about-everyday-household-objects-180974566/",
+        "source": "Smithsonian Magazine",
+        "format": "innovation history list feature",
+        "estimated_minutes": "8-10",
+        "verification_scope": "search_result_and_article_identity_observed_not_full_body_reviewed",
+        "scores": {
+          "quality": 80,
+          "usefulness": 77,
+          "curiosity": 88,
+          "novelty": 82,
+          "fit": 78
+        },
+        "decision": "not_selected",
+        "reason": "Real and accessible candidate, but list structure offers weaker sustained argument training.",
+        "weighted_score": 80.95
+      }
+    ]
+  },
+  "source_verification": {
+    "verified_at_utc": "2026-10-26T00:03:00Z",
+    "method": "direct_source_page_read",
+    "observations": [
+      "Exact title and author Clive Thompson observed on Smithsonian Magazine.",
+      "Publication date March 2015 observed.",
+      "Body sections on Xerox 914, office information flow, informal and political publishing, art, copyright, and 3D-printing analogy were read.",
+      "Two editor corrections at the end of the page were observed.",
+      "Page accessible as text; no audio or playback claim made."
+    ],
+    "scope_caveats": [
+      "Individual historical claims were not all independently reverified.",
+      "The 3D-printing discussion is dated prediction from 2015 and is explicitly labeled as such in the teaching note.",
+      "External links and China-local accessibility were not exhaustively tested."
+    ],
+    "accessibility_at_check": "page_text_available"
+  },
+  "freshness": {
+    "original_history_blob_sha": "1a7c886644dbc72409eb47cf4f1c0368defddc43",
+    "original_history_rows": 48,
+    "original_unique_source_urls": 48,
+    "final_source_url_exact_prior_occurrences": 0,
+    "prepared_reservation_prior_occurrences": 0,
+    "current_history_rows": 49,
+    "current_unique_source_urls": 49,
+    "current_date_source_registration_count": 1,
+    "note": "Freshness was checked against the original pre-selection history and all 33 prior PREPARED bundles."
+  },
+  "teaching_qa": {
+    "weekday_targets": 3,
+    "daily_source_time": "10-13 minutes",
+    "daily_required_sections": "passed",
+    "daily_questions": 3,
+    "translation_independently_authored_exercises": 2,
+    "translation_levels": [
+      "CET-6",
+      "TOEFL/academic"
+    ],
+    "folded_answer_callouts": 4,
+    "vocabulary_items": 8,
+    "retrieval_quiz": "present",
+    "cross_links": "passed",
+    "auto_markers_and_manual_notes_boundary": "passed",
+    "copyright_scope": "links, summaries, brief terms and original exercises; no article reproduction"
+  },
+  "bundle": {
+    "prepared_path": ".recommendation/transactions/english/2026-10-26.json",
+    "prepared_creation_commit": "a75478e9392a22b52278e7fd125d593ef7770100",
+    "prepared_blob_sha": "0704af676c0ca422535d93393b49110f0873154d",
+    "bundle_sha256": "5e3de230743b72bd44273e08a8563271f80bead7e612ea4cb75c0e63be443c53",
+    "plan_sha256": "7cea76815b864c1a9f7af7c9443dc32f5b49f620349704078cf865e670948256",
+    "planner_before": "ready_to_resume_stage_1",
+    "planner_after": "artifacts_match"
+  },
+  "publication": {
+    "commit": "24a38954f86d658dc66f7fc771c8ba55b88537a5",
+    "readback_receipt_commit": "cf0bfc46d76b3daa44694949bb1d1027cd4a73cb",
+    "targets": [
+      {
+        "path": "50-courses/English/Daily/2026-10-26.md",
+        "blob_sha": "41e1e32ed41a81128c4d63cbdf767430ccd34d52",
+        "readback_exact": true
+      },
+      {
+        "path": "50-courses/English/Translation/2026-10-26.md",
+        "blob_sha": "4b742406a8abc39eb83a463208d1a7cb5dbc7416",
+        "readback_exact": true
+      },
+      {
+        "path": "50-courses/English/Vocabulary/2026-10-26.md",
+        "blob_sha": "847579682c22e6a2bf38e44da3319450ca45d841",
+        "readback_exact": true
+      },
+      {
+        "path": ".recommendation/history/english.jsonl",
+        "blob_sha": "a9fae4bd3039fb95c5ff366dce94b29807b50cdc",
+        "readback_exact": true
+      }
+    ]
+  },
+  "checks": {
+    "publication_bundle_freeze_and_baselines": "passed",
+    "publication_recovery_after_write": "artifacts_match",
+    "publication_unit_tests": "41 passed",
+    "english_full_history_and_note_validator": "passed; 49 history rows, 43 strict daily/weekly notes checked",
+    "immutable_transaction_journal": "passed; 34 bundles",
+    "repository_ci": {
+      "run_id": 40247933720,
+      "head_sha": "cf0bfc46d76b3daa44694949bb1d1027cd4a73cb",
+      "workflow": "Recommendation integrity (read-only)",
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        "Validate publications and full source-history coverage",
+        "Negative regressions and interrupted-publication recovery",
+        "Compare permanent history with the actual base commit"
+      ]
+    },
+    "live_source_content_qa": "passed for selected page identity and observed content; broader claim corroboration limited as recorded",
+    "device_sync": "not_tested",
+    "notification_delivery": "not_tested"
+  },
+  "historical_backlog": [
+    "Legacy source/format issues remain retained in repository history and were not rewritten."
+  ]
+}
