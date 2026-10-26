@@ -1,0 +1,14 @@
+{
+  "operation_id": "music:2026-10-26",
+  "status": "prepared_verified",
+  "recorded_at": "2026-10-26 01:28:27 UTC",
+  "prepared_creation_commit": "76eb7812c36abe4c9f41cdcacdeb5903aa660f2d",
+  "prepared_blob": "4c59c9066479396641deec8df10e5684725443b4",
+  "original_bundle_sha256": "a2f26b253f2fd82ec2fd2d98195027eddb62da76e198d755eb2c54fe6bb757dc",
+  "original_plan_sha256": "55b2d974905b94f31d0ea4e6ffc3538939ef4d38e15852db48a6c8692aa4489d",
+  "exact_payload_readback": true,
+  "baseline_heads": {
+    "ZJFILOVE/music-daily": "2bb1e31c3609e730919874b1f16c2c9e1ca03a71",
+    "ZJFILOVE/obsidian-vault": "18a7791eabab25450db12e3502b68445090987db"
+  }
+}
