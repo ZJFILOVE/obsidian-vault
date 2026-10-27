@@ -1,0 +1,21 @@
+{
+  "operation_id": "music:2026-10-27",
+  "stage": "prepared",
+  "recorded_at_utc": "2026-10-27 01:37:30 UTC",
+  "prepared": {
+    "commit": "d4c9f34285fb25ebb0fb0761299ffb14aaa6f7e6",
+    "tree": "0e9253cd903c4ce64c21feb6f007f467157d60a2",
+    "blob": "27b4eaa2ec25f2afbe6d8c936062b3c9e46e1432",
+    "original_bundle_sha256": "f3ae929a4d33624e5c29c8f9a16217cb6b7a637bf66c446699e45c35dd7168ac",
+    "original_plan_sha256": "ddc818f0d620e140c52abd9fe1e030918e78b918f56dbeb4ca4085f9d852df06"
+  },
+  "readback": "byte_equal",
+  "errors": [
+    {
+      "type": "tool_transport",
+      "message": "code-mode host closed its stdout",
+      "during": "initial read-only preflight",
+      "action": "fresh reads succeeded before selection; no write attempted during failure"
+    }
+  ]
+}
