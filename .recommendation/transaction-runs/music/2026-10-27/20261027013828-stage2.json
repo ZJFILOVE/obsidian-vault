@@ -1,0 +1,40 @@
+{
+  "operation_id": "music:2026-10-27",
+  "stage": 2,
+  "recorded_at_utc": "2026-10-27 01:38:28 UTC",
+  "original_bundle_digest": "f3ae929a4d33624e5c29c8f9a16217cb6b7a637bf66c446699e45c35dd7168ac",
+  "commit": "7110537407015f28dbe109feddf667474f653cf2",
+  "readbacks": [
+    {
+      "repo": "ZJFILOVE/music-daily",
+      "path": "recommendations/2026/10/2026-10-27.json",
+      "blob_sha": "f5d258201e8314123f25868c21406fd00f1f06ae",
+      "exact": true
+    },
+    {
+      "repo": "ZJFILOVE/music-daily",
+      "path": "state/tracks.json",
+      "blob_sha": "40c9051d02300b1bf547c18ac93a593736c81674",
+      "exact": true
+    },
+    {
+      "repo": "ZJFILOVE/obsidian-vault",
+      "path": "Music/Daily/2026-10-27.md",
+      "blob_sha": "6dcee63a165a432f51c2726dd9f14f78b8745497",
+      "exact": true
+    },
+    {
+      "repo": "ZJFILOVE/obsidian-vault",
+      "path": "Music/Daily/manifests/2026-10-27.json",
+      "blob_sha": "f5d258201e8314123f25868c21406fd00f1f06ae",
+      "exact": true
+    },
+    {
+      "repo": "ZJFILOVE/obsidian-vault",
+      "path": "Music/Daily/state/tracks.json",
+      "blob_sha": "40c9051d02300b1bf547c18ac93a593736c81674",
+      "exact": true
+    }
+  ],
+  "errors": []
+}
