@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-27",
+  "attempt": "20261027T000600Z-stage1",
+  "recorded_at": "2026-10-27T08:06:00+08:00",
+  "stage": 1,
+  "original_bundle_sha256": "c9ec7600162af325c98711edbd34f078095b27e7c6cb173fc265847092f0f9f4",
+  "original_plan_sha256": "62717d3e47efe866bda06c7e25e41ec68e465c81ed2972f3b7f01ede6fdcc7fd",
+  "planner": {
+    "status": "ready_to_resume",
+    "next_stage": 1,
+    "observed_head": "6d0c366a668abb977396987046efb0cf3a226842"
+  },
+  "commit": "beeffefc66a8baefe3a59a4210a5937906a9190b",
+  "readbacks": [
+    {
+      "path": "50-courses/English/Daily/2026-10-27.md",
+      "sha": "588347ca9f67b9679dc396a26084132ed2aeaf18",
+      "exact": true
+    },
+    {
+      "path": "50-courses/English/Translation/2026-10-27.md",
+      "sha": "fb5583a95e82fec626ec9bc7a1eef68d894a0471",
+      "exact": true
+    },
+    {
+      "path": "50-courses/English/Vocabulary/2026-10-27.md",
+      "sha": "3ca391b44a81811e6c6b5fd392582ac9ddd0ebc1",
+      "exact": true
+    },
+    {
+      "path": ".recommendation/history/english.jsonl",
+      "sha": "3cc27c31c276ccc02fdc076eec5982dd9924c7c3",
+      "exact": true
+    }
+  ],
+  "errors": []
+}
