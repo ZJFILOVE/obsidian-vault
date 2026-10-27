@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-27",
+  "attempt": "20261027T000200Z-prepared",
+  "recorded_at": "2026-10-27T08:02:00+08:00",
+  "stage": "prepared",
+  "prepared_path": ".recommendation/transactions/english/2026-10-27.json",
+  "prepared_creation_commit": "42813c1ca306a246dbd99296cf91b5e6bb464d4c",
+  "prepared_blob_sha": "7a63e99bc6f33433b3fc6b5a39ea6d3477450679",
+  "original_bundle_sha256": "c9ec7600162af325c98711edbd34f078095b27e7c6cb173fc265847092f0f9f4",
+  "original_plan_sha256": "62717d3e47efe866bda06c7e25e41ec68e465c81ed2972f3b7f01ede6fdcc7fd",
+  "readback": {
+    "status": "exact_match",
+    "blob_sha": "7a63e99bc6f33433b3fc6b5a39ea6d3477450679"
+  },
+  "errors": []
+}
