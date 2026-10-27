@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-10-27",
+  "operation_id": "english:2026-10-27",
+  "mode": "new",
+  "status": "passed_current_publication_gates",
+  "recorded_at_utc": "2026-10-27T00:09:00Z",
+  "selection": {
+    "source_url": "https://www.smithsonianmag.com/innovation/how-instagram-changing-way-we-design-cultural-spaces-180967071/",
+    "title": "How Instagram Is Changing the Way We Design Cultural Spaces",
+    "source": "Smithsonian Magazine",
+    "component": "daily",
+    "estimated_minutes": "9-12",
+    "level": "CET-6 / introductory TOEFL",
+    "topic": "design incentives, cultural spaces, platform visibility and evidence strength",
+    "recent_topic_cooldown": "passed; no source in the prior seven days focused narrowly on photo-oriented design or platform incentives in physical cultural spaces",
+    "diversity_result": "Selected a cities-and-design feature after recent material on environmental practice, collections, acoustics, measurement, television, music biography and office technology. The mechanism overlaps general technology-and-behavior analysis, but the actors, setting and teaching objective differ from the previous day's photocopier history."
+  },
+  "candidate_policy": {
+    "minimum": 8,
+    "actual": 8,
+    "scoring_weights": {
+      "quality": 0.3,
+      "usefulness": 0.25,
+      "curiosity": 0.2,
+      "novelty": 0.15,
+      "fit": 0.1
+    },
+    "candidates": [
+      {
+        "title": "How Instagram Is Changing the Way We Design Cultural Spaces",
+        "url": "https://www.smithsonianmag.com/innovation/how-instagram-changing-way-we-design-cultural-spaces-180967071/",
+        "source": "Smithsonian Magazine",
+        "format": "magazine feature",
+        "estimated_minutes": "9-12",
+        "verification_scope": "direct_page_opened_title_subtitle_author_date_and_complete_body_observed",
+        "scores": {
+          "quality": 90,
+          "usefulness": 90,
+          "curiosity": 91,
+          "novelty": 88,
+          "fit": 91
+        },
+        "decision": "selected",
+        "reason": "Sustained mechanism, varied institutional examples, strong evidence-layer practice and appropriate length; 2017 facts can be taught with an explicit dated-scope caveat.",
+        "weighted_score": 90.0
+      },
+      {
+        "title": "Understanding the Power of Primary Sources through Home, Hand, and Heart",
+        "url": "https://www.smithsonianmag.com/blogs/smithsonian-education/2021/03/17/understanding-power-primary-sources-through-home-hand-and-heart/",
+        "source": "Smithsonian Education",
+        "format": "museum education essay",
+        "estimated_minutes": "7-10",
+        "verification_scope": "direct_page_opened_title_authors_date_and_body_observed",
+        "scores": {
+          "quality": 84,
+          "usefulness": 86,
+          "curiosity": 82,
+          "novelty": 78,
+          "fit": 84
+        },
+        "decision": "not_selected",
+        "reason": "Strong sensory examples, but primary-source and museum learning are too close to the 2026-10-21 natural-history collection lesson.",
+        "weighted_score": 83.2
+      },
+      {
+        "title": "How Steve Jobs' Love of Simplicity Fueled A Design Revolution",
+        "url": "https://www.smithsonianmag.com/arts-culture/how-steve-jobs-love-of-simplicity-fueled-a-design-revolution-23868877/",
+        "source": "Smithsonian Magazine",
+        "format": "design history feature",
+        "estimated_minutes": "10-13",
+        "verification_scope": "official_search_result_with_title_and_substantive_body_excerpt_observed_not_full_page_reviewed",
+        "scores": {
+          "quality": 85,
+          "usefulness": 82,
+          "curiosity": 88,
+          "novelty": 76,
+          "fit": 82
+        },
+        "decision": "not_selected",
+        "reason": "Engaging design vocabulary, but product-technology history is too close to the immediately preceding photocopier feature.",
+        "weighted_score": 83.2
+      },
+      {
+        "title": "How Zines Brought Power to Those on the Margins of Culture",
+        "url": "https://www.smithsonianmag.com/smart-news/brooklyn-museum-explores-how-zines-offered-a-voice-to-those-outside-mainstream-culture-180983351/",
+        "source": "Smithsonian Magazine",
+        "format": "arts and culture report",
+        "estimated_minutes": "5-7",
+        "verification_scope": "official_search_result_with_title_date_and_core_body_observed",
+        "scores": {
+          "quality": 84,
+          "usefulness": 79,
+          "curiosity": 87,
+          "novelty": 72,
+          "fit": 79
+        },
+        "decision": "not_selected",
+        "reason": "Real and relevant, but its copy-machine and independent-publishing mechanism semantically overlaps the 2026-10-26 source.",
+        "weighted_score": 81.05
+      },
+      {
+        "title": "Getting Started with Primary Sources",
+        "url": "https://www.loc.gov/programs/teachers/getting-started-with-primary-sources/",
+        "source": "Library of Congress",
+        "format": "official teaching guide",
+        "estimated_minutes": "4-6",
+        "verification_scope": "direct_official_page_opened_definition_and_navigation_observed",
+        "scores": {
+          "quality": 88,
+          "usefulness": 86,
+          "curiosity": 75,
+          "novelty": 74,
+          "fit": 79
+        },
+        "decision": "not_selected",
+        "reason": "Authoritative and practical, but the core page is borderline short and aimed more at teachers than independent weekday learners.",
+        "weighted_score": 81.9
+      },
+      {
+        "title": "What is legal tender?",
+        "url": "https://www.bankofengland.co.uk/explainers/what-is-legal-tender",
+        "source": "Bank of England",
+        "format": "official explainer",
+        "estimated_minutes": "4-6",
+        "verification_scope": "direct_page_opened_title_and_complete_core_explanation_observed",
+        "scores": {
+          "quality": 91,
+          "usefulness": 91,
+          "curiosity": 83,
+          "novelty": 86,
+          "fit": 87
+        },
+        "decision": "not_selected",
+        "reason": "Excellent misconception correction, but the source is borderline short for the 5-15 minute target.",
+        "weighted_score": 88.25
+      },
+      {
+        "title": "How does the housing market affect the economy?",
+        "url": "https://www.bankofengland.co.uk/explainers/how-does-the-housing-market-affect-the-economy",
+        "source": "Bank of England",
+        "format": "official explainer",
+        "estimated_minutes": "7-10",
+        "verification_scope": "direct_page_opened_title_update_date_mechanism_examples_and_limit_sections_observed",
+        "scores": {
+          "quality": 88,
+          "usefulness": 87,
+          "curiosity": 82,
+          "novelty": 84,
+          "fit": 86
+        },
+        "decision": "not_selected",
+        "reason": "Good causal-chain practice, but UK housing figures and policy context are dated and require more contextual updating than today's design feature.",
+        "weighted_score": 85.75
+      },
+      {
+        "title": "What is GDP?",
+        "url": "https://www.bankofengland.co.uk/explainers/what-is-gdp",
+        "source": "Bank of England",
+        "format": "official explainer",
+        "estimated_minutes": "6-9",
+        "verification_scope": "direct_page_opened_title_definition_limitations_and_wellbeing_sections_observed",
+        "scores": {
+          "quality": 88,
+          "usefulness": 91,
+          "curiosity": 80,
+          "novelty": 80,
+          "fit": 88
+        },
+        "decision": "not_selected",
+        "reason": "Clear and useful, but more textbook-like and less novel than the selected feature's evidence and trade-off structure.",
+        "weighted_score": 85.95
+      }
+    ]
+  },
+  "source_verification": {
+    "verified_at_utc": "2026-10-27T00:04:00Z",
+    "method": "direct_source_page_read_before_and_after_publication",
+    "observations": [
+      "Exact title, subtitle, author Emily Matchar and publication date 2017-11-08 were observed on Smithsonian Magazine.",
+      "The complete body was read across examples involving Penang, restaurants and retail, museums and experience spaces, urban visual storytelling, homogeneity and the tension between documentation and unmediated experience.",
+      "The page remained text-accessible on the post-publication check."
+    ],
+    "scope_caveats": [
+      "Platform user counts, hashtag counts, exhibitions and commercial examples are a 2017 snapshot and are labeled as dated in the note.",
+      "The article's individual external links and every quoted claim were not independently reverified.",
+      "Page readability was observed; China-local network accessibility and external-link availability were not exhaustively tested."
+    ],
+    "accessibility_at_check": "page_text_available"
+  },
+  "freshness": {
+    "original_history_blob_sha": "a9fae4bd3039fb95c5ff366dce94b29807b50cdc",
+    "original_history_rows": 49,
+    "original_unique_source_urls": 49,
+    "final_source_url_exact_prior_occurrences": 0,
+    "prepared_reservation_prior_occurrences": 0,
+    "current_history_rows": 50,
+    "current_unique_source_urls": 50,
+    "current_date_source_registration_count": 1,
+    "note": "Freshness was checked against the original pre-selection history and all 36 earlier PREPARED bundles; this operation's own reservation was excluded from the prior-occurrence test."
+  },
+  "teaching_qa": {
+    "weekday_targets": 3,
+    "daily_source_time": "9-12 minutes",
+    "daily_required_sections": "passed",
+    "daily_questions": 3,
+    "translation_independently_authored_exercises": 2,
+    "translation_levels": [
+      "CET-6",
+      "TOEFL/academic"
+    ],
+    "translation_folded_answer_callouts": 4,
+    "vocabulary_items": 8,
+    "retrieval_quiz": "present",
+    "cross_links": "passed",
+    "auto_markers_and_manual_notes_boundary": "passed",
+    "diet_content_in_repository": false,
+    "copyright_scope": "links, summaries, isolated vocabulary items and original exercises; no article or transcript reproduction"
+  },
+  "bundle": {
+    "prepared_path": ".recommendation/transactions/english/2026-10-27.json",
+    "prepared_creation_commit": "42813c1ca306a246dbd99296cf91b5e6bb464d4c",
+    "prepared_identity_receipt_commit": "6d0c366a668abb977396987046efb0cf3a226842",
+    "prepared_blob_sha": "7a63e99bc6f33433b3fc6b5a39ea6d3477450679",
+    "bundle_sha256": "c9ec7600162af325c98711edbd34f078095b27e7c6cb173fc265847092f0f9f4",
+    "plan_sha256": "62717d3e47efe866bda06c7e25e41ec68e465c81ed2972f3b7f01ede6fdcc7fd",
+    "planner_before": "ready_to_resume_stage_1",
+    "planner_after": "artifacts_match"
+  },
+  "publication": {
+    "commit": "beeffefc66a8baefe3a59a4210a5937906a9190b",
+    "readback_receipt_commit": "08616abb8134eed07128d2c9fd3650d877fe6a15",
+    "targets": [
+      {
+        "path": "50-courses/English/Daily/2026-10-27.md",
+        "blob_sha": "588347ca9f67b9679dc396a26084132ed2aeaf18",
+        "readback_exact": true
+      },
+      {
+        "path": "50-courses/English/Translation/2026-10-27.md",
+        "blob_sha": "fb5583a95e82fec626ec9bc7a1eef68d894a0471",
+        "readback_exact": true
+      },
+      {
+        "path": "50-courses/English/Vocabulary/2026-10-27.md",
+        "blob_sha": "3ca391b44a81811e6c6b5fd392582ac9ddd0ebc1",
+        "readback_exact": true
+      },
+      {
+        "path": ".recommendation/history/english.jsonl",
+        "blob_sha": "3cc27c31c276ccc02fdc076eec5982dd9924c7c3",
+        "readback_exact": true
+      }
+    ]
+  },
+  "checks": {
+    "publication_bundle_freeze_and_baselines": "passed",
+    "publication_recovery_after_write": "artifacts_match",
+    "local_content_qa": "passed; 2 independent translation exercises, 8 vocabulary items, 4 cross-links per note, 50-row history and no diet content",
+    "local_unit_tests": "123 passed",
+    "repository_ci": {
+      "run_id": 40423722673,
+      "head_sha": "08616abb8134eed07128d2c9fd3650d877fe6a15",
+      "workflow": "Recommendation integrity (read-only)",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        "Validate publications and full source-history coverage",
+        "Negative regressions and interrupted-publication recovery",
+        "Compare permanent history with the actual base commit"
+      ]
+    },
+    "live_source_content_qa": "passed for selected page identity and observed body; broader claim corroboration limited as recorded",
+    "device_sync": "not_tested",
+    "notification_delivery": "not_tested"
+  },
+  "historical_backlog": [
+    "Legacy source and format issues remain retained in repository history and were not rewritten."
+  ]
+}
