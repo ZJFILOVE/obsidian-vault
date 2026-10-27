@@ -1,0 +1,1456 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "project": "music",
+  "operation_id": "music:2026-10-27",
+  "mode": "new",
+  "status": "passed_current_publication_gates",
+  "recorded_at_utc": "2026-10-27T01:39:57.726182+00:00",
+  "preflight": {
+    "current_connector_blob_reads": 161,
+    "prior_manifest_dates": 49,
+    "prior_state_entries": 253,
+    "prior_reserved_music_canonical_ids": 60,
+    "prior_bundles": 38,
+    "complete_inputs": true,
+    "today_absence_confirmed": true,
+    "all_prior_manifest_mirrors_equal": true,
+    "states_byte_equal": true,
+    "history_freshness_basis": "original complete pre-selection state, all49 dated manifests and all38 PREPARED reservations; not updated state"
+  },
+  "candidate_evidence": {
+    "actual_count": 41,
+    "minimum": 15,
+    "candidates": [
+      {
+        "song_id": "1046817782",
+        "url": "https://music.apple.com/cn/song/1046817782",
+        "checked_at": "2026-10-27T01:33:31.397638+00:00",
+        "title": "Feel You",
+        "artist": "Julia Holter",
+        "album": "Have You in My Wilderness",
+        "canonical_url": "https://music.apple.com/cn/song/feel-you/1046817782",
+        "storefront": "cn",
+        "duration": "PT4M8S",
+        "date_published": "2015-09-25",
+        "metadata_verified": true,
+        "decision": "selected",
+        "reason": "Verified specific CN recording; distinct artist and listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.395
+      },
+      {
+        "song_id": "1285757984",
+        "url": "https://music.apple.com/cn/song/1285757984",
+        "checked_at": "2026-10-27T01:33:31.398319+00:00",
+        "metadata_verified": false,
+        "error": "HTTP Error 404: Not Found",
+        "decision": "rejected_CN_unavailable",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1364124593",
+        "url": "https://music.apple.com/cn/song/1364124593",
+        "checked_at": "2026-10-27T01:33:31.398887+00:00",
+        "title": "The Kiss (Solo Demo) [Remastered Version]",
+        "artist": "Judee Sill",
+        "album": "Songs of Rapture and Redemption: Rarities & Live",
+        "canonical_url": "https://music.apple.com/cn/song/the-kiss-solo-demo-remastered-version/1364124593",
+        "storefront": "cn",
+        "duration": "PT4M14S",
+        "date_published": "2018-07-13",
+        "metadata_verified": true,
+        "decision": "not_selected",
+        "reason": "Alternate same work/version or artist-concentration penalty; other recordings broaden final sequence",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1364646740",
+        "url": "https://music.apple.com/cn/song/1364646740",
+        "checked_at": "2026-10-27T01:33:31.399426+00:00",
+        "title": "Lament I, \"Bird's Lament\" (Instrumental)",
+        "artist": "月犬",
+        "album": "Moondog",
+        "canonical_url": "https://music.apple.com/cn/song/lament-i-birds-lament-instrumental/1364646740",
+        "storefront": "cn",
+        "duration": "PT1M46S",
+        "date_published": "1969-01-01",
+        "metadata_verified": true,
+        "decision": "selected",
+        "reason": "Verified specific CN recording; distinct artist and listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.8,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.515
+      },
+      {
+        "song_id": "1404321322",
+        "url": "https://music.apple.com/cn/song/1404321322",
+        "checked_at": "2026-10-27T01:33:31.399979+00:00",
+        "title": "Bird's Lament",
+        "artist": "卡蒂雅・拉贝克 & David Chalmin & Massimo Pupillo & Raphaël Séguinier",
+        "album": "Moondog",
+        "canonical_url": "https://music.apple.com/cn/song/birds-lament/1404321322",
+        "storefront": "cn",
+        "duration": "PT4M44S",
+        "date_published": "1997-01-01",
+        "metadata_verified": true,
+        "decision": "not_selected",
+        "reason": "Alternate same work/version or artist-concentration penalty; other recordings broaden final sequence",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1449649586",
+        "url": "https://music.apple.com/cn/song/1449649586",
+        "checked_at": "2026-10-27T01:33:31.400404+00:00",
+        "title": "Sisyphus",
+        "artist": "Andrew Bird",
+        "album": "My Finest Work Yet",
+        "canonical_url": "https://music.apple.com/cn/song/sisyphus/1449649586",
+        "storefront": "cn",
+        "duration": "PT4M6S",
+        "date_published": "2019-03-22",
+        "metadata_verified": true,
+        "decision": "selected",
+        "reason": "Verified specific CN recording; distinct artist and listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.395
+      },
+      {
+        "song_id": "1470686508",
+        "url": "https://music.apple.com/cn/song/1470686508",
+        "checked_at": "2026-10-27T01:33:31.401508+00:00",
+        "title": "Bird's Lament",
+        "artist": "月犬",
+        "album": "Sax Pax For A Sax",
+        "canonical_url": "https://music.apple.com/cn/song/birds-lament/1470686508",
+        "storefront": "cn",
+        "duration": "PT2M3S",
+        "date_published": "1994-01-01",
+        "metadata_verified": true,
+        "decision": "not_selected",
+        "reason": "Alternate same work/version or artist-concentration penalty; other recordings broaden final sequence",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1546658252",
+        "url": "https://music.apple.com/cn/song/1546658252",
+        "checked_at": "2026-10-27T01:33:31.402187+00:00",
+        "metadata_verified": false,
+        "error": "HTTP Error 404: Not Found",
+        "decision": "rejected_CN_unavailable",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1549327526",
+        "url": "https://music.apple.com/cn/song/1549327526",
+        "checked_at": "2026-10-27T01:33:31.405518+00:00",
+        "title": "Bird's Lament (Mixed)",
+        "artist": "月犬",
+        "album": "DJ-Kicks: Henrik Schwarz (DJ Mix)",
+        "canonical_url": "https://music.apple.com/cn/song/birds-lament-mixed/1549327526",
+        "storefront": "cn",
+        "duration": "PT2M39S",
+        "date_published": "2006-10-16",
+        "metadata_verified": true,
+        "decision": "not_selected",
+        "reason": "Alternate same work/version or artist-concentration penalty; other recordings broaden final sequence",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1556447852",
+        "url": "https://music.apple.com/cn/song/1556447852",
+        "checked_at": "2026-10-27T01:33:31.407668+00:00",
+        "metadata_verified": false,
+        "error": "HTTP Error 404: Not Found",
+        "decision": "rejected_CN_unavailable",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1587206130",
+        "url": "https://music.apple.com/cn/song/1587206130",
+        "checked_at": "2026-10-27T01:33:36.081647+00:00",
+        "metadata_verified": false,
+        "error": "HTTP Error 404: Not Found",
+        "decision": "rejected_CN_unavailable",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1604448921",
+        "url": "https://music.apple.com/cn/song/1604448921",
+        "checked_at": "2026-10-27T01:33:36.082855+00:00",
+        "metadata_verified": false,
+        "error": "HTTP Error 404: Not Found",
+        "decision": "rejected_CN_unavailable",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1634273261",
+        "url": "https://music.apple.com/cn/song/1634273261",
+        "checked_at": "2026-10-27T01:33:36.314211+00:00",
+        "title": "Sisyphus (Mixed)",
+        "artist": "Andrew Bird",
+        "album": "The Whistler (DJ Mix)",
+        "canonical_url": "https://music.apple.com/cn/song/sisyphus-mixed/1634273261",
+        "storefront": "cn",
+        "duration": "PT2M40S",
+        "date_published": "2022-07-22",
+        "metadata_verified": true,
+        "decision": "not_selected",
+        "reason": "Alternate same work/version or artist-concentration penalty; other recordings broaden final sequence",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1674060935",
+        "url": "https://music.apple.com/cn/song/1674060935",
+        "checked_at": "2026-10-27T01:33:40.626602+00:00",
+        "title": "Bird’s Lament",
+        "artist": "珊妮 · 迪卢卡",
+        "album": "Moondog: Bird’s lament - Single",
+        "canonical_url": "https://music.apple.com/cn/song/birds-lament/1674060935",
+        "storefront": "cn",
+        "duration": "PT2M1S",
+        "date_published": "2023-03-03",
+        "metadata_verified": true,
+        "decision": "not_selected",
+        "reason": "Alternate same work/version or artist-concentration penalty; other recordings broaden final sequence",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1679610390",
+        "url": "https://music.apple.com/cn/song/1679610390",
+        "checked_at": "2026-10-27T01:33:40.670918+00:00",
+        "title": "Feel You",
+        "artist": "Julia Holter & The Orchestra of Syrian Musicians",
+        "album": "Africa Express Presents…The Orchestra of Syrian Musicians & Guests",
+        "canonical_url": "https://music.apple.com/cn/song/feel-you/1679610390",
+        "storefront": "cn",
+        "duration": "PT3M43S",
+        "date_published": "2017-01-13",
+        "metadata_verified": true,
+        "decision": "not_selected",
+        "reason": "Alternate same work/version or artist-concentration penalty; other recordings broaden final sequence",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1790519430",
+        "url": "https://music.apple.com/cn/song/1790519430",
+        "checked_at": "2026-10-27T01:33:40.716822+00:00",
+        "title": "Something on Your Mind",
+        "artist": "Karen Dalton",
+        "album": "In My Own Time (50th Anniversary Edition)",
+        "canonical_url": "https://music.apple.com/cn/song/something-on-your-mind/1790519430",
+        "storefront": "cn",
+        "duration": "PT3M23S",
+        "date_published": "1971-01-01",
+        "metadata_verified": true,
+        "decision": "not_selected",
+        "reason": "Alternate same work/version or artist-concentration penalty; other recordings broaden final sequence",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1790519653",
+        "url": "https://music.apple.com/cn/song/1790519653",
+        "checked_at": "2026-10-27T01:33:40.769267+00:00",
+        "title": "Something on Your Mind - Live at the Montreux Golden Rose Pop Festival, May 1, 1971",
+        "artist": "Karen Dalton",
+        "album": "In My Own Time (50th Anniversary Edition)",
+        "canonical_url": "https://music.apple.com/cn/song/something-on-your-mind-live-at-the-montreux-golden/1790519653",
+        "storefront": "cn",
+        "duration": "PT2M37S",
+        "date_published": "1971-01-01",
+        "metadata_verified": true,
+        "decision": "not_selected",
+        "reason": "Alternate same work/version or artist-concentration penalty; other recordings broaden final sequence",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1790538645",
+        "url": "https://music.apple.com/cn/song/1790538645",
+        "checked_at": "2026-10-27T01:33:40.773334+00:00",
+        "metadata_verified": false,
+        "error": "HTTP Error 404: Not Found",
+        "decision": "rejected_CN_unavailable",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1793630694",
+        "url": "https://music.apple.com/cn/song/1793630694",
+        "checked_at": "2026-10-27T01:33:40.782482+00:00",
+        "title": "Sisyphus",
+        "artist": "Andrew Bird",
+        "album": "Alternative Youth 2025 by The Circle Session",
+        "canonical_url": "https://music.apple.com/cn/song/sisyphus/1793630694",
+        "storefront": "cn",
+        "duration": "PT4M7S",
+        "date_published": "2019-03-22",
+        "metadata_verified": true,
+        "decision": "not_selected",
+        "reason": "Alternate same work/version or artist-concentration penalty; other recordings broaden final sequence",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1793784576",
+        "url": "https://music.apple.com/cn/song/1793784576",
+        "checked_at": "2026-10-27T01:33:40.785923+00:00",
+        "title": "Something On Your Mind",
+        "artist": "Karen Dalton",
+        "album": "In My Own Time",
+        "canonical_url": "https://music.apple.com/cn/song/something-on-your-mind/1793784576",
+        "storefront": "cn",
+        "duration": "PT3M23S",
+        "date_published": "1971-01-01",
+        "metadata_verified": true,
+        "decision": "selected",
+        "reason": "Verified specific CN recording; distinct artist and listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.395
+      },
+      {
+        "song_id": "1793784835",
+        "url": "https://music.apple.com/cn/song/1793784835",
+        "checked_at": "2026-10-27T01:33:40.822261+00:00",
+        "title": "Something On Your Mind (alternate mix)",
+        "artist": "Karen Dalton",
+        "album": "In My Own Time",
+        "canonical_url": "https://music.apple.com/cn/song/something-on-your-mind-alternate-mix/1793784835",
+        "storefront": "cn",
+        "duration": "PT3M11S",
+        "date_published": "1971-01-01",
+        "metadata_verified": true,
+        "decision": "not_selected",
+        "reason": "Alternate same work/version or artist-concentration penalty; other recordings broaden final sequence",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1811467324",
+        "url": "https://music.apple.com/cn/song/1811467324",
+        "checked_at": "2026-10-27T01:33:40.824744+00:00",
+        "title": "Sisyphus",
+        "artist": "Andrew Bird",
+        "album": "Drawing & Painting Vibes",
+        "canonical_url": "https://music.apple.com/cn/song/sisyphus/1811467324",
+        "storefront": "cn",
+        "duration": "PT4M7S",
+        "date_published": "2019-03-22",
+        "metadata_verified": true,
+        "decision": "not_selected",
+        "reason": "Alternate same work/version or artist-concentration penalty; other recordings broaden final sequence",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1821326151",
+        "url": "https://music.apple.com/cn/song/1821326151",
+        "checked_at": "2026-10-27T01:33:45.118147+00:00",
+        "metadata_verified": false,
+        "error": "HTTP Error 404: Not Found",
+        "decision": "rejected_CN_unavailable",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1853596269",
+        "url": "https://music.apple.com/cn/song/1853596269",
+        "checked_at": "2026-10-27T01:33:45.273062+00:00",
+        "metadata_verified": false,
+        "error": "HTTP Error 404: Not Found",
+        "decision": "rejected_CN_unavailable",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1871140068",
+        "url": "https://music.apple.com/cn/song/1871140068",
+        "checked_at": "2026-10-27T01:33:49.520719+00:00",
+        "title": "Bird's Lament",
+        "artist": "François Mardirossian",
+        "album": "Moondog - Pépites",
+        "canonical_url": "https://music.apple.com/cn/song/birds-lament/1871140068",
+        "storefront": "cn",
+        "duration": "PT1M32S",
+        "date_published": "2026-03-20",
+        "metadata_verified": true,
+        "decision": "not_selected",
+        "reason": "Alternate same work/version or artist-concentration penalty; other recordings broaden final sequence",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "207916803",
+        "url": "https://music.apple.com/cn/song/207916803",
+        "checked_at": "2026-10-27T01:33:49.564707+00:00",
+        "metadata_verified": false,
+        "error": "HTTP Error 404: Not Found",
+        "decision": "rejected_CN_unavailable",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "266866769",
+        "url": "https://music.apple.com/cn/song/266866769",
+        "checked_at": "2026-10-27T01:33:49.593105+00:00",
+        "metadata_verified": false,
+        "error": "HTTP Error 404: Not Found",
+        "decision": "rejected_CN_unavailable",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "64814072",
+        "url": "https://music.apple.com/cn/song/64814072",
+        "checked_at": "2026-10-27T01:33:49.628669+00:00",
+        "title": "The Kiss",
+        "artist": "Judee Sill",
+        "album": "Heart Food (Remastered)",
+        "canonical_url": "https://music.apple.com/cn/song/the-kiss/64814072",
+        "storefront": "cn",
+        "duration": "PT4M36S",
+        "date_published": "1973-03-01",
+        "metadata_verified": true,
+        "decision": "not_selected",
+        "reason": "Alternate same work/version or artist-concentration penalty; other recordings broaden final sequence",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1165023301",
+        "url": "https://music.apple.com/cn/song/1165023301",
+        "checked_at": "2026-10-27T01:34:52.632603+00:00",
+        "title": "Sastanàqqàm",
+        "artist": "Tinariwen",
+        "album": "Elwan",
+        "duration": "PT3M24S",
+        "canonical_url": "https://music.apple.com/cn/song/sastan%C3%A0qq%C3%A0m/1165023301",
+        "storefront": "cn",
+        "metadata_verified": true,
+        "decision": "selected",
+        "reason": "Verified specific CN recording; distinct artist and listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.395
+      },
+      {
+        "song_id": "1165023300",
+        "title": "Tiwàyyen (feat. Kurt Vile & Matt Sweeney)",
+        "artist": "Tinariwen",
+        "album": "Elwan",
+        "url": "https://music.apple.com/cn/song/tiw%C3%A0yyen-feat-kurt-vile-matt-sweeney/1165023300",
+        "source": "https://music.apple.com/cn/album/elwan/1165023229",
+        "storefront": "cn",
+        "metadata_verified": false,
+        "verification_scope": "official_album_track_identity_only_not_exact_song_page",
+        "checked_at": "2026-10-27T01:34:52.632603+00:00",
+        "decision": "not_selected",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1165023305",
+        "title": "Nizzagh Ijbal",
+        "artist": "Tinariwen",
+        "album": "Elwan",
+        "url": "https://music.apple.com/cn/song/nizzagh-ijbal/1165023305",
+        "source": "https://music.apple.com/cn/album/elwan/1165023229",
+        "storefront": "cn",
+        "metadata_verified": false,
+        "verification_scope": "official_album_track_identity_only_not_exact_song_page",
+        "checked_at": "2026-10-27T01:34:52.632603+00:00",
+        "decision": "not_selected",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1165023309",
+        "title": "Hayati",
+        "artist": "Tinariwen",
+        "album": "Elwan",
+        "url": "https://music.apple.com/cn/song/hayati/1165023309",
+        "source": "https://music.apple.com/cn/album/elwan/1165023229",
+        "storefront": "cn",
+        "metadata_verified": false,
+        "verification_scope": "official_album_track_identity_only_not_exact_song_page",
+        "checked_at": "2026-10-27T01:34:52.632603+00:00",
+        "decision": "not_selected",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1165023351",
+        "title": "Ittus",
+        "artist": "Tinariwen",
+        "album": "Elwan",
+        "url": "https://music.apple.com/cn/song/ittus/1165023351",
+        "source": "https://music.apple.com/cn/album/elwan/1165023229",
+        "storefront": "cn",
+        "metadata_verified": false,
+        "verification_scope": "official_album_track_identity_only_not_exact_song_page",
+        "checked_at": "2026-10-27T01:34:52.632603+00:00",
+        "decision": "not_selected",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1165023365",
+        "title": "Ténéré Tàqqàl",
+        "artist": "Tinariwen",
+        "album": "Elwan",
+        "url": "https://music.apple.com/cn/song/t%C3%A9n%C3%A9r%C3%A9-t%C3%A0qq%C3%A0l/1165023365",
+        "source": "https://music.apple.com/cn/album/elwan/1165023229",
+        "storefront": "cn",
+        "metadata_verified": false,
+        "verification_scope": "official_album_track_identity_only_not_exact_song_page",
+        "checked_at": "2026-10-27T01:34:52.632603+00:00",
+        "decision": "not_selected",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1165023399",
+        "title": "Imidiwàn N-Àkall-In",
+        "artist": "Tinariwen",
+        "album": "Elwan",
+        "url": "https://music.apple.com/cn/song/imidiw%C3%A0n-n-%C3%A0kall-in/1165023399",
+        "source": "https://music.apple.com/cn/album/elwan/1165023229",
+        "storefront": "cn",
+        "metadata_verified": false,
+        "verification_scope": "official_album_track_identity_only_not_exact_song_page",
+        "checked_at": "2026-10-27T01:34:52.632603+00:00",
+        "decision": "not_selected",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1165023400",
+        "title": "Talyat (feat. Matt Sweeney & Alain Johannes)",
+        "artist": "Tinariwen",
+        "album": "Elwan",
+        "url": "https://music.apple.com/cn/song/talyat-feat-matt-sweeney-alain-johannes/1165023400",
+        "source": "https://music.apple.com/cn/album/elwan/1165023229",
+        "storefront": "cn",
+        "metadata_verified": false,
+        "verification_scope": "official_album_track_identity_only_not_exact_song_page",
+        "checked_at": "2026-10-27T01:34:52.632603+00:00",
+        "decision": "not_selected",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1165023401",
+        "title": "Assàwt",
+        "artist": "Tinariwen",
+        "album": "Elwan",
+        "url": "https://music.apple.com/cn/song/ass%C3%A0wt/1165023401",
+        "source": "https://music.apple.com/cn/album/elwan/1165023229",
+        "storefront": "cn",
+        "metadata_verified": false,
+        "verification_scope": "official_album_track_identity_only_not_exact_song_page",
+        "checked_at": "2026-10-27T01:34:52.632603+00:00",
+        "decision": "not_selected",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1165023402",
+        "title": "Arhegh Ad Annàgh",
+        "artist": "Tinariwen",
+        "album": "Elwan",
+        "url": "https://music.apple.com/cn/song/arhegh-ad-ann%C3%A0gh/1165023402",
+        "source": "https://music.apple.com/cn/album/elwan/1165023229",
+        "storefront": "cn",
+        "metadata_verified": false,
+        "verification_scope": "official_album_track_identity_only_not_exact_song_page",
+        "checked_at": "2026-10-27T01:34:52.632603+00:00",
+        "decision": "not_selected",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1165023403",
+        "title": "Nànnuflày (feat. Kurt Vile & Mark Lanegan)",
+        "artist": "Tinariwen",
+        "album": "Elwan",
+        "url": "https://music.apple.com/cn/song/n%C3%A0nnufl%C3%A0y-feat-kurt-vile-mark-lanegan/1165023403",
+        "source": "https://music.apple.com/cn/album/elwan/1165023229",
+        "storefront": "cn",
+        "metadata_verified": false,
+        "verification_scope": "official_album_track_identity_only_not_exact_song_page",
+        "checked_at": "2026-10-27T01:34:52.632603+00:00",
+        "decision": "not_selected",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1165023404",
+        "title": "Fog Edaghàn (Intro Flute) [Ghost Track]",
+        "artist": "Tinariwen",
+        "album": "Elwan",
+        "url": "https://music.apple.com/cn/song/fog-edagh%C3%A0n-intro-flute-ghost-track/1165023404",
+        "source": "https://music.apple.com/cn/album/elwan/1165023229",
+        "storefront": "cn",
+        "metadata_verified": false,
+        "verification_scope": "official_album_track_identity_only_not_exact_song_page",
+        "checked_at": "2026-10-27T01:34:52.632603+00:00",
+        "decision": "not_selected",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      },
+      {
+        "song_id": "1165023405",
+        "title": "Fog Edaghàn (Ghost Track)",
+        "artist": "Tinariwen",
+        "album": "Elwan",
+        "url": "https://music.apple.com/cn/song/fog-edagh%C3%A0n-ghost-track/1165023405",
+        "source": "https://music.apple.com/cn/album/elwan/1165023229",
+        "storefront": "cn",
+        "metadata_verified": false,
+        "verification_scope": "official_album_track_identity_only_not_exact_song_page",
+        "checked_at": "2026-10-27T01:34:52.632603+00:00",
+        "decision": "not_selected",
+        "reason": "Unavailable or unverified exact CN resource",
+        "scores": {
+          "quality": 3.8,
+          "usefulness": 3.6,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 3.5
+        },
+        "weighted_score": 3.905
+      }
+    ],
+    "scope": "41 real song IDs/version candidates across6 original performer/composer families and album-discovered works. Alternate recordings and compilation copies do not count as new exposures. Album-only observations are explicitly not final song verification.",
+    "scoring": "Editorial estimates using quality30%, usefulness25%, curiosity20%, novelty15%, fit10%; unavailable CN resources rejected, same-work/version and artist concentration penalties applied. Scores are not measured audio quality."
+  },
+  "selection": [
+    {
+      "position": 1,
+      "title": "Something On Your Mind",
+      "artist": "Karen Dalton",
+      "album": "In My Own Time",
+      "canonical_id": "Karen Dalton::Something On Your Mind",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1793784576",
+        "song_id": "1793784576",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天从一种不打磨棱角的声音开始。Karen Dalton 的歌声带着粗粝、颤动和稍稍拖后的落点，情绪不是靠一次突然拔高，而是从一句话怎样进入、怎样停顿里累积。选的是《In My Own Time》所收录的录音，目录未标作现场、alternate mix或alternate take；它与候选中的现场和另混版本分开评估。她演唱的是 Dino Valenti 的作品，推荐重心是这一具体诠释，不把演唱者误写成词曲作者。 先把主唱与乐队分成两个时间层：伴奏维持相对平稳的步幅，人声却时而贴住、时而离开那个重心。拨弦的明亮起音、低频支撑与柔和的持续声部，使那种沙哑并不显得孤立。不要把嗓音的不规则简单等同于“唱得随意”：一句末尾的压低、一个字前的迟疑，都能改变与伴奏的距离。版本说明只确认目录身份，不推断未经核验的母带规格。",
+      "listening_cue": "第一遍跟着伴奏轻点拍，不跟主唱；第二遍只注意主唱进入每个长句时比你预想的落点早还是晚。找一处歌声已经停下、乐器还在延续的位置，听空隙怎样让刚才的语气继续存在。不要急着给它贴“悲伤”标签，先说出让你这样判断的起音、停顿或音色。"
+    },
+    {
+      "position": 2,
+      "title": "Sisyphus",
+      "artist": "Andrew Bird",
+      "album": "My Finest Work Yet",
+      "canonical_id": "Andrew Bird::Sisyphus",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1449649586",
+        "song_id": "1449649586",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Andrew Bird 让轻盈的表面和持续向前的动力共存，适合作为今天较明快的入口。选《My Finest Work Yet》的专辑曲目，而非DJ混音或后来的情境合辑；同一作品换到另一张合辑不会因此变成新推荐。标题借用西西弗意象，但今天不要求先理解文字典故：只听旋律怎么在重复中积累紧张，就能进入这首歌。它也让前一首的人声迟疑，转成更清晰的动作感。 口哨音色把旋律吹得很轻，后面的节奏组却给出扎实的地面。听弦乐的短句、吉他和人声如何轮流占据前景：并不是每个声部始终同样响，也不是一出现更多乐器就必然更有力。这里适合比较“轻的音色”和“重的推进”怎样互相补充。不要因为作者以小提琴著称，就把所有高频持续声都直接归给小提琴。",
+      "listening_cue": "先用口哨旋律作路标，记住它第一次出现的轮廓；等主唱和乐队进入后，找同一轮廓是否改变了重量。再选一个乐句结尾，听鼓和低音是把句子推向下一拍，还是留出回弹。最后只用一句话描述你听到的推进来自节拍、声部数量还是重音位置。"
+    },
+    {
+      "position": 3,
+      "title": "Feel You",
+      "artist": "Julia Holter",
+      "album": "Have You in My Wilderness",
+      "canonical_id": "Julia Holter::Feel You",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1046817782",
+        "song_id": "1046817782",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Julia Holter 是今天的优先聆听：它有可记住的旋律，也不断让旋律的落脚点变得不那么理所当然。选《Have You in My Wilderness》的录音，区别于候选中与叙利亚音乐家乐团合作的另一版本。它适合练习不把“复杂”理解为乐器越多越好，而是观察每个声部如何改变你对空间和方向的感觉。明亮的外观里有一点游移，正好让整组歌从两种较直接的歌唱转入更抽象的组织方式。 大键琴般清脆的拨弦键盘声与灵活的鼓点构成鲜明表面，主唱则带着流动、稍有悬浮感的线条。低音、弦乐色彩和背景声部并非只替旋律加厚，而是在不同位置开出新的空间。听时可把声部分成短促起音与长尾音两组：前者切出颗粒，后者把颗粒之间连成空气。不要只追最亮的声音，留意较低位置的移动如何让和声失去静止感。",
+      "listening_cue": "第一遍只跟开头那个清脆的键盘型，观察它与鼓点是否总在你预期的地方对齐；第二遍把注意力交给人声尾部与背景延音。找一个你以为乐句已经结束、却又被声部带向别处的位置，回听前后数秒，说清楚到底是哪一层改变了方向。"
+    },
+    {
+      "position": 4,
+      "title": "Sastanàqqàm",
+      "artist": "Tinariwen",
+      "album": "Elwan",
+      "canonical_id": "Tinariwen::Sastanàqqàm",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1165023301",
+        "song_id": "1165023301",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Tinariwen 让今天的重心从个人歌唱转到共同维持的循环。这里选《Elwan》的《Sastanàqqàm》录音，已直接核对国区歌曲资源；最初搜索发现的另一地区目录ID在国区返回404，未把它当作可发布资源。此后沿实际国区专辑曲目链接找到并独立核验了这一ID。它不是候选中与Randall合作的电子改编。推荐不依赖先译懂文字，而是先听吉他短句与集体应答怎样组织时间。 电吉他的反复乐句有明确的音头，却并不把每一拍都敲得整齐相同。低音和打击把身体感保持在下方，主唱与应答声部在上方形成来回关系。重点不是寻找通常流行歌式的巨大副歌，而是听一个小型循环怎样因力度、空隙和声部交接而保持活性。也别把“沙漠”当作音效说明；具体可听的是弦的颗粒、节奏的摆动，以及独唱与多人声部的比例。",
+      "listening_cue": "选一个吉他短句跟住十几秒，再暂时忽略它，只听人声应答从哪里进入。第三遍同时跟两条线，留意它们在哪些位置贴近、哪些位置错开。用“谁留下空位、谁填进来”描述一小段，比笼统说节奏很有感染力更接近这首录音的组织。"
+    },
+    {
+      "position": 5,
+      "title": "Lament I, \"Bird's Lament\" (Instrumental)",
+      "artist": "月犬",
+      "album": "Moondog",
+      "canonical_id": "月犬::Lament I, \"Bird's Lament\" (Instrumental)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1364646740",
+        "song_id": "1364646740",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后用不到两分钟的 Moondog（国区显示名“月犬”）换一种尺度。选的是1969年同名专辑《Moondog》中的《Lament I, \"Bird's Lament\" (Instrumental)》，而非《Sax Pax For A Sax》的后期录音、DJ串混或钢琴改编。它让你发现重复既能像循环装置，也能保留合奏的呼吸。与昨天的人声早期音乐不同，今天的跨界重点是短小、紧密的管乐图案，不把两首都归成泛泛的“安静音乐”。 低处反复的型与较高的管乐线条彼此咬合，音色可以很明确，织体却并不需要靠巨大配器来制造规模。听每条线的音头、停顿和收束，会比只数重复次数更有趣：同一个图案在另一条线进入后，听起来可能改变了重音。这里的极简不是声音少或情绪少，而是材料有限、关系清楚；没有主唱替你标出段落，合奏本身就是叙事。",
+      "listening_cue": "第一遍从头到尾只跟最低处那个反复型，别被上方旋律带走；第二遍换跟一条高声部，听它跨过底层循环的哪里。结束后停十秒，试着只哼其中一层，再重播检查自己是否把两条线合并成了一个旋律。短曲值得重复听，但不需要为补足时长马上切下一首。"
+    }
+  ],
+  "source_verification": {
+    "provider": "Apple Music only",
+    "method": "direct_exact_cn_song_page_MusicComposition_and_MusicRecording",
+    "observations": [
+      {
+        "song_id": "1046817782",
+        "url": "https://music.apple.com/cn/song/1046817782",
+        "checked_at": "2026-10-27T01:33:31.397638+00:00",
+        "title": "Feel You",
+        "artist": "Julia Holter",
+        "album": "Have You in My Wilderness",
+        "canonical_url": "https://music.apple.com/cn/song/feel-you/1046817782",
+        "storefront": "cn",
+        "duration": "PT4M8S",
+        "date_published": "2015-09-25",
+        "metadata_verified": true,
+        "decision": "selected",
+        "reason": "Verified specific CN recording; distinct artist and listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.395
+      },
+      {
+        "song_id": "1364646740",
+        "url": "https://music.apple.com/cn/song/1364646740",
+        "checked_at": "2026-10-27T01:33:31.399426+00:00",
+        "title": "Lament I, \"Bird's Lament\" (Instrumental)",
+        "artist": "月犬",
+        "album": "Moondog",
+        "canonical_url": "https://music.apple.com/cn/song/lament-i-birds-lament-instrumental/1364646740",
+        "storefront": "cn",
+        "duration": "PT1M46S",
+        "date_published": "1969-01-01",
+        "metadata_verified": true,
+        "decision": "selected",
+        "reason": "Verified specific CN recording; distinct artist and listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.8,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.515
+      },
+      {
+        "song_id": "1449649586",
+        "url": "https://music.apple.com/cn/song/1449649586",
+        "checked_at": "2026-10-27T01:33:31.400404+00:00",
+        "title": "Sisyphus",
+        "artist": "Andrew Bird",
+        "album": "My Finest Work Yet",
+        "canonical_url": "https://music.apple.com/cn/song/sisyphus/1449649586",
+        "storefront": "cn",
+        "duration": "PT4M6S",
+        "date_published": "2019-03-22",
+        "metadata_verified": true,
+        "decision": "selected",
+        "reason": "Verified specific CN recording; distinct artist and listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.395
+      },
+      {
+        "song_id": "1793784576",
+        "url": "https://music.apple.com/cn/song/1793784576",
+        "checked_at": "2026-10-27T01:33:40.785923+00:00",
+        "title": "Something On Your Mind",
+        "artist": "Karen Dalton",
+        "album": "In My Own Time",
+        "canonical_url": "https://music.apple.com/cn/song/something-on-your-mind/1793784576",
+        "storefront": "cn",
+        "duration": "PT3M23S",
+        "date_published": "1971-01-01",
+        "metadata_verified": true,
+        "decision": "selected",
+        "reason": "Verified specific CN recording; distinct artist and listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.395
+      },
+      {
+        "song_id": "1165023301",
+        "url": "https://music.apple.com/cn/song/1165023301",
+        "checked_at": "2026-10-27T01:34:52.632603+00:00",
+        "title": "Sastanàqqàm",
+        "artist": "Tinariwen",
+        "album": "Elwan",
+        "duration": "PT3M24S",
+        "canonical_url": "https://music.apple.com/cn/song/sastan%C3%A0qq%C3%A0m/1165023301",
+        "storefront": "cn",
+        "metadata_verified": true,
+        "decision": "selected",
+        "reason": "Verified specific CN recording; distinct artist and listening task",
+        "scores": {
+          "quality": 4.5,
+          "usefulness": 4.4,
+          "curiosity": 4.2,
+          "novelty": 4.5,
+          "fit": 4.3
+        },
+        "weighted_score": 4.395
+      }
+    ],
+    "required_fields": [
+      "title",
+      "artist",
+      "album",
+      "song_id",
+      "storefront",
+      "matching_direct_song_url"
+    ],
+    "scope": "Exact visible recording identity and CN resource metadata verified; no claim of full audio audition, personal account entitlement, lossless specification or device accessibility. No lyrics retained in receipt or appreciation."
+  },
+  "identity_semantic_review": {
+    "prior_canonical_repeats": 0,
+    "prior_same_recording_repeats": 0,
+    "current_same_work_duplicates": 0,
+    "artist_aliases_reviewed": [
+      "Moondog is 月犬 on CN resource"
+    ],
+    "version_choices": [
+      "Karen Dalton In My Own Time standard track; not alternate mix or festival live",
+      "Andrew Bird My Finest Work Yet album track; not DJ mix or compilation",
+      "Julia Holter Have You in My Wilderness; not Orchestra of Syrian Musicians version",
+      "Tinariwen Elwan standard track; not Randall electronic version",
+      "Moondog1969 instrumental; not1994 Sax Pax, DJ mix or piano arrangements"
+    ]
+  },
+  "diversity": {
+    "artists": 5,
+    "recent_artist_reuse": 0,
+    "composition": "2 high-confidence,2 adjacent,1 wildcard",
+    "wildcard_position": 5,
+    "languages": [
+      "English",
+      "Tinariwen vocal tradition; exact language not verified by song-page metadata",
+      "instrumental"
+    ],
+    "eras": [
+      "1969 catalogue album",
+      "1971 catalogue album",
+      "2015",
+      "2017 album /2016 song release",
+      "2019"
+    ],
+    "genres": [
+      "folk/soul interpretation",
+      "indie folk/chamber pop",
+      "experimental chamber pop",
+      "Tuareg guitar/desert rock",
+      "instrumental wind ensemble /minimal repetition"
+    ]
+  },
+  "bundle": {
+    "commit": "d4c9f34285fb25ebb0fb0761299ffb14aaa6f7e6",
+    "tree": "0e9253cd903c4ce64c21feb6f007f467157d60a2",
+    "blob": "27b4eaa2ec25f2afbe6d8c936062b3c9e46e1432",
+    "original_bundle_sha256": "f3ae929a4d33624e5c29c8f9a16217cb6b7a637bf66c446699e45c35dd7168ac",
+    "original_plan_sha256": "ddc818f0d620e140c52abd9fe1e030918e78b918f56dbeb4ca4085f9d852df06"
+  },
+  "identity_receipt": {
+    "commit": "927a3d6b4ce7d0a060acdf77b524a7d82aa4e9c3",
+    "tree": "ddf7663da4bcd9c7fcaa99a08821ef375191abf2",
+    "blob": "5005ab8a4801707a7014f6a5ae3edb767c857c6d",
+    "path": ".recommendation/transaction-runs/music/2026-10-27/20261027013730-prepared.json"
+  },
+  "stage1": {
+    "commit": "540e677a8f5215a915b7b03ed6365e18b92a9d93",
+    "tree": "6501eac294e8ac5ab5393521a64bca7fddc0a6c8",
+    "readbacks": [
+      {
+        "repo": "ZJFILOVE/music-daily",
+        "path": "recommendations/2026/10/2026-10-27.json",
+        "blob_sha": "f5d258201e8314123f25868c21406fd00f1f06ae",
+        "exact": true
+      },
+      {
+        "repo": "ZJFILOVE/music-daily",
+        "path": "state/tracks.json",
+        "blob_sha": "40c9051d02300b1bf547c18ac93a593736c81674",
+        "exact": true
+      }
+    ]
+  },
+  "stage2": {
+    "commit": "7110537407015f28dbe109feddf667474f653cf2",
+    "tree": "99fe52db2fbe49164d9c827f6cc999da3aa7c5dc"
+  },
+  "stage1_receipt": {
+    "commit": "5f2330c03f27c0b206ba3d5be93931fb0a6ab6db",
+    "tree": "a8f161159f02cfff2696f4242c1fc79572e5214d",
+    "path": ".recommendation/transaction-runs/music/2026-10-27/20261027013807-stage1.json",
+    "blob": "6720486ef7655e138ac126b04d1d9ccf27ddf5b4"
+  },
+  "stage2_receipt": {
+    "commit": "9f046e6078c422d55dbd8b5dd78300a2f325390d",
+    "tree": "046bd476b5196638acb47b11bf47696e8a53538f",
+    "path": ".recommendation/transaction-runs/music/2026-10-27/20261027013828-stage2.json",
+    "blob": "e209cbc6f0998e352e280f2565e491a185e3465f"
+  },
+  "readbacks": [
+    {
+      "repo": "ZJFILOVE/music-daily",
+      "path": "recommendations/2026/10/2026-10-27.json",
+      "blob_sha": "f5d258201e8314123f25868c21406fd00f1f06ae",
+      "exact": true
+    },
+    {
+      "repo": "ZJFILOVE/music-daily",
+      "path": "state/tracks.json",
+      "blob_sha": "40c9051d02300b1bf547c18ac93a593736c81674",
+      "exact": true
+    },
+    {
+      "repo": "ZJFILOVE/obsidian-vault",
+      "path": "Music/Daily/2026-10-27.md",
+      "blob_sha": "6dcee63a165a432f51c2726dd9f14f78b8745497",
+      "exact": true
+    },
+    {
+      "repo": "ZJFILOVE/obsidian-vault",
+      "path": "Music/Daily/manifests/2026-10-27.json",
+      "blob_sha": "f5d258201e8314123f25868c21406fd00f1f06ae",
+      "exact": true
+    },
+    {
+      "repo": "ZJFILOVE/obsidian-vault",
+      "path": "Music/Daily/state/tracks.json",
+      "blob_sha": "40c9051d02300b1bf547c18ac93a593736c81674",
+      "exact": true
+    }
+  ],
+  "checks": {
+    "freeze_and_real_baselines": "passed",
+    "planner_after": "artifacts_match",
+    "exact_five_order_unique_ids": "passed",
+    "required_sections_and_frontmatter": "passed",
+    "prior_state_values_unchanged": true,
+    "new_registrations": 5,
+    "state_entries_after": 258,
+    "history_union_coverage": "all prior manifests and reserved canonical IDs preserved",
+    "mirrors_byte_equal": true,
+    "local_music_validator": {
+      "recent_dates": "2026-10-20 through2026-10-27",
+      "tracks_checked": 40
+    },
+    "local_unit_tests": "123 passed",
+    "immutable_journal": {
+      "bundles": 39,
+      "status": "passed"
+    },
+    "remote_all_dates_snapshot": {
+      "status": "passed_current_music_mirrors",
+      "manifests": 50,
+      "manifest_blobs": {
+        "2026-09-04.json": "c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+        "2026-09-05.json": "425068f9d2850f6174758c01adee37d25f3bb336",
+        "2026-09-06.json": "cbe1822dfb00e97d8f4aa537dbfd1f52f48dcccf",
+        "2026-09-07.json": "43c49954065383de75f28c4bfd239b7473f1c324",
+        "2026-09-08.json": "1aff7797664028e9729b0b42925909206fbdef2e",
+        "2026-09-09.json": "5b883498386208ef9809ec552e12bd30e5ae0510",
+        "2026-09-10.json": "6981929543fd31c36649815397d89b2bf1632551",
+        "2026-09-11.json": "66b29d99e17bc6da20987d9accd71e57851aa9fa",
+        "2026-09-12.json": "9e852ec43b70c9612f836c60eb55f8d44164dadc",
+        "2026-09-13.json": "b576357c8a83b6e618ce52984d43efb9ccd1e0fa",
+        "2026-09-14.json": "a7e1729f60debf70fd3c922c83508286868bb83a",
+        "2026-09-15.json": "e348cea20ac3b39edfad8d26cd2de5b49d4724c6",
+        "2026-09-16.json": "7a672e648529aa290ace44f78f43f217d29e5b0d",
+        "2026-09-17.json": "b62ae078472ac906c381bf246a59818507688f72",
+        "2026-09-18.json": "e2ad0074519697a2f402427996a212b3831f8290",
+        "2026-09-19.json": "2d2999277022bc329e15ce43477453edc5e8fc21",
+        "2026-09-20.json": "03cf1cc76eebfd74b0342fb74a8c1e616942c737",
+        "2026-09-21.json": "125ab7faf9a2fd4c08812b1bffc57686f65a1e4d",
+        "2026-09-22.json": "08788b30503a3d320b0343f015c213050b43cb21",
+        "2026-09-23.json": "07a2dddee1f9d38067afced0d678e4c578197d64",
+        "2026-09-24.json": "6bb9b98980a1f6dc7883d45cf2a4744879ea40c7",
+        "2026-09-25.json": "03f0f440b402f65da5fbd32943b70ac631e885ff",
+        "2026-09-26.json": "2a6e8cacaec306279f64685e6f4ddd3ddcaedb11",
+        "2026-09-28.json": "a40e31e20b92f129bf2b21f1073e3a69b120e33b",
+        "2026-09-29.json": "05ac05fdddcc456cd6103fb8854a5e77d8882dfe",
+        "2026-09-30.json": "4e2ed9d2f5a7f7a4f8df41a4d4407b6429c8695f",
+        "2026-10-01.json": "08c0655ae1e1a430b803cedfaee28265d9bca7c4",
+        "2026-10-02.json": "977590adad74f3530dc571b9578648372d99b460",
+        "2026-10-03.json": "c0d1ba2c8088bee2b9bfe73c0491112db013d040",
+        "2026-10-04.json": "e21086438c1609a5c65e4dfad5eb17efa390197c",
+        "2026-10-05.json": "bd8e8944afd975565557ac3a88f1ac3b8e16a8f7",
+        "2026-10-06.json": "1edfce17fd8094efd866e294b8cac1cf02f5e72d",
+        "2026-10-07.json": "ed9f6ab90943f1a35219cc8b41017559955aec86",
+        "2026-10-08.json": "2e8c9efd842d7d12ec5e76582d3098b2904de3f7",
+        "2026-10-09.json": "76dff8dedee8c861d72f158e73de4afb106f8d42",
+        "2026-10-11.json": "3da7d2fcf2f9f1417a32ad0e313118646cdc04ea",
+        "2026-10-12.json": "35f974e89bd209addcfef98ba16f5b7bc5e0ace3",
+        "2026-10-15.json": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26",
+        "2026-10-16.json": "08a0e041348374b67cc59fe08080364ce92b4973",
+        "2026-10-17.json": "28d482f6649e2b6cb3d67817ed0ecbfbf18e0a65",
+        "2026-10-18.json": "ecbdb7dbd5007784bdfb7eee4a9c3cc7706aa054",
+        "2026-10-19.json": "250f0308b004cf080611a943c55d896f47b6cab8",
+        "2026-10-20.json": "3cb0f6c54d5a27fa00adc0a0f5031c119fc69563",
+        "2026-10-21.json": "91677ae6a1c440bedb3ba1e5fb20753f52b797db",
+        "2026-10-22.json": "1c2c2b36491baf68396d30660ce3a3885e4c32c9",
+        "2026-10-23.json": "ccd649a467320f7caa9e7dfb45cb5046677e9f81",
+        "2026-10-24.json": "dedcb8a16ec3de4da60179d16f0552ca79ac7046",
+        "2026-10-25.json": "612db9ac80c1b59f2cfdb35e6afd6c801f7d6894",
+        "2026-10-26.json": "0b3edb0e598e9c51c7eab9b712033708bbb622ba",
+        "2026-10-27.json": "f5d258201e8314123f25868c21406fd00f1f06ae"
+      },
+      "state_blob_sha": "40c9051d02300b1bf547c18ac93a593736c81674",
+      "heads": {
+        "music": "540e677a8f5215a915b7b03ed6365e18b92a9d93",
+        "vault": "9f046e6078c422d55dbd8b5dd78300a2f325390d"
+      },
+      "checked": [
+        "all manifest names and blob hashes",
+        "state blob hash",
+        "corresponding music notes exist",
+        "tree evidence completeness",
+        "stable branch observations"
+      ],
+      "not_certified": [
+        "state semantic coverage (run local CI)",
+        "live sources",
+        "editorial quality",
+        "device synchronization",
+        "notification delivery"
+      ]
+    },
+    "repository_ci": {
+      "music": [
+        {
+          "id": 40433706623,
+          "head_sha": "540e677a8f5215a915b7b03ed6365e18b92a9d93",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/ZJFILOVE/music-daily/actions/runs/40433706623"
+        }
+      ],
+      "vault": [
+        {
+          "id": 40433771885,
+          "head_sha": "9f046e6078c422d55dbd8b5dd78300a2f325390d",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/40433771885"
+        }
+      ]
+    },
+    "repository_ci_jobs": {
+      "music": [
+        {
+          "id": 121957247903,
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run actions/checkout@v4",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run actions/setup-python@v5",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run python scripts/validate.py",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run python -m unittest discover -s scripts -p 'test_consistency.py' -v",
+              "conclusion": "success"
+            },
+            {
+              "name": "Preserve all historically exposed tracks and existing state values",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Run actions/setup-python@v5",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Run actions/checkout@v4",
+              "conclusion": "success"
+            },
+            {
+              "name": "Complete job",
+              "conclusion": "success"
+            }
+          ]
+        }
+      ],
+      "vault": [
+        {
+          "id": 121957462347,
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+              "conclusion": "success"
+            },
+            {
+              "name": "Validate publications and full source-history coverage",
+              "conclusion": "success"
+            },
+            {
+              "name": "Negative regressions and interrupted-publication recovery",
+              "conclusion": "success"
+            },
+            {
+              "name": "Compare permanent history with the actual base commit",
+              "conclusion": "success"
+            },
+            {
+              "name": "Record scope of checks",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+              "conclusion": "success"
+            },
+            {
+              "name": "Complete job",
+              "conclusion": "success"
+            }
+          ]
+        }
+      ]
+    },
+    "local_full_repo": "not run in partial local checkout; actual pinned full-repository CI validates structure, history and append-only preservation",
+    "device_sync": "not_tested",
+    "notification_delivery": "not_tested"
+  },
+  "errors": [
+    {
+      "classification": "tool_transport",
+      "message": "code-mode host closed its stdout",
+      "phase": "initial read-only preflight",
+      "action": "fresh reads succeeded before selection; no mutation during failure"
+    },
+    {
+      "classification": "unavailable_exact_CN_source",
+      "song_ids": [
+        "1285757984",
+        "1546658252",
+        "1556447852",
+        "1587206130",
+        "1604448921",
+        "1790538645",
+        "1821326151",
+        "1853596269",
+        "207916803",
+        "266866769"
+      ],
+      "action": "rejected; no same-title covers, alternate recordings or other-country links substituted silently"
+    },
+    {
+      "classification": "recording_catalogue_recovery",
+      "initial_id": "1821326151",
+      "final_id": "1165023301",
+      "action": "Found actual CN Elwan album link, then directly read exact CN Sastanàqqàm resource with matching title artist album and ID before freeze"
+    }
+  ],
+  "historical_backlog": [
+    "All previously exposed or reserved keys and aliases retained. Legacy source/format findings not rewritten; historical live sources not certified by this current publication."
+  ]
+}
