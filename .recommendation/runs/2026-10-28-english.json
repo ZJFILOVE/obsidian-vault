@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-10-28",
+  "operation_id": "english:2026-10-28",
+  "mode": "new",
+  "status": "passed_current_publication_gates",
+  "recorded_at_utc": "2026-10-28T00:08:00Z",
+  "selection": {
+    "source_url": "https://www.bankofengland.co.uk/explainers/why-does-money-depend-on-trust",
+    "title": "Why does money depend on trust?",
+    "source": "Bank of England",
+    "component": "daily",
+    "estimated_minutes": "6-9",
+    "level": "CET-6 / introductory TOEFL",
+    "topic": "institutional trust, payment systems, authenticity and purchasing-power stability",
+    "recent_topic_cooldown": "passed; none of the prior seven dated English sources focused narrowly on money, payment systems or central-bank trust",
+    "diversity_result": "Selected an economics-and-institutions explainer after recent material on environmental practice, natural-history collections, ocean sound, measurement terminology, television, music biography, office technology and cultural-space design. It also breaks a two-day Smithsonian publisher run."
+  },
+  "candidate_policy": {
+    "minimum": 8,
+    "actual": 8,
+    "scoring_weights": {
+      "quality": 0.3,
+      "usefulness": 0.25,
+      "curiosity": 0.2,
+      "novelty": 0.15,
+      "fit": 0.1
+    },
+    "candidates": [
+      {
+        "title": "Why does money depend on trust?",
+        "url": "https://www.bankofengland.co.uk/explainers/why-does-money-depend-on-trust",
+        "source": "Bank of England",
+        "format": "official explainer with embedded transcript",
+        "estimated_minutes": "6-9",
+        "verification_scope": "direct_page_opened_title_update_date_core_body_and_video_transcript_observed",
+        "scores": {
+          "quality": 92,
+          "usefulness": 92,
+          "curiosity": 90,
+          "novelty": 91,
+          "fit": 92
+        },
+        "weighted_score": 91.5,
+        "decision": "selected",
+        "reason": "Clear thought experiment, institution-focused reasoning, precise trust vocabulary and a strong problem-solution-limit structure; topic and publisher diversify the recent sequence."
+      },
+      {
+        "title": "What is inflation?",
+        "url": "https://www.bankofengland.co.uk/explainers/what-is-inflation",
+        "source": "Bank of England",
+        "format": "official explainer",
+        "estimated_minutes": "8-11",
+        "verification_scope": "direct_page_opened_definition_CPI_examples_current_rate_and_policy_mechanism_observed",
+        "scores": {
+          "quality": 92,
+          "usefulness": 94,
+          "curiosity": 82,
+          "novelty": 86,
+          "fit": 91
+        },
+        "weighted_score": 89.6,
+        "decision": "not_selected",
+        "reason": "Excellent mechanism and quantitative language, but the live inflation figure would require more time-sensitive annotation and distract from the durable teaching objective."
+      },
+      {
+        "title": "Inflation and interest rates",
+        "url": "https://www.bankofengland.co.uk/explainers/inflation-and-interest-rates",
+        "source": "Bank of England",
+        "format": "official explainer hub",
+        "estimated_minutes": "5-8",
+        "verification_scope": "official_page_search_result_with_sections_and_current_context_observed",
+        "scores": {
+          "quality": 89,
+          "usefulness": 90,
+          "curiosity": 80,
+          "novelty": 84,
+          "fit": 86
+        },
+        "weighted_score": 86.25,
+        "decision": "not_selected",
+        "reason": "Useful hub but less self-contained than the selected single explainer and includes current-event context that ages quickly."
+      },
+      {
+        "title": "What are some ways to start or rebuild a good credit history?",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-some-ways-to-start-or-rebuild-a-good-credit-history-en-2155/",
+        "source": "Consumer Financial Protection Bureau",
+        "format": "official consumer guide",
+        "estimated_minutes": "6-9",
+        "verification_scope": "official_page_search_result_with_review_date_full_product_comparison_and_warnings_observed",
+        "scores": {
+          "quality": 89,
+          "usefulness": 92,
+          "curiosity": 78,
+          "novelty": 84,
+          "fit": 87
+        },
+        "weighted_score": 86.6,
+        "decision": "not_selected",
+        "reason": "Concrete and useful, but US-specific credit-reporting rules would need more jurisdictional caveats for a general English lesson."
+      },
+      {
+        "title": "Get your money situation in order",
+        "url": "https://www.consumerfinance.gov/owning-a-home/prepare/get-your-money-situation-in-order/",
+        "source": "Consumer Financial Protection Bureau",
+        "format": "official practical guide",
+        "estimated_minutes": "7-10",
+        "verification_scope": "official_page_search_result_with_budget_steps_and_examples_observed",
+        "scores": {
+          "quality": 87,
+          "usefulness": 91,
+          "curiosity": 72,
+          "novelty": 77,
+          "fit": 84
+        },
+        "weighted_score": 83.1,
+        "decision": "not_selected",
+        "reason": "Actionable but list-heavy and less suitable for reconstructing an argument."
+      },
+      {
+        "title": "The Human Development Index and related indices: what they are and what we can learn from them",
+        "url": "https://ourworldindata.org/human-development-index",
+        "source": "Our World in Data",
+        "format": "data explainer",
+        "estimated_minutes": "12-16",
+        "verification_scope": "direct_search_result_with_authors_date_index_comparisons_limits_and_current_data_context_observed",
+        "scores": {
+          "quality": 92,
+          "usefulness": 90,
+          "curiosity": 84,
+          "novelty": 89,
+          "fit": 80
+        },
+        "weighted_score": 87.7,
+        "decision": "not_selected",
+        "reason": "Strong analytical reading, but it is borderline long for a weekday input and denser than today’s target level."
+      },
+      {
+        "title": "Happiness and Life Satisfaction",
+        "url": "https://ourworldindata.org/happiness-and-life-satisfaction",
+        "source": "Our World in Data",
+        "format": "long-form data topic page",
+        "estimated_minutes": "25+",
+        "verification_scope": "direct_search_result_with_authors_measurement_sections_and_evidence_summary_observed",
+        "scores": {
+          "quality": 93,
+          "usefulness": 88,
+          "curiosity": 86,
+          "novelty": 84,
+          "fit": 60
+        },
+        "weighted_score": 83.55,
+        "decision": "not_selected",
+        "reason": "High quality but substantially exceeds the 5-15 minute weekday range."
+      },
+      {
+        "title": "What's the Difference Between Weather and Climate?",
+        "url": "https://www.nesdis.noaa.gov/about/k-12-education/understanding-our-planet/whats-the-difference-between-weather-and-climate",
+        "source": "NOAA NESDIS / NASA Space Place",
+        "format": "official student explainer",
+        "estimated_minutes": "4",
+        "verification_scope": "direct_page_opened_learning_time_short_answer_mechanism_figures_and_publication_date_observed",
+        "scores": {
+          "quality": 88,
+          "usefulness": 85,
+          "curiosity": 76,
+          "novelty": 74,
+          "fit": 76
+        },
+        "weighted_score": 81.65,
+        "decision": "not_selected",
+        "reason": "Authoritative but below the requested time range and too close to NOAA environmental material used six days ago."
+      }
+    ]
+  },
+  "source_verification": {
+    "verified_at_utc": "2026-10-28T00:03:00Z before PREPARED and 2026-10-28T00:07:00Z after publication",
+    "method": "direct_official_source_page_read_before_and_after_publication",
+    "observations": [
+      "The canonical Bank of England page resolved with the exact title “Why does money depend on trust?” and stated that it was last updated on 19 May 2020.",
+      "The directly observed body developed the barter and personal-IOU thought experiment, the problem of trust chains at scale, money as a widely accepted IOU, and the roles of genuine notes, anti-counterfeiting and broadly stable purchasing power.",
+      "The page visibly contained an embedded official video link and a transcript section. The full video was not played or tested.",
+      "The same canonical page and substantive body remained readable after publication."
+    ],
+    "scope_caveats": [
+      "This is an introductory public explainer from the Bank of England and reflects its UK banknote and price-stability remit; it is not a complete survey of monetary theory, commercial-bank deposits, digital payments or cross-country institutions.",
+      "The embedded video, all linked pages and China-local playback or accessibility were not exhaustively tested.",
+      "The note summarizes structure and creates original practice; it does not reproduce the article or transcript."
+    ],
+    "accessibility_at_check": "canonical page text available; embedded playback untested"
+  },
+  "freshness": {
+    "original_history_blob_sha": "3cc27c31c276ccc02fdc076eec5982dd9924c7c3",
+    "original_history_rows": 50,
+    "original_unique_source_urls": 50,
+    "final_source_url_exact_prior_occurrences": 0,
+    "prepared_reservation_prior_occurrences": 0,
+    "preselection_prepared_transactions_read": 39,
+    "preselection_required_reads": 69,
+    "preselection_read_failures": 0,
+    "current_history_rows": 51,
+    "current_unique_source_urls": 51,
+    "current_date_source_registration_count": 1,
+    "note": "Freshness was evaluated against the original pre-selection history and all earlier PREPARED bundles. This operation’s own reservation is expected after PREPARED and is excluded from the prior-occurrence count."
+  },
+  "teaching_qa": {
+    "weekday_targets": 3,
+    "daily_source_time": "6-9 minutes",
+    "daily_required_sections": "passed",
+    "daily_questions": 3,
+    "first_second_pass_routines": "passed; thought-experiment chain followed by three-testable-trust-claims analysis",
+    "output_task": "passed; 90-second institutional-system explanation with an explicit analogy limit",
+    "shadowing_scope": "conditional; embedded video transcript observed, playback untested, and a reading fallback is honestly labelled",
+    "translation_independently_authored_exercises": 2,
+    "translation_topics": [
+      "campus lost-and-found platform",
+      "street-tree shade and summer walking"
+    ],
+    "translation_levels": [
+      "CET-6",
+      "TOEFL/academic"
+    ],
+    "translation_folded_answer_callouts": 5,
+    "vocabulary_items": 8,
+    "vocabulary_retrieval_quiz": "passed",
+    "crosslinks_per_note": 4,
+    "diet_content_in_repository": false
+  },
+  "bundle": {
+    "prepared_creation_commit": "2d25f8ab91d280370860545f6ab2106636afc16a",
+    "prepared_identity_receipt_commit": "4b61f2bc6fe1a8b4ef5090569206a11b67f67fd3",
+    "prepared_blob_sha": "3f6cb7f33f3b44b29fabd6d09a3f979d8afcb4a1",
+    "bundle_sha256": "dcf9a8dc3c36783e5c412835bbc05afd7bc39d1c1ed29db4090b349ca796ffb0",
+    "plan_sha256": "0bc6610137ecf0c2da9a0c95cc83073b8791563e27149c64d01039b7b7bc2c8a",
+    "planner_before": "ready_to_resume, next_stage 1",
+    "planner_after": "artifacts_match, next_stage null"
+  },
+  "publication": {
+    "commit": "fbcbdb08384155a0e29e72d35a4151c72a1fe531",
+    "tree": "982faae627daecaa17d40efee1cdda0b0f4b645c",
+    "readback_receipt_commit": "9606da49754cc2e346527c4648fb43c669fad172",
+    "targets": [
+      {
+        "path": "50-courses/English/Daily/2026-10-28.md",
+        "blob_sha": "2eccdfae574290e5672f3fad49dbd7106d9e13df",
+        "readback_exact": true
+      },
+      {
+        "path": "50-courses/English/Translation/2026-10-28.md",
+        "blob_sha": "a6b6e816552f17e924720b9a63e9f3e7c9fb373a",
+        "readback_exact": true
+      },
+      {
+        "path": "50-courses/English/Vocabulary/2026-10-28.md",
+        "blob_sha": "38bbce0e123d7b47a66f6cba935c5ceb4dc43bc9",
+        "readback_exact": true
+      },
+      {
+        "path": ".recommendation/history/english.jsonl",
+        "blob_sha": "1d108bb635b80293942dc52855a980e5725ea673",
+        "readback_exact": true
+      }
+    ]
+  },
+  "checks": {
+    "publication_bundle_freeze_and_baselines": "passed using current repository baselines and complete UTF-8 payloads",
+    "publication_recovery_after_write": "artifacts_match",
+    "remote_readback": "all three notes and appended history matched frozen target blobs exactly",
+    "local_content_qa": {
+      "status": "passed",
+      "candidate_count": 8,
+      "history_rows": 51,
+      "unique_urls": 51,
+      "daily_questions": 3,
+      "translation_exercises": 2,
+      "folded_answers_translation": 5,
+      "vocabulary_items": 8,
+      "crosslinks_per_note": 4,
+      "payload_hashes": {
+        "50-courses/English/Daily/2026-10-28.md": "2eccdfae574290e5672f3fad49dbd7106d9e13df",
+        "50-courses/English/Translation/2026-10-28.md": "a6b6e816552f17e924720b9a63e9f3e7c9fb373a",
+        "50-courses/English/Vocabulary/2026-10-28.md": "38bbce0e123d7b47a66f6cba935c5ceb4dc43bc9",
+        ".recommendation/history/english.jsonl": "1d108bb635b80293942dc52855a980e5725ea673"
+      },
+      "diet_content_in_repository": false
+    },
+    "local_unit_tests": "123 passed via python3 -m unittest discover",
+    "pytest_runner": "unavailable in this execution image; no pass claimed",
+    "repository_ci": {
+      "run_id": 40606658656,
+      "head_sha": "9606da49754cc2e346527c4648fb43c669fad172",
+      "workflow": "Recommendation integrity (read-only)",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        "Validate publications and full source-history coverage",
+        "Negative regressions and interrupted-publication recovery",
+        "Compare permanent history with the actual base commit",
+        "Record scope of checks"
+      ]
+    },
+    "live_source_content_qa": "passed for exact source identity and the directly observed body, subject to the recorded scope caveats",
+    "device_sync": "not_tested",
+    "notification_delivery": "not_tested"
+  },
+  "historical_backlog": [
+    "Legacy source and format issues remain retained in repository history and were not rewritten."
+  ]
+}
