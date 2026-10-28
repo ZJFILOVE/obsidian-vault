@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-10-28",
+  "operation_id": "english:2026-10-28",
+  "attempt": "20261028T000643Z-stage1",
+  "status": "stage_applied_and_readback_verified",
+  "recorded_at_utc": "2026-10-28T00:06:43Z",
+  "original_bundle_sha256": "dcf9a8dc3c36783e5c412835bbc05afd7bc39d1c1ed29db4090b349ca796ffb0",
+  "original_plan_sha256": "0bc6610137ecf0c2da9a0c95cc83073b8791563e27149c64d01039b7b7bc2c8a",
+  "prepared_creation_commit": "2d25f8ab91d280370860545f6ab2106636afc16a",
+  "prepared_identity_receipt_commit": "4b61f2bc6fe1a8b4ef5090569206a11b67f67fd3",
+  "publication_commit": "fbcbdb08384155a0e29e72d35a4151c72a1fe531",
+  "publication_tree": "982faae627daecaa17d40efee1cdda0b0f4b645c",
+  "stage": 1,
+  "planner_before": "ready_to_resume",
+  "next_stage_before": 1,
+  "readbacks": {
+    "50-courses/English/Daily/2026-10-28.md": {
+      "blob_sha": "2eccdfae574290e5672f3fad49dbd7106d9e13df",
+      "exact": true
+    },
+    "50-courses/English/Translation/2026-10-28.md": {
+      "blob_sha": "a6b6e816552f17e924720b9a63e9f3e7c9fb373a",
+      "exact": true
+    },
+    "50-courses/English/Vocabulary/2026-10-28.md": {
+      "blob_sha": "38bbce0e123d7b47a66f6cba935c5ceb4dc43bc9",
+      "exact": true
+    },
+    ".recommendation/history/english.jsonl": {
+      "blob_sha": "1d108bb635b80293942dc52855a980e5725ea673",
+      "exact": true
+    }
+  },
+  "history_registration_count": 1,
+  "errors": []
+}
