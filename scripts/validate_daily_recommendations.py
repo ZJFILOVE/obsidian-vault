@@ -214,7 +214,7 @@ def music_fields(note: str) -> dict[str, list[str]]:
         for field, pattern in (
             ("Album", r"^Album[:：]\s*(\S.*)$"),
             ("song_id", r"^song_id[:：]\s*`?([0-9]+)`?\s*$"),
-            ("Apple Music", r"^Apple Music(?:\s*CN|（中国大陆）)?\s*[:：](?:中国大陆区)?\s*(https://\S+)$"),
+            ("Apple Music", r"^Apple Music(?:\s*(?:CN|国区)|（中国大陆）)?\s*[:：](?:中国大陆区)?\s*(https://\S+)$"),
         ):
             match = re.match(pattern, plain, re.I)
             if match:

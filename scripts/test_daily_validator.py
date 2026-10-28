@@ -43,6 +43,10 @@ class ValidatorRegressionTests(unittest.TestCase):
             finally:v.ROOT,v.MUSIC_DIR=oldroot,olddir
     def test_bold_metadata(self):self.run_music()
     def test_list_metadata(self):self.run_music('list')
+    def test_localized_china_label(self):
+        self.run_music('list', mutate=lambda s:s.replace('Apple Music CN:', 'Apple Music 国区：'))
+    def test_localized_china_label_still_rejects_other_storefront(self):
+        self.run_music('list', mutate=lambda s:s.replace('Apple Music CN:', 'Apple Music 国区：').replace('/cn/song/', '/us/song/'), expect_failure=True)
     def test_plain_metadata(self):self.run_music('plain')
     def test_fullwidth_metadata(self):
         self.run_music('plain',mutate=lambda s:s.replace('Album:', '**Album**：').replace('song_id:', '**song_id**：').replace('Apple Music:', '**Apple Music（中国大陆）**：'))
