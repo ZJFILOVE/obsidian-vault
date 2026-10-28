@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-10-28",
+  "operation_id": "english:2026-10-28",
+  "attempt": "20261028T000544Z-prepared",
+  "status": "prepared_readback_verified",
+  "recorded_at_utc": "2026-10-28T00:05:44Z",
+  "prepared_creation_commit": "2d25f8ab91d280370860545f6ab2106636afc16a",
+  "prepared_blob_sha": "3f6cb7f33f3b44b29fabd6d09a3f979d8afcb4a1",
+  "original_bundle_sha256": "dcf9a8dc3c36783e5c412835bbc05afd7bc39d1c1ed29db4090b349ca796ffb0",
+  "original_plan_sha256": "0bc6610137ecf0c2da9a0c95cc83073b8791563e27149c64d01039b7b7bc2c8a",
+  "original_parent": "6b0c7934ecb82622eff2ac311823633a3ae4f02e",
+  "readback_exact": true,
+  "source_gate": "selected source directly read before PREPARED",
+  "mutation_stage": "none"
+}
