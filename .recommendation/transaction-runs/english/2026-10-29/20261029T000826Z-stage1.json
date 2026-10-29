@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-29",
+  "attempt_type": "stage_apply",
+  "recorded_at_utc": "2026-10-29T00:08:26.567Z",
+  "original_bundle_sha256": "f199ef0a44f30c2f445edfff7ae84119486e0f2c932b5d9601ad86a9e2aa12df",
+  "original_plan_sha256": "d2ac3868a22441f58024494291726dfdef10e0cf5646c8580c5e373dd57e8b86",
+  "stage": 1,
+  "planner_status": "ready_to_resume",
+  "next_stage": 1,
+  "commit": "9ac1dadb859838050d8ecb48a0ce4fa35db5a461",
+  "tree": "a8a5256689cf5ae7a37e64b289e4bfba5dabca15",
+  "readbacks": {
+    "50-courses/English/Daily/2026-10-29.md": {
+      "blob_sha": "fb42e9c8182bef2d0ad5bb88794023e00e9a1245",
+      "exact_payload": true,
+      "bytes": 4743
+    },
+    "50-courses/English/Translation/2026-10-29.md": {
+      "blob_sha": "2da1206ae65e4a270bbef431761f34d7947f0c30",
+      "exact_payload": true,
+      "bytes": 5898
+    },
+    "50-courses/English/Vocabulary/2026-10-29.md": {
+      "blob_sha": "6144cef86c72887aaf7c420f5799998072162a6e",
+      "exact_payload": true,
+      "bytes": 5420
+    },
+    ".recommendation/history/english.jsonl": {
+      "blob_sha": "af5d4f580385ea0123fb0d8b4b6f8b93b9516a4b",
+      "exact_payload": true,
+      "bytes": 13595
+    }
+  },
+  "errors": []
+}
