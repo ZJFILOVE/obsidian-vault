@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-10-29",
+  "recorded_at_utc": "2026-10-29 00:48:07 UTC",
+  "status": "failed_current_publication_semantic_dedup",
+  "original_bundle_sha256": "efb7eee32bc11c55e0e45d58b24e7370743f5fa5de96292b6d2fb1ad5b975157",
+  "publication_commit": "c8c12eb883376cd1e9c2a1c65051eec12786d4a3",
+  "initial_qa_commit": "de584b758fc8c32af3e17de49064845742fb07d1",
+  "failure": [
+    {
+      "today_post_id": "1f1jqpk",
+      "today_title": "Perspective with different focal lenght. What is the technical term?",
+      "prior_post_id": "7x51tt",
+      "prior_date": "2026-10-20",
+      "prior_title": "Focal length, Compression and distance to/from the subject.",
+      "reason": "Both ask how focal length, camera distance and matched framing relate to apparent perspective/compression."
+    }
+  ],
+  "all_known_exposures_retained": true,
+  "bundle_replaced": false,
+  "notes_replaced": false,
+  "quality_gate_passed": false
+}

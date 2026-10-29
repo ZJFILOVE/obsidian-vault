@@ -4,8 +4,8 @@
   "date": "2026-10-29",
   "operation_id": "news-youtube-reddit:2026-10-29",
   "mode": "new",
-  "status": "passed_current_publication_gates",
-  "recorded_at_utc": "2026-10-29 00:46:48 UTC",
+  "status": "failed_current_publication_semantic_dedup",
+  "recorded_at_utc": "2026-10-29 00:48:07 UTC",
   "preflight": {
     "head": "c8e9c3234761e584e7b909e96a003183ef36e452",
     "required_connector_reads": 69,
@@ -1611,7 +1611,7 @@
     "narrow_topic_max_fraction_youtube": 0.2,
     "narrow_topic_max_fraction_reddit": 0.1,
     "composition": "YouTube 3 high-confidence, 1 adjacent, 1 wildcard; Reddit5 high-confidence,3 adjacent,2wildcards",
-    "semantic_review": "Five distinct original video works and ten distinct thread questions. No reupload/mirror replacement; historical water hammer and backwards bicycle blocked.",
+    "semantic_review": "FAILED: today's photography post1f1jqpk asks about focal length/perspective under reframing; it semantically repeats earlier post7x51tt (2026-10-20), titled Focal length, Compression and distance to/from the subject. The final semantic sweep was initially incomplete. Frozen content must not be replaced with a new selection.",
     "recent_creator_penalties": [
       "CrashCourse appeared2026-10-27; distinct subject retained with penalty",
       "TED appeared2026-10-26; distinct music/embodied-listening work retained with penalty",
@@ -1820,7 +1820,18 @@
     "append_only_old_bytes_preserved": true,
     "each_today_id_registered_once": true,
     "youtube_rows_after": 245,
-    "reddit_rows_after": 470
+    "reddit_rows_after": 470,
+    "semantic_freshness": false,
+    "failed_pairs": [
+      {
+        "today_post_id": "1f1jqpk",
+        "today_title": "Perspective with different focal lenght. What is the technical term?",
+        "prior_post_id": "7x51tt",
+        "prior_date": "2026-10-20",
+        "prior_title": "Focal length, Compression and distance to/from the subject.",
+        "reason": "Both ask how focal length, camera distance and matched framing relate to apparent perspective/compression."
+      }
+    ]
   },
   "bundle": {
     "path": ".recommendation/transactions/news-youtube-reddit/2026-10-29.json",
@@ -1950,7 +1961,7 @@
     "freeze_and_baselines": "passed",
     "planner_after_write": "artifacts_match",
     "content_sections": "3news each required section;5substantive Why watch;10Why read/Discussion notes;5/10checkboxes;AUTO markers/manual Notes outside;YAML dates",
-    "exact_order_count_and_dedup": "passed against original histories",
+    "exact_order_count_and_dedup": "Exact IDs/order/count and original-history append-only checks passed; semantic history dedup FAILED for one Reddit selection.",
     "source_identity_content": "passed with recorded scopes",
     "local_unit_tests": {
       "passed": 125,
@@ -2007,10 +2018,13 @@
         69,
         41,
         15
-      ]
+      ],
+      "scope": "Structural tests passed but did not detect or certify semantic freshness."
     },
     "device_sync": "not_tested",
-    "notification_delivery": "not_tested"
+    "notification_delivery": "not_tested",
+    "current_publication_overall": "failed; do not deliver as fully QA-passed recommendation",
+    "semantic_duplicate_count": 1
   },
   "historical_backlog": [
     "Four repeated YouTube history rows retained permanently; every prior exposed ID/work remains blocked.",
@@ -2021,5 +2035,16 @@
       "classification": "transient_local_exec_transport",
       "message": "Bulk local checkpoint write lost exec-server transport before PREPARED; code execution subsequently recovered. No remote mutation had occurred at time of error. Current source/payload evidence stored in QA and immutable bundle."
     }
-  ]
+  ],
+  "qa_correction": {
+    "initial_qa_commit": "de584b758fc8c32af3e17de49064845742fb07d1",
+    "initial_qa_blob": "0aa19924d5a8c52ee04d5cf3a084722322a7c0f7",
+    "initial_status": "passed_current_publication_gates",
+    "initial_status_was_premature": true,
+    "corrected_at_utc": "2026-10-29 00:48:07 UTC",
+    "publication_preserved": true,
+    "immutable_bundle_unchanged": true,
+    "exposure_history_retained": true,
+    "repair_limitation": "Cannot choose a replacement or mutate the immutable original payloads in this operation; recorded as failed QA without rewriting historical exposures."
+  }
 }
