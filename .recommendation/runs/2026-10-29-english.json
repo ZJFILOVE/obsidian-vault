@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-10-29",
+  "operation_id": "english:2026-10-29",
+  "mode": "new",
+  "status": "passed_current_publication_gates",
+  "recorded_at_utc": "2026-10-29T00:11:38.692788Z",
+  "selection": {
+    "source_url": "https://weather.metoffice.gov.uk/learn-about/weather-forecasting-in-the-news/exact-date-weather-headlines",
+    "title": "‘Exact date’ weather forecast headlines and where they come from",
+    "source": "Met Office",
+    "source_type": "authentic public-weather-service explainer",
+    "estimated_minutes": "5-7",
+    "level": "CET-6 / introductory TOEFL",
+    "topic": "forecast uncertainty, ensemble scenarios and calibrated media claims",
+    "recent_topic_diversity": "Distinct from the preceding seven-day sequence: money trust, social-platform design, photocopying, measurement terminology, ocean sound, natural-history collecting, and Atlanta."
+  },
+  "candidate_policy": {
+    "minimum": 8,
+    "actual": 8,
+    "scoring_weights": {
+      "quality": 0.3,
+      "usefulness": 0.25,
+      "curiosity": 0.2,
+      "novelty": 0.15,
+      "fit": 0.1
+    },
+    "candidates": [
+      {
+        "url": "https://weather.metoffice.gov.uk/learn-about/weather-forecasting-in-the-news/exact-date-weather-headlines",
+        "title": "‘Exact date’ weather forecast headlines and where they come from",
+        "publisher": "Met Office",
+        "observed": "Official page opened directly on 2026-10-29; title and full explainer body were readable, including chaotic initial conditions, one-off model runs and ensemble spread.",
+        "estimated_minutes": "5-7",
+        "scores": {
+          "quality": 9,
+          "usefulness": 10,
+          "curiosity": 8,
+          "novelty": 9,
+          "fit": 9
+        },
+        "decision": "selected",
+        "reason": "Compact authentic public-service prose with a complete evidence-strength argument and clear transfer to media literacy; unlike the previous seven days' topics."
+      },
+      {
+        "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-mars-grades-5-8/",
+        "title": "What Is Mars? (Grades 5-8)",
+        "publisher": "NASA",
+        "observed": "Official page opened directly on 2026-10-29; 6-minute label, title, sections on Mars properties and exploration were readable.",
+        "estimated_minutes": "6",
+        "scores": {
+          "quality": 8,
+          "usefulness": 8,
+          "curiosity": 8,
+          "novelty": 7,
+          "fit": 8
+        },
+        "decision": "rejected",
+        "reason": "Strong fit, but the 2020 article contains time-sensitive mission wording that would require a larger update caveat than today's selected piece."
+      },
+      {
+        "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
+        "title": "What Is the Nancy Grace Roman Space Telescope? (Grades 5-8)",
+        "publisher": "NASA",
+        "observed": "Official NASA result observed on 2026-10-29 with a 6-minute article, publication date 2026-08-11 and substantive sections on instruments and science goals.",
+        "estimated_minutes": "6",
+        "scores": {
+          "quality": 8,
+          "usefulness": 7,
+          "curiosity": 9,
+          "novelty": 8,
+          "fit": 8
+        },
+        "decision": "rejected",
+        "reason": "Interesting but terminology-heavy; it encourages proper-noun collection more than reusable argument analysis at today's target level."
+      },
+      {
+        "url": "https://www.nasa.gov/learning-resources/nasa-knows-what-is-mass-distribution/",
+        "title": "NASA Knows: What Is Mass Distribution?",
+        "publisher": "NASA",
+        "observed": "Official NASA result observed on 2026-10-29 with student-facing text using a soccer ball to explain center of mass and wider applications.",
+        "estimated_minutes": "4-6",
+        "scores": {
+          "quality": 8,
+          "usefulness": 8,
+          "curiosity": 8,
+          "novelty": 8,
+          "fit": 8
+        },
+        "decision": "rejected",
+        "reason": "Good adjacent candidate, but the selected Met Office text offers richer calibration language and a clearer media-reading task."
+      },
+      {
+        "url": "https://www.loc.gov/everyday-mysteries/categories/physics/item/why-does-ultraviolet-light-cause-color-to-fade/",
+        "title": "Why does ultraviolet light cause color to fade?",
+        "publisher": "Library of Congress",
+        "observed": "A real Library of Congress item URL, exact title and physics category were observed in accessible search information on 2026-10-29; direct open returned 403 in this environment.",
+        "estimated_minutes": "5-8",
+        "scores": {
+          "quality": 8,
+          "usefulness": 7,
+          "curiosity": 8,
+          "novelty": 8,
+          "fit": 7
+        },
+        "decision": "rejected",
+        "reason": "Original page was not directly readable, so it could not meet the final-source verification gate."
+      },
+      {
+        "url": "https://www.usgs.gov/water-science-school/science/how-much-does-a-cloud-weigh",
+        "title": "How Much Does a Cloud Weigh?",
+        "publisher": "U.S. Geological Survey",
+        "observed": "Official USGS result observed on 2026-10-29 with a real direct URL and summary of the density calculation and why clouds float.",
+        "estimated_minutes": "5-8",
+        "scores": {
+          "quality": 8,
+          "usefulness": 8,
+          "curiosity": 10,
+          "novelty": 8,
+          "fit": 8
+        },
+        "decision": "rejected",
+        "reason": "Excellent curiosity candidate, but it overlaps the selected weather domain while offering less practice in calibrated claims."
+      },
+      {
+        "url": "https://weather.metoffice.gov.uk/learn-about/met-office-for-schools/other-content/other-resources/what-are-clouds",
+        "title": "What are clouds?",
+        "publisher": "Met Office",
+        "observed": "Official page opened directly on 2026-10-29; cloud formation, ten types, light scattering, contrails and basic observation guidance were readable.",
+        "estimated_minutes": "7-10",
+        "scores": {
+          "quality": 8,
+          "usefulness": 7,
+          "curiosity": 8,
+          "novelty": 7,
+          "fit": 8
+        },
+        "decision": "rejected",
+        "reason": "Readable and level-appropriate, but list-heavy taxonomy would generate less transferable argument practice."
+      },
+      {
+        "url": "https://weather.metoffice.gov.uk/learn-about/how-forecasts-are-made",
+        "title": "How weather forecasts are created",
+        "publisher": "Met Office",
+        "observed": "Official Met Office page was observed in current search on 2026-10-29 with sections on observations and the forecast-production process.",
+        "estimated_minutes": "8-12",
+        "scores": {
+          "quality": 9,
+          "usefulness": 9,
+          "curiosity": 7,
+          "novelty": 8,
+          "fit": 8
+        },
+        "decision": "rejected",
+        "reason": "Authoritative but broader and denser; the selected page gives a tighter 20-minute lesson around a single reasoning problem."
+      }
+    ],
+    "all_urls_real_and_observed": true,
+    "note": "Only the final source was required to pass direct full-source verification; the Library of Congress candidate was rejected because direct open returned 403."
+  },
+  "source_verification": {
+    "method": "direct official source page read before PREPARED and again after publication",
+    "checked_on_utc_date": "2026-10-29",
+    "observations": [
+      "The official Met Office page resolved with the exact title and a readable full explainer body.",
+      "The body directly described chaotic weather, increasing longer-range uncertainty, the weakness of a one-off model run, and ensemble simulations with slightly different starting conditions.",
+      "The body directly connected the spread of scenarios to forecast confidence and careful language.",
+      "The same official page, exact title and substantive body remained readable after publication."
+    ],
+    "scope_caveats": [
+      "The page does not display a clear original publication date, so none was invented.",
+      "The UK and North Atlantic discussion is regional and was not generalized to every location or forecast horizon.",
+      "Linked YouTube series and China-local video playback were not tested.",
+      "Estimated reading time and difficulty are teaching judgments.",
+      "The notes summarize and transform the source through original exercises; they do not reproduce the article at length."
+    ],
+    "accessibility_at_check": "official page text readable before and after publication; linked playback untested"
+  },
+  "freshness": {
+    "original_preselection_history_blob": "1d108bb635b80293942dc52855a980e5725ea673",
+    "original_rows": 51,
+    "original_unique_source_urls": 51,
+    "selected_url_in_original_history": false,
+    "reserved_by_other_prepared_operation": false,
+    "postpublication_rows": 52,
+    "postpublication_unique_source_urls": 52,
+    "today_exact_registration_count": 1
+  },
+  "teaching_qa": {
+    "weekday_targets": 3,
+    "daily": {
+      "two_pass_routine": true,
+      "output_task": true,
+      "comprehension_output_questions": 3,
+      "source_caveats": true,
+      "crosslinks_complete": true
+    },
+    "translation": {
+      "independently_authored_exercises": 2,
+      "levels": [
+        "CET-6",
+        "TOEFL/academic"
+      ],
+      "source_paraphrases": 0,
+      "folded_answer_callouts": 5,
+      "structures_collocations_errors_precision_review": true
+    },
+    "vocabulary": {
+      "items": 8,
+      "meaning_collocations_examples_families_contrasts": true,
+      "retrieval_quiz": true,
+      "crosslinks_complete": true
+    },
+    "auto_markers_and_manual_notes": true,
+    "diet_content_in_repository": false,
+    "copyright_scope": "links, concise summary, original exercises; no long article, transcript, dialogue or lyric reproduction"
+  },
+  "bundle": {
+    "path": ".recommendation/transactions/english/2026-10-29.json",
+    "bundle_sha256": "f199ef0a44f30c2f445edfff7ae84119486e0f2c932b5d9601ad86a9e2aa12df",
+    "plan_sha256": "d2ac3868a22441f58024494291726dfdef10e0cf5646c8580c5e373dd57e8b86",
+    "prepared_creation_commit": "95e6304d2f8cf288815925de981ab35f27d8e2c3",
+    "prepared_blob_sha": "56fa812386aeb60c124904122a667558d1d4b9eb",
+    "identity_receipt_commit": "d5802b36bf56e1643c23944fb3e3192e37de3e2c",
+    "identity_receipt_path": ".recommendation/transaction-runs/english/2026-10-29/20261029T000747Z-prepared.json",
+    "immutable_readback": true,
+    "baseline_check": "passed",
+    "postwrite_planner": "artifacts_match"
+  },
+  "publication": {
+    "stage_commit": "9ac1dadb859838050d8ecb48a0ce4fa35db5a461",
+    "stage_receipt_commit": "28340208c454154dfdd97369085cd31d5562921c",
+    "stage_receipt_path": ".recommendation/transaction-runs/english/2026-10-29/20261029T000826Z-stage1.json",
+    "readbacks": {
+      "50-courses/English/Daily/2026-10-29.md": "fb42e9c8182bef2d0ad5bb88794023e00e9a1245",
+      "50-courses/English/Translation/2026-10-29.md": "2da1206ae65e4a270bbef431761f34d7947f0c30",
+      "50-courses/English/Vocabulary/2026-10-29.md": "6144cef86c72887aaf7c420f5799998072162a6e",
+      ".recommendation/history/english.jsonl": "af5d4f580385ea0123fb0d8b4b6f8b93b9516a4b"
+    },
+    "all_exact_frozen_payloads": true
+  },
+  "checks": {
+    "content_qa": {
+      "status": "passed",
+      "checks": {
+        "candidate_count": true,
+        "fresh_against_original_history": true,
+        "history_prefix_preserved": true,
+        "history_52_unique_urls": true,
+        "today_registered_exactly_once": true,
+        "weekday_targets_exact": true,
+        "daily_auto_markers": true,
+        "daily_manual_notes_outside": true,
+        "daily_all_crosslinks": true,
+        "translation_auto_markers": true,
+        "translation_manual_notes_outside": true,
+        "translation_all_crosslinks": true,
+        "vocabulary_auto_markers": true,
+        "vocabulary_manual_notes_outside": true,
+        "vocabulary_all_crosslinks": true,
+        "daily_source_identity": true,
+        "daily_routines_output_questions": true,
+        "daily_three_questions": true,
+        "translation_two_independent_exercises": true,
+        "translation_folded_answers": true,
+        "translation_levels": true,
+        "translation_precision_and_review": true,
+        "vocabulary_count_8": true,
+        "vocabulary_details": true,
+        "vocabulary_quiz": true,
+        "no_diet_content": true
+      },
+      "failed": []
+    },
+    "current_bundle_freeze_baselines_and_digest": "passed",
+    "current_bundle_postwrite_planner": "artifacts_match",
+    "all_prepared_inputs": "42 bundles readable; repository CI audited immutable bundle journal",
+    "local_unit_tests": "125 passed via python3 -m unittest discover",
+    "pytest_runner": "not used; no pytest pass claimed",
+    "repository_ci": {
+      "run_id": 40792079000,
+      "head_sha": "28340208c454154dfdd97369085cd31d5562921c",
+      "workflow": "Recommendation integrity (read-only)",
+      "status": "completed",
+      "conclusion": "success",
+      "test_groups": [
+        69,
+        41,
+        15
+      ],
+      "bundle_journal_count": 42,
+      "steps": [
+        "Validate publications and full source-history coverage",
+        "Negative regressions and interrupted-publication recovery",
+        "Compare permanent history with the actual base commit",
+        "Record scope of checks"
+      ]
+    },
+    "live_source_content_qa": "passed for the exact official page and directly observed body, with scope caveats above",
+    "device_sync": "not_tested",
+    "notification_delivery": "not_tested"
+  },
+  "historical_backlog": [
+    "Legacy source and format issues remain retained in repository history and were not rewritten."
+  ]
+}
