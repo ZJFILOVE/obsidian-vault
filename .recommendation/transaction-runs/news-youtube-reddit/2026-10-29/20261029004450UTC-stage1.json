@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-10-29",
+  "recorded_at_utc": "2026-10-29 00:44:50 UTC",
+  "original_bundle_sha256": "efb7eee32bc11c55e0e45d58b24e7370743f5fa5de96292b6d2fb1ad5b975157",
+  "original_plan_sha256": "f70c3abf6d67abc05cc65c19f577df82b54c70c122369059301f7ba91e736279",
+  "stage": 1,
+  "publication": {
+    "commit": "c8c12eb883376cd1e9c2a1c65051eec12786d4a3",
+    "tree": "56856dfc0b16a6c4809e46bf8a859b42e05d9aeb",
+    "parent": "9c90226392fe962daf27c11be235cc55cd245d8d",
+    "blobs": {
+      "News/Daily/2026-10-29.md": "785a184e6483f9f603cd6bf93750a4a66878ea5f",
+      "Resources/YouTube/Daily/2026-10-29.md": "027d8000ed5719669e7edb0228d9765108259750",
+      "Resources/Reddit/Daily/2026-10-29.md": "6ee9a0305bc29eca7e249b1eb02973a7c9d36fb3",
+      ".recommendation/history/youtube.jsonl": "88a6ff30078bf8de074b0b657273f51e9c00a78b",
+      ".recommendation/history/reddit.jsonl": "c6b2d00efb70a287bcf56059e0ca8e483d9ece41"
+    },
+    "exact_readback": true
+  },
+  "readbacks": {
+    "News/Daily/2026-10-29.md": "785a184e6483f9f603cd6bf93750a4a66878ea5f",
+    "Resources/YouTube/Daily/2026-10-29.md": "027d8000ed5719669e7edb0228d9765108259750",
+    "Resources/Reddit/Daily/2026-10-29.md": "6ee9a0305bc29eca7e249b1eb02973a7c9d36fb3",
+    ".recommendation/history/youtube.jsonl": "88a6ff30078bf8de074b0b657273f51e9c00a78b",
+    ".recommendation/history/reddit.jsonl": "c6b2d00efb70a287bcf56059e0ca8e483d9ece41"
+  },
+  "exact_frozen_payload_readbacks": true,
+  "errors": [
+    {
+      "phase": "local pre-PREPARED evidence checkpoint",
+      "classification": "transport",
+      "message": "exec-server transport disconnected during bulk local snapshot write; subsequent read-only pwd succeeded; no remote publication had yet occurred",
+      "recovery": "saved required policy/history/scripts and research evidence separately; retained connector observations; no new recommendation bundle replaced"
+    }
+  ]
+}
