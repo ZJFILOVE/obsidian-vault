@@ -1,0 +1,2025 @@
+{
+  "schema_version": 1,
+  "project": "news-youtube-reddit",
+  "date": "2026-10-29",
+  "operation_id": "news-youtube-reddit:2026-10-29",
+  "mode": "new",
+  "status": "passed_current_publication_gates",
+  "recorded_at_utc": "2026-10-29 00:46:48 UTC",
+  "preflight": {
+    "head": "c8e9c3234761e584e7b909e96a003183ef36e452",
+    "required_connector_reads": 69,
+    "complete_histories": true,
+    "prepared_bundles_read": 42,
+    "tree_truncated": false,
+    "today_originally_absent": true
+  },
+  "candidates": {
+    "youtube_count": 31,
+    "reddit_count": 106,
+    "youtube": [
+      {
+        "title": "Vectors | Chapter 1, Essence of linear algebra",
+        "video_id": "fNk_zzaMoSs",
+        "channel": "3Blue1Brown",
+        "evidence": "Observed real ID, title and synopsis in current public catalogue; not first-party verified unless selected",
+        "source": "https://github.com/tamnd/3blue1brown-index/blob/main/playlists/essence-of-linear-algebra-gF8hE_ab.md",
+        "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "title": "Linear combinations, span, and basis vectors | Chapter 2, Essence of linear algebra",
+        "video_id": "k7RM-ot2NWY",
+        "channel": "3Blue1Brown",
+        "evidence": "Observed real ID, title and synopsis in current public catalogue; not first-party verified unless selected",
+        "source": "https://github.com/tamnd/3blue1brown-index/blob/main/playlists/essence-of-linear-algebra-gF8hE_ab.md",
+        "url": "https://www.youtube.com/watch?v=k7RM-ot2NWY",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "title": "Linear transformations and matrices | Chapter 3, Essence of linear algebra",
+        "video_id": "kYB8IZa5AuE",
+        "channel": "3Blue1Brown",
+        "evidence": "Observed real ID, title and synopsis in current public catalogue; not first-party verified unless selected",
+        "source": "https://github.com/tamnd/3blue1brown-index/blob/main/playlists/essence-of-linear-algebra-gF8hE_ab.md",
+        "url": "https://www.youtube.com/watch?v=kYB8IZa5AuE",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "title": "Matrix multiplication as composition | Chapter 4, Essence of linear algebra",
+        "video_id": "XkY2DOUCWMU",
+        "channel": "3Blue1Brown",
+        "evidence": "Observed real ID, title and synopsis in current public catalogue; not first-party verified unless selected",
+        "source": "https://github.com/tamnd/3blue1brown-index/blob/main/playlists/essence-of-linear-algebra-gF8hE_ab.md",
+        "url": "https://www.youtube.com/watch?v=XkY2DOUCWMU",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "title": "Three-dimensional linear transformations | Chapter 5, Essence of linear algebra",
+        "video_id": "rHLEWRxRGiM",
+        "channel": "3Blue1Brown",
+        "evidence": "Observed real ID, title and synopsis in current public catalogue; not first-party verified unless selected",
+        "source": "https://github.com/tamnd/3blue1brown-index/blob/main/playlists/essence-of-linear-algebra-gF8hE_ab.md",
+        "url": "https://www.youtube.com/watch?v=rHLEWRxRGiM",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "title": "The determinant | Chapter 6, Essence of linear algebra",
+        "video_id": "Ip3X9LOh2dk",
+        "channel": "3Blue1Brown",
+        "evidence": "Observed real ID, title and synopsis in current public catalogue; not first-party verified unless selected",
+        "source": "https://github.com/tamnd/3blue1brown-index/blob/main/playlists/essence-of-linear-algebra-gF8hE_ab.md",
+        "url": "https://www.youtube.com/watch?v=Ip3X9LOh2dk",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "title": "Inverse matrices, column space and null space | Chapter 7, Essence of linear algebra",
+        "video_id": "uQhTuRlWMxw",
+        "channel": "3Blue1Brown",
+        "evidence": "Observed real ID, title and synopsis in current public catalogue; not first-party verified unless selected",
+        "source": "https://github.com/tamnd/3blue1brown-index/blob/main/playlists/essence-of-linear-algebra-gF8hE_ab.md",
+        "url": "https://www.youtube.com/watch?v=uQhTuRlWMxw",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "title": "Nonsquare matrices as transformations between dimensions | Chapter 8, Essence of linear algebra",
+        "video_id": "v8VSDg_WQlA",
+        "channel": "3Blue1Brown",
+        "evidence": "Observed real ID, title and synopsis in current public catalogue; not first-party verified unless selected",
+        "source": "https://github.com/tamnd/3blue1brown-index/blob/main/playlists/essence-of-linear-algebra-gF8hE_ab.md",
+        "url": "https://www.youtube.com/watch?v=v8VSDg_WQlA",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "title": "Dot products and duality | Chapter 9, Essence of linear algebra",
+        "video_id": "LyGKycYT2v0",
+        "channel": "3Blue1Brown",
+        "evidence": "Observed real ID, title and synopsis in current public catalogue; not first-party verified unless selected",
+        "source": "https://github.com/tamnd/3blue1brown-index/blob/main/playlists/essence-of-linear-algebra-gF8hE_ab.md",
+        "url": "https://www.youtube.com/watch?v=LyGKycYT2v0",
+        "selected": true,
+        "decision": "selected",
+        "evaluation": "Identity/content sufficient and complements final domains",
+        "scores": {
+          "quality": 9,
+          "usefulness": 10,
+          "curiosity": 9,
+          "novelty": 9,
+          "fit": 8
+        }
+      },
+      {
+        "title": "Cross products | Chapter 10, Essence of linear algebra",
+        "video_id": "eu6i7WJeinw",
+        "channel": "3Blue1Brown",
+        "evidence": "Observed real ID, title and synopsis in current public catalogue; not first-party verified unless selected",
+        "source": "https://github.com/tamnd/3blue1brown-index/blob/main/playlists/essence-of-linear-algebra-gF8hE_ab.md",
+        "url": "https://www.youtube.com/watch?v=eu6i7WJeinw",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "title": "Cross products in the light of linear transformations | Chapter 11, Essence of linear algebra",
+        "video_id": "BaM7OCEm3G0",
+        "channel": "3Blue1Brown",
+        "evidence": "Observed real ID, title and synopsis in current public catalogue; not first-party verified unless selected",
+        "source": "https://github.com/tamnd/3blue1brown-index/blob/main/playlists/essence-of-linear-algebra-gF8hE_ab.md",
+        "url": "https://www.youtube.com/watch?v=BaM7OCEm3G0",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "title": "Cramer's rule, explained geometrically | Chapter 12, Essence of linear algebra",
+        "video_id": "jBsC34PxzoM",
+        "channel": "3Blue1Brown",
+        "evidence": "Observed real ID, title and synopsis in current public catalogue; not first-party verified unless selected",
+        "source": "https://github.com/tamnd/3blue1brown-index/blob/main/playlists/essence-of-linear-algebra-gF8hE_ab.md",
+        "url": "https://www.youtube.com/watch?v=jBsC34PxzoM",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "title": "Change of basis | Chapter 13, Essence of linear algebra",
+        "video_id": "P2LTAUO1TdA",
+        "channel": "3Blue1Brown",
+        "evidence": "Observed real ID, title and synopsis in current public catalogue; not first-party verified unless selected",
+        "source": "https://github.com/tamnd/3blue1brown-index/blob/main/playlists/essence-of-linear-algebra-gF8hE_ab.md",
+        "url": "https://www.youtube.com/watch?v=P2LTAUO1TdA",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "title": "Eigenvectors and eigenvalues | Chapter 14, Essence of linear algebra",
+        "video_id": "PFDu9oVAE-g",
+        "channel": "3Blue1Brown",
+        "evidence": "Observed real ID, title and synopsis in current public catalogue; not first-party verified unless selected",
+        "source": "https://github.com/tamnd/3blue1brown-index/blob/main/playlists/essence-of-linear-algebra-gF8hE_ab.md",
+        "url": "https://www.youtube.com/watch?v=PFDu9oVAE-g",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "title": "A quick trick for computing eigenvalues | Chapter 15, Essence of linear algebra",
+        "video_id": "e50Bj7jn9IQ",
+        "channel": "3Blue1Brown",
+        "evidence": "Observed real ID, title and synopsis in current public catalogue; not first-party verified unless selected",
+        "source": "https://github.com/tamnd/3blue1brown-index/blob/main/playlists/essence-of-linear-algebra-gF8hE_ab.md",
+        "url": "https://www.youtube.com/watch?v=e50Bj7jn9IQ",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "title": "Abstract vector spaces | Chapter 16, Essence of linear algebra",
+        "video_id": "TgKwz5Ikpc8",
+        "channel": "3Blue1Brown",
+        "evidence": "Observed real ID, title and synopsis in current public catalogue; not first-party verified unless selected",
+        "source": "https://github.com/tamnd/3blue1brown-index/blob/main/playlists/essence-of-linear-algebra-gF8hE_ab.md",
+        "url": "https://www.youtube.com/watch?v=TgKwz5Ikpc8",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "video_id": "xoLmVFAFjn4",
+        "title": "What is Water Hammer?",
+        "channel": "Practical Engineering",
+        "evidence": "Observed current search result or actual YouTube visible related-video card; selected sources additionally checked directly",
+        "source": "https://www.youtube.com/watch?v=xoLmVFAFjn4",
+        "url": "https://www.youtube.com/watch?v=xoLmVFAFjn4",
+        "selected": false,
+        "decision": "reject_permanent_id",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "video_id": "MFzDaBzBlL0",
+        "title": "The Backwards Brain Bicycle - Smarter Every Day 133",
+        "channel": "SmarterEveryDay",
+        "evidence": "Observed current search result or actual YouTube visible related-video card; selected sources additionally checked directly",
+        "source": "https://www.youtube.com/watch?v=MFzDaBzBlL0",
+        "url": "https://www.youtube.com/watch?v=MFzDaBzBlL0",
+        "selected": false,
+        "decision": "reject_same_work_despite_other_id",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "video_id": "IU3V6zNER4g",
+        "title": "How to truly listen | Evelyn Glennie",
+        "channel": "TED",
+        "evidence": "Observed current search result or actual YouTube visible related-video card; selected sources additionally checked directly",
+        "source": "https://www.youtube.com/watch?v=IU3V6zNER4g",
+        "url": "https://www.youtube.com/watch?v=IU3V6zNER4g",
+        "selected": true,
+        "decision": "selected",
+        "evaluation": "Identity/content sufficient and complements final domains",
+        "scores": {
+          "quality": 9,
+          "usefulness": 8,
+          "curiosity": 9,
+          "novelty": 9,
+          "fit": 8
+        }
+      },
+      {
+        "video_id": "ICZww0DtQKk",
+        "title": "Ancient Roman Garum Revisited",
+        "channel": "Tasting History with Max Miller",
+        "evidence": "Observed current search result or actual YouTube visible related-video card; selected sources additionally checked directly",
+        "source": "https://www.youtube.com/watch?v=ICZww0DtQKk",
+        "url": "https://www.youtube.com/watch?v=ICZww0DtQKk",
+        "selected": true,
+        "decision": "selected",
+        "evaluation": "Identity/content sufficient and complements final domains",
+        "scores": {
+          "quality": 9,
+          "usefulness": 8,
+          "curiosity": 9,
+          "novelty": 9,
+          "fit": 8
+        }
+      },
+      {
+        "video_id": "3yLXNzDUH58",
+        "title": "What is Linguistics?: Crash Course Linguistics #1",
+        "channel": "CrashCourse",
+        "evidence": "Observed current search result or actual YouTube visible related-video card; selected sources additionally checked directly",
+        "source": "https://www.youtube.com/watch?v=3yLXNzDUH58",
+        "url": "https://www.youtube.com/watch?v=3yLXNzDUH58",
+        "selected": true,
+        "decision": "selected",
+        "evaluation": "Identity/content sufficient and complements final domains",
+        "scores": {
+          "quality": 9,
+          "usefulness": 8,
+          "curiosity": 9,
+          "novelty": 9,
+          "fit": 8
+        }
+      },
+      {
+        "video_id": "YkR79oDAgOg",
+        "title": "What is a Weir?",
+        "channel": "Practical Engineering",
+        "evidence": "Observed current search result or actual YouTube visible related-video card; selected sources additionally checked directly",
+        "source": "https://www.youtube.com/watch?v=YkR79oDAgOg",
+        "url": "https://www.youtube.com/watch?v=YkR79oDAgOg",
+        "selected": true,
+        "decision": "selected",
+        "evaluation": "Identity/content sufficient and complements final domains",
+        "scores": {
+          "quality": 9,
+          "usefulness": 8,
+          "curiosity": 9,
+          "novelty": 9,
+          "fit": 8
+        }
+      },
+      {
+        "video_id": "zCE26J0cYWA",
+        "title": "What is Cavitation? (with AvE)",
+        "channel": "Practical Engineering",
+        "evidence": "Observed current search result or actual YouTube visible related-video card; selected sources additionally checked directly",
+        "source": "https://www.youtube.com/watch?v=zCE26J0cYWA",
+        "url": "https://www.youtube.com/watch?v=zCE26J0cYWA",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "video_id": "S0cM-u7Jrh8",
+        "title": "Food in the Trenches of World War One",
+        "channel": "Tasting History with Max Miller",
+        "evidence": "Observed current search result or actual YouTube visible related-video card; selected sources additionally checked directly",
+        "source": "https://www.youtube.com/watch?v=S0cM-u7Jrh8",
+        "url": "https://www.youtube.com/watch?v=S0cM-u7Jrh8",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "video_id": "DUAayg3D0XA",
+        "title": "Pemmican: History's Power Bar",
+        "channel": "Tasting History with Max Miller",
+        "evidence": "Observed current search result or actual YouTube visible related-video card; selected sources additionally checked directly",
+        "source": "https://www.youtube.com/watch?v=DUAayg3D0XA",
+        "url": "https://www.youtube.com/watch?v=DUAayg3D0XA",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "video_id": "u08Dbm4pATw",
+        "title": "The Roman Colosseum: What It Was Like to Attend the Games",
+        "channel": "Tasting History with Max Miller",
+        "evidence": "Observed current search result or actual YouTube visible related-video card; selected sources additionally checked directly",
+        "source": "https://www.youtube.com/watch?v=u08Dbm4pATw",
+        "url": "https://www.youtube.com/watch?v=u08Dbm4pATw",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "video_id": "wp2-FGLdgfE",
+        "title": "The Mysterious Death of Harry Houdini",
+        "channel": "Tasting History with Max Miller",
+        "evidence": "Observed current search result or actual YouTube visible related-video card; selected sources additionally checked directly",
+        "source": "https://www.youtube.com/watch?v=wp2-FGLdgfE",
+        "url": "https://www.youtube.com/watch?v=wp2-FGLdgfE",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "video_id": "U9134Rs_0co",
+        "title": "Feeding Emperor Augustus Caesar - Handmade Roman Cheese",
+        "channel": "Tasting History with Max Miller",
+        "evidence": "Observed current search result or actual YouTube visible related-video card; selected sources additionally checked directly",
+        "source": "https://www.youtube.com/watch?v=U9134Rs_0co",
+        "url": "https://www.youtube.com/watch?v=U9134Rs_0co",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "video_id": "DWSHvfDx1ig",
+        "title": "Candy In The 18th Century",
+        "channel": "Townsends",
+        "evidence": "Observed current search result or actual YouTube visible related-video card; selected sources additionally checked directly",
+        "source": "https://www.youtube.com/watch?v=DWSHvfDx1ig",
+        "url": "https://www.youtube.com/watch?v=DWSHvfDx1ig",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "video_id": "JluR-w6Vasw",
+        "title": "The Last Meal of the Evil Emperor Commodus",
+        "channel": "Tasting History with Max Miller",
+        "evidence": "Observed current search result or actual YouTube visible related-video card; selected sources additionally checked directly",
+        "source": "https://www.youtube.com/watch?v=JluR-w6Vasw",
+        "url": "https://www.youtube.com/watch?v=JluR-w6Vasw",
+        "selected": false,
+        "decision": "reject_permanent_id",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      },
+      {
+        "video_id": "wG-tBlxfxgs",
+        "title": "Food That Preserved A Nation: Salt Beef",
+        "channel": "Townsends",
+        "evidence": "Observed current search result or actual YouTube visible related-video card; selected sources additionally checked directly",
+        "source": "https://www.youtube.com/watch?v=wG-tBlxfxgs",
+        "url": "https://www.youtube.com/watch?v=wG-tBlxfxgs",
+        "selected": false,
+        "decision": "reject_lower_marginal_value_or_concentration",
+        "evaluation": "Assessed title/synopsis; weaker fit, insufficient direct verification, or same topic/creator concentration vs final picks"
+      }
+    ],
+    "reddit": [
+      {
+        "post_id": "1ww0p7w",
+        "title": "Why high-hydration dough feels impossible at first",
+        "url": "https://www.reddit.com/r/Cookery/comments/1ww0p7w/why_highhydration_dough_feels_impossible_at_first/",
+        "subreddit": "Cookery",
+        "evidence": "【turn453reddit47】 [wordlim: 200] Published: 3 weeks ago; As hydration continues and gluten develops, the dough can gradually become more cohesive and capable of holding itself together. ... Resting allows the flour to hydrate, while folding can build structure without turning the dough into a stiff mass.\n[Friday October 02 2026] [+1 votes]\nHigh hydration dough can make you question every decision you made in the kitchen. It sticks to your hands, spreads across the work surface, and seems to have none of the strength you expect from bread dough.\n\nThe confusing part is that wet dough is not necessarily weak dough.\n\nWhen there is more water relative to flour, the dough becomes much looser at th",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "zmpjgt",
+        "title": "Is this how wet 63% hydration dough is supposed to be?",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/zmpjgt",
+        "subreddit": "AskCulinary",
+        "evidence": "【turn453reddit48】 [wordlim: 200] Published: 3.9 years ago; Crawled: 3.9 years ago; I have always struggled with my dough hydration percent.\n[Thursday December 15 2022] [+13 votes]\nPhoto: https://photos.app.goo.gl/m24mSNv6ce6Kp3Kz9\n\nI have always struggled with my dough hydration percent. When I follow the recipe exactly, the dough seems so wet that it's almost impossible to handle. When I go by feel, I end up adding so much flour that I end up with hydration percent closer to 55% or 60%, which clearly isn't right.\n\nThe guideline I always work with is from Peter Reinhart's \"The Bread Baker's Apprentice\" -- that when kneading in a mixer, the dough should not stick to the sides of the mixer, bu",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "14u3cmw",
+        "title": "How do i get high hydration pizza dough that isnt super sticky?",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/14u3cmw",
+        "subreddit": "AskCulinary",
+        "evidence": "【turn453reddit49】 [wordlim: 200] Published: 3.3 years ago; Crawled: 1.5 years ago; Even after 8-10 min in the kitchen aid i find that pizza dough over 70% hydration is like glue and coats my hands when trying to make dough balls or work with it unless i add a bunch of flour.\n[Saturday July 08 2023] [+92 votes]\nI use pizza app and weigh/measure precisely. Even after 8-10 min in the kitchen aid i find that pizza dough over 70% hydration is like glue and coats my hands when trying to make dough balls or work with it unless i add a bunch of flour. When i watch things like Chefs Table the italians have pizza dough that jiggles and looks super soft almost fluid and it isnt sticking to them at all.",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1xc4rc3",
+        "title": "Very Wet Dough",
+        "url": "https://www.reddit.com/r/Sourdough/comments/1xc4rc3/very_wet_dough/",
+        "subreddit": "Sourdough",
+        "evidence": "【turn453reddit50】 [wordlim: 200] Published: 6 days ago; The dough looks amazing when done stretching, but when I come back for the next round it’s back to filling the bottom of the bowl and it’s wet and sticky. ... Try 325g water (65% hydration) and see how that goes.\n[Thursday October 22 2026] [+3 votes]\nI am struggling with VERY wet loaves that won’t hold their shape.  I am using 100 grams of starter. 345 grams of water. 500 grams of bread flour and 10 grams of pink Himalayan salt. I need by hand until shaggy. I then do three or four rounds of stretch and folds every half hour. The dough looks amazing when done stretching, but when I come back for the next round it’s back to filling the bo",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1530syv",
+        "title": "How do you add water to dough?",
+        "url": "https://www.reddit.com/r/Baking/comments/1530syv/how_do_you_add_water_to_dough/",
+        "subreddit": "Baking",
+        "evidence": "【turn453reddit51】 [wordlim: 200] Published: 3.3 years ago; I live in SC and it stays humid so hydration is kind of guessing and then after resting, I'll add a tablespoon or two- but this is usually a messy process. ... If measuring by weight, this should lead to a higher hydration dough anyway, but I find it's usually too dry.\n[Tuesday July 18 2023] [+1 votes]\nI've been baking for a few years and I have gotten better about figuring out the right amount of water but I don't really have a good strategy for adding water after it rests.\n\nWhen making bread (any dough really) I'll add ingredients to the bowl and once it comes together, I will usually let it rest for ten minutes regardless of what ",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1wwpvl0",
+        "title": "What a dough's hydration tells you",
+        "url": "https://www.reddit.com/r/Cookery/comments/1wwpvl0/what_a_doughs_hydration_tells_you/",
+        "subreddit": "Cookery",
+        "evidence": "【turn453reddit52】 [wordlim: 200] Published: 3 weeks ago; Hydration is one of the most useful numbers in bread baking because it tells you how much water the dough contains relative to the flour.\n[Saturday October 03 2026] [+1 votes]\nHydration is one of the most useful numbers in bread baking because it tells you how much water the dough contains relative to the flour.\n\nIf a recipe uses 500 grams of flour and 350 grams of water, the dough has 70 percent hydration. That number does not tell you exactly how the dough will feel, but it gives you a useful starting point for understanding its behavior.\n\nMore water generally produces a softer, looser dough. It can be sticky and difficult to handle ",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1sy58im",
+        "title": "What, exactly, is the point of hydrating batters?",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/1sy58im/what_exactly_is_the_point_of_hydrating_batters/",
+        "subreddit": "AskCulinary",
+        "evidence": "【turn453reddit53】 [wordlim: 200] Published: 6 months ago; Finally, the hydration with comes with resting batter would seem to promote gluten formation, which is undesirable for many applications.\n[Tuesday April 28 2026] [+41 votes]\nI understand that resting, say a pancake or crepe batter gives the starch granules in the wheat flour time to soak up the surrounding liquid, thereby making them swell and perhaps soften.  But, what effect does this actually have on the finished product (i.e. pancakes or crepes)?  Does it make them more tender, light, fluffy, etc?\n\nAlso, when making a leavened batter like pancakes, utilizing baking powder as the leavener, assuming that one is resting the batter fo",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "selected"
+      },
+      {
+        "post_id": "g7poin",
+        "title": "Pasta dough",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/g7poin",
+        "subreddit": "AskCulinary",
+        "evidence": "【turn453reddit54】 [wordlim: 200] Published: 6.5 years ago; Crawled: 6.5 years ago; The amount of time you rest the dough won’t change how easy it is to roll out in a very significant way.\nResting for 30 min vs an hour and 30 min is fine on the counter is fine. ... Like hydration, if it hasn’t been kneaded enough, method of rolling, etc.\n[Saturday April 25 2020] [+4 votes]\nWould it be okay to leave pasta dough for more then 30 min at room temp mabay like 1 hour and 30 min or at that point i should put it in the fridge. I want it to be easy to roll out\n\n[Saturday April 25 2020] [+2 votes]\nThe amount of time you rest the dough won’t change how easy it is to roll out in a very significant way.\nR",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1f1jqpk",
+        "title": "Perspective with different focal lenght. What is the technical term?",
+        "url": "https://www.reddit.com/r/photography/comments/1f1jqpk",
+        "subreddit": "photography",
+        "evidence": "【turn453reddit55】 [wordlim: 200] Published: 2.2 years ago; Crawled: 2.2 years ago; Lens compression. https://photographylife.com/what-is-lens-compression ... Perspective changes with your location not the focal length.\n[Monday August 26 2024] [+2 votes]\nI probably got it wrong with that title but i am looking for a specific term for a topic i wanna learn.\nA while ago i saw a Video about someone who photographed a building through a gate.\nHe used different focal lenght but kept the field of view the same, so the gate was always the same but the building appeared in different \"sizes\".\nI don't know what to search for.\n\n[Monday August 26 2024] [+3 votes]\nLens compression. https://photographylife",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "selected"
+      },
+      {
+        "post_id": "hdb4cv",
+        "title": "Rest time for pasta dough?",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/hdb4cv",
+        "subreddit": "AskCulinary",
+        "evidence": "【turn453reddit56】 [wordlim: 200] Published: 6.4 years ago; Crawled: 1.8 years ago; Or is there an upper limit to how long I should be resting the pasta dough for?\n[Sunday June 21 2020] [+12 votes]\nMost recipes i’ve seen require a 30 minute rest time for pasta dough before it is laminated & rolled out. I rested mine for more than 30 minutes (close to 45), but my dough still kept shrinking when I tried to roll it out by hand. I live in an extremely humid country, if that has any relevance.\n\nIs it recommended to rest pasta dough as long as it needs to reach the ideal state where it can be rolled out without shrinking back? Or is there an upper limit to how long I should be resting the pasta dou",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1vmjvux",
+        "title": "70% hydration dough becomes extremely sticky after cold fermentation",
+        "url": "https://www.reddit.com/r/neapolitanpizza/comments/1vmjvux/70_hydration_dough_becomes_extremely_sticky_after/",
+        "subreddit": "neapolitanpizza",
+        "evidence": "【turn453reddit57】 [wordlim: 200] Published: 2 months ago; I'm fairly new to pizza making and I'm trying to understand what went wrong with my dough. ... That's roughly 70% hydration.\n[Wednesday August 12 2026] [+7 votes]\nHi everyone!\n\n\n\nI'm fairly new to pizza making and I'm trying to understand what went wrong with my dough.\n\nI used the following recipe:\n\n* 480 g Caputo Pizzeria flour\n* 340 g bottled water, room temperature\n* 0.4 g active dry yeast\n* 10 g salt\n\nThat's roughly 70% hydration.\n\nFor the process, I did a 30-minute autolyse and then about 3–4 sets of slap and folds. At that point, the dough was actually quite easy to handle. It wasn't sticky at all, apart from being slightly tack",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1im440f",
+        "title": "How to know if my pizza dough needs more ore less hydration?",
+        "url": "https://www.reddit.com/r/Cooking/comments/1im440f",
+        "subreddit": "Cooking",
+        "evidence": "【turn453reddit58】 [wordlim: 200] Published: 1.7 years ago; Crawled: 1.7 years ago; ^(The AVPN, Associazione Verace Pizza Napolena rules state a true NP pizza dough is 55 - 59% hydration for a 60 second bake at a high oven temperature of over 900 degrees.)\n[Monday February 10 2025] [+4 votes]\nHi,\n\nI'm making 60% direct dough for Neapolitan-style pizza. I have an electric pizza oven that gets pizza to good shape in about 3:30 to 4:00 minutes.\n\nIn all recipes, people say: \"Adjust hydration level between 57-65 if needed\". And....  that is the issue for me. I have no idea what to look for to decide if my dough is too dry or too wet.\n\nCould you help me and teach me what to look for in dough to kno",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1the8hz",
+        "title": "How do you take photos of people on the street and not feel uncomfortable about it? : photography",
+        "url": "https://id.reddit.com/r/photography/comments/1the8hz/how_do_you_take_photos_of_people_on_the_street/?sort=confidence",
+        "subreddit": "photography",
+        "evidence": "【turn453search0】 [wordlim: 200] Published: 5 months ago; Crawled: 4 months ago; When I do street photography I use a 24-120, it’s not a huge lens. ... Many of the best candid photographers worked with a 50mm focal length. ... For yourself: I think there is a transition phrase for you to approach street photography. ... Approach it from that perspective\nThis doesn't address ethical concerns however.\n\nGenerally, you want to be disarming. If you dress up in all black and act overly serious and sneaky, you'll stick out like a sore thumb. If you dress like a tourist, and act like a tourist, taking pictures of everything and everybody with a big smile on your face, most people won't pay you any mi",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "jqcxwi",
+        "title": "How can I purposely get clumps in my spaghetti : AskCulinary",
+        "url": "https://en.reddit.com/r/AskCulinary/comments/jqcxwi/how_can_i_purposely_get_clumps_in_my_spaghetti/?sort=qa",
+        "subreddit": "AskCulinary",
+        "evidence": "【turn453search1】 [wordlim: 200] Published: 6.0 years ago; Crawled: 4 months ago; Everyone seems to have answered the question, so I just want to say that this reminded me of when I was little, I would ask my mom to make my Cream of Wheat with lumps. ... This won't work with dried pastas, but luckily pasta dough is really simple. ... I worked out that if you boil it in a narrow, but somewhat tall pot it helps, I don’t know any other ‘culinary technique’ to achieve this. ... /u/MmmHmmYupDatsMe's comment about penne getting stuck inside of rigatoni and other comments about bundling the spaghetti with string or rubber bands made me think... maybe if you jammed uncooked spaghetti inside uncooked ",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_permanent_id"
+      },
+      {
+        "post_id": "442yro",
+        "title": "Does any one here shoot using anamorphic lenses for stills? If so, what's your reasoning for it? : photography",
+        "url": "https://gl.reddit.com/r/photography/comments/442yro/does_any_one_here_shoot_using_anamorphic_lenses/?sort=random",
+        "subreddit": "photography",
+        "evidence": "【turn453search2】 [wordlim: 200] Published: 10.7 years ago; Crawled: 4 months ago; I used a Panasonic AG-LA7200, it has a 1.33 stretch, you get chromatic aberration that gets worse the larger the front element is and the wider the focal length. ... [–]evanrphoto http://www.evanrphotography.com 1 punto 2 puntos 3 puntos hai 10 anos (2 nenos)\n\n--------------------------------------------------------------------------------\nOfficial Question Thread! Ask /r/photography anything you want to know about photography or cameras! Don't be shy! Newbies welcome! : photography (https://hr.reddit.com/r/photography/comments/4bw5ve/official_question_thread_ask_rphotography/)\n【turn453search3】 [wordlim: 200] P",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "4bw5ve",
+        "title": "Official Question Thread! Ask /r/photography anything you want to know about photography or cameras! Don't be shy! Newbies welcome! : photography",
+        "url": "https://hr.reddit.com/r/photography/comments/4bw5ve/official_question_thread_ask_rphotography/",
+        "subreddit": "photography",
+        "evidence": "【turn453search3】 [wordlim: 200] Published: 10.6 years ago; Crawled: 3 months ago; Posting images is allowed as self-post using the photo as an example for the discussion to either begin a conversation about aspects of the example or to ask a photography-related question. ... Visit r/photographs, our sister photo sharing sub. ... Questions asking for help with equipment purchasing advice, troubleshooting, pricing or post-processing/style/emulation should be posted as comments in the most recent Official Question thread, stickied at the top of the subreddit. ... The 11-16 has excessive vignetting on full frame except around the 16 mm length. ... Hyperfocal distance is focusing closer than infi",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1tl12d5",
+        "title": "Any engineers here seen the impacts of data centers first hand? : civilengineering",
+        "url": "https://gl.reddit.com/r/civilengineering/comments/1tl12d5/any_engineers_here_seen_the_impacts_of_data/",
+        "subreddit": "civilengineering",
+        "evidence": "【turn453search4】 [wordlim: 200] Published: 5 months ago; Crawled: 4 months ago; All the engineers working on data centers are too busy to comment, is my hunch. ... I’m not an engineer yet, but I’m going to major in civil engineering, and a data center was just erected near my neighborhood. ... My only impact is getting a fat raise due to the need for additional engineers to design them.\n\n--------------------------------------------------------------------------------\nIs this portfolio worthy? looking for feedback : photocritique (https://gl.reddit.com/r/photocritique/comments/1u36kai/is_this_portfolio_worthy_looking_for_feedback/)\n【turn453search5】 [wordlim: 200] Published: 4 months ago; Craw",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_permanent_id"
+      },
+      {
+        "post_id": "1u36kai",
+        "title": "Is this portfolio worthy? looking for feedback : photocritique",
+        "url": "https://gl.reddit.com/r/photocritique/comments/1u36kai/is_this_portfolio_worthy_looking_for_feedback/",
+        "subreddit": "photocritique",
+        "evidence": "【turn453search5】 [wordlim: 200] Published: 4 months ago; Crawled: 4 months ago; Welcome to /r/photocritique/ ... Critiquers: Help facilitate a conversation by always being polite and respectful when providing comments on an image.\n\nCritique Points: Give a Critique Point to someone who gave great feedback by commenting on their comment with `!\n\n--------------------------------------------------------------------------------\nPro Photo Studio (u/parrallaxmedia) - Reddit (https://www.reddit.com/user/parrallaxmedia/)\n【turn453search6】 [wordlim: 200] Crawled: 4 months ago; ## Trying out some macro watch photography. ... ## Trying out some macro watch photography.\n\n----------------------------------",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1o43tnh",
+        "title": "What can be used to fill in the negative space? : photocritique",
+        "url": "https://fr.reddit.com/r/photocritique/comments/1o43tnh/what_can_be_used_to_fill_in_the_negative_space/?sort=live",
+        "subreddit": "photocritique",
+        "evidence": "【turn453search7】 [wordlim: 200] Published: last year; Crawled: 4 months ago; Welcome to /r/photocritique/ ... Critiquers: Help facilitate a conversation by always being polite and respectful when providing comments on an image. ... Keep in mind that simply choosing to comment just on the images you like defeats the purpose of the subreddit.\n\n--------------------------------------------------------------------------------\nTwilight kitty : photocritique (https://ca.reddit.com/r/photocritique/comments/1uaqfyq/twilight_kitty/)\n【turn453search8】 [wordlim: 200] Published: 4 months ago; Crawled: 4 months ago; Welcome to /r/photocritique/ ... Critiquers: Help facilitate a conversation by always being",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1uaqfyq",
+        "title": "Twilight kitty : photocritique",
+        "url": "https://ca.reddit.com/r/photocritique/comments/1uaqfyq/twilight_kitty/",
+        "subreddit": "photocritique",
+        "evidence": "【turn453search8】 [wordlim: 200] Published: 4 months ago; Crawled: 4 months ago; Welcome to /r/photocritique/ ... Critiquers: Help facilitate a conversation by always being polite and respectful when providing comments on an image.\n\n--------------------------------------------------------------------------------\nOfficial Question Thread! Ask /r/photography anything you want to know about photography or cameras! Don't be shy! Newbies welcome! : photography (https://pl.reddit.com/r/photography/comments/m5i9ke/official_question_thread_ask_rphotography/)\n【turn453search9】 [wordlim: 200] Published: 5.6 years ago; Crawled: 4 months ago; Sure you can, photopea.com should help there.\n\n----------------",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "m5i9ke",
+        "title": "Official Question Thread! Ask /r/photography anything you want to know about photography or cameras! Don't be shy! Newbies welcome! : photography",
+        "url": "https://pl.reddit.com/r/photography/comments/m5i9ke/official_question_thread_ask_rphotography/",
+        "subreddit": "photography",
+        "evidence": "【turn453search9】 [wordlim: 200] Published: 5.6 years ago; Crawled: 4 months ago; Sure you can, photopea.com should help there.\n\n--------------------------------------------------------------------------------\nLooking for a Double Cream Bread recipe? for 300ml tub. : AskCulinary (https://uk.reddit.com/r/AskCulinary/comments/kbunpz/looking_for_a_double_cream_bread_recipe_for_300ml/)\n【turn453search10】 [wordlim: 200] Published: 5.9 years ago; Crawled: 4 months ago; for 300ml tub. (self.AskCulinary)\n\n--------------------------------------------------------------------------------\nBuns keep on turning into 'flatbreads'? : glutenfreebaking (https://uk.reddit.com/r/glutenfreebaking/comments/1u50a7l/",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "kbunpz",
+        "title": "Looking for a Double Cream Bread recipe? for 300ml tub. : AskCulinary",
+        "url": "https://uk.reddit.com/r/AskCulinary/comments/kbunpz/looking_for_a_double_cream_bread_recipe_for_300ml/",
+        "subreddit": "AskCulinary",
+        "evidence": "【turn453search10】 [wordlim: 200] Published: 5.9 years ago; Crawled: 4 months ago; for 300ml tub. (self.AskCulinary)\n\n--------------------------------------------------------------------------------\nBuns keep on turning into 'flatbreads'? : glutenfreebaking (https://uk.reddit.com/r/glutenfreebaking/comments/1u50a7l/buns_keep_on_turning_into_flatbreads/)\n【turn453search11】 [wordlim: 200] Published: 4 months ago; Crawled: 4 months ago; The Hydration level might be the culprit.\n\n--------------------------------------------------------------------------------\nAnti Vibration Pads for bed due to noisy neighbours below : AskEngineers (https://hr.reddit.com/r/AskEngineers/comments/hckhww/anti_vibratio",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1u50a7l",
+        "title": "Buns keep on turning into 'flatbreads'? : glutenfreebaking",
+        "url": "https://uk.reddit.com/r/glutenfreebaking/comments/1u50a7l/buns_keep_on_turning_into_flatbreads/",
+        "subreddit": "glutenfreebaking",
+        "evidence": "【turn453search11】 [wordlim: 200] Published: 4 months ago; Crawled: 4 months ago; The Hydration level might be the culprit.\n\n--------------------------------------------------------------------------------\nAnti Vibration Pads for bed due to noisy neighbours below : AskEngineers (https://hr.reddit.com/r/AskEngineers/comments/hckhww/anti_vibration_pads_for_bed_due_to_noisy/)\n【turn453search12】 [wordlim: 200] Published: 6.4 years ago; Crawled: 3 months ago; This is what I mean: https://www.amazon.com/s? ... Not sure how we can attach such small machined metal points to a meta bed frame post.\n\n--------------------------------------------------------------------------------\nWhat is a huge sign that",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "hckhww",
+        "title": "Anti Vibration Pads for bed due to noisy neighbours below : AskEngineers",
+        "url": "https://hr.reddit.com/r/AskEngineers/comments/hckhww/anti_vibration_pads_for_bed_due_to_noisy/",
+        "subreddit": "AskEngineers",
+        "evidence": "【turn453search12】 [wordlim: 200] Published: 6.4 years ago; Crawled: 3 months ago; This is what I mean: https://www.amazon.com/s? ... Not sure how we can attach such small machined metal points to a meta bed frame post.\n\n--------------------------------------------------------------------------------\nWhat is a huge sign that SE is NOT FOR YOU? : StructuralEngineering (https://sr.reddit.com/r/StructuralEngineering/comments/1s5ghap/what_is_a_huge_sign_that_se_is_not_for_you/)\n【turn453search13】 [wordlim: 200] Published: 7 months ago; Crawled: 4 months ago;     `    - The Obligation of the Engineer ... r/AskEngineers ... (self.StructuralEngineering) ... Post a comment! ... [–]Jolly_Compote_7780 1",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1s5ghap",
+        "title": "What is a huge sign that SE is NOT FOR YOU? : StructuralEngineering",
+        "url": "https://sr.reddit.com/r/StructuralEngineering/comments/1s5ghap/what_is_a_huge_sign_that_se_is_not_for_you/",
+        "subreddit": "StructuralEngineering",
+        "evidence": "【turn453search13】 [wordlim: 200] Published: 7 months ago; Crawled: 4 months ago;     `    - The Obligation of the Engineer ... r/AskEngineers ... (self.StructuralEngineering) ... Post a comment! ... [–]Jolly_Compote_7780 1 бод 2 бода 3 бода пре 2 месеца (0 деце)\n\n--------------------------------------------------------------------------------\nDesign Engineers, What do you design for a living? : engineering (https://vi.reddit.com/r/engineering/comments/2ppc7s/design_engineers_what_do_you_design_for_a_living/)\n【turn453search14】 [wordlim: 200] Published: 11.9 years ago; Crawled: 3 months ago; No questions on \"how something works\" — try r/AskEngineers. ... You are allowed one submission, and you",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "2ppc7s",
+        "title": "Design Engineers, What do you design for a living? : engineering",
+        "url": "https://vi.reddit.com/r/engineering/comments/2ppc7s/design_engineers_what_do_you_design_for_a_living/",
+        "subreddit": "engineering",
+        "evidence": "【turn453search14】 [wordlim: 200] Published: 11.9 years ago; Crawled: 3 months ago; No questions on \"how something works\" — try r/AskEngineers. ... You are allowed one submission, and you must be active in the comments to answer any questions. ... discussions in r/engineering ... Welcome to Reddit,the front page of the internet.Become a Redditor and join one of thousands of communities.【 ... Mostly sheetmetal, however I do get to work on injection molded plastic module packaging and custom switching relay modules. ... i am a mechanical engineer and i design machines to produce bread. these are mostly producion lines for multiple products\n\n------------------------------------------------------",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1u5xxla",
+        "title": "Before/after : postprocessing",
+        "url": "https://ro.reddit.com/r/postprocessing/comments/1u5xxla/beforeafter/",
+        "subreddit": "postprocessing",
+        "evidence": "【turn453search15】 [wordlim: 200] Published: 4 months ago; Crawled: 4 months ago; There's a lot of data in these images that can be brought out of these photos from the software they use to edit if they have the original photo file.\n\n--------------------------------------------------------------------------------\nBeginner Bakers: keep trying : Sourdough (https://th.reddit.com/r/Sourdough/comments/1ixwpxb/beginner_bakers_keep_trying/?sort=old)\n【turn453search16】 [wordlim: 200] Published: 1.7 years ago; Crawled: 4 months ago; One don't use distilled water in sourdough it lacks the nutrients required for the dough/starter to thrive which can hinder fermentation. ... One of my favorite tools is Fo",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1ixwpxb",
+        "title": "Beginner Bakers: keep trying : Sourdough",
+        "url": "https://th.reddit.com/r/Sourdough/comments/1ixwpxb/beginner_bakers_keep_trying/?sort=old",
+        "subreddit": "Sourdough",
+        "evidence": "【turn453search16】 [wordlim: 200] Published: 1.7 years ago; Crawled: 4 months ago; One don't use distilled water in sourdough it lacks the nutrients required for the dough/starter to thrive which can hinder fermentation. ... One of my favorite tools is Foodgeek's bread calculator which lets you easily manipulate ingredients Foodgeek Bread Calculator for hydration and let you save links for later.\n\n--------------------------------------------------------------------------------\nHeFlipsMyPensのページ (https://ja.reddit.com/user/HeFlipsMyPens/)\n【turn453search17】 [wordlim: 200] Crawled: 3 months ago; Final dough temp was ~81F. ... Details in comments (ja.reddit.com)\n\n---------------------------------",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1u3lnov",
+        "title": "What if market forces determined the optimal level of bundling of government goods and services? : AskEconomics",
+        "url": "https://gl.reddit.com/r/AskEconomics/comments/1u3lnov/what_if_market_forces_determined_the_optimal/",
+        "subreddit": "AskEconomics",
+        "evidence": "【turn453search18】 [wordlim: 200] Published: 4 months ago; Crawled: 4 months ago; (self.AskEconomics) ... Market forces typically determine the level of bundling for most other goods and services, but the notable exception is when it comes to goods and services provided by the government, as it is typically determined by democratic forces.\n",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit1.json",
+        "decision": "reject_permanent_id"
+      },
+      {
+        "post_id": "1gxk87g",
+        "title": "Determining confidence threshold for a predictive model",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/1gxk87g",
+        "subreddit": "AskStatistics",
+        "evidence": "【turn454reddit36】 [wordlim: 200] Published: 1.9 years ago; Crawled: 1.9 years ago;     Model Accuracy (A)    Model Prediction Confidence (Y)        Sample ID\n[Friday November 22 2024] [+2 votes]\nI have a model which has an accuracy of 𝐴. It makes a prediction with 𝑌 confidence about a number of samples. Samples are observed many times, but not all are observed equally. So my data looks like:\n\n    Model Accuracy (A)    Model Prediction Confidence (Y)        Sample ID\n    0.80                              0.90                            1\n    0.80                              0.95                            1\n    0.80                              0.70                            1\n    0.80     ",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1ccqtj4",
+        "title": "Cooperative games with hidden information?",
+        "url": "https://www.reddit.com/r/boardgames/comments/1ccqtj4",
+        "subreddit": "boardgames",
+        "evidence": "【turn454reddit37】 [wordlim: 200] Published: 2.5 years ago; Crawled: 1.2 years ago; This would be as opposed to cooperative games with OPEN information, which would be most of them - Pandemic, Spirit Island, Marvel Champions etc where you usually play with your hand face up and can exchange info on what each other has. ... Shadows over camelot , though that one is sort of semi co-op (possible traitor mechanic , then again you can play it fully co-op) and hidden info is limited to one action which can be both open and hidden depending on choice, then again it hardly ever useful to do it open as you just forfeit reward for it ,and restriction to tell result is also very vague, you can say , its",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "qnlmys",
+        "title": "Trackable information in games - do you play \"Hidden\" or \"Open\"?",
+        "url": "https://www.reddit.com/r/boardgames/comments/qnlmys",
+        "subreddit": "boardgames",
+        "evidence": "【turn454reddit38】 [wordlim: 200] Published: 5.0 years ago; Crawled: 5.0 years ago; I am not saying one way is better than the other, but there are diametrically opposed philosophies on hidden/memorizing information that not only affects games that people like but even how they play games where there is a choice. ... **Hanabi** is a game designed for the hyper concentration of hidden info and memorization of game state, and that's fine, I enjoy it when that's the focus.\n[Friday November 05 2021] [+32 votes]\nMany games have things that are kept hidden but choices are shown to all people, so part of the game requires or incentivized you to memorize what people did and notice patters.  This is e",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "selected"
+      },
+      {
+        "post_id": "1mhfenm",
+        "title": "How do linguists see the spoken vs written language?",
+        "url": "https://www.reddit.com/r/asklinguistics/comments/1mhfenm/how_do_linguists_see_the_spoken_vs_written/",
+        "subreddit": "asklinguistics",
+        "evidence": "【turn454reddit39】 [wordlim: 200] Published: 1.2 years ago; I don't generally talk about how we write things on this podcast, because written text is just a way to encode the spoken language.\" ... Languages can exist without any written form and indeed, humans have spoken long, *long* before they started writing. Furthermore, kids learn their native language in spoken form first, and only learn to write it several years later (assuming they are able to hear and speak of course).\n[Monday August 04 2025] [+45 votes]\nI don't know if the question is clear or even makes sense, so let me explain where the question comes from.\n\nI listen to John McWhorter's Lexicon Valley podcast and in one episode, ",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "selected"
+      },
+      {
+        "post_id": "11a9d3q",
+        "title": "Interpretation of Prediction Intervals in Regression",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/11a9d3q",
+        "subreddit": "AskStatistics",
+        "evidence": "【turn454reddit40】 [wordlim: 200] Published: 3.7 years ago; Crawled: 3.7 years ago; I'm really not \"confident\" we can use the phrase confidence in the interpretation of the prediction interval.\n\n--------------------------------------------------------------------------------\nCan’t find the confidence and prediction intervals for predicted values obtained with a nonlinear model (https://www.reddit.com/r/AskStatistics/comments/s6xsjn)\n【turn454reddit41】 [wordlim: 200] Published: 4.8 years ago; Crawled: 4.8 years ago; it gives me the predicted values with the linear model, however the same code with the nonlinear model instead of the linear one, only gives me the prediction without the confidence",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "selected"
+      },
+      {
+        "post_id": "s6xsjn",
+        "title": "Can’t find the confidence and prediction intervals for predicted values obtained with a nonlinear model",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/s6xsjn",
+        "subreddit": "AskStatistics",
+        "evidence": "【turn454reddit41】 [wordlim: 200] Published: 4.8 years ago; Crawled: 4.8 years ago; it gives me the predicted values with the linear model, however the same code with the nonlinear model instead of the linear one, only gives me the prediction without the confidence intervals and the prediction intervals.\n\n--------------------------------------------------------------------------------\nAre there any misconceptions about linguistics that people repeat a lot that really bother you? (https://www.reddit.com/r/linguistics/comments/yddcn7)\n【turn454reddit42】 [wordlim: 200] Published: 4.0 years ago; Crawled: 1.1 years ago; The biggest one for me is when people (typically outside of linguistics) equate",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "yddcn7",
+        "title": "Are there any misconceptions about linguistics that people repeat a lot that really bother you?",
+        "url": "https://www.reddit.com/r/linguistics/comments/yddcn7",
+        "subreddit": "linguistics",
+        "evidence": "【turn454reddit42】 [wordlim: 200] Published: 4.0 years ago; Crawled: 1.1 years ago; The biggest one for me is when people (typically outside of linguistics) equate language with writing. The whole way that language tends to be conceptualized in our western world is based around writing as the norm and spoken languages as subordinate to that norm.\n\n--------------------------------------------------------------------------------\nWhat influence does writing actually have on spoken language? (https://www.reddit.com/r/asklinguistics/comments/1f7g8gh)\n【turn454reddit43】 [wordlim: 200] Published: 2.2 years ago; Crawled: 2.1 years ago; Of course written and spoken language are independent things, but ",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1f7g8gh",
+        "title": "What influence does writing actually have on spoken language?",
+        "url": "https://www.reddit.com/r/asklinguistics/comments/1f7g8gh",
+        "subreddit": "asklinguistics",
+        "evidence": "【turn454reddit43】 [wordlim: 200] Published: 2.2 years ago; Crawled: 2.1 years ago; Of course written and spoken language are independent things, but are there any cases where writing has dictated how a word might appear in its spoken form? ... The letter <d> originally represented the sound /ð/, which was then lost but the spelling was not updated to reflect the change (which was a compromise between western and eastern dialects, as the eastern dialects lost the sound completely while western dialects replaced it with /r/ or /l/).\n\n--------------------------------------------------------------------------------\nClarification Needed: Confidence Intervals vs. Prediction Intervals (https://www.",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1cjsh2x",
+        "title": "Clarification Needed: Confidence Intervals vs. Prediction Intervals",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/1cjsh2x",
+        "subreddit": "AskStatistics",
+        "evidence": "【turn454reddit44】 [wordlim: 200] Published: 2.5 years ago; Crawled: 2.5 years ago; I've been delving into the world of confidence intervals and prediction intervals, and I've hit a bit of a snag.\n\n--------------------------------------------------------------------------------\nDifference between interval = confidence vs prediction for Predict() param? (https://www.reddit.com/r/rstats/comments/lkjzg0)\n【turn454reddit45】 [wordlim: 200] Published: 5.7 years ago; Crawled: 5.7 years ago; I understand that confidence intervals give you a 95%(or whatever threshold) chance the population mean is within the range, whereas prediction gives a confidence interval for the next point, but I don't understan",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "lkjzg0",
+        "title": "Difference between interval = confidence vs prediction for Predict() param?",
+        "url": "https://www.reddit.com/r/rstats/comments/lkjzg0",
+        "subreddit": "rstats",
+        "evidence": "【turn454reddit45】 [wordlim: 200] Published: 5.7 years ago; Crawled: 5.7 years ago; I understand that confidence intervals give you a 95%(or whatever threshold) chance the population mean is within the range, whereas prediction gives a confidence interval for the next point, but I don't understand how those definition apply when using predict() on linear regression\n\n--------------------------------------------------------------------------------\nAre there any circumstances in which you would vary your confidence level when calculating prediction levels for a model? (https://www.reddit.com/r/AskStatistics/comments/e7vc8y)\n【turn454reddit46】 [wordlim: 200] Published: 6.9 years ago; Crawled: 6.9 ",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "e7vc8y",
+        "title": "Are there any circumstances in which you would vary your confidence level when calculating prediction levels for a model?",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/e7vc8y",
+        "subreddit": "AskStatistics",
+        "evidence": "【turn454reddit46】 [wordlim: 200] Published: 6.9 years ago; Crawled: 6.9 years ago; I am trying to reproduce a linear regression model and I have the predicted Y value perfectly reproduced but the predicted interval and/or confidence level I just can't figure what was used.\n\n--------------------------------------------------------------------------------\nWould I use a prediction interval or a confidence intervals for this? (SLR) (https://www.reddit.com/r/AskStatistics/comments/1jgfp3h)\n【turn454reddit47】 [wordlim: 200] Published: 1.6 years ago; Crawled: 1.6 years ago; I’m not sure whether to do a confidence interval (since “expected violence” seems like mean violence) or a prediction interval ",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1jgfp3h",
+        "title": "Would I use a prediction interval or a confidence intervals for this? (SLR)",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/1jgfp3h",
+        "subreddit": "AskStatistics",
+        "evidence": "【turn454reddit47】 [wordlim: 200] Published: 1.6 years ago; Crawled: 1.6 years ago; I’m not sure whether to do a confidence interval (since “expected violence” seems like mean violence) or a prediction interval (since “for this prediction”)\n\n--------------------------------------------------------------------------------\nReddit for Developers (https://developers.reddit.com/apps/vouchpick)\n【turn454search0】 [wordlim: 200] Crawled: 3 days ago; Make one prediction, optionally add your confidence, lock it before the deadline, and return for the reveal. ... VouchPick stores the Reddit account identifier needed to associate a player with locked calls, Reputation, Skill, streaks, titles, and category",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1il3lc9",
+        "title": "Long distance board game advice : boardgames",
+        "url": "https://vi.reddit.com/r/boardgames/comments/1il3lc9/long_distance_board_game_advice/",
+        "subreddit": "boardgames",
+        "evidence": "【turn454search1】 [wordlim: 200] Published: 1.7 years ago; Crawled: 3 months ago; The #1 reddit source for news, information, and discussion about modern board games. ... Games with hidden information for example is not suited for this.\n\n--------------------------------------------------------------------------------\nQ&A weekly thread - August 25, 2025 - post all questions here! : linguistics (https://tr.reddit.com/r/linguistics/comments/1mzndj0/qa_weekly_thread_august_25_2025_post_all/)\n【turn454search2】 [wordlim: 200] Published: 1.2 years ago; Crawled: 3 months ago;   * English dialect identification requests — for language identification requests and translations, you want r/translator. ...",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1mzndj0",
+        "title": "Q&A weekly thread - August 25, 2025 - post all questions here! : linguistics",
+        "url": "https://tr.reddit.com/r/linguistics/comments/1mzndj0/qa_weekly_thread_august_25_2025_post_all/",
+        "subreddit": "linguistics",
+        "evidence": "【turn454search2】 [wordlim: 200] Published: 1.2 years ago; Crawled: 3 months ago;   * English dialect identification requests — for language identification requests and translations, you want r/translator. ... Post a comment! ... Is it safe to produce sounds that are only found in disodered speech, like upper pharyngial plosives or nasal fricatives, or do producing them come with medical risks? ... What languages should I learn (I am fluent in English, have about a professional level of French, and can orally communicate fluently in Mandarin, though I am lacking in writing)? ... That (do what makes you happy) said, here are some things I wish I did in HS as a 4th yr, canadian undergrad in lin",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "19cvufm",
+        "title": "the people that acquire vocabulary without using flashcards what did you do?: languagelearning",
+        "url": "https://nl.reddit.com/r/languagelearning/comments/19cvufm/the_people_that_acquire_vocabulary_without_using/",
+        "subreddit": "languagelearning",
+        "evidence": "【turn454search7】 [wordlim: 200] Published: 2.8 years ago; Crawled: 3 months ago; I think writing out translations can be a good way to make it less passive. ... Sometimes I will just sit and type random sentences in English into the DeepL translator (much more accurate than Google), and study the resulting Spanish. ... Practice writing, but don't translate -- try to write about anything that interests you. ... Most people use the last method by default when communicating in forums like this one minus revision and redoing, so might as well just interact a lot with people who speak the language online.\n\n--------------------------------------------------------------------------------\nWhat's the",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1mw6xwg",
+        "title": "What's the point of definiteness - please argue with me : asklinguistics",
+        "url": "https://en.reddit.com/r/asklinguistics/comments/1mw6xwg/whats_the_point_of_definiteness_please_argue_with/?sort=qa",
+        "subreddit": "asklinguistics",
+        "evidence": "【turn454search8】 [wordlim: 200] Published: 1.2 years ago; Crawled: 3 months ago; Syntax What's the point of definiteness - please argue with me (self.asklinguistics) ... To be clear - the use of capitalisation is only available in writing, in speech \"cat\" and \"Cat\" are said exactly the same - thus it is a punctuation difference, not an actual speech difference. ... > When I was writing this I couldn't really come up with any real-life situation when someone would say \"I like the cat\" ... There are grammatical features that can be easily explained to a user of a language that does not have them, for example evidentiality in Turkish, in which a more descriptive way of speaking, \"I've heard...\"",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_permanent_id"
+      },
+      {
+        "post_id": "1gjhi2j",
+        "title": "Etiquette of ending the game while knowing you are going to lose? : TerraformingMarsGame",
+        "url": "https://tr.reddit.com/r/TerraformingMarsGame/comments/1gjhi2j/etiquette_of_ending_the_game_while_knowing_you/?sort=qa",
+        "subreddit": "TerraformingMarsGame",
+        "evidence": "【turn454search10】 [wordlim: 200] Published: 2.0 years ago; Crawled: 4 months ago; Outside of red cards (which you can memorise) there's no hidden information, it's quite trivial to work out if you're dead last, this isn't about whether terraforming is good - rather whether ending the game to prevent having to play a losing game longer is \"unfair\". ... My group I play board games with has a saying \"If you can end the game, end it\".\n\n--------------------------------------------------------------------------------\nConversation Search Results (https://www.business.reddit.com/conversation-search-results)\n【turn454search11】 [wordlim: 200] Crawled: today; Online casino conversations drew 112 million",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "hlz9na",
+        "title": "My dad explains something vaguely, and then when I respond with an explanation for my prior behavior he’s trying to correct, he says: “you have a response to everything, just accept what I say”. It’s like “ Dude I can’t accept what I cannot comprehend. You’re vague and impatient.” : aspergers",
+        "url": "https://af.reddit.com/r/aspergers/comments/hlz9na/my_dad_explains_something_vaguely_and_then_when_i/",
+        "subreddit": "aspergers",
+        "evidence": "【turn454search12】 [wordlim: 200] Published: 6.3 years ago; Crawled: 3 months ago; She explained that whenever I did something the wrong way (because I didn’t understand that there was extra “hidden info” in her directions), she didn’t want an explanation as to why I misunderstood her or why I did it differently; she considered that to be argumentative. ... If the problem was assumed hidden information, how were you to know?\n\n--------------------------------------------------------------------------------\nGames based on information control? : gamedesign (https://hr.reddit.com/r/gamedesign/comments/irdp82/games_based_on_information_control/?sort=new)\n【turn454search13】 [wordlim: 200] Published:",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "irdp82",
+        "title": "Games based on information control? : gamedesign",
+        "url": "https://hr.reddit.com/r/gamedesign/comments/irdp82/games_based_on_information_control/?sort=new",
+        "subreddit": "gamedesign",
+        "evidence": "【turn454search13】 [wordlim: 200] Published: 6.1 years ago; Crawled: 3 months ago;   * Diplomacy: a game with no hidden information about the game state, but it has simultaneous turn, so all the information you want to acquire are about what people are planning to do in the future (which is more of a metagame information). ... As a serious answer: look at board/table games like mafia, resistance, Avalon, secret Hitler, and one night werewolf.\n\n--------------------------------------------------------------------------------\nPick of the Day - 10/20/23 (Friday) : sportsbook (https://fr.reddit.com/r/sportsbook/comments/17bxvvx/pick_of_the_day_102023_friday/)\n【turn454search14】 [wordlim: 200] Publi",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "17bxvvx",
+        "title": "Pick of the Day - 10/20/23 (Friday) : sportsbook",
+        "url": "https://fr.reddit.com/r/sportsbook/comments/17bxvvx/pick_of_the_day_102023_friday/",
+        "subreddit": "sportsbook",
+        "evidence": "【turn454search14】 [wordlim: 200] Published: 3.0 years ago; Crawled: 4 months ago; TeamReddit is projecting a 62% win chance here which creates value here on the ML. ... Before people ask, yes i do think it’s likely Hannover win the game, but there’s not much juice at 1.5 for the ML and not all that confident on the -1 AH at 1.79. ... I don't have unit system but I will use as confidence/value unit stakes.\n\n--------------------------------------------------------------------------------\nHow we adapted T-Rex's 22 motor primitives into a configurable taxonomy for tactile data annotation : neuralnetworks (https://vi.reddit.com/r/neuralnetworks/comments/1uqgkgt/how_we_adapted_trexs_22_motor_primi",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1uqgkgt",
+        "title": "How we adapted T-Rex's 22 motor primitives into a configurable taxonomy for tactile data annotation : neuralnetworks",
+        "url": "https://vi.reddit.com/r/neuralnetworks/comments/1uqgkgt/how_we_adapted_trexs_22_motor_primitives_into_a/?sort=live",
+        "subreddit": "neuralnetworks",
+        "evidence": "【turn454search15】 [wordlim: 200] Published: 3 months ago; Crawled: 3 months ago; Every prediction carries a source tag (`ai_predicted` vs `ai_predicted_estimated` vs `manual`) and a confidence score.\n\n--------------------------------------------------------------------------------\nWhat elements give away a non-native English speaker? : ENGLISH (https://ru.reddit.com/r/ENGLISH/comments/1d9d83f/what_elements_give_away_a_nonnative_english/?limit=500&sort=random)\n【turn454search16】 [wordlim: 200] Published: 2.4 years ago; Crawled: 4 months ago; I'm a native English speaker with a decent chunk of lost high school Spanish, and in college I had a linguistic teacher pull me aside to ask if English wa",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1d9d83f",
+        "title": "What elements give away a non-native English speaker? : ENGLISH",
+        "url": "https://ru.reddit.com/r/ENGLISH/comments/1d9d83f/what_elements_give_away_a_nonnative_english/?limit=500&sort=random",
+        "subreddit": "ENGLISH",
+        "evidence": "【turn454search16】 [wordlim: 200] Published: 2.4 years ago; Crawled: 4 months ago; I'm a native English speaker with a decent chunk of lost high school Spanish, and in college I had a linguistic teacher pull me aside to ask if English was my second language because I was putting something out of order in my essays. ... I taught English to 60+ (age) people in Japan and most of them had impeccable writing style, like beautiful cursive. ... This is definitely true of spoken English, but in writing I always type out “want to.” ... A comma represents a small pause during speech, but unless the person you’re quoting actually said “good morning (awkward pause)” I don’t understand why it should be mo",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1en9wdd",
+        "title": "How do you comprehend what you’re reading without subvocalization?:ENGLISH",
+        "url": "https://no.reddit.com/r/ENGLISH/comments/1en9wdd/how_do_you_comprehend_what_youre_reading_without/",
+        "subreddit": "ENGLISH",
+        "evidence": "【turn454search18】 [wordlim: 200] Published: 2.2 years ago; Crawled: 3 months ago; I saw “Subvocalization, or silent speech, is the internal speech typically made when reading; it provides the sound of the word as it is read.” ... Everyone has this \"inner voice\", though the term \"subvocalisation\" strictly refers to tiny speech movements of mouth and throat that are residual from when you learned to read by reading out loud. ... I also have difficulty remembering words and names until I see them in writing.\n\n--------------------------------------------------------------------------------\nMay 24, 2021 - Weekly Off-Topic and Low-Effort CW Thread : CultureWarRoundup (https://es.reddit.com/r/Cultu",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "njq1h6",
+        "title": "May 24, 2021 - Weekly Off-Topic and Low-Effort CW Thread : CultureWarRoundup",
+        "url": "https://es.reddit.com/r/CultureWarRoundup/comments/njq1h6/may_24_2021_weekly_offtopic_and_loweffort_cw/",
+        "subreddit": "CultureWarRoundup",
+        "evidence": "【turn454search19】 [wordlim: 200] Published: 5.4 years ago; Crawled: 3 months ago; But I do find it a problem when I'm writing fiction and trying to represent 'ordinary speech' or how people (including myself) do talk in reality; I had the \"correct way to write an essay\" so engrained in me from school that I end up with a very formal style that is not at all suitable in certain circumstances.\n\n--------------------------------------------------------------------------------\nShare your favorite non-Partner commander that is NOT in the top 1000 ranked commanders on EDHREC : EDH (https://id.reddit.com/r/EDH/comments/1fx9010/share_your_favorite_nonpartner_commander_that_is/?limit=500)\n【turn454sear",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1fx9010",
+        "title": "Share your favorite non-Partner commander that is NOT in the top 1000 ranked commanders on EDHREC : EDH",
+        "url": "https://id.reddit.com/r/EDH/comments/1fx9010/share_your_favorite_nonpartner_commander_that_is/?limit=500",
+        "subreddit": "EDH",
+        "evidence": "【turn454search20】 [wordlim: 200] Published: 2.1 years ago; Crawled: 4 months ago; I play him as guaranteed 2-mana ramp from the command zone, every game. ... There's been games where I simply never bring him in at all; I've also had games where combinations of multiple board wipes and drawing a lot of lands have led me to cast Tail The Suspect 4+ times and play the extra land each time. ... Not a deck for people with decision paralaysis, but for anyone who loves to play with hidden information and draw a ton of cards, can't recommend enough.\n\n--------------------------------------------------------------------------------\nVarious_Educator_756 總覽 (https://zh.reddit.com/user/Various_Educator_7",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "7u6y5i",
+        "title": "NBA Daily - 1/31/18 (Wednesday) : sportsbook",
+        "url": "https://id.reddit.com/r/sportsbook/comments/7u6y5i/nba_daily_13118_wednesday/?sort=new",
+        "subreddit": "sportsbook",
+        "evidence": "【turn454search22】 [wordlim: 200] Published: 8.7 years ago; Crawled: 4 months ago;   * 1-0 on plays with > 70% confidence ... I import various statistics from Basketball Reference and use a few formulas to spit out a spread for each game. ... I take the loss here on Reddit obviously though.\n\n--------------------------------------------------------------------------------\nMarketing Research: Discussions, Tips, and News (https://tr.reddit.com/r/MarketingResearch/)\n【turn454search23】 [wordlim: 200] Crawled: 4 months ago; Influencer marketing has too much fake confidence () ... Prediction on new trends next months or years?\n\n-------------------------------------------------------------------------",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "z0ba6j",
+        "title": "Please, don't discredit someone's attempt to practice Japanese : LearnJapanese",
+        "url": "https://gl.reddit.com/r/LearnJapanese/comments/z0ba6j/please_dont_discredit_someones_attempt_to/",
+        "subreddit": "LearnJapanese",
+        "evidence": "【turn454search24】 [wordlim: 200] Published: 3.9 years ago; Crawled: 3 months ago; There's nothing wrong with writing posts on your social media accounts. ... my professor made us speak japanese from the first day.\n\n--------------------------------------------------------------------------------\nSeems funny to me how \"it was never about writing code\" is the new mantra now:programmer (https://fi.reddit.com/r/programmer/comments/1urrmg5/seems_funny_to_me_how_it_was_never_about_writing/)\n【turn454search25】 [wordlim: 200] Published: 3 months ago; Crawled: 3 months ago; > Knowing what code to write has always been the hard part, and AI isn’t great at that.\n\n-----------------------------------------",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1urrmg5",
+        "title": "Seems funny to me how \"it was never about writing code\" is the new mantra now:programmer",
+        "url": "https://fi.reddit.com/r/programmer/comments/1urrmg5/seems_funny_to_me_how_it_was_never_about_writing/",
+        "subreddit": "programmer",
+        "evidence": "【turn454search25】 [wordlim: 200] Published: 3 months ago; Crawled: 3 months ago; > Knowing what code to write has always been the hard part, and AI isn’t great at that.\n\n--------------------------------------------------------------------------------\nPick of the Day - 10/29/25 (Wednesday) : sportsbook (https://sr.reddit.com/r/sportsbook/comments/1oipbqv/pick_of_the_day_102925_wednesday/)\n【turn454search26】 [wordlim: 200] Published: last year; Crawled: 4 months ago; Free Reddit Pick of the Day\n\n--------------------------------------------------------------------------------\nNot All Calls Are Friendlies (Victory Lap) : GME (https://af.reddit.com/r/GME/comments/m3qcn2/not_all_calls_are_friendlie",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1oipbqv",
+        "title": "Pick of the Day - 10/29/25 (Wednesday) : sportsbook",
+        "url": "https://sr.reddit.com/r/sportsbook/comments/1oipbqv/pick_of_the_day_102925_wednesday/",
+        "subreddit": "sportsbook",
+        "evidence": "【turn454search26】 [wordlim: 200] Published: last year; Crawled: 4 months ago; Free Reddit Pick of the Day\n\n--------------------------------------------------------------------------------\nNot All Calls Are Friendlies (Victory Lap) : GME (https://af.reddit.com/r/GME/comments/m3qcn2/not_all_calls_are_friendlies_victory_lap/)\n【turn454search27】 [wordlim: 200] Published: 5.6 years ago; Crawled: 3 months ago; And, u/WuzGoodieN1gz challenged that prediction by taking a close look at the facts--something all of us should do.\n",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "m3qcn2",
+        "title": "Not All Calls Are Friendlies (Victory Lap) : GME",
+        "url": "https://af.reddit.com/r/GME/comments/m3qcn2/not_all_calls_are_friendlies_victory_lap/",
+        "subreddit": "GME",
+        "evidence": "【turn454search27】 [wordlim: 200] Published: 5.6 years ago; Crawled: 3 months ago; And, u/WuzGoodieN1gz challenged that prediction by taking a close look at the facts--something all of us should do.\n",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit2.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1l9z3d0",
+        "title": "Does brass lack a fatigue limit like aluminum?",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/1l9z3d0",
+        "subreddit": "AskEngineers",
+        "evidence": "【turn458reddit0】 [wordlim: 200] Published: 1.4 years ago; Crawled: 1.4 years ago; \n[Thursday June 12 2025] [+25 votes]\n\n\n[Thursday June 12 2025] [+55 votes]\nLook up your specific alloy’s S-N curve.\nYou might already know this, but an S-N curve compares “allowable stress” (S) to “allowable cycles” (N). You’ll often see “R” included, which is the cyclic stress ratio. If R = 0, you go from 100% to 0% load. If R = 0.5, you go from 100% load to 50% load. If R = -1, you go from 100% load to -100% load (for example alternating between 100 lbs of tension and 100 lbs of compression).\nWhen people say a material “does not have a fatigue limit” that is typically a *bad* thing. It means that the allowabl",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit3.json",
+        "decision": "selected"
+      },
+      {
+        "post_id": "1kz8qx4",
+        "title": "Read this on a Wikipedia article on fatigue limits. Is this correct?",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/1kz8qx4",
+        "subreddit": "AskEngineers",
+        "evidence": "【turn458reddit1】 [wordlim: 200] Published: 1.4 years ago; Crawled: 1.4 years ago; \n[Friday May 30 2025] [+33 votes]\n“However, recent research suggests that endurance limits do not exist for metallic materials, that if enough stress cycles are performed, even the smallest stress will eventually produce fatigue failure.”\n\n[Friday May 30 2025] [+50 votes]\nI'd buy it--especially if \"enough\" can encompass a large enough number of cycles that it will take past the heat death of the universe to achieve--but more importantly, what is the source of that line and what does that paper say?\n\n  [Friday May 30 2025] [+14 votes]\n  I did it the looking. The quote has two citations.\n  Askeland, Donald R.; Pr",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit3.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1t0gvfs",
+        "title": "Anyone had luck direct seeding species that need multiple years of dormancy?",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1t0gvfs/anyone_had_luck_direct_seeding_species_that_need/",
+        "subreddit": "NativePlantGardening",
+        "evidence": "【turn458reddit2】 [wordlim: 200] Published: 6 months ago; \n[Friday May 01 2026] [+19 votes]\nLike Polygonatum, Maianthemum, Trilliums, etc. I tried doing it in the fridge a few times to see if I could speed up the process and I never was able to control mold and rot between the warm and cool cycles. Has anyone tried just chucking handfuls onto a bare patch and seeing what comes up in a few years?\n\n[Friday May 01 2026] [+9 votes]\nHonestly, I don’t baby native seeds. I plant them when they’d normally be falling off the plant. Some succeed, some don’t. I planted camas and it came up like a year later. Still hasn’t flowered, maybe next year.\nThey need cold, but not a fridge. They need the outside ",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit3.json",
+        "decision": "selected"
+      },
+      {
+        "post_id": "1s1uspp",
+        "title": "Cold stratification with mixed seed blend (PNW)",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1s1uspp/cold_stratification_with_mixed_seed_blend_pnw/",
+        "subreddit": "NativePlantGardening",
+        "evidence": "【turn458reddit3】 [wordlim: 200] Published: 7 months ago; \n[Monday March 23 2026] [+3 votes]\nI started late with my cold stratification in my fridge with a mixed seed blend. I just had some leftover seeds and thought I would give it a go. It’s been about a month and some of the seeds are starting to grow roots, but other varieties in the blend are not.\n\nI didn’t really have a plan with how I was going to put the mixed seed varieties into a tray and thought I would figure out as I go. But now I guess I need to go. Should I only be planting the seeds that have sprouted roots or can I just throw in a couple seeds that haven’t sprouted and see where it goes? Basically do I need to wait until I se",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit3.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "13qwkqr",
+        "title": "Starting native plant seeds late into the growing season.",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/13qwkqr/starting_native_plant_seeds_late_into_the_growing/",
+        "subreddit": "NativePlantGardening",
+        "evidence": "【turn458reddit4】 [wordlim: 200] Published: 3.4 years ago; \n[Wednesday May 24 2023] [+14 votes]\nI was thinking of starting some native plants from seed to add to my garden, grasses and flowers most being perennial. I'm assuming that if I started them now a lot of them wouldn't flower this year. My question is would they come back next year? And is there any size that they should get to that would guarantee they would come back next year? I live in Duluth MN if that helps at all any answers are appreciated thanks again.\n\n[Wednesday May 24 2023] [+15 votes]\nA lot of native perennial seeds need to be damp cold stratified to break dormancy -- basically buried in sand in a baggie in the fridge for",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit3.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1gax291",
+        "title": "Growing from seed many Native plants",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1gax291",
+        "subreddit": "NativePlantGardening",
+        "evidence": "【turn458reddit5】 [wordlim: 200] Published: 2.0 years ago; Crawled: 2.0 years ago; \n\n  [Thursday October 24 2024] [+7 votes]\n  Sharp lobed hepatica requires double dormancy which means you won't expect germination until the second spring after winter sowing. Very important to read the germination codes. I don't know about the other plants that you didn't have success with, but I suspect some of them also need double dormancy.\n\n    [Thursday October 24 2024] [+1 votes]\n    Thank you, something I did not know about double dormancy.\n\n    [Thursday October 24 2024] [+2 votes]\n    You are right, I dove right in with some hard plants! I've winter sown for two seasons so far and I keep experimenting",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit3.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1qjfzib",
+        "title": "Winter seed sowing - covering necessary?",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1qjfzib/winter_seed_sowing_covering_necessary/",
+        "subreddit": "NativePlantGardening",
+        "evidence": "【turn458reddit6】 [wordlim: 200] Published: 9 months ago; \n[Thursday January 22 2026] [+39 votes]\nSHARED URL\nI can't find the answer online, can someone clear up if covering the winter doing containers is required?\nI'm using gallon pots full of potting soil. I didn't think it through and now I have 25 pots full of mixed seeds, and I'm in Zone 7A which gets cold and occasionally gets snow. Will these seeds make it?\nIf it matters, it's a mixture of purple coneflower, pale purple coneflower, Sideoats grama, aromatic aster, and blazing star corms.\n\n[Thursday January 22 2026] [+1 votes]\nThank you for posting on /r/NativePlantGardening! If you haven't included it already, please edit your post or p",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit3.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1jy7xi7",
+        "title": "Old seeds",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1jy7xi7",
+        "subreddit": "NativePlantGardening",
+        "evidence": "【turn458reddit7】 [wordlim: 200] Published: 1.5 years ago; Crawled: 1.5 years ago; \n[Sunday April 13 2025] [+5 votes]\nFound a bag of old seeds (probably 2-3 years old) in a baggie and I was wondering if they were still good to plant. I haven't winter stratified them at all, so could I just throw them into the freezer for a week or two and then plant them afterwards? What are your suggestions? I'm not sure what seeds they are, if I had to guess they are most likely a collection of Joe pye weed, common milkweed, and blue vervain seed.\n\n[Sunday April 13 2025] [+1 votes]\nThank you for posting on /r/NativePlantGardening! If you haven't included it already, please edit your post or post's flair to ",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit3.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1e9ejrz",
+        "title": "I bought myself some Sisyrinchium angustifolium seeds from an online vendor and want to try growing a species this winter. Has anyone ever successfully grown this genus from seed?",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1e9ejrz",
+        "subreddit": "NativePlantGardening",
+        "evidence": "【turn458reddit8】 [wordlim: 200] Published: 2.3 years ago; Crawled: 2.3 years ago; \n[Monday July 22 2024] [+3 votes]\nNew York Zone 7b\n\n[Monday July 22 2024] [+1 votes]\nThank you for posting on /r/NativePlantGardening! If you haven't included it already, please edit your post or post's flair to include your geographic region or state of residence, which is necessary for the community to give you correct advice.\n*I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.*\n\n[Monday July 22 2024] [+2 votes]\nIt's very difficult in my experience. I got 1 of 50 cells to germinate after two months could stratificatio",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit3.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1r81s80",
+        "title": "Native Seed Questions, Help!",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1r81s80/native_seed_questions_help/",
+        "subreddit": "NativePlantGardening",
+        "evidence": "【turn458reddit9】 [wordlim: 200] Published: 8 months ago; \n[Wednesday February 18 2026] [+7 votes]\nI ordered some native seeds to my zone in southern Wisconsin (zone 5). This includes Jack in the pulpit, Canadian wild ginger, butterfly weed, and the American cranberry busy.\n\nDo any of these seeds need to go through cold stratification? If so how should I do that? I’ve never been able to stop mold from spreading during that process. Also, how long does it have to be in the fridge? Can I do less than the recommended time? I don’t have that much time before I’d like to get them in soil so they would be nice and big for spring planting.\n\n[Wednesday February 18 2026] [+1 votes]\nThank you for posti",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit3.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1xgo1fg",
+        "title": "Should I use a different yarn for sewing?",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1xgo1fg/should_i_use_a_different_yarn_for_sewing/",
+        "subreddit": "bookbinding",
+        "evidence": "【turn460reddit34】 [wordlim: 200] Published: yesterday; It's the first book I am binding and I'm right now a bit unsure if I can continue like this or should use another type of yarn for the binding. ... Do you think it will gain all its stability by the cardboard i use for the spine and cover or should I sew it again and use a different yarn? ... You need to put some weights on your folios while you're sewing to keep them close together (keep the top folio that you're sewing open and put the weight on the bottom half of it), and you also need to pull much, much tighter (always pull in the direction that you're sewing in).\n[Tuesday October 27 2026] [+33 votes]\nSHARED URL\nHello, I'm trying to ",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "selected"
+      },
+      {
+        "post_id": "1u4q069",
+        "title": "First sewing, too loose?",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1u4q069/first_sewing_too_loose/",
+        "subreddit": "bookbinding",
+        "evidence": "【turn460reddit35】 [wordlim: 200] Published: 4 months ago; I agree with the other comment that you can't overnightem them because then it'd become impossible to back, but I'd most definetely sew the book again with more consistent and tighter sewing. ...     My experience it to put a Coptic stitch row in the middle, cause it’s easier to tighten halfway through  the row and holds the tension a bit more easily.\nThe main problem seems to be with your bottom signatures, being way looser than the ones on top. You'll find extremely hard to get a consistent round and shoulder with them like this.\nI agree with the other comment that you can't overnightem them because then it'd become impossible to ba",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1i3zz9a",
+        "title": "First time sewing a text block",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1i3zz9a",
+        "subreddit": "bookbinding",
+        "evidence": "【turn460reddit36】 [wordlim: 200] Published: 1.8 years ago; Crawled: 1.8 years ago; Like title said, first time sewing more than 2 signatures together. A little worried about my tension, but hopefully no glaring issues. ... Personally I always stitch fairly tight because thread will loosen with use, not the other way around.\n[Saturday January 18 2025] [+103 votes]\nSHARED URL\nLike title said, first time sewing more than 2 signatures together. A little worried about my tension, but hopefully no glaring issues. Any advice for next time?\n\n[Saturday January 18 2025] [+11 votes]\nThat looks like lovely neat work! Especially if you didn't have a frame to do it on.\nPersonally I always stitch fairly ti",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "18cju6w",
+        "title": "Advice for binding tighter?",
+        "url": "https://www.reddit.com/r/bookbinding/comments/18cju6w",
+        "subreddit": "bookbinding",
+        "evidence": "【turn460reddit37】 [wordlim: 200] Published: 2.9 years ago; Crawled: 2.9 years ago; How do you know if you have the right tension or not as a amateur? ... What method of sewing are you using? (stitch type)\n[Thursday December 07 2023] [+6 votes]\nEvery time i have made a text block it feels a bit too loose. Especially on smaller books. How do you know if you have the right tension or not as a amateur?\n\n[Thursday December 07 2023] [+1 votes]\nJust a practice thing honestly.  I ruined at least 10 books learning that.  Also when you round and back books (sewn in tapes or cords, etc), it tightens up a fair bit so you can 'fix' it to some degree.\n\n[Thursday December 07 2023] [+1 votes]\nSharp awl with",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1vse3gj",
+        "title": "does this shift too much?",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1vse3gj/does_this_shift_too_much/",
+        "subreddit": "bookbinding",
+        "evidence": "【turn460reddit38】 [wordlim: 200] Published: 2 months ago; wondering if this is a normal amount of shift or if I should be trying to tighten my stitches more. i haven't quite mastered the coptic stitch connection of the last cover/last signature so i wonder if that's where all my shift is coming from ... Well, if you're planning on \"junk-journaling\" that might permit flex and expansion and work out nicely. ...     The tightness of the stitching is a tradeoff.\n[Wednesday August 19 2026] [+42 votes]\nSHARED URL\nwondering if this is a normal amount of shift or if I should be trying to tighten my stitches more. i haven't quite mastered the coptic stitch connection of the last cover/last signature ",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1ro73ge",
+        "title": "My first one with questions",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1ro73ge/my_first_one_with_questions/",
+        "subreddit": "bookbinding",
+        "evidence": "【turn460reddit39】 [wordlim: 200] Published: 7 months ago; Possibly loosen up your sewing tension, when I first started all my books were too tight and I had similar problems. Pressing your book under some weight after sewing would help as well.\n[Sunday March 08 2026] [+8 votes]\nSHARED URL\nSo I made my first one. There was supposed to be fake leather but I just found out my glue doesnt work with that ...so i improvised..\n- obvi small spine even tho i added 2mm\n- i guess small gap also ? It was 4mm on each side, i thought that would be enough\n- what i did wrong when sewing ? It is too tight? Is that why is my first signature so off from the rest ? How can i improve to have them nicley one of t",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "yzl11z",
+        "title": "Sewing with consideration to backing.",
+        "url": "https://www.reddit.com/r/bookbinding/comments/yzl11z",
+        "subreddit": "bookbinding",
+        "evidence": "【turn460reddit40】 [wordlim: 200] Published: 3.9 years ago; Crawled: 3.9 years ago; Hey, Reddit. How much slack do you leave while sewing a book to allow for backing? ... I pretty much sew my book blocks with the same tension regardless of whether they are destined to be square or rounded.\n[Saturday November 19 2022] [+3 votes]\nHey, Reddit. How much slack do you leave while sewing a book to allow for backing? Is there a rule of thumb?\n\n[Sunday November 20 2022] [+2 votes]\nI pretty much sew my book blocks with the same tension regardless of whether they are destined to be square or rounded. The same \"tight but not too tight\" works for both. I think it's less a matter of deliberately leaving sl",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1psuc1k",
+        "title": "Stitching help",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1psuc1k/stitching_help/",
+        "subreddit": "bookbinding",
+        "evidence": "【turn460reddit41】 [wordlim: 200] Published: 10 months ago; My suggestion would be to find a tutorial from DAS Bookbinding on YouTube and learn how to sew signatures. ... The actual stiches do look correct, but it seems like you could use a little more tension on your sewing.\n[Monday December 22 2025] [+7 votes]\nSHARED URL\nIs this decent to continue or did I do something incorrectly?\n\n[Monday December 22 2025] [+3 votes]\nThis is not the best, no. My suggestion would be to find a tutorial from DAS Bookbinding on YouTube and learn how to sew signatures.\n\n[Monday December 22 2025] [+6 votes]\nIs this going to be a sewn- boards binding, or is the board in there for the sake of the picture?\nThe act",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1eo5uws",
+        "title": "Sewing signatures",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1eo5uws",
+        "subreddit": "bookbinding",
+        "evidence": "【turn460reddit42】 [wordlim: 200] Published: 2.2 years ago; Crawled: 1.5 years ago; That’s the feeling I’m getting from these comments 👍 ... I’m still rubbish with getting my tension completely even throughout a book but I find this technique helps. ...   Normally tape sewing, or French link stitch.\n        Image: img\n\n          [Friday August 09 2024] [+1 votes]\n          Thank you.  Yeah the top and bottom edges are fine.  I think I will do as you suggest, and watch my tension so that I can jog the text block ‘back’ into shape  👍\n          But if it does happen again, I will post a pic\n\n[Friday August 09 2024] [+2 votes]\nSquish the text block (eg: in a press, or just with clamps).  Take it ",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1q823ls",
+        "title": "Stitches too loose or something else?",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1q823ls/stitches_too_loose_or_something_else/",
+        "subreddit": "bookbinding",
+        "evidence": "【turn460reddit43】 [wordlim: 200] Published: 9 months ago; Does it mean my sewing was just a little too loose? ... It may be a tension issue but not sure. If you haven't already check out DAS bookbinding over on youtube, he's the OG.\n[Friday January 09 2026] [+5 votes]\nSHARED URL\nI made some notebooks using this method: URL\nBut now that I've used it a bit, I noticed that all the pages except the outer one on each signature are sagging. You can even see it on the fore edge, where there are little dimples from those outer pages not having sagged. It was obviously not like that when I trimmed the pages, so it must have happened either while doing the cover or after first use. Does it mean my sew",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1vkl6ry",
+        "title": "First attempt binding (need some help)",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1vkl6ry/first_attempt_binding_need_some_help/",
+        "subreddit": "bookbinding",
+        "evidence": "【turn460reddit44】 [wordlim: 200] Published: 2 months ago; Is it normal for the sewn book block to be quite loose? ... this is your first book. your next book will be better <3\n[Monday August 10 2026] [+12 votes]\nSHARED URL\nFirst attempt, some problems i faced and need some help.\n1. My knots that i tie keep coming loose. Is this because a double knot is not secure or is there too much was on my thread?\n2. Why are some of the thread exposed on non centered pages? Is my thread too thick?\n3. How to make sure that holes made are big enough, and are exactly in the center on both front and back?\n4. Is it normal for the sewn book block to be quite loose? the signatures can still move up and down and",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1v8netb",
+        "title": "What am I doing wrong?",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1v8netb/what_am_i_doing_wrong/",
+        "subreddit": "bookbinding",
+        "evidence": "【turn460reddit45】 [wordlim: 200] Published: 3 months ago; This is my fourth binding. ... The spine curving like that is most likely a result of the stitch tension being way too tight.\n[Tuesday July 28 2026] [+20 votes]\nSHARED URL\nThis is my fourth binding. And all of them turn out just like this. I've tried both tightening and loosening the stitches but they're never straight. It hasn't caused any issues beside me having to consistently trim the edges but I'd like to know what I am doing wrong and how to fix it please.\n\n[Tuesday July 28 2026] [+10 votes]\nThe spine curving like that is most likely a result of the stitch tension being way too tight. It pulls on all the signatures until you get",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "j9qfe0",
+        "title": "Weekly Sewing Machine-Related Questions - October 12, 2020: sewing",
+        "url": "https://nl.reddit.com/r/sewing/comments/j9qfe0/weekly_sewing_machinerelated_questions_october_12/",
+        "subreddit": "sewing",
+        "evidence": "【turn460search0】 [wordlim: 200] Published: 6.0 years ago; Crawled: 3 months ago; https://www.reddit.com/r/sewing/comments/gddcm5/psa\\_for\\_my\\_fellow\\_thredditors\\_not\\_all\\_name\\_brand/ ... Having 800 stitches doesn't really matter because in reality you'll only use 3-4 of them 99% of the time, and I think things like auto-tension do a disservice to the user because a) computer problems in the machine are more of a pain in the ass to fix; and b) adjusting tension and other settings manually trains you to better understand how the fabric-thread-needle relationship works and will wind up saving you frustration further down the road and make it easier to sew on any machine that happens to be i",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1rk1c20",
+        "title": "You don’t have to make projects you hate : BitchEatingCrafters",
+        "url": "https://uk.reddit.com/r/BitchEatingCrafters/comments/1rk1c20/you_dont_have_to_make_projects_you_hate/",
+        "subreddit": "BitchEatingCrafters",
+        "evidence": "【turn460search1】 [wordlim: 200] Published: 8 months ago; Crawled: 4 months ago; Linking to hobbyist posts on Reddit or Instagram is not allowed to avoid brigading/targeted bullying. ... The beauty of knitting/crochet is you can reuse the yarn at least, unlike sewing where once it's cut, it's cut (you can rework it into something else but it's a lot more limited). ... There’s nothing I didn’t do except bother to notice that the cone of thread had looped around the telescoping thread holder, creating ungodly amounts of tension.\n\n[–]Cinisajoy2 9 балів 10 балів 11 балів 3 місяці тому (0 відповідей рівнем нижче)\n\n[Input]\n\nThe one in your lap is used to your noises.\n\n  * постійне посилання\n  * emb",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1ske6bj",
+        "title": "good small/portable machines? : sewhelp",
+        "url": "https://vi.reddit.com/r/sewhelp/comments/1ske6bj/good_smallportable_machines/",
+        "subreddit": "sewhelp",
+        "evidence": "【turn460search2】 [wordlim: 200] Published: 6 months ago; Crawled: 4 months ago; The tension stays consistent which is huge when you're getting back into sewing after being away from it - nothing worse than fighting with thread tension when you're already rusty\n\n--------------------------------------------------------------------------------\n[WIP] Show us ya WIP'S : CrossStitch (https://uk.reddit.com/r/CrossStitch/comments/1tszazc/wip_show_us_ya_wips/?sort=qa)\n【turn460search3】 [wordlim: 200] Published: 5 months ago; Crawled: 3 months ago; I couldn´t show anything in last Sundays thread because I had no time for stitching over that week and I came home late that Sunday but this week I had enou",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1tszazc",
+        "title": "[WIP] Show us ya WIP'S : CrossStitch",
+        "url": "https://uk.reddit.com/r/CrossStitch/comments/1tszazc/wip_show_us_ya_wips/?sort=qa",
+        "subreddit": "CrossStitch",
+        "evidence": "【turn460search3】 [wordlim: 200] Published: 5 months ago; Crawled: 3 months ago; I couldn´t show anything in last Sundays thread because I had no time for stitching over that week and I came home late that Sunday but this week I had enough time and I´m done with my Copenhagen piece *cheers* Now I´m really looking at it with a happy and a sad face  because it was so much fun to stitch it at the same time as scully_3  ;  the support we gave each other every week was so nice and getting comments from all the other lovely people here,too and I will miss this but I´m also glad that I can now move on to the next piece which I started already.It´s the summer wreath from Panna, will have much more ea",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1nr25ci",
+        "title": "Weekend Minor Gripes and Vents : BitchEatingCrafters",
+        "url": "https://fr.reddit.com/r/BitchEatingCrafters/comments/1nr25ci/weekend_minor_gripes_and_vents/",
+        "subreddit": "BitchEatingCrafters",
+        "evidence": "【turn460search4】 [wordlim: 200] Published: 1.1 years ago; Crawled: 4 months ago; Can't stand that sewing trend? ... Post a comment! ... With pre-strung yarn, I'm curious how pulling on the sequins doesn't distort the stitch! ... It’s the same principle - unless your tension is insanely tight you only have to pull the sequin a little to flip it from the back to the front.\n\n--------------------------------------------------------------------------------\nWe tried to use reasoning models like o3-mini to improve RAG pipelines : learnmachinelearning (https://ja.reddit.com/r/learnmachinelearning/comments/1ixsu6a/we_tried_to_use_reasoning_models_like_o3mini_to/?sort=new)\n【turn460search5】 [wordlim: 2",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1ixsu6a",
+        "title": "We tried to use reasoning models like o3-mini to improve RAG pipelines : learnmachinelearning",
+        "url": "https://ja.reddit.com/r/learnmachinelearning/comments/1ixsu6a/we_tried_to_use_reasoning_models_like_o3mini_to/?sort=new",
+        "subreddit": "learnmachinelearning",
+        "evidence": "【turn460search5】 [wordlim: 200] Published: 1.7 years ago; Crawled: 3 months ago; I read the paper, it was pretty interesting take on RAG.\n\n--------------------------------------------------------------------------------\nWe get it, acrylic is terrible...I am, and will continue, to still use it. : BitchEatingCrafters (https://ro.reddit.com/r/BitchEatingCrafters/comments/1ribpun/we_get_it_acrylic_is_terriblei_am_and_will/)\n【turn460search6】 [wordlim: 200] Published: 8 months ago; Crawled: 4 months ago; Can't stand that sewing trend? ... Linking to hobbyist posts on Reddit or Instagram is not allowed to avoid brigading/targeted bullying.\n\n----------------------------------------------------------",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1ribpun",
+        "title": "We get it, acrylic is terrible...I am, and will continue, to still use it. : BitchEatingCrafters",
+        "url": "https://ro.reddit.com/r/BitchEatingCrafters/comments/1ribpun/we_get_it_acrylic_is_terriblei_am_and_will/",
+        "subreddit": "BitchEatingCrafters",
+        "evidence": "【turn460search6】 [wordlim: 200] Published: 8 months ago; Crawled: 4 months ago; Can't stand that sewing trend? ... Linking to hobbyist posts on Reddit or Instagram is not allowed to avoid brigading/targeted bullying.\n\n--------------------------------------------------------------------------------\nWhat’s a small habit you engaged in that’s helped you consume less? : Anticonsumption (https://id.reddit.com/r/Anticonsumption/comments/1j8o5oe/whats_a_small_habit_you_engaged_in_thats_helped/)\n【turn460search7】 [wordlim: 200] Published: 1.6 years ago; Crawled: 4 months ago; You can use a sponge or a rag for whatever youre wiping up. ... I bought “reusable paper towels” (basically cloth rags on a ro",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1j8o5oe",
+        "title": "What’s a small habit you engaged in that’s helped you consume less? : Anticonsumption",
+        "url": "https://id.reddit.com/r/Anticonsumption/comments/1j8o5oe/whats_a_small_habit_you_engaged_in_thats_helped/",
+        "subreddit": "Anticonsumption",
+        "evidence": "【turn460search7】 [wordlim: 200] Published: 1.6 years ago; Crawled: 4 months ago; You can use a sponge or a rag for whatever youre wiping up. ... I bought “reusable paper towels” (basically cloth rags on a roll) last year and was worried it would be another money- wasted gimmick but I actually love them and my paper towel rolls are lasting a really long time now.\n\n--------------------------------------------------------------------------------\nWhat's your unpopular crochet opinion? : crochet (https://af.reddit.com/r/crochet/comments/10a9uvf/whats_your_unpopular_crochet_opinion/)\n【turn460search8】 [wordlim: 200] Published: 3.8 years ago; Crawled: 4 months ago; I still don't enjoy blo slip stitc",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "selected"
+      },
+      {
+        "post_id": "10a9uvf",
+        "title": "What's your unpopular crochet opinion? : crochet",
+        "url": "https://af.reddit.com/r/crochet/comments/10a9uvf/whats_your_unpopular_crochet_opinion/",
+        "subreddit": "crochet",
+        "evidence": "【turn460search8】 [wordlim: 200] Published: 3.8 years ago; Crawled: 4 months ago; I still don't enjoy blo slip stitch very much, but reducing my tension helped me go from \"I am never doing this again in my life\" to \"well, I like the result enough to slog through.\"\n\n--------------------------------------------------------------------------------\nCan someone tell me why my stain is coming up spotty like this after hours of sanding from 60 to 150 grit? : woodworking (https://vi.reddit.com/r/woodworking/comments/18a5u8h/can_someone_tell_me_why_my_stain_is_coming_up/?sort=random)\n【turn460search9】 [wordlim: 200] Published: 2.9 years ago; Crawled: 3 months ago; It's because the comment says he first",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "18a5u8h",
+        "title": "Can someone tell me why my stain is coming up spotty like this after hours of sanding from 60 to 150 grit? : woodworking",
+        "url": "https://vi.reddit.com/r/woodworking/comments/18a5u8h/can_someone_tell_me_why_my_stain_is_coming_up/?sort=random",
+        "subreddit": "woodworking",
+        "evidence": "【turn460search9】 [wordlim: 200] Published: 2.9 years ago; Crawled: 3 months ago; It's because the comment says he first applied with foam brush then sanded and re done with a rag, then this comment says try using a rag. ... Reddit is so wild!\n",
+        "observed_on": "2026-10-29",
+        "source_file": "n29reddit4.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "hp9847",
+        "title": "When did humans figure out time zones?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/hp9847",
+        "subreddit": "AskHistorians",
+        "evidence": "【turn448reddit48】 [wordlim: 200] Published: 6.3 years ago; Crawled: 6.3 years ago; * \"Time zones\" are totally artificial and were developed in the 19th century, initially to coordinate railway schedules.\n\n--------------------------------------------------------------------------------\nHow did we discover the concept of time zones and how much chaos did it cause before people knew about them? (https://www.reddit.com/r/AskHistorians/comments/fej6ij)\n【turn448reddit49】 [wordlim: 200] Published: 6.6 years ago; Crawled: 6.5 years ago; Time zones were first _invented_ by the railway industry when it became clear that coordinate times was essential when you are sharing track between multiple fast-mo",
+        "observed_on": "2026-10-29",
+        "source_file": "n29sources1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "fej6ij",
+        "title": "How did we discover the concept of time zones and how much chaos did it cause before people knew about them?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/fej6ij",
+        "subreddit": "AskHistorians",
+        "evidence": "【turn448reddit49】 [wordlim: 200] Published: 6.6 years ago; Crawled: 6.5 years ago; Time zones were first _invented_ by the railway industry when it became clear that coordinate times was essential when you are sharing track between multiple fast-moving objects — if your \"noon\" and the other train's \"noon\" differ by 10 minutes, that can be a real problem if one train is going to occupy one place at \"noon\" and you are meant to occupy it a bit later than that.\n\n--------------------------------------------------------------------------------\nKrishiv Vora: \"How Music Can Help You Get in the Zone\" | TED Talk (https://www.ted.com/talks/krishiv_vora_how_music_can_help_you_get_in_the_zone)\n【turn448se",
+        "observed_on": "2026-10-29",
+        "source_file": "n29sources1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1sjvst3",
+        "title": "How has time keeping changed over history?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1sjvst3/how_has_time_keeping_changed_over_history/",
+        "subreddit": "AskHistorians",
+        "evidence": "【turn448reddit50】 [wordlim: 200] Published: 6 months ago; The time you see is the same for everyone around the world (adjusted to time zones of course) and is agreed upon by everyone. ... Welcome to /r/AskHistorians.\n\n--------------------------------------------------------------------------------\nIs there evidence of people considering timezones before the creation of GMT? If so What is the earliest example of a people planning for timezones, or something like them? (https://www.reddit.com/r/AskHistorians/comments/w2w5q1)\n【turn448reddit51】 [wordlim: 200] Published: 4.3 years ago; Crawled: 4.3 years ago; Time zones are an arbitrary construction tied to railways (which were the first mode of ",
+        "observed_on": "2026-10-29",
+        "source_file": "n29sources1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "w2w5q1",
+        "title": "Is there evidence of people considering timezones before the creation of GMT? If so What is the earliest example of a people planning for timezones, or something like them?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/w2w5q1",
+        "subreddit": "AskHistorians",
+        "evidence": "【turn448reddit51】 [wordlim: 200] Published: 4.3 years ago; Crawled: 4.3 years ago; Time zones are an arbitrary construction tied to railways (which were the first mode of transportation to move people quickly enough from place to place that their arrival times had to be precisely coordinated), but it was understood in classical antiquity that time was different in different parts of the globe.\n\n--------------------------------------------------------------------------------\nDesign engineer, 1.5 years in, constantly exhausted. How do you stay sharp during slow stretches at work? (https://www.reddit.com/r/MechanicalEngineering/comments/1wywc6m/design_engineer_15_years_in_constantly_exhausted/)",
+        "observed_on": "2026-10-29",
+        "source_file": "n29sources1.json",
+        "decision": "reject_permanent_id"
+      },
+      {
+        "post_id": "1wywc6m",
+        "title": "Design engineer, 1.5 years in, constantly exhausted. How do you stay sharp during slow stretches at work?",
+        "url": "https://www.reddit.com/r/MechanicalEngineering/comments/1wywc6m/design_engineer_15_years_in_constantly_exhausted/",
+        "subreddit": "MechanicalEngineering",
+        "evidence": "【turn448reddit52】 [wordlim: 200] Published: 3 weeks ago; 25M, mechanical design engineer, about a year and a half in the industry. ... Whatever anyone says, you are not made to sleep less than 7 hours and the cognitive load of two jobs and especially engineering is not easy.\n\n--------------------------------------------------------------------------------\nHow were time zones discovered and determined? (https://www.reddit.com/r/AskHistorians/comments/xvoh6l)\n【turn448reddit53】 [wordlim: 200] Published: 4.1 years ago; Crawled: 4.1 years ago; Time zones weren't \"discovered\" -- they are arbitrary constructs to fit local time into a 24-hour day -- but if what you're asking is when people knew that",
+        "observed_on": "2026-10-29",
+        "source_file": "n29sources1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "xvoh6l",
+        "title": "How were time zones discovered and determined?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/xvoh6l",
+        "subreddit": "AskHistorians",
+        "evidence": "【turn448reddit53】 [wordlim: 200] Published: 4.1 years ago; Crawled: 4.1 years ago; Time zones weren't \"discovered\" -- they are arbitrary constructs to fit local time into a 24-hour day -- but if what you're asking is when people knew that time was different in different parts of the world, that was known in classical antiquity.\n\n--------------------------------------------------------------------------------\nHow old are Time zones? (https://www.reddit.com/r/AskHistorians/comments/tdnxdi)\n【turn448reddit54】 [wordlim: 200] Published: 4.6 years ago; Crawled: 4.6 years ago; apparently it's daylight savings time again and that got me wondering if the Romans had time zones? ... Welcome to /r/AskHis",
+        "observed_on": "2026-10-29",
+        "source_file": "n29sources1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "tdnxdi",
+        "title": "How old are Time zones?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/tdnxdi",
+        "subreddit": "AskHistorians",
+        "evidence": "【turn448reddit54】 [wordlim: 200] Published: 4.6 years ago; Crawled: 4.6 years ago; apparently it's daylight savings time again and that got me wondering if the Romans had time zones? ... Welcome to /r/AskHistorians.\n\n--------------------------------------------------------------------------------\nSteven Sharp Nelson: How music can help you find peace after loss | TED Talk (https://www.ted.com/talks/steven_sharp_nelson_how_music_can_help_you_find_peace_after_loss)\n【turn448search6】 [wordlim: 200] Published: 6.2 years ago; Crawled: last month; # How music can help you find peace after loss ... This talk was presented to a local audience at TEDxSaltLakeCity, an independent event.\n\n--------------",
+        "observed_on": "2026-10-29",
+        "source_file": "n29sources1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1v0ys2a",
+        "title": "In Shogun, it's mentioned that explorers of the time had incredible difficulty measuring longitude (and therefore accurately knowing where they were out of sight of land); is this accurate, and how was this problem eventually cracked?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1v0ys2a/in_shogun_its_mentioned_that_explorers_of_the/",
+        "subreddit": "AskHistorians",
+        "evidence": "【turn448reddit55】 [wordlim: 200] Published: 3 months ago; Welcome to /r/AskHistorians. ... * When did people understood the concept of time zones?\n\n--------------------------------------------------------------------------------\nEvelyn Glennie: How to truly listen | TED Talk (https://www.ted.com/talks/evelyn_glennie_how_to_truly_listen)\n【turn448search7】 [wordlim: 200] Published: 23.8 years ago; Crawled: last week; In this soaring demonstration, deaf percussionist Evelyn Glennie illustrates how listening to music involves much more than simply letting sound waves hit your eardrums. ... This talk was presented at an official TED conference.\n\n----------------------------------------------------",
+        "observed_on": "2026-10-29",
+        "source_file": "n29sources1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1geb7al",
+        "title": "Did any ancient people have the concept of time zones?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1geb7al",
+        "subreddit": "AskHistorians",
+        "evidence": "【turn448reddit56】 [wordlim: 200] Published: 2.0 years ago; Crawled: 2.0 years ago; I know a lot of ancient people would not have been spread out enough to even notice the difference in sunlight, but did larger empires like Ancient Rome have any concept of time zone? ... Welcome to /r/AskHistorians.\n\n--------------------------------------------------------------------------------\nEvelyn Glennie: How to truly listen | TED Talk (https://www.ted.com/talks/evelyn_glennie_how_to_truly_listen%26lang%3Den)\n【turn448search9】 [wordlim: 200] Published: 23.8 years ago; Crawled: 3 weeks ago; TED2003 ... In this soaring demonstration, deaf percussionist Evelyn Glennie illustrates how listening to music inv",
+        "observed_on": "2026-10-29",
+        "source_file": "n29sources1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "s4l5z5",
+        "title": "I'm Dr. Scott Johnston, author of THE CLOCKS ARE TELLING LIES: SCIENCE, SOCIETY, AND THE CONSTRUCTION OF TIME. Ask me anything about the history of global timekeeping!",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/s4l5z5",
+        "subreddit": "AskHistorians",
+        "evidence": "【turn448reddit57】 [wordlim: 200] Published: 4.8 years ago; Crawled: 4.4 years ago; Hello r/AskHistorians, I'm Scott Alan Johnston, a historian of science and technology and author of *The Clocks are Telling Lies*, a book about the history of global timekeeping, which comes out today! ... It shows how early proposals for standard time (time zones, etc.) envisioned by railway engineers such as Sandford Fleming, clashed with universal time (a single global time like UTC) promoted by astronomers.\n\n--------------------------------------------------------------------------------\nwhile under British Raj, Mumbai & Kolkata had their own time zones, set respectively at UTC+4:51 and UTC+5:52:20 (yes, t",
+        "observed_on": "2026-10-29",
+        "source_file": "n29sources1.json",
+        "decision": "selected"
+      },
+      {
+        "post_id": "18v5rq6",
+        "title": "while under British Raj, Mumbai & Kolkata had their own time zones, set respectively at UTC+4:51 and UTC+5:52:20 (yes, that's 20 seconds off). Why such difficult numbers? And didn't this cause major headaches, especially when the rest of the country was on India Standard Time (UTC+5:30)?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/18v5rq6",
+        "subreddit": "AskHistorians",
+        "evidence": "【turn448reddit58】 [wordlim: 200] Published: 2.8 years ago; Crawled: 2.8 years ago; The \"Bombay Time Zone\" and \"Calcutta Time Zone\" were set in 1884, at the International Meridian Conference in Washington DC. ... India Standard Time (UTC+5:30) was adopted in 1906 (and continues to this day), but those two cities retained their time zones until 1955 and 1948, respectively.\n\n--------------------------------------------------------------------------------\nWhen was the first documented awareness among people that at different longitudes it is not the same time of the day? (https://www.reddit.com/r/AskHistorians/comments/1wfelc3/when_was_the_first_documented_awareness_among/)\n【turn448reddit59】 [wo",
+        "observed_on": "2026-10-29",
+        "source_file": "n29sources1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1wfelc3",
+        "title": "When was the first documented awareness among people that at different longitudes it is not the same time of the day?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1wfelc3/when_was_the_first_documented_awareness_among/",
+        "subreddit": "AskHistorians",
+        "evidence": "【turn448reddit59】 [wordlim: 200] Published: last month; We take timezones for granted nowadays. ... Welcome to /r/AskHistorians.\n\n--------------------------------------------------------------------------------\nSmarthistory – Creating and Conserving (https://smarthistory.org/curated-guide/creating-and-conserving/)\n【turn448search12】 [wordlim: 200] Published: 7.2 years ago; Crawled: today;   * Art conservation behind the scenes Image: video ...   * Gold-ground panel painting Image: video\n\n--------------------------------------------------------------------------------\nSmarthistory – Van Gogh’s Enclosed Field with Ploughman under raking light (https://smarthistory.org/van-goghs-enclosed-field-w",
+        "observed_on": "2026-10-29",
+        "source_file": "n29sources1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1unhw8j",
+        "title": "486 on my first FL after content review : Mcat",
+        "url": "https://ru.reddit.com/r/Mcat/comments/1unhw8j/486_on_my_first_fl_after_content_review/?sort=random",
+        "subreddit": "Mcat",
+        "evidence": "【turn448search28】 [wordlim: 200] Published: 3 months ago; Crawled: 3 months ago; For psy/soc I briefly looked it over aswell and noticed a lot of my errors were just due to not reading either the passage to question correctly due to testing fatigue because the longest time I’ve spent in an exam prior to this was 2 hours so I’m just not used to it\n\n--------------------------------------------------------------------------------\nReddit for Developers (https://developers.reddit.com/apps/ropedropplannerbot)\n【turn448search29】 [wordlim: 200] Crawled: today;   * Template: built from Reddit's current \"Mod Tool\" template for Devvit Web (`devvit-template-mod-tool-devvit-web`, what `npm create devvit` ",
+        "observed_on": "2026-10-29",
+        "source_file": "n29sources1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1ua7j16",
+        "title": "[D2] Xûr Megathread [2026-06-19] : LowSodiumDestiny",
+        "url": "https://de.reddit.com/r/LowSodiumDestiny/comments/1ua7j16/d2_x%C3%BBr_megathread_20260619/",
+        "subreddit": "LowSodiumDestiny",
+        "evidence": "【turn448search30】 [wordlim: 200] Published: 4 months ago; Crawled: 4 months ago; If you would like to see all the live conversions of Time Zones, please follow this link here.\n\n--------------------------------------------------------------------------------\nServers will go down tomorrow at 7AM PST to fix the BGs Issue : classicwow (https://en.reddit.com/r/classicwow/comments/1i35l2f/servers_will_go_down_tomorrow_at_7am_pst_to_fix/)\n【turn448search31】 [wordlim: 200] Published: 1.8 years ago; Crawled: 3 months ago; [–]timee_bot 27 points 28 points 29 points 1 year ago (7 children) ... Check your launcher; I think the times are different for each region (even encountering for time zones).\n\n-----",
+        "observed_on": "2026-10-29",
+        "source_file": "n29sources1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      },
+      {
+        "post_id": "1i35l2f",
+        "title": "Servers will go down tomorrow at 7AM PST to fix the BGs Issue : classicwow",
+        "url": "https://en.reddit.com/r/classicwow/comments/1i35l2f/servers_will_go_down_tomorrow_at_7am_pst_to_fix/",
+        "subreddit": "classicwow",
+        "evidence": "【turn448search31】 [wordlim: 200] Published: 1.8 years ago; Crawled: 3 months ago; [–]timee_bot 27 points 28 points 29 points 1 year ago (7 children) ... Check your launcher; I think the times are different for each region (even encountering for time zones).\n\n--------------------------------------------------------------------------------\nInternal Error ()\n【turn448view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.engineerguy.com/videos.htm\",\"lineno\":null}); \nURL https://www.engineerguy.com/videos.htm is not accessible via this tool.\n--------------------------------------------------------------------------------\nCourses - Crash Course (https://thecrashcourse.com/courses/)\n【turn448view",
+        "observed_on": "2026-10-29",
+        "source_file": "n29sources1.json",
+        "decision": "reject_topic_redundancy_thinness_or_lower_fit"
+      }
+    ],
+    "pool_scope": "All real IDs/title candidates actually observed. Catalogue/related-card-only candidates rejected unless separately verified. Broad Reddit discovery includes irrelevant/low-fit results explicitly rejected; final ten separately assessed.",
+    "weights": {
+      "quality": 0.3,
+      "usefulness": 0.25,
+      "curiosity": 0.2,
+      "novelty": 0.15,
+      "fit": 0.1
+    }
+  },
+  "selection": {
+    "ordered_exposed_resource_ids": [
+      "youtube:LyGKycYT2v0",
+      "youtube:YkR79oDAgOg",
+      "youtube:3yLXNzDUH58",
+      "youtube:ICZww0DtQKk",
+      "youtube:IU3V6zNER4g",
+      "reddit:1l9z3d0",
+      "reddit:s4l5z5",
+      "reddit:1sy58im",
+      "reddit:1f1jqpk",
+      "reddit:1mhfenm",
+      "reddit:qnlmys",
+      "reddit:11a9d3q",
+      "reddit:1t0gvfs",
+      "reddit:1xgo1fg",
+      "reddit:1j8o5oe"
+    ],
+    "reddit": [
+      {
+        "post_id": "1l9z3d0",
+        "title": "Does brass lack a fatigue limit like aluminum?",
+        "subreddit": "AskEngineers",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/1l9z3d0",
+        "age": "搜索显示 2025-06-12",
+        "topic": "材料／疲劳曲线",
+        "why": "题目把一个常见误区暴露得很清楚：材料名称相同，并不意味着牌号、表面状态、应力比和环境相同。适合练习把‘这种金属耐不耐用’改写为‘在什么循环载荷与目标寿命下比较什么数据’。阅读时优先找原始试验或手册条件，而不是把材料分类口诀当成设计值。",
+        "discussion": "此处推荐的是问题的辨析价值，不背书搜索中关于无限寿命的绝对说法；实际安全设计须查具体材料与工况资料。",
+        "kind": "high_confidence"
+      },
+      {
+        "post_id": "s4l5z5",
+        "title": "I'm Dr. Scott Johnston, author of THE CLOCKS ARE TELLING LIES: SCIENCE, SOCIETY, AND THE CONSTRUCTION OF TIME. Ask me anything about the history of global timekeeping!",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/s4l5z5",
+        "age": "搜索显示约 4.8 年前",
+        "topic": "制度史／时间标准",
+        "why": "搜索信息明确标识一位时间史作者主持的问答，主题涉及铁路、天文学家与全球计时的协调。它值得读的不是‘时区什么时候被发现’的单一日期，而是不同机构为何需要不同标准、最后怎样形成共同规则。把技术问题中的自然约束与制度选择分开，会让日常的时钟变得不再理所当然。",
+        "discussion": "作者身份为搜索可见自我介绍，未独立核验全部履历；未读完整 AMA，不能保证每个问题都有答复。",
+        "kind": "adjacent"
+      },
+      {
+        "post_id": "1sy58im",
+        "title": "What, exactly, is the point of hydrating batters?",
+        "subreddit": "AskCulinary",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/1sy58im/what_exactly_is_the_point_of_hydrating_batters/",
+        "age": "搜索显示 2026-04-28",
+        "topic": "烹饪／面糊静置",
+        "why": "问题把静置同时涉及的吸水、结构变化与膨松时机放在一起，很适合练习多变量思考。与其寻找‘面糊必须休息几分钟’的万能数字，不如先区分薄饼、松饼等目标口感，再比较配方、混合方式和膨松剂。阅读后可以列出一个只改变静置时间的小测试设计。",
+        "discussion": "烹饪经验不等于受控实验；不把楼主提出的机制假设直接当成已证实结论。",
+        "kind": "high_confidence"
+      },
+      {
+        "post_id": "1f1jqpk",
+        "title": "Perspective with different focal lenght. What is the technical term?",
+        "subreddit": "photography",
+        "url": "https://www.reddit.com/r/photography/comments/1f1jqpk",
+        "age": "搜索显示 2024-08-26",
+        "topic": "摄影／透视与取景",
+        "why": "楼主用门框和远处建筑描述一种视觉变化，价值在于迫使人把机位、焦距和画面裁切分别讨论。可以先自己预测：原地换镜头与后退后保持同样构图，哪些空间关系会变化？再把帖子当作检验术语的入口，避免记住‘长焦压缩’四个字就停止解释。",
+        "discussion": "本文不据搜索评论认证光学结论；建议用同机位、移动机位两组照片自行对照，并查摄影光学资料。",
+        "kind": "high_confidence"
+      },
+      {
+        "post_id": "1mhfenm",
+        "title": "How do linguists see the spoken vs written language?",
+        "subreddit": "asklinguistics",
+        "url": "https://www.reddit.com/r/asklinguistics/comments/1mhfenm/how_do_linguists_see_the_spoken_vs_written/",
+        "age": "搜索显示 2025-08-04",
+        "topic": "语言学／书写与语言",
+        "why": "它从播客中的一句话出发，追问研究者怎样区分语言与书写。适合英语学习者反思：拼写、发音、语法和交流能力为什么不能互相代替。阅读时也要为手语留出位置，不能把‘语言不等于文字’粗暴替换成‘语言必定是口语声音’。",
+        "discussion": "推荐基于可见提问范围，不声称已确认回复者的专业身份或完整论证。",
+        "kind": "high_confidence"
+      },
+      {
+        "post_id": "qnlmys",
+        "title": "Trackable information in games - do you play \"Hidden\" or \"Open\"?",
+        "subreddit": "boardgames",
+        "url": "https://www.reddit.com/r/boardgames/comments/qnlmys",
+        "age": "搜索显示 2021-11-05",
+        "topic": "游戏设计／信息与记忆",
+        "why": "这不是简单问你喜欢什么游戏，而是区分‘从未公开的信息’与‘曾公开但需要记忆的信息’。两种设计分别考验推断与记忆，会改变节奏、公平感和参与门槛。把它带回合作学习或会议，你也可以问：大家的差异来自判断能力，还是只是有人记住了先前出现的数据？",
+        "discussion": "桌游偏好与体验是个人经验。本文不把搜索摘要中的具体游戏规则认证为官方规则，开局仍以所用版本规则书为准。",
+        "kind": "wildcard"
+      },
+      {
+        "post_id": "11a9d3q",
+        "title": "Interpretation of Prediction Intervals in Regression",
+        "subreddit": "AskStatistics",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/11a9d3q",
+        "age": "搜索显示约 3.7 年前",
+        "topic": "统计／区间的对象",
+        "why": "标题触及一个容易被措辞掩盖的问题：区间究竟围绕平均响应，还是围绕未来一次观测？可以把它当作术语检查表，先写出被估计对象，再讨论概率或置信度。这样比只记住‘预测区间通常更宽’更接近真正理解。",
+        "discussion": "未读完整讨论，不背书任何特定区间解释；正式解释需回到模型假设和统计教材。",
+        "kind": "high_confidence"
+      },
+      {
+        "post_id": "1t0gvfs",
+        "title": "Anyone had luck direct seeding species that need multiple years of dormancy?",
+        "subreddit": "NativePlantGardening",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1t0gvfs/anyone_had_luck_direct_seeding_species_that_need/",
+        "age": "搜索显示 2026-05-01",
+        "topic": "园艺／延迟结果与记录",
+        "why": "多年休眠让‘没长出来就是失败’变成值得怀疑的判断。这个经验帖适合从记录设计角度阅读：品种、种子来源、储藏方式、播种日期和后续等待时间，如果缺少其中几项，成功与失败很难比较。把观察期限写进实验计划，比不断更换处理方法更有学习价值。",
+        "discussion": "园艺经历为轶事，北美物种与气候经验不能直接套用到上海；具体休眠处理要查对应物种资料。",
+        "kind": "adjacent"
+      },
+      {
+        "post_id": "1xgo1fg",
+        "title": "Should I use a different yarn for sewing?",
+        "subreddit": "bookbinding",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1xgo1fg/should_i_use_a_different_yarn_for_sewing/",
+        "age": "搜索显示 2026-10-27；结果日期标签不一致，以可见正文日期为参考",
+        "topic": "手工／装订张力诊断",
+        "why": "初学者把书芯松动首先归因于线材，搜索可见情境也涉及书帖数量、缝线过程和后续硬壳。它适合练习故障定位：材料、结构、操作和观察方式不能混在一起。先列出需要补拍或测量的信息，再决定是否返工，能避免‘换更好的材料’成为所有问题的默认答案。",
+        "discussion": "未查看原图，不评价这本书实际是否合格；也不把搜索中的建议当成经过检验的修复方案。",
+        "kind": "wildcard"
+      },
+      {
+        "post_id": "1j8o5oe",
+        "title": "What’s a small habit you engaged in that’s helped you consume less?",
+        "subreddit": "Anticonsumption",
+        "url": "https://www.reddit.com/r/Anticonsumption/comments/1j8o5oe/whats_a_small_habit_you_engaged_in_thats_helped/",
+        "age": "搜索显示约 1.6 年前",
+        "topic": "日常行为／减少消费",
+        "why": "把宏大的节约目标缩小为可重复的小习惯，可能比购买另一件‘环保神器’更值得试。阅读时只挑一个不需新增支出的动作，设定两周观察期，记录它是否减少了购买、浪费或时间成本。价值在于可测试的行为点子，而不是比较谁的生活更纯粹。",
+        "discussion": "个人生活经验与自选样本，不代表平均效果；也不要把消费变化直接等同于完整环境足迹下降。",
+        "kind": "adjacent"
+      }
+    ],
+    "youtube_topics": [
+      "linear algebra",
+      "open-channel engineering",
+      "linguistics",
+      "food history",
+      "musical listening"
+    ],
+    "reddit_wildcards": [
+      "qnlmys",
+      "1xgo1fg"
+    ],
+    "youtube_wildcard": "IU3V6zNER4g",
+    "narrow_topic_max_fraction_youtube": 0.2,
+    "narrow_topic_max_fraction_reddit": 0.1,
+    "composition": "YouTube 3 high-confidence, 1 adjacent, 1 wildcard; Reddit5 high-confidence,3 adjacent,2wildcards",
+    "semantic_review": "Five distinct original video works and ten distinct thread questions. No reupload/mirror replacement; historical water hammer and backwards bicycle blocked.",
+    "recent_creator_penalties": [
+      "CrashCourse appeared2026-10-27; distinct subject retained with penalty",
+      "TED appeared2026-10-26; distinct music/embodied-listening work retained with penalty",
+      "Practical Engineering appeared2026-10-22; seven-day boundary noted"
+    ],
+    "reddit_assessment_scores": [
+      {
+        "post_id": "1l9z3d0",
+        "quality": 8,
+        "usefulness": 9,
+        "curiosity": 9,
+        "novelty": 8,
+        "fit": 8,
+        "penalties": []
+      },
+      {
+        "post_id": "s4l5z5",
+        "quality": 8,
+        "usefulness": 7,
+        "curiosity": 9,
+        "novelty": 8,
+        "fit": 8,
+        "penalties": []
+      },
+      {
+        "post_id": "1sy58im",
+        "quality": 8,
+        "usefulness": 9,
+        "curiosity": 9,
+        "novelty": 8,
+        "fit": 8,
+        "penalties": []
+      },
+      {
+        "post_id": "1f1jqpk",
+        "quality": 8,
+        "usefulness": 9,
+        "curiosity": 9,
+        "novelty": 8,
+        "fit": 8,
+        "penalties": []
+      },
+      {
+        "post_id": "1mhfenm",
+        "quality": 8,
+        "usefulness": 9,
+        "curiosity": 9,
+        "novelty": 8,
+        "fit": 8,
+        "penalties": []
+      },
+      {
+        "post_id": "qnlmys",
+        "quality": 8,
+        "usefulness": 7,
+        "curiosity": 9,
+        "novelty": 8,
+        "fit": 8,
+        "penalties": []
+      },
+      {
+        "post_id": "11a9d3q",
+        "quality": 8,
+        "usefulness": 9,
+        "curiosity": 9,
+        "novelty": 8,
+        "fit": 8,
+        "penalties": []
+      },
+      {
+        "post_id": "1t0gvfs",
+        "quality": 8,
+        "usefulness": 7,
+        "curiosity": 9,
+        "novelty": 8,
+        "fit": 8,
+        "penalties": [
+          "recent seed-related topic, distinct multi-year observation question"
+        ]
+      },
+      {
+        "post_id": "1xgo1fg",
+        "quality": 8,
+        "usefulness": 7,
+        "curiosity": 9,
+        "novelty": 8,
+        "fit": 8,
+        "penalties": []
+      },
+      {
+        "post_id": "1j8o5oe",
+        "quality": 8,
+        "usefulness": 7,
+        "curiosity": 9,
+        "novelty": 8,
+        "fit": 8,
+        "penalties": []
+      }
+    ]
+  },
+  "source_verification": {
+    "observed_on_utc_date": "2026-10-29",
+    "observation_window": "During this attempt, before immutable PREPARED creation at2026-10-29 00:44:01 UTC",
+    "youtube": [
+      {
+        "video_id": "LyGKycYT2v0",
+        "title": "Dot products and duality | Chapter 9, Essence of linear algebra",
+        "creator": "3Blue1Brown",
+        "method": "direct_watch_page",
+        "source": "https://www.youtube.com/watch?v=LyGKycYT2v0",
+        "supporting_official_page": "https://www.3blue1brown.com/lessons/dot-products/",
+        "observations": [
+          "Exact original ID, title, verified creator displayed on watch page; player showed 14:11.",
+          "Official lesson body directly inspected: scalar-output transformations, 1x2 matrices, projection and duality.",
+          "No full playback test; finite-dimensional Euclidean interpretation explicitly bounded."
+        ]
+      },
+      {
+        "video_id": "YkR79oDAgOg",
+        "title": "What is a Weir?",
+        "creator": "Practical Engineering",
+        "verification_method": "creator_official_page",
+        "source": "https://practical.engineering/blog/2019/3/9/what-is-a-weir",
+        "observations": [
+          "Exact YouTube embed ID observed in iframe DOM.",
+          "Original embedded player visibly displayed What is a Weir? and Practical Engineering.",
+          "Full creator text directly read: rating curves, discharge coefficient, folded crest length, gates, operating burden and ecological caveats."
+        ]
+      },
+      {
+        "video_id": "3yLXNzDUH58",
+        "title": "What is Linguistics?: Crash Course Linguistics #1",
+        "creator": "CrashCourse",
+        "method": "direct_watch_page",
+        "source": "https://www.youtube.com/watch?v=3yLXNzDUH58",
+        "supporting_official_page": "https://thecrashcourse.com/courses/what-is-linguistics-crash-course-linguistics-1/",
+        "observations": [
+          "Exact title/channel on actual watch page; duration11:11.",
+          "Creator description and official lesson description read; covers features and structural levels of language.",
+          "Creator used recently; diversity penalty retained but content is distinct from socialization lesson."
+        ]
+      },
+      {
+        "video_id": "ICZww0DtQKk",
+        "title": "Ancient Roman Garum Revisited",
+        "creator": "Tasting History with Max Miller",
+        "method": "direct_watch_page",
+        "source": "https://www.youtube.com/watch?v=ICZww0DtQKk",
+        "supporting_official_page": "https://www.tastinghistory.com/episodes/truegarum",
+        "observations": [
+          "Exact embed ID first observed on official episode page, then exact title and creator directly on watch page.",
+          "Expanded description and chapter list inspected: preparation2:40, sponsor5:04, fermentation6:18, straining8:28, history10:48, premium/inferior13:16.",
+          "Actual publication date2023-11-07 displayed; full playback untested; not endorsed as food-safety instruction."
+        ]
+      },
+      {
+        "video_id": "IU3V6zNER4g",
+        "title": "How to truly listen | Evelyn Glennie",
+        "creator": "TED",
+        "method": "direct_watch_page",
+        "source": "https://www.youtube.com/watch?v=IU3V6zNER4g",
+        "supporting_official_page": "https://www.ted.com/talks/evelyn_glennie_how_to_truly_listen",
+        "observations": [
+          "Watch page displayed localized Evelyn Glennie listening title, exact original ID and TED verified channel.",
+          "Actual description states listening extends beyond sound waves vibrating the eardrum; original TED page identifies same speaker/talk.",
+          "Player34:06 differs from official-site duration; note explicitly distinguishes version duration and does not claim full playback."
+        ]
+      }
+    ],
+    "news": [
+      {
+        "source": "https://energy.ec.europa.eu/news/commission-launches-high-level-dialogue-european-oil-refining-sector-2026-10-28_en?prefLang=it",
+        "event_date": "2026-10-28",
+        "verification_method": "direct_official_browser_DOM",
+        "observations": "Full official title, date, participants, existing refining capacity, alternative fuels and joint roadmap text directly read; no claim of enacted subsidy or output commitment."
+      },
+      {
+        "source": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/26/mff-2028-2034-council-secures-negotiating-position-for-a-strong-and-future-oriented-common-agricultural-policy/",
+        "event_date": "2026-10-26",
+        "update_date": "2026-10-28",
+        "verification_method": "direct_official_page",
+        "observations": "Read exact update note and substantive partial-position text; financial/horizontal issues still in MFF talks; not final law."
+      },
+      {
+        "source": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/26/eu-support-for-ukraine-council-mobilises-49-billion-under-the-european-peace-facility/",
+        "event_date": "2026-10-26",
+        "last_review": "2026-10-28",
+        "verification_method": "direct_official_page",
+        "observations": "Read eight decisions, €4.7bn partial reimbursement of delivered military aid and €230m training financing; no conflation with all-new equipment or battlefield effects."
+      }
+    ],
+    "reddit_original_post_verification": "not_performed_user_waived",
+    "reddit_scope": "Real URL/ID/title/subreddit and date/age retained from accessible search; original threads, full discussion, original accessibility and reply quality not verified.",
+    "full_playback": "not_tested",
+    "news_effect_claims": "Institutional procedural facts only; analysis clearly marked. No later summit outcome or future event presented as completed."
+  },
+  "freshness": {
+    "original_youtube_history_blob": "a79cc88ba6b86b3cdd9eb3dda5209c7ea659f004",
+    "original_reddit_history_blob": "35b1700a0ddcab65306c4c01fbf52fb8e08b4ae6",
+    "youtube_original_rows": 240,
+    "youtube_original_unique_ids": 236,
+    "reddit_original_rows": 460,
+    "reddit_original_unique_ids": 460,
+    "final_ids_fresh_against_original": true,
+    "prior_reservations_checked": true,
+    "append_only_old_bytes_preserved": true,
+    "each_today_id_registered_once": true,
+    "youtube_rows_after": 245,
+    "reddit_rows_after": 470
+  },
+  "bundle": {
+    "path": ".recommendation/transactions/news-youtube-reddit/2026-10-29.json",
+    "original_bundle_sha256": "efb7eee32bc11c55e0e45d58b24e7370743f5fa5de96292b6d2fb1ad5b975157",
+    "original_plan_sha256": "f70c3abf6d67abc05cc65c19f577df82b54c70c122369059301f7ba91e736279",
+    "creation_commit": "861988ec9476a488ce8432f8be8c87b27b1facce",
+    "creation_blob": "cb44a60f1922e8f39a19624ace62f2e8c8123ee4",
+    "identity_receipt": {
+      "commit": "9c90226392fe962daf27c11be235cc55cd245d8d",
+      "tree": "6393ce8dffd539a302c95e3f6ef249f9970fb540",
+      "parent": "861988ec9476a488ce8432f8be8c87b27b1facce",
+      "blobs": {
+        ".recommendation/transaction-runs/news-youtube-reddit/2026-10-29/20261029004408UTC-prepared.json": "a1cf99e337494ce4a67260e05a2fec0e18a37ecc"
+      },
+      "exact_readback": true,
+      "path": ".recommendation/transaction-runs/news-youtube-reddit/2026-10-29/20261029004408UTC-prepared.json"
+    },
+    "immutable_readback": true
+  },
+  "publication": {
+    "commit": "c8c12eb883376cd1e9c2a1c65051eec12786d4a3",
+    "tree": "56856dfc0b16a6c4809e46bf8a859b42e05d9aeb",
+    "parent": "9c90226392fe962daf27c11be235cc55cd245d8d",
+    "blobs": {
+      "News/Daily/2026-10-29.md": "785a184e6483f9f603cd6bf93750a4a66878ea5f",
+      "Resources/YouTube/Daily/2026-10-29.md": "027d8000ed5719669e7edb0228d9765108259750",
+      "Resources/Reddit/Daily/2026-10-29.md": "6ee9a0305bc29eca7e249b1eb02973a7c9d36fb3",
+      ".recommendation/history/youtube.jsonl": "88a6ff30078bf8de074b0b657273f51e9c00a78b",
+      ".recommendation/history/reddit.jsonl": "c6b2d00efb70a287bcf56059e0ca8e483d9ece41"
+    },
+    "exact_readback": true
+  },
+  "stage_receipt": {
+    "commit": "345044671e9f76b6400aa42979f13c4e73e0ca10",
+    "tree": "e1851e2290b0cffac97a62423f253aee3b3326bf",
+    "parent": "c8c12eb883376cd1e9c2a1c65051eec12786d4a3",
+    "blobs": {
+      ".recommendation/transaction-runs/news-youtube-reddit/2026-10-29/20261029004450UTC-stage1.json": "523c954a8e2d0a96129932f132b0d4c877c5d5b8"
+    },
+    "exact_readback": true,
+    "path": ".recommendation/transaction-runs/news-youtube-reddit/2026-10-29/20261029004450UTC-stage1.json"
+  },
+  "independent_readback": {
+    "head": "345044671e9f76b6400aa42979f13c4e73e0ca10",
+    "tree": "e1851e2290b0cffac97a62423f253aee3b3326bf",
+    "observations": {
+      "ZJFILOVE/obsidian-vault:News/Daily/2026-10-29.md": {
+        "status": "ok",
+        "sha": "785a184e6483f9f603cd6bf93750a4a66878ea5f"
+      },
+      "ZJFILOVE/obsidian-vault:Resources/YouTube/Daily/2026-10-29.md": {
+        "status": "ok",
+        "sha": "027d8000ed5719669e7edb0228d9765108259750"
+      },
+      "ZJFILOVE/obsidian-vault:Resources/Reddit/Daily/2026-10-29.md": {
+        "status": "ok",
+        "sha": "6ee9a0305bc29eca7e249b1eb02973a7c9d36fb3"
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/history/youtube.jsonl": {
+        "status": "ok",
+        "sha": "88a6ff30078bf8de074b0b657273f51e9c00a78b"
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/history/reddit.jsonl": {
+        "status": "ok",
+        "sha": "c6b2d00efb70a287bcf56059e0ca8e483d9ece41"
+      }
+    },
+    "exact_payloads": true,
+    "planner": {
+      "status": "artifacts_match",
+      "operation_id": "news-youtube-reddit:2026-10-29",
+      "bundle_sha256": "efb7eee32bc11c55e0e45d58b24e7370743f5fa5de96292b6d2fb1ad5b975157",
+      "github_writes_performed": 0,
+      "content_qa": "not_evaluated",
+      "plan_sha256": "f70c3abf6d67abc05cc65c19f577df82b54c70c122369059301f7ba91e736279",
+      "next_stage": null,
+      "decisions": [
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "News/Daily/2026-10-29.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "785a184e6483f9f603cd6bf93750a4a66878ea5f"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Resources/YouTube/Daily/2026-10-29.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "027d8000ed5719669e7edb0228d9765108259750"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Resources/Reddit/Daily/2026-10-29.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "6ee9a0305bc29eca7e249b1eb02973a7c9d36fb3"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/youtube.jsonl",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "a79cc88ba6b86b3cdd9eb3dda5209c7ea659f004",
+          "target_sha": "88a6ff30078bf8de074b0b657273f51e9c00a78b"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/reddit.jsonl",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "35b1700a0ddcab65306c4c01fbf52fb8e08b4ae6",
+          "target_sha": "c6b2d00efb70a287bcf56059e0ca8e483d9ece41"
+        }
+      ]
+    }
+  },
+  "checks": {
+    "freeze_and_baselines": "passed",
+    "planner_after_write": "artifacts_match",
+    "content_sections": "3news each required section;5substantive Why watch;10Why read/Discussion notes;5/10checkboxes;AUTO markers/manual Notes outside;YAML dates",
+    "exact_order_count_and_dedup": "passed against original histories",
+    "source_identity_content": "passed with recorded scopes",
+    "local_unit_tests": {
+      "passed": 125,
+      "runner": "python3 -m unittest discover -s n29/scripts -p test_*.py"
+    },
+    "repository_ci": {
+      "run_id": 40796068167,
+      "commit": "345044671e9f76b6400aa42979f13c4e73e0ca10",
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "id": 123192728750,
+          "name": "validate",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+              "conclusion": "success"
+            },
+            {
+              "name": "Validate publications and full source-history coverage",
+              "conclusion": "success"
+            },
+            {
+              "name": "Negative regressions and interrupted-publication recovery",
+              "conclusion": "success"
+            },
+            {
+              "name": "Compare permanent history with the actual base commit",
+              "conclusion": "success"
+            },
+            {
+              "name": "Record scope of checks",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+              "conclusion": "success"
+            },
+            {
+              "name": "Complete job",
+              "conclusion": "success"
+            }
+          ]
+        }
+      ],
+      "bundle_journal": 43,
+      "test_groups": [
+        69,
+        41,
+        15
+      ]
+    },
+    "device_sync": "not_tested",
+    "notification_delivery": "not_tested"
+  },
+  "historical_backlog": [
+    "Four repeated YouTube history rows retained permanently; every prior exposed ID/work remains blocked.",
+    "Historical source/format findings retained without rewriting prior notes or weakening today's gates."
+  ],
+  "attempt_errors": [
+    {
+      "classification": "transient_local_exec_transport",
+      "message": "Bulk local checkpoint write lost exec-server transport before PREPARED; code execution subsequently recovered. No remote mutation had occurred at time of error. Current source/payload evidence stored in QA and immutable bundle."
+    }
+  ]
+}
