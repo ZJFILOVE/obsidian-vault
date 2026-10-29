@@ -1,0 +1,1346 @@
+{
+  "operation_id": "music:2026-10-29",
+  "status": "PREPARED",
+  "prepared_creation": {
+    "commit": "b099bf11d2d567f9e24b620f41a77f8723ceb38d",
+    "tree": "452fa3211b46469767b113a2ad6c49e6890aede8",
+    "parent": "d986fa324532b6a654bb1e79ce64f9e4ef88e010",
+    "blobs": {
+      ".recommendation/transactions/music/2026-10-29.json": "cdc35b049288d05727b8f8cfa0a73f0f385598a7"
+    },
+    "exact_readback": true
+  },
+  "original_bundle_sha256": "ec8c56fdedb4b12837ed024a1a5da58f1cc8f0ce8e0b045fc4d8215201d57be7",
+  "original_plan_sha256": "0f5cdbe9b566709dacb17cb58fd947af3358ae0118e75831d047831e0bdcbb3c",
+  "baseline_observations": {
+    "ZJFILOVE/music-daily:recommendations/2026/10/2026-10-29.json": {
+      "status": "missing",
+      "confirmed": true
+    },
+    "ZJFILOVE/music-daily:state/tracks.json": {
+      "status": "ok",
+      "sha": "099cb24cfb4444ef6ae02853673e497285211424"
+    },
+    "ZJFILOVE/obsidian-vault:Music/Daily/2026-10-29.md": {
+      "status": "missing",
+      "confirmed": true
+    },
+    "ZJFILOVE/obsidian-vault:Music/Daily/manifests/2026-10-29.json": {
+      "status": "missing",
+      "confirmed": true
+    },
+    "ZJFILOVE/obsidian-vault:Music/Daily/state/tracks.json": {
+      "status": "ok",
+      "sha": "099cb24cfb4444ef6ae02853673e497285211424"
+    }
+  },
+  "selection_evidence": {
+    "candidate_count": 20,
+    "candidates": [
+      {
+        "song_id": "1087283788",
+        "title": "山丘",
+        "artist": "李宗盛",
+        "observed_url": "https://music.apple.com/us/song/1087283788",
+        "source_ref": "turn464search1",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "selected",
+        "reason": "fresh distinct work and complementary sequencing; exact CN identity verified"
+      },
+      {
+        "song_id": "153019659",
+        "title": "Paper Bag",
+        "artist": "Fiona Apple",
+        "observed_url": "https://music.apple.com/us/song/153019659",
+        "source_ref": "turn465search1",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "selected",
+        "reason": "fresh distinct work and complementary sequencing; exact CN identity verified"
+      },
+      {
+        "song_id": "742434954",
+        "title": "All My Friends",
+        "artist": "LCD Soundsystem",
+        "observed_url": "https://music.apple.com/us/song/742434954",
+        "source_ref": "turn462search2",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "selected",
+        "reason": "fresh distinct work and complementary sequencing; exact CN identity verified"
+      },
+      {
+        "song_id": "1450550346",
+        "title": "Andromeda",
+        "artist": "Weyes Blood",
+        "observed_url": "https://music.apple.com/us/song/1450550346",
+        "source_ref": "turn462search1",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "selected",
+        "reason": "fresh distinct work and complementary sequencing; exact CN identity verified"
+      },
+      {
+        "song_id": "918253071",
+        "title": "Musicawi Silt",
+        "artist": "Hailu Mergia & The Walias",
+        "observed_url": "https://music.apple.com/us/song/918253071",
+        "source_ref": "turn464search14",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "selected",
+        "reason": "fresh distinct work and complementary sequencing; exact CN identity verified"
+      },
+      {
+        "song_id": "79765100",
+        "title": "Everything Is Free",
+        "artist": "Gillian Welch",
+        "observed_url": "https://music.apple.com/us/song/79765100",
+        "source_ref": "turn463search0",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "rejected_cn_page_not_found",
+        "reason": "Exact CN resource rendered 未找到页面"
+      },
+      {
+        "song_id": "79765052",
+        "title": "Dear Someone",
+        "artist": "Gillian Welch",
+        "observed_url": "https://music.apple.com/us/song/79765052",
+        "source_ref": "turn463search12",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "not_selected",
+        "reason": "Other recording/genre option; CN resource unverified, ineligible for final"
+      },
+      {
+        "song_id": "79765080",
+        "title": "I Want to Sing That Rock and Roll",
+        "artist": "Gillian Welch",
+        "observed_url": "https://music.apple.com/us/song/79765080",
+        "source_ref": "turn463search6",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "not_selected",
+        "reason": "Other recording/genre option; CN resource unverified, ineligible for final"
+      },
+      {
+        "song_id": "136149142",
+        "title": "Revelator (Live)",
+        "artist": "Gillian Welch",
+        "observed_url": "https://music.apple.com/us/song/136149142",
+        "source_ref": "turn463search3",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "not_selected",
+        "reason": "Other recording/genre option; CN resource unverified, ineligible for final"
+      },
+      {
+        "song_id": "1363970606",
+        "title": "Cherry / Mannenberg",
+        "artist": "Abdullah Ibrahim",
+        "observed_url": "https://music.apple.com/us/song/1363970606",
+        "source_ref": "turn463search4",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "not_selected",
+        "reason": "Other recording/genre option; CN resource unverified, ineligible for final"
+      },
+      {
+        "song_id": "1586887108",
+        "title": "Gimme All Your Love",
+        "artist": "Alabama Shakes",
+        "observed_url": "https://music.apple.com/us/song/1586887108",
+        "source_ref": "turn461search2",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "not_selected",
+        "reason": "Other recording/genre option; CN resource unverified, ineligible for final"
+      },
+      {
+        "song_id": "990940172",
+        "title": "油麻菜籽",
+        "artist": "李宗盛",
+        "observed_url": "https://music.apple.com/cn/song/990940172",
+        "source_ref": "turn462search8",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "not_selected",
+        "reason": "same artist as selected; choose longer narrative role"
+      },
+      {
+        "song_id": "1106553961",
+        "title": "Migibima Moltual",
+        "artist": "Hailu Mergia & Dahlak Band",
+        "observed_url": "https://music.apple.com/us/song/1106553961",
+        "source_ref": "turn464search2",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "not_selected",
+        "reason": "same creator concentration; prefer compact instrumental contrast Musicawi Silt"
+      },
+      {
+        "song_id": "1106553966",
+        "title": "Anchin Kfu Ayinkash",
+        "artist": "Hailu Mergia & Dahlak Band",
+        "observed_url": "https://music.apple.com/us/song/1106553966",
+        "source_ref": "turn464search3",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "not_selected",
+        "reason": "same creator concentration; prefer compact instrumental contrast Musicawi Silt"
+      },
+      {
+        "song_id": "1106553959",
+        "title": "Sintayehu",
+        "artist": "Hailu Mergia & Dahlak Band",
+        "observed_url": "https://music.apple.com/us/song/1106553959",
+        "source_ref": "turn464search4",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "not_selected",
+        "reason": "same creator concentration; prefer compact instrumental contrast Musicawi Silt"
+      },
+      {
+        "song_id": "1106553962",
+        "title": "Yene Nesh Wey (Amalele)",
+        "artist": "Hailu Mergia & Dahlak Band",
+        "observed_url": "https://music.apple.com/us/song/1106553962",
+        "source_ref": "turn464search5",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "not_selected",
+        "reason": "same creator concentration; prefer compact instrumental contrast Musicawi Silt"
+      },
+      {
+        "song_id": "1106553967",
+        "title": "Minlbelesh",
+        "artist": "Hailu Mergia & Dahlak Band",
+        "observed_url": "https://music.apple.com/us/song/1106553967",
+        "source_ref": "turn464search6",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "not_selected",
+        "reason": "same creator concentration; prefer compact instrumental contrast Musicawi Silt"
+      },
+      {
+        "song_id": "1106553965",
+        "title": "Almaz Eyasebkush",
+        "artist": "Hailu Mergia & Dahlak Band",
+        "observed_url": "https://music.apple.com/us/song/1106553965",
+        "source_ref": "turn464search7",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "not_selected",
+        "reason": "same creator concentration; prefer compact instrumental contrast Musicawi Silt"
+      },
+      {
+        "song_id": "1106553958",
+        "title": "Embuwa Bey Lamitu",
+        "artist": "Hailu Mergia & Dahlak Band",
+        "observed_url": "https://music.apple.com/us/song/1106553958",
+        "source_ref": "turn464search8",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "not_selected",
+        "reason": "same creator concentration; prefer compact instrumental contrast Musicawi Silt"
+      },
+      {
+        "song_id": "1106553960",
+        "title": "Bati Bati",
+        "artist": "Hailu Mergia & Dahlak Band",
+        "observed_url": "https://music.apple.com/us/song/1106553960",
+        "source_ref": "turn464search12",
+        "scope": "actual_Apple_Music_search_result_identity; CN eligibility only verified for selected",
+        "decision": "not_selected",
+        "reason": "same creator concentration; prefer compact instrumental contrast Musicawi Silt"
+      }
+    ],
+    "source_checks": [
+      {
+        "title": "山丘",
+        "artist": "李宗盛",
+        "album": "山丘 - Single",
+        "url": "https://music.apple.com/cn/song/1087283788",
+        "song_id": "1087283788",
+        "storefront": "cn",
+        "verified_at": "2026-10-29T01:30:09.092Z",
+        "method": "browser_exact_cn_song_resource_visible_DOM",
+        "observation": "Heading, artist and album links and CN resource URL all matched; visible 试听 control",
+        "playback": "not_tested"
+      },
+      {
+        "title": "Paper Bag",
+        "artist": "Fiona Apple",
+        "album": "When the Pawn...",
+        "url": "https://music.apple.com/cn/song/153019659",
+        "song_id": "153019659",
+        "storefront": "cn",
+        "verified_at": "2026-10-29T01:33:24.328Z",
+        "method": "browser_exact_cn_song_resource_visible_DOM",
+        "observation": "Heading, artist and album links and CN resource URL all matched; visible 试听 control",
+        "playback": "not_tested"
+      },
+      {
+        "title": "All My Friends",
+        "artist": "LCD Soundsystem",
+        "album": "Sound of Silver",
+        "url": "https://music.apple.com/cn/song/742434954",
+        "song_id": "742434954",
+        "storefront": "cn",
+        "verified_at": "2026-10-29T01:30:16.279Z",
+        "method": "browser_exact_cn_song_resource_visible_DOM",
+        "observation": "Heading, artist and album links and CN resource URL all matched; visible 试听 control",
+        "playback": "not_tested"
+      },
+      {
+        "title": "Andromeda",
+        "artist": "Weyes Blood",
+        "album": "Titanic Rising",
+        "url": "https://music.apple.com/cn/song/1450550346",
+        "song_id": "1450550346",
+        "storefront": "cn",
+        "verified_at": "2026-10-29T01:30:02.496Z",
+        "method": "browser_exact_cn_song_resource_visible_DOM",
+        "observation": "Heading, artist and album links and CN resource URL all matched; visible 试听 control",
+        "playback": "not_tested"
+      },
+      {
+        "title": "Musicawi Silt",
+        "artist": "Hailu Mergia & The Walias",
+        "album": "Tche Belew",
+        "url": "https://music.apple.com/cn/song/918253071",
+        "song_id": "918253071",
+        "storefront": "cn",
+        "verified_at": "2026-10-29T01:31:27.033Z",
+        "method": "browser_exact_cn_song_resource_visible_DOM",
+        "observation": "Heading, artist and album links and CN resource URL all matched; visible 试听 control",
+        "playback": "not_tested"
+      }
+    ],
+    "diversity": {
+      "languages": [
+        "Mandarin",
+        "English",
+        "instrumental"
+      ],
+      "eras": [
+        "1999",
+        "2007",
+        "2013",
+        "2019",
+        "archival Ethiopian ensemble; catalog date 2014 not recording date"
+      ],
+      "genre_roles": [
+        "山丘",
+        "Paper Bag",
+        "All My Friends",
+        "Andromeda",
+        "Musicawi Silt"
+      ],
+      "wildcard": "Hailu Mergia & The Walias — Musicawi Silt",
+      "recent_artist_result": "Five distinct artist identities; no same artist in 2026-10-22 through 2026-10-28 manifests; Ethiopian instrumental adjacent to Mulatu 7 days prior explicitly acknowledged",
+      "freshness": "Five canonical IDs and numeric song IDs absent in ORIGINAL 263-entry state, 51 dated manifests and all 43 PREPARED records; normalized titles and artist aliases manually compared; no cover/remaster/live of earlier exposed works",
+      "semantic_review": "山丘 vs 李宗盛 寂寞难耐 distinct composition; Hailu/The Walias vs Mulatu distinct artist/work; others artist names and compositions absent; no same-recording aliases detected"
+    },
+    "limitations": [
+      "Public page identity/availability only; no personal account full playback, audio specification, device sync or notification testing"
+    ],
+    "preflight": {
+      "vault_head": "d986fa324532b6a654bb1e79ce64f9e4ef88e010",
+      "music_head": "60f0cf02c089efc7aa28a71e912395ffc35de2c8",
+      "files": [
+        {
+          "path": "scripts/publication_bundle.py",
+          "sha": "83b1567891513afabec7960fb80888eed3e870df",
+          "characters": 11114,
+          "complete": true
+        },
+        {
+          "path": "scripts/publication_recovery.py",
+          "sha": "deda24c3da708841779aa328f2aceb96431a86f2",
+          "characters": 6010,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/state/tracks.json",
+          "sha": "099cb24cfb4444ef6ae02853673e497285211424",
+          "characters": 23076,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/english/2026-10-19.json",
+          "sha": "f99d926eb6fa66503ee53ce4cfb5707bac968580",
+          "characters": 30332,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/english/2026-10-24.json",
+          "sha": "1f1e409afe56d2277b7356d8f2f28fc479db031f",
+          "characters": 21399,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/english/2026-10-20.json",
+          "sha": "3ab418e0b64cdfb3476f7da0a40357291d45424d",
+          "characters": 30309,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/english/2026-10-21.json",
+          "sha": "355efd8a4133e080d1dfa83d2d32d0a56816e464",
+          "characters": 30864,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/english/2026-10-16.json",
+          "sha": "de8a818a65870fe20f6e0bb3f5882e6857d463a7",
+          "characters": 29206,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/PUBLISHING.md",
+          "sha": "cc67ccd8d20b22487f2667848cdda4b3181724c5",
+          "characters": 8923,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/music/2026-10-17.json",
+          "sha": "e18ed86160c99ebbb63a298ed4e282dfc906e7b6",
+          "characters": 46430,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/english/2026-10-25.json",
+          "sha": "cd473cedeebb1d7efb2c36b830125ac0e7075959",
+          "characters": 25024,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/music/2026-10-19.json",
+          "sha": "d0f5b7834666fc09c533f76a0966b16dcc37d35a",
+          "characters": 50357,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/english/2026-10-27.json",
+          "sha": "7a63e99bc6f33433b3fc6b5a39ea6d3477450679",
+          "characters": 33682,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/music/2026-10-23.json",
+          "sha": "043a80cdb5ba05cdb1c922b015340f4ee569dfd5",
+          "characters": 59697,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/english/2026-10-17.json",
+          "sha": "ff55e3144a1f2d6a2c47f86224615af47d87c176",
+          "characters": 20620,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/music/2026-10-26.json",
+          "sha": "4c59c9066479396641deec8df10e5684725443b4",
+          "characters": 64505,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/music/2026-10-25.json",
+          "sha": "6b982ed98f76103bbb67548deaf786718cf8d142",
+          "characters": 62482,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/policy.json",
+          "sha": "cf9d1b486e07ca1efe965cf6af6f0ea422497670",
+          "characters": 4261,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/music/2026-10-21.json",
+          "sha": "9fd9fd77b01d7eaff0cd0f08e08954bf1bd270e2",
+          "characters": 52829,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/english/2026-10-29.json",
+          "sha": "56fa812386aeb60c124904122a667558d1d4b9eb",
+          "characters": 33048,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/music/2026-10-18.json",
+          "sha": "51fc259bdef430dd6018adbc8595e75c7e43279b",
+          "characters": 49567,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/english/2026-10-18.json",
+          "sha": "f7826754339e5156abe1a08f8e2aafee386488e2",
+          "characters": 23066,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/english/2026-10-22.json",
+          "sha": "6c51912005695b8f7eb98380ad779c32636a5606",
+          "characters": 29060,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/music/2026-10-22.json",
+          "sha": "9ac12b8012bf7fa243028e5bf75bd2132c084364",
+          "characters": 57568,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/music/2026-10-28.json",
+          "sha": "1e2ee015f3fe4295946565cb025b42997e6cb8b3",
+          "characters": 65683,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/music/2026-10-24.json",
+          "sha": "4050174b711bc0e6430a854fef529ee7d9ef3904",
+          "characters": 59647,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/news-youtube-reddit/2026-10-23.json",
+          "sha": "b9f58f4435882d1e8ea46b1785515e6f797ae37f",
+          "characters": 116274,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/music/2026-10-16.json",
+          "sha": "bf759b0b0d935bb32da75ac53636e123fcb0cb63",
+          "characters": 43998,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/english/2026-10-23.json",
+          "sha": "af6ef12ff9dd9af7b78d4901921dad51db7c3b46",
+          "characters": 30791,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/news-youtube-reddit/2026-10-19.json",
+          "sha": "a6fe9454c1570e4415b7b81478fc7260ca616445",
+          "characters": 93710,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/news-youtube-reddit/2026-10-20.json",
+          "sha": "0b0a2ca068d82a39eb49a3f8541faac49c728fed",
+          "characters": 99101,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/news-youtube-reddit/2026-10-17.json",
+          "sha": "fb863cb8a946d67a3cfd9ed71f87c5d8907102a7",
+          "characters": 84009,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/news-youtube-reddit/2026-10-16.json",
+          "sha": "9efef6111091c4caeb3f2ca5c8fcfafa6130907c",
+          "characters": 75823,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/news-youtube-reddit/2026-10-18.json",
+          "sha": "70b484270baba4f2ac88e736105f9eda87a45ec1",
+          "characters": 87253,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/news-youtube-reddit/2026-10-22.json",
+          "sha": "2d6f73ec8318c1a8fd2234ed36780fdf9ff9b281",
+          "characters": 109840,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/news-youtube-reddit/2026-10-25.json",
+          "sha": "9581cd0510587b084ab0941a8d13b08d57950494",
+          "characters": 125614,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/music/2026-10-27.json",
+          "sha": "27b4eaa2ec25f2afbe6d8c936062b3c9e46e1432",
+          "characters": 65244,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-06.json",
+          "sha": "cbe1822dfb00e97d8f4aa537dbfd1f52f48dcccf",
+          "characters": 2603,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-04.json",
+          "sha": "c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+          "characters": 2163,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/news-youtube-reddit/2026-10-21.json",
+          "sha": "45f6a1e67ca3dabf31ddcf75d64fe34b403f1798",
+          "characters": 104569,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/music/2026-10-20.json",
+          "sha": "d47f0ead0e6ca783d031390bd51fff936b772ab9",
+          "characters": 51998,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-13.json",
+          "sha": "b576357c8a83b6e618ce52984d43efb9ccd1e0fa",
+          "characters": 3094,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-10.json",
+          "sha": "6981929543fd31c36649815397d89b2bf1632551",
+          "characters": 2331,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-16.json",
+          "sha": "7a672e648529aa290ace44f78f43f217d29e5b0d",
+          "characters": 3409,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/news-youtube-reddit/2026-10-26.json",
+          "sha": "eb2a26e94acc29fca88ba360d5cf9ff2c7228405",
+          "characters": 132669,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/news-youtube-reddit/2026-10-29.json",
+          "sha": "cb44a60f1922e8f39a19624ace62f2e8c8123ee4",
+          "characters": 143045,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-15.json",
+          "sha": "e348cea20ac3b39edfad8d26cd2de5b49d4724c6",
+          "characters": 3461,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/english/2026-10-26.json",
+          "sha": "0704af676c0ca422535d93393b49110f0873154d",
+          "characters": 32777,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-08.json",
+          "sha": "1aff7797664028e9729b0b42925909206fbdef2e",
+          "characters": 2437,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-14.json",
+          "sha": "a7e1729f60debf70fd3c922c83508286868bb83a",
+          "characters": 3283,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/english/2026-10-28.json",
+          "sha": "3f6cb7f33f3b44b29fabd6d09a3f979d8afcb4a1",
+          "characters": 33411,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-22.json",
+          "sha": "08788b30503a3d320b0343f015c213050b43cb21",
+          "characters": 3531,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-17.json",
+          "sha": "b62ae078472ac906c381bf246a59818507688f72",
+          "characters": 3536,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-25.json",
+          "sha": "03f0f440b402f65da5fbd32943b70ac631e885ff",
+          "characters": 3029,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-11.json",
+          "sha": "66b29d99e17bc6da20987d9accd71e57851aa9fa",
+          "characters": 2527,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/news-youtube-reddit/2026-10-24.json",
+          "sha": "c80afd516ef78ad8f2d491be012bdbe355efb36f",
+          "characters": 121526,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-12.json",
+          "sha": "9e852ec43b70c9612f836c60eb55f8d44164dadc",
+          "characters": 2909,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-24.json",
+          "sha": "6bb9b98980a1f6dc7883d45cf2a4744879ea40c7",
+          "characters": 3931,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-26.json",
+          "sha": "2a6e8cacaec306279f64685e6f4ddd3ddcaedb11",
+          "characters": 3648,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-28.json",
+          "sha": "a40e31e20b92f129bf2b21f1073e3a69b120e33b",
+          "characters": 3734,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-07.json",
+          "sha": "43c49954065383de75f28c4bfd239b7473f1c324",
+          "characters": 2859,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-01.json",
+          "sha": "08c0655ae1e1a430b803cedfaee28265d9bca7c4",
+          "characters": 2899,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-19.json",
+          "sha": "2d2999277022bc329e15ce43477453edc5e8fc21",
+          "characters": 3520,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-23.json",
+          "sha": "07a2dddee1f9d38067afced0d678e4c578197d64",
+          "characters": 3665,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-18.json",
+          "sha": "e2ad0074519697a2f402427996a212b3831f8290",
+          "characters": 3203,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-05.json",
+          "sha": "bd8e8944afd975565557ac3a88f1ac3b8e16a8f7",
+          "characters": 3283,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-21.json",
+          "sha": "125ab7faf9a2fd4c08812b1bffc57686f65a1e4d",
+          "characters": 3639,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-11.json",
+          "sha": "3da7d2fcf2f9f1417a32ad0e313118646cdc04ea",
+          "characters": 4119,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-04.json",
+          "sha": "e21086438c1609a5c65e4dfad5eb17efa390197c",
+          "characters": 3054,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-09.json",
+          "sha": "76dff8dedee8c861d72f158e73de4afb106f8d42",
+          "characters": 4368,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/news-youtube-reddit/2026-10-27.json",
+          "sha": "b7ddebd31ef74807cb67a41a6c9a60935014eadc",
+          "characters": 137927,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/music/2026-10-15.json",
+          "sha": "23aaa2338fecaef704624b62f2935caf93d4a4da",
+          "characters": 44408,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-30.json",
+          "sha": "4e2ed9d2f5a7f7a4f8df41a4d4407b6429c8695f",
+          "characters": 3220,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-17.json",
+          "sha": "28d482f6649e2b6cb3d67817ed0ecbfbf18e0a65",
+          "characters": 3032,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-08.json",
+          "sha": "2e8c9efd842d7d12ec5e76582d3098b2904de3f7",
+          "characters": 3783,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-03.json",
+          "sha": "c0d1ba2c8088bee2b9bfe73c0491112db013d040",
+          "characters": 3534,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-12.json",
+          "sha": "35f974e89bd209addcfef98ba16f5b7bc5e0ace3",
+          "characters": 4284,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-16.json",
+          "sha": "08a0e041348374b67cc59fe08080364ce92b4973",
+          "characters": 2852,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-09.json",
+          "sha": "5b883498386208ef9809ec552e12bd30e5ae0510",
+          "characters": 2758,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-18.json",
+          "sha": "ecbdb7dbd5007784bdfb7eee4a9c3cc7706aa054",
+          "characters": 3465,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-20.json",
+          "sha": "3cb0f6c54d5a27fa00adc0a0f5031c119fc69563",
+          "characters": 3138,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-25.json",
+          "sha": "612db9ac80c1b59f2cfdb35e6afd6c801f7d6894",
+          "characters": 4523,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-06.json",
+          "sha": "1edfce17fd8094efd866e294b8cac1cf02f5e72d",
+          "characters": 2540,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/english/2026-10-15.json",
+          "sha": "27ec70439a351f3bce6cf132707575a179bbd76d",
+          "characters": 27433,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-29.json",
+          "sha": "05ac05fdddcc456cd6103fb8854a5e77d8882dfe",
+          "characters": 3925,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-07.json",
+          "sha": "ed9f6ab90943f1a35219cc8b41017559955aec86",
+          "characters": 3729,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-23.json",
+          "sha": "ccd649a467320f7caa9e7dfb45cb5046677e9f81",
+          "characters": 4678,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-26.json",
+          "sha": "0b3edb0e598e9c51c7eab9b712033708bbb622ba",
+          "characters": 4600,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-02.json",
+          "sha": "977590adad74f3530dc571b9578648372d99b460",
+          "characters": 3307,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-28.json",
+          "sha": "5d471f096b853aa5b11fb921a147c94da89bc27c",
+          "characters": 3896,
+          "complete": true
+        },
+        {
+          "path": "scripts/test_daily_integrity.py",
+          "sha": "da742f5bea65bbba1166d01c75f0c9af16bbe9ac",
+          "characters": 11862,
+          "complete": true
+        },
+        {
+          "path": "scripts/test_remote_music_snapshot.py",
+          "sha": "77993a5429bdd2b3eac9e5c158c6091838163cb7",
+          "characters": 3449,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/2026-10-21.md",
+          "sha": "41c24039412d3f2a20f61ccbcd773ec28dcb7ad8",
+          "characters": 3953,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-21.json",
+          "sha": "91677ae6a1c440bedb3ba1e5fb20753f52b797db",
+          "characters": 2996,
+          "complete": true
+        },
+        {
+          "path": "scripts/check_remote_music_snapshot.py",
+          "sha": "00410cd856b3ec02a0da743dddbb1d427192bb78",
+          "characters": 6053,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-05.json",
+          "sha": "425068f9d2850f6174758c01adee37d25f3bb336",
+          "characters": 2175,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/2026-10-22.md",
+          "sha": "fe12152690b1f625777122c7aa3aac3e6f156d37",
+          "characters": 4153,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-15.json",
+          "sha": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26",
+          "characters": 3996,
+          "complete": true
+        },
+        {
+          "path": "scripts/check_daily_integrity.py",
+          "sha": "ee55e6addd709f84ac35962c3eb94873e2409195",
+          "characters": 7651,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/2026-10-25.md",
+          "sha": "5ee1107892dde6199db71a9f23bae30156b3b35c",
+          "characters": 4237,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-09-20.json",
+          "sha": "03cf1cc76eebfd74b0342fb74a8c1e616942c737",
+          "characters": 3682,
+          "complete": true
+        },
+        {
+          "path": "scripts/validate_daily_recommendations.py",
+          "sha": "02b2a0af8739b956f5913a4b8633b17baf512144",
+          "characters": 13797,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/2026-10-27.md",
+          "sha": "6dcee63a165a432f51c2726dd9f14f78b8745497",
+          "characters": 4070,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-27.json",
+          "sha": "f5d258201e8314123f25868c21406fd00f1f06ae",
+          "characters": 4317,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-19.json",
+          "sha": "250f0308b004cf080611a943c55d896f47b6cab8",
+          "characters": 3186,
+          "complete": true
+        },
+        {
+          "path": "scripts/test_publication_bundle.py",
+          "sha": "64a0b8a82cff48569146d5caceb4794df90e7792",
+          "characters": 6448,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/2026-10-26.md",
+          "sha": "90819b445173355b7618559d23df261fc87716d0",
+          "characters": 4374,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/2026-10-23.md",
+          "sha": "165cf67b936a72eedc55996c645e805ae7a98b0a",
+          "characters": 4271,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/2026-10-24.md",
+          "sha": "3423e7b8b9c5b7dd83425132cbba31fedc2d0d26",
+          "characters": 3844,
+          "complete": true
+        },
+        {
+          "path": "scripts/test_publication_recovery.py",
+          "sha": "872e7692ad023480eddc0e822214174b2bbb3b33",
+          "characters": 4102,
+          "complete": true
+        },
+        {
+          "path": "scripts/test_daily_validator.py",
+          "sha": "515e56de8514795c479b7a871a4e6ee40f6c1dd7",
+          "characters": 4688,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-24.json",
+          "sha": "dedcb8a16ec3de4da60179d16f0552ca79ac7046",
+          "characters": 4137,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/manifests/2026-10-22.json",
+          "sha": "1c2c2b36491baf68396d30660ce3a3885e4c32c9",
+          "characters": 4515,
+          "complete": true
+        },
+        {
+          "path": ".recommendation/transactions/news-youtube-reddit/2026-10-15.json",
+          "sha": "c57c31dff9e3030d837b9f624046e20d83254f2d",
+          "characters": 71527,
+          "complete": true
+        },
+        {
+          "path": "Music/Daily/2026-10-28.md",
+          "sha": "3e8eb0f6d158dc1bc0232a71e3485ce02a3e6504",
+          "characters": 3761,
+          "complete": true
+        }
+      ],
+      "music_files": [
+        {
+          "path": "recommendations/2026/09/2026-09-06.json",
+          "sha": "cbe1822dfb00e97d8f4aa537dbfd1f52f48dcccf",
+          "characters": 2603,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-15.json",
+          "sha": "e348cea20ac3b39edfad8d26cd2de5b49d4724c6",
+          "characters": 3461,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-16.json",
+          "sha": "7a672e648529aa290ace44f78f43f217d29e5b0d",
+          "characters": 3409,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-14.json",
+          "sha": "a7e1729f60debf70fd3c922c83508286868bb83a",
+          "characters": 3283,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-19.json",
+          "sha": "2d2999277022bc329e15ce43477453edc5e8fc21",
+          "characters": 3520,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-10.json",
+          "sha": "6981929543fd31c36649815397d89b2bf1632551",
+          "characters": 2331,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-13.json",
+          "sha": "b576357c8a83b6e618ce52984d43efb9ccd1e0fa",
+          "characters": 3094,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-08.json",
+          "sha": "1aff7797664028e9729b0b42925909206fbdef2e",
+          "characters": 2437,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-05.json",
+          "sha": "425068f9d2850f6174758c01adee37d25f3bb336",
+          "characters": 2175,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-17.json",
+          "sha": "b62ae078472ac906c381bf246a59818507688f72",
+          "characters": 3536,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-28.json",
+          "sha": "a40e31e20b92f129bf2b21f1073e3a69b120e33b",
+          "characters": 3734,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-25.json",
+          "sha": "03f0f440b402f65da5fbd32943b70ac631e885ff",
+          "characters": 3029,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-20.json",
+          "sha": "03cf1cc76eebfd74b0342fb74a8c1e616942c737",
+          "characters": 3682,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-04.json",
+          "sha": "c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+          "characters": 2163,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-21.json",
+          "sha": "125ab7faf9a2fd4c08812b1bffc57686f65a1e4d",
+          "characters": 3639,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-29.json",
+          "sha": "05ac05fdddcc456cd6103fb8854a5e77d8882dfe",
+          "characters": 3925,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-01.json",
+          "sha": "08c0655ae1e1a430b803cedfaee28265d9bca7c4",
+          "characters": 2899,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-30.json",
+          "sha": "4e2ed9d2f5a7f7a4f8df41a4d4407b6429c8695f",
+          "characters": 3220,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-24.json",
+          "sha": "6bb9b98980a1f6dc7883d45cf2a4744879ea40c7",
+          "characters": 3931,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-07.json",
+          "sha": "43c49954065383de75f28c4bfd239b7473f1c324",
+          "characters": 2859,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-02.json",
+          "sha": "977590adad74f3530dc571b9578648372d99b460",
+          "characters": 3307,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-22.json",
+          "sha": "08788b30503a3d320b0343f015c213050b43cb21",
+          "characters": 3531,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-09.json",
+          "sha": "5b883498386208ef9809ec552e12bd30e5ae0510",
+          "characters": 2758,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-18.json",
+          "sha": "e2ad0074519697a2f402427996a212b3831f8290",
+          "characters": 3203,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-05.json",
+          "sha": "bd8e8944afd975565557ac3a88f1ac3b8e16a8f7",
+          "characters": 3283,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-18.json",
+          "sha": "ecbdb7dbd5007784bdfb7eee4a9c3cc7706aa054",
+          "characters": 3465,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-06.json",
+          "sha": "1edfce17fd8094efd866e294b8cac1cf02f5e72d",
+          "characters": 2540,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-12.json",
+          "sha": "9e852ec43b70c9612f836c60eb55f8d44164dadc",
+          "characters": 2909,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-09.json",
+          "sha": "76dff8dedee8c861d72f158e73de4afb106f8d42",
+          "characters": 4368,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-07.json",
+          "sha": "ed9f6ab90943f1a35219cc8b41017559955aec86",
+          "characters": 3729,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-25.json",
+          "sha": "612db9ac80c1b59f2cfdb35e6afd6c801f7d6894",
+          "characters": 4523,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-24.json",
+          "sha": "dedcb8a16ec3de4da60179d16f0552ca79ac7046",
+          "characters": 4137,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-20.json",
+          "sha": "3cb0f6c54d5a27fa00adc0a0f5031c119fc69563",
+          "characters": 3138,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-15.json",
+          "sha": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26",
+          "characters": 3996,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-23.json",
+          "sha": "07a2dddee1f9d38067afced0d678e4c578197d64",
+          "characters": 3665,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-03.json",
+          "sha": "c0d1ba2c8088bee2b9bfe73c0491112db013d040",
+          "characters": 3534,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-23.json",
+          "sha": "ccd649a467320f7caa9e7dfb45cb5046677e9f81",
+          "characters": 4678,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-17.json",
+          "sha": "28d482f6649e2b6cb3d67817ed0ecbfbf18e0a65",
+          "characters": 3032,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-16.json",
+          "sha": "08a0e041348374b67cc59fe08080364ce92b4973",
+          "characters": 2852,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-19.json",
+          "sha": "250f0308b004cf080611a943c55d896f47b6cab8",
+          "characters": 3186,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-28.json",
+          "sha": "5d471f096b853aa5b11fb921a147c94da89bc27c",
+          "characters": 3896,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-08.json",
+          "sha": "2e8c9efd842d7d12ec5e76582d3098b2904de3f7",
+          "characters": 3783,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-04.json",
+          "sha": "e21086438c1609a5c65e4dfad5eb17efa390197c",
+          "characters": 3054,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-22.json",
+          "sha": "1c2c2b36491baf68396d30660ce3a3885e4c32c9",
+          "characters": 4515,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-12.json",
+          "sha": "35f974e89bd209addcfef98ba16f5b7bc5e0ace3",
+          "characters": 4284,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-27.json",
+          "sha": "f5d258201e8314123f25868c21406fd00f1f06ae",
+          "characters": 4317,
+          "complete": true
+        },
+        {
+          "path": "state/tracks.json",
+          "sha": "099cb24cfb4444ef6ae02853673e497285211424",
+          "characters": 23076,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-21.json",
+          "sha": "91677ae6a1c440bedb3ba1e5fb20753f52b797db",
+          "characters": 2996,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-26.json",
+          "sha": "0b3edb0e598e9c51c7eab9b712033708bbb622ba",
+          "characters": 4600,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-26.json",
+          "sha": "2a6e8cacaec306279f64685e6f4ddd3ddcaedb11",
+          "characters": 3648,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/10/2026-10-11.json",
+          "sha": "3da7d2fcf2f9f1417a32ad0e313118646cdc04ea",
+          "characters": 4119,
+          "complete": true
+        },
+        {
+          "path": "recommendations/2026/09/2026-09-11.json",
+          "sha": "66b29d99e17bc6da20987d9accd71e57851aa9fa",
+          "characters": 2527,
+          "complete": true
+        }
+      ]
+    },
+    "original_bundle_digest": "ec8c56fdedb4b12837ed024a1a5da58f1cc8f0ce8e0b045fc4d8215201d57be7",
+    "original_state_count": 263
+  },
+  "errors": [],
+  "at": "2026-10-29 01:34:40 UTC"
+}
