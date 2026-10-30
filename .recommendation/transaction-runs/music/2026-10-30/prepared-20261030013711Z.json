@@ -1,0 +1,519 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-10-30",
+  "attempt_id": "prepared-20261030013711Z",
+  "prepared": {
+    "path": ".recommendation/transactions/music/2026-10-30.json",
+    "blob_sha": "bda35c59e36eafeb14b4e7017b7e9ee84541c89a",
+    "creation_commit": "9691d5eec2e0f6b4408b784c30598c5e2e327e04",
+    "bundle_sha256": "97259e87d54168e4eb9c6c85352445655958dced32410379251087399d11db5f",
+    "plan_sha256": "6c7f0e92a44ccbc84b819fd41f66315bca8b6ddda855a186c88ac6db266c4e7a",
+    "readback": "exact_utf8_equal"
+  },
+  "selection_evidence": {
+    "candidate_count": 15,
+    "candidate_pool": [
+      {
+        "title": "Save Me",
+        "artist": "Aimee Mann",
+        "song_id": "331242248",
+        "observed_url": "https://music.apple.com/cn/song/331242248",
+        "discovery_source_ref": "turn498search1",
+        "score_components": {
+          "quality": 9,
+          "usefulness": 9,
+          "curiosity": 8,
+          "novelty": 9,
+          "fit": 8
+        },
+        "weighted_score": 8.7,
+        "decision": "selected",
+        "reason": "克制的吉他唱作，为整组提供清楚的旋律入口。",
+        "score_scope": "editorial assessment from observed identity/catalog information and musical knowledge; not claimed as a new full-track playback",
+        "discovery_observation": "‎Save Me - Song with Lyrics by Aimee Mann - Apple Music (https://music.apple.com/us/song/331242248)\n【turn498search1】 [wordlim: 200] Published: 26.9 years ago; Crawled: last month; Image: Save Me song by Aimee Mann ... Magnolia (Music from the Motion Picture) Aimee Mann December 7, 1999\n\nImage\n\nImage: Save Me song by Aimee Mann\n\n# Save Me\n\nMagnolia (Music from the Motion Picture) Aimee Mann December 7, 1999\n\nPreview",
+        "discovery_url": "https://music.apple.com/us/song/331242248"
+      },
+      {
+        "title": "Riverside",
+        "artist": "Agnes Obel",
+        "song_id": "390881586",
+        "observed_url": "https://music.apple.com/cn/song/390881586",
+        "discovery_source_ref": "turn511search0",
+        "score_components": {
+          "quality": 9,
+          "usefulness": 9,
+          "curiosity": 9,
+          "novelty": 9,
+          "fit": 8
+        },
+        "weighted_score": 8.9,
+        "decision": "selected",
+        "reason": "钢琴余响与叠录人声，对照开场的清楚句法。",
+        "score_scope": "editorial assessment from observed identity/catalog information and musical knowledge; not claimed as a new full-track playback",
+        "discovery_observation": "‎Riverside - Song with Lyrics by Agnes Obel - Apple Music (https://music.apple.com/us/song/390881586)\n【turn511search0】 [wordlim: 200] Published: 16.4 years ago; Crawled: last month; Image: Riverside song by Agnes Obel\n\nImage\n\nImage: Riverside song by Agnes Obel\n\n# Riverside\n\nPhilharmonics Agnes Obel May 30, 2010\n\nPreview",
+        "discovery_url": "https://music.apple.com/us/song/390881586"
+      },
+      {
+        "title": "Red Eyes",
+        "artist": "The War on Drugs",
+        "song_id": "765568670",
+        "observed_url": "https://music.apple.com/cn/song/765568670",
+        "discovery_source_ref": "turn495search1",
+        "score_components": {
+          "quality": 9,
+          "usefulness": 9,
+          "curiosity": 9,
+          "novelty": 9,
+          "fit": 8
+        },
+        "weighted_score": 8.9,
+        "decision": "selected",
+        "reason": "宽阔摇滚声场与稳定脉搏，作为能量转折。",
+        "score_scope": "editorial assessment from observed identity/catalog information and musical knowledge; not claimed as a new full-track playback",
+        "discovery_observation": "‎Red Eyes - Song with Lyrics by The War on Drugs - Apple Music (https://music.apple.com/us/song/765568670)\n【turn495search1】 [wordlim: 200] Published: 12.9 years ago; Crawled: last month; Image: Red Eyes song by The War on Drugs ... ## Music Videos\n\nImage: Red Eyes song by The War on Drugs\n\n# Red Eyes\n\nLost In the Dream The War on Drugs December 4, 2013\n\n## Music Videos\n\n  * Red Eyes\n\nThe War on Drugs",
+        "discovery_url": "https://music.apple.com/us/song/765568670"
+      },
+      {
+        "title": "Hopopono",
+        "artist": "GoGo Penguin",
+        "song_id": "1579119136",
+        "observed_url": "https://music.apple.com/cn/song/1579119136",
+        "discovery_source_ref": "turn496search0",
+        "score_components": {
+          "quality": 9,
+          "usefulness": 9,
+          "curiosity": 9,
+          "novelty": 9,
+          "fit": 8
+        },
+        "weighted_score": 8.9,
+        "decision": "selected",
+        "reason": "原声三重奏中的循环与重音交错，提供器乐维度。",
+        "score_scope": "editorial assessment from observed identity/catalog information and musical knowledge; not claimed as a new full-track playback",
+        "discovery_observation": "‎Hopopono - Song by GoGo Penguin - Apple Music (https://music.apple.com/us/song/1579119136)\n【turn496search0】 [wordlim: 200] Published: 12.6 years ago; Crawled: last month; Image: Hopopono song by GoGo Penguin\n\nImage: Hopopono song by GoGo Penguin\n\n# Hopopono\n\nv2.0 (Deluxe Edition) GoGo Penguin March 14, 2014\n\nPreview\n\n## More By GoGo Penguin\n\n  * Image: GoGo Penguin\n\nGoGo Penguin\n\nGoGo Penguin\n\n  * Image: Man Made Object (Deluxe)\n\nMan Made Object (Deluxe)\n\nMan Made Object (Deluxe)\n\n  * Image: v2.0 (Deluxe Edition)\n\nv2.0 (Deluxe Edition)",
+        "discovery_url": "https://music.apple.com/us/song/1579119136"
+      },
+      {
+        "title": "Cariño",
+        "artist": "Susana Baca",
+        "song_id": "1654259937",
+        "observed_url": "https://music.apple.com/cn/song/1654259937",
+        "discovery_source_ref": "turn518search0",
+        "score_components": {
+          "quality": 9,
+          "usefulness": 8,
+          "curiosity": 9,
+          "novelty": 10,
+          "fit": 7
+        },
+        "weighted_score": 8.7,
+        "decision": "selected",
+        "reason": "西班牙语、非裔秘鲁声乐与节奏语气，是真正扩展而非地域标签。",
+        "score_scope": "editorial assessment from observed identity/catalog information and musical knowledge; not claimed as a new full-track playback",
+        "discovery_observation": "‎Cariño - 由Susana Baca演唱 - Apple Music (https://music.apple.com/cn/song/1654259937)\n【turn518search0】 [wordlim: 200] Published: 5.1 years ago; Crawled: 5 months ago; Image: Cariño，由Susana Baca演唱\n\n在“音乐”中打开\n\nImage\n\nImage: Cariño，由Susana Baca演唱\n\n# Cariño\n\nPalabras Urgentes Susana Baca 2021年10月8日\n\n试听",
+        "discovery_url": "https://music.apple.com/cn/song/1654259937"
+      },
+      {
+        "title": "把悲傷留給自己",
+        "artist": "Bobby Chen",
+        "song_id": "1073045891",
+        "observed_url": "https://music.apple.com/us/song/1073045891",
+        "discovery_source_ref": "turn497search3",
+        "score_components": {
+          "quality": 8,
+          "usefulness": 8,
+          "curiosity": 7,
+          "novelty": 9,
+          "fit": 8
+        },
+        "weighted_score": 7.95,
+        "decision": "rejected",
+        "reason": "意向国区同ID资源实际显示未找到页面；不换入翻唱。",
+        "score_scope": "editorial assessment from observed identity/catalog information and musical knowledge; not claimed as a new full-track playback",
+        "discovery_observation": "‎把悲傷留給自己 - Song by Bobby Chen - Apple Music (https://music.apple.com/us/song/1073045891)\n【turn497search3】 [wordlim: 200] Published: 35.2 years ago; Crawled: last month; Image: 把悲傷留給自己 song by Bobby Chen\n\nImage\n\nImage: 把悲傷留給自己 song by Bobby Chen\n\n# 把悲傷留給自己\n\n滾石香港黃金十年 - 陳昇精選 Bobby Chen August 14, 1991\n\nPreview\n\n## More By Bobby Chen\n\n  * Image: 滾石香港黃金十年 - 陳昇精選\n\n滾石香港黃金十年 - 陳昇精選\n\n滾石香港黃金十年 - 陳昇精選\n\n  * Image: 歸鄉\n\n歸鄉\n\n歸鄉\n\n  * Image: Still Crazy After All These Years\n\nStill Crazy After All These Years\n\nStill Crazy After All These Years\n\n  * Image: Greatest Hits of Bobby Chen: 1994-1998\n\nGreatest Hits of Bobby Chen: 1994-1998\n\nGreatest Hits of Bobby Chen: 1994-1998\n\n  * Image: 麗春\n\n麗春\n\n麗春\n\n  * Image: 流",
+        "discovery_url": "https://music.apple.com/us/song/1073045891"
+      },
+      {
+        "title": "Maria Lando",
+        "artist": "Susana Baca",
+        "song_id": "733098546",
+        "observed_url": "https://music.apple.com/fr/song/733098546",
+        "discovery_source_ref": "turn499search8",
+        "score_components": {
+          "quality": 9,
+          "usefulness": 8,
+          "curiosity": 9,
+          "novelty": 10,
+          "fit": 7
+        },
+        "weighted_score": 8.7,
+        "decision": "rejected",
+        "reason": "该国区ID实际未找到页面；选另一独立作品Cariño，非偷换版本。",
+        "score_scope": "editorial assessment from observed identity/catalog information and musical knowledge; not claimed as a new full-track playback",
+        "discovery_observation": "‎Maria Lando - Morceau par Susana Baca - Apple Music (https://music.apple.com/fr/song/733098546)\n【turn499search8】 [wordlim: 200] Published: 37.4 years ago; Crawled: 4 months ago; # Maria Lando ... Totó la Mamposiana, Susana Baca & Maria Rita] - Single\n\n# Maria Lando\n\nAfro-Peruvian Classics: The Soul of Black Peru Susana Baca 8 juin 1989\n\nExtrait\n\n## Plus de : Susana Baca\n\n  * Image: Palabras Urgentes\n\nPalabras Urgentes\n\nPalabras Urgentes\n\n  * Image: Afrodiaspora\n\nAfrodiaspora\n\nAfrodiaspora\n\n  * Image: Eco De Sombras\n\nEco De Sombras\n\nEco De Sombras\n\n  * Image: Susana Baca\n\nSusana Baca\n\nSusana Baca\n\n  * Image: Latinoamérica (Remix) [feat. Totó la Mamposiana, Susana Baca & Maria Rita] - Single\n",
+        "discovery_url": "https://music.apple.com/fr/song/733098546"
+      },
+      {
+        "title": "Cold Little Heart",
+        "artist": "Michael Kiwanuka",
+        "song_id": "1440832486",
+        "observed_url": "https://music.apple.com/us/song/1440832486",
+        "discovery_source_ref": "turn508search1",
+        "score_components": {
+          "quality": 9,
+          "usefulness": 8,
+          "curiosity": 8,
+          "novelty": 9,
+          "fit": 8
+        },
+        "weighted_score": 8.45,
+        "decision": "not_selected_unverified_cn",
+        "reason": "长篇灵魂摇滚可取，但本组已有宽阔累积结构；未完成国区最终核验。",
+        "score_scope": "editorial assessment from observed identity/catalog information and musical knowledge; not claimed as a new full-track playback",
+        "discovery_observation": "‎Cold Little Heart - Song by Michael Kiwanuka - Apple Music (https://music.apple.com/us/song/1440832486)\n【turn508search1】 [wordlim: 200] Published: 10.3 years ago; Crawled: last month; Image: Cold Little Heart song by Michael Kiwanuka\n\nOpen in Music\n\nImage\n\nImage: Cold Little Heart song by Michael Kiwanuka\n\n# Cold Little Heart\n\nLove & Hate Michael Kiwanuka July 8, 2016\n\nPreview\n\n## Music Videos\n\n  * Image\n\nCold Little Heart\n\nMichael Kiwanuka\n\n## More By Michael Kiwanuka\n\n  * Image: Cold Little Heart (Radio Edit) - Single\n\nCold Little Heart (Radio Edit) - Single\n\nCold Little Heart (Radio Edit) - Single\n\n  * Image: Cold Little Heart (Acoustic) - Single\n\nCold Little Heart (Acoustic) - Single",
+        "discovery_url": "https://music.apple.com/us/song/1440832486"
+      },
+      {
+        "title": "Abusey Junction",
+        "artist": "Kokoroko",
+        "song_id": "1561234534",
+        "observed_url": "https://music.apple.com/us/song/1561234534",
+        "discovery_source_ref": "turn509search0",
+        "score_components": {
+          "quality": 9,
+          "usefulness": 8,
+          "curiosity": 9,
+          "novelty": 9,
+          "fit": 8
+        },
+        "weighted_score": 8.65,
+        "decision": "not_selected_unverified_cn",
+        "reason": "舒展合奏是可用方向；今天器乐位优先节奏对照更鲜明的三重奏。",
+        "score_scope": "editorial assessment from observed identity/catalog information and musical knowledge; not claimed as a new full-track playback",
+        "discovery_observation": "‎Abusey Junction - Song by Kokoroko - Apple Music (https://music.apple.com/us/song/1561234534)\n【turn509search0】 [wordlim: 200] Published: 7.8 years ago; Crawled: last month; Open in Music ... Image: Abusey Junction song by Kokoroko\n\nOpen in Music\n\nImage\n\nImage: Abusey Junction song by Kokoroko\n\n# Abusey Junction\n\nKOKOROKO - EP Kokoroko January 7, 2019\n\nPreview",
+        "discovery_url": "https://music.apple.com/us/song/1561234534"
+      },
+      {
+        "title": "Revelator (Live)",
+        "artist": "Gillian Welch",
+        "song_id": "136149142",
+        "observed_url": "https://music.apple.com/us/song/136149142",
+        "discovery_source_ref": "turn510search2",
+        "score_components": {
+          "quality": 9,
+          "usefulness": 8,
+          "curiosity": 8,
+          "novelty": 9,
+          "fit": 8
+        },
+        "weighted_score": 8.45,
+        "decision": "not_selected_unverified_cn",
+        "reason": "明确为现场资源；今天不再增加英语唱作段落，未核验国区。",
+        "score_scope": "editorial assessment from observed identity/catalog information and musical knowledge; not claimed as a new full-track playback",
+        "discovery_observation": "‎Revelator (Live) - Song by Gillian Welch - Apple Music (https://music.apple.com/us/song/136149142)\n【turn510search2】 [wordlim: 200] Published: 24.0 years ago; Crawled: 3 months ago; Image: Revelator (Live) song by Gillian Welch ... Music from the Revelator Collection Gillian Welch November 12, 2002\n\nImage: Revelator (Live) song by Gillian Welch\n\n# Revelator (Live)\n\nMusic from the Revelator Collection Gillian Welch November 12, 2002\n\nPreview",
+        "discovery_url": "https://music.apple.com/us/song/136149142"
+      },
+      {
+        "title": "Everything Is Free",
+        "artist": "Gillian Welch",
+        "song_id": "79765100",
+        "observed_url": "https://music.apple.com/us/song/79765100",
+        "discovery_source_ref": "turn510search3",
+        "score_components": {
+          "quality": 9,
+          "usefulness": 9,
+          "curiosity": 8,
+          "novelty": 9,
+          "fit": 8
+        },
+        "weighted_score": 8.7,
+        "decision": "not_selected_unverified_cn",
+        "reason": "词曲与双人编配值得后续评估；本组唱作比例已足够。",
+        "score_scope": "editorial assessment from observed identity/catalog information and musical knowledge; not claimed as a new full-track playback",
+        "discovery_observation": "‎Everything Is Free - Song with Lyrics by Gillian Welch - Apple Music (https://music.apple.com/us/song/79765100)\n【turn510search3】 [wordlim: 200] Published: 25.3 years ago; Crawled: last month; Time (The Revelator) Gillian Welch July 31, 2001\n\n# Everything Is Free\n\nTime (The Revelator) Gillian Welch July 31, 2001\n\n\n## Lyrics\n\nEverything is free now\n\nThat's what they say\n\nEverything I ever done\n\nSign in to View Full Lyrics\n\n# Everything Is Free\n\n## Time (The Revelator) · Gillian Welch · July 31, 2001\n\n## Performing Artists\n\n  * Gillian Welch\n\nVocals\n\n## Composition & Lyrics\n\n  * Gillian Welch\n\nSongwriter\n\n  * David Rawlings\n\nSongwriter\n\n## Production & Engineering\n\n  * David Rawlings\n\nProducer",
+        "discovery_url": "https://music.apple.com/us/song/79765100"
+      },
+      {
+        "title": "Jóga",
+        "artist": "Björk",
+        "song_id": "1726654982",
+        "observed_url": "https://music.apple.com/us/song/1726654982",
+        "discovery_source_ref": "turn515search0",
+        "score_components": {
+          "quality": 9,
+          "usefulness": 8,
+          "curiosity": 9,
+          "novelty": 9,
+          "fit": 8
+        },
+        "weighted_score": 8.65,
+        "decision": "not_selected_unverified_cn",
+        "reason": "弦乐与电子的候选方向；具体单曲目录未完成国区身份核验。",
+        "score_scope": "editorial assessment from observed identity/catalog information and musical knowledge; not claimed as a new full-track playback",
+        "discovery_observation": "‎Jóga - Song by Björk - Apple Music (https://music.apple.com/us/song/1726654982)\n【turn515search0】 [wordlim: 200] Published: 29.1 years ago; Crawled: last month; Image: Jóga song by Björk\n\nImage\n\nImage: Jóga song by Björk\n\n# Jóga\n\nJóga Björk September 15, 1997\n\nPreview",
+        "discovery_url": "https://music.apple.com/us/song/1726654982"
+      },
+      {
+        "title": "Pretty Pimpin",
+        "artist": "Kurt Vile",
+        "song_id": "1586474303",
+        "observed_url": "https://music.apple.com/us/song/1586474303",
+        "discovery_source_ref": "turn516search0",
+        "score_components": {
+          "quality": 8,
+          "usefulness": 8,
+          "curiosity": 8,
+          "novelty": 9,
+          "fit": 8
+        },
+        "weighted_score": 8.15,
+        "decision": "not_selected_unverified_cn",
+        "reason": "吉他唱作与摇滚之间的桥梁，但今天同方向已有两个更鲜明的端点。",
+        "score_scope": "editorial assessment from observed identity/catalog information and musical knowledge; not claimed as a new full-track playback",
+        "discovery_observation": "‎Pretty Pimpin - Song with Lyrics by Kurt Vile - Apple Music (https://music.apple.com/us/song/1586474303)\n【turn516search0】 [wordlim: 200] Published: 11.1 years ago; Crawled: last month; Image: Pretty Pimpin song by Kurt Vile ... ## Music Videos\n\nImage\n\nImage: Pretty Pimpin song by Kurt Vile\n\n# Pretty Pimpin\n\nB'lieve I'm Goin Down... Kurt Vile September 25, 2015\n\nPreview\n\n## Music Videos\n\n  * Image\n\nPretty Pimpin\n\nKurt Vile\n\n## More By Kurt Vile\n\n  * Image: Bottle It In\n\nBottle It In\n\nBottle It In\n\n  * Image: Lotta Sea Lice\n\nLotta Sea Lice\n\nLotta Sea Lice\n\n  * Image: (watch my moves)\n\n(watch my moves)\n\n(watch my moves)\n\n  * Image: Philadelphia's been good to me\n\nPhiladelphia's been good to me",
+        "discovery_url": "https://music.apple.com/us/song/1586474303"
+      },
+      {
+        "title": "Yere Faga (Acoustic)",
+        "artist": "Oumou Sangaré",
+        "song_id": "1510804447",
+        "observed_url": "https://music.apple.com/us/song/1510804447",
+        "discovery_source_ref": "turn517search1",
+        "score_components": {
+          "quality": 9,
+          "usefulness": 8,
+          "curiosity": 9,
+          "novelty": 10,
+          "fit": 7
+        },
+        "weighted_score": 8.7,
+        "decision": "not_selected_unverified_cn",
+        "reason": "版本标明Acoustic；具有拓展潜力，今天扩展位选择西班牙语与秘鲁声乐。",
+        "score_scope": "editorial assessment from observed identity/catalog information and musical knowledge; not claimed as a new full-track playback",
+        "discovery_observation": "‎Yere Faga (Acoustic) - Song with Lyrics by Oumou Sangaré - Apple Music (https://music.apple.com/us/song/1510804447)\n【turn517search1】 [wordlim: 200] Published: 6.4 years ago; Crawled: 3 weeks ago; Image: Yere Faga (Acoustic) song by Oumou Sangaré\n\nImage\n\nImage: Yere Faga (Acoustic) song by Oumou Sangaré\n\n# Yere Faga (Acoustic)\n\nAcoustic Oumou Sangaré June 19, 2020\n\nPreview",
+        "discovery_url": "https://music.apple.com/us/song/1510804447"
+      },
+      {
+        "title": "Stoner Hill",
+        "artist": "Brian Blade & The Fellowship Band",
+        "song_id": "1617016181",
+        "observed_url": "https://music.apple.com/us/song/1617016181",
+        "discovery_source_ref": "turn519search0",
+        "score_components": {
+          "quality": 9,
+          "usefulness": 8,
+          "curiosity": 9,
+          "novelty": 9,
+          "fit": 7
+        },
+        "weighted_score": 8.55,
+        "decision": "not_selected_unverified_cn",
+        "reason": "器乐合奏的候选，今天优先较容易比较循环结构的Hopopono。",
+        "score_scope": "editorial assessment from observed identity/catalog information and musical knowledge; not claimed as a new full-track playback",
+        "discovery_observation": "‎Stoner Hill - Song by Brian Blade & The Fellowship Band - Apple Music (https://music.apple.com/us/song/1617016181)\n【turn519search0】 [wordlim: 200] Published: 18.5 years ago; Crawled: 3 months ago; Image: Stoner Hill song by Brian Blade & The Fellowship Band\n\nImage\n\nImage: Stoner Hill song by Brian Blade & The Fellowship Band\n\n# Stoner Hill\n\nSeason of Changes Brian Blade & The Fellowship Band May 6, 2008\n\nPreview\n\n## More By Brian Blade & The Fellowship Band\n\n  * Image: Landmarks\n\nLandmarks\n\nLandmarks\n\n  * Image: Body and Shadow\n\nBody and Shadow\n\nBody and Shadow\n\n  * Image: Kings Highway\n\nKings Highway\n\nKings Highway",
+        "discovery_url": "https://music.apple.com/us/song/1617016181"
+      }
+    ],
+    "source_verification": [
+      {
+        "song_id": "390881586",
+        "url": "https://music.apple.com/cn/song/riverside/390881586",
+        "title": "Riverside",
+        "artist": "Agnes Obel",
+        "album": "Philharmonics",
+        "displayed_date": "2010年5月30日",
+        "method": "browser_rendered_song_page",
+        "observations": [
+          "heading Riverside",
+          "album link /cn/album/philharmonics/390881579",
+          "artist link /cn/artist/agnes-obel/369610392",
+          "试听 button"
+        ],
+        "storefront": "cn",
+        "verified_fields": [
+          "title",
+          "artist",
+          "album",
+          "numeric_song_id",
+          "cn_resource_path"
+        ],
+        "verification_completed_at_utc": "2026-10-30T01:31:15Z",
+        "observation_interval_utc": [
+          "2026-10-30T01:28:00Z",
+          "2026-10-30T01:31:15Z"
+        ],
+        "playback": "not_tested",
+        "audio_specification": "not_tested"
+      },
+      {
+        "song_id": "765568670",
+        "url": "https://music.apple.com/cn/song/red-eyes/765568670",
+        "title": "Red Eyes",
+        "artist": "The War on Drugs",
+        "album": "Lost In the Dream",
+        "displayed_date": "2013年12月4日",
+        "method": "browser_rendered_song_page",
+        "observations": [
+          "heading Red Eyes",
+          "album link /cn/album/lost-in-the-dream/765568650",
+          "artist link /cn/artist/the-war-on-drugs/282078681",
+          "试听 button"
+        ],
+        "storefront": "cn",
+        "verified_fields": [
+          "title",
+          "artist",
+          "album",
+          "numeric_song_id",
+          "cn_resource_path"
+        ],
+        "verification_completed_at_utc": "2026-10-30T01:31:15Z",
+        "observation_interval_utc": [
+          "2026-10-30T01:28:00Z",
+          "2026-10-30T01:31:15Z"
+        ],
+        "playback": "not_tested",
+        "audio_specification": "not_tested"
+      },
+      {
+        "song_id": "1579119136",
+        "url": "https://music.apple.com/cn/song/hopopono/1579119136",
+        "title": "Hopopono",
+        "artist": "GoGo Penguin",
+        "album": "v2.0 (Deluxe Edition)",
+        "displayed_date": "2014年3月14日",
+        "method": "browser_rendered_song_page",
+        "observations": [
+          "heading Hopopono",
+          "album link /cn/album/v2-0-deluxe-edition/1579118524",
+          "artist link /cn/artist/gogo-penguin/572204168",
+          "试听 button"
+        ],
+        "storefront": "cn",
+        "verified_fields": [
+          "title",
+          "artist",
+          "album",
+          "numeric_song_id",
+          "cn_resource_path"
+        ],
+        "verification_completed_at_utc": "2026-10-30T01:31:15Z",
+        "observation_interval_utc": [
+          "2026-10-30T01:28:00Z",
+          "2026-10-30T01:31:15Z"
+        ],
+        "playback": "not_tested",
+        "audio_specification": "not_tested"
+      },
+      {
+        "song_id": "331242248",
+        "url": "https://music.apple.com/cn/song/save-me/331242248",
+        "title": "Save Me",
+        "artist": "Aimee Mann",
+        "album": "Magnolia (Music from the Motion Picture)",
+        "displayed_date": "1999年12月7日",
+        "method": "direct_song_page_web_open",
+        "source_ref": "turn504view0",
+        "observations": [
+          "L11 title Save Me",
+          "L13 album/artist/date",
+          "L15 试听"
+        ],
+        "storefront": "cn",
+        "verified_fields": [
+          "title",
+          "artist",
+          "album",
+          "numeric_song_id",
+          "cn_resource_path"
+        ],
+        "verification_completed_at_utc": "2026-10-30T01:31:15Z",
+        "observation_interval_utc": [
+          "2026-10-30T01:28:00Z",
+          "2026-10-30T01:31:15Z"
+        ],
+        "playback": "not_tested",
+        "audio_specification": "not_tested"
+      },
+      {
+        "song_id": "1654259937",
+        "url": "https://music.apple.com/cn/song/cari%C3%B1o/1654259937",
+        "title": "Cariño",
+        "artist": "Susana Baca",
+        "album": "Palabras Urgentes",
+        "displayed_date": "2021年10月8日",
+        "method": "direct_song_page_web_open",
+        "source_ref": "turn521view0",
+        "observations": [
+          "L11 title Cariño",
+          "L13 album/artist/date",
+          "L15 试听"
+        ],
+        "storefront": "cn",
+        "verified_fields": [
+          "title",
+          "artist",
+          "album",
+          "numeric_song_id",
+          "cn_resource_path"
+        ],
+        "verification_completed_at_utc": "2026-10-30T01:31:15Z",
+        "observation_interval_utc": [
+          "2026-10-30T01:28:00Z",
+          "2026-10-30T01:31:15Z"
+        ],
+        "playback": "not_tested",
+        "audio_specification": "not_tested"
+      }
+    ],
+    "diversity": {
+      "high_confidence": 2,
+      "adjacent": 2,
+      "wildcard": 1,
+      "wildcard_reason": "Susana Baca: Spanish vocal phrasing and Afro-Peruvian rhythm, distinct from preceding English and instrumental picks",
+      "artist_repeat_recent_7_days": 0,
+      "styles": [
+        "guitar singer-songwriter",
+        "piano chamber pop",
+        "synth-layered guitar rock",
+        "acoustic trio rhythmic cycles",
+        "Afro-Peruvian vocal"
+      ],
+      "catalog_years": [
+        1999,
+        2010,
+        2013,
+        2014,
+        2021
+      ],
+      "languages": [
+        "English",
+        "instrumental",
+        "Spanish"
+      ]
+    },
+    "dedup": {
+      "original_state_entries": 268,
+      "original_manifests": 52,
+      "current_manifest_tracks": 260,
+      "reservation_bundles": 46,
+      "exact_canonical": "passed",
+      "song_id": "passed",
+      "same_recording_semantic": "passed: manual review of complete canonical list and all current manifest metadata; no covers/live/reissues of earlier exposed work selected",
+      "limitations": "No audio fingerprint comparison claimed"
+    },
+    "rejections": {
+      "cn_not_found": [
+        "1073045891",
+        "733098546"
+      ],
+      "unverified_cn_not_eligible_for_publication": 8
+    },
+    "limitations": [
+      "No full-track account playback tested",
+      "No new listening session or audio fingerprint claimed",
+      "No device sync or notifications tested"
+    ]
+  },
+  "checked_at_utc": "2026-10-30 01:37:11 UTC"
+}
