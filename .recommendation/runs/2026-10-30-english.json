@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-10-30",
+  "date": "2026-10-30",
+  "recorded_at_utc": "2026-10-30T00:03:13Z",
+  "prepared": {
+    "path": ".recommendation/transactions/english/2026-10-30.json",
+    "creation_commit": "742c0411591aece34d81169c5b91d639415b5aad",
+    "identity_receipt_commit": "08d454ac64ddd14276fa2863d97c5b47244de721",
+    "blob_sha": "e2e5281d64119a120ba1ff15a17b9714f74a5a36",
+    "plan_sha256": "f8188bc29b140bb63c6ddd2cc3272c4e750d417c465e9e4287fef76d77576f19",
+    "original_bundle_sha256": "83f40c03972ce319309b48fc863c7b57eb07939fb1285e7b4a33e5d3e9989330",
+    "exact_readback": true
+  },
+  "publication": {
+    "commit": "f5c03afd603f462a57b9b5fd16270f4ccae5fa71",
+    "parent": "08d454ac64ddd14276fa2863d97c5b47244de721",
+    "tree": "e633260626e734c77574df39ae03082e5041034a",
+    "strategy": "single ordinary Git data commit",
+    "expected_head": "08d454ac64ddd14276fa2863d97c5b47244de721",
+    "force": false
+  },
+  "readbacks": [
+    {
+      "path": "50-courses/English/Daily/2026-10-30.md",
+      "blob_sha": "e649413005ece0199c220e34909172bfafda5eef",
+      "status": "exact_match"
+    },
+    {
+      "path": "50-courses/English/Translation/2026-10-30.md",
+      "blob_sha": "42b67ff0da872a5cc26444bc46ae4e9c5b57dd68",
+      "status": "exact_match"
+    },
+    {
+      "path": "50-courses/English/Vocabulary/2026-10-30.md",
+      "blob_sha": "583fff4e8e0e582783e517beb080301730a179d4",
+      "status": "exact_match"
+    },
+    {
+      "path": ".recommendation/history/english.jsonl",
+      "blob_sha": "95b54ffc03cea8e862c43a0ed4b9eadeb3f324a5",
+      "status": "exact_match"
+    }
+  ],
+  "errors": [],
+  "status": "passed_current_publication_gates",
+  "selection": {
+    "candidate_pool_count": 10,
+    "candidates": [
+      {
+        "title": "Wild Animals Show Many Different Reactions to People in U.S. National Parks",
+        "url": "https://www.nps.gov/articles/000/psv40n1rr_wild-animals-show-many-different-reactions-to-people-in-u-s-national-parks.htm",
+        "publisher": "U.S. National Park Service",
+        "topic": "animal behavior and study design",
+        "estimated_minutes": "5-8",
+        "verification_scope": "direct official page opened; title, publication date, sample, method, findings, caveats and canonical URL observed",
+        "observed_at": "2026-10-30T00:20:00Z",
+        "scores": {
+          "quality": 9.2,
+          "usefulness": 9.4,
+          "curiosity": 8.7,
+          "novelty": 9.0,
+          "fit": 9.3
+        },
+        "outcome": "selected",
+        "reason": "Concise authentic research brief with a complete method-result-boundary chain; distinct from the previous seven days."
+      },
+      {
+        "title": "A New, Safer Way to Monitor Bear Reproduction",
+        "url": "https://www.nps.gov/articles/000/psv40n1rr_a-new-safer-way-to-monitor-bear-reproduction.htm",
+        "publisher": "U.S. National Park Service",
+        "topic": "remote monitoring and machine learning",
+        "estimated_minutes": "4-6",
+        "verification_scope": "official page opened; title, method, reported model accuracy and conclusion observed",
+        "observed_at": "2026-10-30T00:20:00Z",
+        "outcome": "rejected",
+        "reason": "Strong candidate, but narrower and more technical; the selected article offers more reusable language for heterogeneity and evidence limits."
+      },
+      {
+        "title": "New Study Reveals How Campers Can Become Food Storage Champs",
+        "url": "https://www.nps.gov/articles/000/psv40n1_new-study-reveals-how-campers-can-become-food-storage-champs.htm",
+        "publisher": "U.S. National Park Service",
+        "topic": "behavior change and food storage",
+        "estimated_minutes": "9-12",
+        "verification_scope": "official page opened; title, COM-B framework, treatment/control design and author observed",
+        "observed_at": "2026-10-30T00:20:00Z",
+        "outcome": "rejected",
+        "reason": "High usefulness, but public-service intervention design overlaps with recent English translation themes and is near the top of the time range."
+      },
+      {
+        "title": "What is biodiversity and why does its loss matter?",
+        "url": "https://www.nhm.ac.uk/discover/what-is-biodiversity.html",
+        "publisher": "Natural History Museum",
+        "topic": "biodiversity and ecosystem services",
+        "estimated_minutes": "10-14",
+        "verification_scope": "official page opened; title, author, definitions and major sections observed",
+        "observed_at": "2026-10-30T00:20:00Z",
+        "outcome": "rejected",
+        "reason": "Authoritative but broad; vocabulary is useful, while the argument is less compact for a two-pass Friday lesson."
+      },
+      {
+        "title": "Curious collectors and hoarders of the animal world",
+        "url": "https://www.nhm.ac.uk/discover/collectors-and-hoarders-of-the-animal-world.html",
+        "publisher": "Natural History Museum",
+        "topic": "animal collecting behavior",
+        "estimated_minutes": "12-15",
+        "verification_scope": "official page opened; title and multiple animal examples observed",
+        "observed_at": "2026-10-30T00:20:00Z",
+        "outcome": "rejected",
+        "reason": "Highly engaging but example-dense and close to the upper time limit; collecting also echoes the 2026-10-21 source."
+      },
+      {
+        "title": "Migration: On the Move in Alaska",
+        "url": "https://www.nps.gov/articles/aps-17-1-1.htm",
+        "publisher": "U.S. National Park Service",
+        "topic": "animal migration and ecosystems",
+        "estimated_minutes": "12-15",
+        "verification_scope": "official page opened; exact title, authors and migration examples observed",
+        "observed_at": "2026-10-30T00:20:00Z",
+        "outcome": "rejected",
+        "reason": "Rich and authentic, but its length and taxonomy make it better suited to a weekly rather than a compact daily input."
+      },
+      {
+        "title": "Aquifers and Groundwater",
+        "url": "https://www.usgs.gov/water-science-school/science/aquifers-and-groundwater",
+        "publisher": "U.S. Geological Survey",
+        "topic": "groundwater and geology",
+        "estimated_minutes": "8-12",
+        "verification_scope": "official search result observed with title, publisher and groundwater/aquifer summary; direct open timed out",
+        "observed_at": "2026-10-30T00:20:00Z",
+        "outcome": "rejected",
+        "reason": "Direct verification was incomplete because the official page timed out; an unverified final source is not acceptable."
+      },
+      {
+        "title": "Making Sense of Holes in the Clouds",
+        "url": "https://science.nasa.gov/earth/earth-observatory/making-sense-of-holes-in-the-clouds-152486/",
+        "publisher": "NASA Science",
+        "topic": "cloud physics and evidence",
+        "estimated_minutes": "8-12",
+        "verification_scope": "official page opened; mechanism, observational evidence and cited studies observed",
+        "observed_at": "2026-10-30T00:20:00Z",
+        "outcome": "rejected",
+        "reason": "Excellent explainer, but cloud/weather mechanisms are too close to the 2026-10-29 forecast topic."
+      },
+      {
+        "title": "What is Quantum Entanglement?",
+        "url": "https://science.nasa.gov/what-is-the-spooky-science-of-quantum-entanglement/",
+        "publisher": "NASA Science",
+        "topic": "quantum physics",
+        "estimated_minutes": "6-10",
+        "verification_scope": "official search result observed with exact title and topic summary",
+        "observed_at": "2026-10-30T00:20:00Z",
+        "outcome": "rejected",
+        "reason": "High curiosity, but the conceptual load would pull the lesson above the intended introductory TOEFL range."
+      },
+      {
+        "title": "Life in the dark",
+        "url": "https://www.nhm.ac.uk/discover/life-in-the-dark.html",
+        "publisher": "Natural History Museum",
+        "topic": "nocturnal animal adaptation",
+        "estimated_minutes": "10-15",
+        "verification_scope": "official search result observed with exact title and scope",
+        "observed_at": "2026-10-30T00:20:00Z",
+        "outcome": "rejected",
+        "reason": "Good exploration candidate, but the hub format disperses attention across subpages and weakens the single-input routine."
+      }
+    ],
+    "selected_source_url": "https://www.nps.gov/articles/000/psv40n1rr_wild-animals-show-many-different-reactions-to-people-in-u-s-national-parks.htm",
+    "selected_title": "Wild Animals Show Many Different Reactions to People in U.S. National Parks",
+    "diversity_result": "Animal-behavior and research-design input breaks the recent sequence of technology, cultural-space design, money and forecast uncertainty; exact URL absent from the original 52-row history.",
+    "recent_topic_check_days": 7,
+    "overfit_check": "passed; source was selected for general evidence-reading value rather than a narrow research interest."
+  },
+  "source_verification": {
+    "method": "direct official page read",
+    "publisher": "U.S. National Park Service",
+    "url": "https://www.nps.gov/articles/000/psv40n1rr_wild-animals-show-many-different-reactions-to-people-in-u-s-national-parks.htm",
+    "observed_at": "2026-10-30T00:20:00Z",
+    "observed_identity": [
+      "exact title",
+      "official NPS domain",
+      "first published online 2026-02-27"
+    ],
+    "observed_content": [
+      "GPS tracking of 229 animals",
+      "10 species",
+      "14 national parks and protected areas",
+      "2019-2020 comparison",
+      "variation by species, population and individual",
+      "distinction between human presence and persistent structures"
+    ],
+    "accessibility": "official HTML page readable",
+    "scope_limit": "Public-facing brief verified; original dataset and full statistical analysis were not independently reproduced."
+  },
+  "content_checks": {
+    "weekday_targets": 3,
+    "daily_questions": 3,
+    "translation_independently_authored_exercises": 2,
+    "translation_levels": [
+      "CET-6",
+      "TOEFL/academic"
+    ],
+    "translation_source_paraphrase": false,
+    "folded_answer_callouts": 5,
+    "vocabulary_entries": 8,
+    "cross_links": "all three notes plus English index present",
+    "auto_markers": "present with Notes outside",
+    "history_registration": "exactly once",
+    "freshness_basis": "original 52-row pre-selection history",
+    "semantic_duplicate_current_notes": false,
+    "copyright": "summaries and original exercises only; no long copied passages"
+  },
+  "checks": {
+    "publication_bundle_freeze": "passed",
+    "check_baselines": "passed against verified pre-write baselines",
+    "planner_after_write": "artifacts_match",
+    "repository_unit_tests": "110 passed locally",
+    "remote_ci": {
+      "run_id": 40977106408,
+      "conclusion": "success",
+      "full_source_history_coverage": "passed",
+      "append_only": "passed",
+      "immutable_bundle_validation": "passed"
+    },
+    "live_source_quality": "manually verified against the official page, outside structural CI",
+    "device_sync": "unverified",
+    "delivery": "unverified"
+  },
+  "historical_backlog": [
+    {
+      "scope": "legacy YouTube history",
+      "resource_ids": [
+        "CbUjuwhQPKs",
+        "TRL7o2kPqw0",
+        "OmJ-4B-mS-Y"
+      ],
+      "action": "retain historical records and block future reuse; unrelated to current English publication"
+    },
+    {
+      "scope": "recovered early English history",
+      "detail": "Rows marked history_recovery_not_current_source_verification remain preserved; no old recommendation was replaced."
+    }
+  ]
+}
