@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-10-30",
+  "recorded_at_utc": "2026-10-30T00:42:09.916463+00:00",
+  "prepared": {
+    "sha": "20dd7f91ff22bd94673e037edcef580e2da1f5c0",
+    "tree": "afbd3abeae794d066e3c3bc37baa7854456d42e8",
+    "blob": "d36edcb43746dbf118654fbafafd6fc46e60fa27",
+    "digest": "76a15ee2802efffd5df0eefd8aff1bc9dee91dd009fe228642fc46183ff45450"
+  },
+  "identity": {
+    "sha": "9075a6486a3b88f2824292c47db626d1415d4756",
+    "tree": "c360e8b73666bba82c6fd5f0236170f25b4389a1",
+    "blob": "fedfb0d903fd02a4b4cb758df6b550b0499971f4"
+  },
+  "stage": 1,
+  "stage_commit": {
+    "sha": "fb28553fbc61c4942a31b10cc48ebd24f292aeff",
+    "tree": "4592b6c6f58f9b97ed7f509314297e6f82402ccc",
+    "parent": "9075a6486a3b88f2824292c47db626d1415d4756",
+    "entries": [
+      {
+        "path": "News/Daily/2026-10-30.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "177e72ed69f6cf2312099716745200450c25e47a"
+      },
+      {
+        "path": "Resources/YouTube/Daily/2026-10-30.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ebd84b2fea249a39c732262c64d81855aaa91282"
+      },
+      {
+        "path": "Resources/Reddit/Daily/2026-10-30.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d538019bb749dc932e944ae6200f6639347c08d8"
+      },
+      {
+        "path": ".recommendation/history/youtube.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "26ae59d2163cb6fcf2c6fbf7bbc667958359c5d5"
+      },
+      {
+        "path": ".recommendation/history/reddit.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "11b13a00b53aef045fb88dc46ac78dd770fff4d7"
+      }
+    ]
+  },
+  "readbacks": [
+    {
+      "path": "News/Daily/2026-10-30.md",
+      "sha": "177e72ed69f6cf2312099716745200450c25e47a",
+      "exact_match": true,
+      "utf8_bytes": 5075
+    },
+    {
+      "path": "Resources/YouTube/Daily/2026-10-30.md",
+      "sha": "ebd84b2fea249a39c732262c64d81855aaa91282",
+      "exact_match": true,
+      "utf8_bytes": 6617
+    },
+    {
+      "path": "Resources/Reddit/Daily/2026-10-30.md",
+      "sha": "d538019bb749dc932e944ae6200f6639347c08d8",
+      "exact_match": true,
+      "utf8_bytes": 10909
+    },
+    {
+      "path": ".recommendation/history/youtube.jsonl",
+      "sha": "26ae59d2163cb6fcf2c6fbf7bbc667958359c5d5",
+      "exact_match": true,
+      "utf8_bytes": 44756
+    },
+    {
+      "path": ".recommendation/history/reddit.jsonl",
+      "sha": "11b13a00b53aef045fb88dc46ac78dd770fff4d7",
+      "exact_match": true,
+      "utf8_bytes": 74674
+    }
+  ],
+  "planner_after": "artifacts_match",
+  "errors": [],
+  "non_publication_limitations": [
+    "full video playback not tested",
+    "Reddit original posts not examined under user waiver",
+    "device sync and delivery unverified",
+    "browser transcript exports inaccessible from local executor; no transcript-reading claim for Computerphile/Numberphile",
+    "Tim Hunkin security/cookie check: route abandoned"
+  ]
+}
