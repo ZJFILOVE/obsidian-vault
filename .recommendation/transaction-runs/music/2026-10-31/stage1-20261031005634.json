@@ -1,0 +1,26 @@
+{
+  "operation_id": "music:2026-10-31",
+  "recorded_at": "2026-10-31 00:56:34 UTC",
+  "stage": 1,
+  "prepared": {
+    "commit": "a11c136567187bf2514635843de4f9afd9197eec",
+    "blob": "c0bcfb7d2fd12aac46b9c139af368019c0362f66",
+    "digest": "0c1793c7dc8b9764c0c2835ff91e87dab520c83f540d6609210d53832b688a5a",
+    "plan_digest": "47abafa66139d20a3f8b55ef9712b58f7b0190418ffc18460ec7c7a0d53d46e7",
+    "exact_readback": true
+  },
+  "parent": "25e09d3dd6e2c567f9c79e2040a868b62ba221d5",
+  "tree": "3f40e590927d3f49b694a6b4789039108a62d22e",
+  "commit": "deda14ca8ed830cff7763a28c0c04849e5c4141b",
+  "readbacks": {
+    "recommendations/2026/10/2026-10-31.json": {
+      "sha": "30a032fe72d9ccaa945d473c060ce8af105d42aa",
+      "exact": true
+    },
+    "state/tracks.json": {
+      "sha": "8af2c4bea05235443cee80d4d04e244cb646fb17",
+      "exact": true
+    }
+  },
+  "errors": []
+}
