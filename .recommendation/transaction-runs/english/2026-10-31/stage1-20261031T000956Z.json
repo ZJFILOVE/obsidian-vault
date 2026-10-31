@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-10-31",
+  "operation_id": "english:2026-10-31",
+  "attempt_kind": "stage_apply",
+  "stage": 1,
+  "recorded_at_utc": "2026-10-31T00:09:56Z",
+  "original_bundle_sha256": "1abc7a6153f76e6d89ce32f291b887b1bf93808b901cffd610397787a03d2451",
+  "planner": {
+    "status": "ready_to_resume",
+    "next_stage": 1,
+    "decisions": [
+      "create note",
+      "update append-only history"
+    ]
+  },
+  "base_commit": "13484fdcfdb4c6544bf5ce96a5bc900d98a9156a",
+  "base_tree": "bd48b0995e4a6d8737ab10e321f6f68525ad0b7f",
+  "publication_commit": "d11e1bf478cdd80b1fa4c37375275ceb7c00e37a",
+  "publication_tree": "e9459b2420ca9a1b1c3f51c6f1a2f4f1d0a385c1",
+  "readbacks": {
+    "50-courses/English/Weekly/TV/2026-10-31.md": {
+      "blob_sha": "ed95a87114198b4b44dc67fdb32ba5616ff6a2ec",
+      "exact_frozen_payload": true
+    },
+    ".recommendation/history/english.jsonl": {
+      "blob_sha": "833d06e75acdc0892ae6c908d77be9df847a01ec",
+      "exact_frozen_payload": true,
+      "same_date_source_count": 1
+    }
+  },
+  "errors": []
+}
