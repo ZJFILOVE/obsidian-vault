@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-10-31",
+  "operation_id": "english:2026-10-31",
+  "status": "passed",
+  "recorded_at_utc": "2026-10-31T00:14:09Z",
+  "selection": {
+    "title": "The Americans",
+    "source_url": "https://amblin.com/tv/the-americans/",
+    "component": "weekly-tv",
+    "candidate_pool_size": 8,
+    "candidates": [
+      {
+        "title": "Better Call Saul",
+        "url": "https://www.sonypictures.com/tv/bettercallsaul",
+        "official_owner": "Sony Pictures Television",
+        "decision": "shortlist",
+        "reason": "法律、推销与伦理协商的口语价值高；本周未选以避免再次集中于职业化高压对话。"
+      },
+      {
+        "title": "The Americans",
+        "url": "https://amblin.com/tv/the-americans/",
+        "official_owner": "Amblin Television",
+        "decision": "selected",
+        "reason": "家庭口语、身份管理、试探与保留并存；与近期城市讽刺、温和日常喜剧形成明显对比。"
+      },
+      {
+        "title": "Severance",
+        "url": "https://www.apple.com/tv-pr/originals/severance/",
+        "official_owner": "Apple TV",
+        "decision": "shortlist",
+        "reason": "职场术语和制度语言鲜明，但抽象设定会让早期听力任务依赖更多世界观解释。"
+      },
+      {
+        "title": "Only Murders in the Building",
+        "url": "https://press.hulu.com/shows/only-murders-in-the-building/",
+        "official_owner": "Hulu",
+        "decision": "shortlist",
+        "reason": "跨代口语与叙事推理有价值；当前官方资料聚焦后续季度，不如最终选择适合从第一集设计无剧透任务。"
+      },
+      {
+        "title": "Parks and Recreation",
+        "url": "https://www.peacocktv.com/watch-online/tv/parks-and-recreation/5883799404534408112/seasons/1",
+        "official_owner": "Peacock/NBCUniversal",
+        "decision": "shortlist",
+        "reason": "公共机构与团队喜剧口语可迁移性高；和既有 Abbott Elementary 的职场喜剧训练相邻。"
+      },
+      {
+        "title": "Somebody Somewhere",
+        "url": "https://press.wbd.com/na/property/somebody-somewhere",
+        "official_owner": "HBO/WBD",
+        "decision": "rejected_source_gate",
+        "reason": "内容与中西部日常口语很合适，但本次直接打开官方页面返回 403，未满足最终来源直读门槛。"
+      },
+      {
+        "title": "Poker Face",
+        "url": "https://www.peacocktv.com/stream-tv/poker-face",
+        "official_owner": "Peacock",
+        "decision": "shortlist",
+        "reason": "询问、识别矛盾和案件复述适合学习；程序型结构的训练目标不如最终选择多层。"
+      },
+      {
+        "title": "The Pitt",
+        "url": "https://press.wbd.com/us/ca/property/pitt",
+        "official_owner": "HBO Max/WBD",
+        "decision": "shortlist",
+        "reason": "医疗团队沟通密度高且实用，但术语负担偏重，可能挤压周末娱乐性。"
+      }
+    ],
+    "selection_reason": "家庭口语、身份管理、试探、回避与不完整信息下的决策集中出现；与最近七天的城市讽刺、音乐传记、技术史、空间设计、货币信任、天气预测和动物行为主题均不重合。",
+    "diversity_check": {
+      "recent_narrow_topic_repeat": false,
+      "prior_series_repeat": false,
+      "prior_source_url_repeat": false,
+      "network_recent_use_penalty_considered": true
+    }
+  },
+  "source_verification": {
+    "url": "https://amblin.com/tv/the-americans/",
+    "title": "The Americans",
+    "observed": "官方制片方页面列出2013–2018、创作者Joseph Weisberg、主演、Drama类型、核心伪装家庭设定与六季入口。",
+    "cross_check_url": "https://www.fxnetworks.com/shows/the-americans",
+    "cross_check_observed": "FX官方页显示FX's The Americans、最终季与官方预告入口。",
+    "access_scope": "页面正文可读；未测试中国大陆完整播放、账号权限、字幕或整集音轨。"
+  },
+  "bundle": {
+    "path": ".recommendation/transactions/english/2026-10-31.json",
+    "creation_commit": "6fa9501f52d0b605140f65306a91485b2b0a4c1c",
+    "transaction_blob_sha": "5e1482e213f106207a9056043412bb3e27ad8d37",
+    "bundle_sha256": "1abc7a6153f76e6d89ce32f291b887b1bf93808b901cffd610397787a03d2451",
+    "plan_sha256": "45e4b40df9383f075b20a254c452c58af1f346c13d275f3b840f072172f0c5ad",
+    "readback_exact": true,
+    "identity_receipt": {
+      "path": ".recommendation/transaction-runs/english/2026-10-31/prepared-20261031T000916Z.json",
+      "commit": "13484fdcfdb4c6544bf5ce96a5bc900d98a9156a"
+    }
+  },
+  "publication": {
+    "stage": 1,
+    "base_commit": "13484fdcfdb4c6544bf5ce96a5bc900d98a9156a",
+    "publication_commit": "d11e1bf478cdd80b1fa4c37375275ceb7c00e37a",
+    "publication_tree": "e9459b2420ca9a1b1c3f51c6f1a2f4f1d0a385c1",
+    "targets": [
+      {
+        "path": "50-courses/English/Weekly/TV/2026-10-31.md",
+        "blob_sha": "ed95a87114198b4b44dc67fdb32ba5616ff6a2ec",
+        "readback_exact": true
+      },
+      {
+        "path": ".recommendation/history/english.jsonl",
+        "blob_sha": "833d06e75acdc0892ae6c908d77be9df847a01ec",
+        "readback_exact": true,
+        "prior_blob_sha": "95b54ffc03cea8e862c43a0ed4b9eadeb3f324a5"
+      }
+    ],
+    "stage_receipt": {
+      "path": ".recommendation/transaction-runs/english/2026-10-31/stage1-20261031T000956Z.json",
+      "commit": "b75d197bf20c7d427eb1e32bda2183514ed49aea"
+    }
+  },
+  "content_qa": {
+    "status": "passed_current_publication_content_qa",
+    "checks": {
+      "source_url_frontmatter": true,
+      "series_fresh_url": true,
+      "series_fresh_title": true,
+      "history_prefix_preserved": true,
+      "history_exact_once": true,
+      "candidate_count": true,
+      "one_selected": true,
+      "auto_markers": true,
+      "notes_outside_auto": true,
+      "english_crosslink": true,
+      "three_viewing_modes": true,
+      "early_episode_strategy": true,
+      "language_feature_count": true,
+      "copyright_scope_honest": true,
+      "playback_scope_honest": true,
+      "topic_rotation": true
+    },
+    "counts": {
+      "history_rows": 54,
+      "history_unique_urls": 54,
+      "candidates": 8,
+      "language_features": 12,
+      "viewing_modes": 3
+    },
+    "source_verification": {
+      "url": "https://amblin.com/tv/the-americans/",
+      "title": "The Americans",
+      "observed": "官方制片方页面列出2013–2018、创作者Joseph Weisberg、主演、Drama类型、核心伪装家庭设定与六季入口。",
+      "cross_check_url": "https://www.fxnetworks.com/shows/the-americans",
+      "cross_check_observed": "FX官方页显示FX's The Americans、最终季与官方预告入口。",
+      "access_scope": "页面正文可读；未测试中国大陆完整播放、账号权限、字幕或整集音轨。"
+    },
+    "readback": {
+      "note_blob_sha": "ed95a87114198b4b44dc67fdb32ba5616ff6a2ec",
+      "history_blob_sha": "833d06e75acdc0892ae6c908d77be9df847a01ec",
+      "exact": true
+    },
+    "limitations": [
+      "full episode playback not tested",
+      "China mainland account access not tested",
+      "local Obsidian device sync and notification delivery not tested"
+    ]
+  },
+  "validators": {
+    "local": {
+      "english_history_and_notes": "passed",
+      "english_rows": 54,
+      "english_unique_sources": 54,
+      "strict_english_notes": 48,
+      "immutable_bundles": 48,
+      "unit_tests": 125
+    },
+    "github_actions": {
+      "head_sha": "b75d197bf20c7d427eb1e32bda2183514ed49aea",
+      "run_id": 41148683348,
+      "job_id": 124379730981,
+      "conclusion": "success",
+      "strict_counts": {
+        "youtube": 225,
+        "reddit": 450,
+        "english": 48,
+        "music": 230
+      },
+      "tests": {
+        "daily_integrity": 69,
+        "publication_recovery_and_bundle": 41,
+        "remote_music_snapshot": 15
+      },
+      "immutable_bundles": 48,
+      "scope_note": "Structural and append-only integrity only; it does not certify live sources, semantic quality, local device sync or notification delivery."
+    }
+  },
+  "historical_backlog": [
+    {
+      "project": "youtube",
+      "issue": "three legacy exact-ID duplicate groups retained permanently",
+      "action": "retain historical records and block every future reuse"
+    },
+    {
+      "project": "music",
+      "issue": "eight retired state entries retained",
+      "action": "preserve permanently"
+    },
+    {
+      "issue": "historical warnings do not waive current publication gates",
+      "action": "record only; do not rewrite old publications"
+    }
+  ],
+  "not_verified": [
+    "full episode playback",
+    "China mainland account playback entitlement",
+    "local Obsidian device sync",
+    "notification delivery"
+  ]
+}
