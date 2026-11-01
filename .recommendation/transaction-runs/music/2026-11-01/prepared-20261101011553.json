@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-11-01",
+  "stage": "prepared_identity",
+  "recorded_at": "2026-11-01 01:15:53 UTC",
+  "creation_commit": "6115c52206a4ac9eedbd2b02d345067735a7b61b",
+  "tree_sha": "97c937acd7599731cc562d38eb43ed614e877a0d",
+  "blob_sha": "b8e136a4b69ffcaf31ef38881527902b103d6e25",
+  "bundle_sha256": "bedc31889abbef239c074681e7f0b361d983257c09dccebda16898941318e1ad",
+  "plan_sha256": "17424f07691c616c1801ab9dbd629ec267bc52fe6812a37a01c5d4566a0285c4",
+  "readback": "byte_exact",
+  "errors": []
+}
