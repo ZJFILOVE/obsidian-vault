@@ -1,0 +1,32 @@
+{
+  "operation_id": "music:2026-11-01",
+  "stage": 1,
+  "time": "2026-11-01 01:16:18 UTC",
+  "original_bundle": {
+    "creation_commit": "6115c52206a4ac9eedbd2b02d345067735a7b61b",
+    "tree_sha": "97c937acd7599731cc562d38eb43ed614e877a0d",
+    "blob_sha": "b8e136a4b69ffcaf31ef38881527902b103d6e25",
+    "bundle_sha256": "bedc31889abbef239c074681e7f0b361d983257c09dccebda16898941318e1ad",
+    "plan_sha256": "17424f07691c616c1801ab9dbd629ec267bc52fe6812a37a01c5d4566a0285c4",
+    "readback": "byte_exact"
+  },
+  "result": {
+    "repository": "ZJFILOVE/music-daily",
+    "commit": "c658a6b69e5fc6af8fbd62fa028d5df4493aa7a8",
+    "parent": "deda14ca8ed830cff7763a28c0c04849e5c4141b",
+    "tree": "3b747247cbd8af1f9acd799af2760a2f2c85f66b",
+    "readbacks": {
+      "recommendations/2026/11/2026-11-01.json": {
+        "sha": "d10d12138f1d4e898b2edfd3a6ddadeed1a779b7",
+        "bytes": 7693,
+        "byte_exact": true
+      },
+      "state/tracks.json": {
+        "sha": "61b38d82c849d19415c70c355c2b094d95bdede4",
+        "bytes": 27388,
+        "byte_exact": true
+      }
+    }
+  },
+  "errors": []
+}
