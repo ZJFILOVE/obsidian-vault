@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-11-01",
+  "attempt": "stage1_apply",
+  "recorded_at_utc": "2026-11-01T00:12:05.310Z",
+  "prepared": {
+    "creation_commit": "c163a4368282ac3168bc9b9f68ba9689f2729be5",
+    "bundle_sha256": "beb09abf3e5f3b246fb252ddc8eed7d4ec226e29e1549105d6123459e53876dc",
+    "plan_sha256": "755016d5ff800516e58024e117aa08a8405283330619328c55dbdd81b0fdefd6"
+  },
+  "stage": 1,
+  "status": "applied_and_read_back",
+  "commit": "4c2d7524143f4714e964479c414d6a8c50f22ffd",
+  "parent": "0ba3f6d23248bdb1ba0eea1fc8f997e912223722",
+  "tree": "cfc958326c0354d719d0a48310264ee1d0d2b19f",
+  "update_ref": {
+    "branch": "main",
+    "force": false,
+    "expected_sha": "0ba3f6d23248bdb1ba0eea1fc8f997e912223722",
+    "observed_head_after": "4c2d7524143f4714e964479c414d6a8c50f22ffd"
+  },
+  "readbacks": {
+    "50-courses/English/Weekly/2026-11-01.md": {
+      "blob_sha": "896e5879902f7fdc033d2d9ae39b634b75419bef",
+      "size": 12302,
+      "bytes": 12302,
+      "exact": true,
+      "expected_sha": "896e5879902f7fdc033d2d9ae39b634b75419bef"
+    },
+    ".recommendation/history/english.jsonl": {
+      "blob_sha": "48901a2cc1dda32f94f128ea70c385612098cebe",
+      "size": 14251,
+      "bytes": 14251,
+      "exact": true,
+      "expected_sha": "48901a2cc1dda32f94f128ea70c385612098cebe"
+    }
+  },
+  "planner_after": {
+    "status": "artifacts_match",
+    "operation_id": "english:2026-11-01",
+    "bundle_sha256": "beb09abf3e5f3b246fb252ddc8eed7d4ec226e29e1549105d6123459e53876dc",
+    "github_writes_performed": 0,
+    "content_qa": "not_evaluated",
+    "plan_sha256": "755016d5ff800516e58024e117aa08a8405283330619328c55dbdd81b0fdefd6",
+    "next_stage": null,
+    "decisions": [
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "50-courses/English/Weekly/2026-11-01.md",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "896e5879902f7fdc033d2d9ae39b634b75419bef"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": ".recommendation/history/english.jsonl",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": "833d06e75acdc0892ae6c908d77be9df847a01ec",
+        "target_sha": "48901a2cc1dda32f94f128ea70c385612098cebe"
+      }
+    ]
+  }
+}
