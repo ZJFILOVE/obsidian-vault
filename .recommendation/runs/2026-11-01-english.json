@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-01",
+  "operation_id": "english:2026-11-01",
+  "status": "passed_current_publication_qa",
+  "mode": "new",
+  "recorded_at_utc": "2026-11-01T00:13:54Z",
+  "selection": {
+    "candidate_pool_min": 8,
+    "candidate_count": 10,
+    "candidates": [
+      {
+        "title": "180. Project ENABLE",
+        "url": "https://www.theallusionist.org/projectenable",
+        "format": "podcast",
+        "duration": "29 min",
+        "evidence": "official episode and full transcript directly read; Apple Podcasts metadata supplied exact duration",
+        "decision": "selected",
+        "reason": "clear project arc, language/culture value, official transcript, within duration"
+      },
+      {
+        "title": "233. Phobia",
+        "url": "https://www.theallusionist.org/allusionist/phobia",
+        "format": "podcast",
+        "duration": "40:12",
+        "evidence": "official episode link and current embedded series listing",
+        "decision": "rejected",
+        "reason": "same creator alternative; sensitive clinical framing required more contextual caution"
+      },
+      {
+        "title": "234. No Names",
+        "url": "https://www.theallusionist.org/allusionist/alexinomia",
+        "format": "podcast",
+        "duration": "34:17",
+        "evidence": "official episode link and current embedded series listing",
+        "decision": "rejected",
+        "reason": "same creator alternative; final candidate offered a more concrete multi-stakeholder process"
+      },
+      {
+        "title": "232. Vega",
+        "url": "https://www.theallusionist.org/allusionist/vega",
+        "format": "podcast",
+        "duration": "33:12",
+        "evidence": "official episode link and current embedded series listing",
+        "decision": "rejected",
+        "reason": "same creator alternative; weaker practical output task fit"
+      },
+      {
+        "title": "231. Lingthusionist",
+        "url": "https://www.theallusionist.org/allusionist/lingthusionist",
+        "format": "podcast",
+        "duration": "25:05",
+        "evidence": "official episode link and current embedded series listing",
+        "decision": "rejected",
+        "reason": "same creator alternative; final candidate had stronger cultural and design trade-offs"
+      },
+      {
+        "title": "230. Draculae part 4: Transformation",
+        "url": "https://www.theallusionist.org/allusionist/transformation",
+        "format": "podcast",
+        "duration": "46:22",
+        "evidence": "official episode link and current embedded series listing",
+        "decision": "rejected",
+        "reason": "serial episode depends on prior installments"
+      },
+      {
+        "title": "Chasing Shiny Things",
+        "url": "https://www.sciencehistory.org/stories/distillations-pod/chasing-shiny-things/",
+        "format": "podcast",
+        "duration": "unconfirmed",
+        "evidence": "official Science History Institute page with episode description and transcript",
+        "decision": "rejected",
+        "reason": "required 25–60 minute duration could not be confirmed from observed official page; also too close to user's research domain"
+      },
+      {
+        "title": "The Wright Sister",
+        "url": "https://www.si.edu/sidedoor/wright-sister",
+        "format": "podcast",
+        "duration": "unconfirmed",
+        "evidence": "official Smithsonian result with transcript",
+        "decision": "rejected",
+        "reason": "duration not confirmed and recent weekly biography made topic rotation weaker"
+      },
+      {
+        "title": "The 'Perfect' Specimen — pilot",
+        "url": "https://www.nhm.ac.uk/press-office/press-releases/the-natural-history-museum-launches-new-podcast-series-the--perf.html",
+        "format": "podcast",
+        "duration": "30 min",
+        "evidence": "official Natural History Museum launch page described 30-minute episodes and pilot",
+        "decision": "rejected",
+        "reason": "observed URL was a series press release rather than a direct episode source"
+      },
+      {
+        "title": "Your Call Is Important to Us",
+        "url": "https://99percentinvisible.org/episode/644-your-call-is-important-to-us/",
+        "format": "podcast",
+        "duration": "unconfirmed",
+        "evidence": "official episode and transcript surfaced in current search",
+        "decision": "rejected",
+        "reason": "duration unconfirmed and 99% Invisible was used recently"
+      }
+    ],
+    "selected_source_url": "https://www.theallusionist.org/projectenable",
+    "selected_title": "180. Project ENABLE",
+    "source_type": "podcast",
+    "duration": "29 minutes",
+    "difficulty": "CET-6 to introductory TOEFL",
+    "diversity_result": {
+      "passed": true,
+      "topic": "language access, lexicography, Indigenous science communication",
+      "recent_narrow_topic_check": "No prior exact URL; closest historical language-access item was 2026-10-06, more than seven days earlier.",
+      "overfit_check": "Selected for the multi-stakeholder communication and terminology-design process, not merely for the user's scientific background."
+    }
+  },
+  "source_verification": {
+    "prepublication": {
+      "observed_at_utc": "2026-11-01T00:09:31Z/2026-11-01T00:12:00Z",
+      "verification_method": "direct_official_page_and_transcript_via_cloud_browser",
+      "official_episode_url": "https://www.theallusionist.org/projectenable",
+      "official_transcript_url": "https://www.theallusionist.org/transcripts/projectenable",
+      "observed_identity": {
+        "title": "Allusionist 180. Project ENABLE",
+        "publisher": "The Allusionist",
+        "host": "Helen Zaltzman",
+        "guest": "Sterling Martin",
+        "date": "2023-08-24"
+      },
+      "observed_content": [
+        "COVID-era science communication need",
+        "teacher prioritization of terminology",
+        "multi-generational review",
+        "avoidance of sacred terms",
+        "descriptive rather than opaque inherited roots",
+        "identity and language revitalization"
+      ],
+      "duration_observation": {
+        "value": "29 min",
+        "source": "Apple Podcasts episode metadata from current web search"
+      },
+      "access_scope": "official page and full transcript readable; MP3/full playback and mainland-China account accessibility not tested",
+      "candidate_count": 10,
+      "candidates": [
+        {
+          "title": "180. Project ENABLE",
+          "url": "https://www.theallusionist.org/projectenable",
+          "format": "podcast",
+          "duration": "29 min",
+          "evidence": "official episode and full transcript directly read; Apple Podcasts metadata supplied exact duration",
+          "decision": "selected",
+          "reason": "clear project arc, language/culture value, official transcript, within duration"
+        },
+        {
+          "title": "233. Phobia",
+          "url": "https://www.theallusionist.org/allusionist/phobia",
+          "format": "podcast",
+          "duration": "40:12",
+          "evidence": "official episode link and current embedded series listing",
+          "decision": "rejected",
+          "reason": "same creator alternative; sensitive clinical framing required more contextual caution"
+        },
+        {
+          "title": "234. No Names",
+          "url": "https://www.theallusionist.org/allusionist/alexinomia",
+          "format": "podcast",
+          "duration": "34:17",
+          "evidence": "official episode link and current embedded series listing",
+          "decision": "rejected",
+          "reason": "same creator alternative; final candidate offered a more concrete multi-stakeholder process"
+        },
+        {
+          "title": "232. Vega",
+          "url": "https://www.theallusionist.org/allusionist/vega",
+          "format": "podcast",
+          "duration": "33:12",
+          "evidence": "official episode link and current embedded series listing",
+          "decision": "rejected",
+          "reason": "same creator alternative; weaker practical output task fit"
+        },
+        {
+          "title": "231. Lingthusionist",
+          "url": "https://www.theallusionist.org/allusionist/lingthusionist",
+          "format": "podcast",
+          "duration": "25:05",
+          "evidence": "official episode link and current embedded series listing",
+          "decision": "rejected",
+          "reason": "same creator alternative; final candidate had stronger cultural and design trade-offs"
+        },
+        {
+          "title": "230. Draculae part 4: Transformation",
+          "url": "https://www.theallusionist.org/allusionist/transformation",
+          "format": "podcast",
+          "duration": "46:22",
+          "evidence": "official episode link and current embedded series listing",
+          "decision": "rejected",
+          "reason": "serial episode depends on prior installments"
+        },
+        {
+          "title": "Chasing Shiny Things",
+          "url": "https://www.sciencehistory.org/stories/distillations-pod/chasing-shiny-things/",
+          "format": "podcast",
+          "duration": "unconfirmed",
+          "evidence": "official Science History Institute page with episode description and transcript",
+          "decision": "rejected",
+          "reason": "required 25–60 minute duration could not be confirmed from observed official page; also too close to user's research domain"
+        },
+        {
+          "title": "The Wright Sister",
+          "url": "https://www.si.edu/sidedoor/wright-sister",
+          "format": "podcast",
+          "duration": "unconfirmed",
+          "evidence": "official Smithsonian result with transcript",
+          "decision": "rejected",
+          "reason": "duration not confirmed and recent weekly biography made topic rotation weaker"
+        },
+        {
+          "title": "The 'Perfect' Specimen — pilot",
+          "url": "https://www.nhm.ac.uk/press-office/press-releases/the-natural-history-museum-launches-new-podcast-series-the--perf.html",
+          "format": "podcast",
+          "duration": "30 min",
+          "evidence": "official Natural History Museum launch page described 30-minute episodes and pilot",
+          "decision": "rejected",
+          "reason": "observed URL was a series press release rather than a direct episode source"
+        },
+        {
+          "title": "Your Call Is Important to Us",
+          "url": "https://99percentinvisible.org/episode/644-your-call-is-important-to-us/",
+          "format": "podcast",
+          "duration": "unconfirmed",
+          "evidence": "official episode and transcript surfaced in current search",
+          "decision": "rejected",
+          "reason": "duration unconfirmed and 99% Invisible was used recently"
+        }
+      ]
+    },
+    "postpublication": {
+      "observed_at_utc": "2026-11-01T00:13:00Z/2026-11-01T00:13:54Z",
+      "method": "direct official episode page and official transcript via cloud browser",
+      "episode_page": {
+        "url": "https://www.theallusionist.org/projectenable",
+        "title": "Allusionist 180. Project ENABLE — The Allusionist",
+        "observed": [
+          "MP3, Apple Podcasts, RSS and transcript links",
+          "Sterling Martin and Project ENABLE description",
+          "additional materials and credits"
+        ]
+      },
+      "transcript_page": {
+        "url": "https://www.theallusionist.org/transcripts/projectenable",
+        "title": "Allusionist 180 Project ENABLE transcript — The Allusionist",
+        "observed": [
+          "full transcript readable",
+          "host Helen Zaltzman",
+          "guest Sterling Martin",
+          "teacher prioritization, intergenerational review, sacred-term safeguards, descriptive terminology and identity themes"
+        ]
+      },
+      "duration_evidence": {
+        "source": "Apple Podcasts episode metadata in current web research",
+        "value": "29 min"
+      },
+      "not_verified": [
+        "continuous audio playback",
+        "mainland-China network/account accessibility",
+        "local device synchronization",
+        "notification delivery"
+      ]
+    }
+  },
+  "freshness": {
+    "original_history_blob_sha": "833d06e75acdc0892ae6c908d77be9df847a01ec",
+    "original_history_rows": 54,
+    "original_unique_source_urls": 54,
+    "selected_url_count_in_original_history": 0,
+    "prepared_reservation_scan": {
+      "transaction_bundles_read": 50,
+      "selected_url_reserved_by_earlier_operation": false
+    },
+    "current_history_rows": 55,
+    "current_unique_source_urls": 55,
+    "current_date_url_exact_count": 1,
+    "append_only_prefix_preserved": true
+  },
+  "bundle": {
+    "path": ".recommendation/transactions/english/2026-11-01.json",
+    "creation_commit": "c163a4368282ac3168bc9b9f68ba9689f2729be5",
+    "prepared_blob_sha": "775e35f2cb3fdecff6f7057d20ed9e9a1c4299aa",
+    "bundle_sha256": "beb09abf3e5f3b246fb252ddc8eed7d4ec226e29e1549105d6123459e53876dc",
+    "plan_sha256": "755016d5ff800516e58024e117aa08a8405283330619328c55dbdd81b0fdefd6",
+    "prepared_readback_exact": true,
+    "prepared_identity_receipt": ".recommendation/transaction-runs/english/2026-11-01/prepared-20261101T001114Z.json"
+  },
+  "publication": {
+    "commit": "4c2d7524143f4714e964479c414d6a8c50f22ffd",
+    "parent": "0ba3f6d23248bdb1ba0eea1fc8f997e912223722",
+    "tree": "cfc958326c0354d719d0a48310264ee1d0d2b19f",
+    "stage_receipt": ".recommendation/transaction-runs/english/2026-11-01/stage1-20261101T001205Z.json",
+    "planner_after": {
+      "status": "artifacts_match",
+      "next_stage": null
+    },
+    "readbacks": {
+      "50-courses/English/Weekly/2026-11-01.md": {
+        "blob_sha": "896e5879902f7fdc033d2d9ae39b634b75419bef",
+        "bytes": 12302,
+        "exact_frozen_payload": true
+      },
+      ".recommendation/history/english.jsonl": {
+        "blob_sha": "48901a2cc1dda32f94f128ea70c385612098cebe",
+        "bytes": 14251,
+        "exact_frozen_payload": true
+      }
+    }
+  },
+  "content_checks": {
+    "auto_markers_exactly_one_pair": true,
+    "manual_notes_outside_auto": true,
+    "official_source_and_transcript_present": true,
+    "three_pass_plan": true,
+    "reusable_chunks": 12,
+    "comprehension_questions": 5,
+    "output_tasks": 2,
+    "independently_authored_translation_exercises": 1,
+    "folded_answer_callouts": 2,
+    "english_home_crosslink": true,
+    "copyright_scope": "links, summaries, original exercises and a short user-selected shadowing instruction; no long source transcript reproduced",
+    "semantic_review": "passed: questions and plan match directly observed source; exercise topic is an independently authored bus-pilot scenario and does not translate or paraphrase the source"
+  },
+  "validators": {
+    "local": {
+      "history_rows": 55,
+      "unique_english_sources": 55,
+      "strict_english_notes_checked": 49,
+      "immutable_bundles": 51,
+      "unit_tests": {
+        "count": 125,
+        "result": "passed"
+      }
+    },
+    "github_actions": {
+      "run_id": 41255660045,
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/41255660045",
+      "head_sha": "4c2d7524143f4714e964479c414d6a8c50f22ffd",
+      "job_id": 124698164891,
+      "conclusion": "success",
+      "observed": [
+        "strict daily validator english=49",
+        "69 daily tests passed",
+        "41 publication/recovery tests passed",
+        "15 remote snapshot tests passed",
+        "append-only check against actual base passed",
+        "51 immutable publication bundles passed"
+      ]
+    },
+    "scope": "Structural/history checks do not certify live sources, semantic teaching quality, device sync or delivery; live source and semantic checks are recorded separately above."
+  },
+  "historical_backlog": [
+    {
+      "scope": "unrelated repository history",
+      "finding": "Three pre-policy YouTube duplicate groups remain retained and permanently blocked, as reported by CI."
+    },
+    {
+      "scope": "unrelated 2026-10-31 music publication",
+      "finding": "Previously recorded section-order content QA failure remains preserved; it did not waive or block today's independent English checks."
+    }
+  ]
+}
