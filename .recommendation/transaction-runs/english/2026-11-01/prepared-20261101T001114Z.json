@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-11-01",
+  "attempt": "prepared_identity",
+  "recorded_at_utc": "2026-11-01T00:11:14.656Z",
+  "prepared_path": ".recommendation/transactions/english/2026-11-01.json",
+  "creation_commit": "c163a4368282ac3168bc9b9f68ba9689f2729be5",
+  "creation_parent": "6b57076581686fe55a5095c5dfac89217bb35076",
+  "creation_tree": "7c37709c8d848b843ce6f1365c09be373be7f738",
+  "prepared_blob_sha": "775e35f2cb3fdecff6f7057d20ed9e9a1c4299aa",
+  "original_bundle_sha256": "beb09abf3e5f3b246fb252ddc8eed7d4ec226e29e1549105d6123459e53876dc",
+  "original_plan_sha256": "755016d5ff800516e58024e117aa08a8405283330619328c55dbdd81b0fdefd6",
+  "readback": {
+    "blob_sha": "775e35f2cb3fdecff6f7057d20ed9e9a1c4299aa",
+    "exact": true,
+    "bundle_sha256": "beb09abf3e5f3b246fb252ddc8eed7d4ec226e29e1549105d6123459e53876dc",
+    "plan_sha256": "755016d5ff800516e58024e117aa08a8405283330619328c55dbdd81b0fdefd6"
+  },
+  "publication_stages_completed": []
+}
