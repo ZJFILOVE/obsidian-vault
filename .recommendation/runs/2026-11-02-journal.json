@@ -1,0 +1,99 @@
+{
+  "schema_version": "journal-run-v1",
+  "operation_id": "journal:2026-11-02",
+  "date": "2026-11-02",
+  "status": "completed_with_explicit_reading_limits",
+  "recorded_at_utc": "2026-11-02T00:05:47.370Z",
+  "topic": "FAP：从光化学证据到催化调控",
+  "recommended_count": 3,
+  "selection": [
+    {
+      "doi": "10.1126/science.aan6349",
+      "title": "An algal photoenzyme converts fatty acids to hydrocarbons",
+      "author": "Damien Sorigué et al.",
+      "year": 2017,
+      "journal": "Science",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/28860382/",
+      "scope": "书目/摘要"
+    },
+    {
+      "doi": "10.1126/science.abd5687",
+      "title": "Mechanism and dynamics of fatty acid photodecarboxylase",
+      "author": "D. Sorigué et al.",
+      "year": 2021,
+      "journal": "Science",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33833098/",
+      "scope": "书目/摘要"
+    },
+    {
+      "doi": "10.1126/sciadv.adg3881",
+      "title": "Autocatalytic effect boosts the production of medium-chain hydrocarbons by fatty acid photodecarboxylase",
+      "author": "Poutoum P. Samire et al.",
+      "year": 2023,
+      "journal": "Science Advances",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/37000872/",
+      "scope": "书目/摘要及 PubMed 收录的主文图注（非全文通读）"
+    }
+  ],
+  "prepared": {
+    "schema_version": "journal-receipt-v1",
+    "operation_id": "journal:2026-11-02",
+    "recorded_at_utc": "2026-11-02T00:04:59.141Z",
+    "prepared_path": ".recommendation/transactions/journal/2026-11-02.json",
+    "prepared_creation_commit": "48f9da89a2b72b9d841dd37fce9be3c2dafe5fc4",
+    "prepared_blob_sha": "b4fefbe9f785cb0657b60ff0dc6b38019cc8b0ad",
+    "original_bundle_sha256": "118ae4101699ba7c4146a03c68ab74dd2e192b09ed482e5d91aef3f358b4a7a7",
+    "original_plan_sha256": "15a524fc7713ee98808addabfacb6ce91f5d3e8da06737f6d90cf32821580d45",
+    "prepared_readback_exact": true,
+    "existing_validators": "not_applicable_journal_unsupported",
+    "target_baselines": "all_confirmed_absent"
+  },
+  "publication_commit": "67b99a995107c44c67c9638668e1af3f9146f2e4",
+  "readbacks": [
+    {
+      "path": "00-inbox/Journal/2026-11-02.md",
+      "exact": true,
+      "sha": "e44f4a513be56d2243820f9df1f642fedc525c9d"
+    },
+    {
+      "path": "00-inbox/Journal/Index.md",
+      "exact": true,
+      "sha": "543d4202ce08a3cab879e0c441afd5c995201b58"
+    },
+    {
+      "path": ".recommendation/history/journal.jsonl",
+      "exact": true,
+      "sha": "bcc81d9e08438f3f6e32dbb9f523c9ece9b7d7d8"
+    }
+  ],
+  "checks": {
+    "count_2_to_4": true,
+    "normalized_doi_unique": true,
+    "title_same_work_dedup": "three distinct original studies, 2017 discovery / 2021 mechanism / 2023 autocatalysis; no Journal history or reservations before this run",
+    "prior_history": "confirmed_absent; first creation, no prior bytes overwritten",
+    "recent_14_day_topics": "no Journal notes found in complete nontruncated repository tree",
+    "reservations_read": 54,
+    "source_identity": "PubMed records actually opened for all three",
+    "publication_status": "formal journal articles; no retraction found in opened records and DOI-specific searches; not an exhaustive guarantee",
+    "notes": "no preexisting target notes; Notes sections reserved",
+    "all_three_targets_exact_readback": true,
+    "git_blob_shas_match_computed": true,
+    "existing_repository_validators": "NOT_APPLICABLE: publication_bundle.py and publication_recovery.py explicitly allow only music/english/news-youtube-reddit; Journal-specific byte/hash/count/link/label checks performed, no unsupported script invoked or changed",
+    "ci": "not used as evidence of literature QA",
+    "device_sync": "not_tested"
+  },
+  "limitations": [
+    "2017 and 2021: bibliographic records and abstracts only; no PDF or SI read.",
+    "2023: bibliographic record, abstract and main figure captions read in PubMed; figure pixels not inspected, no full-text reading claimed.",
+    "Science publisher returned 403; HAL access denied; PMC later returned browser challenge; no bypass attempted."
+  ],
+  "recovery_events": [
+    {
+      "operation": "update_ref",
+      "candidate_commit": "6259f5afaef7f31ab52923ab2b1f6f4935a169b2",
+      "error_code": "UNKNOWN",
+      "error": "GitHub GraphQL execution failed, request EC68:2AA445:7755E:18B37D:6AE7D3B2",
+      "recovery": "Read current head and all targets; all targets still missing. Rebuilt same frozen payloads on current tree preserving concurrent English writes, non-force expected-head update succeeded."
+    }
+  ]
+}
