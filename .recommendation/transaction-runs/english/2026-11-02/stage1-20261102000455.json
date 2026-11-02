@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-11-02",
+  "attempt": "stage1",
+  "recorded_at_utc": "2026-11-02T00:04:55.643Z",
+  "original_bundle_sha256": "8dcf4a412ef40d05ef9cb34da6413528c15676f253e3ab4ea1588834e7a59916",
+  "original_plan_sha256": "28eae6f467856bbd8b6d51feb69318624c06581c609fd8efc1f9236e1e819565",
+  "prepared_creation_commit": "4c80c0454c98123126a88779bb4df189d9ec6578",
+  "planner_before_apply": {
+    "status": "ready_to_resume",
+    "operation_id": "english:2026-11-02",
+    "bundle_sha256": "8dcf4a412ef40d05ef9cb34da6413528c15676f253e3ab4ea1588834e7a59916",
+    "github_writes_performed": 0,
+    "content_qa": "not_evaluated",
+    "plan_sha256": "28eae6f467856bbd8b6d51feb69318624c06581c609fd8efc1f9236e1e819565",
+    "next_stage": 1,
+    "decisions": [
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "50-courses/English/Daily/2026-11-02.md",
+        "stage": 1,
+        "action": "create",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": null,
+        "target_sha": "da6519252123f9f5b6b2478e25c8f43d3412389d"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "50-courses/English/Translation/2026-11-02.md",
+        "stage": 1,
+        "action": "create",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": null,
+        "target_sha": "e79e42cebaeb9d40daa4f5ebc4d49b7f5cc98123"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "50-courses/English/Vocabulary/2026-11-02.md",
+        "stage": 1,
+        "action": "create",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": null,
+        "target_sha": "ae4ba575e7cd43d939b8218deed61a2359d95300"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": ".recommendation/history/english.jsonl",
+        "stage": 1,
+        "action": "update",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": "48901a2cc1dda32f94f128ea70c385612098cebe",
+        "target_sha": "65e42fbcfe0364fe70dc400da5006e2801649d43"
+      }
+    ]
+  },
+  "stage": 1,
+  "repository": "ZJFILOVE/obsidian-vault",
+  "publication_commit": "2f2ef117607ce3333fa258c3023c4601b5702c9f",
+  "parent_commit": "ae5b44a16557be8ec02f9f834ce1ed4bd26c006c",
+  "tree_sha": "e5cb9e8ca0527a7b8cc4edeab3e16128a0184e71",
+  "ref_update": {
+    "branch": "main",
+    "expected_sha": "ae5b44a16557be8ec02f9f834ce1ed4bd26c006c",
+    "force": false,
+    "observed_head_after": "2f2ef117607ce3333fa258c3023c4601b5702c9f"
+  },
+  "readbacks": {
+    "50-courses/English/Daily/2026-11-02.md": {
+      "sha": "da6519252123f9f5b6b2478e25c8f43d3412389d",
+      "bytes": 8674,
+      "byte_exact": true
+    },
+    "50-courses/English/Translation/2026-11-02.md": {
+      "sha": "e79e42cebaeb9d40daa4f5ebc4d49b7f5cc98123",
+      "bytes": 9018,
+      "byte_exact": true
+    },
+    "50-courses/English/Vocabulary/2026-11-02.md": {
+      "sha": "ae4ba575e7cd43d939b8218deed61a2359d95300",
+      "bytes": 8414,
+      "byte_exact": true
+    },
+    ".recommendation/history/english.jsonl": {
+      "sha": "65e42fbcfe0364fe70dc400da5006e2801649d43",
+      "bytes": 14491,
+      "byte_exact": true
+    }
+  },
+  "outcome": "stage_applied_and_all_frozen_targets_read_back_byte_exact"
+}
