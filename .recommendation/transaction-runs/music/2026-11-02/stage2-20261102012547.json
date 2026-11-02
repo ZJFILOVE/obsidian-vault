@@ -1,0 +1,30 @@
+{
+  "operation_id": "music:2026-11-02",
+  "original_bundle_digest": "edf0435186bf473149c45c58b1cf0d4fb77c84e06e1e7ef82e9461e0b3d741f4",
+  "stage": 2,
+  "applied": {
+    "repo": "ZJFILOVE/obsidian-vault",
+    "commit": "1c993c0d6e2e92c6b0518f7107f8771d49b078b7",
+    "parent": "d34bf69bc376fa3b6352c81f831c4980dc3f124c",
+    "tree": "39ba79bca53b0d77d75e46df59adc2b7499ed6c5",
+    "readbacks": {
+      "Music/Daily/2026-11-02.md": {
+        "sha": "a8d01e99a48b0bca24024b970c6b88103cb0d493",
+        "bytes": 10406,
+        "byte_exact": true
+      },
+      "Music/Daily/manifests/2026-11-02.json": {
+        "sha": "be969586eb651c2593a2d3b2a9c1dff1caae6eb1",
+        "bytes": 9225,
+        "byte_exact": true
+      },
+      "Music/Daily/state/tracks.json": {
+        "sha": "1c3b6b34f01da2da92267aeb1a4a52da79c21207",
+        "bytes": 28143,
+        "byte_exact": true
+      }
+    }
+  },
+  "prepared_creation_commit": "b527ebc4b774381675e71fff5b9f16bcb54282ad",
+  "errors": []
+}
