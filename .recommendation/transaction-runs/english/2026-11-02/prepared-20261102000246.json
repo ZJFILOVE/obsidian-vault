@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-11-02",
+  "attempt": "prepared",
+  "recorded_at_utc": "2026-11-02T00:02:46.264Z",
+  "prepared_path": ".recommendation/transactions/english/2026-11-02.json",
+  "prepared_creation_commit": "4c80c0454c98123126a88779bb4df189d9ec6578",
+  "prepared_blob_sha": "d36dbcd6a79c57c929f2e9d367877219453d172c",
+  "prepared_tree_sha": "fb7ce1abb5d78b9c82bae16751cef1c2bf4dc1a0",
+  "prepared_parent_commit": "908e71d1361b4ac8ead96d8482ca7bb1f5891009",
+  "original_bundle_sha256": "8dcf4a412ef40d05ef9cb34da6413528c15676f253e3ab4ea1588834e7a59916",
+  "original_plan_sha256": "28eae6f467856bbd8b6d51feb69318624c06581c609fd8efc1f9236e1e819565",
+  "prepared_readback": {
+    "blob_sha": "d36dbcd6a79c57c929f2e9d367877219453d172c",
+    "bytes": 44115,
+    "byte_exact": true
+  },
+  "notes": [
+    "Immutable PREPARED bundle created and read back before publication targets were changed.",
+    "Selection and payloads must be resumed from this original bundle on retry."
+  ]
+}
