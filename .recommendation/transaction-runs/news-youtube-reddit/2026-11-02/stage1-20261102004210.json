@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-11-02",
+  "at_utc": "20261102004210",
+  "stage": 1,
+  "original_bundle_digest": "02749c2b9d4e45b83519635c8531929e506ecde924fd29368dcf1692a581d911",
+  "prepared_creation_commit": "dc7d6c38d74ff0e725f2efea6f34abb03b99bf3c",
+  "prepared_evidence_path": ".recommendation/transaction-runs/news-youtube-reddit/2026-11-02/prepared-20261102004127.json",
+  "planner": {
+    "status": "ready_to_resume",
+    "operation_id": "news-youtube-reddit:2026-11-02",
+    "bundle_sha256": "02749c2b9d4e45b83519635c8531929e506ecde924fd29368dcf1692a581d911",
+    "github_writes_performed": 0,
+    "content_qa": "not_evaluated",
+    "plan_sha256": "4444579130d11e9f48b4f6d11da4ff2f3877909923ec1c79d0988840ded5d7d5",
+    "next_stage": 1,
+    "decisions": [
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "News/Daily/2026-11-02.md",
+        "stage": 1,
+        "action": "create",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": null,
+        "target_sha": "f7bbf5ec3c55ea5a8b6f2d453587cac6b505178a"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Resources/YouTube/Daily/2026-11-02.md",
+        "stage": 1,
+        "action": "create",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": null,
+        "target_sha": "ebf3abc1d2df79ac8f18e7728a5413d229276c1c"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Resources/Reddit/Daily/2026-11-02.md",
+        "stage": 1,
+        "action": "create",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": null,
+        "target_sha": "add5e0805fe7fb0f8ef7c1a893ea5e3e4fbfde34"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": ".recommendation/history/youtube.jsonl",
+        "stage": 1,
+        "action": "update",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": "d04628fa4bf21388e7826d5cccc9f8973016e852",
+        "target_sha": "f82e05e3494394201a438258eab1fde60f027d38"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": ".recommendation/history/reddit.jsonl",
+        "stage": 1,
+        "action": "update",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": "f6f1cf0884b5f64739dd9c08249e8bec57aaa029",
+        "target_sha": "0351a22c6a129e9243cabbdbc93f10d1b9e2823b"
+      }
+    ]
+  },
+  "applied": {
+    "commit": "c2be76af12753bcb04671afed487e62b52a79947",
+    "parent": "8b61e438ead240a1e28a7b0ae7c4f5ff3143a877",
+    "tree": "f9c9358be01fc8707e5710e5c7f2a8adce8696d1",
+    "head_after": "c2be76af12753bcb04671afed487e62b52a79947",
+    "readbacks": {
+      "News/Daily/2026-11-02.md": {
+        "sha": "f7bbf5ec3c55ea5a8b6f2d453587cac6b505178a",
+        "bytes": 5549,
+        "byte_exact": true
+      },
+      "Resources/YouTube/Daily/2026-11-02.md": {
+        "sha": "ebf3abc1d2df79ac8f18e7728a5413d229276c1c",
+        "bytes": 6391,
+        "byte_exact": true
+      },
+      "Resources/Reddit/Daily/2026-11-02.md": {
+        "sha": "add5e0805fe7fb0f8ef7c1a893ea5e3e4fbfde34",
+        "bytes": 10203,
+        "byte_exact": true
+      },
+      ".recommendation/history/youtube.jsonl": {
+        "sha": "f82e05e3494394201a438258eab1fde60f027d38",
+        "bytes": 49636,
+        "byte_exact": true
+      },
+      ".recommendation/history/reddit.jsonl": {
+        "sha": "0351a22c6a129e9243cabbdbc93f10d1b9e2823b",
+        "bytes": 85117,
+        "byte_exact": true
+      }
+    }
+  },
+  "errors": []
+}
