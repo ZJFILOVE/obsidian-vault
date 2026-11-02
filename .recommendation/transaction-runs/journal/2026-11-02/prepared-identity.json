@@ -1,0 +1,13 @@
+{
+  "schema_version": "journal-receipt-v1",
+  "operation_id": "journal:2026-11-02",
+  "recorded_at_utc": "2026-11-02T00:04:59.141Z",
+  "prepared_path": ".recommendation/transactions/journal/2026-11-02.json",
+  "prepared_creation_commit": "48f9da89a2b72b9d841dd37fce9be3c2dafe5fc4",
+  "prepared_blob_sha": "b4fefbe9f785cb0657b60ff0dc6b38019cc8b0ad",
+  "original_bundle_sha256": "118ae4101699ba7c4146a03c68ab74dd2e192b09ed482e5d91aef3f358b4a7a7",
+  "original_plan_sha256": "15a524fc7713ee98808addabfacb6ce91f5d3e8da06737f6d90cf32821580d45",
+  "prepared_readback_exact": true,
+  "existing_validators": "not_applicable_journal_unsupported",
+  "target_baselines": "all_confirmed_absent"
+}
