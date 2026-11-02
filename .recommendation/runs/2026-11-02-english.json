@@ -1,0 +1,527 @@
+{
+  "schema_version": 2,
+  "operation_id": "english:2026-11-02",
+  "date": "2026-11-02",
+  "component": "weekday",
+  "status": "passed_current_publication_gates",
+  "recorded_at_utc": "2026-11-02T00:06:43.453Z",
+  "selection": {
+    "candidate_pool_count": 10,
+    "minimum_required": 8,
+    "candidates": [
+      {
+        "url": "https://www.bl.uk/stories/blogs/posts/re-enactments-authentic-history-or-just-dressing-up",
+        "title": "Re-enactments: authentic history or 'just dressing up'?",
+        "source": "British Library",
+        "topic": "public history / oral history",
+        "minutes": "10-13",
+        "selected": true,
+        "score": {
+          "quality": 9.2,
+          "usefulness": 9.3,
+          "curiosity": 9.1,
+          "novelty": 9,
+          "fit": 9.2
+        },
+        "evidence": "Official page directly read; title, author, date, interview corpus, research-revision example and synthesis observed.",
+        "reason": "Distinct recent topic; rich evidence taxonomy and usable argument structure."
+      },
+      {
+        "url": "https://www.bl.uk/stories/blogs/posts/revealing-the-hidden-story-of-paper",
+        "title": "Revealing the hidden story of paper",
+        "source": "British Library",
+        "topic": "paper conservation / watermarks",
+        "minutes": "6-8",
+        "selected": false,
+        "score": {
+          "quality": 9,
+          "usefulness": 8.5,
+          "curiosity": 9,
+          "novelty": 8.7,
+          "fit": 8.8
+        },
+        "evidence": "Search result exposed official title, author/date, transmitted-light method and database context.",
+        "reason": "Strong but conservation/material-history angle slightly overlaps recent photocopy/document themes."
+      },
+      {
+        "url": "https://americanhistory.si.edu/explore/stories/new-cart-gives-visitors-hands-experience-conservation-museum",
+        "title": "A new cart gives visitors hands-on experience with conservation at the museum",
+        "source": "Smithsonian National Museum of American History",
+        "topic": "museum conservation / public engagement",
+        "minutes": "5-7",
+        "selected": false,
+        "score": {
+          "quality": 8.8,
+          "usefulness": 8.7,
+          "curiosity": 8.7,
+          "novelty": 8.2,
+          "fit": 8.6
+        },
+        "evidence": "Official search result described the handling cart, educational objects and conservation principle of preserving evidence of wear.",
+        "reason": "Good material, but public-engagement and conservation scope narrower than selected source."
+      },
+      {
+        "url": "https://science.nasa.gov/astrobiology/learning-resources/alp/are-we-really-made-of-star-stuff/",
+        "title": "Are we really made of star stuff?",
+        "source": "NASA Science",
+        "topic": "element formation / astrobiology",
+        "minutes": "10-15",
+        "selected": false,
+        "score": {
+          "quality": 8.9,
+          "usefulness": 8.3,
+          "curiosity": 9.3,
+          "novelty": 8.6,
+          "fit": 8.4
+        },
+        "evidence": "Official page directly read; explanation spans primordial elements, stellar nucleosynthesis and open questions.",
+        "reason": "Engaging but page mixes multiple grade bands and duplicated teaching text, making a clean 10-minute route less efficient."
+      },
+      {
+        "url": "https://science.nasa.gov/humans-in-space/human-related-microbes-may-survive-moons-south-pole-nasa-finds/",
+        "title": "Human-Related Microbes May Survive Moon’s South Pole, NASA Finds",
+        "source": "NASA Science",
+        "topic": "microbial persistence / lunar exploration",
+        "minutes": "5",
+        "selected": false,
+        "score": {
+          "quality": 8.8,
+          "usefulness": 8.6,
+          "curiosity": 9.2,
+          "novelty": 9,
+          "fit": 8.4
+        },
+        "evidence": "Official search result identified 5-minute article and Aug. 19, 2026 Science Advances study context.",
+        "reason": "Strong science candidate, but recent week already used a research-summary evidence audit."
+      },
+      {
+        "url": "https://science.nasa.gov/eclips/videos/the-nature-of-science/",
+        "title": "Real World: The Nature of Science",
+        "source": "NASA Science",
+        "topic": "nature of science / evidence revision",
+        "minutes": "video length unverified",
+        "selected": false,
+        "score": {
+          "quality": 8.5,
+          "usefulness": 8.7,
+          "curiosity": 7.8,
+          "novelty": 7.5,
+          "fit": 7.4
+        },
+        "evidence": "Official page directly read with title, description and discussion prompts, but duration/playback not verified.",
+        "reason": "Rejected because required 5–15 minute input duration could not be verified from the observed page."
+      },
+      {
+        "url": "https://www.nesdis.noaa.gov/about/k-12-education/resources-teachers/what-science",
+        "title": "What is Science?",
+        "source": "NOAA NESDIS",
+        "topic": "scientific method / prediction",
+        "minutes": "4-6",
+        "selected": false,
+        "score": {
+          "quality": 8.3,
+          "usefulness": 8.4,
+          "curiosity": 7.7,
+          "novelty": 7.2,
+          "fit": 7.8
+        },
+        "evidence": "Official page directly read; contrasts stepwise school method with observation, explanation and prediction.",
+        "reason": "Useful but shorter and more introductory than target level."
+      },
+      {
+        "url": "https://sanctuaries.noaa.gov/education/evaluation/basics.html",
+        "title": "Education Project Evaluation - Some Basics",
+        "source": "NOAA Office of National Marine Sanctuaries",
+        "topic": "program evaluation / outcomes",
+        "minutes": "7-10",
+        "selected": false,
+        "score": {
+          "quality": 8.7,
+          "usefulness": 9,
+          "curiosity": 7.8,
+          "novelty": 8,
+          "fit": 8.7
+        },
+        "evidence": "Official page directly read; defines evaluation, distinguishes outputs/outcomes and states decision purposes.",
+        "reason": "Highly useful but methodology theme is close to last week’s repeated evidence-and-study-design work."
+      },
+      {
+        "url": "https://science.nasa.gov/dark-energy/",
+        "title": "What is Dark Energy? Inside Our Accelerating, Expanding Universe",
+        "source": "NASA Science / JPL",
+        "topic": "cosmology / competing explanations",
+        "minutes": "12-15",
+        "selected": false,
+        "score": {
+          "quality": 9,
+          "usefulness": 8.8,
+          "curiosity": 9.4,
+          "novelty": 8.8,
+          "fit": 8.5
+        },
+        "evidence": "Official page directly read; evidence chain, multiple hypotheses, mission outlook and explicit dark-matter distinction observed.",
+        "reason": "Excellent but dense; several time-sensitive mission statements would require additional update notes for a short daily lesson."
+      },
+      {
+        "url": "https://www.nationalarchives.gov.uk/education/students/study-resources/working-with-records/",
+        "title": "Working with sources",
+        "source": "The National Archives (UK)",
+        "topic": "primary sources / provenance",
+        "minutes": "5-8",
+        "selected": false,
+        "score": {
+          "quality": 8.6,
+          "usefulness": 8.9,
+          "curiosity": 7.6,
+          "novelty": 7.3,
+          "fit": 8.5
+        },
+        "evidence": "Official search result exposed primary-source definition and document-question framework.",
+        "reason": "Solid skills page, but selected source provides a more concrete, arguable case while still teaching provenance."
+      }
+    ],
+    "selected": {
+      "source_url": "https://www.bl.uk/stories/blogs/posts/re-enactments-authentic-history-or-just-dressing-up",
+      "title": "Re-enactments: authentic history or 'just dressing up'?",
+      "source": "British Library"
+    },
+    "scoring_note": "Compared quality, usefulness, curiosity, novelty and fit; penalized recent topic similarity, unclear duration and weaker direct evidence.",
+    "diversity": {
+      "recent_narrow_topic_repeat": false,
+      "reason": "Public history and oral-history interpretation differs from the recent photocopy, platform design, money, weather, wildlife, TV-drama and language-project inputs."
+    },
+    "original_history_check": {
+      "rows": 55,
+      "unique_urls": 55,
+      "exact_url_repeat": false,
+      "normalized_title_repeat": false
+    },
+    "prepared_reservation_check": {
+      "records_read": 53,
+      "exact_url_repeat": false
+    }
+  },
+  "source_verification": {
+    "before_publication": {
+      "method": "direct_official_web_page_read",
+      "observed_at_utc": "2026-11-02T00:00:57.177Z",
+      "url": "https://www.bl.uk/stories/blogs/posts/re-enactments-authentic-history-or-just-dressing-up",
+      "final_url": "https://www.bl.uk/stories/blogs/posts/re-enactments-authentic-history-or-just-dressing-up",
+      "title": "Re-enactments: authentic history or 'just dressing up'?",
+      "author": "Molly May Sherborne",
+      "published": "2026-07-13",
+      "content_observations": [
+        "1996-97 oral-history interviews recorded by Rachel Hasted for an MA dissertation",
+        "16 initial interviews; 12 archived and digitised at the British Library",
+        "article distinguishes prepared comparative questions from flexible follow-up",
+        "new inventory evidence prompted revision of a re-enacted character's economic background",
+        "personal experience entered character narratives; author treats authenticity and imaginative play as a contested boundary"
+      ],
+      "access_scope": "Official HTML body and embedded transcript text read. Embedded audio full playback not tested; page says analytics and marketing cookies are required.",
+      "caveats": [
+        "External current participation count was not independently checked and is not used as a teaching fact.",
+        "Participant anecdotes are treated as oral-history accounts, not general proof."
+      ]
+    },
+    "after_publication": {
+      "method": "direct_official_web_page_read",
+      "observed_at_utc": "2026-11-02T00:06:43.453Z",
+      "title_author_date_identity_match": true,
+      "content_identity_match": true,
+      "official_page_url": "https://www.bl.uk/stories/blogs/posts/re-enactments-authentic-history-or-just-dressing-up",
+      "scope": "HTML body and embedded transcript text re-read; full SoundCloud playback not tested."
+    },
+    "factual_claim_scope": "Institutional page facts and article structure verified. Participant statements remain labeled oral-history accounts; external participation-count source was not independently verified and is not a teaching claim.",
+    "copyright": "Links, summaries, brief phrases and original exercises only; no long article or transcript reproduction."
+  },
+  "publication_bundle": {
+    "prepared_path": ".recommendation/transactions/english/2026-11-02.json",
+    "prepared_creation_commit": "4c80c0454c98123126a88779bb4df189d9ec6578",
+    "prepared_blob_sha": "d36dbcd6a79c57c929f2e9d367877219453d172c",
+    "prepared_receipt": {
+      "path": ".recommendation/transaction-runs/english/2026-11-02/prepared-20261102000246.json",
+      "blob": "10779c532e92d84ff21c38755cfa49c6294811f3",
+      "commit": "ae5b44a16557be8ec02f9f834ce1ed4bd26c006c",
+      "parent": "4c80c0454c98123126a88779bb4df189d9ec6578",
+      "tree": "b60127f3e5f47ab14a01de2bf72dcc4f6f47b60c",
+      "readback_exact": true
+    },
+    "original_bundle_sha256": "8dcf4a412ef40d05ef9cb34da6413528c15676f253e3ab4ea1588834e7a59916",
+    "original_plan_sha256": "28eae6f467856bbd8b6d51feb69318624c06581c609fd8efc1f9236e1e819565",
+    "target_count": 4,
+    "planner_before_apply": {
+      "status": "ready_to_resume",
+      "operation_id": "english:2026-11-02",
+      "bundle_sha256": "8dcf4a412ef40d05ef9cb34da6413528c15676f253e3ab4ea1588834e7a59916",
+      "github_writes_performed": 0,
+      "content_qa": "not_evaluated",
+      "plan_sha256": "28eae6f467856bbd8b6d51feb69318624c06581c609fd8efc1f9236e1e819565",
+      "next_stage": 1,
+      "decisions": [
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Daily/2026-11-02.md",
+          "stage": 1,
+          "action": "create",
+          "reason": "observed baseline matches frozen plan",
+          "expected_sha": null,
+          "target_sha": "da6519252123f9f5b6b2478e25c8f43d3412389d"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Translation/2026-11-02.md",
+          "stage": 1,
+          "action": "create",
+          "reason": "observed baseline matches frozen plan",
+          "expected_sha": null,
+          "target_sha": "e79e42cebaeb9d40daa4f5ebc4d49b7f5cc98123"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Vocabulary/2026-11-02.md",
+          "stage": 1,
+          "action": "create",
+          "reason": "observed baseline matches frozen plan",
+          "expected_sha": null,
+          "target_sha": "ae4ba575e7cd43d939b8218deed61a2359d95300"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/english.jsonl",
+          "stage": 1,
+          "action": "update",
+          "reason": "observed baseline matches frozen plan",
+          "expected_sha": "48901a2cc1dda32f94f128ea70c385612098cebe",
+          "target_sha": "65e42fbcfe0364fe70dc400da5006e2801649d43"
+        }
+      ]
+    },
+    "planner_after_apply": {
+      "status": "artifacts_match",
+      "operation_id": "english:2026-11-02",
+      "bundle_sha256": "8dcf4a412ef40d05ef9cb34da6413528c15676f253e3ab4ea1588834e7a59916",
+      "github_writes_performed": 0,
+      "content_qa": "not_evaluated",
+      "plan_sha256": "28eae6f467856bbd8b6d51feb69318624c06581c609fd8efc1f9236e1e819565",
+      "next_stage": null,
+      "decisions": [
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Daily/2026-11-02.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "da6519252123f9f5b6b2478e25c8f43d3412389d"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Translation/2026-11-02.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "e79e42cebaeb9d40daa4f5ebc4d49b7f5cc98123"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Vocabulary/2026-11-02.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "ae4ba575e7cd43d939b8218deed61a2359d95300"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/english.jsonl",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "48901a2cc1dda32f94f128ea70c385612098cebe",
+          "target_sha": "65e42fbcfe0364fe70dc400da5006e2801649d43"
+        }
+      ]
+    }
+  },
+  "publication": {
+    "commit": "2f2ef117607ce3333fa258c3023c4601b5702c9f",
+    "parent": "ae5b44a16557be8ec02f9f834ce1ed4bd26c006c",
+    "tree": "e5cb9e8ca0527a7b8cc4edeab3e16128a0184e71",
+    "stage_receipt": {
+      "path": ".recommendation/transaction-runs/english/2026-11-02/stage1-20261102000455.json",
+      "blob": "c4a6fc9a60058cc8afd733b9c19211ff5de63181",
+      "commit": "f64429a94d13f8e8c713dc96b81c3f3bb0f35132",
+      "parent": "48f9da89a2b72b9d841dd37fce9be3c2dafe5fc4",
+      "tree": "d65e34909c1baaccd9fbf7bb4d5745e927a98bd8",
+      "readback_exact": true
+    },
+    "readbacks": {
+      "50-courses/English/Daily/2026-11-02.md": {
+        "sha": "da6519252123f9f5b6b2478e25c8f43d3412389d",
+        "bytes": 8674,
+        "byte_exact": true
+      },
+      "50-courses/English/Translation/2026-11-02.md": {
+        "sha": "e79e42cebaeb9d40daa4f5ebc4d49b7f5cc98123",
+        "bytes": 9018,
+        "byte_exact": true
+      },
+      "50-courses/English/Vocabulary/2026-11-02.md": {
+        "sha": "ae4ba575e7cd43d939b8218deed61a2359d95300",
+        "bytes": 8414,
+        "byte_exact": true
+      },
+      ".recommendation/history/english.jsonl": {
+        "sha": "65e42fbcfe0364fe70dc400da5006e2801649d43",
+        "bytes": 14491,
+        "byte_exact": true
+      }
+    },
+    "history": {
+      "rows": 56,
+      "uniqueUrls": 56,
+      "exactToday": 1,
+      "prefix_preserved": true
+    },
+    "intervening_unrelated_commit": {
+      "sha": "48f9da89a2b72b9d841dd37fce9be3c2dafe5fc4",
+      "message": "Prepare immutable Journal selection for 2026-11-02",
+      "english_targets_changed": false
+    }
+  },
+  "teaching_qa": {
+    "daily": {
+      "authentic_input": true,
+      "estimated_minutes": "10-13",
+      "first_pass": true,
+      "second_pass": true,
+      "output_task": true,
+      "questions": 3,
+      "source_caveats": true
+    },
+    "translation": {
+      "independently_authored_exercises": 2,
+      "levels": [
+        "CET-6",
+        "TOEFL/academic"
+      ],
+      "folded_answer_callouts": true,
+      "source_paraphrases": 0,
+      "structure_collocation_transfer_error_notes": true,
+      "precision_rewrite": true,
+      "spaced_review_sentences": 2
+    },
+    "vocabulary": {
+      "items": 8,
+      "meanings_collocations_examples_word_families_contrasts": true,
+      "etymology_claims": 0,
+      "retrieval_quiz": true
+    },
+    "crosslinks_complete": true,
+    "auto_markers_valid": true,
+    "manual_notes_outside_markers": true,
+    "diet_content_in_repository": false,
+    "automated_content_checks": {
+      "candidate_pool_min": true,
+      "candidate_pool_count": 10,
+      "selected_url_not_in_original_history": true,
+      "selected_url_not_in_prepared_reservations": true,
+      "selected_title_not_semantic_history_duplicate": true,
+      "exact_prepared_inputs_read": 53,
+      "required_current_inputs_complete": true,
+      "history_original_rows": 55,
+      "history_original_unique_urls": 55,
+      "history_append_prefix": true,
+      "history_final_exact_once": true,
+      "markers": true,
+      "crosslinks": true,
+      "daily_source_url": true,
+      "translation_exercises": true,
+      "translation_folded_answers": true,
+      "translation_independence": true,
+      "vocabulary_count": true,
+      "vocabulary_quiz": true,
+      "no_diet_repository_content": true,
+      "copyright_boundary": true,
+      "recent_topic_diversity": "selected public-history/oral-history case differs from 2026-10-26..30 photocopy/platform design/money/weather/wildlife and 2026-10-31..11-01 TV/language topics"
+    }
+  },
+  "validators": {
+    "local_repository_validator": {
+      "command": "python3 scripts/validate_daily_recommendations.py",
+      "status": "passed",
+      "summary": "youtube=5, reddit=10, english=1, music=5 in pinned minimal validation snapshot using complete permanent histories"
+    },
+    "local_unit_tests": {
+      "command": "python3 -m unittest discover -s scripts -p 'test_*.py'",
+      "status": "passed",
+      "tests": 125
+    },
+    "exact_publication_commit_ci": {
+      "run_id": 41365089535,
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/41365089535",
+      "status": "completed",
+      "conclusion": "success",
+      "job_id": 125023441104,
+      "job_conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+          "conclusion": "success"
+        },
+        {
+          "name": "Validate publications and full source-history coverage",
+          "conclusion": "success"
+        },
+        {
+          "name": "Negative regressions and interrupted-publication recovery",
+          "conclusion": "success"
+        },
+        {
+          "name": "Compare permanent history with the actual base commit",
+          "conclusion": "success"
+        },
+        {
+          "name": "Record scope of checks",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ],
+      "observed_results": {
+        "english_history_rows": 56,
+        "english_unique_sources": 56,
+        "immutable_bundles": 54,
+        "append_only": "passed_against_actual_base"
+      }
+    },
+    "structural_scope": "CI is read-only structure/history/bundle validation; live-source and teaching-quality checks are recorded separately above."
+  },
+  "unrelated_concurrent_backlog": {
+    "commit": "48f9da89a2b72b9d841dd37fce9be3c2dafe5fc4",
+    "later_run_id": 41365227094,
+    "later_run_url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/41365227094",
+    "conclusion": "failure",
+    "cause": "Concurrent Journal PREPARED record uses a journal-specific envelope rejected by the existing publication_bundle journal scan.",
+    "impact_on_english": "No English target blob changed; exact English publication commit CI 41365089535 passed before the unrelated Journal record entered the branch.",
+    "action": "Recorded as unrelated backlog; English payloads and history were not replaced or weakened."
+  },
+  "not_verified": [
+    "Full embedded audio playback",
+    "China-mainland audio accessibility",
+    "Local Obsidian device synchronization",
+    "Notification delivery"
+  ],
+  "conclusion": "All applicable current English selection, source identity, teaching content, history, frozen-bundle, publication readback and exact-publication-commit CI gates passed."
+}
