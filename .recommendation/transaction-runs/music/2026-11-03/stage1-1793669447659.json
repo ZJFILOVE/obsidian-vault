@@ -1,0 +1,25 @@
+{
+  "operation_id": "music:2026-11-03",
+  "original_bundle_digest": "f4a2a1f7553e4b565ad5efa2faec4406c51e7964495130af69f06aa2749f64a8",
+  "recorded_at_utc": "2026-11-03T01:30:47.659Z",
+  "status": "stage1_committed_and_read_back",
+  "stage": 1,
+  "result": {
+    "commit": "9cbfa3857e0753068fa1099bf28c8ea3246d4782",
+    "parent": "b4a55933232fb30b506f48e947025af8c51d282f",
+    "tree": "a1cb360529599f0e32c4c33c0e1afac787da29f7",
+    "readbacks": {
+      "recommendations/2026/11/2026-11-03.json": {
+        "sha": "960b07f0b51caf7c97b71f8eeee066761231d486",
+        "bytes": 10227,
+        "exact_utf8": true
+      },
+      "state/tracks.json": {
+        "sha": "2307d3a9529981845b81bab541d7711b2c9d01df",
+        "bytes": 28846,
+        "exact_utf8": true
+      }
+    }
+  },
+  "errors": []
+}
