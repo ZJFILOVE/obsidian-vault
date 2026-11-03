@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-03",
+  "operation_id": "english:2026-11-03",
+  "mode": "new_publication",
+  "recorded_at_utc": "2026-11-03T00:15:43Z",
+  "selection": {
+    "source_url": "https://curious.science.org.au/people-medicine/how-you-can-improve-your-memory",
+    "title": "How you can improve your memory",
+    "source": "Australian Academy of Science / Curious",
+    "component": "daily",
+    "estimated_source_time": "7-10 minutes",
+    "difficulty": "CET-6 / introductory TOEFL"
+  },
+  "original_preselection_history": {
+    "head_commit": "79d19eb56d95e33b4fcf473390e8cb1cdf24e435",
+    "blob_sha": "65e42fbcfe0364fe70dc400da5006e2801649d43",
+    "rows": 56,
+    "unique_urls": 56,
+    "complete_read": true,
+    "freshness_result": "selected URL absent from original history and all 57 PREPARED reservations read before selection"
+  },
+  "candidate_pool": {
+    "required_minimum": 8,
+    "actual_count": 11,
+    "all_real_observed_urls": true,
+    "candidates": [
+      {
+        "position": 1,
+        "url": "https://curious.science.org.au/people-medicine/how-you-can-improve-your-memory",
+        "title": "How you can improve your memory",
+        "source": "Australian Academy of Science",
+        "topic": "memory and learning",
+        "evidence": "Direct page opened; substantive article with expert review and sections on encoding, consolidation, transfer limits, practice and extraordinary memory.",
+        "history_blocked": false,
+        "reservation_blocked": false,
+        "decision": "selected"
+      },
+      {
+        "position": 2,
+        "url": "https://newsinhealth.nih.gov/2025/01/working-out-stay-sharp",
+        "title": "Working Out to Stay Sharp",
+        "source": "NIH News in Health",
+        "topic": "exercise and brain health",
+        "evidence": "Search observation showed a current full NIH article explaining exercise and brain health with concrete advice.",
+        "history_blocked": false,
+        "reservation_blocked": false,
+        "decision": "Good official health input, but broader behavior advice and exercise claims would need more medical-scope caveats than the chosen reading."
+      },
+      {
+        "position": 3,
+        "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/history/food-and-feasting-at-stonehenge/",
+        "title": "Food and Feasting at Stonehenge",
+        "source": "English Heritage",
+        "topic": "archaeology and food",
+        "evidence": "Search observation showed a substantive official page combining daily diet, feasting, travel, cooking and isotope evidence.",
+        "history_blocked": false,
+        "reservation_blocked": false,
+        "decision": "Strong candidate, rejected because archaeology and interpretation were too close to the immediately preceding public-history lesson."
+      },
+      {
+        "position": 4,
+        "url": "https://science.ised-isde.canada.ca/site/science/en/science-misinformation",
+        "title": "Science Misinformation",
+        "source": "Government of Canada",
+        "topic": "media literacy",
+        "evidence": "Search observation showed an official guide on identifying science misinformation and source signals.",
+        "history_blocked": false,
+        "reservation_blocked": false,
+        "decision": "Useful but too close to the recent sequence of evidence-strength and source-audit lessons."
+      },
+      {
+        "position": 5,
+        "url": "https://curious.science.org.au/technology-future/how-and-why-unboil-egg",
+        "title": "How (and why) to unboil an egg",
+        "source": "Australian Academy of Science",
+        "topic": "food chemistry",
+        "evidence": "Search observation showed a real Academy article on the chemistry and practical significance of protein refolding.",
+        "history_blocked": false,
+        "reservation_blocked": false,
+        "decision": "Real and engaging, but narrower food-chemistry value and weaker general-language transfer than the selected article."
+      },
+      {
+        "position": 6,
+        "url": "https://curious.science.org.au/policy-features/how-does-science-work",
+        "title": "How does science work?",
+        "source": "Australian Academy of Science",
+        "topic": "scientific process",
+        "evidence": "Search observation showed a long Academy explainer on evidence, measurement, publication and peer review.",
+        "history_blocked": false,
+        "reservation_blocked": false,
+        "decision": "High-quality explainer, rejected because scientific-method/evidence framing has appeared repeatedly in the last week."
+      },
+      {
+        "position": 7,
+        "url": "https://www.metmuseum.org/essays/objects-conservation-practice",
+        "title": "Objects Conservation Practice at The Met",
+        "source": "The Metropolitan Museum of Art",
+        "topic": "art conservation",
+        "evidence": "Search observation showed a detailed institutional essay on examination, imaging, environmental control and treatment decisions.",
+        "history_blocked": false,
+        "reservation_blocked": false,
+        "decision": "Substantive but longer and thematically close to preservation and historical interpretation."
+      },
+      {
+        "position": 8,
+        "url": "https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-pollution",
+        "title": "Ocean pollution and marine debris",
+        "source": "NOAA",
+        "topic": "ocean pollution",
+        "evidence": "Search observation showed an official resource page explaining sources, impacts, monitoring and public decisions.",
+        "history_blocked": false,
+        "reservation_blocked": false,
+        "decision": "Official source, but the page is organized primarily as a resource collection and is less cohesive as a 5–15 minute single input."
+      },
+      {
+        "position": 9,
+        "url": "https://blogs.loc.gov/teachers/2020/02/the-role-of-inventions-in-changing-our-daily-lives/",
+        "title": "The Role of Inventions in Changing Our Daily Lives",
+        "source": "Library of Congress",
+        "topic": "technology and society",
+        "evidence": "Search observation showed a real LOC teaching article on how inventions alter jobs, technology and everyday life.",
+        "history_blocked": false,
+        "reservation_blocked": false,
+        "decision": "Real LOC article, rejected because invention-driven social change overlaps the 2026-10-26 photocopier lesson."
+      },
+      {
+        "position": 10,
+        "url": "https://blog.scienceandmediamuseum.org.uk/autochromes-the-dawn-of-colour-photography/",
+        "title": "History of the autochrome",
+        "source": "National Science and Media Museum",
+        "topic": "photography history",
+        "evidence": "Search observation showed a detailed museum article on colour-screen grains, exposure limits and documentary uses.",
+        "history_blocked": false,
+        "reservation_blocked": false,
+        "decision": "Strong museum article, but photography/visual-media history is too close to the 2026-10-26 and 2026-10-27 topics."
+      },
+      {
+        "position": 11,
+        "url": "https://curious.science.org.au/people-medicine/how-memory-develops",
+        "title": "How our memory develops",
+        "source": "Australian Academy of Science",
+        "topic": "memory development",
+        "evidence": "Search observation showed a real Academy article on changes in memory across development.",
+        "history_blocked": false,
+        "reservation_blocked": false,
+        "decision": "Real source but semantic/topic duplicate within this candidate pool and same publisher; permanently excluded for this operation once the selected memory article won."
+      }
+    ]
+  },
+  "diversity": {
+    "recent_topic_cooldown_days": 7,
+    "selected_topic": "memory, learning and transfer",
+    "result": "passed",
+    "reason": "Distinct from the preceding week’s public history, language collaboration, wildlife behavior, weather forecasting, monetary trust, platform-shaped design and copying technology; final source is general-purpose rather than tailored to the user's research interests."
+  },
+  "source_verification": {
+    "prepublication": {
+      "method": "direct_source_page_read",
+      "page_url": "https://curious.science.org.au/people-medicine/how-you-can-improve-your-memory",
+      "title_match": true,
+      "publisher_identity_observed": true,
+      "substantive_body_observed": true,
+      "observations": [
+        "meaningful and personally relevant processing",
+        "multiple verbal, visual, auditory and spatial representations",
+        "sleep and consolidation",
+        "limited cross-task transfer from word-puzzle practice",
+        "focused-practice London taxi-driver example",
+        "HSAM and eidetic-memory limitations",
+        "expert review by Professor Max Coltheart"
+      ],
+      "publication_date_scope": "No first-publication date visible in the page body; none invented.",
+      "linked_studies_independently_audited": false
+    },
+    "postpublication": {
+      "method": "direct_source_page_reread",
+      "verified_at_utc": "2026-11-03T00:15:43Z",
+      "title_match": true,
+      "content_identity_match": true,
+      "page_accessible": true
+    }
+  },
+  "frozen_bundle": {
+    "path": ".recommendation/transactions/english/2026-11-03.json",
+    "bundle_sha256": "bf62515d9daa8a14476915cc4aa7e50fd4f00d01d573f1dadb7f1a81f3de54dd",
+    "plan_sha256": "7a456b482f42411041d1b8557950e9a6e10656239e94c7d0333db65d99156a5e",
+    "creation_commit": "55b9728f0f857c523ef37fcb36c7d9fdf7cd904d",
+    "creation_blob_sha": "b7415cb2ed767b4e20732f3d9a3b9c08248b579a",
+    "exact_readback": true,
+    "prepared_receipt": {
+      "path": ".recommendation/transaction-runs/english/2026-11-03/prepared-20261103T000238Z.json",
+      "commit": "e5b5743665d8bbb673aff840c7f4f2cad475a058",
+      "blob_sha": "42b02a6497c8f540a66b81c332c30913d38bc4a0"
+    }
+  },
+  "publication": {
+    "commit": "a87803321eea09604f59616958883c00c35e1ab9",
+    "parent": "6cd545146313dbf25a15154cb6c87fed0654d9b3",
+    "tree": "be63b74bf4fb27f1705d91112ba8b06d757fea3b",
+    "non_force_expected_head": true,
+    "stage_receipt": {
+      "path": ".recommendation/transaction-runs/english/2026-11-03/stage1-20261103T000325Z.json",
+      "commit": "4deeda3fa63813e4e1efc880047421d61428d00c",
+      "blob_sha": "c2032c3e4c41466d358a9bc85daa35078f99b011"
+    },
+    "readbacks": {
+      "ZJFILOVE/obsidian-vault:50-courses/English/Daily/2026-11-03.md": {
+        "sha": "946b887717e97f5e2cbc7fdd50aab3053e96cca9",
+        "size": 8665,
+        "exact": true
+      },
+      "ZJFILOVE/obsidian-vault:50-courses/English/Translation/2026-11-03.md": {
+        "sha": "78ee76046e8ac4c21dc4e22a108702b65ae00817",
+        "size": 9194,
+        "exact": true
+      },
+      "ZJFILOVE/obsidian-vault:50-courses/English/Vocabulary/2026-11-03.md": {
+        "sha": "30c366f937a9df2e026b8d5883aa568673f0799c",
+        "size": 8486,
+        "exact": true
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/history/english.jsonl": {
+        "sha": "3e6c0a7240427d700d7115fa96b6926151c588bc",
+        "size": 14710,
+        "exact": true
+      }
+    },
+    "recovery_planner_after_write": "artifacts_match"
+  },
+  "history": {
+    "rows_after": 57,
+    "unique_urls_after": 57,
+    "original_prefix_preserved": true,
+    "exact_date_source_registration_count": 1
+  },
+  "content_qa": {
+    "status": "passed",
+    "daily": {
+      "frontmatter": true,
+      "direct_source_url": true,
+      "first_and_second_pass": true,
+      "output_task": true,
+      "questions": 3,
+      "crosslinks": true,
+      "source_caveats": true
+    },
+    "translation": {
+      "independently_authored_exercises": 2,
+      "levels": [
+        "CET-6",
+        "TOEFL/academic"
+      ],
+      "source_paraphrases": 0,
+      "folded_reference_answers": 2,
+      "all_answer_callouts_folded": true,
+      "structure_and_collocation_analysis": true,
+      "transfer_errors": true,
+      "precision_rewrite": true,
+      "spaced_review_sentences": 2
+    },
+    "vocabulary": {
+      "items": 8,
+      "meanings": true,
+      "collocations": true,
+      "examples": true,
+      "word_families": true,
+      "contrasts": true,
+      "retrieval_quiz": true
+    },
+    "copyright": {
+      "long_source_passages_reproduced": false,
+      "lyrics_reproduced": false
+    }
+  },
+  "validation": {
+    "local_strict_validator": "passed — youtube=240, reddit=480, english=51, music=245",
+    "local_integrity": "passed — English history 57/57 unique; music 56 manifests/280 current/288 state; legacy pre-strict YouTube repeats retained",
+    "append_only": "passed by exact original-byte prefix comparison and two-snapshot checker",
+    "bundle_validation": "passed",
+    "recovery_planner": "artifacts_match",
+    "remote_workflow": {
+      "run_id": 41550052482,
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/41550052482",
+      "head_sha": "4deeda3fa63813e4e1efc880047421d61428d00c",
+      "overall": "failure_due_to_unrelated_journal_bundle_format",
+      "publication_validation_step": "passed",
+      "regression_tests": {
+        "status": "passed",
+        "count": 125,
+        "groups": [
+          69,
+          41,
+          15
+        ]
+      },
+      "permanent_history_step": "integrity and append-only checks passed; subsequent global journal audit failed",
+      "actual_failure": "invalid bundle envelope"
+    }
+  },
+  "backlog": [
+    {
+      "scope": "repository-wide unrelated producer",
+      "item": "Journal transaction uses an envelope unsupported by the current three-producer publication_bundle verifier",
+      "evidence": "Global journal audit and exact workflow run 41550052482 end with invalid bundle envelope after English validators/tests/history checks pass",
+      "action": "Retain as separate backlog; do not rewrite old Journal records or weaken validators during an English publication."
+    },
+    {
+      "scope": "historical pre-strict",
+      "item": "Three legacy YouTube duplicate groups remain permanently blocked",
+      "action": "Retain all rows; do not delete history."
+    }
+  ],
+  "not_certified": [
+    "Complete playback or every linked study behind the source page",
+    "local Obsidian device synchronization",
+    "notification delivery"
+  ]
+}
