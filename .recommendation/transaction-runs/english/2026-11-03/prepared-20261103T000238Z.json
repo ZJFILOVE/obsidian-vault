@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-03",
+  "operation_id": "english:2026-11-03",
+  "attempt": "prepared-20261103T000238Z",
+  "recorded_at_utc": "2026-11-03T00:02:38Z",
+  "status": "prepared_bundle_persisted_and_read_back",
+  "prepared": {
+    "path": ".recommendation/transactions/english/2026-11-03.json",
+    "creation_commit": "55b9728f0f857c523ef37fcb36c7d9fdf7cd904d",
+    "blob_sha": "b7415cb2ed767b4e20732f3d9a3b9c08248b579a",
+    "bundle_sha256": "bf62515d9daa8a14476915cc4aa7e50fd4f00d01d573f1dadb7f1a81f3de54dd",
+    "plan_sha256": "7a456b482f42411041d1b8557950e9a6e10656239e94c7d0333db65d99156a5e",
+    "exact_payload_readback": true
+  },
+  "original_history": {
+    "head_commit": "79d19eb56d95e33b4fcf473390e8cb1cdf24e435",
+    "rows": 56,
+    "unique_source_urls": 56,
+    "history_blob_sha": "65e42fbcfe0364fe70dc400da5006e2801649d43"
+  },
+  "candidate_pool": {
+    "count": 11,
+    "minimum": 8,
+    "candidates": [
+      {
+        "position": 1,
+        "url": "https://curious.science.org.au/people-medicine/how-you-can-improve-your-memory",
+        "title": "How you can improve your memory",
+        "source": "Australian Academy of Science",
+        "topic": "memory and learning",
+        "evidence": "Direct page opened; substantive article with expert review and sections on encoding, consolidation, transfer limits, practice and extraordinary memory.",
+        "history_blocked": false,
+        "reservation_blocked": false
+      },
+      {
+        "position": 2,
+        "url": "https://newsinhealth.nih.gov/2025/01/working-out-stay-sharp",
+        "title": "Working Out to Stay Sharp",
+        "source": "NIH News in Health",
+        "topic": "exercise and brain health",
+        "evidence": "Search observation showed a current full NIH article explaining exercise and brain health with concrete advice.",
+        "history_blocked": false,
+        "reservation_blocked": false
+      },
+      {
+        "position": 3,
+        "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/history/food-and-feasting-at-stonehenge/",
+        "title": "Food and Feasting at Stonehenge",
+        "source": "English Heritage",
+        "topic": "archaeology and food",
+        "evidence": "Search observation showed a substantive official page combining daily diet, feasting, travel, cooking and isotope evidence.",
+        "history_blocked": false,
+        "reservation_blocked": false
+      },
+      {
+        "position": 4,
+        "url": "https://science.ised-isde.canada.ca/site/science/en/science-misinformation",
+        "title": "Science Misinformation",
+        "source": "Government of Canada",
+        "topic": "media literacy",
+        "evidence": "Search observation showed an official guide on identifying science misinformation and source signals.",
+        "history_blocked": false,
+        "reservation_blocked": false
+      },
+      {
+        "position": 5,
+        "url": "https://curious.science.org.au/technology-future/how-and-why-unboil-egg",
+        "title": "How (and why) to unboil an egg",
+        "source": "Australian Academy of Science",
+        "topic": "food chemistry",
+        "evidence": "Search observation showed a real Academy article on the chemistry and practical significance of protein refolding.",
+        "history_blocked": false,
+        "reservation_blocked": false
+      },
+      {
+        "position": 6,
+        "url": "https://curious.science.org.au/policy-features/how-does-science-work",
+        "title": "How does science work?",
+        "source": "Australian Academy of Science",
+        "topic": "scientific process",
+        "evidence": "Search observation showed a long Academy explainer on evidence, measurement, publication and peer review.",
+        "history_blocked": false,
+        "reservation_blocked": false
+      },
+      {
+        "position": 7,
+        "url": "https://www.metmuseum.org/essays/objects-conservation-practice",
+        "title": "Objects Conservation Practice at The Met",
+        "source": "The Metropolitan Museum of Art",
+        "topic": "art conservation",
+        "evidence": "Search observation showed a detailed institutional essay on examination, imaging, environmental control and treatment decisions.",
+        "history_blocked": false,
+        "reservation_blocked": false
+      },
+      {
+        "position": 8,
+        "url": "https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-pollution",
+        "title": "Ocean pollution and marine debris",
+        "source": "NOAA",
+        "topic": "ocean pollution",
+        "evidence": "Search observation showed an official resource page explaining sources, impacts, monitoring and public decisions.",
+        "history_blocked": false,
+        "reservation_blocked": false
+      },
+      {
+        "position": 9,
+        "url": "https://blogs.loc.gov/teachers/2020/02/the-role-of-inventions-in-changing-our-daily-lives/",
+        "title": "The Role of Inventions in Changing Our Daily Lives",
+        "source": "Library of Congress",
+        "topic": "technology and society",
+        "evidence": "Search observation showed a real LOC teaching article on how inventions alter jobs, technology and everyday life.",
+        "history_blocked": false,
+        "reservation_blocked": false
+      },
+      {
+        "position": 10,
+        "url": "https://blog.scienceandmediamuseum.org.uk/autochromes-the-dawn-of-colour-photography/",
+        "title": "History of the autochrome",
+        "source": "National Science and Media Museum",
+        "topic": "photography history",
+        "evidence": "Search observation showed a detailed museum article on colour-screen grains, exposure limits and documentary uses.",
+        "history_blocked": false,
+        "reservation_blocked": false
+      },
+      {
+        "position": 11,
+        "url": "https://curious.science.org.au/people-medicine/how-memory-develops",
+        "title": "How our memory develops",
+        "source": "Australian Academy of Science",
+        "topic": "memory development",
+        "evidence": "Search observation showed a real Academy article on changes in memory across development.",
+        "history_blocked": false,
+        "reservation_blocked": false
+      }
+    ]
+  },
+  "selection": {
+    "url": "https://curious.science.org.au/people-medicine/how-you-can-improve-your-memory",
+    "title": "How you can improve your memory",
+    "reason": "Directly readable expert-reviewed science explainer with a complete encoding-consolidation-transfer-evidence chain; distinct from the preceding seven days of public history, weather, money, wildlife, design and language topics."
+  },
+  "source_verification": {
+    "observed_at_utc": "2026-11-03T00:02:38Z",
+    "method": "direct_source_page_read",
+    "page_url": "https://curious.science.org.au/people-medicine/how-you-can-improve-your-memory",
+    "observed_title": "How you can improve your memory",
+    "publisher": "Australian Academy of Science / Curious",
+    "observed_content": [
+      "meaningful and personally relevant processing",
+      "multiple verbal, visual, auditory and spatial representations",
+      "sleep and memory consolidation",
+      "limited transfer from word-puzzle practice",
+      "London taxi-driver focused-practice example",
+      "HSAM and eidetic-memory evidence limits",
+      "expert review by Max Coltheart"
+    ],
+    "page_accessible": true,
+    "full_linked_study_audit": false
+  },
+  "concurrency_note": "An unrelated Journal PREPARED commit landed after this bundle; all English baselines and this immutable bundle were rechecked before rebasing the receipt."
+}
