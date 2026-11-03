@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-03",
+  "operation_id": "english:2026-11-03",
+  "attempt": "stage1-20261103T000325Z",
+  "recorded_at_utc": "2026-11-03T00:03:25Z",
+  "status": "stage_applied_and_read_back",
+  "bundle_sha256": "bf62515d9daa8a14476915cc4aa7e50fd4f00d01d573f1dadb7f1a81f3de54dd",
+  "plan_sha256": "7a456b482f42411041d1b8557950e9a6e10656239e94c7d0333db65d99156a5e",
+  "prepared_creation_commit": "55b9728f0f857c523ef37fcb36c7d9fdf7cd904d",
+  "prepared_receipt_commit": "e5b5743665d8bbb673aff840c7f4f2cad475a058",
+  "stage": 1,
+  "publication": {
+    "commit": "a87803321eea09604f59616958883c00c35e1ab9",
+    "parent": "6cd545146313dbf25a15154cb6c87fed0654d9b3",
+    "tree": "be63b74bf4fb27f1705d91112ba8b06d757fea3b",
+    "expected_head_update": {
+      "force": false,
+      "expected_sha": "6cd545146313dbf25a15154cb6c87fed0654d9b3"
+    },
+    "readbacks": {
+      "ZJFILOVE/obsidian-vault:50-courses/English/Daily/2026-11-03.md": {
+        "blob_sha": "946b887717e97f5e2cbc7fdd50aab3053e96cca9",
+        "exact_utf8": true,
+        "bytes": 8665
+      },
+      "ZJFILOVE/obsidian-vault:50-courses/English/Translation/2026-11-03.md": {
+        "blob_sha": "78ee76046e8ac4c21dc4e22a108702b65ae00817",
+        "exact_utf8": true,
+        "bytes": 9194
+      },
+      "ZJFILOVE/obsidian-vault:50-courses/English/Vocabulary/2026-11-03.md": {
+        "blob_sha": "30c366f937a9df2e026b8d5883aa568673f0799c",
+        "exact_utf8": true,
+        "bytes": 8486
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/history/english.jsonl": {
+        "blob_sha": "3e6c0a7240427d700d7115fa96b6926151c588bc",
+        "exact_utf8": true,
+        "bytes": 14710
+      }
+    }
+  },
+  "planner": {
+    "status": "ready_to_resume",
+    "next_stage": 1
+  },
+  "errors": []
+}
