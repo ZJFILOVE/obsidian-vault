@@ -1,0 +1,30 @@
+{
+  "operation_id": "music:2026-11-03",
+  "original_bundle_digest": "f4a2a1f7553e4b565ad5efa2faec4406c51e7964495130af69f06aa2749f64a8",
+  "recorded_at_utc": "2026-11-03T01:31:16.137Z",
+  "status": "stage2_committed_and_read_back",
+  "stage": 2,
+  "result": {
+    "commit": "3d084daa305c2bc1761d9f4080387792b569e51c",
+    "parent": "aae7c553d748825d9c8f1606640de83591770ca9",
+    "tree": "c9dcaf329e0452a27903ccaff63e8ed35d751443",
+    "readbacks": {
+      "Music/Daily/2026-11-03.md": {
+        "sha": "8fdd072e443a8db1ac43215ab05aa16dc4614bed",
+        "bytes": 11609,
+        "exact_utf8": true
+      },
+      "Music/Daily/manifests/2026-11-03.json": {
+        "sha": "960b07f0b51caf7c97b71f8eeee066761231d486",
+        "bytes": 10227,
+        "exact_utf8": true
+      },
+      "Music/Daily/state/tracks.json": {
+        "sha": "2307d3a9529981845b81bab541d7711b2c9d01df",
+        "bytes": 28846,
+        "exact_utf8": true
+      }
+    }
+  },
+  "errors": []
+}
