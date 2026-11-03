@@ -4,6 +4,7 @@ tags: [journal]
 ---
 # Journal 文献精选
 <!-- AUTO:START -->
+- [[00-inbox/Journal/2026-11-04|2026-11-04 · DrBphP：从皮秒口袋响应到全长输出]] — 3 篇；精读 Claesson et al. 2020。
 - [[00-inbox/Journal/2026-11-03|2026-11-03 · 从骨架到功能：RFdiffusion、ProteinMPNN 与荧光素酶]] — 3 篇；精读 Yeh et al. 2023。
 - [[00-inbox/Journal/2026-11-02|2026-11-02 · FAP：从光化学证据到催化调控]] — 3 篇；精读 Samire et al. 2023；阅读范围见日记。
 <!-- AUTO:END -->

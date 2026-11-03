@@ -1,0 +1,36 @@
+{
+  "schema_version": "journal-receipt-v1",
+  "operation_id": "journal:2026-11-04",
+  "recorded_at_utc": "2026-11-03T23:58:58.568Z",
+  "prepared_path": ".recommendation/transactions/journal/2026-11-04.json",
+  "prepared_creation_commit": "6142c78e780e41787497e3a9cd44aa1b542f8d61",
+  "prepared_blob_sha": "fb9e61ed812995ba9ded85ef677a95df2485c364",
+  "original_plan_sha256": "c899a751b8eb5ba17b9b88b80f31ab2a08e6601720496c43fffa28666a1ba21a",
+  "original_bundle_sha256": "3b75765a2550179eb57dd371fd971b2ac5dc2470985c5891e6d869829d97a473",
+  "prepared_readback_exact": true,
+  "baseline_check": "fresh original SHAs match",
+  "original_targets": [
+    {
+      "repository": "ZJFILOVE/obsidian-vault",
+      "path": "00-inbox/Journal/2026-11-04.md",
+      "base_sha": null,
+      "target_sha": "495010bd19336f6dcf2fcdca1d72257045311726",
+      "stage": 1
+    },
+    {
+      "repository": "ZJFILOVE/obsidian-vault",
+      "path": "00-inbox/Journal/Index.md",
+      "base_sha": "3124a30115b5c82a311e0abd58a7be8c4c4dfbcf",
+      "target_sha": "0e8e1b289e73698e1c62f68146b84585b849b8cd",
+      "stage": 1
+    },
+    {
+      "repository": "ZJFILOVE/obsidian-vault",
+      "path": ".recommendation/history/journal.jsonl",
+      "base_sha": "41320fa491cec63e8bcf2a5f5cd7579e0d547f4f",
+      "target_sha": "33482b7d27e361f4e386ec6a725dc2bcb1b1e2d1",
+      "stage": 1
+    }
+  ],
+  "existing_validators": "journal explicitly unsupported; separate checks performed"
+}
