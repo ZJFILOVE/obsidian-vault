@@ -1,0 +1,531 @@
+{
+  "operation_id": "music:2026-11-03",
+  "recorded_at_utc": "2026-11-03T01:30:14.749Z",
+  "status": "PREPARED_read_back",
+  "original_bundle_digest": "f4a2a1f7553e4b565ad5efa2faec4406c51e7964495130af69f06aa2749f64a8",
+  "original_plan_digest": "b136ae72fcc8998c00a401654b0054206e2e7be9cbf8006da45cd5fe6d3357be",
+  "prepared": {
+    "commit": "f16f6ba009f19bc1176ace1a776409b880e8c3c9",
+    "parent": "829aebc197ab65840efca7f73db1be3c540257e0",
+    "tree": "10be9578552d5e3e44d78aae757554d18b135e3a",
+    "readbacks": {
+      ".recommendation/transactions/music/2026-11-03.json": {
+        "sha": "be4123ef02ab544285b8166c81cceb2211530b10",
+        "bytes": 98808,
+        "exact_utf8": true
+      }
+    }
+  },
+  "evidence": {
+    "operation_id": "music:2026-11-03",
+    "candidate_count": 51,
+    "candidates": [
+      {
+        "song_id": "1477555215",
+        "observed_url": "https://music.apple.com/us/song/1477555215",
+        "observed_title_line": "‎Confessions - Song with Lyrics by Sudan Archives - Apple Music",
+        "actual_search_evidence": "‎Confessions - Song with Lyrics by Sudan Archives - Apple Music (https://music.apple.com/us/song/1477555215)\n【turn754search0】 [wordlim: 200] Published: 7.2 years ago; Crawled: last month; Image: Confessions song by Sudan Archives ... ## Music Videos\n\nImage\n\nImage: Confessions song by Sudan Archives\n\n# Confessions\n\nAthena Sudan Archives August 28, 2019\n\nPreview\n\n## Music Videos\n\n  * Image\n\nConfessions\n\nSudan Archives\n",
+        "decision": "selected: exact CN recording verified; no original history or reservation repeat; distinct musical role",
+        "title": "Confessions",
+        "artist": "Sudan Archives",
+        "album": "Athena",
+        "cn_url": "https://music.apple.com/cn/song/1477555215"
+      },
+      {
+        "song_id": "1057569834",
+        "observed_url": "https://music.apple.com/us/song/1057569834",
+        "observed_title_line": "‎Odd Elegy - Song by Dhafer Youssef - Apple Music",
+        "actual_search_evidence": "‎Odd Elegy - Song by Dhafer Youssef - Apple Music (https://music.apple.com/us/song/1057569834)\n【turn754search2】 [wordlim: 200] Published: 17.8 years ago; Crawled: last month; Image: Odd Elegy song by Dhafer Youssef\n\nImage\n\nImage: Odd Elegy song by Dhafer Youssef\n\n# Odd Elegy\n\nAbu Navas Rhapsody Dhafer Youssef January 1, 2009\n\nPreview\n",
+        "decision": "selected: exact CN recording verified; no original history or reservation repeat; distinct musical role",
+        "title": "Odd Elegy",
+        "artist": "Dhafer Youssef",
+        "album": "Abu Navas Rhapsody",
+        "cn_url": "https://music.apple.com/cn/song/1057569834"
+      },
+      {
+        "song_id": "1614813816",
+        "observed_url": "https://music.apple.com/us/song/1614813816",
+        "observed_title_line": "‎Come On Let's Go - Song with Lyrics by Broadcast - Apple Music",
+        "actual_search_evidence": "‎Come On Let's Go - Song with Lyrics by Broadcast - Apple Music (https://music.apple.com/us/song/1614813816)\n【turn754search3】 [wordlim: 200] Published: 30.9 years ago; Crawled: last month; Open in Music ... Image: Come On Let's Go song by Broadcast\n\nOpen in Music\n\nImage\n\nImage: Come On Let's Go song by Broadcast\n\n# Come On Let's Go\n\nMaida Vale Sessions Broadcast January 1, 1996\n\nPreview\n\n## Music Videos\n\n  * Image\n\nCome On Let's Go\n\nBroadcast\n\n  * Image\n\nCome On Let's Go\n\nBroadcast\n\n## More By Broadcast\n\n  * Image: Tender Buttons\n\nTender Buttons\n\nTender Buttons\n\n  * Image: The Noise Made By People\n\nThe Noise Made By People\n\nThe Noise Made By People\n\n  * Image: Haha Sound\n\nHaha Sound\n\nHaha Sound\n\n  * Image: Work and Non Work\n\nWork and Non Work\n\nWork and Non Work\n\n  * Image: Distant Call - Collected Demos 2000 - 2006\n\nDistant Call - Collected Demos 2000 - 2006\n\nDistant Call - Collected Demos 2000 - 2006\n\n  * Image: Broadcast and the Focus Group Investigate Witch Cults of the Radio Age\n\nBroadcast and the Focus Group Investigate Witch Cults of the Radio Age\n\nBroadcast and the Focus Group Investigate Witch Cults of the Radio Age\n\n  * Image: Maida Vale Sessions\n\nMaida Vale Sessions\n\nMaida Vale Sessions",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "305111617",
+        "observed_url": "https://music.apple.com/us/song/305111617",
+        "observed_title_line": "‎Come On Let's Go - Song by Broadcast - Apple Music",
+        "actual_search_evidence": "‎Come On Let's Go - Song by Broadcast - Apple Music (https://music.apple.com/us/song/305111617)\n【turn754search4】 [wordlim: 200] Published: 26.6 years ago; Crawled: 2 months ago; Image: Come On Let's Go song by Broadcast ... ## Music Videos\n\nImage\n\nImage: Come On Let's Go song by Broadcast\n\n# Come On Let's Go\n\nCome On Let's Go - EP Broadcast March 20, 2000\n\nPreview\n\n## Music Videos\n\n  * Image\n\nCome On Let's Go\n\nBroadcast\n\n  * Image\n\nCome On Let's Go\n\nBroadcast\n\n## More By Broadcast\n\n  * Image: Tender Buttons\n\nTender Buttons\n\nTender Buttons\n\n  * Image: The Noise Made By People\n\nThe Noise Made By People\n\nThe Noise Made By People\n\n  * Image: Work and Non Work\n\nWork and Non Work\n\nWork and Non Work\n\n  * Image: Haha Sound\n\nHaha Sound\n\nHaha Sound\n\n  * Image: The Future Crayon\n\nThe Future Crayon\n\nThe Future Crayon\n\n  * Image: Broadcast and the Focus Group Investigate Witch Cults of the Radio Age\n\nBroadcast and the Focus Group Investigate Witch Cults of the Radio Age\n\nBroadcast and the Focus Group Investigate Witch Cults of the Radio Age\n\n  * Image: Maida Vale Sessions\n\nMaida Vale Sessions\n\nMaida Vale Sessions\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "282547698",
+        "observed_url": "https://music.apple.com/us/song/282547698",
+        "observed_title_line": "‎Come On Let's Go - Song with Lyrics by Broadcast - Apple Music",
+        "actual_search_evidence": "‎Come On Let's Go - Song with Lyrics by Broadcast - Apple Music (https://music.apple.com/us/song/282547698)\n【turn754search5】 [wordlim: 200] Published: 26.6 years ago; Crawled: last month; Image: Come On Let's Go song by Broadcast ... ## Music Videos\n\nImage\n\nImage: Come On Let's Go song by Broadcast\n\n# Come On Let's Go\n\nThe Noise Made By People Broadcast March 20, 2000\n\n\n## Music Videos\n\n  * Image\n\nCome On Let's Go\n\nBroadcast\n\n  * Image\n\nCome On Let's Go\n\nBroadcast\n\n## More By Broadcast\n\n  * Image: Tender Buttons\n\nTender Buttons\n\nTender Buttons\n\n  * Image: The Noise Made By People\n\nThe Noise Made By People\n\nThe Noise Made By People\n\n  * Image: Work and Non Work\n\nWork and Non Work\n\nWork and Non Work\n\n  * Image: Haha Sound\n\nHaha Sound\n\nHaha Sound\n\n  * Image: The Future Crayon\n\nThe Future Crayon\n\nThe Future Crayon\n\n  * Image: Broadcast and the Focus Group Investigate Witch Cults of the Radio Age\n\nBroadcast and the Focus Group Investigate Witch Cults of the Radio Age\n\nBroadcast and the Focus Group Investigate Witch Cults of the Radio Age\n\n  * Image: Maida Vale Sessions\n\nMaida Vale Sessions\n\nMaida Vale Sessions",
+        "decision": "selected: exact CN recording verified; no original history or reservation repeat; distinct musical role",
+        "title": "Come On Let's Go",
+        "artist": "Broadcast",
+        "album": "The Noise Made By People",
+        "cn_url": "https://music.apple.com/cn/song/282547698"
+      },
+      {
+        "song_id": "1451199413",
+        "observed_url": "https://music.apple.com/us/song/1451199413",
+        "observed_title_line": "‎Ambre - Song with Lyrics by Nils Frahm - Apple Music",
+        "actual_search_evidence": "‎Ambre - Song with Lyrics by Nils Frahm - Apple Music (https://music.apple.com/us/song/1451199413)\n【turn754search6】 [wordlim: 200] Published: 16.9 years ago; Crawled: last month; Image: Ambre song by Nils Frahm\n\nImage\n\nImage: Ambre song by Nils Frahm\n\n# Ambre\n\nErased Tapes Collection II Nils Frahm December 7, 2009\n\nPreview",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1451164643",
+        "observed_url": "https://music.apple.com/us/song/1451164643",
+        "observed_title_line": "‎Ambre - Song with Lyrics by Nils Frahm - Apple Music",
+        "actual_search_evidence": "‎Ambre - Song with Lyrics by Nils Frahm - Apple Music (https://music.apple.com/us/song/1451164643)\n【turn754search8】 [wordlim: 200] Published: 16.9 years ago; Crawled: last month; Open in Music ... Image: Ambre song by Nils Frahm\n\nOpen in Music\n\nImage\n\nImage: Ambre song by Nils Frahm\n\n# Ambre\n\nWintermusik - EP Nils Frahm December 7, 2009\n\nPreview",
+        "decision": "selected: exact CN recording verified; no original history or reservation repeat; distinct musical role",
+        "title": "Ambre",
+        "artist": "尼尔斯・弗拉姆",
+        "album": "Wintermusik - EP",
+        "cn_url": "https://music.apple.com/cn/song/1451164643"
+      },
+      {
+        "song_id": "305111624",
+        "observed_url": "https://music.apple.com/us/song/305111624",
+        "observed_title_line": "‎Locusts - Song with Lyrics by Broadcast - Apple Music",
+        "actual_search_evidence": "‎Locusts - Song with Lyrics by Broadcast - Apple Music (https://music.apple.com/us/song/305111624)\n【turn754search14】 [wordlim: 200] Published: 26.5 years ago; Crawled: last month; Image: Locusts song by Broadcast ... Come On Let's Go - EP Broadcast May 22, 2000\n\nImage\n\nImage: Locusts song by Broadcast\n\n# Locusts\n\nCome On Let's Go - EP Broadcast May 22, 2000\n\nPreview",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "305111687",
+        "observed_url": "https://music.apple.com/us/song/305111687",
+        "observed_title_line": "‎Chord Simple - Song with Lyrics by Broadcast - Apple Music",
+        "actual_search_evidence": "‎Chord Simple - Song with Lyrics by Broadcast - Apple Music (https://music.apple.com/us/song/305111687)\n【turn754search15】 [wordlim: 200] Published: 14.6 years ago; Crawled: 3 weeks ago; Image: Chord Simple song by Broadcast ... Come On Let's Go - EP Broadcast March 26, 2012\n\nImage\n\nImage: Chord Simple song by Broadcast\n\n# Chord Simple\n\nCome On Let's Go - EP Broadcast March 26, 2012\n\nPreview",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1143150107",
+        "observed_url": "https://music.apple.com/us/album/diving-in-the-air/1143150107?i=1143150595",
+        "observed_title_line": "‎Diving in the Air - Song with Lyrics by Dhafer Youssef - Apple Music",
+        "actual_search_evidence": "‎Diving in the Air - Song with Lyrics by Dhafer Youssef - Apple Music (https://music.apple.com/us/album/diving-in-the-air/1143150107?i=1143150595)\n【turn754search19】 [wordlim: 200] Published: 10.1 years ago; Crawled: last month; # Diwan of Beauty and Odd\n\nDhafer Youssef ... Song ... Under exclusive license to Sony Music Entertainment\n\n# Diwan of Beauty and Odd\n\nDhafer Youssef\n\nJazz · 2016\n\nTunisia's oud ace perfects a signature bricolage of Sufi poetry and elemental jazz.\n\nPreview\n\nSong\n\nTime\n\n1\n\nFly Shadow Fly\n\n[Button: PREVIEW]\n\n5:17\n\n2\n\nOf Beauty & Odd\n\n[Button: PREVIEW]\n\n6:59\n\n3\n\nDelightfully Odd\n\n[Button: PREVIEW]\n\n6:45\n\n4\n\nAl-Akhtal Rhapsody, Pt. I\n\n[Button: PREVIEW]\n\n5:57\n\n5\n\nAl-Akhtal Rhapsody, Pt. II\n\n[Button: PREVIEW]\n\n1:55\n\n6\n\nAl-Akhtal Rhapsody, Pt. III\n\n[Button: PREVIEW]\n\n3:48\n\n7\n\nLonging & Saltation Journey\n\n[Button: PREVIEW]\n\n6:45\n\n8\n\nCheerful Meshuggah\n\n[Button: PREVIEW]\n\n4:51\n\n9\n\n17th Flyways\n\n[Button: PREVIEW]\n\n6:05\n\n10\n\nOde \"Melancholia\"\n\n[Button: PREVIEW]\n\n3:36\n\n11\n\nDiving in the Air\n\n[Button: PREVIEW]\n\n4:17\n\nSeptember 16, 2016 11 songs, 56 minutes ℗ 2016 Dhafer Youssef. Under exclusive license to Sony Music Entertainment",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1786134195",
+        "observed_url": "https://music.apple.com/us/song/1786134195",
+        "observed_title_line": "‎Odd Elegy (Live Izmir) - Song by Dhafer Youssef - Apple Music",
+        "actual_search_evidence": "‎Odd Elegy (Live Izmir) - Song by Dhafer Youssef - Apple Music (https://music.apple.com/us/song/1786134195)\n【turn754search20】 [wordlim: 200] Published: 1.9 years ago; Crawled: last month; Image: Odd Elegy (Live Izmir) song by Dhafer Youssef\n\nImage\n\nImage: Odd Elegy (Live Izmir) song by Dhafer Youssef\n\n# Odd Elegy (Live Izmir)\n\nIzmir Concert (Live 2013) Dhafer Youssef December 20, 2024\n\nPreview",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1621391670",
+        "observed_url": "https://music.apple.com/us/song/1621391670",
+        "observed_title_line": "‎Come on Let's Go - Song with Lyrics by Rocky Sharpe & The Replays - Apple Music",
+        "actual_search_evidence": "‎Come on Let's Go - Song with Lyrics by Rocky Sharpe & The Replays - Apple Music (https://music.apple.com/us/song/1621391670)\n【turn754search23】 [wordlim: 200] Published: 35.0 years ago; Crawled: last month; # Come on Let's Go\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1636715835",
+        "observed_url": "https://music.apple.com/us/song/1636715835",
+        "observed_title_line": "‎Odd Poetry - Song with Lyrics by Dhafer Youssef - Apple Music",
+        "actual_search_evidence": "‎Odd Poetry - Song with Lyrics by Dhafer Youssef - Apple Music (https://music.apple.com/us/song/1636715835)\n【turn754search27】 [wordlim: 200] Published: 20.9 years ago; Crawled: last month; # Odd Poetry\n\nDivine Shadows Dhafer Youssef January 1, 2006\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1143150227",
+        "observed_url": "https://music.apple.com/us/song/1143150227",
+        "observed_title_line": "‎Of Beauty & Odd - Song by Dhafer Youssef - Apple Music",
+        "actual_search_evidence": "‎Of Beauty & Odd - Song by Dhafer Youssef - Apple Music (https://music.apple.com/us/song/1143150227)\n【turn754search31】 [wordlim: 200] Published: 10.1 years ago; Crawled: last month; Image: Of Beauty & Odd song by Dhafer Youssef\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "6814581394",
+        "observed_url": "https://music.apple.com/us/song/6814581394",
+        "observed_title_line": "‎Come On/Let's Go (Live & Very Direct) - Song with Lyrics by Paul Weller - Apple Music",
+        "actual_search_evidence": "‎Come On/Let's Go (Live & Very Direct) - Song with Lyrics by Paul Weller - Apple Music (https://music.apple.com/us/song/6814581394)\n【turn754search35】 [wordlim: 200] Published: last month; Crawled: last month; Image: Come On/Let's Go (Live & Very Direct) song by Paul Weller\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "466357979",
+        "observed_url": "https://music.apple.com/us/song/466357979",
+        "observed_title_line": "‎Come On, Let's Go - Song with Lyrics by Ritchie Valens - Apple Music",
+        "actual_search_evidence": "‎Come On, Let's Go - Song with Lyrics by Ritchie Valens - Apple Music (https://music.apple.com/us/song/466357979)\n【turn754search36】 [wordlim: 200] Published: 68.3 years ago; Crawled: last month; Image: Come On, Let's Go song by Ritchie Valens\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1143150234",
+        "observed_url": "https://music.apple.com/us/song/1143150234",
+        "observed_title_line": "‎Delightfully Odd - Song by Dhafer Youssef - Apple Music",
+        "actual_search_evidence": "‎Delightfully Odd - Song by Dhafer Youssef - Apple Music (https://music.apple.com/us/song/1143150234)\n【turn754search37】 [wordlim: 200] Published: 10.1 years ago; Crawled: last month; Image: Delightfully Odd song by Dhafer Youssef\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1631632657",
+        "observed_url": "https://music.apple.com/us/song/1631632657",
+        "observed_title_line": "‎#513 - Song by Sudan Archives - Apple Music",
+        "actual_search_evidence": "‎#513 - Song by Sudan Archives - Apple Music (https://music.apple.com/us/song/1631632657)\n【turn754search41】 [wordlim: 200] Published: 4.2 years ago; Crawled: last month; Image: #513 song by Sudan Archives\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1758420162",
+        "observed_url": "https://music.apple.com/us/song/1758420162",
+        "observed_title_line": "‎أنا السودان - Song by إبراهيم الكاشف - Apple Music",
+        "actual_search_evidence": "‎أنا السودان - Song by إبراهيم الكاشف - Apple Music (https://music.apple.com/us/song/1758420162)\n【turn754search42】 [wordlim: 200] Published: 2.3 years ago; Crawled: 3 months ago; Image: أنا السودان song by إبراهيم الكاشف\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1820510347",
+        "observed_url": "https://music.apple.com/us/song/1820510347",
+        "observed_title_line": "‎NOIRE - Song with Lyrics by Sudan Archives - Apple Music",
+        "actual_search_evidence": "‎NOIRE - Song with Lyrics by Sudan Archives - Apple Music (https://music.apple.com/us/song/1820510347)\n【turn754search43】 [wordlim: 200] Published: last year; Crawled: last month; Image: NOIRE song by Sudan Archives\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1827125540",
+        "observed_url": "https://music.apple.com/us/song/1827125540",
+        "observed_title_line": "‎SUDAN - Song with Lyrics by Rachid Goudi - Apple Music",
+        "actual_search_evidence": "‎SUDAN - Song with Lyrics by Rachid Goudi - Apple Music (https://music.apple.com/us/song/1827125540)\n【turn754search44】 [wordlim: 200] Published: 1.3 years ago; Crawled: last month; # SUDAN\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1609540531",
+        "observed_url": "https://music.apple.com/us/song/1609540531",
+        "observed_title_line": "‎Home Maker - Song by Sudan Archives - Apple Music",
+        "actual_search_evidence": "‎Home Maker - Song by Sudan Archives - Apple Music (https://music.apple.com/us/song/1609540531)\n【turn754search45】 [wordlim: 200] Published: 4.6 years ago; Crawled: 5 months ago; Home Maker - Single Sudan Archives March 16, 2022 ... ## Music Videos\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1609540522",
+        "observed_url": "https://music.apple.com/us/song/1609540522",
+        "observed_title_line": "‎Home Maker (Edit) - Song with Lyrics by Sudan Archives - Apple Music",
+        "actual_search_evidence": "‎Home Maker (Edit) - Song with Lyrics by Sudan Archives - Apple Music (https://music.apple.com/us/song/1609540522)\n【turn754search47】 [wordlim: 200] Published: 4.6 years ago; Crawled: last month; Image: Home Maker (Edit) song by Sudan Archives\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1299241646",
+        "observed_url": "https://music.apple.com/us/song/1299241646",
+        "observed_title_line": "‎August 10 - Song with Lyrics by Khruangbin - Apple Music",
+        "actual_search_evidence": "‎August 10 - Song with Lyrics by Khruangbin - Apple Music (https://music.apple.com/us/song/1299241646)\n【turn755search0】 [wordlim: 200] Published: 8.8 years ago; Crawled: last month; # August 10\n\nCon Todo El Mundo Khruangbin January 26, 2018\n\n# August 10\n\nCon Todo El Mundo Khruangbin January 26, 2018\n\nPreview",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "726477377",
+        "observed_url": "https://music.apple.com/us/song/726477377",
+        "observed_title_line": "‎Bongo Bong - Song with Lyrics by Manu Chao - Apple Music",
+        "actual_search_evidence": "‎Bongo Bong - Song with Lyrics by Manu Chao - Apple Music (https://music.apple.com/us/song/726477377)\n【turn755search2】 [wordlim: 200] Published: 24.1 years ago; Crawled: last month; Image: Bongo Bong song by Manu Chao\n\nImage\n\nImage: Bongo Bong song by Manu Chao\n\n# Bongo Bong\n\nRadio Bemba Sound System (Live) Manu Chao September 17, 2002\n\nPreview",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1466244595",
+        "observed_url": "https://music.apple.com/us/song/1466244595",
+        "observed_title_line": "‎Bongo Bong - Song with Lyrics by Manu Chao - Apple Music",
+        "actual_search_evidence": "‎Bongo Bong - Song with Lyrics by Manu Chao - Apple Music (https://music.apple.com/us/song/1466244595)\n【turn755search3】 [wordlim: 200] Published: 28.1 years ago; Crawled: last month; Image: Bongo Bong song by Manu Chao\n\nImage\n\nImage: Bongo Bong song by Manu Chao\n\n# Bongo Bong\n\nClandestino / Bloody Border Manu Chao October 6, 1998\n\nPreview",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1741336273",
+        "observed_url": "https://music.apple.com/us/song/1741336273",
+        "observed_title_line": "‎Bongo Bong - Song with Lyrics by Rene Rodrigezz, Jean Juan & DON SANDRO - Apple Music",
+        "actual_search_evidence": "‎Bongo Bong - Song with Lyrics by Rene Rodrigezz, Jean Juan & DON SANDRO - Apple Music (https://music.apple.com/us/song/1741336273)\n【turn755search4】 [wordlim: 200] Published: 2.5 years ago; Crawled: last month; # Bongo Bong ... Manu Chao\n\n# Bongo Bong\n\nBongo Bong - Single Rene Rodrigezz, Jean Juan, DON SANDRO May 2, 2024\n\n## Performing Artists\n\n  * Image\n\nRene Rodrigezz\n\nPerformer\n\n  * Jean Juan\n\nPerformer\n\n  * Image\n\nDON SANDRO\n\nPerformer\n\n## Composition & Lyrics\n\n  * Image\n\nManu Chao\n\nSongwriter\n\n## Production & Engineering\n\n  * Jean Juan\n\nProducer\n\n  * Image\n\nDON SANDRO\n\nProducer\n\n  * Image\n\nRene Seidl\n\nProducer",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "725493639",
+        "observed_url": "https://music.apple.com/us/song/725493639",
+        "observed_title_line": "‎Bongo Bong - Song with Lyrics by Manu Chao - Apple Music",
+        "actual_search_evidence": "‎Bongo Bong - Song with Lyrics by Manu Chao - Apple Music (https://music.apple.com/us/song/725493639)\n【turn755search5】 [wordlim: 200] Published: 28.1 years ago; Crawled: last month; Image: Bongo Bong song by Manu Chao\n\nImage\n\nImage: Bongo Bong song by Manu Chao\n\n# Bongo Bong\n\nClandestino Manu Chao October 6, 1998\n\nPreview",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "398910391",
+        "observed_url": "https://music.apple.com/us/song/398910391",
+        "observed_title_line": "‎Bongo Bong - Song with Lyrics by Manu Chao - Apple Music",
+        "actual_search_evidence": "‎Bongo Bong - Song with Lyrics by Manu Chao - Apple Music (https://music.apple.com/us/song/398910391)\n【turn755search6】 [wordlim: 200] Published: 26.7 years ago; Crawled: last month; Image: Bongo Bong song by Manu Chao ... The Next Best Thing (Music from the Motion Picture) Manu Chao February 21, 2000\n\nImage\n\nImage: Bongo Bong song by Manu Chao\n\n# Bongo Bong\n\nThe Next Best Thing (Music from the Motion Picture) Manu Chao February 21, 2000\n\nPreview",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1709961154",
+        "observed_url": "https://music.apple.com/us/song/1709961154",
+        "observed_title_line": "‎August 10 / Master of Life (Live at Sydney Opera House) - Song with Lyrics by Khruangbin - Apple Music",
+        "actual_search_evidence": "‎August 10 / Master of Life (Live at Sydney Opera House) - Song with Lyrics by Khruangbin - Apple Music (https://music.apple.com/us/song/1709961154)\n【turn755search7】 [wordlim: 200] Published: 2.9 years ago; Crawled: last month; Image: August 10 / Master of Life (Live at Sydney Opera House) song by Khruangbin\n\nImage\n\nImage: August 10 / Master of Life (Live at Sydney Opera House) song by Khruangbin\n\n# August 10 / Master of Life (Live at Sydney Opera House)\n\nLive at Sydney Opera House Khruangbin December 1, 2023\n\nPreview",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1696117578",
+        "observed_url": "https://music.apple.com/us/song/1696117578",
+        "observed_title_line": "‎August 10 (Live at The Fillmore Miami) - Song with Lyrics by Khruangbin - Apple Music",
+        "actual_search_evidence": "‎August 10 (Live at The Fillmore Miami) - Song with Lyrics by Khruangbin - Apple Music (https://music.apple.com/us/song/1696117578)\n【turn755search9】 [wordlim: 200] Published: 3.1 years ago; Crawled: last month; Image: August 10 (Live at The Fillmore Miami) song by Khruangbin\n\nImage\n\nImage: August 10 (Live at The Fillmore Miami) song by Khruangbin\n\n# August 10 (Live at The Fillmore Miami)\n\nLive at the Fillmore Miami Khruangbin September 22, 2023\n\nPreview",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "745099444",
+        "observed_url": "https://music.apple.com/us/song/745099444",
+        "observed_title_line": "‎Bongo Bong - Song with Lyrics by Manu Chao - Apple Music",
+        "actual_search_evidence": "‎Bongo Bong - Song with Lyrics by Manu Chao - Apple Music (https://music.apple.com/us/song/745099444)\n【turn755search10】 [wordlim: 200] Published: 28.1 years ago; Crawled: last month; # Bongo Bong\n\nClandestino Manu Chao October 6, 1998\n\n# Bongo Bong\n\nClandestino Manu Chao October 6, 1998\n\nPreview",
+        "decision": "selected: exact CN recording verified; no original history or reservation repeat; distinct musical role",
+        "title": "Bongo Bong",
+        "artist": "Manu Chao",
+        "album": "Clandestino",
+        "cn_url": "https://music.apple.com/cn/song/745099444"
+      },
+      {
+        "song_id": "1818996900",
+        "observed_url": "https://music.apple.com/us/song/1818996900",
+        "observed_title_line": "‎Bongo Bong (Extended Mix) - Song with Lyrics by Double Clash & Luca Cassani - Apple Music",
+        "actual_search_evidence": "‎Bongo Bong (Extended Mix) - Song with Lyrics by Double Clash & Luca Cassani - Apple Music (https://music.apple.com/us/song/1818996900)\n【turn755search11】 [wordlim: 200] Published: 1.4 years ago; Crawled: last month; # Bongo Bong (Extended Mix) ... Manu Chao\n\n# Bongo Bong (Extended Mix)\n\nBongo Bong - Single Double Clash, Luca Cassani June 27, 2025\n\nPreview\n\n## Performing Artists\n\n  * Image\n\nDouble Clash\n\nPerformer\n\n  * Image\n\nLuca Cassani\n\nPerformer\n\n## Composition & Lyrics\n\n  * Image\n\nManu Chao\n\nSongwriter\n\n## More By Double Clash & Luca Cassani\n\n  * Bongo Bong (Bush B4 Me Remix) - Single\n\nBongo Bong (Bush B4 Me Remix) - Single\n\n  * Bongo Bong (Bush B4 Me Remix) - Single\n\nBongo Bong (Bush B4 Me Remix) - Single\n\n  * Bongo Bong - Single\n\nBongo Bong - Single\n\n  * Bongo Bong - Single\n\nBongo Bong - Single\n\n  * Make Love - Single\n\nMake Love - Single\n\n  * Talking With Myself - Single\n\nTalking With Myself - Single\n\n  * Sonido - Single\n\nSonido - Single",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1728847549",
+        "observed_url": "https://music.apple.com/us/song/1728847549",
+        "observed_title_line": "‎Bongo Bong (Je ne t'aime plus - Francis Mercier Remix) - Song with Lyrics by Manu Chao - Apple Music",
+        "actual_search_evidence": "‎Bongo Bong (Je ne t'aime plus - Francis Mercier Remix) - Song with Lyrics by Manu Chao - Apple Music (https://music.apple.com/us/song/1728847549)\n【turn755search15】 [wordlim: 200] Published: 3.2 years ago; Crawled: last month; Bongo Bong (Je ne t'aime plus - Francis Mercier Remix) Manu Chao August 25, 2023\n\n# Bongo Bong (Je ne t'aime plus - Francis Mercier Remix)\n\nBongo Bong (Je ne t'aime plus - Francis Mercier Remix) Manu Chao August 25, 2023\n\n## Lyrics\n\nMama was queen of the mambo\n\nPapa was king of the congo\n\nDeep down in the jungle\n\nSign in to View Full Lyrics\n\n# Bongo Bong (Je ne t'aime plus - Francis Mercier Remix)\n\n## Bongo Bong (Je ne t'aime plus - Francis Mercier Remix) · Manu Chao · August 25, 2023\n\n## Performing Artists\n\n  * Image\n\nManu Chao\n\nPerformer\n\n  * Francis Mercier\n\nRemixer\n\n## Composition & Lyrics\n\n  * Image\n\nManu Chao\n\nSongwriter",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1760418394",
+        "observed_url": "https://music.apple.com/us/song/1760418394",
+        "observed_title_line": "‎Bongo Bong (Remix) / Bongoloco (Mixed) - Song with Lyrics by Manu Chao & Bruno Furlan - Apple Music",
+        "actual_search_evidence": "‎Bongo Bong (Remix) / Bongoloco (Mixed) - Song with Lyrics by Manu Chao & Bruno Furlan - Apple Music (https://music.apple.com/us/song/1760418394)\n【turn755search16】 [wordlim: 200] Published: 2.4 years ago; Crawled: last month; Image: Bongo Bong (Remix) / Bongoloco (Mixed) song by Manu Chao & Bruno Furlan\n\nImage: Bongo Bong (Remix) / Bongoloco (Mixed) song by Manu Chao & Bruno Furlan\n\n# Bongo Bong (Remix) / Bongoloco (Mixed)\n\nNo Rules Radio presents: Bruno Furlan at Day Trip (DJ Mix) Manu Chao, Bruno Furlan June 2, 2024\n\n## Performing Artists\n\n  * Image\n\nManu Chao\n\nPerformer\n\n  * Image\n\nBruno Furlan\n\nPerformer\n\n## Composition & Lyrics\n\n  * Image\n\nManu Chao\n\nSongwriter",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1678165004",
+        "observed_url": "https://music.apple.com/us/song/1678165004",
+        "observed_title_line": "‎Bongo Bong (Blond:ish Edit) [Mixed] - Song by Manu Chao - Apple Music",
+        "actual_search_evidence": "‎Bongo Bong (Blond:ish Edit) [Mixed] - Song by Manu Chao - Apple Music (https://music.apple.com/us/song/1678165004)\n【turn755search18】 [wordlim: 200] Published: 3.7 years ago; Crawled: 3 months ago; Image: Bongo Bong (Blond:ish Edit) [Mixed] song by Manu Chao\n\nImage: Bongo Bong (Blond:ish Edit) [Mixed] song by Manu Chao\n\n# Bongo Bong (Blond:ish Edit) [Mixed]\n\nBlond:ish at EDC Mexico 2023: Kinetic Field Stage (DJ Mix) Manu Chao February 26, 2023\n\nPreview\n\n## More By Manu Chao\n\n  * Image: Clandestino\n\nClandestino\n\nClandestino\n\n  * Image: Próxima Estación: Esperanza\n\nPróxima Estación: Esperanza\n\nPróxima Estación: Esperanza\n\n  * Image: Clandestino\n\nClandestino\n\nClandestino\n\n  * Image: Radio Bemba Sound System (Live)\n\nRadio Bemba Sound System (Live)\n\nRadio Bemba Sound System (Live)\n\n  * Image: Me Duele - Single\n\nMe Duele - Single\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1446860845",
+        "observed_url": "https://music.apple.com/cn/song/1446860845",
+        "observed_title_line": "‎我不想说 (电视剧《我们的四十年》插曲) - 由好妹妹 & 黄龄演唱 - Apple Music",
+        "actual_search_evidence": "‎我不想说 (电视剧《我们的四十年》插曲) - 由好妹妹 & 黄龄演唱 - Apple Music (https://music.apple.com/cn/song/1446860845)\n【turn755search31】 [wordlim: 200] Published: 8.0 years ago; Crawled: 3 months ago; Image: 我不想说 (电视剧《我们的四十年》插曲)，由好妹妹 & 黄龄演唱\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1601820065",
+        "observed_url": "https://music.apple.com/cn/song/1601820065",
+        "observed_title_line": "‎故乡的云 (Live) - 由蒋大为 & 黄龄演唱 - Apple Music",
+        "actual_search_evidence": "‎故乡的云 (Live) - 由蒋大为 & 黄龄演唱 - Apple Music (https://music.apple.com/cn/song/1601820065)\n【turn755search32】 [wordlim: 200] Published: 7.1 years ago; Crawled: 4 months ago; Image: 故乡的云 (Live)，由蒋大为 & 黄龄演唱\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1845322404",
+        "observed_url": "https://music.apple.com/us/song/1845322404",
+        "observed_title_line": "‎August Twelve ii - Song with Lyrics by Khruangbin - Apple Music",
+        "actual_search_evidence": "‎August Twelve ii - Song with Lyrics by Khruangbin - Apple Music (https://music.apple.com/us/song/1845322404)\n【turn755search33】 [wordlim: 200] Published: last year; Crawled: last month; # August Twelve ii\n\nThe Universe Smiles Upon You ii Khruangbin November 6, 2025\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1757361964",
+        "observed_url": "https://music.apple.com/us/song/1757361964",
+        "observed_title_line": "‎痒 (Live) - Song by Isabelle Huang & Long Liang - Apple Music",
+        "actual_search_evidence": "‎痒 (Live) - Song by Isabelle Huang & Long Liang - Apple Music (https://music.apple.com/us/song/1757361964)\n【turn755search34】 [wordlim: 200] Published: 2.9 years ago; Crawled: 3 months ago; Image: 痒 (Live) song by Isabelle Huang & Long Liang\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1692423593",
+        "observed_url": "https://music.apple.com/us/song/1692423593",
+        "observed_title_line": "‎Evan Finds the Third Room (Live at RBC Echo Beach) - Song with Lyrics by Khruangbin - Apple Music",
+        "actual_search_evidence": "‎Evan Finds the Third Room (Live at RBC Echo Beach) - Song with Lyrics by Khruangbin - Apple Music (https://music.apple.com/us/song/1692423593)\n【turn755search35】 [wordlim: 200] Published: 3.2 years ago; Crawled: last month; Open in Music ... Image: Evan Finds the Third Room (Live at RBC Echo Beach) song by Khruangbin ... Live at RBC Echo Beach Khruangbin August 11, 2023\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1098176724",
+        "observed_url": "https://music.apple.com/us/song/1098176724",
+        "observed_title_line": "‎August Twelve - Song with Lyrics by Khruangbin - Apple Music",
+        "actual_search_evidence": "‎August Twelve - Song with Lyrics by Khruangbin - Apple Music (https://music.apple.com/us/song/1098176724)\n【turn755search36】 [wordlim: 200] Published: 11.0 years ago; Crawled: last month; Image: August Twelve song by Khruangbin\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1682468992",
+        "observed_url": "https://music.apple.com/us/song/1682468992",
+        "observed_title_line": "‎執一念 (feat. 黄龄) - Song by Seven Kwan - Apple Music",
+        "actual_search_evidence": "‎執一念 (feat. 黄龄) - Song by Seven Kwan - Apple Music (https://music.apple.com/us/song/1682468992)\n【turn755search37】 [wordlim: 200] Published: 3.6 years ago; Crawled: 5 months ago; 黄龄) song by Seven Kwan\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1692423449",
+        "observed_url": "https://music.apple.com/us/song/1692423449",
+        "observed_title_line": "‎Dern Kala (Live at RBC Echo Beach) - Song with Lyrics by Khruangbin - Apple Music",
+        "actual_search_evidence": "‎Dern Kala (Live at RBC Echo Beach) - Song with Lyrics by Khruangbin - Apple Music (https://music.apple.com/us/song/1692423449)\n【turn755search38】 [wordlim: 200] Published: 3.2 years ago; Crawled: last month; Live at RBC Echo Beach Khruangbin August 11, 2023\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1692423455",
+        "observed_url": "https://music.apple.com/us/song/1692423455",
+        "observed_title_line": "‎Lady and Man (Live at RBC Echo Beach) - Song with Lyrics by Khruangbin - Apple Music",
+        "actual_search_evidence": "‎Lady and Man (Live at RBC Echo Beach) - Song with Lyrics by Khruangbin - Apple Music (https://music.apple.com/us/song/1692423455)\n【turn755search39】 [wordlim: 200] Published: 3.2 years ago; Crawled: last month; Live at RBC Echo Beach Khruangbin August 11, 2023\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1757361955",
+        "observed_url": "https://music.apple.com/us/album/%E7%97%92-live/1757361955?i=1757361964",
+        "observed_title_line": "‎痒 (Live) - Song with Lyrics by Isabelle Huang & Long Liang - Apple Music",
+        "actual_search_evidence": "‎痒 (Live) - Song with Lyrics by Isabelle Huang & Long Liang - Apple Music (https://music.apple.com/us/album/%E7%97%92-live/1757361955?i=1757361964)\n【turn755search41】 [wordlim: 200] Published: 2.9 years ago; Crawled: last month; Song ... 痒 (Live)\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1502088539",
+        "observed_url": "https://music.apple.com/th/song/1502088539?l=th",
+        "observed_title_line": "‎月圆花好 - เพลงของ \"黄龄\" - Apple Music",
+        "actual_search_evidence": "‎月圆花好 - เพลงของ \"黄龄\" - Apple Music (https://music.apple.com/th/song/1502088539?l=th)\n【turn755search42】 [wordlim: 200] Published: 10.0 years ago; Crawled: 4 months ago; 来日方长 黄龄 24 ตุลาคม 2559 ...   * Image: 女儿心如水(小扇流萤满园的笑语) - Single\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1792401656",
+        "observed_url": "https://music.apple.com/us/song/1792401656",
+        "observed_title_line": "‎痒 - Song by 小露 - Apple Music",
+        "actual_search_evidence": "‎痒 - Song by 小露 - Apple Music (https://music.apple.com/us/song/1792401656)\n【turn755search44】 [wordlim: 200] Published: 16.4 years ago; Crawled: 3 months ago; Open in Music ... Image: 痒 song by 小露\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1372705861",
+        "observed_url": "https://music.apple.com/us/song/1372705861",
+        "observed_title_line": "‎痒 - Song by Lily Zheng - Apple Music",
+        "actual_search_evidence": "‎痒 - Song by Lily Zheng - Apple Music (https://music.apple.com/us/song/1372705861)\n【turn755search45】 [wordlim: 200] Published: 10.5 years ago; Crawled: 3 months ago; # 痒\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1594656765",
+        "observed_url": "https://music.apple.com/us/song/1594656765",
+        "observed_title_line": "‎痒 - Song by MO - Apple Music",
+        "actual_search_evidence": "‎痒 - Song by MO - Apple Music (https://music.apple.com/us/song/1594656765)\n【turn755search46】 [wordlim: 200] Published: 13.8 years ago; Crawled: 3 months ago; Open in Music ... Image: 痒 song by MO\n",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      },
+      {
+        "song_id": "1372705594",
+        "observed_url": "https://music.apple.com/us/album/%E7%97%92/1372705594?i=1372705861",
+        "observed_title_line": "‎痒 - Song with Lyrics by Lily Zheng - Apple Music",
+        "actual_search_evidence": "‎痒 - Song with Lyrics by Lily Zheng - Apple Music (https://music.apple.com/us/album/%E7%97%92/1372705594?i=1372705861)\n【turn755search47】 [wordlim: 200] Published: 9.7 years ago; Crawled: last month; \n\n# Lily情歌精选\n\nLily Zheng\n\nMandopop · 2017\n\nPreview\n\nMarch 11, 2017 20 songs, 1 hour 27 minutes ℗ 2015 Qi Yun Media Co.Ltd",
+        "decision": "Not selected: alternate release/version, weaker portfolio diversity, or mainland-China song resource not verified. No other-storefront resource qualifies for publication."
+      }
+    ],
+    "source_verification": [
+      {
+        "song_id": "282547698",
+        "title": "Come On Let's Go",
+        "artist": "Broadcast",
+        "album": "The Noise Made By People",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/282547698",
+        "verification_method": "direct_cn_song_page",
+        "observation_method": "browser_visible_resource_metadata",
+        "observations": "Exact song ID matched CN resource URL and visible title, artist, album. Preview button visible. No audio played.",
+        "recorded_at_utc": "2026-11-03T01:29:22.339447+00:00"
+      },
+      {
+        "song_id": "1477555215",
+        "title": "Confessions",
+        "artist": "Sudan Archives",
+        "album": "Athena",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1477555215",
+        "verification_method": "direct_cn_song_page",
+        "observation_method": "direct_web_page_full_metadata",
+        "observations": "Exact song ID matched CN resource URL and visible title, artist, album. Preview button visible. No audio played.",
+        "recorded_at_utc": "2026-11-03T01:29:22.339460+00:00"
+      },
+      {
+        "song_id": "745099444",
+        "title": "Bongo Bong",
+        "artist": "Manu Chao",
+        "album": "Clandestino",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/745099444",
+        "verification_method": "direct_cn_song_page",
+        "observation_method": "browser_visible_resource_metadata",
+        "observations": "Exact song ID matched CN resource URL and visible title, artist, album. Preview button visible. No audio played.",
+        "recorded_at_utc": "2026-11-03T01:29:22.339463+00:00"
+      },
+      {
+        "song_id": "1451164643",
+        "title": "Ambre",
+        "artist": "尼尔斯・弗拉姆",
+        "album": "Wintermusik - EP",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1451164643",
+        "verification_method": "direct_cn_song_page",
+        "observation_method": "direct_web_page_full_metadata",
+        "observations": "Exact song ID matched CN resource URL and visible title, artist, album. Preview button visible. No audio played.",
+        "recorded_at_utc": "2026-11-03T01:29:22.339465+00:00"
+      },
+      {
+        "song_id": "1057569834",
+        "title": "Odd Elegy",
+        "artist": "Dhafer Youssef",
+        "album": "Abu Navas Rhapsody",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1057569834",
+        "verification_method": "direct_cn_song_page",
+        "observation_method": "browser_visible_resource_metadata",
+        "observations": "Exact song ID matched CN resource URL and visible title, artist, album. Preview button visible. No audio played.",
+        "recorded_at_utc": "2026-11-03T01:29:22.339467+00:00"
+      }
+    ],
+    "original_history": {
+      "entries": 288,
+      "manifest_days": 56,
+      "reserved_music_ids": 95,
+      "both_states_byte_identical": true
+    },
+    "selection_evidence": [
+      {
+        "title": "Come On Let's Go",
+        "artist": "Broadcast",
+        "role": "2000年英伦实验流行／电子与乐队",
+        "tier": "high_confidence",
+        "rationale": "今天从一首旋律入口很清楚、声音表面却有些疏离的短歌开始。它的吸引力不在于把情绪推到最大，而在于歌声与伴奏之间保留一种距离：主唱像在平静地把话讲完，周围的节奏与键盘则不断给这份平静施加轻微压力。先跟住旋律，再去听那些不完全服从旋律的声音，歌曲会逐渐从“复古好听”变成一个有内部摩擦的空间。\n\n明确选择《The Noise Made By People》中的专辑录音，不是同名EP的另一个条目，也不是《Maida Vale Sessions》广播现场。今天需要的是这版紧凑、被录音室组织过的声部关系，用它与后面的电子弦乐、松散律动和钢琴余响形成对照。它既有完整歌曲的方向，也适合只带一个小问题反复听。"
+      },
+      {
+        "title": "Confessions",
+        "artist": "Sudan Archives",
+        "role": "2019年另类R&B／弦乐与电子制作",
+        "tier": "high_confidence",
+        "rationale": "第二首把“弦乐一定在歌声后面铺底”的习惯打散。Sudan Archives把弦乐手势带进节奏与歌曲结构，让短促的动作既能像旋律，也能像打击。它与第一首都有容易进入的歌声，但推动方式不同：前一首依靠乐队各层之间的距离，这一首更适合观察声音被切成短句后，怎样围绕主唱形成回返。\n\n选择《Athena》中的原曲，而不是Velvet Negroni混音，也不是同艺人另一首歌的串烧条目。今天推荐它，是为了在一首完整歌曲中听见弦乐、声音循环与R&B语气如何互相改写；先不把作品归进单一类型，反而能更清楚地听到它每一层的作用。"
+      },
+      {
+        "title": "Bongo Bong",
+        "artist": "Manu Chao",
+        "role": "1998年跨文化流行／雷鬼取向的轻巧循环",
+        "tier": "adjacent",
+        "rationale": "第三首让前两首较密的声音关系变得松一点。它的核心不是不断增加新材料，而是让有限的节奏与人声反复出现，靠语气、音色和细小落点维持生命力。旋律有很强的口语感，轻快的表面与叙述者的处境之间又保留着距离，适合把“听起来轻松”与“情绪只有开心”分开。\n\n明确采用《Clandestino》中的录音，国区页显示1998年10月6日；不是《Radio Bemba Sound System》的现场，也不是近年的舞曲混音或其他艺人的翻奏。它在今天的作用是提供一段可身体跟随的简单循环，让你暂时不追求复杂度，再听重复内部的变化。"
+      },
+      {
+        "title": "Ambre",
+        "artist": "尼尔斯・弗拉姆",
+        "role": "2009年独奏钢琴／安静转场",
+        "tier": "adjacent",
+        "rationale": "第四首把节奏从明确的鼓点交给钢琴的触键和衰减。旋律并不依赖巨大的动态对比，少量音符之间的距离已经足够改变时间感。前面三首都有歌声，这里暂时拿掉语言，让注意力从句子的含义转向音与音之间的连接。\n\n选择Nils Frahm本人《Wintermusik - EP》中的版本；不是Dalal的同名演奏，也不是为大提琴、钢琴与弦乐改编的版本。今天的价值是听一件乐器如何同时提供旋律、和声与节奏，而不把“安静”误听成没有结构。可以坐下来完整听一遍，不必把它当作需要立刻提高效率的背景。"
+      },
+      {
+        "title": "Odd Elegy",
+        "artist": "Dhafer Youssef",
+        "role": "2009年乌德琴与人声爵士语汇／跨界探索",
+        "tier": "wildcard",
+        "rationale": "最后一首主动把语言、音色与合奏习惯带到另一条路上。Dhafer Youssef的人声适合被当成一条可以伸展、转弯、改变密度的线，而不只是承载文字的主唱。它和前面的钢琴曲形成一个有意思的衔接：先有《Ambre》对衰减与空间的训练，再去听更具身体张力的呼吸与合奏回应。\n\n明确选择《Abu Navas Rhapsody》中的录音，国区页标注2009年1月1日；不是2024年发行的《Izmir Concert (Live 2013)》现场条目。它是今天真正的跨界选择：不要求先熟悉特定传统或节拍术语，而是用一段呼吸、一个反复轮廓和一次声部交接建立入口。"
+      }
+    ],
+    "diversity": {
+      "artists": 5,
+      "seven_day_artist_repeats": 0,
+      "eras": [
+        "1998",
+        "2000",
+        "2009",
+        "2019"
+      ],
+      "languages": [
+        "English",
+        "instrumental",
+        "Dhafer Youssef vocal tradition"
+      ],
+      "wildcard": "Odd Elegy — oud/vocal jazz vocabulary; specific 2009 album resource, not Izmir live version"
+    },
+    "limitations": [
+      "No audio playback performed; appreciation is guided listening based on prior recording knowledge and observed resource metadata.",
+      "Exact CN page metadata does not prove account full-track playback or device synchronization."
+    ],
+    "backlog": [
+      "2026-10-31 closing-section content QA failure retained, no backfill or replacement.",
+      "Unrelated Journal transaction envelopes fail current global vault validator; not changed."
+    ]
+  }
+}
