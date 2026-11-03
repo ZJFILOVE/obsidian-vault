@@ -1,0 +1,153 @@
+{
+  "schema_version": "journal-run-v1",
+  "operation_id": "journal:2026-11-03",
+  "date": "2026-11-03",
+  "status": "completed_with_explicit_reading_limits",
+  "recorded_at_utc": "2026-11-03T00:02:57.625Z",
+  "topic": "从骨架到功能：生成结构、设计序列、验证催化",
+  "selected": [
+    {
+      "doi": "10.1038/s41586-023-06415-8",
+      "title": "De novo design of protein structure and function with RFdiffusion",
+      "author": "Joseph L. Watson et al.",
+      "year": 2023,
+      "journal": "Nature",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/37433327/",
+      "scope": "书目/摘要及主文 Fig. 1–2 图注；未全文通读",
+      "status_url": "https://crossmark.crossref.org/dialog/?doi=10.1038/s41586-023-06415-8"
+    },
+    {
+      "doi": "10.1126/science.add2187",
+      "title": "Robust deep learning–based protein sequence design using ProteinMPNN",
+      "author": "J. Dauparas et al.",
+      "year": 2022,
+      "journal": "Science",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36108050/",
+      "scope": "书目/摘要及主文图注；机构 PDF 已打开，重点阅读架构、噪声训练和实验验证段落；视觉核验 PDF 第4页 Fig. 3；SI 未读",
+      "pdf": "https://www.ipd.uw.edu/publication-pdfs/275/3d98c978aed6d429d315317432f674b9/science.add2187.pdf"
+    },
+    {
+      "doi": "10.1038/s41586-023-05696-3",
+      "title": "De novo design of luciferases using deep learning",
+      "author": "Andy Hsien-Wei Yeh et al.",
+      "year": 2023,
+      "journal": "Nature",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36813896/",
+      "scope": "书目/摘要及主文 Fig. 1–3 图注；未全文通读",
+      "status_url": "https://crossmark.crossref.org/dialog/?doi=10.1038/s41586-023-05696-3"
+    }
+  ],
+  "candidate_count": 3,
+  "candidate_evidence": "Three classics intentionally chosen to separate backbone generation, inverse folding, and catalytic function. Every selected paper opened in PubMed; one institutional PDF opened and page4 inspected. No broader candidate pool count claimed.",
+  "selection_basis": "After yesterday's FAP-only issue, rotate to core protein design; compare methods with experimental evidence rather than generic AI news. Distinct research studies and DOI/title normalized against original history; no repeated preprint/formal variant selected.",
+  "prepared": {
+    "schema_version": "journal-receipt-v1",
+    "operation_id": "journal:2026-11-03",
+    "recorded_at_utc": "2026-11-03T00:02:33.467Z",
+    "prepared_creation_commit": "e6cd342ebc1b879b4cf990674d08670df1f0a502",
+    "prepared_path": ".recommendation/transactions/journal/2026-11-03.json",
+    "prepared_blob_sha": "8c5907876042875ed17ac5219578cd1c016c0fe2",
+    "original_plan_sha256": "b21a38252ffdc77ee6c2523981fec384fe360a0b0abcd48ad547fdb4982a22fb",
+    "original_bundle_sha256": "dd6d584da16dae6a0797f78a1ce6734fc4261c97782ee23e8573a2e5f25c0644",
+    "prepared_readback_exact": true,
+    "original_targets": [
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "00-inbox/Journal/2026-11-03.md",
+        "base_sha": null,
+        "target_sha": "fb0a95b79fbdf154d684310f0ab3bd85ef7e3102",
+        "stage": 1
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "00-inbox/Journal/Index.md",
+        "base_sha": "543d4202ce08a3cab879e0c441afd5c995201b58",
+        "target_sha": "3124a30115b5c82a311e0abd58a7be8c4c4dfbcf",
+        "stage": 1
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": ".recommendation/history/journal.jsonl",
+        "base_sha": "bcc81d9e08438f3f6e32dbb9f523c9ece9b7d7d8",
+        "target_sha": "41320fa491cec63e8bcf2a5f5cd7579e0d547f4f",
+        "stage": 1
+      }
+    ],
+    "baseline_check": "all fresh baseline SHAs match",
+    "validation_scope": "Journal-specific append-only, Notes, count, DOI uniqueness/link, evidence-label review; existing production validators unsupported"
+  },
+  "publication_commit": "404ca30ea9229da301f8c6fb9656134360f33392",
+  "readbacks": [
+    {
+      "path": "00-inbox/Journal/2026-11-03.md",
+      "sha": "fb0a95b79fbdf154d684310f0ab3bd85ef7e3102",
+      "exact": true
+    },
+    {
+      "path": "00-inbox/Journal/Index.md",
+      "sha": "3124a30115b5c82a311e0abd58a7be8c4c4dfbcf",
+      "exact": true
+    },
+    {
+      "path": ".recommendation/history/journal.jsonl",
+      "sha": "41320fa491cec63e8bcf2a5f5cd7579e0d547f4f",
+      "exact": true
+    }
+  ],
+  "checks": {
+    "recommendation_count": 3,
+    "prior_history_count": 3,
+    "total_history_count": 6,
+    "permanent_doi_duplicates": 0,
+    "normalized_title_duplicates": 0,
+    "same_study_version_duplicates": 0,
+    "prior_history_bytes_preserved": true,
+    "all_transactions_read": 57,
+    "recent_14_day_journal_notes_read": 1,
+    "new_daily_note_previously_absent": true,
+    "index_outside_auto_bytes_preserved": true,
+    "notes_sections_preserved": true,
+    "complete_readback_and_computed_blob_match": true,
+    "actual_reading_scopes_explicit": true,
+    "experimental_and_computational_structures_distinguished": true,
+    "observations_author_interpretations_reviewer_synthesis_separated": true,
+    "doi_links_checked_against_actual_pubmed_records": true,
+    "publication_status": "Formal original journal research. Nature Crossmark opened and shows Document is current for both papers; ProteinMPNN PubMed and DOI-specific searches showed no retraction notice. Not an exhaustive guarantee.",
+    "existing_validators": "NOT_APPLICABLE: latest scripts/publication_bundle.py and scripts/publication_recovery.py read; both exclude journal. No unsupported script invoked, no production script changed.",
+    "journal_specific_checks": "Executed hash/count/link/history-prefix/manual-content comparisons, plus manual identity, same-study, evidence-scope and topic review.",
+    "ci": "not used to certify literature content",
+    "device_sync": "not_tested"
+  },
+  "source_observations": [
+    {
+      "doi": "10.1038/s41586-023-06415-8",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37433327/",
+      "pdf": null,
+      "status_url": "https://crossmark.crossref.org/dialog/?doi=10.1038/s41586-023-06415-8",
+      "observed_on": "2026-11-03",
+      "scope": "书目/摘要及主文 Fig. 1–2 图注；未全文通读"
+    },
+    {
+      "doi": "10.1126/science.add2187",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36108050/",
+      "pdf": "https://www.ipd.uw.edu/publication-pdfs/275/3d98c978aed6d429d315317432f674b9/science.add2187.pdf",
+      "status_url": null,
+      "observed_on": "2026-11-03",
+      "scope": "书目/摘要及主文图注；机构 PDF 已打开，重点阅读架构、噪声训练和实验验证段落；视觉核验 PDF 第4页 Fig. 3；SI 未读"
+    },
+    {
+      "doi": "10.1038/s41586-023-05696-3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36813896/",
+      "pdf": null,
+      "status_url": "https://crossmark.crossref.org/dialog/?doi=10.1038/s41586-023-05696-3",
+      "observed_on": "2026-11-03",
+      "scope": "书目/摘要及主文 Fig. 1–3 图注；未全文通读"
+    }
+  ],
+  "limitations": [
+    "ProteinMPNN institutional 7-page PDF opened; selected passages and PDF page4 Fig.3 inspected, not all methods/SI read.",
+    "RFdiffusion and luciferase: abstracts and specified main captions only; Nature returned inaccessible authentication redirects.",
+    "PMC presented browser challenge; institutional Bakerlab PDF timed out; eScholarship challenge. No challenge bypass attempted.",
+    "Initial search returned 503; separate subsequent search succeeded."
+  ]
+}
