@@ -1,0 +1,92 @@
+{
+  "schema_version": "journal-frozen-v1",
+  "status": "PREPARED",
+  "compatibility_note": "Journal-specific immutable recovery record; existing scripts explicitly exclude journal. No production script modified or unsupported check bypassed.",
+  "plan": {
+    "version": 1,
+    "project": "journal",
+    "date": "2026-11-03",
+    "operation_id": "journal:2026-11-03",
+    "exposed_resource_ids": [
+      "doi:10.1038/s41586-023-06415-8",
+      "doi:10.1126/science.add2187",
+      "doi:10.1038/s41586-023-05696-3"
+    ],
+    "targets": [
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "00-inbox/Journal/2026-11-03.md",
+        "base_sha": null,
+        "target_sha": "fb0a95b79fbdf154d684310f0ab3bd85ef7e3102",
+        "stage": 1
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "00-inbox/Journal/Index.md",
+        "base_sha": "543d4202ce08a3cab879e0c441afd5c995201b58",
+        "target_sha": "3124a30115b5c82a311e0abd58a7be8c4c4dfbcf",
+        "stage": 1
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": ".recommendation/history/journal.jsonl",
+        "base_sha": "bcc81d9e08438f3f6e32dbb9f523c9ece9b7d7d8",
+        "target_sha": "41320fa491cec63e8bcf2a5f5cd7579e0d547f4f",
+        "stage": 1
+      }
+    ]
+  },
+  "payloads": {
+    "00-inbox/Journal/2026-11-03.md": "---\ndate: 2026-11-03\ntype: journal-daily\ntags: [journal, protein-design, de-novo, sequence-structure-function, bioluminescence]\nsource: ChatGPT\n---\n# Journal · 2026-11-03\n<!-- AUTO:START -->\n## 今日科学问题\n**设计出“像蛋白质”的结构之后，怎样证明序列能实现它，而且具有目标功能？**\n\n昨天讨论天然 FAP 的光化学与催化；今天转向蛋白质设计，用“骨架→序列→功能证据”组织三篇经典原始研究。阅读顺序为①→②→③，**今日最值得精读：③ de novo 荧光素酶**。\n\n这是学习上的比较顺序，不是历史上三篇串联实施的同一流程：③使用 family-wide hallucination，不应写成用① RFdiffusion 生成的酶。荧光素酶催化化学发光；FAP 借光驱动反应，两者联系在于蛋白口袋调控化学与光物理，并非同类光驱动催化。\n\n## ① 骨架生成｜De novo design of protein structure and function with RFdiffusion\n**中文释义：利用 RFdiffusion 从头设计蛋白质结构与功能。**\n\nJoseph L. Watson et al. · 2023 · *Nature* · 原始研究／生成式骨架设计的经典方法  \n[DOI：10.1038/s41586-023-06415-8](https://doi.org/10.1038/s41586-023-06415-8) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/37433327/)\n\n- **问题与观测：**能否按对称性、结合靶点或功能基序等条件生成骨架？研究报告多类设计的实验结构与功能验证，并以设计结合蛋白／流感血凝素复合物的冷冻电镜结构支持模型准确性。\n- **作者解释：**将 RoseTTAFold 在结构去噪任务上微调，可构建通用的条件生成框架。\n- **证据边界：**Fig. 1 图注描述迭代去噪；Fig. 2 中设计与 AF2 复预测吻合属于计算证据，不能和实验结构混写。活性位点支架生成也不自动等于催化活性已验证。\n- **为何推荐／reviewer_synthesis：**对应你对“如何围绕功能位点造骨架”的兴趣；与②对照，可分清骨架生成和固定骨架序列设计分别解决什么。\n- **追问：**若预测结构很接近设计，下一项实验应优先验证折叠、结合还是催化，为什么？\n- **实际阅读范围／待核：**书目、摘要及 PubMed 主文 Fig. 1–2 图注；图像未逐点检查，Nature 全文访问受限，PDF/SI 未读。各任务的筛选分母与命中率待核，不报告统一“成功率”。\n\n## ② 序列实现｜Robust deep learning–based protein sequence design using ProteinMPNN\n**中文释义：利用 ProteinMPNN 进行稳健的深度学习蛋白质序列设计。**\n\nJ. Dauparas et al. · 2022 · *Science* · 原始研究／逆折叠与序列设计经典  \n[DOI：10.1126/science.add2187](https://doi.org/10.1126/science.add2187) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/36108050/) · [机构 PDF](https://www.ipd.uw.edu/publication-pdfs/275/3d98c978aed6d429d315317432f674b9/science.add2187.pdf)\n\n- **问题与观测：**给定骨架，怎样找到可实现它的序列？作者对失败设计重新配序列，观察到可溶表达改善，并结合 SEC、CD 和实验结构检验部分设计。\n- **作者解释：**骨架几何条件下的消息传递及灵活解码，使设计能适配多链和对称约束；噪声训练增强对非理想骨架的稳健性。\n- **证据抓手：**重点看 **PDF 第4页 Fig. 3A–D**：表达量、单分散性、二级结构与晶体结构是不同证据层级；A–D 不是同一个指标的重复展示。\n- **为何推荐／reviewer_synthesis：**你以后比较口袋突变或设计方案时，需要把“序列更像天然序列”“预测折叠更好”和“实验上可用”分开。该方法不单独保证色团装配、催化或光谱功能。\n- **追问：**固定骨架设计若改善表达却损失活性，应该检查哪些功能约束没有被保留？\n- **实际阅读范围／待核：**PubMed 书目、摘要及图注；7页机构 PDF 已打开，重点阅读架构、噪声训练及实验验证段落，并视觉检查第4页 Fig. 3；不宣称全部方法与 SI 均已通读。未核实的构建体细节不外推。\n\n## ③ 今日精读｜De novo design of luciferases using deep learning\n**中文释义：利用深度学习从头设计荧光素酶。**\n\nAndy Hsien-Wei Yeh et al. · 2023 · *Nature* · 原始研究／从结构设计走向酶功能的案例  \n[DOI：10.1038/s41586-023-05696-3](https://doi.org/10.1038/s41586-023-05696-3) · [PubMed 与图注](https://pubmed.ncbi.nlm.nih.gov/36813896/)\n\n- **问题与观测：**能否为合成荧光素设计具选择性的酶？研究构建人工荧光素酶，并报告体外催化与细胞发光；Fig. 3 区分 LuxSit、LuxSit-f、LuxSit-i，不应把优化后变体性能统称为初始设计性能。\n- **作者解释：**family-wide hallucination 提供口袋支架，再配置底物相容性与稳定反应中阴离子的相互作用。\n- **关键证据与边界：**推荐对照 Fig. 2、3（本次核实图注）。Fig. 2e 对齐的是设计模型与 AF2 预测，**不是实验晶体结构**；饱和突变、发光和底物依赖性提供不同层次的功能支持，仍不能单凭活性变化唯一判定催化机制。\n- **为何推荐／reviewer_synthesis：**连接你的蛋白设计、色团环境和生物光物理兴趣；可练习追问 Arg、Asp 或芳香残基究竟影响化学、结合还是折叠，而非只看亮不亮。\n- **追问：**若一个突变使发光增强，怎样区分酶量、催化速率和发光量子产率的贡献？\n- **实际阅读范围／待核：**书目、摘要及 PubMed 主文 Fig. 1–3 图注，未逐点检查图像；HTML 全文、PDF、SI 未读。具体动力学条件和优化历程待核，因此不转述摘要的最优动力学数值。\n\n## 合并阅读时保留的界限\n①②③并列说明“生成、实现、功能检验”的不同问题；这是 reviewer_synthesis，不构成跨论文的因果证明。把③借作光酶工程启发也只是研究问题层面的联系，不能直接推出对 FAP 或光敏色素有效。\n\n三篇均为正式发表原始研究，非预印本；不以“最新”定位。今日打开的两篇 Nature [RFdiffusion Crossmark](https://crossmark.crossref.org/dialog/?doi=10.1038/s41586-023-06415-8)／[荧光素酶 Crossmark](https://crossmark.crossref.org/dialog/?doi=10.1038/s41586-023-05696-3) 记录均显示 Document is current；ProteinMPNN 的 PubMed 及 DOI 专项检索未见撤稿标记。该检查不等于穷尽所有后续争议。\n\n已检查永久历史和预留记录：今日三篇均未在 Journal 推荐；近14天实际只有昨日一期，故从 FAP 转向设计。未据此猜测你的其他阅读史，也不标注“已收录”。全文限制已逐篇列明；搜索结果片段不计作全文阅读。\n\n[[00-inbox/Journal/Index|Journal 索引]]\n<!-- AUTO:END -->\n\n## Notes\n",
+    "00-inbox/Journal/Index.md": "---\ntype: journal-index\ntags: [journal]\n---\n# Journal 文献精选\n<!-- AUTO:START -->\n- [[00-inbox/Journal/2026-11-03|2026-11-03 · 从骨架到功能：RFdiffusion、ProteinMPNN 与荧光素酶]] — 3 篇；精读 Yeh et al. 2023。\n- [[00-inbox/Journal/2026-11-02|2026-11-02 · FAP：从光化学证据到催化调控]] — 3 篇；精读 Samire et al. 2023；阅读范围见日记。\n<!-- AUTO:END -->\n\n## Notes\n",
+    ".recommendation/history/journal.jsonl": "{\"date\":\"2026-11-02\",\"operation_id\":\"journal:2026-11-02\",\"doi\":\"10.1126/science.aan6349\",\"normalized_doi\":\"10.1126/science.aan6349\",\"title\":\"An algal photoenzyme converts fatty acids to hydrocarbons\",\"normalized_title\":\"analgalphotoenzymeconvertsfattyacidstohydrocarbons\",\"authors\":\"Damien Sorigué et al.\",\"year\":2017,\"journal\":\"Science\",\"source_url\":\"https://pubmed.ncbi.nlm.nih.gov/28860382/\",\"reading_scope\":\"书目/摘要\",\"note_path\":\"00-inbox/Journal/2026-11-02.md\",\"publication_status\":\"published\",\"work_versions\":[\"10.1126/science.aan6349\"]}\n{\"date\":\"2026-11-02\",\"operation_id\":\"journal:2026-11-02\",\"doi\":\"10.1126/science.abd5687\",\"normalized_doi\":\"10.1126/science.abd5687\",\"title\":\"Mechanism and dynamics of fatty acid photodecarboxylase\",\"normalized_title\":\"mechanismanddynamicsoffattyacidphotodecarboxylase\",\"authors\":\"D. Sorigué et al.\",\"year\":2021,\"journal\":\"Science\",\"source_url\":\"https://pubmed.ncbi.nlm.nih.gov/33833098/\",\"reading_scope\":\"书目/摘要\",\"note_path\":\"00-inbox/Journal/2026-11-02.md\",\"publication_status\":\"published\",\"work_versions\":[\"10.1126/science.abd5687\"]}\n{\"date\":\"2026-11-02\",\"operation_id\":\"journal:2026-11-02\",\"doi\":\"10.1126/sciadv.adg3881\",\"normalized_doi\":\"10.1126/sciadv.adg3881\",\"title\":\"Autocatalytic effect boosts the production of medium-chain hydrocarbons by fatty acid photodecarboxylase\",\"normalized_title\":\"autocatalyticeffectbooststheproductionofmediumchainhydrocarbonsbyfattyacidphotodecarboxylase\",\"authors\":\"Poutoum P. Samire et al.\",\"year\":2023,\"journal\":\"Science Advances\",\"source_url\":\"https://pubmed.ncbi.nlm.nih.gov/37000872/\",\"reading_scope\":\"书目/摘要及 PubMed 收录的主文图注（非全文通读）\",\"note_path\":\"00-inbox/Journal/2026-11-02.md\",\"publication_status\":\"published\",\"work_versions\":[\"10.1126/sciadv.adg3881\"]}\n{\"date\":\"2026-11-03\",\"operation_id\":\"journal:2026-11-03\",\"doi\":\"10.1038/s41586-023-06415-8\",\"normalized_doi\":\"10.1038/s41586-023-06415-8\",\"title\":\"De novo design of protein structure and function with RFdiffusion\",\"normalized_title\":\"denovodesignofproteinstructureandfunctionwithrfdiffusion\",\"authors\":\"Joseph L. Watson et al.\",\"year\":2023,\"journal\":\"Nature\",\"source_url\":\"https://pubmed.ncbi.nlm.nih.gov/37433327/\",\"reading_scope\":\"书目/摘要及主文 Fig. 1–2 图注；未全文通读\",\"note_path\":\"00-inbox/Journal/2026-11-03.md\",\"publication_status\":\"published\",\"work_versions\":[\"10.1038/s41586-023-06415-8\"]}\n{\"date\":\"2026-11-03\",\"operation_id\":\"journal:2026-11-03\",\"doi\":\"10.1126/science.add2187\",\"normalized_doi\":\"10.1126/science.add2187\",\"title\":\"Robust deep learning–based protein sequence design using ProteinMPNN\",\"normalized_title\":\"robustdeeplearningbasedproteinsequencedesignusingproteinmpnn\",\"authors\":\"J. Dauparas et al.\",\"year\":2022,\"journal\":\"Science\",\"source_url\":\"https://pubmed.ncbi.nlm.nih.gov/36108050/\",\"reading_scope\":\"书目/摘要及主文图注；机构 PDF 已打开，重点阅读架构、噪声训练和实验验证段落；视觉核验 PDF 第4页 Fig. 3；SI 未读\",\"note_path\":\"00-inbox/Journal/2026-11-03.md\",\"publication_status\":\"published\",\"work_versions\":[\"10.1126/science.add2187\"]}\n{\"date\":\"2026-11-03\",\"operation_id\":\"journal:2026-11-03\",\"doi\":\"10.1038/s41586-023-05696-3\",\"normalized_doi\":\"10.1038/s41586-023-05696-3\",\"title\":\"De novo design of luciferases using deep learning\",\"normalized_title\":\"denovodesignofluciferasesusingdeeplearning\",\"authors\":\"Andy Hsien-Wei Yeh et al.\",\"year\":2023,\"journal\":\"Nature\",\"source_url\":\"https://pubmed.ncbi.nlm.nih.gov/36813896/\",\"reading_scope\":\"书目/摘要及主文 Fig. 1–3 图注；未全文通读\",\"note_path\":\"00-inbox/Journal/2026-11-03.md\",\"publication_status\":\"published\",\"work_versions\":[\"10.1038/s41586-023-05696-3\"]}\n"
+  },
+  "evidence": {
+    "papers": [
+      {
+        "doi": "10.1038/s41586-023-06415-8",
+        "title": "De novo design of protein structure and function with RFdiffusion",
+        "author": "Joseph L. Watson et al.",
+        "year": 2023,
+        "journal": "Nature",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/37433327/",
+        "scope": "书目/摘要及主文 Fig. 1–2 图注；未全文通读",
+        "status_url": "https://crossmark.crossref.org/dialog/?doi=10.1038/s41586-023-06415-8"
+      },
+      {
+        "doi": "10.1126/science.add2187",
+        "title": "Robust deep learning–based protein sequence design using ProteinMPNN",
+        "author": "J. Dauparas et al.",
+        "year": 2022,
+        "journal": "Science",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/36108050/",
+        "scope": "书目/摘要及主文图注；机构 PDF 已打开，重点阅读架构、噪声训练和实验验证段落；视觉核验 PDF 第4页 Fig. 3；SI 未读",
+        "pdf": "https://www.ipd.uw.edu/publication-pdfs/275/3d98c978aed6d429d315317432f674b9/science.add2187.pdf"
+      },
+      {
+        "doi": "10.1038/s41586-023-05696-3",
+        "title": "De novo design of luciferases using deep learning",
+        "author": "Andy Hsien-Wei Yeh et al.",
+        "year": 2023,
+        "journal": "Nature",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/36813896/",
+        "scope": "书目/摘要及主文 Fig. 1–3 图注；未全文通读",
+        "status_url": "https://crossmark.crossref.org/dialog/?doi=10.1038/s41586-023-05696-3"
+      }
+    ],
+    "prior_history_count": 3,
+    "transactions_read": 57,
+    "dedup": "normalized DOI, normalized title, distinct study/version manually checked against original Journal history and reservations",
+    "topic_rotation": "Yesterday FAP; today protein design. Only one prior Journal day in last 14 days.",
+    "checks": {
+      "count": 3,
+      "unique_doi": true,
+      "history_append_only": true,
+      "index_user_notes_preserved": true,
+      "links_in_note": true
+    },
+    "reading_limits": "Only ProteinMPNN PDF opened, selected sections and page4 figure3 inspected; other papers abstract and specified captions only; no SI read."
+  },
+  "plan_sha256": "b21a38252ffdc77ee6c2523981fec384fe360a0b0abcd48ad547fdb4982a22fb",
+  "bundle_sha256": "dd6d584da16dae6a0797f78a1ce6734fc4261c97782ee23e8573a2e5f25c0644"
+}
