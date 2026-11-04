@@ -28,9 +28,12 @@ def sha(value: object, optional: bool = False) -> None:
 
 
 def validate(plan: dict) -> None:
-    require(isinstance(plan, dict) and plan.get("schema_version") == 1, "invalid plan schema")
+    require(isinstance(plan, dict), "invalid plan schema")
+    legacy_journal = (plan.get("project") == "journal" and "schema_version" not in plan
+                      and plan.get("version") == 1)
+    require(plan.get("schema_version") == 1 or legacy_journal, "invalid plan schema")
     project = plan.get("project")
-    require(project in ("music", "english", "news-youtube-reddit"), "unsupported project")
+    require(project in ("music", "english", "news-youtube-reddit", "journal"), "unsupported project")
     day = iso_day(plan.get("date"))
     require(plan.get("operation_id") == f"{project}:{day}", "operation ID must be project:business-date")
     exposed = plan.get("exposed_resource_ids")

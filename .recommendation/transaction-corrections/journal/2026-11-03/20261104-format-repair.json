@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "operation_id": "journal:2026-11-03",
+  "recorded_at_utc": "2026-11-04T05:31:17.986396+00:00",
+  "kind": "format_only_correction_and_retrospective_audit",
+  "reason": "User reported literal Markdown bold markers on the website; separate Journal legacy-envelope incompatibility also blocked global CI.",
+  "original_bundle_sha256": "dd6d584da16dae6a0797f78a1ce6734fc4261c97782ee23e8573a2e5f25c0644",
+  "prepared_creation_commit": "e6cd342ebc1b879b4cf990674d08670df1f0a502",
+  "original_publication_commit": "404ca30ea9229da301f8c6fb9656134360f33392",
+  "original_published_targets": [
+    {
+      "path": "00-inbox/Journal/2026-11-03.md",
+      "original_publication_blob_sha": "fb0a95b79fbdf154d684310f0ab3bd85ef7e3102",
+      "original_publication_readback": "passed"
+    },
+    {
+      "path": "00-inbox/Journal/Index.md",
+      "original_publication_blob_sha": "3124a30115b5c82a311e0abd58a7be8c4c4dfbcf",
+      "original_publication_readback": "passed"
+    },
+    {
+      "path": ".recommendation/history/journal.jsonl",
+      "original_publication_blob_sha": "41320fa491cec63e8bcf2a5f5cd7579e0d547f4f",
+      "original_publication_readback": "passed"
+    }
+  ],
+  "note_correction": {
+    "path": "00-inbox/Journal/2026-11-03.md",
+    "before_blob_sha": "fb0a95b79fbdf154d684310f0ab3bd85ef7e3102",
+    "after_blob_sha": "f9aeb58cb8f962a0251b7824d0430dd6faedf37f",
+    "bold_labels_spaced": 18,
+    "only_label_spacing_changed": true,
+    "manual_notes_and_frontmatter_preserved": true
+  },
+  "original_prepared_and_history_bytes_unchanged": true,
+  "checks": {
+    "legacy_bundle_digests_payloads_and_baselines": "passed",
+    "original_publication_blobs": "passed",
+    "current_note_history_index": "passed",
+    "existing_tests_plus_journal_regressions": 145
+  },
+  "scope": "Format and publication integrity only. Original scientific statements and reading-limit evidence retained; no new literature/full-text QA claimed."
+}

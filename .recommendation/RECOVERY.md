@@ -1,5 +1,7 @@
 # 发布中断恢复与验收边界
 
+2026-11-04 Journal 补充：现已接入统一冻结包、恢复决策与全局 CI；旧 `journal-frozen-v1` 保留原文及摘要，由严格兼容层验证。新期使用 `schema_version: 1` 的标准包。详见 PUBLISHING.md 的 Journal support。Journal 永久历史也纳入追加保护，当前笔记、索引、DOI/标题/版本去重与 Markdown 标签空格由 `scripts/validate_journal.py` 校验。11 月 2–4 日的排版修正有独立 correction 记录，不改原 PREPARED、曝光历史或用户 Notes。
+
 2026-10-14 补充。不得删除历史、重新选一批内容掩盖失败、覆盖手工 Notes，或把结构通过写成来源已验证。
 
 ## 已部署的检查

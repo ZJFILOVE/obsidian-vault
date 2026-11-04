@@ -7,6 +7,7 @@ from pathlib import Path
 import re
 import subprocess
 import validate_daily_recommendations as v
+import validate_journal as j
 
 HISTORIES = {"youtube": "video_id", "reddit": "post_id", "english": "source_url"}
 STATE = "Music/Daily/state/tracks.json"
@@ -39,7 +40,7 @@ def check_append_only(root: Path, base: str) -> None:
     require(re.fullmatch(r"[0-9a-f]{40}", base) is not None, "base-ref must be a full commit SHA")
     git(root, "cat-file", "-e", base + "^{commit}")
     git(root, "merge-base", "--is-ancestor", base, "HEAD")
-    paths = [f".recommendation/history/{name}.jsonl" for name in HISTORIES] + [STATE]
+    paths = [f".recommendation/history/{name}.jsonl" for name in HISTORIES] + [j.HISTORY, STATE]
     for path in paths:
         if not git(root, "ls-tree", "-z", base, "--", path):
             continue  # A newly introduced index has no prior bytes to preserve.
@@ -114,7 +115,8 @@ def audit(root: Path, strict_from: str, base: str | None = None) -> dict:
     require(note_dates == dates, "orphan music note or missing manifest")
     if base:
         check_append_only(root, base)
-    return {"status": "passed_local_integrity", "history": histories,
+    journal = j.audit(root, base)
+    return {"status": "passed_local_integrity", "history": histories, "journal": journal,
             "music": {"manifests": len(manifests), "current_tracks": len(cids), "state_entries": len(state),
                       "retired_entries_retained": len(set(state) - cids)},
             "append_only": "passed_against_base" if base else "not_checked_without_base_ref",

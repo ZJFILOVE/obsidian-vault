@@ -1,10 +1,20 @@
 # Recoverable publication protocol v1
 
-This execution protocol applies to the three ChatGPT producers. It does not change candidate counts, source verification, permanent deduplication, editorial requirements or storefront rules in policy.json. Repository structure checks are NOT live-source QA.
+This execution protocol applies to music, English, news/YouTube/Reddit, and Journal. It does not change candidate counts, source verification, permanent deduplication, editorial requirements or storefront rules in policy.json. Repository structure checks are NOT live-source QA.
+
+## Journal support (2026-11-04)
+
+Journal now uses the same publication and recovery tools. For new dates use `project: journal`, `operation_id: journal:YYYY-MM-DD`, `schema_version: 1` in the plan and standard bundle envelope, and `owner/repo:path` payload keys. `targets_for('journal', day)` supplies the daily note, Index.md and append-only journal.jsonl, all in stage 1. Exposures are ordered lowercase `doi:10.…` IDs. Keep source observations and subsequent QA in separate run receipts.
+
+The original November 2–4 `journal-frozen-v1` records are supported by a strict adapter. It verifies their original plan and envelope digests, exact target hashes, evidence identities and payloads without rewriting any original bytes. Never migrate or replace those PREPARED files. Preserve their original digests during retries. The November 4 format-only corrections to their published notes are recorded separately under transaction-corrections; never replay an old payload over corrected text or user Notes.
+
+`python3 scripts/validate_journal.py --base-ref FULL_ANCESTOR_SHA` checks all Journal notes, index coverage, DOI/title/version identities and byte-prefix preservation. The global integrity workflow also runs these checks. A normal issue contains 2–4 papers; one paper requires a substantive `## 数量说明` explaining the quality shortfall. If no paper qualifies, record the reason in run evidence rather than manufacturing a successful issue. These checks do not certify scientific correctness, source access or full-paper reading.
+
+For reliable Markdown rendering, write list labels as `- **问题与观测：** DrBphP …`: exactly one ordinary space after the closing `**`, including before Chinese text. Do not use `- **问题与观测：**DrBphP …`. Keep blank lines around paragraphs and lists. Inspect rendered output for visible Markdown markers before reporting completion. The new-note and current-note checks reject this label-spacing defect; immutable historical bundles retain their original content.
 
 ## One date, one frozen publication
 
-Use Asia/Shanghai for the business date. The operation is `music:YYYY-MM-DD`, `english:YYYY-MM-DD`, or `news-youtube-reddit:YYYY-MM-DD`. Before selection, read policy, permanent history, current dated files, and ALL records under `.recommendation/transactions/`. Resources reserved in any earlier PREPARED bundle are also permanently excluded, even when that operation never completed. Never remove a reservation or exposure to improve QA statistics.
+Use Asia/Shanghai for the business date. The operation is `music:YYYY-MM-DD`, `english:YYYY-MM-DD`, `news-youtube-reddit:YYYY-MM-DD`, or `journal:YYYY-MM-DD`. Before selection, read policy, permanent history, current dated files, and ALL records under `.recommendation/transactions/`. Resources reserved in any earlier PREPARED bundle are also permanently excluded, even when that operation never completed. Never remove a reservation or exposure to improve QA statistics.
 
 If today's bundle exists, repair it; do not select new resources. If dated content exists without a bundle, adopt that existing selection in a clearly labelled `mode: adopt_existing` bundle. This is not evidence of the original candidate pool or pre-publication checks. Recover the union of known exposures first. Never change another day's original plan or rewrite a failed selection into a new success.
 

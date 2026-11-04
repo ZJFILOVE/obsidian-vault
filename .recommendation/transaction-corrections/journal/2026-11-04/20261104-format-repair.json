@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "operation_id": "journal:2026-11-04",
+  "recorded_at_utc": "2026-11-04T05:31:17.986396+00:00",
+  "kind": "format_only_correction_and_retrospective_audit",
+  "reason": "User reported literal Markdown bold markers on the website; separate Journal legacy-envelope incompatibility also blocked global CI.",
+  "original_bundle_sha256": "3b75765a2550179eb57dd371fd971b2ac5dc2470985c5891e6d869829d97a473",
+  "prepared_creation_commit": "6142c78e780e41787497e3a9cd44aa1b542f8d61",
+  "original_publication_commit": "a37b0f9dfdfeb4fb72d5fdc3e109bf13fdb8c8ee",
+  "original_published_targets": [
+    {
+      "path": "00-inbox/Journal/2026-11-04.md",
+      "original_publication_blob_sha": "495010bd19336f6dcf2fcdca1d72257045311726",
+      "original_publication_readback": "passed"
+    },
+    {
+      "path": "00-inbox/Journal/Index.md",
+      "original_publication_blob_sha": "0e8e1b289e73698e1c62f68146b84585b849b8cd",
+      "original_publication_readback": "passed"
+    },
+    {
+      "path": ".recommendation/history/journal.jsonl",
+      "original_publication_blob_sha": "33482b7d27e361f4e386ec6a725dc2bcb1b1e2d1",
+      "original_publication_readback": "passed"
+    }
+  ],
+  "note_correction": {
+    "path": "00-inbox/Journal/2026-11-04.md",
+    "before_blob_sha": "495010bd19336f6dcf2fcdca1d72257045311726",
+    "after_blob_sha": "bb437a9fe2878ba0b1f18b51d61dc54e063968b9",
+    "bold_labels_spaced": 18,
+    "only_label_spacing_changed": false,
+    "manual_notes_and_frontmatter_preserved": true,
+    "additional_emphasis_spacing_fixes": 1,
+    "only_emphasis_spacing_changed": true
+  },
+  "original_prepared_and_history_bytes_unchanged": true,
+  "checks": {
+    "legacy_bundle_digests_payloads_and_baselines": "passed",
+    "original_publication_blobs": "passed",
+    "current_note_history_index": "passed",
+    "existing_tests_plus_journal_regressions": 145
+  },
+  "scope": "Format and publication integrity only. Original scientific statements and reading-limit evidence retained; no new literature/full-text QA claimed."
+}

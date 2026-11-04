@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 import publication_recovery as r
 import validate_daily_recommendations as v
+import validate_journal as j
 
 VAULT = 'ZJFILOVE/obsidian-vault'
 MUSIC = 'ZJFILOVE/music-daily'
@@ -14,6 +15,9 @@ START, END = '<!-- AUTO:START -->', '<!-- AUTO:END -->'
 
 def targets_for(project: str, day: str) -> dict[str, int]:
     v.iso_day(day)
+    if project == 'journal':
+        return {f'{VAULT}:{path}': 1 for path in
+                (f'00-inbox/Journal/{day}.md', '00-inbox/Journal/Index.md', j.HISTORY)}
     if project == 'music':
         return {f'{MUSIC}:recommendations/{day[:4]}/{day[5:7]}/{day}.json': 1,
                 f'{MUSIC}:state/tracks.json': 1,
@@ -32,7 +36,7 @@ def targets_for(project: str, day: str) -> dict[str, int]:
     return {f'{VAULT}:{p}': 1 for p in paths}
 
 
-def validate_payloads(plan: dict, payloads: dict) -> None:
+def validate_payloads(plan: dict, payloads: dict, *, legacy_journal: bool = False) -> None:
     r.validate(plan)
     expected = targets_for(plan['project'], plan['date'])
     r.require(isinstance(payloads, dict) and set(payloads) == set(expected), 'missing or extra publication payload')
@@ -72,6 +76,14 @@ def validate_payloads(plan: dict, payloads: dict) -> None:
         r.require(url is not None and [url] == plan['exposed_resource_ids'], 'English selection changed')
         rows = [v.strict_json(x) for x in payloads[f'{VAULT}:.recommendation/history/english.jsonl'].splitlines() if x.strip()]
         r.require(sum(x.get('date') == day and x.get('source_url') == url for x in rows) == 1, 'English publication must be registered exactly once')
+    elif project == 'journal':
+        rows = j.history_rows(payloads[f'{VAULT}:{j.HISTORY}'])
+        selected = [row for row in rows if row['date'] == day]
+        r.require(['doi:' + row['normalized_doi'] for row in selected] == plan['exposed_resource_ids'],
+                  'Journal selection changed')
+        j.validate_note(payloads[f'{VAULT}:00-inbox/Journal/{day}.md'], day, selected,
+                        check_format=not legacy_journal)
+        j.validate_index(payloads[f'{VAULT}:00-inbox/Journal/Index.md'], {row['date'] for row in rows})
     else:
         selected = []
         for name, pattern, count, field in [('youtube', v.YT_RE, 5, 'video_id'), ('reddit', v.REDDIT_RE, 10, 'post_id')]:
@@ -86,18 +98,40 @@ def validate_payloads(plan: dict, payloads: dict) -> None:
 
 
 def freeze(plan: dict, payloads: dict) -> dict:
+    r.require(plan.get('schema_version') == 1, 'new bundles require plan schema_version=1')
     validate_payloads(plan, payloads)
     body = {'schema_version': 1, 'plan': plan, 'payloads': payloads, 'plan_sha256': r.digest(plan)}
     return {**body, 'bundle_sha256': r.digest(body)}
 
 
 def verify(bundle: dict) -> None:
-    r.require(isinstance(bundle, dict) and set(bundle) == {'schema_version', 'plan', 'payloads', 'plan_sha256', 'bundle_sha256'}, 'invalid bundle envelope')
-    r.require(bundle['schema_version'] == 1, 'unsupported bundle version')
+    r.require(isinstance(bundle, dict), 'invalid bundle envelope')
+    legacy = bundle.get('schema_version') == 'journal-frozen-v1'
+    keys = {'schema_version', 'plan', 'payloads', 'plan_sha256', 'bundle_sha256'}
+    if legacy:
+        keys |= {'status', 'compatibility_note', 'evidence'}
+    r.require(set(bundle) == keys, 'invalid bundle envelope')
+    r.require(bundle['schema_version'] == 1 or legacy, 'unsupported bundle version')
     body = {k: value for k, value in bundle.items() if k != 'bundle_sha256'}
     r.require(r.digest(body) == bundle['bundle_sha256'], 'persisted bundle changed')
     r.require(r.digest(bundle['plan']) == bundle['plan_sha256'], 'persisted plan changed')
-    validate_payloads(bundle['plan'], bundle['payloads'])
+    if legacy:
+        r.require(bundle['status'] == 'PREPARED' and bundle['plan'].get('project') == 'journal',
+                  'invalid legacy Journal record')
+        r.require(bundle['plan'].get('version') == 1 and 'schema_version' not in bundle['plan'],
+                  'invalid legacy Journal plan')
+        papers = bundle['evidence'].get('papers')
+        r.require(isinstance(papers, list) and
+                  ['doi:' + j.normalize_doi(p['doi']) for p in papers] == bundle['plan']['exposed_resource_ids'],
+                  'Journal evidence/selection mismatch')
+    validate_payloads(bundle['plan'], payloads_for(bundle), legacy_journal=legacy)
+
+
+def payloads_for(bundle: dict) -> dict:
+    """Adapt old keys in memory; never rewrite an immutable PREPARED record or digest."""
+    if bundle.get('schema_version') == 'journal-frozen-v1':
+        return {VAULT + ':' + path: text for path, text in bundle['payloads'].items()}
+    return bundle['payloads']
 
 
 def preserve_note(old: str, new: str) -> None:
@@ -111,10 +145,11 @@ def preserve_note(old: str, new: str) -> None:
 def check_baselines(bundle: dict, baselines: dict) -> None:
     """Call just before write; missing read/error is not a null (confirmed new) base."""
     verify(bundle)
+    payloads = payloads_for(bundle)
     for t in bundle['plan']['targets']:
         key = t['repository'] + ':' + t['path']
         r.require(key in baselines, 'baseline read missing')
-        old = baselines[key]; new = bundle['payloads'][key]
+        old = baselines[key]; new = payloads[key]
         if old is None:
             r.require(t['base_sha'] is None, 'existing baseline disappeared')
             continue
@@ -133,7 +168,10 @@ def audit_journal(root: Path, base: str | None = None) -> dict:
     directory = root / '.recommendation/transactions'
     paths = sorted(directory.rglob('*.json')) if directory.exists() else []
     for path in paths:
-        bundle = v.strict_json(path.read_text(encoding='utf-8')); verify(bundle)
+        try:
+            bundle = v.strict_json(path.read_text(encoding='utf-8')); verify(bundle)
+        except (ValueError, KeyError, TypeError, AttributeError) as exc:
+            raise ValueError(f'{path.relative_to(root)}: {exc}') from exc
         plan = bundle['plan']
         r.require(path.relative_to(directory).as_posix() == plan['project'] + '/' + plan['date'] + '.json', 'transaction path/operation mismatch')
     if base:

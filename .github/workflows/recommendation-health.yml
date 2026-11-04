@@ -3,6 +3,8 @@ name: Recommendation integrity (read-only)
   push:
     paths:
       - 'scripts/validate_daily_recommendations.py'
+      - 'scripts/validate_journal.py'
+      - 'scripts/test_journal.py'
       - 'scripts/check_daily_integrity.py'
       - 'scripts/publication_recovery.py'
       - 'scripts/publication_bundle.py'
@@ -17,6 +19,7 @@ name: Recommendation integrity (read-only)
       - 'Resources/YouTube/Daily/**'
       - 'Resources/Reddit/Daily/**'
       - '50-courses/English/**'
+      - '00-inbox/Journal/**'
       - '.github/workflows/recommendation-health.yml'
   pull_request:
   workflow_dispatch:
@@ -43,6 +46,7 @@ jobs:
           python3 -m unittest discover -s scripts -p 'test_daily*.py' -v
           python3 -m unittest discover -s scripts -p 'test_publication*.py' -v
           python3 -m unittest discover -s scripts -p 'test_remote_music_snapshot.py' -v
+          python3 -m unittest discover -s scripts -p 'test_journal.py' -v
       - name: Compare permanent history with the actual base commit
         shell: bash
         env:
