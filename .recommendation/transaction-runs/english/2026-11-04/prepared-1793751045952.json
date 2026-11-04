@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-11-04",
+  "attempt": "prepared",
+  "recorded_at_utc": "2026-11-04T00:10:45Z",
+  "bundle_path": ".recommendation/transactions/english/2026-11-04.json",
+  "bundle_sha256": "a5d878ae806445107a426109f6cb9b069576c2b15ac34a912eb6503c921a6095",
+  "plan_sha256": "d1c395b68940c3a8c585bd2ef63ac2c8b2834eabf904b917104e8a79de5c247d",
+  "bundle_creation_commit": "154f49f6973aaee46ca879676a10f162ae23e294",
+  "bundle_blob_sha": "89a8ec2ccbf124c741720793682fa04efa31207c",
+  "exact_utf8_readback": true,
+  "original_preselection": {
+    "repository_head": "baf4d3f504d0f9cd1117e594275b483e5bc1dd58",
+    "history_blob_sha": "3e6c0a7240427d700d7115fa96b6926151c588bc",
+    "history_rows": 57,
+    "candidate_count": 10,
+    "selected_source": "https://home.nps.gov/subjects/nightskies/how-light-works.htm",
+    "source_verification": {
+      "title": "How Light Works",
+      "source_url": "https://home.nps.gov/subjects/nightskies/how-light-works.htm",
+      "source": "U.S. National Park Service",
+      "verification_method": "direct_official_page_full_text",
+      "verification_ref": "turn760view2",
+      "verified_at": "2026-11-04T00:14:00Z",
+      "observed_scope": [
+        "title",
+        "complete visible body",
+        "photopic/scotopic sections",
+        "illuminance/luminance examples",
+        "page last-updated date"
+      ],
+      "accessibility": "visible official HTML text; images not required; no audio or account access involved"
+    },
+    "dedup": {
+      "original_history_rows": 57,
+      "prepared_transaction_count": 62,
+      "prepared_reserved_resource_count": 414,
+      "exact_url_absent_from_history": true,
+      "exact_url_absent_from_all_prepared_reservations": true,
+      "freshness_checked_against_original_preselection": true
+    }
+  },
+  "errors": []
+}
