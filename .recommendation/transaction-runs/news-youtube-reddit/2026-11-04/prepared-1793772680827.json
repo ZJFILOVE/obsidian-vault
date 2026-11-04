@@ -1,0 +1,941 @@
+{
+  "operation_id": "news-youtube-reddit:2026-11-04",
+  "status": "PREPARED_read_back",
+  "recorded_at_utc": "2026-11-04T06:11:20.827Z",
+  "prepared": {
+    "commit": "4ad6d0b980070f54e288134a7e0077aa81b339c1",
+    "parent": "51c76b086f904170511b5c776e61796de5bc8560",
+    "tree": "87ed080df22a609a186a9e7ee5bb26cb9e06f9bd",
+    "readbacks": {
+      ".recommendation/transactions/news-youtube-reddit/2026-11-04.json": {
+        "sha": "271812dc19bfcde5671aaaf6b71c76697fb3a77d",
+        "bytes": 192614,
+        "exact_utf8": true
+      }
+    }
+  },
+  "original_bundle_sha256": "6571182ff1a2b38c8f741e82c4e4840c6f02ca4e1a0ae8237f99ef5a14ef2d6d",
+  "original_plan_sha256": "e7f667e389f01c5f4688e0277f488557e0594b92145abee9e7e57d63fbd9fc9e",
+  "evidence": {
+    "date": "2026-11-04",
+    "operation_id": "news-youtube-reddit:2026-11-04",
+    "observed_at_utc": "2026-11-04T06:11:20.795301+00:00",
+    "original_history_head": "51c76b086f904170511b5c776e61796de5bc8560",
+    "youtube_candidates": [
+      {
+        "id": "G7wnGeR_69k",
+        "title": "Understanding GD&T",
+        "description": "Official Efficient Engineer article directly read; watch URL https://www.youtube.com/watch?v=G7wnGeR_69k and full text covering datums, 5 tolerance categories, MMC/LMC, and ASME Rule #1 vs ISO Independency Principle verified.",
+        "channel": "The Efficient Engineer",
+        "source": "https://efficientengineer.com/gd-and-t/",
+        "decision": "selected"
+      },
+      {
+        "id": "5_B1Mq02wcI",
+        "title": "The Hidden Engineering of Pressure Regulators",
+        "description": "Official Practical Engineering transcript directly read; original embed 5_B1Mq02wcI, orifice vs regulator feedback comparison, William Fisher 1876 governor, fail-open bell regulators, and 2018 Merrimack Valley disaster verified.",
+        "channel": "Practical Engineering",
+        "source": "https://practical.engineering/blog/2026/10/6/the-hidden-engineering-of-pressure-regulators",
+        "decision": "selected"
+      },
+      {
+        "id": "EgnAN0ZUl08",
+        "title": "Squaring the Triangle",
+        "description": "Official Numberphile episode page directly read; original embed EgnAN0ZUl08, James Grime interview, Charles William McElroy historical attribution, and arXiv:2412.03865 optimality proof link verified.",
+        "channel": "Numberphile",
+        "source": "https://www.numberphile.com/videos/squaring-the-triangle",
+        "decision": "selected"
+      },
+      {
+        "id": "oeVDdQtNu6c",
+        "title": "A Small History of Big Evolutionary Ideas",
+        "description": "Official Gresham College lecture page and inline transcript by Prof. Robin May directly read; original embed oeVDdQtNu6c verified.",
+        "channel": "Gresham College",
+        "source": "https://www.gresham.ac.uk/watch-now/evolutionary-thinking",
+        "decision": "selected"
+      },
+      {
+        "id": "PsuI0guxFd4",
+        "title": "How was it made? Glass kiln-casting",
+        "description": "Official V&A article directly read; original embed PsuI0guxFd4 and description of Colin Reid's Highland rock impression, kiln casting, and cold-working optical surfaces verified.",
+        "channel": "Victoria and Albert Museum",
+        "source": "https://www.vam.ac.uk/articles/how-was-it-made-glass-kiln-casting",
+        "decision": "selected"
+      },
+      {
+        "id": "n9Z234P393w",
+        "title": "Understanding Torsion",
+        "description": "Torsion of circular and non-circular shafts, shear stress, and warping.",
+        "channel": "The Efficient Engineer",
+        "source": "https://efficientengineer.com/torsion/",
+        "decision": "not selected: lower portfolio value or creator/topic concentration"
+      },
+      {
+        "id": "2ce6933A_2E",
+        "title": "Understanding Buckling",
+        "description": "Euler column buckling, effective length factors, and local buckling.",
+        "channel": "The Efficient Engineer",
+        "source": "https://efficientengineer.com/buckling/",
+        "decision": "not selected: lower portfolio value or creator/topic concentration"
+      },
+      {
+        "id": "f0p0F2W7B8k",
+        "title": "Understanding Fatigue Failure",
+        "description": "S-N curves, crack initiation, and stress concentrations in cyclic loading.",
+        "channel": "The Efficient Engineer",
+        "source": "https://efficientengineer.com/fatigue/",
+        "decision": "not selected: lower portfolio value or creator/topic concentration"
+      },
+      {
+        "id": "8jB2a0c8b7k",
+        "title": "Understanding Friction",
+        "description": "Coulomb dry friction, asperities, stick-slip, and Stribeck curve.",
+        "channel": "The Efficient Engineer",
+        "source": "https://efficientengineer.com/friction/",
+        "decision": "not selected: lower portfolio value or creator/topic concentration"
+      },
+      {
+        "id": "vM9_X-b7-3Q",
+        "title": "Why Do Bridges Have Expansion Joints?",
+        "description": "Thermal expansion joints in bridge decks and bearings.",
+        "channel": "Practical Engineering",
+        "source": "https://practical.engineering/blog",
+        "decision": "not selected: topic overlap with recent thermal expansion Reddit item"
+      },
+      {
+        "id": "qCxco6227xo",
+        "title": "NERF Blaster: Air Restriction Mechanism",
+        "description": "Air restriction mechanism in a NERF blaster.",
+        "channel": "engineerguy",
+        "source": "https://engineerguy.com/videos.htm",
+        "decision": "not selected: creator concentration"
+      },
+      {
+        "id": "oUEbMjtWc-A",
+        "title": "How a Laser Works",
+        "description": "Ruby laser stimulated emission and optical cavity.",
+        "channel": "engineerguy",
+        "source": "https://engineerguy.com/videos.htm",
+        "decision": "not selected: creator concentration"
+      },
+      {
+        "id": "OcgKDSwINOA",
+        "title": "What Keeps Nuclear Weapons from Proliferating: The hardest step in making a nuclear bomb",
+        "description": "Isotope separation via gas diffusion and centrifuges.",
+        "channel": "engineerguy",
+        "source": "https://engineerguy.com/videos.htm",
+        "decision": "not selected: creator concentration"
+      },
+      {
+        "id": "p2BxAu6WZI8",
+        "title": "How an atomic clock works, and its use in the global positioning system (GPS)",
+        "description": "Cesium feedback loop controlling quartz oscillator.",
+        "channel": "engineerguy",
+        "source": "https://engineerguy.com/videos.htm",
+        "decision": "not selected: creator concentration"
+      },
+      {
+        "id": "xlY5W7be5jU",
+        "title": "Black box: Inside a flight data recorder",
+        "description": "Inconel housing and crash survival of a Sundstrand flight data recorder.",
+        "channel": "engineerguy",
+        "source": "https://engineerguy.com/videos.htm",
+        "decision": "not selected: creator concentration"
+      },
+      {
+        "id": "oFUUQcpGR3k",
+        "title": "How smoke detectors work",
+        "description": "Ionization chamber and MOSFET current sensing.",
+        "channel": "engineerguy",
+        "source": "https://engineerguy.com/videos.htm",
+        "decision": "not selected: creator concentration"
+      },
+      {
+        "id": "wsdmt0De8Hw",
+        "title": "CCD: The heart of a digital camera (how a charge-coupled device works)",
+        "description": "CCD charge transfer and Bayer color filter array.",
+        "channel": "engineerguy",
+        "source": "https://engineerguy.com/videos.htm",
+        "decision": "not selected: creator concentration"
+      },
+      {
+        "id": "RdYHljZi7ys",
+        "title": "How the first transistor worked",
+        "description": "1947 Bell Labs point-contact transistor replica.",
+        "channel": "engineerguy",
+        "source": "https://engineerguy.com/videos.htm",
+        "decision": "not selected: creator concentration"
+      },
+      {
+        "id": "En__V0oEJsU",
+        "title": "How a Film Projector Works",
+        "description": "Intermittent mechanism, shutter, and optical sound reader.",
+        "channel": "engineerguy",
+        "source": "https://engineerguy.com/videos.htm",
+        "decision": "not selected: creator concentration"
+      },
+      {
+        "id": "xYNX8y6lQMc",
+        "title": "The Engineering of a Disposable Diaper",
+        "description": "Superabsorbent polymer layers in a disposable diaper.",
+        "channel": "engineerguy",
+        "source": "https://engineerguy.com/videos.htm",
+        "decision": "not selected: creator concentration"
+      },
+      {
+        "id": "hVCNS2jQQ6g",
+        "title": "Apollo: The Alignment Optical Telescope",
+        "description": "Archimedes spiral reticle in the Apollo Lunar Module telescope.",
+        "channel": "engineerguy",
+        "source": "https://engineerguy.com/videos.htm",
+        "decision": "not selected: creator concentration"
+      }
+    ],
+    "reddit_candidates": [
+      {
+        "id": "7naj7f",
+        "title": "Disengageable and antibacklash lead screw nut",
+        "subreddit": "AskEngineers",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/7naj7f",
+        "evidence": "Disengageable and antibacklash lead screw nut (https://www.reddit.com/r/AskEngineers/comments/7naj7f/disengageable_and_antibacklash_lead_screw_nut/) [June 29 2018] Discussion of combining a split half-nut quick-release mechanism with axial spring preload anti-backlash compensation on a lead screw.",
+        "search": "n4rd1",
+        "decision": "selected"
+      },
+      {
+        "id": "w4thjg",
+        "title": "Can someone explain the difference in group velocity and phase velocity in simple terms?",
+        "subreddit": "AskPhysics",
+        "url": "https://www.reddit.com/r/AskPhysics/comments/w4thjg",
+        "evidence": "Can someone explain the difference in group velocity and phase velocity in simple terms? (https://www.reddit.com/r/AskPhysics/comments/w4thjg/can_someone_explain_the_difference_in_group/) [July 21 2022] Wave packet envelope propagation d(omega)/dk vs individual carrier crest speed omega/k in dispersive media.",
+        "search": "n4rd2",
+        "decision": "selected"
+      },
+      {
+        "id": "1x2s0hs",
+        "title": "Bessel’s correction help",
+        "subreddit": "AskStatistics",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/1x2s0hs",
+        "evidence": "Bessel’s correction help (https://www.reddit.com/r/AskStatistics/comments/1x2s0hs/bessels_correction_help/) [October 19 2026] Why dividing by n-1 corrects downward bias when estimating population variance using sample mean x-bar.",
+        "search": "n4rd3",
+        "decision": "selected"
+      },
+      {
+        "id": "1su3v5a",
+        "title": "What explains the reversal in relative costs of goods vs services over the past 50 years?",
+        "subreddit": "AskEconomics",
+        "url": "https://www.reddit.com/r/AskEconomics/comments/1su3v5a",
+        "evidence": "What explains the reversal in relative costs of goods vs services over the past 50 years? (https://www.reddit.com/r/AskEconomics/comments/1su3v5a/what_explains_the_reversal_in_relative_costs_of/) [September 06 2026] Baumol's cost disease and productivity growth differentials between manufacturing and labor-intensive services.",
+        "search": "n4rd4",
+        "decision": "selected"
+      },
+      {
+        "id": "bn68zi",
+        "title": "What do we know about the history of double entry bookkeeping before Luca Pacioli?",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/bn68zi",
+        "evidence": "What do we know about the history of double entry bookkeeping before Luca Pacioli? (https://www.reddit.com/r/AskHistorians/comments/bn68zi/what_do_we_know_about_the_history_of_double_entry/) [May 11 2019] Merchant ledgers in Genoa, Florence, and Venice prior to Pacioli's 1494 Summa de arithmetica.",
+        "search": "n4rd5",
+        "decision": "selected"
+      },
+      {
+        "id": "m7raff",
+        "title": "Nixtamalized potatoes",
+        "subreddit": "foodscience",
+        "url": "https://www.reddit.com/r/foodscience/comments/m7raff",
+        "evidence": "Nixtamalized potatoes (https://www.reddit.com/r/foodscience/comments/m7raff/nixtamalized_potatoes/) [March 18 2021] Treating potatoes with calcium hydroxide (cal) vs sodium bicarbonate: pectin cross-linking vs alkaline starch gelatinization.",
+        "search": "n4rd6",
+        "decision": "selected"
+      },
+      {
+        "id": "lmp1f0",
+        "title": "Special and beautiful whistled language echoes around the mountains of La Gomera",
+        "subreddit": "linguistics",
+        "url": "https://www.reddit.com/r/linguistics/comments/lmp1f0",
+        "evidence": "Special and beautiful whistled language echoes around the mountains of La Gomera (https://www.reddit.com/r/linguistics/comments/lmp1f0/special_and_beautiful_whistled_language_echoes/) [February 18 2021] Silbo Gomero whistled register encoding Spanish segmental phonology into pitch and continuity modulations.",
+        "search": "n4rd7",
+        "decision": "selected"
+      },
+      {
+        "id": "4dm1cj",
+        "title": "I want to learn about watchmaking. Where do I start?",
+        "subreddit": "WatchHorology",
+        "url": "https://www.reddit.com/r/WatchHorology/comments/4dm1cj",
+        "evidence": "I want to learn about watchmaking. Where do I start? (https://www.reddit.com/r/WatchHorology/comments/4dm1cj/i_want_to_learn_about_watchmaking_where_do_i_start/) [April 06 2016] Starting mechanical watchmaking by disassembling and reassembling large manual pocket-watch movements (ETA 6497 / ST3600).",
+        "search": "n4rd8",
+        "decision": "selected"
+      },
+      {
+        "id": "pn8gzq",
+        "title": "I was soaking some native seeds overnight and noticed something interesting with the casuarina seeds (small ones with the tail). They seem to have an outer coat which dissolved and went sort of sticky/gelatinous. Anyone have any idea what this is/what it's for?",
+        "subreddit": "botany",
+        "url": "https://www.reddit.com/r/botany/comments/pn8gzq",
+        "evidence": "I was soaking some native seeds overnight and noticed something interesting with the casuarina seeds (small ones with the tail). They seem to have an outer coat which dissolved and went sort of sticky/gelatinous. Anyone have any idea what this is/what it's for? (https://www.reddit.com/r/botany/comments/pn8gzq) [September 13 2021] Seed coat mucilage (myxodiaspory) hydration for moisture retention and substrate adhesion.",
+        "search": "n4rd9",
+        "decision": "selected"
+      },
+      {
+        "id": "6zmx1k",
+        "title": "ELI5: What's the point of having multiple hexagonal lenses in a compound eye instead of one big lens?",
+        "subreddit": "explainlikeimfive",
+        "url": "https://www.reddit.com/r/explainlikeimfive/comments/6zmx1k",
+        "evidence": "ELI5: What's the point of having multiple hexagonal lenses in a compound eye instead of one big lens? (https://www.reddit.com/r/explainlikeimfive/comments/6zmx1k/eli5_whats_the_point_of_having_multiple_hexagonal/) [September 12 2017] Optical trade-offs between compound eyes and single-lens camera eyes: focal length, diffraction limit, field of view, and motion detection.",
+        "search": "n4rd10",
+        "decision": "selected"
+      },
+      {
+        "id": "zktbv5",
+        "title": "Trouble understanding degrees of freedom and its connection to Bessel's correction",
+        "subreddit": "AskStatistics",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/zktbv5",
+        "evidence": "Degrees of freedom and Bessel's correction discussion.",
+        "search": "n4rd3",
+        "decision": "rejected: same topic as 1x2s0hs"
+      },
+      {
+        "id": "gdfsqo",
+        "title": "Dealing with Simpson Paradox",
+        "subreddit": "AskStatistics",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/gdfsqo",
+        "evidence": "Simpson's paradox discussion.",
+        "search": "n4rd3",
+        "decision": "rejected: topic covered on 2026-10-31"
+      },
+      {
+        "id": "uav6cy",
+        "title": "ELI5: What is the Simpson's Paradox in statistics?",
+        "subreddit": "explainlikeimfive",
+        "url": "https://www.reddit.com/r/explainlikeimfive/comments/uav6cy",
+        "evidence": "Simpson's paradox explanation.",
+        "search": "n4rd3",
+        "decision": "rejected: topic covered on 2026-10-31"
+      },
+      {
+        "id": "8sgidu",
+        "title": "Cost disease is well explained in this article",
+        "subreddit": "AskEconomics",
+        "url": "https://www.reddit.com/r/AskEconomics/comments/8sgidu",
+        "evidence": "Baumol's cost disease article thread.",
+        "search": "n4rd4",
+        "decision": "rejected: same topic as 1su3v5a"
+      },
+      {
+        "id": "1n9qi47",
+        "title": "How well respected is the idea of Baumol's cost disease?",
+        "subreddit": "AskEconomics",
+        "url": "https://www.reddit.com/r/AskEconomics/comments/1n9qi47",
+        "evidence": "Empirical status of Baumol's cost disease.",
+        "search": "n4rd4",
+        "decision": "rejected: same topic as 1su3v5a"
+      },
+      {
+        "id": "1921n9h",
+        "title": "Have there been any solutions devised to Baumol's cost disease?",
+        "subreddit": "AskEconomics",
+        "url": "https://www.reddit.com/r/AskEconomics/comments/1921n9h",
+        "evidence": "Policy responses to Baumol's cost disease.",
+        "search": "n4rd4",
+        "decision": "rejected: same topic as 1su3v5a"
+      },
+      {
+        "id": "1moah7r",
+        "title": "Is there a cure to the Baumol effect?",
+        "subreddit": "AskEconomics",
+        "url": "https://www.reddit.com/r/AskEconomics/comments/1moah7r",
+        "evidence": "Baumol effect discussion.",
+        "search": "n4rd4",
+        "decision": "rejected: same topic as 1su3v5a"
+      },
+      {
+        "id": "fizihp",
+        "title": "How did the Medici bank work? Was there a physical vault?",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/fizihp",
+        "evidence": "Renaissance banking structure.",
+        "search": "n4rd5",
+        "decision": "rejected: lower focus on ledger mechanics than bn68zi"
+      },
+      {
+        "id": "1r80cb",
+        "title": "How did people keep their books before the invention of double-entry bookkeeping?",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1r80cb",
+        "evidence": "Pre-double-entry bookkeeping.",
+        "search": "n4rd5",
+        "decision": "rejected: same topic as bn68zi"
+      },
+      {
+        "id": "1lqm0pz",
+        "title": "How good were Romans at accounting?",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1lqm0pz",
+        "evidence": "Roman accounting practices.",
+        "search": "n4rd5",
+        "decision": "rejected: same cluster as bn68zi"
+      },
+      {
+        "id": "1e6ssa",
+        "title": "What innovations can be seen as game changers in economic history?",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1e6ssa",
+        "evidence": "Broad economic history question.",
+        "search": "n4rd5",
+        "decision": "rejected: too broad"
+      },
+      {
+        "id": "7i5eah",
+        "title": "TIL of John Harrison, a self-educated carpenter who invented the marine chronometer",
+        "subreddit": "todayilearned",
+        "url": "https://www.reddit.com/r/todayilearned/comments/7i5eah",
+        "evidence": "Marine chronometer TIL.",
+        "search": "n4rd5",
+        "decision": "rejected: link post"
+      },
+      {
+        "id": "6voi33",
+        "title": "Why choose starchy potatoes when you're gonna soak them anyway?",
+        "subreddit": "AskCulinary",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/6voi33",
+        "evidence": "Starchy vs waxy potatoes soaking.",
+        "search": "n4rd6",
+        "decision": "rejected: narrower than m7raff"
+      },
+      {
+        "id": "18zze0b",
+        "title": "Have you ever heard of an emulsion from starch?",
+        "subreddit": "AskCulinary",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/18zze0b",
+        "evidence": "Starch emulsion question.",
+        "search": "n4rd6",
+        "decision": "rejected: lower clarity"
+      },
+      {
+        "id": "y1boem",
+        "title": "Is nixtamalization used for anything else besides corn?",
+        "subreddit": "AskCulinary",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/y1boem",
+        "evidence": "Non-corn nixtamalization.",
+        "search": "n4rd6",
+        "decision": "rejected: same topic as m7raff"
+      },
+      {
+        "id": "dtxlkc",
+        "title": "Would all corn benefit from nixtamalization?",
+        "subreddit": "AskCulinary",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/dtxlkc",
+        "evidence": "Corn nixtamalization.",
+        "search": "n4rd6",
+        "decision": "rejected: same topic as m7raff"
+      },
+      {
+        "id": "1bix3t",
+        "title": "Speaking in Whistles: The Whistled Language of Oaxaca, Mexico",
+        "subreddit": "linguistics",
+        "url": "https://www.reddit.com/r/linguistics/comments/1bix3t",
+        "evidence": "Oaxaca whistled speech.",
+        "search": "n4rd7",
+        "decision": "rejected: same topic as lmp1f0"
+      },
+      {
+        "id": "bd1lz9",
+        "title": "Mazatec Whistle Talk - Dr. George Cowan",
+        "subreddit": "linguistics",
+        "url": "https://www.reddit.com/r/linguistics/comments/bd1lz9",
+        "evidence": "Mazatec whistle speech.",
+        "search": "n4rd7",
+        "decision": "rejected: same topic as lmp1f0"
+      },
+      {
+        "id": "obmoe3",
+        "title": "Tonogenesis vs tone patterns question",
+        "subreddit": "conlangs",
+        "url": "https://www.reddit.com/r/conlangs/comments/obmoe3",
+        "evidence": "Tonogenesis in conlangs.",
+        "search": "n4rd7",
+        "decision": "rejected: lower general utility"
+      },
+      {
+        "id": "1vgab6o",
+        "title": "Shivering, Crazing, Troubled Glazing",
+        "subreddit": "Pottery",
+        "url": "https://www.reddit.com/r/Pottery/comments/1vgab6o",
+        "evidence": "Glaze thermal expansion mismatch.",
+        "search": "n4rd9",
+        "decision": "rejected: semantic overlap with 2026-11-01 glaze fit post 1qfyrzr"
+      },
+      {
+        "id": "173vn11",
+        "title": "Glaze cracking",
+        "subreddit": "Pottery",
+        "url": "https://www.reddit.com/r/Pottery/comments/173vn11",
+        "evidence": "Glaze crazing.",
+        "search": "n4rd9",
+        "decision": "rejected: semantic overlap with 2026-11-01 glaze fit post"
+      },
+      {
+        "id": "1wmujd6",
+        "title": "Crazing issues - at a loss",
+        "subreddit": "Ceramics",
+        "url": "https://www.reddit.com/r/Ceramics/comments/1wmujd6",
+        "evidence": "Ceramic glaze crazing.",
+        "search": "n4rd9",
+        "decision": "rejected: semantic overlap with 2026-11-01 glaze fit post"
+      },
+      {
+        "id": "1g2d57d",
+        "title": "Help please",
+        "subreddit": "moths",
+        "url": "https://www.reddit.com/r/moths/comments/1g2d57d",
+        "evidence": "Moth ID thread.",
+        "search": "n4rd10",
+        "decision": "rejected: generic ID post"
+      },
+      {
+        "id": "1erql7u",
+        "title": "Cross eyed periodical cicada with lighter color eyes",
+        "subreddit": "Entomology",
+        "url": "https://www.reddit.com/r/Entomology/comments/1erql7u",
+        "evidence": "Pseudopupils in cicada compound eyes.",
+        "search": "n4rd10",
+        "decision": "rejected: same optical cluster as 6zmx1k"
+      },
+      {
+        "id": "1dtzx6w",
+        "title": "New to watchmaking and need to rant/advice",
+        "subreddit": "watchmaking",
+        "url": "https://www.reddit.com/r/watchmaking/comments/1dtzx6w",
+        "evidence": "Beginner watchmaking thread.",
+        "search": "n4rd8",
+        "decision": "rejected: same topic as 4dm1cj"
+      },
+      {
+        "id": "199ol0r",
+        "title": "Horology",
+        "subreddit": "watchmaking",
+        "url": "https://www.reddit.com/r/watchmaking/comments/199ol0r",
+        "evidence": "General horology thread.",
+        "search": "n4rd8",
+        "decision": "rejected: same topic as 4dm1cj"
+      },
+      {
+        "id": "13ozyp6",
+        "title": "Grain direction in box making",
+        "subreddit": "bookbinding",
+        "url": "https://www.reddit.com/r/bookbinding/comments/13ozyp6",
+        "evidence": "Paperboard grain direction.",
+        "search": "n4rd8",
+        "decision": "rejected: topic covered in earlier bookbinding grain entry"
+      },
+      {
+        "id": "so6diu",
+        "title": "Do marine plants have exploding seed mechanisms or are they only reliant of viviparity?",
+        "subreddit": "botany",
+        "url": "https://www.reddit.com/r/botany/comments/so6diu",
+        "evidence": "Marine plant dispersal.",
+        "search": "n4rd9",
+        "decision": "rejected: retained pn8gzq for seed mucilage"
+      }
+    ],
+    "selection": {
+      "youtube": [
+        {
+          "id": "G7wnGeR_69k",
+          "title": "Understanding GD&T",
+          "channel": "The Efficient Engineer",
+          "source": "https://efficientengineer.com/gd-and-t/",
+          "topic": "几何尺寸与公差（GD&T）如何约束装配功能",
+          "tier": "high_confidence",
+          "why": "传统正负尺寸公差很容易让人误以为“每个尺寸都控制在上下限内，零件就一定装得上”。官方配套长文与视频从轴孔配合、基准面（datums）和特征控制框出发，拆解形状、方向、位置、轮廓与跳动五大类几何公差，解释为什么圆柱形公差带比方形正负公差带更贴合装配实际，并对比最大实体条件（MMC）带来的补偿公差。\n\n最值得顺手厘清的是 ASME 的包络原则（Rule #1）与 ISO 独立原则之间的差异：同一个尺寸标注，在不同标准体系下是否自动约束形状误差？带着“制造检验基准怎样对应零件在总成里的真实接触顺序”观看，能把制图符号还原成物理约束。",
+          "cue": "画一个带四个安装孔的法兰盘，标出第一、第二、第三基准面，并说明为什么位置度用圆形公差带比正负坐标公差更合理。",
+          "observation": "Official Efficient Engineer article directly read; watch URL https://www.youtube.com/watch?v=G7wnGeR_69k and full text covering datums, 5 tolerance categories, MMC/LMC, and ASME Rule #1 vs ISO Independency Principle verified.",
+          "url": "https://www.youtube.com/watch?v=G7wnGeR_69k",
+          "verification_method": "creator_official_page",
+          "observed_at_utc": "2026-11-04T06:11:20.795301+00:00",
+          "full_playback": "not_tested",
+          "scores": {
+            "quality": 9,
+            "usefulness": 9,
+            "curiosity": 9,
+            "novelty": 9,
+            "fit": 9
+          },
+          "creator_penalty": 0,
+          "weighted_score": 9.0
+        },
+        {
+          "id": "5_B1Mq02wcI",
+          "title": "The Hidden Engineering of Pressure Regulators",
+          "channel": "Practical Engineering",
+          "source": "https://practical.engineering/blog/2026/10/6/the-hidden-engineering-of-pressure-regulators",
+          "topic": "纯机械减压阀中的负反馈与失效方向",
+          "tier": "high_confidence",
+          "why": "许多人直觉上觉得“把管道收窄一点就能降压”，但节流孔板一旦遇到下游零流量，两端压差就会立刻消失，上游高压直接传到下游。官方讲稿从这个致命反例切入，用剖开的家用天然气调压器展示弹簧（设定参考值）、膜片（测量下游压力）与杠杆阀口（执行节流）怎样组成纯机械负反馈回路。\n\n视频还把历史脉络与失效后果放在一起：1876年 William Fisher 在火场观察泵速失控发明调速器、早期水封钟罩式煤气调压器为何属于危险的“失效常开（fail-open）”设计，以及2018年梅里马克山谷（Merrimack Valley）燃气管网因感压管断开导致全城超压的事故。近期同频道出现过，已计入重复扣分；保留是因为它把纯机械反馈回路与安全失效方向讲得极为透彻。",
+          "cue": "画出膜片、弹簧、呼吸孔、感压路径与阀芯的受力方向，分别推演“下游用气量突增”和“感压信号丢失”时阀口会怎样移动。",
+          "observation": "Official Practical Engineering transcript directly read; original embed 5_B1Mq02wcI, orifice vs regulator feedback comparison, William Fisher 1876 governor, fail-open bell regulators, and 2018 Merrimack Valley disaster verified.",
+          "url": "https://www.youtube.com/watch?v=5_B1Mq02wcI",
+          "verification_method": "creator_official_page",
+          "observed_at_utc": "2026-11-04T06:11:20.795301+00:00",
+          "full_playback": "not_tested",
+          "scores": {
+            "quality": 9,
+            "usefulness": 9,
+            "curiosity": 9,
+            "novelty": 9,
+            "fit": 9
+          },
+          "creator_penalty": 0.7,
+          "weighted_score": 8.3
+        },
+        {
+          "id": "EgnAN0ZUl08",
+          "title": "Squaring the Triangle",
+          "channel": "Numberphile",
+          "source": "https://www.numberphile.com/videos/squaring-the-triangle",
+          "topic": "等边三角形到正方形的铰接剖分与最优块数证明",
+          "tier": "high_confidence",
+          "why": "把一个等边三角形切成四块，用铰链连成一串，翻折一次就能严丝合缝地拼成正方形——这就是著名的杜德尼剖分（Dudeney's dissection，官网同时提到更早的发现者可能为 Charles William McElroy）。James Grime 在节目中不仅演示实物模型的几何中点取法，还引出困扰数学界百余年的问题：能不能只切三块就完成同样的转换？\n\n它的启发性在于区分“构造出一个可行解”与“证明不存在更少块数的解”。官网直接附上2024年底发表的论文（arXiv:2412.03865），说明证明下界为何必须系统排除所有三块多边形边角匹配组合。无需读完论文全文，先在纸上算出面积相等时正方形边长与三角形边长的比例，就能体会这三条割线为何如此精巧。",
+          "cue": "设等边三角形边长为 2，先写出目标正方形的边长，再在草图上标出四块拼图各自的直角与铰接顶点位置。",
+          "observation": "Official Numberphile episode page directly read; original embed EgnAN0ZUl08, James Grime interview, Charles William McElroy historical attribution, and arXiv:2412.03865 optimality proof link verified.",
+          "url": "https://www.youtube.com/watch?v=EgnAN0ZUl08",
+          "verification_method": "creator_official_page",
+          "observed_at_utc": "2026-11-04T06:11:20.795301+00:00",
+          "full_playback": "not_tested",
+          "scores": {
+            "quality": 9,
+            "usefulness": 8,
+            "curiosity": 9,
+            "novelty": 9,
+            "fit": 9
+          },
+          "creator_penalty": 0.3,
+          "weighted_score": 8.55
+        },
+        {
+          "id": "oeVDdQtNu6c",
+          "title": "A Small History of Big Evolutionary Ideas",
+          "channel": "Gresham College",
+          "source": "https://www.gresham.ac.uk/watch-now/evolutionary-thinking",
+          "topic": "演化思想史中的科学证据、统计工具与优生学误途",
+          "tier": "adjacent",
+          "why": "格雷欣学院教授 Robin May 的这场讲座把演化生物学放回具体的历史观察与数学工具之中：从达尔文通过家鸽人工选育理解自然变异，到高尔顿（Francis Galton）在犬类与人类身高数据中发现“向均值回归（regression toward the mean）”，再到费希尔（R. A. Fisher）在洛桑试验站分析农作物施肥与育种数据时建立方差分析（ANOVA）。\n\n讲座非常有价值的一点，是不回避科学工具与社会意识形态纠缠的历史教训：高尔顿与费希尔既是现代统计方法的重要奠基者，却又把选育逻辑错误推广到人类社会，滑向优生学（eugenics）。阅读配套完整讲稿时，可以把“数学与实验方法解决的具体科学问题”和“研究者越界做出的社会政策主张”明确拆开。",
+          "cue": "列一张两栏表：左边写高尔顿与费希尔各自提出的统计概念及其原始数据场景，右边写将人工选育外推到人类社会时错把哪些前提当成了自然定律。",
+          "observation": "Official Gresham College lecture page and inline transcript by Prof. Robin May directly read; original embed oeVDdQtNu6c verified.",
+          "url": "https://www.youtube.com/watch?v=oeVDdQtNu6c",
+          "verification_method": "creator_official_page",
+          "observed_at_utc": "2026-11-04T06:11:20.795301+00:00",
+          "full_playback": "not_tested",
+          "scores": {
+            "quality": 8,
+            "usefulness": 8,
+            "curiosity": 9,
+            "novelty": 8,
+            "fit": 8
+          },
+          "creator_penalty": 0,
+          "weighted_score": 8.2
+        },
+        {
+          "id": "PsuI0guxFd4",
+          "title": "How was it made? Glass kiln-casting",
+          "channel": "Victoria and Albert Museum",
+          "source": "https://www.vam.ac.uk/articles/how-was-it-made-glass-kiln-casting",
+          "topic": "窑铸玻璃雕塑中的野外翻模、热成型与冷加工光学面",
+          "tier": "wildcard",
+          "why": "今天的跨界探索跟随雕塑家 Colin Reid 从苏格兰高地湖岸的火山岩出发，看一块粗糙的自然岩面怎样变成内部像镜面一样折射光线的窑铸玻璃作品。V&A 博物馆官方页面记录了完整工艺链：先在野外岩石表面取模，回到工作室翻制耐火石膏模具，将不同形态的玻璃料装入窑炉长期升温和退火，最后经过漫长的冷加工（研磨与抛光）切出精确的几何光学平面。\n\n观看重点是“保留自然肌理的铸造面”与“人工抛光的镜面窗口”怎样在同一块实心玻璃里产生全反射与景深错觉。玻璃冷加工涉及粉尘与重物搬运，本推荐仅作工艺与光学观察，不作操作示范。",
+          "cue": "追踪雕塑上的两类表面——直接翻模得到的岩石粗糙面与后期抛光的平面，说明光线从哪一面进入、在哪一面发生反射。",
+          "observation": "Official V&A article directly read; original embed PsuI0guxFd4 and description of Colin Reid's Highland rock impression, kiln casting, and cold-working optical surfaces verified.",
+          "url": "https://www.youtube.com/watch?v=PsuI0guxFd4",
+          "verification_method": "creator_official_page",
+          "observed_at_utc": "2026-11-04T06:11:20.795301+00:00",
+          "full_playback": "not_tested",
+          "scores": {
+            "quality": 8,
+            "usefulness": 8,
+            "curiosity": 9,
+            "novelty": 9,
+            "fit": 8
+          },
+          "creator_penalty": 0,
+          "weighted_score": 8.35
+        }
+      ],
+      "reddit": [
+        {
+          "id": "7naj7f",
+          "title": "Disengageable and antibacklash lead screw nut",
+          "subreddit": "AskEngineers",
+          "url": "https://www.reddit.com/r/AskEngineers/comments/7naj7f",
+          "evidence": "Disengageable and antibacklash lead screw nut (https://www.reddit.com/r/AskEngineers/comments/7naj7f/disengageable_and_antibacklash_lead_screw_nut/) [June 29 2018] Discussion of combining a split half-nut quick-release mechanism with axial spring preload anti-backlash compensation on a lead screw.",
+          "search": "n4rd1",
+          "topic": "丝杠消隙螺母与快速脱开机构为何彼此冲突",
+          "tier": "high_confidence",
+          "why": "设计者希望丝杠螺母既能像车床开合螺母（half-nut）那样随时脱开以便手动快移，又能在啮合时利用双螺母弹簧预紧消除反向间隙（backlash）。把这两个看似合理的需求叠在一起，立刻就会暴露出几何与装配冲突：剖分螺母是为了径向分离，而轴向弹簧消隙却要求两段螺母始终保持可控的相对轴向推力。非常适合拿来练习“两个成熟子机构合成时，约束条件在哪里打架”。",
+          "note": "搜索仅显示提问与概念性讨论，未核验具体载荷、导程与寿命。阅读任务是先画草图列出径向开合自由度与轴向预紧自由度，不要把回帖构想直接当作可承受重载的成熟零件。",
+          "original_post_verification": "not_performed_user_waived",
+          "age": "June 29 2018",
+          "editorial_score": {
+            "components": {
+              "quality": 9,
+              "usefulness": 9,
+              "curiosity": 9,
+              "novelty": 8,
+              "fit": 9
+            },
+            "weighted": 8.85,
+            "basis": "Editorial judgment on the question framing and accessible search evidence only, not full discussion quality."
+          }
+        },
+        {
+          "id": "w4thjg",
+          "title": "Can someone explain the difference in group velocity and phase velocity in simple terms?",
+          "subreddit": "AskPhysics",
+          "url": "https://www.reddit.com/r/AskPhysics/comments/w4thjg",
+          "evidence": "Can someone explain the difference in group velocity and phase velocity in simple terms? (https://www.reddit.com/r/AskPhysics/comments/w4thjg/can_someone_explain_the_difference_in_group/) [July 21 2022] Wave packet envelope propagation d(omega)/dk vs individual carrier crest speed omega/k in dispersive media.",
+          "search": "n4rd2",
+          "topic": "波包群速度与相速度：能量与信息究竟跟哪一个走",
+          "tier": "high_confidence",
+          "why": "单个无限长正弦波只有相速度 $\\omega/k$，却无法传递任何新信号；一旦用两个或一簇频率相近的波叠加出“波包”，包络线移动的速度就变成了导数 $d\\omega/dk$（群速度）。这个问题的价值在于逼你区分“波峰在包络内部的穿行”与“整团能量或调制信号的推进”，并思考色散介质中为什么会出现相速度大于光速却不违反相对论的情况。",
+          "note": "仅依据搜索可见问答摘录整理。注意反常色散区群速度也可能出现极端值，此时信号前沿速度（front velocity）与群速度并不等同，不能把一句口诀套到所有色散区间。",
+          "original_post_verification": "not_performed_user_waived",
+          "age": "July 21 2022",
+          "editorial_score": {
+            "components": {
+              "quality": 9,
+              "usefulness": 9,
+              "curiosity": 8,
+              "novelty": 8,
+              "fit": 9
+            },
+            "weighted": 8.65,
+            "basis": "Editorial judgment on the question framing and accessible search evidence only, not full discussion quality."
+          }
+        },
+        {
+          "id": "1x2s0hs",
+          "title": "Bessel’s correction help",
+          "subreddit": "AskStatistics",
+          "url": "https://www.reddit.com/r/AskStatistics/comments/1x2s0hs",
+          "evidence": "Bessel’s correction help (https://www.reddit.com/r/AskStatistics/comments/1x2s0hs/bessels_correction_help/) [October 19 2026] Why dividing by n-1 corrects downward bias when estimating population variance using sample mean x-bar.",
+          "search": "n4rd3",
+          "topic": "样本方差为何除 $n-1$ 而不是 $n$：均值耗掉的那个自由度",
+          "tier": "high_confidence",
+          "why": "很多人背熟了样本方差公式分母写 $n-1$，却说不清为什么用样本均值 $\\bar{x}$ 代替总体均值 $\\mu$ 会系统性低估离散程度。这个问题适合用 $n=1$ 或 $n=2$ 的极端小样本亲手算一遍：因为样本均值永远比总体均值更贴近手头这批样本点，平方和自然偏小，而最后一项偏差永远由前 $n-1$ 项决定。",
+          "note": "仅凭搜索片段评估问题切入点。阅读时注意区分“无偏估计（unbiasedness）”与“最小均方误差（MSE）”：无偏并非唯一评价准则，标准差 $\\sqrt{s^2}$ 本身在开方后也依然是有偏的。",
+          "original_post_verification": "not_performed_user_waived",
+          "age": "October 19 2026",
+          "editorial_score": {
+            "components": {
+              "quality": 9,
+              "usefulness": 9,
+              "curiosity": 8,
+              "novelty": 8,
+              "fit": 9
+            },
+            "weighted": 8.65,
+            "basis": "Editorial judgment on the question framing and accessible search evidence only, not full discussion quality."
+          }
+        },
+        {
+          "id": "1su3v5a",
+          "title": "What explains the reversal in relative costs of goods vs services over the past 50 years?",
+          "subreddit": "AskEconomics",
+          "url": "https://www.reddit.com/r/AskEconomics/comments/1su3v5a",
+          "evidence": "What explains the reversal in relative costs of goods vs services over the past 50 years? (https://www.reddit.com/r/AskEconomics/comments/1su3v5a/what_explains_the_reversal_in_relative_costs_of/) [September 06 2026] Baumol's cost disease and productivity growth differentials between manufacturing and labor-intensive services.",
+          "search": "n4rd4",
+          "topic": "鲍莫尔成本病：为什么生产率停滞的服务业反而越来越贵",
+          "tier": "high_confidence",
+          "why": "五十年来，电视机、服装等制成品相对越来越便宜，而医疗、教育、现场演出等面对面服务却越来越贵。这条提问直指经济学中的“鲍莫尔成本病（Baumol's cost disease）”：当制造业生产率快速提升推高全社会工资水平时，无法轻易减少单位工时的服务部门为了留住劳动力也必须涨薪，从而表现为相对价格持续上升。",
+          "note": "搜索摘要仅展示概念框架，未核对特定国家CPI分项与质量调整（hedonic adjustment）口径。不要把所有服务涨价都归因于鲍莫尔效应，准入限制、行政成本与需求收入弹性同样需要分开检验。",
+          "original_post_verification": "not_performed_user_waived",
+          "age": "September 06 2026",
+          "editorial_score": {
+            "components": {
+              "quality": 9,
+              "usefulness": 8,
+              "curiosity": 9,
+              "novelty": 8,
+              "fit": 9
+            },
+            "weighted": 8.6,
+            "basis": "Editorial judgment on the question framing and accessible search evidence only, not full discussion quality."
+          }
+        },
+        {
+          "id": "bn68zi",
+          "title": "What do we know about the history of double entry bookkeeping before Luca Pacioli?",
+          "subreddit": "AskHistorians",
+          "url": "https://www.reddit.com/r/AskHistorians/comments/bn68zi",
+          "evidence": "What do we know about the history of double entry bookkeeping before Luca Pacioli? (https://www.reddit.com/r/AskHistorians/comments/bn68zi/what_do_we_know_about_the_history_of_double_entry/) [May 11 2019] Merchant ledgers in Genoa, Florence, and Venice prior to Pacioli's 1494 Summa de arithmetica.",
+          "search": "n4rd5",
+          "topic": "帕乔利之前的复式记账：商业账本怎样演化出借贷平衡",
+          "tier": "adjacent",
+          "why": "1494年卢卡·帕乔利（Luca Pacioli）在《算术、几何、比及比例概要》中系统整理了威尼斯复式记账法，但他本人就声明自己只是记录既有商习。这个问题的魅力在于追问：在帕乔利成书之前，热那亚、佛罗伦萨与威尼斯的商人和银行家是为了解决合伙分账、远途代理还是信贷核对，才一步步把流水账改造成借贷对照账户的？",
+          "note": "未通读完整史学回帖与档案引文。阅读时注意区分“出现借贷并列形式”“具备试算平衡机制”与“形成现代会计准则”，不要把早期商号账册直接等同于现代企业财务报表。",
+          "original_post_verification": "not_performed_user_waived",
+          "age": "May 11 2019",
+          "editorial_score": {
+            "components": {
+              "quality": 8,
+              "usefulness": 8,
+              "curiosity": 9,
+              "novelty": 8,
+              "fit": 8
+            },
+            "weighted": 8.2,
+            "basis": "Editorial judgment on the question framing and accessible search evidence only, not full discussion quality."
+          }
+        },
+        {
+          "id": "m7raff",
+          "title": "Nixtamalized potatoes",
+          "subreddit": "foodscience",
+          "url": "https://www.reddit.com/r/foodscience/comments/m7raff",
+          "evidence": "Nixtamalized potatoes (https://www.reddit.com/r/foodscience/comments/m7raff/nixtamalized_potatoes/) [March 18 2021] Treating potatoes with calcium hydroxide (cal) vs sodium bicarbonate: pectin cross-linking vs alkaline starch gelatinization.",
+          "search": "n4rd6",
+          "topic": "把玉米碱法处理迁移到马铃薯：果胶交联与表皮脆壳机制",
+          "tier": "adjacent",
+          "why": "传统墨西哥碱法烹调（nixtamalization）用氢氧化钙（熟石灰）或草木灰处理玉米，既脱去果皮又释放烟酸；提问者尝试把同样的钙碱溶液用在马铃薯块茎上。这题之所以好玩，是因为它把常见的小苏打脆皮烤土豆（碱性提高果胶溶解度、加速表皮淀粉糊化与美拉德反应）与钙离子交联果胶增强细胞壁硬度的反向作用放到了同一张桌子上。",
+          "note": "个人食品实验讨论，未核验具体氢氧化钙浓度、浸泡时长与pH安全边界。食用碱与熟石灰具有腐蚀性，阅读目标是理解果胶甲酯酶、钙桥交联与碱促糊化的机理差异，不作家庭复刻配方认证。",
+          "original_post_verification": "not_performed_user_waived",
+          "age": "March 18 2021",
+          "editorial_score": {
+            "components": {
+              "quality": 8,
+              "usefulness": 8,
+              "curiosity": 9,
+              "novelty": 9,
+              "fit": 8
+            },
+            "weighted": 8.35,
+            "basis": "Editorial judgment on the question framing and accessible search evidence only, not full discussion quality."
+          }
+        },
+        {
+          "id": "lmp1f0",
+          "title": "Special and beautiful whistled language echoes around the mountains of La Gomera",
+          "subreddit": "linguistics",
+          "url": "https://www.reddit.com/r/linguistics/comments/lmp1f0",
+          "evidence": "Special and beautiful whistled language echoes around the mountains of La Gomera (https://www.reddit.com/r/linguistics/comments/lmp1f0/special_and_beautiful_whistled_language_echoes/) [February 18 2021] Silbo Gomero whistled register encoding Spanish segmental phonology into pitch and continuity modulations.",
+          "search": "n4rd7",
+          "topic": "戈梅拉岛口哨语如何把元音与辅音压缩进频率轨迹",
+          "tier": "adjacent",
+          "why": "加那利群岛戈梅拉岛的口哨语（Silbo Gomero）并不是一套独立于日常语言之外的密码，而是把西班牙语的音系结构直接映射到单一基频口哨上。在深谷地形中，普通语音的高频泛音很快衰减，而1–4 kHz的窄带强口哨却能传出数公里。值得思考的是：当声道共振峰只剩下一条连续变化的音高与断续包络时，听者靠什么上下文和音节约束把句子重新解码出来？",
+          "note": "仅根据搜索可见语言学背景评估。不要把口哨语误解为“没有语法的鸟鸣信号”，它高度依赖母语者的词汇库与句法预期来消解声学合并带来的歧义。",
+          "original_post_verification": "not_performed_user_waived",
+          "age": "February 18 2021",
+          "editorial_score": {
+            "components": {
+              "quality": 8,
+              "usefulness": 8,
+              "curiosity": 9,
+              "novelty": 8,
+              "fit": 8
+            },
+            "weighted": 8.2,
+            "basis": "Editorial judgment on the question framing and accessible search evidence only, not full discussion quality."
+          }
+        },
+        {
+          "id": "4dm1cj",
+          "title": "I want to learn about watchmaking. Where do I start?",
+          "subreddit": "WatchHorology",
+          "url": "https://www.reddit.com/r/WatchHorology/comments/4dm1cj",
+          "evidence": "I want to learn about watchmaking. Where do I start? (https://www.reddit.com/r/WatchHorology/comments/4dm1cj/i_want_to_learn_about_watchmaking_where_do_i_start/) [April 06 2016] Starting mechanical watchmaking by disassembling and reassembling large manual pocket-watch movements (ETA 6497 / ST3600).",
+          "search": "n4rd8",
+          "topic": "机械表擒纵与摆轮游丝入门：从大怀表机芯拆装建立手感",
+          "tier": "adjacent",
+          "why": "想亲手理解机械计时，最容易踩的坑是一上来就拆家里有纪念价值的小尺寸古董腕表或复杂自动陀机芯。钟表社区的标准入门路径通常是先从结构清晰、零件尺寸较大的手动上链怀表机芯（如 ETA 6497 或海鸥 ST3600）开始，按发条盒—传动轮系—擒纵机构—摆轮游丝的动力流向逐步拆装。它展示了任何精密手艺的共同规律：先放大尺度看清几何配合，再缩小尺度训练稳定手感。",
+          "note": "社区入门建议，未核验帖内具体工具品牌或教材版本。拆装发条盒前必须先完全释放发条张力，避免齿轮崩齿或零件弹飞伤人。",
+          "original_post_verification": "not_performed_user_waived",
+          "age": "April 06 2016",
+          "editorial_score": {
+            "components": {
+              "quality": 8,
+              "usefulness": 8,
+              "curiosity": 8,
+              "novelty": 8,
+              "fit": 8
+            },
+            "weighted": 8.0,
+            "basis": "Editorial judgment on the question framing and accessible search evidence only, not full discussion quality."
+          }
+        },
+        {
+          "id": "pn8gzq",
+          "title": "I was soaking some native seeds overnight and noticed something interesting with the casuarina seeds (small ones with the tail). They seem to have an outer coat which dissolved and went sort of sticky/gelatinous. Anyone have any idea what this is/what it's for?",
+          "subreddit": "botany",
+          "url": "https://www.reddit.com/r/botany/comments/pn8gzq",
+          "evidence": "I was soaking some native seeds overnight and noticed something interesting with the casuarina seeds (small ones with the tail). They seem to have an outer coat which dissolved and went sort of sticky/gelatinous. Anyone have any idea what this is/what it's for? (https://www.reddit.com/r/botany/comments/pn8gzq) [September 13 2021] Seed coat mucilage (myxodiaspory) hydration for moisture retention and substrate adhesion.",
+          "search": "n4rd9",
+          "topic": "木麻黄种皮遇水成胶：黏液传播（myxodiaspory）如何保水与锚定",
+          "tier": "wildcard",
+          "why": "今天的第一个跨界探索来自一次隔夜浸种观察：提问者发现木麻黄（Casuarina）带翅小种子泡水后，外层种皮没有真的“溶解”，而是吸水膨胀成一圈透明黏滑的水凝胶。这种现象在植物学中称为种皮黏液化（myxodiaspory，奇亚籽、亚麻籽和车前子也有类似结构）：在干湿交替剧烈的裸岩或沙地上，这层多糖水凝胶既能像微型水库一样锁住发芽所需水分，又能在干燥时把种子牢牢粘附在土壤表面。",
+          "note": "搜索可见讨论包含保水与附着两种生态功能假说，具体树种在不同生境下的主导功能需查植物生理文献，不能把所有黏液种皮都归结为单一用途。",
+          "original_post_verification": "not_performed_user_waived",
+          "age": "September 13 2021",
+          "editorial_score": {
+            "components": {
+              "quality": 8,
+              "usefulness": 8,
+              "curiosity": 9,
+              "novelty": 9,
+              "fit": 8
+            },
+            "weighted": 8.35,
+            "basis": "Editorial judgment on the question framing and accessible search evidence only, not full discussion quality."
+          }
+        },
+        {
+          "id": "6zmx1k",
+          "title": "ELI5: What's the point of having multiple hexagonal lenses in a compound eye instead of one big lens?",
+          "subreddit": "explainlikeimfive",
+          "url": "https://www.reddit.com/r/explainlikeimfive/comments/6zmx1k",
+          "evidence": "ELI5: What's the point of having multiple hexagonal lenses in a compound eye instead of one big lens? (https://www.reddit.com/r/explainlikeimfive/comments/6zmx1k/eli5_whats_the_point_of_having_multiple_hexagonal/) [September 12 2017] Optical trade-offs between compound eyes and single-lens camera eyes: focal length, diffraction limit, field of view, and motion detection.",
+          "search": "n4rd10",
+          "topic": "昆虫复眼与单镜头眼的权衡：衍射极限、景深与运动检测角速度",
+          "tier": "wildcard",
+          "why": "第二个跨界问题把光学孔径与生物体型限制放在一起：既然人类的单镜头相机式眼睛角分辨率高得多，为什么昆虫偏偏要用成百上千个小眼（ommatidia）拼成复眼？关键在于尺度与衍射：如果把单镜头眼缩小到果蝇头部的毫米尺寸，焦距与视网膜空间不足且无需对焦机构；而球面排列的复眼虽然牺牲了静态空间分辨率（若想达到人眼分辨率，复眼直径得像篮球一样大），却换来了接近全向的超大视场、极短的光路厚度以及对物体掠过相邻小眼时极快的闪烁频率与角速度感知。",
+          "note": "科普层级问答，未区分并列像复眼（apposition）与重叠像复眼（superposition）在夜行昆虫中的光学差异。阅读重点是理解“体型上限如何改写光学最优解”。",
+          "original_post_verification": "not_performed_user_waived",
+          "age": "September 12 2017",
+          "editorial_score": {
+            "components": {
+              "quality": 8,
+              "usefulness": 8,
+              "curiosity": 9,
+              "novelty": 8,
+              "fit": 8
+            },
+            "weighted": 8.2,
+            "basis": "Editorial judgment on the question framing and accessible search evidence only, not full discussion quality."
+          }
+        }
+      ]
+    },
+    "candidate_counts": {
+      "youtube": 21,
+      "reddit": 38
+    },
+    "semantic_review": "Checked against all 270 YouTube and 520 Reddit permanent history items plus recent daily notes. Rejected Pottery glaze crazing/shivering candidates (1vgab6o, 173vn11, 1wmujd6) due to semantic overlap with 2026-11-01 glaze fit (1qfyrzr), rejected Simpson's paradox (gdfsqo, uav6cy) due to 2026-10-31 coverage, and rejected paper grain direction (13ozyp6) due to prior coverage.",
+    "source_limitations": [
+      "No full YouTube video playback tested; verified via creator official pages and transcripts",
+      "Reddit original thread full comment trees not audited; original_post_verification=not_performed_user_waived"
+    ],
+    "news_sources": [
+      {
+        "url": "https://www.who.int/publications/i/item/9789240125421",
+        "method": "direct_official_page",
+        "observed_at_utc": "2026-11-04T06:11:20.795301+00:00"
+      },
+      {
+        "url": "https://www.who.int/publications/i/item/9789240120280",
+        "method": "direct_official_page",
+        "observed_at_utc": "2026-11-04T06:11:20.795301+00:00"
+      },
+      {
+        "url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/CubeSat_achieves_challenging_laser_link_to_ground",
+        "method": "direct_official_page",
+        "observed_at_utc": "2026-11-04T06:11:20.795301+00:00"
+      }
+    ]
+  }
+}
