@@ -1,0 +1,577 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-11-04",
+  "recorded_at_utc": "2026-11-04 00:43:18 UTC",
+  "original_bundle_sha256": "160c13540e152240c12f8b3c73f9de24efcb9db1821a8c7db85c9cdec84d8428",
+  "original_plan_sha256": "a74bf27544c93edcc41586b6f82d159b7a2c7d008b27cfe3489afe29d8bbdae8",
+  "creation": {
+    "commit": "5ec1d7dcbb30b0549fe9857a03654f64206ac257",
+    "parent": "b1cc77fc662803614a899cad6e800df2bd393b97",
+    "tree": "4f35522a7fe29f38346fe4a187239d2d2746f156",
+    "readbacks": {
+      ".recommendation/transactions/music/2026-11-04.json": {
+        "sha": "2c48fe05813bdada1d3fa4c42c21ce7b4b617873",
+        "bytes": 100080,
+        "exact_utf8": true
+      }
+    }
+  },
+  "source_and_candidate_evidence": {
+    "operation_id": "music:2026-11-04",
+    "candidate_count": 54,
+    "candidates": [
+      {
+        "song_id": "955672687",
+        "observed_url": "https://music.apple.com/us/song/955672687",
+        "observed_title": "‎Bless the Telephone - Song with Lyrics by Labi Siffre - Apple Music",
+        "actual_evidence": "‎Bless the Telephone - Song with Lyrics by Labi Siffre - Apple Music (https://music.apple.com/us/song/955672687)\n【turn770search0】 [wordlim: 200] Published: 55.9 years ago; Crawled: last month; # Bless the Telephone\n\nThe Singer & the Song Labi Siffre January 1, 1971\n\n# Bless the Telephone\n\nThe Singer & the Song Labi Siffre January 1, 1971\n\nPreview\n\n## Music Videos\n\n  * Image\n\nBless the Telephone\n\nLabi Siffre\n\n## More By Labi Siffre\n\n  * Image: Crying, Laughing, Loving, Lying (Deluxe Edition)\n\nCrying, Laughing, Loving, Lying (Deluxe Edition)\n\nCrying, Laughing, Loving, Lying (Deluxe Edition)\n\n  * Image: Crying, Laughing, Loving, Lying\n\nCrying, Laughing, Loving, Lying\n\nCrying, Laughing, Loving, Lying\n\n  * Image: Remember My Song\n\nRemember My Song\n\nRemember My Song\n\n  * Image: The Singer & the Song\n\nThe Singer & the Song\n\nThe Singer & the Song\n\n  * Image: The Best Of\n\nThe Best Of\n\nThe Best Of\n\n  * Image: The Singer & The Song (Deluxe Edition)\n\nThe Singer & The Song (Deluxe Edition)\n\nThe Singer & The Song (Deluxe Edition)\n\n  * Image: Far Away - Single\n\nFar Away - Single\n\nFar Away - Single",
+        "decision": "rejected: exact CN page displayed 未找到页面; US availability is insufficient"
+      },
+      {
+        "song_id": "1785242144",
+        "observed_url": "https://music.apple.com/us/song/1785242144",
+        "observed_title": "‎Back, Baby - Song with Lyrics by Jessica Pratt - Apple Music",
+        "actual_evidence": "‎Back, Baby - Song with Lyrics by Jessica Pratt - Apple Music (https://music.apple.com/us/song/1785242144)\n【turn770search2】 [wordlim: 200] Published: 12.0 years ago; Crawled: last month; Image: Back, Baby song by Jessica Pratt\n\nImage\n\nImage: Back, Baby song by Jessica Pratt\n\n# Back, Baby\n\nOn Your Own Love Again Jessica Pratt November 12, 2014\n\nPreview",
+        "decision": "rejected: exact CN page displayed 未找到页面; US availability is insufficient"
+      },
+      {
+        "song_id": "1694860268",
+        "observed_url": "https://music.apple.com/us/song/1694860268",
+        "observed_title": "‎Can't Go Back, Baby - Song with Lyrics by Troye Sivan - Apple Music",
+        "actual_evidence": "‎Can't Go Back, Baby - Song with Lyrics by Troye Sivan - Apple Music (https://music.apple.com/us/song/1694860268)\n【turn770search3】 [wordlim: 200] Published: 3.1 years ago; Crawled: last month; # Can't Go Back, Baby ... Jessica Pratt\n\n# Can't Go Back, Baby\n\nSomething To Give Each Other Troye Sivan October 13, 2023\n\n## Lyrics\n\nCan't go back, baby\n\nCan't go back, baby\n\nI wish I could, but I can't go\n\nSign in to View Full Lyrics\n\n# Can't Go Back, Baby\n\n## Something To Give Each Other · Troye Sivan · October 13, 2023\n\n## Performing Artists\n\n  * Troye Sivan\n\nBackground Vocals, Lead Vocals, Vibraphone\n\n  * Image\n\nOscar Görres\n\nProgramming, Keyboards, Guitar, Bass, Drums, Percussion, Background Vocals\n\n  * Image\n\nJessica Pratt\n\nSampled Artist\n\n## Composition & Lyrics\n\n  * Troye Sivan\n\nSongwriter\n\n  * Image\n\nOscar Görres\n\nSongwriter\n\n  * Image\n\nLeland\n\nSongwriter\n\n  * Image\n\nJessica Pratt\n\nSongwriter\n\n  * Image\n\nNick Ward\n\nSongwriter\n\n## Production & Engineering\n\n  * Image\n\nOscar Görres\n\nProducer\n\n  * Image\n\nSerban Ghenea\n\nMixing Engineer\n\n  * Image\n\nBryce Bordone\n\nMixing Engineer",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1159731920",
+        "observed_url": "https://music.apple.com/us/song/1159731920",
+        "observed_title": "‎Bless the Telephone - Song by Labi Siffre - Apple Music",
+        "actual_evidence": "‎Bless the Telephone - Song by Labi Siffre - Apple Music (https://music.apple.com/us/song/1159731920)\n【turn770search6】 [wordlim: 200] Published: 55.9 years ago; Crawled: last month; # Bless the Telephone ...   * Image: The Music of Labi Siffre\n\n# Bless the Telephone\n\nThe Best Of Labi Siffre January 1, 1971\n\nPreview\n\n## Music Videos\n\n  * Image\n\nBless the Telephone\n\nLabi Siffre\n\n## More By Labi Siffre\n\n  * Image: Crying, Laughing, Loving, Lying (Deluxe Edition)\n\nCrying, Laughing, Loving, Lying (Deluxe Edition)\n\nCrying, Laughing, Loving, Lying (Deluxe Edition)\n\n  * Image: Crying, Laughing, Loving, Lying\n\nCrying, Laughing, Loving, Lying\n\nCrying, Laughing, Loving, Lying\n\n  * Image: Remember My Song\n\nRemember My Song\n\nRemember My Song\n\n  * Image: The Singer & the Song\n\nThe Singer & the Song\n\nThe Singer & the Song\n\n  * Image: Far Away - Single\n\nFar Away - Single\n\nFar Away - Single\n\n  * Image: The Music of Labi Siffre\n\nThe Music of Labi Siffre\n\nThe Music of Labi Siffre\n\n  * Image: The Singer & The Song (Deluxe Edition)\n\nThe Singer & The Song (Deluxe Edition)",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "900059714",
+        "observed_url": "https://music.apple.com/us/song/900059714",
+        "observed_title": "‎River - Song with Lyrics by Ibeyi - Apple Music",
+        "actual_evidence": "‎River - Song with Lyrics by Ibeyi - Apple Music (https://music.apple.com/us/song/900059714)\n【turn770search7】 [wordlim: 200] Published: 12.3 years ago; Crawled: last month; Image: River song by Ibeyi\n\nImage\n\nImage: River song by Ibeyi\n\n# River\n\nOya - EP Ibeyi August 7, 2014\n\nPreview\n\n## More By Ibeyi\n\n  * Image: This is Not América (feat. Ibeyi) - Single\n\nThis is Not América (feat. Ibeyi) - Single\n\nThis is Not América (feat. Ibeyi) - Single\n\n  * Image: Ash\n\nAsh\n\nAsh\n\n  * Image: Ibeyi\n\nIbeyi\n\nIbeyi\n\n  * Image: Away Away - Single\n\nAway Away - Single\n\nAway Away - Single\n\n  * Image: Spell 31\n\nSpell 31\n\nSpell 31\n\n  * Image: Mountains of Gold (feat. Sampha, Ibeyi, Wiki, & Kamasi Washington) - Single\n\nMountains of Gold (feat. Sampha, Ibeyi, Wiki, & Kamasi Washington) - Single\n\nMountains of Gold (feat. Sampha, Ibeyi, Wiki, & Kamasi Washington) - Single\n\n  * Image: Rise Up Wise Up Eyes Up - Single\n\nRise Up Wise Up Eyes Up - Single\n\nRise Up Wise Up Eyes Up - Single",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1022155266",
+        "observed_url": "https://music.apple.com/us/song/1022155266",
+        "observed_title": "‎River - Song by Ibeyi - Apple Music",
+        "actual_evidence": "‎River - Song by Ibeyi - Apple Music (https://music.apple.com/us/song/1022155266)\n【turn770search8】 [wordlim: 200] Published: 12.3 years ago; Crawled: last month; Image: River song by Ibeyi\n\nImage\n\nImage: River song by Ibeyi\n\n# River\n\nIbeyi Ibeyi August 7, 2014\n\nPreview\n\n## More By Ibeyi\n\n  * Image: This is Not América (feat. Ibeyi) - Single\n\nThis is Not América (feat. Ibeyi) - Single\n\nThis is Not América (feat. Ibeyi) - Single\n\n  * Image: Ibeyi\n\nIbeyi\n\nIbeyi\n\n  * Image: Ash\n\nAsh\n\nAsh",
+        "decision": "selected: exact CN metadata verified; fresh against original history and all reservations; distinct portfolio role"
+      },
+      {
+        "song_id": "1862028725",
+        "observed_url": "https://music.apple.com/us/song/1862028725",
+        "observed_title": "‎Bless the Telephone (Karaoke Version Originally Performed by Labi Siffre) - Song with Lyrics by Singer's Best - Apple Music",
+        "actual_evidence": "‎Bless the Telephone (Karaoke Version Originally Performed by Labi Siffre) - Song with Lyrics by Singer's Best - Apple Music (https://music.apple.com/us/song/1862028725)\n【turn770search9】 [wordlim: 200] Published: 10 months ago; Crawled: last month; Bless the Telephone (Karaoke Version Originally Performed by Labi Siffre) - Single Singer's Best December 19, 2025\n\n# Bless the Telephone (Karaoke Version Originally Performed by Labi Siffre)\n\nBless the Telephone (Karaoke Version Originally Performed by Labi Siffre) - Single Singer's Best December 19, 2025\n\nPreview",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1790521514",
+        "observed_url": "https://music.apple.com/us/song/1790521514",
+        "observed_title": "‎GREEN - Song by Hiroshi Yoshimura - Apple Music",
+        "actual_evidence": "‎GREEN - Song by Hiroshi Yoshimura - Apple Music (https://music.apple.com/us/song/1790521514)\n【turn770search10】 [wordlim: 200] Published: 40.7 years ago; Crawled: last month; Image: GREEN song by Hiroshi Yoshimura\n\nImage\n\nImage: GREEN song by Hiroshi Yoshimura\n\n# GREEN\n\nGreen Hiroshi Yoshimura March 3, 1986\n\nPreview",
+        "decision": "selected: exact CN metadata verified; fresh against original history and all reservations; distinct portfolio role"
+      },
+      {
+        "song_id": "900059723",
+        "observed_url": "https://music.apple.com/us/song/900059723",
+        "observed_title": "‎River (Oshun Dub) - Song with Lyrics by Ibeyi - Apple Music",
+        "actual_evidence": "‎River (Oshun Dub) - Song with Lyrics by Ibeyi - Apple Music (https://music.apple.com/us/song/900059723)\n【turn770search13】 [wordlim: 200] Published: 12.3 years ago; Crawled: last month; # River (Oshun Dub)\n\nOya - EP Ibeyi August 7, 2014\n\n# River (Oshun Dub)\n\nOya - EP Ibeyi August 7, 2014\n\n## Performing Artists\n\n  * Image\n\nIbeyi\n\nPerformer\n\n  * Image\n\nLisa Kainde Diaz\n\nVocals\n\n  * Image\n\nJohn Foyle\n\nProgramming\n\n  * Image\n\nNaomi Diaz\n\nVocals, Percussion\n\n## Composition & Lyrics\n\n  * Eric Collins\n\nLyrics\n\n  * Image\n\nLisa Kainde Diaz\n\nSongwriter\n\n## Production & Engineering\n\n  * Image\n\nJohn Foyle\n\nEngineer\n\n  * Image\n\nRichard Russell\n\nProducer, Mixing Engineer",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1790520016",
+        "observed_url": "https://music.apple.com/us/song/1790520016",
+        "observed_title": "‎GREEN - Song with Lyrics by Hiroshi Yoshimura - Apple Music",
+        "actual_evidence": "‎GREEN - Song with Lyrics by Hiroshi Yoshimura - Apple Music (https://music.apple.com/us/song/1790520016)\n【turn770search15】 [wordlim: 200] Published: 6.3 years ago; Crawled: last month; Image: GREEN song by Hiroshi Yoshimura\n\nImage\n\nImage: GREEN song by Hiroshi Yoshimura\n\n# GREEN\n\nGreen (SFX Version) Hiroshi Yoshimura July 31, 2020\n\nPreview\n\n## More By Hiroshi Yoshimura\n\n  * Image: Music for Nine Post Cards\n\nMusic for Nine Post Cards\n\nMusic for Nine Post Cards\n\n  * Image: Green\n\nGreen\n\nGreen\n\n  * Image: Surround\n\nSurround\n\nSurround\n\n  * Image: Green (SFX Version)\n\nGreen (SFX Version)\n\nGreen (SFX Version)\n\n  * Image: Flora\n\nFlora\n\nFlora\n\n  * Image: Quiet Forest\n\nQuiet Forest\n\nQuiet Forest\n\n  * Image: Music for Nine Post Cards\n\nMusic for Nine Post Cards\n\nMusic for Nine Post Cards",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1495812261",
+        "observed_url": "https://music.apple.com/us/song/1495812261",
+        "observed_title": "‎Bless the Telephone - Song with Lyrics by Feyesal - Apple Music",
+        "actual_evidence": "‎Bless the Telephone - Song with Lyrics by Feyesal - Apple Music (https://music.apple.com/us/song/1495812261)\n【turn770search16】 [wordlim: 200] Published: 6.7 years ago; Crawled: last month; # Bless the Telephone ...   * Labi Siffre\n\n# Bless the Telephone\n\nTripolar - Single Feyesal February 20, 2020\n\nPreview\n\n## Performing Artists\n\n  * Image\n\nFeyesal\n\nPerformer\n\n## Composition & Lyrics\n\n  * Labi Siffre\n\nSongwriter",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1856577347",
+        "observed_url": "https://music.apple.com/us/song/1856577347",
+        "observed_title": "‎Labi Siffre (Bless The Telephone) [FateD Version] - Song by FateD - Apple Music",
+        "actual_evidence": "‎Labi Siffre (Bless The Telephone) [FateD Version] - Song by FateD - Apple Music (https://music.apple.com/us/song/1856577347)\n【turn770search20】 [wordlim: 200] Published: 11 months ago; Crawled: 2 months ago; Image: Labi Siffre (Bless The Telephone) [FateD Version] song by FateD\n\nImage\n\nImage: Labi Siffre (Bless The Telephone) [FateD Version] song by FateD\n\n# Labi Siffre (Bless The Telephone) [FateD Version]\n\nLabi Siffre (Bless The Telephone) [FateD Version] - Single FateD November 25, 2025\n\nPreview\n\n## More By FateD\n\n  * Image: SecretSociety Neoperreo (FateD Version) - Single\n\nSecretSociety Neoperreo (FateD Version) - Single\n\nSecretSociety Neoperreo (FateD Version) - Single\n\n  * Image: Animal Picnic X 19:26 X Rivo - Jungle XX (FateD Remix Version) - Single\n\nAnimal Picnic X 19:26 X Rivo - Jungle XX (FateD Remix Version) - Single\n\nAnimal Picnic X 19:26 X Rivo - Jungle XX (FateD Remix Version) - Single\n\n  * Image: DAYA x Vaceus x Jason Wats (Hide Away (FateD RMX) - Single\n\nDAYA x Vaceus x Jason Wats (Hide Away (FateD RMX) - Single\n\nDAYA x Vaceus x Jason Wats (Hide Away (FateD RMX) - Single\n\n  * Image: Pocket Full Of Thunder - Single\n\nPocket Full Of Thunder - Single\n\nPocket Full Of Thunder - Single",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1790521511",
+        "observed_url": "https://music.apple.com/us/song/1790521511",
+        "observed_title": "‎FEEL - Song with Lyrics by Hiroshi Yoshimura - Apple Music",
+        "actual_evidence": "‎FEEL - Song with Lyrics by Hiroshi Yoshimura - Apple Music (https://music.apple.com/us/song/1790521511)\n【turn770search30】 [wordlim: 200] Published: 40.7 years ago; Crawled: last month; Green Hiroshi Yoshimura March 3, 1986",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "994102833",
+        "observed_url": "https://music.apple.com/us/song/994102833",
+        "observed_title": "‎River (RLR Remix) - Song by Ibeyi - Apple Music",
+        "actual_evidence": "‎River (RLR Remix) - Song by Ibeyi - Apple Music (https://music.apple.com/us/song/994102833)\n【turn770search31】 [wordlim: 200] Published: 11.5 years ago; Crawled: last month; Image: River (RLR Remix) song by Ibeyi",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1790521517",
+        "observed_url": "https://music.apple.com/us/song/1790521517",
+        "observed_title": "‎STREET - Song by Hiroshi Yoshimura - Apple Music",
+        "actual_evidence": "‎STREET - Song by Hiroshi Yoshimura - Apple Music (https://music.apple.com/us/song/1790521517)\n【turn770search38】 [wordlim: 200] Published: 40.7 years ago; Crawled: 2 months ago; Green Hiroshi Yoshimura March 3, 1986",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1790521513",
+        "observed_url": "https://music.apple.com/us/song/1790521513",
+        "observed_title": "‎SLEEP - Song by Hiroshi Yoshimura - Apple Music",
+        "actual_evidence": "‎SLEEP - Song by Hiroshi Yoshimura - Apple Music (https://music.apple.com/us/song/1790521513)\n【turn770search39】 [wordlim: 200] Published: 40.7 years ago; Crawled: 2 months ago; Green Hiroshi Yoshimura March 3, 1986",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1790520004",
+        "observed_url": "https://music.apple.com/us/song/1790520004",
+        "observed_title": "‎FEEL - Song by Hiroshi Yoshimura - Apple Music",
+        "actual_evidence": "‎FEEL - Song by Hiroshi Yoshimura - Apple Music (https://music.apple.com/us/song/1790520004)\n【turn770search43】 [wordlim: 200] Published: 6.3 years ago; Crawled: last month; Green (SFX Version) Hiroshi Yoshimura July 31, 2020",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1790521508",
+        "observed_url": "https://music.apple.com/us/song/1790521508",
+        "observed_title": "‎CREEK - Song with Lyrics by Hiroshi Yoshimura - Apple Music",
+        "actual_evidence": "‎CREEK - Song with Lyrics by Hiroshi Yoshimura - Apple Music (https://music.apple.com/us/song/1790521508)\n【turn770search45】 [wordlim: 200] Published: 40.7 years ago; Crawled: 4 weeks ago; Green Hiroshi Yoshimura March 3, 1986",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1790530052",
+        "observed_url": "https://music.apple.com/us/song/1790530052",
+        "observed_title": "‎Dance PM - Song by Hiroshi Yoshimura - Apple Music",
+        "actual_evidence": "‎Dance PM - Song by Hiroshi Yoshimura - Apple Music (https://music.apple.com/us/song/1790530052)\n【turn770search46】 [wordlim: 200] Published: 44.9 years ago; Crawled: 2 months ago; Music for Nine Post Cards Hiroshi Yoshimura January 1, 1982 ...   * Image: Green",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1790520011",
+        "observed_url": "https://music.apple.com/us/song/1790520011",
+        "observed_title": "‎SLEEP - Song with Lyrics by Hiroshi Yoshimura - Apple Music",
+        "actual_evidence": "‎SLEEP - Song with Lyrics by Hiroshi Yoshimura - Apple Music (https://music.apple.com/us/song/1790520011)\n【turn770search47】 [wordlim: 200] Published: 6.3 years ago; Crawled: last month; Green (SFX Version) Hiroshi Yoshimura July 31, 2020",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "955577754",
+        "observed_url": "https://music.apple.com/us/song/955577754",
+        "observed_title": "‎Obaa Sima - Song with Lyrics by Ata Kak - Apple Music",
+        "actual_evidence": "‎Obaa Sima - Song with Lyrics by Ata Kak - Apple Music (https://music.apple.com/us/song/955577754)\n【turn771search0】 [wordlim: 200] Published: 32.9 years ago; Crawled: last month; Obaa Sima Ata Kak January 1, 1994\n\n# Obaa Sima\n\nObaa Sima Ata Kak January 1, 1994\n\n## Performing Artists\n\n  * Image\n\nAta Kak\n\nVocals\n\n## Composition & Lyrics\n\n  * Image\n\nYaw Atta-Owusu\n\nComposer",
+        "decision": "selected: exact CN metadata verified; fresh against original history and all reservations; distinct portfolio role"
+      },
+      {
+        "song_id": "543947352",
+        "observed_url": "https://music.apple.com/us/song/543947352",
+        "observed_title": "‎You and Your Sister - Song with Lyrics by This Mortal Coil - Apple Music",
+        "actual_evidence": "‎You and Your Sister - Song with Lyrics by This Mortal Coil - Apple Music (https://music.apple.com/us/song/543947352)\n【turn771search1】 [wordlim: 200] Published: 35.6 years ago; Crawled: last month; # You and Your Sister ... Chris Bell\n\n# You and Your Sister\n\nBlood (Remastered) This Mortal Coil April 22, 1991\n\nPreview\n\n## Lyrics\n\nYou say my love for you's not real\n\nBut you don't know how real it feels\n\nSign in to View Full Lyrics\n\n# You and Your Sister\n\n## Blood (Remastered) · This Mortal Coil · April 22, 1991\n\n## Performing Artists\n\n  * Image\n\nThis Mortal Coil\n\nPerformer\n\n  * Image\n\nIvo Watts-russell\n\nPerformer\n\n  * Image\n\nJocelyn Pook\n\nStrings\n\n  * Image\n\nJon Turner\n\nMusician\n\n  * Kim Deal\n\nVocals\n\n  * Image\n\nMartin McCarrick\n\nStrings\n\n  * Image\n\nSally Herbert\n\nStrings\n\n  * Image\n\nSonia Slaney\n\nStrings\n\n  * Image\n\nTanya Donelly\n\nVocals\n\n## Composition & Lyrics\n\n  * Image\n\nChris Bell\n\nSongwriter\n\n## Production & Engineering\n\n  * Image\n\nJohn Fryer\n\nEngineer\n\n  * Image\n\nJon Turner\n\nEngineer",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "955577756",
+        "observed_url": "https://music.apple.com/us/song/955577756",
+        "observed_title": "‎Adagya - Song with Lyrics by Ata Kak - Apple Music",
+        "actual_evidence": "‎Adagya - Song with Lyrics by Ata Kak - Apple Music (https://music.apple.com/us/song/955577756)\n【turn771search2】 [wordlim: 200] Published: 32.9 years ago; Crawled: last month; Obaa Sima Ata Kak January 1, 1994\n\n# Adagya\n\nObaa Sima Ata Kak January 1, 1994\n\nPreview\n\n## Performing Artists\n\n  * Image\n\nAta Kak\n\nVocals, Background Vocals\n\n## Composition & Lyrics\n\n  * Image\n\nYaw Atta-Owusu\n\nComposer",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1830501020",
+        "observed_url": "https://music.apple.com/us/song/1830501020",
+        "observed_title": "‎Obaa Sima (2025 Remaster) - Song by Ata Kak - Apple Music",
+        "actual_evidence": "‎Obaa Sima (2025 Remaster) - Song by Ata Kak - Apple Music (https://music.apple.com/us/song/1830501020)\n【turn771search3】 [wordlim: 200] Published: 11.7 years ago; Crawled: 4 months ago; Obaa Sima (Anniversary Remaster) Ata Kak March 3, 2015\n\n# Obaa Sima (2025 Remaster)\n\nObaa Sima (Anniversary Remaster) Ata Kak March 3, 2015\n\nPreview\n\n## Performing Artists\n\n  * Image\n\nAta Kak\n\nVocals\n\n## Composition & Lyrics\n\n  * Image\n\nAta Kak\n\nComposer\n\n## Production & Engineering\n\n  * Image\n\nJessica Thompson\n\nEngineer\n\n## More By Ata Kak\n\n  * Image: Obaa Sima\n\nObaa Sima\n\nObaa Sima\n\n  * Batakari - EP\n\nBatakari - EP\n\n  * Image: Lock (feat. Ata Kak) - Single\n\nLock (feat. Ata Kak) - Single\n\nLock (feat. Ata Kak) - Single\n\n  * Image: One and Only (feat. Ata Kak) - Single\n\nOne and Only (feat. Ata Kak) - Single\n\nOne and Only (feat. Ata Kak) - Single\n\n  * Obaa Sima (Anniversary Remaster)\n\nObaa Sima (Anniversary Remaster)\n\n  * LOCK (feat. ATA KAK) - Single\n\nLOCK (feat. ATA KAK) - Single",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "955577759",
+        "observed_url": "https://music.apple.com/us/song/955577759",
+        "observed_title": "‎Yemmpa Aba - Song with Lyrics by Ata Kak - Apple Music",
+        "actual_evidence": "‎Yemmpa Aba - Song with Lyrics by Ata Kak - Apple Music (https://music.apple.com/us/song/955577759)\n【turn771search4】 [wordlim: 200] Published: 32.9 years ago; Crawled: last month; Obaa Sima Ata Kak January 1, 1994\n\n# Yemmpa Aba\n\nObaa Sima Ata Kak January 1, 1994\n\n## Performing Artists\n\n  * Image\n\nAta Kak\n\nVocals\n\n## Composition & Lyrics\n\n  * Image\n\nYaw Atta-Owusu\n\nComposer",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1279347896",
+        "observed_url": "https://music.apple.com/us/song/1279347896",
+        "observed_title": "‎You and Your Sister (Single Version) - Song by Chris Bell - Apple Music",
+        "actual_evidence": "‎You and Your Sister (Single Version) - Song by Chris Bell - Apple Music (https://music.apple.com/us/song/1279347896)\n【turn771search6】 [wordlim: 200] Published: 34.7 years ago; Crawled: 3 months ago; Image: You and Your Sister (Single Version) song by Chris Bell\n\nOpen in Music\n\nImage\n\nImage: You and Your Sister (Single Version) song by Chris Bell\n\n# You and Your Sister (Single Version)\n\nI Am the Cosmos Chris Bell February 21, 1992\n\nPreview\n\n## More By Chris Bell\n\n  * Image: I Am the Cosmos\n\nI Am the Cosmos\n\nI Am the Cosmos\n\n  * Image: Looking Forward: The Roots of Big Star\n\nLooking Forward: The Roots of Big Star\n\nLooking Forward: The Roots of Big Star\n\n  * Image: Tell Me Where The Party - Single\n\nTell Me Where The Party - Single",
+        "decision": "selected: exact CN metadata verified; fresh against original history and all reservations; distinct portfolio role"
+      },
+      {
+        "song_id": "955577758",
+        "observed_url": "https://music.apple.com/us/song/955577758",
+        "observed_title": "‎Daa Nyinaa - Song with Lyrics by Ata Kak - Apple Music",
+        "actual_evidence": "‎Daa Nyinaa - Song with Lyrics by Ata Kak - Apple Music (https://music.apple.com/us/song/955577758)\n【turn771search7】 [wordlim: 200] Published: 32.9 years ago; Crawled: last month; Obaa Sima Ata Kak January 1, 1994\n\n# Daa Nyinaa\n\nObaa Sima Ata Kak January 1, 1994\n\nPreview",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "355027301",
+        "observed_url": "https://music.apple.com/us/song/355027301",
+        "observed_title": "‎Electric Counterpoint: I. Fast - Song by Pat Metheny - Apple Music",
+        "actual_evidence": "‎Electric Counterpoint: I. Fast - Song by Pat Metheny - Apple Music (https://music.apple.com/us/song/355027301)\n【turn771search8】 [wordlim: 200] Published: 37.7 years ago; Crawled: 2 months ago; Image: Electric Counterpoint: I. Fast song by Pat Metheny\n\nImage\n\nImage: Electric Counterpoint: I. Fast song by Pat Metheny\n\n# Electric Counterpoint: I. Fast\n\nPhases Pat Metheny March 3, 1989\n\nPreview\n\n## More By Pat Metheny\n\n  * Image: Still Life (Talking)",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1279348243",
+        "observed_url": "https://music.apple.com/us/song/1279348243",
+        "observed_title": "‎You and Your Sister (Acoustic Version) - Song by Chris Bell - Apple Music",
+        "actual_evidence": "‎You and Your Sister (Acoustic Version) - Song by Chris Bell - Apple Music (https://music.apple.com/us/song/1279348243)\n【turn771search10】 [wordlim: 200] Published: 34.7 years ago; Crawled: 3 months ago; # You and Your Sister (Acoustic Version)\n\nI Am the Cosmos Chris Bell February 21, 1992\n\n# You and Your Sister (Acoustic Version)\n\nI Am the Cosmos Chris Bell February 21, 1992\n\nPreview\n\n## More By Chris Bell\n\n  * Image: I Am the Cosmos\n\nI Am the Cosmos\n\nI Am the Cosmos",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "155903442",
+        "observed_url": "https://music.apple.com/us/song/155903442",
+        "observed_title": "‎Electric Counterpoint: II. Slow - Song by Pat Metheny - Apple Music",
+        "actual_evidence": "‎Electric Counterpoint: II. Slow - Song by Pat Metheny - Apple Music (https://music.apple.com/us/song/155903442)\n【turn771search14】 [wordlim: 200] Published: 37.7 years ago; Crawled: 4 months ago; Slow song by Pat Metheny ... Steve Reich: Different Trains & Electric Counterpoint Pat Metheny March 3, 1989\n\nOpen in Music\n\nImage\n\nImage: Electric Counterpoint: II. Slow song by Pat Metheny\n\n# Electric Counterpoint: II. Slow\n\nSteve Reich: Different Trains & Electric Counterpoint Pat Metheny March 3, 1989\n\nPreview",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "355027384",
+        "observed_url": "https://music.apple.com/us/song/355027384",
+        "observed_title": "‎Electric Counterpoint: III. Fast - Song by Pat Metheny - Apple Music",
+        "actual_evidence": "‎Electric Counterpoint: III. Fast - Song by Pat Metheny - Apple Music (https://music.apple.com/us/song/355027384)\n【turn771search15】 [wordlim: 200] Published: 37.7 years ago; Crawled: 4 months ago; Image: Electric Counterpoint: III. Fast song by Pat Metheny\n\nImage: Electric Counterpoint: III. Fast song by Pat Metheny\n\n# Electric Counterpoint: III. Fast\n\nPhases Pat Metheny March 3, 1989\n\nPreview\n\n## More By Pat Metheny\n\n  * Image: Beyond the Missouri Sky (Short Stories)\n\nBeyond the Missouri Sky (Short Stories)\n\nBeyond the Missouri Sky (Short Stories)\n\n  * Image: Bright Size Life\n\nBright Size Life\n\nBright Size Life\n\n  * Image: One Quiet Night\n\nOne Quiet Night\n\nOne Quiet Night\n\n  * Image: Dream Box\n\nDream Box\n\nDream Box",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "155903455",
+        "observed_url": "https://music.apple.com/us/song/155903455",
+        "observed_title": "‎Electric Counterpoint: III. Fast - Song by Pat Metheny - Apple Music",
+        "actual_evidence": "‎Electric Counterpoint: III. Fast - Song by Pat Metheny - Apple Music (https://music.apple.com/us/song/155903455)\n【turn771search16】 [wordlim: 200] Published: 37.7 years ago; Crawled: 4 months ago; Fast song by Pat Metheny ... Steve Reich: Different Trains & Electric Counterpoint Pat Metheny March 3, 1989\n\nOpen in Music\n\nImage\n\nImage: Electric Counterpoint: III. Fast song by Pat Metheny\n\n# Electric Counterpoint: III. Fast\n\nSteve Reich: Different Trains & Electric Counterpoint Pat Metheny March 3, 1989\n\nPreview\n\n## More By Pat Metheny\n\n  * Image: Beyond the Missouri Sky (Short Stories)\n\nBeyond the Missouri Sky (Short Stories)\n\nBeyond the Missouri Sky (Short Stories)\n\n  * Image: Bright Size Life\n\nBright Size Life\n\nBright Size Life\n\n  * Image: From This Place\n\nFrom This Place\n\nFrom This Place\n\n  * Image: Dream Box\n\nDream Box\n\nDream Box\n\n  * Image: One Quiet Night\n\nOne Quiet Night",
+        "decision": "selected: exact CN metadata verified; fresh against original history and all reservations; distinct portfolio role"
+      },
+      {
+        "song_id": "1830501028",
+        "observed_url": "https://music.apple.com/us/song/1830501028",
+        "observed_title": "‎Daa Nyinaa (2025 Remaster) - Song with Lyrics by Ata Kak - Apple Music",
+        "actual_evidence": "‎Daa Nyinaa (2025 Remaster) - Song with Lyrics by Ata Kak - Apple Music (https://music.apple.com/us/song/1830501028)\n【turn771search20】 [wordlim: 200] Published: 11.7 years ago; Crawled: 4 weeks ago; Image: Daa Nyinaa (2025 Remaster) song by Ata Kak ... Obaa Sima (Anniversary Remaster) Ata Kak March 3, 2015\n\nImage\n\nImage: Daa Nyinaa (2025 Remaster) song by Ata Kak\n\n# Daa Nyinaa (2025 Remaster)\n\nObaa Sima (Anniversary Remaster) Ata Kak March 3, 2015\n\nPreview\n\n## More By Ata Kak\n\n  * Image: Obaa Sima\n\nObaa Sima\n\nObaa Sima\n\n  * Image: Batakari - EP\n\nBatakari - EP\n\nBatakari - EP\n\n  * Image: Lock (feat. Ata Kak) - Single\n\nLock (feat. Ata Kak) - Single\n\nLock (feat. Ata Kak) - Single\n\n  * Image: Obaa Sima (Anniversary Remaster)\n\nObaa Sima (Anniversary Remaster)\n\nObaa Sima (Anniversary Remaster)\n\n  * Image: One and Only (feat. Ata Kak) - Single\n\nOne and Only (feat. Ata Kak) - Single\n\nOne and Only (feat. Ata Kak) - Single\n\n  * Image: LOCK (feat. ATA KAK) - Single\n\nLOCK (feat. ATA KAK) - Single\n\nLOCK (feat. ATA KAK) - Single",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "955676412",
+        "observed_url": "https://music.apple.com/us/song/955676412",
+        "observed_title": "‎Fool Me a Good Night - Song with Lyrics by Labi Siffre - Apple Music",
+        "actual_evidence": "‎Fool Me a Good Night - Song with Lyrics by Labi Siffre - Apple Music (https://music.apple.com/us/song/955676412)\n【turn772search0】 [wordlim: 200] Published: 54.9 years ago; Crawled: last month; Crying, Laughing, Loving, Lying Labi Siffre January 1, 1972 ... I don't mind if you lie to me",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1010789757",
+        "observed_url": "https://music.apple.com/us/song/1010789757",
+        "observed_title": "‎Fool Me a Good Night - Song with Lyrics by Labi Siffre - Apple Music",
+        "actual_evidence": "‎Fool Me a Good Night - Song with Lyrics by Labi Siffre - Apple Music (https://music.apple.com/us/song/1010789757)\n【turn772search1】 [wordlim: 200] Published: 54.9 years ago; Crawled: last month; Crying, Laughing, Loving, Lying (Deluxe Edition) Labi Siffre January 1, 1972 ... I don't mind if you lie to me",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1458163674",
+        "observed_url": "https://music.apple.com/us/song/1458163674",
+        "observed_title": "‎Crying, Laughing, Loving, Lying - Song with Lyrics by Olivia Newton-John - Apple Music",
+        "actual_evidence": "‎Crying, Laughing, Loving, Lying - Song with Lyrics by Olivia Newton-John - Apple Music (https://music.apple.com/us/song/1458163674)\n【turn772search2】 [wordlim: 200] Published: 51.1 years ago; Crawled: last month; # Crying, Laughing, Loving, Lying\n\nClearly Love Olivia Newton-John September 30, 1975 ... Labi Siffre",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1010790343",
+        "observed_url": "https://music.apple.com/us/song/1010790343",
+        "observed_title": "‎Come on Michael - Song with Lyrics by Labi Siffre - Apple Music",
+        "actual_evidence": "‎Come on Michael - Song with Lyrics by Labi Siffre - Apple Music (https://music.apple.com/us/song/1010790343)\n【turn772search4】 [wordlim: 200] Published: 54.9 years ago; Crawled: last month; Image: Come on Michael song by Labi Siffre ... Crying, Laughing, Loving, Lying (Deluxe Edition) Labi Siffre January 1, 1972",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "955676426",
+        "observed_url": "https://music.apple.com/us/song/955676426",
+        "observed_title": "‎Crying, Laughing, Loving, Lying - Song with Lyrics by Labi Siffre - Apple Music",
+        "actual_evidence": "‎Crying, Laughing, Loving, Lying - Song with Lyrics by Labi Siffre - Apple Music (https://music.apple.com/us/song/955676426)\n【turn772search5】 [wordlim: 200] Published: 54.9 years ago; Crawled: last month; Crying, Laughing, Loving, Lying Labi Siffre January 1, 1972",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1010790336",
+        "observed_url": "https://music.apple.com/us/song/1010790336",
+        "observed_title": "‎Crying, Laughing, Loving, Lying - Song with Lyrics by Labi Siffre - Apple Music",
+        "actual_evidence": "‎Crying, Laughing, Loving, Lying - Song with Lyrics by Labi Siffre - Apple Music (https://music.apple.com/us/song/1010790336)\n【turn772search6】 [wordlim: 200] Published: 54.9 years ago; Crawled: 4 weeks ago; Image: Crying, Laughing, Loving, Lying song by Labi Siffre",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1010790350",
+        "observed_url": "https://music.apple.com/us/song/1010790350",
+        "observed_title": "‎You Make It Easy - Song by Labi Siffre - Apple Music",
+        "actual_evidence": "‎You Make It Easy - Song by Labi Siffre - Apple Music (https://music.apple.com/us/song/1010790350)\n【turn772search7】 [wordlim: 200] Published: 54.9 years ago; Crawled: 2 months ago; Image: You Make It Easy song by Labi Siffre ... Crying, Laughing, Loving, Lying (Deluxe Edition) Labi Siffre January 1, 1972",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1009327172",
+        "observed_url": "https://music.apple.com/vc/song/1009327172",
+        "observed_title": "‎My Song – Song by Labi Siffre – Apple Music",
+        "actual_evidence": "‎My Song – Song by Labi Siffre – Apple Music (https://music.apple.com/vc/song/1009327172)\n【turn772search8】 [wordlim: 200] Published: 54.9 years ago; Crawled: 4 months ago; # My Song\n\nCrying Laughing Loving Lying (Deluxe Edition) Labi Siffre 1 January 1972",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1010790345",
+        "observed_url": "https://music.apple.com/us/song/1010790345",
+        "observed_title": "‎Watch Me - Song with Lyrics by Labi Siffre - Apple Music",
+        "actual_evidence": "‎Watch Me - Song with Lyrics by Labi Siffre - Apple Music (https://music.apple.com/us/song/1010790345)\n【turn772search9】 [wordlim: 200] Published: 54.9 years ago; Crawled: last month; Image: Watch Me song by Labi Siffre ... Crying, Laughing, Loving, Lying (Deluxe Edition) Labi Siffre January 1, 1972",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "955676429",
+        "observed_url": "https://music.apple.com/us/song/955676429",
+        "observed_title": "‎My Song - Song by Labi Siffre - Apple Music",
+        "actual_evidence": "‎My Song - Song by Labi Siffre - Apple Music (https://music.apple.com/us/song/955676429)\n【turn772search10】 [wordlim: 200] Published: 54.9 years ago; Crawled: 2 months ago; Image: My Song song by Labi Siffre ... Crying, Laughing, Loving, Lying Labi Siffre January 1, 1972",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "955676430",
+        "observed_url": "https://music.apple.com/us/song/955676430",
+        "observed_title": "‎'Till Forever - Song with Lyrics by Labi Siffre - Apple Music",
+        "actual_evidence": "‎'Till Forever - Song with Lyrics by Labi Siffre - Apple Music (https://music.apple.com/us/song/955676430)\n【turn772search11】 [wordlim: 200] Published: 54.9 years ago; Crawled: 4 weeks ago; Image: 'Till Forever song by Labi Siffre ... Crying, Laughing, Loving, Lying Labi Siffre January 1, 1972",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1783165456",
+        "observed_url": "https://music.apple.com/us/song/1783165456",
+        "observed_title": "‎Bra - Song with Lyrics by Cymande - Apple Music",
+        "actual_evidence": "‎Bra - Song with Lyrics by Cymande - Apple Music (https://music.apple.com/us/song/1783165456)\n【turn772search12】 [wordlim: 200] Published: 54.9 years ago; Crawled: last month; Image: Bra song by Cymande",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1823780148",
+        "observed_url": "https://music.apple.com/us/song/1823780148",
+        "observed_title": "‎Bra by Cymande 1972 - Song with Lyrics by Atomga - Apple Music",
+        "actual_evidence": "‎Bra by Cymande 1972 - Song with Lyrics by Atomga - Apple Music (https://music.apple.com/us/song/1823780148)\n【turn772search13】 [wordlim: 200] Published: 1.3 years ago; Crawled: last month; # Bra by Cymande 1972",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1590880313",
+        "observed_url": "https://music.apple.com/us/song/1590880313",
+        "observed_title": "‎Bra (Mixed) - Song with Lyrics by Cymande - Apple Music",
+        "actual_evidence": "‎Bra (Mixed) - Song with Lyrics by Cymande - Apple Music (https://music.apple.com/us/song/1590880313)\n【turn772search14】 [wordlim: 200] Published: 22.0 years ago; Crawled: 4 weeks ago; Image: Bra (Mixed) song by Cymande",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1800042447",
+        "observed_url": "https://music.apple.com/us/song/1800042447",
+        "observed_title": "‎Pretty Thing / Bra (Mixed) - Song with Lyrics by Cymande & Bo Diddley - Apple Music",
+        "actual_evidence": "‎Pretty Thing / Bra (Mixed) - Song with Lyrics by Cymande & Bo Diddley - Apple Music (https://music.apple.com/us/song/1800042447)\n【turn772search16】 [wordlim: 200] Published: 1.7 years ago; Crawled: last month; # Pretty Thing / Bra (Mixed)\n\nTony Touch at 214 Mulberry (DJ Mix) Cymande, Bo Diddley March 7, 2025",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1636055337",
+        "observed_url": "https://music.apple.com/us/song/1636055337",
+        "observed_title": "‎Bra (Remix) [Mixed] - Song by Cymande - Apple Music",
+        "actual_evidence": "‎Bra (Remix) [Mixed] - Song by Cymande - Apple Music (https://music.apple.com/us/song/1636055337)\n【turn772search20】 [wordlim: 200] Published: 4.3 years ago; Crawled: 3 months ago; Image: Bra (Remix) [Mixed] song by Cymande",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1813262654",
+        "observed_url": "https://music.apple.com/us/song/1813262654",
+        "observed_title": "‎Bra / Farandole (L'Ariesienne Suite #2) [Mixed] - Song with Lyrics by Cymande & Bob James - Apple Music",
+        "actual_evidence": "‎Bra / Farandole (L'Ariesienne Suite #2) [Mixed] - Song with Lyrics by Cymande & Bob James - Apple Music (https://music.apple.com/us/song/1813262654)\n【turn772search21】 [wordlim: 200] Published: 25.1 years ago; Crawled: 3 weeks ago; Image: Bra / Farandole (L'Ariesienne Suite #2) [Mixed] song by Cymande & Bob James",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1203549691",
+        "observed_url": "https://music.apple.com/us/song/1203549691",
+        "observed_title": "‎Electric Counterpoint - Song by Elena Casoli - Apple Music",
+        "actual_evidence": "‎Electric Counterpoint - Song by Elena Casoli - Apple Music (https://music.apple.com/us/song/1203549691)\n【turn772search23】 [wordlim: 200] Published: 24.9 years ago; Crawled: 4 months ago; Image: Electric Counterpoint song by Elena Casoli\n\n# Electric Counterpoint",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1658736664",
+        "observed_url": "https://music.apple.com/us/song/1658736664",
+        "observed_title": "‎Electric Counterpoint: III. Fast - Song by Alvaro Herrán & Steve Reich - Apple Music",
+        "actual_evidence": "‎Electric Counterpoint: III. Fast - Song by Alvaro Herrán & Steve Reich - Apple Music (https://music.apple.com/us/song/1658736664)\n【turn772search28】 [wordlim: 200] Published: 3.9 years ago; Crawled: 5 months ago; Image: Electric Counterpoint: III.",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1652741468",
+        "observed_url": "https://music.apple.com/us/song/1652741468",
+        "observed_title": "‎Electric Counterpoint (I. Fast) - Song by Alfredo Santa Ana & Steve Reich - Apple Music",
+        "actual_evidence": "‎Electric Counterpoint (I. Fast) - Song by Alfredo Santa Ana & Steve Reich - Apple Music (https://music.apple.com/us/song/1652741468)\n【turn772search31】 [wordlim: 200] Published: 3.9 years ago; Crawled: 5 months ago; # Electric Counterpoint (I.",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      },
+      {
+        "song_id": "1398768892",
+        "observed_url": "https://music.apple.com/us/song/1398768892",
+        "observed_title": "‎Electric Counterpoint (Fast - Movement 3) - Song by Steve Reich - Apple Music",
+        "actual_evidence": "‎Electric Counterpoint (Fast - Movement 3) - Song by Steve Reich - Apple Music (https://music.apple.com/us/song/1398768892)\n【turn772search35】 [wordlim: 200] Published: 37.7 years ago; Crawled: 4 months ago; Image: Electric Counterpoint (Fast - Movement 3) song by Steve Reich\n\n# Electric Counterpoint (Fast - Movement 3)",
+        "decision": "not selected: alternate release/version, portfolio diversity penalty or exact CN recording not verified"
+      }
+    ],
+    "source_verification": [
+      {
+        "song_id": "1279347896",
+        "title": "You and Your Sister (Single Version)",
+        "artist": "Chris Bell",
+        "album": "I Am the Cosmos",
+        "url": "https://music.apple.com/cn/song/1279347896",
+        "storefront": "cn",
+        "verification_method": "direct_cn_song_page",
+        "observed_via": "browser visible official song metadata",
+        "observed_fields": [
+          "title",
+          "artist",
+          "album",
+          "song_id in CN resource URL"
+        ],
+        "recorded_at_utc": "2026-11-04T00:42:34.284736+00:00",
+        "audio_playback": "not_tested"
+      },
+      {
+        "song_id": "1022155266",
+        "title": "River",
+        "artist": "Ibeyi",
+        "album": "Ibeyi",
+        "url": "https://music.apple.com/cn/song/1022155266",
+        "storefront": "cn",
+        "verification_method": "direct_cn_song_page",
+        "observed_via": "browser visible official song metadata",
+        "observed_fields": [
+          "title",
+          "artist",
+          "album",
+          "song_id in CN resource URL"
+        ],
+        "recorded_at_utc": "2026-11-04T00:42:34.284757+00:00",
+        "audio_playback": "not_tested"
+      },
+      {
+        "song_id": "155903455",
+        "title": "Electric Counterpoint: III. Fast",
+        "artist": "Pat Metheny",
+        "album": "Steve Reich: Different Trains & Electric Counterpoint",
+        "url": "https://music.apple.com/cn/song/155903455",
+        "storefront": "cn",
+        "verification_method": "direct_cn_song_page",
+        "observed_via": "web complete page",
+        "observed_fields": [
+          "title",
+          "artist",
+          "album",
+          "song_id in CN resource URL"
+        ],
+        "recorded_at_utc": "2026-11-04T00:42:34.284760+00:00",
+        "audio_playback": "not_tested"
+      },
+      {
+        "song_id": "1790521514",
+        "title": "GREEN",
+        "artist": "Hiroshi Yoshimura",
+        "album": "Green",
+        "url": "https://music.apple.com/cn/song/1790521514",
+        "storefront": "cn",
+        "verification_method": "direct_cn_song_page",
+        "observed_via": "browser visible official song metadata",
+        "observed_fields": [
+          "title",
+          "artist",
+          "album",
+          "song_id in CN resource URL"
+        ],
+        "recorded_at_utc": "2026-11-04T00:42:34.284762+00:00",
+        "audio_playback": "not_tested"
+      },
+      {
+        "song_id": "955577754",
+        "title": "Obaa Sima",
+        "artist": "Ata Kak",
+        "album": "Obaa Sima",
+        "url": "https://music.apple.com/cn/song/955577754",
+        "storefront": "cn",
+        "verification_method": "direct_cn_song_page",
+        "observed_via": "browser visible official song metadata",
+        "observed_fields": [
+          "title",
+          "artist",
+          "album",
+          "song_id in CN resource URL"
+        ],
+        "recorded_at_utc": "2026-11-04T00:42:34.284763+00:00",
+        "audio_playback": "not_tested"
+      }
+    ],
+    "preselection": {
+      "state_entries": 293,
+      "historical_manifest_days": 57,
+      "all_reserved_ids_retained": 100,
+      "both_states_and_all_manifests_byte_equal": true,
+      "complete_read_bytes_hashes_verified": true
+    },
+    "selection_evidence": [
+      {
+        "title": "You and Your Sister (Single Version)",
+        "artist": "Chris Bell",
+        "tier": "high_confidence",
+        "genre": "吉他歌曲／室内弦乐色彩",
+        "why": "今天先从一首把脆弱感放在很近距离的歌曲开始。主唱没有靠宏大的音量建立重量，旋律的上行、句尾的停顿和伴奏留下的空处已经足够让情绪发生变化。它适合提醒我们：亲密的录音不必等于只有人声和一把吉他，细小的和声与背景声部同样能改变一句话的重心。\n\n明确选择 Chris Bell 本人的 Single Version，来自国区《I Am the Cosmos》资源；不以 Acoustic Version、Alternate Version 或 This Mortal Coil 的翻唱替代。歌曲页显示1992年2月21日，这是该资源提供的日期，不据此推断最初录音完成时间。今天用这版较完整的歌曲结构，与后面的双人声节奏、叠录吉他及环境电子形成对照。"
+      },
+      {
+        "title": "River",
+        "artist": "Ibeyi",
+        "tier": "high_confidence",
+        "genre": "双人声／打击与电子歌曲",
+        "why": "第二首让声音从单一叙述变成两条会互相靠近、错开和回答的线。Ibeyi 的作品很适合把“和声”听成一种关系：两个人不只是同时唱同一段旋律，也能通过距离、重叠和进入顺序，让一句短句获得不同的紧张度。\n\n这里明确采用同名专辑《Ibeyi》中的 River，不是《Oya - EP》的另一发行条目，也不是 Oshun Dub 或 RLR Remix。选择它不是因为一个模糊的“异域氛围”标签，而是它把人声、打击和重复框架组织得很清楚：即使不懂全部语言，也可以追踪每一层怎样加入、怎样回应。"
+      },
+      {
+        "title": "Electric Counterpoint: III. Fast",
+        "artist": "Pat Metheny",
+        "tier": "adjacent",
+        "genre": "极简主义／电吉他叠录",
+        "why": "第三首把注意力从歌声转向多个相似短句如何同时成立。它不是展示一位吉他手不断换出更复杂的独奏，而是让重复的声部在不同位置进入，使你听见的重音图案随着注意力改变。相同材料并不等于相同体验，关键在于你把哪一层当作参照。\n\n明确选择 Pat Metheny 演奏的《Electric Counterpoint》第三乐章 Fast，国区专辑为《Steve Reich: Different Trains & Electric Counterpoint》，歌曲页标注1989年3月3日。今天只推荐这一首曲目，不把它称作整部三乐章作品，也不替换成其他吉他手、竖琴改编或重新配器版本。它是从歌曲结构走向构造性聆听的一次相邻探索。"
+      },
+      {
+        "title": "GREEN",
+        "artist": "Hiroshi Yoshimura",
+        "tier": "adjacent",
+        "genre": "环境电子／空间与音色",
+        "why": "第四首给前面较清楚的歌曲与节拍结构降一点密度。它不是要求你立刻寻找高潮，而是把注意力放在声音出现、持续和离开的方式：一个短音消失后，余响仍可以改变下一次进入的感觉。安静的音乐同样有结构，只是结构常常藏在间隔与音色关系里。\n\n明确选择专辑《Green》的 GREEN，国区页面标注1986年3月3日；没有把另一个《Green (SFX Version)》资源混进来。平台发行或版权年份与原录音年代可能不同，因此不把当前资源ID当成新创作年份。今天选择这一版，是为了把“少材料如何持续产生细节”与前一首“多层重复如何产生密度”并置。"
+      },
+      {
+        "title": "Obaa Sima",
+        "artist": "Ata Kak",
+        "tier": "wildcard",
+        "genre": "加纳电子舞曲／快速人声与循环",
+        "why": "最后一首是真正的跨界选择：它把前一首的疏朗空间换成更紧迫的节奏和人声动作。即使你不熟悉语言，也可以先跟住身体能感受到的稳定脉冲，再听人声怎样在脉冲周围密集地穿行。入门不需要先把每个词翻译出来，而是辨认重复、应答与句子长度。\n\n选择《Obaa Sima》中的同名曲目，歌曲页标注1994年1月1日；不是《Obaa Sima (Anniversary Remaster)》中的2025 Remaster。这里没有把低保真质地当作落后或猎奇卖点，推荐价值在于一种具体的组织方式：紧凑的电子框架给声乐留下很大的节奏弹性，有限材料依然能形成强烈的推动。"
+      }
+    ],
+    "diversity": {
+      "artists": 5,
+      "seven_day_artist_repeats": 0,
+      "era_metadata": [
+        "1992",
+        "2014",
+        "1989",
+        "1986",
+        "1994"
+      ],
+      "density": "sparse strings/voices, percussion song, layered guitar, sparse ambient, dense electronic dance",
+      "languages": "English vocal song, Ibeyi multilingual vocal tradition, instrumental, Ata Kak Ghanaian vocal tradition",
+      "wildcard": "Ata Kak — Obaa Sima",
+      "additional_expansion": "Steve Reich via Pat Metheny electric guitar minimalism"
+    },
+    "backlog": [
+      {
+        "path": ".recommendation/transactions/journal/2026-11-02.json",
+        "error": "invalid bundle envelope"
+      },
+      {
+        "path": ".recommendation/transactions/journal/2026-11-03.json",
+        "error": "invalid bundle envelope"
+      },
+      {
+        "path": ".recommendation/transactions/journal/2026-11-04.json",
+        "error": "invalid bundle envelope"
+      },
+      {
+        "date": "2026-10-31",
+        "issue": "closing-section content QA failure retained; no replacement"
+      }
+    ],
+    "limitations": [
+      "No audio played; guidance based on prior recording knowledge and observed metadata.",
+      "No account full-track, device sync or notification test."
+    ]
+  },
+  "errors": []
+}
