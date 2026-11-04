@@ -1,0 +1,405 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-04",
+  "operation_id": "english:2026-11-04",
+  "status": "passed_current_publication_with_explicit_unrelated_backlog",
+  "checked_at_utc": "2026-11-04T00:14:37Z",
+  "mode": "new_generation",
+  "selection_evidence": {
+    "operation_id": "english:2026-11-04",
+    "business_date": "2026-11-04",
+    "candidate_count": 10,
+    "candidates": [
+      {
+        "title": "How Light Works",
+        "url": "https://home.nps.gov/subjects/nightskies/how-light-works.htm",
+        "source": "U.S. National Park Service",
+        "observed": "Direct official page read: complete explainer on visible light, photopic/scotopic vision, illuminance, magnitude and comparisons; last updated 2024-06-17.",
+        "estimated_minutes": "6-9",
+        "decision": "selected",
+        "reason": "Clear authentic input; distinct from recent topics; rich contrast between physical signal, scale and perception."
+      },
+      {
+        "title": "Natural Light in the Night Sky",
+        "url": "https://www.nps.gov/subjects/nightskies/natural-light-in-night-sky.htm",
+        "source": "U.S. National Park Service",
+        "observed": "Official page describes Moon, stars, planets, Milky Way, zodiacal light, airglow and aurora.",
+        "estimated_minutes": "8-12",
+        "decision": "rejected",
+        "reason": "High quality but broader catalogue structure; chosen page offers a tighter argument and better reusable language."
+      },
+      {
+        "title": "What are the northern lights? The aurora borealis explained",
+        "url": "https://www.nhm.ac.uk/discover/what-are-the-northern-lights-aurora-borealis-causes-explained.html",
+        "source": "Natural History Museum",
+        "observed": "Direct search result exposed full multi-section explainer on solar wind, atmospheric emissions, colours, cycles, location and forecasting.",
+        "estimated_minutes": "13-18",
+        "decision": "rejected",
+        "reason": "Likely above weekday time target and its forecasting section is too close to the 2026-10-29 lesson."
+      },
+      {
+        "title": "How the Moon got its spots",
+        "url": "https://www.nhm.ac.uk/discover/how-the-moon-got-its-spots.html",
+        "source": "Natural History Museum",
+        "observed": "Official page read; landing text identifies lunar maria and an embedded expert video, but transcript/duration were not exposed.",
+        "estimated_minutes": "unverified",
+        "decision": "rejected",
+        "reason": "The required input length and full video content could not be verified from the observed page."
+      },
+      {
+        "title": "Why Do Leaves Change Color in the Fall?",
+        "url": "https://www.si.edu/stories/why-do-leaves-change-color-fall",
+        "source": "Smithsonian Institution",
+        "observed": "Search result showed a substantive explainer, but direct open returned 404 during this run.",
+        "estimated_minutes": "4-6",
+        "decision": "rejected",
+        "reason": "Direct source was not reliably accessible at selection time."
+      },
+      {
+        "title": "Why do we have an ocean?",
+        "url": "https://oceanservice.noaa.gov/facts/why_oceans.html",
+        "source": "NOAA National Ocean Service",
+        "observed": "Direct official page read; concise account of cooling, condensation, degassing and gravity; updated 2026-09-23.",
+        "estimated_minutes": "2-3",
+        "decision": "rejected",
+        "reason": "Authentic and current but too short for the requested weekday input."
+      },
+      {
+        "title": "Everyday Mysteries…Solved!",
+        "url": "https://blogs.loc.gov/loc/2020/04/everyday-mysteries-solved/",
+        "source": "Library of Congress",
+        "observed": "Direct official page read; answers several short questions on animals, seasons, touchscreens and other phenomena.",
+        "estimated_minutes": "6-9",
+        "decision": "rejected",
+        "reason": "Fragmented multi-question list offers less coherent argument structure than the selected source."
+      },
+      {
+        "title": "Keepers of the Right Answer: Why Measurements at NIST Are Important for the Nation and the World",
+        "url": "https://www.nist.gov/blogs/taking-measure/keepers-right-answer-why-measurements-nist-are-important-nation-and-world",
+        "source": "NIST",
+        "observed": "Official search result showed a dated 2024 article linking standards to healthcare, food labels and infrastructure.",
+        "estimated_minutes": "9-12",
+        "decision": "rejected",
+        "reason": "Good candidate, but institutional metrology overlaps an earlier NIST lesson more than the selected perception-focused source."
+      },
+      {
+        "title": "Everyday Estimation",
+        "url": "https://www.nist.gov/pml/owm/metric-si/everyday-estimation",
+        "source": "NIST",
+        "observed": "Official reference page lists estimation skills, reference quantities and educator resources.",
+        "estimated_minutes": "5-8",
+        "decision": "rejected",
+        "reason": "Useful reference collection but weaker as a single authentic argumentative input."
+      },
+      {
+        "title": "Dive into the Ocean Literacy Principles with NOAA resource collections",
+        "url": "https://www.noaa.gov/office-education/stories/dive-into-ocean-literacy-principles-with-noaa-resource-collections",
+        "source": "NOAA",
+        "observed": "Official 2026 page surveys seven ocean-literacy principles and links to multiple collections.",
+        "estimated_minutes": "12-16",
+        "decision": "rejected",
+        "reason": "Broad resource hub and likely above the target time; not as focused for a two-pass routine."
+      }
+    ],
+    "selection": {
+      "title": "How Light Works",
+      "source_url": "https://home.nps.gov/subjects/nightskies/how-light-works.htm",
+      "source": "U.S. National Park Service",
+      "verification_method": "direct_official_page_full_text",
+      "verification_ref": "turn760view2",
+      "verified_at": "2026-11-04T00:14:00Z",
+      "observed_scope": [
+        "title",
+        "complete visible body",
+        "photopic/scotopic sections",
+        "illuminance/luminance examples",
+        "page last-updated date"
+      ],
+      "accessibility": "visible official HTML text; images not required; no audio or account access involved"
+    },
+    "dedup": {
+      "original_history_rows": 57,
+      "prepared_transaction_count": 62,
+      "prepared_reserved_resource_count": 414,
+      "exact_url_absent_from_history": true,
+      "exact_url_absent_from_all_prepared_reservations": true,
+      "freshness_checked_against_original_preselection": true
+    },
+    "recent_topic_review": {
+      "recent": [
+        "photocopier and information flow",
+        "platform-shaped cultural spaces",
+        "money and trust",
+        "forecast uncertainty",
+        "animal reactions to people",
+        "historical reenactment",
+        "memory and learning"
+      ],
+      "chosen": "light measurement and visual perception",
+      "narrow_topic_repeat_within_seven_days": false
+    },
+    "copyright": "Only links, summaries, terminology and independently authored exercises; no long source reproduction."
+  },
+  "bundle": {
+    "path": ".recommendation/transactions/english/2026-11-04.json",
+    "bundle_sha256": "a5d878ae806445107a426109f6cb9b069576c2b15ac34a912eb6503c921a6095",
+    "plan_sha256": "d1c395b68940c3a8c585bd2ef63ac2c8b2834eabf904b917104e8a79de5c247d",
+    "creation": {
+      "commit": "154f49f6973aaee46ca879676a10f162ae23e294",
+      "parent": "baf4d3f504d0f9cd1117e594275b483e5bc1dd58",
+      "tree": "92054aec878ebeca488535c7d45f3f9afa38718f",
+      "readbacks": {
+        ".recommendation/transactions/english/2026-11-04.json": {
+          "sha": "89a8ec2ccbf124c741720793682fa04efa31207c",
+          "bytes": 45447,
+          "exact": true
+        }
+      }
+    },
+    "creation_receipt": {
+      "path": ".recommendation/transaction-runs/english/2026-11-04/prepared-1793751045952.json",
+      "commit": "4288e3ca9c572174b93d7c2ca3037560cfd19d98",
+      "parent": "154f49f6973aaee46ca879676a10f162ae23e294",
+      "tree": "dc4f76d03e72d6ca0ab7ac15a8e4568fbe14b01e",
+      "readbacks": {
+        ".recommendation/transaction-runs/english/2026-11-04/prepared-1793751045952.json": {
+          "sha": "4ee3548c2cc4ba9664dec3684231f40686b8d9a2",
+          "bytes": 1843,
+          "exact": true
+        }
+      }
+    },
+    "immutable_readback": true
+  },
+  "publication": {
+    "commit": "b7d8afec0009e10b7860cb6b0ad2919bd70ffbdc",
+    "parent": "4288e3ca9c572174b93d7c2ca3037560cfd19d98",
+    "tree": "e4d1acfbc22a7834d45e176a3851bfadc42519cd",
+    "readbacks": {
+      "50-courses/English/Daily/2026-11-04.md": {
+        "sha": "8fc8bf76de08d9a9de3ef042ee8e4987658bf3a2",
+        "bytes": 8493,
+        "exact": true
+      },
+      "50-courses/English/Translation/2026-11-04.md": {
+        "sha": "15181c712a4f69918421f852710297d369141e8a",
+        "bytes": 9794,
+        "exact": true
+      },
+      "50-courses/English/Vocabulary/2026-11-04.md": {
+        "sha": "7265c3d80b2b04037ddf2f91c308380448fa57d4",
+        "bytes": 8712,
+        "exact": true
+      },
+      ".recommendation/history/english.jsonl": {
+        "sha": "a7a2020196d5ab0258420bc121c30b4981179fe8",
+        "bytes": 14892,
+        "exact": true
+      }
+    },
+    "stage_receipt": {
+      "path": ".recommendation/transaction-runs/english/2026-11-04/stage1-1793751111790.json",
+      "sha": "8d9a915b312030eabf62f7d520acbf156582b363",
+      "size": 2894,
+      "recorded_commit": "33f1aa01d75d5de32e30e1f7a0f8571a7921e73f",
+      "write_response": "response lost after successful ref update; reread proved exact receipt and converted retry to no-op"
+    }
+  },
+  "planner": {
+    "before": {
+      "status": "ready_to_resume",
+      "operation_id": "english:2026-11-04",
+      "bundle_sha256": "a5d878ae806445107a426109f6cb9b069576c2b15ac34a912eb6503c921a6095",
+      "github_writes_performed": 0,
+      "content_qa": "not_evaluated",
+      "plan_sha256": "d1c395b68940c3a8c585bd2ef63ac2c8b2834eabf904b917104e8a79de5c247d",
+      "next_stage": 1,
+      "decisions": [
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Daily/2026-11-04.md",
+          "stage": 1,
+          "action": "create",
+          "reason": "observed baseline matches frozen plan",
+          "expected_sha": null,
+          "target_sha": "8fc8bf76de08d9a9de3ef042ee8e4987658bf3a2"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Translation/2026-11-04.md",
+          "stage": 1,
+          "action": "create",
+          "reason": "observed baseline matches frozen plan",
+          "expected_sha": null,
+          "target_sha": "15181c712a4f69918421f852710297d369141e8a"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Vocabulary/2026-11-04.md",
+          "stage": 1,
+          "action": "create",
+          "reason": "observed baseline matches frozen plan",
+          "expected_sha": null,
+          "target_sha": "7265c3d80b2b04037ddf2f91c308380448fa57d4"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/english.jsonl",
+          "stage": 1,
+          "action": "update",
+          "reason": "observed baseline matches frozen plan",
+          "expected_sha": "3e6c0a7240427d700d7115fa96b6926151c588bc",
+          "target_sha": "a7a2020196d5ab0258420bc121c30b4981179fe8"
+        }
+      ]
+    },
+    "after": {
+      "status": "artifacts_match",
+      "operation_id": "english:2026-11-04",
+      "bundle_sha256": "a5d878ae806445107a426109f6cb9b069576c2b15ac34a912eb6503c921a6095",
+      "github_writes_performed": 0,
+      "content_qa": "not_evaluated",
+      "plan_sha256": "d1c395b68940c3a8c585bd2ef63ac2c8b2834eabf904b917104e8a79de5c247d",
+      "next_stage": null,
+      "decisions": [
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Daily/2026-11-04.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "8fc8bf76de08d9a9de3ef042ee8e4987658bf3a2"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Translation/2026-11-04.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "15181c712a4f69918421f852710297d369141e8a"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "50-courses/English/Vocabulary/2026-11-04.md",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "7265c3d80b2b04037ddf2f91c308380448fa57d4"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/english.jsonl",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "3e6c0a7240427d700d7115fa96b6926151c588bc",
+          "target_sha": "a7a2020196d5ab0258420bc121c30b4981179fe8"
+        }
+      ]
+    }
+  },
+  "postwrite_qa": {
+    "status": "passed_current_publication",
+    "operation_id": "english:2026-11-04",
+    "source_url": "https://home.nps.gov/subjects/nightskies/how-light-works.htm",
+    "source_identity": "NPS official How Light Works page directly read before and after publication",
+    "source_scope": "visible complete HTML body and last-updated field; no images required; no playback/account claim",
+    "candidate_count": 10,
+    "freshness": "absent from original 57-row history and all preselection PREPARED reservations",
+    "history": {
+      "original_rows": 57,
+      "final_rows": 58,
+      "append_only_prefix": true,
+      "selected_source_occurrences": 1
+    },
+    "weekday_completeness": {
+      "notes": 3,
+      "folded_answers": 5,
+      "independent_translation_exercises": 2,
+      "vocabulary_entries": 8,
+      "comprehension_output_questions": 3,
+      "all_crosslinks": true
+    },
+    "content_review": {
+      "daily": "two-pass routine, 90-second output, three questions and explicit source caveats",
+      "translation": "two substantial independent fictional exercises with references, structure notes, transfer errors, precision rewrites and spaced review",
+      "vocabulary": "eight reusable chunks with meaning, collocations, examples, word families, contrasts and retrieval quiz",
+      "copyright": "summaries and original exercises only; no long source reproduction"
+    },
+    "payloads": {
+      "50-courses/English/Daily/2026-11-04.md": {
+        "git_blob_sha": "8fc8bf76de08d9a9de3ef042ee8e4987658bf3a2",
+        "sha256": "a0fc1c4ab035b3ee8557540f2214cd7c5910d59679184396861858a8a088b26e",
+        "bytes": 8493
+      },
+      "50-courses/English/Translation/2026-11-04.md": {
+        "git_blob_sha": "15181c712a4f69918421f852710297d369141e8a",
+        "sha256": "355cf18f98d33fb6bdb8ac5ed143335567edf14257c866df197e563b05a055c3",
+        "bytes": 9794
+      },
+      "50-courses/English/Vocabulary/2026-11-04.md": {
+        "git_blob_sha": "7265c3d80b2b04037ddf2f91c308380448fa57d4",
+        "sha256": "f2972acaffbbacb666474fc0aaa7f193cdb1e068b007598463eb7b31527768f4",
+        "bytes": 8712
+      },
+      ".recommendation/history/english.jsonl": {
+        "git_blob_sha": "a7a2020196d5ab0258420bc121c30b4981179fe8",
+        "sha256": "6acdcb77bf020f4411e67a97631ec9ad557808299b86ab0cb86f23b3e5016eef",
+        "bytes": 14892
+      }
+    }
+  },
+  "source_readback": {
+    "before_publication": "turn760view2",
+    "after_publication": "turn761view0",
+    "scope": "NPS official title and full visible body including Human Vision, Measuring Light, examples and last-updated date; page remained directly readable",
+    "playback_or_account": "not applicable / not claimed"
+  },
+  "checks": {
+    "local_tests": {
+      "command": "python3 -m unittest discover -s english1104/scripts -p 'test_*.py' -v",
+      "result": "125 passed",
+      "scope": "current repository test modules fetched by blob SHA; structural tests, recovery tests, bundle tests and snapshot tests; does not certify teaching quality or live sources"
+    },
+    "github_actions": {
+      "run_id": 41744963871,
+      "job_id": 126295533252,
+      "head_sha": "b7d8afec0009e10b7860cb6b0ad2919bd70ffbdc",
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/41744963871",
+      "strict_validation": "passed: youtube=245, reddit=490, english=52, music=250",
+      "regression_tests": "125 passed (69 + 41 + 15)",
+      "permanent_history": {
+        "status": "passed_local_integrity",
+        "english_rows": 58,
+        "english_unique_resources": 58,
+        "append_only": "passed_against_base"
+      },
+      "overall": "failure",
+      "failure_stage": "Compare permanent history with the actual base commit",
+      "actual_error": "invalid bundle envelope",
+      "scope": "All current English content/history checks passed before the unrelated global transaction scan failed"
+    }
+  },
+  "backlog": [
+    {
+      "paths": [
+        ".recommendation/transactions/journal/2026-11-02.json",
+        ".recommendation/transactions/journal/2026-11-03.json",
+        ".recommendation/transactions/journal/2026-11-04.json"
+      ],
+      "observed_schema": "journal-frozen-v1",
+      "current_validator_error": "invalid bundle envelope",
+      "effect_on_current_publication": "none; English notes and append-only history passed current gates",
+      "action": "retained unchanged as historical repository backlog"
+    }
+  ],
+  "limitations": [
+    "GitHub CI and readbacks do not prove local Obsidian device synchronization or notification delivery.",
+    "The official source page was readable, but this does not test all geographic networks.",
+    "Teaching quality was reviewed independently in this run; repository structure alone is not its proof."
+  ]
+}
