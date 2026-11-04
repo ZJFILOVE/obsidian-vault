@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-11-04",
+  "attempt": "stage1",
+  "recorded_at_utc": "2026-11-04T00:11:51Z",
+  "bundle_sha256": "a5d878ae806445107a426109f6cb9b069576c2b15ac34a912eb6503c921a6095",
+  "plan_sha256": "d1c395b68940c3a8c585bd2ef63ac2c8b2834eabf904b917104e8a79de5c247d",
+  "planner_before_apply": {
+    "status": "ready_to_resume",
+    "operation_id": "english:2026-11-04",
+    "bundle_sha256": "a5d878ae806445107a426109f6cb9b069576c2b15ac34a912eb6503c921a6095",
+    "github_writes_performed": 0,
+    "content_qa": "not_evaluated",
+    "plan_sha256": "d1c395b68940c3a8c585bd2ef63ac2c8b2834eabf904b917104e8a79de5c247d",
+    "next_stage": 1,
+    "decisions": [
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "50-courses/English/Daily/2026-11-04.md",
+        "stage": 1,
+        "action": "create",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": null,
+        "target_sha": "8fc8bf76de08d9a9de3ef042ee8e4987658bf3a2"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "50-courses/English/Translation/2026-11-04.md",
+        "stage": 1,
+        "action": "create",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": null,
+        "target_sha": "15181c712a4f69918421f852710297d369141e8a"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "50-courses/English/Vocabulary/2026-11-04.md",
+        "stage": 1,
+        "action": "create",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": null,
+        "target_sha": "7265c3d80b2b04037ddf2f91c308380448fa57d4"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": ".recommendation/history/english.jsonl",
+        "stage": 1,
+        "action": "update",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": "3e6c0a7240427d700d7115fa96b6926151c588bc",
+        "target_sha": "a7a2020196d5ab0258420bc121c30b4981179fe8"
+      }
+    ]
+  },
+  "publication_commit": "b7d8afec0009e10b7860cb6b0ad2919bd70ffbdc",
+  "parent": "4288e3ca9c572174b93d7c2ca3037560cfd19d98",
+  "tree": "e4d1acfbc22a7834d45e176a3851bfadc42519cd",
+  "readbacks": {
+    "50-courses/English/Daily/2026-11-04.md": {
+      "sha": "8fc8bf76de08d9a9de3ef042ee8e4987658bf3a2",
+      "bytes": 8493,
+      "exact": true
+    },
+    "50-courses/English/Translation/2026-11-04.md": {
+      "sha": "15181c712a4f69918421f852710297d369141e8a",
+      "bytes": 9794,
+      "exact": true
+    },
+    "50-courses/English/Vocabulary/2026-11-04.md": {
+      "sha": "7265c3d80b2b04037ddf2f91c308380448fa57d4",
+      "bytes": 8712,
+      "exact": true
+    },
+    ".recommendation/history/english.jsonl": {
+      "sha": "a7a2020196d5ab0258420bc121c30b4981179fe8",
+      "bytes": 14892,
+      "exact": true
+    }
+  },
+  "errors": []
+}
