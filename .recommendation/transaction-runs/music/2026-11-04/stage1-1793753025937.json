@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-11-04",
+  "stage": 1,
+  "bundle_sha256": "160c13540e152240c12f8b3c73f9de24efcb9db1821a8c7db85c9cdec84d8428",
+  "result": {
+    "commit": "6e97b932a973c8b52b56341fd54b8b64542e1afc",
+    "parent": "9cbfa3857e0753068fa1099bf28c8ea3246d4782",
+    "tree": "dd3aa180a0e8fce83271a77ecf3ebb880edd5a9e",
+    "readbacks": {
+      "recommendations/2026/11/2026-11-04.json": {
+        "sha": "d9bfac176ba8fde35bad8c440b115c9651eba715",
+        "bytes": 10019,
+        "exact_utf8": true
+      },
+      "state/tracks.json": {
+        "sha": "8e15eec55d1a7afcbdfeaf659620d1121434e439",
+        "bytes": 29568,
+        "exact_utf8": true
+      }
+    }
+  },
+  "errors": []
+}
