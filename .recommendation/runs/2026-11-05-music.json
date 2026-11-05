@@ -1,0 +1,869 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-11-05",
+  "project": "music",
+  "date": "2026-11-05",
+  "status": "passed_current_publication",
+  "mode": "new_generation",
+  "checked_at_utc": "2026-11-05T00:44:51.294Z",
+  "bundle": {
+    "path": ".recommendation/transactions/music/2026-11-05.json",
+    "bundle_sha256": "dd09f52e455b82dba9704499fb90d3d0e6d51bee1e6e99334c817fbe9708e54e",
+    "plan_sha256": "9135594478f0156b90bfbf6f179b7763751a46286e37e49d5a7308fe72d06f38",
+    "creation": {
+      "parent": "8925d53d3a06e88565cd887cc1e42e00e97118c1",
+      "tree": "f3ab80eb5be142313a958afce64447644fc2c972",
+      "commit": "f04a2cc8ee2d85b0fba7058ad894f2a414860be3",
+      "readbacks": {
+        ".recommendation/transactions/music/2026-11-05.json": {
+          "sha": "42094e7a64d5082942e18c600ad1bb6947ae113e",
+          "bytes": 89614
+        }
+      },
+      "ref_response_error": null
+    },
+    "identity_receipt": {
+      "parent": "f04a2cc8ee2d85b0fba7058ad894f2a414860be3",
+      "tree": "1b031c7e5ba13e9a3991ce5a3d24b9310e7c8cb3",
+      "commit": "90c90f07a169ec3f924f5211b3128551d19be189",
+      "readbacks": {
+        ".recommendation/transaction-runs/music/2026-11-05/prepared-1793839370986.json": {
+          "sha": "79a8cf278045d07ad39ecc5696fb50c3a166a7f7",
+          "bytes": 24370
+        }
+      },
+      "ref_response_error": null
+    }
+  },
+  "stages": [
+    {
+      "stage": 1,
+      "result": {
+        "parent": "6e97b932a973c8b52b56341fd54b8b64542e1afc",
+        "tree": "c3944475329beedfe8f9d9fe48f39bbb1612321e",
+        "commit": "51a83b128bcccb33de983ad813d866ccec6da140",
+        "readbacks": {
+          "recommendations/2026/11/2026-11-05.json": {
+            "sha": "4e488a99d94bf1c04208b065d760f52a3f45c1d6",
+            "bytes": 6409
+          },
+          "state/tracks.json": {
+            "sha": "dbc96fe29d8be5c5ed7b9e6953ecd332327bca71",
+            "bytes": 30335
+          }
+        },
+        "ref_response_error": null
+      },
+      "receipt": {
+        "parent": "90c90f07a169ec3f924f5211b3128551d19be189",
+        "tree": "764f72b96e3367cb9b21c262d01fa8be842585fd",
+        "commit": "4772265cc0c0dea1fbb9bb73c8930a306617695e",
+        "readbacks": {
+          ".recommendation/transaction-runs/music/2026-11-05/stage1-1793839406283.json": {
+            "sha": "47f982b9180457e48290f65ebf1e7395c905356f",
+            "bytes": 2734
+          }
+        },
+        "ref_response_error": null
+      }
+    },
+    {
+      "stage": 2,
+      "result": {
+        "parent": "4772265cc0c0dea1fbb9bb73c8930a306617695e",
+        "tree": "85b05989f5feb692bced5030131470318ad3cde0",
+        "commit": "8519d2563a0efa5e54021b863c95fc591fa258b1",
+        "readbacks": {
+          "Music/Daily/2026-11-05.md": {
+            "sha": "d1de910284670af85158a40cd155470cef918910",
+            "bytes": 6719
+          },
+          "Music/Daily/manifests/2026-11-05.json": {
+            "sha": "4e488a99d94bf1c04208b065d760f52a3f45c1d6",
+            "bytes": 6409
+          },
+          "Music/Daily/state/tracks.json": {
+            "sha": "dbc96fe29d8be5c5ed7b9e6953ecd332327bca71",
+            "bytes": 30335
+          }
+        },
+        "ref_response_error": null
+      },
+      "receipt": {
+        "parent": "8519d2563a0efa5e54021b863c95fc591fa258b1",
+        "tree": "525d411a901243155dfd3420270f4463a6c6c9ec",
+        "commit": "e76b9372cb1e898811006d5e06000ecb2c573609",
+        "readbacks": {
+          ".recommendation/transaction-runs/music/2026-11-05/stage2-1793839424838.json": {
+            "sha": "ed950be20d0d4c880bede9b0262599cfff08388b",
+            "bytes": 2915
+          }
+        },
+        "ref_response_error": null
+      }
+    }
+  ],
+  "planner": {
+    "status": "artifacts_match",
+    "operation_id": "music:2026-11-05",
+    "bundle_sha256": "dd09f52e455b82dba9704499fb90d3d0e6d51bee1e6e99334c817fbe9708e54e",
+    "github_writes_performed": 0,
+    "content_qa": "not_evaluated",
+    "plan_sha256": "9135594478f0156b90bfbf6f179b7763751a46286e37e49d5a7308fe72d06f38",
+    "next_stage": null,
+    "decisions": [
+      {
+        "repository": "ZJFILOVE/music-daily",
+        "path": "recommendations/2026/11/2026-11-05.json",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "4e488a99d94bf1c04208b065d760f52a3f45c1d6"
+      },
+      {
+        "repository": "ZJFILOVE/music-daily",
+        "path": "state/tracks.json",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": "8e15eec55d1a7afcbdfeaf659620d1121434e439",
+        "target_sha": "dbc96fe29d8be5c5ed7b9e6953ecd332327bca71"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Music/Daily/2026-11-05.md",
+        "stage": 2,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "d1de910284670af85158a40cd155470cef918910"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Music/Daily/manifests/2026-11-05.json",
+        "stage": 2,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "4e488a99d94bf1c04208b065d760f52a3f45c1d6"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Music/Daily/state/tracks.json",
+        "stage": 2,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": "8e15eec55d1a7afcbdfeaf659620d1121434e439",
+        "target_sha": "dbc96fe29d8be5c5ed7b9e6953ecd332327bca71"
+      }
+    ]
+  },
+  "source_and_candidates": {
+    "candidates": [
+      {
+        "observed_url": "https://music.apple.com/us/song/3737056",
+        "id": "3737056",
+        "observed_title": "‎Sodade - Song with Lyrics by Cesária Evora - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn808view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/3737056\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/79765100",
+        "id": "79765100",
+        "observed_title": "‎Everything Is Free - Song with Lyrics by Gillian Welch - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn818view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/79765100\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/157470499",
+        "id": "157470499",
+        "observed_title": "‎Goodbye Pork Pie Hat - Song with Lyrics by Charles Mingus - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn810view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/157470499\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/158011172",
+        "id": "158011172",
+        "observed_title": "‎Big Country - Song with Lyrics by Béla Fleck, Mike Marshall & Edgar Meyer - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn817view2】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/158011172\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/192828391",
+        "id": "192828391",
+        "observed_title": "‎Stoned Soul Picnic - Song by Laura Nyro - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎Stoned Soul Picnic - 罗拉‧妮罗演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/192828391)\n【turn809view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/192828391\",\"lineno\":null}); Redirected to URL: https://music.apple.com/cn/song/stoned-soul-picnic/192828391; Total lines: 469\nL11: # Stoned Soul Picnic\nL13: 【5†Eli and the Thirteenth Confession】 【6†罗拉‧妮罗】 1968年3月25日",
+        "decision": "selected"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/279516854",
+        "id": "279516854",
+        "observed_title": "‎O Leãozinho - Song by Caetano Veloso - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn807view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/279516854\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/302194557",
+        "id": "302194557",
+        "observed_title": "‎Big Country - Song with Lyrics by Béla Fleck & The Flecktones - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn817view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/302194557\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/615195488",
+        "id": "615195488",
+        "observed_title": "‎靜止 - Song by Naiwen Yang - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎静止 - 杨乃文演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/615195488)\n【turn824view3】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/615195488\",\"lineno\":13}); Redirected to URL: https://music.apple.com/cn/song/%E9%9D%99%E6%AD%A2/615195488; Total lines: 471\nL11: # 静止\nL13: 【5†K歌王国-女人K歌】 【6†杨乃文】 1999年9月9日",
+        "decision": "selected"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/640427600",
+        "id": "640427600",
+        "observed_title": "‎靜止 - Song by Naiwen Yang - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn824view2】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/640427600\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/723397209",
+        "id": "723397209",
+        "observed_title": "‎Perpetuum Mobile - Song by Penguin Cafe Orchestra - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn807view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/723397209\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/883501723",
+        "id": "883501723",
+        "observed_title": "‎One Summer's Day - Song with Lyrics by Joe Hisaishi - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn816view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/883501723\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/900596428",
+        "id": "900596428",
+        "observed_title": "‎Libertango - Song by Astor Piazzolla - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn815view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/900596428\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1025323096",
+        "id": "1025323096",
+        "observed_title": "‎Heaven or Las Vegas - Song with Lyrics by Cocteau Twins - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn807view2】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1025323096\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1291838926",
+        "id": "1291838926",
+        "observed_title": "‎Rydeen - Song with Lyrics by Yellow Magic Orchestra - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn816view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1291838926\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1440653203",
+        "id": "1440653203",
+        "observed_title": "‎Roads - Song with Lyrics by Portishead - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎Roads - Portishead演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1440653203)\n【turn808view2】 [wordlim: 200] Crawled: 3 weeks ago; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1440653203\",\"lineno\":null}); Redirected to URL: https://music.apple.com/cn/song/roads/1440653203; Total lines: 469\nL11: # Roads\nL13: 【5†Dummy】 【6†Portishead】 1994年1月1日",
+        "decision": "rejected_recording_already_exposed"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1440719297",
+        "id": "1440719297",
+        "observed_title": "‎Journey in Satchidananda (feat. Pharoah Sanders) - Song with Lyrics by Alice Coltrane - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎Journey in Satchidananda (feat. Pharoah Sanders) - 爱丽丝・柯川演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1440719297)\n【turn810view2】 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1440719297\",\"lineno\":null}); Redirected to URL: https://music.apple.com/cn/song/journey-in-satchidananda-feat-pharoah-sanders/1440719297; Total lines: 459\nL11: # Journey in Satchidananda (feat. Pharoah Sanders)\nL13: 【5†Journey in Satchidananda】 【6†爱丽丝・柯川】 1971年1月1日",
+        "decision": "rejected_recording_already_exposed"
+      },
+      {
+        "observed_url": "https://music.apple.com/fr/song/1440773934",
+        "id": "1440773934",
+        "observed_title": "‎Parce Mihi Domine - Morceau par Jan Garbarek & Hilliard Ensemble - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎Parce Mihi Domine - 杨・葛柏瑞克 & 希利亚合唱团演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1440773934)\n【turn824view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1440773934\",\"lineno\":13}); Redirected to URL: https://music.apple.com/cn/song/parce-mihi-domine/1440773934; Total lines: 469\nL11: # Parce Mihi Domine\nL13: 【5†Officium】 【6†杨・葛柏瑞克】、 【7†希利亚合唱团】 1994年9月1日",
+        "decision": "selected"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1442427159",
+        "id": "1442427159",
+        "observed_title": "‎Who Knows Where the Time Goes? - Song with Lyrics by Fairport Convention - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn818view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1442427159\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1443767196",
+        "id": "1443767196",
+        "observed_title": "‎The Lover of Beirut - Song with Lyrics by Anouar Brahem - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎The Lover of Beirut - 阿瑙尔・伯拉罕演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1443767196)\n【turn824view5】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1443767196\",\"lineno\":13}); Redirected to URL: https://music.apple.com/cn/song/the-lover-of-beirut/1443767196; Total lines: 469\nL11: # The Lover of Beirut\nL13: 【5†The Astounding Eyes of Rita】 【6†阿瑙尔・伯拉罕】 2009年9月25日",
+        "decision": "reserve_different_sound_balance"
+      },
+      {
+        "observed_url": "https://music.apple.com/gr/song/1443767437",
+        "id": "1443767437",
+        "observed_title": "‎The Astounding Eyes of Rita – Song by Anouar Brahem – Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn824view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1443767437\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1443767688",
+        "id": "1443767688",
+        "observed_title": "‎Al Birwa - Song with Lyrics by Anouar Brahem - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn824view4】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1443767688\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1443931286",
+        "id": "1443931286",
+        "observed_title": "‎Pink Moon - Song with Lyrics by Nick Drake - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn808view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1443931286\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1453161527",
+        "id": "1453161527",
+        "observed_title": "‎1952 Vincent Black Lightning - Song with Lyrics by Richard Thompson - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn818view2】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1453161527\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1488023160",
+        "id": "1488023160",
+        "observed_title": "‎Bibo No Aozora - Song by Ryuichi Sakamoto - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn816view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1488023160\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1492262289",
+        "id": "1492262289",
+        "observed_title": "‎Coyote - Song with Lyrics by Joni Mitchell - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn818view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1492262289\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1530853388",
+        "id": "1530853388",
+        "observed_title": "‎De Ushuaia a la Quiaca - Song with Lyrics by Gustavo Santaolalla - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎De Ushuaia a la Quiaca - Gustavo Santaolalla演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1530853388)\n【turn815view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1530853388\",\"lineno\":13}); Redirected to URL: https://music.apple.com/cn/song/de-ushuaia-a-la-quiaca/1530853388; Total lines: 468\nL11: # De Ushuaia a la Quiaca\nL13: 【5†Qhapaq Ñan】 【6†Gustavo Santaolalla】 2016年1月8日",
+        "decision": "selected"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1551592392",
+        "id": "1551592392",
+        "observed_title": "‎De Cara a la Pared - Song with Lyrics by Lhasa De Sela - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎De Cara a la Pared - Lhasa De Sela演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1551592392)\n【turn810view3】 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1551592392\",\"lineno\":null}); Redirected to URL: https://music.apple.com/cn/song/de-cara-a-la-pared/1551592392; Total lines: 453\nL11: # De Cara a la Pared\nL13: 【5†La Llorona】 【6†Lhasa De Sela】 1997年2月4日",
+        "decision": "rejected_recording_already_exposed"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1581111688",
+        "id": "1581111688",
+        "observed_title": "‎Merry Christmas Mr. Lawrence - Song by Ryuichi Sakamoto - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn810view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1581111688\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1617799719",
+        "id": "1617799719",
+        "observed_title": "‎Tinseltown in the Rain - Song with Lyrics by The Blue Nile - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn809view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1617799719\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1629109827",
+        "id": "1629109827",
+        "observed_title": "‎Jarabi - Song by Toumani Diabate - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎Jarabi - Toumani Diabaté演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1629109827)\n【turn815view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1629109827\",\"lineno\":13}); Redirected to URL: https://music.apple.com/cn/song/jarabi/1629109827; Total lines: 469\nL11: # Jarabi\nL13: 【5†Kaira】 【6†Toumani Diabaté】 1988年1月1日",
+        "decision": "rejected_recording_already_exposed"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1675560844",
+        "id": "1675560844",
+        "observed_title": "‎Cloudbusting (2018 Remaster) - Song with Lyrics by Kate Bush - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎Cloudbusting (2018 Remaster) - Kate Bush演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1675560844)\n【turn808view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1675560844\",\"lineno\":null}); Redirected to URL: https://music.apple.com/cn/song/cloudbusting-2018-remaster/1675560844; Total lines: 469\nL11: # Cloudbusting (2018 Remaster)\nL13: 【5†Hounds of Love (2018 Remaster)】 【6†Kate Bush】 1985年9月16日",
+        "decision": "selected"
+      },
+      {
+        "observed_url": "https://music.apple.com/za/song/1716598344",
+        "id": "1716598344",
+        "observed_title": "‎Chan Chan – Song by Buena Vista Social Club – Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn807view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1716598344\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1753124438",
+        "id": "1753124438",
+        "observed_title": "‎Aqua - Song by Ryuichi Sakamoto - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎Aqua - 坂本龙一演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1753124438)\n【turn816view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1753124438\",\"lineno\":13}); Redirected to URL: https://music.apple.com/cn/song/aqua/1753124438; Total lines: 469\nL11: # Aqua\nL13: 【5†Opus】 【6†坂本龙一】 2024年8月9日",
+        "decision": "rejected_recording_already_exposed"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1766096832",
+        "id": "1766096832",
+        "observed_title": "‎Savane - Song with Lyrics by Ali Farka Touré - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn815view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1766096832\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1783205879",
+        "id": "1783205879",
+        "observed_title": "‎Water No Get Enemy - Song by Fela Kuti - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎Water No Get Enemy - Fela Kuti演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1783205879)\n【turn809view3】 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1783205879\",\"lineno\":null}); Redirected to URL: https://music.apple.com/cn/song/water-no-get-enemy/1783205879; Total lines: 469\nL11: # Water No Get Enemy\nL13: 【5†The Best of The Black President】 【6†Fela Kuti】 1975年12月12日",
+        "decision": "rejected_recording_already_exposed"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1833049411",
+        "id": "1833049411",
+        "observed_title": "‎I Believe in You (1997 Remaster) - Song with Lyrics by Talk Talk - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn809view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1833049411\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      }
+    ],
+    "selected": [
+      {
+        "title": "Stoned Soul Picnic",
+        "artist": "罗拉‧妮罗",
+        "album": "Eli and the Thirteenth Confession",
+        "id": "192828391",
+        "ref": "turn809view2",
+        "page_date": "1968-03-25",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/192828391",
+        "verification": "direct official song title, artist, album and matching canonical CN redirect",
+        "playback": "not tested"
+      },
+      {
+        "title": "静止",
+        "artist": "杨乃文",
+        "album": "K歌王国-女人K歌",
+        "id": "615195488",
+        "ref": "turn824view3",
+        "page_date": "1999-09-09",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/615195488",
+        "verification": "direct official song title, artist, album and matching canonical CN redirect",
+        "playback": "not tested"
+      },
+      {
+        "title": "Cloudbusting (2018 Remaster)",
+        "artist": "Kate Bush",
+        "album": "Hounds of Love (2018 Remaster)",
+        "id": "1675560844",
+        "ref": "turn808view1",
+        "page_date": "1985-09-16",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1675560844",
+        "verification": "direct official song title, artist, album and matching canonical CN redirect",
+        "playback": "not tested"
+      },
+      {
+        "title": "De Ushuaia a la Quiaca",
+        "artist": "Gustavo Santaolalla",
+        "album": "Qhapaq Ñan",
+        "id": "1530853388",
+        "ref": "turn815view0",
+        "page_date": "2016-01-08",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1530853388",
+        "verification": "direct official song title, artist, album and matching canonical CN redirect",
+        "playback": "not tested"
+      },
+      {
+        "title": "Parce Mihi Domine",
+        "artist": "杨・葛柏瑞克 & 希利亚合唱团",
+        "album": "Officium",
+        "id": "1440773934",
+        "ref": "turn824view0",
+        "page_date": "1994-09-01",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1440773934",
+        "verification": "direct official song title, artist, album and matching canonical CN redirect",
+        "playback": "not tested"
+      }
+    ],
+    "observed_at_utc": "2026-11-05T00:42:08.589Z"
+  },
+  "postwrite_source": {
+    "at": "2026-11-05T00:44:37.560Z",
+    "observations": [
+      "‎Stoned Soul Picnic - 罗拉‧妮罗演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/192828391)\n【turn827view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/192828391\",\"lineno\":13}); Redirected to URL: https://music.apple.com/cn/song/stoned-soul-picnic/192828391; Total lines: 469\nL11: # Stoned Soul Picnic\nL13: 【5†Eli and the Thirteenth Confession】 【6†罗拉‧妮罗】 1968年3月25日",
+      "‎静止 - 杨乃文演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/615195488)\n【turn827view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/615195488\",\"lineno\":13}); Redirected to URL: https://music.apple.com/cn/song/%E9%9D%99%E6%AD%A2/615195488; Total lines: 471\nL11: # 静止\nL13: 【5†K歌王国-女人K歌】 【6†杨乃文】 1999年9月9日",
+      "‎Cloudbusting (2018 Remaster) - Kate Bush演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1675560844)\n【turn827view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1675560844\",\"lineno\":13}); Redirected to URL: https://music.apple.com/cn/song/cloudbusting-2018-remaster/1675560844; Total lines: 469\nL11: # Cloudbusting (2018 Remaster)\nL13: 【5†Hounds of Love (2018 Remaster)】 【6†Kate Bush】 1985年9月16日",
+      "‎De Ushuaia a la Quiaca - Gustavo Santaolalla演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1530853388)\n【turn827view3】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1530853388\",\"lineno\":13}); Redirected to URL: https://music.apple.com/cn/song/de-ushuaia-a-la-quiaca/1530853388; Total lines: 468\nL11: # De Ushuaia a la Quiaca\nL13: 【5†Qhapaq Ñan】 【6†Gustavo Santaolalla】 2016年1月8日",
+      "‎Parce Mihi Domine - 杨・葛柏瑞克 & 希利亚合唱团演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1440773934)\n【turn827view4】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1440773934\",\"lineno\":13}); Redirected to URL: https://music.apple.com/cn/song/parce-mihi-domine/1440773934; Total lines: 469\nL11: # Parce Mihi Domine\nL13: 【5†Officium】 【6†杨・葛柏瑞克】、 【7†希利亚合唱团】 1994年9月1日"
+    ]
+  },
+  "readbacks": {
+    "ZJFILOVE/music-daily:recommendations/2026/11/2026-11-05.json": {
+      "sha": "4e488a99d94bf1c04208b065d760f52a3f45c1d6",
+      "bytes": 6409
+    },
+    "ZJFILOVE/music-daily:state/tracks.json": {
+      "sha": "dbc96fe29d8be5c5ed7b9e6953ecd332327bca71",
+      "bytes": 30335
+    },
+    "ZJFILOVE/obsidian-vault:Music/Daily/2026-11-05.md": {
+      "sha": "d1de910284670af85158a40cd155470cef918910",
+      "bytes": 6719
+    },
+    "ZJFILOVE/obsidian-vault:Music/Daily/manifests/2026-11-05.json": {
+      "sha": "4e488a99d94bf1c04208b065d760f52a3f45c1d6",
+      "bytes": 6409
+    },
+    "ZJFILOVE/obsidian-vault:Music/Daily/state/tracks.json": {
+      "sha": "dbc96fe29d8be5c5ed7b9e6953ecd332327bca71",
+      "bytes": 30335
+    }
+  },
+  "checks": {
+    "local_regressions": 145,
+    "freeze_and_baselines": "passed",
+    "original_history_entries": 298,
+    "current_history_entries": 303,
+    "state_values_preserved": true,
+    "history_freshness": "original states, historical manifests and prior reservations; checked ID, artist/title aliases and versions",
+    "order_fields_and_sections": "passed",
+    "mirror_check": {
+      "status": "passed_current_music_mirrors",
+      "manifests": 59,
+      "manifest_blobs": {
+        "2026-09-04.json": "c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+        "2026-09-05.json": "425068f9d2850f6174758c01adee37d25f3bb336",
+        "2026-09-06.json": "cbe1822dfb00e97d8f4aa537dbfd1f52f48dcccf",
+        "2026-09-07.json": "43c49954065383de75f28c4bfd239b7473f1c324",
+        "2026-09-08.json": "1aff7797664028e9729b0b42925909206fbdef2e",
+        "2026-09-09.json": "5b883498386208ef9809ec552e12bd30e5ae0510",
+        "2026-09-10.json": "6981929543fd31c36649815397d89b2bf1632551",
+        "2026-09-11.json": "66b29d99e17bc6da20987d9accd71e57851aa9fa",
+        "2026-09-12.json": "9e852ec43b70c9612f836c60eb55f8d44164dadc",
+        "2026-09-13.json": "b576357c8a83b6e618ce52984d43efb9ccd1e0fa",
+        "2026-09-14.json": "a7e1729f60debf70fd3c922c83508286868bb83a",
+        "2026-09-15.json": "e348cea20ac3b39edfad8d26cd2de5b49d4724c6",
+        "2026-09-16.json": "7a672e648529aa290ace44f78f43f217d29e5b0d",
+        "2026-09-17.json": "b62ae078472ac906c381bf246a59818507688f72",
+        "2026-09-18.json": "e2ad0074519697a2f402427996a212b3831f8290",
+        "2026-09-19.json": "2d2999277022bc329e15ce43477453edc5e8fc21",
+        "2026-09-20.json": "03cf1cc76eebfd74b0342fb74a8c1e616942c737",
+        "2026-09-21.json": "125ab7faf9a2fd4c08812b1bffc57686f65a1e4d",
+        "2026-09-22.json": "08788b30503a3d320b0343f015c213050b43cb21",
+        "2026-09-23.json": "07a2dddee1f9d38067afced0d678e4c578197d64",
+        "2026-09-24.json": "6bb9b98980a1f6dc7883d45cf2a4744879ea40c7",
+        "2026-09-25.json": "03f0f440b402f65da5fbd32943b70ac631e885ff",
+        "2026-09-26.json": "2a6e8cacaec306279f64685e6f4ddd3ddcaedb11",
+        "2026-09-28.json": "a40e31e20b92f129bf2b21f1073e3a69b120e33b",
+        "2026-09-29.json": "05ac05fdddcc456cd6103fb8854a5e77d8882dfe",
+        "2026-09-30.json": "4e2ed9d2f5a7f7a4f8df41a4d4407b6429c8695f",
+        "2026-10-01.json": "08c0655ae1e1a430b803cedfaee28265d9bca7c4",
+        "2026-10-02.json": "977590adad74f3530dc571b9578648372d99b460",
+        "2026-10-03.json": "c0d1ba2c8088bee2b9bfe73c0491112db013d040",
+        "2026-10-04.json": "e21086438c1609a5c65e4dfad5eb17efa390197c",
+        "2026-10-05.json": "bd8e8944afd975565557ac3a88f1ac3b8e16a8f7",
+        "2026-10-06.json": "1edfce17fd8094efd866e294b8cac1cf02f5e72d",
+        "2026-10-07.json": "ed9f6ab90943f1a35219cc8b41017559955aec86",
+        "2026-10-08.json": "2e8c9efd842d7d12ec5e76582d3098b2904de3f7",
+        "2026-10-09.json": "76dff8dedee8c861d72f158e73de4afb106f8d42",
+        "2026-10-11.json": "3da7d2fcf2f9f1417a32ad0e313118646cdc04ea",
+        "2026-10-12.json": "35f974e89bd209addcfef98ba16f5b7bc5e0ace3",
+        "2026-10-15.json": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26",
+        "2026-10-16.json": "08a0e041348374b67cc59fe08080364ce92b4973",
+        "2026-10-17.json": "28d482f6649e2b6cb3d67817ed0ecbfbf18e0a65",
+        "2026-10-18.json": "ecbdb7dbd5007784bdfb7eee4a9c3cc7706aa054",
+        "2026-10-19.json": "250f0308b004cf080611a943c55d896f47b6cab8",
+        "2026-10-20.json": "3cb0f6c54d5a27fa00adc0a0f5031c119fc69563",
+        "2026-10-21.json": "91677ae6a1c440bedb3ba1e5fb20753f52b797db",
+        "2026-10-22.json": "1c2c2b36491baf68396d30660ce3a3885e4c32c9",
+        "2026-10-23.json": "ccd649a467320f7caa9e7dfb45cb5046677e9f81",
+        "2026-10-24.json": "dedcb8a16ec3de4da60179d16f0552ca79ac7046",
+        "2026-10-25.json": "612db9ac80c1b59f2cfdb35e6afd6c801f7d6894",
+        "2026-10-26.json": "0b3edb0e598e9c51c7eab9b712033708bbb622ba",
+        "2026-10-27.json": "f5d258201e8314123f25868c21406fd00f1f06ae",
+        "2026-10-28.json": "5d471f096b853aa5b11fb921a147c94da89bc27c",
+        "2026-10-29.json": "039f0414cc8caddde495ce6cc42165177477d67d",
+        "2026-10-30.json": "892c30ed154fdaa66a2b7c523aa0625a7eeefa26",
+        "2026-10-31.json": "30a032fe72d9ccaa945d473c060ce8af105d42aa",
+        "2026-11-01.json": "d10d12138f1d4e898b2edfd3a6ddadeed1a779b7",
+        "2026-11-02.json": "be969586eb651c2593a2d3b2a9c1dff1caae6eb1",
+        "2026-11-03.json": "960b07f0b51caf7c97b71f8eeee066761231d486",
+        "2026-11-04.json": "d9bfac176ba8fde35bad8c440b115c9651eba715",
+        "2026-11-05.json": "4e488a99d94bf1c04208b065d760f52a3f45c1d6"
+      },
+      "state_blob_sha": "dbc96fe29d8be5c5ed7b9e6953ecd332327bca71",
+      "heads": {
+        "music": "51a83b128bcccb33de983ad813d866ccec6da140",
+        "vault": "e76b9372cb1e898811006d5e06000ecb2c573609"
+      },
+      "checked": [
+        "all manifest names and blob hashes",
+        "state blob hash",
+        "corresponding music notes exist",
+        "tree evidence completeness",
+        "stable branch observations"
+      ],
+      "not_certified": [
+        "state semantic coverage (run local CI)",
+        "live sources",
+        "editorial quality",
+        "device synchronization",
+        "notification delivery"
+      ]
+    },
+    "diversity": {
+      "recent_artist_repeats": 0,
+      "sequence": [
+        "soul piano pop",
+        "Mandarin alternative rock",
+        "art pop with strings",
+        "South American sparse instrumental",
+        "Latin vocal polyphony and saxophone"
+      ],
+      "wildcard": "Parce Mihi Domine",
+      "note": "Two English songs, one Mandarin song, one instrumental and one Latin vocal recording; varying arrangements and density."
+    }
+  },
+  "ci": {
+    "e76b9372cb1e898811006d5e06000ecb2c573609": [
+      {
+        "id": 41943484889,
+        "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/41943484889",
+        "status": "completed",
+        "conclusion": "success",
+        "jobs": [
+          {
+            "name": "validate",
+            "conclusion": "success",
+            "steps": [
+              [
+                "Set up job",
+                "success"
+              ],
+              [
+                "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+                "success"
+              ],
+              [
+                "Validate publications and full source-history coverage",
+                "success"
+              ],
+              [
+                "Negative regressions and interrupted-publication recovery",
+                "success"
+              ],
+              [
+                "Compare permanent history with the actual base commit",
+                "success"
+              ],
+              [
+                "Record scope of checks",
+                "success"
+              ],
+              [
+                "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+                "success"
+              ],
+              [
+                "Complete job",
+                "success"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "51a83b128bcccb33de983ad813d866ccec6da140": [
+      {
+        "id": 41943439224,
+        "url": "https://github.com/ZJFILOVE/music-daily/actions/runs/41943439224",
+        "status": "completed",
+        "conclusion": "success",
+        "jobs": [
+          {
+            "name": "validate",
+            "conclusion": "success",
+            "steps": [
+              [
+                "Set up job",
+                "success"
+              ],
+              [
+                "Run actions/checkout@v4",
+                "success"
+              ],
+              [
+                "Run actions/setup-python@v5",
+                "success"
+              ],
+              [
+                "Run python scripts/validate.py",
+                "success"
+              ],
+              [
+                "Run python -m unittest discover -s scripts -p 'test_consistency.py' -v",
+                "success"
+              ],
+              [
+                "Preserve all historically exposed tracks and existing state values",
+                "success"
+              ],
+              [
+                "Post Run actions/setup-python@v5",
+                "success"
+              ],
+              [
+                "Post Run actions/checkout@v4",
+                "success"
+              ],
+              [
+                "Complete job",
+                "success"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": 41943439201,
+        "url": "https://github.com/ZJFILOVE/music-daily/actions/runs/41943439201",
+        "status": "in_progress",
+        "conclusion": null,
+        "jobs": [
+          {
+            "name": "sync",
+            "conclusion": null,
+            "steps": [
+              [
+                "Set up job",
+                "success"
+              ],
+              [
+                "Run actions/checkout@v4",
+                "success"
+              ],
+              [
+                "Run actions/setup-python@v5",
+                "success"
+              ],
+              [
+                "Validate manifests and synchronization behavior",
+                "success"
+              ],
+              [
+                "Restore private operation checkpoints",
+                "success"
+              ],
+              [
+                "Update total playlist and dated playlists",
+                null
+              ],
+              [
+                "Preserve checkpoints even after an uncertain write",
+                null
+              ],
+              [
+                "Save verified dated playlist index",
+                null
+              ],
+              [
+                "Post Run actions/setup-python@v5",
+                null
+              ],
+              [
+                "Post Run actions/checkout@v4",
+                null
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "8519d2563a0efa5e54021b863c95fc591fa258b1": [
+      {
+        "id": 41943472979,
+        "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/41943472979",
+        "status": "completed",
+        "conclusion": "cancelled",
+        "jobs": [
+          {
+            "name": "validate",
+            "conclusion": "cancelled",
+            "steps": [
+              [
+                "Set up job",
+                "success"
+              ],
+              [
+                "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+                "success"
+              ],
+              [
+                "Validate publications and full source-history coverage",
+                "success"
+              ],
+              [
+                "Negative regressions and interrupted-publication recovery",
+                "success"
+              ],
+              [
+                "Compare permanent history with the actual base commit",
+                "success"
+              ],
+              [
+                "Record scope of checks",
+                "success"
+              ],
+              [
+                "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+                "success"
+              ],
+              [
+                "Complete job",
+                "success"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "backlog": [
+    {
+      "issue": "2026-10-31 historical closing-section content QA failure retained; no replacement"
+    },
+    {
+      "issue": "Earlier Journal envelope incompatibility is now handled by repository adapter; current vault validation passed."
+    }
+  ],
+  "limitations": [
+    "Full audio playback, local Obsidian sync and notification delivery not tested."
+  ]
+}
