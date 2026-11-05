@@ -1,0 +1,382 @@
+{
+  "operation_id": "music:2026-11-05",
+  "original_bundle_sha256": "dd09f52e455b82dba9704499fb90d3d0e6d51bee1e6e99334c817fbe9708e54e",
+  "original_plan_sha256": "9135594478f0156b90bfbf6f179b7763751a46286e37e49d5a7308fe72d06f38",
+  "creation": {
+    "parent": "8925d53d3a06e88565cd887cc1e42e00e97118c1",
+    "tree": "f3ab80eb5be142313a958afce64447644fc2c972",
+    "commit": "f04a2cc8ee2d85b0fba7058ad894f2a414860be3",
+    "readbacks": {
+      ".recommendation/transactions/music/2026-11-05.json": {
+        "sha": "42094e7a64d5082942e18c600ad1bb6947ae113e",
+        "bytes": 89614
+      }
+    },
+    "ref_response_error": null
+  },
+  "preselection_heads": [
+    [
+      "obsidian-vault",
+      "8925d53d3a06e88565cd887cc1e42e00e97118c1"
+    ],
+    [
+      "music-daily",
+      "6e97b932a973c8b52b56341fd54b8b64542e1afc"
+    ]
+  ],
+  "evidence": {
+    "candidates": [
+      {
+        "observed_url": "https://music.apple.com/us/song/3737056",
+        "id": "3737056",
+        "observed_title": "‎Sodade - Song with Lyrics by Cesária Evora - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn808view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/3737056\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/79765100",
+        "id": "79765100",
+        "observed_title": "‎Everything Is Free - Song with Lyrics by Gillian Welch - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn818view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/79765100\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/157470499",
+        "id": "157470499",
+        "observed_title": "‎Goodbye Pork Pie Hat - Song with Lyrics by Charles Mingus - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn810view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/157470499\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/158011172",
+        "id": "158011172",
+        "observed_title": "‎Big Country - Song with Lyrics by Béla Fleck, Mike Marshall & Edgar Meyer - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn817view2】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/158011172\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/192828391",
+        "id": "192828391",
+        "observed_title": "‎Stoned Soul Picnic - Song by Laura Nyro - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎Stoned Soul Picnic - 罗拉‧妮罗演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/192828391)\n【turn809view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/192828391\",\"lineno\":null}); Redirected to URL: https://music.apple.com/cn/song/stoned-soul-picnic/192828391; Total lines: 469\nL11: # Stoned Soul Picnic\nL13: 【5†Eli and the Thirteenth Confession】 【6†罗拉‧妮罗】 1968年3月25日",
+        "decision": "selected"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/279516854",
+        "id": "279516854",
+        "observed_title": "‎O Leãozinho - Song by Caetano Veloso - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn807view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/279516854\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/302194557",
+        "id": "302194557",
+        "observed_title": "‎Big Country - Song with Lyrics by Béla Fleck & The Flecktones - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn817view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/302194557\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/615195488",
+        "id": "615195488",
+        "observed_title": "‎靜止 - Song by Naiwen Yang - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎静止 - 杨乃文演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/615195488)\n【turn824view3】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/615195488\",\"lineno\":13}); Redirected to URL: https://music.apple.com/cn/song/%E9%9D%99%E6%AD%A2/615195488; Total lines: 471\nL11: # 静止\nL13: 【5†K歌王国-女人K歌】 【6†杨乃文】 1999年9月9日",
+        "decision": "selected"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/640427600",
+        "id": "640427600",
+        "observed_title": "‎靜止 - Song by Naiwen Yang - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn824view2】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/640427600\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/723397209",
+        "id": "723397209",
+        "observed_title": "‎Perpetuum Mobile - Song by Penguin Cafe Orchestra - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn807view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/723397209\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/883501723",
+        "id": "883501723",
+        "observed_title": "‎One Summer's Day - Song with Lyrics by Joe Hisaishi - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn816view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/883501723\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/900596428",
+        "id": "900596428",
+        "observed_title": "‎Libertango - Song by Astor Piazzolla - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn815view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/900596428\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1025323096",
+        "id": "1025323096",
+        "observed_title": "‎Heaven or Las Vegas - Song with Lyrics by Cocteau Twins - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn807view2】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1025323096\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1291838926",
+        "id": "1291838926",
+        "observed_title": "‎Rydeen - Song with Lyrics by Yellow Magic Orchestra - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn816view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1291838926\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1440653203",
+        "id": "1440653203",
+        "observed_title": "‎Roads - Song with Lyrics by Portishead - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎Roads - Portishead演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1440653203)\n【turn808view2】 [wordlim: 200] Crawled: 3 weeks ago; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1440653203\",\"lineno\":null}); Redirected to URL: https://music.apple.com/cn/song/roads/1440653203; Total lines: 469\nL11: # Roads\nL13: 【5†Dummy】 【6†Portishead】 1994年1月1日",
+        "decision": "rejected_recording_already_exposed"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1440719297",
+        "id": "1440719297",
+        "observed_title": "‎Journey in Satchidananda (feat. Pharoah Sanders) - Song with Lyrics by Alice Coltrane - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎Journey in Satchidananda (feat. Pharoah Sanders) - 爱丽丝・柯川演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1440719297)\n【turn810view2】 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1440719297\",\"lineno\":null}); Redirected to URL: https://music.apple.com/cn/song/journey-in-satchidananda-feat-pharoah-sanders/1440719297; Total lines: 459\nL11: # Journey in Satchidananda (feat. Pharoah Sanders)\nL13: 【5†Journey in Satchidananda】 【6†爱丽丝・柯川】 1971年1月1日",
+        "decision": "rejected_recording_already_exposed"
+      },
+      {
+        "observed_url": "https://music.apple.com/fr/song/1440773934",
+        "id": "1440773934",
+        "observed_title": "‎Parce Mihi Domine - Morceau par Jan Garbarek & Hilliard Ensemble - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎Parce Mihi Domine - 杨・葛柏瑞克 & 希利亚合唱团演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1440773934)\n【turn824view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1440773934\",\"lineno\":13}); Redirected to URL: https://music.apple.com/cn/song/parce-mihi-domine/1440773934; Total lines: 469\nL11: # Parce Mihi Domine\nL13: 【5†Officium】 【6†杨・葛柏瑞克】、 【7†希利亚合唱团】 1994年9月1日",
+        "decision": "selected"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1442427159",
+        "id": "1442427159",
+        "observed_title": "‎Who Knows Where the Time Goes? - Song with Lyrics by Fairport Convention - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn818view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1442427159\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1443767196",
+        "id": "1443767196",
+        "observed_title": "‎The Lover of Beirut - Song with Lyrics by Anouar Brahem - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎The Lover of Beirut - 阿瑙尔・伯拉罕演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1443767196)\n【turn824view5】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1443767196\",\"lineno\":13}); Redirected to URL: https://music.apple.com/cn/song/the-lover-of-beirut/1443767196; Total lines: 469\nL11: # The Lover of Beirut\nL13: 【5†The Astounding Eyes of Rita】 【6†阿瑙尔・伯拉罕】 2009年9月25日",
+        "decision": "reserve_different_sound_balance"
+      },
+      {
+        "observed_url": "https://music.apple.com/gr/song/1443767437",
+        "id": "1443767437",
+        "observed_title": "‎The Astounding Eyes of Rita – Song by Anouar Brahem – Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn824view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1443767437\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1443767688",
+        "id": "1443767688",
+        "observed_title": "‎Al Birwa - Song with Lyrics by Anouar Brahem - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn824view4】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1443767688\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1443931286",
+        "id": "1443931286",
+        "observed_title": "‎Pink Moon - Song with Lyrics by Nick Drake - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn808view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1443931286\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1453161527",
+        "id": "1453161527",
+        "observed_title": "‎1952 Vincent Black Lightning - Song with Lyrics by Richard Thompson - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn818view2】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1453161527\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1488023160",
+        "id": "1488023160",
+        "observed_title": "‎Bibo No Aozora - Song by Ryuichi Sakamoto - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn816view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1488023160\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1492262289",
+        "id": "1492262289",
+        "observed_title": "‎Coyote - Song with Lyrics by Joni Mitchell - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn818view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1492262289\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1530853388",
+        "id": "1530853388",
+        "observed_title": "‎De Ushuaia a la Quiaca - Song with Lyrics by Gustavo Santaolalla - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎De Ushuaia a la Quiaca - Gustavo Santaolalla演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1530853388)\n【turn815view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1530853388\",\"lineno\":13}); Redirected to URL: https://music.apple.com/cn/song/de-ushuaia-a-la-quiaca/1530853388; Total lines: 468\nL11: # De Ushuaia a la Quiaca\nL13: 【5†Qhapaq Ñan】 【6†Gustavo Santaolalla】 2016年1月8日",
+        "decision": "selected"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1551592392",
+        "id": "1551592392",
+        "observed_title": "‎De Cara a la Pared - Song with Lyrics by Lhasa De Sela - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎De Cara a la Pared - Lhasa De Sela演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1551592392)\n【turn810view3】 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1551592392\",\"lineno\":null}); Redirected to URL: https://music.apple.com/cn/song/de-cara-a-la-pared/1551592392; Total lines: 453\nL11: # De Cara a la Pared\nL13: 【5†La Llorona】 【6†Lhasa De Sela】 1997年2月4日",
+        "decision": "rejected_recording_already_exposed"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1581111688",
+        "id": "1581111688",
+        "observed_title": "‎Merry Christmas Mr. Lawrence - Song by Ryuichi Sakamoto - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn810view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1581111688\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1617799719",
+        "id": "1617799719",
+        "observed_title": "‎Tinseltown in the Rain - Song with Lyrics by The Blue Nile - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn809view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1617799719\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1629109827",
+        "id": "1629109827",
+        "observed_title": "‎Jarabi - Song by Toumani Diabate - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎Jarabi - Toumani Diabaté演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1629109827)\n【turn815view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1629109827\",\"lineno\":13}); Redirected to URL: https://music.apple.com/cn/song/jarabi/1629109827; Total lines: 469\nL11: # Jarabi\nL13: 【5†Kaira】 【6†Toumani Diabaté】 1988年1月1日",
+        "decision": "rejected_recording_already_exposed"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1675560844",
+        "id": "1675560844",
+        "observed_title": "‎Cloudbusting (2018 Remaster) - Song with Lyrics by Kate Bush - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎Cloudbusting (2018 Remaster) - Kate Bush演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1675560844)\n【turn808view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1675560844\",\"lineno\":null}); Redirected to URL: https://music.apple.com/cn/song/cloudbusting-2018-remaster/1675560844; Total lines: 469\nL11: # Cloudbusting (2018 Remaster)\nL13: 【5†Hounds of Love (2018 Remaster)】 【6†Kate Bush】 1985年9月16日",
+        "decision": "selected"
+      },
+      {
+        "observed_url": "https://music.apple.com/za/song/1716598344",
+        "id": "1716598344",
+        "observed_title": "‎Chan Chan – Song by Buena Vista Social Club – Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn807view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1716598344\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1753124438",
+        "id": "1753124438",
+        "observed_title": "‎Aqua - Song by Ryuichi Sakamoto - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎Aqua - 坂本龙一演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1753124438)\n【turn816view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1753124438\",\"lineno\":13}); Redirected to URL: https://music.apple.com/cn/song/aqua/1753124438; Total lines: 469\nL11: # Aqua\nL13: 【5†Opus】 【6†坂本龙一】 2024年8月9日",
+        "decision": "rejected_recording_already_exposed"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1766096832",
+        "id": "1766096832",
+        "observed_title": "‎Savane - Song with Lyrics by Ali Farka Touré - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn815view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1766096832\",\"lineno\":13}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1783205879",
+        "id": "1783205879",
+        "observed_title": "‎Water No Get Enemy - Song by Fela Kuti - Apple Music",
+        "cn_checked": true,
+        "source_observation": "‎Water No Get Enemy - Fela Kuti演唱（含有歌词） - Apple Music (https://music.apple.com/cn/song/1783205879)\n【turn809view3】 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1783205879\",\"lineno\":null}); Redirected to URL: https://music.apple.com/cn/song/water-no-get-enemy/1783205879; Total lines: 469\nL11: # Water No Get Enemy\nL13: 【5†The Best of The Black President】 【6†Fela Kuti】 1975年12月12日",
+        "decision": "rejected_recording_already_exposed"
+      },
+      {
+        "observed_url": "https://music.apple.com/us/song/1833049411",
+        "id": "1833049411",
+        "observed_title": "‎I Believe in You (1997 Remaster) - Song with Lyrics by Talk Talk - Apple Music",
+        "cn_checked": true,
+        "source_observation": "Internal Error ()\n【turn809view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://music.apple.com/cn/song/1833049411\",\"lineno\":null}); ",
+        "decision": "rejected_cn_metadata_not_verified"
+      }
+    ],
+    "selected": [
+      {
+        "title": "Stoned Soul Picnic",
+        "artist": "罗拉‧妮罗",
+        "album": "Eli and the Thirteenth Confession",
+        "id": "192828391",
+        "ref": "turn809view2",
+        "page_date": "1968-03-25",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/192828391",
+        "verification": "direct official song title, artist, album and matching canonical CN redirect",
+        "playback": "not tested"
+      },
+      {
+        "title": "静止",
+        "artist": "杨乃文",
+        "album": "K歌王国-女人K歌",
+        "id": "615195488",
+        "ref": "turn824view3",
+        "page_date": "1999-09-09",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/615195488",
+        "verification": "direct official song title, artist, album and matching canonical CN redirect",
+        "playback": "not tested"
+      },
+      {
+        "title": "Cloudbusting (2018 Remaster)",
+        "artist": "Kate Bush",
+        "album": "Hounds of Love (2018 Remaster)",
+        "id": "1675560844",
+        "ref": "turn808view1",
+        "page_date": "1985-09-16",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1675560844",
+        "verification": "direct official song title, artist, album and matching canonical CN redirect",
+        "playback": "not tested"
+      },
+      {
+        "title": "De Ushuaia a la Quiaca",
+        "artist": "Gustavo Santaolalla",
+        "album": "Qhapaq Ñan",
+        "id": "1530853388",
+        "ref": "turn815view0",
+        "page_date": "2016-01-08",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1530853388",
+        "verification": "direct official song title, artist, album and matching canonical CN redirect",
+        "playback": "not tested"
+      },
+      {
+        "title": "Parce Mihi Domine",
+        "artist": "杨・葛柏瑞克 & 希利亚合唱团",
+        "album": "Officium",
+        "id": "1440773934",
+        "ref": "turn824view0",
+        "page_date": "1994-09-01",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1440773934",
+        "verification": "direct official song title, artist, album and matching canonical CN redirect",
+        "playback": "not tested"
+      }
+    ],
+    "observed_at_utc": "2026-11-05T00:42:08.589Z"
+  }
+}
