@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "operation_id": "journal:2026-11-05",
+  "date": "2026-11-05",
+  "status": "completed",
+  "recorded_at_utc": "2026-11-05T00:09:25.486Z",
+  "topic": "Bathy 光敏色素的初级光化学与功能产率",
+  "publication_commit": "cef6ab641d03e7e02c789a786c9fa251040ab054",
+  "prepared": {
+    "schema_version": 1,
+    "operation_id": "journal:2026-11-05",
+    "prepared_path": ".recommendation/transactions/journal/2026-11-05.json",
+    "prepared_creation_commit": "7313dae7cd16f44b6c3b8eba5e7fd58550736cc3",
+    "prepared_blob_sha": "f06820ec5e54f0baeae32add2949e932514632fc",
+    "original_bundle_sha256": "1b9b859f5186c3836da6228b990c28f1a784129b49673b2295cb8742bc671717",
+    "original_plan_sha256": "3e0e4c24d8ba0e116bd7247c37bcf6704088b5140d15b845c0a0f3dd74c7008e",
+    "observed_utc": "2026-11-05T00:08:32.376Z"
+  },
+  "readbacks": [
+    {
+      "path": "00-inbox/Journal/2026-11-05.md",
+      "sha": "ad1d4e3ac00c5a141cdf20ccb51dbda86b184b39",
+      "byte_exact": true
+    },
+    {
+      "path": "00-inbox/Journal/Index.md",
+      "sha": "dbd198eddd1bfd47a35f3092a515080d00532ec2",
+      "byte_exact": true
+    },
+    {
+      "path": ".recommendation/history/journal.jsonl",
+      "sha": "eba43f8f3989a8011e915f6decab83628f0447d3",
+      "byte_exact": true
+    }
+  ],
+  "source_observations": [
+    {
+      "doi": "10.1021/acs.jpclett.0c01394",
+      "title": "The Origin of Ultrafast Multiphasic Dynamics in Photoisomerization of Bacteriophytochrome",
+      "author": "Dihao Wang",
+      "year": 2020,
+      "journal": "The Journal of Physical Chemistry Letters",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8172095/",
+      "scope": "PMC 作者接受稿 HTML 正文及主图图注，PDF 与 SI 未读",
+      "observed_on": "2026-11-05",
+      "publication_status": "published",
+      "correction_retraction": "No matching notice found in consulted record and DOI search, not exhaustive"
+    },
+    {
+      "doi": "10.1038/s41557-022-00944-x",
+      "title": "Ultrafast proton-coupled isomerization in the phototransformation of phytochrome",
+      "author": "Yang Yang",
+      "year": 2022,
+      "journal": "Nature Chemistry",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9252900/",
+      "scope": "PMC HTML 正文的可见光和红外结果、模型图注及样品制备，PDF 与 SI 未读",
+      "observed_on": "2026-11-05",
+      "publication_status": "published",
+      "correction_retraction": "No matching notice found in consulted record and DOI search, not exhaustive"
+    },
+    {
+      "doi": "10.1039/d1cp02494a",
+      "title": "Light- and temperature-dependent dynamics of chromophore and protein structural changes in bathy phytochrome Agp2",
+      "author": "Galaan Merga",
+      "year": 2021,
+      "journal": "Physical Chemistry Chemical Physics",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34612283/",
+      "scope": "PubMed 书目及摘要，RSC 正文返回 403",
+      "observed_on": "2026-11-05",
+      "publication_status": "published",
+      "correction_retraction": "No matching notice found in consulted record and DOI search, not exhaustive"
+    }
+  ],
+  "checks": {
+    "count": 3,
+    "prior_journal_history": 9,
+    "current_journal_history": 12,
+    "recent_journal_issues_reviewed": 3,
+    "selection": "Distinct studies matched by DOI and normalized title against history; no preprint/formal pair selected. Prior reservations checked before write.",
+    "journal_integrity": "passed",
+    "global_integrity": "passed on published commit scoped files verified against Git blobs",
+    "frozen_bundle_audit": "passed, 67 bundles including legacy Journal adapters",
+    "frozen_baseline_and_original_digest": "passed via standard bundle CLI using fresh GitHub reads",
+    "append_only_and_notes": "Original Journal history byte prefix and index text outside AUTO markers checked by check_baselines and exact post-write readback. Global validators ran without --base-ref because this was a Git blob snapshot, not an ancestor-bearing local checkout.",
+    "markdown": "Pandoc GFM rendered 18 strong elements with no literal double-asterisk markers. Checked HTML output and label spacing, no device UI check.",
+    "literature_review": "Manual check of identities, reading scope, sample distinctions and yield endpoints. Structural validators do not certify paper content.",
+    "device_sync": "not_tested"
+  }
+}
