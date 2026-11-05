@@ -1,0 +1,78 @@
+{
+  "operation_id": "music:2026-11-05",
+  "bundle_sha256": "dd09f52e455b82dba9704499fb90d3d0e6d51bee1e6e99334c817fbe9708e54e",
+  "stage": 1,
+  "checked_at": "2026-11-05T00:43:26.283Z",
+  "result": {
+    "parent": "6e97b932a973c8b52b56341fd54b8b64542e1afc",
+    "tree": "c3944475329beedfe8f9d9fe48f39bbb1612321e",
+    "commit": "51a83b128bcccb33de983ad813d866ccec6da140",
+    "readbacks": {
+      "recommendations/2026/11/2026-11-05.json": {
+        "sha": "4e488a99d94bf1c04208b065d760f52a3f45c1d6",
+        "bytes": 6409
+      },
+      "state/tracks.json": {
+        "sha": "dbc96fe29d8be5c5ed7b9e6953ecd332327bca71",
+        "bytes": 30335
+      }
+    },
+    "ref_response_error": null
+  },
+  "planner": {
+    "status": "ready_to_resume",
+    "operation_id": "music:2026-11-05",
+    "bundle_sha256": "dd09f52e455b82dba9704499fb90d3d0e6d51bee1e6e99334c817fbe9708e54e",
+    "github_writes_performed": 0,
+    "content_qa": "not_evaluated",
+    "plan_sha256": "9135594478f0156b90bfbf6f179b7763751a46286e37e49d5a7308fe72d06f38",
+    "next_stage": 1,
+    "decisions": [
+      {
+        "repository": "ZJFILOVE/music-daily",
+        "path": "recommendations/2026/11/2026-11-05.json",
+        "stage": 1,
+        "action": "create",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": null,
+        "target_sha": "4e488a99d94bf1c04208b065d760f52a3f45c1d6"
+      },
+      {
+        "repository": "ZJFILOVE/music-daily",
+        "path": "state/tracks.json",
+        "stage": 1,
+        "action": "update",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": "8e15eec55d1a7afcbdfeaf659620d1121434e439",
+        "target_sha": "dbc96fe29d8be5c5ed7b9e6953ecd332327bca71"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Music/Daily/2026-11-05.md",
+        "stage": 2,
+        "action": "create",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": null,
+        "target_sha": "d1de910284670af85158a40cd155470cef918910"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Music/Daily/manifests/2026-11-05.json",
+        "stage": 2,
+        "action": "create",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": null,
+        "target_sha": "4e488a99d94bf1c04208b065d760f52a3f45c1d6"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Music/Daily/state/tracks.json",
+        "stage": 2,
+        "action": "update",
+        "reason": "observed baseline matches frozen plan",
+        "expected_sha": "8e15eec55d1a7afcbdfeaf659620d1121434e439",
+        "target_sha": "dbc96fe29d8be5c5ed7b9e6953ecd332327bca71"
+      }
+    ]
+  }
+}
