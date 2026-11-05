@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-11-05",
+  "attempt": "stage1-20261105T080655+0800",
+  "recorded_at": "2026-11-05T08:06:55+08:00",
+  "phase": "stage_applied",
+  "prepared": {
+    "path": ".recommendation/transactions/english/2026-11-05.json",
+    "creation_commit": "b9cd0d7a7d70949176f93df2197e04000c113bf6",
+    "bundle_sha256": "6e9ea4dcdc07f2c4aab16b7029d048cf0d96cf0a35fa10aec45dfc896907bd7a",
+    "plan_sha256": "9780ce55d22afc684bd38d8f3da17d7ddc1e2da7ff14323bbcc9a553dc496362"
+  },
+  "planner": {
+    "status": "ready_to_resume",
+    "next_stage": 1,
+    "observed_head": "b5ff7ec2fac72f7c440efb33f97f4f59e65f0d2b",
+    "observations": {
+      "ZJFILOVE/obsidian-vault:50-courses/English/Daily/2026-11-05.md": {
+        "status": "missing",
+        "confirmed": true
+      },
+      "ZJFILOVE/obsidian-vault:50-courses/English/Translation/2026-11-05.md": {
+        "status": "missing",
+        "confirmed": true
+      },
+      "ZJFILOVE/obsidian-vault:50-courses/English/Vocabulary/2026-11-05.md": {
+        "status": "missing",
+        "confirmed": true
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/history/english.jsonl": {
+        "status": "ok",
+        "sha": "a7a2020196d5ab0258420bc121c30b4981179fe8"
+      }
+    }
+  },
+  "stage": {
+    "stage": 1,
+    "commit": "9113bcd986518d6074ab70ca84c27c906a252358",
+    "base_head": "b5ff7ec2fac72f7c440efb33f97f4f59e65f0d2b",
+    "base_tree": "90d119724eb47a1e0227ef223b749427b7377b93",
+    "result_tree": "130e2e97c6d09a77b7c4a4883ab9e3087ce5daf5",
+    "ref_update": {
+      "expected_sha": "b5ff7ec2fac72f7c440efb33f97f4f59e65f0d2b",
+      "force": false,
+      "success": true
+    }
+  },
+  "readback": {
+    "head": "9113bcd986518d6074ab70ca84c27c906a252358",
+    "targets": [
+      {
+        "path": "50-courses/English/Daily/2026-11-05.md",
+        "sha": "6ec5042c3c1296bcd88acdb0aaf702757160ce7a",
+        "bytes": 8329,
+        "exact_frozen_payload": true
+      },
+      {
+        "path": "50-courses/English/Translation/2026-11-05.md",
+        "sha": "394b2fd4f46da44d7bb63713ddcf44bddbbecc00",
+        "bytes": 8938,
+        "exact_frozen_payload": true
+      },
+      {
+        "path": "50-courses/English/Vocabulary/2026-11-05.md",
+        "sha": "8faf00e336c9cd381bd5facf02692dcd9c022393",
+        "bytes": 7596,
+        "exact_frozen_payload": true
+      },
+      {
+        "path": ".recommendation/history/english.jsonl",
+        "sha": "a3dc2b24f1023f74e78c4dec6f230d36155eebed",
+        "bytes": 15147,
+        "exact_frozen_payload": true
+      }
+    ],
+    "history_entries": 59,
+    "today_registration_count": 1
+  },
+  "errors": []
+}
