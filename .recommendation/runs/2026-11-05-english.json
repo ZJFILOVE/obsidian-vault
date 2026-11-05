@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-11-05",
+  "date": "2026-11-05",
+  "recorded_at": "2026-11-05T08:09:54+08:00",
+  "status": "passed_current_publication_qa",
+  "selection": {
+    "selected_source_url": "https://www.metmuseum.org/perspectives/scientific-research-at-the-met",
+    "selected_title": "Detectives at The Met: Looking at Paintings Through the Eyes of a Scientist",
+    "publisher": "The Metropolitan Museum of Art",
+    "candidate_count": 8,
+    "candidates": [
+      {
+        "title": "Detectives at The Met: Looking at Paintings Through the Eyes of a Scientist",
+        "url": "https://www.metmuseum.org/perspectives/scientific-research-at-the-met",
+        "publisher": "The Metropolitan Museum of Art",
+        "observation": "Official English page identifies Clara Granzotto, 2017-01-25, 6 min read; full article observed; imagined interview explicitly framed as such.",
+        "decision": "selected",
+        "reason": "Fits 5–15 minutes and supports evidence-strength, method and limitation training without repeating the last seven days' topics."
+      },
+      {
+        "title": "Metalpoint",
+        "url": "https://www.metmuseum.org/perspectives/materials-and-techniques-drawing-metalpoint",
+        "publisher": "The Metropolitan Museum of Art",
+        "observation": "Official page, 2020-05-01, full materials-and-techniques text observed.",
+        "decision": "rejected",
+        "reason": "Official estimated read time is 2 minutes, below the weekday 5–15 minute target."
+      },
+      {
+        "title": "The Printed Image in the West: History and Techniques",
+        "url": "https://www.metmuseum.org/essays/the-printed-image-in-the-west-history-and-techniques",
+        "publisher": "The Metropolitan Museum of Art",
+        "observation": "Official essay page identifies Wendy Thompson and 2003-10-01; history and technique sections observed.",
+        "decision": "rejected",
+        "reason": "Longer, denser survey; final candidate provides a tighter six-minute evidence chain."
+      },
+      {
+        "title": "William Henry Fox Talbot (1800–1877) and the Invention of Photography",
+        "url": "https://www.metmuseum.org/essays/william-henry-fox-talbot-1800-1877-and-the-invention-of-photography",
+        "publisher": "The Metropolitan Museum of Art",
+        "observation": "Official essay page identifies Malcolm Daniel and 2004-10-01; full narrative and object list observed.",
+        "decision": "rejected",
+        "reason": "Longer biographical narrative and less efficient for today's evidence-language objective."
+      },
+      {
+        "title": "Object Project: Explore Online",
+        "url": "https://americanhistory.si.edu/explore/exhibitions/object-project/online",
+        "publisher": "Smithsonian National Museum of American History",
+        "observation": "Official search result exposed exhibition description and four lenses; direct page fetch returned an internal error.",
+        "decision": "rejected",
+        "reason": "Direct source verification/accessibility incomplete."
+      },
+      {
+        "title": "Things Come Apart",
+        "url": "https://www.sites.si.edu/s/topic/0TO36000000L5MtGAK/things-come-apart",
+        "publisher": "Smithsonian Institution Traveling Exhibition Service",
+        "observation": "Official result exposed the exhibition's design, engineering, repair and recycling scope; direct page returned a CSS loading error.",
+        "decision": "rejected",
+        "reason": "Direct source verification/accessibility incomplete."
+      },
+      {
+        "title": "What is the economy?",
+        "url": "https://www.bankofengland.co.uk/explainers/what-is-the-economy",
+        "publisher": "Bank of England",
+        "observation": "Official page directly observed; last updated 2025-03-04; definition, scarcity and indicators sections available.",
+        "decision": "rejected",
+        "reason": "Good source but more generic, with partial proximity to the recent money-and-trust lesson."
+      },
+      {
+        "title": "Part One – Entering the Archives",
+        "url": "https://www.nationalarchives.gov.uk/education/resources/a-day-at-the-seaside/part-one-entering-the-archives/",
+        "publisher": "The National Archives (UK)",
+        "observation": "Official search result exposed the Victorian seaside lesson and background; direct page returned HTTP 403.",
+        "decision": "rejected",
+        "reason": "Direct source verification/accessibility incomplete."
+      }
+    ],
+    "diversity": {
+      "recent_topic_window_days": 7,
+      "recent_topics": [
+        "weather forecast uncertainty",
+        "animal responses to people",
+        "American TV dialogue",
+        "accessible translation",
+        "historical reenactment",
+        "memory",
+        "light measurement and perception"
+      ],
+      "today_topic": "museum material evidence and conservation methods",
+      "narrow_topic_repeat": false,
+      "overfit_to_research_interests": false,
+      "justification": "The lesson rotates to material culture and evidence language; it does not teach the user's current phytochrome or spectroscopy research topic."
+    }
+  },
+  "source_verification": {
+    "prepublication": {
+      "checked_at": "2026-11-05T08:04:55+08:00",
+      "method": "direct_official_page_read",
+      "url": "https://www.metmuseum.org/perspectives/scientific-research-at-the-met",
+      "title": "Detectives at The Met: Looking at Paintings Through the Eyes of a Scientist",
+      "author": "Clara Granzotto",
+      "published_date": "2017-01-25",
+      "official_estimated_time": "6 min. read",
+      "accessibility": "full article text observed",
+      "caveat": "The Botticelli exchange is explicitly an imagined teaching device, not a historical interview or technical paper."
+    },
+    "postpublication": {
+      "checked_at": "2026-11-05T08:09:54+08:00",
+      "method": "direct_official_page_read",
+      "title_observed": true,
+      "author_observed": "Clara Granzotto",
+      "date_observed": "2017-01-25",
+      "time_observed": "6 min. read",
+      "full_text_observed": true,
+      "accessibility": "direct page readable",
+      "caveat_confirmed": "Page explicitly frames the Botticelli exchange as an imagined interview; note labels it as a teaching device, not archival testimony or a technical paper."
+    }
+  },
+  "teaching_qa": {
+    "weekday_targets": 3,
+    "daily": {
+      "frontmatter": true,
+      "direct_source_url": true,
+      "estimated_time": "6 minutes",
+      "first_pass": true,
+      "second_pass": true,
+      "output_task": true,
+      "questions": 3,
+      "source_caveat": true
+    },
+    "translation": {
+      "substantial_independent_exercises": 2,
+      "levels": [
+        "CET-6",
+        "TOEFL/academic"
+      ],
+      "folded_answer_callouts": 3,
+      "source_paraphrases": 0,
+      "transfer_error_analysis": true,
+      "precision_rewrite": true,
+      "spaced_review_sentences": 2
+    },
+    "vocabulary": {
+      "items": 8,
+      "meaning_collocations_examples_families_contrasts": true,
+      "retrieval_quiz": true
+    },
+    "cross_links_all_three_and_index": true,
+    "auto_markers_and_notes": true,
+    "copyright": {
+      "long_source_reproduction": false,
+      "quoted_lyrics": false
+    }
+  },
+  "history": {
+    "preselection_blob_sha": "a7a2020196d5ab0258420bc121c30b4981179fe8",
+    "preselection_entries": 58,
+    "target_blob_sha": "a3dc2b24f1023f74e78c4dec6f230d36155eebed",
+    "postpublication_entries": 59,
+    "unique_source_urls": 59,
+    "date_source_registration_count": 1,
+    "append_only_prefix_verified": true,
+    "freshness_checked_against_original_history": true
+  },
+  "recoverability": {
+    "prepared_path": ".recommendation/transactions/english/2026-11-05.json",
+    "prepared_creation_commit": "b9cd0d7a7d70949176f93df2197e04000c113bf6",
+    "prepared_receipt_commit": "b5ff7ec2fac72f7c440efb33f97f4f59e65f0d2b",
+    "stage_commit": "9113bcd986518d6074ab70ca84c27c906a252358",
+    "stage_receipt_commit": "f4ceed664929154eb16014fc8d47fbe38421849b",
+    "bundle_sha256": "6e9ea4dcdc07f2c4aab16b7029d048cf0d96cf0a35fa10aec45dfc896907bd7a",
+    "plan_sha256": "9780ce55d22afc684bd38d8f3da17d7ddc1e2da7ff14323bbcc9a553dc496362",
+    "postwrite_planner_status": "artifacts_match",
+    "errors": []
+  },
+  "readbacks": [
+    {
+      "path": "50-courses/English/Daily/2026-11-05.md",
+      "blob_sha": "6ec5042c3c1296bcd88acdb0aaf702757160ce7a",
+      "bytes": 8329,
+      "exact_frozen_payload": true
+    },
+    {
+      "path": "50-courses/English/Translation/2026-11-05.md",
+      "blob_sha": "394b2fd4f46da44d7bb63713ddcf44bddbbecc00",
+      "bytes": 8938,
+      "exact_frozen_payload": true
+    },
+    {
+      "path": "50-courses/English/Vocabulary/2026-11-05.md",
+      "blob_sha": "8faf00e336c9cd381bd5facf02692dcd9c022393",
+      "bytes": 7596,
+      "exact_frozen_payload": true
+    },
+    {
+      "path": ".recommendation/history/english.jsonl",
+      "blob_sha": "a3dc2b24f1023f74e78c4dec6f230d36155eebed",
+      "bytes": 15147,
+      "exact_frozen_payload": true
+    }
+  ],
+  "checks": {
+    "local_current_content_qa": "passed",
+    "immutable_bundle_audit": {
+      "status": "passed",
+      "bundles": 66
+    },
+    "unit_tests": {
+      "status": "passed",
+      "count": 145
+    },
+    "remote_ci": {
+      "status": "passed",
+      "run_id": 41938946147,
+      "head_sha": "f4ceed664929154eb16014fc8d47fbe38421849b",
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/41938946147",
+      "steps": {
+        "publications_and_full_source_history": "passed",
+        "negative_regressions_and_recovery": "passed",
+        "permanent_history_against_actual_base": "passed"
+      }
+    },
+    "unverified": [
+      "local Obsidian device synchronization",
+      "notification delivery"
+    ]
+  },
+  "historical_backlog": []
+}
