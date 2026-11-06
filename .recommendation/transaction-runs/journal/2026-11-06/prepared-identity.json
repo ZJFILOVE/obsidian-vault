@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "operation_id": "journal:2026-11-06",
+  "prepared_path": ".recommendation/transactions/journal/2026-11-06.json",
+  "prepared_creation_commit": "96a74e3281297660e41019a4530f510871d3bdc9",
+  "prepared_blob_sha": "66b51de3208b6f942932f65f85dd8565be6f6016",
+  "bundle_sha256": "ab7923adfe6c249f6cec0d3b6fa0269a750beb5d28b9e331282ea50fa82a490b",
+  "plan_sha256": "73d3556daf5f4271e07deb960b8b640a34dfc4d339a0c58a127a951a0eb8036c",
+  "readback_exact": true,
+  "recorded_at_utc": "2026-11-06 00:03:40 UTC"
+}
