@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "run_type": "english_publication_qa",
+  "operation_id": "english:2026-11-06",
+  "business_date": "2026-11-06",
+  "weekday": "Friday",
+  "recorded_at_utc": "2026-11-06T00:10:09.873Z",
+  "mode": "new_publication",
+  "candidate_pool": {
+    "required_minimum": 8,
+    "actual_count": 10,
+    "candidates": [
+      {
+        "url": "https://blogs.loc.gov/maps/2022/02/words-on-a-map-the-cartography-of-language/",
+        "title": "Words on a Map: The Cartography of Language",
+        "publisher": "Library of Congress",
+        "source_type": "institutional blog article",
+        "evidence": "Direct page opened; title, Amelia Raines, 2022-02-15, language/dialect classification, overlapping language regions, Mixed labels, historical map purposes and limitations were observed.",
+        "evidence_scope": "identity_and_article_content_verified",
+        "estimated_minutes": "8-10 (editorial estimate, not publisher supplied)",
+        "scores": {
+          "quality": 92,
+          "usefulness": 91,
+          "curiosity": 91,
+          "novelty": 94,
+          "fit": 90
+        },
+        "decision": "selected"
+      },
+      {
+        "url": "https://www.nist.gov/standards",
+        "title": "Standards",
+        "publisher": "NIST",
+        "source_type": "official explainer",
+        "evidence": "Direct NIST page opened; official standards overview and fire-hose interoperability example were available in observed page/search content.",
+        "evidence_scope": "identity_and_substantive_content_observed",
+        "scores": {
+          "quality": 89,
+          "usefulness": 92,
+          "curiosity": 79,
+          "novelty": 82,
+          "fit": 85
+        },
+        "decision": "rejected",
+        "reason": "Strong but the same institution was used on 2026-10-23 and the lesson frame is closer to recent measurement/institution topics."
+      },
+      {
+        "url": "https://www.nist.gov/blogs/taking-measure/7-tips-keep-your-smart-home-safer-and-more-private-nist-cybersecurity",
+        "title": "7 Tips to Keep Your Smart Home Safer and More Private, From a NIST Cybersecurity Researcher",
+        "publisher": "NIST",
+        "source_type": "official expert blog",
+        "evidence": "Direct page title and NIST identity opened; accessible search content described human-centered cybersecurity research and smart-home privacy trade-offs.",
+        "evidence_scope": "identity_verified; candidate content observed in accessible result",
+        "scores": {
+          "quality": 87,
+          "usefulness": 94,
+          "curiosity": 80,
+          "novelty": 86,
+          "fit": 88
+        },
+        "decision": "rejected",
+        "reason": "Useful but list format encourages tip extraction more than the evidence-and-output work desired today."
+      },
+      {
+        "url": "https://www.nist.gov/blogs/taking-measure/quantum-computers-may-put-internet-traffic-risk-nist-safeguarding-computers-new",
+        "title": "Quantum Computers May Put Internet Traffic at Risk. NIST Is Safeguarding Computers With New Standards.",
+        "publisher": "NIST",
+        "source_type": "official expert blog",
+        "evidence": "Direct page identity opened; accessible result described current cryptography, future quantum risk and standard-setting response, dated 2026-07-30.",
+        "evidence_scope": "identity_verified; candidate content observed in accessible result",
+        "scores": {
+          "quality": 90,
+          "usefulness": 83,
+          "curiosity": 91,
+          "novelty": 80,
+          "fit": 72
+        },
+        "decision": "rejected",
+        "reason": "High quality but too close to the user's technical research interests; selection should not overfit them."
+      },
+      {
+        "url": "https://www.stlouisfed.org/open-vault/2020/january/real-life-examples-opportunity-cost",
+        "title": "Real-Life Examples of Opportunity Cost",
+        "publisher": "Federal Reserve Bank of St. Louis",
+        "source_type": "official educational article",
+        "evidence": "Direct article opened through the full body; title, 2026-06-03 date, author Doreen Fagan, explicit/implicit cost examples and stated limitations were observed.",
+        "evidence_scope": "identity_and_article_content_verified",
+        "scores": {
+          "quality": 86,
+          "usefulness": 92,
+          "curiosity": 74,
+          "novelty": 76,
+          "fit": 86
+        },
+        "decision": "rejected",
+        "reason": "Clear but conceptually basic and too close to the recent 2026-10-28 money-and-trust lesson."
+      },
+      {
+        "url": "https://americanhistory.si.edu/explore/exhibitions/object-project/online/household-hits",
+        "title": "Household Hits = Transformation",
+        "publisher": "National Museum of American History",
+        "source_type": "official online exhibition",
+        "evidence": "A real official result with title, URL and exhibition premise was observed; direct open returned an internal 500 during candidate checking.",
+        "evidence_scope": "identity_from_accessible_result; direct_content_unverified",
+        "scores": {
+          "quality": 80,
+          "usefulness": 78,
+          "curiosity": 85,
+          "novelty": 88,
+          "fit": 80
+        },
+        "decision": "rejected",
+        "reason": "Direct content remained unverified after the observed 500 response."
+      },
+      {
+        "url": "https://www.americanhistory.si.edu/explore/exhibitions/electric-dr-franklin/online/cell-phones",
+        "title": "Franklin Lives On...In Your Phone",
+        "publisher": "National Museum of American History",
+        "source_type": "official online exhibition",
+        "evidence": "A real official result with title, URL and capacitor/smartphone content was observed; direct open timed out.",
+        "evidence_scope": "identity_and_snippet_observed; direct_content_unverified",
+        "scores": {
+          "quality": 82,
+          "usefulness": 82,
+          "curiosity": 88,
+          "novelty": 83,
+          "fit": 81
+        },
+        "decision": "rejected",
+        "reason": "Direct page content was not reliably retrievable, so it could not satisfy the final source gate."
+      },
+      {
+        "url": "https://americanhistory.si.edu/explore/exhibitions/everybody/technology/communication",
+        "title": "Communication",
+        "publisher": "National Museum of American History",
+        "source_type": "official exhibition page",
+        "evidence": "A real official result described Braille writers, TTY, communication boards and hearing technologies; direct open returned an internal 500.",
+        "evidence_scope": "identity_and_snippet_observed; direct_content_unverified",
+        "scores": {
+          "quality": 84,
+          "usefulness": 88,
+          "curiosity": 84,
+          "novelty": 92,
+          "fit": 87
+        },
+        "decision": "rejected",
+        "reason": "Promising accessibility topic, but the full official page could not be directly examined."
+      },
+      {
+        "url": "https://blogs.loc.gov/teachers/2023/12/teaching-with-maps-in-the-classroom/",
+        "title": "Teaching with Maps in the Classroom",
+        "publisher": "Library of Congress",
+        "source_type": "institutional education blog",
+        "evidence": "Direct page opened; title, educator context, webinar timestamps, map collections and primary-source questions were observed.",
+        "evidence_scope": "identity_and_substantive_content_observed",
+        "scores": {
+          "quality": 86,
+          "usefulness": 90,
+          "curiosity": 76,
+          "novelty": 82,
+          "fit": 83
+        },
+        "decision": "rejected",
+        "reason": "More teacher-resource and webinar-index oriented; the selected article offers a tighter 8-10 minute argument."
+      },
+      {
+        "url": "https://www.stlouisfed.org/open-vault/2025/dec/understanding-commodity-prices",
+        "title": "Understanding Commodity Prices",
+        "publisher": "Federal Reserve Bank of St. Louis",
+        "source_type": "official educational article",
+        "evidence": "Direct full article opened; title, 2025-12-17 date, author, definitions, supply-demand examples, cocoa pass-through and caveats were observed.",
+        "evidence_scope": "identity_and_article_content_verified",
+        "scores": {
+          "quality": 88,
+          "usefulness": 90,
+          "curiosity": 81,
+          "novelty": 78,
+          "fit": 84
+        },
+        "decision": "rejected",
+        "reason": "Strong article, but it returns to economics only nine days after the money-and-trust lesson and offers less topic rotation."
+      }
+    ],
+    "selection_method": {
+      "weights": {
+        "quality": 0.3,
+        "usefulness": 0.25,
+        "curiosity": 0.2,
+        "novelty": 0.15,
+        "fit": 0.1
+      },
+      "penalties": [
+        "recent narrow-topic similarity",
+        "generic explanation",
+        "weak or inaccessible source evidence",
+        "overfitting to research interests"
+      ],
+      "selected_rationale": "Highest combined quality/usefulness/curiosity/novelty/fit with a directly verifiable official article, a distinct recent topic and a strong classification-to-visualization teaching task."
+    }
+  },
+  "selected_source": {
+    "url": "https://blogs.loc.gov/maps/2022/02/words-on-a-map-the-cartography-of-language/",
+    "title": "Words on a Map: The Cartography of Language",
+    "publisher": "Library of Congress",
+    "author": "Amelia Raines",
+    "published_date": "2022-02-15",
+    "verification_method": "direct_official_page",
+    "prepublication_observations": [
+      "Official title, author and date visible",
+      "Definition of linguistic/thematic maps visible",
+      "language/dialect categorization and political complications visible",
+      "overlap stripes, Mixed labels and multilingualism visible",
+      "historical map purposes and source-quality limitations visible"
+    ],
+    "postpublication_verification": {
+      "performed": true,
+      "verified_at_utc": "2026-11-06T00:10:09.873Z",
+      "identity_match": true,
+      "content_match": true,
+      "source_accessible_in_research_session": true,
+      "estimated_time_scope": "8-10 minutes is an editorial estimate, not a publisher claim"
+    },
+    "caveats": [
+      "Public-facing institutional blog, not a linguistic census or peer-reviewed methods paper",
+      "Historical map color blocks are representations, not exact demographic measurements",
+      "Mainland China accessibility and device rendering were not tested"
+    ]
+  },
+  "freshness": {
+    "original_history_blob": "a3dc2b24f1023f74e78c4dec6f230d36155eebed",
+    "original_history_rows": 59,
+    "exact_url_previously_exposed": false,
+    "prepared_reservation_conflict": false,
+    "same_operation_reservation_expected": true,
+    "recent_topic_window_days": 7,
+    "selected_narrow_topic": "language classification and cartographic representation",
+    "recent_topics": [
+      "historical reenactment evidence",
+      "memory and transfer",
+      "light measurement and perception",
+      "art conservation evidence"
+    ],
+    "topic_cooldown_result": "passed",
+    "history_after": {
+      "blob": "0dce49d6fe8a865917e23bda65f71a8b62734cea",
+      "rows": 60,
+      "unique_urls": 60,
+      "selected_registration_count": 1,
+      "original_prefix_preserved": true
+    }
+  },
+  "teaching_content": {
+    "weekday_targets_complete": true,
+    "daily": {
+      "authentic_input": true,
+      "estimated_minutes": "8-10",
+      "first_pass": true,
+      "second_pass": true,
+      "output_task": true,
+      "questions": 3,
+      "source_caveats": true
+    },
+    "translation": {
+      "independently_authored_exercises": 2,
+      "levels": [
+        "CET-6",
+        "TOEFL/academic"
+      ],
+      "topics": [
+        "library evening-hours pilot",
+        "street shade and heat-exposure study"
+      ],
+      "source_paraphrases": false,
+      "folded_answer_callouts": 3,
+      "transfer_errors": true,
+      "precision_rewrite": true,
+      "spaced_review_sentences": 2
+    },
+    "vocabulary": {
+      "item_count": 8,
+      "collocations": true,
+      "examples": true,
+      "word_families_and_contrasts": true,
+      "retrieval_quiz": true
+    },
+    "cross_links_complete": true,
+    "auto_markers_complete": true,
+    "user_notes_tail_preserved_as_empty_new_note": true
+  },
+  "publication": {
+    "transaction_path": ".recommendation/transactions/english/2026-11-06.json",
+    "transaction_creation_commit": "4eb6620092af1cacbcc8f9ae816c3dbd1d8a18db",
+    "transaction_blob_sha": "0d455b1c2a12a09fa149930521b571a3eca18b30",
+    "original_bundle_sha256": "becbdfa4fcdbe381837bcf4b1bb244ff0099fe965318b0f9c074090850d2ed77",
+    "original_plan_sha256": "e54621eb8b3523148507cf7855496ad4c805192382a4330745ce40f0f1872da6",
+    "prepared_identity_receipt": {
+      "path": ".recommendation/transaction-runs/english/2026-11-06/prepared-20261106T000522350Z.json",
+      "commit": "ecf01a452fb6dec99c9b9ad3691ae8b278a02c8f"
+    },
+    "attempts": [
+      {
+        "status": "failed_no_targets_written",
+        "receipt_path": ".recommendation/transaction-runs/english/2026-11-06/apply-20261106T000631922Z.json",
+        "classification": "GitHub provider/transport UNKNOWN during update_ref",
+        "readback_before_retry": true
+      },
+      {
+        "status": "applied_and_read_back",
+        "receipt_path": ".recommendation/transaction-runs/english/2026-11-06/apply-20261106T000740607Z.json",
+        "commit": "92b381030fcda3f56a973c63d9c6a276c1072b67"
+      }
+    ],
+    "stage_commit": {
+      "sha": "92b381030fcda3f56a973c63d9c6a276c1072b67",
+      "parent": "52b26d82d37e56643eb9a452002f3492c0b88bdd",
+      "base_tree": "762f776d3c9c65314611c36270c6dd4df4c0dcbc",
+      "created_tree": "ffc62f2cd846d00050228ef44ffddbc9a249f02e",
+      "non_force_expected_head": true
+    },
+    "readbacks": {
+      "50-courses/English/Daily/2026-11-06.md": {
+        "sha": "b6dfc765e58c6842ff2b92f826335e43ccf02448",
+        "bytes": 8984,
+        "exact": true
+      },
+      "50-courses/English/Translation/2026-11-06.md": {
+        "sha": "dfd6b3f58b8ac262898e2c029c152cbf3e927c8d",
+        "bytes": 8682,
+        "exact": true
+      },
+      "50-courses/English/Vocabulary/2026-11-06.md": {
+        "sha": "4586bc9e9773241f206a63c69346591b6dff4a14",
+        "bytes": 8273,
+        "exact": true
+      },
+      ".recommendation/history/english.jsonl": {
+        "sha": "0dce49d6fe8a865917e23bda65f71a8b62734cea",
+        "bytes": 15368,
+        "exact": true
+      }
+    },
+    "planner_final": {
+      "status": "artifacts_match",
+      "next_stage": null
+    }
+  },
+  "checks": {
+    "publication_bundle_cli": {
+      "status": "passed",
+      "scope": "frozen envelope, target set, payload hashes and original baselines",
+      "content_qa": false
+    },
+    "publication_recovery_planner": {
+      "status": "artifacts_match",
+      "scope": "fresh SHA observations for all four frozen targets",
+      "github_writes_performed": 0
+    },
+    "current_english_validator": {
+      "status": "passed",
+      "scope": "current Daily note plus complete 60-row permanent English history; same-day Translation/Vocabulary presence"
+    },
+    "repository_unit_tests": {
+      "status": "passed",
+      "count": 145,
+      "scope": "all available scripts/test_*.py"
+    },
+    "independent_editorial_checks": {
+      "status": "passed",
+      "scope": [
+        "exact one source registration",
+        "source identity and content",
+        "two independent translation exercises",
+        "three folded answers",
+        "eight vocabulary items",
+        "required cross-links and AUTO markers",
+        "recent-topic diversity"
+      ]
+    },
+    "github_actions": [
+      {
+        "run_id": 42134461668,
+        "commit": "92b381030fcda3f56a973c63d9c6a276c1072b67",
+        "status": "completed",
+        "conclusion": "success",
+        "scope": [
+          "full publication/source-history validation",
+          "negative regressions and recovery",
+          "permanent history comparison to actual base commit"
+        ]
+      },
+      {
+        "run_id": 42134536250,
+        "commit": "2b0855abc45ca327363ddd079c4a4bdb60fa8b7b",
+        "status": "completed",
+        "conclusion": "success",
+        "scope": [
+          "full publication/source-history validation",
+          "negative regressions and recovery",
+          "permanent history comparison to actual base commit"
+        ]
+      }
+    ],
+    "unverified": [
+      "local Obsidian device synchronization",
+      "notification delivery",
+      "source accessibility from the user's network/account",
+      "rendering on the user's device"
+    ]
+  },
+  "historical_backlog": [],
+  "quality_statement": "Structural checks do not certify teaching quality or live-source access; those were assessed separately from the official page observations and editorial review."
+}
