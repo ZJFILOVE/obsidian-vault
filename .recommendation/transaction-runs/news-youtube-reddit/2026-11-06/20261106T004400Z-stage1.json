@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-11-06",
+  "attempt_id": "20261106T004400Z-stage1",
+  "stage": 1,
+  "status": "success",
+  "original_bundle_sha256": "aec2b3042afc510f95d2bb08ec98f18f21e7e51452830dc9c458c6258e9d9590",
+  "original_plan_sha256": "7a4589b06f7f19693ca26b0af46f74a8ebe4363f5535a53a30ecda429f58522b",
+  "prepared_creation_commit": "d0ba6bc62e20ab59c43521f0b381ea695d216a55",
+  "stage_commit": "2e2a77c7f8a24cf821ce5caa64d1477ee70ad89d",
+  "stage_parent": "916d2444e329e22cfe83fa70d8e0c563247ced1f",
+  "stage_tree": "f24d99358f615f2760641cfbff4d484b45495e72",
+  "planner": {
+    "status": "ready_to_resume",
+    "next_stage": 1,
+    "fresh_head": "916d2444e329e22cfe83fa70d8e0c563247ced1f"
+  },
+  "readbacks": {
+    "News/Daily/2026-11-06.md": {
+      "expected_blob_sha": "1e477ef25dd3c704f7253e2490d93735919b56bb",
+      "observed_blob_sha": "1e477ef25dd3c704f7253e2490d93735919b56bb",
+      "exact_bytes": true
+    },
+    "Resources/YouTube/Daily/2026-11-06.md": {
+      "expected_blob_sha": "c839e6e6fea05dcfd6194044455dae2900a50ed6",
+      "observed_blob_sha": "c839e6e6fea05dcfd6194044455dae2900a50ed6",
+      "exact_bytes": true
+    },
+    "Resources/Reddit/Daily/2026-11-06.md": {
+      "expected_blob_sha": "904136802724ca8801c229331d27788535c8fa49",
+      "observed_blob_sha": "904136802724ca8801c229331d27788535c8fa49",
+      "exact_bytes": true
+    },
+    ".recommendation/history/youtube.jsonl": {
+      "expected_blob_sha": "f8824a9fb9bb1d77d7c1d43c4115d0db77c0b564",
+      "observed_blob_sha": "f8824a9fb9bb1d77d7c1d43c4115d0db77c0b564",
+      "exact_bytes": true
+    },
+    ".recommendation/history/reddit.jsonl": {
+      "expected_blob_sha": "0985c88d43192574c76c7ecca094219424881407",
+      "observed_blob_sha": "0985c88d43192574c76c7ecca094219424881407",
+      "exact_bytes": true
+    }
+  },
+  "ci": {
+    "workflow": "Recommendation integrity (read-only)",
+    "run_id": 42138878094,
+    "head_sha": "2e2a77c7f8a24cf821ce5caa64d1477ee70ad89d",
+    "conclusion": "success",
+    "validated_steps": [
+      "Validate publications and full source-history coverage",
+      "Negative regressions and interrupted-publication recovery",
+      "Compare permanent history with the actual base commit"
+    ]
+  },
+  "errors": [],
+  "observed_at": "2026-11-06T00:44:33.985Z"
+}
