@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-11-06",
+  "original_bundle_sha256": "92b8be6108ad5f3c0b40d9b43949ace9d0f8fcb18719d46b5afcac139c1ce1c6",
+  "original_plan_sha256": "43482be12a8c4f0113b6944a24297295195d2287329bd100bfe2958760ff8d03",
+  "created_at_utc": "2026-11-06T01:03:12.662Z",
+  "creation": {
+    "parent": "abc152007f3e1063fb6994ebd908d25325427c9c",
+    "tree": "8dc3a2db4676e6f72c9cf9a442afa6fea1101307",
+    "commit": "805b580983e3b35619226ac65f3df924ef7ca140",
+    "readbacks": {
+      ".recommendation/transactions/music/2026-11-06.json": {
+        "sha": "d9f3cb56b20e0dbbf4841d0e84eb6c91254bab55",
+        "bytes": 91512
+      }
+    },
+    "ref_response_error": null
+  },
+  "preselection_heads": [
+    [
+      "obsidian-vault",
+      "abc152007f3e1063fb6994ebd908d25325427c9c"
+    ],
+    [
+      "music-daily",
+      "51a83b128bcccb33de983ad813d866ccec6da140"
+    ]
+  ],
+  "evidence": {
+    "candidate_count": 18,
+    "candidates": [
+      {
+        "song_id": "1847866026",
+        "artist": "许含光",
+        "title": "丽水街的丽水海边",
+        "album": "太平洋大酒店",
+        "url": "https://music.apple.com/cn/song/1847866026",
+        "decision": "selected_exact_cn",
+        "source_ref": "turn892view2"
+      },
+      {
+        "song_id": "1329457872",
+        "artist": "Ryo Fukui",
+        "title": "Early Summer",
+        "album": "Scenery",
+        "url": "https://music.apple.com/cn/song/1329457872",
+        "decision": "selected_exact_cn",
+        "source_ref": "turn892view3"
+      },
+      {
+        "song_id": "714861225",
+        "artist": "Brian Eno",
+        "title": "An Ending (Ascent)",
+        "album": "Apollo: Atmospheres and Soundtracks",
+        "url": "https://music.apple.com/cn/song/714861225",
+        "decision": "selected_exact_cn",
+        "source_ref": "turn891view1"
+      },
+      {
+        "song_id": "914055072",
+        "artist": "Claude Nougaro",
+        "title": "La chanson",
+        "album": "15 titres de Claude Nougaro (Mono Version)",
+        "url": "https://music.apple.com/cn/song/914055072",
+        "decision": "selected_exact_cn",
+        "source_ref": "turn892view0"
+      },
+      {
+        "song_id": "410742021",
+        "artist": "Amália Rodrigues",
+        "title": "Fado Final",
+        "album": "Il fado",
+        "url": "https://music.apple.com/cn/song/410742021",
+        "decision": "selected_exact_cn_wildcard",
+        "source_ref": "turn892view1"
+      },
+      {
+        "song_id": "1450573761",
+        "artist": "Minnie Riperton",
+        "title": "Les Fleurs",
+        "album": "Come to My Garden",
+        "url": "https://music.apple.com/cn/song/1450573761",
+        "decision": "rejected_exact_cn_page_unverified",
+        "source_ref": "turn881search5"
+      },
+      {
+        "song_id": "372100030",
+        "artist": "The Cure",
+        "title": "Pictures of You (2010 Remaster)",
+        "album": "Disintegration (2010 Remaster)",
+        "url": "https://music.apple.com/cn/song/372100030",
+        "decision": "rejected_exact_cn_page_unverified",
+        "source_ref": "turn881search3"
+      },
+      {
+        "song_id": "296393515",
+        "artist": "M.I.A.",
+        "title": "Paper Planes",
+        "album": "Kala",
+        "url": "https://music.apple.com/cn/song/296393515",
+        "decision": "rejected_exact_cn_page_unverified",
+        "source_ref": "turn883search5"
+      },
+      {
+        "song_id": "1444060165",
+        "artist": "Os Mutantes",
+        "title": "A Minha Menina",
+        "album": "Os Mutantes",
+        "url": "https://music.apple.com/cn/song/1444060165",
+        "decision": "rejected_exact_cn_page_unverified",
+        "source_ref": "turn882search5"
+      },
+      {
+        "song_id": "1483428815",
+        "artist": "Anthony Wong",
+        "title": "春光乍洩",
+        "album": "我愛明哥 黃耀明作品精選集",
+        "url": "https://music.apple.com/cn/song/1483428815",
+        "decision": "rejected_exact_cn_page_unverified",
+        "source_ref": "turn883search0"
+      },
+      {
+        "song_id": "264981065",
+        "artist": "Susumu Yokota",
+        "title": "Saku",
+        "album": "Skintone Collection",
+        "url": "https://music.apple.com/cn/song/264981065",
+        "decision": "rejected_exact_cn_page_unverified",
+        "source_ref": "turn883search6"
+      },
+      {
+        "song_id": "355026965",
+        "artist": "Steve Reich and Musicians",
+        "title": "Music for 18 Musicians: Pulses",
+        "album": "Music for 18 Musicians",
+        "url": "https://music.apple.com/cn/song/355026965",
+        "decision": "rejected_exact_cn_page_unverified",
+        "source_ref": "turn860search26"
+      },
+      {
+        "song_id": "984734026",
+        "artist": "Ensemble Signal",
+        "title": "Music for 18 Musicians (Modular Version): Pulses",
+        "album": "Music for 18 Musicians",
+        "url": "https://music.apple.com/cn/song/984734026",
+        "decision": "rejected_exact_cn_page_unverified",
+        "source_ref": "turn860search25"
+      },
+      {
+        "song_id": "696090802",
+        "artist": "Labi Siffre",
+        "title": "I Got The…",
+        "album": "The Best Of",
+        "url": "https://music.apple.com/cn/song/696090802",
+        "decision": "rejected_exact_cn_page_unverified",
+        "source_ref": "turn871search0"
+      },
+      {
+        "song_id": "1790499351",
+        "artist": "Betty Davis",
+        "title": "They Say I'm Different",
+        "album": "They Say I'm Different",
+        "url": "https://music.apple.com/cn/song/1790499351",
+        "decision": "rejected_exact_cn_page_unverified",
+        "source_ref": "turn875search4"
+      },
+      {
+        "song_id": "1549688914",
+        "artist": "Gal Costa & Caetano Veloso",
+        "title": "Baby (Remastered)",
+        "album": "Domingo",
+        "url": "https://music.apple.com/cn/song/1549688914",
+        "decision": "rejected_exact_cn_page_unverified",
+        "source_ref": "turn871search18"
+      },
+      {
+        "song_id": "1443314673",
+        "artist": "Camille & Michael Giacchino",
+        "title": "Le Festin",
+        "album": "Ratatouille (Score from the Motion Picture)",
+        "url": "https://music.apple.com/cn/song/1443314673",
+        "decision": "rejected_exact_cn_song_resource_unverified",
+        "source_ref": "turn881search1"
+      },
+      {
+        "song_id": "1374070640",
+        "artist": "Daniel Philo",
+        "title": "Spiegel im Spiegel",
+        "album": "Relaxing Classical Playlist: Chilled and Pleasant Mornings",
+        "url": "https://music.apple.com/cn/song/1374070640",
+        "decision": "rejected_quality_generic_cover_compilation",
+        "source_ref": "turn882search4"
+      }
+    ],
+    "selected_source_verification": [
+      {
+        "title": "丽水街的丽水海边",
+        "artist": "许含光",
+        "album": "太平洋大酒店",
+        "song_id": "1847866026",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1847866026",
+        "verification_method": "exact_apple_music_cn_song_page",
+        "observed_at_utc": "2026-11-06T00:56:00Z"
+      },
+      {
+        "title": "Early Summer",
+        "artist": "Ryo Fukui",
+        "album": "Scenery",
+        "song_id": "1329457872",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/1329457872",
+        "verification_method": "exact_apple_music_cn_song_page",
+        "observed_at_utc": "2026-11-06T00:56:00Z"
+      },
+      {
+        "title": "An Ending (Ascent)",
+        "artist": "Brian Eno",
+        "album": "Apollo: Atmospheres and Soundtracks",
+        "song_id": "714861225",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/714861225",
+        "verification_method": "exact_apple_music_cn_song_page",
+        "observed_at_utc": "2026-11-06T00:56:00Z"
+      },
+      {
+        "title": "La chanson",
+        "artist": "Claude Nougaro",
+        "album": "15 titres de Claude Nougaro (Mono Version)",
+        "song_id": "914055072",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/914055072",
+        "verification_method": "exact_apple_music_cn_song_page",
+        "observed_at_utc": "2026-11-06T00:56:00Z"
+      },
+      {
+        "title": "Fado Final",
+        "artist": "Amália Rodrigues",
+        "album": "Il fado",
+        "song_id": "410742021",
+        "storefront": "cn",
+        "url": "https://music.apple.com/cn/song/410742021",
+        "verification_method": "exact_apple_music_cn_song_page",
+        "observed_at_utc": "2026-11-06T00:56:00Z"
+      }
+    ],
+    "history": {
+      "original_state_sha": "dbc96fe29d8be5c5ed7b9e6953ecd332327bca71",
+      "entries_before": 303,
+      "mirror_byte_equal": true,
+      "relevant_manifest_range": "2026-10-27..2026-11-05",
+      "manifest_pairs_checked": 10,
+      "manifest_pairs_byte_equal": true
+    },
+    "diversity": {
+      "genres": [
+        "Mandarin indie",
+        "Japanese jazz",
+        "ambient electronic",
+        "French chanson",
+        "Portuguese fado"
+      ],
+      "languages": [
+        "Mandarin",
+        "instrumental",
+        "instrumental",
+        "French",
+        "Portuguese"
+      ],
+      "eras": [
+        "2026 catalog page",
+        "1976 recording/catalog entry",
+        "1983",
+        "1962 mono",
+        "1996 catalog entry"
+      ],
+      "wildcard": "Amália Rodrigues — Fado Final"
+    },
+    "reservations": {
+      "all_prepared_read": true,
+      "unrelated_music_conflicts": 0,
+      "same_operation_expected": false
+    }
+  },
+  "publication_status": "prepared_only_no_stage_payloads_applied"
+}
