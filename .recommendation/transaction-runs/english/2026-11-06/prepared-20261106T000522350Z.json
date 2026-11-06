@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-11-06",
+  "attempt_type": "prepared_identity",
+  "recorded_at_utc": "2026-11-06T00:05:22.350Z",
+  "transaction_path": ".recommendation/transactions/english/2026-11-06.json",
+  "transaction_creation_commit": "4eb6620092af1cacbcc8f9ae816c3dbd1d8a18db",
+  "transaction_blob_sha": "0d455b1c2a12a09fa149930521b571a3eca18b30",
+  "original_bundle_sha256": "becbdfa4fcdbe381837bcf4b1bb244ff0099fe965318b0f9c074090850d2ed77",
+  "original_plan_sha256": "e54621eb8b3523148507cf7855496ad4c805192382a4330745ce40f0f1872da6",
+  "readback": {
+    "blob_sha": "0d455b1c2a12a09fa149930521b571a3eca18b30",
+    "bytes": 44940,
+    "exact_utf8_match": true
+  }
+}
