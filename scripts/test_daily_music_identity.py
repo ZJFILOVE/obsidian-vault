@@ -79,6 +79,10 @@ class IdentityTests(unittest.TestCase):
     def test_changed_prepared_rejected(self):
         self.reserve();write(self.root,m.PREPARED+'/2026-02-01.json',frozen(manifest('2026-02-01',30000)))
         with self.assertRaisesRegex(ValueError,'rewritten'):m.index(self.root)
+    def test_prepared_format_only_rewrite_rejected(self):
+        self.reserve();path=self.root/m.PREPARED/'2026-02-01.json'
+        path.write_text(path.read_text()+'\n')
+        with self.assertRaisesRegex(ValueError,'bytes rewritten'):m.index(self.root)
     def test_same_operation_exact_recovery(self):
         doc,bundle=self.reserve()
         self.assertEqual(m.check_selection(self.root,doc,bundle_digest=bundle['bundle_sha256'])['status'],'passed_recording_identity')
@@ -121,6 +125,61 @@ class IdentityTests(unittest.TestCase):
     def test_missing_identity_state_fails_closed(self):
         write(self.root,m.STATE,{'recommended':{'Lost::song':1}})
         with self.assertRaisesRegex(ValueError,'incomplete'):m.check_selection(self.root,manifest('2026-12-01',30000))
+
+    def missing_lineage(self):
+        doc=manifest('2026-03-01',30000)
+        doc['tracks'][0]['apple_music']={'song_id':None,'url':'https://music.apple.com/cn/search?term=track'}
+        write(self.root,m.MANIFESTS+'/2026-03-01.json',doc);self.commit()
+        return doc
+    def test_later_recorded_lineage_association_keeps_original_unknown(self):
+        self.missing_lineage();doc=manifest('2026-03-01',30000)
+        write(self.root,m.MANIFESTS+'/2026-03-01.json',doc);self.commit()
+        history=m.index(self.root)
+        self.assertEqual(history['status'],'complete_available_git_history')
+        self.assertIsNone(history['legacy_missing_id_rows'][0]['identity'])
+        link=history['legacy_identity_associations'][0]
+        self.assertEqual(link['resolution'],'resolved_by_recorded_later_evidence')
+        self.assertIsNone(link['original_recording_id'])
+        self.assertEqual(link['associated_identities'],['apple_music:cn:30000'])
+        self.assertNotEqual(link['evidence'][0]['original_commit'],link['evidence'][0]['later_commit'])
+    def test_all_later_versions_remain_excluded(self):
+        self.missing_lineage();doc=manifest('2026-03-01',30000)
+        write(self.root,m.MANIFESTS+'/2026-03-01.json',doc);self.commit()
+        doc['tracks'][0]['apple_music']={'song_id':'777777','storefront':'cn','url':'https://music.apple.com/cn/song/777777'}
+        write(self.root,m.MANIFESTS+'/2026-03-01.json',doc);self.commit()
+        history=m.index(self.root)
+        self.assertEqual(history['legacy_identity_associations'][0]['associated_identities'],
+                         ['apple_music:cn:30000','apple_music:cn:777777'])
+        for song in (30000,777777):
+            with self.assertRaisesRegex(ValueError,'reuse'):
+                m.check_selection(self.root,manifest('2026-12-01',song,'alias'))
+    def test_wrong_date_position_or_canonical_does_not_associate(self):
+        self.missing_lineage()
+        for mismatch in ('date','position','canonical'):
+            with self.subTest(mismatch=mismatch):
+                doc=manifest('2026-03-01',30000)
+                if mismatch=='date':doc['date']='2026-03-02'
+                if mismatch=='position':
+                    doc['tracks'][0],doc['tracks'][1]=doc['tracks'][1],doc['tracks'][0]
+                    doc['tracks'][0]['position']=1;doc['tracks'][1]['position']=2
+                if mismatch=='canonical':doc['tracks'][0]['canonical_id']='Other::30000'
+                write(self.root,m.MANIFESTS+'/'+doc['date']+'.json',doc);self.commit()
+                history=m.index(self.root)
+                self.assertEqual(len(history['unresolved_identities']),1)
+                self.assertEqual(history['legacy_identity_associations'],[])
+    def test_associated_foreign_storefront_id_is_also_excluded(self):
+        self.missing_lineage();doc=manifest('2026-03-01',30000)
+        doc['tracks'][0]['apple_music']={'song_id':'777777','storefront':'hk','url':'https://music.apple.com/hk/song/777777'}
+        write(self.root,m.MANIFESTS+'/2026-03-01.json',doc);self.commit()
+        with self.assertRaisesRegex(ValueError,'reuse'):
+            m.check_selection(self.root,manifest('2026-12-01',777777,'alias'))
+    def test_uncommitted_later_candidate_is_not_recorded_evidence(self):
+        self.missing_lineage();write(self.root,m.MANIFESTS+'/2026-03-01.json',manifest('2026-03-01',30000))
+        self.assertEqual(len(m.index(self.root)['unresolved_identities']),1)
+    def test_prior_same_name_does_not_prove_later_search_identity(self):
+        doc=copy.deepcopy(self.old);doc['tracks'][0]['apple_music']={'song_id':None,'url':'https://music.apple.com/cn/search?term=track'}
+        write(self.root,m.MANIFESTS+'/2026-01-01.json',doc);self.commit()
+        self.assertEqual(len(m.index(self.root)['unresolved_identities']),1)
 
 
 class IncidentTests(unittest.TestCase):
@@ -173,7 +232,7 @@ class IncidentTests(unittest.TestCase):
         with patch.object(health.integrity,'audit',side_effect=ValueError('integrity fails')),patch.object(health.bundles,'audit_journal',return_value={'status':'bundles_ran'}):
             result=health.audit(ROOT)
             self.assertEqual(result['checks']['immutable_bundles']['status'],'bundles_ran')
-            self.assertEqual(result['checks']['permanent_music_identity']['status'],'incomplete_identity_evidence')
+            self.assertEqual(result['checks']['permanent_music_identity']['status'],'complete_available_git_history')
 
 if __name__ == '__main__':unittest.main()
 

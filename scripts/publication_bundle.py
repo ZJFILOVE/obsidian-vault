@@ -212,10 +212,11 @@ def main() -> int:
             r.require(args.music_root is not None and args.mirror_snapshot is not None and
                       args.music_head is not None and args.vault_head is not None,
                       'music publication requires full history and pinned mirror evidence')
-            from music_identity import publication_gate
-            result['music_gate'] = publication_gate(args.music_root, bundle['plan'], payloads_for(bundle),
+            from music_identity import recovery_gate
+            result['music_gate'] = recovery_gate(args.music_root, bundle,
                 v.strict_json(args.mirror_snapshot.read_text()),
-                {'music': args.music_head, 'vault': args.vault_head}, bundle_digest=bundle['bundle_sha256'])
+                {'music': args.music_head, 'vault': args.vault_head},
+                v.strict_json(args.observations.read_text()))
         if args.observations:
             r.require(args.expected_bundle_digest is not None, 'retries require original PREPARED digest')
             result.update(r.inspect(bundle['plan'], v.strict_json(args.observations.read_text(encoding='utf-8')), bundle['plan_sha256']))

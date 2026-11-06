@@ -81,14 +81,25 @@ clones and Git replacement refs are rejected. The index is derived, never a
 replacement for permanent state. Its scope is available local Git ancestry, not
 an assertion that unavailable external history was inspected.
 
-Original missing IDs remain explicitly unresolved. In this repository the five
-2026-09-04 search-link records have no original recording ID. Later records with
-the same operation, position and canonical key are reported as candidates, not
-proof of the original recording. This currently blocks the full identity gate.
-Six other retired state keys are recovered from original Git versions of the
-September 11 and September 26 notes; they are not guessed from artist aliases.
-Do not remove unknown rows, fabricate a successful QA receipt or call this
-end-to-end automatic publication recovery complete.
+Original missing IDs stay missing in the index. A separate
+`legacy_identity_associations` entry may say
+`resolved_by_recorded_later_evidence` only when direct-link records have the exact
+same operation/date, position and canonical key, and their source blobs occur in
+Git commits descending from a commit containing the original missing-ID blob.
+Both commits and blobs are retained as evidence. All identities ever recorded
+in that lineage remain excluded, including retired versions and numeric Apple
+song IDs previously exposed in another storefront. Worktree-only candidates,
+prior versions, different dates/positions/canonical keys do not close a gap.
+This is a recorded lineage association, not a claim that the original search
+link contained a particular recording ID. An original row without such evidence
+still blocks the gate.
+
+The five original 2026-09-04 search-link rows have these recorded associations;
+the derived index retains all five original rows without inventing IDs. Six
+other retired state keys are recovered from original Git versions of the
+September 11 and September 26 notes. Current available history has no unresolved
+lineage or unmapped permanent-state key. This does not certify unavailable
+external history or replace actual source/content QA.
 
 For a new music freeze call:
 
@@ -105,8 +116,26 @@ blocked. No extra credentials, permissions or cross-repository token are used.
 For retries, `publication_bundle.py --observations ...` additionally requires
 `--music-root`, `--mirror-snapshot`, `--music-head`, and `--vault-head`. It binds the
 operation, original bundle digest, entire plan and exact payloads before allowing
-same-operation reservations. An intermediate divergent mirror is blocked pending
-verified recovery evidence; it must not be treated as a fresh selection.
+same-operation reservations. The dedicated `music_identity.recovery_gate(...)`
+checks every observation against complete hash-verified trees at the specified
+heads. Each current target must be its frozen baseline or target. Untouched
+manifest dates must still match across repositories, and original mirror
+baselines must agree. Missing files require verified absence in complete parent
+trees. Local Vault target bytes must also match the pinned evidence.
+
+A stage 1 commit followed by a crash can therefore resume stage 2 even while
+mirrors differ at the frozen operation's paths. Partial Contents writes can
+finish only the earliest incomplete stage; already matching targets are no-ops,
+including lost responses. A changed later-stage target while an earlier stage is
+incomplete is rejected. Any third-party target change or unrelated mirror
+difference is rejected. The result has `status=passed_music_recovery_gate`,
+`planner.next_stage`, and `allowed_writes` containing only that stage's remaining
+targets. Its transition status is
+`mirror_status=verified_frozen_transition_not_final_mirror_qa`, never a full
+mirror-success claim. Once all targets match, the normal full mirror audit must
+also pass. The separate `publication_gate` used before freeze and for final
+publication checks still requires fully matching mirrors; the recovery result
+cannot authorize Apple Music writes or substitute for content QA.
 
 The in-process `music_identity.publication_gate(...)` returns schema version 1,
 `status=passed_music_publication_gate`, operation, ordered identities,
