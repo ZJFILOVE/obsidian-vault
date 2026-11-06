@@ -1,0 +1,1585 @@
+{
+  "schema_version": 1,
+  "kind": "news-youtube-reddit-publication-run",
+  "date": "2026-11-06",
+  "timezone": "Asia/Shanghai",
+  "operation_id": "news-youtube-reddit:2026-11-06",
+  "status": "completed",
+  "mode": "new_publication",
+  "created_at": "2026-11-06T00:57:00Z",
+  "immutable_bundle": {
+    "path": ".recommendation/transactions/news-youtube-reddit/2026-11-06.json",
+    "status": "PREPARED",
+    "bundle_digest": "aec2b3042afc510f95d2bb08ec98f18f21e7e51452830dc9c458c6258e9d9590",
+    "plan_digest": "7a4589b06f7f19693ca26b0af46f74a8ebe4363f5535a53a30ecda429f58522b",
+    "creation_commit": "d0ba6bc62e20ab59c43521f0b381ea695d216a55",
+    "creation_blob": "3c8dd6e193769be759b603eaf3bc6a1cb28e10f8",
+    "prepared_receipt_commit": "916d2444e329e22cfe83fa70d8e0c563247ced1f"
+  },
+  "publication": {
+    "commit": "2e2a77c7f8a24cf821ce5caa64d1477ee70ad89d",
+    "tree": "f24d99358f615f2760641cfbff4d484b45495e72",
+    "parent": "916d2444e329e22cfe83fa70d8e0c563247ced1f",
+    "update": {
+      "branch": "main",
+      "force": false,
+      "expected_head": "916d2444e329e22cfe83fa70d8e0c563247ced1f",
+      "result": "success"
+    },
+    "stage_receipt_commit": "79a95cbf8626c695bac73543ff4864350b06c469",
+    "targets": [
+      {
+        "path": "News/Daily/2026-11-06.md",
+        "blob_sha": "1e477ef25dd3c704f7253e2490d93735919b56bb",
+        "expected_blob_sha": "1e477ef25dd3c704f7253e2490d93735919b56bb",
+        "exact_match": true
+      },
+      {
+        "path": "Resources/YouTube/Daily/2026-11-06.md",
+        "blob_sha": "c839e6e6fea05dcfd6194044455dae2900a50ed6",
+        "expected_blob_sha": "c839e6e6fea05dcfd6194044455dae2900a50ed6",
+        "exact_match": true
+      },
+      {
+        "path": "Resources/Reddit/Daily/2026-11-06.md",
+        "blob_sha": "904136802724ca8801c229331d27788535c8fa49",
+        "expected_blob_sha": "904136802724ca8801c229331d27788535c8fa49",
+        "exact_match": true
+      },
+      {
+        "path": ".recommendation/history/youtube.jsonl",
+        "blob_sha": "f8824a9fb9bb1d77d7c1d43c4115d0db77c0b564",
+        "expected_blob_sha": "f8824a9fb9bb1d77d7c1d43c4115d0db77c0b564",
+        "exact_match": true
+      },
+      {
+        "path": ".recommendation/history/reddit.jsonl",
+        "blob_sha": "0985c88d43192574c76c7ecca094219424881407",
+        "expected_blob_sha": "0985c88d43192574c76c7ecca094219424881407",
+        "exact_match": true
+      }
+    ]
+  },
+  "candidate_pool": {
+    "youtube": {
+      "required_minimum": 25,
+      "observed_count": 32,
+      "candidates": [
+        {
+          "video_id": "YSwRqNCeP9k",
+          "title": "So You Want to Understand Quantum Mechanics…",
+          "creator": "PBS Space Time",
+          "url": "https://www.youtube.com/watch?v=YSwRqNCeP9k",
+          "evidence_ref": "turn839youtube0",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": true,
+          "decision": "selected"
+        },
+        {
+          "video_id": "7Wiw42ZlBKs",
+          "title": "The Quantum Experiment That Breaks Reality",
+          "creator": "PBS Space Time",
+          "url": "https://www.youtube.com/watch?v=7Wiw42ZlBKs",
+          "evidence_ref": "turn839youtube1",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "jHP942Livy0",
+          "title": "Your dishwasher is better than you think",
+          "creator": "Technology Connections",
+          "url": "https://www.youtube.com/watch?v=jHP942Livy0",
+          "evidence_ref": "turn840youtube0",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_permanent_history"
+        },
+        {
+          "video_id": "ti_E2ZKZpC4",
+          "title": "Chemical Curiosities",
+          "creator": "The Royal Institution",
+          "url": "https://www.youtube.com/watch?v=ti_E2ZKZpC4",
+          "evidence_ref": "turn840youtube1",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_permanent_history"
+        },
+        {
+          "video_id": "QtxVdC7pBQM",
+          "title": "The Ridiculous Engineering Of Jet Engines",
+          "creator": "Veritasium",
+          "url": "https://www.youtube.com/watch?v=QtxVdC7pBQM",
+          "evidence_ref": "turn842youtube2",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": true,
+          "decision": "selected"
+        },
+        {
+          "video_id": "ThwuT3_AG6w",
+          "title": "Engineering with Origami",
+          "creator": "Veritasium",
+          "url": "https://www.youtube.com/watch?v=ThwuT3_AG6w",
+          "evidence_ref": "turn842youtube3",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "do6xydtcVPk",
+          "title": "The BBC Microcomputer",
+          "creator": "Computerphile",
+          "url": "https://www.youtube.com/watch?v=do6xydtcVPk",
+          "evidence_ref": "turn845youtube5",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "Unzc731iCUY",
+          "title": "How to Speak",
+          "creator": "MIT OpenCourseWare",
+          "url": "https://www.youtube.com/watch?v=Unzc731iCUY",
+          "evidence_ref": "turn846view2",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_permanent_history"
+        },
+        {
+          "video_id": "ba-HMvDn_vU",
+          "title": "Introduction to the Human Brain",
+          "creator": "MIT OpenCourseWare",
+          "url": "https://www.youtube.com/watch?v=ba-HMvDn_vU",
+          "evidence_ref": "turn846view2",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "wvXDB9dMdEo",
+          "title": "Introduction to Financial Terms and Concepts",
+          "creator": "MIT OpenCourseWare",
+          "url": "https://www.youtube.com/watch?v=wvXDB9dMdEo",
+          "evidence_ref": "turn846view2",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "lZ3bPUKo5zc",
+          "title": "Lecture 1: Introduction to Superposition",
+          "creator": "MIT OpenCourseWare",
+          "url": "https://www.youtube.com/watch?v=lZ3bPUKo5zc",
+          "evidence_ref": "turn846view2",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "EH6vE97qIP4",
+          "title": "Introduction for 15.S12 Blockchain and Money",
+          "creator": "MIT OpenCourseWare",
+          "url": "https://www.youtube.com/watch?v=EH6vE97qIP4",
+          "evidence_ref": "turn846view2",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "LFOsw1Vccac",
+          "title": "Introduction to the Film Experience",
+          "creator": "MIT OpenCourseWare",
+          "url": "https://www.youtube.com/watch?v=LFOsw1Vccac",
+          "evidence_ref": "turn846view2",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "js34ZxECiCA",
+          "title": "Metals and Cheeses: Unconventional Pairings",
+          "creator": "MIT OpenCourseWare",
+          "url": "https://www.youtube.com/watch?v=js34ZxECiCA",
+          "evidence_ref": "turn846view2",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": true,
+          "decision": "selected"
+        },
+        {
+          "video_id": "ZL0yOsnLDsQ",
+          "title": "The History of MIT",
+          "creator": "MIT OpenCourseWare",
+          "url": "https://www.youtube.com/watch?v=ZL0yOsnLDsQ",
+          "evidence_ref": "turn846view2",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "-yfdG4BRFBY",
+          "title": "Becoming the Next Bill Nye",
+          "creator": "MIT OpenCourseWare",
+          "url": "https://www.youtube.com/watch?v=-yfdG4BRFBY",
+          "evidence_ref": "turn846view2",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "dql-D6JQ1Bc",
+          "title": "Weaving the Bridge at Q’eswachaka",
+          "creator": "SmithsonianNMAI",
+          "url": "https://www.youtube.com/watch?v=dql-D6JQ1Bc",
+          "evidence_ref": "turn850search0",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": true,
+          "decision": "selected"
+        },
+        {
+          "video_id": "obalH1HfdCs",
+          "title": "STEM in Real Life - STEM in 30",
+          "creator": "National Air and Space Museum",
+          "url": "https://www.youtube.com/watch?v=obalH1HfdCs",
+          "evidence_ref": "turn850search1",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": true,
+          "decision": "selected"
+        },
+        {
+          "video_id": "VFEhfIhuShE",
+          "title": "Explore Smithsonian: James Smithson",
+          "creator": "Smithsonian Science Education Center",
+          "url": "https://www.youtube.com/watch?v=VFEhfIhuShE",
+          "evidence_ref": "turn848search2",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "_JYjr9uRIIg",
+          "title": "SI-Q How can history talk back?",
+          "creator": "Smithsonian Institution",
+          "url": "https://www.youtube.com/watch?v=_JYjr9uRIIg",
+          "evidence_ref": "turn848search3",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "4HFq5T9l53c",
+          "title": "American Art Museum",
+          "creator": "Smithsonian Institution",
+          "url": "https://www.youtube.com/watch?v=4HFq5T9l53c",
+          "evidence_ref": "turn848search4",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "HTxrSgb7DuI",
+          "title": "Artist William Christenberry presents",
+          "creator": "Smithsonian Institution",
+          "url": "https://www.youtube.com/watch?v=HTxrSgb7DuI",
+          "evidence_ref": "turn848search4",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "gX2SZ7Lb7mw",
+          "title": "Decorate an American Art Museum Inspired Cake",
+          "creator": "Smithsonian Institution",
+          "url": "https://www.youtube.com/watch?v=gX2SZ7Lb7mw",
+          "evidence_ref": "turn848search4",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "0ODJ5gNcGho",
+          "title": "Sylvia Rivera: Pushing Boundaries",
+          "creator": "National Museum of American History",
+          "url": "https://www.youtube.com/watch?v=0ODJ5gNcGho",
+          "evidence_ref": "turn848search5",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "0PYqmm4JGfM",
+          "title": "J. Presper Eckert and John Mauchly",
+          "creator": "National Museum of American History",
+          "url": "https://www.youtube.com/watch?v=0PYqmm4JGfM",
+          "evidence_ref": "turn848search5",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "0l3x-N516DI",
+          "title": "Discovery of the Trunks",
+          "creator": "National Museum of American History",
+          "url": "https://www.youtube.com/watch?v=0l3x-N516DI",
+          "evidence_ref": "turn848search5",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "0e_KsdZOVSg",
+          "title": "Kandula insightful problem solving",
+          "creator": "Smithsonian Science",
+          "url": "https://www.youtube.com/watch?v=0e_KsdZOVSg",
+          "evidence_ref": "turn848search6",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "1LoZ1M4b3Jg",
+          "title": "Bat rejecting frog",
+          "creator": "Smithsonian Science",
+          "url": "https://www.youtube.com/watch?v=1LoZ1M4b3Jg",
+          "evidence_ref": "turn848search6",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "5Y5hcpaWRZM",
+          "title": "Volcano Vision",
+          "creator": "Smithsonian Science",
+          "url": "https://www.youtube.com/watch?v=5Y5hcpaWRZM",
+          "evidence_ref": "turn848search6",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "8bSbAQXzrrQ",
+          "title": "Noctilio albiventris social behaviours",
+          "creator": "Smithsonian Science",
+          "url": "https://www.youtube.com/watch?v=8bSbAQXzrrQ",
+          "evidence_ref": "turn848search6",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "9uH8w6iJQEo",
+          "title": "Bumblebee vertical lift",
+          "creator": "Smithsonian Science",
+          "url": "https://www.youtube.com/watch?v=9uH8w6iJQEo",
+          "evidence_ref": "turn848search6",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        },
+        {
+          "video_id": "gruRMsJ338U",
+          "title": "Snail Sleuth",
+          "creator": "Smithsonian Institution",
+          "url": "https://www.youtube.com/watch?v=gruRMsJ338U",
+          "evidence_ref": "turn848search7",
+          "evidence_scope": "observed real ID/title/creator from direct or official institutional source",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_or_creator_topic_concentration"
+        }
+      ]
+    },
+    "reddit": {
+      "required_minimum": 35,
+      "observed_count": 50,
+      "candidates": [
+        {
+          "post_id": "1xk11yl",
+          "title": "How to understand language change as a layperson",
+          "subreddit": "asklinguistics",
+          "url": "https://www.reddit.com/r/asklinguistics/comments/1xk11yl/",
+          "evidence_ref": "turn851reddit43",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": true,
+          "decision": "selected"
+        },
+        {
+          "post_id": "11pe6sw",
+          "title": "Why does language change over time?",
+          "subreddit": "asklinguistics",
+          "url": "https://www.reddit.com/r/asklinguistics/comments/11pe6sw/",
+          "evidence_ref": "turn851reddit44",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1uywei4",
+          "title": "What could cause a language to rapidly change?",
+          "subreddit": "asklinguistics",
+          "url": "https://www.reddit.com/r/asklinguistics/comments/1uywei4/",
+          "evidence_ref": "turn851reddit45",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "uhmu2u",
+          "title": "Under which influences do languages change?",
+          "subreddit": "linguistics",
+          "url": "https://www.reddit.com/r/linguistics/comments/uhmu2u/",
+          "evidence_ref": "turn851reddit46",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "13pfeb4",
+          "title": "Evolution of language",
+          "subreddit": "linguistics",
+          "url": "https://www.reddit.com/r/linguistics/comments/13pfeb4/",
+          "evidence_ref": "turn851reddit47",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1bpzh6e",
+          "title": "Do languages get simpler over time?",
+          "subreddit": "asklinguistics",
+          "url": "https://www.reddit.com/r/asklinguistics/comments/1bpzh6e/",
+          "evidence_ref": "turn851reddit48",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1m1uz1r",
+          "title": "Do smaller language communities change more slowly?",
+          "subreddit": "asklinguistics",
+          "url": "https://www.reddit.com/r/asklinguistics/comments/1m1uz1r/",
+          "evidence_ref": "turn851reddit49",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1ics7dv",
+          "title": "Is reversing language shift possible?",
+          "subreddit": "asklinguistics",
+          "url": "https://www.reddit.com/r/asklinguistics/comments/1ics7dv/",
+          "evidence_ref": "turn851reddit50",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1lt5j0t",
+          "title": "Can language evolution be noticed within one lifetime?",
+          "subreddit": "asklinguistics",
+          "url": "https://www.reddit.com/r/asklinguistics/comments/1lt5j0t/",
+          "evidence_ref": "turn851reddit51",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "139vxhq",
+          "title": "Linguist purists and language decay",
+          "subreddit": "linguistics",
+          "url": "https://www.reddit.com/r/linguistics/comments/139vxhq/",
+          "evidence_ref": "turn851reddit52",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1uy3o44",
+          "title": "Removed physics post",
+          "subreddit": "Physics",
+          "url": "https://www.reddit.com/r/Physics/comments/1uy3o44/",
+          "evidence_ref": "turn851reddit53",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_removed_or_weak_evidence"
+        },
+        {
+          "post_id": "1uvyr9l",
+          "title": "Why did it take until Hubble to know the universe is expanding?",
+          "subreddit": "AskPhysics",
+          "url": "https://www.reddit.com/r/AskPhysics/comments/1uvyr9l/",
+          "evidence_ref": "turn851search1",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_permanent_history"
+        },
+        {
+          "post_id": "1beh1r6",
+          "title": "You're in a ship…",
+          "subreddit": "AskPhysics",
+          "url": "https://www.reddit.com/r/AskPhysics/comments/1beh1r6/",
+          "evidence_ref": "turn851search2",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1ecmd06",
+          "title": "Why aren't electrons black holes?",
+          "subreddit": "AskPhysics",
+          "url": "https://www.reddit.com/r/AskPhysics/comments/1ecmd06/",
+          "evidence_ref": "turn851search7",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "hkytep",
+          "title": "How can black holes form if time stops at the horizon?",
+          "subreddit": "AskPhysics",
+          "url": "https://www.reddit.com/r/AskPhysics/comments/hkytep/",
+          "evidence_ref": "turn851search8",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1ulogmy",
+          "title": "How legit are Underground Railroad hiding-place claims?",
+          "subreddit": "AskHistorians",
+          "url": "https://www.reddit.com/r/AskHistorians/comments/1ulogmy/",
+          "evidence_ref": "turn851search9",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_permanent_history"
+        },
+        {
+          "post_id": "1givg4",
+          "title": "Which goods and services changed most in price?",
+          "subreddit": "AskHistorians",
+          "url": "https://www.reddit.com/r/AskHistorians/comments/1givg4/",
+          "evidence_ref": "turn851search11",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1wn0hr2",
+          "title": "Does productivity measurement capture building capacity quickly?",
+          "subreddit": "AskEconomics",
+          "url": "https://www.reddit.com/r/AskEconomics/comments/1wn0hr2/",
+          "evidence_ref": "turn852reddit40",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": true,
+          "decision": "selected"
+        },
+        {
+          "post_id": "1tf9qxu",
+          "title": "How do you measure productivity?",
+          "subreddit": "AskEconomics",
+          "url": "https://www.reddit.com/r/AskEconomics/comments/1tf9qxu/",
+          "evidence_ref": "turn852reddit41",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1jpi139",
+          "title": "How is productivity measured in practice?",
+          "subreddit": "AskEconomics",
+          "url": "https://www.reddit.com/r/AskEconomics/comments/1jpi139/",
+          "evidence_ref": "turn852reddit42",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1hxiqeu",
+          "title": "Amateur watch maker issue",
+          "subreddit": "watchmaking",
+          "url": "https://www.reddit.com/r/watchmaking/comments/1hxiqeu/",
+          "evidence_ref": "turn852reddit43",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1k61uwd",
+          "title": "How is productivity calculated?",
+          "subreddit": "AskEconomics",
+          "url": "https://www.reddit.com/r/AskEconomics/comments/1k61uwd/",
+          "evidence_ref": "turn852reddit44",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1qo1d1m",
+          "title": "Words of wisdom for a discouraged beginner",
+          "subreddit": "watchrepair",
+          "url": "https://www.reddit.com/r/watchrepair/comments/1qo1d1m/",
+          "evidence_ref": "turn852reddit45",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1r2jv97",
+          "title": "Repair help",
+          "subreddit": "watchrepair",
+          "url": "https://www.reddit.com/r/watchrepair/comments/1r2jv97/",
+          "evidence_ref": "turn852reddit46",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1r898y5",
+          "title": "Project watch doesn’t get off the ground",
+          "subreddit": "watchrepair",
+          "url": "https://www.reddit.com/r/watchrepair/comments/1r898y5/",
+          "evidence_ref": "turn852reddit47",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": true,
+          "decision": "selected"
+        },
+        {
+          "post_id": "1owjy2j",
+          "title": "Newbie feeling discouraged",
+          "subreddit": "watchrepair",
+          "url": "https://www.reddit.com/r/watchrepair/comments/1owjy2j/",
+          "evidence_ref": "turn852reddit48",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1nebedd",
+          "title": "Screw broke and remained in its socket",
+          "subreddit": "watchrepair",
+          "url": "https://www.reddit.com/r/watchrepair/comments/1nebedd/",
+          "evidence_ref": "turn852reddit49",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "140a12p",
+          "title": "How do I remove the stem here?",
+          "subreddit": "watchmaking",
+          "url": "https://www.reddit.com/r/watchmaking/comments/140a12p/",
+          "evidence_ref": "turn852reddit50",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "xe05ad",
+          "title": "Redirect me to a repairer?",
+          "subreddit": "watchmaking",
+          "url": "https://www.reddit.com/r/watchmaking/comments/xe05ad/",
+          "evidence_ref": "turn852reddit51",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1vj3npt",
+          "title": "Tips on repairing and glue-line hiding",
+          "subreddit": "woodworking",
+          "url": "https://www.reddit.com/r/woodworking/comments/1vj3npt/",
+          "evidence_ref": "turn853reddit41",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1vgo3xd",
+          "title": "How did this rock form?",
+          "subreddit": "geology",
+          "url": "https://www.reddit.com/r/geology/comments/1vgo3xd/",
+          "evidence_ref": "turn853reddit42",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1xnjnh0",
+          "title": "I'm so pissed right now",
+          "subreddit": "BeginnerWoodWorking",
+          "url": "https://www.reddit.com/r/BeginnerWoodWorking/comments/1xnjnh0/",
+          "evidence_ref": "turn853reddit43",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1rq1lhk",
+          "title": "Advice on modeling pipeline",
+          "subreddit": "datascience",
+          "url": "https://www.reddit.com/r/datascience/comments/1rq1lhk/",
+          "evidence_ref": "turn853reddit44",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1sw1ge6",
+          "title": "Awesome rock with microfaults",
+          "subreddit": "geology",
+          "url": "https://www.reddit.com/r/geology/comments/1sw1ge6/",
+          "evidence_ref": "turn853reddit45",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1xek44t",
+          "title": "Tips on how to think like a geologist",
+          "subreddit": "geology",
+          "url": "https://www.reddit.com/r/geology/comments/1xek44t/",
+          "evidence_ref": "turn853reddit46",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": true,
+          "decision": "selected"
+        },
+        {
+          "post_id": "1xearyu",
+          "title": "How to fix small gaps after clamping",
+          "subreddit": "BeginnerWoodWorking",
+          "url": "https://www.reddit.com/r/BeginnerWoodWorking/comments/1xearyu/",
+          "evidence_ref": "turn853reddit49",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1r53jy3",
+          "title": "Best technique for training models on sampled data?",
+          "subreddit": "datascience",
+          "url": "https://www.reddit.com/r/datascience/comments/1r53jy3/",
+          "evidence_ref": "turn853reddit50",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": true,
+          "decision": "selected"
+        },
+        {
+          "post_id": "1wlsxyd",
+          "title": "Help tightening up mortise and tenon",
+          "subreddit": "BeginnerWoodWorking",
+          "url": "https://www.reddit.com/r/BeginnerWoodWorking/comments/1wlsxyd/",
+          "evidence_ref": "turn853reddit52",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": true,
+          "decision": "selected"
+        },
+        {
+          "post_id": "1u3swa7",
+          "title": "Are plants growing faster with more atmospheric CO2?",
+          "subreddit": "askscience",
+          "url": "https://www.reddit.com/r/askscience/comments/1u3swa7/",
+          "evidence_ref": "turn853search0",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": true,
+          "decision": "selected"
+        },
+        {
+          "post_id": "1qi41ol",
+          "title": "Which woodworking tools scare you most?",
+          "subreddit": "woodworking",
+          "url": "https://www.reddit.com/r/woodworking/comments/1qi41ol/",
+          "evidence_ref": "turn853search1",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1p2nm33",
+          "title": "Are there plants that selected humans to spread seeds?",
+          "subreddit": "askscience",
+          "url": "https://www.reddit.com/r/askscience/comments/1p2nm33/",
+          "evidence_ref": "turn853search2",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_permanent_history"
+        },
+        {
+          "post_id": "1xgrvck",
+          "title": "Physics Questions weekly thread October 27",
+          "subreddit": "Physics",
+          "url": "https://www.reddit.com/r/Physics/comments/1xgrvck/",
+          "evidence_ref": "turn854reddit44",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": true,
+          "decision": "selected"
+        },
+        {
+          "post_id": "1wth62o",
+          "title": "Five planning questions as interactions",
+          "subreddit": "Urbanism",
+          "url": "https://www.reddit.com/r/Urbanism/comments/1wth62o/",
+          "evidence_ref": "turn854reddit45",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_disclosed_promotion"
+        },
+        {
+          "post_id": "1w4bapb",
+          "title": "Physics weekly thread September 1",
+          "subreddit": "Physics",
+          "url": "https://www.reddit.com/r/Physics/comments/1w4bapb/",
+          "evidence_ref": "turn854reddit46",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1vrohz8",
+          "title": "Physics weekly thread August 18",
+          "subreddit": "Physics",
+          "url": "https://www.reddit.com/r/Physics/comments/1vrohz8/",
+          "evidence_ref": "turn854reddit47",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1x4vz6n",
+          "title": "Physics weekly thread October 13",
+          "subreddit": "Physics",
+          "url": "https://www.reddit.com/r/Physics/comments/1x4vz6n/",
+          "evidence_ref": "turn854reddit48",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1bs60mo",
+          "title": "Could average people once replicate advanced inventions?",
+          "subreddit": "AskHistorians",
+          "url": "https://www.reddit.com/r/AskHistorians/comments/1bs60mo/",
+          "evidence_ref": "turn854reddit49",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": true,
+          "decision": "selected"
+        },
+        {
+          "post_id": "1v8xtf7",
+          "title": "Physics weekly thread July 28",
+          "subreddit": "Physics",
+          "url": "https://www.reddit.com/r/Physics/comments/1v8xtf7/",
+          "evidence_ref": "turn854reddit50",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1xf0qxg",
+          "title": "Theoretical physics weekly thread",
+          "subreddit": "TheoreticalPhysics",
+          "url": "https://www.reddit.com/r/TheoreticalPhysics/comments/1xf0qxg/",
+          "evidence_ref": "turn854reddit51",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": false,
+          "decision": "rejected_lower_weighted_score_topic_concentration_or_thin_evidence"
+        },
+        {
+          "post_id": "1uql3e3",
+          "title": "Help me understand length contraction",
+          "subreddit": "AskPhysics",
+          "url": "https://www.reddit.com/r/AskPhysics/comments/1uql3e3/",
+          "evidence_ref": "turn854search4",
+          "evidence_scope": "accessible search result; original thread not examined under user waiver",
+          "selected": true,
+          "decision": "selected"
+        }
+      ]
+    },
+    "retained_real_identity_fields": true
+  },
+  "selection": {
+    "weighting": {
+      "quality": 0.3,
+      "usefulness": 0.25,
+      "curiosity": 0.2,
+      "novelty": 0.15,
+      "fit": 0.1
+    },
+    "youtube": [
+      {
+        "id": "YSwRqNCeP9k",
+        "title": "So You Want to Understand Quantum Mechanics…",
+        "channel": "PBS Space Time",
+        "id_prior": false,
+        "normalized_title_prior": false,
+        "creator_last_date": "2026-10-07",
+        "position": 1,
+        "url": "https://www.youtube.com/watch?v=YSwRqNCeP9k",
+        "scores": {
+          "quality": 9.2,
+          "usefulness": 8.8,
+          "curiosity": 9.4,
+          "novelty": 8.7,
+          "fit": 8.8,
+          "penalty": 0,
+          "weighted": 9.03,
+          "confidence": "high",
+          "role": "high_confidence"
+        }
+      },
+      {
+        "id": "QtxVdC7pBQM",
+        "title": "The Ridiculous Engineering of Jet Engines",
+        "channel": "Veritasium",
+        "id_prior": false,
+        "normalized_title_prior": false,
+        "creator_last_date": "2026-10-20",
+        "position": 2,
+        "url": "https://www.youtube.com/watch?v=QtxVdC7pBQM",
+        "scores": {
+          "quality": 9.1,
+          "usefulness": 9.2,
+          "curiosity": 8.8,
+          "novelty": 8.2,
+          "fit": 8.7,
+          "penalty": 0,
+          "weighted": 8.86,
+          "confidence": "high",
+          "role": "high_confidence"
+        }
+      },
+      {
+        "id": "js34ZxECiCA",
+        "title": "Metals and Cheeses: Unconventional Pairings",
+        "channel": "MIT OpenCourseWare",
+        "id_prior": false,
+        "normalized_title_prior": false,
+        "creator_last_date": "2026-09-09",
+        "position": 3,
+        "url": "https://www.youtube.com/watch?v=js34ZxECiCA",
+        "scores": {
+          "quality": 8.5,
+          "usefulness": 8.6,
+          "curiosity": 9,
+          "novelty": 9.2,
+          "fit": 8,
+          "penalty": 0,
+          "weighted": 8.67,
+          "confidence": "adjacent",
+          "role": "adjacent_exploration"
+        }
+      },
+      {
+        "id": "dql-D6JQ1Bc",
+        "title": "Weaving the Bridge at Q’eswachaka",
+        "channel": "SmithsonianNMAI",
+        "id_prior": false,
+        "normalized_title_prior": false,
+        "creator_last_date": null,
+        "position": 4,
+        "url": "https://www.youtube.com/watch?v=dql-D6JQ1Bc",
+        "scores": {
+          "quality": 8.9,
+          "usefulness": 7.9,
+          "curiosity": 9.5,
+          "novelty": 9.6,
+          "fit": 7.8,
+          "penalty": 0,
+          "weighted": 8.73,
+          "confidence": "wildcard",
+          "role": "wildcard"
+        }
+      },
+      {
+        "id": "obalH1HfdCs",
+        "title": "STEM in Real Life - STEM in 30",
+        "channel": "National Air and Space Museum",
+        "id_prior": false,
+        "normalized_title_prior": false,
+        "creator_last_date": null,
+        "position": 5,
+        "url": "https://www.youtube.com/watch?v=obalH1HfdCs",
+        "scores": {
+          "quality": 8.3,
+          "usefulness": 8.7,
+          "curiosity": 8.2,
+          "novelty": 8.5,
+          "fit": 8.1,
+          "penalty": 0,
+          "weighted": 8.39,
+          "confidence": "adjacent",
+          "role": "adjacent_exploration"
+        }
+      }
+    ],
+    "reddit": [
+      {
+        "id": "1xk11yl",
+        "title": "How to understand language change as a layperson",
+        "subreddit": "asklinguistics",
+        "id_prior": false,
+        "normalized_title_prior": false,
+        "position": 1,
+        "url": "https://www.reddit.com/r/asklinguistics/comments/1xk11yl/",
+        "scores": {
+          "quality": 8.4,
+          "usefulness": 8.2,
+          "curiosity": 8.3,
+          "novelty": 8,
+          "fit": 8.1,
+          "penalty": 0,
+          "weighted": 8.65,
+          "confidence": "high",
+          "role": "high_confidence"
+        },
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1wn0hr2",
+        "title": "Does conventional productivity measurement capture a country’s ability to build physical capacity quickly?",
+        "subreddit": "AskEconomics",
+        "id_prior": false,
+        "normalized_title_prior": false,
+        "position": 2,
+        "url": "https://www.reddit.com/r/AskEconomics/comments/1wn0hr2/",
+        "scores": {
+          "quality": 8.6,
+          "usefulness": 8.4,
+          "curiosity": 8.5,
+          "novelty": 8.3,
+          "fit": 8.3,
+          "penalty": 0,
+          "weighted": 8.74,
+          "confidence": "high",
+          "role": "high_confidence"
+        },
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1r898y5",
+        "title": "Project watch doesn’t get off the ground",
+        "subreddit": "watchrepair",
+        "id_prior": false,
+        "normalized_title_prior": false,
+        "position": 3,
+        "url": "https://www.reddit.com/r/watchrepair/comments/1r898y5/",
+        "scores": {
+          "quality": 8.8,
+          "usefulness": 8.6,
+          "curiosity": 8.7,
+          "novelty": 8.6,
+          "fit": 8.5,
+          "penalty": 0,
+          "weighted": 8.33,
+          "confidence": "wildcard",
+          "role": "wildcard"
+        },
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1xek44t",
+        "title": "Tips on how to “think like a geologist”",
+        "subreddit": "geology",
+        "id_prior": false,
+        "normalized_title_prior": false,
+        "position": 4,
+        "url": "https://www.reddit.com/r/geology/comments/1xek44t/",
+        "scores": {
+          "quality": 8.4,
+          "usefulness": 8.8,
+          "curiosity": 8.9,
+          "novelty": 8.9,
+          "fit": 8.1,
+          "penalty": 0,
+          "weighted": 8.57,
+          "confidence": "high",
+          "role": "high_confidence"
+        },
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1wlsxyd",
+        "title": "Help tightening up mortise and tenon",
+        "subreddit": "BeginnerWoodWorking",
+        "id_prior": false,
+        "normalized_title_prior": false,
+        "position": 5,
+        "url": "https://www.reddit.com/r/BeginnerWoodWorking/comments/1wlsxyd/",
+        "scores": {
+          "quality": 8.6,
+          "usefulness": 8.2,
+          "curiosity": 9.1,
+          "novelty": 8,
+          "fit": 8.3,
+          "penalty": 0,
+          "weighted": 8.31,
+          "confidence": "wildcard",
+          "role": "wildcard"
+        },
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1r53jy3",
+        "title": "Best technique for training models on a sample of data?",
+        "subreddit": "datascience",
+        "id_prior": false,
+        "normalized_title_prior": false,
+        "position": 6,
+        "url": "https://www.reddit.com/r/datascience/comments/1r53jy3/",
+        "scores": {
+          "quality": 8.8,
+          "usefulness": 8.4,
+          "curiosity": 8.3,
+          "novelty": 8.3,
+          "fit": 8.5,
+          "penalty": 0,
+          "weighted": 8.62,
+          "confidence": "high",
+          "role": "high_confidence"
+        },
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1u3swa7",
+        "title": "With atmospheric CO₂ levels increasing, are many plants growing larger or more quickly than before?",
+        "subreddit": "askscience",
+        "id_prior": false,
+        "normalized_title_prior": false,
+        "position": 7,
+        "url": "https://www.reddit.com/r/askscience/comments/1u3swa7/",
+        "scores": {
+          "quality": 8.4,
+          "usefulness": 8.6,
+          "curiosity": 8.5,
+          "novelty": 8.6,
+          "fit": 8.1,
+          "penalty": 0,
+          "weighted": 8.48,
+          "confidence": "adjacent",
+          "role": "adjacent_exploration"
+        },
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1xgrvck",
+        "title": "Physics Questions — Weekly Discussion Thread — October 27, 2026",
+        "subreddit": "Physics",
+        "id_prior": false,
+        "normalized_title_prior": false,
+        "position": 8,
+        "url": "https://www.reddit.com/r/Physics/comments/1xgrvck/",
+        "scores": {
+          "quality": 8.6,
+          "usefulness": 8.8,
+          "curiosity": 8.7,
+          "novelty": 8.9,
+          "fit": 8.3,
+          "penalty": 0,
+          "weighted": 8.26,
+          "confidence": "adjacent",
+          "role": "adjacent_exploration"
+        },
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1bs60mo",
+        "title": "Was there a time when the average person could understand and replicate the most advanced inventions of the time?",
+        "subreddit": "AskHistorians",
+        "id_prior": false,
+        "normalized_title_prior": false,
+        "position": 9,
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1bs60mo/",
+        "scores": {
+          "quality": 8.8,
+          "usefulness": 8.2,
+          "curiosity": 8.9,
+          "novelty": 8,
+          "fit": 8.5,
+          "penalty": 0,
+          "weighted": 8.71,
+          "confidence": "high",
+          "role": "high_confidence"
+        },
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1uql3e3",
+        "title": "Help me understand length contraction",
+        "subreddit": "AskPhysics",
+        "id_prior": false,
+        "normalized_title_prior": false,
+        "position": 10,
+        "url": "https://www.reddit.com/r/AskPhysics/comments/1uql3e3/",
+        "scores": {
+          "quality": 8.4,
+          "usefulness": 8.4,
+          "curiosity": 9.1,
+          "novelty": 8.3,
+          "fit": 8.1,
+          "penalty": 0,
+          "weighted": 8.45,
+          "confidence": "adjacent",
+          "role": "adjacent_exploration"
+        },
+        "original_post_verification": "not_performed_user_waived"
+      }
+    ]
+  },
+  "source_verification": {
+    "youtube": [
+      {
+        "video_id": "YSwRqNCeP9k",
+        "method": "direct_youtube_page",
+        "prewrite_observation": "Exact watch URL, ID, title, PBS Space Time channel and substantive description observed.",
+        "prewrite_ref": "turn839youtube0",
+        "postwrite_observation": "Direct route throttled; prewrite identity/content evidence retained.",
+        "postwrite_ref": "turn856view0",
+        "playback_tested": false
+      },
+      {
+        "video_id": "QtxVdC7pBQM",
+        "method": "direct_youtube_page",
+        "prewrite_observation": "Exact watch URL, ID, title, Veritasium channel, description and chapters observed.",
+        "prewrite_ref": "turn842youtube2",
+        "postwrite_observation": "Direct route throttled; prewrite identity/content evidence retained.",
+        "postwrite_ref": "turn856view1",
+        "playback_tested": false
+      },
+      {
+        "video_id": "js34ZxECiCA",
+        "method": "creator_official_page",
+        "official_page": "https://openlearning.mit.edu/news/learn-about-materials-science-kitchen",
+        "observation": "MIT page contains exact YouTube ID/title and lesson context for metals-and-cheeses analogy.",
+        "prewrite_ref": "turn846view2",
+        "postwrite_ref": "turn856view2",
+        "playback_tested": false
+      },
+      {
+        "video_id": "dql-D6JQ1Bc",
+        "method": "creator_official_page",
+        "official_page": "https://americanindian.si.edu/collections-search/object/NMAI_503390",
+        "observation": "Smithsonian NMAI page contains exact ID/title/creator and bridge-weaving context.",
+        "prewrite_ref": "turn850search0",
+        "postwrite_ref": "turn856view3",
+        "playback_tested": false
+      },
+      {
+        "video_id": "obalH1HfdCs",
+        "method": "creator_official_page",
+        "official_page": "https://airandspace.si.edu/stories/editorial/stem-real-life",
+        "observation": "National Air and Space Museum page contains exact ID/title and episode description; an older Smithsonian object route returned 404 postwrite, alternate official page remained available.",
+        "prewrite_ref": "turn850search1",
+        "postwrite_ref": "turn857search0",
+        "playback_tested": false
+      }
+    ],
+    "reddit": {
+      "policy": "user_authorized_exception_2026-10-15",
+      "original_threads_examined": 0,
+      "all_selected_identifiers_observed_in_accessible_search_results": true,
+      "assessment_scope": "title, subreddit, URL/ID and accessible search information only; comments, dates, accessibility and discussion quality not claimed"
+    },
+    "news": [
+      {
+        "story": "EIC 2027 work programme",
+        "event_date": "2026-11-05",
+        "verification": "official European Commission/EIC source, budget above EUR 1.8bn and programme split observed",
+        "ref": "turn856view5"
+      },
+      {
+        "story": "ACER EU-Flex",
+        "event_date": "2026-11-04",
+        "verification": "official ACER source, open-source model purpose and launch observed",
+        "ref": "turn856view6"
+      },
+      {
+        "story": "smartwatch opportunistic hypertension detection",
+        "event_date": "2026-11-05",
+        "verification": "Nature index and preprint metadata/method observed prewrite; preprint full route returned 403 postwrite",
+        "refs": [
+          "turn836search0",
+          "turn836search1",
+          "turn835search0"
+        ]
+      },
+      {
+        "story": "NASA X-70 Fractal",
+        "event_date": "2026-11-04",
+        "verification": "official NASA project material observed prewrite and official recent-page source rechecked",
+        "refs": [
+          "turn837search0",
+          "turn837search1",
+          "turn837search2",
+          "turn856view8"
+        ]
+      }
+    ]
+  },
+  "deduplication": {
+    "basis": "original pre-selection permanent histories plus all unrelated PREPARED reservations",
+    "youtube_history": {
+      "lines": 275,
+      "unique_resources": 271,
+      "selected_all_fresh": true,
+      "normalized_title_creator_checked": true,
+      "details": [
+        {
+          "id": "YSwRqNCeP9k",
+          "title": "So You Want to Understand Quantum Mechanics…",
+          "channel": "PBS Space Time",
+          "id_prior": false,
+          "normalized_title_prior": false,
+          "creator_last_date": "2026-10-07"
+        },
+        {
+          "id": "QtxVdC7pBQM",
+          "title": "The Ridiculous Engineering of Jet Engines",
+          "channel": "Veritasium",
+          "id_prior": false,
+          "normalized_title_prior": false,
+          "creator_last_date": "2026-10-20"
+        },
+        {
+          "id": "js34ZxECiCA",
+          "title": "Metals and Cheeses: Unconventional Pairings",
+          "channel": "MIT OpenCourseWare",
+          "id_prior": false,
+          "normalized_title_prior": false,
+          "creator_last_date": "2026-09-09"
+        },
+        {
+          "id": "dql-D6JQ1Bc",
+          "title": "Weaving the Bridge at Q’eswachaka",
+          "channel": "SmithsonianNMAI",
+          "id_prior": false,
+          "normalized_title_prior": false,
+          "creator_last_date": null
+        },
+        {
+          "id": "obalH1HfdCs",
+          "title": "STEM in Real Life - STEM in 30",
+          "channel": "National Air and Space Museum",
+          "id_prior": false,
+          "normalized_title_prior": false,
+          "creator_last_date": null
+        }
+      ]
+    },
+    "reddit_history": {
+      "unique_resources": 530,
+      "selected_all_fresh": true,
+      "details": [
+        {
+          "id": "1xk11yl",
+          "title": "How to understand language change as a layperson",
+          "subreddit": "asklinguistics",
+          "id_prior": false,
+          "normalized_title_prior": false
+        },
+        {
+          "id": "1wn0hr2",
+          "title": "Does conventional productivity measurement capture a country’s ability to build physical capacity quickly?",
+          "subreddit": "AskEconomics",
+          "id_prior": false,
+          "normalized_title_prior": false
+        },
+        {
+          "id": "1r898y5",
+          "title": "Project watch doesn’t get off the ground",
+          "subreddit": "watchrepair",
+          "id_prior": false,
+          "normalized_title_prior": false
+        },
+        {
+          "id": "1xek44t",
+          "title": "Tips on how to “think like a geologist”",
+          "subreddit": "geology",
+          "id_prior": false,
+          "normalized_title_prior": false
+        },
+        {
+          "id": "1wlsxyd",
+          "title": "Help tightening up mortise and tenon",
+          "subreddit": "BeginnerWoodWorking",
+          "id_prior": false,
+          "normalized_title_prior": false
+        },
+        {
+          "id": "1r53jy3",
+          "title": "Best technique for training models on a sample of data?",
+          "subreddit": "datascience",
+          "id_prior": false,
+          "normalized_title_prior": false
+        },
+        {
+          "id": "1u3swa7",
+          "title": "With atmospheric CO₂ levels increasing, are many plants growing larger or more quickly than before?",
+          "subreddit": "askscience",
+          "id_prior": false,
+          "normalized_title_prior": false
+        },
+        {
+          "id": "1xgrvck",
+          "title": "Physics Questions — Weekly Discussion Thread — October 27, 2026",
+          "subreddit": "Physics",
+          "id_prior": false,
+          "normalized_title_prior": false
+        },
+        {
+          "id": "1bs60mo",
+          "title": "Was there a time when the average person could understand and replicate the most advanced inventions of the time?",
+          "subreddit": "AskHistorians",
+          "id_prior": false,
+          "normalized_title_prior": false
+        },
+        {
+          "id": "1uql3e3",
+          "title": "Help me understand length contraction",
+          "subreddit": "AskPhysics",
+          "id_prior": false,
+          "normalized_title_prior": false
+        }
+      ]
+    },
+    "current_semantic_duplicates": false
+  },
+  "diversity": {
+    "youtube": {
+      "topic_groups": [
+        "quantum foundations",
+        "turbine engineering and materials",
+        "materials-science pedagogy",
+        "Indigenous engineering and craft",
+        "museum STEM pedagogy"
+      ],
+      "maximum_narrow_topic_share": 0.4,
+      "wildcards": [
+        "dql-D6JQ1Bc"
+      ],
+      "confidence_mix": {
+        "high_confidence": 2,
+        "adjacent_exploration": 2,
+        "wildcard": 1
+      }
+    },
+    "reddit": {
+      "topic_groups": [
+        "linguistics",
+        "economics",
+        "horology",
+        "geology",
+        "woodworking",
+        "data science",
+        "ecology and climate",
+        "statistical physics",
+        "history of technology",
+        "relativity"
+      ],
+      "maximum_narrow_topic_share": 0.2,
+      "wildcards": [
+        "1r898y5",
+        "1wlsxyd"
+      ],
+      "confidence_mix": {
+        "high_confidence": 5,
+        "adjacent_exploration": 3,
+        "wildcard": 2
+      }
+    }
+  },
+  "readback": {
+    "artifacts_match_frozen_payloads": true,
+    "errors": [],
+    "content_checks": {
+      "ytids": [
+        "YSwRqNCeP9k",
+        "QtxVdC7pBQM",
+        "js34ZxECiCA",
+        "dql-D6JQ1Bc",
+        "obalH1HfdCs"
+      ],
+      "rids": [
+        "1xk11yl",
+        "1wn0hr2",
+        "1r898y5",
+        "1xek44t",
+        "1wlsxyd",
+        "1r53jy3",
+        "1u3swa7",
+        "1xgrvck",
+        "1bs60mo",
+        "1uql3e3"
+      ],
+      "ytUnique": true,
+      "rUnique": true,
+      "ytHistoryExactlyOnce": true,
+      "rHistoryExactlyOnce": true,
+      "yHistoryPrefix": true,
+      "rHistoryPrefix": true,
+      "waiverLabels": 10,
+      "youtubeWhy": 5,
+      "redditWhy": 10,
+      "newsStories": 4,
+      "autoMarkers": true
+    },
+    "target_blobs": {
+      "News/Daily/2026-11-06.md": {
+        "observed": "1e477ef25dd3c704f7253e2490d93735919b56bb",
+        "expected": "1e477ef25dd3c704f7253e2490d93735919b56bb",
+        "match": true
+      },
+      "Resources/YouTube/Daily/2026-11-06.md": {
+        "observed": "c839e6e6fea05dcfd6194044455dae2900a50ed6",
+        "expected": "c839e6e6fea05dcfd6194044455dae2900a50ed6",
+        "match": true
+      },
+      "Resources/Reddit/Daily/2026-11-06.md": {
+        "observed": "904136802724ca8801c229331d27788535c8fa49",
+        "expected": "904136802724ca8801c229331d27788535c8fa49",
+        "match": true
+      },
+      ".recommendation/history/youtube.jsonl": {
+        "observed": "f8824a9fb9bb1d77d7c1d43c4115d0db77c0b564",
+        "expected": "f8824a9fb9bb1d77d7c1d43c4115d0db77c0b564",
+        "match": true
+      },
+      ".recommendation/history/reddit.jsonl": {
+        "observed": "0985c88d43192574c76c7ecca094219424881407",
+        "expected": "0985c88d43192574c76c7ecca094219424881407",
+        "match": true
+      }
+    }
+  },
+  "checks": {
+    "remote_ci": {
+      "workflow": "Recommendation integrity (read-only)",
+      "run_id": 42138878094,
+      "job_id": 127633841440,
+      "head_sha": "2e2a77c7f8a24cf821ce5caa64d1477ee70ad89d",
+      "conclusion": "success",
+      "executed": [
+        "python3 scripts/validate_daily_recommendations.py",
+        "unittest discovery for daily/publication/remote-music/journal recovery tests",
+        "permanent history vs actual base commit integrity comparison"
+      ],
+      "scope": "structural, history, bundle and recovery validation"
+    },
+    "local_repository_validators": {
+      "status": "unverified",
+      "reason": "local executor unavailable in this run; remote GitHub Actions executed the repository validators successfully"
+    },
+    "live_source_quality": {
+      "status": "passed_with_disclosed_scopes",
+      "youtube_playback_unverified": true,
+      "reddit_original_threads_user_waived": true
+    },
+    "device_sync": {
+      "status": "unverified"
+    },
+    "notification_delivery": {
+      "status": "unverified"
+    }
+  },
+  "historical_backlog": [
+    "YouTube permanent history contains 275 rows for 271 unique resources; this historical duplication warning is retained and did not affect current selected-ID freshness.",
+    "Historical source or format warnings remain backlog and were not used to alter old recommendations."
+  ]
+}
