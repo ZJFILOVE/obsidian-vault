@@ -67,6 +67,27 @@ class IdentityTests(unittest.TestCase):
         doc=copy.deepcopy(self.old);doc['extra']='format change'
         write(self.root,m.MANIFESTS+'/2026-01-01.json',doc);self.commit()
         rows=m.index(self.root)['records'];self.assertEqual(len(rows),5);self.assertEqual(len(rows[0]['sources']),2)
+    def test_identical_blob_at_two_deleted_dates_keeps_both_exposures(self):
+        text='## 1. Retired — shared\nhttps://music.apple.com/cn/song/987654321\n'
+        paths=['Music/Daily/2025-12-01.md','Music/Daily/2025-12-02.md']
+        write(self.root,paths[0],text);self.commit()
+        write(self.root,paths[1],text);self.commit()
+        for path in paths:(self.root/path).unlink()
+        self.commit()
+        rows=[x for x in m.index(self.root)['records'] if x['identity']=='apple_music:cn:987654321']
+        self.assertEqual({x['date'] for x in rows},{'2025-12-01','2025-12-02'})
+        self.assertEqual({source['path'] for x in rows for source in x['sources']},set(paths))
+        self.assertEqual({source['blob_sha'] for x in rows for source in x['sources']},{r.blob_sha(text.encode())})
+        with self.assertRaisesRegex(ValueError,'reuse'):
+            m.check_selection(self.root,manifest('2026-12-01',987654321,'alias'))
+    def test_git_grafts_rejected_before_history_scan(self):
+        path=self.root/'.git/info/grafts';path.parent.mkdir(exist_ok=True)
+        path.write_text(self.git('rev-parse','HEAD').decode())
+        with self.assertRaisesRegex(ValueError,'grafts'):m.index(self.root)
+    def test_custom_git_graft_file_rejected(self):
+        path=self.root/'custom-grafts';path.write_text(self.git('rev-parse','HEAD').decode())
+        with patch.dict(m.os.environ,{'GIT_GRAFT_FILE':str(path)}):
+            with self.assertRaisesRegex(ValueError,'grafts'):m.index(self.root)
     def reserve(self):
         doc=manifest('2026-02-01',20000); bundle=frozen(doc)
         write(self.root,m.PREPARED+'/2026-02-01.json',bundle);self.commit();return doc,bundle

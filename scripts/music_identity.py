@@ -6,6 +6,7 @@ Content/source QA and transport success are deliberately separate from this gate
 from __future__ import annotations
 import hashlib
 import json
+import os
 from pathlib import Path
 import re
 import subprocess
@@ -137,17 +138,36 @@ def index(root: Path):
     """
     r.require(git(root, 'rev-parse', '--is-shallow-repository').strip() == b'false', 'full Git history required')
     r.require(not git(root, 'replace', '-l').strip(), 'Git replace refs are not history evidence')
+    graft_paths = [git(root, 'rev-parse', '--git-path', 'info/grafts').decode().strip()]
+    if os.environ.get('GIT_GRAFT_FILE'):
+        graft_paths.append(os.environ['GIT_GRAFT_FILE'])
+    for name in graft_paths:
+        path = Path(name)
+        if not path.is_absolute(): path = root / path
+        r.require(not path.exists(), 'Git grafts are not complete history evidence')
     sources = {}
     for directory in (MANIFESTS, PREPARED):
         for path in sorted((root / directory).glob('*.json')):
             raw = path.read_bytes(); sources[(path.relative_to(root).as_posix(), r.blob_sha(raw))] = raw
     for path in sorted((root / 'Music/Daily').glob('????-??-??.md')):
         raw = path.read_bytes(); sources[(path.relative_to(root).as_posix(), r.blob_sha(raw))] = raw
-    rows = git(root, 'rev-list', '--objects', 'HEAD', '--', 'Music/Daily', PREPARED).decode().splitlines()
-    for line in rows:
-        oid, _, path = line.partition(' ')
-        if ((path.startswith(MANIFESTS + '/') or path.startswith(PREPARED + '/')) and path.endswith('.json')) or re.fullmatch(r'Music/Daily/\d{4}-\d{2}-\d{2}\.md', path):
-            sources.setdefault((path, oid), git(root, 'cat-file', 'blob', oid))
+    # rev-list --objects emits only one name for an object shared by multiple
+    # paths. Walk every ancestor tree so deleted copies on other dates remain
+    # separate occurrences; cache bytes by object without discarding path keys.
+    blobs = {oid: raw for (_, oid), raw in sources.items()}
+    for commit in git(root, 'rev-list', 'HEAD').decode().splitlines():
+        entries = git(root, 'ls-tree', '-rz', commit, '--', 'Music/Daily', PREPARED)
+        for entry in filter(None, entries.split(b'\0')):
+            meta, raw_path = entry.split(b'\t', 1)
+            mode, kind, raw_oid = meta.split()
+            path, oid = raw_path.decode(), raw_oid.decode()
+            selected = (((path.startswith(MANIFESTS + '/') or path.startswith(PREPARED + '/'))
+                         and path.endswith('.json')) or
+                        re.fullmatch(r'Music/Daily/\d{4}-\d{2}-\d{2}\.md', path))
+            if not selected: continue
+            r.require(kind == b'blob' and mode in (b'100644', b'100755'), 'non-regular history file: ' + path)
+            if oid not in blobs: blobs[oid] = git(root, 'cat-file', 'blob', oid)
+            sources.setdefault((path, oid), blobs[oid])
     records = []; bundles = {}; prepared_blobs = {}; missing = []
     for (path, oid), raw in sorted(sources.items()):
         if path.endswith('.md'):
