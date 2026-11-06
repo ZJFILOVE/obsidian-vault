@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-11-06",
+  "attempt_type": "stage_apply",
+  "recorded_at_utc": "2026-11-06T00:07:40.607Z",
+  "status": "applied_and_read_back",
+  "stage": 1,
+  "original_bundle_sha256": "becbdfa4fcdbe381837bcf4b1bb244ff0099fe965318b0f9c074090850d2ed77",
+  "original_plan_sha256": "e54621eb8b3523148507cf7855496ad4c805192382a4330745ce40f0f1872da6",
+  "prepared_identity_receipt": ".recommendation/transaction-runs/english/2026-11-06/prepared-20261106T000522350Z.json",
+  "previous_failed_attempt_receipt": ".recommendation/transaction-runs/english/2026-11-06/apply-20261106T000631922Z.json",
+  "planner": {
+    "status": "ready_to_resume",
+    "next_stage": 1,
+    "observations_scope": "all four frozen targets freshly read"
+  },
+  "git": {
+    "parent_commit": "52b26d82d37e56643eb9a452002f3492c0b88bdd",
+    "base_tree_sha": "762f776d3c9c65314611c36270c6dd4df4c0dcbc",
+    "created_tree_sha": "ffc62f2cd846d00050228ef44ffddbc9a249f02e",
+    "stage_commit": "92b381030fcda3f56a973c63d9c6a276c1072b67",
+    "non_force_expected_head_update": true,
+    "ref_response_error": null
+  },
+  "readbacks": {
+    "50-courses/English/Daily/2026-11-06.md": {
+      "sha": "b6dfc765e58c6842ff2b92f826335e43ccf02448",
+      "bytes": 8984
+    },
+    "50-courses/English/Translation/2026-11-06.md": {
+      "sha": "dfd6b3f58b8ac262898e2c029c152cbf3e927c8d",
+      "bytes": 8682
+    },
+    "50-courses/English/Vocabulary/2026-11-06.md": {
+      "sha": "4586bc9e9773241f206a63c69346591b6dff4a14",
+      "bytes": 8273
+    },
+    ".recommendation/history/english.jsonl": {
+      "sha": "0dce49d6fe8a865917e23bda65f71a8b62734cea",
+      "bytes": 15368
+    }
+  }
+}
