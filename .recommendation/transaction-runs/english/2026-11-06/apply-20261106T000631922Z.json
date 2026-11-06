@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-11-06",
+  "attempt_type": "stage_apply",
+  "recorded_at_utc": "2026-11-06T00:06:31.922Z",
+  "status": "failed_no_targets_written",
+  "stage": 1,
+  "error": {
+    "classification": "transport_or_provider_unknown",
+    "message": "GitHub GraphQL UNKNOWN during non-force expected-head update_ref; trace 211A:24BCAE:BFE78:276FCE:6AED19EB",
+    "retry_policy": "read back first; one bounded retry only"
+  },
+  "readback": {
+    "all_targets_at_original_baseline": true,
+    "history_not_appended": true
+  },
+  "original_bundle_sha256": "becbdfa4fcdbe381837bcf4b1bb244ff0099fe965318b0f9c074090850d2ed77",
+  "original_plan_sha256": "e54621eb8b3523148507cf7855496ad4c805192382a4330745ce40f0f1872da6"
+}
