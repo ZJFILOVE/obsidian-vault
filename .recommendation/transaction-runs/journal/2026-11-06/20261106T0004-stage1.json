@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "operation_id": "journal:2026-11-06",
+  "attempt_id": "20261106T0004-stage1",
+  "recorded_at_utc": "2026-11-06 00:05:44 UTC",
+  "status": "stage_completed_readback_verified",
+  "stage": 1,
+  "bundle_sha256": "ab7923adfe6c249f6cec0d3b6fa0269a750beb5d28b9e331282ea50fa82a490b",
+  "prepared_creation_commit": "96a74e3281297660e41019a4530f510871d3bdc9",
+  "prepared_blob_sha": "66b51de3208b6f942932f65f85dd8565be6f6016",
+  "parent_commit": "96a74e3281297660e41019a4530f510871d3bdc9",
+  "base_tree_sha": "729f76ea4e63cd92aea433c0fa19493c76304edb",
+  "publication_commit": "7d0649cc8238c8390eb2bbbc9774b8eb4e25165e",
+  "publication_tree_sha": "aa193d537ac3e6ec5de741f397c84293a68dabed",
+  "non_force_expected_head_update": true,
+  "readbacks": [
+    {
+      "path": "00-inbox/Journal/2026-11-06.md",
+      "expected_blob_sha": "1783f2bc4943ebe1f8bfe474c08aed69f0d43c99",
+      "observed_blob_sha": "1783f2bc4943ebe1f8bfe474c08aed69f0d43c99",
+      "exact_utf8_payload_match": true,
+      "ref": "7d0649cc8238c8390eb2bbbc9774b8eb4e25165e"
+    },
+    {
+      "path": "00-inbox/Journal/Index.md",
+      "expected_blob_sha": "29976a58cb26bb033ae0fbe2b19f23a4d10c7cb8",
+      "observed_blob_sha": "29976a58cb26bb033ae0fbe2b19f23a4d10c7cb8",
+      "exact_utf8_payload_match": true,
+      "ref": "7d0649cc8238c8390eb2bbbc9774b8eb4e25165e"
+    },
+    {
+      "path": ".recommendation/history/journal.jsonl",
+      "expected_blob_sha": "4f2102059dd66981392c21eb82feed81ad7cbd96",
+      "observed_blob_sha": "4f2102059dd66981392c21eb82feed81ad7cbd96",
+      "exact_utf8_payload_match": true,
+      "ref": "7d0649cc8238c8390eb2bbbc9774b8eb4e25165e"
+    }
+  ],
+  "planner_after": {
+    "status": "artifacts_match",
+    "operation_id": "journal:2026-11-06",
+    "bundle_sha256": "ab7923adfe6c249f6cec0d3b6fa0269a750beb5d28b9e331282ea50fa82a490b",
+    "github_writes_performed": 0,
+    "content_qa": "not_evaluated",
+    "plan_sha256": "73d3556daf5f4271e07deb960b8b640a34dfc4d339a0c58a127a951a0eb8036c",
+    "next_stage": null,
+    "decisions": [
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "00-inbox/Journal/2026-11-06.md",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "1783f2bc4943ebe1f8bfe474c08aed69f0d43c99"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "00-inbox/Journal/Index.md",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": "dbd198eddd1bfd47a35f3092a515080d00532ec2",
+        "target_sha": "29976a58cb26bb033ae0fbe2b19f23a4d10c7cb8"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": ".recommendation/history/journal.jsonl",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": "eba43f8f3989a8011e915f6decab83628f0447d3",
+        "target_sha": "4f2102059dd66981392c21eb82feed81ad7cbd96"
+      }
+    ]
+  },
+  "errors": []
+}
