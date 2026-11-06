@@ -58,3 +58,78 @@ Use the existing authorized GitHub connector, not a borrowed/extracted token. Fo
 Snapshot JSON: schema_version=1, music and vault each contain head_before, head_after, commit (sha and tree.sha), and trees (SHA to raw nonrecursive API tree object). Run `python3 scripts/check_remote_music_snapshot.py snapshot.json`. It recomputes Git tree hashes so omitted/truncated entries cannot silently certify completeness. It compares ALL manifest dates/hashes, state hashes, and corresponding note existence. Full source/semantic history coverage still comes from the per-repository CI; HTTP accessibility and notifications are NOT proven by hash equality.
 
 The daily health task is read-only: inspect pinned matching CI/workflow contents, transaction completion evidence and overdue attempts; notify on mismatch, incomplete/unknown checks or source-publication failures. Do not write history, generate recommendations, change policies or toggle other tasks. The GitHub repo-local CI remains separate and does not gain cross-private-repository privileges.
+
+## Permanent music identity gate (2026-11-06 repair)
+
+The incident registry `.recommendation/incidents/music-2026-11-06-714861225.json`
+recognizes exactly the two original occurrences of `apple_music:cn:714861225`,
+their original manifest bytes, the immutable bundle, and the failure receipt.
+It is not permission to reuse that recording. November 6 remains failed and must
+not receive a success QA receipt. The original selection, state values, notes and
+PREPARED bytes are retained. Any evidence change, scope expansion or third reuse
+is rejected. A subsequent unrelated day is not rejected merely because this
+registered incident exists.
+
+`scripts/music_identity.py` derives recording identity from provider, storefront
+and numeric song ID, with canonical keys as an additional exclusion. It reads all
+current manifests, dated notes, all HEAD-ancestor versions (including replaced or
+deleted selections), and all immutable PREPARED payloads. Repeated snapshots are
+provenance for one occurrence. A retired song remains excluded even if its date
+was republished with different songs. Missing/deleted PREPARED files remain
+reservations in Git history; rewritten PREPARED files block the gate. Shallow
+clones and Git replacement refs are rejected. The index is derived, never a
+replacement for permanent state. Its scope is available local Git ancestry, not
+an assertion that unavailable external history was inspected.
+
+Original missing IDs remain explicitly unresolved. In this repository the five
+2026-09-04 search-link records have no original recording ID. Later records with
+the same operation, position and canonical key are reported as candidates, not
+proof of the original recording. This currently blocks the full identity gate.
+Six other retired state keys are recovered from original Git versions of the
+September 11 and September 26 notes; they are not guessed from artist aliases.
+Do not remove unknown rows, fabricate a successful QA receipt or call this
+end-to-end automatic publication recovery complete.
+
+For a new music freeze call:
+
+```python
+freeze(plan, payloads, music_root=full_vault_checkout,
+       mirror_snapshot=authorized_raw_tree_snapshot,
+       expected_heads={"music": exact_music_commit, "vault": exact_vault_commit})
+```
+
+The snapshot uses the existing credential-free tree evidence format above. The
+local Vault HEAD and all current manifest/state bytes must match those exact
+versions. Candidate state must retain all baseline values. Missing evidence is
+blocked. No extra credentials, permissions or cross-repository token are used.
+For retries, `publication_bundle.py --observations ...` additionally requires
+`--music-root`, `--mirror-snapshot`, `--music-head`, and `--vault-head`. It binds the
+operation, original bundle digest, entire plan and exact payloads before allowing
+same-operation reservations. An intermediate divergent mirror is blocked pending
+verified recovery evidence; it must not be treated as a fresh selection.
+
+The in-process `music_identity.publication_gate(...)` returns schema version 1,
+`status=passed_music_publication_gate`, operation, ordered identities,
+`identity_index_sha256`, `plan_sha256`, `payloads_sha256`, both exact heads,
+manifest blob map, state blob hash, and historical failed dates. It explicitly
+returns `content_qa=not_evaluated` and `transport=not_evaluated`. Consumers must
+recompute this gate from authorized inputs; copying its JSON is not a trusted
+attestation and does not certify source quality or Apple Music writes.
+
+The existing success QA receipt has `schema_version=1`, `project=music`, matching
+`date`/`operation_id`, `status=passed_current_publication`, and nested
+`bundle.bundle_sha256` / `bundle.plan_sha256`, plus actual source observations,
+readbacks and `checks.mirror_check`. A downstream write gate must verify the
+receipt from its pinned Vault revision, bind it to the exact original bundle and
+matching mirror version, and check actual content/source QA independently.
+`planner.status=artifacts_match` and `planner.content_qa=not_evaluated` alone are
+never sufficient. This repair does not generate success receipts or wire a new
+credential bridge into the external publisher.
+
+`python3 scripts/check_daily_integrity.py --base-ref FULL_SHA` now independently
+reports structural/history integrity, immutable bundle integrity and the full
+music identity index. `check_publication_health.py` exposes the same aggregate.
+Every component runs even if another fails; exit 1 means at least one component
+failed or identity evidence is incomplete. Registered failed days are explicit
+in `checks.integrity.historical_failed_publications`. Neither a passing local
+check nor a matching mirror relabels them as content-QA success.

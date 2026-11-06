@@ -97,9 +97,14 @@ def validate_payloads(plan: dict, payloads: dict, *, legacy_journal: bool = Fals
         r.require(selected == plan['exposed_resource_ids'], 'discovery selection changed')
 
 
-def freeze(plan: dict, payloads: dict) -> dict:
+def freeze(plan: dict, payloads: dict, *, music_root=None, mirror_snapshot=None, expected_heads=None) -> dict:
     r.require(plan.get('schema_version') == 1, 'new bundles require plan schema_version=1')
     validate_payloads(plan, payloads)
+    if plan['project'] == 'music':
+        r.require(music_root is not None and mirror_snapshot is not None and expected_heads is not None,
+                  'music freeze requires full history and pinned mirror evidence')
+        from music_identity import publication_gate
+        publication_gate(Path(music_root), plan, payloads, mirror_snapshot, expected_heads)
     body = {'schema_version': 1, 'plan': plan, 'payloads': payloads, 'plan_sha256': r.digest(plan)}
     return {**body, 'bundle_sha256': r.digest(body)}
 
@@ -189,6 +194,8 @@ def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('bundle', type=Path, nargs='?'); p.add_argument('--observations', type=Path)
     p.add_argument('--journal-root', type=Path); p.add_argument('--base-ref')
+    p.add_argument('--music-root', type=Path); p.add_argument('--mirror-snapshot', type=Path)
+    p.add_argument('--music-head'); p.add_argument('--vault-head')
     p.add_argument('--baselines', type=Path); p.add_argument('--expected-bundle-digest')
     args = p.parse_args()
     try:
@@ -201,6 +208,14 @@ def main() -> int:
             r.require(args.expected_bundle_digest == bundle['bundle_sha256'], 'original PREPARED bundle digest changed')
         if args.baselines: check_baselines(bundle, v.strict_json(args.baselines.read_text(encoding='utf-8')))
         result = {'status': 'bundle_valid', 'operation_id': bundle['plan']['operation_id'], 'bundle_sha256': bundle['bundle_sha256'], 'github_writes_performed': 0, 'content_qa': 'not_evaluated'}
+        if args.observations and bundle['plan']['project'] == 'music':
+            r.require(args.music_root is not None and args.mirror_snapshot is not None and
+                      args.music_head is not None and args.vault_head is not None,
+                      'music publication requires full history and pinned mirror evidence')
+            from music_identity import publication_gate
+            result['music_gate'] = publication_gate(args.music_root, bundle['plan'], payloads_for(bundle),
+                v.strict_json(args.mirror_snapshot.read_text()),
+                {'music': args.music_head, 'vault': args.vault_head}, bundle_digest=bundle['bundle_sha256'])
         if args.observations:
             r.require(args.expected_bundle_digest is not None, 'retries require original PREPARED digest')
             result.update(r.inspect(bundle['plan'], v.strict_json(args.observations.read_text(encoding='utf-8')), bundle['plan_sha256']))

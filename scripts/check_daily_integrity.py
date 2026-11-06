@@ -8,6 +8,7 @@ import re
 import subprocess
 import validate_daily_recommendations as v
 import validate_journal as j
+import music_identity as music
 
 HISTORIES = {"youtube": "video_id", "reddit": "post_id", "english": "source_url"}
 STATE = "Music/Daily/state/tracks.json"
@@ -82,7 +83,10 @@ def audit(root: Path, strict_from: str, base: str | None = None) -> dict:
                     "reversed music history dates")
     manifests = sorted((root / "Music/Daily/manifests").glob("*.json"))
     require(bool(manifests), "no music manifests found")
+    registered = music.incident(root)
+    failures = []
     cids, sids, dates = set(), set(), set()
+    occurrences = {}
     for path in manifests:
         doc = v.strict_json(path.read_text(encoding="utf-8"))
         require(isinstance(doc, dict), f"{path.name}: manifest must be an object")
@@ -105,7 +109,12 @@ def audit(root: Path, strict_from: str, base: str | None = None) -> dict:
             match = v.MUSIC_SONG_RE.fullmatch(str(am.get("url", "")))
             require(match is not None and match.group(1) == sid and am.get("storefront") == "cn",
                     f"{day}: wrong direct URL/song ID/storefront")
-            require(cid not in cids and sid not in sids, f"{day}: duplicate music resource")
+            occurrence = (day, position, cid)
+            if cid in cids or sid in sids:
+                require(music.exact_incident_pair(registered, occurrences.get(sid), occurrence) and
+                        music.identity(track) == registered['identity'], f"{day}: duplicate music resource")
+                failures.append({'date': day, 'content_qa': 'failed', 'incident_id': registered['incident_id']})
+            occurrences[sid] = occurrence
             cids.add(cid); sids.add(sid); order.append(sid)
         note = root / "Music/Daily" / (day + ".md")
         require(note.is_file(), f"{day}: missing music note")
@@ -119,6 +128,8 @@ def audit(root: Path, strict_from: str, base: str | None = None) -> dict:
     return {"status": "passed_local_integrity", "history": histories, "journal": journal,
             "music": {"manifests": len(manifests), "current_tracks": len(cids), "state_entries": len(state),
                       "retired_entries_retained": len(set(state) - cids)},
+            "historical_failed_publications": failures,
+            "content_qa": "not_evaluated",
             "append_only": "passed_against_base" if base else "not_checked_without_base_ref",
             "base_ref": base, "legacy_duplicate_groups": legacy,
             "cross_repository": "not_checked_requires_two_authorized_checkouts",
@@ -129,14 +140,12 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--base-ref", help="Full ancestor commit SHA; history bytes/values must be preserved")
     args = parser.parse_args()
-    try:
-        policy = v.strict_json(v.POLICY.read_text(encoding="utf-8"))
-        result = audit(v.ROOT, v.iso_day(policy["strict_from"]), args.base_ref)
-    except (OSError, ValueError, KeyError, TypeError, subprocess.CalledProcessError) as exc:
-        print(json.dumps({"status": "failed", "error_type": type(exc).__name__, "error": str(exc)}, ensure_ascii=False))
-        return 1
+    # Aggregate independently so a failed history check cannot hide immutable
+    # bundle verification under a shell using errexit/pipefail.
+    from check_publication_health import audit as aggregate
+    result = aggregate(v.ROOT, args.base_ref)
     print(json.dumps(result, ensure_ascii=False, indent=2))
-    return 0
+    return int(result['status'] == 'blocked')
 
 
 if __name__ == "__main__":
