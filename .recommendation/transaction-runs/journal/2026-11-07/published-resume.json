@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "operation_id": "journal:2026-11-07",
+  "status": "stage_completed_verified",
+  "date": "2026-11-07",
+  "publication_commit": "36008c9fde7f1b85900ce0c2357790ee03bee727",
+  "parent_commit": "48de7231220c5d64baa2ffc58bc54fefeb37ae6b",
+  "tree_sha": "55987233586d4565b9603fd1ff64c6b7f4436e2b",
+  "prepared": {
+    "schema_version": 1,
+    "operation_id": "journal:2026-11-07",
+    "prepared_creation_commit": "95584b7ff2155ddec7c602b1a9d66a8e77b15258",
+    "prepared_blob_sha": "5275569636a2a5cc6737312752432e01eccf81cd",
+    "bundle_sha256": "a40d90d9f98363479a2459e297566d0813ed115d2f005f5204c6357129a77eee",
+    "plan_sha256": "76e6cff5254426a2170eac8ebf89091d9e41f64183b1e52fc8c6717508fe595c",
+    "original_creation_bytes_verified": true,
+    "baseline_commit": "48de7231220c5d64baa2ffc58bc54fefeb37ae6b",
+    "base_tree_sha": "109efb69b107778a552adeb7a43a75a722cb2f5c",
+    "authorized_resume": "User requested publication after independent music correction; unchanged frozen Journal payloads",
+    "prepublication_CI": {
+      "head_sha": "48de7231220c5d64baa2ffc58bc54fefeb37ae6b",
+      "run_ids": [
+        42324434320,
+        42323852440
+      ],
+      "status": "success"
+    }
+  },
+  "readbacks": [
+    {
+      "path": "00-inbox/Journal/2026-11-07.md",
+      "sha": "5842dc303adec851dae6f5cfad75e360e5eeb3bb",
+      "ref": "36008c9fde7f1b85900ce0c2357790ee03bee727",
+      "exact_payload_match": true
+    },
+    {
+      "path": "00-inbox/Journal/Index.md",
+      "sha": "6b10acd66230b530efbb1d79d345ded1f67091c4",
+      "ref": "36008c9fde7f1b85900ce0c2357790ee03bee727",
+      "exact_payload_match": true
+    },
+    {
+      "path": ".recommendation/history/journal.jsonl",
+      "sha": "6abae4efe51c4d74c5eebbf2acf3bfef5de3977a",
+      "ref": "36008c9fde7f1b85900ce0c2357790ee03bee727",
+      "exact_payload_match": true
+    }
+  ],
+  "CI": {
+    "run_id": 42337017479,
+    "head_sha": "36008c9fde7f1b85900ce0c2357790ee03bee727",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/42337017479"
+  },
+  "non_force_expected_head_update": true,
+  "only_journal_files_written": true
+}
