@@ -87,9 +87,12 @@ def expected_record(manifest, note):
 
 
 def validate(root: Path):
-    """Return None when no withdrawal exists; otherwise verify its exact scope."""
+    """Validate current state; original frozen archives use original()/verify()."""
     path = root / RECORD
-    if not path.exists(): return None
+    if not path.exists():
+        r.require(not any((root / name).exists() for name in (MANIFEST, NOTE, PREPARED, FAILURE)),
+                  'required music withdrawal evidence missing; original five-track state cannot be restored')
+        return None
     bundle, old_manifest, old_note = original(root)
     manifest, note = corrected_manifest(old_manifest), corrected_note(old_note)
     doc = v.strict_json(path.read_text())
@@ -101,7 +104,7 @@ def validate(root: Path):
               'withdrawal corrected note selection or prose changed')
     r.require(r.blob_sha((root / FIRST_MANIFEST).read_bytes()) == FIRST_BLOB, 'withdrawal first occurrence changed')
     r.require(r.blob_sha((root / FAILURE).read_bytes()) == FAILURE_BLOB, 'withdrawal failure evidence changed')
-    r.require(not (root / '.recommendation/runs/2026-11-06-music.json').exists(), 'withdrawal cannot certify original failure')
+    r.require(not (root / '.recommendation/runs/2026-11-06-music.json').exists(), 'withdrawal cannot create success QA for original failure')
     state_path = 'Music/Daily/state/tracks.json'
     before = v.strict_json(bundle['payloads'][VAULT + state_path])['recommended']
     after = v.strict_json((root / state_path).read_text())['recommended']

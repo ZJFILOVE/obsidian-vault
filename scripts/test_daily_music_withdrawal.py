@@ -6,7 +6,6 @@ import json
 from pathlib import Path
 import re
 import shutil
-import subprocess
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -17,14 +16,20 @@ import publication_recovery as r
 import validate_daily_recommendations as v
 
 ROOT=Path(__file__).resolve().parents[1]
-BASE='341767faeee3a06e44b56b97899e93729524ced4'
 
 
 class WithdrawalTests(unittest.TestCase):
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name)
-        for name in (w.RECORD,w.PREPARED,w.MANIFEST,w.NOTE,w.FAILURE,w.FIRST_MANIFEST,'Music/Daily/state/tracks.json',m.INCIDENT):
+        for name in (w.PREPARED,w.FAILURE,w.FIRST_MANIFEST,'Music/Daily/state/tracks.json',m.INCIDENT):
             target=self.root/name;target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/name,target)
+        # Build corrected fixture files from immutable evidence. In particular,
+        # never pin the live music note's user-owned Notes to an old revision.
+        _,old_manifest,old_note=w.original(self.root)
+        manifest,note=w.corrected_manifest(old_manifest),w.corrected_note(old_note)
+        (self.root/w.MANIFEST).write_text(manifest);(self.root/w.NOTE).write_text(note)
+        record=self.root/w.RECORD;record.parent.mkdir(parents=True,exist_ok=True)
+        record.write_text(json.dumps(w.expected_record(manifest,note),ensure_ascii=False,indent=2)+'\n')
     def mutate_json(self,name,change):
         p=self.root/name;doc=json.loads(p.read_text());change(doc);p.write_text(json.dumps(doc,ensure_ascii=False,indent=2)+'\n')
     def test_exact_withdrawal_retains_original_positions(self):
@@ -87,14 +92,47 @@ class WithdrawalTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'note selection'):w.validate(self.root)
     def test_four_track_exception_requires_record(self):
         (self.root/w.RECORD).unlink()
-        self.assertEqual(w.count_for(self.root,w.DAY),5)
+        with self.assertRaisesRegex(ValueError,'required music withdrawal evidence'):w.count_for(self.root,w.DAY)
         with patch.object(v,'ROOT',self.root),patch.object(v,'MUSIC_DIR',self.root/'Music/Daily'),contextlib.redirect_stderr(io.StringIO()):
-            with self.assertRaises(SystemExit):v.validate_music()
+            with self.assertRaises((SystemExit,ValueError)):v.validate_music()
+    def test_missing_record_blocks_current_integrity_even_if_original_five_restored(self):
+        import check_daily_integrity as integrity
+        bundle,old_manifest,old_note=w.original(self.root)
+        (self.root/w.RECORD).unlink()
+        for restore_original in (False,True):
+            with self.subTest(restore_original=restore_original):
+                if restore_original:
+                    (self.root/w.MANIFEST).write_text(old_manifest);(self.root/w.NOTE).write_text(old_note)
+                # Minimal unrelated fixture histories let the real current
+                # integrity audit reach the music evidence gate.
+                values={'youtube':('video_id','abcdefghijk'),'reddit':('post_id','abc123'),
+                        'english':('source_url','https://example.org/source')}
+                for name,(field,value) in values.items():
+                    path=self.root/f'.recommendation/history/{name}.jsonl';path.parent.mkdir(parents=True,exist_ok=True)
+                    path.write_text(json.dumps({'date':'2026-10-12',field:value})+'\n')
+                with self.assertRaisesRegex(ValueError,'required music withdrawal evidence'):
+                    integrity.audit(self.root,'2026-09-11')
+                import check_publication_health as health
+                (self.root/'.recommendation/policy.json').write_text(json.dumps({'strict_from':'2026-09-11'}))
+                report=health.audit(self.root)
+                self.assertEqual(report['status'],'blocked')
+                self.assertIn('required music withdrawal evidence',report['checks']['integrity']['error'])
+                self.assertEqual(report['checks']['immutable_bundles']['status'],'passed_immutable_publication_bundles')
+                with self.assertRaisesRegex(ValueError,'required music withdrawal evidence'):
+                    m.recovery_gate(self.root,bundle,{}, {}, {})
+                # Immutable archive verification must not certify current state,
+                # but it must still accept the exact original five-track bundle.
+                b.verify(bundle)
+    def test_missing_record_and_original_five_fail_current_structure(self):
+        _,old_manifest,old_note=w.original(self.root);(self.root/w.RECORD).unlink()
+        (self.root/w.MANIFEST).write_text(old_manifest);(self.root/w.NOTE).write_text(old_note)
+        with patch.object(v,'ROOT',self.root),patch.object(v,'MUSIC_DIR',self.root/'Music/Daily'):
+            with self.assertRaisesRegex(ValueError,'required music withdrawal evidence'):v.validate_music()
     def test_four_tracks_not_allowed_on_other_dates(self):
         self.assertEqual(w.count_for(self.root,'2026-11-07'),5)
         p=self.root/'Music/Daily/2026-11-08.md';p.write_text((self.root/w.NOTE).read_text().replace('2026-11-06','2026-11-08'))
         with patch.object(v,'ROOT',self.root),patch.object(v,'MUSIC_DIR',self.root/'Music/Daily'),contextlib.redirect_stderr(io.StringIO()):
-            with self.assertRaises(SystemExit):v.validate_music()
+            with self.assertRaises((SystemExit,ValueError)):v.validate_music()
     def test_old_bundle_verification_still_requires_original_five(self):
         bundle,_,_=w.original(self.root);b.verify(bundle)
         self.assertEqual(len(json.loads(bundle['payloads'][w.VAULT+w.MANIFEST])['tracks']),5)
@@ -110,26 +148,69 @@ class WithdrawalTests(unittest.TestCase):
         from test_daily_music_identity import manifest
         with self.assertRaisesRegex(ValueError,'reuse'):
             m.check_selection(ROOT,manifest('2026-12-01',714861225,'another alias'))
-    def test_actual_original_new_journal_plan_remains_recoverable(self):
-        path=ROOT/'.recommendation/transactions/journal/2026-11-07.json'
-        bundle=json.loads(path.read_text());b.verify(bundle)
-        baselines={};observations={}
+    def journal_fixture(self):
+        from test_journal import sample
+        bundle=sample(day='2026-11-06')
+        baselines={key:(None if key.endswith('/2026-11-06.md') else
+                       '' if key.endswith('.jsonl') else b.START+'\n'+b.END+'\n\n## Notes\n')
+                   for key in bundle['payloads']}
         for target in bundle['plan']['targets']:
-            file=ROOT/target['path'];key=target['repository']+':'+target['path']
-            baselines[key]=file.read_text() if file.exists() else None
-            observations[key]={'status':'ok','sha':r.blob_sha(file.read_bytes())} if file.exists() else {'status':'missing','confirmed':True}
-        b.check_baselines(bundle,baselines)
-        result=r.inspect(bundle['plan'],observations,bundle['plan_sha256'])
-        self.assertEqual(result['status'],'ready_to_resume');self.assertEqual(result['next_stage'],1)
-        self.assertEqual(len([d for d in result['decisions'] if d['action'] in ('create','update')]),3)
-    def test_non_music_files_and_all_original_bundles_unchanged(self):
-        names=m.git(ROOT,'ls-tree','-rz','--name-only',BASE).split(b'\0')
-        prefixes=('00-inbox/Journal/','50-courses/English/','News/','Resources/',
-                  '.recommendation/history/','.recommendation/transactions/',
-                  '.recommendation/transaction-runs/','.recommendation/runs/','.github/')
-        for raw in filter(None,names):
-            name=raw.decode()
-            if name.startswith(prefixes):
-                self.assertEqual((ROOT/name).read_bytes(),m.git(ROOT,'show',BASE+':'+name),name)
+            key=target['repository']+':'+target['path'];old=baselines[key]
+            target['base_sha']=r.blob_sha(old.encode()) if old is not None else None
+            if old is not None:
+                path=self.root/target['path'];path.parent.mkdir(parents=True,exist_ok=True);path.write_text(old)
+        bundle=b.freeze(bundle['plan'],bundle['payloads'])
+        return bundle,baselines
+    def inspect_fixture(self,bundle):
+        observations={}
+        for target in bundle['plan']['targets']:
+            path=self.root/target['path'];key=target['repository']+':'+target['path']
+            observations[key]=({'status':'ok','sha':r.blob_sha(path.read_bytes())} if path.exists()
+                               else {'status':'missing','confirmed':True})
+        # Exercise the real CLI with a Journal operation on the same date as
+        # the music withdrawal: no music gate or production files are involved.
+        bundle_path=self.root/'fixture-journal-bundle.json';bundle_path.write_text(json.dumps(bundle))
+        obs_path=self.root/'fixture-observations.json';obs_path.write_text(json.dumps(observations))
+        args=['publication_bundle.py',str(bundle_path),'--observations',str(obs_path),
+              '--expected-bundle-digest',bundle['bundle_sha256']]
+        with patch('sys.argv',args),contextlib.redirect_stdout(io.StringIO()) as output:
+            code=b.main()
+        return code,json.loads(output.getvalue())
+    def test_journal_fixture_baselines_can_resume(self):
+        bundle,baselines=self.journal_fixture();b.check_baselines(bundle,baselines)
+        code,result=self.inspect_fixture(bundle)
+        self.assertEqual(code,0);self.assertEqual(result['status'],'ready_to_resume')
+        self.assertEqual(result['next_stage'],1)
+        self.assertEqual([d['action'] for d in result['decisions']],['create','update','update'])
+    def test_journal_fixture_completed_is_noop(self):
+        bundle,_=self.journal_fixture()
+        for key,text in bundle['payloads'].items():
+            path=self.root/key.split(':',1)[1];path.parent.mkdir(parents=True,exist_ok=True);path.write_text(text)
+        code,result=self.inspect_fixture(bundle)
+        self.assertEqual(code,0);self.assertEqual(result['status'],'artifacts_match')
+        self.assertIsNone(result['next_stage']);self.assertTrue(all(d['action']=='no_op' for d in result['decisions']))
+    def test_journal_fixture_conflict_remains_blocked(self):
+        bundle,_=self.journal_fixture();path=self.root/'00-inbox/Journal/Index.md'
+        path.write_text(path.read_text()+'Personal notes added after freeze.\n')
+        original=path.read_bytes();code,result=self.inspect_fixture(bundle)
+        self.assertEqual(code,1);self.assertEqual(result['status'],'blocked')
+        self.assertIsNone(result['next_stage']);self.assertEqual(path.read_bytes(),original)
+    def test_withdrawal_preserves_unrelated_fixture_updates(self):
+        paths=['00-inbox/Journal/Index.md','00-inbox/Journal/2030-01-01.md',
+               '50-courses/English/Weekly/TV/2030-01-01.md','News/Daily/2030-01-01.md',
+               'Resources/YouTube/Daily/2030-01-01.md',
+               '.recommendation/history/english.jsonl','.recommendation/history/journal.jsonl',
+               '.recommendation/history/youtube.jsonl','.recommendation/history/reddit.jsonl']
+        for generation in range(2):
+            for name in paths:
+                path=self.root/name;path.parent.mkdir(parents=True,exist_ok=True)
+                with path.open('a') as stream:
+                    stream.write(json.dumps({'generation':generation})+'\n' if name.endswith('.jsonl')
+                                 else f'New index entry or user Notes generation {generation}.\n')
+            before={name:(self.root/name).read_bytes() for name in paths}
+            self.assertIsNotNone(w.validate(self.root))
+            with patch.object(v,'ROOT',self.root),patch.object(v,'MUSIC_DIR',self.root/'Music/Daily'):
+                self.assertEqual(v.validate_music(),4)
+            self.assertEqual({name:(self.root/name).read_bytes() for name in paths},before)
 
 if __name__=='__main__':unittest.main()
