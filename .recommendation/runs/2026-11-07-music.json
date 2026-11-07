@@ -1,0 +1,470 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-11-07",
+  "date": "2026-11-07",
+  "status": "success_current_publication",
+  "selection_mode": "new",
+  "candidate_count": 16,
+  "candidate_evidence": [
+    {
+      "song_id": "1450991144",
+      "title": "The Barrel",
+      "artist": "Aldous Harding",
+      "url": "https://music.apple.com/us/song/1450991144",
+      "disposition": "rejected_cn_resource_unavailable_or_unverified",
+      "history_conflict": false
+    },
+    {
+      "song_id": "1594653983",
+      "title": "Andata",
+      "artist": "Ryuichi Sakamoto",
+      "url": "https://music.apple.com/us/song/1594653983",
+      "disposition": "rejected_specific_live_recording_cn_resource_unverified",
+      "history_conflict": false
+    },
+    {
+      "song_id": "1440758633",
+      "title": "The Words That Maketh Murder",
+      "artist": "PJ Harvey",
+      "url": "https://music.apple.com/us/song/1440758633",
+      "disposition": "rejected_cn_resource_unavailable_or_unverified",
+      "history_conflict": false
+    },
+    {
+      "song_id": "696090802",
+      "title": "I Got The...",
+      "artist": "Labi Siffre",
+      "url": "https://music.apple.com/cn/song/696090802",
+      "disposition": "selected",
+      "history_conflict": false
+    },
+    {
+      "song_id": "1138217728",
+      "title": "Plastic 100°C",
+      "artist": "Sampha",
+      "url": "https://music.apple.com/us/song/1138217728",
+      "disposition": "rejected_cn_resource_unavailable_or_unverified",
+      "history_conflict": false
+    },
+    {
+      "song_id": "1577158090",
+      "title": "Nan Sira Madi",
+      "artist": "Ballaké Sissoko",
+      "url": "https://music.apple.com/us/song/1577158090",
+      "disposition": "rejected_cn_resource_unavailable_or_unverified",
+      "history_conflict": false
+    },
+    {
+      "song_id": "1443011811",
+      "title": "Veinte Años",
+      "artist": "Omara Portuondo & Martin Rojas",
+      "url": "https://music.apple.com/cn/song/1443011811",
+      "disposition": "selected",
+      "history_conflict": false
+    },
+    {
+      "song_id": "1766686841",
+      "title": "Veinte Años",
+      "artist": "Omara Portuondo",
+      "url": "https://music.apple.com/us/song/1766686841",
+      "disposition": "rejected_alternate_recording_cn_resource_unverified",
+      "history_conflict": false
+    },
+    {
+      "song_id": "1664242687",
+      "title": "Go Dig My Grave",
+      "artist": "Lankum",
+      "url": "https://music.apple.com/cn/song/1664242687",
+      "disposition": "selected_wildcard",
+      "history_conflict": false
+    },
+    {
+      "song_id": "1443100096",
+      "title": "暗湧",
+      "artist": "Faye Wong",
+      "url": "https://music.apple.com/us/song/1443100096",
+      "disposition": "rejected_cn_resource_unavailable_or_unverified",
+      "history_conflict": false
+    },
+    {
+      "song_id": "1843728051",
+      "title": "If You're Here",
+      "artist": "Cornelius",
+      "url": "https://music.apple.com/us/song/1843728051",
+      "disposition": "rejected_cn_resource_unavailable_or_unverified",
+      "history_conflict": false
+    },
+    {
+      "song_id": "1702545312",
+      "title": "Oba, Lá Vem Ela (feat. Trio Mocotó)",
+      "artist": "Jorge Ben Jor",
+      "url": "https://music.apple.com/us/song/1702545312",
+      "disposition": "rejected_compilation_version_cn_resource_unverified",
+      "history_conflict": false
+    },
+    {
+      "song_id": "495578533",
+      "title": "Caboclo",
+      "artist": "Arthur Verocai",
+      "url": "https://music.apple.com/cn/song/495578533",
+      "disposition": "selected",
+      "history_conflict": false
+    },
+    {
+      "song_id": "1027500477",
+      "title": "Sapokanikan",
+      "artist": "Joanna Newsom",
+      "url": "https://music.apple.com/cn/song/1027500477",
+      "disposition": "selected",
+      "history_conflict": false
+    },
+    {
+      "song_id": "826494416",
+      "title": "Vitamin C (2004 Remaster)",
+      "artist": "Can",
+      "url": "https://music.apple.com/us/song/826494416",
+      "disposition": "rejected_cn_resource_unavailable_or_unverified",
+      "history_conflict": false
+    },
+    {
+      "song_id": "1220608812",
+      "title": "Vitamin C",
+      "artist": "Can",
+      "url": "https://music.apple.com/us/song/1220608812",
+      "disposition": "rejected_alternate_compilation_cn_resource_unverified",
+      "history_conflict": false
+    }
+  ],
+  "selected_tracks": [
+    {
+      "position": 1,
+      "title": "I Got The...",
+      "artist": "Labi Siffre",
+      "album": "The Music of Labi Siffre",
+      "canonical_id": "Labi Siffre::I Got The...",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/696090802",
+        "song_id": "696090802",
+        "storefront": "cn"
+      },
+      "analysis_summary": "选择国区《The Music of Labi Siffre》页面上的录音，不把它和 2006 Remaster 或其他合辑条目互换。它适合做开场，因为歌曲不是一开始就把最醒目的律动全部交出来，而是让叙述、键盘和节奏组逐渐暴露彼此的咬合方式。\n\n编曲最值得听的是重心的转移：前段给人声留下较多空间，后段低音和鼓把短小动机锁成更强的循环。贝斯并非只在根音上打点，而是用滑动与切分制造向前的拉力；鼓的落点让重复不显得静止。这个版本的魅力来自累积，不需要用音量突然放大来证明段落已经改变。",
+      "listening_cue": "第一遍只记录低音第一次真正抓住注意力的位置；第二遍从前一分钟开始，比较鼓、贝斯和键盘谁先改变密度。不要只等最熟悉的采样片段，把前段如何铺路也听进去。"
+    },
+    {
+      "position": 2,
+      "title": "Veinte Años",
+      "artist": "Omara Portuondo & Martin Rojas",
+      "album": "Omara Portuondo & Martin Rojas",
+      "canonical_id": "Omara Portuondo & Martin Rojas::Veinte Años",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1443011811",
+        "song_id": "1443011811",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这里明确选择 Martin Rojas 与 Omara Portuondo 联名专辑中的国区条目，不替换成 Omara 后来的独唱、重制或现场版本。紧接上一首密实的节奏组，它把尺度缩小到歌声与伴奏之间的呼吸：句子可以在较少声部中显出年龄、停顿和重音。\n\n聆听时把人声的长线与吉他伴奏的周期分开。伴奏负责提供稳定落点，却不会把每个空隙填满；主唱则通过句首稍慢的进入、句尾的收束与音色中的颗粒感改变时间感。情绪并非靠持续加厚，而是靠同一旋律在不同停顿后显出不同重量。",
+      "listening_cue": "选一段反复出现的旋律，先用手轻点吉他的稳定周期，再听主唱哪些音贴着拍点、哪些略微拖后。最后只听每句结束后的空白，判断伴奏是在回答，还是在等待。"
+    },
+    {
+      "position": 3,
+      "title": "Caboclo",
+      "artist": "Arthur Verocai",
+      "album": "Arthur Verocai",
+      "canonical_id": "Arthur Verocai::Caboclo",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/495578533",
+        "song_id": "495578533",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的优先曲，选择 1972 年同名专辑的国区歌曲页。它把巴西节奏、爵士和管弦配器压进一首很短的器乐曲：并非把几种风格轮流展示，而是让弦乐线条、低音、打击和短促的管乐色彩在同一段落里快速交换前景。\n\n听它不要只追主旋律。开头的织体看似轻，声部却不断改变距离：弦乐可以拉出连续背景，低音和打击把脉冲固定，较亮的短音则像在画面上瞬间开窗。段落推进依赖音色组合与重音迁移，因此即使和声材料没有剧烈转向，空间仍会持续展开。",
+      "listening_cue": "完整听两遍。第一遍每当新音色进入就记一个点；第二遍只跟低音和打击，检查那些『新段落』究竟由节奏改变，还是由上层配器换色造成。"
+    },
+    {
+      "position": 4,
+      "title": "Sapokanikan",
+      "artist": "Joanna Newsom",
+      "album": "Divers",
+      "canonical_id": "Joanna Newsom::Sapokanikan",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1027500477",
+        "song_id": "1027500477",
+        "storefront": "cn"
+      },
+      "analysis_summary": "选择《Divers》中的国区录音。它适合放在器乐曲之后，因为人声在这里不只是旋律载体，也像密集的节奏声部；钢琴提供可辨认的骨架，其他配器则随着叙述不断改变明暗和尺度。即使不追逐文本细节，也能从发音密度和旋律弧线听出段落如何被组织。\n\nJoanna Newsom 的声线边缘清楚，快速音节与较长尾音经常在同一句里交替。钢琴让句子有明确推进，弦乐和其他背景声部并不总在高潮才出现，而会提前改变下一段的颜色。聆听重点是『信息很多』如何仍保持方向：重复动机、和声落点和短暂留白共同阻止音乐散开。",
+      "listening_cue": "不要试图一次听清全部内容。第一遍只找钢琴反复出现的形状；第二遍在相同位置听人声的音节密度；第三遍再判断背景声部是在预告段落，还是在句尾补上余韵。"
+    },
+    {
+      "position": 5,
+      "title": "Go Dig My Grave",
+      "artist": "Lankum",
+      "album": "False Lankum",
+      "canonical_id": "Lankum::Go Dig My Grave",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1664242687",
+        "song_id": "1664242687",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard，选择《False Lankum》国区页上的录音。它保留民谣叙事的轮廓，却不用轻巧的原声编配把听者带过去；低沉的持续音、粗粝声部和缓慢累积把一首歌变成近乎物理性的空间。这里的黑暗感来自持续时间与频谱密度，不需要依靠突然的戏剧化转折。\n\n先把长时间保持的低频／中低频底层当作地面，再听歌声怎样从地面上显现。随着声部叠加，声音边缘会从可分辨变得相互摩擦；某些变化很小，却因为等待时间足够长而显得巨大。它要求完整时间，也适合检验自己是否能听见『缓慢』内部的层次。",
+      "listening_cue": "用中等偏小音量完整听，不要拖动进度条。每隔一段时间写下当前最靠前、最靠后和最持续的三个声音；结束后比较三次记录，找出真正移动的声部。"
+    }
+  ],
+  "source_verification": [
+    {
+      "position": 1,
+      "title": "I Got The...",
+      "artist": "Labi Siffre",
+      "album": "The Music of Labi Siffre",
+      "song_id": "696090802",
+      "storefront": "cn",
+      "url": "https://music.apple.com/cn/song/696090802",
+      "observed_at": "2026-11-07T00:46:00Z",
+      "verification_method": "direct_apple_music_cn_song_resource",
+      "verified_fields": [
+        "title",
+        "artist",
+        "album",
+        "numeric_song_id",
+        "storefront",
+        "url_id_match"
+      ],
+      "web_observation_ref": "turn925view3",
+      "playback_scope": "full_playback_not_tested"
+    },
+    {
+      "position": 2,
+      "title": "Veinte Años",
+      "artist": "Omara Portuondo & Martin Rojas",
+      "album": "Omara Portuondo & Martin Rojas",
+      "song_id": "1443011811",
+      "storefront": "cn",
+      "url": "https://music.apple.com/cn/song/1443011811",
+      "observed_at": "2026-11-07T00:46:00Z",
+      "verification_method": "direct_apple_music_cn_song_resource",
+      "verified_fields": [
+        "title",
+        "artist",
+        "album",
+        "numeric_song_id",
+        "storefront",
+        "url_id_match"
+      ],
+      "web_observation_ref": "turn926search1",
+      "playback_scope": "full_playback_not_tested"
+    },
+    {
+      "position": 3,
+      "title": "Caboclo",
+      "artist": "Arthur Verocai",
+      "album": "Arthur Verocai",
+      "song_id": "495578533",
+      "storefront": "cn",
+      "url": "https://music.apple.com/cn/song/495578533",
+      "observed_at": "2026-11-07T00:46:00Z",
+      "verification_method": "direct_apple_music_cn_song_resource",
+      "verified_fields": [
+        "title",
+        "artist",
+        "album",
+        "numeric_song_id",
+        "storefront",
+        "url_id_match"
+      ],
+      "web_observation_ref": "turn929view0",
+      "playback_scope": "full_playback_not_tested"
+    },
+    {
+      "position": 4,
+      "title": "Sapokanikan",
+      "artist": "Joanna Newsom",
+      "album": "Divers",
+      "song_id": "1027500477",
+      "storefront": "cn",
+      "url": "https://music.apple.com/cn/song/1027500477",
+      "observed_at": "2026-11-07T00:46:00Z",
+      "verification_method": "direct_apple_music_cn_song_resource",
+      "verified_fields": [
+        "title",
+        "artist",
+        "album",
+        "numeric_song_id",
+        "storefront",
+        "url_id_match"
+      ],
+      "web_observation_ref": "turn929view2",
+      "playback_scope": "full_playback_not_tested"
+    },
+    {
+      "position": 5,
+      "title": "Go Dig My Grave",
+      "artist": "Lankum",
+      "album": "False Lankum",
+      "song_id": "1664242687",
+      "storefront": "cn",
+      "url": "https://music.apple.com/cn/song/1664242687",
+      "observed_at": "2026-11-07T00:46:00Z",
+      "verification_method": "direct_apple_music_cn_song_resource",
+      "verified_fields": [
+        "title",
+        "artist",
+        "album",
+        "numeric_song_id",
+        "storefront",
+        "url_id_match"
+      ],
+      "web_observation_ref": "turn929view4",
+      "playback_scope": "full_playback_not_tested"
+    }
+  ],
+  "selection_result": {
+    "exact_count": 5,
+    "ordered_song_ids": [
+      "696090802",
+      "1443011811",
+      "495578533",
+      "1027500477",
+      "1664242687"
+    ],
+    "original_history_scan": {
+      "manifests_read": 60,
+      "track_rows": 300,
+      "unique_song_ids": 299,
+      "selected_id_conflicts": 0,
+      "selected_canonical_conflicts": 0,
+      "same_recording_conflicts": 0
+    },
+    "recent_artist_penalty_window_days": 7,
+    "selected_recent_artist_conflicts": 0,
+    "diversity": [
+      "soul",
+      "Cuban song",
+      "Brazilian orchestral jazz",
+      "art folk",
+      "Irish experimental folk"
+    ],
+    "recording_styles": [
+      "studio groove build",
+      "voice-and-guitar intimacy",
+      "short instrumental arrangement",
+      "dense piano-led narrative",
+      "slow drone accumulation"
+    ],
+    "languages_context": [
+      "English",
+      "Spanish",
+      "instrumental",
+      "English",
+      "English"
+    ],
+    "wildcard": {
+      "canonical_id": "Lankum::Go Dig My Grave",
+      "reason": "slow drone-based folk expands density, era and production palette"
+    }
+  },
+  "bundle_sha256": "66b20baf6ff26f80f31854dc0f57f0404c077c8bfb4b19a3ac6e877f9546dcb3",
+  "plan_sha256": "478c345ab8429e1c76503325f2293e9d1212d5e680029114cfa5fce6b01b5698",
+  "transaction_creation_commit": "d9c274fb7bde3d88f6ed7b93371b02d306966f17",
+  "stage_commits": {
+    "music_daily": "16d0d7385a6cdc3204b6961e51d7062974e7e565",
+    "obsidian_vault": "a0d0278491cf0b7d234f05222f8869239a7792bd"
+  },
+  "readbacks": {
+    "recommendations/2026/11/2026-11-07.json": "a2416cfea285c7ecec7e674c318c2b0ac055a2cc",
+    "music-daily:state/tracks.json": "2013165572864d26e650a1c151c6bb5bf95e0e0a",
+    "Music/Daily/manifests/2026-11-07.json": "a2416cfea285c7ecec7e674c318c2b0ac055a2cc",
+    "Music/Daily/state/tracks.json": "2013165572864d26e650a1c151c6bb5bf95e0e0a",
+    "Music/Daily/2026-11-07.md": "66f0b8825fce66ca18d7615d62db748bf411f0ec"
+  },
+  "checks": {
+    "bundle": "bundle_valid",
+    "planner": "artifacts_match_next_stage_null",
+    "remote_snapshot": "passed_current_music_mirrors_61_manifests",
+    "semantic_qa": {
+      "status": "passed_current_publication_semantic_qa",
+      "date": "2026-11-07",
+      "candidate_count": 16,
+      "track_count": 5,
+      "song_ids": [
+        "696090802",
+        "1443011811",
+        "495578533",
+        "1027500477",
+        "1664242687"
+      ],
+      "canonical_ids": [
+        "Labi Siffre::I Got The...",
+        "Omara Portuondo & Martin Rojas::Veinte Años",
+        "Arthur Verocai::Caboclo",
+        "Joanna Newsom::Sapokanikan",
+        "Lankum::Go Dig My Grave"
+      ],
+      "old_state_entries_preserved": 308,
+      "new_state_entries": 313,
+      "wildcard": "Lankum::Go Dig My Grave",
+      "repository_note_validator": "passed_on_exact_frozen_note_and_manifest",
+      "sha256": {
+        "manifest": "44ec650f25eec469deda1ece7a1d36bd424bb533036b42a7c24534bed304e7af",
+        "state": "c0947c9425a60c5a67556519ec056dcf83645ff33556f3ec0a0fb6f6ffc3c8fa",
+        "note": "2100082189a1c692a9eb50b1cc7c2fb18f198ff27eee3e320eb2ea22fdc6268a"
+      },
+      "not_certified": [
+        "device synchronization",
+        "notification delivery",
+        "full Apple Music playback"
+      ]
+    },
+    "local_repository_tests": "125 passed",
+    "music_daily_ci": {
+      "validate_workflow": {
+        "run_id": 42321031081,
+        "conclusion": "failure",
+        "current_manifest_validator": "passed_305_unique_recommendations",
+        "unit_tests": "14 passed",
+        "failure": "historical repeated canonical ID or Apple song ID"
+      },
+      "apple_music_playlists": {
+        "run_id": 42321031000,
+        "conclusion": "success"
+      }
+    },
+    "obsidian_vault_ci": {
+      "run_id": 42321110410,
+      "conclusion": "failure",
+      "publication_validation": "passed",
+      "negative_and_recovery_tests": "passed",
+      "unit_tests": "145 passed across logged suites",
+      "failure": "2026-11-06 duplicate music resource"
+    },
+    "historical_backlog": [
+      {
+        "song_id": "714861225",
+        "canonical_id": "Brian Eno::An Ending (Ascent)",
+        "dates": [
+          "2026-09-21",
+          "2026-11-06"
+        ],
+        "action": "retain records and block future reuse"
+      }
+    ]
+  },
+  "receipt_path": ".recommendation/transaction-runs/music/2026-11-07/publish-20261107T010049Z.json",
+  "historical_warnings": [
+    {
+      "song_id": "714861225",
+      "canonical_id": "Brian Eno::An Ending (Ascent)",
+      "dates": [
+        "2026-09-21",
+        "2026-11-06"
+      ],
+      "action": "retain records and block future reuse"
+    }
+  ],
+  "qa_scope": {
+    "current_source_identity": "passed",
+    "current_semantic_editorial_review": "passed",
+    "five_artifact_mirrors": "passed",
+    "history_preservation": "passed",
+    "structural_ci": "failed_only_on_preexisting_historical_duplicate",
+    "device_sync": "unverified",
+    "notification_delivery": "unverified",
+    "full_playback": "unverified"
+  }
+}
