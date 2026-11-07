@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "project": "journal",
+  "operation_id": "journal:2026-11-07",
+  "date": "2026-11-07",
+  "status": "completed",
+  "theme": "二维谱振荡、振电耦合与功能证据",
+  "publication_commit": "36008c9fde7f1b85900ce0c2357790ee03bee727",
+  "stage_receipt": ".recommendation/transaction-runs/journal/2026-11-07/published-resume.json",
+  "prepared": {
+    "schema_version": 1,
+    "operation_id": "journal:2026-11-07",
+    "prepared_creation_commit": "95584b7ff2155ddec7c602b1a9d66a8e77b15258",
+    "prepared_blob_sha": "5275569636a2a5cc6737312752432e01eccf81cd",
+    "bundle_sha256": "a40d90d9f98363479a2459e297566d0813ed115d2f005f5204c6357129a77eee",
+    "plan_sha256": "76e6cff5254426a2170eac8ebf89091d9e41f64183b1e52fc8c6717508fe595c",
+    "original_creation_bytes_verified": true,
+    "baseline_commit": "48de7231220c5d64baa2ffc58bc54fefeb37ae6b",
+    "base_tree_sha": "109efb69b107778a552adeb7a43a75a722cb2f5c",
+    "authorized_resume": "User requested publication after independent music correction; unchanged frozen Journal payloads",
+    "prepublication_CI": {
+      "head_sha": "48de7231220c5d64baa2ffc58bc54fefeb37ae6b",
+      "run_ids": [
+        42324434320,
+        42323852440
+      ],
+      "status": "success"
+    }
+  },
+  "readbacks": [
+    {
+      "path": "00-inbox/Journal/2026-11-07.md",
+      "sha": "5842dc303adec851dae6f5cfad75e360e5eeb3bb",
+      "ref": "36008c9fde7f1b85900ce0c2357790ee03bee727",
+      "exact_payload_match": true
+    },
+    {
+      "path": "00-inbox/Journal/Index.md",
+      "sha": "6b10acd66230b530efbb1d79d345ded1f67091c4",
+      "ref": "36008c9fde7f1b85900ce0c2357790ee03bee727",
+      "exact_payload_match": true
+    },
+    {
+      "path": ".recommendation/history/journal.jsonl",
+      "sha": "6abae4efe51c4d74c5eebbf2acf3bfef5de3977a",
+      "ref": "36008c9fde7f1b85900ce0c2357790ee03bee727",
+      "exact_payload_match": true
+    }
+  ],
+  "papers": [
+    {
+      "doi": "10.1073/pnas.1702261114",
+      "title": "Nature does not rely on long-lived electronic quantum coherence for photosynthetic energy transfer",
+      "authors": "Hong-Guang Duan et al.",
+      "year": 2017,
+      "journal": "Proceedings of the National Academy of Sciences",
+      "opened_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5559008/",
+      "actual_reading_scope": "PMC HTML: bibliography, abstract, Results, Conclusion, experimental setup opening and main figure captions; remaining methods/PDF/SI not fully read",
+      "status": "formally_published_original_research"
+    },
+    {
+      "doi": "10.1038/s41467-020-14970-1",
+      "title": "Vibronic mixing enables ultrafast energy flow in light-harvesting complex II",
+      "authors": "Eric A. Arsenault et al.",
+      "year": 2020,
+      "journal": "Nature Communications",
+      "opened_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7081214/",
+      "actual_reading_scope": "PMC HTML bibliography, abstract, introduction and 2DEV principles only; later access challenged; complete Results/methods/PDF/SI not read",
+      "status": "formally_published_original_research"
+    },
+    {
+      "doi": "10.1021/acs.jpcb.6c02486",
+      "title": "Vibronic Coherence in a Minimal Pigment-Protein Complex Probed by Two-Dimensional Electronic-Vibrational Spectroscopy",
+      "authors": "Kunyan Zhang et al.",
+      "year": 2026,
+      "journal": "The Journal of Physical Chemistry B",
+      "opened_source_url": "https://pubmed.ncbi.nlm.nih.gov/42622264/",
+      "actual_reading_scope": "PubMed bibliography, abstract and main figure captions; full text/PDF/SI not read",
+      "status": "formally_published_original_research"
+    }
+  ],
+  "source_observations": [
+    {
+      "doi": "10.1073/pnas.1702261114",
+      "observed": "FMO trimer room-temperature 2D photon echo data; homogeneous linewidth, residual coherence analysis and theoretical spectra; distinguishes dephasing and population decay in synthesis.",
+      "limits": "No independent reanalysis or complete SI/methods reading."
+    },
+    {
+      "doi": "10.1038/s41467-020-14970-1",
+      "observed": "PMC metadata/abstract/introduction and 2DEV principles opened and read; observed discussion of IR-axis resolution and vibronic interpretation.",
+      "limits": "Later PMC request returned CAPTCHA; stopped. Publisher redirected, institutional archive challenged. Full Results/PDF/SI not read."
+    },
+    {
+      "doi": "10.1021/acs.jpcb.6c02486",
+      "observed": "PubMed confirms 2026 title/authors/journal/DOI and original research; abstract and main figure captions read, including low-temperature sample context, ESA/GSB dynamics and calculated vibrational modes.",
+      "limits": "PMC CAPTCHA route stopped, ACS 403. Full text/PDF/SI not read. Coherence-to-population transfer retained as author's potential interpretation."
+    }
+  ],
+  "source_verification": "Original same-day source research retained; no reselection and no claim to additional full-text reading during recovery.",
+  "source_evidence_receipt": ".recommendation/transaction-runs/journal/2026-11-07/blocked-global-integrity.json",
+  "retraction_check": "Opened authoritative records plus DOI-specific actual web searches; no matching correction/retraction noticed; absence not guaranteed.",
+  "dedup": {
+    "normalized_doi_title_and_study_identity": "passed_against_original_15_rows_and_all_72_PREPARED",
+    "newly_reserved_dois": [
+      "10.1073/pnas.1702261114",
+      "10.1038/s41467-020-14970-1",
+      "10.1021/acs.jpcb.6c02486"
+    ],
+    "prior_exposures_preserved": true,
+    "same_operation_reservations": "expected during recovery, not treated as prior unrelated exposure"
+  },
+  "content_review": {
+    "status": "reviewed_with_declared_reading_limits",
+    "count": 3,
+    "English_titles_authors_year_journal_DOI": "retained_verified_original_selection",
+    "evidence_and_synthesis": "separate",
+    "reading_order": "1-2-3",
+    "priority_paper": "10.1073/pnas.1702261114",
+    "no_new_numeric_claims": true,
+    "old_history": "15-row byte prefix preserved, exactly 3 new unique rows appended",
+    "Notes": "Existing Index manual content byte-identical; new note Notes outside AUTO; all prior dated notes untouched"
+  },
+  "checks": {
+    "local_Journal_integrity": "passed: 6 days, 18 papers",
+    "local_immutable_bundle_audit": "passed: 76 bundles",
+    "baseline_preservation": "publication_bundle.check_baselines passed with original verified contents; exact target baselines preserved",
+    "local_planner_after_readback": "artifacts_match; no remaining stage",
+    "local_append_only_base_ref": "Not run in file-only snapshot; original byte-prefix/manual checks performed explicitly; actual ancestor checks ran in publication CI",
+    "global_integrity_and_ancestry": {
+      "execution": "GitHub Actions exact publication revision",
+      "command": "python3 scripts/check_daily_integrity.py --base-ref ACTUAL_PARENT_SHA",
+      "base_sha": "48de7231220c5d64baa2ffc58bc54fefeb37ae6b",
+      "run_id": 42337017479,
+      "head_sha": "36008c9fde7f1b85900ce0c2357790ee03bee727",
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/42337017479",
+      "conclusion": "success",
+      "job_steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+          "conclusion": "success"
+        },
+        {
+          "name": "Validate publications and full source-history coverage",
+          "conclusion": "success"
+        },
+        {
+          "name": "Negative regressions and interrupted-publication recovery",
+          "conclusion": "success"
+        },
+        {
+          "name": "Compare permanent history with the actual base commit",
+          "conclusion": "success"
+        },
+        {
+          "name": "Record scope of checks",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ],
+      "scope": "structural, full-history identity, immutable bundles and regressions; does not certify scientific content or device synchronization"
+    },
+    "Markdown": {
+      "renderer": "pandoc GFM to HTML",
+      "result": "17 strong tags; no raw ** in rendered text; bold pairing/label spacing passed",
+      "browser_visual_check": "not_performed"
+    }
+  },
+  "previous_failure": {
+    "preserved": true,
+    "path": ".recommendation/transaction-runs/journal/2026-11-07/blocked-global-integrity.json",
+    "resolution": "Independent authorized music correction already present at baseline; this attempt changes no music production files. Current aggregate CI passes; historical failed music publication remains recorded."
+  },
+  "device_sync": "not_tested",
+  "other_automations_modified": false
+}
