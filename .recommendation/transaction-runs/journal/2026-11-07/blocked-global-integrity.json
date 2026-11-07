@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "operation_id": "journal:2026-11-07",
+  "date": "2026-11-07",
+  "status": "blocked_before_publication",
+  "recorded_at_utc": "2026-11-07 00:06:37 UTC",
+  "theme": "二维谱振荡、振电耦合与功能证据",
+  "note_published": false,
+  "index_updated": false,
+  "permanent_history_appended": false,
+  "prepared": {
+    "path": ".recommendation/transactions/journal/2026-11-07.json",
+    "creation_commit": "95584b7ff2155ddec7c602b1a9d66a8e77b15258",
+    "blob_sha": "5275569636a2a5cc6737312752432e01eccf81cd",
+    "bundle_sha256": "a40d90d9f98363479a2459e297566d0813ed115d2f005f5204c6357129a77eee",
+    "plan_sha256": "76e6cff5254426a2170eac8ebf89091d9e41f64183b1e52fc8c6717508fe595c",
+    "exact_readback": true
+  },
+  "baseline": {
+    "commit": "ddc17f5077c993b7903883138f5588aaa0b3024c",
+    "complete_recursive_tree": true,
+    "verified_local_scoped_files": 216,
+    "all_prior_prepared_records_read": 72,
+    "journal_history_rows": 15,
+    "recent_notes_reviewed": [
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06"
+    ],
+    "same_day_note_bundle_run_absent_in_tree": true
+  },
+  "selected": [
+    {
+      "doi": "10.1073/pnas.1702261114",
+      "title": "Nature does not rely on long-lived electronic quantum coherence for photosynthetic energy transfer",
+      "authors": "Hong-Guang Duan et al.",
+      "year": 2017,
+      "journal": "Proceedings of the National Academy of Sciences",
+      "opened_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5559008/",
+      "actual_reading_scope": "PMC HTML: bibliography, abstract, Results, Conclusion, experimental setup opening and main figure captions; remaining methods/PDF/SI not fully read",
+      "status": "formally_published_original_research"
+    },
+    {
+      "doi": "10.1038/s41467-020-14970-1",
+      "title": "Vibronic mixing enables ultrafast energy flow in light-harvesting complex II",
+      "authors": "Eric A. Arsenault et al.",
+      "year": 2020,
+      "journal": "Nature Communications",
+      "opened_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7081214/",
+      "actual_reading_scope": "PMC HTML bibliography, abstract, introduction and 2DEV principles only; later access challenged; complete Results/methods/PDF/SI not read",
+      "status": "formally_published_original_research"
+    },
+    {
+      "doi": "10.1021/acs.jpcb.6c02486",
+      "title": "Vibronic Coherence in a Minimal Pigment-Protein Complex Probed by Two-Dimensional Electronic-Vibrational Spectroscopy",
+      "authors": "Kunyan Zhang et al.",
+      "year": 2026,
+      "journal": "The Journal of Physical Chemistry B",
+      "opened_source_url": "https://pubmed.ncbi.nlm.nih.gov/42622264/",
+      "actual_reading_scope": "PubMed bibliography, abstract and main figure captions; full text/PDF/SI not read",
+      "status": "formally_published_original_research"
+    }
+  ],
+  "source_observations": [
+    {
+      "doi": "10.1073/pnas.1702261114",
+      "observed": "FMO trimer room-temperature 2D photon echo data; homogeneous linewidth, residual coherence analysis and theoretical spectra; distinguishes dephasing and population decay in synthesis.",
+      "limits": "No independent reanalysis or complete SI/methods reading."
+    },
+    {
+      "doi": "10.1038/s41467-020-14970-1",
+      "observed": "PMC metadata/abstract/introduction and 2DEV principles opened and read; observed discussion of IR-axis resolution and vibronic interpretation.",
+      "limits": "Later PMC request returned CAPTCHA; stopped. Publisher redirected, institutional archive challenged. Full Results/PDF/SI not read."
+    },
+    {
+      "doi": "10.1021/acs.jpcb.6c02486",
+      "observed": "PubMed confirms 2026 title/authors/journal/DOI and original research; abstract and main figure captions read, including low-temperature sample context, ESA/GSB dynamics and calculated vibrational modes.",
+      "limits": "PMC CAPTCHA route stopped, ACS 403. Full text/PDF/SI not read. Coherence-to-population transfer retained as author's potential interpretation."
+    }
+  ],
+  "dedup": {
+    "normalized_doi_title_and_study_identity": "passed_against_original_15_rows_and_all_72_PREPARED",
+    "newly_reserved_dois": [
+      "10.1073/pnas.1702261114",
+      "10.1038/s41467-020-14970-1",
+      "10.1021/acs.jpcb.6c02486"
+    ],
+    "prior_exposures_preserved": true
+  },
+  "retraction_check": "Opened authoritative records plus DOI-specific actual web searches; no matching correction/retraction noticed; absence not guaranteed.",
+  "checks": [
+    {
+      "command": "python scripts/validate_journal.py",
+      "chunk_id": "314365",
+      "wall_time_seconds": 0.04339203,
+      "exit_code": 0,
+      "original_token_count": 66,
+      "output": "{\n  \"status\": \"passed_journal_integrity\",\n  \"days\": 6,\n  \"papers\": 18,\n  \"dates\": [\n    \"2026-11-02\",\n    \"2026-11-03\",\n    \"2026-11-04\",\n    \"2026-11-05\",\n    \"2026-11-06\",\n    \"2026-11-07\"\n  ],\n  \"append_only\": \"not_checked\",\n  \"content_qa\": \"not_evaluated\"\n}\n"
+    },
+    {
+      "command": "python scripts/check_daily_integrity.py",
+      "chunk_id": "ddce3c",
+      "wall_time_seconds": 0.104189713,
+      "exit_code": 1,
+      "original_token_count": 25,
+      "output": "{\"status\": \"failed\", \"error_type\": \"ValueError\", \"error\": \"2026-11-06: duplicate music resource\"}\n"
+    },
+    {
+      "command": "python scripts/publication_bundle.py --journal-root .",
+      "chunk_id": "c31ac2",
+      "wall_time_seconds": 0.265721079,
+      "exit_code": 0,
+      "original_token_count": 32,
+      "output": "{\n  \"status\": \"passed_immutable_publication_bundles\",\n  \"bundles\": 73,\n  \"base_ref\": null,\n  \"content_qa\": \"not_evaluated\"\n}\n"
+    },
+    {
+      "command": "pandoc GFM rendering, HTML text/strong tags and bold-pair/spacing checks",
+      "chunk_id": "e24034",
+      "wall_time_seconds": 0.000037486,
+      "exit_code": 0,
+      "original_token_count": 34,
+      "output": "{\"pandoc_html\": \"passed\", \"strong_elements\": 17, \"visible_literal_bold_markers\": false, \"visual_browser_verification\": \"not_performed\"}\n"
+    }
+  ],
+  "blocker": {
+    "command": "python scripts/check_daily_integrity.py",
+    "exit_code": 1,
+    "error": "2026-11-06: duplicate music resource",
+    "reproduced_on_unmodified_baseline": true,
+    "duplicate": {
+      "field": "song_id",
+      "value": "714861225",
+      "dates": [
+        "2026-09-21",
+        "2026-11-06"
+      ]
+    },
+    "affected_path": "Music/Daily/manifests/2026-11-06.json",
+    "journal_related": false,
+    "action": "Do not modify other production tasks or bypass validator. Persist original frozen issue and stop before stage 1."
+  },
+  "recovery": {
+    "planner": {
+      "status": "ready_to_resume",
+      "operation_id": "journal:2026-11-07",
+      "bundle_sha256": "a40d90d9f98363479a2459e297566d0813ed115d2f005f5204c6357129a77eee",
+      "github_writes_performed": 0,
+      "content_qa": "not_evaluated",
+      "plan_sha256": "76e6cff5254426a2170eac8ebf89091d9e41f64183b1e52fc8c6717508fe595c",
+      "next_stage": 1,
+      "decisions": [
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "00-inbox/Journal/2026-11-07.md",
+          "stage": 1,
+          "action": "create",
+          "reason": "observed baseline matches frozen plan",
+          "expected_sha": null,
+          "target_sha": "5842dc303adec851dae6f5cfad75e360e5eeb3bb"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "00-inbox/Journal/Index.md",
+          "stage": 1,
+          "action": "update",
+          "reason": "observed baseline matches frozen plan",
+          "expected_sha": "29976a58cb26bb033ae0fbe2b19f23a4d10c7cb8",
+          "target_sha": "6b10acd66230b530efbb1d79d345ded1f67091c4"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": ".recommendation/history/journal.jsonl",
+          "stage": 1,
+          "action": "update",
+          "reason": "observed baseline matches frozen plan",
+          "expected_sha": "4f2102059dd66981392c21eb82feed81ad7cbd96",
+          "target_sha": "6abae4efe51c4d74c5eebbf2acf3bfef5de3977a"
+        }
+      ]
+    },
+    "stage1_applied": false,
+    "original_baseline_observations": {
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/2026-11-07.md": {
+        "status": "missing",
+        "confirmed": true
+      },
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/Index.md": {
+        "status": "ok",
+        "sha": "29976a58cb26bb033ae0fbe2b19f23a4d10c7cb8"
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/history/journal.jsonl": {
+        "status": "ok",
+        "sha": "4f2102059dd66981392c21eb82feed81ad7cbd96"
+      }
+    },
+    "instruction": "After the independent global-integrity issue is resolved, reload original PREPARED creation version/digest, recheck current rules/global checks and fresh target observations, then apply only missing stage using unchanged frozen payloads. Never reselect or overwrite diverged targets."
+  },
+  "limitations": {
+    "visual_browser_verification": "not_performed; pandoc HTML parsed, no literal ** in rendered text; 17 strong tags",
+    "local_append_only_base_ref": "not supplied; publication_bundle.check_baselines separately verified exact original history prefix/manual Notes; no content files written",
+    "device_sync": "not_tested"
+  },
+  "other_daily_tasks_modified": false
+}

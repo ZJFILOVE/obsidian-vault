@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-11-07",
+  "attempt_id": "prepare-20261107T005318Z",
+  "phase": "prepared_bundle_created",
+  "result": "success",
+  "prepared_transaction_path": ".recommendation/transactions/music/2026-11-07.json",
+  "prepared_transaction_commit": "d9c274fb7bde3d88f6ed7b93371b02d306966f17",
+  "prepared_transaction_blob_sha": "aeb4e91643b0748e28eedc235259ee4268842c7b",
+  "original_bundle_sha256": "66b20baf6ff26f80f31854dc0f57f0404c077c8bfb4b19a3ac6e877f9546dcb3",
+  "original_plan_sha256": "478c345ab8429e1c76503325f2293e9d1212d5e680029114cfa5fce6b01b5698",
+  "readback": {
+    "ref": "d9c274fb7bde3d88f6ed7b93371b02d306966f17",
+    "bundle_sha256": "66b20baf6ff26f80f31854dc0f57f0404c077c8bfb4b19a3ac6e877f9546dcb3",
+    "payload_count": 5
+  },
+  "candidate_pool_count": 16,
+  "source_gate": "five exact Apple Music cn song resources observed",
+  "errors": []
+}

@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-11-07",
+  "attempt": "20261107T010049Z",
+  "status": "published_and_read_back",
+  "transaction": {
+    "path": ".recommendation/transactions/music/2026-11-07.json",
+    "creation_commit": "d9c274fb7bde3d88f6ed7b93371b02d306966f17",
+    "prepared_receipt_commit": "5c8b2d5233cc4e8b81cba98f4a975b25e13ba777",
+    "plan_sha256": "478c345ab8429e1c76503325f2293e9d1212d5e680029114cfa5fce6b01b5698",
+    "bundle_sha256": "66b20baf6ff26f80f31854dc0f57f0404c077c8bfb4b19a3ac6e877f9546dcb3"
+  },
+  "stages": [
+    {
+      "stage": 1,
+      "repository": "ZJFILOVE/music-daily",
+      "commit": "16d0d7385a6cdc3204b6961e51d7062974e7e565",
+      "tree": "4723c48486b4a3221aaeaf5c2b729997d688a959",
+      "expected_parent": "3a3ebfa02da703b2d4784299d010e716bfc7603f",
+      "ref_update": "non_force_expected_head",
+      "readback": "exact"
+    },
+    {
+      "stage": 2,
+      "repository": "ZJFILOVE/obsidian-vault",
+      "commit": "a0d0278491cf0b7d234f05222f8869239a7792bd",
+      "tree": "8d44e10bbec5076f78d8c00bb149e3346982a606",
+      "expected_parent": "5c8b2d5233cc4e8b81cba98f4a975b25e13ba777",
+      "ref_update": "non_force_expected_head",
+      "readback": "exact"
+    }
+  ],
+  "readbacks": {
+    "recommendations/2026/11/2026-11-07.json": "a2416cfea285c7ecec7e674c318c2b0ac055a2cc",
+    "music-daily:state/tracks.json": "2013165572864d26e650a1c151c6bb5bf95e0e0a",
+    "Music/Daily/manifests/2026-11-07.json": "a2416cfea285c7ecec7e674c318c2b0ac055a2cc",
+    "Music/Daily/state/tracks.json": "2013165572864d26e650a1c151c6bb5bf95e0e0a",
+    "Music/Daily/2026-11-07.md": "66f0b8825fce66ca18d7615d62db748bf411f0ec"
+  },
+  "recoverable_errors": [
+    {
+      "stage": 2,
+      "classification": "readback_request_error",
+      "detail": "first post-write readback used an incorrect hardcoded commit ref; no repository mutation was retried",
+      "recovery": "re-read exact frozen targets at actual commit a0d0278491cf0b7d234f05222f8869239a7792bd",
+      "result": "exact_match"
+    }
+  ],
+  "source_verification": [
+    {
+      "position": 1,
+      "title": "I Got The...",
+      "artist": "Labi Siffre",
+      "album": "The Music of Labi Siffre",
+      "song_id": "696090802",
+      "storefront": "cn",
+      "url": "https://music.apple.com/cn/song/696090802",
+      "observed_at": "2026-11-07T00:46:00Z",
+      "verification_method": "direct_apple_music_cn_song_resource",
+      "verified_fields": [
+        "title",
+        "artist",
+        "album",
+        "numeric_song_id",
+        "storefront",
+        "url_id_match"
+      ],
+      "web_observation_ref": "turn925view3",
+      "playback_scope": "full_playback_not_tested"
+    },
+    {
+      "position": 2,
+      "title": "Veinte Años",
+      "artist": "Omara Portuondo & Martin Rojas",
+      "album": "Omara Portuondo & Martin Rojas",
+      "song_id": "1443011811",
+      "storefront": "cn",
+      "url": "https://music.apple.com/cn/song/1443011811",
+      "observed_at": "2026-11-07T00:46:00Z",
+      "verification_method": "direct_apple_music_cn_song_resource",
+      "verified_fields": [
+        "title",
+        "artist",
+        "album",
+        "numeric_song_id",
+        "storefront",
+        "url_id_match"
+      ],
+      "web_observation_ref": "turn926search1",
+      "playback_scope": "full_playback_not_tested"
+    },
+    {
+      "position": 3,
+      "title": "Caboclo",
+      "artist": "Arthur Verocai",
+      "album": "Arthur Verocai",
+      "song_id": "495578533",
+      "storefront": "cn",
+      "url": "https://music.apple.com/cn/song/495578533",
+      "observed_at": "2026-11-07T00:46:00Z",
+      "verification_method": "direct_apple_music_cn_song_resource",
+      "verified_fields": [
+        "title",
+        "artist",
+        "album",
+        "numeric_song_id",
+        "storefront",
+        "url_id_match"
+      ],
+      "web_observation_ref": "turn929view0",
+      "playback_scope": "full_playback_not_tested"
+    },
+    {
+      "position": 4,
+      "title": "Sapokanikan",
+      "artist": "Joanna Newsom",
+      "album": "Divers",
+      "song_id": "1027500477",
+      "storefront": "cn",
+      "url": "https://music.apple.com/cn/song/1027500477",
+      "observed_at": "2026-11-07T00:46:00Z",
+      "verification_method": "direct_apple_music_cn_song_resource",
+      "verified_fields": [
+        "title",
+        "artist",
+        "album",
+        "numeric_song_id",
+        "storefront",
+        "url_id_match"
+      ],
+      "web_observation_ref": "turn929view2",
+      "playback_scope": "full_playback_not_tested"
+    },
+    {
+      "position": 5,
+      "title": "Go Dig My Grave",
+      "artist": "Lankum",
+      "album": "False Lankum",
+      "song_id": "1664242687",
+      "storefront": "cn",
+      "url": "https://music.apple.com/cn/song/1664242687",
+      "observed_at": "2026-11-07T00:46:00Z",
+      "verification_method": "direct_apple_music_cn_song_resource",
+      "verified_fields": [
+        "title",
+        "artist",
+        "album",
+        "numeric_song_id",
+        "storefront",
+        "url_id_match"
+      ],
+      "web_observation_ref": "turn929view4",
+      "playback_scope": "full_playback_not_tested"
+    }
+  ],
+  "checks": {
+    "bundle": "bundle_valid",
+    "planner": "artifacts_match_next_stage_null",
+    "remote_snapshot": "passed_current_music_mirrors_61_manifests",
+    "semantic_qa": {
+      "status": "passed_current_publication_semantic_qa",
+      "date": "2026-11-07",
+      "candidate_count": 16,
+      "track_count": 5,
+      "song_ids": [
+        "696090802",
+        "1443011811",
+        "495578533",
+        "1027500477",
+        "1664242687"
+      ],
+      "canonical_ids": [
+        "Labi Siffre::I Got The...",
+        "Omara Portuondo & Martin Rojas::Veinte Años",
+        "Arthur Verocai::Caboclo",
+        "Joanna Newsom::Sapokanikan",
+        "Lankum::Go Dig My Grave"
+      ],
+      "old_state_entries_preserved": 308,
+      "new_state_entries": 313,
+      "wildcard": "Lankum::Go Dig My Grave",
+      "repository_note_validator": "passed_on_exact_frozen_note_and_manifest",
+      "sha256": {
+        "manifest": "44ec650f25eec469deda1ece7a1d36bd424bb533036b42a7c24534bed304e7af",
+        "state": "c0947c9425a60c5a67556519ec056dcf83645ff33556f3ec0a0fb6f6ffc3c8fa",
+        "note": "2100082189a1c692a9eb50b1cc7c2fb18f198ff27eee3e320eb2ea22fdc6268a"
+      },
+      "not_certified": [
+        "device synchronization",
+        "notification delivery",
+        "full Apple Music playback"
+      ]
+    },
+    "local_repository_tests": "125 passed",
+    "music_daily_ci": {
+      "validate_workflow": {
+        "run_id": 42321031081,
+        "conclusion": "failure",
+        "current_manifest_validator": "passed_305_unique_recommendations",
+        "unit_tests": "14 passed",
+        "failure": "historical repeated canonical ID or Apple song ID"
+      },
+      "apple_music_playlists": {
+        "run_id": 42321031000,
+        "conclusion": "success"
+      }
+    },
+    "obsidian_vault_ci": {
+      "run_id": 42321110410,
+      "conclusion": "failure",
+      "publication_validation": "passed",
+      "negative_and_recovery_tests": "passed",
+      "unit_tests": "145 passed across logged suites",
+      "failure": "2026-11-06 duplicate music resource"
+    },
+    "historical_backlog": [
+      {
+        "song_id": "714861225",
+        "canonical_id": "Brian Eno::An Ending (Ascent)",
+        "dates": [
+          "2026-09-21",
+          "2026-11-06"
+        ],
+        "action": "retain records and block future reuse"
+      }
+    ]
+  },
+  "not_certified": [
+    "device synchronization",
+    "notification delivery",
+    "full Apple Music playback"
+  ]
+}
