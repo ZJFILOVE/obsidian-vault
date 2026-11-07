@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "operation_id": "journal:2026-11-07",
+  "prepared_creation_commit": "95584b7ff2155ddec7c602b1a9d66a8e77b15258",
+  "prepared_blob_sha": "5275569636a2a5cc6737312752432e01eccf81cd",
+  "bundle_sha256": "a40d90d9f98363479a2459e297566d0813ed115d2f005f5204c6357129a77eee",
+  "plan_sha256": "76e6cff5254426a2170eac8ebf89091d9e41f64183b1e52fc8c6717508fe595c",
+  "original_creation_bytes_verified": true,
+  "baseline_commit": "48de7231220c5d64baa2ffc58bc54fefeb37ae6b",
+  "base_tree_sha": "109efb69b107778a552adeb7a43a75a722cb2f5c",
+  "authorized_resume": "User requested publication after independent music correction; unchanged frozen Journal payloads",
+  "prepublication_CI": {
+    "head_sha": "48de7231220c5d64baa2ffc58bc54fefeb37ae6b",
+    "run_ids": [
+      42324434320,
+      42323852440
+    ],
+    "status": "success"
+  }
+}
