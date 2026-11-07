@@ -233,13 +233,15 @@ def validate_music() -> int:
         date = date_from_path(path)
         if date < STRICT_FROM:
             continue
+        from music_withdrawal import count_for
+        expected_count = count_for(ROOT, date)
         note = text(path)
         song_ids = MUSIC_SONG_RE.findall(note)
-        if len(song_ids) != 5 or len(set(song_ids)) != 5:
-            fail(f"{path.relative_to(ROOT)}: strict daily must contain 5 unique direct Apple Music China song URLs")
+        if len(song_ids) != expected_count or len(set(song_ids)) != expected_count:
+            fail(f"{path.relative_to(ROOT)}: strict daily must contain {expected_count} unique direct Apple Music China song URLs")
         blocks = [b for b in re.split(r"(?m)^##[ \t]+", note) if MUSIC_SONG_RE.search(b)]
-        if len(blocks) != 5:
-            fail(f"{path}: expected five distinct song sections")
+        if len(blocks) != expected_count:
+            fail(f"{path}: expected {expected_count} distinct song sections")
         for position, block in enumerate(blocks, 1):
             for field, values in music_fields(block).items():
                 if len(values) != 1:
@@ -257,8 +259,8 @@ def validate_music() -> int:
         # metadata and ordinary list metadata are accepted. Values remain required.
         fields = music_fields(note)
         for field, values in fields.items():
-            if len(values) != 5:
-                fail(f"{path.relative_to(ROOT)}: expected 5 non-empty {field} fields, found {len(values)}")
+            if len(values) != expected_count:
+                fail(f"{path.relative_to(ROOT)}: expected {expected_count} non-empty {field} fields, found {len(values)}")
         if fields["song_id"] != song_ids:
             fail(f"{path.relative_to(ROOT)}: song_id fields do not match direct URL order")
         manifest = frontmatter_value(note, "manifest")
@@ -276,8 +278,8 @@ def validate_music() -> int:
         if not isinstance(data, dict):
             fail(f"{manifest}: root must be an object")
         tracks = data.get("tracks")
-        if not isinstance(tracks, list) or len(tracks) != 5:
-            fail(f"{manifest}: must contain exactly 5 tracks")
+        if not isinstance(tracks, list) or len(tracks) != expected_count:
+            fail(f"{manifest}: must contain exactly {expected_count} tracks")
         manifest_ids = [str(t.get("apple_music", {}).get("song_id", "")) for t in tracks]
         if manifest_ids != song_ids:
             fail(f"{path.relative_to(ROOT)}: note song IDs do not match manifest order")
@@ -286,7 +288,7 @@ def validate_music() -> int:
                 fail(f"{manifest}: analysis_summary too short for {t.get('title')}")
             if len(str(t.get("listening_cue", "")).strip()) < 20:
                 fail(f"{manifest}: listening_cue too short for {t.get('title')}")
-        checked += 5
+        checked += expected_count
     return checked
 
 

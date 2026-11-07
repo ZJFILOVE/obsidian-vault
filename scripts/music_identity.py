@@ -49,8 +49,12 @@ def incident(root: Path):
     raw = path.read_bytes()
     r.require(hashlib.sha256(raw).hexdigest() == INCIDENT_SHA256, 'incident scope/evidence changed')
     doc = v.strict_json(raw.decode())
+    import music_withdrawal as withdrawal
+    corrected = withdrawal.validate(root)
     for row in doc['occurrences']:
         raw = (root / row['path']).read_bytes()
+        if corrected and row['date'] == withdrawal.DAY:
+            raw = withdrawal.original(root)[1].encode()
         r.require(r.blob_sha(raw) == row['manifest_blob_sha'], 'incident manifest changed')
         manifest = v.strict_json(raw.decode()); track = manifest['tracks'][row['position'] - 1]
         r.require(manifest['date'] == row['date'] and track['position'] == row['position'] and
@@ -310,6 +314,9 @@ def recovery_gate(root: Path, bundle: dict, snapshot: dict, expected_heads: dict
     saved = v.strict_json((root / PREPARED / (day + '.json')).read_text())
     verify(saved)
     r.require(saved == bundle, 'recovery must use the exact original frozen plan/payloads')
+    import music_withdrawal as withdrawal
+    if day == withdrawal.DAY:
+        r.require(withdrawal.validate(root) is None, 'withdrawn music operation cannot replay original payloads')
     r.require(snapshot.get('schema_version') == 1, 'invalid evidence version')
     views = {key: Snapshot(snapshot[key]) for key in ('music', 'vault')}
     heads = {key: view.data['head_after'] for key, view in views.items()}

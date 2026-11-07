@@ -65,8 +65,8 @@ The incident registry `.recommendation/incidents/music-2026-11-06-714861225.json
 recognizes exactly the two original occurrences of `apple_music:cn:714861225`,
 their original manifest bytes, the immutable bundle, and the failure receipt.
 It is not permission to reuse that recording. November 6 remains failed and must
-not receive a success QA receipt. The original selection, state values, notes and
-PREPARED bytes are retained. Any evidence change, scope expansion or third reuse
+not receive a success QA receipt. The original selection and note remain in Git
+and the unchanged PREPARED payloads; state values and PREPARED bytes are retained. Any evidence change, scope expansion or third reuse
 is rejected. A subsequent unrelated day is not rejected merely because this
 registered incident exists.
 
@@ -162,3 +162,37 @@ Every component runs even if another fails; exit 1 means at least one component
 failed or identity evidence is incomplete. Registered failed days are explicit
 in `checks.integrity.historical_failed_publications`. Neither a passing local
 check nor a matching mirror relabels them as content-QA success.
+
+
+## Exact music duplicate withdrawal (user-authorized 2026-11-07)
+
+The user authorized removing only the later November 6 occurrence of Apple Music
+CN song `714861225` from the current recommendation. The November 6 manifest and
+note now retain original positions 1, 2, 4, 5, in that order, without reselection
+or renumbering. The four retained track objects and song sections remain exact;
+the overview and listening instructions remove the withdrawn recommendation.
+All text outside the note's AUTO block, including user Notes, is preserved.
+
+`.recommendation/transaction-corrections/music/2026-11-06/withdraw-714861225.json`
+binds the exact removed occurrence, first occurrence, original manifest/note,
+corrected manifest/note, original PREPARED blob/digest and failure evidence.
+`scripts/music_withdrawal.py` deterministically reconstructs the only permitted
+correction from those original frozen bytes. All required fields must match;
+the current manifest and AUTO content must match the derived correction. This
+is the sole four-track/positions-[1,2,4,5] exception. It cannot authorize another
+removal, replacement, changed retained track or a short playlist on another date.
+Later manual text outside AUTO remains user-owned.
+
+The original five-track PREPARED still verifies unchanged, but its publication
+recovery is explicitly blocked after withdrawal so it cannot reintroduce the
+removed occurrence. No success QA receipt is created for November 6. The failure
+and every permanent state value remain intact, and the full Git/PREPARED index
+continues to exclude the withdrawn recording. Corrected current mirrors must
+match exactly across repositories before future music publication; normal new
+dates still require five unique tracks and the existing source/content checks.
+
+This correction changes no Journal/English/news/resource files, frozen bundles,
+source rules, identities, recovery plans, task settings or workflows. Journal's
+November 7 frozen issue can be inspected with its existing tools and fresh
+baselines; this music correction does not itself publish it or authorize any
+new non-music work.

@@ -9,6 +9,7 @@ import subprocess
 import validate_daily_recommendations as v
 import validate_journal as j
 import music_identity as music
+import music_withdrawal as withdrawal
 
 HISTORIES = {"youtube": "video_id", "reddit": "post_id", "english": "source_url"}
 STATE = "Music/Daily/state/tracks.json"
@@ -84,7 +85,10 @@ def audit(root: Path, strict_from: str, base: str | None = None) -> dict:
     manifests = sorted((root / "Music/Daily/manifests").glob("*.json"))
     require(bool(manifests), "no music manifests found")
     registered = music.incident(root)
-    failures = []
+    corrected = withdrawal.validate(root)
+    failures = ([{'date': withdrawal.DAY, 'content_qa': 'failed',
+                  'incident_id': registered['incident_id'], 'current_display': 'duplicate_withdrawn'}]
+                if corrected else [])
     cids, sids, dates = set(), set(), set()
     occurrences = {}
     for path in manifests:
@@ -93,9 +97,10 @@ def audit(root: Path, strict_from: str, base: str | None = None) -> dict:
         day = v.iso_day(doc.get("date"))
         require(path.stem == day, f"{path.name}: date mismatch")
         tracks = doc.get("tracks")
-        require(isinstance(tracks, list) and len(tracks) == 5, f"{day}: not exactly five tracks")
+        positions = [1, 2, 4, 5] if corrected and day == withdrawal.DAY else [1, 2, 3, 4, 5]
+        require(isinstance(tracks, list) and len(tracks) == len(positions), f"{day}: unexpected track count")
         order = []
-        for position, track in enumerate(tracks, 1):
+        for position, track in zip(positions, tracks):
             require(isinstance(track, dict), f"{day}: track must be an object")
             require(type(track.get("position")) is int and track["position"] == position, f"{day}: wrong position")
             cid = track.get("canonical_id")

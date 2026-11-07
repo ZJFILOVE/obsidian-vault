@@ -210,6 +210,9 @@ class IncidentTests(unittest.TestCase):
         paths=[m.INCIDENT]+[x['path'] for x in self.doc['occurrences']]+[self.doc[k]['path'] for k in ('prepared','failure_evidence')]
         for p in paths:
             target=self.root/p;target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/p,target)
+            if p == m.MANIFESTS+'/2026-11-06.json':
+                import music_withdrawal as withdrawal
+                target.write_text(withdrawal.original(ROOT)[1])
     def test_exact_incident(self):self.assertEqual(m.incident(self.root)['content_qa'],'failed')
     def test_third_occurrence_not_covered(self):
         first,second=[(x['date'],x['position'],x['canonical_id']) for x in self.doc['occurrences']]
