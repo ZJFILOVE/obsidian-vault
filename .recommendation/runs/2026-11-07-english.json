@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-07",
+  "operation_id": "english:2026-11-07",
+  "status": "passed_current_publication",
+  "recorded_at_utc": "2026-11-07T00:10:10Z",
+  "selection": {
+    "title": "The Good Place",
+    "source_url": "https://www.peacocktv.com/stream-tv/the-good-place",
+    "source": "Peacock / NBC",
+    "component": "weekly-tv",
+    "candidate_pool_size": 8,
+    "candidates": [
+      {
+        "title": "The Good Place",
+        "url": "https://www.peacocktv.com/stream-tv/the-good-place",
+        "official_owner": "Peacock / NBC",
+        "verification": "direct_official_page",
+        "observations": [
+          "Comedy TV series",
+          "4 seasons",
+          "2016",
+          "TV-14",
+          "created by Michael Schur",
+          "official premise, cast and episode list visible"
+        ],
+        "scores": {
+          "quality": 9.4,
+          "usefulness": 9.3,
+          "curiosity": 8.7,
+          "novelty": 8.1,
+          "fit": 9.2
+        },
+        "decision": "selected",
+        "reason": "Clear but pragmatically rich American dialogue, ethical questions translated into concrete choices, strong entertainment value, and a distinct topic from recent lessons.",
+        "weighted_score": 9.02
+      },
+      {
+        "title": "Poker Face",
+        "url": "https://www.peacocktv.com/stream-tv/poker-face",
+        "official_owner": "Peacock",
+        "verification": "direct_official_page",
+        "observations": [
+          "2 seasons",
+          "22 episodes",
+          "created by Rian Johnson",
+          "road mystery-of-the-week premise",
+          "Natasha Lyonne identified as lead"
+        ],
+        "scores": {
+          "quality": 9.1,
+          "usefulness": 8.8,
+          "curiosity": 9.1,
+          "novelty": 8.8,
+          "fit": 8.7
+        },
+        "decision": "rejected_final_cut",
+        "reason": "Strong regional and conversational variety, but inference-heavy mystery listening would be a sharper jump than this week's selected confidence-building comedy.",
+        "weighted_score": 8.94
+      },
+      {
+        "title": "Severance",
+        "url": "https://tv.apple.com/us/show/severance/umc.cmc.1srk2goyh2q2zdxcx605w8vtx",
+        "official_owner": "Apple TV",
+        "verification": "direct_official_page",
+        "observations": [
+          "United States origin",
+          "2022",
+          "thriller/mystery",
+          "official premise and episode list visible"
+        ],
+        "scores": {
+          "quality": 9.6,
+          "usefulness": 8.5,
+          "curiosity": 9.5,
+          "novelty": 9.2,
+          "fit": 8.4
+        },
+        "decision": "rejected_final_cut",
+        "reason": "Excellent and distinctive, but its corporate mystery register and longer episodes are less suitable for this week's light, repeatable listening routine.",
+        "weighted_score": 9.13
+      },
+      {
+        "title": "The Diplomat",
+        "url": "https://www.netflix.com/title/81288983",
+        "official_owner": "Netflix",
+        "verification": "direct_official_page",
+        "observations": [
+          "4 seasons shown",
+          "created by Debora Cahn",
+          "US diplomat premise",
+          "English original audio and Chinese subtitles listed"
+        ],
+        "scores": {
+          "quality": 9,
+          "usefulness": 9,
+          "curiosity": 8.7,
+          "novelty": 8,
+          "fit": 8.6
+        },
+        "decision": "rejected_final_cut",
+        "reason": "Sharp institutional dialogue is useful, but political jargon and compressed plot density make the early-episode start less forgiving.",
+        "weighted_score": 8.75
+      },
+      {
+        "title": "Only Murders in the Building",
+        "url": "https://www.hulu.com/series/only-murders-in-the-building-ef31c7e1-cd0f-4e07-848d-1cbfedb50ddf",
+        "official_owner": "Hulu",
+        "verification": "direct_official_page",
+        "observations": [
+          "TV series",
+          "2021",
+          "Steve Martin, Martin Short and Selena Gomez identified",
+          "official premise and episode catalogue visible"
+        ],
+        "scores": {
+          "quality": 8.9,
+          "usefulness": 8.8,
+          "curiosity": 8.8,
+          "novelty": 8.2,
+          "fit": 8.8
+        },
+        "decision": "rejected_final_cut",
+        "reason": "Accessible intergenerational dialogue and comedy, but the mystery vocabulary overlaps with Poker Face and offered less conceptual range than the selected series.",
+        "weighted_score": 8.74
+      },
+      {
+        "title": "Somebody Somewhere",
+        "url": "https://press.wbd.com/na/property/somebody-somewhere",
+        "official_owner": "Warner Bros. Discovery / HBO",
+        "verification": "official_search_evidence_direct_open_403",
+        "observations": [
+          "Official press result identified an HBO Original comedy starring Bridget Everett",
+          "direct page returned 403 in this browser"
+        ],
+        "scores": {
+          "quality": 9.2,
+          "usefulness": 9,
+          "curiosity": 8.4,
+          "novelty": 8.9,
+          "fit": 8.7
+        },
+        "decision": "rejected_source_gap",
+        "reason": "Excellent natural conversation candidate, but the official page could not be directly re-opened for full current verification.",
+        "weighted_score": 8.89
+      },
+      {
+        "title": "Veep",
+        "url": "https://www.hbo.com/veep",
+        "official_owner": "HBO",
+        "verification": "official_catalogue_identity_individual_open_403",
+        "observations": [
+          "Official HBO series catalogue identified the award-winning political comedy and lead ensemble",
+          "individual page returned 403"
+        ],
+        "scores": {
+          "quality": 9.3,
+          "usefulness": 8.6,
+          "curiosity": 8.4,
+          "novelty": 8,
+          "fit": 7.9
+        },
+        "decision": "rejected_source_gap",
+        "reason": "Fast overlapping speech and insults are valuable later-stage listening, but current direct source verification was incomplete and the speed is a steep entry point.",
+        "weighted_score": 8.61
+      },
+      {
+        "title": "The Wire",
+        "url": "https://www.hbo.com/the-wire",
+        "official_owner": "HBO",
+        "verification": "official_catalogue_identity_individual_open_403",
+        "observations": [
+          "Official HBO series catalogue identified the Baltimore crime drama and its civilian/law-enforcement perspectives",
+          "individual page returned 403"
+        ],
+        "scores": {
+          "quality": 9.8,
+          "usefulness": 8.4,
+          "curiosity": 9.1,
+          "novelty": 8.8,
+          "fit": 7.7
+        },
+        "decision": "rejected_source_gap",
+        "reason": "Exceptional cultural and linguistic value, but dense institutional slang, multiple voices, and incomplete direct page verification make it unsuitable for today's start.",
+        "weighted_score": 8.95
+      }
+    ],
+    "scoring_weights": {
+      "quality": 0.3,
+      "usefulness": 0.25,
+      "curiosity": 0.2,
+      "novelty": 0.15,
+      "fit": 0.1
+    },
+    "topic_diversity": "Selected ethics-through-comedy and pragmatic dialogue after recent daily topics on history, memory, light perception, art conservation, and language maps; also distinct from the previous two TV selections, Atlanta and The Americans."
+  },
+  "source_verification": {
+    "method": "direct_official_page",
+    "url": "https://www.peacocktv.com/stream-tv/the-good-place",
+    "verified_before_freeze": true,
+    "verified_after_publication": true,
+    "observed_fields": [
+      "title",
+      "official streaming identity",
+      "Comedy / TV Series",
+      "4 seasons",
+      "2016",
+      "TV-14",
+      "creator Michael Schur",
+      "core premise",
+      "main cast",
+      "episode catalogue"
+    ],
+    "verified_at_utc": "2026-11-07T00:10:10Z",
+    "scope_limitations": [
+      "No full episode playback was tested.",
+      "China-mainland account entitlement, subtitle switches, audio tracks, and downloads were not tested."
+    ]
+  },
+  "preflight": {
+    "required_current_files_read": true,
+    "policy_sha": "cf9d1b486e07ca1efe965cf6af6f0ea422497670",
+    "publishing_sha": "288ce5125651fef4f121b744e4b3f5486bf10e11",
+    "publication_bundle_sha": "42821779d8fc9bc5978de06cc5ed7ee711013f18",
+    "publication_recovery_sha": "b0a737ee33cbbf7bb0b453e6091a872f29be3358",
+    "original_history_sha": "0dce49d6fe8a865917e23bda65f71a8b62734cea",
+    "original_history_rows": 60,
+    "recent_notes_read": 18,
+    "prepared_transactions_read": 72,
+    "prepared_reads_complete": true,
+    "reserved_resource_ids_examined": 468,
+    "selected_url_in_original_history": false,
+    "selected_url_in_other_prepared_transactions": false,
+    "same_day_transaction_initially_absent": true,
+    "same_day_note_initially_absent": true
+  },
+  "freeze": {
+    "transaction_path": ".recommendation/transactions/english/2026-11-07.json",
+    "transaction_blob_sha": "4468072c690ec71110fe36c030ef559dcb799f5d",
+    "transaction_creation_commit": "aef0b0dd2f636048fa0014bb2438055336bea5d1",
+    "bundle_sha256": "64e9dd8c4976a594b6f387116d36866e836d8f1e8890eba4c6194ab9b7e2e4c7",
+    "plan_sha256": "3e029d36942f98c91f358f43821f58310cce003faf91576274b0c5dcaeacbefb",
+    "transaction_readback_exact": true,
+    "prepared_receipt_path": ".recommendation/transaction-runs/english/2026-11-07/prepared-20261107T000545Z.json",
+    "prepared_receipt_commit": "89c79b56bb8a10e2ec4e08fbf46332956cf89c20",
+    "planner_before_apply": "ready_to_resume",
+    "planner_after_apply": "artifacts_match"
+  },
+  "publication": {
+    "commit": "72b47a5c1f7ff70f41198c63ab53b4cd01574307",
+    "note_path": "50-courses/English/Weekly/TV/2026-11-07.md",
+    "note_blob_sha": "8247e9054b9797d055b51fb32488f4b196214ae7",
+    "history_path": ".recommendation/history/english.jsonl",
+    "history_blob_sha": "1eb0c488cad8a3a4b7e313a100a36ad6bab91bd1",
+    "stage_receipt_path": ".recommendation/transaction-runs/english/2026-11-07/stage1-20261107T000739Z.json",
+    "stage_receipt_commit": "bffb9578e4f3e376304255befe7c95f4877454a5",
+    "readback_exact": {
+      "note": true,
+      "history": true
+    },
+    "history_rows_after": 61,
+    "exact_once_registration": true
+  },
+  "qa": {
+    "content_checks": "passed",
+    "required_sections": true,
+    "three_viewing_modes": true,
+    "original_language_chunks": 12,
+    "auto_markers": true,
+    "manual_notes_outside_markers": true,
+    "history_prefix_append_only": true,
+    "freshness_checked_against_original_history": true,
+    "source_reverified_after_write": true,
+    "repository_ci": {
+      "run_id": 42316232655,
+      "job_id": 128229393656,
+      "publication_validator": "passed (youtube=255, reddit=510, english=55, music=265)",
+      "regression_tests": "passed (69 + 41 + 15 + 20 = 145 tests)",
+      "overall_conclusion": "failure",
+      "failure_scope": "historical backlog outside this English publication: 2026-11-06 duplicate music resource"
+    },
+    "current_publication_gates": "passed"
+  },
+  "historical_backlog": [
+    {
+      "project": "music",
+      "date": "2026-11-06",
+      "issue": "duplicate music resource from localized artist-name alias",
+      "effect_on_current_english_publication": "none; English validation, history registration, bundle checks, and readbacks passed"
+    }
+  ],
+  "limitations": [
+    "Repository checks do not certify teaching quality by themselves; teaching content was separately reviewed.",
+    "No device synchronization or notification delivery check was performed.",
+    "No full episode playback or regional entitlement check was performed."
+  ]
+}
