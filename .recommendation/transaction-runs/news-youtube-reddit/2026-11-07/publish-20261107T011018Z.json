@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "project": "news-youtube-reddit",
+  "date": "2026-11-07",
+  "operation_id": "news-youtube-reddit:2026-11-07",
+  "attempt_id": "publish-20261107T011018Z",
+  "recorded_at": "2026-11-07T01:10:18Z",
+  "transaction": {
+    "path": ".recommendation/transactions/news-youtube-reddit/2026-11-07.json",
+    "blob_sha": "fe80c5c0e904bf994d25d913366101bb3b99cbf9",
+    "creation_commit": "97092f429f15761c7a293223a842fdb572c9417f",
+    "creation_parent": "d393085e94659921ec525857741cd7a2c4df044a",
+    "bundle_sha256": "2c483bc62fe8ccdf2e6317bc9b631f3a7ea471daafbbf7c76cfd31131996deb5",
+    "plan_sha256": "b9bdd881127eb2c9684b6a20d89e5fd035818e9eeb6fd62243bec30e9a1ed4f4"
+  },
+  "preflight": {
+    "prepared_transactions_read": 76,
+    "prepared_read_errors": 0,
+    "unrelated_reservation_conflicts": 0,
+    "today_targets_before_publish": "confirmed_missing",
+    "history_baselines": {
+      "youtube": "f8824a9fb9bb1d77d7c1d43c4115d0db77c0b564",
+      "reddit": "0985c88d43192574c76c7ecca094219424881407"
+    }
+  },
+  "stage_1": {
+    "action": "ordinary_git_commit",
+    "base_commit": "1b8286065ccd328a2af055e93b6a0eb97b54a23d",
+    "base_tree": "27a782128f64170a0ebe4aa632a1003f1dfb681e",
+    "commit": "ab174c6233f3c302d38591faf906562c38bcd1e9",
+    "tree": "b07159496617087bcb5297b487b1d94e95c6f797",
+    "ref_update": {
+      "branch": "main",
+      "force": false,
+      "expected_head": "1b8286065ccd328a2af055e93b6a0eb97b54a23d",
+      "result": "success"
+    }
+  },
+  "readbacks": {
+    "News/Daily/2026-11-07.md": "1a8a5021b582e4e3d3b54eb595ef0ca8b8b00d2b",
+    "Resources/YouTube/Daily/2026-11-07.md": "8c005f0922379d6110d9f84ab3c4f06e2ba90b3d",
+    "Resources/Reddit/Daily/2026-11-07.md": "7b4c5c95a6fc6c79e07498c7d45c8f2ceb55a638",
+    ".recommendation/history/youtube.jsonl": "ec10b557ace2da1de96d789afe75b2490a293ba9",
+    ".recommendation/history/reddit.jsonl": "490ca8ade5db4da9b5e11d7100ba6643bc6a3785"
+  },
+  "planner_after_write": {
+    "status": "artifacts_match",
+    "next_stage": null,
+    "writes_performed": 0
+  },
+  "qa": {
+    "status": "passed_current_publication_qa",
+    "counts": {"youtube_candidates": 34, "reddit_candidates": 44, "youtube_selected": 5, "reddit_selected": 10, "news_stories": 4},
+    "freshness_against_original_preselection_history": "passed",
+    "history_append_only_prefix": "passed",
+    "exact_once_registration": "passed",
+    "ordered_ids": {
+      "youtube": ["VFtaFny9bU4", "WUvTyaaNkzM", "H6_E6C_e_fg", "_9OWTt-6YkY", "-XnRq_NZzac"],
+      "reddit": ["r7gaev", "1nae7bx", "1k6lset", "1wu4pu9", "1v31ds8", "1wi3hf6", "1pelxg7", "hckhww", "uj14lu", "136qxdu"]
+    },
+    "diversity": {"youtube_wildcards": 1, "reddit_wildcards": 2, "youtube_max_narrow_topic_share": 0.4, "reddit_max_narrow_topic_share": 0.2, "semantic_duplicate_review": "passed"},
+    "format_and_required_sections": "passed",
+    "reddit_waiver_labels": 10
+  },
+  "tests": {
+    "local_unit_tests": {"count": 110, "result": "passed"},
+    "github_actions": {
+      "run_id": 42322093355,
+      "run_url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/42322093355",
+      "overall": "failure",
+      "publication_validator": "passed",
+      "negative_recovery_tests": "passed",
+      "append_only_integrity_step": "failed",
+      "failure": "2026-11-06: duplicate music resource",
+      "classification": "historical unrelated backlog; current news/youtube/reddit validation passed"
+    }
+  },
+  "source_checks": {
+    "news": {"MIIT": "primary source verified 2026-11-06", "EU_TikTok_DSA": "primary source verified; preliminary finding", "IEA_Renewables_2026": "primary source and executive summary verified", "Reuters_advanced_packaging": "Reuters report verified"},
+    "youtube": {"final_count": 5, "verification_method": "creator_official_page", "identity_and_content": "verified", "full_playback_and_regional_access": "not_tested"},
+    "reddit": {"final_count": 10, "original_post_verification": "not_performed_user_waived", "assessment_scope": "accessible search information; comments and discussion quality not claimed"}
+  },
+  "errors": [
+    {"scope": "local QA invocation", "type": "stale_observation_file", "effect": "planner initially reported blocked; no write occurred", "recovery": "created fresh post-write observations and reran; artifacts_match"},
+    {"scope": "local unit-test invocation", "type": "missing PYTHONPATH", "effect": "imports failed before tests ran", "recovery": "reran with PYTHONPATH=scripts; 110 tests passed"}
+  ],
+  "http_or_transport_errors": [],
+  "result": "publication_complete_current_gates_passed_with_unrelated_historical_ci_backlog"
+}

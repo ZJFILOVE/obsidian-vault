@@ -1,0 +1,1129 @@
+{
+  "schema_version": 1,
+  "project": "news-youtube-reddit",
+  "date": "2026-11-07",
+  "operation_id": "news-youtube-reddit:2026-11-07",
+  "status": "passed_current_publication_gates",
+  "recorded_at": "2026-11-07T01:10:18Z",
+  "bundle": {
+    "path": ".recommendation/transactions/news-youtube-reddit/2026-11-07.json",
+    "creation_commit": "97092f429f15761c7a293223a842fdb572c9417f",
+    "bundle_sha256": "2c483bc62fe8ccdf2e6317bc9b631f3a7ea471daafbbf7c76cfd31131996deb5",
+    "plan_sha256": "b9bdd881127eb2c9684b6a20d89e5fd035818e9eeb6fd62243bec30e9a1ed4f4"
+  },
+  "publication": {
+    "commit": "ab174c6233f3c302d38591faf906562c38bcd1e9",
+    "tree": "b07159496617087bcb5297b487b1d94e95c6f797",
+    "parent": "1b8286065ccd328a2af055e93b6a0eb97b54a23d",
+    "receipt_path": ".recommendation/transaction-runs/news-youtube-reddit/2026-11-07/publish-20261107T011018Z.json",
+    "receipt_commit": "b7cc200fc19bfe239da34f1cb62401b9046120dd",
+    "readbacks": {
+      "News/Daily/2026-11-07.md": "1a8a5021b582e4e3d3b54eb595ef0ca8b8b00d2b",
+      "Resources/YouTube/Daily/2026-11-07.md": "8c005f0922379d6110d9f84ab3c4f06e2ba90b3d",
+      "Resources/Reddit/Daily/2026-11-07.md": "7b4c5c95a6fc6c79e07498c7d45c8f2ceb55a638",
+      ".recommendation/history/youtube.jsonl": "ec10b557ace2da1de96d789afe75b2490a293ba9",
+      ".recommendation/history/reddit.jsonl": "490ca8ade5db4da9b5e11d7100ba6643bc6a3785"
+    }
+  },
+  "candidate_evidence": {
+    "observed_at": "2026-11-07T00:00:00Z",
+    "youtube_candidate_count": 34,
+    "reddit_candidate_count": 44,
+    "youtube": [
+      {
+        "video_id": "VFtaFny9bU4",
+        "url": "https://www.youtube.com/watch?v=VFtaFny9bU4",
+        "title_observed": "Crystals and lasers – Semiconductors, superconductors and catalysts (1987)",
+        "evidence_source": "Royal Institution official lecture page plus first-party metadata",
+        "permanent_history_conflict": false,
+        "disposition": "selected",
+        "evidence_scope": "exact ID and title retained"
+      },
+      {
+        "video_id": "DLE-ieOVFjI",
+        "url": "https://www.youtube.com/watch?v=DLE-ieOVFjI",
+        "title_observed": "Young's Modulus and the Stress-Strain Curve",
+        "evidence_source": "first-party YouTube metadata observed before route challenge",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID and title retained"
+      },
+      {
+        "video_id": "do6xydtcVPk",
+        "url": "https://www.youtube.com/watch?v=do6xydtcVPk",
+        "title_observed": "The BBC Microcomputer",
+        "evidence_source": "first-party YouTube metadata observed before route challenge",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID and title retained"
+      },
+      {
+        "video_id": "CpXaH77B8xg",
+        "url": "https://www.youtube.com/watch?v=CpXaH77B8xg",
+        "title_observed": "What is an Algorithm?",
+        "evidence_source": "first-party YouTube metadata observed before route challenge",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID and title retained"
+      },
+      {
+        "video_id": "WUvTyaaNkzM",
+        "url": "https://www.youtube.com/watch?v=WUvTyaaNkzM",
+        "title_observed": "The essence of calculus",
+        "evidence_source": "3Blue1Brown official lesson plus first-party metadata",
+        "permanent_history_conflict": false,
+        "disposition": "selected",
+        "evidence_scope": "exact ID and title retained"
+      },
+      {
+        "video_id": "fNk_zzaMoSs",
+        "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs",
+        "title_observed": "Vectors, what even are they?",
+        "evidence_source": "first-party YouTube metadata observed before route challenge",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID and title retained"
+      },
+      {
+        "video_id": "0LGcr0xIcGs",
+        "url": "https://www.youtube.com/watch?v=0LGcr0xIcGs",
+        "title_observed": "Deep Look series introduction",
+        "evidence_source": "first-party YouTube metadata observed before route challenge",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID and title retained"
+      },
+      {
+        "video_id": "H6_E6C_e_fg",
+        "url": "https://www.youtube.com/watch?v=H6_E6C_e_fg",
+        "title_observed": "Ferrocene - Periodic Table of Videos",
+        "evidence_source": "Periodic Videos official page plus first-party metadata",
+        "permanent_history_conflict": false,
+        "disposition": "selected",
+        "evidence_scope": "exact ID and title retained"
+      },
+      {
+        "video_id": "DgVyzPgOhXI",
+        "url": "https://www.youtube.com/watch?v=DgVyzPgOhXI",
+        "title_observed": "Periodic Videos Q&A",
+        "evidence_source": "first-party YouTube metadata observed before route challenge",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID and title retained"
+      },
+      {
+        "video_id": "p_o4aY7xkXg",
+        "url": "https://www.youtube.com/watch?v=p_o4aY7xkXg",
+        "title_observed": "What is Gravity?",
+        "evidence_source": "first-party YouTube metadata observed before route challenge",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID and title retained"
+      },
+      {
+        "video_id": "7KYTJ8tBoZ8",
+        "url": "https://www.youtube.com/watch?v=7KYTJ8tBoZ8",
+        "title_observed": "minutephysics narrated short",
+        "evidence_source": "first-party YouTube metadata observed before route challenge",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID and title retained"
+      },
+      {
+        "video_id": "w2iTCm0xpDc",
+        "url": "https://www.youtube.com/watch?v=w2iTCm0xpDc",
+        "title_observed": "A better description of entropy",
+        "evidence_source": "first-party YouTube metadata observed before route challenge",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID and title retained"
+      },
+      {
+        "video_id": "0onncd0_0-o",
+        "url": "https://www.youtube.com/watch?v=0onncd0_0-o",
+        "title_observed": "Tensegrity",
+        "evidence_source": "first-party YouTube metadata observed before route challenge",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID and title retained"
+      },
+      {
+        "video_id": "_9OWTt-6YkY",
+        "url": "https://www.youtube.com/watch?v=_9OWTt-6YkY",
+        "title_observed": "What History is NOT",
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "selected",
+        "evidence_scope": "exact ID and title retained"
+      },
+      {
+        "video_id": "QXCUhNH9CCU",
+        "url": "https://www.youtube.com/watch?v=QXCUhNH9CCU",
+        "title_observed": null,
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID retained; rejected before full title verification"
+      },
+      {
+        "video_id": "UJlO7EYSGA0",
+        "url": "https://www.youtube.com/watch?v=UJlO7EYSGA0",
+        "title_observed": "Rethinking Deterrence for a Disrupted World",
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID and title retained"
+      },
+      {
+        "video_id": "oP8MJVSvqs4",
+        "url": "https://www.youtube.com/watch?v=oP8MJVSvqs4",
+        "title_observed": "How True Stories Make Us Care",
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID and title retained"
+      },
+      {
+        "video_id": "UWXLo4WmobY",
+        "url": "https://www.youtube.com/watch?v=UWXLo4WmobY",
+        "title_observed": "Plato on Truth, Lies and Power",
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID and title retained"
+      },
+      {
+        "video_id": "7CB16d27tS4",
+        "url": "https://www.youtube.com/watch?v=7CB16d27tS4",
+        "title_observed": null,
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID retained; rejected before full title verification"
+      },
+      {
+        "video_id": "PfdoyIWdmRU",
+        "url": "https://www.youtube.com/watch?v=PfdoyIWdmRU",
+        "title_observed": null,
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID retained; rejected before full title verification"
+      },
+      {
+        "video_id": "5uQWglAwlps",
+        "url": "https://www.youtube.com/watch?v=5uQWglAwlps",
+        "title_observed": null,
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID retained; rejected before full title verification"
+      },
+      {
+        "video_id": "U3eDmVolcyA",
+        "url": "https://www.youtube.com/watch?v=U3eDmVolcyA",
+        "title_observed": null,
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID retained; rejected before full title verification"
+      },
+      {
+        "video_id": "b7r8WTYzwok",
+        "url": "https://www.youtube.com/watch?v=b7r8WTYzwok",
+        "title_observed": null,
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID retained; rejected before full title verification"
+      },
+      {
+        "video_id": "KaN1TCGMvmg",
+        "url": "https://www.youtube.com/watch?v=KaN1TCGMvmg",
+        "title_observed": null,
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID retained; rejected before full title verification"
+      },
+      {
+        "video_id": "BRsM6oMrzHI",
+        "url": "https://www.youtube.com/watch?v=BRsM6oMrzHI",
+        "title_observed": null,
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID retained; rejected before full title verification"
+      },
+      {
+        "video_id": "O-XSNrkTnF0",
+        "url": "https://www.youtube.com/watch?v=O-XSNrkTnF0",
+        "title_observed": null,
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID retained; rejected before full title verification"
+      },
+      {
+        "video_id": "k5FGiUmyGFU",
+        "url": "https://www.youtube.com/watch?v=k5FGiUmyGFU",
+        "title_observed": null,
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID retained; rejected before full title verification"
+      },
+      {
+        "video_id": "n0S4pmnxYxE",
+        "url": "https://www.youtube.com/watch?v=n0S4pmnxYxE",
+        "title_observed": null,
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID retained; rejected before full title verification"
+      },
+      {
+        "video_id": "JNPO-UskAUM",
+        "url": "https://www.youtube.com/watch?v=JNPO-UskAUM",
+        "title_observed": null,
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID retained; rejected before full title verification"
+      },
+      {
+        "video_id": "JfTaXRFV7EA",
+        "url": "https://www.youtube.com/watch?v=JfTaXRFV7EA",
+        "title_observed": null,
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID retained; rejected before full title verification"
+      },
+      {
+        "video_id": "J-d74TWJxwM",
+        "url": "https://www.youtube.com/watch?v=J-d74TWJxwM",
+        "title_observed": null,
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID retained; rejected before full title verification"
+      },
+      {
+        "video_id": "0hUVoAo2Lws",
+        "url": "https://www.youtube.com/watch?v=0hUVoAo2Lws",
+        "title_observed": null,
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID retained; rejected before full title verification"
+      },
+      {
+        "video_id": "YcYmbcwmRwQ",
+        "url": "https://www.youtube.com/watch?v=YcYmbcwmRwQ",
+        "title_observed": null,
+        "evidence_source": "Gresham College official lecture page with exact embedded ID",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix",
+        "evidence_scope": "exact ID retained; rejected before full title verification"
+      },
+      {
+        "video_id": "-XnRq_NZzac",
+        "url": "https://www.youtube.com/watch?v=-XnRq_NZzac",
+        "title_observed": "Smithson to Smithsonian: The Legacy of James Smithson",
+        "evidence_source": "Smithsonian official object page",
+        "permanent_history_conflict": false,
+        "disposition": "selected",
+        "evidence_scope": "exact ID and title retained"
+      }
+    ],
+    "reddit": [
+      {
+        "title": "How did technology and society develop and change so fast from about the 18th century onwards?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/ckq5v4",
+        "subreddit": "AskHistorians",
+        "post_id": "ckq5v4",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Q&A weekly thread - June 08, 2026 - post all questions here!",
+        "url": "https://www.reddit.com/r/linguistics/comments/1u04lgj/qa_weekly_thread_june_08_2026_post_all_questions/",
+        "subreddit": "linguistics",
+        "post_id": "1u04lgj",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Q&A weekly thread - July 27, 2026 - post all questions here!",
+        "url": "https://www.reddit.com/r/linguistics/comments/1v7x3ij/qa_weekly_thread_july_27_2026_post_all_questions/",
+        "subreddit": "linguistics",
+        "post_id": "1v7x3ij",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Q&A weekly thread - May 25, 2026 - post all questions here!",
+        "url": "https://www.reddit.com/r/linguistics/comments/1tn5r4p/qa_weekly_thread_may_25_2026_post_all_questions/",
+        "subreddit": "linguistics",
+        "post_id": "1tn5r4p",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Q&A weekly thread - May 18, 2026 - post all questions here!",
+        "url": "https://www.reddit.com/r/linguistics/comments/1tgj4oe/qa_weekly_thread_may_18_2026_post_all_questions/",
+        "subreddit": "linguistics",
+        "post_id": "1tgj4oe",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "How did science change from something done by a few individuals to something carried out by massive institutions?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/r7gaev",
+        "subreddit": "AskHistorians",
+        "post_id": "r7gaev",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "selected"
+      },
+      {
+        "title": "Q&A weekly thread - June 29, 2026 - post all questions here!",
+        "url": "https://www.reddit.com/r/linguistics/comments/1uipaho/qa_weekly_thread_june_29_2026_post_all_questions/",
+        "subreddit": "linguistics",
+        "post_id": "1uipaho",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "How can I easily explain that a living language can't be older than another one?",
+        "url": "https://www.reddit.com/r/asklinguistics/comments/1nae7bx",
+        "subreddit": "asklinguistics",
+        "post_id": "1nae7bx",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "selected"
+      },
+      {
+        "title": "Q&A weekly thread - November 10, 2025 - post all questions here!",
+        "url": "https://www.reddit.com/r/linguistics/comments/1otbx3p/qa_weekly_thread_november_10_2025_post_all/",
+        "subreddit": "linguistics",
+        "post_id": "1otbx3p",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Q&A weekly thread - November 03, 2025 - post all questions here!",
+        "url": "https://www.reddit.com/r/linguistics/comments/1on9ve6/qa_weekly_thread_november_03_2025_post_all/",
+        "subreddit": "linguistics",
+        "post_id": "1on9ve6",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Q&A weekly thread - May 11, 2026 - post all questions here!",
+        "url": "https://www.reddit.com/r/linguistics/comments/1t9zvao/qa_weekly_thread_may_11_2026_post_all_questions/",
+        "subreddit": "linguistics",
+        "post_id": "1t9zvao",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "This week's Q&A thread -- post all questions here! - September 11, 2023",
+        "url": "https://www.reddit.com/r/linguistics/comments/16fscl4",
+        "subreddit": "linguistics",
+        "post_id": "16fscl4",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Workflow",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1sh1tle/workflow/",
+        "subreddit": "ObsidianMD",
+        "post_id": "1sh1tle",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": true,
+        "disposition": "rejected_permanent_history"
+      },
+      {
+        "title": "Want to use obsidian to take my notes for university, overwhelmed by all it if, how do i start?",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1wi3hf6/want_to_use_obsidian_to_take_my_notes_for/",
+        "subreddit": "ObsidianMD",
+        "post_id": "1wi3hf6",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "selected"
+      },
+      {
+        "title": "This is my 4yo vault, AMA",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1ufwaok/this_is_my_4yo_vault_ama/",
+        "subreddit": "ObsidianMD",
+        "post_id": "1ufwaok",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "How do you know what each ingredients does?",
+        "url": "https://www.reddit.com/r/cookingforbeginners/comments/1wu4pu9/how_do_you_know_what_each_ingredients_does/",
+        "subreddit": "cookingforbeginners",
+        "post_id": "1wu4pu9",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "selected"
+      },
+      {
+        "title": "has anyone genuinely felt like they’ve learnt more on any topic/your field of work/study since using obsidian? how and why?",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1bjght3/has_anyone_genuinely_felt_like_theyve_learnt_more/",
+        "subreddit": "ObsidianMD",
+        "post_id": "1bjght3",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Obsidian to manage almost all my life?",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1weexqm/obsidian_to_manage_almost_all_my_life/",
+        "subreddit": "ObsidianMD",
+        "post_id": "1weexqm",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Daily notes - a love/hate relationship",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1p0dkpl/daily_notes_a_lovehate_relationship/",
+        "subreddit": "ObsidianMD",
+        "post_id": "1p0dkpl",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "How do you integrate your reading notes into actual “procedures” that improve how you work?",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/127n3vy",
+        "subreddit": "ObsidianMD",
+        "post_id": "127n3vy",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Looking for better ways to use obsidian",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1c386hc",
+        "subreddit": "ObsidianMD",
+        "post_id": "1c386hc",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "non-content creation professionals: how do you use notes you takes?",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1c4puye",
+        "subreddit": "ObsidianMD",
+        "post_id": "1c4puye",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "I Know I'd love obsidian, but i keep hitting the same roadblocks",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1uligz1/i_know_id_love_obsidian_but_i_keep_hitting_the/",
+        "subreddit": "ObsidianMD",
+        "post_id": "1uligz1",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "help in revisiting my notes",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1k5zwf1",
+        "subreddit": "ObsidianMD",
+        "post_id": "1k5zwf1",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Monthly Rock & Mineral Identification Requests",
+        "url": "https://www.reddit.com/r/geology/comments/1w3vma6/monthly_rock_mineral_identification_requests/",
+        "subreddit": "geology",
+        "post_id": "1w3vma6",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Monthly Rock & Mineral Identification Requests",
+        "url": "https://www.reddit.com/r/geology/comments/1wuksft/monthly_rock_mineral_identification_requests/",
+        "subreddit": "geology",
+        "post_id": "1wuksft",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "New Rules Regarding Rock Identification Posts - PLEASE READ BEFORE SUBMITTING",
+        "url": "https://www.reddit.com/r/geology/comments/fjgawq",
+        "subreddit": "geology",
+        "post_id": "fjgawq",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Monthly Rock & Mineral Identification Requests",
+        "url": "https://www.reddit.com/r/geology/comments/1paxmjn/monthly_rock_mineral_identification_requests/",
+        "subreddit": "geology",
+        "post_id": "1paxmjn",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Monthly Rock & Mineral Identification Requests",
+        "url": "https://www.reddit.com/r/geology/comments/1n5a0fv",
+        "subreddit": "geology",
+        "post_id": "1n5a0fv",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Monthly Rock & Mineral Identification Requests",
+        "url": "https://www.reddit.com/r/geology/comments/1uk5wnh/monthly_rock_mineral_identification_requests/",
+        "subreddit": "geology",
+        "post_id": "1uk5wnh",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Monthly Rock & Mineral Identification Requests",
+        "url": "https://www.reddit.com/r/geology/comments/1ggspz2",
+        "subreddit": "geology",
+        "post_id": "1ggspz2",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "A change to how we'll take identification requests",
+        "url": "https://www.reddit.com/r/geology/comments/mt62qw",
+        "subreddit": "geology",
+        "post_id": "mt62qw",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "How hard was it for you, in the early days, to understand nuances like grain direction/orientation in woodworking?",
+        "url": "https://www.reddit.com/r/woodworking/comments/1v31ds8/how_hard_was_it_for_you_in_the_early_days_to/",
+        "subreddit": "woodworking",
+        "post_id": "1v31ds8",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "selected"
+      },
+      {
+        "title": "Monthly Rock & Mineral Identification Requests",
+        "url": "https://www.reddit.com/r/geology/comments/1hqr9kr",
+        "subreddit": "geology",
+        "post_id": "1hqr9kr",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Monthly Rock & Mineral Identification Requests",
+        "url": "https://www.reddit.com/r/geology/comments/1bsp48s",
+        "subreddit": "geology",
+        "post_id": "1bsp48s",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Monthly Rock & Mineral Identification Requests",
+        "url": "https://www.reddit.com/r/geology/comments/1h3q2j0",
+        "subreddit": "geology",
+        "post_id": "1h3q2j0",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Why is Quantum Mechanics almost uniquely notorious for being \"non-intuitive\" despite most physics being non-intuitive to a layman?",
+        "url": "https://www.reddit.com/r/Physics/comments/1qtsnrt/why_is_quantum_mechanics_almost_uniquely/",
+        "subreddit": "Physics",
+        "post_id": "1qtsnrt",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": true,
+        "disposition": "rejected_permanent_history"
+      },
+      {
+        "title": "Why is quantum physics so different?",
+        "url": "https://www.reddit.com/r/AskPhysics/comments/1p6xma1/why_is_quantum_physics_so_different/",
+        "subreddit": "AskPhysics",
+        "post_id": "1p6xma1",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": true,
+        "disposition": "rejected_permanent_history"
+      },
+      {
+        "title": "Is intuition really that important in physics? (gravitation)",
+        "url": "https://www.reddit.com/r/AskPhysics/comments/1wrnsj9/is_intuition_really_that_important_in_physics/",
+        "subreddit": "AskPhysics",
+        "post_id": "1wrnsj9",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "rejected_after_scoring_or_mix"
+      },
+      {
+        "title": "Why Relativity and Quantum physics don't mix well?",
+        "url": "https://www.reddit.com/r/AskPhysics/comments/1k6lset/why_relativity_and_quantum_physics_dont_mix_well/",
+        "subreddit": "AskPhysics",
+        "post_id": "1k6lset",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "selected"
+      },
+      {
+        "post_id": "1pelxg7",
+        "title": "ELI5: how did 350 degrees become such a standard in all thing baking and roasting etc…?",
+        "subreddit": "explainlikeimfive",
+        "url": "https://www.reddit.com/r/explainlikeimfive/comments/1pelxg7/eli5_how_did_350_degrees_become_such_a_standard/",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "selected"
+      },
+      {
+        "post_id": "hckhww",
+        "title": "Anti Vibration Pads for bed due to noisy neighbours below",
+        "subreddit": "AskEngineers",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/hckhww/anti_vibration_pads_for_bed_due_to_noisy/",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "selected"
+      },
+      {
+        "post_id": "uj14lu",
+        "title": "[OC] Water on Mars: Ancient Floods of Kasei Valles",
+        "subreddit": "dataisbeautiful",
+        "url": "https://www.reddit.com/r/dataisbeautiful/comments/uj14lu/oc_water_on_mars_ancient_floods_of_kasei_valles/",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "selected"
+      },
+      {
+        "post_id": "136qxdu",
+        "title": "Relative newbie help with plywood cutting",
+        "subreddit": "woodworking",
+        "url": "https://www.reddit.com/r/woodworking/comments/136qxdu/relative_newbie_help_with_plywood_cutting/",
+        "evidence_source": "accessible search result",
+        "permanent_history_conflict": false,
+        "disposition": "selected"
+      }
+    ]
+  },
+  "final_selection": {
+    "youtube": [
+      {
+        "date": "2026-11-07",
+        "operation_id": "news-youtube-reddit:2026-11-07",
+        "position": 1,
+        "title": "Crystals and lasers – Semiconductors, superconductors and catalysts (1987)",
+        "video_id": "VFtaFny9bU4",
+        "channel": "The Royal Institution",
+        "url": "https://www.youtube.com/watch?v=VFtaFny9bU4",
+        "verification_source_url": "https://www.rigb.org/explore-science/explore/video/crystals-and-lasers-semiconductors-superconductors-and-catalysts-1987",
+        "verification_method": "creator_official_page"
+      },
+      {
+        "date": "2026-11-07",
+        "operation_id": "news-youtube-reddit:2026-11-07",
+        "position": 2,
+        "title": "The essence of calculus",
+        "video_id": "WUvTyaaNkzM",
+        "channel": "3Blue1Brown",
+        "url": "https://www.youtube.com/watch?v=WUvTyaaNkzM",
+        "verification_source_url": "https://www.3blue1brown.com/lessons/essence-of-calculus/",
+        "verification_method": "creator_official_page"
+      },
+      {
+        "date": "2026-11-07",
+        "operation_id": "news-youtube-reddit:2026-11-07",
+        "position": 3,
+        "title": "Ferrocene - Periodic Table of Videos",
+        "video_id": "H6_E6C_e_fg",
+        "channel": "Periodic Videos",
+        "url": "https://www.youtube.com/watch?v=H6_E6C_e_fg",
+        "verification_source_url": "https://periodicvideos.com/schools.htm",
+        "verification_method": "creator_official_page"
+      },
+      {
+        "date": "2026-11-07",
+        "operation_id": "news-youtube-reddit:2026-11-07",
+        "position": 4,
+        "title": "What History is NOT",
+        "video_id": "_9OWTt-6YkY",
+        "channel": "Gresham College",
+        "url": "https://www.youtube.com/watch?v=_9OWTt-6YkY",
+        "verification_source_url": "https://www.gresham.ac.uk/watch-now/history-not",
+        "verification_method": "creator_official_page"
+      },
+      {
+        "date": "2026-11-07",
+        "operation_id": "news-youtube-reddit:2026-11-07",
+        "position": 5,
+        "title": "Smithson to Smithsonian: The Legacy of James Smithson",
+        "video_id": "-XnRq_NZzac",
+        "channel": "Smithsonian Libraries",
+        "url": "https://www.youtube.com/watch?v=-XnRq_NZzac",
+        "verification_source_url": "https://www.si.edu/object/smithson-smithsonian-legacy-james-smithson%3Ayt_-XnRq_NZzac",
+        "verification_method": "creator_official_page"
+      }
+    ],
+    "reddit": [
+      {
+        "date": "2026-11-07",
+        "operation_id": "news-youtube-reddit:2026-11-07",
+        "position": 1,
+        "title": "How did science change from something done by a few individuals to something carried out by massive institutions?",
+        "post_id": "r7gaev",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/r7gaev",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "date": "2026-11-07",
+        "operation_id": "news-youtube-reddit:2026-11-07",
+        "position": 2,
+        "title": "How can I easily explain that a living language can't be older than another one?",
+        "post_id": "1nae7bx",
+        "subreddit": "asklinguistics",
+        "url": "https://www.reddit.com/r/asklinguistics/comments/1nae7bx",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "date": "2026-11-07",
+        "operation_id": "news-youtube-reddit:2026-11-07",
+        "position": 3,
+        "title": "Why Relativity and Quantum physics don't mix well?",
+        "post_id": "1k6lset",
+        "subreddit": "AskPhysics",
+        "url": "https://www.reddit.com/r/AskPhysics/comments/1k6lset/why_relativity_and_quantum_physics_dont_mix_well/",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "date": "2026-11-07",
+        "operation_id": "news-youtube-reddit:2026-11-07",
+        "position": 4,
+        "title": "How do you know what each ingredients does?",
+        "post_id": "1wu4pu9",
+        "subreddit": "cookingforbeginners",
+        "url": "https://www.reddit.com/r/cookingforbeginners/comments/1wu4pu9/how_do_you_know_what_each_ingredients_does/",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "date": "2026-11-07",
+        "operation_id": "news-youtube-reddit:2026-11-07",
+        "position": 5,
+        "title": "How hard was it for you, in the early days, to understand nuances like grain direction/orientation in woodworking?",
+        "post_id": "1v31ds8",
+        "subreddit": "woodworking",
+        "url": "https://www.reddit.com/r/woodworking/comments/1v31ds8/how_hard_was_it_for_you_in_the_early_days_to/",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "date": "2026-11-07",
+        "operation_id": "news-youtube-reddit:2026-11-07",
+        "position": 6,
+        "title": "Want to use obsidian to take my notes for university, overwhelmed by all it if, how do i start?",
+        "post_id": "1wi3hf6",
+        "subreddit": "ObsidianMD",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1wi3hf6/want_to_use_obsidian_to_take_my_notes_for/",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "date": "2026-11-07",
+        "operation_id": "news-youtube-reddit:2026-11-07",
+        "position": 7,
+        "title": "ELI5: how did 350 degrees become such a standard in all thing baking and roasting etc…?",
+        "post_id": "1pelxg7",
+        "subreddit": "explainlikeimfive",
+        "url": "https://www.reddit.com/r/explainlikeimfive/comments/1pelxg7/eli5_how_did_350_degrees_become_such_a_standard/",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "date": "2026-11-07",
+        "operation_id": "news-youtube-reddit:2026-11-07",
+        "position": 8,
+        "title": "Anti Vibration Pads for bed due to noisy neighbours below",
+        "post_id": "hckhww",
+        "subreddit": "AskEngineers",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/hckhww/anti_vibration_pads_for_bed_due_to_noisy/",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "date": "2026-11-07",
+        "operation_id": "news-youtube-reddit:2026-11-07",
+        "position": 9,
+        "title": "[OC] Water on Mars: Ancient Floods of Kasei Valles",
+        "post_id": "uj14lu",
+        "subreddit": "dataisbeautiful",
+        "url": "https://www.reddit.com/r/dataisbeautiful/comments/uj14lu/oc_water_on_mars_ancient_floods_of_kasei_valles/",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "date": "2026-11-07",
+        "operation_id": "news-youtube-reddit:2026-11-07",
+        "position": 10,
+        "title": "Relative newbie help with plywood cutting",
+        "post_id": "136qxdu",
+        "subreddit": "woodworking",
+        "url": "https://www.reddit.com/r/woodworking/comments/136qxdu/relative_newbie_help_with_plywood_cutting/",
+        "original_post_verification": "not_performed_user_waived"
+      }
+    ]
+  },
+  "source_verification": {
+    "youtube": [
+      {
+        "video_id": "VFtaFny9bU4",
+        "verification_method": "creator_official_page",
+        "official_page": "https://www.rigb.org/explore-science/explore/video/crystals-and-lasers-semiconductors-superconductors-and-catalysts-1987",
+        "verified_scope": "exact ID/title/creator and substantive official-page content",
+        "full_playback_accessibility": "not_tested"
+      },
+      {
+        "video_id": "WUvTyaaNkzM",
+        "verification_method": "creator_official_page",
+        "official_page": "https://www.3blue1brown.com/lessons/essence-of-calculus/",
+        "verified_scope": "exact ID/title/creator and substantive official-page content",
+        "full_playback_accessibility": "not_tested"
+      },
+      {
+        "video_id": "H6_E6C_e_fg",
+        "verification_method": "creator_official_page",
+        "official_page": "https://periodicvideos.com/schools.htm",
+        "verified_scope": "exact ID/title/creator and substantive official-page content",
+        "full_playback_accessibility": "not_tested"
+      },
+      {
+        "video_id": "_9OWTt-6YkY",
+        "verification_method": "creator_official_page",
+        "official_page": "https://www.gresham.ac.uk/watch-now/history-not",
+        "verified_scope": "exact ID/title/creator and substantive official-page content",
+        "full_playback_accessibility": "not_tested"
+      },
+      {
+        "video_id": "-XnRq_NZzac",
+        "verification_method": "creator_official_page",
+        "official_page": "https://www.si.edu/object/smithson-smithsonian-legacy-james-smithson%3Ayt_-XnRq_NZzac",
+        "verified_scope": "exact ID/title/creator and substantive official-page content",
+        "full_playback_accessibility": "not_tested"
+      }
+    ],
+    "reddit": [
+      {
+        "post_id": "r7gaev",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/r7gaev",
+        "original_post_verification": "not_performed_user_waived",
+        "assessment_scope": "accessible search information only; no claims about comments, current accessibility, or discussion quality"
+      },
+      {
+        "post_id": "1nae7bx",
+        "url": "https://www.reddit.com/r/asklinguistics/comments/1nae7bx",
+        "original_post_verification": "not_performed_user_waived",
+        "assessment_scope": "accessible search information only; no claims about comments, current accessibility, or discussion quality"
+      },
+      {
+        "post_id": "1k6lset",
+        "url": "https://www.reddit.com/r/AskPhysics/comments/1k6lset/why_relativity_and_quantum_physics_dont_mix_well/",
+        "original_post_verification": "not_performed_user_waived",
+        "assessment_scope": "accessible search information only; no claims about comments, current accessibility, or discussion quality"
+      },
+      {
+        "post_id": "1wu4pu9",
+        "url": "https://www.reddit.com/r/cookingforbeginners/comments/1wu4pu9/how_do_you_know_what_each_ingredients_does/",
+        "original_post_verification": "not_performed_user_waived",
+        "assessment_scope": "accessible search information only; no claims about comments, current accessibility, or discussion quality"
+      },
+      {
+        "post_id": "1v31ds8",
+        "url": "https://www.reddit.com/r/woodworking/comments/1v31ds8/how_hard_was_it_for_you_in_the_early_days_to/",
+        "original_post_verification": "not_performed_user_waived",
+        "assessment_scope": "accessible search information only; no claims about comments, current accessibility, or discussion quality"
+      },
+      {
+        "post_id": "1wi3hf6",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1wi3hf6/want_to_use_obsidian_to_take_my_notes_for/",
+        "original_post_verification": "not_performed_user_waived",
+        "assessment_scope": "accessible search information only; no claims about comments, current accessibility, or discussion quality"
+      },
+      {
+        "post_id": "1pelxg7",
+        "url": "https://www.reddit.com/r/explainlikeimfive/comments/1pelxg7/eli5_how_did_350_degrees_become_such_a_standard/",
+        "original_post_verification": "not_performed_user_waived",
+        "assessment_scope": "accessible search information only; no claims about comments, current accessibility, or discussion quality"
+      },
+      {
+        "post_id": "hckhww",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/hckhww/anti_vibration_pads_for_bed_due_to_noisy/",
+        "original_post_verification": "not_performed_user_waived",
+        "assessment_scope": "accessible search information only; no claims about comments, current accessibility, or discussion quality"
+      },
+      {
+        "post_id": "uj14lu",
+        "url": "https://www.reddit.com/r/dataisbeautiful/comments/uj14lu/oc_water_on_mars_ancient_floods_of_kasei_valles/",
+        "original_post_verification": "not_performed_user_waived",
+        "assessment_scope": "accessible search information only; no claims about comments, current accessibility, or discussion quality"
+      },
+      {
+        "post_id": "136qxdu",
+        "url": "https://www.reddit.com/r/woodworking/comments/136qxdu/relative_newbie_help_with_plywood_cutting/",
+        "original_post_verification": "not_performed_user_waived",
+        "assessment_scope": "accessible search information only; no claims about comments, current accessibility, or discussion quality"
+      }
+    ],
+    "news": [
+      {
+        "topic": "China agentic-terminal network-access regulation",
+        "event_date": "2026-10-24; published 2026-11-06",
+        "sources": [
+          "https://www.miit.gov.cn/jgsj/xgj/gzdt/art/2026/art_210e15c2c8184bee9d3240f8a13b7401.html",
+          "https://www.miit.gov.cn/zwgk/zcjd/art/2026/art_7ebf90533ca74af78542c70d3adaabb9.html"
+        ],
+        "verification": "primary sources read"
+      },
+      {
+        "topic": "EU preliminary TikTok DSA rabbit-hole finding",
+        "event_date": "2026-11-06",
+        "sources": [
+          "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes"
+        ],
+        "verification": "European Commission primary release read; preliminary status retained"
+      },
+      {
+        "topic": "IEA Renewables 2026 grid/storage/permitting constraints",
+        "event_date": "2026-11-06",
+        "sources": [
+          "https://www.iea.org/reports/renewables-2026",
+          "https://www.iea.org/reports/renewables-2026/executive-summary",
+          "https://unfccc.int/cop31/schedule"
+        ],
+        "verification": "IEA primary report and executive summary read; UNFCCC schedule checked"
+      },
+      {
+        "topic": "AI demand and advanced-packaging bottleneck",
+        "event_date": "2026-11-06",
+        "sources": [
+          "https://www.reuters.com/world/asia-pacific/ai-boom-turns-chip-packaging-into-next-battleground-semiconductors-2026-11-06/"
+        ],
+        "verification": "Reuters report read; attributed industry numbers retained as reporting"
+      }
+    ]
+  },
+  "diversity_and_quality": {
+    "youtube_wildcards": 1,
+    "reddit_wildcards": 2,
+    "youtube_max_narrow_topic_share": 0.4,
+    "reddit_max_narrow_topic_share": 0.2,
+    "semantic_duplicate_review": "passed"
+  },
+  "qa": {
+    "status": "passed_current_publication_qa",
+    "date": "2026-11-07",
+    "operation_id": "news-youtube-reddit:2026-11-07",
+    "counts": {
+      "youtube_candidates": 34,
+      "reddit_candidates": 44,
+      "youtube_selected": 5,
+      "reddit_selected": 10,
+      "news_stories": 4
+    },
+    "ordered_ids": {
+      "youtube": [
+        "VFtaFny9bU4",
+        "WUvTyaaNkzM",
+        "H6_E6C_e_fg",
+        "_9OWTt-6YkY",
+        "-XnRq_NZzac"
+      ],
+      "reddit": [
+        "r7gaev",
+        "1nae7bx",
+        "1k6lset",
+        "1wu4pu9",
+        "1v31ds8",
+        "1wi3hf6",
+        "1pelxg7",
+        "hckhww",
+        "uj14lu",
+        "136qxdu"
+      ]
+    },
+    "freshness": {
+      "against_original_preselection_history": "passed",
+      "youtube_base_rows": 280,
+      "reddit_base_rows": 540
+    },
+    "history": {
+      "append_only_prefix": "passed",
+      "exact_once_registration": "passed",
+      "order": "passed"
+    },
+    "format": {
+      "frontmatter": "passed",
+      "auto_markers": "passed",
+      "manual_notes_section": "passed",
+      "required_sections": "passed",
+      "reddit_waiver_labels": 10
+    },
+    "diversity": {
+      "youtube_wildcards": 1,
+      "reddit_wildcards": 2,
+      "youtube_max_narrow_topic_share": 0.4,
+      "reddit_max_narrow_topic_share": 0.2,
+      "semantic_duplicate_review": "passed"
+    },
+    "repository_validator_current_day": {
+      "youtube": "passed",
+      "reddit": "passed"
+    },
+    "digests": {
+      "News-Daily-2026-11-07.md": "61afebe80f0881b23404dc4f19d7f0a55de577144604935ab09ab35453dc88ea",
+      "YouTube-Daily-2026-11-07.md": "4b7cb94caf3f9bbb6969bde536433019b570bd944287166a619edd4faac5b700",
+      "Reddit-Daily-2026-11-07.md": "bf642c3345490dbea0e1fa5ca1ac4df42ebd09c9365cea67a0ef42fbc8951415",
+      "payload-youtube-history.jsonl": "405e8722c0317796141c47e8f8002ae8bd7386c1eead907e259dd418dae8e89a",
+      "payload-reddit-history.jsonl": "04617c23ee28a8e8da96e23637961adb8324c2c30e04780b2d1406991222d9e7"
+    }
+  },
+  "ci": {
+    "run_id": 42322093355,
+    "run_url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/42322093355",
+    "publication_and_history_coverage": "passed",
+    "negative_and_recovery_tests": "passed",
+    "overall": "failure",
+    "unrelated_historical_backlog": "2026-11-06 duplicate music resource"
+  },
+  "check_scope": {
+    "structural_and_history": "passed",
+    "live_source_identity": "passed_for_news_and_youtube_final_selection",
+    "reddit_original_threads": "not_performed_user_waived",
+    "youtube_full_playback_and_regional_access": "not_tested",
+    "device_sync": "not_verified",
+    "notification_delivery": "not_verified"
+  }
+}
