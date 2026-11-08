@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-08",
+  "operation_id": "english:2026-11-08",
+  "attempt": "stage1-20261108T000905Z",
+  "status": "stage_completed",
+  "bundle_sha256": "aead25640d51afc1fd409d468bc063678192d9812df25f7b8a9737d809e4ddc5",
+  "plan_sha256": "be59c9ee1227f993082410b8271c305db69fe674ed09be212754bc8cb157a787",
+  "planner_before_apply": "ready_to_resume",
+  "planner_after_apply": "artifacts_match",
+  "stage": 1,
+  "publication": {
+    "base_head": "39d91e28af166cc0f8a99af93ed4f52e1371dc17",
+    "base_tree": "bd0e31d371276e456b9a88606e5021fbb610983a",
+    "tree": "91d695311fda964582b73eec04462f11df7ab6b4",
+    "commit": "d0abbef5c6e3fcc236a20ea745f63629d669b755",
+    "ref_update": "non_force_expected_head_passed"
+  },
+  "readbacks": {
+    "50-courses/English/Weekly/2026-11-08.md": {
+      "sha": "89fc7b03c4cffe71709c47aef8b94b92608bb2a6",
+      "exact_frozen_payload": true
+    },
+    ".recommendation/history/english.jsonl": {
+      "sha": "32efa303591cfeb20ef13b1ae4483bf0f789a8ef",
+      "exact_frozen_payload": true
+    }
+  },
+  "recovery_events": [
+    {
+      "classification": "409-equivalent lease conflict detected before ref update",
+      "detail": "main advanced from prepared-receipt commit 3722fbf... to journal commit 39d91e2...; no English ref mutation occurred",
+      "resolution": "re-read both English targets, confirmed unchanged frozen baselines, rebuilt tree on the new head, and applied once"
+    }
+  ],
+  "recorded_at_utc": "2026-11-08T00:09:05Z",
+  "limitations": [
+    "artifacts_match is structural recovery status; independent source and teaching QA follow."
+  ]
+}
