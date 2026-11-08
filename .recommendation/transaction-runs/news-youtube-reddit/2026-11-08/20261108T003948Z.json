@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-11-08",
+  "attempt_id": "20261108T003948Z",
+  "started_at": "2026-11-08T00:15:00Z",
+  "recorded_at": "2026-11-08T00:39:48Z",
+  "status": "blocked_before_publication",
+  "prepared_creation": {
+    "path": ".recommendation/transactions/news-youtube-reddit/2026-11-08.json",
+    "commit_sha": "24b72c448040a7c13d3c7471e0a4b4fb954a5fd0",
+    "persisted_blob_sha": "18ec095cf56f73aef6c11aa4713067b93635d425",
+    "expected_local_blob_sha": "841ee2c8543432981e83723a6941c372fcf753d7",
+    "expected_bundle_sha256": "9fd0e0a48830b1f53cb3bc458400d1eb1221412c251140aec18f9931fe1ccfdd",
+    "expected_plan_sha256": "a830123a64fa2d8da659e6e87312e29c60b63208f297bb7286a864839f160457",
+    "readback_exact_match": false,
+    "immutable_record_valid": false
+  },
+  "failure": {
+    "category": "local_connector_handoff_truncation",
+    "http_status": null,
+    "retry_after": null,
+    "detail": "The shell output used as create_file content was truncated by the host. The literal warning and an incomplete bundle were persisted at the immutable transaction path.",
+    "evidence": [
+      "Remote file begins with 'Warning: truncated output (original token count: 51584)'",
+      "Persisted blob SHA differs from the locally computed Git blob SHA for the validated frozen bundle."
+    ],
+    "recovery_decision": "blocked; did not overwrite or delete the existing transaction and did not publish any target payload"
+  },
+  "mutations": [
+    {
+      "kind": "create_malformed_transaction_file",
+      "commit_sha": "24b72c448040a7c13d3c7471e0a4b4fb954a5fd0"
+    }
+  ],
+  "publication_target_writes": [],
+  "history_appends": [],
+  "final_run_written": false,
+  "source_research_completed": true,
+  "candidate_minimums_met": {
+    "youtube": true,
+    "reddit": true
+  },
+  "final_selection_disclosed": false,
+  "notes": "Selection and payloads remain undisclosed because no valid immutable PREPARED bundle was persisted."
+}
