@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "project": "news-youtube-reddit",
+  "date": "2026-11-08",
+  "operation_id": "news-youtube-reddit:2026-11-08",
+  "status": "passed_current_publication_gates",
+  "recorded_at": "2026-11-08T04:27:50.042154Z",
+  "recovery_id": "news-youtube-reddit-2026-11-08-truncation",
+  "bundle": {
+    "path": ".recommendation/transactions/news-youtube-reddit/2026-11-08.json",
+    "creation_commit": "667719555a283ce0d019c6b7f054cf0aee40598d",
+    "bundle_sha256": "7a5492401470cea66efd8df215bb4932a9ef48bd41d54487ae1e6d6b58839d2b",
+    "plan_sha256": "b955107849d39f1e0de332977682812beeba28384db39a19d04e2a753e015641"
+  },
+  "publication": {
+    "commit": "ece1c9eaf55c0c9586b107f073c1090c0a969a1a",
+    "parent": "667719555a283ce0d019c6b7f054cf0aee40598d",
+    "receipt_path": ".recommendation/transaction-runs/news-youtube-reddit/2026-11-08/recovered-stage1-20261108T042750Z.json",
+    "receipt_blob_sha": "d0d0fc47325fd09345fa856240f4c7ed16b4aaf1",
+    "readbacks": {
+      "News/Daily/2026-11-08.md": "fdbc8d8afcec29892916d4dfa228e6694ea86be0",
+      "Resources/YouTube/Daily/2026-11-08.md": "01d28f3c947c5d7a12860e3272290603204c0b64",
+      "Resources/Reddit/Daily/2026-11-08.md": "b058fd7ccb1c54b36e3564f7d9189fa01bdf6335",
+      ".recommendation/history/youtube.jsonl": "6c637fd5b98dd9ecec2b0d3befd2ca0ac0905609",
+      ".recommendation/history/reddit.jsonl": "d14f550ad3ab79b96f6f396a95ae2f3e6ba825fc"
+    },
+    "replay_status": "artifacts_match"
+  },
+  "original_attempt": {
+    "path": ".recommendation/transaction-runs/news-youtube-reddit/2026-11-08/20261108T003948Z.json",
+    "blob_sha": "5e88073bad267dcf5d40dd4eade0436640dbf23a",
+    "status": "blocked_before_publication"
+  },
+  "source_evidence": {
+    "path": ".recommendation/transaction-recoveries/news-youtube-reddit/2026-11-08/source-evidence.json",
+    "blob_sha": "76979dae65c4a72cfa2810f81a6311652851c6be",
+    "scope": "Recovery-time research and independent content review; not reconstruction of original lost candidate research",
+    "youtube_candidates": 35,
+    "reddit_candidates": 42,
+    "news_stories": 3,
+    "news": "Material facts, dates and numeric qualifiers reviewed against cited sources; corrected frozen note published",
+    "youtube": "Exact final identities, official publisher links/content, same-work history comparison and documented diversity/creator/topic penalties reviewed",
+    "reddit": "Search-qualified identities and short excerpts only; original threads/comments not read under existing waived-read scope; evergreen selection and approximate ages disclosed"
+  },
+  "qa": {
+    "status": "passed_current_publication_qa",
+    "ordered_ids": {
+      "youtube": [
+        "hB9JIjzIwrU",
+        "8IJdwTRSTFQ",
+        "k20doHDjMwo",
+        "2_rO0YNIwPA",
+        "LI53uFBXj4I"
+      ],
+      "reddit": [
+        "1l8p440",
+        "1plriuo",
+        "12bogty",
+        "1uo7rf2",
+        "1u03p4m",
+        "1sb02pb",
+        "1r73l52",
+        "1rkhp2m",
+        "1tcwlsg",
+        "1u24s8i"
+      ]
+    },
+    "selected_resource_ids": [
+      "youtube:hB9JIjzIwrU",
+      "youtube:8IJdwTRSTFQ",
+      "youtube:k20doHDjMwo",
+      "youtube:2_rO0YNIwPA",
+      "youtube:LI53uFBXj4I",
+      "reddit:1l8p440",
+      "reddit:1plriuo",
+      "reddit:12bogty",
+      "reddit:1uo7rf2",
+      "reddit:1u03p4m",
+      "reddit:1sb02pb",
+      "reddit:1r73l52",
+      "reddit:1rkhp2m",
+      "reddit:1tcwlsg",
+      "reddit:1u24s8i"
+    ],
+    "permanently_reserved_resource_ids": [
+      "youtube:hB9JIjzIwrU",
+      "youtube:8IJdwTRSTFQ",
+      "youtube:MPDwVSODXP0",
+      "youtube:2_rO0YNIwPA",
+      "youtube:M9Xx--JRXmM",
+      "reddit:1l8p440",
+      "reddit:1plriuo",
+      "reddit:12bogty",
+      "reddit:1uo7rf2",
+      "reddit:1u03p4m",
+      "reddit:1sb02pb",
+      "reddit:1r73l52",
+      "reddit:1rkhp2m",
+      "reddit:1tcwlsg",
+      "reddit:1u24s8i",
+      "youtube:k20doHDjMwo",
+      "youtube:LI53uFBXj4I"
+    ],
+    "current_structure": "passed",
+    "full_permanent_history_and_all_ancestor_prepared_reservations": "passed; original baseline plus own exact registered recovery allowance",
+    "history_prefix_and_exact_once_append": "passed",
+    "same_work_review": "passed supplied recovery-time review; supplemented incomplete historical metadata",
+    "regression_tests": {
+      "passed": 257,
+      "failed": 0
+    },
+    "local_checks": {
+      "integrity": "passed_local_integrity",
+      "immutable_bundles": "passed_immutable_publication_bundles",
+      "permanent_music_identity": "complete_available_git_history"
+    }
+  },
+  "ci": {
+    "run_id": 42446813872,
+    "head_sha": "ece1c9eaf55c0c9586b107f073c1090c0a969a1a",
+    "conclusion": "success",
+    "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/42446813872"
+  },
+  "check_scope": {
+    "news_source_review": "passed",
+    "youtube_final_publisher_identity_links_content": "passed",
+    "reddit_original_threads_and_comments": "not_read; search-only waiver scope",
+    "youtube_playback_and_regional_access": "not_tested",
+    "visual_screenshot": "not_performed; browser startup unavailable during source preparation",
+    "markdown_html_render": "Pandoc checked; zero residual bold markers",
+    "device_sync": "not_verified",
+    "notification_delivery": "not_verified",
+    "music_and_apple_playlist_writes": "none"
+  }
+}

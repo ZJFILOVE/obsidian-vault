@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-11-08",
+  "recorded_at": "2026-11-08T04:27:50.042154Z",
+  "status": "stage1_published_and_readback_verified",
+  "recovery_id": "news-youtube-reddit-2026-11-08-truncation",
+  "bundle_path": ".recommendation/transactions/news-youtube-reddit/2026-11-08.json",
+  "bundle_sha256": "7a5492401470cea66efd8df215bb4932a9ef48bd41d54487ae1e6d6b58839d2b",
+  "plan_sha256": "b955107849d39f1e0de332977682812beeba28384db39a19d04e2a753e015641",
+  "recovery_registration_path": ".recommendation/transaction-recoveries/news-youtube-reddit/2026-11-08/recovery.json",
+  "recovery_registration_blob_sha": "b6d88a929bc85da91ccb017cf5faa9fb5d0668d0",
+  "parent": "667719555a283ce0d019c6b7f054cf0aee40598d",
+  "publication_commit": "ece1c9eaf55c0c9586b107f073c1090c0a969a1a",
+  "stage": 1,
+  "observed_remote_head": "ece1c9eaf55c0c9586b107f073c1090c0a969a1a",
+  "readbacks": {
+    "ZJFILOVE/obsidian-vault:News/Daily/2026-11-08.md": {
+      "status": "ok",
+      "sha": "fdbc8d8afcec29892916d4dfa228e6694ea86be0"
+    },
+    "ZJFILOVE/obsidian-vault:Resources/YouTube/Daily/2026-11-08.md": {
+      "status": "ok",
+      "sha": "01d28f3c947c5d7a12860e3272290603204c0b64"
+    },
+    "ZJFILOVE/obsidian-vault:Resources/Reddit/Daily/2026-11-08.md": {
+      "status": "ok",
+      "sha": "b058fd7ccb1c54b36e3564f7d9189fa01bdf6335"
+    },
+    "ZJFILOVE/obsidian-vault:.recommendation/history/youtube.jsonl": {
+      "status": "ok",
+      "sha": "6c637fd5b98dd9ecec2b0d3befd2ca0ac0905609"
+    },
+    "ZJFILOVE/obsidian-vault:.recommendation/history/reddit.jsonl": {
+      "status": "ok",
+      "sha": "d14f550ad3ab79b96f6f396a95ae2f3e6ba825fc"
+    }
+  },
+  "replay_status": "artifacts_match",
+  "publication_files_written": 5,
+  "source_qa": "recorded separately in current publication QA",
+  "original_failure_preserved": {
+    "path": ".recommendation/transaction-runs/news-youtube-reddit/2026-11-08/20261108T003948Z.json",
+    "blob_sha": "5e88073bad267dcf5d40dd4eade0436640dbf23a",
+    "status": "blocked_before_publication"
+  },
+  "transport": "ordinary non-force Git push; fetched remote commit and compared all five payload bytes"
+}
