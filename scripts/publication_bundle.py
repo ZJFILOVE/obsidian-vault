@@ -94,10 +94,14 @@ def validate_payloads(plan: dict, payloads: dict, *, legacy_journal: bool = Fals
             selected.extend(name + ':' + x for x in ids)
             rows = [v.strict_json(x) for x in payloads[f'{VAULT}:.recommendation/history/{name}.jsonl'].splitlines() if x.strip()]
             r.require(all(sum(x.get('date') == day and x.get(field) == value for x in rows) == 1 for value in ids), 'missing/duplicate history registration')
-        r.require(selected == plan['exposed_resource_ids'], 'discovery selection changed')
+        if 'recovery_id' in plan:
+            from discovery_recovery import validate_selection
+            validate_selection(plan, selected)
+        else:
+            r.require(selected == plan['exposed_resource_ids'], 'discovery selection changed')
 
 
-def freeze(plan: dict, payloads: dict, *, music_root=None, mirror_snapshot=None, expected_heads=None) -> dict:
+def freeze(plan: dict, payloads: dict, *, music_root=None, mirror_snapshot=None, expected_heads=None, discovery_root=None) -> dict:
     r.require(plan.get('schema_version') == 1, 'new bundles require plan schema_version=1')
     validate_payloads(plan, payloads)
     if plan['project'] == 'music':
@@ -106,7 +110,12 @@ def freeze(plan: dict, payloads: dict, *, music_root=None, mirror_snapshot=None,
         from music_identity import publication_gate
         publication_gate(Path(music_root), plan, payloads, mirror_snapshot, expected_heads)
     body = {'schema_version': 1, 'plan': plan, 'payloads': payloads, 'plan_sha256': r.digest(plan)}
-    return {**body, 'bundle_sha256': r.digest(body)}
+    bundle = {**body, 'bundle_sha256': r.digest(body)}
+    if plan['project'] == 'news-youtube-reddit':
+        r.require(discovery_root is not None, 'discovery freeze requires full history checkout')
+        from discovery_recovery import reservation_gate
+        reservation_gate(Path(discovery_root), bundle)
+    return bundle
 
 
 def verify(bundle: dict) -> None:
@@ -169,12 +178,27 @@ def check_baselines(bundle: dict, baselines: dict) -> None:
             r.require(all(k in after['recommended'] and value == after['recommended'][k] for k, value in before['recommended'].items()), 'permanent music history changed')
 
 
+def load_prepared(path: Path, root: Path | None = None) -> dict:
+    bundle = v.strict_json(path.read_text(encoding='utf-8')); verify(bundle)
+    from discovery_recovery import OP, TRANSACTION, validate_installed
+    if bundle['plan'].get('recovery_id') or bundle['plan'].get('operation_id') == OP:
+        r.require(root is not None and path.resolve() == (root / TRANSACTION).resolve(),
+                  'registered recovery requires its complete repository evidence')
+        validate_installed(root)
+    return bundle
+
+
 def audit_journal(root: Path, base: str | None = None) -> dict:
+    from discovery_recovery import RECEIPT, validate_installed, git as recovery_git
+    registered = (root / RECEIPT).exists()
+    if (root / '.git').exists():
+        registered = registered or bool(recovery_git(root, 'log', '--format=%H', 'HEAD', '--', RECEIPT).strip())
+    if registered: validate_installed(root)
     directory = root / '.recommendation/transactions'
     paths = sorted(directory.rglob('*.json')) if directory.exists() else []
     for path in paths:
         try:
-            bundle = v.strict_json(path.read_text(encoding='utf-8')); verify(bundle)
+            bundle = load_prepared(path, root)
         except (ValueError, KeyError, TypeError, AttributeError) as exc:
             raise ValueError(f'{path.relative_to(root)}: {exc}') from exc
         plan = bundle['plan']
@@ -186,7 +210,11 @@ def audit_journal(root: Path, base: str | None = None) -> dict:
         for name in names:
             if name.endswith(b'.json'):
                 rel = name.decode('utf-8'); old = git(root, 'show', base + ':' + rel)
-                r.require((root / rel).is_file() and (root / rel).read_bytes() == old, 'PREPARED transaction was rewritten or deleted: ' + rel)
+                if (root / rel).is_file() and (root / rel).read_bytes() == old: continue
+                from discovery_recovery import TRANSACTION, BAD_BLOB, validate_installed
+                r.require(rel == TRANSACTION and r.blob_sha(old) == BAD_BLOB,
+                          'PREPARED transaction was rewritten or deleted: ' + rel)
+                validate_installed(root)
     return {'status': 'passed_immutable_publication_bundles', 'bundles': len(paths), 'base_ref': base, 'content_qa': 'not_evaluated'}
 
 
@@ -194,6 +222,7 @@ def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('bundle', type=Path, nargs='?'); p.add_argument('--observations', type=Path)
     p.add_argument('--journal-root', type=Path); p.add_argument('--base-ref')
+    p.add_argument('--discovery-root', type=Path)
     p.add_argument('--music-root', type=Path); p.add_argument('--mirror-snapshot', type=Path)
     p.add_argument('--music-head'); p.add_argument('--vault-head')
     p.add_argument('--baselines', type=Path); p.add_argument('--expected-bundle-digest')
@@ -203,7 +232,7 @@ def main() -> int:
             r.require(args.bundle is None, 'choose bundle or journal-root')
             print(json.dumps(audit_journal(args.journal_root, args.base_ref), ensure_ascii=False, indent=2)); return 0
         r.require(args.bundle is not None, 'bundle or journal-root required')
-        bundle = v.strict_json(args.bundle.read_text(encoding='utf-8')); verify(bundle)
+        bundle = load_prepared(args.bundle, args.discovery_root)
         if args.expected_bundle_digest is not None:
             r.require(args.expected_bundle_digest == bundle['bundle_sha256'], 'original PREPARED bundle digest changed')
         if args.baselines: check_baselines(bundle, v.strict_json(args.baselines.read_text(encoding='utf-8')))
@@ -217,6 +246,10 @@ def main() -> int:
                 v.strict_json(args.mirror_snapshot.read_text()),
                 {'music': args.music_head, 'vault': args.vault_head},
                 v.strict_json(args.observations.read_text()))
+        if args.observations and bundle['plan']['project'] == 'news-youtube-reddit':
+            r.require(args.discovery_root is not None, 'discovery recovery requires full history checkout')
+            from discovery_recovery import reservation_gate
+            result['discovery_gate'] = reservation_gate(args.discovery_root, bundle)
         if args.observations:
             r.require(args.expected_bundle_digest is not None, 'retries require original PREPARED digest')
             result.update(r.inspect(bundle['plan'], v.strict_json(args.observations.read_text(encoding='utf-8')), bundle['plan_sha256']))
