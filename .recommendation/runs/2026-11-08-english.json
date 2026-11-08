@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-08",
+  "weekday": "Sunday",
+  "operation_id": "english:2026-11-08",
+  "mode": "new_publication",
+  "status": "passed_current_publication_gates",
+  "selection": {
+    "candidate_pool_count": 11,
+    "policy_minimum": 8,
+    "candidates": [
+      {
+        "title": "Two Roads",
+        "url": "https://www.pbs.org/video/two-roads-fd5ic8/",
+        "owner": "PBS / ALL ARTS Documentary Selects",
+        "format": "documentary",
+        "duration": "55m10s",
+        "verification": "direct_official_page_with_full_transcript",
+        "observations": [
+          "Official page states title, 55m10s, CC, publication date 2025-06-04 and expiry 2028-06-01",
+          "Official page provides the full transcript and says the series streams on pbs.org and the PBS app",
+          "Transcript covers family histories, banjo/fiddle circulation, minstrelsy, labor conflict, segregation and contemporary dance"
+        ],
+        "decision": "selected",
+        "reason": "Within the Sunday 25–60 minute range, legally accessible with transcript, pedagogically rich for evidence-limiting language, and distinct from the recent language/science concentration."
+      },
+      {
+        "title": "The World of Olive Oil",
+        "url": "https://www.pbs.org/video/the-world-of-olive-oil-vnKRZK/",
+        "owner": "PBS",
+        "format": "documentary",
+        "duration": "55m46s",
+        "verification": "direct_official_page_with_transcript",
+        "observations": [
+          "Official page identity, duration, transcript and 2027-11-01 expiry were observed"
+        ],
+        "decision": "rejected",
+        "reason": "Useful food and trade vocabulary, but the travel/promotional framing and factual-claim load offered less balanced academic practice than the selected documentary."
+      },
+      {
+        "title": "Oyate Woyaka",
+        "url": "https://www.pbs.org/video/oyate-woyaka-myuyq9/",
+        "owner": "PBS",
+        "format": "documentary",
+        "duration": "55m55s",
+        "verification": "direct_official_page_with_transcript",
+        "observations": [
+          "Official page describes Lakota language history, loss and revitalization; duration and transcript were observed"
+        ],
+        "decision": "rejected_recent_topic_concentration",
+        "reason": "High-quality source, but it overlaps too closely with the 2026-11-01 Indigenous-language project and the 2026-11-06 language-map lesson."
+      },
+      {
+        "title": "AI as Therapist? Intimacy Without Understanding",
+        "url": "https://podcast.gresham.ac.uk/1904814/episodes/19929509-ai-as-therapist-intimacy-without-understanding-matt-jones?t=0",
+        "owner": "Gresham College",
+        "format": "lecture podcast",
+        "duration": "50m10s",
+        "verification": "direct_official_page_with_transcript",
+        "observations": [
+          "Official Gresham page exposed title, speaker, duration and transcript"
+        ],
+        "decision": "rejected_fit_penalty",
+        "reason": "Strong argumentation practice, but AI would overfit the user's research interests and reduce today's topic rotation."
+      },
+      {
+        "title": "The Connected Brain: Network and Communication",
+        "url": "https://podcast.gresham.ac.uk/1904814/episodes/16602210-the-connected-brain-network-and-communication-alain-goriely",
+        "owner": "Gresham College",
+        "format": "lecture podcast",
+        "duration": "56m25s",
+        "verification": "direct_official_page_with_transcript_link",
+        "observations": [
+          "Official page exposed title, speaker, duration and transcript access"
+        ],
+        "decision": "rejected_recent_topic_concentration",
+        "reason": "Close to the recent memory and perception lessons; the selected cultural documentary provides broader rotation."
+      },
+      {
+        "title": "The Stories We Make Up & The Stories That Make Us",
+        "url": "https://www.gresham.ac.uk/watch-now/thomas-gresham-24",
+        "owner": "Gresham College",
+        "format": "lecture",
+        "duration": "74m",
+        "verification": "direct_official_page_and_transcript",
+        "observations": [
+          "Official page and transcript were observed; listed duration exceeds one hour"
+        ],
+        "decision": "rejected_duration",
+        "reason": "Exceeds the 25–60 minute Sunday window."
+      },
+      {
+        "title": "The Library of Congress: From Jefferson's Vision to the Digital Age",
+        "url": "https://www.loc.gov/item/video-12155/",
+        "owner": "Library of Congress",
+        "format": "talk",
+        "duration": "59m05s",
+        "verification": "official_search_metadata_only_direct_page_403",
+        "observations": [
+          "Official Library of Congress search metadata identified the title, duration and transcript",
+          "Direct page retrieval returned 403 during this run"
+        ],
+        "decision": "rejected_source_gap_and_overlap",
+        "reason": "Direct final verification was unavailable, and the library topic overlaps the recent language-map material."
+      },
+      {
+        "title": "Jill Lepore on the History of the Constitution",
+        "url": "https://www.loc.gov/item/video-11078/",
+        "owner": "Library of Congress",
+        "format": "talk",
+        "duration": "51m13s",
+        "verification": "official_search_metadata_only_direct_page_403",
+        "observations": [
+          "Official search metadata identified title, duration and transcript",
+          "Direct page retrieval returned 403"
+        ],
+        "decision": "rejected_source_gap",
+        "reason": "Direct final verification was unavailable; dense constitutional context also raises the background-knowledge burden."
+      },
+      {
+        "title": "Conversation with Louis Michot and Leyla McCalla",
+        "url": "https://www.loc.gov/item/video-10636/",
+        "owner": "Library of Congress",
+        "format": "conversation/performance",
+        "duration": "45m59s",
+        "verification": "official_search_metadata_only_direct_page_403",
+        "observations": [
+          "Official search metadata identified the conversation, duration and transcript",
+          "Direct page retrieval returned 403"
+        ],
+        "decision": "rejected_source_gap",
+        "reason": "Musically relevant but direct final verification was unavailable; selected PBS source offered complete transcript evidence."
+      },
+      {
+        "title": "Doris Kearns Goodwin: An Unfinished Love Story",
+        "url": "https://www.loc.gov/item/video-10162/",
+        "owner": "Library of Congress",
+        "format": "author talk",
+        "duration": "45m21s",
+        "verification": "official_search_metadata",
+        "observations": [
+          "Official Library of Congress search metadata identified title, duration and transcript availability"
+        ],
+        "decision": "rejected_weaker_direct_evidence",
+        "reason": "Candidate identity was real, but source evidence and pedagogical distinctiveness were weaker than the selected source."
+      },
+      {
+        "title": "School Days (and Nights)",
+        "url": "https://www.loc.gov/item/video-10964/",
+        "owner": "Library of Congress",
+        "format": "talk",
+        "duration": "45m39s",
+        "verification": "official_search_metadata",
+        "observations": [
+          "Official Library of Congress search metadata identified title, duration and transcript availability"
+        ],
+        "decision": "rejected_lower_payoff",
+        "reason": "Meets the time window but offered lower narrative and language payoff than the final selection."
+      }
+    ],
+    "scoring_weights": {
+      "quality": 0.3,
+      "usefulness": 0.25,
+      "curiosity": 0.2,
+      "novelty": 0.15,
+      "fit": 0.1
+    },
+    "selected_url": "https://www.pbs.org/video/two-roads-fd5ic8/",
+    "selected_title": "Two Roads",
+    "diversity_result": "Selected a culture/history documentary after recent lessons on language maps, painting forensics, light perception and memory; also rotated away from the previous Sunday's interview podcast.",
+    "recent_topic_cooldown_passed": true
+  },
+  "source_verification": {
+    "method": "direct_official_page_with_full_transcript",
+    "url": "https://www.pbs.org/video/two-roads-fd5ic8/",
+    "verified_before_freeze": true,
+    "verified_after_publication": true,
+    "verification_date_utc": "2026-11-08",
+    "timestamp_precision_note": "The retrieval interface did not expose a per-request timestamp; the business-run date is retained without inventing one.",
+    "observed_fields": [
+      "title Two Roads",
+      "official publisher PBS / ALL ARTS Documentary Selects",
+      "duration 55m10s",
+      "closed-caption marker",
+      "publication date 2025-06-04",
+      "expiry 2028-06-01",
+      "full transcript",
+      "pbs.org/PBS app availability statement"
+    ],
+    "content_observations": [
+      "family and migration narratives",
+      "West African precursors to the banjo and cross-adoption of banjo/fiddle traditions",
+      "minstrelsy, mimicry, appropriation and caricature",
+      "labor competition, status and segregation",
+      "contemporary dance and artistic continuity"
+    ],
+    "scope_limitations": [
+      "Full 55-minute playback was not tested from a mainland-China network or account.",
+      "Program historical statistics and causal interpretations were treated as documentary claims, not independently certified facts."
+    ]
+  },
+  "preflight": {
+    "required_current_files_read": true,
+    "policy_sha": "cf9d1b486e07ca1efe965cf6af6f0ea422497670",
+    "publishing_sha": "492177b87edc5552473c195253df69b3c17f00d3",
+    "publication_bundle_sha": "a77fc9aef962569ed9c3367d117ca7754dd327bd",
+    "publication_recovery_sha": "b0a737ee33cbbf7bb0b453e6091a872f29be3358",
+    "original_history_sha": "1eb0c488cad8a3a4b7e313a100a36ad6bab91bd1",
+    "original_history_rows": 61,
+    "recent_notes_read": 18,
+    "prepared_transactions_read": 76,
+    "prepared_reads_complete": true,
+    "english_prepared_reservations_examined": 24,
+    "selected_url_in_original_history": false,
+    "selected_url_in_other_prepared_transactions": false,
+    "same_day_transaction_initially_absent": true,
+    "same_day_note_initially_absent": true
+  },
+  "freeze": {
+    "transaction_path": ".recommendation/transactions/english/2026-11-08.json",
+    "transaction_blob_sha": "d083a252cbe46fe4f9b74bfc3e3fbf2515426936",
+    "transaction_creation_commit": "22ac579edc1f8f476daf9ad5f43285a33808f64d",
+    "bundle_sha256": "aead25640d51afc1fd409d468bc063678192d9812df25f7b8a9737d809e4ddc5",
+    "plan_sha256": "be59c9ee1227f993082410b8271c305db69fe674ed09be212754bc8cb157a787",
+    "transaction_readback_exact": true,
+    "prepared_receipt_path": ".recommendation/transaction-runs/english/2026-11-08/prepared-20261108T000713Z.json",
+    "prepared_receipt_commit": "3722fbf9ff08536ba697b3301cd6e3af122c1619",
+    "planner_before_apply": "ready_to_resume",
+    "planner_after_apply": "artifacts_match"
+  },
+  "publication": {
+    "commit": "d0abbef5c6e3fcc236a20ea745f63629d669b755",
+    "base_head": "39d91e28af166cc0f8a99af93ed4f52e1371dc17",
+    "base_tree": "bd0e31d371276e456b9a88606e5021fbb610983a",
+    "publication_tree": "91d695311fda964582b73eec04462f11df7ab6b4",
+    "note_path": "50-courses/English/Weekly/2026-11-08.md",
+    "note_blob_sha": "89fc7b03c4cffe71709c47aef8b94b92608bb2a6",
+    "history_path": ".recommendation/history/english.jsonl",
+    "history_blob_sha": "32efa303591cfeb20ef13b1ae4483bf0f789a8ef",
+    "stage_receipt_path": ".recommendation/transaction-runs/english/2026-11-08/stage1-20261108T000905Z.json",
+    "stage_receipt_commit": "a65ee38b94e58906213bf447a4b61758308a76da",
+    "readback_exact": {
+      "note": true,
+      "history": true
+    },
+    "history_rows_after": 62,
+    "exact_once_registration": true,
+    "recovery_event": "Initial expected-head lease observed a concurrent Journal commit before mutation; targets were re-read, frozen baselines remained exact, and the same payloads were committed once on the fresh head."
+  },
+  "qa": {
+    "content_checks": "passed",
+    "frontmatter": true,
+    "three_pass_plan": true,
+    "reusable_chunks": 12,
+    "comprehension_questions": 5,
+    "output_and_shadowing_tasks": 2,
+    "independent_translation_exercises": 1,
+    "folded_answer_callout": true,
+    "auto_markers": true,
+    "manual_notes_outside_markers": true,
+    "history_prefix_append_only": true,
+    "freshness_checked_against_original_history": true,
+    "source_reverified_after_write": true,
+    "local_bundle_check": "bundle_valid",
+    "planner_after_readback": "artifacts_match",
+    "repository_ci": {
+      "run_id": 42428441561,
+      "job_id": 128571751108,
+      "tested_commit": "a65ee38b94e58906213bf447a4b61758308a76da",
+      "conclusion": "success",
+      "publication_validator": "passed (youtube=260, reddit=520, english=56, music=269)",
+      "regression_tests": "passed (152 + 41 + 15 + 20 = 228 tests)",
+      "immutable_bundle_check": "passed (78 bundles; base_ref 67d58cda9f1efadd56132cec3a46abb5c3eac5b0)"
+    },
+    "current_publication_gates": "passed"
+  },
+  "historical_backlog": [
+    {
+      "project": "music",
+      "date": "2026-11-06",
+      "issue": "Previously registered duplicate-recording incident remains retained in repository history and incident evidence.",
+      "effect_on_current_english_publication": "none; the current pinned CI passed English history, note structure and immutable-bundle checks."
+    }
+  ],
+  "limitations": [
+    "Repository checks do not certify teaching quality by themselves; the note was separately reviewed for pedagogy and source boundaries.",
+    "No device synchronization or notification delivery check was performed.",
+    "No full-program regional playback or entitlement check was performed."
+  ]
+}
