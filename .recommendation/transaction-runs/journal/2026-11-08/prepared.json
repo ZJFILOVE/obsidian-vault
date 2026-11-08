@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "project": "journal",
+  "date": "2026-11-08",
+  "operation_id": "journal:2026-11-08",
+  "status": "prepared",
+  "prepared": {
+    "path": ".recommendation/transactions/journal/2026-11-08.json",
+    "creation_commit": "765b7c8033b972c0134ea99567155300dc951d77",
+    "blob_sha": "09df8fd300e27e4b32486faab38ff46656fe92aa",
+    "bundle_sha256": "13183e3e231869f26dc063f039b40637ebdf38acae4ab911b7ebc630bde16d14",
+    "plan_sha256": "3de62300f5a3f18fb63b9e035a4cb6ea8f2b974f6e4f6688d6617016841a7cff",
+    "readback_exact": true
+  },
+  "selection": {
+    "candidate_count": 8,
+    "selected_count": 3,
+    "selected_dois": [
+      "10.1126/science.aav7897",
+      "10.1038/s41586-019-1432-8",
+      "10.1038/s41586-024-07813-2"
+    ],
+    "excluded": [
+      {
+        "identity": "10.1038/s41586-021-03258-z",
+        "reason": "downstream LOCKR biosensor application; chosen set better spans the progression from trigger energetics to cooperative assembly"
+      },
+      {
+        "identity": "10.1038/s41594-021-00649-8",
+        "reason": "kinase-specific LOCKR application would overconcentrate the issue on one platform"
+      },
+      {
+        "identity": "PMC7386493",
+        "reason": "preprint/manuscript version of the formal modular biosensor study; same-work deduplication"
+      },
+      {
+        "identity": "PMC7935970",
+        "reason": "phosphorylation-dependent membrane-targeting application overlaps the selected switch principle"
+      },
+      {
+        "identity": "PMC9216720",
+        "reason": "pathogen-sensor application is narrower than today's design-mechanism thread"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "doi": "10.1126/science.aav7897",
+      "opened": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7072037/",
+        "https://pubmed.ncbi.nlm.nih.gov/31097662/"
+      ],
+      "scope": "PMC HTML main text and main figure captions; PubMed bibliography/abstract; PDF/SI not opened"
+    },
+    {
+      "doi": "10.1038/s41586-019-1432-8",
+      "opened": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6733528/",
+        "https://www.nature.com/articles/s41586-019-1432-8"
+      ],
+      "scope": "PMC HTML main text and main figure captions; publisher metadata; PDF/SI not opened"
+    },
+    {
+      "doi": "10.1038/s41586-024-07813-2",
+      "opened": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11338832/",
+        "https://www.nature.com/articles/s41586-024-07813-2"
+      ],
+      "scope": "PMC and Nature HTML main text/figures/metadata; PDF/SI not opened; Supplementary Data correction noted"
+    }
+  ],
+  "checks": {
+    "original_history_dedup": true,
+    "all_prepared_reservations_dedup": true,
+    "source_identity_verified": true,
+    "retraction_query_no_match": true,
+    "correction_handled": true,
+    "local_journal_validator": "passed_journal_integrity",
+    "local_bundle_validator": "passed_immutable_publication_bundles",
+    "markdown_render": "passed_no_literal_markers",
+    "visual_browser_inspection": false,
+    "content_qa": "performed_with_reading_limits_recorded"
+  },
+  "created_at": "2026-11-08T00:06:49.788Z"
+}
