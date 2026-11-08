@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-08",
+  "operation_id": "english:2026-11-08",
+  "attempt": "prepared-20261108T000713Z",
+  "status": "prepared_readback_verified",
+  "transaction_path": ".recommendation/transactions/english/2026-11-08.json",
+  "transaction_creation_commit": "22ac579edc1f8f476daf9ad5f43285a33808f64d",
+  "transaction_blob_sha": "d083a252cbe46fe4f9b74bfc3e3fbf2515426936",
+  "plan_sha256": "be59c9ee1227f993082410b8271c305db69fe674ed09be212754bc8cb157a787",
+  "bundle_sha256": "aead25640d51afc1fd409d468bc063678192d9812df25f7b8a9737d809e4ddc5",
+  "readback_exact": true,
+  "recorded_at_utc": "2026-11-08T00:07:13Z",
+  "checks": {
+    "current_policy_read": true,
+    "complete_history_read": true,
+    "all_prepared_transactions_read": true,
+    "baselines_verified": true,
+    "bundle_freeze_verified": true
+  },
+  "limitations": [
+    "This receipt records freeze and transaction readback only; publication and content QA are later stages."
+  ]
+}
