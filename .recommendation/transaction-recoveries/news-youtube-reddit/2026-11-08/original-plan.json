@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "project": "news-youtube-reddit",
+  "date": "2026-11-08",
+  "operation_id": "news-youtube-reddit:2026-11-08",
+  "exposed_resource_ids": [
+    "youtube:hB9JIjzIwrU",
+    "youtube:8IJdwTRSTFQ",
+    "youtube:MPDwVSODXP0",
+    "youtube:2_rO0YNIwPA",
+    "youtube:M9Xx--JRXmM",
+    "reddit:1l8p440",
+    "reddit:1plriuo",
+    "reddit:12bogty",
+    "reddit:1uo7rf2",
+    "reddit:1u03p4m",
+    "reddit:1sb02pb",
+    "reddit:1r73l52",
+    "reddit:1rkhp2m",
+    "reddit:1tcwlsg",
+    "reddit:1u24s8i"
+  ],
+  "targets": [
+    {
+      "repository": "ZJFILOVE/obsidian-vault",
+      "path": "News/Daily/2026-11-08.md",
+      "base_sha": null,
+      "target_sha": "e4d946d81c22837683244e91df64889a46580601",
+      "stage": 1
+    },
+    {
+      "repository": "ZJFILOVE/obsidian-vault",
+      "path": "Resources/YouTube/Daily/2026-11-08.md",
+      "base_sha": null,
+      "target_sha": "5019246058936a035a521be1ebe817ba9389e9e9",
+      "stage": 1
+    },
+    {
+      "repository": "ZJFILOVE/obsidian-vault",
+      "path": "Resources/Reddit/Daily/2026-11-08.md",
+      "base_sha": null,
+      "target_sha": "a0b73ecea5325e4e4b4d79210ef9cff1237ed3be",
+      "stage": 1
+    },
+    {
+      "repository": "ZJFILOVE/obsidian-vault",
+      "path": ".recommendation/history/youtube.jsonl",
+      "base_sha": "ec10b557ace2da1de96d789afe75b2490a293ba9",
+      "target_sha": "b8d7693458b2fd5b3fdad24348f06dd944475d46",
+      "stage": 1
+    },
+    {
+      "repository": "ZJFILOVE/obsidian-vault",
+      "path": ".recommendation/history/reddit.jsonl",
+      "base_sha": "490ca8ade5db4da9b5e11d7100ba6643bc6a3785",
+      "target_sha": "d14f550ad3ab79b96f6f396a95ae2f3e6ba825fc",
+      "stage": 1
+    }
+  ]
+}

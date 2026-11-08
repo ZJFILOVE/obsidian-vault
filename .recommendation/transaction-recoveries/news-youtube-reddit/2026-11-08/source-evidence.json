@@ -1,0 +1,2243 @@
+{
+  "operation_id": "news-youtube-reddit:2026-11-08",
+  "youtube_ids": [
+    "hB9JIjzIwrU",
+    "8IJdwTRSTFQ",
+    "k20doHDjMwo",
+    "2_rO0YNIwPA",
+    "LI53uFBXj4I"
+  ],
+  "input_zip_sha256": "70e13ebbacad2db5070fe113024d151e2b93872544d1ecc88c9447cbcd19f6b8",
+  "input_zip_path": ".recommendation/transaction-runs/news-youtube-reddit/2026-11-08/recovery-source-inputs.zip",
+  "input_manifest": {
+    "purpose": "Proposed Nov 8 discovery superseding recovery, not published and not original frozen bytes",
+    "source_head": "6c34c37fed42bd6460e6ca5a23054f9da3dbf60b",
+    "original_invalid_blob": "18ec095cf56f73aef6c11aa4713067b93635d425",
+    "proposed_bundle_sha256": "91b3530d4311d0c2f281d39a70c178511f65432273e666afc9bf98b61c928b86",
+    "checks_completed": [
+      "recovery-time source verification",
+      "history ID and available metadata dedup (supplemented from Oct 6/8 notes)",
+      "existing bundle.freeze and check_baselines passed for new payloads",
+      "Pandoc HTML rendering: no unrendered bold markers"
+    ],
+    "checks_remaining": [
+      "all earlier PREPARED reservations and semantic conflicts in full checkout",
+      "full repository regression/integrity checks with recovery adapter",
+      "exact-head CI after authorized publication",
+      "visual screenshot not available: browser sandbox process/socket startup failed"
+    ],
+    "files": [
+      {
+        "name": "proposed-recovery-bundle.json",
+        "bytes": 209698,
+        "sha256": "10b703401dfa65e34901d4d19361a09738bdddb91a485e9495ce0c3011aa1afe"
+      },
+      {
+        "name": "corrected-news-note.md",
+        "bytes": 7417,
+        "sha256": "1095ab969f492540e68c00c03c0263864f8df4f1281b2b4bf3c14caa0cc85a20"
+      },
+      {
+        "name": "corrected-youtube-note.md",
+        "bytes": 6686,
+        "sha256": "75cf1760c107922f4ce7299dbbb063073f5843234f96c3b1cf8f995dd186f10b"
+      },
+      {
+        "name": "corrected-reddit-note.md",
+        "bytes": 11955,
+        "sha256": "8ebaef34285486d33c8d484b91be410704b577682e348d111581cd4e73638361"
+      },
+      {
+        "name": "news-reverification.json",
+        "bytes": 5178,
+        "sha256": "36b5fba565ddcec1c525dd43be24c728297bb9c684835f671b4ffdfd1041f3c5"
+      },
+      {
+        "name": "reddit-reverification.json",
+        "bytes": 68425,
+        "sha256": "ee91e577c6c3dcc1019a56c4678a2930f7013f96a15673d4689b6b861319cb86"
+      },
+      {
+        "name": "reddit-corrected-qa.json",
+        "bytes": 1783,
+        "sha256": "8d0be532098375ee4b26e824a9067bf7158968b8f9c5eeccc27f0ca4d4962e86"
+      },
+      {
+        "name": "youtube-reverification.json",
+        "bytes": 39217,
+        "sha256": "91810ed50a884785aa7fe6e5d0b1211a576bb300e845731be648ffa71e95fc76"
+      },
+      {
+        "name": "youtube-final-history-rows.json",
+        "bytes": 3084,
+        "sha256": "d76448a864d569c337c77f2d90c7a2e51d5aa4b8959b2a59c99f1557a4ff3b62"
+      },
+      {
+        "name": "youtube-final-history-rows.jsonl",
+        "bytes": 2798,
+        "sha256": "0f8657f63bed48e3d64deced8bd997e09c5d2ab78a5752c159c15e15a539f0b5"
+      },
+      {
+        "name": "youtube-history-supplement.json",
+        "bytes": 5797,
+        "sha256": "b4edf5945097a5f8900b61d333302e80c036c9a335b17eb3392ae4b1117a0262"
+      },
+      {
+        "name": "markdown-render-qa.json",
+        "bytes": 442,
+        "sha256": "b0b467299d9cc49db1d0fab44ced65b2a07dc4951924ee4e4293767a1e4bb796"
+      }
+    ],
+    "source_capture_scope": "No raw web-tool responses or long third-party text. Reddit observations are short excerpts capped at40 words per unique post."
+  },
+  "source_checks": {
+    "markdown-render-qa.json": {
+      "method": "pandoc gfm to HTML, parsed output inspection",
+      "checks": {
+        "news": {
+          "strong_elements": 6,
+          "unrendered_bold_markers": 0,
+          "h2_sections": 5
+        },
+        "youtube": {
+          "strong_elements": 23,
+          "unrendered_bold_markers": 0,
+          "h2_sections": 9
+        },
+        "reddit": {
+          "strong_elements": 53,
+          "unrendered_bold_markers": 0,
+          "h2_sections": 12
+        }
+      },
+      "visual_inspection": false
+    },
+    "news-reverification.json": {
+      "checked_at_utc": "2026-11-08T03:46:26.746158+00:00",
+      "verification_kind": "Recovery-time read-only source QA. Not evidence of any original pre-publication QA.",
+      "original_note": "recovery/news-note.md",
+      "original_sha256": "52c9284f32ab44fce388ce13ac0e494c3bd2c9f0ad0081c7c85a3868d2d367aa",
+      "corrected_note": "recovery/corrected-news-note.md",
+      "corrected_sha256": "1095ab969f492540e68c00c03c0263864f8df4f1281b2b4bf3c14caa0cc85a20",
+      "publication_performed": false,
+      "repository_mutations": false,
+      "status": "Material facts supported; minimal date and numeric-qualifier corrections prepared separately.",
+      "source_observation_window_utc": {
+        "first_batch_completed": "2026-11-08T03:45:43Z",
+        "completed": "2026-11-08T03:46:26.746158+00:00"
+      },
+      "stories": [
+        {
+          "story": "NASA Moon Base / CLPS 2 / PROMISE",
+          "source_url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+          "opened": true,
+          "published_date": "2026-11-07",
+          "event_date": "2026-11-07",
+          "date_basis": "Article dated Nov 7; body says announcements made Saturday at MAX POWER expo.",
+          "supported_claims": [
+            "Eight CLPS 2 companies; 10 years; combined $10bn ceiling.",
+            "CLPS 1 ceiling rises from $2.6bn to $4.2bn.",
+            "Nuclear-powered six-wheel PROMISE targets late 2028 launch and 18-month mission.",
+            "Drill reaches approximately one metre; spectrometers, temperature/radiation sensors; south polar and permanently shadowed operations.",
+            "Mars rover spare/test hardware and operational approaches reused.",
+            "Orbital transfer, drones, communications and miniCAST power/communications included."
+          ],
+          "source_line_ranges": [
+            "250-285",
+            "288-306"
+          ],
+          "corrections": [],
+          "analysis_review": "Procurement/economic/governance consequences are editorial inferences, not source-established outcomes; note labels those sections."
+        },
+        {
+          "story": "WHO Bundibugyo trial",
+          "source_url": "https://www.who.int/tuvalu/news/detail-global/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances",
+          "opened": true,
+          "published_date": "2026-11-04",
+          "event_date": null,
+          "date_basis": "Recommendation occurred this week; companies informed Monday. Exact recommendation date not disclosed. Nov 4 is announcement date.",
+          "supported_claims": [
+            "ChAdOx1 (Oxford/Serum Institute) and Moderna mRNA-1469 recommended for Tumaini in DRC, conditional on national approvals.",
+            "First outbreak evaluation of candidates specifically designed against Bundibugyo, according to WHO.",
+            "Ring vaccination recruits contacts; four rings established and more prepared.",
+            "Vaccine results expected early 2027; monoclonal and antiviral treatment research underway."
+          ],
+          "source_line_ranges": [
+            "70-89"
+          ],
+          "corrections": [
+            "Relabel Nov 4 as announcement/publication date, not exact recommendation event date."
+          ],
+          "analysis_review": "No claim of established vaccine efficacy; cautious distinction in note retained."
+        },
+        {
+          "story": "China comprehensive conservation strategy",
+          "source_urls": [
+            "https://www.ndrc.gov.cn/xxgk/jd/jd/202611/t20261103_1408528_ext.html",
+            "https://www2.xinhuanet.com/politics/20261104/841d4ec9090c47988ddf1fec8fbab9b1/c.html",
+            "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202611/t20261103_1408504.html"
+          ],
+          "opened": true,
+          "published_date": "2026-11-04",
+          "notice_signed_date": "2026-09-29",
+          "date_basis": "NDRC visible publication Nov 4 despite URL containing Nov 3. Formal notification footer Sep 29. Xinhua Nov 4 21:38:07, timezone not stated in extracted page.",
+          "supported_claims": [
+            "2030 targets against 2025: energy/GDP approximately -10%, water/GDP -10%, construction land/GDP -15%; annual major recycled resources 510 million tonnes.",
+            "Nine chapters, 22 measures; six resource categories and standards/policy/oversight/technology support.",
+            "Investment energy review, carbon evaluation, green design and water-resource assessment are supported policy references."
+          ],
+          "source_line_ranges": {
+            "NDRC_QA": "3-24",
+            "Xinhua": "10-26",
+            "formal_notice": "3-29"
+          },
+          "corrections": [
+            "Distinguish Nov 4 public release from Sep 29 signed notice date.",
+            "Place approximate qualifier only on energy target; avoid approximate applying to water/land.",
+            "Add formal notice source for signed date."
+          ],
+          "analysis_review": "Conditional industry cost/demand forecasts are editorial analysis, not guaranteed outcomes."
+        }
+      ],
+      "method_notes": [
+        "Opened every original cited page using web tool, then read full relevant NASA article and followed NDRC link to formal notice.",
+        "No original note overwritten. No publishing or Git operation.",
+        "This verifies cited announcements, not implementation, efficacy or future outcomes.",
+        "No primary-source access blockers occurred."
+      ]
+    },
+    "reddit-corrected-qa.json": {
+      "generated_at": "2026-11-08T03:49:56.438138+00:00",
+      "corrected_note": "/workspace/scratch/e8254648a54c/recovery/corrected-reddit-note.md",
+      "sha256": "8ebaef34285486d33c8d484b91be410704b577682e348d111581cd4e73638361",
+      "original_note_sha256": "56b380bbb45018439106294808c0e0eb384c9b87376343206cf04633b7e40922",
+      "checks": {
+        "original_ten_ids_and_order_preserved": true,
+        "all_urls_preserved": true,
+        "ten_why_read_sections": true,
+        "ten_discussion_notes": true,
+        "ten_waiver_labels": true,
+        "ten_checklist_items": true,
+        "checklist_unchanged": true,
+        "evergreen_disclosure_present": true,
+        "no_em_dash_in_corrected_note": true,
+        "only_output_artifact_written": true
+      },
+      "pass": true,
+      "corrections": [
+        "Added explicit evergreen, recovery-time provenance and search-only scope disclosure.",
+        "Replaced unsupported precise dates with observed search ages; corrected data-lake date to search-excerpt 2026-02-17 with independent-verification caveat.",
+        "Reframed unsupported detailed commentary as editorial questions; removed unverified same-day news cross-reference.",
+        "Preserved all ten IDs, order, titles, subreddits, URLs, priorities and checklist; narrowed priority 3 from unverified spare-parts detail to microwave repair issue.",
+        "Preserved detailed Chinese reading rationales and added specific attribution limits."
+      ],
+      "limitations": [
+        "No original Reddit page was opened. Full comments, author credentials, discussion quality and current page accessibility remain unverified.",
+        "Search ages are approximate and not reconciled into exact dates.",
+        "Selection is evergreen: none of the ten was observed as published within the past month.",
+        "No publication or repository mutation performed."
+      ]
+    },
+    "reddit-reverification.json": {
+      "artifact_type": "recovery_time_reverification_not_original_run_evidence",
+      "generated_at": "2026-11-08T03:47:44.403Z",
+      "publication_date": "2026-11-08",
+      "scope": "Search-only revalidation of preserved original ten; no original threads opened and no reselection.",
+      "candidate_count": 42,
+      "original_ids": [
+        "1l8p440",
+        "1plriuo",
+        "12bogty",
+        "1uo7rf2",
+        "1u03p4m",
+        "1sb02pb",
+        "1r73l52",
+        "1rkhp2m",
+        "1tcwlsg",
+        "1u24s8i"
+      ],
+      "all_originals_search_qualified": true,
+      "candidates": [
+        {
+          "title": "Is anyone a Quality Engineer and actually enjoys their job???",
+          "url": "https://www.reddit.com/r/AskEngineers/comments/go1pv7",
+          "subreddit": "AskEngineers",
+          "post_id": "go1pv7",
+          "source_reference": "turn8reddit0",
+          "search_batch": 2,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Career satisfaction is less focused than selected failure-analysis question; old anecdotal thread.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 6.5 years ago; Crawled: 3.4 years ago; A lot of times quality engineers are misunderstood by companies and end up getting used as either document control, or data bitch. Your job as quality engineer should be executing projects that",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Sunday Digest | Interesting & Overlooked Posts | January 30, 2022",
+          "url": "https://www.reddit.com/r/AskHistorians/comments/sg9rb1",
+          "subreddit": "AskHistorians",
+          "post_id": "sg9rb1",
+          "source_reference": "turn8reddit1",
+          "search_batch": 2,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Weekly aggregate rather than a focused question; old and redundant historical lane.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 4.8 years ago; Crawled: 4.7 years ago; * /u/Raptor_be asked Our modern timeconception is cumulative, lineair, with a distinct emphasis on (technological) progress. ... * /u/1afteryouplease asked How aware were people in the medieval times about major events happening",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "2nd Day as Quality Engineer...I overrode a QA Tech and Process Engineer",
+          "url": "https://www.reddit.com/r/Metrology/comments/15lxa79",
+          "subreddit": "Metrology",
+          "post_id": "15lxa79",
+          "source_reference": "turn8reddit2",
+          "search_batch": 2,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Interpersonal workplace dispute is narrower and less transferable than selected quality-engineering question.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 3.3 years ago; Crawled: 3.1 years ago; I would've addressed their mistake privately with them, turned it into a learning opportunity, and then presented it to the rest of the stakeholders as a mistake the whole QA team made",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Hate how we always talk about how things SHOULD be but almost never have any real discussion about how to actually make any of it happen",
+          "url": "https://www.reddit.com/r/hatethissmug/comments/1xhvou1/hate_how_we_always_talk_about_how_things_should/",
+          "subreddit": "hatethissmug",
+          "post_id": "1xhvou1",
+          "source_reference": "turn8reddit3",
+          "search_batch": 2,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Broad political/social complaint, weak fit and low substantive specificity in observed excerpt.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: last week; So there thats how you fix it, you get your state department of education to get in line with other states. Its a solved problem Is MN Minnesota or Maine [Sunday November 01 2026] [+2 votes] Minnesota,",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "[3 YoE] Recently let go from my job. Looking for feedback on a resume tailored to a specific quality engineer job posting in manufacturing",
+          "url": "https://www.reddit.com/r/EngineeringResumes/comments/1g4o2e9",
+          "subreddit": "EngineeringResumes",
+          "post_id": "1g4o2e9",
+          "source_reference": "turn8reddit4",
+          "search_batch": 2,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Personal resume review, weak fit for general-interest reading.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 2.1 years ago; Crawled: 2.0 years ago; I tried to frame my experience as \"Quality\" and \"Safety\" experience in hopes to make a hiring manager think I'm only including relevant experience, which would be true, but what do you",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Are all engineering jobs like this?",
+          "url": "https://www.reddit.com/r/careerguidance/comments/14fb2ee",
+          "subreddit": "careerguidance",
+          "post_id": "14fb2ee",
+          "source_reference": "turn8reddit5",
+          "search_batch": 2,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Career advice overlaps manufacturing lane and lacks a focused technical question.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 3.4 years ago; Crawled: 1.4 years ago; I'm a building services design engineer, we do calcs, design, report writing, client meetings, site visits. quite varied ... Yup ton of administrative work such as emails, spreadsheets, phone calls to stakeholders",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Wouldn’t better education solve everything?",
+          "url": "https://www.reddit.com/r/TooAfraidToAsk/comments/sf4j4b",
+          "subreddit": "TooAfraidToAsk",
+          "post_id": "sf4j4b",
+          "source_reference": "turn8reddit6",
+          "search_batch": 2,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Very broad education proposition; selected economics education gives a clearer scope.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 4.8 years ago; Crawled: 4.8 years ago; If we were to spend more money and resources on education, wouldn’t we theoretically solve every social issue? ... Better education doesn't always solve ignorance [Friday January 28 2022] [+10 votes] If",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "How can Economics education solve for lay people not understanding Economics?",
+          "url": "https://www.reddit.com/r/AskEconomics/comments/1uo7rf2/how_can_economics_education_solve_for_lay_people/",
+          "subreddit": "AskEconomics",
+          "post_id": "1uo7rf2",
+          "source_reference": "turn12reddit48",
+          "search_batch": 4,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "retain_original",
+          "reason": "Retain original: economics literacy and limits of public understanding.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 4 months ago; One thing I often think about is how easy it is to get Economics concepts wrong if you don’t have a degree. ... I thought that the economy was too complex to be understood mathematically and",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "What's the minimum economics study a layperson can attain to be \"economically literate\" enough to understand good policy options vs. populist options that sound good but will likely have bad outcomes?",
+          "url": "https://www.reddit.com/r/AskEconomics/comments/1x9y151/whats_the_minimum_economics_study_a_layperson_can/",
+          "subreddit": "AskEconomics",
+          "post_id": "1x9y151",
+          "source_reference": "turn12reddit49",
+          "search_batch": 4,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Newer economics-literacy option, but original selection preserved; similar topic would crowd economics lane.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 2 weeks ago; Lately with some of the pressing topics of the day being AI and it's impact on people, jobs, and the economy — as well as the news of the growing protests/riots in France and other European",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Changed from MFG to Design and I find design moved very.. Slow?",
+          "url": "https://www.reddit.com/r/MechanicalEngineering/comments/1no45jd/changed_from_mfg_to_design_and_i_find_design/",
+          "subreddit": "MechanicalEngineering",
+          "post_id": "1no45jd",
+          "source_reference": "turn12reddit50",
+          "search_batch": 4,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Design/manufacturing career transition overlaps selected engineering comparison.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 1.1 years ago; I worked in manufacturing for 4 years and am now on 3.5 years of product design. ... I've always been one to fail quick and try again as long as it doesn't cause more problems.",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "As quality engineer, how do I lead failure analysis and continuous improvement when the stakeholders aren’t interested?",
+          "url": "https://www.reddit.com/r/AskEngineers/comments/12bogty",
+          "subreddit": "AskEngineers",
+          "post_id": "12bogty",
+          "source_reference": "turn12reddit51",
+          "search_batch": 4,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "retain_original",
+          "reason": "Retain original: failure analysis and organizational incentives complement manufacturing; older evergreen anecdote.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 3.6 years ago; Crawled: 3.3 years ago; I’m a quality engineer working at a mid-sized startup that’s developing a complex machine to sell. ... At my work, when we do a failure analysis, we present out a report to",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "manufacturing versus design engineers in aerospace - Personalities/complexities.",
+          "url": "https://www.reddit.com/r/AerospaceEngineering/comments/1lxe0k8",
+          "subreddit": "AerospaceEngineering",
+          "post_id": "1lxe0k8",
+          "source_reference": "turn12reddit52",
+          "search_batch": 4,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Aerospace career specialization overlaps manufacturing/design; avoid narrow-topic concentration.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 1.3 years ago; Crawled: 1.3 years ago; The reason I say this is I feel that developing an understanding of stress, vibrations, and fatigue (not intuitive) to make high level design decisions for turbomachinery or primary aircraft structures is",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Is manufacturing really more difficult than design?",
+          "url": "https://www.reddit.com/r/AskEngineers/comments/1plriuo/is_manufacturing_really_more_difficult_than_design/",
+          "subreddit": "AskEngineers",
+          "post_id": "1plriuo",
+          "source_reference": "turn12reddit53",
+          "search_batch": 4,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "retain_original",
+          "reason": "Retain original: compares design and manufacturing constraints; practical engineering perspective.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 10 months ago; I was watching an interview of Elon where he stated manufacturing is a lot more complicated than design.",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Should I start in manufacturing?",
+          "url": "https://www.reddit.com/r/MechanicalEngineering/comments/1tacos3/should_i_start_in_manufacturing/",
+          "subreddit": "MechanicalEngineering",
+          "post_id": "1tacos3",
+          "source_reference": "turn12reddit54",
+          "search_batch": 4,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Personal career-start advice rather than broader engineering inquiry.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 6 months ago; I don't mind manufacturing, and I know in the past, starting in manufacturing is a good place to learn and get an understanding of what's actually possible for design work, but I know manufacturing tends to",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Is design work considered easy or cushy?",
+          "url": "https://www.reddit.com/r/MechanicalEngineering/comments/1istzf8",
+          "subreddit": "MechanicalEngineering",
+          "post_id": "1istzf8",
+          "source_reference": "turn12reddit55",
+          "search_batch": 4,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Work-role status comparison overlaps selected manufacturing/design discussion.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 1.7 years ago; Crawled: 1.6 years ago; Is this reflective of a more widespread sentiment that doing CAD and design is easier than say working on a manufacturing floor?",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Design vs Manufacturing",
+          "url": "https://www.reddit.com/r/MechanicalEngineering/comments/1vpazm2/design_vs_manufacturing/",
+          "subreddit": "MechanicalEngineering",
+          "post_id": "1vpazm2",
+          "source_reference": "turn12reddit56",
+          "search_batch": 4,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Newer but redundant design/manufacturing comparison; preserve qualified original.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 2 months ago; It is at a contract manufacturing machine shop trying to run production. Ultimately the question I'll hope to ask somewhat coherently after I barf up the following paragraphs of context/vaguely complaining about my job is if",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Manufacturing or design",
+          "url": "https://www.reddit.com/r/MechanicalEngineering/comments/1rbw4fa/manufacturing_or_design/",
+          "subreddit": "MechanicalEngineering",
+          "post_id": "1rbw4fa",
+          "source_reference": "turn12reddit57",
+          "search_batch": 4,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Career-choice advice, redundant engineering lane.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 8 months ago; I recently went to my schools career fair and after talking to some companies they asked if I was interested in manufacturing or design and I didn’t have an answer for them. ... Design engineer 100%",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Does studying economics \"program your brain\" to think a certain way?",
+          "url": "https://www.reddit.com/r/AskEconomics/comments/1xas5t6/does_studying_economics_program_your_brain_to/",
+          "subreddit": "AskEconomics",
+          "post_id": "1xas5t6",
+          "source_reference": "turn12reddit58",
+          "search_batch": 4,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Newer economics-education alternative; overlap and preserve original qualified selection.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 2 weeks ago; I often hear this about Economics degrees and that while often economic theory is too abstract for real life applications, the degree trains you to think more critically and from a different perspective.",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "how to develop real interest in economics",
+          "url": "https://www.reddit.com/r/academiceconomics/comments/1wrqe5a/how_to_develop_real_interest_in_economics/",
+          "subreddit": "academiceconomics",
+          "post_id": "1wrqe5a",
+          "source_reference": "turn12reddit59",
+          "search_batch": 4,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Personal interest-development request overlaps public economics education.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: last month; I’m a college student currently majoring in Economics and minoring in Mathematics.",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "In 6 years, I've never seen a data lake used properly",
+          "url": "https://www.reddit.com/r/dataengineering/comments/1r73l52/in_6_years_ive_never_seen_a_data_lake_used/",
+          "subreddit": "dataengineering",
+          "post_id": "1r73l52",
+          "source_reference": "turn13reddit48",
+          "search_batch": 5,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "retain_original",
+          "reason": "Retain original: critical data-architecture experience; anecdote not general evidence.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 8 months ago; [Tuesday February 17 2026] [+458 votes] ... Every single implementation I've seen of data lakes, from small scaleups to billion dollar corporations was GOD AWFUL. ... In none of these settings was there a real, practical",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Is theory considered \"higher\" than applied research?",
+          "url": "https://www.reddit.com/r/academiceconomics/comments/1u03p4m/is_theory_considered_higher_than_applied_research/",
+          "subreddit": "academiceconomics",
+          "post_id": "1u03p4m",
+          "source_reference": "turn13reddit49",
+          "search_batch": 5,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "retain_original",
+          "reason": "Retain original: theory/applied research incentives, distinct from public economics education.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 5 months ago; Whether in Economic or Econometric theory, do you think theory folks are higher in the academic hierarchy than applied economists/econometricians who do not contribute to the development of new models and methods? ... There will always",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Karpathy’s workflow",
+          "url": "https://www.reddit.com/r/ObsidianMD/comments/1sb02pb/karpathys_workflow/",
+          "subreddit": "ObsidianMD",
+          "post_id": "1sb02pb",
+          "source_reference": "turn13reddit50",
+          "search_batch": 5,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "retain_original",
+          "reason": "Retain original: knowledge-workflow discussion relevant to Obsidian; external workflow not independently examined.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 7 months ago; Andrej Karpathy (former OpenAI and Tesla) just posted his workflow for crunching knowledge, makes heavy use of Obsidian. ... I've had great success with getting Claude to fill out a template.md file and add helpful notes",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Founding Member of OpenAI shares his Obsidian Workflow",
+          "url": "https://www.reddit.com/r/SharedVaults/comments/1sb5zku/founding_member_of_openai_shares_his_obsidian/",
+          "subreddit": "SharedVaults",
+          "post_id": "1sb5zku",
+          "source_reference": "turn13reddit51",
+          "search_batch": 5,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Same Karpathy workflow crosspost; duplicates selected subject.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 7 months ago; ChatGPT-OpenAl founding member Andrej Karpathy shared his knowledge workflow involving Obsidian. ... Output: Obsidian is used to view the generated .md files and content - Plugins are used to visualize content.",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Is Statistical theory research considered higher than applied research? [R]",
+          "url": "https://www.reddit.com/r/statistics/comments/1u03rx0/is_statistical_theory_research_considered_higher/",
+          "subreddit": "statistics",
+          "post_id": "1u03rx0",
+          "source_reference": "turn13reddit52",
+          "search_batch": 5,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Near-identical theory/applied hierarchy question in statistics; thematic duplicate.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 5 months ago; Do you think theory folks (\"pure statisticians\") are higher in the academic hierarchy than applied statisticians who do not contribute to the development of new models and methods? ... There is a lot more demand for",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Is applied econometrics research considered less \"prestigious\" than theoretical econometrics research?",
+          "url": "https://www.reddit.com/r/econometrics/comments/1rgzjw8/is_applied_econometrics_research_considered_less/",
+          "subreddit": "econometrics",
+          "post_id": "1rgzjw8",
+          "source_reference": "turn13reddit54",
+          "search_batch": 5,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Theory/applied prestige repeats selected academic-economics question.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 8 months ago; It is higher on the academic hierarchy basically. I am asking specifically for academia by the way, I imagine applied research does much better in industry. ... For otherw applied is superior as “you are facing",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Is Econometric Theory an active research area?",
+          "url": "https://www.reddit.com/r/academiceconomics/comments/1rcnten/is_econometric_theory_an_active_research_area/",
+          "subreddit": "academiceconomics",
+          "post_id": "1rcnten",
+          "source_reference": "turn13reddit55",
+          "search_batch": 5,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Narrow academic job-market question rather than broader research hierarchy.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 8 months ago; I really love mathematics and statistics and want to specialize in the theoretical side of time series analysis/econometrics but I'm worried about the academic job markets. I heard it's very niche and research in econometric theory",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "How aware were people in the ancient and medieval periods of technological progress?",
+          "url": "https://www.reddit.com/r/AskHistorians/comments/1l8p440",
+          "subreddit": "AskHistorians",
+          "post_id": "1l8p440",
+          "source_reference": "turn13reddit57",
+          "search_batch": 5,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "retain_original",
+          "reason": "Retain original: technical-history question adds historical perspective; evergreen rather than fresh news.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 1.4 years ago; Crawled: 1.4 years ago; Did people in the Middle Ages understand how much better (aside from concrete and domes) there technology was than the ancient period? ... (I assume by the late medieval period it was",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Difference Between Applied Microeconomics and Economics Theory",
+          "url": "https://www.reddit.com/r/academiceconomics/comments/jeqh04",
+          "subreddit": "academiceconomics",
+          "post_id": "jeqh04",
+          "source_reference": "turn13reddit59",
+          "search_batch": 5,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Old theory/applied background query; redundant selected academic lane.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 6.1 years ago; Crawled: 6.0 years ago; I am a junior student that eventually wants to do a phd, currently trying to decide my area of research. ... A theory paper will not have data, estimation, or statistical analysis.",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "How aware were people in ancient times, of technological advancement?",
+          "url": "https://www.reddit.com/r/AskHistorians/comments/mf5wgh",
+          "subreddit": "AskHistorians",
+          "post_id": "mf5wgh",
+          "source_reference": "turn13reddit60",
+          "search_batch": 5,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Older near-duplicate technology-awareness question.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 5.6 years ago; Crawled: 5.5 years ago; When I say ancient, I suppose I mean in times prior to modern scientific thought. Like in 1657, did they commonly acknowledge that they were enjoying conveniences that were unknown in centuries",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "What's the deal with the hype around Karpathy's LLM wiki?",
+          "url": "https://www.reddit.com/r/ObsidianMD/comments/1sx040s/whats_the_deal_with_the_hype_around_karpathys_llm/",
+          "subreddit": "ObsidianMD",
+          "post_id": "1sx040s",
+          "source_reference": "turn13reddit61",
+          "search_batch": 5,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Same Karpathy workflow theme; avoid second Obsidian/AI item.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 6 months ago; I'm glad that thanks to the AI bros Obsidian is finally receiving the attention it deserves.",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Theoretical vs Applied Interests",
+          "url": "https://www.reddit.com/r/academiceconomics/comments/nfhlpc",
+          "subreddit": "academiceconomics",
+          "post_id": "nfhlpc",
+          "source_reference": "turn13reddit62",
+          "search_batch": 5,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Old theory/applied interests discussion; redundant academic lane.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 5.5 years ago; Crawled: 5.5 years ago; Anyway, while I am very much applied, theory is important because it guides your research and can help with making your research broadly applicable.",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Beware of \"new translations\" of classics sold as Kindle ebooks, which are actually AI translations without even a human revision",
+          "url": "https://www.reddit.com/r/books/comments/1rkhp2m/beware_of_new_translations_of_classics_sold_as/",
+          "subreddit": "books",
+          "post_id": "1rkhp2m",
+          "source_reference": "turn14reddit47",
+          "search_batch": 6,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "retain_original",
+          "reason": "Retain original expansion pick: literary translation and publishing quality; allegations not independently verified.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 8 months ago; But looking through them, it's the original French text (which is in the public domain) passed through an automatic AI translator tool, without even a revision afterwards, which allows you to follow the story but makes",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Why does cooking feel so confusing at first?",
+          "url": "https://www.reddit.com/r/cookingforbeginners/comments/1tcwlsg/why_does_cooking_feel_so_confusing_at_first/",
+          "subreddit": "cookingforbeginners",
+          "post_id": "1tcwlsg",
+          "source_reference": "turn14reddit48",
+          "search_batch": 6,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "retain_original",
+          "reason": "Retain original wildcard: cooking skill acquisition outside technical work.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 5 months ago; I recently started learning how to cook properly instead of just making instant noodles or eggs and honestly even simple recipes feel confusing sometimes. ... What was the first dish you learned that made you feel",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "I think repairability has become a premium feature.",
+          "url": "https://www.reddit.com/r/BuyItForLife/comments/1u24s8i/i_think_repairability_has_become_a_premium_feature/",
+          "subreddit": "BuyItForLife",
+          "post_id": "1u24s8i",
+          "source_reference": "turn14reddit49",
+          "search_batch": 6,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "retain_original",
+          "reason": "Retain original: repairability and lifetime support complement manufacturing but emphasize consumer ownership.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 5 months ago; My microwave died recently, so I looked up a repair video before replacing it. ... When even the manufacturer can’t repair an appliance, what hope do we have?",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Started cooking: Is it normal to suck at cooking basic dishes?",
+          "url": "https://www.reddit.com/r/Cooking/comments/13sdjsj",
+          "subreddit": "Cooking",
+          "post_id": "13sdjsj",
+          "source_reference": "turn14reddit50",
+          "search_batch": 6,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Cooking beginner confidence overlaps selected wildcard and is older.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 3.5 years ago; Crawled: 3.0 years ago; I'm a fan of Italian food so I found it to be most fitting to start my cooking journey with some classic pasta dishes like aglio e olio and spaghetti carbonara. My",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "i so wish i didn’t feel discouraged all the time",
+          "url": "https://www.reddit.com/r/Cooking/comments/1vmna1r/i_so_wish_i_didnt_feel_discouraged_all_the_time/",
+          "subreddit": "Cooking",
+          "post_id": "1vmna1r",
+          "source_reference": "turn14reddit51",
+          "search_batch": 6,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Newer cooking discouragement anecdote; preserve original qualified cooking pick.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 2 months ago; i’m finding cooking to be a lot less intuitive than i’d hoped. aside from cooking scrambled eggs, pasta, and rice with veggies, i’ve hardly ever been successful at cooking anything, even simple dishes. i’ve tried following",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Cooking feels blocked in my brain and I don’t know how to get past it",
+          "url": "https://www.reddit.com/r/cookingforbeginners/comments/1qmlgo3/cooking_feels_blocked_in_my_brain_and_i_dont_know/",
+          "subreddit": "cookingforbeginners",
+          "post_id": "1qmlgo3",
+          "source_reference": "turn14reddit52",
+          "search_batch": 6,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Cooking frustration overlaps selected beginner-learning wildcard.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 9 months ago; I need to vent about something that’s been weighing on me for a long time: cooking just isn’t clocking in my brain, and I don’t understand why. ... But the reality is that no one ever",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Why cooking is so hard?",
+          "url": "https://www.reddit.com/r/cookingforbeginners/comments/1s6lztz/why_cooking_is_so_hard/",
+          "subreddit": "cookingforbeginners",
+          "post_id": "1s6lztz",
+          "source_reference": "turn14reddit53",
+          "search_batch": 6,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Near-identical beginner cooking difficulty theme.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 7 months ago; Every time I follow the recipe, cooked for 1 hour long , but I can’t figure out why it looks so different as the tutorial. the worst thing is I need to Cook for myself for",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Ai avoidance is making me read older books.",
+          "url": "https://www.reddit.com/r/books/comments/1vo1at1/ai_avoidance_is_making_me_read_older_books/",
+          "subreddit": "books",
+          "post_id": "1vo1at1",
+          "source_reference": "turn14reddit54",
+          "search_batch": 6,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "AI book avoidance overlaps selected translation-quality expansion.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 2 months ago; I got a kindle unlimited subscription for the first time a couple months ago and have been astounded at the amount of Ai books on there and how many are being fed to me via the",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Is repairability more important than innovation going forward?",
+          "url": "https://www.reddit.com/r/TechNook/comments/1rzs0lq/is_repairability_more_important_than_innovation/",
+          "subreddit": "TechNook",
+          "post_id": "1rzs0lq",
+          "source_reference": "turn14reddit55",
+          "search_batch": 6,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Repairability/innovation repeats selected concrete microwave-triggered question.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 7 months ago; Feels like every new tech release is all about slimmer designs and new features, but at the cost of being harder to repair. ... I think so.",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Has convenience become more important than repairability?",
+          "url": "https://www.reddit.com/r/TechNook/comments/1uupia3/has_convenience_become_more_important_than/",
+          "subreddit": "TechNook",
+          "post_id": "1uupia3",
+          "source_reference": "turn14reddit56",
+          "search_batch": 6,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Repairability/convenience repeats selected repairability pick.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 3 months ago; Do you think convenience has become more important than repairability?",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        },
+        {
+          "title": "Cooking is harder than I thought but I want to learn",
+          "url": "https://www.reddit.com/r/cookingforbeginners/comments/1m77abh",
+          "subreddit": "cookingforbeginners",
+          "post_id": "1m77abh",
+          "source_reference": "turn14reddit57",
+          "search_batch": 6,
+          "observed_at": "2026-11-08T03:47:44.403Z",
+          "observation_timestamp_precision": "Batch completion timestamp for this recovery pass; individual query seconds not retained.",
+          "original_post_verification": "not_performed_user_waived",
+          "decision": "reject_recovery_alternative",
+          "reason": "Older beginner cooking difficulty; thematic duplicate.",
+          "freshness_basis": "Search-result relative publication label only unless an explicit dated excerpt is recorded. No independent original-post date check.",
+          "original_thread_accessibility": "not_verified",
+          "full_comments_read": false,
+          "permanent_dedup_matches": [],
+          "permanent_dedup_pass": true,
+          "observation_excerpt": "Published: 1.3 years ago; Crawled: 1.1 years ago; I moved out from my parents’ house and now I have to cook by myself. ... For example you've already learned that your pan gets too hot when you follow directions exactly",
+          "excerpt_scope": "Short search excerpt only; identity, URL and editorial selection reasoning retained; full source transcription deliberately omitted."
+        }
+      ],
+      "limitations": [
+        "Original candidate research was lost. This pool documents actual recovery-time observations only, not original November 8 research.",
+        "Search observations are excerpts; do not imply full comments read, discussion quality verified, current Reddit accessibility, or exact publication dates.",
+        "Search relative ages can be rounded or inconsistent. No selected post appears to be new within the past month; this is an evergreen discussion selection, not a recent-post digest.",
+        "Quoted snippets are anecdotal community claims, not independent factual validation."
+      ],
+      "topic_balance": {
+        "denominator": 10,
+        "groups": {
+          "engineering_manufacturing_quality_repairability": [
+            "1plriuo",
+            "12bogty",
+            "1u24s8i"
+          ],
+          "economics_education_and_research": [
+            "1uo7rf2",
+            "1u03p4m"
+          ],
+          "knowledge_workflow": [
+            "1sb02pb"
+          ],
+          "data_architecture": [
+            "1r73l52"
+          ],
+          "history": [
+            "1l8p440"
+          ],
+          "publishing_translation": [
+            "1rkhp2m"
+          ],
+          "cooking_learning": [
+            "1tcwlsg"
+          ]
+        },
+        "largest_narrow_topic_share": 0.3,
+        "passes_max_40_percent": true,
+        "wildcard_expansion_ids": [
+          "1rkhp2m",
+          "1tcwlsg"
+        ],
+        "qualification": "Editorial topic classification based on observed titles/snippets, not measured user preferences. Broad engineering+data classification could count 4/10, still at limit. AI-related workflow+translation counts 2/10."
+      },
+      "proposed_note_corrections": [
+        {
+          "target": "date fields overall",
+          "action": "Use search-observed relative labels with 检索显示约…；原帖日期未核实. Preserve precise source dates only if separate original evidence can be recovered. Do not infer exact dates from ID ordering."
+        },
+        {
+          "target": "1r73l52 date",
+          "action": "Replace 约2026-03 with 搜索摘要出现 2026-02-17；原帖日期未独立核实, or omit exact date. Search excerpt explicitly says Tuesday February 17 2026."
+        },
+        {
+          "target": "1plriuo age",
+          "action": "Recovery search says 10 months ago, whereas note says roughly 11. Use 搜索显示约10个月前 rather than exact 2025-12-13 unless independently supported."
+        },
+        {
+          "target": "1tcwlsg age",
+          "action": "Recovery search says 5 months ago; note says roughly 6. Use 搜索显示约5个月前 rather than exact 2026-05-14 unless supported elsewhere."
+        },
+        {
+          "target": "1l8p440 date",
+          "action": "Recovery search supports relative 1.4 years ago, not precise 2025-06-11."
+        },
+        {
+          "target": "12bogty date",
+          "action": "Recovery search supports 3.6 years ago, not precise 2023-04-04."
+        },
+        {
+          "target": "1uo7rf2 date",
+          "action": "Recovery search supports 4 months ago, not precise 2026-07-05."
+        },
+        {
+          "target": "1u03p4m date",
+          "action": "Recovery search supports 5 months ago, not independently month June."
+        },
+        {
+          "target": "1sb02pb date",
+          "action": "Recovery search supports 7 months ago, not precise 2026-04-03."
+        },
+        {
+          "target": "1rkhp2m date",
+          "action": "Recovery search supports 8 months ago, not precise 2026-03-04."
+        },
+        {
+          "target": "1u24s8i title and date",
+          "action": "Observed title ends with a period; optional punctuation normalization. Search supports 5 months ago, not precise 2026-06-10."
+        },
+        {
+          "target": "1plriuo Why read",
+          "action": "Detailed labor/yield/downtime/customs/production discussion not reproduced in recovery snippet. Rewrite as editorial questions to consider rather than asserting those specific details appear in search discussion."
+        },
+        {
+          "target": "12bogty Why read",
+          "action": "Observed snippet supports startup, failure-analysis corrective-action reports and design bandaids vs quality root cause. Avoid attributing additional production details not observed."
+        },
+        {
+          "target": "1uo7rf2 Why read",
+          "action": "Remove linkage to 今天中国资源效率目标的新闻 unless separately verified in repaired news note. Present model assumptions/mathematics as editorial reading prompts."
+        },
+        {
+          "target": "1sb02pb Why read",
+          "action": "Recovery snippet confirms Karpathy/Obsidian knowledge workflow, not opposition to outsourcing understanding. Label that critique as editorial question, not searched comment evidence."
+        },
+        {
+          "target": "1r73l52 Why read",
+          "action": "Recovery snippet supports criticism of data-lake implementations and unclear rationale. Partition/file-size/schema details were not reproduced; frame them as editorial evaluation checklist, not statements of what author listed."
+        },
+        {
+          "target": "1tcwlsg Why read",
+          "action": "Recovery snippet confirms beginner confusion. Garlic timing, smell of roast vegetables and mise en place not observed in recovery evidence. Remove those attributions or relabel as editorial prompts."
+        },
+        {
+          "target": "1u24s8i Why read",
+          "action": "Snippet supports dead microwave and looking for repair video, not absence of spare parts specifically. Frame parts availability as a question to ask, not verified OP experience."
+        },
+        {
+          "target": "opening caution",
+          "action": "State these ten identities were reobserved in recovery-time search; do not imply original Nov8 search logs survived. Add evergreen/no recent-month picks disclosure if freshness policy expects recent content."
+        }
+      ],
+      "permanent_dedup": {
+        "history_path": "recovery/reddit.jsonl",
+        "sha256": "04617c23ee28a8e8da96e23637961adb8324c2c30e04780b2d1406991222d9e7",
+        "row_count": 550,
+        "checked_full_history": true,
+        "matching_method": "Exact post ID, falling back to extraction from URL. No lookback cutoff.",
+        "all_originals_pass": true,
+        "same_day_rows_in_this_history_file": 0
+      },
+      "preserved_note_sha256": "56b380bbb45018439106294808c0e0eb384c9b87376343206cf04633b7e40922",
+      "freshness_assessment": {
+        "selected_with_search_label_within_past_month": 0,
+        "conclusion": "Original set is evergreen rather than fresh. No precise recency requirement was supplied to this worker, so freshness cannot be certified against an unstated threshold. All original identities qualify under search-only waiver.",
+        "newer_rejected_candidates": [
+          "1x9y151",
+          "1xas5t6",
+          "1wrqe5a"
+        ],
+        "reason_preserved": "Parent explicitly requested preserving qualified originals, not reselection."
+      }
+    },
+    "youtube-final-history-rows.json": [
+      {
+        "date": "2026-11-08",
+        "operation_id": "news-youtube-reddit:2026-11-08",
+        "position": 1,
+        "title": "A perspective on space: preparing for 2075",
+        "video_id": "hB9JIjzIwrU",
+        "channel": "The Royal Society",
+        "url": "https://www.youtube.com/watch?v=hB9JIjzIwrU",
+        "verification_source_url": "https://royalsociety.org/science-events-and-lectures/2025/10/2075-a-space-odyssey/",
+        "verification_method": "creator_official_page",
+        "verification_phase": "recovery_time",
+        "verification_status": "publisher_identity_link_and_content_verified",
+        "playback_tested": false
+      },
+      {
+        "date": "2026-11-08",
+        "operation_id": "news-youtube-reddit:2026-11-08",
+        "position": 2,
+        "title": "The Quantum Future (Where we go next)",
+        "video_id": "8IJdwTRSTFQ",
+        "channel": "Perimeter Institute for Theoretical Physics",
+        "url": "https://www.youtube.com/watch?v=8IJdwTRSTFQ",
+        "verification_source_url": "https://perimeterinstitute.ca/outreach/general-public/quantum-101",
+        "verification_method": "creator_official_page",
+        "verification_phase": "recovery_time",
+        "verification_status": "publisher_identity_link_and_content_verified",
+        "playback_tested": false
+      },
+      {
+        "date": "2026-11-08",
+        "operation_id": "news-youtube-reddit:2026-11-08",
+        "position": 3,
+        "title": "The Origins of Art Nouveau Architecture",
+        "video_id": "k20doHDjMwo",
+        "channel": "HENI Talks",
+        "url": "https://www.youtube.com/watch?v=k20doHDjMwo",
+        "verification_source_url": "https://heni.com/talks/origins-of-art-nouveau-architecture",
+        "verification_method": "creator_official_page",
+        "verification_phase": "recovery_time",
+        "verification_status": "publisher_identity_link_and_content_verified",
+        "playback_tested": false,
+        "supersedes_video_id": "MPDwVSODXP0"
+      },
+      {
+        "date": "2026-11-08",
+        "operation_id": "news-youtube-reddit:2026-11-08",
+        "position": 4,
+        "title": "Past Made Present: History Painting from Raphael to Leutze",
+        "video_id": "2_rO0YNIwPA",
+        "channel": "The Met",
+        "url": "https://www.youtube.com/watch?v=2_rO0YNIwPA",
+        "verification_source_url": "https://www.metmuseum.org/ja/perspectives/making-history-past-made-present-history-painting-from-raphael-to-leutze",
+        "verification_method": "creator_official_page",
+        "verification_phase": "recovery_time",
+        "verification_status": "publisher_identity_link_and_content_verified",
+        "playback_tested": false
+      },
+      {
+        "date": "2026-11-08",
+        "operation_id": "news-youtube-reddit:2026-11-08",
+        "position": 5,
+        "title": "Cello - In Search of a Voice",
+        "video_id": "LI53uFBXj4I",
+        "channel": "Gresham College",
+        "url": "https://www.youtube.com/watch?v=LI53uFBXj4I",
+        "verification_source_url": "https://www.gresham.ac.uk/watch-now/cello-voice",
+        "verification_method": "creator_official_page",
+        "verification_phase": "recovery_time",
+        "verification_status": "publisher_identity_link_and_content_verified",
+        "playback_tested": false,
+        "supersedes_video_id": "M9Xx--JRXmM"
+      }
+    ],
+    "youtube-history-supplement.json": {
+      "scope": "GitHub current main, fetched read-only; supplements only the ten incomplete surviving history rows, without rewriting historical files.",
+      "observations": [
+        {
+          "date": "2026-10-06",
+          "video_id": "o4TdHrMi6do",
+          "title": "A laser pointer at 2 billion fps makes the speed of light look... kinda weird",
+          "channel": "AlphaPhoenix",
+          "topic": "ultrafast imaging / optics / measurement",
+          "source_url": "https://github.com/ZJFILOVE/obsidian-vault/blob/main/Resources/YouTube/Daily/2026-10-06.md",
+          "source_blob_sha": "bd5216c04573d73df65298f0e6cec4136ce7259f"
+        },
+        {
+          "date": "2026-10-06",
+          "video_id": "eqc2u0MuPe8",
+          "title": "The Incredible Femtosecond Laser",
+          "channel": "Asianometry",
+          "topic": "femtosecond laser / photonics / technology history",
+          "source_url": "https://github.com/ZJFILOVE/obsidian-vault/blob/main/Resources/YouTube/Daily/2026-10-06.md",
+          "source_blob_sha": "bd5216c04573d73df65298f0e6cec4136ce7259f"
+        },
+        {
+          "date": "2026-10-06",
+          "video_id": "yl8vPW5hydQ",
+          "title": "How do CPUs read machine code? — 6502 part 2",
+          "channel": "Ben Eater",
+          "topic": "computer architecture / 6502 / machine code",
+          "source_url": "https://github.com/ZJFILOVE/obsidian-vault/blob/main/Resources/YouTube/Daily/2026-10-06.md",
+          "source_blob_sha": "bd5216c04573d73df65298f0e6cec4136ce7259f"
+        },
+        {
+          "date": "2026-10-06",
+          "video_id": "vBG621XEegk",
+          "title": "Hieronymus Bosch, The Garden of Earthly Delights (Full Length): Great Art Explained",
+          "channel": "Great Art Explained",
+          "topic": "art history / visual analysis / Bosch",
+          "source_url": "https://github.com/ZJFILOVE/obsidian-vault/blob/main/Resources/YouTube/Daily/2026-10-06.md",
+          "source_blob_sha": "bd5216c04573d73df65298f0e6cec4136ce7259f"
+        },
+        {
+          "date": "2026-10-06",
+          "video_id": "ZVrT8mrll-0",
+          "title": "Why Did the Chocolate Bar Ration of WW2 Taste Terrible?",
+          "channel": "Tasting History with Max Miller",
+          "topic": "food history / military logistics / product constraints",
+          "source_url": "https://github.com/ZJFILOVE/obsidian-vault/blob/main/Resources/YouTube/Daily/2026-10-06.md",
+          "source_blob_sha": "bd5216c04573d73df65298f0e6cec4136ce7259f"
+        },
+        {
+          "date": "2026-10-08",
+          "video_id": "ldxFjLJ3rVY",
+          "title": "This picture broke my brain",
+          "channel": "3Blue1Brown",
+          "topic": "复对数、保角映射、Escher 的 Print Gallery、数学可视化",
+          "source_url": "https://github.com/ZJFILOVE/obsidian-vault/blob/main/Resources/YouTube/Daily/2026-10-08.md",
+          "source_blob_sha": "e8863ca2894d111365d1dc486f6a3a79045caa47"
+        },
+        {
+          "date": "2026-10-08",
+          "video_id": "_Ms1Z4xfqv4",
+          "title": "Metaprogramming — MIT Missing Semester, Lecture 8",
+          "channel": "MIT Missing Semester",
+          "topic": "build systems、Make、依赖关系、持续集成、科研可复现性",
+          "source_url": "https://github.com/ZJFILOVE/obsidian-vault/blob/main/Resources/YouTube/Daily/2026-10-08.md",
+          "source_blob_sha": "e8863ca2894d111365d1dc486f6a3a79045caa47"
+        },
+        {
+          "date": "2026-10-08",
+          "video_id": "1VPfZ_XzisU",
+          "title": "The Bizarre Behavior of Rotating Bodies",
+          "channel": "Veritasium",
+          "topic": "intermediate-axis theorem、刚体动力学、角动量守恒、旋转稳定性",
+          "source_url": "https://github.com/ZJFILOVE/obsidian-vault/blob/main/Resources/YouTube/Daily/2026-10-08.md",
+          "source_blob_sha": "e8863ca2894d111365d1dc486f6a3a79045caa47"
+        },
+        {
+          "date": "2026-10-08",
+          "video_id": "qK9aYnkIr3w",
+          "title": "Microscopy: Fluorescent Proteins (Roger Tsien)",
+          "channel": "iBiology Techniques",
+          "topic": "GFP 色团成熟、发射调控、荧光探针工程、近红外蛋白",
+          "source_url": "https://github.com/ZJFILOVE/obsidian-vault/blob/main/Resources/YouTube/Daily/2026-10-08.md",
+          "source_blob_sha": "e8863ca2894d111365d1dc486f6a3a79045caa47"
+        },
+        {
+          "date": "2026-10-08",
+          "video_id": "69Gw7aoWMMI",
+          "title": "The Ridiculous Engineering Of Short Form Content",
+          "channel": "Enrico Tartarotti",
+          "topic": "用户界面工程、短视频产品设计、推荐系统、注意力机制",
+          "source_url": "https://github.com/ZJFILOVE/obsidian-vault/blob/main/Resources/YouTube/Daily/2026-10-08.md",
+          "source_blob_sha": "e8863ca2894d111365d1dc486f6a3a79045caa47"
+        }
+      ],
+      "final_comparisons": [
+        {
+          "video_id": "hB9JIjzIwrU",
+          "duplicates": []
+        },
+        {
+          "video_id": "8IJdwTRSTFQ",
+          "duplicates": []
+        },
+        {
+          "video_id": "k20doHDjMwo",
+          "duplicates": []
+        },
+        {
+          "video_id": "2_rO0YNIwPA",
+          "duplicates": []
+        },
+        {
+          "video_id": "LI53uFBXj4I",
+          "duplicates": []
+        }
+      ],
+      "same_work_review": "All ten underlying works are distinct from the five final selections: ultrafast laser imaging, femtosecond lasers, 6502 machine code, Bosch triptych analysis, wartime chocolate rations, Escher/complex-logarithm mathematics, build systems, rotating-body stability, fluorescent proteins, and short-video interface design. Neither the Bosch painting analysis nor Escher mathematical visualization is a mirror or alternate version of the Met history-painting survey, Horta architectural film, or Kennedy cello lecture.",
+      "reservation_scope": "No other-operation reservations excluded from this comparison. The only permissible reservation exception is the exact original Nov 8 same-operation selection. Full earlier PREPARED reservation audit is assigned separately to engineering worker and not asserted completed here."
+    },
+    "youtube-reverification.json": {
+      "research_phase": "recovery_time_not_original_run",
+      "recovery_date": "2026-11-08",
+      "status": "corrected_note_and_final_rows_prepared_not_published",
+      "history_sha256": "405e8722c0317796141c47e8f8002ae8bd7386c1eead907e259dd418dae8e89a",
+      "history_rows": 285,
+      "selected": [
+        {
+          "date": "2026-11-08",
+          "operation_id": "news-youtube-reddit:2026-11-08",
+          "position": 1,
+          "title": "A perspective on space: preparing for 2075",
+          "video_id": "hB9JIjzIwrU",
+          "channel": "The Royal Society",
+          "url": "https://www.youtube.com/watch?v=hB9JIjzIwrU",
+          "verification_method": "creator_official_page",
+          "verification_source_url": "https://royalsociety.org/science-events-and-lectures/2025/10/2075-a-space-odyssey/",
+          "verification_phase": "recovery_time",
+          "verification_status": "verified",
+          "observations": "Official event title, Sweeting and launch/Moon/life description, iframe link 97 resolves to exact ID. Indexed YouTube result independently gives channel and title.",
+          "duplicates": []
+        },
+        {
+          "date": "2026-11-08",
+          "operation_id": "news-youtube-reddit:2026-11-08",
+          "position": 2,
+          "title": "The Quantum Future (Where we go next)",
+          "video_id": "8IJdwTRSTFQ",
+          "channel": "Perimeter Institute for Theoretical Physics",
+          "url": "https://www.youtube.com/watch?v=8IJdwTRSTFQ",
+          "verification_method": "creator_official_page",
+          "verification_source_url": "https://perimeterinstitute.ca/outreach/general-public/quantum-101",
+          "verification_phase": "recovery_time",
+          "verification_status": "verified_limited_content",
+          "observations": "Official episode 10 link resolves to exact ID; YouTube returned title including creator. Series describes Katie Mack, ten episodes, quantum ideas and technology. Episode-specific technical details beyond series description not inspected.",
+          "duplicates": []
+        },
+        {
+          "date": "2026-11-08",
+          "operation_id": "news-youtube-reddit:2026-11-08",
+          "position": 3,
+          "title": "Le Corbusier, Villa Savoye",
+          "video_id": "MPDwVSODXP0",
+          "channel": "Smarthistory",
+          "url": "https://www.youtube.com/watch?v=MPDwVSODXP0",
+          "verification_method": "indexed_youtube_and_official_transcript",
+          "verification_source_url": "https://www.youtube.com/watch?v=MPDwVSODXP0",
+          "verification_phase": "recovery_time",
+          "verification_status": "partial_strict_direct_open_unmet",
+          "observations": "Indexed YouTube result gives exact ID, title, channel and speakers Harris/Zucker; indexed official transcript supports turning radius, machine metaphor and pilotis. Direct watch fetch throttled and official open returned 403. No successful direct-page open; strict direct-open gate remains unmet.",
+          "duplicates": []
+        },
+        {
+          "date": "2026-11-08",
+          "operation_id": "news-youtube-reddit:2026-11-08",
+          "position": 4,
+          "title": "Past Made Present: History Painting from Raphael to Leutze",
+          "video_id": "2_rO0YNIwPA",
+          "channel": "The Met",
+          "url": "https://www.youtube.com/watch?v=2_rO0YNIwPA",
+          "verification_method": "creator_official_page",
+          "verification_source_url": "https://www.metmuseum.org/ja/perspectives/making-history-past-made-present-history-painting-from-raphael-to-leutze",
+          "verification_phase": "recovery_time",
+          "verification_status": "verified",
+          "observations": "Official title and 51-minute description, Galitz attribution, Raphael to Leutze; player link resolves to exact ID. Indexed YouTube confirms The Met channel.",
+          "duplicates": []
+        },
+        {
+          "date": "2026-11-08",
+          "operation_id": "news-youtube-reddit:2026-11-08",
+          "position": 5,
+          "title": "Cello - In Search of a Voice",
+          "video_id": "M9Xx--JRXmM",
+          "channel": "Gresham College",
+          "url": "https://www.youtube.com/watch?v=M9Xx--JRXmM",
+          "verification_method": "indexed_official_original_link_and_youtube",
+          "verification_source_url": "https://www.gresham.ac.uk/watch-now/cello-voice",
+          "verification_phase": "recovery_time",
+          "verification_status": "partial_original_id_only_indexed",
+          "observations": "Indexed official page explicitly links original M9Xx--JRXmM; indexed YouTube confirms livestream title, channel and description. Current official open has substantive full transcript but embeds edited LI53uFBXj4I, NOT original. Original direct watch fetch throttled.",
+          "duplicates": []
+        }
+      ],
+      "candidate_pool": [
+        {
+          "video_id": "hB9JIjzIwrU",
+          "title": "A perspective on space: preparing for 2075",
+          "channel": "The Royal Society",
+          "url": "https://www.youtube.com/watch?v=hB9JIjzIwrU",
+          "decision": "retain_original_pending_final_gate",
+          "reason": "Long-horizon space science and engineering perspective",
+          "source": "https://royalsociety.org/science-events-and-lectures/2025/10/2075-a-space-odyssey/",
+          "history_matches": []
+        },
+        {
+          "video_id": "8IJdwTRSTFQ",
+          "title": "The Quantum Future (Where we go next)",
+          "channel": "Perimeter Institute for Theoretical Physics",
+          "url": "https://www.youtube.com/watch?v=8IJdwTRSTFQ",
+          "decision": "retain_original_pending_final_gate",
+          "reason": "Quantum series capstone for conceptual navigation",
+          "source": "https://perimeterinstitute.ca/outreach/general-public/quantum-101",
+          "history_matches": []
+        },
+        {
+          "video_id": "MPDwVSODXP0",
+          "title": "Le Corbusier, Villa Savoye",
+          "channel": "Smarthistory",
+          "url": "https://www.youtube.com/watch?v=MPDwVSODXP0",
+          "decision": "retain_original_pending_final_gate",
+          "reason": "Concise visual architecture analysis",
+          "source": "https://www.youtube.com/watch?v=MPDwVSODXP0",
+          "history_matches": []
+        },
+        {
+          "video_id": "2_rO0YNIwPA",
+          "title": "Past Made Present: History Painting from Raphael to Leutze",
+          "channel": "The Met",
+          "url": "https://www.youtube.com/watch?v=2_rO0YNIwPA",
+          "decision": "retain_original_pending_final_gate",
+          "reason": "Long-form art history across classical and national narratives",
+          "source": "https://www.metmuseum.org/ja/perspectives/making-history-past-made-present-history-painting-from-raphael-to-leutze",
+          "history_matches": []
+        },
+        {
+          "video_id": "M9Xx--JRXmM",
+          "title": "Cello - In Search of a Voice",
+          "channel": "Gresham College",
+          "url": "https://www.youtube.com/watch?v=M9Xx--JRXmM",
+          "decision": "retain_original_pending_final_gate",
+          "reason": "Wildcard instrument biography and cultural memory despite creator cooldown",
+          "source": "https://www.gresham.ac.uk/watch-now/cello-voice",
+          "history_matches": []
+        },
+        {
+          "video_id": "DfQH3o6dKss",
+          "title": "Wave Particle Duality Explained",
+          "channel": "Perimeter Institute for Theoretical Physics",
+          "url": "https://www.youtube.com/watch?v=DfQH3o6dKss",
+          "decision": "reject",
+          "reason": "Single foundational episode overlaps selected series capstone; avoid multiple same-creator quantum selections.",
+          "source": "https://perimeterinstitute.ca/outreach/general-public/quantum-101",
+          "evidence": "Official series title/link, exact ID observed by following publisher link.",
+          "history_matches": []
+        },
+        {
+          "video_id": "bChNhy1prD4",
+          "title": "Quantization Explained",
+          "channel": "Perimeter Institute for Theoretical Physics",
+          "url": "https://www.youtube.com/watch?v=bChNhy1prD4",
+          "decision": "reject",
+          "reason": "Single foundational episode overlaps selected series capstone; avoid multiple same-creator quantum selections.",
+          "source": "https://perimeterinstitute.ca/outreach/general-public/quantum-101",
+          "evidence": "Official series title/link, exact ID observed by following publisher link.",
+          "history_matches": []
+        },
+        {
+          "video_id": "kZTXIcYfqEE",
+          "title": "Uncertainty in Quantum Mechanics",
+          "channel": "Perimeter Institute for Theoretical Physics",
+          "url": "https://www.youtube.com/watch?v=kZTXIcYfqEE",
+          "decision": "reject",
+          "reason": "Single foundational episode overlaps selected series capstone; avoid multiple same-creator quantum selections.",
+          "source": "https://perimeterinstitute.ca/outreach/general-public/quantum-101",
+          "evidence": "Official series title/link, exact ID observed by following publisher link.",
+          "history_matches": []
+        },
+        {
+          "video_id": "IHDMJqJHCQg",
+          "title": "Superposition Explained (Schrödinger’s Cat)",
+          "channel": "Perimeter Institute for Theoretical Physics",
+          "url": "https://www.youtube.com/watch?v=IHDMJqJHCQg",
+          "decision": "reject",
+          "reason": "Single foundational episode overlaps selected series capstone; avoid multiple same-creator quantum selections.",
+          "source": "https://perimeterinstitute.ca/outreach/general-public/quantum-101",
+          "evidence": "Official series title/link, exact ID observed by following publisher link.",
+          "history_matches": []
+        },
+        {
+          "video_id": "rqmIVeheTVU",
+          "title": "Quantum Entanglement Explained",
+          "channel": "Perimeter Institute for Theoretical Physics",
+          "url": "https://www.youtube.com/watch?v=rqmIVeheTVU",
+          "decision": "reject",
+          "reason": "Single foundational episode overlaps selected series capstone; avoid multiple same-creator quantum selections.",
+          "source": "https://perimeterinstitute.ca/outreach/general-public/quantum-101",
+          "evidence": "Official series title/link, exact ID observed by following publisher link.",
+          "history_matches": []
+        },
+        {
+          "video_id": "GqBJiOM5tm8",
+          "title": "Quantum Probability Explained",
+          "channel": "Perimeter Institute for Theoretical Physics",
+          "url": "https://www.youtube.com/watch?v=GqBJiOM5tm8",
+          "decision": "reject",
+          "reason": "Single foundational episode overlaps selected series capstone; avoid multiple same-creator quantum selections.",
+          "source": "https://perimeterinstitute.ca/outreach/general-public/quantum-101",
+          "evidence": "Official series title/link, exact ID observed by following publisher link.",
+          "history_matches": []
+        },
+        {
+          "video_id": "qT5sD3GPpmI",
+          "title": "Quantum Computing Explained",
+          "channel": "Perimeter Institute for Theoretical Physics",
+          "url": "https://www.youtube.com/watch?v=qT5sD3GPpmI",
+          "decision": "reject",
+          "reason": "Single foundational episode overlaps selected series capstone; avoid multiple same-creator quantum selections.",
+          "source": "https://perimeterinstitute.ca/outreach/general-public/quantum-101",
+          "evidence": "Official series title/link, exact ID observed by following publisher link.",
+          "history_matches": []
+        },
+        {
+          "video_id": "jWbwDTPju-M",
+          "title": "Photoelectric Effect Explained",
+          "channel": "Perimeter Institute for Theoretical Physics",
+          "url": "https://www.youtube.com/watch?v=jWbwDTPju-M",
+          "decision": "reject",
+          "reason": "Single foundational episode overlaps selected series capstone; avoid multiple same-creator quantum selections.",
+          "source": "https://perimeterinstitute.ca/outreach/general-public/quantum-101",
+          "evidence": "Official series title/link, exact ID observed by following publisher link.",
+          "history_matches": []
+        },
+        {
+          "video_id": "Yg0LT3n4mYY",
+          "title": "Quantum Tunneling Explained",
+          "channel": "Perimeter Institute for Theoretical Physics",
+          "url": "https://www.youtube.com/watch?v=Yg0LT3n4mYY",
+          "decision": "reject",
+          "reason": "Single foundational episode overlaps selected series capstone; avoid multiple same-creator quantum selections.",
+          "source": "https://perimeterinstitute.ca/outreach/general-public/quantum-101",
+          "evidence": "Official series title/link, exact ID observed by following publisher link.",
+          "history_matches": []
+        },
+        {
+          "video_id": "hUhisi2FBuw",
+          "title": "The Ingenious Design of the Aluminum Beverage Can",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=hUhisi2FBuw",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-09-18; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-09-18",
+              "video_id": "hUhisi2FBuw",
+              "title": "The Ingenious Design of the Aluminum Beverage Can"
+            }
+          ]
+        },
+        {
+          "video_id": "0MwMkBET_5I",
+          "title": "Fiber optic cables: How they work",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=0MwMkBET_5I",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-10-15; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-10-15",
+              "video_id": "0MwMkBET_5I",
+              "title": "Fiber optic cables: How they work"
+            }
+          ]
+        },
+        {
+          "video_id": "F5Ri_HhziI0",
+          "title": "Why the other line is likely to move faster",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=F5Ri_HhziI0",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-10-20; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-10-20",
+              "video_id": "F5Ri_HhziI0",
+              "title": "Why the other line is likely to move faster"
+            }
+          ]
+        },
+        {
+          "video_id": "RMjtmsr3CqA",
+          "title": "Plastic Injection Molding",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=RMjtmsr3CqA",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-10-21; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-10-21",
+              "video_id": "RMjtmsr3CqA",
+              "title": "Plastic Injection Molding"
+            }
+          ]
+        },
+        {
+          "video_id": "COty6_oDEkk",
+          "title": "How a Wind Up Music Box Works",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=COty6_oDEkk",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-10-23; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-10-23",
+              "video_id": "COty6_oDEkk",
+              "title": "How a Wind Up Music Box Works"
+            }
+          ]
+        },
+        {
+          "video_id": "Wiy_eHdj8kg",
+          "title": "Hard drive teardown",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=Wiy_eHdj8kg",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-10-25; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-10-25",
+              "video_id": "Wiy_eHdj8kg",
+              "title": "Hard drive teardown"
+            }
+          ]
+        },
+        {
+          "video_id": "rhIRD5YVNbs",
+          "title": "How a lead-acid battery works",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=rhIRD5YVNbs",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-10-25; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-10-25",
+              "video_id": "rhIRD5YVNbs",
+              "title": "How a lead-acid battery works"
+            }
+          ]
+        },
+        {
+          "video_id": "wI-qAxKJoSU",
+          "title": "Nitinol: The Shape Memory Effect and Superelasticity",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=wI-qAxKJoSU",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-10-26; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-10-26",
+              "video_id": "wI-qAxKJoSU",
+              "title": "Nitinol: The Shape Memory Effect and Superelasticity"
+            }
+          ]
+        },
+        {
+          "video_id": "kp33ZprO0Ck",
+          "title": "How a Microwave Oven Works",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=kp33ZprO0Ck",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-10-27; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-10-27",
+              "video_id": "kp33ZprO0Ck",
+              "title": "How a Microwave Oven Works"
+            }
+          ]
+        },
+        {
+          "video_id": "bRCNenhcvpw",
+          "title": "IBM Selectric Typewriter & its digital to analogue converter",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=bRCNenhcvpw",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-10-30; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-10-30",
+              "video_id": "bRCNenhcvpw",
+              "title": "IBM Selectric Typewriter & its digital to analogue converter"
+            }
+          ]
+        },
+        {
+          "video_id": "jiejNAUwcQ8",
+          "title": "LCD Monitor Teardown",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=jiejNAUwcQ8",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-10-31; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-10-31",
+              "video_id": "jiejNAUwcQ8",
+              "title": "LCD Monitor Teardown"
+            }
+          ]
+        },
+        {
+          "video_id": "KZVgKu6v808",
+          "title": "How a Smartphone Knows Up from Down (accelerometer)",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=KZVgKu6v808",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-10-31; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-10-31",
+              "video_id": "KZVgKu6v808",
+              "title": "How a Smartphone Knows Up from Down (accelerometer)"
+            }
+          ]
+        },
+        {
+          "video_id": "3ZhVOy-ytJY",
+          "title": "Anodizing (Or the beauty of corrosion)",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=3ZhVOy-ytJY",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-11-01; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-11-01",
+              "video_id": "3ZhVOy-ytJY",
+              "title": "Anodizing (Or the beauty of corrosion)"
+            }
+          ]
+        },
+        {
+          "video_id": "4j4Q_YBRJEI",
+          "title": "Coffee Maker: Pumping water with no moving parts",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=4j4Q_YBRJEI",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-11-01; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-11-01",
+              "video_id": "4j4Q_YBRJEI",
+              "title": "Coffee Maker: Pumping water with no moving parts"
+            }
+          ]
+        },
+        {
+          "video_id": "DIGqBb3iZPo",
+          "title": "Light bulb filament",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=DIGqBb3iZPo",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-11-02; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-11-02",
+              "video_id": "DIGqBb3iZPo",
+              "title": "Light bulb filament"
+            }
+          ]
+        },
+        {
+          "video_id": "ddYZITaxlTQ",
+          "title": "How Sony's Betamax lost to JVC's VHS Cassette Recorder",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=ddYZITaxlTQ",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-11-02; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-11-02",
+              "video_id": "ddYZITaxlTQ",
+              "title": "How Sony's Betamax lost to JVC's VHS Cassette Recorder"
+            }
+          ]
+        },
+        {
+          "video_id": "1pM6uD8nePo",
+          "title": "How a quartz watch works",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=1pM6uD8nePo",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-11-03; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-11-03",
+              "video_id": "1pM6uD8nePo",
+              "title": "How a quartz watch works"
+            }
+          ]
+        },
+        {
+          "video_id": "UCKC-QVcVn0",
+          "title": "The Engineering of the Drinking Bird",
+          "channel": "engineerguy",
+          "url": "https://www.youtube.com/watch?v=UCKC-QVcVn0",
+          "decision": "reject",
+          "reason": "Previously recommended exact ID/work on 2026-11-03; permanent dedup exclusion.",
+          "source": "https://engineerguy.com/videos.htm",
+          "evidence": "Title and substantive description newly observed on official catalog; exact ID from surviving permanent history, not newly reverified.",
+          "history_matches": [
+            {
+              "date": "2026-11-03",
+              "video_id": "UCKC-QVcVn0",
+              "title": "The Engineering of the Drinking Bird"
+            }
+          ]
+        },
+        {
+          "video_id": "k20doHDjMwo",
+          "title": "The Origins of Art Nouveau Architecture",
+          "channel": "HENI Talks",
+          "url": "https://www.youtube.com/watch?v=k20doHDjMwo",
+          "decision": "proposed_replacement",
+          "reason": "Preserves architectural analysis slot. Official page identifies Paul Greenhalgh and exploration of Horta’s four Brussels townhouses; its Watch on Youtube link has exact ID. HENI used on Nov 2, so apply seven-day creator penalty rather than claim freshness.",
+          "source": "https://heni.com/talks/origins-of-art-nouveau-architecture",
+          "history_matches": []
+        },
+        {
+          "video_id": "LI53uFBXj4I",
+          "title": "Cello - In Search of a Voice",
+          "channel": "Gresham College",
+          "url": "https://www.youtube.com/watch?v=LI53uFBXj4I",
+          "decision": "proposed_replacement",
+          "reason": "Current official embedded edited version of same lecture, not verification of original livestream. Same-operation original reservation must remain preserved. Gresham used Nov 7; retain explicit creator cooldown penalty for distinctive wildcard.",
+          "source": "https://www.gresham.ac.uk/watch-now/cello-voice",
+          "history_matches": []
+        },
+        {
+          "video_id": "Lae2jBeQbmQ",
+          "title": "A Casket of Jewels: The Art and Architecture of Coventry Cathedral",
+          "channel": "HENI Talks",
+          "url": "https://www.youtube.com/watch?v=Lae2jBeQbmQ",
+          "decision": "reject",
+          "reason": "Official title, James Fox description and exact YouTube link confirmed. Horta alternative provides a closer continuity with original domestic modern architecture selection; avoid second HENI selection.",
+          "source": "https://heni.com/talks/a-casket-of-jewels"
+        }
+      ],
+      "candidate_count": 35,
+      "proposed_history_append_rows": [
+        {
+          "date": "2026-11-08",
+          "operation_id": "news-youtube-reddit:2026-11-08",
+          "position": 1,
+          "title": "A perspective on space: preparing for 2075",
+          "video_id": "hB9JIjzIwrU",
+          "channel": "The Royal Society",
+          "url": "https://www.youtube.com/watch?v=hB9JIjzIwrU",
+          "verification_method": "creator_official_page",
+          "verification_source_url": "https://royalsociety.org/science-events-and-lectures/2025/10/2075-a-space-odyssey/",
+          "verification_phase": "recovery_time",
+          "verification_status": "verified"
+        },
+        {
+          "date": "2026-11-08",
+          "operation_id": "news-youtube-reddit:2026-11-08",
+          "position": 2,
+          "title": "The Quantum Future (Where we go next)",
+          "video_id": "8IJdwTRSTFQ",
+          "channel": "Perimeter Institute for Theoretical Physics",
+          "url": "https://www.youtube.com/watch?v=8IJdwTRSTFQ",
+          "verification_method": "creator_official_page",
+          "verification_source_url": "https://perimeterinstitute.ca/outreach/general-public/quantum-101",
+          "verification_phase": "recovery_time",
+          "verification_status": "verified_limited_content"
+        },
+        {
+          "date": "2026-11-08",
+          "operation_id": "news-youtube-reddit:2026-11-08",
+          "position": 3,
+          "title": "Le Corbusier, Villa Savoye",
+          "video_id": "MPDwVSODXP0",
+          "channel": "Smarthistory",
+          "url": "https://www.youtube.com/watch?v=MPDwVSODXP0",
+          "verification_method": "indexed_youtube_and_official_transcript",
+          "verification_source_url": "https://www.youtube.com/watch?v=MPDwVSODXP0",
+          "verification_phase": "recovery_time",
+          "verification_status": "partial_strict_direct_open_unmet"
+        },
+        {
+          "date": "2026-11-08",
+          "operation_id": "news-youtube-reddit:2026-11-08",
+          "position": 4,
+          "title": "Past Made Present: History Painting from Raphael to Leutze",
+          "video_id": "2_rO0YNIwPA",
+          "channel": "The Met",
+          "url": "https://www.youtube.com/watch?v=2_rO0YNIwPA",
+          "verification_method": "creator_official_page",
+          "verification_source_url": "https://www.metmuseum.org/ja/perspectives/making-history-past-made-present-history-painting-from-raphael-to-leutze",
+          "verification_phase": "recovery_time",
+          "verification_status": "verified"
+        },
+        {
+          "date": "2026-11-08",
+          "operation_id": "news-youtube-reddit:2026-11-08",
+          "position": 5,
+          "title": "Cello - In Search of a Voice",
+          "video_id": "M9Xx--JRXmM",
+          "channel": "Gresham College",
+          "url": "https://www.youtube.com/watch?v=M9Xx--JRXmM",
+          "verification_method": "indexed_official_original_link_and_youtube",
+          "verification_source_url": "https://www.gresham.ac.uk/watch-now/cello-voice",
+          "verification_phase": "recovery_time",
+          "verification_status": "partial_original_id_only_indexed"
+        }
+      ],
+      "append_authorized": false,
+      "limits": [
+        "No video was played; full playback availability untested.",
+        "Direct YouTube watch fetches failed or throttled; no login or CAPTCHA bypass attempted.",
+        "Smarthistory direct open returned 403; indexed transcript used without bypass.",
+        "Gresham original livestream is distinct from current edited embed.",
+        "Candidate pool newly assembled during recovery includes history-known videos expressly rejected; it is not a reconstruction of original browsing."
+      ],
+      "note_corrections": [
+        "Do not claim all five freshly passed direct-open verification. Smarthistory and original Gresham require further direct evidence under strict gate.",
+        "Cello original YouTube title adds - Kate Kennedy; current official embed uses different ID. Preserve original link only if original-version verification is accepted.",
+        "Royal Society YouTube title appends | The Royal Society; note uses official event title.",
+        "Check NASA today claim separately against news recovery; not verified by this YouTube research.",
+        "Eleven-minute Villa Savoye runtime not independently observed in this pass.",
+        "Recovery scope should state identity/content evidence and untested playback; never label new evidence as original."
+      ],
+      "recovery_replacements": [
+        {
+          "position": 3,
+          "title": "The Origins of Art Nouveau Architecture",
+          "video_id": "k20doHDjMwo",
+          "channel": "HENI Talks",
+          "verification_source_url": "https://heni.com/talks/origins-of-art-nouveau-architecture",
+          "replaces_video_id": "MPDwVSODXP0",
+          "reason": "Preserves architectural analysis slot. Official page identifies Paul Greenhalgh and exploration of Horta’s four Brussels townhouses; its Watch on Youtube link has exact ID. HENI used on Nov 2, so apply seven-day creator penalty rather than claim freshness.",
+          "content_summary": "Paul Greenhalgh discusses the beginnings of Art Nouveau through Victor Horta’s Hôtel Tassel, Hôtel Solvay, Hôtel van Eetvelde and own house/studio. Architectural history with concrete buildings, rather than a generic style definition.",
+          "date": "2026-11-08",
+          "operation_id": "news-youtube-reddit:2026-11-08",
+          "url": "https://www.youtube.com/watch?v=k20doHDjMwo",
+          "verification_method": "creator_official_page",
+          "verification_phase": "recovery_time_replacement",
+          "verification_status": "verified_identity_and_content_via_official_page",
+          "playback_tested": false,
+          "history_duplicates": []
+        },
+        {
+          "position": 5,
+          "title": "Cello - In Search of a Voice",
+          "video_id": "LI53uFBXj4I",
+          "channel": "Gresham College",
+          "verification_source_url": "https://www.gresham.ac.uk/watch-now/cello-voice",
+          "replaces_video_id": "M9Xx--JRXmM",
+          "reason": "Current official embedded edited version of same lecture, not verification of original livestream. Same-operation original reservation must remain preserved. Gresham used Nov 7; retain explicit creator cooldown penalty for distinctive wildcard.",
+          "content_summary": "Kate Kennedy traces instruments and musicians through injury, travel, a shipwreck, persecution, recovery and the bee cello. Official page includes substantive transcript and edited embed with exact ID.",
+          "date": "2026-11-08",
+          "operation_id": "news-youtube-reddit:2026-11-08",
+          "url": "https://www.youtube.com/watch?v=LI53uFBXj4I",
+          "verification_method": "creator_official_page",
+          "verification_phase": "recovery_time_replacement",
+          "verification_status": "verified_identity_and_content_via_official_page",
+          "playback_tested": false,
+          "history_duplicates": []
+        }
+      ],
+      "direct_retry_outcome": {
+        "MPDwVSODXP0": "Exact watch URL reopened once after elapsed time; Online fetch throttled; no source content or explicit challenge.",
+        "M9Xx--JRXmM": "Exact watch URL reopened once after elapsed time; Online fetch throttled; no source content or explicit challenge."
+      },
+      "replacement_gate_note": "Replacements pass official publisher identity/content gate. They are proposed only; original immutable content/reservations must not be silently mutated. Parent must choose an authorized superseding recovery publication protocol.",
+      "final_history_append_rows": [
+        {
+          "date": "2026-11-08",
+          "operation_id": "news-youtube-reddit:2026-11-08",
+          "position": 1,
+          "title": "A perspective on space: preparing for 2075",
+          "video_id": "hB9JIjzIwrU",
+          "channel": "The Royal Society",
+          "url": "https://www.youtube.com/watch?v=hB9JIjzIwrU",
+          "verification_source_url": "https://royalsociety.org/science-events-and-lectures/2025/10/2075-a-space-odyssey/",
+          "verification_method": "creator_official_page",
+          "verification_phase": "recovery_time",
+          "verification_status": "publisher_identity_link_and_content_verified",
+          "playback_tested": false
+        },
+        {
+          "date": "2026-11-08",
+          "operation_id": "news-youtube-reddit:2026-11-08",
+          "position": 2,
+          "title": "The Quantum Future (Where we go next)",
+          "video_id": "8IJdwTRSTFQ",
+          "channel": "Perimeter Institute for Theoretical Physics",
+          "url": "https://www.youtube.com/watch?v=8IJdwTRSTFQ",
+          "verification_source_url": "https://perimeterinstitute.ca/outreach/general-public/quantum-101",
+          "verification_method": "creator_official_page",
+          "verification_phase": "recovery_time",
+          "verification_status": "publisher_identity_link_and_content_verified",
+          "playback_tested": false
+        },
+        {
+          "date": "2026-11-08",
+          "operation_id": "news-youtube-reddit:2026-11-08",
+          "position": 3,
+          "title": "The Origins of Art Nouveau Architecture",
+          "video_id": "k20doHDjMwo",
+          "channel": "HENI Talks",
+          "url": "https://www.youtube.com/watch?v=k20doHDjMwo",
+          "verification_source_url": "https://heni.com/talks/origins-of-art-nouveau-architecture",
+          "verification_method": "creator_official_page",
+          "verification_phase": "recovery_time",
+          "verification_status": "publisher_identity_link_and_content_verified",
+          "playback_tested": false,
+          "supersedes_video_id": "MPDwVSODXP0"
+        },
+        {
+          "date": "2026-11-08",
+          "operation_id": "news-youtube-reddit:2026-11-08",
+          "position": 4,
+          "title": "Past Made Present: History Painting from Raphael to Leutze",
+          "video_id": "2_rO0YNIwPA",
+          "channel": "The Met",
+          "url": "https://www.youtube.com/watch?v=2_rO0YNIwPA",
+          "verification_source_url": "https://www.metmuseum.org/ja/perspectives/making-history-past-made-present-history-painting-from-raphael-to-leutze",
+          "verification_method": "creator_official_page",
+          "verification_phase": "recovery_time",
+          "verification_status": "publisher_identity_link_and_content_verified",
+          "playback_tested": false
+        },
+        {
+          "date": "2026-11-08",
+          "operation_id": "news-youtube-reddit:2026-11-08",
+          "position": 5,
+          "title": "Cello - In Search of a Voice",
+          "video_id": "LI53uFBXj4I",
+          "channel": "Gresham College",
+          "url": "https://www.youtube.com/watch?v=LI53uFBXj4I",
+          "verification_source_url": "https://www.gresham.ac.uk/watch-now/cello-voice",
+          "verification_method": "creator_official_page",
+          "verification_phase": "recovery_time",
+          "verification_status": "publisher_identity_link_and_content_verified",
+          "playback_tested": false,
+          "supersedes_video_id": "M9Xx--JRXmM"
+        }
+      ],
+      "final_note_path": "recovery/corrected-youtube-note.md",
+      "final_note_sha256": "75cf1760c107922f4ce7299dbbb063073f5843234f96c3b1cf8f995dd186f10b",
+      "original_slot_disposition": [
+        {
+          "position": 3,
+          "video_id": "MPDwVSODXP0",
+          "status": "superseded_at_recovery_time_reservation_retained"
+        },
+        {
+          "position": 5,
+          "video_id": "M9Xx--JRXmM",
+          "status": "superseded_at_recovery_time_reservation_retained",
+          "same_work_as_final_id": "LI53uFBXj4I"
+        }
+      ],
+      "reservation_instruction": "Preserve all original 15 cross-category reserved IDs permanently. Add new final YouTube IDs k20doHDjMwo and LI53uFBXj4I. Do not remove original MPDwVSODXP0 or M9Xx--JRXmM. Same-operation Cello version replacement is not a prior exposure duplicate.",
+      "final_gates": {
+        "final_count": 5,
+        "exact_id_history_comparison": "pass against all 285 surviving rows",
+        "normalized_title_creator_comparison": "pass against all 285 surviving rows after read-only supplementation of ten incomplete records from their dated notes at current main",
+        "same_work_review": "pass against all 285 surviving history works, with ten formerly incomplete records supplemented and underlying works reviewed from dated notes. No same-work or mirror of final selections found.",
+        "publisher_identity_exact_link_content": "pass for five final links; scope is official publisher pages, not playback",
+        "playback": "not_tested",
+        "publication_readback": "not_run",
+        "creator_penalties": [
+          "HENI Talks last Nov 2, within seven days",
+          "Gresham College last Nov 7, within seven days"
+        ],
+        "topic_penalties": [
+          "Quantum intro on Nov 6, within three days; one final quantum selection of five"
+        ],
+        "all_earlier_prepared_reservations": "pending independent engineering audit; no blanket exception for unfinished reservations"
+      },
+      "history_supplement_path": "recovery/youtube-history-supplement.json",
+      "source_capture_scope": "Analyst observations, source URLs and identity metadata only; raw webpage tool responses omitted."
+    }
+  }
+}

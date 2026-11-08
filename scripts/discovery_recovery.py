@@ -7,6 +7,7 @@ from __future__ import annotations
 import argparse
 import copy
 import json
+import hashlib
 from pathlib import Path
 import subprocess
 import publication_recovery as r
@@ -99,7 +100,7 @@ def recovered_reddit(original):
     return text
 
 
-def evidence(raw, plan):
+def evidence(raw, plan, root):
     doc = v.strict_json(raw.decode())
     r.require(isinstance(doc, dict) and doc.get('operation_id') == OP,
               'recovery source evidence must name the exact operation')
@@ -107,6 +108,13 @@ def evidence(raw, plan):
     # The JSON is source evidence supplied by the authorized investigator, not
     # self-certifying QA. The receipt/CLI always report content_qa not_evaluated.
     r.require(bool(doc.get('source_checks')), 'recovery source observations missing')
+    if 'input_zip_path' in doc or 'input_zip_sha256' in doc:
+        path = '.recommendation/transaction-runs/news-youtube-reddit/2026-11-08/recovery-source-inputs.zip'
+        expected = '70e13ebbacad2db5070fe113024d151e2b93872544d1ecc88c9447cbcd19f6b8'
+        r.require(doc.get('input_zip_path') == path and doc.get('input_zip_sha256') == expected,
+                  'recovery input archive binding changed')
+        r.require(hashlib.sha256((root / path).read_bytes()).hexdigest() == expected,
+                  'recovery input archive missing or changed')
     return doc
 
 
@@ -134,7 +142,7 @@ def original_artifacts(original):
 
 def derive(root, raw, payloads, source_evidence):
     from publication_bundle import verify, targets_for
-    original = known_original(raw); failure(root); evidence(source_evidence, original['plan'])
+    original = known_original(raw); failure(root); evidence(source_evidence, original['plan'], root)
     r.require(set(payloads) == set(targets_for('news-youtube-reddit', DAY)), 'recovery payload set changed')
     r.require(all(isinstance(text, str) for text in payloads.values()), 'recovery payloads must be complete UTF-8 text')
     plan = copy.deepcopy(original['plan'])
