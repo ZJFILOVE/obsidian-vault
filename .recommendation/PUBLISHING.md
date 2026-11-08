@@ -196,3 +196,61 @@ source rules, identities, recovery plans, task settings or workflows. Journal's
 November 7 frozen issue can be inspected with its existing tools and fresh
 baselines; this music correction does not itself publish it or authorize any
 new non-music work.
+
+## Exact November 8 discovery truncation recovery
+
+This exception applies only to `news-youtube-reddit:2026-11-08` and the damaged
+blob `18ec095cf56f73aef6c11aa4713067b93635d425`. The first creation version was
+truncated and is **not** a usable PREPARED. Do not retry that version, strip its
+warning and call it valid, or construct another replacement on each retry.
+The original expected bundle digest
+`9fd0e0a48830b1f53cb3bc458400d1eb1221412c251140aec18f9931fe1ccfdd`
+identifies the missing original; it is not the recovery digest.
+
+`scripts/discovery_recovery.py` stages a new, explicitly superseding recovery
+outside the repository. It preserves the exact damaged bytes, original plan,
+three intact original notes, original Reddit append, and the unchanged failure
+receipt. The source evidence and new payloads receive new hashes. Its staging
+inputs are the five complete files under `--payloads-dir`, plus a JSON evidence
+file with `operation_id`, ordered `youtube_ids`, and `source_checks` containing
+the actual recovery-time observations. Staging verifies fresh target baselines
+and all current and retired PREPARED reservations. It does not publish any target
+or certify source QA. Install the staged recovery artifacts together only after
+review; never copy truncated terminal output as a file.
+
+After installation, use `publication_bundle.load_prepared(path, root)` or:
+
+```bash
+python3 scripts/discovery_recovery.py --root . --verify-installed
+python3 scripts/publication_bundle.py \
+  .recommendation/transactions/news-youtube-reddit/2026-11-08.json \
+  --discovery-root . --observations fresh-observations.json \
+  --expected-bundle-digest VERIFIED_RECOVERY_BUNDLE_DIGEST
+```
+
+Resolve `VERIFIED_RECOVERY_BUNDLE_DIGEST` only from the validated registration
+`.recommendation/transaction-recoveries/news-youtube-reddit/2026-11-08/recovery.json`.
+This replaces the usual first-creation-version lookup for this one operation.
+The canonical transaction is the registered new standard bundle; the original
+bad bytes remain audit evidence and are never executable. The baseline exception
+accepts only that exact bad blob to the fully validated recovery. Once committed,
+all recovery artifacts and its fixed digest are immutable, including after file
+deletion or attempted rebinding. Other dates and paths receive no exception.
+
+`selected_resource_ids` is the actual ordered five YouTube and ten Reddit items.
+`exposed_resource_ids` is the **17-item permanent reservation union**: all fifteen
+original IDs plus the two authorized replacement YouTube IDs. Never publish
+seventeen items. Removed original candidates remain excluded forever. New
+Discovery freezes require `discovery_root=Path(...)`; retries require
+`--discovery-root`. This gate reads the worktree and every ancestor's PREPARED
+and permanent histories, including deleted versions. Same-operation recovery
+requires the exact original registered transition or the same frozen bundle
+hash, not merely a matching operation ID.
+
+The normal target observation planner remains authoritative: matching targets
+are no-op, baselines may resume only the next stage, and any unrelated target
+change blocks writes. Keep the original failed attempt failed. Record actual
+recovery-time content QA and transport/readback separately with the new digest;
+`not_evaluated` from engineering checks is never a source-QA success. This
+exception does not change Journal, English, music, other source requirements,
+or any schedules and permissions.
