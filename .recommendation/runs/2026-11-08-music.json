@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "project": "music",
+  "date": "2026-11-08",
+  "operation_id": "music:2026-11-08",
+  "status": "passed_current_publication_gates",
+  "recorded_at": "2026-11-08T04:52:32.053103Z",
+  "original_attempt": "Earlier preselection block remains recorded unchanged; this is a new selection after that blocker was repaired. No original failed-run candidate research is claimed.",
+  "bundle": {
+    "path": ".recommendation/transactions/music/2026-11-08.json",
+    "creation_commit": "ea9cf61765767b16b9c04c938454c541b71c3b49",
+    "blob_sha": "e24dc427864442eb8a884e1693dce63bfc9177ed",
+    "bundle_sha256": "0bf76c3976da4ab2b50f8d467007d42a69d23ad216552cc8495f484a81d74c16",
+    "plan_sha256": "60cc225f3af00e8bb68a8c9c2d4526444ade6a1298950bfeff521b7b3657a7e6"
+  },
+  "source_evidence": {
+    "path": ".recommendation/transaction-runs/music/2026-11-08/source-20261108T043731Z.json",
+    "blob_sha": "6f001fe41b65d196b720946bdd5b67de0cde2c03",
+    "sha256": "2f919b62e16c1b5f43f03603bfaeed561fac48222ec24c13be7e58ec14ce6471",
+    "candidate_pool_count": 20,
+    "decision_counts": {
+      "selected": 4,
+      "selected_wildcard": 1,
+      "rejected_cn_unverified": 11,
+      "rejected_permanent_repeat": 2,
+      "not_selected_artist_cooldown": 1,
+      "not_selected_balance": 1
+    },
+    "verification_utc": "2026-11-08T04:37:31Z",
+    "source_checks": [
+      {
+        "song_id": "1442945656",
+        "storefront": "cn",
+        "requested_url": "https://music.apple.com/cn/song/1442945656",
+        "observed_url": "https://music.apple.com/cn/song/dancing-girl/1442945656",
+        "title": "Dancing Girl",
+        "artist": "Terry Callier",
+        "album": "What Color Is Love",
+        "verified_at_utc": "2026-11-08T04:37:31Z",
+        "observations": "Heading title, artist/album links and cn redirect numeric song ID all matched; Preview displayed, not played.",
+        "scope": "Web metadata/resource verification, not signed-in playback or device availability."
+      },
+      {
+        "song_id": "193001286",
+        "storefront": "cn",
+        "requested_url": "https://music.apple.com/cn/song/193001286",
+        "observed_url": "https://music.apple.com/cn/song/baltimore/193001286",
+        "title": "Baltimore",
+        "artist": "Nina Simone",
+        "album": "Baltimore",
+        "verified_at_utc": "2026-11-08T04:37:31Z",
+        "observations": "Heading title, artist/album links and cn redirect numeric song ID all matched; Preview displayed, not played.",
+        "scope": "Web metadata/resource verification, not signed-in playback or device availability."
+      },
+      {
+        "song_id": "1653379095",
+        "storefront": "cn",
+        "requested_url": "https://music.apple.com/cn/song/1653379095",
+        "observed_url": "https://music.apple.com/cn/song/mustt-mustt/1653379095",
+        "title": "Mustt Mustt",
+        "artist": "Nusrat Fateh Ali Khan",
+        "album": "Mustt Mustt (Real World Gold)",
+        "verified_at_utc": "2026-11-08T04:37:31Z",
+        "observations": "Heading title, artist/album links and cn redirect numeric song ID all matched; Preview displayed, not played.",
+        "scope": "Web metadata/resource verification, not signed-in playback or device availability."
+      },
+      {
+        "song_id": "1250618327",
+        "storefront": "cn",
+        "requested_url": "https://music.apple.com/cn/song/1250618327",
+        "observed_url": "https://music.apple.com/cn/song/doomed/1250618327",
+        "title": "Doomed",
+        "artist": "Moses Sumney",
+        "album": "Doomed - Single",
+        "verified_at_utc": "2026-11-08T04:37:31Z",
+        "observations": "Heading title, artist/album links and cn redirect numeric song ID all matched; Preview displayed, not played.",
+        "scope": "Web metadata/resource verification, not signed-in playback or device availability."
+      },
+      {
+        "song_id": "40455526",
+        "storefront": "cn",
+        "requested_url": "https://music.apple.com/cn/song/40455526",
+        "observed_url": "https://music.apple.com/cn/song/o-superman-for-massenet/40455526",
+        "title": "O Superman (For Massenet)",
+        "artist": "Laurie Anderson",
+        "album": "Talk Normal: The Laurie Anderson Anthology (Remastered)",
+        "verified_at_utc": "2026-11-08T04:37:31Z",
+        "observations": "Heading title, artist/album links and cn redirect numeric song ID all matched; Preview displayed, not played.",
+        "scope": "Web metadata/resource verification, not signed-in playback or device availability."
+      }
+    ],
+    "scope": "Five exact mainland-China Apple Music song pages: title, artist, album, numeric ID and storefront observed by source researcher; no playback claim."
+  },
+  "selection": {
+    "ordered_song_ids": [
+      "1442945656",
+      "193001286",
+      "1653379095",
+      "1250618327",
+      "40455526"
+    ],
+    "canonical_ids": [
+      "Terry Callier::Dancing Girl",
+      "Nina Simone::Baltimore",
+      "Nusrat Fateh Ali Khan::Mustt Mustt",
+      "Moses Sumney::Doomed",
+      "Laurie Anderson::O Superman (For Massenet)"
+    ],
+    "diversity": {
+      "unique_artists": 5,
+      "styles": [
+        "folk soul",
+        "reggae-inflected jazz/soul",
+        "qawwali crossover",
+        "sparse electronic art-soul",
+        "experimental electronic spoken/sung art-pop"
+      ],
+      "eras": [
+        "1970s",
+        "1980s/1990 release lineage",
+        "2010s"
+      ],
+      "language_scope": "Four English-language works plus South Asian qawwali vocal repertoire; no Mandarin track selected. Language diversity is modest and not overstated.",
+      "wildcard_song_id": "40455526",
+      "artist_cooldown_result": "No selected artist appeared in original Nov 1–7 state records."
+    }
+  },
+  "freshness": {
+    "original_vault_head": "98298afcd87906a3df2a6a54ccef75eee57345bc",
+    "original_music_head": "7dc5a47dc8300daa59e727649dfd726232967df6",
+    "original_identity_index_sha256": "f6f372aae43d4dc8ecda157dbbe06212383ede78729e9e3cd141e63d6f4c80f5",
+    "full_ancestry_and_all_prepared": "passed",
+    "numeric_ids_all_storefronts_and_canonical_aliases": "passed",
+    "normalized_titles_same_recording_signals": "no recorded history conflicts",
+    "audio_fingerprint_or_isrc_comparison": "not_performed",
+    "state_original_count": 313,
+    "state_target_count": 318,
+    "all_original_values_preserved": true
+  },
+  "publication": {
+    "stage1_commit": "b2774f48eebcd1612e0a41b2b976763cfb573118",
+    "stage2_commit": "d9a4535d4eb2a847f53b46803fc6d6ff0b42909e",
+    "receipts": [
+      {
+        "path": ".recommendation/transaction-runs/music/2026-11-08/stage1-20261108T045232Z.json",
+        "blob_sha": "095dae555957ca19c98daa6a68178dc9370cf20c",
+        "stage": 1
+      },
+      {
+        "path": ".recommendation/transaction-runs/music/2026-11-08/stage2-20261108T045232Z.json",
+        "blob_sha": "6a7d9813c6d45802a00d158b7f6da388392bf5ec",
+        "stage": 2
+      }
+    ],
+    "readbacks": {
+      "ZJFILOVE/music-daily:recommendations/2026/11/2026-11-08.json": {
+        "status": "ok",
+        "sha": "dcc5da7e883405f4c1ebbd0d643464441a336637"
+      },
+      "ZJFILOVE/music-daily:state/tracks.json": {
+        "status": "ok",
+        "sha": "fc5416edf17bb35a2fafe85d7f62daa72b10c52b"
+      },
+      "ZJFILOVE/obsidian-vault:Music/Daily/2026-11-08.md": {
+        "status": "ok",
+        "sha": "d3a0d1b1441ecbc93ee58502c08e2e0f8e8c026d"
+      },
+      "ZJFILOVE/obsidian-vault:Music/Daily/manifests/2026-11-08.json": {
+        "status": "ok",
+        "sha": "dcc5da7e883405f4c1ebbd0d643464441a336637"
+      },
+      "ZJFILOVE/obsidian-vault:Music/Daily/state/tracks.json": {
+        "status": "ok",
+        "sha": "fc5416edf17bb35a2fafe85d7f62daa72b10c52b"
+      }
+    },
+    "final_replay_status": "artifacts_match"
+  },
+  "qa": {
+    "status": "passed_current_publication_qa",
+    "vault_tests": {
+      "passed": 257,
+      "failed": 0
+    },
+    "music_tests": {
+      "passed": 73,
+      "failed": 0
+    },
+    "local_checks": {
+      "integrity": "passed_local_integrity",
+      "immutable_bundles": "passed_immutable_publication_bundles",
+      "permanent_music_identity": "complete_available_git_history"
+    },
+    "cross_repository_mirror_status": "passed_current_music_mirrors",
+    "manifest_dates_compared": 62,
+    "manifest_byte_equal": true,
+    "state_byte_equal": true,
+    "cn_ids_order_exact_five": true,
+    "detailed_chinese_sections_and_auto_markers": "passed",
+    "editorial_basis": "Original editorial work using established musical knowledge and Apple resource/version metadata; not represented as observations from a new listening session. No invented minute/second cues."
+  },
+  "ci": {
+    "prepared": {
+      "head": "ea9cf61765767b16b9c04c938454c541b71c3b49",
+      "run_id": 42448314080,
+      "conclusion": "success"
+    },
+    "music_stage1": {
+      "head": "b2774f48eebcd1612e0a41b2b976763cfb573118",
+      "run_id": 42448360933,
+      "conclusion": "success"
+    },
+    "vault_stage2": {
+      "head": "d9a4535d4eb2a847f53b46803fc6d6ff0b42909e",
+      "run_id": 42448403468,
+      "conclusion": "success"
+    }
+  },
+  "scope": {
+    "apple_music_only": true,
+    "spotify_used": false,
+    "playback": "not_tested",
+    "device_sync": "not_verified",
+    "notifications": "not_verified",
+    "apple_playlist_writes": "none",
+    "credentials_or_security_changes": "none",
+    "historical_findings": "November 6 failed publication, retired identities and legacy URL/search-link evidence retained; no old success rewritten"
+  }
+}

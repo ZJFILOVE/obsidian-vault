@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "operation_id": "music:2026-11-08",
+  "recorded_at": "2026-11-08T04:52:32.053103Z",
+  "observed_at": "2026-11-08T04:50:04.250282+00:00",
+  "status": "stage_published_and_readback_verified",
+  "stage": 1,
+  "repository": "ZJFILOVE/music-daily",
+  "parent": "7dc5a47dc8300daa59e727649dfd726232967df6",
+  "commit": "b2774f48eebcd1612e0a41b2b976763cfb573118",
+  "prepared_creation_commit": "ea9cf61765767b16b9c04c938454c541b71c3b49",
+  "prepared_blob_sha": "e24dc427864442eb8a884e1693dce63bfc9177ed",
+  "bundle_sha256": "0bf76c3976da4ab2b50f8d467007d42a69d23ad216552cc8495f484a81d74c16",
+  "plan_sha256": "60cc225f3af00e8bb68a8c9c2d4526444ade6a1298950bfeff521b7b3657a7e6",
+  "readbacks": {
+    "ZJFILOVE/music-daily:recommendations/2026/11/2026-11-08.json": {
+      "status": "ok",
+      "sha": "dcc5da7e883405f4c1ebbd0d643464441a336637"
+    },
+    "ZJFILOVE/music-daily:state/tracks.json": {
+      "status": "ok",
+      "sha": "fc5416edf17bb35a2fafe85d7f62daa72b10c52b"
+    }
+  },
+  "transport": "ordinary non-force Git push, followed by fresh remote fetch and byte equality checks",
+  "final_replay_status": "artifacts_match",
+  "source_qa": "recorded separately; stage transport receipt is not source QA"
+}
