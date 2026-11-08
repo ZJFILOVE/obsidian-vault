@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "project": "music",
+  "date": "2026-11-08",
+  "operation_id": "music:2026-11-08",
+  "attempt_id": "20261108T005544Z",
+  "started_at": "2026-11-08T00:51:26Z",
+  "recorded_at": "2026-11-08T00:55:44Z",
+  "mode": "new_date_preflight",
+  "status": "blocked_before_selection",
+  "mutation_scope": "failure_audit_only",
+  "blocking_error": {
+    "classification": "data_integrity_unverified_required_prepared_record",
+    "repository": "ZJFILOVE/obsidian-vault",
+    "path": ".recommendation/transactions/news-youtube-reddit/2026-11-08.json",
+    "blob_sha": "18ec095cf56f73aef6c11aa4713067b93635d425",
+    "size_bytes": 160108,
+    "observed_error": "JSON parse failed: file begins with non-JSON warning text; SyntaxError at the first token",
+    "consequence": "All PREPARED reservations cannot be verified completely, so publication_bundle.freeze/recovery and all music mutations are blocked.",
+    "retry": "No blind retry and no replacement bundle. Reread on the next authorized attempt after the immutable-record incident has an explicit repository-supported recovery."
+  },
+  "required_reads": {
+    "policy": {
+      "path": ".recommendation/policy.json",
+      "blob_sha": "cf9d1b486e07ca1efe965cf6af6f0ea422497670",
+      "status": "read_complete"
+    },
+    "publishing": {
+      "path": ".recommendation/PUBLISHING.md",
+      "blob_sha": "492177b87edc5552473c195253df69b3c17f00d3",
+      "status": "read_complete"
+    },
+    "publication_bundle": {
+      "path": "scripts/publication_bundle.py",
+      "blob_sha": "a77fc9aef962569ed9c3367d117ca7754dd327bd",
+      "status": "read_complete"
+    },
+    "publication_recovery": {
+      "path": "scripts/publication_recovery.py",
+      "blob_sha": "b0a737ee33cbbf7bb0b453e6091a872f29be3358",
+      "status": "read_complete"
+    },
+    "music_state": {
+      "music_daily": {
+        "path": "state/tracks.json",
+        "blob_sha": "2013165572864d26e650a1c151c6bb5bf95e0e0a",
+        "status": "read_complete"
+      },
+      "obsidian_vault": {
+        "path": "Music/Daily/state/tracks.json",
+        "blob_sha": "2013165572864d26e650a1c151c6bb5bf95e0e0a",
+        "status": "read_complete"
+      },
+      "byte_equal": true,
+      "recommended_entries": 313
+    },
+    "manifests": {
+      "music_daily_count": 61,
+      "obsidian_vault_count": 61,
+      "all_blob_shas_equal": true,
+      "recent_dates_read": "2026-10-25..2026-11-07"
+    },
+    "prepared_transactions": {
+      "paths_seen": 79,
+      "complete_valid_json": 78,
+      "unverified_or_invalid": 1,
+      "reservations_recovered_from_valid_records": 496
+    },
+    "current_date": {
+      "transaction": "confirmed_absent_404",
+      "music_daily_manifest": "confirmed_absent_404",
+      "obsidian_manifest": "confirmed_absent_404",
+      "obsidian_note": "confirmed_absent_404"
+    }
+  },
+  "repository_heads_observed": {
+    "obsidian_vault": "e960f59e4efdefd1faac2e1bc58a8e826283cefb",
+    "music_daily": "7dc5a47dc8300daa59e727649dfd726232967df6"
+  },
+  "ci_evidence": {
+    "obsidian_vault": {
+      "workflow": "Recommendation integrity (read-only)",
+      "run_id": 42430788488,
+      "head_sha": "e960f59e4efdefd1faac2e1bc58a8e826283cefb",
+      "conclusion": "failure",
+      "failed_step": "Compare permanent history with the actual base commit",
+      "immutable_bundles_error": ".recommendation/transactions/news-youtube-reddit/2026-11-08.json: Expecting value: line 1 column 1 (char 0)"
+    },
+    "music_daily": {
+      "head_sha": "7dc5a47dc8300daa59e727649dfd726232967df6",
+      "validate_conclusion": "success"
+    }
+  },
+  "publication": {
+    "candidate_pool_built": false,
+    "source_verification_performed": false,
+    "prepared_bundle_created": false,
+    "stage_1_applied": false,
+    "stage_2_applied": false,
+    "qa_receipt_created": false,
+    "tracks_published": 0
+  },
+  "notes": [
+    "No Apple Music recommendation was selected or displayed.",
+    "No music manifest, state, or note was created or modified.",
+    "The malformed unrelated transaction remains explicit backlog; this receipt does not alter or replace it."
+  ]
+}
