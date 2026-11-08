@@ -86,6 +86,20 @@ class DiscoveryRecoveryTests(unittest.TestCase):
         original = json.loads(self.raw[len(d.PREFIX):]); original['plan']['exposed_resource_ids'].pop()
         with self.assertRaises(ValueError): d.known_original(d.PREFIX + json.dumps(original).encode())
 
+    def test_input_zip_evidence_is_bound_and_cannot_disappear(self):
+        path = '.recommendation/transaction-runs/news-youtube-reddit/2026-11-08/recovery-source-inputs.zip'
+        evidence = json.loads(self.evidence)
+        evidence.update(input_zip_path=path,
+                        input_zip_sha256='a314453c693a63f96cc862a7344e01c8080ce4b7ac5029ba57d809ba7e856827')
+        raw = json.dumps(evidence).encode()
+        put(self.root, path, d.git(SOURCE, 'cat-file', 'blob', '33c0ace4558371392ae2331e61195f71a64407b6'))
+        d.derive(self.root, self.raw, self.payloads, raw)
+        put(self.root, path, b'changed input')
+        with self.assertRaisesRegex(ValueError, 'archive missing or changed'):
+            d.derive(self.root, self.raw, self.payloads, raw)
+        (self.root / path).unlink()
+        with self.assertRaises(OSError): d.derive(self.root, self.raw, self.payloads, raw)
+
     def test_failure_tamper(self):
         put(self.root, d.FAILURE, '{}')
         with self.assertRaises(ValueError): d.derive(self.root, self.raw, self.payloads, self.evidence)
