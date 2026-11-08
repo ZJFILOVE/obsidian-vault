@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "project": "journal",
+  "date": "2026-11-08",
+  "operation_id": "journal:2026-11-08",
+  "status": "stage_completed",
+  "stage": 1,
+  "bundle_sha256": "13183e3e231869f26dc063f039b40637ebdf38acae4ab911b7ebc630bde16d14",
+  "plan_sha256": "3de62300f5a3f18fb63b9e035a4cb6ea8f2b974f6e4f6688d6617016841a7cff",
+  "prepared": {
+    "creation_commit": "765b7c8033b972c0134ea99567155300dc951d77",
+    "blob_sha": "09df8fd300e27e4b32486faab38ff46656fe92aa"
+  },
+  "publication": {
+    "commit": "39d91e28af166cc0f8a99af93ed4f52e1371dc17",
+    "parent": "3722fbf9ff08536ba697b3301cd6e3af122c1619",
+    "tree": "bd0e31d371276e456b9a88606e5021fbb610983a",
+    "ref_update": "non_force_expected_sha",
+    "concurrent_unrelated_commits_reconciled": true
+  },
+  "readbacks": {
+    "00-inbox/Journal/2026-11-08.md": {
+      "sha": "9b0e41c520e85722091ac8642cd592b9c8281912",
+      "bytes": 3748,
+      "exact": true
+    },
+    "00-inbox/Journal/Index.md": {
+      "sha": "d42aa232cf2fd5c877aac31fca7acec09e9fc341",
+      "bytes": 790,
+      "exact": true
+    },
+    ".recommendation/history/journal.jsonl": {
+      "sha": "5152d042c979e73b41370ae34889efd40da93161",
+      "bytes": 14070,
+      "exact": true
+    }
+  },
+  "planner": {
+    "status": "artifacts_match",
+    "operation_id": "journal:2026-11-08",
+    "bundle_sha256": "13183e3e231869f26dc063f039b40637ebdf38acae4ab911b7ebc630bde16d14",
+    "github_writes_performed": 0,
+    "content_qa": "not_evaluated",
+    "plan_sha256": "3de62300f5a3f18fb63b9e035a4cb6ea8f2b974f6e4f6688d6617016841a7cff",
+    "next_stage": null,
+    "decisions": [
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "00-inbox/Journal/2026-11-08.md",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "9b0e41c520e85722091ac8642cd592b9c8281912"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "00-inbox/Journal/Index.md",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": "6b10acd66230b530efbb1d79d345ded1f67091c4",
+        "target_sha": "d42aa232cf2fd5c877aac31fca7acec09e9fc341"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": ".recommendation/history/journal.jsonl",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": "6abae4efe51c4d74c5eebbf2acf3bfef5de3977a",
+        "target_sha": "5152d042c979e73b41370ae34889efd40da93161"
+      }
+    ]
+  },
+  "ci_at_receipt_time": {
+    "run_id": 42428364416,
+    "head_sha": "39d91e28af166cc0f8a99af93ed4f52e1371dc17",
+    "conclusion": "cancelled_by_later_descendant_push",
+    "full_integrity_pass": false
+  },
+  "created_at": "2026-11-08T00:09:02.397Z"
+}
