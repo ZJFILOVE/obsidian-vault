@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-11-09",
+  "attempt_id": "20261109T005315Z",
+  "status": "published_and_verified",
+  "prepared": {
+    "commit": "a4fc6514c7359079066a6eb8e683cf8216cc5b85",
+    "receipt_commit": "23a4dc1a7ea5e9dfe26cba33d21ff561ddc590b1",
+    "bundle_sha256": "c367e17e4819c48acecdcecbdc7c08f8138a1e3e1aee2040521e9133d635f030"
+  },
+  "planner": {
+    "status": "ready_to_resume",
+    "next_stage": 1
+  },
+  "publication": {
+    "commit": "f946a050d5d6f5f8276fb0a38c0682aa1114b9b1",
+    "readbacks": {
+      "News/Daily/2026-11-09.md": "c7122dbf6469093de44df47ddc6057b201e913f3",
+      "Resources/YouTube/Daily/2026-11-09.md": "d2aeb3557200322755af78234f1bc6a67a354ab0",
+      "Resources/Reddit/Daily/2026-11-09.md": "5411fab2a8070141d88ed3b47d91fe606f1b68c3",
+      ".recommendation/history/youtube.jsonl": "fafe4b2ffa103bdaeb25d0e94d2a0f4590d85504",
+      ".recommendation/history/reddit.jsonl": "3b01569a4f7bd3a3c00657f5b43b09217eb79b82"
+    }
+  },
+  "errors": [
+    {
+      "class": "source_challenge",
+      "service": "YouTube",
+      "handling": "stopped challenged route; used eligible first-party recovery sources"
+    },
+    {
+      "class": "429",
+      "service": "GitHub code search",
+      "handling": "obeyed retry metadata and completed bounded rereads"
+    }
+  ],
+  "qa": {
+    "semantic": "passed",
+    "remote_ci_run": 42542386878,
+    "remote_ci_conclusion": "success",
+    "full_history_freeze_local": "unverified"
+  },
+  "writes": {
+    "prepared_transaction": 1,
+    "publication_stage_commits": 1,
+    "history_appends": {
+      "youtube": 1,
+      "reddit": 1
+    }
+  }
+}

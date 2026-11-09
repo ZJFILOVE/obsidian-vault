@@ -1,0 +1,1634 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-11-09",
+  "date": "2026-11-09",
+  "business_timezone": "Asia/Shanghai",
+  "status": "published_and_read_back",
+  "candidate_evidence": {
+    "youtube_count": 35,
+    "reddit_count": 40,
+    "youtube": [
+      {
+        "video_id": "-5wpm-gesOY",
+        "title": "The Problem with Time & Timezones - Computerphile",
+        "channel": "Computerphile",
+        "topic": "software/time",
+        "url": "https://www.youtube.com/watch?v=-5wpm-gesOY",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": true,
+        "selection_tier": "high_confidence",
+        "scores": {
+          "quality": 9,
+          "usefulness": 9,
+          "curiosity": 8,
+          "novelty": 8,
+          "fit": 8,
+          "weighted": 8.55
+        },
+        "rejection_reason": null
+      },
+      {
+        "video_id": "y4ouRg_RbVY",
+        "title": "Did Asteroids Spark Life?",
+        "channel": "PBS Eons",
+        "topic": "origin-of-life",
+        "url": "https://www.youtube.com/watch?v=y4ouRg_RbVY",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": true,
+        "selection_tier": "high_confidence",
+        "scores": {
+          "quality": 9,
+          "usefulness": 9,
+          "curiosity": 8,
+          "novelty": 8,
+          "fit": 8,
+          "weighted": 8.55
+        },
+        "rejection_reason": null
+      },
+      {
+        "video_id": "pmLHg_B8uoI",
+        "title": "Release The Brood! Roly-poly Birthing Is Intense",
+        "channel": "Deep Look",
+        "topic": "animal-biology",
+        "url": "https://www.youtube.com/watch?v=pmLHg_B8uoI",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": true,
+        "selection_tier": "adjacent",
+        "scores": {
+          "quality": 9,
+          "usefulness": 9,
+          "curiosity": 8,
+          "novelty": 8,
+          "fit": 8,
+          "weighted": 8.55
+        },
+        "rejection_reason": null
+      },
+      {
+        "video_id": "CHpbZ7HXP7Q",
+        "title": "We took the back off a Michelangelo and it took 7 months | Saving Michelangelo’s Epifania Cartoon",
+        "channel": "The British Museum",
+        "topic": "art-conservation",
+        "url": "https://www.youtube.com/watch?v=CHpbZ7HXP7Q",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": true,
+        "selection_tier": "high_confidence",
+        "scores": {
+          "quality": 9,
+          "usefulness": 9,
+          "curiosity": 8,
+          "novelty": 8,
+          "fit": 8,
+          "weighted": 8.55
+        },
+        "rejection_reason": null
+      },
+      {
+        "video_id": "TxnqHukr-Oc",
+        "title": "9. Linguistics and Literature",
+        "channel": "YaleCourses",
+        "topic": "humanities/linguistics",
+        "url": "https://www.youtube.com/watch?v=TxnqHukr-Oc",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": true,
+        "selection_tier": "wildcard",
+        "scores": {
+          "quality": 9,
+          "usefulness": 9,
+          "curiosity": 8,
+          "novelty": 8,
+          "fit": 8,
+          "weighted": 8.55
+        },
+        "rejection_reason": null
+      },
+      {
+        "video_id": "6YcxqrKc2ns",
+        "title": "The Science Museum - an introduction for schools | #STEM",
+        "channel": "Science Museum Group Learning",
+        "topic": "museum-introduction",
+        "url": "https://www.youtube.com/watch?v=6YcxqrKc2ns",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "too_brief_or_generic_for_substantive_daily_pick"
+      },
+      {
+        "video_id": "z5Fd1GaPDJY",
+        "title": "Who Am I? gallery – an introduction for schools | #STEM",
+        "channel": "Science Museum Group Learning",
+        "topic": "museum-introduction",
+        "url": "https://www.youtube.com/watch?v=z5Fd1GaPDJY",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "too_brief_or_generic_for_substantive_daily_pick"
+      },
+      {
+        "video_id": "Bx4vD0AquCg",
+        "title": "The Science Museum for secondary school students - an introduction for teachers | #STEM",
+        "channel": "Science Museum Group Learning",
+        "topic": "museum-introduction",
+        "url": "https://www.youtube.com/watch?v=Bx4vD0AquCg",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "too_brief_or_generic_for_substantive_daily_pick"
+      },
+      {
+        "video_id": "4M6EFUFK-u0",
+        "title": "Friday lunchtime lecture: Opening up the Science Museum",
+        "channel": "Open Data Institute",
+        "topic": "open-data/museums",
+        "url": "https://www.youtube.com/watch?v=4M6EFUFK-u0",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "lower_combined_quality_usefulness_curiosity_score"
+      },
+      {
+        "video_id": "ZjbU4SO709M",
+        "title": "The Curator's Tour of Medicine: The Wellcome Galleries at The Science Museum",
+        "channel": "Science Museum",
+        "topic": "museum/medicine",
+        "url": "https://www.youtube.com/watch?v=ZjbU4SO709M",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "lower_combined_quality_usefulness_curiosity_score"
+      },
+      {
+        "video_id": "MrdGdTzunoY",
+        "title": "Art Unlocked: Science Museum",
+        "channel": "Art UK",
+        "topic": "art/museum",
+        "url": "https://www.youtube.com/watch?v=MrdGdTzunoY",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "lower_combined_quality_usefulness_curiosity_score"
+      },
+      {
+        "video_id": "1ZjJ3TifkBY",
+        "title": "Talking to the Future, 2014",
+        "channel": "Computer History Museum",
+        "topic": "computing-history",
+        "url": "https://www.youtube.com/watch?v=1ZjJ3TifkBY",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "same_creator_concentration_or_stronger_candidate_available"
+      },
+      {
+        "video_id": "OmVHkL0IWk4",
+        "title": "Oral History: Ken Thompson on Co-creating Unix, C’s Origins, and the Go Programming Language",
+        "channel": "Computer History Museum",
+        "topic": "computing-history",
+        "url": "https://www.youtube.com/watch?v=OmVHkL0IWk4",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "same_creator_concentration_or_stronger_candidate_available"
+      },
+      {
+        "video_id": "eCSNJgI2LFI",
+        "title": "CHM Live | Apple at 50: Five Decades of Thinking Different",
+        "channel": "Computer History Museum",
+        "topic": "computing-history",
+        "url": "https://www.youtube.com/watch?v=eCSNJgI2LFI",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "same_creator_concentration_or_stronger_candidate_available"
+      },
+      {
+        "video_id": "eGnzzZjTM8Y",
+        "title": "CHM Live | Insanely Great: The Apple Mac at 40",
+        "channel": "Computer History Museum",
+        "topic": "computing-history",
+        "url": "https://www.youtube.com/watch?v=eGnzzZjTM8Y",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "same_creator_concentration_or_stronger_candidate_available"
+      },
+      {
+        "video_id": "CZEW2P4DBl0",
+        "title": "CHM Live | Bill Gates and Patrick Collison: In Conversation at CHM",
+        "channel": "Computer History Museum",
+        "topic": "computing-history",
+        "url": "https://www.youtube.com/watch?v=CZEW2P4DBl0",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "same_creator_concentration_or_stronger_candidate_available"
+      },
+      {
+        "video_id": "fDrO1Zh6LNY",
+        "title": "Command Lines: WHY SOFTWARE? A Keynote Conversation",
+        "channel": "Computer History Museum",
+        "topic": "software-history",
+        "url": "https://www.youtube.com/watch?v=fDrO1Zh6LNY",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "same_creator_concentration_or_stronger_candidate_available"
+      },
+      {
+        "video_id": "P0vZKVOeAPY",
+        "title": "CHM Live | The Silicon Gold Rush: How AI is Driving the Development of New Chips",
+        "channel": "Computer History Museum",
+        "topic": "semiconductors/AI",
+        "url": "https://www.youtube.com/watch?v=P0vZKVOeAPY",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "same_creator_concentration_or_stronger_candidate_available"
+      },
+      {
+        "video_id": "CdgQyq3hEPo",
+        "title": "Lessons in Game Design, lecture by Will Wright",
+        "channel": "Computer History Museum",
+        "topic": "game-design",
+        "url": "https://www.youtube.com/watch?v=CdgQyq3hEPo",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "same_creator_concentration_or_stronger_candidate_available"
+      },
+      {
+        "video_id": "qD33onZYeK4",
+        "title": "Conserving a Delicate 18th-Century Fan | Museum Conservation Behind the Scenes",
+        "channel": "Victoria and Albert Museum",
+        "topic": "art-conservation",
+        "url": "https://www.youtube.com/watch?v=qD33onZYeK4",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "recent_creator_diversity_penalty"
+      },
+      {
+        "video_id": "IazierdXGMU",
+        "title": "Wirtschaftswerte: a conservation history (documentary short film)",
+        "channel": "S.M.A.K.",
+        "topic": "art-conservation",
+        "url": "https://www.youtube.com/watch?v=IazierdXGMU",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "topic_concentration_or_stronger_candidate_selected"
+      },
+      {
+        "video_id": "fMx7-5EDErQ",
+        "title": "13 Craftsmen Keeping Rare Arts Alive",
+        "channel": "Business Insider",
+        "topic": "craft",
+        "url": "https://www.youtube.com/watch?v=fMx7-5EDErQ",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "lower_combined_quality_usefulness_curiosity_score"
+      },
+      {
+        "video_id": "d1T9uJ3tSkw",
+        "title": "Dangerously Modern: a major conservation project",
+        "channel": "Art Gallery of NSW",
+        "topic": "art-conservation",
+        "url": "https://www.youtube.com/watch?v=d1T9uJ3tSkw",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "topic_concentration_or_stronger_candidate_selected"
+      },
+      {
+        "video_id": "kfVAwwWnoms",
+        "title": "The Delicate Art of Paper Conservation | Museum Club | ALL ARTS TV",
+        "channel": "ALL ARTS TV",
+        "topic": "paper-conservation",
+        "url": "https://www.youtube.com/watch?v=kfVAwwWnoms",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "lower_combined_quality_usefulness_curiosity_score"
+      },
+      {
+        "video_id": "5itfLAwQol8",
+        "title": "Lecture 23: Historical Linguistics",
+        "channel": "MIT OpenCourseWare",
+        "topic": "linguistics",
+        "url": "https://www.youtube.com/watch?v=5itfLAwQol8",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "topic_concentration_or_stronger_candidate_selected"
+      },
+      {
+        "video_id": "VOZe09ME9Dw",
+        "title": "The Evolution of Language: From Speech to Culture | Gifford Lectures 2019 | Pt 1",
+        "channel": "University of Glasgow",
+        "topic": "linguistics",
+        "url": "https://www.youtube.com/watch?v=VOZe09ME9Dw",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "topic_concentration_or_stronger_candidate_selected"
+      },
+      {
+        "video_id": "Uf9tlbMckS0",
+        "title": "6. How Do We Communicate?: Language in the Brain, Mouth",
+        "channel": "YaleCourses",
+        "topic": "language/psychology",
+        "url": "https://www.youtube.com/watch?v=Uf9tlbMckS0",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "lower_combined_quality_usefulness_curiosity_score"
+      },
+      {
+        "video_id": "aJJMAc1bNoM",
+        "title": "History of Linguistics at the University of Chicago",
+        "channel": "UChicago Division of the Arts & Humanities",
+        "topic": "linguistics-history",
+        "url": "https://www.youtube.com/watch?v=aJJMAc1bNoM",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "lower_combined_quality_usefulness_curiosity_score"
+      },
+      {
+        "video_id": "XWYaoAoijdQ",
+        "title": "George Lakoff on Embodied Cognition and Language",
+        "channel": "Central European University",
+        "topic": "cognition/language",
+        "url": "https://www.youtube.com/watch?v=XWYaoAoijdQ",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "lower_combined_quality_usefulness_curiosity_score"
+      },
+      {
+        "video_id": "SIOQgY1tqrU",
+        "title": "23. Language",
+        "channel": "Stanford",
+        "topic": "language/biology",
+        "url": "https://www.youtube.com/watch?v=SIOQgY1tqrU",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "lower_combined_quality_usefulness_curiosity_score"
+      },
+      {
+        "video_id": "PfYYraMgiBA",
+        "title": "Cracking Ancient Codes: Cuneiform Writing - with Irving Finkel",
+        "channel": "The Royal Institution",
+        "topic": "ancient-writing",
+        "url": "https://www.youtube.com/watch?v=PfYYraMgiBA",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "recent_creator_diversity_penalty"
+      },
+      {
+        "video_id": "Mvy5hjAWeZw",
+        "title": "Lecture 2: Morphology, Part 1",
+        "channel": "MIT OpenCourseWare",
+        "topic": "linguistics",
+        "url": "https://www.youtube.com/watch?v=Mvy5hjAWeZw",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "topic_concentration_or_stronger_candidate_selected"
+      },
+      {
+        "video_id": "cQ2YFsqaVTE",
+        "title": "The Most Useful Fossils in the World",
+        "channel": "PBS Eons",
+        "topic": "paleontology",
+        "url": "https://www.youtube.com/watch?v=cQ2YFsqaVTE",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "same_creator_concentration_or_stronger_candidate_available"
+      },
+      {
+        "video_id": "uMItdDUYAeA",
+        "title": "Animals Might Be Much Older Than We Thought",
+        "channel": "PBS Eons",
+        "topic": "paleontology",
+        "url": "https://www.youtube.com/watch?v=uMItdDUYAeA",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "same_creator_concentration_or_stronger_candidate_available"
+      },
+      {
+        "video_id": "YWZgfPGtQEs",
+        "title": "How 7,000 Years of Epic Floods Changed the World",
+        "channel": "PBS Eons",
+        "topic": "geology",
+        "url": "https://www.youtube.com/watch?v=YWZgfPGtQEs",
+        "observed_via": "youtube_first_party_search_or_direct_page",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "same_creator_concentration_or_stronger_candidate_available"
+      }
+    ],
+    "reddit": [
+      {
+        "post_id": "1wpvps0",
+        "title": "Friday Free-for-All | September 25, 2026",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1wpvps0/",
+        "topic": "history",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "generic_megathread"
+      },
+      {
+        "post_id": "1w0pxio",
+        "title": "Friday Free-for-All | August 28, 2026",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1w0pxio/",
+        "topic": "history",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "generic_megathread"
+      },
+      {
+        "post_id": "1qcphsf",
+        "title": "Ask Anything Wednesday - Biology, Chemistry, Neuroscience, Medicine, Psychology",
+        "subreddit": "askscience",
+        "url": "https://www.reddit.com/r/askscience/comments/1qcphsf/",
+        "topic": "science_or_language",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "generic_megathread"
+      },
+      {
+        "post_id": "1rw4x5e",
+        "title": "What's a material failure you've seen that no datasheet would have predicted?",
+        "subreddit": "MechanicalEngineering",
+        "url": "https://www.reddit.com/r/MechanicalEngineering/comments/1rw4x5e/",
+        "topic": "engineering",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": true,
+        "selection_tier": "high_confidence",
+        "scores": {
+          "quality": 8,
+          "usefulness": 8,
+          "curiosity": 8,
+          "novelty": 8,
+          "fit": 8,
+          "weighted": 8.0
+        },
+        "rejection_reason": null
+      },
+      {
+        "post_id": "12obeux",
+        "title": "How long ago was language change actually studied and taken note of?",
+        "subreddit": "asklinguistics",
+        "url": "https://www.reddit.com/r/asklinguistics/comments/12obeux/",
+        "topic": "science_or_language",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": true,
+        "selection_tier": "high_confidence",
+        "scores": {
+          "quality": 8,
+          "usefulness": 8,
+          "curiosity": 8,
+          "novelty": 8,
+          "fit": 8,
+          "weighted": 8.0
+        },
+        "rejection_reason": null
+      },
+      {
+        "post_id": "ftxwe2",
+        "title": "What design error have you caught that could have resulted in major failure?",
+        "subreddit": "AskEngineers",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/ftxwe2/",
+        "topic": "engineering",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": true,
+        "selection_tier": "high_confidence",
+        "scores": {
+          "quality": 8,
+          "usefulness": 8,
+          "curiosity": 8,
+          "novelty": 8,
+          "fit": 8,
+          "weighted": 8.0
+        },
+        "rejection_reason": null
+      },
+      {
+        "post_id": "dff5tb",
+        "title": "Examples of engineering disasters from unknowingly using incorrect materials.",
+        "subreddit": "AskEngineers",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/dff5tb/",
+        "topic": "engineering",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": true,
+        "selection_tier": "high_confidence",
+        "scores": {
+          "quality": 8,
+          "usefulness": 8,
+          "curiosity": 8,
+          "novelty": 8,
+          "fit": 8,
+          "weighted": 8.0
+        },
+        "rejection_reason": null
+      },
+      {
+        "post_id": "1vpazm2",
+        "title": "Design vs Manufacturing",
+        "subreddit": "MechanicalEngineering",
+        "url": "https://www.reddit.com/r/MechanicalEngineering/comments/1vpazm2/",
+        "topic": "engineering",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": true,
+        "selection_tier": "adjacent",
+        "scores": {
+          "quality": 8,
+          "usefulness": 8,
+          "curiosity": 8,
+          "novelty": 8,
+          "fit": 8,
+          "weighted": 8.0
+        },
+        "rejection_reason": null
+      },
+      {
+        "post_id": "1691k6f",
+        "title": "Question for design/manufacturing engineers",
+        "subreddit": "MechanicalEngineering",
+        "url": "https://www.reddit.com/r/MechanicalEngineering/comments/1691k6f/",
+        "topic": "engineering",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "engineering_topic_concentration_or_semantic_overlap"
+      },
+      {
+        "post_id": "1rbw4fa",
+        "title": "Manufacturing or design",
+        "subreddit": "MechanicalEngineering",
+        "url": "https://www.reddit.com/r/MechanicalEngineering/comments/1rbw4fa/",
+        "topic": "engineering",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "engineering_topic_concentration_or_semantic_overlap"
+      },
+      {
+        "post_id": "1nrmkr2",
+        "title": "How do you validate manufacturing feasibility during design?",
+        "subreddit": "manufacturing",
+        "url": "https://www.reddit.com/r/manufacturing/comments/1nrmkr2/",
+        "topic": "engineering",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "engineering_topic_concentration_or_semantic_overlap"
+      },
+      {
+        "post_id": "dyu2uz",
+        "title": "Wanting to get some insight into design, manufacturing and production lines",
+        "subreddit": "AskEngineers",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/dyu2uz/",
+        "topic": "engineering",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "engineering_topic_concentration_or_semantic_overlap"
+      },
+      {
+        "post_id": "s36t3q",
+        "title": "Do you design CAD parts with manufacturing in mind or mainly just dimensions?",
+        "subreddit": "AskEngineers",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/s36t3q/",
+        "topic": "engineering",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "engineering_topic_concentration_or_semantic_overlap"
+      },
+      {
+        "post_id": "tbb5t3",
+        "title": "Going from Manufacturing to Design",
+        "subreddit": "AskEngineers",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/tbb5t3/",
+        "topic": "engineering",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "engineering_topic_concentration_or_semantic_overlap"
+      },
+      {
+        "post_id": "1xfkjo3",
+        "title": "Seriously what do manufacturing engineer do?",
+        "subreddit": "MechanicalEngineering",
+        "url": "https://www.reddit.com/r/MechanicalEngineering/comments/1xfkjo3/",
+        "topic": "engineering",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "thin_or_low_specificity"
+      },
+      {
+        "post_id": "1u3swa7",
+        "title": "With atmospheric CO2 levels increasing. Are many plants growing larger or more quickly than before?",
+        "subreddit": "askscience",
+        "url": "https://www.reddit.com/r/askscience/comments/1u3swa7/",
+        "topic": "science_or_language",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "permanently_blocked_by_prior_history"
+      },
+      {
+        "post_id": "1uvyr9l",
+        "title": "Why did it take until Hubble to know that the universe is expanding?",
+        "subreddit": "AskPhysics",
+        "url": "https://www.reddit.com/r/AskPhysics/comments/1uvyr9l/",
+        "topic": "science_or_language",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "permanently_blocked_by_prior_history"
+      },
+      {
+        "post_id": "1ulogmy",
+        "title": "How legit are claims of Underground Railroad hiding places in old homes?",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1ulogmy/",
+        "topic": "history",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "permanently_blocked_by_prior_history"
+      },
+      {
+        "post_id": "1p2nm33",
+        "title": "Are there any plants that selected humans to spread their seeds?",
+        "subreddit": "askscience",
+        "url": "https://www.reddit.com/r/askscience/comments/1p2nm33/",
+        "topic": "science_or_language",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "permanently_blocked_by_prior_history"
+      },
+      {
+        "post_id": "1up7ppq",
+        "title": "Is this part impossible?",
+        "subreddit": "manufacturing",
+        "url": "https://www.reddit.com/r/manufacturing/comments/1up7ppq/",
+        "topic": "engineering",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "permanently_blocked_by_prior_history"
+      },
+      {
+        "post_id": "2ppc7s",
+        "title": "Design Engineers, What do you design for a living?",
+        "subreddit": "engineering",
+        "url": "https://www.reddit.com/r/engineering/comments/2ppc7s/",
+        "topic": "engineering",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "lower_combined_quality_usefulness_curiosity_score"
+      },
+      {
+        "post_id": "1u59njw",
+        "title": "ELI5: Why haven't any other animals evolved like humans?",
+        "subreddit": "explainlikeimfive",
+        "url": "https://www.reddit.com/r/explainlikeimfive/comments/1u59njw/",
+        "topic": "science_or_language",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "lower_combined_quality_usefulness_curiosity_score"
+      },
+      {
+        "post_id": "1uyf3qw",
+        "title": "Unoccupied France in Casablanca - what government or faction did it represent?",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1uyf3qw/",
+        "topic": "history",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": true,
+        "selection_tier": "high_confidence",
+        "scores": {
+          "quality": 8,
+          "usefulness": 8,
+          "curiosity": 8,
+          "novelty": 8,
+          "fit": 8,
+          "weighted": 8.0
+        },
+        "rejection_reason": null
+      },
+      {
+        "post_id": "1jpv13d",
+        "title": "I have heard multiple claims that there has never been a true matriarchal human culture",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1jpv13d/",
+        "topic": "history",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "permanently_blocked_by_prior_history"
+      },
+      {
+        "post_id": "49mcgy",
+        "title": "Where would the priests and priestesses in ancient Delphi have lived?",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/49mcgy/",
+        "topic": "history",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": true,
+        "selection_tier": "adjacent",
+        "scores": {
+          "quality": 8,
+          "usefulness": 8,
+          "curiosity": 8,
+          "novelty": 8,
+          "fit": 8,
+          "weighted": 8.0
+        },
+        "rejection_reason": null
+      },
+      {
+        "post_id": "5ju4d6",
+        "title": "Have pirate treasure puzzles like in the movies ever actually existed as they’re depicted?",
+        "subreddit": "history",
+        "url": "https://www.reddit.com/r/history/comments/5ju4d6/",
+        "topic": "history",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": true,
+        "selection_tier": "adjacent",
+        "scores": {
+          "quality": 8,
+          "usefulness": 8,
+          "curiosity": 8,
+          "novelty": 8,
+          "fit": 8,
+          "weighted": 8.0
+        },
+        "rejection_reason": null
+      },
+      {
+        "post_id": "1261j0e",
+        "title": "How to get into design related work if its something I have never done?",
+        "subreddit": "MechanicalEngineering",
+        "url": "https://www.reddit.com/r/MechanicalEngineering/comments/1261j0e/",
+        "topic": "engineering",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "engineering_topic_concentration_or_semantic_overlap"
+      },
+      {
+        "post_id": "rg5lyc",
+        "title": "Advice for manufacturing a large quantity of a small custom shape",
+        "subreddit": "manufacturing",
+        "url": "https://www.reddit.com/r/manufacturing/comments/rg5lyc/",
+        "topic": "engineering",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "engineering_topic_concentration_or_semantic_overlap"
+      },
+      {
+        "post_id": "1w3akaw",
+        "title": "Restoration/conservation advice",
+        "subreddit": "bookbinding",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1w3akaw/",
+        "topic": "wildcard_conservation",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": true,
+        "selection_tier": "wildcard",
+        "scores": {
+          "quality": 8,
+          "usefulness": 8,
+          "curiosity": 8,
+          "novelty": 8,
+          "fit": 8,
+          "weighted": 8.0
+        },
+        "rejection_reason": null
+      },
+      {
+        "post_id": "1snmkjv",
+        "title": "How to fix",
+        "subreddit": "bookrepair",
+        "url": "https://www.reddit.com/r/bookrepair/comments/1snmkjv/",
+        "topic": "wildcard_conservation",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "thin_or_low_specificity"
+      },
+      {
+        "post_id": "1hgmzi3",
+        "title": "I need help to repair/rebind my 1895 Cook Book",
+        "subreddit": "bookbinding",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1hgmzi3/",
+        "topic": "wildcard_conservation",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "lower_combined_quality_usefulness_curiosity_score"
+      },
+      {
+        "post_id": "1lycnq7",
+        "title": "Lemon Curd perfect, then grainy after the fridge",
+        "subreddit": "AskCulinary",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/1lycnq7/",
+        "topic": "science_or_language",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "permanently_blocked_by_prior_history"
+      },
+      {
+        "post_id": "jqcxwi",
+        "title": "How can I purposely get clumps in my spaghetti",
+        "subreddit": "AskCulinary",
+        "url": "https://www.reddit.com/r/AskCulinary/comments/jqcxwi/",
+        "topic": "science_or_language",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "permanently_blocked_by_prior_history"
+      },
+      {
+        "post_id": "1mk0or5",
+        "title": "Caution: Collections horror story ahead",
+        "subreddit": "MuseumPros",
+        "url": "https://www.reddit.com/r/MuseumPros/comments/1mk0or5/",
+        "topic": "wildcard_conservation",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": true,
+        "selection_tier": "wildcard",
+        "scores": {
+          "quality": 8,
+          "usefulness": 8,
+          "curiosity": 8,
+          "novelty": 8,
+          "fit": 8,
+          "weighted": 8.0
+        },
+        "rejection_reason": null
+      },
+      {
+        "post_id": "1kwplwf",
+        "title": "I’m a microbial biogeochemist who studies extreme microbes. Ask Me Anything",
+        "subreddit": "biology",
+        "url": "https://www.reddit.com/r/biology/comments/1kwplwf/",
+        "topic": "science_or_language",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "permanently_blocked_by_prior_history"
+      },
+      {
+        "post_id": "1givg4",
+        "title": "What goods and services have undergone the most significant price changes in the last 100 years, adjusted for inflation?",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1givg4/",
+        "topic": "history",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "permanently_blocked_by_prior_history"
+      },
+      {
+        "post_id": "1ecmd06",
+        "title": "Why aren't electrons black holes?",
+        "subreddit": "AskPhysics",
+        "url": "https://www.reddit.com/r/AskPhysics/comments/1ecmd06/",
+        "topic": "science_or_language",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "permanently_blocked_by_prior_history"
+      },
+      {
+        "post_id": "hkytep",
+        "title": "How can black holes ever come into being if time stops at the event horizon?",
+        "subreddit": "AskPhysics",
+        "url": "https://www.reddit.com/r/AskPhysics/comments/hkytep/",
+        "topic": "science_or_language",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "permanently_blocked_by_prior_history"
+      },
+      {
+        "post_id": "bqv0yo",
+        "title": "Under what circumstances were Aztec death whistles originally used?",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/bqv0yo/",
+        "topic": "history",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "permanently_blocked_by_prior_history"
+      },
+      {
+        "post_id": "w6ab3r",
+        "title": "The Ming-Qing transition was one of the deadliest wars in history. How did contemporary powers react?",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/w6ab3r/",
+        "topic": "history",
+        "observed_via": "accessible_search_result",
+        "original_post_verification": "not_performed_user_waived",
+        "selected": false,
+        "selection_tier": null,
+        "scores": {
+          "quality": 6,
+          "usefulness": 6,
+          "curiosity": 6,
+          "novelty": 5,
+          "fit": 6,
+          "weighted": 5.85
+        },
+        "rejection_reason": "permanently_blocked_by_prior_history"
+      }
+    ]
+  },
+  "selection_evidence": {
+    "weights": {
+      "quality": 0.3,
+      "usefulness": 0.25,
+      "curiosity": 0.2,
+      "novelty": 0.15,
+      "fit": 0.1
+    },
+    "youtube_mix": {
+      "high_confidence": 3,
+      "adjacent": 1,
+      "wildcard": 1,
+      "narrow_topic_max": "2/5 = 40%"
+    },
+    "reddit_mix": {
+      "high_confidence": 5,
+      "adjacent": 3,
+      "wildcard": 2,
+      "narrow_topic_max": "4/10 = 40%"
+    },
+    "rejections": "Permanent history and PREPARED reservations were excluded; nonselected candidate rows retain their concrete rejection reasons."
+  },
+  "source_verification": {
+    "news": [
+      {
+        "story": "COP31 opened in Antalya",
+        "event_date": "2026-11-09",
+        "url": "https://unfccc.int/event/cop-31",
+        "scope": "official dates, agenda, and posted documents; no outcome claim"
+      },
+      {
+        "story": "WHO draft target product profile for wrist-worn surveillance devices",
+        "event_date": "2026-11-08",
+        "url": "https://www.who.int/news-room/articles-detail/public-consultation-on-the-draft-target-product-profile-for-wrist-worn-devices-used-in-population-health-surveillance",
+        "scope": "official consultation dates and draft purpose"
+      },
+      {
+        "story": "European Chip Design Platform launch",
+        "event_date": "2026-11-04",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/european-chip-design-platform-launched-strengthen-europes-semiconductor-capabilities",
+        "scope": "European Commission launch report, public-investment scale and service scope"
+      },
+      {
+        "story": "Bap1-derived underwater adhesive peptide",
+        "event_date": "2026-11-04",
+        "url": "https://www.science.org/doi/10.1126/sciadv.aei1795",
+        "scope": "primary journal DOI; note labels laboratory proof of concept and avoids clinical/industrial claims"
+      }
+    ],
+    "youtube": [
+      {
+        "video_id": "-5wpm-gesOY",
+        "title": "The Problem with Time & Timezones - Computerphile",
+        "channel": "Computerphile",
+        "verification_method": "direct_watch_page",
+        "verification_scope": "title, channel, and substantive description observed before challenge",
+        "playback_tested": false
+      },
+      {
+        "video_id": "y4ouRg_RbVY",
+        "title": "Did Asteroids Spark Life?",
+        "channel": "PBS Eons",
+        "verification_method": "youtube_first_party_search_page",
+        "verification_scope": "exact ID, title, verified channel, date, and description observed before challenge",
+        "playback_tested": false
+      },
+      {
+        "video_id": "pmLHg_B8uoI",
+        "title": "Release The Brood! Roly-poly Birthing Is Intense",
+        "channel": "Deep Look",
+        "verification_method": "creator_official_page",
+        "verification_source_url": "https://www.kqed.org/science/1998278/release-the-brood-roly-poly-birthing-is-intense",
+        "verification_scope": "publisher page contained exact YouTube URL, title, series identity, and transcript",
+        "playback_tested": false
+      },
+      {
+        "video_id": "CHpbZ7HXP7Q",
+        "title": "We took the back off a Michelangelo and it took 7 months | Saving Michelangelo’s Epifania Cartoon",
+        "channel": "The British Museum",
+        "verification_method": "youtube_first_party_search_page",
+        "verification_scope": "exact ID, title, verified channel, duration, description, and summary observed before challenge; official museum materials corroborated project",
+        "playback_tested": false
+      },
+      {
+        "video_id": "TxnqHukr-Oc",
+        "title": "9. Linguistics and Literature",
+        "channel": "YaleCourses",
+        "verification_method": "creator_official_page",
+        "verification_source_url": "https://oyc.yale.edu/english/engl-300/lecture-9",
+        "verification_scope": "publisher page contained exact YouTube embed, title, professor, chapters, and transcript",
+        "playback_tested": false
+      }
+    ],
+    "youtube_challenge": "After YouTube presented an unusual-traffic challenge, the challenged route was not contacted again and no bypass was attempted.",
+    "reddit": {
+      "exception": "user-authorized",
+      "recommended_count": 10,
+      "original_post_verification": "not_performed_user_waived",
+      "assessment_scope": "accessible search information only; comments, full dates, accessibility and discussion quality were not claimed as verified"
+    }
+  },
+  "bundle": {
+    "path": ".recommendation/transactions/news-youtube-reddit/2026-11-09.json",
+    "prepared_blob_sha": "41bb03459cb922f30db96929801a72e31b0c8202",
+    "plan_sha256": "798da964a89e7001081a0c820d374c6d2dc190e7cb78d8da79b1c0962c487535",
+    "bundle_sha256": "c367e17e4819c48acecdcecbdc7c08f8138a1e3e1aee2040521e9133d635f030",
+    "creation_commit": "a4fc6514c7359079066a6eb8e683cf8216cc5b85"
+  },
+  "publication": {
+    "commit": "f946a050d5d6f5f8276fb0a38c0682aa1114b9b1",
+    "expected_parent": "23a4dc1a7ea5e9dfe26cba33d21ff561ddc590b1",
+    "tree": "44f52146e550d91a013a90b42abb9e8bf84ae089",
+    "ref_update": "non_force_expected_head_passed",
+    "readbacks": {
+      "News/Daily/2026-11-09.md": "c7122dbf6469093de44df47ddc6057b201e913f3",
+      "Resources/YouTube/Daily/2026-11-09.md": "d2aeb3557200322755af78234f1bc6a67a354ab0",
+      "Resources/Reddit/Daily/2026-11-09.md": "5411fab2a8070141d88ed3b47d91fe606f1b68c3",
+      ".recommendation/history/youtube.jsonl": "fafe4b2ffa103bdaeb25d0e94d2a0f4590d85504",
+      ".recommendation/history/reddit.jsonl": "3b01569a4f7bd3a3c00657f5b43b09217eb79b82"
+    }
+  },
+  "checks": {
+    "publication_bundle_validate_payloads": "passed",
+    "publication_bundle_check_baselines": "passed",
+    "publication_bundle_verify_readback": "passed",
+    "recovery_planner": "ready_to_resume_stage_1_before_write",
+    "post_write_semantic_qa": "passed",
+    "exact_youtube_count": 5,
+    "exact_reddit_count": 10,
+    "history_exact_once": "passed",
+    "freshness_against_original_history": "passed",
+    "remote_ci": {
+      "workflow": "Recommendation integrity (read-only)",
+      "run_id": 42542386878,
+      "job_id": 128920053202,
+      "conclusion": "success",
+      "steps": [
+        "Validate publications and full source-history coverage",
+        "Negative regressions and interrupted-publication recovery",
+        "Compare permanent history with the actual base commit",
+        "Record scope of checks"
+      ]
+    },
+    "local_full_history_freeze_gate": "unverified_local_checkout_unavailable",
+    "connector_reservation_check": "complete current histories and all current PREPARED blobs read; no final ID conflict"
+  },
+  "limitations": [
+    "Structural CI does not certify editorial judgment, live playback, local device synchronization, or notification delivery.",
+    "YouTube playback was not tested.",
+    "Reddit original threads were not opened under the standing user waiver."
+  ],
+  "historical_backlog": [
+    "Legacy YouTube history contains four pre-strict-policy duplicate rows; no old recommendation was replaced and today’s IDs are fresh."
+  ]
+}
