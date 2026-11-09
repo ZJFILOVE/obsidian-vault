@@ -26,7 +26,7 @@ Use `scripts/publication_bundle.py` and `scripts/publication_recovery.py`. The i
 
 The plan is version 1 with project, date, operation_id, ordered exposed_resource_ids and targets. Every target includes repository, path, explicit base_sha (null only for confirmed absence), target_sha (Git blob SHA), and stage. Hash bytes with `publication_recovery.blob_sha`; never guess hashes. `publication_bundle.targets_for(project, day)` defines the exact files and stage numbers. English uses three weekday notes plus history, or one Saturday/Sunday note plus history. Discovery uses three notes plus two histories. Music uses manifest+state in music-daily (stage 1), then mirrored manifest+state+note in the vault (stage 2). QA is a later receipt, not part of a circular self-certifying payload.
 
-Create the bundle locally with `publication_bundle.freeze(plan, payloads)`. Call `check_baselines(bundle, verified_original_texts)` before writing; null is allowed only after repository/branch accessibility and file absence are established. Do not pass API errors as empty files. Preserve old JSONL bytes and all music state values. An existing unmarked Markdown note can only be left byte-identical automatically. In marked notes only the AUTO block can change; frontmatter and all text outside it remain unchanged. Escalate unmarked note edits for review rather than overriding this guard.
+For English and Journal, create the bundle locally with `publication_bundle.freeze(plan, payloads)`. Music must use the music-specific prepare/freeze entrypoint below; the two-argument example does not apply to music. Discovery requires its documented `discovery_root` evidence. Call `check_baselines(bundle, verified_original_texts)` before writing; null is allowed only after repository/branch accessibility and file absence are established. Do not pass API errors as empty files. Preserve old JSONL bytes and all music state values. An existing unmarked Markdown note can only be left byte-identical automatically. In marked notes only the AUTO block can change; frontmatter and all text outside it remain unchanged. Escalate unmarked note edits for review rather than overriding this guard.
 
 Create the PREPARED file exactly once using the connector; read it back and verify its blob SHA, both digests and exact payloads before touching publications. Save its creation commit and original bundle digest in a separate execution receipt. If it already exists, retrieve its original creation version and digest from Git history. A retry must not recompute a new baseline or digest and then overwrite the original record.
 
@@ -254,3 +254,72 @@ recovery-time content QA and transport/readback separately with the new digest;
 `not_evaluated` from engineering checks is never a source-QA success. This
 exception does not change Journal, English, music, other source requirements,
 or any schedules and permissions.
+
+
+## Music producer startup: prepare before any candidate selection
+
+The production producer is the existing ChatGPT **Apple Music Daily 5** automation.
+Repository code cannot attach an execution environment or change that external
+prompt. A successful local CLI run is not evidence that the automation has been
+updated. Its coordinating owner must insert these steps before candidate research
+and select/inherit an environment in which both authorized full checkouts are
+actually usable. `environments=null` alone does not prove an environment is absent.
+
+1. Read the CURRENT policy, this protocol and publication scripts. Use the existing
+   authorized repository connection to fetch each main. Ensure each local HEAD
+   equals the freshly observed remote main, with full non-shallow ancestry, no Git
+   replacements/grafts, and no pending publication edits. If needed, safely
+   fast-forward a clean checkout or use a separate checkout; never overwrite work.
+2. Before selecting any songs run:
+
+```bash
+python3 /path/to/vault/scripts/music_publication.py prepare \
+  --vault-root /path/to/vault --music-root /path/to/music-daily \
+  --date YYYY-MM-DD --output /external/work/preflight.json
+```
+
+`ready_before_selection` permits research, not publication. The output contains
+complete history identities, current/retired reservations, pinned heads, all
+required non-recursive hash-verified trees and target observations. Read the
+exclusion index, not only current state or a recent manifest window.
+`resume_existing_bundle` forbids reselection: retain its original digest and use
+the existing recovery planner for only the earliest incomplete stage, including
+when music-daily stage 1 already succeeded but Vault stage 2 is absent. Dated
+artifacts without a bundle require explicit adoption review. Any failure stops
+before selection and reports the actual missing input.
+
+3. After real CN source checks and full editorial QA, retain complete manifest
+   and note files, then run:
+
+```bash
+python3 /path/to/vault/scripts/music_publication.py freeze \
+  --vault-root /path/to/vault --music-root /path/to/music-daily \
+  --preflight /external/work/preflight.json \
+  --manifest /external/work/manifest.json --note /external/work/note.md \
+  --output /external/work/prepared.json
+```
+
+This executable wrapper rechecks remote heads/history, builds both identical
+states while retaining every old value, and calls `publication_bundle.freeze`
+with all three required music arguments. Here `--vault-root` becomes the legacy
+Python `music_root` parameter; `--music-root` means the actual music-daily checkout.
+Stale heads/evidence block freezing; retain the draft and rerun preparation, never
+silently reselect. Outputs are exclusively new external local files; neither CLI
+command publishes, writes Apple playlists, accesses CI APIs, creates credentials,
+or imposes an Apple synchronization gate. Persist/read back the exact resulting
+PREPARED once, then follow the existing two-stage publish/readback/QA protocol.
+An Actions API denial is unverified CI, not authorization to bypass it.
+
+Music preparation reports global bundle health separately. A validation error
+explicitly attributed to a transaction file under `english`, `journal`, or
+`news-youtube-reddit` is advisory for music only; it remains a failed global
+check. Music's current and historical PREPARED validation, permanent identity,
+withdrawal evidence, mirrors and concurrency checks remain mandatory. Unlocated
+errors, shared-code failures and music failures still block. This does not change
+any other project's publishing rules or remove the global health command.
+
+No particular machine or additional Vault token is required: any authorized
+execution environment with both complete Git checkouts can run these commands.
+If an automation cannot obtain that history, stop before selection and report the
+missing capability. Current-file API reads alone are not an equivalent history
+proof. A remote-only ancestry/tree adapter has not been implemented or tested.

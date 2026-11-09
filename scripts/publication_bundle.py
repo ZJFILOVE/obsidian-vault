@@ -106,7 +106,7 @@ def freeze(plan: dict, payloads: dict, *, music_root=None, mirror_snapshot=None,
     validate_payloads(plan, payloads)
     if plan['project'] == 'music':
         r.require(music_root is not None and mirror_snapshot is not None and expected_heads is not None,
-                  'music freeze requires full history and pinned mirror evidence')
+                  'music freeze requires full history and pinned mirror evidence; run music_publication.py prepare before selection, then music_publication.py freeze (music_root is the Vault checkout)')
         from music_identity import publication_gate
         publication_gate(Path(music_root), plan, payloads, mirror_snapshot, expected_heads)
     body = {'schema_version': 1, 'plan': plan, 'payloads': payloads, 'plan_sha256': r.digest(plan)}
