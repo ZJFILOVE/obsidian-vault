@@ -82,11 +82,15 @@ class MusicProducerTests(unittest.TestCase):
         with self.assertRaises(FileExistsError):p.write_output(path,{},[self.v,self.mu])
 
     def test_located_other_project_corruption_is_warning(self):
-        write(self.v,'.recommendation/transactions/english/2026-02-02.json','{broken')
-        self.f.commit(self.v)
-        report=self.prepare()
-        self.assertEqual(report['mode'],'ready_before_selection')
-        self.assertEqual(report['bundle_health']['global_bundles']['status'],'failed_other_project_data')
+        for project in ('english', 'journal', 'news-youtube-reddit'):
+            with self.subTest(project=project):
+                path='.recommendation/transactions/'+project+'/2026-02-02.json'
+                write(self.v,path,'{broken');self.f.commit(self.v)
+                report=self.prepare()
+                self.assertEqual(report['mode'],'ready_before_selection')
+                self.assertEqual(report['bundle_health']['global_bundles']['status'],'failed_other_project_data')
+                self.assertEqual(report['bundle_health']['warnings'][0]['path'],path)
+                (self.v/path).unlink();self.f.commit(self.v)
     def test_music_corruption_still_blocks(self):
         write(self.v,'.recommendation/transactions/music/2026-02-02.json','{broken')
         self.f.commit(self.v)
