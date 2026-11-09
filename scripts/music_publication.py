@@ -75,6 +75,10 @@ def scoped_bundle_audit(root):
     """
     try:
         return {'global_bundles': b.audit_journal(root), 'warnings': []}
+    except b.ProjectDataError as exc:
+        r.require(exc.project == 'news-youtube-reddit', 'unclassified project data failure')
+        return {'global_bundles': {'status': 'failed_other_project_data'},
+                'warnings': [{'path': exc.path, 'error': str(exc)}]}
     except ValueError as exc:
         message = str(exc)
         prefix, separator, detail = message.partition(': ')

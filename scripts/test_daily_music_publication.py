@@ -103,3 +103,21 @@ class MusicProducerTests(unittest.TestCase):
         write(self.v,'.recommendation/transactions/music/2026-02-02.json','{broken')
         self.f.commit(self.v)
         with self.assertRaises(ValueError):self.prepare()
+
+    def test_registered_discovery_evidence_damage_is_precisely_attributed(self):
+        import test_daily_discovery_recovery as df
+        import discovery_recovery as d
+        fixture=df.DiscoveryRecoveryTests();fixture.setUp();self.addCleanup(fixture.doCleanups)
+        fixture.install();df.commit(fixture.root)
+        for path in (d.RECEIPT, d.ARCHIVE, d.EVIDENCE):
+            with self.subTest(path=path):
+                target=fixture.root/path;raw=target.read_bytes()
+                for damage in ('modified','missing'):
+                    if damage=='modified':target.write_bytes(raw+b'broken')
+                    else:target.unlink()
+                    with self.assertRaises(b.ProjectDataError):b.audit_journal(fixture.root)
+                    report=p.scoped_bundle_audit(fixture.root)
+                    self.assertEqual(report['warnings'][0]['path'],path)
+                    target.write_bytes(raw)
+        with patch.object(d,'validate_installed',side_effect=ValueError('shared recovery code failure')):
+            with self.assertRaisesRegex(ValueError,'shared recovery'):p.scoped_bundle_audit(fixture.root)

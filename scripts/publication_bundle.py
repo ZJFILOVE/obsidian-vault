@@ -188,12 +188,37 @@ def load_prepared(path: Path, root: Path | None = None) -> dict:
     return bundle
 
 
+class ProjectDataError(ValueError):
+    """A proven file-level failure, not an arbitrary validator exception."""
+    def __init__(self, project, path, detail):
+        self.project, self.path = project, path
+        super().__init__(path + ': ' + detail)
+
+
+def audit_registered_discovery(root):
+    import discovery_recovery as d
+    d.require_full_history(root)
+    paths = [d.RECEIPT, d.ARCHIVE, d.EVIDENCE, d.TRANSACTION, d.FAILURE,
+             d.ORIGINAL_PLAN_FILE, d.ORIGINAL_REDDIT, *d.ORIGINAL_NOTES.values(),
+             '.recommendation/transaction-runs/news-youtube-reddit/2026-11-08/recovery-source-inputs.zip']
+    versions = d.historical_evidence(root, paths)
+    for path, recorded in versions.items():
+        if path == d.TRANSACTION: recorded = recorded - {d.BAD_BLOB}
+        if not recorded: continue  # staging has no committed baseline yet
+        if not (root / path).is_file():
+            raise ProjectDataError('news-youtube-reddit', path, 'committed recovery data missing')
+        if recorded != {r.blob_sha((root / path).read_bytes())}:
+            raise ProjectDataError('news-youtube-reddit', path, 'immutable recovery data differs from recorded ancestry')
+    # Shared-code errors and unclassified failures are deliberately not wrapped.
+    return d.validate_installed(root)
+
+
 def audit_journal(root: Path, base: str | None = None) -> dict:
     from discovery_recovery import RECEIPT, validate_installed, git as recovery_git
     registered = (root / RECEIPT).exists()
     if (root / '.git').exists():
         registered = registered or bool(recovery_git(root, 'log', '--format=%H', 'HEAD', '--', RECEIPT).strip())
-    if registered: validate_installed(root)
+    if registered: audit_registered_discovery(root)
     directory = root / '.recommendation/transactions'
     paths = sorted(directory.rglob('*.json')) if directory.exists() else []
     for path in paths:
