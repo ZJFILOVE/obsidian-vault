@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "project": "journal",
+  "date": "2026-11-09",
+  "operation_id": "journal:2026-11-09",
+  "status": "passed_current_publication",
+  "bundle": {
+    "path": ".recommendation/transactions/journal/2026-11-09.json",
+    "creation_commit": "88b6b237f4d5290b20dc05918446558e4948bdfe",
+    "blob_sha": "076ecf871bd0bd1d6f18129271382c5a74310d6e",
+    "bundle_sha256": "d57d0178d1e8b0be19d23b301eeed978d55ad569dc82e5ec7a1b74e3dd23be32",
+    "plan_sha256": "8fbb529d15d0b08f343e5d2eff973e53b5bf9610384819fe8badae3106435ad2"
+  },
+  "selection": {
+    "theme": "从光敏色素到近红外荧光蛋白：光化学通道的工程改写",
+    "candidate_count": 10,
+    "selected_count": 3,
+    "selected_dois": [
+      "10.1126/science.1168683",
+      "10.1038/nbt.1918",
+      "10.1038/ncomms12405"
+    ],
+    "permanent_history_duplicates": 0,
+    "prepared_reservation_duplicates": 0,
+    "semantic_same_work_duplicates": 0,
+    "retraction_check": "No matching retraction or correction notice found in opened authoritative records and DOI-targeted searches; not asserted as a future guarantee",
+    "scope_label": "RpBphP1 used only as external homologous/engineering scaffold evidence"
+  },
+  "sources": [
+    {
+      "doi": "10.1126/science.1168683",
+      "title": "Mammalian expression of infrared fluorescent proteins engineered from a bacterial phytochrome",
+      "opened": [
+        "PMC HTML",
+        "PubMed"
+      ],
+      "reading_scope": "Main text and Fig. 1–4 captions; PDF/SI not opened"
+    },
+    {
+      "doi": "10.1038/nbt.1918",
+      "title": "Bright and stable near-infrared fluorescent protein for in vivo imaging",
+      "opened": [
+        "PMC author-manuscript HTML",
+        "PubMed",
+        "Nature metadata"
+      ],
+      "reading_scope": "Main text and Fig. 1–3 captions; PDF/SI not opened"
+    },
+    {
+      "doi": "10.1038/ncomms12405",
+      "title": "Bright monomeric near-infrared fluorescent proteins as tags and biosensors for multiscale imaging",
+      "opened": [
+        "PubMed",
+        "Nature/PMC indexed HTML passages"
+      ],
+      "reading_scope": "Bibliography, abstract, Fig. 1–3 captions and visible engineering passages; full PMC HTML challenged; PDF/SI not opened"
+    }
+  ],
+  "publication": {
+    "commit": "95f767388593d7048b248079f8eba3c7aa0296cb",
+    "stage_receipt_commit": "e87aea4b7f309fb17d5a5b496e3c14c97ec424ce",
+    "ref_update_non_force": true,
+    "only_journal_payload_targets_in_publication_commit": true,
+    "readbacks": {
+      "00-inbox/Journal/2026-11-09.md": {
+        "sha": "d23ce799c8997c86e3088b30b404ee917ea8447a",
+        "bytes": 4285,
+        "exact": true
+      },
+      "00-inbox/Journal/Index.md": {
+        "sha": "f56eead4bd654acd53ea4825c593fafd77ecdd83",
+        "bytes": 892,
+        "exact": true
+      },
+      ".recommendation/history/journal.jsonl": {
+        "sha": "7b7b7c3977571f17b7b82cdcded2ca604b9c4061",
+        "bytes": 16256,
+        "exact": true
+      }
+    },
+    "planner_status": "artifacts_match",
+    "history_append_only": true,
+    "index_notes_preserved": true
+  },
+  "checks": {
+    "journal_validator": {
+      "status": "passed_journal_integrity",
+      "days": 8,
+      "papers": 24,
+      "local_append_only": "not_checked"
+    },
+    "bundle_baseline_validator": {
+      "status": "bundle_valid"
+    },
+    "local_full_bundle_audit": {
+      "status": "not_verified",
+      "reason": "credential-free snapshot lacks full Git ancestry required by current discovery recovery gate"
+    },
+    "global_integrity": {
+      "status": "passed_in_exact_github_actions_run",
+      "tested_commit": "e87aea4b7f309fb17d5a5b496e3c14c97ec424ce",
+      "workflow": "Recommendation integrity (read-only)",
+      "workflow_file_sha": "849a96bd7d4bca5bb1d1201d9af403830df5d62d",
+      "run_id": 42538961222,
+      "job_id": 128909462256,
+      "conclusion": "success",
+      "full_source_history_step": "success",
+      "negative_regressions_step": "success",
+      "actual_base_comparison_step": "success"
+    },
+    "markdown": {
+      "pandoc_rendered": true,
+      "literal_markers_visible": false,
+      "strong_elements": 21,
+      "label_spacing": true,
+      "visual_browser_inspection": false
+    },
+    "scientific_content_review": {
+      "status": "performed",
+      "observations_author_interpretation_reviewer_synthesis_separated": true,
+      "fluorescence_qy_photoconversion_qy_pss_separated": true,
+      "reading_limits_disclosed": true,
+      "ci_does_not_certify_scientific_content": true
+    },
+    "github_write_and_readback": true,
+    "obsidian_device_sync": "not_tested"
+  },
+  "completed_at": "2026-11-09T00:14:50.710Z"
+}
