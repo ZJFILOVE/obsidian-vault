@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "project": "music",
+  "date": "2026-11-09",
+  "operation_id": "music:2026-11-09",
+  "status": "published_content_and_readback_passed_music_ci_unverified",
+  "recorded_at": "2026-11-09T05:11:21.974224Z",
+  "original_attempt": "fb182a68-c458-8327-881b-406d04878fb2 remains a failed preparation attempt; original five drafts not found. New research is not represented as its original selection.",
+  "bundle": {
+    "path": ".recommendation/transactions/music/2026-11-09.json",
+    "creation_commit": "2459da9a763672572342ca768dc7e6ee4f2b6d61",
+    "blob_sha": "3cd84f37794e8ebfcaa6f2bcef6fec0dfd77292c",
+    "bundle_sha256": "91e9db95683cc1a92903e7d11e29fb5c01fd96b9f4aa86d273b68bd3366d8a63",
+    "plan_sha256": "f3db2c667d9c9ac3e473747441b30f9e8ce2f6b3bd7a6eccabc51e24843085f6"
+  },
+  "source_evidence": {
+    "path": ".recommendation/transaction-runs/music/2026-11-09/candidate-source-qa.json",
+    "sha256": "af4ae55e75edf7d657b88426b2e5f654433df9396286078953d151c5ccbfd14d",
+    "candidate_pool_count": 23,
+    "source_checks": [
+      {
+        "title": "Tadow (Extended Version)",
+        "artist": "Masego",
+        "album": "Lady Lady",
+        "song_id": "1794866432",
+        "storefront": "cn",
+        "requested_url": "https://music.apple.com/cn/song/1794866432",
+        "observed_url": "https://music.apple.com/cn/song/tadow-extended-version/1794866432",
+        "verified_at_utc": "2026-11-09T05:05:52Z",
+        "observation": "Exact CN resource opened and re-read: heading, artist links, album link and URL numeric ID matched. Preview displayed, not played.",
+        "scope": "Page metadata only; not signed-in playback, device sync or Apple playlist writes."
+      },
+      {
+        "title": "隐隐",
+        "artist": "莫文蔚",
+        "album": "拉活…莫文蔚",
+        "song_id": "300118903",
+        "storefront": "cn",
+        "requested_url": "https://music.apple.com/cn/song/300118903",
+        "observed_url": "https://music.apple.com/cn/song/%E9%9A%90%E9%9A%90/300118903",
+        "verified_at_utc": "2026-11-09T05:05:52Z",
+        "observation": "Exact CN resource opened and re-read: heading, artist links, album link and URL numeric ID matched. Preview displayed, not played.",
+        "scope": "Page metadata only; not signed-in playback, device sync or Apple playlist writes."
+      },
+      {
+        "title": "Sister Rosetta Goes Before Us",
+        "artist": "Robert Plant & Alison Krauss",
+        "album": "Raising Sand",
+        "song_id": "1597018889",
+        "storefront": "cn",
+        "requested_url": "https://music.apple.com/cn/song/1597018889",
+        "observed_url": "https://music.apple.com/cn/song/sister-rosetta-goes-before-us/1597018889",
+        "verified_at_utc": "2026-11-09T05:05:52Z",
+        "observation": "Exact CN resource opened and re-read: heading, artist links, album link and URL numeric ID matched. Preview displayed, not played.",
+        "scope": "Page metadata only; not signed-in playback, device sync or Apple playlist writes."
+      },
+      {
+        "title": "Deadly Valentine",
+        "artist": "Charlotte Gainsbourg",
+        "album": "Rest",
+        "song_id": "1331594740",
+        "storefront": "cn",
+        "requested_url": "https://music.apple.com/cn/song/1331594740",
+        "observed_url": "https://music.apple.com/cn/song/deadly-valentine/1331594740",
+        "verified_at_utc": "2026-11-09T05:05:52Z",
+        "observation": "Exact CN resource opened and re-read: heading, artist links, album link and URL numeric ID matched. Preview displayed, not played.",
+        "scope": "Page metadata only; not signed-in playback, device sync or Apple playlist writes."
+      },
+      {
+        "title": "Clapping Music (Live)",
+        "artist": "科林・库里 & 史提夫・莱许",
+        "album": "Colin Currie & Steve Reich Live at Fondation Louis Vuitton (Live)",
+        "song_id": "1802036691",
+        "storefront": "cn",
+        "requested_url": "https://music.apple.com/cn/song/1802036691",
+        "observed_url": "https://music.apple.com/cn/song/clapping-music-live/1802036691",
+        "verified_at_utc": "2026-11-09T05:05:52Z",
+        "observation": "Exact CN resource opened and re-read: heading, artist links, album link and URL numeric ID matched. Preview displayed, not played.",
+        "scope": "Page metadata only; not signed-in playback, device sync or Apple playlist writes."
+      }
+    ]
+  },
+  "selection": [
+    {
+      "position": 1,
+      "title": "Tadow (Extended Version)",
+      "artist": "Masego",
+      "album": "Lady Lady",
+      "canonical_id": "Masego::Tadow (Extended Version)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1794866432",
+        "song_id": "1794866432",
+        "storefront": "cn"
+      },
+      "analysis_summary": "用这首延长版开场，是想先把注意力放在律动的耐心上：一个短小动机怎样在反复中维持吸引力，而不是靠频繁换段制造刺激。这里严格选择国区《Lady Lady》所列的 Extended Version，页面主艺人为 Masego；它不是 DJ 混音条目，也不把常见合作署名自动加进本条目的元数据。爵士语汇与当代 R&B 的相遇，给今天后面的民谣和极简打击乐提供一条节奏线索。\n\n可以把低音与鼓的落点视作骨架，把萨克斯和人声看作轮流进入的线条。Tadow 的魅力在于重复并不意味着每个声部都做相同的事：有的保持循环，有的在空隙中回应，音符的长短和句尾停顿便有了分量。延长篇幅适合听这些细小调节，先不用急着判断哪一次出现算新段落。留意吹奏音色的圆润与打击声的清脆，怎样把同一拍点分成不同的触感。",
+      "listening_cue": "先选一段自己容易跟上的低音循环，连续跟四次，只标记人声或萨克斯在哪些空隙加入。第二遍不跟旋律，只听鼓与低音：同一个循环有没有因为另一个声部的停顿而显得更松或更紧？"
+    },
+    {
+      "position": 2,
+      "title": "隐隐",
+      "artist": "莫文蔚",
+      "album": "拉活…莫文蔚",
+      "canonical_id": "莫文蔚::隐隐",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/300118903",
+        "song_id": "300118903",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首回到中文歌的语气。这次选择《拉活…莫文蔚》的具体条目，不用同艺人的热门单曲替代，也不把专辑名称当作现场版本标记。它适合作为节奏较外向的开场之后的一次收束：把注意力从乐队的循环移到一句话如何被唱出来，观察亲近的表达怎样在不过度强调情绪的情况下留下余味。\n\n莫文蔚声音中的气息感、咬字轻重与滑向下一个音的方式，比单纯追踪旋律高低更值得听。可以先把主唱当作近景，伴奏当作景深，比较长句与短句之间背景是否仍保持同样的存在感。听到声部重叠时，不必立刻给每一种音色命名；先分清它是在延长人声的情绪，还是在句间提供一个回应。这样的听法也能避免只把歌当作歌词的载体。",
+      "listening_cue": "挑一句你觉得最像日常说话的唱句，注意字头、元音延长和句尾收音各占多少时间；随后重听其前后两句，比较她是否用同样的力度开始。把一个最轻的字与一个最重的字放在一起听。"
+    },
+    {
+      "position": 3,
+      "title": "Sister Rosetta Goes Before Us",
+      "artist": "Robert Plant & Alison Krauss",
+      "album": "Raising Sand",
+      "canonical_id": "Robert Plant & Alison Krauss::Sister Rosetta Goes Before Us",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1597018889",
+        "song_id": "1597018889",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首选择《Raising Sand》中的合作演绎。这是对 Sam Phillips 作品的诠释，不是 Sister Rosetta Tharpe 本人的录音；歌曲名称不能代替演唱者和版本说明。它把乡村、民谣与带些幽暗感的音色放在一起，适合听两位歌手如何压低各自熟悉的舞台姿态，在一首歌里建立共同的距离感。\n\n先注意主声与和声相遇时，声音是融成一层，还是仍能辨认出两条边缘。弦乐器的短促拨奏与拉弦的延续感可以作为两种时间尺度来听：前者让步伐清楚，后者把句子之间连起来。作品的摇曳不必靠强烈鼓点说明，乐句的起伏本身就能带出摆动。不要急着把微暗的音色理解成悲伤，先听它怎样让旋律保持悬念。",
+      "listening_cue": "第一遍只跟主唱；第二遍在同一段落专找较低或较远的人声线条。每当两条线靠近，听它们是否同时结束，再比较单独唱句与重叠唱句给你的空间感。"
+    },
+    {
+      "position": 4,
+      "title": "Deadly Valentine",
+      "artist": "Charlotte Gainsbourg",
+      "album": "Rest",
+      "canonical_id": "Charlotte Gainsbourg::Deadly Valentine",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1331594740",
+        "song_id": "1331594740",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首把节奏重新推向前景。选择《Rest》中的完整歌曲条目，不与 Radio Edit、Soulwax Remix 或同名的其他艺人作品互换。轻声表达与持续向前的电子律动形成有意思的摩擦：人声不需要提高音量，也能在密集背景中保持辨识度。这首提供了本期较当代的电子流行一面。\n\n听持续脉冲如何和弦乐般的线条、合成器的延展声共同累积张力。人声的贴近感与背景的宽阔感并不总在同一个尺度上，它们之间的距离值得单独留意。重复的短句可能让人先感到稳定，再感到一种被拉住的紧张；判断变化时，除了音量，也注意音域、声部数量和余响长度。不要把每次厚度增加都当作新的旋律。",
+      "listening_cue": "挑一段重复明显的地方，先跟最稳定的拍点，再逐次把注意力移到最高和最低的声部。找一个你感到张力增加的位置，判断是低音更突出、背景更厚，还是人声与伴奏的距离改变了。"
+    },
+    {
+      "position": 5,
+      "title": "Clapping Music (Live)",
+      "artist": "科林・库里 & 史提夫・莱许",
+      "album": "Colin Currie & Steve Reich Live at Fondation Louis Vuitton (Live)",
+      "canonical_id": "科林・库里 & 史提夫・莱许::Clapping Music (Live)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1802036691",
+        "song_id": "1802036691",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后的 wildcard 只把双手留在舞台上。这是 Colin Currie 与 Steve Reich 的明确现场版本，作品本身写于 1972 年；页面的 2019 年发行日期不是创作日期。它适合用来重新理解前四首里的重复：没有熟悉的和声铺底、歌词叙述或乐器旋律，节奏关系仍然能够产生方向和惊喜。\n\n作品让两位演奏者拍出同一个节奏型，一方保持位置，另一方在重复之后逐步错开。这里的变化是按单位移动，而不是一味越拍越快；两个简单层次叠起来，会让耳朵听见新的重音组合。现场版中可以留意两个人手掌音色的细微差别，但不必把每声都精确分配给某位演奏者。先维持一个稳定参照，就更容易听到关系如何改变。",
+      "listening_cue": "开始时用脚轻点稳定脉冲，手不要跟着拍。等你觉得重音组合变了，尝试继续保持原来的脉冲；再听一次，专找从较复杂的交错回到较清楚的重合的时刻，不必第一次就数出全部位移。"
+    }
+  ],
+  "freshness": {
+    "original_heads": {
+      "vault": "f045611637b04be7cdd9c25a103c45b8d27f308e",
+      "music": "f83c472ea6c9ee67f0fd0f9513a1505b7f145087"
+    },
+    "identity_index_sha256": "529b6ae9c6acb4d20feb81b5efdab4676fdabf70edbbd8f42df2faa19f1f3ea1",
+    "original_state_count": 318,
+    "target_state_count": 323,
+    "all_original_values_preserved": true,
+    "full_ancestry_and_all_prepared": "passed",
+    "recorded_identity_and_normalized_alias_conflicts": 0,
+    "audio_fingerprint": "not_performed"
+  },
+  "publication": {
+    "stages": [
+      {
+        "stage": 1,
+        "commit": "ddbff49ea94342953e90ed6609f1ff260b277d8e",
+        "readbacks": {
+          "recommendations/2026/11/2026-11-09.json": {
+            "blob_sha": "462c782da393299f544a48bd11860e2726212964",
+            "sha256": "ecfb224ed8fecbb5ff02da4758892c530ba1668cef349b3ab2b3d53a6e6e36aa",
+            "bytes": 7488
+          },
+          "state/tracks.json": {
+            "blob_sha": "e2cb8697033ec14896ad2bc3340f447c076ff67a",
+            "sha256": "c910d04286a3fc6ff30fcadbe2aba08f1536d15d2963224594b11e8696e5daad",
+            "bytes": 33268
+          }
+        },
+        "status": "written_and_read_back"
+      },
+      {
+        "stage": 2,
+        "commit": "7052748a333093bf6544920ca8e2d66d106c40a6",
+        "readbacks": {
+          "Music/Daily/2026-11-09.md": {
+            "blob_sha": "00993b818ab5e1fd86612c661d0a789831f35c2a",
+            "sha256": "91b3fed9a0f932413c9317e418e302c89f4ab6be144e1946c920db6c12677741",
+            "bytes": 8021
+          },
+          "Music/Daily/manifests/2026-11-09.json": {
+            "blob_sha": "462c782da393299f544a48bd11860e2726212964",
+            "sha256": "ecfb224ed8fecbb5ff02da4758892c530ba1668cef349b3ab2b3d53a6e6e36aa",
+            "bytes": 7488
+          },
+          "Music/Daily/state/tracks.json": {
+            "blob_sha": "e2cb8697033ec14896ad2bc3340f447c076ff67a",
+            "sha256": "c910d04286a3fc6ff30fcadbe2aba08f1536d15d2963224594b11e8696e5daad",
+            "bytes": 33268
+          }
+        },
+        "status": "written_and_read_back"
+      }
+    ],
+    "receipt_path": ".recommendation/transaction-runs/music/2026-11-09/20261109T051121Z.json",
+    "replay_status": "artifacts_match",
+    "next_stage": null
+  },
+  "qa": {
+    "content": "passed_editorial_and_source_metadata_checks",
+    "vault_tests_passed": 279,
+    "music_tests_passed": 87,
+    "local_checks": {
+      "integrity": "passed_local_integrity",
+      "immutable_bundles": "passed_immutable_publication_bundles",
+      "permanent_music_identity": "complete_available_git_history"
+    },
+    "manifest_dates_compared": 63,
+    "manifest_byte_equal": true,
+    "state_byte_equal": true,
+    "exact_five_order_unique_cn_ids": true,
+    "note_required_sections": true,
+    "global_health": "passed_local_checks"
+  },
+  "ci": {
+    "vault_stage2": {
+      "head": "7052748a333093bf6544920ca8e2d66d106c40a6",
+      "run_id": 42565632720,
+      "conclusion": "success"
+    },
+    "music_stage1": {
+      "head": "ddbff49ea94342953e90ed6609f1ff260b277d8e",
+      "conclusion": "unverified",
+      "reason": "Previously denied Actions runs-list request; no alternate-channel retry attempted. Local 87 tests passed, not a remote CI claim."
+    }
+  },
+  "scope": {
+    "playback": "not_tested",
+    "device_sync": "not_verified",
+    "notifications": "not_verified",
+    "apple_playlist_writes": "none",
+    "credentials_security_changes": "none",
+    "other_project_content_changes": "none",
+    "historical_failed_days": "2026-11-06 remains failed; withdrawal and original PREPARED unchanged",
+    "automation_environment": "Parent updated existing prompt; future environment readiness is not established by this local run."
+  }
+}
