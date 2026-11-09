@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-11-09",
+  "date": "2026-11-09",
+  "business_timezone": "Asia/Shanghai",
+  "weekday": "Monday",
+  "mode": "new_generation",
+  "status": "passed",
+  "candidate_pool": [
+    {
+      "title": "Plants emit ultrasonic popping sounds when stressed",
+      "url": "https://www.nhm.ac.uk/discover/news/2023/april/plants-emit-ultrasonic-popping-sounds-when-stressed.html",
+      "publisher": "Natural History Museum, London",
+      "format": "article",
+      "estimated_minutes": "8-10",
+      "topic": "plant acoustics and scientific uncertainty",
+      "selected": true,
+      "evidence": "Direct page supplied title, author, date, experiment design, observations, numerical results, limitations and open questions; suitable for two-pass evidence reading."
+    },
+    {
+      "title": "Pitcher plants might be luring in prey using specialised scents",
+      "url": "https://www.nhm.ac.uk/discover/news/2023/april/pitcher-plants-might-be-luring-prey-specialised-scents.html",
+      "publisher": "Natural History Museum, London",
+      "format": "article",
+      "selected": false,
+      "rejection_reason": "Strong source, but plant sensory biology overlaps more closely with the selected item and offers less useful methodological contrast."
+    },
+    {
+      "title": "What Is the Jet Stream?",
+      "url": "https://www.nesdis.noaa.gov/about/k-12-education/atmosphere/what-the-jet-stream",
+      "publisher": "NOAA NESDIS",
+      "format": "explainer",
+      "selected": false,
+      "rejection_reason": "Clear official explainer, but more definitional and less suitable for claim-evidence-caveat practice."
+    },
+    {
+      "title": "The origin of life on Earth: From basic chemicals to complex organisms",
+      "url": "https://www.nhm.ac.uk/discover/origin-of-life-on-earth.html",
+      "publisher": "Natural History Museum, London",
+      "format": "long explainer",
+      "selected": false,
+      "rejection_reason": "Excellent but broader than the weekday 5-15 minute target."
+    },
+    {
+      "title": "Life in Earth's most extreme environments",
+      "url": "https://www.nhm.ac.uk/discover/life-in-earths-most-extreme-environments.html",
+      "publisher": "Natural History Museum, London",
+      "format": "feature",
+      "selected": false,
+      "rejection_reason": "Engaging and authentic, but wide survey structure offers less concentrated argument tracing."
+    },
+    {
+      "title": "How do dung beetles' diets keep the world clean?",
+      "url": "https://www.nhm.ac.uk/discover/how-dung-beetles-keep-the-world-clean.html",
+      "publisher": "Natural History Museum, London",
+      "format": "feature",
+      "selected": false,
+      "rejection_reason": "High curiosity value, but selected article has a stronger explicit uncertainty and methods vocabulary profile."
+    },
+    {
+      "title": "The dodo bird: The real facts about this icon of extinction",
+      "url": "https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html",
+      "publisher": "Natural History Museum, London",
+      "format": "feature",
+      "selected": false,
+      "rejection_reason": "Rich cultural-science reading but longer and more historical than today's focused input target."
+    },
+    {
+      "title": "Wolves to woofs: The story of our oldest companions",
+      "url": "https://www.nhm.ac.uk/discover/wolves-to-woofs-the-story-of-our-oldest-companions.html",
+      "publisher": "Natural History Museum, London",
+      "format": "feature",
+      "selected": false,
+      "rejection_reason": "Accessible but broad; the selected source gives denser evidence language for CET-6/intro TOEFL work."
+    },
+    {
+      "title": "What is the difference between rain and showers?",
+      "url": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/rain/rain-and-showers",
+      "publisher": "Met Office",
+      "format": "explainer",
+      "selected": false,
+      "rejection_reason": "Useful everyday science, but recent English notes already included light/perception and science-explainer topics; lower novelty today."
+    },
+    {
+      "title": "Giant isopods: curious crustaceans on the ocean floor",
+      "url": "https://www.nhm.ac.uk/discover/giant-isopods-curious-crustaceans-on-the-ocean-floor.html",
+      "publisher": "Natural History Museum, London",
+      "format": "feature",
+      "selected": false,
+      "rejection_reason": "Distinctive wildcard candidate, but the page foregrounds how little is known and is less compact for a structured two-pass lesson."
+    }
+  ],
+  "selection": {
+    "title": "Plants emit ultrasonic popping sounds when stressed",
+    "source_url": "https://www.nhm.ac.uk/discover/news/2023/april/plants-emit-ultrasonic-popping-sounds-when-stressed.html",
+    "publisher": "Natural History Museum, London",
+    "author": "Emma Caton",
+    "published_date": "2023-04-27",
+    "estimated_minutes": "8-10",
+    "difficulty": "CET-6 to introductory TOEFL",
+    "topic": "plant acoustics, experimental evidence and scientific caution",
+    "diversity_result": "No exact source repeat; narrow topic not used in the preceding seven days; selection balances science interest with transferable evidence-reading skills rather than research-topic overfitting."
+  },
+  "source_verification": {
+    "method": "direct_official_page_read",
+    "observed_at": "2026-11-09T00:17:02Z",
+    "observed_url": "https://www.nhm.ac.uk/discover/news/2023/april/plants-emit-ultrasonic-popping-sounds-when-stressed.html",
+    "identity_verified": [
+      "title",
+      "author",
+      "publisher",
+      "publication date",
+      "article body"
+    ],
+    "content_observations": [
+      "Tomato and tobacco plants were tested under dehydration and stem-cutting conditions in a soundproof chamber and greenhouse.",
+      "Stressed plants produced 30-50 pops per hour and microphones detected them up to five metres away.",
+      "A machine-learning model distinguished stress conditions and plant types.",
+      "The page explicitly says intentional sound production is unsupported, the mechanism is unclear, and ecological responses remain open questions."
+    ],
+    "accessibility_scope": "Official article text was directly readable; embedded audio playback was not required or claimed."
+  },
+  "freshness": {
+    "original_history_rows": 62,
+    "original_unique_source_urls": 62,
+    "exact_url_in_original_history": false,
+    "unrelated_prepared_reservation_conflict": false,
+    "final_history_rows": 63,
+    "final_exact_registration_count": 1,
+    "prior_history_prefix_preserved": true
+  },
+  "bundle": {
+    "path": ".recommendation/transactions/english/2026-11-09.json",
+    "creation_commit": "00cdec3b465729a17cb6fe2d3c170780f1b98710",
+    "git_blob_sha": "7cf5796c5ba4eafa907b409d3ffeb2ab4456d5e8",
+    "plan_sha256": "a89bf92e878bc0fcdef5870c807118009ef2887e7a838ca2ca874b421ce398cd",
+    "bundle_sha256": "e7459acbab55bceb973b0d422accc9ebd7a98ea4f4f4bcedad1621f91b7eba61",
+    "immutable_readback": "passed",
+    "baseline_check": "passed"
+  },
+  "publication": {
+    "strategy": "serial_contents_api_fallback_from_exact_frozen_payloads",
+    "ordinary_commit_attempts": [
+      {
+        "commit": "a7ae2fb142cb5e9fc1ef9d3f9490e0752a65f362",
+        "applied": false,
+        "error_class": "transport_or_connector_unknown",
+        "error_reference": "0541:616C8:260F47:43DFB4:6AF10F6D",
+        "readback": "branch advanced; target payloads absent"
+      },
+      {
+        "commit": "22f89b2f918f16d79bf6bfea643b748745e86893",
+        "applied": false,
+        "error_class": "transport_or_connector_unknown",
+        "error_reference": "24A8:21AC2F:250C74:42F20B:6AF10F89",
+        "readback": "branch advanced; target payloads absent"
+      }
+    ],
+    "applied_commits": {
+      "50-courses/English/Daily/2026-11-09.md": "c07d2c20de9ba3c047837a0bcf3de4a0f2a71754",
+      "50-courses/English/Translation/2026-11-09.md": "a5f2ada417b0fb23b679b3af49b4cb441e4ec9c9",
+      "50-courses/English/Vocabulary/2026-11-09.md": "a25767353636bcc5c452fa245ac2975ee9c0c4b4",
+      ".recommendation/history/english.jsonl": "3121775b37f641e14e461b6b0d75cf88e07da1e0"
+    }
+  },
+  "readbacks": {
+    "50-courses/English/Daily/2026-11-09.md": {
+      "blob_sha": "1dfcc85ed89955eaf7450edfe2ad93bba66d129c",
+      "matches_frozen_payload": true
+    },
+    "50-courses/English/Translation/2026-11-09.md": {
+      "blob_sha": "de8ff8710ae01457a68f8cad8fdec8154455e03e",
+      "matches_frozen_payload": true
+    },
+    "50-courses/English/Vocabulary/2026-11-09.md": {
+      "blob_sha": "13a7346155e2be093b8130a213bd980d36fefe2c",
+      "matches_frozen_payload": true
+    },
+    ".recommendation/history/english.jsonl": {
+      "blob_sha": "e126133fde82da52cbb858ebc72b0ff3db737193",
+      "matches_frozen_payload": true
+    },
+    ".recommendation/transactions/english/2026-11-09.json": {
+      "blob_sha": "7cf5796c5ba4eafa907b409d3ffeb2ab4456d5e8",
+      "matches_original_bundle": true
+    }
+  },
+  "content_checks": {
+    "weekday_target_set_complete": true,
+    "daily_frontmatter_and_direct_source": true,
+    "daily_two_pass_routine": true,
+    "daily_output_task_and_three_questions": true,
+    "translation_independent_exercise_count": 2,
+    "translation_folded_answers": true,
+    "translation_transfer_errors_precision_and_spaced_review": true,
+    "vocabulary_item_count": 8,
+    "vocabulary_meaning_collocations_examples_families_contrasts": true,
+    "vocabulary_retrieval_quiz": true,
+    "cross_links_complete": true,
+    "auto_markers_and_external_notes_area": true,
+    "copyright_scope": "Links, summaries and original exercises only; no long source reproduction."
+  },
+  "planner": {
+    "final_decision": "artifacts_match",
+    "mutations_required": false,
+    "same_operation_history_registration": "expected_and_exactly_once"
+  },
+  "validators": {
+    "publication_bundle_freeze": "passed",
+    "publication_bundle_check_baselines": "passed",
+    "publication_recovery_planner": "artifacts_match",
+    "custom_remote_readback_qa": "passed",
+    "github_actions": {
+      "workflow": "Recommendation integrity (read-only)",
+      "run_id": 42538961222,
+      "head_sha": "e87aea4b7f309fb17d5a5b496e3c14c97ec424ce",
+      "conclusion": "success",
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/42538961222"
+    }
+  },
+  "limitations": [
+    "Structural validators do not certify teaching quality beyond the explicit content checks.",
+    "Repository checks do not prove local device synchronization or notification delivery."
+  ],
+  "historical_backlog": []
+}
