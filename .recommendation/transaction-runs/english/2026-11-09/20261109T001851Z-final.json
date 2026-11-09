@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-11-09",
+  "attempt_id": "20261109T001851Z-final",
+  "status": "completed",
+  "prepared": {
+    "bundle_path": ".recommendation/transactions/english/2026-11-09.json",
+    "creation_commit": "00cdec3b465729a17cb6fe2d3c170780f1b98710",
+    "receipt_commit": "4525798b78c638d7929befdab1c4d5c060a03ff8",
+    "bundle_blob_sha": "7cf5796c5ba4eafa907b409d3ffeb2ab4456d5e8",
+    "plan_sha256": "a89bf92e878bc0fcdef5870c807118009ef2887e7a838ca2ca874b421ce398cd",
+    "bundle_sha256": "e7459acbab55bceb973b0d422accc9ebd7a98ea4f4f4bcedad1621f91b7eba61",
+    "readback": "exact"
+  },
+  "ordinary_commit_attempts": [
+    {
+      "commit": "a7ae2fb142cb5e9fc1ef9d3f9490e0752a65f362",
+      "applied": false,
+      "error_class": "transport_or_connector_unknown",
+      "error_reference": "0541:616C8:260F47:43DFB4:6AF10F6D",
+      "recovery": "Fresh branch and target readback showed the commit was not applied; no target content was assumed written."
+    },
+    {
+      "commit": "22f89b2f918f16d79bf6bfea643b748745e86893",
+      "applied": false,
+      "error_class": "transport_or_connector_unknown",
+      "error_reference": "24A8:21AC2F:250C74:42F20B:6AF10F89",
+      "recovery": "Fresh branch and target readback showed the commit was not applied; exact frozen payloads were retained."
+    }
+  ],
+  "applied_stages": [
+    {"path":"50-courses/English/Daily/2026-11-09.md","commit":"c07d2c20de9ba3c047837a0bcf3de4a0f2a71754","blob_sha":"1dfcc85ed89955eaf7450edfe2ad93bba66d129c","readback":"exact"},
+    {"path":"50-courses/English/Translation/2026-11-09.md","commit":"a5f2ada417b0fb23b679b3af49b4cb441e4ec9c9","blob_sha":"de8ff8710ae01457a68f8cad8fdec8154455e03e","readback":"exact"},
+    {"path":"50-courses/English/Vocabulary/2026-11-09.md","commit":"a25767353636bcc5c452fa245ac2975ee9c0c4b4","blob_sha":"13a7346155e2be093b8130a213bd980d36fefe2c","readback":"exact"},
+    {"path":".recommendation/history/english.jsonl","commit":"3121775b37f641e14e461b6b0d75cf88e07da1e0","blob_sha":"e126133fde82da52cbb858ebc72b0ff3db737193","readback":"exact_append_only"}
+  ],
+  "postwrite": {
+    "planner_decision": "artifacts_match",
+    "mutations_required": false,
+    "history_registration_count": 1,
+    "history_original_prefix_preserved": true,
+    "all_frozen_payloads_match": true,
+    "source_identity_check": "passed",
+    "teaching_content_check": "passed",
+    "github_actions": {
+      "workflow": "Recommendation integrity (read-only)",
+      "run_id": 42538961222,
+      "head_sha": "e87aea4b7f309fb17d5a5b496e3c14c97ec424ce",
+      "conclusion": "success",
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/42538961222"
+    }
+  },
+  "qa_receipt": {
+    "path": ".recommendation/runs/2026-11-09-english.json",
+    "commit": "472c85a3108504cd6f7a026133b5074bf019f587",
+    "blob_sha": "35c1ab77c6b126e6d89ef2d992e6115d347544e4",
+    "readback": "valid_json_and_expected_operation"
+  },
+  "result": {
+    "published_paths": [
+      "50-courses/English/Daily/2026-11-09.md",
+      "50-courses/English/Translation/2026-11-09.md",
+      "50-courses/English/Vocabulary/2026-11-09.md"
+    ],
+    "history_duplicate_append": false,
+    "unverified_checks": [],
+    "delivery_scope": "Repository publication verified; local device synchronization and notification delivery are outside this receipt."
+  }
+}
