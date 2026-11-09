@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-11-09",
+  "stage": "prepared",
+  "prepared_path": ".recommendation/transactions/news-youtube-reddit/2026-11-09.json",
+  "creation_commit": "a4fc6514c7359079066a6eb8e683cf8216cc5b85",
+  "prepared_blob_sha": "41bb03459cb922f30db96929801a72e31b0c8202",
+  "original_plan_sha256": "798da964a89e7001081a0c820d374c6d2dc190e7cb78d8da79b1c0962c487535",
+  "original_bundle_sha256": "c367e17e4819c48acecdcecbdc7c08f8138a1e3e1aee2040521e9133d635f030",
+  "readback_exact": true,
+  "full_history_freeze_gate": "unverified_local_checkout_unavailable",
+  "connector_reservation_evidence": "complete current permanent histories and all current PREPARED transaction blobs read and checked",
+  "publication_target_writes_performed": 0
+}
