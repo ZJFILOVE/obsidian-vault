@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "project": "journal",
+  "date": "2026-11-09",
+  "operation_id": "journal:2026-11-09",
+  "status": "prepared",
+  "prepared": {
+    "path": ".recommendation/transactions/journal/2026-11-09.json",
+    "creation_commit": "88b6b237f4d5290b20dc05918446558e4948bdfe",
+    "blob_sha": "076ecf871bd0bd1d6f18129271382c5a74310d6e",
+    "bundle_sha256": "d57d0178d1e8b0be19d23b301eeed978d55ad569dc82e5ec7a1b74e3dd23be32",
+    "plan_sha256": "8fbb529d15d0b08f343e5d2eff973e53b5bf9610384819fe8badae3106435ad2",
+    "readback_exact": true
+  },
+  "selection": {
+    "candidate_count": 10,
+    "selected_count": 3,
+    "selected_dois": [
+      "10.1126/science.1168683",
+      "10.1038/nbt.1918",
+      "10.1038/ncomms12405"
+    ],
+    "excluded": [
+      {
+        "identity": "PMC6957686",
+        "reason": "later expansion of the monomeric palette; selected 2016 paper better establishes the monomerization step"
+      },
+      {
+        "identity": "10.1039/c7sc00855d",
+        "reason": "structure/brightness optimization overlaps the chosen engineering arc and would overconcentrate on downstream variants"
+      },
+      {
+        "identity": "PMC4667795",
+        "reason": "spectral-diversity mechanism is valuable but less central than endogenous-BV utilization for today's three-step thread"
+      },
+      {
+        "identity": "PMC4077998",
+        "reason": "improved monomeric IFP application overlaps IFP1.4 and miRFP roles"
+      },
+      {
+        "identity": "PMC6232180",
+        "reason": "STED application is downstream of the scaffold-engineering question"
+      },
+      {
+        "identity": "PMC3757571",
+        "reason": "BiFC reporter is a narrower downstream application"
+      },
+      {
+        "identity": "PMC4553112",
+        "reason": "review used for discovery only; original studies preferred"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "doi": "10.1126/science.1168683",
+      "opened": [
+        "PMC HTML",
+        "PubMed record"
+      ],
+      "scope": "Main text and Fig. 1–4 captions; PDF/SI not opened"
+    },
+    {
+      "doi": "10.1038/nbt.1918",
+      "opened": [
+        "PMC author-manuscript HTML",
+        "PubMed",
+        "Nature metadata"
+      ],
+      "scope": "Main text and Fig. 1–3 captions; PDF/SI not opened"
+    },
+    {
+      "doi": "10.1038/ncomms12405",
+      "opened": [
+        "PubMed",
+        "Nature indexed HTML",
+        "PMC indexed passages"
+      ],
+      "scope": "Bibliography, abstract, Fig. 1–3 captions and visible engineering passages; full PMC HTML challenged; PDF/SI not opened"
+    }
+  ],
+  "checks": {
+    "original_history_dedup": true,
+    "all_prepared_reservations_dedup": true,
+    "source_identity_verified": true,
+    "retraction_query_no_match": true,
+    "local_journal_validator": "passed_journal_integrity",
+    "local_bundle_baseline": "bundle_valid",
+    "local_full_bundle_audit": "not_verified_missing_full_git_history",
+    "markdown_render": "passed_no_literal_markers",
+    "visual_browser_inspection": false,
+    "content_qa": "performed_with_reading_limits_recorded"
+  },
+  "created_at": "2026-11-09T00:10:42.856Z"
+}
