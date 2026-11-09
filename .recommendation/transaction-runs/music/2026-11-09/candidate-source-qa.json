@@ -1,0 +1,396 @@
+{
+  "schema_version": 1,
+  "project": "music",
+  "date": "2026-11-09",
+  "operation_id": "music:2026-11-09",
+  "status": "prepared_content_inputs_not_publication_receipt",
+  "original_failed_run": "fb182a68-c458-8327-881b-406d04878fb2",
+  "original_draft": "not recovered; no original selection or call stack supplied; new research after successful prepare",
+  "candidate_pool_count": 23,
+  "candidate_pool": [
+    {
+      "artist": "Gil Scott-Heron",
+      "title": "Me and the Devil",
+      "song_id": "1490541518",
+      "discovery_url": "https://music.apple.com/cn/song/1490541518",
+      "cn_url_tested": "https://music.apple.com/cn/song/1490541518",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource matched identity; opening the exact CN song resource returned tool inaccessible error. Not a claim of global unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Susumu Yokota",
+      "title": "Tobiume (2025 Remaster)",
+      "song_id": "1833283533",
+      "discovery_url": "https://music.apple.com/cn/song/1833283533",
+      "cn_url_tested": "https://music.apple.com/cn/song/1833283533",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource matched identity; opening the exact CN song resource returned tool inaccessible error. Not a claim of global unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Alice Phoebe Lou",
+      "title": "Witches",
+      "song_id": "1803482157",
+      "discovery_url": "https://music.apple.com/us/song/1803482157",
+      "cn_url_tested": "https://music.apple.com/cn/song/1803482157",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource matched identity; opening the exact CN song resource returned tool inaccessible error. Not a claim of global unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Sault",
+      "title": "Wildfires",
+      "song_id": "1518680501",
+      "discovery_url": "https://music.apple.com/us/song/1518680501",
+      "cn_url_tested": "https://music.apple.com/cn/song/1518680501",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource matched identity; opening the exact CN song resource returned tool inaccessible error. Not a claim of global unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Dhafer Youssef",
+      "title": "Un Soupir Éternel",
+      "song_id": "1636716082",
+      "discovery_url": "https://music.apple.com/us/song/1636716082",
+      "cn_url_tested": "https://music.apple.com/cn/song/1636716082",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource matched identity; opening the exact CN song resource returned tool inaccessible error. Not a claim of global unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Nash Ensemble",
+      "title": "String Quartet in F Major, M. 35: II. Assez vif, très rythmé",
+      "song_id": "1851186083",
+      "discovery_url": "https://music.apple.com/us/song/1851186083",
+      "cn_url_tested": "https://music.apple.com/cn/song/1851186083",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource matched identity; opening the exact CN song resource returned tool inaccessible error. Not a claim of global unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Tim Buckley",
+      "title": "Song to the Siren",
+      "song_id": "193391917",
+      "discovery_url": "https://music.apple.com/us/song/193391917",
+      "cn_url_tested": "https://music.apple.com/cn/song/193391917",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource matched identity; opening the exact CN song resource returned tool inaccessible error. Not a claim of global unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Arooj Aftab",
+      "title": "Last Night",
+      "song_id": "1613561426",
+      "discovery_url": "https://music.apple.com/us/song/1613561426",
+      "cn_url_tested": "https://music.apple.com/cn/song/1613561426",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource matched identity; opening the exact CN song resource returned tool inaccessible error. Not a claim of global unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Gillian Welch",
+      "title": "Everything Is Free",
+      "song_id": "79765100",
+      "discovery_url": "https://music.apple.com/us/song/79765100",
+      "cn_url_tested": "https://music.apple.com/cn/song/79765100",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource matched identity; opening the exact CN song resource returned tool inaccessible error. Not a claim of global unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Funkadelic",
+      "title": "You and Your Folks, Me and My Folks",
+      "song_id": "1595227750",
+      "discovery_url": "https://music.apple.com/us/song/1595227750",
+      "cn_url_tested": "https://music.apple.com/cn/song/1595227750",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource matched identity; opening the exact CN song resource returned tool inaccessible error. Not a claim of global unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Van Morrison",
+      "title": "Astral Weeks",
+      "song_id": "1031002337",
+      "discovery_url": "https://music.apple.com/us/song/1031002337",
+      "cn_url_tested": "https://music.apple.com/cn/song/1031002337",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource matched identity; opening the exact CN song resource returned tool inaccessible error. Not a claim of global unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Joni Mitchell",
+      "title": "A Case of You",
+      "song_id": "597216765",
+      "discovery_url": "https://music.apple.com/us/song/597216765",
+      "cn_url_tested": "https://music.apple.com/cn/song/597216765",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource matched identity; opening the exact CN song resource returned tool inaccessible error. Not a claim of global unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Duke Ellington & John Coltrane",
+      "title": "In A Sentimental Mood",
+      "song_id": "1440912563",
+      "discovery_url": "https://music.apple.com/us/song/1440912563",
+      "cn_url_tested": "https://music.apple.com/cn/song/1440912563",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource matched identity; opening the exact CN song resource returned tool inaccessible error. Not a claim of global unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "La Pietà & Angèle Dubeau",
+      "title": "Spiegel im spiegel",
+      "song_id": "356926261",
+      "discovery_url": "https://music.apple.com/us/song/356926261",
+      "cn_url_tested": "https://music.apple.com/cn/song/356926261",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource matched identity; opening the exact CN song resource returned tool inaccessible error. Not a claim of global unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Bonnie Raitt",
+      "title": "I Can't Make You Love Me",
+      "song_id": "721215979",
+      "discovery_url": "https://music.apple.com/cn/song/721215979",
+      "cn_url_tested": "https://music.apple.com/cn/song/721215979",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource matched identity; opening the exact CN song resource returned tool inaccessible error. Not a claim of global unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "LSO Percussion Ensemble",
+      "title": "Music for pieces of wood",
+      "song_id": "1765547548",
+      "discovery_url": "https://music.apple.com/cn/song/1765547548",
+      "cn_url_tested": "https://music.apple.com/cn/song/1765547548",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource matched identity; opening the exact CN song resource returned tool inaccessible error. Not a claim of global unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Danny Brown",
+      "title": "Ain't It Funny",
+      "song_id": "1142690612",
+      "discovery_url": "https://music.apple.com/cn/song/1142690612",
+      "cn_url_tested": "https://music.apple.com/cn/song/1142690612",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource matched identity; opening the exact CN song resource returned tool inaccessible error. Not a claim of global unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Sonny Rollins",
+      "title": "In a Sentimental Mood (Remastered)",
+      "song_id": "848157955",
+      "discovery_url": "https://music.apple.com/cn/song/848157955",
+      "cn_url_tested": "https://music.apple.com/cn/song/848157955",
+      "cn_metadata_verified": true,
+      "decision": "not_selected_version_confidence",
+      "reason": "CN compilation metadata verified, but original recording/session provenance not established sufficiently for a specific-version guide; retain as a future research candidate.",
+      "editorial_score": 7.5
+    },
+    {
+      "artist": "Masego",
+      "title": "Tadow (Extended Version)",
+      "song_id": "1794866432",
+      "discovery_url": "https://music.apple.com/cn/song/1794866432",
+      "cn_url_tested": "https://music.apple.com/cn/song/1794866432",
+      "cn_metadata_verified": true,
+      "decision": "selected",
+      "reason": "用这首延长版开场，是想先把注意力放在律动的耐心上：一个短小动机怎样在反复中维持吸引力，而不是靠频繁换段制造刺激。这里严格选择国区《Lady Lady》所列的 Extended Version，页面主艺人为 Masego；它不是 DJ 混音条目，也不把常见合作署名自动加进本条目的元数据。爵士语汇与当代 R&B 的相遇，给今天后面的民谣和极简打击乐提供一条节奏线索。",
+      "scores": [
+        9,
+        8,
+        8,
+        9,
+        8
+      ],
+      "weighted_score": 8.45
+    },
+    {
+      "artist": "莫文蔚",
+      "title": "隐隐",
+      "song_id": "300118903",
+      "discovery_url": "https://music.apple.com/cn/song/300118903",
+      "cn_url_tested": "https://music.apple.com/cn/song/300118903",
+      "cn_metadata_verified": true,
+      "decision": "selected",
+      "reason": "第二首回到中文歌的语气。这次选择《拉活…莫文蔚》的具体条目，不用同艺人的热门单曲替代，也不把专辑名称当作现场版本标记。它适合作为节奏较外向的开场之后的一次收束：把注意力从乐队的循环移到一句话如何被唱出来，观察亲近的表达怎样在不过度强调情绪的情况下留下余味。",
+      "scores": [
+        8,
+        9,
+        7,
+        9,
+        9
+      ],
+      "weighted_score": 8.3
+    },
+    {
+      "artist": "Robert Plant & Alison Krauss",
+      "title": "Sister Rosetta Goes Before Us",
+      "song_id": "1597018889",
+      "discovery_url": "https://music.apple.com/cn/song/1597018889",
+      "cn_url_tested": "https://music.apple.com/cn/song/1597018889",
+      "cn_metadata_verified": true,
+      "decision": "selected",
+      "reason": "第三首选择《Raising Sand》中的合作演绎。这是对 Sam Phillips 作品的诠释，不是 Sister Rosetta Tharpe 本人的录音；歌曲名称不能代替演唱者和版本说明。它把乡村、民谣与带些幽暗感的音色放在一起，适合听两位歌手如何压低各自熟悉的舞台姿态，在一首歌里建立共同的距离感。",
+      "scores": [
+        9,
+        8,
+        9,
+        9,
+        8
+      ],
+      "weighted_score": 8.65
+    },
+    {
+      "artist": "Charlotte Gainsbourg",
+      "title": "Deadly Valentine",
+      "song_id": "1331594740",
+      "discovery_url": "https://music.apple.com/cn/song/1331594740",
+      "cn_url_tested": "https://music.apple.com/cn/song/1331594740",
+      "cn_metadata_verified": true,
+      "decision": "selected",
+      "reason": "第四首把节奏重新推向前景。选择《Rest》中的完整歌曲条目，不与 Radio Edit、Soulwax Remix 或同名的其他艺人作品互换。轻声表达与持续向前的电子律动形成有意思的摩擦：人声不需要提高音量，也能在密集背景中保持辨识度。这首提供了本期较当代的电子流行一面。",
+      "scores": [
+        9,
+        8,
+        8,
+        9,
+        8
+      ],
+      "weighted_score": 8.45
+    },
+    {
+      "artist": "科林・库里 & 史提夫・莱许",
+      "title": "Clapping Music (Live)",
+      "song_id": "1802036691",
+      "discovery_url": "https://music.apple.com/cn/song/1802036691",
+      "cn_url_tested": "https://music.apple.com/cn/song/1802036691",
+      "cn_metadata_verified": true,
+      "decision": "selected_wildcard",
+      "reason": "最后的 wildcard 只把双手留在舞台上。这是 Colin Currie 与 Steve Reich 的明确现场版本，作品本身写于 1972 年；页面的 2019 年发行日期不是创作日期。它适合用来重新理解前四首里的重复：没有熟悉的和声铺底、歌词叙述或乐器旋律，节奏关系仍然能够产生方向和惊喜。",
+      "scores": [
+        9,
+        9,
+        10,
+        9,
+        8
+      ],
+      "weighted_score": 9.1
+    }
+  ],
+  "source_checks": [
+    {
+      "title": "Tadow (Extended Version)",
+      "artist": "Masego",
+      "album": "Lady Lady",
+      "song_id": "1794866432",
+      "storefront": "cn",
+      "requested_url": "https://music.apple.com/cn/song/1794866432",
+      "observed_url": "https://music.apple.com/cn/song/tadow-extended-version/1794866432",
+      "verified_at_utc": "2026-11-09T05:05:52Z",
+      "observation": "Exact CN resource opened and re-read: heading, artist links, album link and URL numeric ID matched. Preview displayed, not played.",
+      "scope": "Page metadata only; not signed-in playback, device sync or Apple playlist writes."
+    },
+    {
+      "title": "隐隐",
+      "artist": "莫文蔚",
+      "album": "拉活…莫文蔚",
+      "song_id": "300118903",
+      "storefront": "cn",
+      "requested_url": "https://music.apple.com/cn/song/300118903",
+      "observed_url": "https://music.apple.com/cn/song/%E9%9A%90%E9%9A%90/300118903",
+      "verified_at_utc": "2026-11-09T05:05:52Z",
+      "observation": "Exact CN resource opened and re-read: heading, artist links, album link and URL numeric ID matched. Preview displayed, not played.",
+      "scope": "Page metadata only; not signed-in playback, device sync or Apple playlist writes."
+    },
+    {
+      "title": "Sister Rosetta Goes Before Us",
+      "artist": "Robert Plant & Alison Krauss",
+      "album": "Raising Sand",
+      "song_id": "1597018889",
+      "storefront": "cn",
+      "requested_url": "https://music.apple.com/cn/song/1597018889",
+      "observed_url": "https://music.apple.com/cn/song/sister-rosetta-goes-before-us/1597018889",
+      "verified_at_utc": "2026-11-09T05:05:52Z",
+      "observation": "Exact CN resource opened and re-read: heading, artist links, album link and URL numeric ID matched. Preview displayed, not played.",
+      "scope": "Page metadata only; not signed-in playback, device sync or Apple playlist writes."
+    },
+    {
+      "title": "Deadly Valentine",
+      "artist": "Charlotte Gainsbourg",
+      "album": "Rest",
+      "song_id": "1331594740",
+      "storefront": "cn",
+      "requested_url": "https://music.apple.com/cn/song/1331594740",
+      "observed_url": "https://music.apple.com/cn/song/deadly-valentine/1331594740",
+      "verified_at_utc": "2026-11-09T05:05:52Z",
+      "observation": "Exact CN resource opened and re-read: heading, artist links, album link and URL numeric ID matched. Preview displayed, not played.",
+      "scope": "Page metadata only; not signed-in playback, device sync or Apple playlist writes."
+    },
+    {
+      "title": "Clapping Music (Live)",
+      "artist": "科林・库里 & 史提夫・莱许",
+      "album": "Colin Currie & Steve Reich Live at Fondation Louis Vuitton (Live)",
+      "song_id": "1802036691",
+      "storefront": "cn",
+      "requested_url": "https://music.apple.com/cn/song/1802036691",
+      "observed_url": "https://music.apple.com/cn/song/clapping-music-live/1802036691",
+      "verified_at_utc": "2026-11-09T05:05:52Z",
+      "observation": "Exact CN resource opened and re-read: heading, artist links, album link and URL numeric ID matched. Preview displayed, not played.",
+      "scope": "Page metadata only; not signed-in playback, device sync or Apple playlist writes."
+    }
+  ],
+  "score_method": "Editorial scores in quality/usefulness/curiosity/novelty/fit order, policy weights .30/.25/.20/.15/.10. Unverified resources fail before final scoring.",
+  "diversity": {
+    "styles": [
+      "jazz-influenced R&B",
+      "Mandarin pop",
+      "folk/country duet",
+      "electronic pop",
+      "minimalist live hand percussion"
+    ],
+    "wildcard_song_id": "1802036691",
+    "language_scope": "Mandarin and English plus nonverbal percussion",
+    "era_scope": "Release entries mainly 2000s/2010s; limited recording-era variety, explicitly disclosed. Clapping Music composition 1972 is not its 2019 release date."
+  },
+  "honesty": {
+    "playback_tested": false,
+    "apple_playlist_writes": false,
+    "device_sync_tested": false,
+    "analysis_basis": "Original editorial listening suggestions based on work knowledge, not claimed observations from a new listening session.",
+    "source_transcripts_stored": false
+  },
+  "publication_commits": "not yet created",
+  "history_evidence": {
+    "heads": {
+      "vault": "f045611637b04be7cdd9c25a103c45b8d27f308e",
+      "music": "f83c472ea6c9ee67f0fd0f9513a1505b7f145087"
+    },
+    "identity_index_sha256": "529b6ae9c6acb4d20feb81b5efdab4676fdabf70edbbd8f42df2faa19f1f3ea1",
+    "full_vault_ancestry": "passed",
+    "full_music_ancestry": "passed",
+    "numeric_ids_across_storefronts_and_normalized_title_artist_aliases": "passed",
+    "original_state_count": 318,
+    "target_state_count": 323,
+    "artist_cooldown": "No selected artist in Nov 2–8 state records; verified original pre-selection state."
+  }
+}
