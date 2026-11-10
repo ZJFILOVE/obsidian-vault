@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "project": "music",
+  "date": "2026-11-10",
+  "operation_id": "music:2026-11-10",
+  "status": "prepared_content_inputs_not_publication_receipt",
+  "candidate_pool_count": 15,
+  "candidate_pool": [
+    {
+      "artist": "Astrud Gilberto",
+      "title": "Água de Beber",
+      "song_id": "1469584221",
+      "discovery_url": "https://music.apple.com/cn/song/1469584221",
+      "cn_url_tested": "https://music.apple.com/cn/song/1469584221",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource identified; exact CN open returned tool inaccessible error. Not a claim of account playback failure or worldwide unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Fennesz",
+      "title": "Rivers of Sand",
+      "song_id": "77854194",
+      "discovery_url": "https://music.apple.com/cn/song/77854194",
+      "cn_url_tested": "https://music.apple.com/cn/song/77854194",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource identified; exact CN open returned tool inaccessible error. Not a claim of account playback failure or worldwide unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "John Martyn",
+      "title": "Dreams by the Sea (Remastered)",
+      "song_id": "1440925512",
+      "discovery_url": "https://music.apple.com/cn/song/1440925512",
+      "cn_url_tested": "https://music.apple.com/cn/song/1440925512",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource identified; exact CN open returned tool inaccessible error. Not a claim of account playback failure or worldwide unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "John Martyn",
+      "title": "Go Down Easy (Alternative Take)",
+      "song_id": "1444113797",
+      "discovery_url": "https://music.apple.com/cn/song/1444113797",
+      "cn_url_tested": "https://music.apple.com/cn/song/1444113797",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource identified; exact CN open returned tool inaccessible error. Not a claim of account playback failure or worldwide unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Björk",
+      "title": "Jóga",
+      "song_id": "20833584",
+      "discovery_url": "https://music.apple.com/us/song/20833584",
+      "cn_url_tested": "https://music.apple.com/cn/song/20833584",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource identified; exact CN open returned tool inaccessible error. Not a claim of account playback failure or worldwide unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Abdullah Ibrahim",
+      "title": "The Wedding",
+      "song_id": "1706820511",
+      "discovery_url": "https://music.apple.com/us/song/1706820511",
+      "cn_url_tested": "https://music.apple.com/cn/song/1706820511",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource identified; exact CN open returned tool inaccessible error. Not a claim of account playback failure or worldwide unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Emahoy Tsege Mariam Gebru",
+      "title": "The Homeless Wanderer",
+      "song_id": "1653156551",
+      "discovery_url": "https://music.apple.com/us/song/1653156551",
+      "cn_url_tested": "https://music.apple.com/cn/song/1653156551",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource identified; exact CN open returned tool inaccessible error. Not a claim of account playback failure or worldwide unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Bobby Chen",
+      "title": "把悲傷留給自己",
+      "song_id": "1073045891",
+      "discovery_url": "https://music.apple.com/us/song/1073045891",
+      "cn_url_tested": "https://music.apple.com/cn/song/1073045891",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource identified; exact CN open returned tool inaccessible error. Not a claim of account playback failure or worldwide unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Leonard Cohen",
+      "title": "Suzanne",
+      "song_id": "185856689",
+      "discovery_url": "https://music.apple.com/cn/song/185856689",
+      "cn_url_tested": "https://music.apple.com/cn/song/185856689",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource identified; exact CN open returned tool inaccessible error. Not a claim of account playback failure or worldwide unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Zero 7 & Sophie Barker",
+      "title": "In the Waiting Line",
+      "song_id": "1814315696",
+      "discovery_url": "https://music.apple.com/cn/song/1814315696",
+      "cn_url_tested": "https://music.apple.com/cn/song/1814315696",
+      "cn_metadata_verified": false,
+      "decision": "rejected_cn_unverified",
+      "reason": "Actual Apple search resource identified; exact CN open returned tool inaccessible error. Not a claim of account playback failure or worldwide unavailability.",
+      "editorial_score": null
+    },
+    {
+      "artist": "Nick Drake",
+      "title": "Pink Moon",
+      "song_id": "1567147189",
+      "discovery_url": "https://music.apple.com/cn/song/1567147189",
+      "cn_url_tested": "https://music.apple.com/cn/song/1567147189",
+      "cn_metadata_verified": true,
+      "decision": "selected",
+      "reason": "用这首篇幅紧凑的作品开场，是想先给耳朵一个清楚、安静的参照。选择同名专辑中的 Nick Drake 原唱条目，不以翻唱或其他发行的歌曲 ID 代替。它的力量不靠不断添加声部，而来自吉他的持续运动与人声近乎平静的表达之间的关系；后面几首逐渐变厚时，也可以回想这里的克制。",
+      "scores": [
+        9,
+        9,
+        7,
+        9,
+        8
+      ],
+      "weighted_score": 8.5
+    },
+    {
+      "artist": "吴青峰",
+      "title": "起风了 (电视剧《加油, 你是最棒的》主题曲)",
+      "song_id": "1743713726",
+      "discovery_url": "https://music.apple.com/cn/song/1743713726",
+      "cn_url_tested": "https://music.apple.com/cn/song/1743713726",
+      "cn_metadata_verified": true,
+      "decision": "selected",
+      "reason": "第二首选择吴青峰演唱的主题曲单曲版，保留页面上的完整副标题；不是伴奏条目，也不把其他歌手的同名演绎当成同一版本。它让今天从简短、克制的民谣走向更有起伏的中文流行表达。熟悉旋律也可以换一种听法：暂时不追逐最有感染力的高处，而是听一句长旋律如何一步步获得向上的力量。",
+      "scores": [
+        8,
+        9,
+        7,
+        9,
+        9
+      ],
+      "weighted_score": 8.3
+    },
+    {
+      "artist": "Stromae",
+      "title": "Tous les mêmes",
+      "song_id": "1440856013",
+      "discovery_url": "https://music.apple.com/cn/song/1440856013",
+      "cn_url_tested": "https://music.apple.com/cn/song/1440856013",
+      "cn_metadata_verified": true,
+      "decision": "selected",
+      "reason": "第三首用法语舞曲流行把注意力转向节奏与语气。这里选择《Racine carrée》的歌曲条目，没有改用现场、混音或其他艺人的翻唱。Stromae 的表达常带着舞台式的角色感：轻巧的律动并不意味着叙述也轻松。即使不熟悉法语，仍可听他怎样利用语速、停顿和句尾重音，让一段歌唱接近带动作的说话。",
+      "scores": [
+        9,
+        8,
+        8,
+        9,
+        8
+      ],
+      "weighted_score": 8.45
+    },
+    {
+      "artist": "The Flaming Lips",
+      "title": "Do You Realize??",
+      "song_id": "1375584296",
+      "discovery_url": "https://music.apple.com/cn/song/1375584296",
+      "cn_url_tested": "https://music.apple.com/cn/song/1375584296",
+      "cn_metadata_verified": true,
+      "decision": "selected",
+      "reason": "第四首选择 The Flaming Lips 在这张精选合辑中的条目，明确不是同名翻唱。它把易于记住的旋律放进层层扩展的迷幻流行音色里，与前一首较清楚的节奏轮廓形成对照。适合听一种并不矛盾的组合：音乐可以显得明亮、盛大，主唱仍带着脆弱感；不必把饱满的背景直接等同于简单的欢快。",
+      "scores": [
+        9,
+        8,
+        8,
+        9,
+        8
+      ],
+      "weighted_score": 8.45
+    },
+    {
+      "artist": "Keith Jarrett",
+      "title": "Köln, January 24, 1975, Part I (Live)",
+      "song_id": "1796173921",
+      "discovery_url": "https://music.apple.com/cn/song/1796173921",
+      "cn_url_tested": "https://music.apple.com/cn/song/1796173921",
+      "cn_metadata_verified": true,
+      "decision": "selected_wildcard",
+      "reason": "最后把时间尺度拉开，这是今天的 wildcard：选择《The Köln Concert 50》中明确标注 Live 的第一部分，而不是另一场演出、后续分段或改编版本。标题指向 1975 年 1 月 24 日的科隆演出；网页显示的 1 月 1 日不能当成实际演出日期。长篇钢琴即兴与前面四首较紧凑的歌曲不同，值得留出连续时间，让一个动机如何生长成为聆听的主体。",
+      "scores": [
+        9,
+        9,
+        10,
+        9,
+        8
+      ],
+      "weighted_score": 9.1
+    }
+  ],
+  "source_checks": [
+    {
+      "title": "Pink Moon",
+      "artist": "Nick Drake",
+      "album": "Pink Moon",
+      "song_id": "1567147189",
+      "storefront": "cn",
+      "requested_url": "https://music.apple.com/cn/song/1567147189",
+      "observed_url": "https://music.apple.com/cn/song/pink-moon/1567147189",
+      "observation": "Exact CN resource read: heading, artist, album and URL numeric ID matched. Preview displayed, not played.",
+      "scope": "Public page metadata, not account playback or device availability.",
+      "verification_recorded_at_utc": "2026-11-10T11:55:33Z",
+      "observation_window_utc": "2026-11-10T11:52:00Z/2026-11-10T11:55:33Z"
+    },
+    {
+      "title": "起风了 (电视剧《加油, 你是最棒的》主题曲)",
+      "artist": "吴青峰",
+      "album": "起风了 (电视剧《加油, 你是最棒的》主题曲) - Single",
+      "song_id": "1743713726",
+      "storefront": "cn",
+      "requested_url": "https://music.apple.com/cn/song/1743713726",
+      "observed_url": "https://music.apple.com/cn/song/%E8%B5%B7%E9%A3%8E%E4%BA%86-%E7%94%B5%E8%A7%86%E5%89%A7-%E5%8A%A0%E6%B2%B9-%E4%BD%A0%E6%98%AF%E6%9C%80%E6%A3%92%E7%9A%84-%E4%B8%BB%E9%A2%98%E6%9B%B2/1743713726",
+      "observation": "Exact CN resource read: heading, artist, album and URL numeric ID matched. Preview displayed, not played.",
+      "scope": "Public page metadata, not account playback or device availability.",
+      "verification_recorded_at_utc": "2026-11-10T11:55:33Z",
+      "observation_window_utc": "2026-11-10T11:52:00Z/2026-11-10T11:55:33Z"
+    },
+    {
+      "title": "Tous les mêmes",
+      "artist": "Stromae",
+      "album": "Racine carrée",
+      "song_id": "1440856013",
+      "storefront": "cn",
+      "requested_url": "https://music.apple.com/cn/song/1440856013",
+      "observed_url": "https://music.apple.com/cn/song/tous-les-m%C3%AAmes/1440856013",
+      "observation": "Exact CN resource read: heading, artist, album and URL numeric ID matched. Preview displayed, not played.",
+      "scope": "Public page metadata, not account playback or device availability.",
+      "verification_recorded_at_utc": "2026-11-10T11:55:33Z",
+      "observation_window_utc": "2026-11-10T11:52:00Z/2026-11-10T11:55:33Z"
+    },
+    {
+      "title": "Do You Realize??",
+      "artist": "The Flaming Lips",
+      "album": "Greatest Hits, Vol. 1 (Deluxe Edition)",
+      "song_id": "1375584296",
+      "storefront": "cn",
+      "requested_url": "https://music.apple.com/cn/song/1375584296",
+      "observed_url": "https://music.apple.com/cn/song/do-you-realize/1375584296",
+      "observation": "Exact CN resource read: heading, artist, album and URL numeric ID matched. Preview displayed, not played.",
+      "scope": "Public page metadata, not account playback or device availability.",
+      "verification_recorded_at_utc": "2026-11-10T11:55:33Z",
+      "observation_window_utc": "2026-11-10T11:52:00Z/2026-11-10T11:55:33Z"
+    },
+    {
+      "title": "Köln, January 24, 1975, Part I (Live)",
+      "artist": "Keith Jarrett",
+      "album": "The Köln Concert 50",
+      "song_id": "1796173921",
+      "storefront": "cn",
+      "requested_url": "https://music.apple.com/cn/song/1796173921",
+      "observed_url": "https://music.apple.com/cn/song/k%C3%B6ln-january-24-1975-part-i-live/1796173921",
+      "observation": "Exact CN resource read: heading, artist, album and URL numeric ID matched. Preview displayed, not played.",
+      "scope": "Public page metadata, not account playback or device availability.",
+      "verification_recorded_at_utc": "2026-11-10T11:55:33Z",
+      "observation_window_utc": "2026-11-10T11:52:00Z/2026-11-10T11:55:33Z"
+    }
+  ],
+  "score_method": "Editorial 0–10 quality/usefulness/curiosity/novelty/fit scores; weights .30/.25/.20/.15/.10. CN-unverified candidates excluded before final scoring.",
+  "diversity": {
+    "styles": [
+      "acoustic folk",
+      "Mandarin pop",
+      "French dance pop",
+      "psychedelic pop",
+      "long-form live solo jazz piano"
+    ],
+    "wildcard_song_id": "1796173921",
+    "languages": [
+      "English",
+      "Mandarin",
+      "French",
+      "instrumental"
+    ],
+    "work_eras": [
+      "1970s",
+      "2000s",
+      "2010s"
+    ],
+    "artist_cooldown": "No selected artist in Nov 3–9 state entries; aliases reviewed."
+  },
+  "freshness": {
+    "heads": {
+      "vault": "bf29a775910916a8678577a1f93bd5ab0d127694",
+      "music": "ddbff49ea94342953e90ed6609f1ff260b277d8e"
+    },
+    "identity_index_sha256": "9d6fcfd551be18f045ce64b313f2b733f95d4bb19f575085853d86b3715b7334",
+    "history_records": 419,
+    "historical_prepared_dates": 26,
+    "original_state_count": 323,
+    "full_history_selection": {
+      "status": "passed_recording_identity",
+      "operation_id": "music:2026-11-10",
+      "identity_index_sha256": "9d6fcfd551be18f045ce64b313f2b733f95d4bb19f575085853d86b3715b7334",
+      "history_head": "bf29a775910916a8678577a1f93bd5ab0d127694",
+      "identities": [
+        "apple_music:cn:1567147189",
+        "apple_music:cn:1743713726",
+        "apple_music:cn:1440856013",
+        "apple_music:cn:1375584296",
+        "apple_music:cn:1796173921"
+      ],
+      "historical_failed_dates": [
+        "2026-11-06"
+      ],
+      "content_qa": "not_evaluated",
+      "transport": "not_evaluated"
+    },
+    "normalized_both_orientation_alias_check": "passed",
+    "music_own_ancestry": "passed_recorded_identity_check",
+    "audio_fingerprint": "not_performed"
+  },
+  "honesty": {
+    "playback_tested": false,
+    "apple_playlist_writes": false,
+    "device_sync_tested": false,
+    "analysis_basis": "Original editorial guidance from work knowledge; not observations from a new listening session.",
+    "source_transcripts_stored": false
+  },
+  "publication_commits": "not yet created"
+}
