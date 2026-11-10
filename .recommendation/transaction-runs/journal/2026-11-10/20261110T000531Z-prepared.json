@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "project": "journal",
+  "date": "2026-11-10",
+  "operation_id": "journal:2026-11-10",
+  "phase": "prepared",
+  "status": "passed_prepublication_checks",
+  "recorded_at_utc": "2026-11-10T00:05:31.264Z",
+  "prepared": {
+    "path": ".recommendation/transactions/journal/2026-11-10.json",
+    "creation_commit": "d2e888948e52ba794d3ecee52860f530c82fe656",
+    "blob_sha": "af0a799325cae34caf9237fa40455093bed8da42",
+    "bundle_sha256": "4e74d2d0e43e80ff5a90784daf99bd3a730398ca6c5b6dddff6d9acb83be1f10",
+    "plan_sha256": "ff29cc44366a03ccdcaa3c7cd34511d046dd72b11d9780b913bb630fd7aeb172",
+    "exact_payload_readback": true
+  },
+  "preflight": {
+    "business_timezone": "Asia/Shanghai",
+    "date_absence_confirmed": true,
+    "transaction_absence_confirmed_before_create": true,
+    "target_baselines_verified": true,
+    "preparation_observed_main_head": "a72eec87f3f2fd7ba34983ec604642045f4075dd"
+  },
+  "selection": {
+    "candidate_count": 6,
+    "selected_resource_ids": [
+      "doi:10.1126/science.1259357",
+      "doi:10.1126/science.aad5081",
+      "doi:10.1126/science.aat0094"
+    ],
+    "candidates": [
+      {
+        "doi": "10.1126/science.1259357",
+        "decision": "selected",
+        "reason": "foundational TR-SFX validation and explicit mixed-intermediate limits"
+      },
+      {
+        "doi": "10.1126/science.aad5081",
+        "decision": "selected",
+        "reason": "direct PYP femtosecond extension with SVD and QM/MM refinement chain"
+      },
+      {
+        "doi": "10.1126/science.aat0094",
+        "decision": "selected",
+        "reason": "membrane-protein retinal/water/counter-ion comparison with readable primary PDF"
+      },
+      {
+        "doi": "10.1126/science.aah3497",
+        "decision": "rejected",
+        "reason": "later bR photocycle is valuable but would overconcentrate the issue on one protein and broaden beyond the ultrafast inference question"
+      },
+      {
+        "doi": "10.1038/s41467-019-10758-0",
+        "decision": "rejected",
+        "reason": "follow-up bR study foregrounds multiphoton excitation; retained for a future pump-regime comparison"
+      },
+      {
+        "doi": "10.1093/pnasnexus/pgac103",
+        "decision": "rejected",
+        "reason": "reanalysis of published bR crystallography; today's line prioritizes three data-generating primary experiments"
+      }
+    ],
+    "permanent_history_dedup": "passed",
+    "prior_prepared_reservation_dedup": "passed",
+    "recent_14_day_topic_review": "passed",
+    "same_work_preprint_formal_dedup": "passed"
+  },
+  "source_observations": [
+    {
+      "doi": "10.1126/science.1259357",
+      "identity_sources": [
+        "PMC4361027",
+        "PubMed 25477465"
+      ],
+      "reading_scope": "PMC author-manuscript HTML main text and Fig. 1-3 captions; no PDF/SI",
+      "publication_status": "peer-reviewed published"
+    },
+    {
+      "doi": "10.1126/science.aad5081",
+      "identity_sources": [
+        "PubMed 27151871",
+        "UC eScholarship author manuscript",
+        "PDB 5HDC"
+      ],
+      "reading_scope": "author-manuscript PDF main text, Fig. 1-3 and Table 1; PDB validation summary; no SI",
+      "publication_status": "peer-reviewed published"
+    },
+    {
+      "doi": "10.1126/science.aat0094",
+      "identity_sources": [
+        "PubMed 29903883",
+        "open publication PDF",
+        "PDB 6G7J"
+      ],
+      "reading_scope": "publication PDF main text, methods, Fig. 1-4 and data analysis; PDB validation summary; no independent SI/movie reading",
+      "publication_status": "peer-reviewed published"
+    }
+  ],
+  "checks": {
+    "bibliography_identity": "passed",
+    "author_first_et_al": "passed",
+    "status_notice_search": "no_matching_correction_or_retraction_notice_found",
+    "evidence_layer_separation": "passed",
+    "numeric_context": "passed",
+    "paper_count": 3,
+    "doi_links": 3,
+    "markdown_bold_pairing": "passed",
+    "markdown_label_spacing": "passed",
+    "markdown_render": "passed_no_raw_double_asterisk",
+    "user_notes_preserved": "passed",
+    "journal_validator": {
+      "status": "passed_journal_integrity",
+      "days": 9,
+      "papers": 27,
+      "append_only": "not_checked_without_git_base",
+      "content_qa": "not_evaluated"
+    },
+    "prepared_bundle": {
+      "status": "bundle_valid",
+      "baselines": "passed"
+    },
+    "global_immutable_audit": {
+      "status": "pending_exact_repository_ci",
+      "local_reason": "cloud scratch snapshot has no full Git ancestry"
+    }
+  }
+}
