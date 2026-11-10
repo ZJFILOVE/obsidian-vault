@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "project": "journal",
+  "date": "2026-11-10",
+  "operation_id": "journal:2026-11-10",
+  "status": "passed_current_publication",
+  "completed_at_utc": "2026-11-10T00:10:35.398Z",
+  "business_timezone": "Asia/Shanghai",
+  "theme": "从差分密度到机制模型：PYP 与 bR 的超快结构电影",
+  "papers": [
+    {
+      "title": "Time-resolved serial crystallography captures high-resolution intermediates of photoactive yellow protein",
+      "doi": "10.1126/science.1259357",
+      "authors": "Jason Tenboer et al.",
+      "year": 2014,
+      "journal": "Science"
+    },
+    {
+      "title": "Femtosecond structural dynamics drives the trans/cis isomerization in photoactive yellow protein",
+      "doi": "10.1126/science.aad5081",
+      "authors": "Kanupriya Pande et al.",
+      "year": 2016,
+      "journal": "Science",
+      "deep_read": true
+    },
+    {
+      "title": "Retinal isomerization in bacteriorhodopsin captured by a femtosecond x-ray laser",
+      "doi": "10.1126/science.aat0094",
+      "authors": "Przemyslaw Nogly et al.",
+      "year": 2018,
+      "journal": "Science"
+    }
+  ],
+  "selection": {
+    "candidate_count": 6,
+    "selected_count": 3,
+    "rejected_count": 3,
+    "selected_resource_ids": [
+      "doi:10.1126/science.1259357",
+      "doi:10.1126/science.aad5081",
+      "doi:10.1126/science.aat0094"
+    ],
+    "exact_duplicates": 0,
+    "semantic_duplicates": 0,
+    "recent_topic_review": "passed",
+    "quality_padding": "not_used",
+    "prior_history_and_prepared_reservations": "checked_before_selection"
+  },
+  "sources": [
+    {
+      "doi": "10.1126/science.1259357",
+      "identity_sources": [
+        "PMC4361027",
+        "PubMed 25477465"
+      ],
+      "reading_scope": "PMC author-manuscript HTML main text and Fig. 1-3 captions; no PDF/SI",
+      "publication_status": "peer-reviewed published"
+    },
+    {
+      "doi": "10.1126/science.aad5081",
+      "identity_sources": [
+        "PubMed 27151871",
+        "UC eScholarship author manuscript",
+        "PDB 5HDC"
+      ],
+      "reading_scope": "author-manuscript PDF main text, Fig. 1-3 and Table 1; PDB validation summary; no SI",
+      "publication_status": "peer-reviewed published"
+    },
+    {
+      "doi": "10.1126/science.aat0094",
+      "identity_sources": [
+        "PubMed 29903883",
+        "open publication PDF",
+        "PDB 6G7J"
+      ],
+      "reading_scope": "publication PDF main text, methods, Fig. 1-4 and data analysis; PDB validation summary; no independent SI/movie reading",
+      "publication_status": "peer-reviewed published"
+    }
+  ],
+  "bundle": {
+    "path": ".recommendation/transactions/journal/2026-11-10.json",
+    "bundle_sha256": "4e74d2d0e43e80ff5a90784daf99bd3a730398ca6c5b6dddff6d9acb83be1f10",
+    "plan_sha256": "ff29cc44366a03ccdcaa3c7cd34511d046dd72b11d9780b913bb630fd7aeb172",
+    "prepared_creation_commit": "d2e888948e52ba794d3ecee52860f530c82fe656",
+    "prepared_blob_sha": "af0a799325cae34caf9237fa40455093bed8da42",
+    "exact_prepared_readback": true
+  },
+  "publication": {
+    "commit_sha": "bb739424cecb57ccfd0374b637f49d50038975dc",
+    "parent_commit": "2d35304bc06e131b2a9d9e5383229e32d9cdda3a",
+    "tree_sha": "e88cf983f3b36d1a46a59dd86139f3b4a513e122",
+    "force_push": false,
+    "readbacks": {
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/2026-11-10.md": {
+        "status": "ok",
+        "sha": "c0974d22ea500f238cef5f1ddfb237d976821452",
+        "exact_payload": true
+      },
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/Index.md": {
+        "status": "ok",
+        "sha": "3d7927f9872eceb59e203dd0feb6502a0d780a8a",
+        "exact_payload": true
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/history/journal.jsonl": {
+        "status": "ok",
+        "sha": "f436516b94bc759b863135b80e6a775355a0bbda",
+        "exact_payload": true
+      }
+    },
+    "planner_after_readback": "artifacts_match",
+    "note_url": "https://github.com/ZJFILOVE/obsidian-vault/blob/main/00-inbox/Journal/2026-11-10.md"
+  },
+  "checks": {
+    "bibliography_identity": "passed",
+    "publication_status": "peer_reviewed_published_all_three",
+    "correction_retraction_search": "no_matching_notice_found_at_check_time",
+    "evidence_layer_separation": "passed",
+    "numeric_context_and_construct_conditions": "passed",
+    "quantum_yield_pss_lifetime_distinctions": "passed",
+    "experiment_model_distinction": "passed",
+    "links": {
+      "doi_links": 3,
+      "authoritative_readable_sources": 3,
+      "dead_links": 0,
+      "unverified_links": 0
+    },
+    "markdown": {
+      "bold_pairs": "passed",
+      "bold_label_spacing": "passed",
+      "blank_line_structure": "passed",
+      "renderer": "pandoc_gfm_to_html5",
+      "raw_double_asterisk_in_rendered_html": 0,
+      "visual_browser_screenshot": "not_performed"
+    },
+    "note_structure": {
+      "paper_count": 3,
+      "reading_order": true,
+      "deep_read_marked": true,
+      "reading_scope_each": true,
+      "pending_information_each": true
+    },
+    "local_journal_validator": {
+      "status": "passed_journal_integrity",
+      "days": 9,
+      "papers": 27,
+      "append_only": "not_checked_locally_without_git_ancestry",
+      "content_qa": "not_evaluated_by_validator"
+    },
+    "local_bundle_validator": {
+      "status": "bundle_valid",
+      "baselines": "passed",
+      "planner": "artifacts_match"
+    },
+    "local_global_immutable_audit": {
+      "status": "not_run_to_completion",
+      "reason": "managed scratch snapshot has no full Git ancestry"
+    },
+    "exact_repository_ci": {
+      "run_id": 42725975286,
+      "head_sha": "cd88fbd3196e0026b62c471dc0319b26131e09a0",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/42725975286",
+      "relationship_to_stage_receipt": {
+        "status": "ahead",
+        "ahead_by": 2,
+        "behind_by": 0
+      },
+      "journal_payloads_unchanged_at_tested_head": true,
+      "workflow_blob_sha": "849a96bd7d4bca5bb1d1201d9af403830df5d62d",
+      "workflow_expected_checks_present": true,
+      "jobs": [
+        {
+          "id": 129531688847,
+          "name": "validate",
+          "status": "completed",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 1
+            },
+            {
+              "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 2
+            },
+            {
+              "name": "Validate publications and full source-history coverage",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 3
+            },
+            {
+              "name": "Negative regressions and interrupted-publication recovery",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 4
+            },
+            {
+              "name": "Compare permanent history with the actual base commit",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 5
+            },
+            {
+              "name": "Record scope of checks",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 6
+            },
+            {
+              "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 12
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 13
+            }
+          ]
+        }
+      ]
+    },
+    "user_notes_preserved": true,
+    "post_write_complete_readback": true
+  },
+  "scope_notice": "Repository validators certify structure, history and frozen-bundle integrity; literature content QA is based on the recorded source reading and is not certified by CI.",
+  "device_sync_tested": false
+}
