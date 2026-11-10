@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-10",
+  "operation_id": "english:2026-11-10",
+  "attempt_id": "20261110T000250Z-prepared",
+  "recorded_at": "2026-11-10T00:02:50Z",
+  "status": "prepared_persisted_not_published",
+  "prepared": {
+    "path": ".recommendation/transactions/english/2026-11-10.json",
+    "creation_commit": "81fe229fc98f9f3e2d9b63d324935ac984f59e86",
+    "blob_sha": "41ed751dac2792da876dfad78b3d946451356d50",
+    "plan_sha256": "74d8a890cbd633bdd4a438190857190fe8e209db66855f4cb33aa564cf9d032b",
+    "original_bundle_sha256": "30bfd6fe6a6cc9560e6306430816980bb6bbe125436c5196706a9b2ebfaa7b54",
+    "readback": "exact_blob_sha_and_digests_match"
+  },
+  "selection_not_shown_before_prepared": true,
+  "publication_stages_applied": [],
+  "errors": []
+}
