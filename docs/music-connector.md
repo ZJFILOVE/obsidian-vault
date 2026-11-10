@@ -1,0 +1,53 @@
+# Music-only connector prepare/freeze
+
+## What is implemented
+
+`scripts/music_connector.py` provides prepare and freeze without Git, a fake Git repository, shell network, or credentials. It uses the same recording-identity, permanent exclusion, immutable original PREPARED, incident/withdrawal, payload, baseline and staged-recovery rules as the existing music path. Other project logic is not modified or certified. It never invokes Apple Music, writes to either remote repository, edits a task, or reads Actions.
+
+- Every main ref observation is a new GitHub connector call. Cache timestamps and saved ref responses are not freshness evidence.
+- Starting at each observed main head, follow **every parent**, including merge parents, to roots. Commit-list pages may preseed objects, but do not define completeness. Missing parents are fetched by SHA or block preparation.
+- Reconstruct exact raw commit bytes from API data and require the Git commit hash to match. For signed commits use the signature/payload; for normalized dates/messages try timezone/newline variants. Unknown unrepresentable commits fail closed, not “probably complete.”
+- Walk complete **nonrecursive**, nontruncated, hash-verified tree responses for every relevant historical path. Missing ancestors/subtrees are not confirmed absence. Exact base64 bytes, or connector-decoded UTF-8 bytes whose Git blob hash exactly matches, are required.
+- Index `(repository, path, blob)` across both repositories, including deleted/replaced manifests/notes and all historical Music PREPARED reservations. No latest-only or windowed deduplication.
+- Materialize only verified Music inputs in a unique temporary directory. Exact file-set and byte binding rejects omitted, added or modified input files. No `.git` is created.
+- A same-date existing PREPARED returns the original immutable bundle and recovery plan. Retired/deleted reservations block new selection. Withdrawn original payloads cannot be replayed.
+- Freeze reruns prepare, compares the preselection heads and identity digest, uses shared bundle construction and baseline checks, then calls both live refs again before output. Target `base_sha` values preserve CAS requirements for a separately authorized writer. This code does not perform publication.
+- Output is created exclusively and cannot overwrite a previous frozen output or any cache object.
+
+## Existing connector bridge, genuinely runnable
+
+Python cannot call host tools itself. `scripts/connector_host_bridge.js` is a complete host-side `functions.exec` body using the actual available `mcp__codex_apps__github_fetch` tool and `exec_command`/`write_stdin`. No new plugin, credential or raw HTTP access is needed.
+
+1. Fetch `scripts/connector_host_bridge.js` through the existing GitHub connector at the reviewed deployment commit, not an unpinned raw download. Verify the fetched bytes against the reviewed bridge blob SHA recorded with the deployment, preserving exact newlines; do not trust a merely claimed SHA. Run the complete host body in `functions.exec`; set `SOURCE_COMMIT` to that exact 40-character deployment commit and `RUN_DATE` to the authorized operation date. A source pin does not replace the fresh data-head reads below.
+2. The bridge starts a stdlib-only Python bootstrap in the inherited runtime. It reads the pinned commit, complete nonrecursive trees, eleven Python modules, this document, the host bridge and `.recommendation/policy.json` through actual connector Git Data GET calls. The trusted bootstrap reconstructs and verifies the pinned commit hash before fetching or importing source code, then verifies every tree and blob hash and reads back each written file to ensure exact bytes, including trailing-newline differences. There is no Git invocation, shell network request, token or install step.
+3. Source files go into a unique `.connector-runtime/music-*` directory. Its `.source/manifest.json` records the repository, commit/tree, file Git blob SHA, SHA-256 and byte length. Original connector responses and raw commit bytes are retained alongside it. These are local evidence, not a new repository or scheduler environment. Only verified inputs are executed. The `source` message gives this runtime's paths.
+4. The default prepare output is a unique file under `.connector-output/music/`; the optional immutable-object cache is `.connector-cache/music`. Both are workspace-relative and may be configured. A cold cache is supported and must collect every required object. Reusing a cache only saves reads; all cached bytes are reverified and never supply live refs.
+5. For every `github_read` request, the host invokes `mcp__codex_apps__github_fetch` at that moment and sends the original full response with the request's single-use ID. The two repositories' ref/commit/tree/blob URLs are the only permitted requests. The bootstrap and CLI disable terminal canonical mode and echo before reading responses, so large JSON lines are not truncated. If a tool cell yields, resume that same cell; an interruption or blocked result is not success.
+6. The bridge waits for the CLI to finish and includes `process_exit_code` in its final `result`; success requires exit code zero as well as the expected mode. This is a read-only prepare result. Read its output and respect its mode. `resume_existing_bundle` must use the exact `original_bundle` and recovery planner, never a new selection. `ready_before_selection` permits only the separately authorized selection/content-QA workflow. For a migration trial, do neither selection nor freeze.
+7. For a separately authorized new selection, reuse the printed source runtime and live RPC host loop to run `python SOURCE_RUNTIME/scripts/music_connector.py freeze --cache CACHE --preflight PREPARE.json --manifest CANDIDATE.json --note NOTE.md --output FROZEN.json`. All paths must be local to that runtime and the output must be new and outside the cache. The bridge is read-only and supplies no publication command. Repository publication remains a separately authorized operation using the original frozen bytes, exact target baselines and ordinary expected-SHA updates.
+
+A scheduler prompt must pin the reviewed deployed source commit, fetch this bridge at that commit, and run the actual live tool loop. Do not replace it with prose, a cached snapshot or a placeholder Git command. Verify Python and connector access in an actual read-only run before enabling the existing task. Changing a prompt does not prove environment binding; inherited execution remains inherited. No new task, environment or credentials are needed by this route.
+
+The cache stores original connector results under `CACHE/<repo-short>/{commits,trees,blobs}/{sha}.json`. Unmodified REST commit-list entries are also supported for seeded commits. Hash validation occurs every time cached data is used. Ref files are never read by the runtime route. Immutable objects can safely be retained in a workspace already available to the task, but this patch does not provision durable storage. A fresh ephemeral executor may lose this cache and require a costly complete scan. Persistent caching is an optional performance optimization, not a correctness prerequisite. A cold run that completes all checks is valid; task-level execution can verify whether the existing runtime and tool access are sufficient.
+
+## Scope of evidence and limitations
+
+A pass covers all reachable history of the two observed heads. It cannot prove unreachable/deleted branches or unknown external repositories. It verifies history, identity and mirror/transition integrity, not editorial/source QA, listening quality, device synchronization or delivery. Current verified Music incident/correction/failure evidence remains mandatory, including proof of absence of a forbidden success receipt.
+
+A successful local connector prepare/freeze is **not automatically scheduler execution proof**. Installing these scripts alone does not change the cloud environment configuration, task prompt or enabled state. A task-level read-only trial can verify that the existing executor can load this reviewed code and use the existing GitHub connector. The absence of an environment-binding API does not prevent that route, and persistent cache is optional: a cold run that completes every check is valid. Record the trial outcome before claiming migration complete. Normal source/content QA remains a separate requirement before publishing a day's recommendations.
+
+## Tests
+
+Run from `scripts`:
+
+`python -m unittest test_connector_music_history -v`
+
+The runtime test forbids **all subprocess execution** during prepare/freeze. Git is used only by test setup to construct independent object fixtures. Coverage includes omitted parents and merge second parents, incomplete seed pages, truncation/tree tampering, missing or changed blobs, substituted cache object IDs, stale refs, added/omitted/changed materialized files, deleted and rewritten reservations, original retry bytes/stages, immutable output, unrelated project behavior, signature/newline reconstruction and the real connector decoded-text blob shape.
+
+The patch verification recorded 152 relevant regression passes and six actual-input incident/tampering passes. Six legacy fixture-dependent checks require a full historical checkout and were not claimed as passed. The standalone connector suite contains 43 tests, including exact-newline preservation, independent commit verification before source fetch, and an isolated-interpreter import of the cold-installed modules. The actual live two-repository integration result must be recorded separately before migration; a unit test pass alone is insufficient.
+
+## Loading the reviewed implementation without Git
+
+The portable host bridge loads the reviewed dependency set itself. It does not require a pre-existing checkout or a previous session's workspace. Its explicit list includes `connector_music_history.py`, `music_connector.py`, `music_identity.py`, `music_publication.py`, `publication_bundle.py`, `publication_recovery.py`, `validate_daily_recommendations.py`, `validate_journal.py`, `check_remote_music_snapshot.py`, `music_withdrawal.py` and `discovery_recovery.py`. Legacy modules are imported to preserve shared validation, but connector mode never invokes their Git operations. Journal, English and Discovery data and behavior are unchanged.
+
+For an existing PREPARED operation, `original_bundle` is a read-only plan/payload view and `original_prepared_blob_sha` identifies the exact stored reservation bytes. Never reserialize that view over the original PREPARED file. Any separately authorized publication must preserve the original bundle and recheck live refs/target CAS baselines.

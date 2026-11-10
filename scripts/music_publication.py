@@ -134,6 +134,13 @@ def freeze(preflight, vault_root, music_root, manifest_text, note_text):
     r.require(current['mode']=='ready_before_selection' and current['heads']==preflight['heads'] and
               current['identity_index']['index_sha256']==preflight['identity_index']['index_sha256'],
               'pre-selection evidence is stale; rerun prepare and recheck the retained candidate selection')
+    bundle=build_bundle(current,vault_root,music_root,manifest_text,note_text)
+    r.require({k:remote_head(Path(p)) for k,p in current['roots'].items()}==current['heads'],'remote HEAD changed before frozen output')
+    return bundle
+
+
+def build_bundle(current, vault_root, music_root, manifest_text, note_text, *, history=None):
+    """Shared candidate, baseline and immutable-bundle checks for both transports."""
     doc=b.v.strict_json(manifest_text);r.require(doc.get('date')==current['date'],'manifest date differs from prepared date')
     state=b.v.strict_json((Path(vault_root)/m.STATE).read_text());after=copy.deepcopy(state)
     for t in doc['tracks']:
@@ -148,9 +155,8 @@ def freeze(preflight, vault_root, music_root, manifest_text, note_text):
                         'target_sha':r.blob_sha(payloads[key].encode())})
     plan={'schema_version':1,'project':'music','date':current['date'],'operation_id':'music:'+current['date'],
           'exposed_resource_ids':[t['canonical_id'] for t in doc['tracks']],'targets':targets}
-    bundle=b.freeze(plan,payloads,music_root=Path(vault_root),mirror_snapshot=current['snapshot'],expected_heads=current['heads'])
+    bundle=b.freeze(plan,payloads,music_root=Path(vault_root),mirror_snapshot=current['snapshot'],expected_heads=current['heads'],music_history=history)
     b.check_baselines(bundle,baselines)
-    r.require({k:remote_head(Path(p)) for k,p in current['roots'].items()}==current['heads'],'remote HEAD changed before frozen output')
     return bundle
 
 

@@ -26,6 +26,12 @@ def git(root, *args):
     return subprocess.check_output(['git', '-C', str(root), *args], stderr=subprocess.PIPE)
 
 
+def history_head(root, history=None):
+    if history is None: return git(root, 'rev-parse', 'HEAD').decode().strip()
+    history.validate_root(root)
+    return history.head
+
+
 def identity(track, *, historical=False):
     am = track['apple_music']; sid = am.get('song_id')
     if historical and sid is None:
@@ -80,7 +86,7 @@ def exact_incident_pair(doc, first, second):
     return [first, second] == expected
 
 
-def associate_missing_ids(root: Path, missing: list, records: list):
+def associate_missing_ids(root: Path, missing: list, records: list, *, history=None):
     """Associate exact historical lineages, never guess IDs from search URLs.
 
     Both original and candidate blobs must occur in Git. A candidate revision
@@ -89,6 +95,7 @@ def associate_missing_ids(root: Path, missing: list, records: list):
     """
     revisions = {}; ancestry = {}
     def commits_for(path, oid):
+        if history is not None: return history.commits_for(path, oid)
         if path not in revisions:
             versions = {}
             for commit in git(root, 'log', '--format=%H', 'HEAD', '--', path).decode().splitlines():
@@ -101,6 +108,7 @@ def associate_missing_ids(root: Path, missing: list, records: list):
         return revisions[path].get(oid, [])
     def later(old, new):
         if old == new: return False
+        if history is not None: return history.is_ancestor(old, new)
         if (old, new) not in ancestry:
             try:
                 git(root, 'merge-base', '--is-ancestor', old, new)
@@ -133,47 +141,52 @@ def associate_missing_ids(root: Path, missing: list, records: list):
     return associations, unresolved
 
 
-def index(root: Path):
+def index(root: Path, *, history=None):
     """Union current, all HEAD-ancestor blobs, and all PREPARED payloads.
 
     Original missing IDs remain missing. Only recorded descendant Git versions
     of the exact operation/position/canonical lineage can supply associations;
     every associated identity stays excluded, without inventing an original ID.
     """
-    r.require(git(root, 'rev-parse', '--is-shallow-repository').strip() == b'false', 'full Git history required')
-    r.require(not git(root, 'replace', '-l').strip(), 'Git replace refs are not history evidence')
-    graft_paths = [git(root, 'rev-parse', '--git-path', 'info/grafts').decode().strip()]
-    if os.environ.get('GIT_GRAFT_FILE'):
-        graft_paths.append(os.environ['GIT_GRAFT_FILE'])
-    for name in graft_paths:
-        path = Path(name)
-        if not path.is_absolute(): path = root / path
-        r.require(not path.exists(), 'Git grafts are not complete history evidence')
-    sources = {}
-    for directory in (MANIFESTS, PREPARED):
-        for path in sorted((root / directory).glob('*.json')):
+    if history is None:
+        r.require(git(root, 'rev-parse', '--is-shallow-repository').strip() == b'false', 'full Git history required')
+        r.require(not git(root, 'replace', '-l').strip(), 'Git replace refs are not history evidence')
+        graft_paths = [git(root, 'rev-parse', '--git-path', 'info/grafts').decode().strip()]
+        if os.environ.get('GIT_GRAFT_FILE'):
+            graft_paths.append(os.environ['GIT_GRAFT_FILE'])
+        for name in graft_paths:
+            path = Path(name)
+            if not path.is_absolute(): path = root / path
+            r.require(not path.exists(), 'Git grafts are not complete history evidence')
+        sources = {}
+        for directory in (MANIFESTS, PREPARED):
+            for path in sorted((root / directory).glob('*.json')):
+                raw = path.read_bytes(); sources[(path.relative_to(root).as_posix(), r.blob_sha(raw))] = raw
+        for path in sorted((root / 'Music/Daily').glob('????-??-??.md')):
             raw = path.read_bytes(); sources[(path.relative_to(root).as_posix(), r.blob_sha(raw))] = raw
-    for path in sorted((root / 'Music/Daily').glob('????-??-??.md')):
-        raw = path.read_bytes(); sources[(path.relative_to(root).as_posix(), r.blob_sha(raw))] = raw
-    # rev-list --objects emits only one name for an object shared by multiple
-    # paths. Walk every ancestor tree so deleted copies on other dates remain
-    # separate occurrences; cache bytes by object without discarding path keys.
-    blobs = {oid: raw for (_, oid), raw in sources.items()}
-    for commit in git(root, 'rev-list', 'HEAD').decode().splitlines():
-        entries = git(root, 'ls-tree', '-rz', commit, '--', 'Music/Daily', PREPARED)
-        for entry in filter(None, entries.split(b'\0')):
-            meta, raw_path = entry.split(b'\t', 1)
-            mode, kind, raw_oid = meta.split()
-            path, oid = raw_path.decode(), raw_oid.decode()
-            selected = (((path.startswith(MANIFESTS + '/') or path.startswith(PREPARED + '/'))
-                         and path.endswith('.json')) or
-                        re.fullmatch(r'Music/Daily/\d{4}-\d{2}-\d{2}\.md', path))
-            if not selected: continue
-            r.require(kind == b'blob' and mode in (b'100644', b'100755'), 'non-regular history file: ' + path)
-            if oid not in blobs: blobs[oid] = git(root, 'cat-file', 'blob', oid)
-            sources.setdefault((path, oid), blobs[oid])
+        # rev-list --objects emits only one name for an object shared by multiple
+        # paths. Walk every ancestor tree so deleted copies on other dates remain
+        # separate occurrences; cache bytes by object without discarding path keys.
+        blobs = {oid: raw for (_, oid), raw in sources.items()}
+        for commit in git(root, 'rev-list', 'HEAD').decode().splitlines():
+            entries = git(root, 'ls-tree', '-rz', commit, '--', 'Music/Daily', PREPARED)
+            for entry in filter(None, entries.split(b'\0')):
+                meta, raw_path = entry.split(b'\t', 1)
+                mode, kind, raw_oid = meta.split()
+                path, oid = raw_path.decode(), raw_oid.decode()
+                selected = (((path.startswith(MANIFESTS + '/') or path.startswith(PREPARED + '/'))
+                             and path.endswith('.json')) or
+                            re.fullmatch(r'Music/Daily/\d{4}-\d{2}-\d{2}\.md', path))
+                if not selected: continue
+                r.require(kind == b'blob' and mode in (b'100644', b'100755'), 'non-regular history file: ' + path)
+                if oid not in blobs: blobs[oid] = git(root, 'cat-file', 'blob', oid)
+                sources.setdefault((path, oid), blobs[oid])
+    else:
+        history.validate_root(root)
+        sources = history.sources()
     records = []; bundles = {}; prepared_blobs = {}; missing = []
     for (path, oid), raw in sorted(sources.items()):
+        logical_path = history.identity_path(path) if history is not None else path
         if path.endswith('.md'):
             day = v.iso_day(Path(path).stem)
             sections = re.split(r'^## (\d+)\. ([^\n]+)\n', raw.decode(), flags=re.M)
@@ -191,18 +204,18 @@ def index(root: Path):
                     identity='apple_music:cn:' + sid, source_path=path, source_blob_sha=oid))
             continue
         doc = v.strict_json(raw.decode())
-        if path.startswith(PREPARED + '/'):
+        if logical_path.startswith(PREPARED + '/'):
             from publication_bundle import verify
             verify(doc); day = doc['plan']['date']
-            r.require(path == f'{PREPARED}/{day}.json', 'PREPARED operation/path mismatch')
+            r.require(logical_path == f'{PREPARED}/{day}.json', 'PREPARED operation/path mismatch')
             r.require(day not in bundles or bundles[day] == doc['bundle_sha256'], 'PREPARED rewritten in history')
             r.require(day not in prepared_blobs or prepared_blobs[day] == oid, 'PREPARED bytes rewritten in history')
             prepared_blobs[day] = oid
             bundles[day] = doc['bundle_sha256']
             doc = v.strict_json(doc['payloads'][f'ZJFILOVE/obsidian-vault:{MANIFESTS}/{day}.json'])
         day = v.iso_day(doc['date'])
-        if path.startswith(MANIFESTS + '/'):
-            r.require(path == f'{MANIFESTS}/{day}.json', 'historical manifest path/date mismatch')
+        if logical_path.startswith(MANIFESTS + '/'):
+            r.require(logical_path == f'{MANIFESTS}/{day}.json', 'historical manifest path/date mismatch')
         r.require(doc.get('provider') == 'apple_music', 'wrong historical provider')
         for track in doc['tracks']:
             cid = track['canonical_id']; key = identity(track, historical=True)
@@ -210,7 +223,7 @@ def index(root: Path):
                        canonical_id=cid, identity=key, source_path=path, source_blob_sha=oid)
             records.append(row)
             if key is None: missing.append(row)
-    associations, unresolved = associate_missing_ids(root, missing, records)
+    associations, unresolved = associate_missing_ids(root, missing, records, history=history)
     state = v.strict_json((root / STATE).read_text())['recommended']
     covered = {x['canonical_id'] for x in records}
     unmapped = sorted(set(state) - covered)
@@ -223,16 +236,18 @@ def index(root: Path):
         item.setdefault('sources', []).append({'path': row['source_path'], 'blob_sha': row['source_blob_sha']})
     records = sorted(grouped.values(), key=lambda x: (x['date'], x['position'], x['canonical_id'], x['identity'] or ''))
     digest = r.digest(records)
-    return dict(schema_version=1, status='incomplete_identity_evidence' if unresolved or unmapped else 'complete_available_git_history', unmapped_state_keys=unmapped, head=git(root,'rev-parse','HEAD').decode().strip(),
+    return dict(schema_version=1, status='incomplete_identity_evidence' if unresolved or unmapped else 'complete_available_git_history', unmapped_state_keys=unmapped, head=history.head if history is not None else git(root,'rev-parse','HEAD').decode().strip(),
                 index_sha256=digest, records=records, prepared=bundles,
                 legacy_missing_id_rows=missing, unresolved_identities=unresolved,
                 legacy_identity_associations=associations,
-                scope='current files and all available HEAD ancestors; not proof of unavailable external history')
+                scope=('verified connector export: both pinned repositories and every reachable parent; not proof of unavailable external history' if history is not None else
+                       'current files and all available HEAD ancestors; not proof of unavailable external history'))
 
 
-def check_selection(root: Path, manifest: dict, *, bundle_digest=None):
+def check_selection(root: Path, manifest: dict, *, bundle_digest=None, history=None):
     """Same-operation reservation permitted only for exact frozen manifest bytes upstream."""
-    history = index(root); day = v.iso_day(manifest['date']); operation = 'music:' + day
+    backend = history
+    history = index(root, history=backend); day = v.iso_day(manifest['date']); operation = 'music:' + day
     registered = incident(root)
     r.require(not registered or day != registered['failed_date'], 'historical incident date remains content_qa=failed')
     if day in history['prepared']:
@@ -262,7 +277,7 @@ def check_selection(root: Path, manifest: dict, *, bundle_digest=None):
             'content_qa': 'not_evaluated', 'transport': 'not_evaluated'}
 
 
-def publication_gate(root: Path, plan: dict, payloads: dict, snapshot: dict, expected_heads: dict, *, bundle_digest=None):
+def publication_gate(root: Path, plan: dict, payloads: dict, snapshot: dict, expected_heads: dict, *, bundle_digest=None, history=None):
     from check_remote_music_snapshot import audit
     from publication_bundle import validate_payloads, verify
     validate_payloads(plan, payloads)
@@ -274,7 +289,7 @@ def publication_gate(root: Path, plan: dict, payloads: dict, snapshot: dict, exp
     mirror = audit(snapshot)
     r.require(set(expected_heads) == {'music', 'vault'} and mirror['heads'] == expected_heads,
               'snapshot is not pinned to requested repository versions')
-    r.require(git(root, 'rev-parse', 'HEAD').decode().strip() == expected_heads['vault'], 'local history head differs')
+    r.require(history_head(root, history) == expected_heads['vault'], 'local history head differs')
     local = {p.name: r.blob_sha(p.read_bytes()) for p in (root / MANIFESTS).glob('*.json')}
     r.require(local == mirror['manifest_blobs'] and r.blob_sha((root / STATE).read_bytes()) == mirror['state_blob_sha'],
               'local manifest/state differs from mirror evidence')
@@ -291,7 +306,7 @@ def publication_gate(root: Path, plan: dict, payloads: dict, snapshot: dict, exp
     r.require(all(key in after and after[key] == value for key, value in before.items()),
               'candidate changed permanent state values')
     day = plan['date']; key = f'ZJFILOVE/obsidian-vault:{MANIFESTS}/{day}.json'
-    selection = check_selection(root, v.strict_json(payloads[key]), bundle_digest=bundle_digest)
+    selection = check_selection(root, v.strict_json(payloads[key]), bundle_digest=bundle_digest, history=history)
     return {**selection, 'schema_version': 1, 'status': 'passed_music_publication_gate',
             'mirror_status': mirror['status'], 'heads': mirror['heads'],
             'manifest_blobs': mirror['manifest_blobs'], 'state_blob_sha': mirror['state_blob_sha'],
@@ -299,7 +314,7 @@ def publication_gate(root: Path, plan: dict, payloads: dict, snapshot: dict, exp
             'content_qa': 'not_evaluated', 'transport': 'not_evaluated'}
 
 
-def recovery_gate(root: Path, bundle: dict, snapshot: dict, expected_heads: dict, observations: dict):
+def recovery_gate(root: Path, bundle: dict, snapshot: dict, expected_heads: dict, observations: dict, *, history=None):
     """Permit only the next frozen stage, using pinned tree evidence for each read.
 
     Unlike the final-publication gate, temporary cross-repository differences are
@@ -322,7 +337,7 @@ def recovery_gate(root: Path, bundle: dict, snapshot: dict, expected_heads: dict
     heads = {key: view.data['head_after'] for key, view in views.items()}
     r.require(set(expected_heads) == {'music', 'vault'} and heads == expected_heads,
               'snapshot is not pinned to requested repository versions')
-    r.require(git(root, 'rev-parse', 'HEAD').decode().strip() == heads['vault'], 'local history head differs')
+    r.require(history_head(root, history) == heads['vault'], 'local history head differs')
 
     def lookup(view, path):
         # Absence is established by complete hash-verified parent trees, never
@@ -388,7 +403,7 @@ def recovery_gate(root: Path, bundle: dict, snapshot: dict, expected_heads: dict
     r.require(all(key in after and after[key] == value for key, value in before.items()),
               'candidate changed permanent state values')
     selected = v.strict_json(payloads[f'ZJFILOVE/obsidian-vault:{MANIFESTS}/{day}.json'])
-    selection = check_selection(root, selected, bundle_digest=bundle['bundle_sha256'])
+    selection = check_selection(root, selected, bundle_digest=bundle['bundle_sha256'], history=history)
     if planner['status'] == 'artifacts_match':
         mirror_status = audit(snapshot)['status']
     else:
