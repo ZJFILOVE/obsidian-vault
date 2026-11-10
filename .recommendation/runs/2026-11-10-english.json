@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-11-10",
+  "date": "2026-11-10",
+  "business_timezone": "Asia/Shanghai",
+  "weekday": "Tuesday",
+  "mode": "new_generation",
+  "candidate_pool": [
+    {
+      "url": "https://www.smithsonianmag.com/innovation/forty-years-ago-the-mac-triggered-a-revolution-in-user-experience-180983623/",
+      "title": "Forty Years Ago, the Mac Triggered a Revolution in User Experience",
+      "publisher": "Smithsonian Magazine / The Conversation",
+      "topic": "human-computer interaction and interface standards",
+      "decision": "selected",
+      "evidence": "Direct article page inspected: exact title, author Jacob O. Wobbrock, publication date 2024-01-19, complete article text, and republication notice were present."
+    },
+    {
+      "url": "https://www.worldbank.org/en/topic/urbandevelopment/publication/the-hidden-wealth-of-cities-creating-financing-and-managing-public-spaces",
+      "title": "The Hidden Wealth of Cities: Creating, Financing, and Managing Public Spaces",
+      "publisher": "World Bank",
+      "topic": "urban public space",
+      "decision": "not_selected",
+      "reason": "Strong institutional source, but longer and denser than today's 5–15 minute weekday target."
+    },
+    {
+      "url": "https://data360.worldbank.org/en/atlas/urban-development/",
+      "title": "Urban Development Atlas",
+      "publisher": "World Bank Data360",
+      "topic": "urban development data",
+      "decision": "not_selected",
+      "reason": "Useful interactive reference, but less suitable for a compact reading-and-output lesson."
+    },
+    {
+      "url": "https://www.bankofengland.co.uk/explainers/what-is-the-economy",
+      "title": "What is the economy?",
+      "publisher": "Bank of England",
+      "topic": "basic macroeconomics",
+      "decision": "not_selected",
+      "reason": "Clear and authentic, but broad explanatory scope offered less distinctive language than the selected interface-history essay."
+    },
+    {
+      "url": "https://www.bankofengland.co.uk/explainers/what-are-interest-rates",
+      "title": "What are interest rates?",
+      "publisher": "Bank of England",
+      "topic": "interest rates",
+      "decision": "not_selected",
+      "reason": "Authentic and usable, but the narrow macro topic was not chosen for today's topic rotation."
+    },
+    {
+      "url": "https://www.smithsonianmag.com/smart-news/short-history-crosswalk-180965339/",
+      "title": "A Short History of the Crosswalk",
+      "publisher": "Smithsonian Magazine",
+      "topic": "street design history",
+      "decision": "not_selected",
+      "reason": "Engaging adjacent candidate, but the final source supported a richer cause-and-effect argument and more reusable academic chunks."
+    },
+    {
+      "url": "https://blogs.loc.gov/families/2026/05/time-travel-with-early-movies-from-the-library-of-congress/",
+      "title": "Time Travel with Early Movies from the Library of Congress",
+      "publisher": "Library of Congress",
+      "topic": "early film and visual history",
+      "decision": "not_selected",
+      "reason": "High-curiosity candidate, but more media-browsing oriented and less focused for today's reading routine."
+    },
+    {
+      "url": "https://www.nps.gov/articles/000/cultural-landscapes-places-that-we-look-at-every-day-but-often-don-t-really-see.htm",
+      "title": "Cultural Landscapes: Places That We Look at Every Day, But Often Don't Really See",
+      "publisher": "U.S. National Park Service",
+      "topic": "cultural landscapes",
+      "decision": "not_selected",
+      "reason": "Good expansion candidate, but the selected source better matched the target time and argument-analysis objective."
+    }
+  ],
+  "candidate_count": 8,
+  "selection": {
+    "title": "Forty Years Ago, the Mac Triggered a Revolution in User Experience",
+    "source_url": "https://www.smithsonianmag.com/innovation/forty-years-ago-the-mac-triggered-a-revolution-in-user-experience-180983623/",
+    "source_type": "article",
+    "estimated_time": "10–12 minutes",
+    "verification": {
+      "observed_on": "2026-11-10",
+      "method": "direct_source_page",
+      "identity": "verified",
+      "content": "verified by inspecting the article body and page metadata",
+      "observations": [
+        "Exact title and author were visible",
+        "Publication date 2024-01-19 was visible",
+        "Full article body was accessible",
+        "The page states republication from The Conversation under Creative Commons"
+      ],
+      "caveat": "The piece is expert commentary by an HCI scholar, not a peer-reviewed experimental paper; time-bound market-size figures are not treated as core evidence."
+    }
+  },
+  "freshness_and_diversity": {
+    "original_history_rows": 63,
+    "prepared_reservations_checked": 26,
+    "exact_url_fresh": true,
+    "same_operation_reservation_handling": "none existed before freeze; after freeze it was treated as expected",
+    "recent_topic_window": [
+      "plant stress sounds and evidence",
+      "documentary",
+      "American TV comedy",
+      "language maps",
+      "art conservation science",
+      "light"
+    ],
+    "today_topic": "technology history, interface design, and human-computer interaction",
+    "result": "pass; no exact URL repetition and no narrow-topic repetition within the recent window"
+  },
+  "artifacts": [
+    "50-courses/English/Daily/2026-11-10.md",
+    "50-courses/English/Translation/2026-11-10.md",
+    "50-courses/English/Vocabulary/2026-11-10.md",
+    ".recommendation/history/english.jsonl"
+  ],
+  "bundle": {
+    "transaction_path": ".recommendation/transactions/english/2026-11-10.json",
+    "prepared_creation_commit": "81fe229fc98f9f3e2d9b63d324935ac984f59e86",
+    "plan_sha256": "74d8a890cbd633bdd4a438190857190fe8e209db66855f4cb33aa564cf9d032b",
+    "bundle_sha256": "30bfd6fe6a6cc9560e6306430816980bb6bbe125436c5196706a9b2ebfaa7b54",
+    "publication_commit": "a72eec87f3f2fd7ba34983ec604642045f4075dd",
+    "final_planner_status": "artifacts_match"
+  },
+  "readbacks": [
+    {
+      "path": "50-courses/English/Daily/2026-11-10.md",
+      "blob_sha": "35176e49cf56126567fa279237afffdbaf667344",
+      "matches_frozen_target": true
+    },
+    {
+      "path": "50-courses/English/Translation/2026-11-10.md",
+      "blob_sha": "33d57c6767f070ef6cff576a2d8ffc7b89b2185f",
+      "matches_frozen_target": true
+    },
+    {
+      "path": "50-courses/English/Vocabulary/2026-11-10.md",
+      "blob_sha": "25fb8cf980f2ea56c782dccc3008822839b84e55",
+      "matches_frozen_target": true
+    },
+    {
+      "path": ".recommendation/history/english.jsonl",
+      "blob_sha": "495f46b78314aeba20e04f442bec8ddb018f48d6",
+      "matches_frozen_target": true
+    },
+    {
+      "path": ".recommendation/transactions/english/2026-11-10.json",
+      "blob_sha": "41ed751dac2792da876dfad78b3d946451356d50",
+      "matches_original_prepared": true
+    }
+  ],
+  "quality_gates": {
+    "source_identity_and_content": {
+      "status": "pass",
+      "scope": "Direct Smithsonian article page exposed the exact title, author, publication date, article body, and The Conversation republication notice; full page text was inspected. Live media playback was not applicable."
+    },
+    "source_freshness": {
+      "status": "pass",
+      "scope": "Exact source URL absent from the original 63-row permanent history and from 26 earlier PREPARED reservations."
+    },
+    "weekday_targets": {
+      "status": "pass",
+      "expected": 4,
+      "observed": 4
+    },
+    "history_registration": {
+      "status": "pass",
+      "occurrences_for_date_and_url": 1,
+      "original_rows": 63,
+      "final_rows": 64,
+      "prior_bytes_preserved": true
+    },
+    "teaching_semantics": {
+      "status": "pass",
+      "details": [
+        "Daily has YAML, verified source, timed two-pass routine, output task, three questions, caveat, and cross-links",
+        "Translation has two independent substantial exercises with folded answers, structure guidance, transfer-error analysis, precision work, and spaced review",
+        "Vocabulary has eight reusable items with meaning, collocations, examples, families/contrasts, and retrieval quiz",
+        "AUTO markers and manual Notes boundary present in every new note"
+      ]
+    },
+    "repository_validators": {
+      "status": "pass",
+      "commands": [
+        "validate_jsonl: 64 rows",
+        "validate_english: 13 strict-era notes",
+        "publication_bundle.py bundle.json: bundle_valid"
+      ]
+    },
+    "github_actions": {
+      "status": "pass",
+      "workflow": "Recommendation integrity (read-only)",
+      "run_id": 42725370257,
+      "run_url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/42725370257",
+      "job_id": 129529628090,
+      "job_conclusion": "success",
+      "notable_steps": [
+        "Validate publications and full source-history coverage",
+        "Negative regressions and interrupted-publication recovery",
+        "Compare permanent history with the actual base commit"
+      ]
+    },
+    "legacy_combined_commit_status": {
+      "status": "observed",
+      "state": "pending",
+      "total_statuses": 0,
+      "interpretation": "No legacy commit statuses were reported; the actual GitHub Actions workflow completed successfully."
+    }
+  },
+  "historical_backlog": "Historical source or format warnings, if any, remain recorded in prior data and did not waive today's verification. Permanent English history was readable and append-only for this publication.",
+  "honest_scope": [
+    "The selected source identity and article content were inspected directly.",
+    "Repository validators and the actual GitHub Actions integrity workflow passed.",
+    "Teaching quality received a semantic checklist review; structural CI alone is not treated as content certification.",
+    "Device sync and notification delivery remain unverified."
+  ]
+}
