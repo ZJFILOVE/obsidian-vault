@@ -1,0 +1,60 @@
+{
+  "operation_id": "news-youtube-reddit:2026-11-10",
+  "date": "2026-11-10",
+  "attempt_id": "20261110T004810Z",
+  "status": "published_and_verified",
+  "errors": [],
+  "preselection_remote_head": "458acce9c4762b543e8e649cb974cc3542d0063d",
+  "prepared_commit": "60d79b3a5f0bed8e60cd33d9ea2c997320ec9300",
+  "publication_commit": "11cd5c1b1f44a1543b4bec23cb94d4550b1304e3",
+  "plan_sha256": "d6273895c53817fe03b7c03aec071ec35e48236b8978be58bf3d2650ebd9fbc5",
+  "bundle_sha256": "7a94807316c41dd2226b37dc98b1068aa22ca9d0d40ebc2566df9f2606057e40",
+  "prepared_blob_sha": "caf5ff6294cfb64943cfd07a476b281c367a92c3",
+  "readbacks": {
+    "News/Daily/2026-11-10.md": {
+      "sha": "070ccbbeada8c5dedcdf06cd495ead5f9bd4c68e",
+      "size_chars": 3084
+    },
+    "Resources/YouTube/Daily/2026-11-10.md": {
+      "sha": "42196f073d96e2d2f431303000f21af178f17beb",
+      "size_chars": 3515
+    },
+    "Resources/Reddit/Daily/2026-11-10.md": {
+      "sha": "df2edfc9f895b74ab433345425dca5663dc26cf9",
+      "size_chars": 5945
+    },
+    ".recommendation/history/youtube.jsonl": {
+      "sha": "e2ab17882168fc0cf9ac99be190e007926b98486",
+      "size_chars": 64838
+    },
+    ".recommendation/history/reddit.jsonl": {
+      "sha": "511a9ca539e7eace9dc7900505d0f05f3668d344",
+      "size_chars": 109298
+    }
+  },
+  "kind": "publication_attempt_receipt",
+  "planner": {
+    "status": "ready_to_resume",
+    "next_stage": 1,
+    "writes_applied": "stage_1_single_git_commit",
+    "expected_head_non_force": true
+  },
+  "checks": {
+    "freeze_and_check_baselines": "passed",
+    "bundle_validator": "passed_content_qa_not_evaluated",
+    "independent_current_publication_qa": "passed",
+    "github_actions_run_id": 42731018324,
+    "github_actions_conclusion": "success",
+    "github_actions_steps": [
+      "Validate publications and full source-history coverage",
+      "Negative regressions and interrupted-publication recovery",
+      "Compare permanent history with the actual base commit",
+      "Record scope of checks"
+    ]
+  },
+  "limitations": [
+    "YouTube full playback was not tested",
+    "Reddit original pages were not opened under user-authorized waiver",
+    "structural CI does not certify editorial quality, live playback, device sync, or notification delivery"
+  ]
+}
