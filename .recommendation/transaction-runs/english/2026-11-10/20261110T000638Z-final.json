@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-11-10",
+  "attempt_id": "20261110T000638Z-final",
+  "recorded_at": "2026-11-10T00:06:38Z",
+  "status": "published_readback_complete",
+  "prepared": {
+    "path": ".recommendation/transactions/english/2026-11-10.json",
+    "creation_commit": "81fe229fc98f9f3e2d9b63d324935ac984f59e86",
+    "blob_sha": "41ed751dac2792da876dfad78b3d946451356d50",
+    "plan_sha256": "74d8a890cbd633bdd4a438190857190fe8e209db66855f4cb33aa564cf9d032b",
+    "bundle_sha256": "30bfd6fe6a6cc9560e6306430816980bb6bbe125436c5196706a9b2ebfaa7b54"
+  },
+  "publication": {
+    "stage": 1,
+    "commit": "a72eec87f3f2fd7ba34983ec604642045f4075dd",
+    "parent": "7b41b34ba201dc5ac515877fedffe006f6e4774b",
+    "base_tree": "bf54e3238b72dae0569c1d56650f17e401948e4d",
+    "tree": "19c574cefdd8742391ae451c0fc521186a9a41dd",
+    "write_method": "git_data_expected_head_non_force",
+    "lost_response_recovery": "not_needed"
+  },
+  "readbacks": [
+    {
+      "path": "50-courses/English/Daily/2026-11-10.md",
+      "blob_sha": "35176e49cf56126567fa279237afffdbaf667344",
+      "matches_frozen_target": true
+    },
+    {
+      "path": "50-courses/English/Translation/2026-11-10.md",
+      "blob_sha": "33d57c6767f070ef6cff576a2d8ffc7b89b2185f",
+      "matches_frozen_target": true
+    },
+    {
+      "path": "50-courses/English/Vocabulary/2026-11-10.md",
+      "blob_sha": "25fb8cf980f2ea56c782dccc3008822839b84e55",
+      "matches_frozen_target": true
+    },
+    {
+      "path": ".recommendation/history/english.jsonl",
+      "blob_sha": "495f46b78314aeba20e04f442bec8ddb018f48d6",
+      "matches_frozen_target": true
+    },
+    {
+      "path": ".recommendation/transactions/english/2026-11-10.json",
+      "blob_sha": "41ed751dac2792da876dfad78b3d946451356d50",
+      "matches_original_prepared": true
+    }
+  ],
+  "recovery_planner": {
+    "status": "artifacts_match",
+    "next_stage": null,
+    "expected_original_plan_digest": "74d8a890cbd633bdd4a438190857190fe8e209db66855f4cb33aa564cf9d032b"
+  },
+  "checks": {
+    "source_identity_and_content": {
+      "status": "pass",
+      "scope": "Direct Smithsonian article page exposed the exact title, author, publication date, article body, and The Conversation republication notice; full page text was inspected. Live media playback was not applicable."
+    },
+    "source_freshness": {
+      "status": "pass",
+      "scope": "Exact source URL absent from the original 63-row permanent history and from 26 earlier PREPARED reservations."
+    },
+    "weekday_targets": {
+      "status": "pass",
+      "expected": 4,
+      "observed": 4
+    },
+    "history_registration": {
+      "status": "pass",
+      "occurrences_for_date_and_url": 1,
+      "original_rows": 63,
+      "final_rows": 64,
+      "prior_bytes_preserved": true
+    },
+    "teaching_semantics": {
+      "status": "pass",
+      "details": [
+        "Daily has YAML, verified source, timed two-pass routine, output task, three questions, caveat, and cross-links",
+        "Translation has two independent substantial exercises with folded answers, structure guidance, transfer-error analysis, precision work, and spaced review",
+        "Vocabulary has eight reusable items with meaning, collocations, examples, families/contrasts, and retrieval quiz",
+        "AUTO markers and manual Notes boundary present in every new note"
+      ]
+    },
+    "repository_validators": {
+      "status": "pass",
+      "commands": [
+        "validate_jsonl: 64 rows",
+        "validate_english: 13 strict-era notes",
+        "publication_bundle.py bundle.json: bundle_valid"
+      ]
+    },
+    "github_actions": {
+      "status": "pass",
+      "workflow": "Recommendation integrity (read-only)",
+      "run_id": 42725370257,
+      "run_url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/42725370257",
+      "job_id": 129529628090,
+      "job_conclusion": "success",
+      "notable_steps": [
+        "Validate publications and full source-history coverage",
+        "Negative regressions and interrupted-publication recovery",
+        "Compare permanent history with the actual base commit"
+      ]
+    },
+    "legacy_combined_commit_status": {
+      "status": "observed",
+      "state": "pending",
+      "total_statuses": 0,
+      "interpretation": "No legacy commit statuses were reported; the actual GitHub Actions workflow completed successfully."
+    }
+  },
+  "limitations": [
+    "Structural checks do not certify teaching quality beyond the performed semantic review.",
+    "Local device synchronization and notification delivery were not verified."
+  ],
+  "errors": []
+}
