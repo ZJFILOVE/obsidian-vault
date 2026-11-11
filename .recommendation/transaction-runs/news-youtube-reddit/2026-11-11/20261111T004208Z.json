@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-11-11",
+  "attempt_id": "20261111T004208Z",
+  "recorded_at": "2026-11-11T00:42:08.035356+00:00",
+  "status": "published_readback_complete",
+  "prepared": {
+    "plan_sha256": "c6ddc869e50f15d6f7fd2a8a619267fad89d18859f358d40cfbf5f57b1009cba",
+    "bundle_sha256": "07160167302a306b6296d2f374ad138dd55da80f3b5409866efa13a8fb1fa0e1",
+    "path": ".recommendation/transactions/news-youtube-reddit/2026-11-11.json",
+    "creation_commit": "947d6d4a9e9fdd777f631733ed693d246b36c813",
+    "prepared_blob": "d07ba0e693f352875d11e96c958a3b105dfe8527"
+  },
+  "publication": {
+    "commit": "b86646b5a15c433eb65a07013deda1f5b97ed780",
+    "parent": "947d6d4a9e9fdd777f631733ed693d246b36c813",
+    "base_tree": "795dada1429429b93750b6d66997e6b16833322b",
+    "tree": "16041b4707fef2b0490356ca864b93ab429b476a",
+    "method": "Git Data ordinary commit, expected-head non-force ref update",
+    "targets": [
+      {
+        "path": "News/Daily/2026-11-11.md",
+        "sha": "d9165076da92cd45f3f6114f33f42d9cc3ea3987",
+        "exact_bytes": true
+      },
+      {
+        "path": "Resources/YouTube/Daily/2026-11-11.md",
+        "sha": "27feae5d6b7c5582ec1a31af87e27fbf0e9e9fb4",
+        "exact_bytes": true
+      },
+      {
+        "path": "Resources/Reddit/Daily/2026-11-11.md",
+        "sha": "b078e73eecf05b4f7aa9bc4a4c6dde37d29e1ede",
+        "exact_bytes": true
+      },
+      {
+        "path": ".recommendation/history/youtube.jsonl",
+        "sha": "02275f73936d3a92c671a5b40ad8a993665d176d",
+        "exact_bytes": true
+      },
+      {
+        "path": ".recommendation/history/reddit.jsonl",
+        "sha": "243f9f03e0b35ea450b3ddeb73fbcbb7a662aedb",
+        "exact_bytes": true
+      }
+    ]
+  },
+  "readbacks": [
+    {
+      "path": "News/Daily/2026-11-11.md",
+      "sha": "d9165076da92cd45f3f6114f33f42d9cc3ea3987",
+      "exact_bytes": true
+    },
+    {
+      "path": "Resources/YouTube/Daily/2026-11-11.md",
+      "sha": "27feae5d6b7c5582ec1a31af87e27fbf0e9e9fb4",
+      "exact_bytes": true
+    },
+    {
+      "path": "Resources/Reddit/Daily/2026-11-11.md",
+      "sha": "b078e73eecf05b4f7aa9bc4a4c6dde37d29e1ede",
+      "exact_bytes": true
+    },
+    {
+      "path": ".recommendation/history/youtube.jsonl",
+      "sha": "02275f73936d3a92c671a5b40ad8a993665d176d",
+      "exact_bytes": true
+    },
+    {
+      "path": ".recommendation/history/reddit.jsonl",
+      "sha": "243f9f03e0b35ea450b3ddeb73fbcbb7a662aedb",
+      "exact_bytes": true
+    }
+  ],
+  "planner": {
+    "operation_id": "news-youtube-reddit:2026-11-11",
+    "plan_sha256": "c6ddc869e50f15d6f7fd2a8a619267fad89d18859f358d40cfbf5f57b1009cba",
+    "status": "artifacts_match",
+    "next_stage": null,
+    "decisions": [
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "News/Daily/2026-11-11.md",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "d9165076da92cd45f3f6114f33f42d9cc3ea3987"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Resources/YouTube/Daily/2026-11-11.md",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "27feae5d6b7c5582ec1a31af87e27fbf0e9e9fb4"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Resources/Reddit/Daily/2026-11-11.md",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "b078e73eecf05b4f7aa9bc4a4c6dde37d29e1ede"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": ".recommendation/history/youtube.jsonl",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": "e2ab17882168fc0cf9ac99be190e007926b98486",
+        "target_sha": "02275f73936d3a92c671a5b40ad8a993665d176d"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": ".recommendation/history/reddit.jsonl",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": "511a9ca539e7eace9dc7900505d0f05f3668d344",
+        "target_sha": "243f9f03e0b35ea450b3ddeb73fbcbb7a662aedb"
+      }
+    ],
+    "content_qa": "not_evaluated",
+    "github_writes_performed": 0
+  },
+  "source_errors": [
+    {
+      "route": "YouTube direct watch",
+      "id": "QcmNVSFyExQ",
+      "error": "Online fetch throttled",
+      "action": "Stopped watch route; not selected because full uploader identity evidence insufficient"
+    },
+    {
+      "route": "YouTube direct watch",
+      "id": "PCwtsK_FhUw",
+      "error": "Error fetching https://www.youtube.com/watch?v=PCwtsK_FhUw",
+      "action": "Official publisher page and exact embed verified instead"
+    },
+    {
+      "route": "Native HTTPS NOAA official page",
+      "error": "HTTP Error 403: Forbidden",
+      "action": "No credential or route changes; candidate not selected"
+    }
+  ],
+  "errors": [],
+  "qa_summary": {
+    "status": "passed_current_publication",
+    "source_identity": "pass within explicitly recorded scope",
+    "freshness": "pass against original 300 YouTube and 580 Reddit rows; complete ancestral reservations also passed",
+    "ordered_counts": {
+      "youtube": 5,
+      "reddit": 10
+    },
+    "semantic_dedup": "manual distinct-work/question review plus normalized title+creator comparison against original YouTube history; no reuploads selected",
+    "required_sections": "all three notes have YAML, AUTO markers, external Notes; News 3 items with required sections; YouTube5 with Why watch/priority/checkboxes; Reddit10 with dates/Why read/waiver/discussion notes/checkboxes",
+    "history": {
+      "youtube": {
+        "original": 300,
+        "final": 305,
+        "added_once": 5
+      },
+      "reddit": {
+        "original": 580,
+        "final": 590,
+        "added_once": 10
+      },
+      "prior_bytes_preserved": true
+    },
+    "diversity": {
+      "youtube_narrow_topic_max": 0.4,
+      "youtube_wildcard": "Donatello clay modelling",
+      "reddit_narrow_topic_max": 0.2,
+      "reddit_expansion_picks": [
+        "1qw1mbd",
+        "1f01yxr"
+      ],
+      "youtube_mix": "2 high-confidence, 2 adjacent, 1 wildcard",
+      "same_creator_penalty": "Two Ben Eater videos retained deliberately: software representation and clock circuitry form complementary distinct lessons; concentration penalty acknowledged rather than ignored."
+    },
+    "validators": {
+      "local_health": {
+        "status": "passed_local_checks",
+        "integrity": "passed_local_integrity",
+        "immutable": {
+          "status": "passed_immutable_publication_bundles",
+          "bundles": 91,
+          "base_ref": "947d6d4a9e9fdd777f631733ed693d246b36c813",
+          "content_qa": "not_evaluated"
+        }
+      },
+      "regression_tests": {
+        "count": 322,
+        "exit_code": 0
+      },
+      "planner": {
+        "operation_id": "news-youtube-reddit:2026-11-11",
+        "plan_sha256": "c6ddc869e50f15d6f7fd2a8a619267fad89d18859f358d40cfbf5f57b1009cba",
+        "status": "artifacts_match",
+        "next_stage": null,
+        "decisions": [
+          {
+            "repository": "ZJFILOVE/obsidian-vault",
+            "path": "News/Daily/2026-11-11.md",
+            "stage": 1,
+            "action": "no_op",
+            "reason": "target already present, including a lost successful response",
+            "expected_sha": null,
+            "target_sha": "d9165076da92cd45f3f6114f33f42d9cc3ea3987"
+          },
+          {
+            "repository": "ZJFILOVE/obsidian-vault",
+            "path": "Resources/YouTube/Daily/2026-11-11.md",
+            "stage": 1,
+            "action": "no_op",
+            "reason": "target already present, including a lost successful response",
+            "expected_sha": null,
+            "target_sha": "27feae5d6b7c5582ec1a31af87e27fbf0e9e9fb4"
+          },
+          {
+            "repository": "ZJFILOVE/obsidian-vault",
+            "path": "Resources/Reddit/Daily/2026-11-11.md",
+            "stage": 1,
+            "action": "no_op",
+            "reason": "target already present, including a lost successful response",
+            "expected_sha": null,
+            "target_sha": "b078e73eecf05b4f7aa9bc4a4c6dde37d29e1ede"
+          },
+          {
+            "repository": "ZJFILOVE/obsidian-vault",
+            "path": ".recommendation/history/youtube.jsonl",
+            "stage": 1,
+            "action": "no_op",
+            "reason": "target already present, including a lost successful response",
+            "expected_sha": "e2ab17882168fc0cf9ac99be190e007926b98486",
+            "target_sha": "02275f73936d3a92c671a5b40ad8a993665d176d"
+          },
+          {
+            "repository": "ZJFILOVE/obsidian-vault",
+            "path": ".recommendation/history/reddit.jsonl",
+            "stage": 1,
+            "action": "no_op",
+            "reason": "target already present, including a lost successful response",
+            "expected_sha": "511a9ca539e7eace9dc7900505d0f05f3668d344",
+            "target_sha": "243f9f03e0b35ea450b3ddeb73fbcbb7a662aedb"
+          }
+        ],
+        "content_qa": "not_evaluated",
+        "github_writes_performed": 0
+      },
+      "history_reservation_gate": {
+        "status": "passed_permanent_discovery_reservations",
+        "scope": "worktree_and_all_HEAD_ancestors",
+        "prepared_path_blob_versions": 27,
+        "historical_resource_count": 893
+      }
+    },
+    "actual_ci": [
+      {
+        "id": 42933175957,
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/42933175957"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1392 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "operation_id": "news-youtube-reddit:2026-11-11",
+  "status": "passed_current_publication",
+  "mode": "new_generation",
+  "recorded_at": "2026-11-11T00:42:08.035356+00:00",
+  "preselection_head": "61181f88c77a04e908f3cbb8eeeb57ec00bd1acb",
+  "candidate_pools": {
+    "youtube_count": 30,
+    "reddit_count": 62,
+    "youtube": [
+      {
+        "video_id": "MR9TCBDIja4",
+        "title": "NOAA Ocean Today video: 'Restoring Coral Reefs'",
+        "url": "https://www.youtube.com/watch?v=MR9TCBDIja4",
+        "evidence": "NOAA Ocean Today video: 'Restoring Coral Reefs' - YouTube (https://www.youtube.com/watch?v=MR9TCBDIja4)\n【turn1057youtube42】 [wordlim: 200] Published: 13.7 years ago; # NOAA Ocean Today video: 'Restoring Coral Reefs' ... Watch science in action! ... To address these issues, NOAA and its partners started a coral restoration effort.\n# NOAA Ocean Today video: 'Restoring Coral Reefs'\nBy: noaa (49900 followers, Verified)\nPublished: 2013-03-18, 17658 views, 62 likes\n\n## Description\nWatch science in action! Check out these marine biologists as they reattach healthy coral pieces on this severely damaged coral reef. URL...\n\n\nTRANSCRIPT:\n\nNARRATOR: These beautiful coral reefs are in serious trouble.  They are being damaged or destroyed by pollution, disease, climate change, and a large number of ship groundings.\n\nStaghorn and elkhorn coral have become threatened species.  These corals are the building blocks of reefs in the Caribbean and Florida Keys.\n\nTo address these issues, NOAA and its partners started a coral restoration effort. Using innovative techniques, like underwater coral farming and reattaching broken coral pieces, these projects transplant and restore thousands of coral colonies on damaged reef sites.\n\nTrained scuba divers are given special permission to work on the reefs.  These divers transplant the new pieces of coral by using cement or epoxy putty. The goal is to restore the coral reef to allow the natural inhabitants a chance to thrive.\n\nScientists have found that the corals grown in the nurseries are able to reproduce in their new homes.  This means staghorn and elkhorn have a chance for a comeback.   It also means genetic diversity may be achieved along the reefs -- allowing for stronger and more resilient ecosystems in our ocean.\n\nSince healthy coral is a vital part of the ocean environment, restoring reefs brings great benefits to the waters here and around the world.\n___________________________\n\nLearn more about NOAA's coral reef program at: URL",
+        "discovery": "s2",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "8hly31xKli0",
+        "title": "Algorithms and Data Structures Tutorial - Full Course for Beginners",
+        "url": "https://www.youtube.com/watch?v=8hly31xKli0",
+        "evidence": "Algorithms and Data Structures Tutorial - Full Course for Beginners - YouTube (https://www.youtube.com/watch?v=8hly31xKli0)\n【turn1057youtube43】 [wordlim: 200] Published: 5.7 years ago; In this course you will learn about algorithms and data structures, two of the fundamental topics in computer science. ... ⌨️ The Merge Sort Algorithm:\n# Algorithms and Data Structures Tutorial - Full Course for Beginners\nBy: freeCodeCamp.org (11900000 followers, Verified)\nPublished: 2021-03-18, 5952377 views, 153000 likes\n\n## Description\nIn this course you will learn about algorithms and data structures, two of the fundamental topics in computer science. There are three main parts to this course: algorithms, data structures, and a deep dive into sorting and searching algorithms.\n\nBy the end, you will understand what algorithms and data structures are, how they are measured and evaluated, and how they are used to solve problems.\n\nThis course was developed by Pasan Premaratne and Jay McGavren. It was made possible by a grant from teamtreehouse.com\n\n❤️ Try interactive Algorithms courses we love, right in your browser: URL... (Made possible by a grant from our friends at Scrimba)\n\n⭐️ Course Contents ⭐️\n⌨️ (0:00:00) Introduction to Algorithms\n⌨️ (1:57:44) Introduction to Data Structures\n⌨️ (4:11:02) Algorithms: Sorting and Searching\n\n⭐️ Code Snippets for Course ⭐️\n💻 Introduction to Algorithms:\n⌨️ Algorithms in Code:\n🔗 Linear Search Implementations: URL...\n🔗 Binary Search Implementations: URL...\n\n💻 Introduction to Data Structures\n⌨️ Exploring Arrays:\n🔗 Array Characteristics and Storage: URL...\n🔗 Operations on Arrays: URL...\n\n⌨️ Building a Linked List:\n🔗 Singly and Doubly Linked Lists: URL...\n🔗 Linked List Operations: URL...\n\n⌨️ The Merge Sort Algorithm:\n🔗 Merge Sort Implementations: URL...\n🔗 Alternate Versions of Merge Sort: URL... \n\n⌨️ Merge Sort and Linked Lists:\n🔗 Implementing Merge Sort on Linked Lists: URL...\n\n💻 Algorithms: Sorting and Searching\n⌨️ Sorting Algorithms:\n🔗 Code for Bogosort: URL...\n🔗 Code for Selection Sort: URL...\n🔗 Code for Quicksort: URL...\n🔗 Code for Merge Sort: URL...\n\n⌨️ Searching Names:\n🔗 Code for Linear Search: URL...\n🔗 Code for Binary Search: URL...\n\n--\n\nLearn to code for free and get a developer job: URL\n\nRead hundreds of articles on programming: URL",
+        "discovery": "s2",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "iWDKsHm6gTA",
+        "title": "How languages evolve - Alex Gendler",
+        "url": "https://www.youtube.com/watch?v=iWDKsHm6gTA",
+        "evidence": "How languages evolve - Alex Gendler - YouTube (https://www.youtube.com/watch?v=iWDKsHm6gTA)\n【turn1058youtube3】 [wordlim: 200] Published: 12.5 years ago; \n# How languages evolve - Alex Gendler\nBy: TED-Ed (22900000 followers, Verified)\nPublished: 2014-05-27, 3416486 views, 47000 likes\n\n## Description\nView full lesson: URL...\n\nOver the course of human history, thousands of languages have developed from what was once a much smaller number. How did we end up with so many? And how do we keep track of them all? Alex Gendler explains how linguists group languages into language families, demonstrating how these linguistic trees give us crucial insights into the past.\n\nLesson by Alex Gendler, animation by Igor Coric.",
+        "discovery": "s3",
+        "decision": "rejected_permanent_history",
+        "reason": "Exact prior exposure permanently blocked"
+      },
+      {
+        "video_id": "kIzFz9T5rhI",
+        "title": "How did English evolve? - Kate Gardoqui",
+        "url": "https://www.youtube.com/watch?v=kIzFz9T5rhI",
+        "evidence": "How did English evolve? - Kate Gardoqui - YouTube (https://www.youtube.com/watch?v=kIzFz9T5rhI)\n【turn1058youtube4】 [wordlim: 200] Published: 14.0 years ago; \n# How did English evolve? - Kate Gardoqui\nBy: TED-Ed (22900000 followers, Verified)\nPublished: 2012-11-27, 1439395 views, 22000 likes\n\n## Description\nView full lesson: URL...\n\nWhat is the difference between \"a hearty welcome\" and \"a cordial reception\"? In a brief, action-packed history of the English language, Kate Gardoqui explains why these semantically equal phrases evoke such different images.\n\nLesson by Kate Gardoqui, animation by Ben Tobitt.",
+        "discovery": "s3",
+        "decision": "selected",
+        "reason": "Official identity/content and editorial comparison completed"
+      },
+      {
+        "video_id": "vcoRoP3Abt8",
+        "title": "How was it made? Donatello's clay modelling technique | V&A",
+        "url": "https://www.youtube.com/watch?v=vcoRoP3Abt8",
+        "evidence": "How was it made? Donatello's clay modelling technique | V&A - YouTube (https://www.youtube.com/watch?v=vcoRoP3Abt8)\n【turn1059youtube48】 [wordlim: 200] Published: 3.6 years ago; # How was it made? Donatello's clay modelling technique | V&A ... More 'How was it Made?'",
+        "discovery": "s4",
+        "decision": "selected",
+        "reason": "Official identity/content and editorial comparison completed"
+      },
+      {
+        "video_id": "A6QZRFs76Yk",
+        "title": "How was it made? An Agate Teapot",
+        "url": "https://www.youtube.com/watch?v=A6QZRFs76Yk",
+        "evidence": "How was it made? An Agate Teapot - YouTube (https://www.youtube.com/watch?v=A6QZRFs76Yk)\n【turn1059youtube49】 [wordlim: 200] Published: 13.3 years ago; # How was it made? ... In this video Michelle Erickson recreates an 18th-century agateware teapot in the V&A's collection.\n\nMichelle Erickson was Ceramics Resident: World Class Maker at the V&A, July -- September 2012",
+        "discovery": "s4",
+        "decision": "rejected_permanent_history",
+        "reason": "Exact prior exposure permanently blocked"
+      },
+      {
+        "video_id": "tpQZLCel_kg",
+        "title": "The Real Reason Veritasium Sold His Channel",
+        "url": "https://www.youtube.com/watch?v=tpQZLCel_kg",
+        "evidence": "The Real Reason Veritasium Sold His Channel - YouTube (https://www.youtube.com/watch?v=tpQZLCel_kg)\n【turn1065youtube0】 [wordlim: 200] Published: 2 months ago; I interviewed Veritasium about how he built one of YouTube's biggest channels, why he sold the majority of it, and lessons he learned along the way.\n# The Real Reason Veritasium Sold His Channel\nBy: Jon Youshaei (798000 followers, Verified)\nPublished: 2026-08-19, 1312001 views, 20000 likes\n\n## Description\nI interviewed Veritasium about how he built one of YouTube's biggest channels, why he sold the majority of it, and lessons he learned along the way. Thanks Shopify for sponsoring, get a free trial: URL\n\nJoin our first in-person event, Created in LA presented by Disney, on Sept 17-18. We're hosting 350 top creators for 2 days of keynotes, great food, and a red carpet premiere. Apply here: URL\n\n---\n\nGet my free YT Hack Pack with my best templates, tips & tools to grow on YT: URL\n\nJoin my Discord of 7,000 creators helping each other grow:   / discord  \n\nJoin my newsletter for latest creator news & tips: URL\n\nGet Created merch hoodies, hats, shirts & crewnecks: URL\n\nSubscribe for more videos: URL\n\nThanks DittoDub for dubbing our video, grow globally: URL\n\n0:00 Who Is Derek Muller (aka Veritasium)?\n1:57 Hidden Talent\n2:42 Big Break\n4:15 How Veritasium Makes Money\n6:13 Conflicts of interest?\n11:14 Held to different standard? \n13:14 Creative process\n15:53 Analyzing best thumbnails\n18:53 \"Double Barrel\" Method\n21:03 Most expensive video\n23:35 Growing the channel \n29:31 What makes a great Veritasium video?\n31:52 Selling the channel \n36:40 Were you skeptical? \n41:50 Impact on channel\n48:27 Did you wish you asked for more?\n51:33 Removing himself from process\n56:40 Grand plan?\n59:00 How to name your channel\n\n--------\nPAST EPISODES: \n45 Days with MrBeast (4.1M Views):    • 45 Days with MrBeast  \nMrBeast Interview (3.8M Views):    • Why every MrBeast video gets 200M views (i...  \n24 Hours with Danny Duncan (3.9M Views):    • 24 Hours with Danny Duncan (The $150M YouT...  \nMarques Brownlee Interview (1.7M Views):    • How MKBHD Became The Most Powerful Man in ...  \nDude Perfect Interview (1.4M Views):    • The Dude Perfect Interview  \n24 Hours with YouTube's Iron Man (2.2M Views):    • 24 Hours with YouTube's Iron Man: The Hack...  \nLiza Koshy interview (1.9M Views):    • Why YouTube's Biggest Star Quit (Liza Kosh...  \nRyan's World Interview (3.2M Views):    • Meet YouTube's Richest 12-Year-Old: Ryan's...  \nDanny Duncan Interview (2.8M Views):    • The Danny Duncan Interview: YouTube's $150...  \n\nCREATOR TOOLS:\nOpusClip: URL\n.Store URL\nNotion: URL\nUScreen: URL\n\nABOUT JON:\nOne of few marketers to work at both YouTube and Instagram, Jon Youshaei has been featured in Business Insider, Time, and Inc Magazine and known as the \"Creators' Creator\"\n\nDuring five years at YouTube, Jon was Head of Creator Product Marketing where he worked with YouTube's top creators and brands to grow their audience and their incomes. During three years at Instagram, Jon helped build their creator team to empower even more creators to grow and monetize. \n\nNow a creator himself, Jon has garnered 700K+ followers, 300M+ views, interviewed MrBeast, MKBHD, Logan Paul, Charli D'Amelio, Danny Duncan, Mark Rober, and been sponsored by top brands like American Express, HubSpot, Fiverr, and Microsoft.",
+        "discovery": "sy6",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "Y-W-w8yNiKU",
+        "title": "Why is there antimatter?",
+        "url": "https://www.youtube.com/watch?v=Y-W-w8yNiKU",
+        "evidence": "Why is there antimatter? - YouTube (https://www.youtube.com/watch?v=Y-W-w8yNiKU)\n【turn1065youtube1】 [wordlim: 200] Published: 11 months ago; # Why is there antimatter? ... Sign up for the Veritasium newsletter for weekly science updates - URL\n# Why is there antimatter?\nBy: Veritasium (21200000 followers, Verified)\nPublished: 2025-12-05, 9595298 views, 242000 likes\n\n## Description\nHow Paul Dirac uncovered the anti-universe. Sponsored by Hostinger - visit URL and use the code VERITASIUM to get an extra discount on top of the sale prices.\n\nGet your exclusive edition of Veritasium's first tabletop game - join 8,000+ backers - URL\n\nIf you're looking for a molecular modelling kit, try Snatoms, a kit I invented where the atoms snap together magnetically - URL\n\nSign up for the Veritasium newsletter for weekly science updates - URL\n\n▀▀▀\nA huge thank you to Graham Farmelo and Cumrun Vafa for their invaluable expertise and contributions to this video. \n\nIf you want to hear more about Dirac's life we've posted an extended interview with biographer Graham over on our patreon here - URL\n\nA special thanks to Matteo Arfini for his help with this video.\n\nCheck out Graham Farmelo's books here - URL \n\nExplore Cumrun Vafa's research here - URL \n\nThank you also to Florida State University and Caltech for their fantastic archives.\n\nYou can find the digitized materials from the FSU's Paul A. M. Dirac Collection here -  URL - and more about the discovery of the positron here - URL \n\n▀▀▀\n0:00 Can Negative Energy Exist?\n3:27 The Schrödinger Equation Is Wrong\n8:33 The Strangest Man In Physics\n11:01 Dirac and the Klein-Gordon equation\n17:27 Heisenberg's Uncertainty Principle\n20:54 The Dirac Equation\n24:21 The Saddest Chapter in Modern Physics\n26:35 The Anti-Electron\n29:57 Antiparticles Travel Backwards In Time\n31:24 The Anti-World \n\n\n▀▀▀\nReferences can be found here - URL \n\nImage and video references can be found here - URL \n\n▀▀▀\nSpecial thanks to our Patreon supporters: Adam Foreman, Albert Wenger, Alex Porter, Alexander Tamas, Anton Ragin, Anupam Banerjee, armedtoe, Balkrishna Heroor, Bertrand Serlet, Blake Byers, Bruce, Dave Kircher, David Johnston, David Tseng, Evgeny Skvortsov, Garrett Mueller, Gnare, gpoly, Hayden Christensen, Ibby Hadeed, Jeromy Johnson, Jon Jamison, Juan Benet, KeyWestr, Kyi, Lee Redden, Marinus Kuivenhoven, Matthias Wrobel, Meekay, meg noah, Michael Bush, Michael Krugman, Orlando Bassotto, Paul Peijzel, Richard Sundvall, Robert Oliveira, Sam Lutfi, Tj Steyn, Ubiquity Ventures, wolfee\n\n▀▀▀\nWriters: Lily Shepherd, Casper Mebius & Derek Muller\nProducer & Director: Lily Shepherd \nEditors: Jonny Lennard\nCamera Operators: Casper Mebius\nAnimators: Andrew Neet, Emma Wright, Fabio Albertelli & Peter Nelson\nIllustrators: Jakub Misiek & Nataly Zhuk\nAssistant Editors: James Horsley & James Stuart\nResearchers: Callum Cuttle & Sophia Rose \nThumbnail Designers: Abdallah Rabah, Ren Hurley & Ben Powell\nProduction Team: Katy Southwood & Josh Pitt\nExecutive Producers: Derek Muller & Casper Mebius\nAdditional video/photos supplied by Getty Images, Storyblocks\nMusic from Epidemic Sound",
+        "discovery": "sy6",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "DTsQjiPlksA",
+        "title": "Old HVAC industry practices are holding us back and costing us money. But we can fix it.",
+        "url": "https://www.youtube.com/watch?v=DTsQjiPlksA",
+        "evidence": "Old HVAC industry practices are holding us back and costing us money. But we can fix it. - YouTube (https://www.youtube.com/watch?v=DTsQjiPlksA)\n【turn1066youtube8】 [wordlim: 200] Published: 2.7 years ago; \n# Old HVAC industry practices are holding us back and costing us money. But we can fix it.\nBy: Technology Connections (3200000 followers, Verified)\nPublished: 2024-03-07, 2753351 views, 66000 likes\n\n## Description\nMore Pumping More Now\nLooking for that condensed version?    • HVAC professionals aren't sizing equipment...  \nLinks 'n' stuff:\n\nHow heat pumps actually work:\n   • Heat Pumps: the Future of Home Heating  \n\nThe video I did on home electrification:\n   • Home Electrification: There's not a lot to...  \n\nTechnology Connections on Mastodon:\nURL\n\nTechnology Connections on Bluesky:\nURL...\n\nThis channel is supported through viewer contributions on Patreon. Thanks to the generous support of people like you, Technology Connections has remained independent and possible. If you'd like to join the amazing people who've pledged their support, check out the link below. Thank you for your consideration!\n  / technologyconnections  \n\n00:00 Intro\n02:19 This video is about sizing equipment\n04:03 My home and its oversized system\n08:49 So many homes have the same problem\n10:41 Oversizing needs to stop\n13:31 Price gouging\n15:56 A note on duct sizing\n18:12 How a smart thermostat can do all the work for you\n23:00 LOAD CALCULATIONS\n29:34 An experiment to validate those calculations\n40:06 RESULTS\n42:12 The impact for me\n43:17 A rant on ductwork design\n48:57 Why the heck is my furnace so big?\n50:00 My parents (wrongly!) got told they'd need a giant heat pump\n55:08 Debrief\n1:01:11 Bloops",
+        "discovery": "sy7",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "ga9Qk38FaHM",
+        "title": "The unexpected probability result confusing everyone",
+        "url": "https://www.youtube.com/watch?v=ga9Qk38FaHM",
+        "evidence": "The unexpected probability result confusing everyone - YouTube (https://www.youtube.com/watch?v=ga9Qk38FaHM)\n【turn1066youtube9】 [wordlim: 200] Published: 2.2 years ago; \n# The unexpected probability result confusing everyone\nBy: Stand-up Maths (1350000 followers, Verified)\nPublished: 2024-09-10, 1103294 views, 35000 likes\n\n## Description\nThanks to Dylan from Seattle for sending this amazing maths fact to me. You can see an archive of their ChatGPT conversation here: URL...\n\nThanks to Grant from 3blue1brown for putting actual work aside and talking probabilities with me on a long train journey. You see see a longer version of this animations here:    / 3blue1brown  \n\nThis was my dice video from a few years back, \"The unexpected logic behind rolling multiple dice and picking the highest.\"    • The unexpected logic behind rolling multip...  \n\nSatisfy your D36 and all your other dice needs over at Maths Gear: URL...\n\nAlso on the Dice Lab if you're USA based. URL\n\nHuge thanks to my Patreon supporters. They keep me in dice. So many dice.   / standupmaths  \n\nCORRECTIONS\nNone yet, let me know if you spot anything! \nPS Never say die.\n\nFilming and editing by Alex Genn-Bash\nWritten and performed by Matt Parker\nProduced by Nicole Jacobus\nMusic by Howard Carter\nDesign by Simon Wright and Adam Robinson\nThrowing Dice at Matt: also by Alex Genn-Bash\nSome dice on loan from the Bec Hill collection\n\nMATT PARKER: Stand-up Mathematician\nWebsite: URL",
+        "discovery": "sy7",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "SAtFZPtbMpI",
+        "title": "Entirely Ridiculously Big Numbers - Numberphile",
+        "url": "https://www.youtube.com/watch?v=SAtFZPtbMpI",
+        "evidence": "Entirely Ridiculously Big Numbers - Numberphile - YouTube (https://www.youtube.com/watch?v=SAtFZPtbMpI)\n【turn1067youtube0】 [wordlim: 200] Published: 6 months ago; \n# Entirely Ridiculously Big Numbers - Numberphile\nBy: Numberphile (4760000 followers, Verified)\nPublished: 2026-05-04, 244542 views, 7400 likes\n\n## Description\nRubik's Cube combinations quickly lead to some unimaginably large numbers. More links & stuff in full description below ↓↓↓\n\nExtra footage on odd-numbered cubes:    • Odd Rubik's Cubes (extra footage) - Number...  \n\nFeaturing Richard Elwes. More Richard on Numberphile:    • Richard Elwes on Numberphile  \n\nRubik's Cube playlist:    • Rubik's Cube on Numberphile  \n\nMore big numbers on Numberphile:    • Big Numbers on Numberphile  \n\nMore about Richard Elwes (who is based at the University of Leeds): URL \n\nRichard's new book Huge Numbers\nWaterstones (UK): URL...",
+        "discovery": "sy8",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "3BR8tK-LuB0",
+        "title": "- YouTube",
+        "url": "https://www.youtube.com/watch?v=3BR8tK-LuB0",
+        "evidence": "- YouTube (https://www.youtube.com/watch?v=3BR8tK-LuB0)\n【turn1067youtube1】 [wordlim: 200] Published: 10.8 years ago; \n# \nBy: Numberphile (4770000 followers, Verified)\nPublished: 2016-01-18, 1138503 views, 26000 likes\n\n## Description\nDr James Grime discusses a type of number beyond the complex numbers, and why they are useful.\nExtra footage:    • Quaternions (extra footage)  \nMore links & stuff in full description below ↓↓↓\n\nSupport us on Patreon:   / numberphile  \n\nNUMBERPHILE\nWebsite: URL\nNumberphile on Facebook:   / numberphile  \nNumberphile tweets:   / numberphile  \nSubscribe: URL\n\nNumberphile is supported by the Mathematical Sciences Research Institute (MSRI): URL",
+        "discovery": "sy8",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "HyznrdDSSGM",
+        "title": "8-bit computer update",
+        "url": "https://www.youtube.com/watch?v=HyznrdDSSGM",
+        "channel": "Ben Eater",
+        "evidence": "Creator official /8bit page with exact title/link, project overview and first-principles learning description",
+        "source_url": "https://eater.net/8bit",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "9PPrrSyubG0",
+        "title": "Programming my 8-bit breadboard computer",
+        "url": "https://www.youtube.com/watch?v=9PPrrSyubG0",
+        "channel": "Ben Eater",
+        "evidence": "Creator official /8bit page with exact title/link, project overview and first-principles learning description",
+        "source_url": "https://eater.net/8bit",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "35zLnS3fXeA",
+        "title": "Stepping through a program on the 8-bit breadboard computer",
+        "url": "https://www.youtube.com/watch?v=35zLnS3fXeA",
+        "channel": "Ben Eater",
+        "evidence": "Creator official /8bit page with exact title/link, project overview and first-principles learning description",
+        "source_url": "https://eater.net/8bit",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "yOyaJXpAYZQ",
+        "title": "Comparing C to machine language",
+        "url": "https://www.youtube.com/watch?v=yOyaJXpAYZQ",
+        "channel": "Ben Eater",
+        "evidence": "Creator official /8bit page with exact title/link, project overview and first-principles learning description",
+        "source_url": "https://eater.net/8bit",
+        "decision": "selected",
+        "reason": "Official identity/content and editorial comparison completed"
+      },
+      {
+        "video_id": "a73ZXDJtU48",
+        "title": "Programming Fibonacci on a breadboard computer",
+        "url": "https://www.youtube.com/watch?v=a73ZXDJtU48",
+        "channel": "Ben Eater",
+        "evidence": "Creator official /8bit page with exact title/link, project overview and first-principles learning description",
+        "source_url": "https://eater.net/8bit",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "33vbFFFn04k",
+        "title": "How semiconductors work",
+        "url": "https://www.youtube.com/watch?v=33vbFFFn04k",
+        "channel": "Ben Eater",
+        "evidence": "Creator official /8bit page with exact title/link, project overview and first-principles learning description",
+        "source_url": "https://eater.net/8bit",
+        "decision": "rejected_permanent_history",
+        "reason": "Exact prior exposure permanently blocked"
+      },
+      {
+        "video_id": "DXvAlwMAxiA",
+        "title": "How a transistor works",
+        "url": "https://www.youtube.com/watch?v=DXvAlwMAxiA",
+        "channel": "Ben Eater",
+        "evidence": "Creator official /8bit page with exact title/link, project overview and first-principles learning description",
+        "source_url": "https://eater.net/8bit",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "sTu3LwpF6XI",
+        "title": "Making logic gates from transistors",
+        "url": "https://www.youtube.com/watch?v=sTu3LwpF6XI",
+        "channel": "Ben Eater",
+        "evidence": "Creator official /8bit page with exact title/link, project overview and first-principles learning description",
+        "source_url": "https://eater.net/8bit",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "KM0DdEaY5sY",
+        "title": "SR latch",
+        "url": "https://www.youtube.com/watch?v=KM0DdEaY5sY",
+        "channel": "Ben Eater",
+        "evidence": "Creator official /8bit page with exact title/link, project overview and first-principles learning description",
+        "source_url": "https://eater.net/8bit",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "peCh_859q7Q",
+        "title": "D latch",
+        "url": "https://www.youtube.com/watch?v=peCh_859q7Q",
+        "channel": "Ben Eater",
+        "evidence": "Creator official /8bit page with exact title/link, project overview and first-principles learning description",
+        "source_url": "https://eater.net/8bit",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "YW-_GkUguMM",
+        "title": "D flip-flop",
+        "url": "https://www.youtube.com/watch?v=YW-_GkUguMM",
+        "channel": "Ben Eater",
+        "evidence": "Creator official /8bit page with exact title/link, project overview and first-principles learning description",
+        "source_url": "https://eater.net/8bit",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "PCwtsK_FhUw",
+        "title": "Seeing Whole Systems",
+        "url": "https://www.youtube.com/watch?v=PCwtsK_FhUw",
+        "evidence": "Official episode page inspected",
+        "decision": "selected",
+        "reason": "Official identity/content and editorial comparison completed"
+      },
+      {
+        "video_id": "QcmNVSFyExQ",
+        "title": "The Hidden Gulf",
+        "url": "https://www.youtube.com/watch?v=QcmNVSFyExQ",
+        "evidence": "Official episode page inspected",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "230uCZj2RPs",
+        "title": "How was it made? Glass engraving",
+        "url": "https://www.youtube.com/watch?v=230uCZj2RPs",
+        "evidence": "Official episode page inspected",
+        "decision": "rejected_permanent_history",
+        "reason": "Exact prior exposure permanently blocked"
+      },
+      {
+        "video_id": "kRlSFm519Bo",
+        "title": "Astable 555 timer - 8-bit computer clock - part 1",
+        "url": "https://www.youtube.com/watch?v=kRlSFm519Bo",
+        "channel": "Ben Eater",
+        "source_url": "https://eater.net/8bit/clock",
+        "evidence": "Official course page: exact watch links/titles, 555 IC, adjustable speed/manual mode, schematic and datasheets.",
+        "decision": "selected",
+        "reason": "Official identity/content and editorial comparison completed"
+      },
+      {
+        "video_id": "81BgFhm2vz8",
+        "title": "Monostable 555 timer - 8-bit computer clock - part 2",
+        "url": "https://www.youtube.com/watch?v=81BgFhm2vz8",
+        "channel": "Ben Eater",
+        "source_url": "https://eater.net/8bit/clock",
+        "evidence": "Official course page: exact watch links/titles, 555 IC, adjustable speed/manual mode, schematic and datasheets.",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "WCwJNnx36Rk",
+        "title": "Bistable 555 - 8-bit computer clock - part 3",
+        "url": "https://www.youtube.com/watch?v=WCwJNnx36Rk",
+        "channel": "Ben Eater",
+        "source_url": "https://eater.net/8bit/clock",
+        "evidence": "Official course page: exact watch links/titles, 555 IC, adjustable speed/manual mode, schematic and datasheets.",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      },
+      {
+        "video_id": "SmQ5K7UQPMM",
+        "title": "Clock logic - 8-bit computer clock - part 4",
+        "url": "https://www.youtube.com/watch?v=SmQ5K7UQPMM",
+        "channel": "Ben Eater",
+        "source_url": "https://eater.net/8bit/clock",
+        "evidence": "Official course page: exact watch links/titles, 555 IC, adjustable speed/manual mode, schematic and datasheets.",
+        "decision": "not_selected",
+        "reason": "Less suitable than the selected mix after source completeness, topic/creator concentration and format assessment; not certified for final publication"
+      }
+    ],
+    "reddit": [
+      {
+        "post_id": "1hunulq",
+        "subreddit": "AskHistorians",
+        "title": "Why did the USA get bad at building infrastructure?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1hunulq",
+        "evidence": "Why did the USA get bad at building infrastructure? (https://www.reddit.com/r/AskHistorians/comments/1hunulq)\n【turn1056reddit48】 [wordlim: 200] Published: 1.8 years ago; Crawled: 1.4 years ago; In general, federal and state governments funded more infrastructure in the form of roads, highways, bridges, etc.",
+        "discovery": "search1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "oxe4ce",
+        "subreddit": "AskHistorians",
+        "title": "Ancient Roman roads are useable 2,000 years after their creation. Our asphalt roads get replaced every 18-20 years. The Arkadiko bridge in Greece functions 3,100 after it was built. Modern bridges are designed to be replaced after 50 years. Why'd we stop building infrastructure that outlasts us?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/oxe4ce",
+        "evidence": "Ancient Roman roads are useable 2,000 years after their creation. Our asphalt roads get replaced every 18-20 years. The Arkadiko bridge in Greece functions 3,100 after it was built. Modern bridges are designed to be replaced after 50 years. Why'd we stop building infrastructure that outlasts us? (https://www.reddit.com/r/AskHistorians/comments/oxe4ce)\n【turn1056reddit49】 [wordlim: 200] Published: 5.3 years ago; Crawled: 4.8 years ago; At what point in history did we stop thinking about building infrastructure that lasts and switch to rapid replacement model? ... Welcome to /r/AskHistorians. **Please Read Our Rules before you comment in this community**.",
+        "discovery": "search1",
+        "decision": "rejected_permanent_history",
+        "reason": "Exact prior post permanently blocked"
+      },
+      {
+        "post_id": "1rufemo",
+        "subreddit": "AskHistorians",
+        "title": "Rome was known for its advanced infrastructure and massive civil engineering projects. How well was the later Roman (Byzantine) Empire able to continue/maintain this, if at all?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1rufemo/rome_was_known_for_its_advanced_infrastructure/",
+        "evidence": "Rome was known for its advanced infrastructure and massive civil engineering projects. How well was the later Roman (Byzantine) Empire able to continue/maintain this, if at all? (https://www.reddit.com/r/AskHistorians/comments/1rufemo/rome_was_known_for_its_advanced_infrastructure/)\n【turn1056reddit50】 [wordlim: 200] Published: 8 months ago; Now, this of course doesn't mean that the civil infrastructure was fully equivalent to antiquity - baths seem to have been rarer, for example, some roads were abandoned, and even following centuries of reurbanization, most Roman cities of the 12th Century seem to have been smaller than those of late antiquity. ...   The answer is a bit simplified in parts, partly because its covering four centuries, and I had to leave out various interesting elements to not get too off-topic (for example, a lot of infrastructure, such as the baths in Amorion, survived the 7th century, even as cities generally struggled, and the renewal of Constantinople & building of the beacons was as much about Imperial legitimacy as anything else), but I hope I was able to answer your question.",
+        "discovery": "search1",
+        "decision": "selected",
+        "reason": "Selected for distinct question and topic value"
+      },
+      {
+        "post_id": "170timv",
+        "subreddit": "AskHistorians",
+        "title": "What was the state of the art with regards to infrastructure and engineering during the European colonization of North America?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/170timv",
+        "evidence": "What was the state of the art with regards to infrastructure and engineering during the European colonization of North America? (https://www.reddit.com/r/AskHistorians/comments/170timv)\n【turn1056reddit57】 [wordlim: 200] Published: 3.1 years ago; Crawled: 3.1 years ago; I’m interested in learning about infrastructure and engineering in Western Europe and North American colonies in the period leading up to the American Revolution (17th century included).",
+        "discovery": "search1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "ftzkqi",
+        "subreddit": "AskHistorians",
+        "title": "Infrastructure and the Civil War",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/ftzkqi",
+        "evidence": "Infrastructure and the Civil War (https://www.reddit.com/r/AskHistorians/comments/ftzkqi)\n【turn1056reddit58】 [wordlim: 200] Published: 6.6 years ago; Since infrastructure was mostly seen as falling under the purview of state governments, the Federal government for the most part did not head efforts to expand Southern infrastructure itself.",
+        "discovery": "search1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "fg9s1s",
+        "subreddit": "AskHistorians",
+        "title": "How good were the infrastructure, town-planning and the supply chain of the Indus Valley/Harrapans?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/fg9s1s",
+        "evidence": "How good were the infrastructure, town-planning and the supply chain of the Indus Valley/Harrapans? (https://www.reddit.com/r/AskHistorians/comments/fg9s1s)\n【turn1056reddit59】 [wordlim: 200] Published: 6.7 years ago; Crawled: 6.7 years ago; I've heard that as far as the infrastructure, town-planning and the supply chain goes, the Indus Valley in India were the best among their contemporaries, and it took a long time for them to be surpassed. ... \\- \"The Indus cities’ drainage and sanitation were two millennia ahead of those of the Roman empire; besides the Great Bath, they included magnificent circular wells, elaborate drains running beneath corbelled arches and the world’s first toilets.",
+        "discovery": "search1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "tiq1ys",
+        "subreddit": "AskHistorians",
+        "title": "Much of American infrastructure: ports, rail lines, bridges, warehouses, etc., both operational and abandoned, looks decrepit- often rusted, with peeling paint, graffiti, concrete stains, etc. Is this a new phenomenon or was there a time when our infrastructure would have looked very differently?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/tiq1ys",
+        "evidence": "Much of American infrastructure: ports, rail lines, bridges, warehouses, etc., both operational and abandoned, looks decrepit- often rusted, with peeling paint, graffiti, concrete stains, etc. Is this a new phenomenon or was there a time when our infrastructure would have looked very differently? (https://www.reddit.com/r/AskHistorians/comments/tiq1ys)\n【turn1056reddit61】 [wordlim: 200] Published: 4.6 years ago; Crawled: 4.5 years ago; Was our infrastructure purely designed for utility with as little upkeep as possible? ... Welcome to /r/AskHistorians. **Please Read Our Rules before you comment in this community**. ... We thank you for your interest in this *question*, and your patience in waiting for an in-depth and comprehensive answer to show up.",
+        "discovery": "search1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "17szn7g",
+        "subreddit": "AskHistorians",
+        "title": "Why does the USA have a government owned an operated National Highway System but nothing for Railroads?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/17szn7g",
+        "evidence": "Why does the USA have a government owned an operated National Highway System but nothing for Railroads? (https://www.reddit.com/r/AskHistorians/comments/17szn7g)\n【turn1056reddit62】 [wordlim: 200] Published: 3.0 years ago; Crawled: 2.7 years ago; The US has also nationalized is rail system throughout history, particularly in WW1. ... Welcome to /r/AskHistorians. **Please Read Our Rules before you comment in this community**. ... We thank you for your interest in this *question*, and your patience in waiting for an in-depth and comprehensive answer to show up.",
+        "discovery": "search1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1e30yhr",
+        "subreddit": "AskHistorians",
+        "title": "It is often noted that railways helped the British Empire grow and expand. Has anyone argued similarly that highways/roads for cars enabled American imperialism, and how accurate is that argument?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1e30yhr",
+        "evidence": "It is often noted that railways helped the British Empire grow and expand. Has anyone argued similarly that highways/roads for cars enabled American imperialism, and how accurate is that argument? (https://www.reddit.com/r/AskHistorians/comments/1e30yhr)\n【turn1056reddit63】 [wordlim: 200] Published: 2.3 years ago; Crawled: 2.3 years ago; Has anyone made a similar connection between highway-building (and car centric road infrastructure in general in the 20th century) and overseas US imperialism?",
+        "discovery": "search1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "f7vp9w",
+        "subreddit": "AskHistorians",
+        "title": "How do infrastructure projects of the past compare to the budgets of our states today? I mean construction of things we take for granted now - roads, national grid, communication cables, railroads, sewage systems, public transport. How was it recieved, debated and percieved by people at the time?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/f7vp9w",
+        "evidence": "How do infrastructure projects of the past compare to the budgets of our states today? I mean construction of things we take for granted now - roads, national grid, communication cables, railroads, sewage systems, public transport. How was it recieved, debated and percieved by people at the time? (https://www.reddit.com/r/AskHistorians/comments/f7vp9w)\n【turn1056reddit64】 [wordlim: 200] Published: 6.7 years ago; Crawled: 6.3 years ago; Welcome to /r/AskHistorians. **Please Read Our Rules before you comment in this community**. ... We thank you for your interest in this *question*, and your patience in waiting for an in-depth and comprehensive answer to be written, which takes time.",
+        "discovery": "search1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1hxnhcl",
+        "subreddit": "AskHistorians",
+        "title": "Is there a reasonably accurate version of 'How It's Made?' for how things historically were made?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1hxnhcl",
+        "evidence": "Is there a reasonably accurate version of 'How It's Made?' for how things historically were made? (https://www.reddit.com/r/AskHistorians/comments/1hxnhcl)\n【turn1059reddit52】 [wordlim: 200] Published: 1.8 years ago; Crawled: 1.8 years ago; This may be more an experimental archaeology question than a historical one, but is there a show, podcast, something that addresses how things historically were made, as How it's made does for modern things? ... While you might have a title to share, this is still a thread on /r/AskHistorians, and we still want the replies here to be to an /r/AskHistorians standard - presumably, OP would have asked at /r/history or /r/askreddit if they wanted a non-specialist opinion. ... I would recommend the Victoria and Albert Museum's \"How was it made?\" ... When visiting the V&A, a lot of these play on tablets next to the exhibit cases of the materials the video is recreating.",
+        "discovery": "s4",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1gu5ivf",
+        "subreddit": "Ceramics",
+        "title": "Glazing question",
+        "url": "https://www.reddit.com/r/Ceramics/comments/1gu5ivf",
+        "evidence": "Glazing question (https://www.reddit.com/r/Ceramics/comments/1gu5ivf)\n【turn1059reddit58】 [wordlim: 200] Published: 2.0 years ago; Crawled: 2.0 years ago; Earlier this year I saw an impressive exhibition of wall-based ceramic reliefs where there were different coloured elements that were very crisply realised and distinctly coloured. ... I’m just starting with ceramics so would be grateful if someone recognises this sort of thing and can explain how it is achieved. ... I know mason stains are good for this - they sell them at most pottery stores. ... Love his work/thinking - check out his interview with the V&A on youtube https://www.youtube.com/watch?",
+        "discovery": "s4",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1360qoc",
+        "subreddit": "mealtimevideos",
+        "title": "How was it made? Glass-blowing | Elliot Walker | V&A [8:11]",
+        "url": "https://www.reddit.com/r/mealtimevideos/comments/1360qoc",
+        "evidence": "How was it made? Glass-blowing | Elliot Walker | V&A [8:11] (https://www.reddit.com/r/mealtimevideos/comments/1360qoc)\n【turn1059reddit59】 [wordlim: 200] Published: 3.5 years ago; Crawled: 3.5 years ago; The slightly misnamed V&A How was it made?",
+        "discovery": "s4",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1wbtpg3",
+        "subreddit": "bookbinding",
+        "title": "First bookbinding project",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1wbtpg3/first_bookbinding_project/",
+        "evidence": "First bookbinding project (https://www.reddit.com/r/bookbinding/comments/1wbtpg3/first_bookbinding_project/)\n【turn1061reddit41】 [wordlim: 200] Published: 2 months ago; My very first bookbinding project.\n[Wednesday September 09 2026] [+117 votes]\nSHARED URL\nMy very first bookbinding project. Lay-flat sketchbook  with Strathmore 400 series toned paper and chiyogami paper covers. Followed lots of tutorial and instructions from Bittermelon bookbinding.\n\n[Thursday October 01 2026] [+2 votes]\nThe combination of the toned paper and chiyogami cover works beautifully. I also really like that the first project is actually something you can keep using afterwards",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1ut14kz",
+        "subreddit": "bookbinding",
+        "title": "First real project complete!",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1ut14kz/first_real_project_complete/",
+        "evidence": "First real project complete! (https://www.reddit.com/r/bookbinding/comments/1ut14kz/first_real_project_complete/)\n【turn1061reddit42】 [wordlim: 200] Published: 4 months ago; Crawled: 4 months ago; I made a little practice project before with some raw cardboard and copy paper before just to practice, but this is my first REAL project!  My sibling has a self-published poetry book out there, and I'm pretty sure they're working on their second, so I made them a little journal for them to draft their poems in!\n[Friday July 10 2026] [+40 votes]\nSHARED URL\nI made a little practice project before with some raw cardboard and copy paper before just to practice, but this is my first REAL project!  My sibling has a self-published poetry book out there, and I'm pretty sure they're working on their second, so I made them a little journal for them to draft their poems in!  It's coptic-bound and has 12 signatures.  I made a little indent(?) thingy (idk if there's a fancier name for it lol, I don't know a lot of the terminology yet) in the cover so I could put their name on it - i just took some cardstock and and drew their name all pretty on it (that's the little scribbled out part in the photos).  I also added a button to the cover and braided some of my string together to make a little cord to wrap around the button.  I accidentally sewed the button on a tiny bit too tightly tho so it's a little tricky to actually wrap around the button (not impossible, just a little awkward lol).  I also discovered that Mod Podge is not a suitable substitute glue lmao.",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1ox6sdw",
+        "subreddit": "bookbinding",
+        "title": "First project",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1ox6sdw/first_project/",
+        "evidence": "First project (https://www.reddit.com/r/bookbinding/comments/1ox6sdw/first_project/)\n【turn1061reddit43】 [wordlim: 200] Published: last year; It wasn’t the first project that person made, but I thought the managing of it was questionable (using 16 something sheets per section, printing them before asking for help or setting on a specific binding by accounting for swell, spending basically half of what an original commercially available copy is priced at…). ... * Is not aware Reddit has sidebars full of information ... My very first project was a watercolour sketchbook with a soft scrap leather cover.\n[Friday November 14 2025] [+128 votes]\nSHARED URL\n\n[Friday November 14 2025] [+38 votes]\nSERIOUSLY\nNew runners don't attempt a marathon, or if they do, they fuckin regret it.\nMaybe we need the bookbinding version of \"couch to 5k\" or something.\n\n  [Friday November 14 2025] [+11 votes]\n  That's basically Sealemon's guides before you tackle the heavier DAS guides.\n\n  [Saturday November 15 2025] [+6 votes]\n  We get this often in programming.\n  \"I'm new to programming, how do I make an open world rpg?\"\n  No. Just... no. =/\n\n[Friday November 14 2025] [+27 votes]\nReminds me of a post I saw recently where someone wanted a 6,000 page hardback and refused to split it up into smaller volumes.\n\n  [Saturday November 15 2025] [+7 votes]\n  Yeah that was yesterday, what a time to be alive innit?\n  Also, there was this other user that decided to bind all LOTR in one volume. It wasn’t the first project that person made, but I thought the managing of it was questionable (using 16 something sheets per section, printing them before asking for help or setting on a specific binding by accounting for swell, spending basically half of what an original commercially available copy is priced at…).\n\n[Saturday November 15 2025] [+43 votes]\nThe \"quit this hobby in two weeks\" starter pack:\n* Wants to do a leather binding\n* For Manacled\n* Thinks heat transfer vinyl is the default method of book decorating\n* It's a gift\n* For a milestone birthday next month\n* Is not aware Reddit has sidebars full of information\n* Or a search function\nI'm constantly in here begging newcomers to just make a pamphlet 😭\n\n  [Saturday November 15 2025] [+7 votes]\n  Why is it always Manacled? 🤣\n\n    [Saturday November 15 2025] [+3 votes]\n    Because it's a very popular fanfiction and a lot of people started bookbinding through seeing people bind this one.\n    In a way that's bad because it's a complicated bind, often split in three, but at least they dip their toes into bookbinding and that's great. :)\n\n    [Saturday November 15 2025] [+8 votes]\n    Truly, I do not know. I, too, bound a fic pretty early in the hobby, but it was one that fit in a damn pamphlet, and it wasn't one that the author has taken off the Internet on purpose (it was mine actually).   Ah yes, glowering at the project in timeout is such a vibe and so motivating sometimes.\n\n[Sunday November 16 2025] [+2 votes]\nAs someone with ADHD, I get the urge to drop into a new hobby and go hard.\nAs someone without a lot of extra income for hobbies, I just cannot wrap my head around starting with leather. Do the pamphlet. Do a shitty bind with a cereal box or something around the house. Cut your teeth on something small so that when you do go for the expensive bind, you have at least practiced the skills you need.\n\n[Monday November 17 2025] [+1 votes]\nMy very first project was a watercolour sketchbook with a soft scrap leather cover. I was probably crazy for just starting with watercolour paper but I got almost exactly what I wanted out of the project.\nMy next projects included two different books with homemade paper, one with a patchwork scrap leather cover (this one was a hardback) and the other I ended up redoing a couple years later.\nI always wanted something that looked rougher, more handmade, a little scrappier, and it helped me with getting started that this look involved way less precision.\nI’m huge fan of seeing more varied bindings in the sub partially because I love seeing people get weird and hyper specific in this hobby.",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1kp3770",
+        "subreddit": "bookbinding",
+        "title": "First Ever Project!",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1kp3770",
+        "evidence": "First Ever Project! (https://www.reddit.com/r/bookbinding/comments/1kp3770)\n【turn1061reddit44】 [wordlim: 200] Published: 1.5 years ago; Crawled: 1.5 years ago; I'm getting into bookbinding as a way to manage my ttrpg collection. ... My first project was a Coptic stitch book too.\n[Saturday May 17 2025] [+131 votes]\nSHARED URL\nI have finished my first bind and I'm really happy with it! I'm getting into bookbinding as a way to manage my ttrpg collection. I started with a few small blank notebooks to practice, and now I have a finished book that I am able to read. Definitely made plenty of mistakes even on the last one but I've really enjoyed making these and I can't wait to make more!\n\n[Saturday May 17 2025] [+5 votes]\nGood job! A few tips for the future, when you’re about to do the copta, always start it from the same side (ie always left to right), it will keep the “final braid” more straight. And don’t be afraid to hold the cover stronger when attaching it at the end, to decrease the gap between cover and text block\n\n  [Saturday May 17 2025] [+1 votes]\n  Thank you for the tips!\n\n[Saturday May 17 2025] [+2 votes]\nNice, looks great. What is this technique and where did you learn it? I’m very new to this and would like to try something similar to your pictures.\n\n  [Saturday May 17 2025] [+3 votes]\n  It's a coptic stitch! I followed along to the youtube video by DAS Bookbinding\n\n    [Saturday May 17 2025] [+2 votes]\n    Looks like a great channel, thanks!\n\n[Saturday May 17 2025] [+2 votes]\nI got started with bookbinding for the exact sane reason! Is this Monsterhearts?\n\n  [Saturday May 17 2025] [+2 votes]\n  Yes! I'll be running it for the first time in a few weeks\n\n    [Saturday May 17 2025] [+2 votes]\n    Cool! Have fun\n\n[Sunday May 18 2025] [+1 votes]\nNice!! My first project was a Coptic stitch book too.",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1r29rbf",
+        "subreddit": "bookbinding",
+        "title": "My first books (7 years later)",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1r29rbf/my_first_books_7_years_later/",
+        "evidence": "My first books (7 years later) (https://www.reddit.com/r/bookbinding/comments/1r29rbf/my_first_books_7_years_later/)\n【turn1061reddit45】 [wordlim: 200] Published: 9 months ago; Wanted to share some of first ever book binding projects I did when I was in high school for sketching.\nMy first project (2) was a rebind of a sketchbook I bought from Micheal’s.\n[Wednesday February 11 2026] [+30 votes]\nSHARED URL\nWanted to share some of first ever book binding projects I did when I was in high school for sketching.\nMy first project (2) was a rebind of a sketchbook I bought from Micheal’s. I wanted a blank white cover I could paint on (an idea I quickly dropped when I realized I’m not the strongest painter and just covered it in stickers lol). I reused the board from the original cover and rapped it in some paper that was floating around.\nThe next one (3-5) was my first attempt to rebind a wirebound sketchbook. I bought PVA glue and went the perfect binding route. However, the pages were perforated and I didnt think to ripped them out first so the pages are a bit jank lol. I reused the board and covered it with a large manila folder (it was just large enough to rap around but there’s still some board showing through on the edges).\nI then attempted sewing for the first time (6-9), I believe it was a basic kettle stitch. I remember being very proud of this one.",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1qw1mbd",
+        "subreddit": "bookbinding",
+        "title": "My first two (very imperfect) attempts at bookbinding",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1qw1mbd/my_first_two_very_imperfect_attempts_at/",
+        "evidence": "My first two (very imperfect) attempts at bookbinding (https://www.reddit.com/r/bookbinding/comments/1qw1mbd/my_first_two_very_imperfect_attempts_at/)\n【turn1061reddit46】 [wordlim: 200] Published: 9 months ago; The paper is just boring ol’ printer paper, the thread is cotton thread, the boards are old boxes I cut up, the cloth on the first one are scraps from a tailor’s shop, and the cover of the second is a LEGO botany box I cut to size.\n[Wednesday February 04 2026] [+35 votes]\nSHARED URL\nThe post yesterday talking about the dearth of realistic first projects inspired me to post my own. These are my first two projects, and they’re both ugly ducklings in their own ways. The paper is just boring ol’ printer paper, the thread is cotton thread, the boards are old boxes I cut up, the cloth on the first one are scraps from a tailor’s shop, and the cover of the second is a LEGO botany box I cut to size.\nThe stitches on the first one are messy as hell, and I somehow didn’t notice that I’d crossed one over until it was too late. I also didn’t realize that you’re supposed to put the end papers *over* the cloth. Oops!\nAs you can see, the stitches on notebook number two are much cleaner. The holes are also generally better aligned (I got an awl and used a jig). That being said, I cut the board a bit too small, and though you can’t see it, I managed to make the back cover way too loose. Also, I realized my needle was probably way too thick, as it was bigger than the holes my awl made.",
+        "discovery": "sr1",
+        "decision": "selected",
+        "reason": "Selected for distinct question and topic value"
+      },
+      {
+        "post_id": "1lr9itw",
+        "subreddit": "bookbinding",
+        "title": "Finished my first bind",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1lr9itw",
+        "evidence": "Finished my first bind (https://www.reddit.com/r/bookbinding/comments/1lr9itw)\n【turn1061reddit47】 [wordlim: 200] Published: 1.4 years ago; Crawled: 1.3 years ago; I decided not to do headbands for this first project to keep things simple. ...     I had made a book press using some clipboards and some random clamps I had.\n[Friday July 04 2025] [+600 votes]\nSHARED URL\nI just finished my first real bind. It’s just a small sketch/notebook. I decided not to do headbands for this first project to keep things simple. I’m excited to start a new project! I’d appreciate any feedback that will help me grow and improve.\n\n[Friday July 04 2025] [+19 votes]\nVery handsome job.\n\n[Friday July 04 2025] [+15 votes]\nOoo very clean!\n\n[Friday July 04 2025] [+8 votes]\nExcellent first try, can't wait to see how you progress 😊\n\n[Friday July 04 2025] [+5 votes]\nFirst try that's pretty good!\n\n  [Friday July 04 2025] [+10 votes]\n  Buttttttt you also asked for feedback!! Sooooo:\n  You're spine looks a bit thick for your text block\n  And\n  Your text block could be a bit straighter .\n  And\n  There a couple stray threads on some corners\n  BUT it's like perfect!! Especially for your first time!\n\n    [Friday July 04 2025] [+4 votes]\n    Thanks!\n    I had made a book press using some clipboards and some random clamps I had. I didn’t realize the signatures had slipped a bit until after I glued the spine.",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1tk0vig",
+        "subreddit": "bookbinding",
+        "title": "And now the easiest, but also hardest part: Waiting.",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1tk0vig/and_now_the_easiest_but_also_hardest_part_waiting/",
+        "evidence": "And now the easiest, but also hardest part: Waiting. (https://www.reddit.com/r/bookbinding/comments/1tk0vig/and_now_the_easiest_but_also_hardest_part_waiting/)\n【turn1061reddit48】 [wordlim: 200] Published: 5 months ago; My first bookbinding project!\n[Thursday May 21 2026] [+26 votes]\nSHARED URL\nMy first bookbinding project! Hard not to peek.\nI have cover board on the table (I don't have any actual wood), then parchment paper, the book, more parchment, more board, then the bricks, with blotting paper (watercolor paper) within each of the endpapers. Looks okay?\n\n[Friday May 22 2026] [+2 votes]\nI know right! It's hard to not immediately check how it turned out. That looks amazing, hope you show the complete work after its done!\n\n  [Friday May 22 2026] [+1 votes]\n  Thank you! Yes, I'll be back once I'm allowed to look at it. 😂",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1fijvjf",
+        "subreddit": "bookbinding",
+        "title": "First Project: A Little Pamphlet",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1fijvjf",
+        "evidence": "First Project: A Little Pamphlet (https://www.reddit.com/r/bookbinding/comments/1fijvjf)\n【turn1061reddit49】 [wordlim: 200] Published: 2.2 years ago; Crawled: 1.9 years ago; I'm learning bookbinding for a school passion project, and I just made my first \"book\"!\n[Monday September 16 2024] [+75 votes]\nSHARED URL\nI'm learning bookbinding for a school passion project, and I just made my first \"book\"! I just used stuff I had, but I ordered some supplies. It's a little messy, but it's mine.\n\n[Tuesday September 17 2024] [+9 votes]\nYay!! Welcome to bookbinding and hope you keep at it (if you like it!)\n\n  [Tuesday September 17 2024] [+3 votes]\n  Thanks! I love it so far\n\n[Tuesday September 17 2024] [+5 votes]\nThat looks adorable! Congrats on your first project and sounds like the second one is on it's way soon. I also just finished my first this week and it felt so very rewarding holding my first little book :)\n\n  [Tuesday September 17 2024] [+1 votes]\n  Thank you so much!\n\n[Tuesday September 17 2024] [+2 votes]\nEmbrace your projects. Just add a little more eaxh project. Add one skill at a time!?\n\n[Tuesday September 17 2024] [+2 votes]\nLove it! The cover paper is charming!\n\n[Tuesday September 17 2024] [+2 votes]\nNeat!\n\n[Tuesday September 17 2024] [+2 votes]\nWelcome!\nIt is so cute, I love it.\n\n  [Tuesday September 17 2024] [+2 votes]\n  Thank you! I had a bunch of fun paper laying around, I think it will be great for future projects!",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1tsx6nl",
+        "subreddit": "bookbinding",
+        "title": "My First Binding",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1tsx6nl/my_first_binding/",
+        "evidence": "My First Binding (https://www.reddit.com/r/bookbinding/comments/1tsx6nl/my_first_binding/)\n【turn1061reddit50】 [wordlim: 200] Published: 5 months ago; Hey guys I just finished my first bookbinding project and wanted to share.\n[Sunday May 31 2026] [+12 votes]\nSHARED URL\nHey guys I just finished my first bookbinding project and wanted to share.\nThe videos by fourkeysbookarts were really helpful in getting me started: URL\nI really messed up the cover though, I chose the wrong kind of paper and it was just tearing everywhere when it was folded or when glue was applied. I plan to put a sleeve on top(this time made of better paper)\n\n[Monday June 01 2026] [+2 votes]\nThat cover looks like it has seen some serious miles, but you nailed the alignment. Nothing beats the feeling of finishing that first project despite the scuffs on the jacket.\n\n  [Saturday June 06 2026] [+1 votes]\n  Thanks. Hope I can improve next time🤞🤞",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1rlsm0w",
+        "subreddit": "bookbinding",
+        "title": "First book binding!",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1rlsm0w/first_book_binding/",
+        "evidence": "First book binding! (https://www.reddit.com/r/bookbinding/comments/1rlsm0w/first_book_binding/)\n【turn1061reddit51】 [wordlim: 200] Published: 8 months ago; Crawled: 8 months ago; Today I finished my first bookbinding project after planning it for a long time.\n[Thursday March 05 2026] [+7 votes]\nSHARED URL\nHello! Today I finished my first bookbinding project after planning it for a long time.\nThere were a few mistakes here and there, but I like how it turned out ^^",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1qut54e",
+        "subreddit": "bookbinding",
+        "title": "My first bookbinding attempt. thoughts? /s",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1qut54e/my_first_bookbinding_attempt_thoughts_s/",
+        "evidence": "My first bookbinding attempt. thoughts? /s (https://www.reddit.com/r/bookbinding/comments/1qut54e/my_first_bookbinding_attempt_thoughts_s/)\n【turn1061reddit52】 [wordlim: 200] Published: 9 months ago; Sorry about the sarcasm, but why do so many submissions to this sub include the disclaimer “my first book” or something to that effect while showing a high-quality project with no beginner defects? ... I understand that we live in a world where the industrialization of binding has implanted the idea that a “good” bookbinding is uniform and perfect, but the best part of true craft is seeing the tiny imperfections that result from the human hand.\n[Tuesday February 03 2026] [+601 votes]\nSHARED URL\nSorry about the sarcasm, but why do so many submissions to this sub include the disclaimer “my first book” or something to that effect while showing a high-quality project with no beginner defects? Are these bots or karma farming? Do these beginning bookbinders really think their first projects need to be perfect? Are people just lying? I understand that we live in a world where the industrialization of binding has implanted the idea that a “good” bookbinding is uniform and perfect, but the best part of true craft is seeing the tiny imperfections that result from the human hand. Otherwise, we might as well just give up and let the contents of our books get written by AI. To all the beginner bookbinders lurking in this sub who get discouraged by these kinds of posts: don’t. Your first projects should look like shit. So should your second, and third. But your mistakes are valuable and you will get better.\nPictured is the great French binder Trautz-Bauzonnet’s 1902 bind of Tennyson’s Guinevere, illuminated on vellum.   I haven't seen anything super bad here yet but I wouldn't be surprised if people do it. Everything to harvest karma and admiration, I guess.\n\n[Tuesday February 03 2026] [+12 votes]\nAnd I was ready to be angry. Good one mate. 😁\n\n[Tuesday February 03 2026] [+8 votes]\nCan't say I've seen the posts you're talking about. I've seen some impressive beginner work on here but nothing that seems impossible for someone who put a lot of care into their first project and potentially has other craft experience.\n\n[Tuesday February 03 2026] [+45 votes]\nIdk man, my first few attempts looked like ass and seeing these absolute pristine \"first time bindings\" almost discouraged me from going further. Maybe I should've been inspired that if a newcomer could make something as pretty as those, then I can too, but it always gave me the opposite effect\n\n  [Tuesday February 03 2026] [+12 votes]\n  When it comes to the craft subreddits, I've realized that \"first project\" is kind of a flexible term. People will either have help from someone who's already really damn good at the craft (the sewing community has a lot of this) or they'll start and restart and redo things until they're satisfied it's social media-ready. I can put hours tweaking and redoing things until I'm at least satisfied (and I'm a perfectionist, so I have to force myself to say \"it's good enough\", because I can't help but see every small defect, urgh).\nI've joined this sub some months ago and still didn't finish my first project because it include so many things (wood work, painted illustrations, embroidery, golden accents, edge painting, custom end paper, matching box etc).\nI've made many mistakes and will keep making more, but when my project is done, even far from perfect, it will not be something simple or seen as \"for beginner\".\nI've always worked like that, so maybe it's the same for others.\n\n  [Tuesday February 03 2026] [+1 votes]\n  I’m sorry, but it’s pretty insulting to true practitioners to suggest that you can “learn many parts of the craft at once” in a few months as a “perfectionist.”\n  I am all for amateurs giving this craft a go, but it’s both discouraging to newcomers to encourage this sort of humblebragging and it’s insulting to real practitioners to suggest that the craft is so easy you can create a nearly-perfect product on your first try.",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1u7y0qs",
+        "subreddit": "AskEngineers",
+        "title": "Did Anyone gave RITES exam for the post of resident Engineer : AskEngineers",
+        "url": "https://id.reddit.com/r/AskEngineers/comments/1u7y0qs/did_anyone_gave_rites_exam_for_the_post_of/",
+        "evidence": "Did Anyone gave RITES exam for the post of resident Engineer : AskEngineers (https://id.reddit.com/r/AskEngineers/comments/1u7y0qs/did_anyone_gave_rites_exam_for_the_post_of/)\n【turn1061search1】 [wordlim: 200] Published: 4 months ago; Crawled: 4 months ago; 3 · 1 komentar Racing Sim parts connected to motor shaft 2 · 1 komentar Electric Motor Theory, Design and Control Resources\n\nWelcome to Reddit,the front page of the internet.Become a Redditor and join one of thousands of communities. ... Discussion Did Anyone gave RITES exam for the post of resident Engineer (self.AskEngineers)",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1jtbs6s",
+        "subreddit": "bookbinding",
+        "title": "Some of my rebinds : bookbinding",
+        "url": "https://de.reddit.com/r/bookbinding/comments/1jtbs6s/some_of_my_rebinds/",
+        "evidence": "Some of my rebinds : bookbinding (https://de.reddit.com/r/bookbinding/comments/1jtbs6s/some_of_my_rebinds/)\n【turn1061search2】 [wordlim: 200] Published: 1.6 years ago; Crawled: 4 months ago; Completed Project Some of my rebinds (de.reddit.com) ... I really love the book cloth you used for Jane Eyre.",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1ua4le2",
+        "subreddit": "bookbinding",
+        "title": "Fixing warped boards after casing in/assembly? : bookbinding",
+        "url": "https://es.reddit.com/r/bookbinding/comments/1ua4le2/fixing_warped_boards_after_casing_inassembly/",
+        "evidence": "Fixing warped boards after casing in/assembly? : bookbinding (https://es.reddit.com/r/bookbinding/comments/1ua4le2/fixing_warped_boards_after_casing_inassembly/)\n【turn1061search3】 [wordlim: 200] Published: 4 months ago; Crawled: 4 months ago; (self.bookbinding)",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1mzndj0",
+        "subreddit": "linguistics",
+        "title": "Q&A weekly thread - August 25, 2025 - post all questions here! : linguistics",
+        "url": "https://tr.reddit.com/r/linguistics/comments/1mzndj0/qa_weekly_thread_august_25_2025_post_all/",
+        "evidence": "Q&A weekly thread - August 25, 2025 - post all questions here! : linguistics (https://tr.reddit.com/r/linguistics/comments/1mzndj0/qa_weekly_thread_august_25_2025_post_all/)\n【turn1061search4】 [wordlim: 200] Published: 1.2 years ago; Crawled: 4 months ago; Post a comment! ... If you want to post in the current week's Q&A thread, you can find that at the top of r/linguistics (make sure you sort by 'hot'). ... System  | Represents a wide range of systems, including electrical circuits, chemical processes, and mechanical assemblies. ... What languages should I learn (I am fluent in English, have about a professional level of French, and can orally communicate fluently in Mandarin, though I am lacking in writing)? ... That (do what makes you happy) said, here are some things I wish I did in HS as a 4th yr, canadian undergrad in linguistics who is currently looking at master's programs: if you want to get better at making good arguments, I recommend joining a debate club (or even a book club, anything where you will be required to practice making and providing evidence for an argument); if you want to learn more languages, I recommend a language with a word order that is different to English/French/Mandarin, just for kicks. ... I have an example video, unfortunately it's in German: https://www.instagram.com/reel/DGyWR-KC0RY/ \"aus meinem Tagebuch dass ich mit 11 Jahren geschrieben habe\" and immediately afterwards \"leute besucht\" and \"schlecht von uns denken\" due to the rapid cuts it may not be very obvious to a non-native speaker, but the last words of those sentences sound like they have an added syllable",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "l35jko",
+        "subreddit": "conlangs",
+        "title": "What is 999,999,999 in your language? : conlangs",
+        "url": "https://gl.reddit.com/r/conlangs/comments/l35jko/what_is_999999999_in_your_language/",
+        "evidence": "What is 999,999,999 in your language? : conlangs (https://gl.reddit.com/r/conlangs/comments/l35jko/what_is_999999999_in_your_language/)\n【turn1061search5】 [wordlim: 200] Published: 5.8 years ago; Crawled: 4 months ago; As such, posts about scripts/writing systems alone will be removed, as r/Neography is a more fitting place for them.\n\nPosts may still contain images of or details about a conscript (fictional writing system), but the post must have enough content to merit being a front-page post even if the script were not included. ... Also, please try and review the formatting of your post (or comment!)",
+        "discovery": "sr1",
+        "decision": "rejected_permanent_history",
+        "reason": "Exact prior post permanently blocked"
+      },
+      {
+        "post_id": "1qgrn4v",
+        "subreddit": "IndustrialMaintenance",
+        "title": "What’s the dumbest mistake you made as a new maintenance tech? : IndustrialMaintenance",
+        "url": "https://tr.reddit.com/r/IndustrialMaintenance/comments/1qgrn4v/whats_the_dumbest_mistake_you_made_as_a_new/?sort=qa",
+        "evidence": "What’s the dumbest mistake you made as a new maintenance tech? : IndustrialMaintenance (https://tr.reddit.com/r/IndustrialMaintenance/comments/1qgrn4v/whats_the_dumbest_mistake_you_made_as_a_new/?sort=qa)\n【turn1061search9】 [wordlim: 200] Published: 9 months ago; Crawled: 4 months ago; Post a comment! ... Poor design. ... dcs is a nightmare for interference zoning. the safety cpu scans at like 30-60ms but it's reactive so if your robot is moving 1.5m/s there's a good chance that you're gonna be balls deep in that area by the time the controller initiates the stop. moving a few mm at a time while mashing reset+deadman nonstop sucks. you could disable dcs to jog but unless your safety policy is shit you're going to be waiting for somebody to get a new safety signature ... My mechanics still ask me if I checked the fuses any time I suggest its a mechanical problem. ... [–]ServiceGuyComments 1 puan 2 puan 3 puan 5 ay önce (0 alt yorum)",
+        "discovery": "sr1",
+        "decision": "rejected_permanent_history",
+        "reason": "Exact prior post permanently blocked"
+      },
+      {
+        "post_id": "plkfql",
+        "subreddit": "civilengineering",
+        "title": "Downgrading my career:civilengineering",
+        "url": "https://no.reddit.com/r/civilengineering/comments/plkfql/downgrading_my_career/",
+        "evidence": "Downgrading my career:civilengineering (https://no.reddit.com/r/civilengineering/comments/plkfql/downgrading_my_career/)\n【turn1061search14】 [wordlim: 200] Published: 5.2 years ago; Crawled: 4 months ago; Welcome to Reddit,the front page of the internet.Become a Redditor and join one of thousands of communities. ... Downgrading my career (self.civilengineering) ... This particular engineer has about 10 years of experience. At what point is it no longer an organizational failure? ... It is also part of your useful time as manager to ask your staff questions during design rather than letting spin wheels and waste time.",
+        "discovery": "sr1",
+        "decision": "rejected_permanent_history",
+        "reason": "Exact prior post permanently blocked"
+      },
+      {
+        "post_id": "2ppc7s",
+        "subreddit": "engineering",
+        "title": "Design Engineers, What do you design for a living? : engineering",
+        "url": "https://vi.reddit.com/r/engineering/comments/2ppc7s/design_engineers_what_do_you_design_for_a_living/",
+        "evidence": "Design Engineers, What do you design for a living? : engineering (https://vi.reddit.com/r/engineering/comments/2ppc7s/design_engineers_what_do_you_design_for_a_living/)\n【turn1061search15】 [wordlim: 200] Published: 11.9 years ago; Crawled: 4 months ago; If you see any post or comment that violates these rules, please report it so the moderators can respond in a timely manner. ... No questions on \"how something works\" — try r/AskEngineers. ... ###### Need to Interview an Engineer? ... discussions in r/engineering ... Welcome to Reddit,the front page of the internet.Become a Redditor and join one of thousands of communities.【 ... I design (primarily) subsurface safety valves for offshore oil wells.",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1uvc7op",
+        "subreddit": "conlangs",
+        "title": "Any suggestions for good/interesting conlangs to learn?:conlangs",
+        "url": "https://fi.reddit.com/r/conlangs/comments/1uvc7op/any_suggestions_for_goodinteresting_conlangs_to/",
+        "evidence": "Any suggestions for good/interesting conlangs to learn?:conlangs (https://fi.reddit.com/r/conlangs/comments/1uvc7op/any_suggestions_for_goodinteresting_conlangs_to/)\n【turn1061search16】 [wordlim: 200] Published: 4 months ago; Crawled: 3 months ago; has a Discord as well, where people draw in the calligraphic koi writing system, and I'd bet they are interacting with the language significantly.",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "p6pd9i",
+        "subreddit": "AskEngineers",
+        "title": "Need help with free body diagram of complex system : AskEngineers",
+        "url": "https://hr.reddit.com/r/AskEngineers/comments/p6pd9i/need_help_with_free_body_diagram_of_complex_system/",
+        "evidence": "Need help with free body diagram of complex system : AskEngineers (https://hr.reddit.com/r/AskEngineers/comments/p6pd9i/need_help_with_free_body_diagram_of_complex_system/)\n【turn1061search18】 [wordlim: 200] Published: 5.2 years ago; Crawled: 4 months ago; Mechanical Need help with free body diagram of complex system (self.AskEngineers) ... https://imgur.com/a/MUpWQqO",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1s5ghap",
+        "subreddit": "StructuralEngineering",
+        "title": "What is a huge sign that SE is NOT FOR YOU? : StructuralEngineering",
+        "url": "https://sr.reddit.com/r/StructuralEngineering/comments/1s5ghap/what_is_a_huge_sign_that_se_is_not_for_you/",
+        "evidence": "What is a huge sign that SE is NOT FOR YOU? : StructuralEngineering (https://sr.reddit.com/r/StructuralEngineering/comments/1s5ghap/what_is_a_huge_sign_that_se_is_not_for_you/)\n【turn1061search21】 [wordlim: 200] Published: 7 months ago; Crawled: 4 months ago;     `    - The Obligation of the Engineer ... r/civilengineering\n\nr/AskEngineers ... Post a comment!",
+        "discovery": "sr1",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1wn0hr2",
+        "subreddit": "AskEconomics",
+        "title": "Does conventional productivity measurement capture a country’s ability to build physical capacity quickly?",
+        "url": "https://www.reddit.com/r/AskEconomics/comments/1wn0hr2/does_conventional_productivity_measurement/",
+        "evidence": "Does conventional productivity measurement capture a country’s ability to build physical capacity quickly? (https://www.reddit.com/r/AskEconomics/comments/1wn0hr2/does_conventional_productivity_measurement/)\n【turn1062reddit1】 [wordlim: 200] Published: last month; \n[Tuesday September 22 2026] [+4 votes]\nLabor productivity is commonly measured as output per hour worked.\n\nBut suppose an economy has high measured productivity, abundant capital, advanced technology and skilled labor, while major physical projects — infrastructure, factories, ships or power systems — still take many years to deliver.\n\nIs the time required to convert those resources into physical capacity captured anywhere in conventional productivity measures?\n\nI have been thinking about whether something like **“execution productivity”** — the ability to convert capital, technology and labor into a required physical result within a given time — is a meaningful separate concept.\n\nOr would economists regard this as already captured by concepts such as total factor productivity, construction productivity, state capacity, industrial capacity, or project management?\n\n**Is there an established economic concept or metric that measures what I am trying to describe?**",
+        "discovery": "sr2",
+        "decision": "rejected_permanent_history",
+        "reason": "Exact prior post permanently blocked"
+      },
+      {
+        "post_id": "1tf9qxu",
+        "subreddit": "AskEconomics",
+        "title": "EILI5 - How do you measure ‘productivity’?",
+        "url": "https://www.reddit.com/r/AskEconomics/comments/1tf9qxu/eili5_how_do_you_measure_productivity/",
+        "evidence": "EILI5 - How do you measure ‘productivity’? (https://www.reddit.com/r/AskEconomics/comments/1tf9qxu/eili5_how_do_you_measure_productivity/)\n【turn1062reddit2】 [wordlim: 200] Published: 5 months ago; \n[Sunday May 17 2026] [+1 votes]\nI just read a post asking about (low) UK salaries and the answer was low productivity. How is that actually measured? Is it simply a company’s earnings divided by the number of workers?  Is it a good metric?Honestly it seems like it could be a good way to for businesses to pressure thier employees to “work harder!”  What really improves productivity?\n\n[Sunday May 17 2026] [+1 votes]\n**NOTE: Top-level comments by non-approved users must be manually approved by a mod before they appear.**\nThis is part of our policy to maintain a high quality of content and minimize misinformation. Approval can take 24-48 hours depending on the time zone and the availability of the moderators. If your comment does not appear after this time, it is possible that it did not meet our quality standards. Please refer to the subreddit rules in the sidebar and our answer guidelines if you are in doubt.\nPlease do not message us about missing comments in general. If you have a concern about a specific comment that is still not approved after 48 hours, then feel free to message the moderators for clarification.",
+        "discovery": "sr2",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "17dl0jd",
+        "subreddit": "AskEconomics",
+        "title": "How is labor-productivity measured in industries where output isn't tangible?",
+        "url": "https://www.reddit.com/r/AskEconomics/comments/17dl0jd",
+        "evidence": "How is labor-productivity measured in industries where output isn't tangible? (https://www.reddit.com/r/AskEconomics/comments/17dl0jd)\n【turn1062reddit3】 [wordlim: 200] Published: 3.1 years ago; Crawled: 3.1 years ago; \n[Sunday October 22 2023] [+11 votes]\nProductivity = Output/labor-hour input right?\n\nSo take for example the programming industry:\n\nHow do you measure output? The lines of code written? More code doesn't mean more progress or better product. It just means more code (in fact more code can be a bad thing too).\n\nSimilar things go for writing:\n\nWhat's the standard comparison for articles vs books vs screenplays? Number of words written? I'm not sure",
+        "discovery": "sr2",
+        "decision": "selected",
+        "reason": "Selected for distinct question and topic value"
+      },
+      {
+        "post_id": "1jpi139",
+        "subreddit": "AskEconomics",
+        "title": "How is productivity measured? How difficult is it to do it in practice?",
+        "url": "https://www.reddit.com/r/AskEconomics/comments/1jpi139",
+        "evidence": "How is productivity measured? How difficult is it to do it in practice? (https://www.reddit.com/r/AskEconomics/comments/1jpi139)\n【turn1062reddit4】 [wordlim: 200] Published: 1.6 years ago; Crawled: 1.6 years ago; \n[Wednesday April 02 2025] [+2 votes]\nI read this blog that is very illustrative of what I mean\n\nURL\n\nTo summarize a programmer appeared to be the worst because he didn’t engage with the tools to capture said metrics and spent all his time unblocking difficult programs for other colleagues making the team as a whole far more productive.\n\nIt seems it’s a very difficult borderline impossible thing to model on millions / billions of people in hundreds of discrete industries.",
+        "discovery": "sr2",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "j499w4",
+        "subreddit": "AskHistorians",
+        "title": "How did people keep food from spoiling before modern refrigeration? Were people able to know what the \"expiration dates\" of foods that they were able to keep fresh were?",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/j499w4",
+        "evidence": "How did people keep food from spoiling before modern refrigeration? Were people able to know what the \"expiration dates\" of foods that they were able to keep fresh were? (https://www.reddit.com/r/AskHistorians/comments/j499w4)\n【turn1062reddit5】 [wordlim: 200] Published: 6.1 years ago; Crawled: 6.1 years ago; \nTo begin with, keep in mind that people in the pre-modern world ate very different diets from most Western people today.  Most of their calories came from staple crops like wheat, rice, potatoes, maize, and millet.  Cereal crops in particular can be stored for years, so preservation was not really an issue.  Few cultures ate fresh meat on anything like a daily basis.  In temperate climates, fruits and vegetables were eaten fresh in season through the spring and summer (in warmer climates, of course, fresh produce was always available).  Traditional autumn crops like winter squash, carrots, turnips, onions, apples, and pears stay fresh for months if stored properly - long enough to keep until the earliest crops come into season in the spring.  By carefully planning out their crops, people could ensure they would always have some type of fruit or vegetable to supplement their staples.\nVegetables can be preserved through traditional methods as well.  Pickles/gherkins, sauerkraut, kimchi, etc. all are made by lactic acid fermentation.  A saltwater brine promotes the growth of beneficial bacteria.  The bacteria produce lactic acid, preserving the food.  Many of the important nutrients are preserved as well; sauerkraut, for example, could be brought on sea voyages to prevent scurvy, since it contains vitamin C.  Fruits like grapes, dates, and apples can be crushed and fermented into wine and cider, preserving their nutrients and adding alcohol.  Alcoholic beverages last longer than fresh juice (which naturally ferments into wine), but spoil within days unless they are stored in airtight containers (bottles, amphorae, or barrels) or distilled or freeze concentrated into something like brandy.\nDrying is an effective preservation method for a great many foods.  You've probably eaten raisins before - fresh grapes last only a few days, but raisins remain edible for months or more.  Apricots, dates, figs, and other fruits are also commonly dried.  Drying isn't limited to fruit - whitefish like cod have been dried everywhere from Northern Europe to Indonesia for centuries.  Many North American tribes made variations of pemmican: dried meat mixed with fat, often with dried fruit.\nMeat preservation was particularly important, because unless the entire animal was consumed fresh (either by selling the meat or by holding a well-attended feast) the meat of a large animal like a cow, pig, or deer would quickly spoil.  Perhaps not as quickly as modern readers might think - whole, dressed carcasses were traditionally (and often still are, actually) hung in a cool place for days or weeks to age.  Hunting estates in Europe commonly had a game larder - a dedicated room or outbuilding for hanging and storing meat.  Unheated and built low to the ground (often with a dirt floor) in a shady spot and with plenty of ventilation, meat in a game larder would mature for weeks before it was judged ready to be eaten.\nBut beyond that time, or in hotter climates, meat needed to be preserved.  Spoiled meat is not only unappetizing; unlike fruits and vegetables, it is potentially deadly to eat.  Salting was common where salt was available.  Salted pork, and its close cousin bacon, were cured in a brine strong enough to prevent decomposition.  Corned beef and similar products around the world are made through the same process.  Traditional hams like prosciutto and country ham are heavily salted to preserve them indefinitely.  Meat and fish are also both commonly smoked.  In modern times it is done for flavor, but a heavy enough smoking introduces preservative chemicals and dehydrates the food.  Salmon have been preserved by smoking by the native peoples of the Pacific Northwest for centuries - they could catch massive harvests of fish during the salmon run and preserve them to last through the lean times that followed.  Sausages could be preserved with salt, smoke, dehydration, fermentation, or a combination of these methods.  Salami, varieties of which were made across much of Europe, is both salted and dried, and often also fermented or smoked (or both).  Even milk can be preserved - for a few days as yogurt or kumis, or for months or even years as hard cheese like cheddar or parmesan.\nOther foods that fit this category include nuts and seeds like almonds, walnuts, acorns, sunflower seeds, etc. These foods generally store fairly well over periods of months, some of them (such as acorns) require lots of processing to make them edible (leaching out the tannins that make them bitter), others can be eaten directly \"off the shelf\".\nYou also have foods that don't store quite as long but can store for months either easily or with a little effort: squashes and root vegetables for example. Squashes store reasonably well even at ambient temperatures, root vegetables usually require a little bit of help in the form of cool temperatures. This is where you get root cellars (or caves). Fortunately, because of the nature of the seasons it's usually during the coldest months (winter) when you need stored foods the most, so even if storing potatoes and carrots in a cool cellar works well for only a couple of months on average, that's all you need.\nBut, of course, it's not always smart to rely solely on one technique to ensure you have stored up calories for winter or emergencies. Ice has also been used to cool down entire \"warehouses\" as well as, more recently, ice chests. Ice would be mined from glaciers or frozen lakes and transported across land to be stored in large \"ice houses\" where it was insulated partially from the heat by the building as well as straw and other materials, ice could sometimes last for many months between the seasons in this way. Ice houses have been in use for at least 3700 years.\nAs far as people knowing \"expiration dates\" of food, the answer is generally no. People would have experience knowing how long various foods (like, say, turnips) would keep and might be more wary as those dates got stretched. But in general people would have to simply \"check\" whether something was still edible or not (by smell, for example). Even so, it was very common even up through the early 20th century for people to eat food that had spoiled a little (or even a lot), sometimes there was just no choice because there wasn't the huge abundance of food that we have today. That said, there's a common myth that people used spices and strong flavorings as a means to cover up the taste of spoiled food, particularly meat, this simply isn't true. One of the oldest and most basic ways is by creating what's known as a [root cellar] (URL), [another example] (URL), and a [third] (URL) (all taken at in slaves quarters at Hermitage, the home of Andrew Jackson) which allowed underground storage at slightly lower temperature. The amazing abundance of subfloor pits in the mid Atlantic and their examination also indicates they were often used by slaves to keep what little valuables they had, but they definitely kept vegetables in them as well. The bigger homes didn't call them root cellars, they just called them cellars. Both Jefferson and Washington had homes with extensive cellars that allowed storage of numerous foodstuffs - Jefferson keeping imported olives, parmesan cheese, and wine, among other items, while Washington tended to keep more traditional and field grown vegetables. Another thing that helped keep food cool was ice, which ice houses in America date back to at least the early 1780s (I wrote a little more about them [here] (URL).\nAnother system for keeping food cool in use in America from possibly as early as the 17th century is the Spring House, a stone or brick structure built over a spring and using the cool water to preserve food (and often specifically dairy) for longer than otherwise possible. We've known cooler food stays longer for quite a while and have taken steps to create storage areas that allow food preservation for far longer than science has allowed our modern convenience.",
+        "discovery": "sr2",
+        "decision": "selected",
+        "reason": "Selected for distinct question and topic value"
+      },
+      {
+        "post_id": "1fd2y22",
+        "subreddit": "AskFoodHistorians",
+        "title": "Earliest known food preservation methods?",
+        "url": "https://www.reddit.com/r/AskFoodHistorians/comments/1fd2y22",
+        "evidence": "Earliest known food preservation methods? (https://www.reddit.com/r/AskFoodHistorians/comments/1fd2y22)\n【turn1062reddit6】 [wordlim: 200] Published: 2.2 years ago; Crawled: 1.3 years ago; \n[Monday September 09 2024] [+12 votes]\nHey y'all,\n\nI'm an educator working on szhuzhing up some of our food waste material. I was wondering, what is the earliest known example of food preservation?\n\nCurrently, I came across a 14,000 year old piece of deer jerky while adventuring through Google. Pretty old! But I have a sneaking suspicion that older food preservation methods using cold temperatures had been practiced before that? Especially amongst Indigenous people in cold-as-hell climates that have long demonstrated an understanding of ice manipulation for temperature control (e.g igloos). It goes without being said that many dominant historical accounts downplay the contributions of Indigenous Peoples, so please share any sources or oral histories or breadcrumbs you may have!",
+        "discovery": "sr2",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "16nvfqo",
+        "subreddit": "asklinguistics",
+        "title": "Writing systems and language particularity",
+        "url": "https://www.reddit.com/r/asklinguistics/comments/16nvfqo",
+        "evidence": "Writing systems and language particularity (https://www.reddit.com/r/asklinguistics/comments/16nvfqo)\n【turn1062reddit7】 [wordlim: 200] Published: 3.1 years ago; Crawled: 3.1 years ago; \n[Wednesday September 20 2023] [+3 votes]\nLet's say that there is lang-A, which is an open syllable language, that has a fit writing system for its phonetic needs (syllabary), whilst lang-B doesn't have one and isn't an open-syllable-language.\n\nIs there any possibility that if a lang-B writing system is invented on its own it will be a syllabary?\n\n[Wednesday September 20 2023] [+4 votes]\nURL\n\n[Thursday September 21 2023] [+1 votes]\nAs it happens, most languages have acquired their writing systems from a few source scripts. But when they do so, they usually make adaptations to fit the needs of their languages. Some other interesting cases include\n* Greek Linear B - an adaptation of a syllabary where some vowels acted like the modern English \"silent e\". This was before the Greeks borrowed and readapted the Phoenician script and created the Greek alphabet as we know it.\n* Cherokee - an alphabet repurposed as a syllabary\n* Semitic abjad \"alphabet\" (including the Phoenician script which eventually becomes our alphabet).\n* Ugaritic - It looks like cuneiform, but was actually an adaptation of the Semitic abjad.\n* Multiple scripts of Japan - including adaptations to write Japanese grammatical particles not found in the Chinese script as they had borrowed it.\nHope this helps.",
+        "discovery": "sr2",
+        "decision": "selected",
+        "reason": "Selected for distinct question and topic value"
+      },
+      {
+        "post_id": "ftxwe2",
+        "subreddit": "AskEngineers",
+        "title": "What design error have you caught that could have resulted in major failure?",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/ftxwe2",
+        "evidence": "What design error have you caught that could have resulted in major failure? (https://www.reddit.com/r/AskEngineers/comments/ftxwe2)\n【turn1063reddit1】 [wordlim: 200] Published: 6.6 years ago; Crawled: 6.5 years ago; \n[Friday April 03 2020] [+274 votes]\nAs per the title.\n\n\nFor me, I caught a mix design that had aggregate larger than the rebar spacing for a huge pour - not major, but something.\n\nWhat have you caught?\n\n[Friday April 03 2020] [+172 votes]\nThis was before I went back to school for engineering. But I was working for a titanium fab shop and caught a structural element for a race boat that was designed in G5 but was specced to be built in G2. Had it made it into the boat it’s almost certain the part would have held, right up to the point it was stressed then would have snapped in half.\nAt least a couple hundred grand worth of damage, plus a couple of lives at risk.\n\n  [Friday April 03 2020] [+53 votes]\n  What does G5/G2 mean?\n\n    [Friday April 03 2020] [+14 votes]\n    Metal composition spec, like 6061 or 5052 for aluminum, 4140 or A36 or 1045 for steel\n\n      [Friday April 03 2020] [+11 votes]\n      Do you know why some specs are four numbers, while some are a letter followed by a number?\n\n        [Friday April 03 2020] [+20 votes]",
+        "discovery": "sr3",
+        "decision": "rejected_permanent_history",
+        "reason": "Exact prior post permanently blocked"
+      },
+      {
+        "post_id": "10phree",
+        "subreddit": "AskEngineers",
+        "title": "Have you ever, or how to deal with, getting to the end of a project and realizing it won't work?",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/10phree",
+        "evidence": "Have you ever, or how to deal with, getting to the end of a project and realizing it won't work? (https://www.reddit.com/r/AskEngineers/comments/10phree)\n【turn1063reddit2】 [wordlim: 200] Published: 3.8 years ago; Crawled: 3.5 years ago; \n[Monday January 30 2023] [+151 votes]\nI'm doing my senior design project for Bachelors degree, and I am starting to realize that no amount of realistic bracketry is going to make this thing work. The design is fundamentally bad, and it has managed to not get shot down by 3 layers of professional critiques.\n\nHow do you deal with getting to the end of a project and realizing it wont work? Or, do you have any stories of failure that will help me rebound from this situation?\n\n[Monday January 30 2023] [+58 votes]\nIn a production environment you will change the design to accomplish the original goal if possible. In truly catastrophic situations you refund the original money and move on to the next project.\nJust make sure that it actually has a problem and you are not  chasing perfection before release. Every design has its own set of drawbacks.\nSince this is for college you might want to talk to your professor/advisor about what you've discovered and see what they think.\nMy senior design project ended somewhat similar when we discovered that the custom mail packaging machine we were designing could just be purchased for half the cost.",
+        "discovery": "sr3",
+        "decision": "selected",
+        "reason": "Selected for distinct question and topic value"
+      },
+      {
+        "post_id": "y60l5v",
+        "subreddit": "AskEngineers",
+        "title": "What are some dumb design engineering design fails which didn’t seem dumb when designing them?",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/y60l5v/what_are_some_dumb_design_engineering_design/",
+        "evidence": "What are some dumb design engineering design fails which didn’t seem dumb when designing them? (https://www.reddit.com/r/AskEngineers/comments/y60l5v/what_are_some_dumb_design_engineering_design/)\n【turn1063reddit3】 [wordlim: 200] Published: 4.1 years ago; \nI have a lot of gas cans, and invariably I end up bumping those Enviro-Flow nozzles, and they get a little crack in them at the base.  And if they didn't leak before, they do after that.\n\n      [Monday October 17 2022] [+12 votes]\n      I never have issues with them breaking either. My problems are always with how slow they go when I’m trying to fill 15 gallons at a time… usually just end up taking off the spout and doing a pray n’ pour\n\n      [Monday October 17 2022] [+4 votes]\n      The one I have dribbles out of the button you need to press.  It isn't always a problem, but if you tip it up to put the gas in a car or something it quickly becomes one.  Even filling up a mower often has a little bit of leakage.\n      Dealing with gas is one of the multiple reasons that I've ditched gas mowers (spinning reel mowers are easier) and don't want to deal with gas cars as soon as I can.\n\n  [Monday October 17 2022] [+64 votes]\n  OH FUCK THOSE THINGS. I spilled gas all over my bike and my pants because of it.\n\n    [Monday October 17 2022] [+12 votes]\n    I don't even try anymore, just take the nozzle off and pour without a nozzle.\n\n  [Monday October 17 2022] [+50 votes]\n  Good intentions, but very poorly executed.\n  The audacity they had to put those nozzles onto 5 gallon cans to where I have to press a button that requires your entire palm while balancing the 5 gallon can without scratching the vehicle’s paint job.\n  Attaching a hose is the work around but it didn’t make the whole process and different from a regular design.\n\n    [Monday October 17 2022] [+16 votes]\n    Or even if you don't care about the paint job, if you rest the weight of the gas can on the nozzle, it breaks and you spill a quart or two out right there (and still have to finish the job, now with no nozzle at all).\n\n  [Monday October 17 2022] [+14 votes]\n  Search Amazon for gas can spout replacement.\n\n    [Monday October 17 2022] [+4 votes]\n    Oh I have lots.\n\n  [Monday October 17 2022] [+6 votes]\n  These ones are awesome though. URL\n\n    [Monday October 17 2022] [+11 votes]\nThe RS-25 engine had a very high isp (efficiency) but at the cost of complexity to the point where you basically had to rebuild the engines after each mission; which dashed any hopes of the advertised turn around time of 1-2 weeks.\nThe shuttle IMO was a brilliant piece of engineering that was designed to a mix of extremely bad requirements. It’s pretty much the text book example all the bad outcomes of a of design by committee.\n\n  [Monday October 17 2022] [+34 votes]\n  this is a great example. the Shuttle ended up being a really bad design that probably set US rocket development back 20 years. it *might* have been good if it hadn't been designed by committee. we'll see if Starship can fulfil the lower costs from reusability that the shuttle was supposed to have.\n\n  [Monday October 17 2022] [+54 votes]\n  What's wild is that the shuttle program requirement to do what is extremely obviously either a capture of a Soviet satillite, or an American lost satillite recapture was created in the early 70s, when film cameras were critical to spy satillite operation.   Agree. I am a structural engineer and without already knowing about this story I’m not certain I would have caught it. If anything crosses my desk that looks even remotely like this I will know to catch it, but it is a difficult case for sure\n\n  [Monday October 17 2022] [+2 votes]\n  I caught the error in 30 seconds when I looked at the design change.  No excuses for that disaster.\n\n    [Monday October 17 2022] [+6 votes]\n    Agree. Seems like negligence to me.\n\n  [Monday October 17 2022] [+6 votes]\n  The trickiness of the design change itself isn’t really the thing to focus on in this case. The engineers and others working on the project were acting irresponsibly in general. The original design wasn’t even up to code, and the design change was signed off over the phone without looking at any drawings. Workers noticed beams bending during construction but didn’t say anything.\n\n  [Monday October 17 2022] [+4 votes]\n  > Hyatt regency suspended walkway collapse\n  That was an installation/fabricator change.    The \"engineer\" being Steve Jobs himself in that particular case.\n  > The company's response, in a nutshell? You're holding it wrong.  \n  > \"Just avoid holding it in that way,\" Apple CEO Steve Jobs wrote in an e-mail that was making the rounds on the Web on Friday morning.\n\n    [Monday October 17 2022] [+14 votes]\n    Came here to say this! And Apple still hasn't fully gotten it rectified: their devices still seem to get less reception than their counterparts, within the same network and area.\n\n      [Monday October 17 2022] [+5 votes]\n      Really? Do you have a source for this? I've been saying this for years but I don't have data to back it up!\n\n        [Monday October 17 2022] [+4 votes]\n        Sounds like this would be trivial to study and I imagine if that was true to a significant degree it’d be common knowledge at this point.\n\n        [Monday October 17 2022] [+3 votes]\n        Mine is just anecdotal, but from years of doing mobile repair and seeing it. Hasn't changed since the 4.\nAnd then there is the lack of owner serviceability. And I'm not talking about the shit that is intentionally designed to make you pay the manufacturer to service it or complex electronics. I have a floor fan you can't remove the cover from to clean it without breaking it.\n\n[Monday October 17 2022] [+8 votes]\nIt's a common meme that a USB plug (edit: USB A in particular) doesn't fit the first time. Then, upon flipping, it doesn't fit the second time. Then, upon flipping *again*, it finally works the third time. The plug was correctly oriented the first time but must be guided in with better accuracy and control than people tend to apply unless necessary; this is a design flaw.\n\n  [Monday October 17 2022] [+7 votes]\n  Good thing they fixed it in Rev C\n\n    [Monday October 17 2022] [+6 votes]\n    Just want to throw out there that the USB-C is named that because it connects to both the host and the device. USB-A (the rectangular one that people are most familiar with) is a host and USB-B (on printers and micro B and mini B used in previous generation cell phones and other stuff) is for a device.",
+        "discovery": "sr3",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1s9jto9",
+        "subreddit": "AskEngineers",
+        "title": "[Removed]",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/1s9jto9/removed/",
+        "evidence": "[Removed] (https://www.reddit.com/r/AskEngineers/comments/1s9jto9/removed/)\n【turn1063reddit4】 [wordlim: 200] Published: 7 months ago; \n[Wednesday April 01 2026] [+21 votes]\n[Removed]\n\n[Wednesday April 01 2026] [+36 votes]\nHyatt regency hotel collapse\n\n  [Wednesday April 01 2026] [+10 votes]\n  This. This is an absolute egregious error that was just pure incompetence. Even a second year engineering student can fully comprehend how incredibly serious this mistake was. Not even really a mistake, just blatant lack of ethics. I know too much about this one.\n\n    [Wednesday April 01 2026] [+3 votes]\n    I agree with pure incompetence but how does lack of ethics fit into that?\n\n  [Wednesday April 01 2026] [+15 votes]\n  Wasn't this caused by contractors overruling engineers?\n\n    [Wednesday April 01 2026] [+3 votes]\n    Yep. The design distributed the load working tolerances, execution doubled the load on one nut resulting in the collapse.\n\n      [Wednesday April 01 2026] [+10 votes]\n      Nope, contractor asked for the change, but it was signed off by the engineer.\n\n      [Wednesday April 01 2026] [+15 votes]\n      No, the contractors submitted an alternate to the original design, which was not a single rod but multiple rods and the concrete deck became part of the load bearing column (very simply stated).",
+        "discovery": "sr3",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "12bogty",
+        "subreddit": "AskEngineers",
+        "title": "As quality engineer, how do I lead failure analysis and continuous improvement when the stakeholders aren’t interested?",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/12bogty",
+        "evidence": "As quality engineer, how do I lead failure analysis and continuous improvement when the stakeholders aren’t interested? (https://www.reddit.com/r/AskEngineers/comments/12bogty)\n【turn1063reddit5】 [wordlim: 200] Published: 3.6 years ago; Crawled: 3.3 years ago; \n[Tuesday April 04 2023] [+156 votes]\nI’m a quality engineer working at a mid-sized startup that’s developing a complex machine to sell. My job is to solve manufacturing quality issues. We have a low volume production line that makes about 3 machines per month, which are all prototypes meant for testing and not for sale. We’re targeting to launch sales in a couple years.\n\nFor the machine, I am not a technical expert on a lot of its components. The design engineers are. Our manufacturing workers will assemble a sub-system on the machine. They find something wrong. They raise an issue then pass it along to me. Meanwhile, the manufacturing workers try their best to live with the problem. It’s my job to chase down the designer and ask them to help with root causing, figuring out a permanent countermeasure (usually a design change), and brainstorm a prevention method.\n\nThe company leadership keeps delaying our next design iteration, so the engineers have little incentive to fix their design. In addition, when they see the temporary band-aid that manufacturing put in place, they’re less motivated to help with root cause.",
+        "discovery": "sr3",
+        "decision": "rejected_permanent_history",
+        "reason": "Exact prior post permanently blocked"
+      },
+      {
+        "post_id": "1pd6dpi",
+        "subreddit": "MechanicalEngineering",
+        "title": "What’s the worst design mistake you’ve ever seen?",
+        "url": "https://www.reddit.com/r/MechanicalEngineering/comments/1pd6dpi/whats_the_worst_design_mistake_youve_ever_seen/",
+        "evidence": "What’s the worst design mistake you’ve ever seen? (https://www.reddit.com/r/MechanicalEngineering/comments/1pd6dpi/whats_the_worst_design_mistake_youve_ever_seen/)\n【turn1063reddit6】 [wordlim: 200] Published: 11 months ago; \n[Wednesday December 03 2025] [+74 votes]\n\n\n[Wednesday December 03 2025] [+22 votes]\nI’ve seen a few $20k ish pieces of injection molds scrapped due to warpage we didn’t predict or mistakes in the models.\n\n  [Thursday December 04 2025] [+3 votes]\n  Rookie numbers. I’ve seen 100k RnD molds make parts that everyone knew were not useful in any way because our boss told management the designs would revolutionize our industry.\n\n[Wednesday December 03 2025] [+23 votes]\nIn the cad:\n- M3x0.35 screw\n- M3x0.5 threaded hole\n- number 3 clearance + CBORE for SHCS\nAt that point you’re trying to mess with me\n\n  [Wednesday December 03 2025] [+14 votes]\n  They all start with the number 3 surely they're the same thing?\n\n  [Wednesday December 03 2025] [+2 votes]\n  We had a huge issue using some Japanese housings that were threaded for a 3.5x.6 thread.  All of our products are designed using inch standard, and the previous engineer didn't account for metric being used on a Sony housing.  Because of this they used .138-32 UNC-2A threaded fasteners.",
+        "discovery": "sr3",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1htbz1a",
+        "subreddit": "MechanicalEngineering",
+        "title": "What’s the most ridiculous design flaw you’ve come across in your work or daily life?",
+        "url": "https://www.reddit.com/r/MechanicalEngineering/comments/1htbz1a",
+        "evidence": "What’s the most ridiculous design flaw you’ve come across in your work or daily life? (https://www.reddit.com/r/MechanicalEngineering/comments/1htbz1a)\n【turn1063reddit7】 [wordlim: 200] Published: 1.8 years ago; Crawled: 1.8 years ago; \n[Saturday January 04 2025] [+61 votes]\nTell us about the \"Who thought this was a good idea?!\" moments in engineering.\n\n[Saturday January 04 2025] [+89 votes]\nA hydraulic emergency relief for a rise and fall platform that was un reachable by both the operator or floor staff.\n\n[Saturday January 04 2025] [+5 votes]\nI started a new job where I was the most experienced guy in the team and they had taken a roof with a ventilated attic and moved the insulation to the roof but kept the attic insulated. I had to explain why that wouldn't work. Smh.\nEdit: ventilated not insulated.\n\n  [Saturday January 04 2025] [+4 votes]\n  Am I missing something here or did you mean to say \"but kept the attic ventilated\"?\n\n    [Saturday January 04 2025] [+2 votes]\n    Oh yeah, my bad. That should be ventilated. Thanks.\n\n[Saturday January 04 2025] [+49 votes]\nSeeing a student making a 700€ worth order to buy 2 centrifugal pumps for the robotic team.\nThe pumps were ordered before the design process started.\nThe project was about building a vertical profiler, which is an strumented buoy capable of diving, thus the need for pump to control buoyancy.",
+        "discovery": "sr3",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "o37kg1",
+        "subreddit": "AskEngineers",
+        "title": "What have been the hardest problems you've had to solve in the industry?",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/o37kg1",
+        "evidence": "What have been the hardest problems you've had to solve in the industry? (https://www.reddit.com/r/AskEngineers/comments/o37kg1)\n【turn1063reddit8】 [wordlim: 200] Published: 5.4 years ago; Crawled: 5.4 years ago; \n[Saturday June 19 2021] [+6 votes]\nWhether it's design and CAD, site inspection, failure analysis, or installing a system, what have been the most difficult and time-consuming problems you've encountered as an engineer? I'm curious about what the challenges of an engineering career can be. I'm not trying to scare myself, I just want to hear some interesting stories.\n\nP.S. It would be cool to hear from government engineers too :)\n\n[Saturday June 19 2021] [+8 votes]\nKeeping within schedule, budget, and margin on a satellite program. You can ask the world of people but the second you hard cap the $ on the line, you have to accept lowering your expectations. Want it to last long but use cheap parts? Then you need to pay a ton for shielding and it may not be able to be launched for weight/other reasons. Want it small? Be prepared to use smaller/more modern parts and increase your risk. Want it super secure? Dollars for that to.\nEDIT: Program managers in space also see you as a line item to factor into that problem.",
+        "discovery": "sr3",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "rtow88",
+        "subreddit": "AskEngineers",
+        "title": "What are the requirements for parts that \"should definitely not fail\"? How are they met?",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/rtow88",
+        "evidence": "What are the requirements for parts that \"should definitely not fail\"? How are they met? (https://www.reddit.com/r/AskEngineers/comments/rtow88)\n【turn1063reddit9】 [wordlim: 200] Published: 4.9 years ago; Crawled: 4.8 years ago; \n[Saturday January 01 2022] [+19 votes]\nWhat are the requirements for parts that \"should definitely not fail\"? How are they met?\n\n[Saturday January 01 2022] [+30 votes]\nIt depends on the item, but in general use a layered approach.   Pressure vessels are a shall not fail item.   We control/monitor:\n* design (verified by a 3rd party)\n* incoming materials (metal, filler, gases)\n* process (machine, welder, ambient conditions)\n* output (non-destructive examination, test at 150%)\n* operation (periodic checks on corrosion/wear, relief devices)\nI've seen similar-ish layered approaches on seatbelts, brakes, lethal piping, and armor.\n\n  [Saturday January 01 2022] [+10 votes]\n  Especially with pressure vessels. \n  Very few things are more destructive.\n\n  [Sunday January 02 2022] [+6 votes]\n  Saving this as the acronym DIPOO. lol\n\n    [Sunday January 02 2022] [+2 votes]\n    ™️\n\n[Saturday January 01 2022] [+8 votes]\nYou start with a requirement for high availability and reliability requirements.  Then you have to define a value for high availability (e.g. 90% or 99% or 99.95%).",
+        "discovery": "sr3",
+        "decision": "selected",
+        "reason": "Selected for distinct question and topic value"
+      },
+      {
+        "post_id": "1uiridv",
+        "subreddit": "Visiblemending",
+        "title": "First embroidery mend!:Visiblemending",
+        "url": "https://bg.reddit.com/r/Visiblemending/comments/1uiridv/first_embroidery_mend/",
+        "evidence": "First embroidery mend!:Visiblemending (https://bg.reddit.com/r/Visiblemending/comments/1uiridv/first_embroidery_mend/)\n【turn1064search0】 [wordlim: 200] Published: 4 months ago; Crawled: 4 months ago; \n\nпубликувано на 29 Jun 2026\n\n# Visiblemending\n\n355 494 читателя\n\n5 потребители гледащи в момента\n\n[Input]\n\nA lot of time, care, and resources go into the creation of everyday items, especially the clothes we wear. Mending honors and celebrates all of that by extending the usable life of items, rather than just throwing them away and replacing them. Visible mending combines the repair process with creative expression. This is a place to share your visible mending projects, or learn and gather ideas for visible mending.\n\nUpcycling, zero waste fashion, secondhand projects, etc., do not automatically belong here, they must prominently feature visible mending.\n\nMends do not need to be expressly \"Visible\", but consider if it would be more appropriate in the dedicated subreddit for r/InvisibleMending.\n\n•\n\nEMBROIDERYFirst embroidery mend! (i.redd.it)\n\nsubmitted преди 19 минути by Vlinder_88\n\n  * коментирай\n  * запази\n  * [Input]скрий\n\n  * докладвай\n\nняма коментари (все още)\n\nImage",
+        "discovery": "sr4",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1vrq4m1",
+        "subreddit": "Visiblemending",
+        "title": "Is there a subreddit for ugly visible mending lol.",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1vrq4m1/is_there_a_subreddit_for_ugly_visible_mending_lol/",
+        "evidence": "Is there a subreddit for ugly visible mending lol. (https://www.reddit.com/r/Visiblemending/comments/1vrq4m1/is_there_a_subreddit_for_ugly_visible_mending_lol/)\n【turn1064reddit3】 [wordlim: 200] Published: 2 months ago; \n[Tuesday August 18 2026] [+840 votes]\nSHARED URL\n\n[Tuesday August 18 2026] [+215 votes]\nThat’s a black hole\n\n  [Tuesday August 18 2026] [+27 votes]\n  🤣\n\n    [Tuesday August 18 2026] [+66 votes]\n    You could always shashinko on top of it to create a swirl... Then your black hole can come to life! 🤩\n\n      [Tuesday August 18 2026] [+51 votes]\n      So this is actually what it looks like when an idiot tries to sashiko with no plan or experience doing so and thinks, 'how hard could it be?' lol. I love your idea but I think I actually like it the way it is. :)\n\n        [Tuesday August 18 2026] [+10 votes]\n        I think using thicker thread would help a lot, making it feel more intentional and the pattern more clear.\n        But if the repair holds up, I would call it a success regardless of the aesthetics.\n\n          [Tuesday August 18 2026] [+10 votes]\n          Yes I read that thicker thread is usually used for this sort of thing and perhaps specialized needles too. I just used what I had in a simple sewing kit I had on hand but I may look into better stuff in the future.",
+        "discovery": "sr4",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1qwuw74",
+        "subreddit": "Visiblemending",
+        "title": "Only visible to a select few",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1qwuw74/only_visible_to_a_select_few/",
+        "evidence": "Only visible to a select few (https://www.reddit.com/r/Visiblemending/comments/1qwuw74/only_visible_to_a_select_few/)\n【turn1064reddit4】 [wordlim: 200] Published: 9 months ago; \n[Thursday February 05 2026] [+90 votes]\nSHARED URL\n\n[Friday February 06 2026] [+4 votes]\nMost people think I’m crazy for it, since it’s extended to SOOO MANY other things… your idea is much better!\n\n  [Friday February 06 2026] [+27 votes]\n  I’ve been trying to get my boyfriend to let me repair his briefs but when he finds a hole in them he loves to tear through them with his hands like the Incredible Hulk or something 😂\n\n[Friday February 06 2026] [+3 votes]\nGood job! Looks like they still have a lot of life left in them.\n\n[Friday February 06 2026] [+27 votes]\nWhy did you have to choose that color though 😭😂😂\n\n  [Friday February 06 2026] [+27 votes]\n  It’s what I already had threaded!!\n\n    [Friday February 06 2026] [+40 votes]\n    At least it wasn’t brown\n\n  [Friday February 06 2026] [+2 votes]\n  I think it's the perfect color!\n\n  [Friday February 06 2026] [+5 votes]\n  Represents where the butthole goes!\n\n[Friday February 06 2026] [+55 votes]\nThe select few = all of r/Visiblemending😂",
+        "discovery": "sr4",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1mbc9gk",
+        "subreddit": "Visiblemending",
+        "title": "Is this beyond saving?",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1mbc9gk",
+        "evidence": "Is this beyond saving? (https://www.reddit.com/r/Visiblemending/comments/1mbc9gk)\n【turn1064reddit5】 [wordlim: 200] Published: 1.3 years ago; Crawled: 1.3 years ago; \n[Monday July 28 2025] [+12 votes]\nSHARED URL\nRepaired the inseam of these pants a few times because I love them, but then they ripped (while I was wearing them, that was an awkward walk home), do you think these are beyond saving? Was considering turning them into some hot pants\n\n[Monday July 28 2025] [+1 votes]\nThat fabric is telling you that it's tired and done. I can see the signs of wear from here.\nSo yeah, get out the scissors and hot pants them up!\n\n[Monday July 28 2025] [+0 votes]\nYou could maybe try a parachute stitch but the material may be too thin for your thread to get a bite.\n\n  [Tuesday July 29 2025] [+2 votes]\n  Thank you for introducing me to parachute stitch! I think it will work for my jeans.\n\n[Monday July 28 2025] [+20 votes]\nTotally salvagable!!\nHere are  a few recent posts FROM THIS SUB for inpo. If you look back further you will find lots more\nhttps://www.reddit.com/r/Visiblemending/comments/1m5ztru/a\\_doily\\_a\\_vintage\\_tablecloth/\nhttps://www.reddit.com/r/Visiblemending/comments/1m9vqlt/first\\_time\\_visibly\\_mending\\_jeans\\_first\\_time\\_doing/",
+        "discovery": "sr4",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1f01yxr",
+        "subreddit": "Visiblemending",
+        "title": "Some (not very) visible mending of my favourite shirt",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1f01yxr",
+        "evidence": "Some (not very) visible mending of my favourite shirt (https://www.reddit.com/r/Visiblemending/comments/1f01yxr)\n【turn1064reddit6】 [wordlim: 200] Published: 2.2 years ago; Crawled: 2.2 years ago; \n[Saturday August 24 2024] [+1037 votes]\nSHARED URL\nThis has been in my to do list since my dog tore this 2 years ago as a puppy.\n\n[Saturday August 24 2024] [+133 votes]\nWell done, the colour match is really good !\n\n[Saturday August 24 2024] [+35 votes]\nI love how you were able to work the embroidery into the design, it looks great!\n\n[Saturday August 24 2024] [+14 votes]\nOkay I love it. But now I feel like you should embroider all of them for dramatic effect 😍😍😍\n\n[Saturday August 24 2024] [+2 votes]\nLooks so good!\n\n[Saturday August 24 2024] [+102 votes]\nIt’s Visiblemending hiding in plain sight! Absolutely love it, OP! The stitching adds such fun dimensionality to a really cute design.\n\n[Saturday August 24 2024] [+2 votes]\nBrilliant idea!\n\n[Saturday August 24 2024] [+10 votes]\nBeautiful camouflage! I really like the idea of visible mending to normalize the concept of repair vs replacement, but that doesn’t mean all mends need to be visible. Stuff like this that blends in seamlessly impresses me so much.\n\n[Saturday August 24 2024] [+34 votes]\nhave you checked out r/invisiblemending yet? it’s very impressive!!\n\n[Saturday August 24 2024] [+1 votes]\nSuper cleaver! Nice work.\n\n[Saturday August 24 2024] [+4 votes]\nThis is beautiful and has inspired me to do something similar on one of my favourite shirts!\n\n[Saturday August 24 2024] [+3 votes]\nGood job!\n\n[Saturday August 24 2024] [+3 votes]\nThe mending is visible...\n...but that's the point!\n\n[Saturday August 24 2024] [+2 votes]\nGreat work!\n\n[Saturday August 24 2024] [+2 votes]\nYou did a great job! And I love the shirt!\n\n[Saturday August 24 2024] [+2 votes]\nIt looks good. You could barely tell\n\n[Saturday August 24 2024] [+4 votes]\nVisible, yet well camouflaged at the same time.\n\n[Saturday August 24 2024] [+5 votes]\nIm sorry. It looks too good. You have to do the whole thing now.\n\n  [Sunday August 25 2024] [+1 votes]\n  Right?! It’s even better!",
+        "discovery": "sr4",
+        "decision": "selected",
+        "reason": "Selected for distinct question and topic value"
+      },
+      {
+        "post_id": "1ter15j",
+        "subreddit": "AskStatistics",
+        "title": "A question about confidence intervals",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/1ter15j/a_question_about_confidence_intervals/",
+        "evidence": "A question about confidence intervals (https://www.reddit.com/r/AskStatistics/comments/1ter15j/a_question_about_confidence_intervals/)\n【turn1064reddit7】 [wordlim: 200] Published: 5 months ago; \n[Saturday May 16 2026] [+16 votes]\nFYI, this is not homework. It is for something I am doing at work.\n\nLets say I take five measurements of something, and these are the data:\n\n**12**\n\n**11**\n\n**9**\n\n**10**\n\n**14**\n\nSo we have\n\nN = 5\n\nDegrees of freedom (DF) = 4\n\nSample average = 11.2\n\nsample standard deviation (sn-1) = 1.924\n\nConfidence level (CL): 95%\n\nt\\_value = 2.776 (based on DF and CL)\n\nTherefore, and with 95% confidence, the population mean is estimated to be:\n\n11.2 ± (t\\_value \\* sn-1)/sqrt(N)\n\n= 11.2 ± (2.776 \\* 1.924)/sqrt(5)\n\n= **11.2 ± 2.39, or between 8.812 and 13.588**\n\nI believe the above is correct. So here's my question: How do I compute the probability the population mean is less than 9, for example?\n\nAnd there's a chance I am not even asking the right question. The size of the population is much much greater than 5, and any value in the population less than 9 would be considered \"bad.\" I am just trying to estimate the percentage of \"bad\" values in the population.\n\n[Saturday May 16 2026] [+22 votes]",
+        "discovery": "sr4",
+        "decision": "selected",
+        "reason": "Selected for distinct question and topic value"
+      },
+      {
+        "post_id": "1tq6exw",
+        "subreddit": "statistics",
+        "title": "[Q] Confusion about confidence interval",
+        "url": "https://www.reddit.com/r/statistics/comments/1tq6exw/q_confusion_about_confidence_interval/",
+        "evidence": "[Q] Confusion about confidence interval (https://www.reddit.com/r/statistics/comments/1tq6exw/q_confusion_about_confidence_interval/)\n【turn1064reddit8】 [wordlim: 200] Published: 5 months ago; \n[Thursday May 28 2026] [+8 votes]\nHello all,\n\nI am trying to analyse some measurements at work. 29 samples were tested and I wanted to see what the confidence intervals are.\n\nI put everything into Excel and used the Excel functions to calculate the different values. (see picture)\n\nWhat I can't wrap my head around right now is why my confidence intervals are so tight.\n\nThe range of the measurements is so much larger than the CI.\n\nAccording to the calculations 99,71% of the parts are gonna be between 64,999mm and 65,006mm.\n\nBut 13 out of 29 samples are already outside of that range. That's almost 45%.\n\nHow is this possible? Is there something I did wrong? Or is this caused by the small sample size?\n\n[Thursday May 28 2026] [+15 votes]\nConfidence intervals describe a parameter (e.g. an average), not the range of the data.\nThey are proportional to the variance of the data, but they have absolutely nothing to do with \"X% of the data lie in this range\" or anything like that.\n\n  [Thursday May 28 2026] [+4 votes]",
+        "discovery": "sr4",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "10fl8x0",
+        "subreddit": "AskStatistics",
+        "title": "Confidence Intervals",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/10fl8x0",
+        "evidence": "Confidence Intervals (https://www.reddit.com/r/AskStatistics/comments/10fl8x0)\n【turn1064reddit9】 [wordlim: 200] Published: 3.8 years ago; \n[Wednesday January 18 2023] [+1 votes]\nSo...i think i miss read googles Confidence Interval formula but I ended up with similar results, can anyone explain?\n\nSo the equation is:\n\nsample mean +/- (Confidence level) (sample standard deviations/number of observations)\n\nBeing rusty on stats, I put the Confidence level to .95 and got a results of 3.39 - 3.42. But after brushing up more, i realized that the .95% should actually be a critical value. Since my population standard deviation is unkown I am using the T critical value and not the Z. Using the T critical value I get bounds of 3.38 - 3.43.\n\nWhy are they similar, are you allowed to use the alpha significance level as the confidence level/critical value?\n\n[Wednesday January 18 2023] [+1 votes]\n> Why are they similar\nAre they that similar? The second range is 67% larger than the first. That's pretty different if you ask me.\n> are you allowed to use the alpha significance level as the confidence level/critical value\nThe confidence level and alpha are directly related, the confidence level is 1 - alpha. The *critical value* is a *function* of alpha which depends on what you're doing and how you're doing it. You cannot use one in place of another as they are *different things*. You can, however, convert between them when you have sufficient information available (which is why you can do null hypothesis significance testing by either comparing the observed statistic to the critical value or the p-value to alpha, they're equivalent ways of doing the same thing).\n\n  [Thursday January 19 2023] [+1 votes]\n  I see, so i combined the two incorrectly.\n  So in this case because I just want to find the bounds of the population mean using a sample with the population variance unknown, I should is the T critical value?",
+        "discovery": "sr4",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1fnq6wh",
+        "subreddit": "AskStatistics",
+        "title": "Is this question nonsense?",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/1fnq6wh",
+        "evidence": "Is this question nonsense? (https://www.reddit.com/r/AskStatistics/comments/1fnq6wh)\n【turn1064reddit10】 [wordlim: 200] Published: 2.1 years ago; Crawled: 2.1 years ago; \n[Monday September 23 2024] [+8 votes]\nI'm helping my girlfriend with her stats class. The course is using the textbook's website and a lot of the questions are worded just awfully. I have an MA in a relevant field and I used to work as a data scientist and teach Stats 101. Usually we can sort of metagame the question and figure out what it's trying to ask. This one threw me for a loop because I cannot stretch how it's worded into something that makes sense to me:\n\nhttps://i.imgur.com/oZFpAIe.jpeg\n\nText: \"A 99% confidence interval is the range of values that one can be **99%** confident contains the population mean. The lower limit and upper limit of this interval are the **lowest and highest values** respectively, which have a **99%** chance of claiming that the sample value is that value for the distribution of means.\"\n\n* First sentence:  Not how I would say it, but fine.\n* Lower limit and upper limit are the lowest and highest values respectively:  Okay, whatever.\n* What the hell does it mean for something to have a \"99% chance of claiming that the sample value is that value for the distribution of means\"?",
+        "discovery": "sr4",
+        "decision": "not_selected",
+        "reason": "Not retained after question quality, semantic overlap and diversity comparison"
+      },
+      {
+        "post_id": "1xefqzb",
+        "subreddit": "labrats",
+        "title": "Small findings or negative results",
+        "url": "https://www.reddit.com/r/labrats/comments/1xefqzb/small_findings_or_negative_results/",
+        "evidence": "Accessible search result dated 2026-10-24: asks where small findings, protocol optimizations, unreplicated or negative findings go when researchers leave a lab.",
+        "decision": "selected",
+        "reason": "Selected for distinct question and topic value"
+      }
+    ]
+  },
+  "candidate_scoring": {
+    "weights": {
+      "quality": 0.3,
+      "usefulness": 0.25,
+      "curiosity": 0.2,
+      "novelty": 0.15,
+      "fit": 0.1
+    },
+    "scope": "Editorial comparison of observed source descriptions and question substance; Reddit scores never imply full-thread or comment assessment",
+    "penalties_applied": [
+      "permanent duplicate rejection",
+      "semantic overlap",
+      "topic concentration",
+      "same creator",
+      "missing exact title/source verification"
+    ]
+  },
+  "selection": {
+    "youtube": [
+      {
+        "date": "2026-11-11",
+        "operation_id": "news-youtube-reddit:2026-11-11",
+        "position": 1,
+        "video_id": "PCwtsK_FhUw",
+        "title": "Seeing Whole Systems",
+        "channel": "Long Now",
+        "url": "https://www.youtube.com/watch?v=PCwtsK_FhUw",
+        "verification_method": "creator_official_page",
+        "verification_source_url": "https://longnow.org/talks/02017-case/",
+        "playback_tested": false,
+        "topic": "系统思维与反馈",
+        "role": "adjacent"
+      },
+      {
+        "date": "2026-11-11",
+        "operation_id": "news-youtube-reddit:2026-11-11",
+        "position": 2,
+        "video_id": "yOyaJXpAYZQ",
+        "title": "Comparing C to machine language",
+        "channel": "Ben Eater",
+        "url": "https://www.youtube.com/watch?v=yOyaJXpAYZQ",
+        "verification_method": "creator_official_page",
+        "verification_source_url": "https://eater.net/8bit",
+        "playback_tested": false,
+        "topic": "程序与机器表示",
+        "role": "high_confidence"
+      },
+      {
+        "date": "2026-11-11",
+        "operation_id": "news-youtube-reddit:2026-11-11",
+        "position": 3,
+        "video_id": "kRlSFm519Bo",
+        "title": "Astable 555 timer - 8-bit computer clock - part 1",
+        "channel": "Ben Eater",
+        "url": "https://www.youtube.com/watch?v=kRlSFm519Bo",
+        "verification_method": "creator_official_page",
+        "verification_source_url": "https://eater.net/8bit/clock",
+        "playback_tested": false,
+        "topic": "时钟电路与可观测性",
+        "role": "high_confidence"
+      },
+      {
+        "date": "2026-11-11",
+        "operation_id": "news-youtube-reddit:2026-11-11",
+        "position": 4,
+        "video_id": "vcoRoP3Abt8",
+        "title": "How was it made? Donatello’s clay modelling technique | V&A",
+        "channel": "Victoria and Albert Museum",
+        "url": "https://www.youtube.com/watch?v=vcoRoP3Abt8",
+        "verification_method": "creator_official_page",
+        "verification_source_url": "https://www.vam.ac.uk/articles/donatello-a-master-at-work",
+        "playback_tested": false,
+        "topic": "雕塑复作与材料过程",
+        "role": "wildcard"
+      },
+      {
+        "date": "2026-11-11",
+        "operation_id": "news-youtube-reddit:2026-11-11",
+        "position": 5,
+        "video_id": "kIzFz9T5rhI",
+        "title": "How did English evolve? - Kate Gardoqui",
+        "channel": "TED-Ed",
+        "url": "https://www.youtube.com/watch?v=kIzFz9T5rhI",
+        "verification_method": "creator_official_page",
+        "verification_source_url": "https://ed.ted.com/lessons/how-did-english-evolve-kate-gardoqui",
+        "playback_tested": false,
+        "topic": "英语词汇与社会语域",
+        "role": "adjacent"
+      }
+    ],
+    "reddit": [
+      {
+        "date": "2026-11-11",
+        "operation_id": "news-youtube-reddit:2026-11-11",
+        "position": 1,
+        "post_id": "17dl0jd",
+        "title": "How is labor-productivity measured in industries where output isn't tangible?",
+        "subreddit": "AskEconomics",
+        "url": "https://www.reddit.com/r/AskEconomics/comments/17dl0jd",
+        "original_post_verification": "not_performed_user_waived",
+        "topic": "经济统计"
+      },
+      {
+        "date": "2026-11-11",
+        "operation_id": "news-youtube-reddit:2026-11-11",
+        "position": 2,
+        "post_id": "1rufemo",
+        "title": "Rome was known for its advanced infrastructure and massive civil engineering projects. How well was the later Roman (Byzantine) Empire able to continue/maintain this, if at all?",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1rufemo/rome_was_known_for_its_advanced_infrastructure/",
+        "original_post_verification": "not_performed_user_waived",
+        "topic": "基础设施史"
+      },
+      {
+        "date": "2026-11-11",
+        "operation_id": "news-youtube-reddit:2026-11-11",
+        "position": 3,
+        "post_id": "j499w4",
+        "title": "How did people keep food from spoiling before modern refrigeration? Were people able to know what the \"expiration dates\" of foods that they were able to keep fresh were?",
+        "subreddit": "AskHistorians",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/j499w4",
+        "original_post_verification": "not_performed_user_waived",
+        "topic": "食物保存史"
+      },
+      {
+        "date": "2026-11-11",
+        "operation_id": "news-youtube-reddit:2026-11-11",
+        "position": 4,
+        "post_id": "rtow88",
+        "title": "What are the requirements for parts that \"should definitely not fail\"? How are they met?",
+        "subreddit": "AskEngineers",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/rtow88",
+        "original_post_verification": "not_performed_user_waived",
+        "topic": "可靠性工程"
+      },
+      {
+        "date": "2026-11-11",
+        "operation_id": "news-youtube-reddit:2026-11-11",
+        "position": 5,
+        "post_id": "10phree",
+        "title": "Have you ever, or how to deal with, getting to the end of a project and realizing it won't work?",
+        "subreddit": "AskEngineers",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/10phree",
+        "original_post_verification": "not_performed_user_waived",
+        "topic": "项目判断"
+      },
+      {
+        "date": "2026-11-11",
+        "operation_id": "news-youtube-reddit:2026-11-11",
+        "position": 6,
+        "post_id": "16nvfqo",
+        "title": "Writing systems and language particularity",
+        "subreddit": "asklinguistics",
+        "url": "https://www.reddit.com/r/asklinguistics/comments/16nvfqo",
+        "original_post_verification": "not_performed_user_waived",
+        "topic": "书写系统"
+      },
+      {
+        "date": "2026-11-11",
+        "operation_id": "news-youtube-reddit:2026-11-11",
+        "position": 7,
+        "post_id": "1qw1mbd",
+        "title": "My first two (very imperfect) attempts at bookbinding",
+        "subreddit": "bookbinding",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1qw1mbd/my_first_two_very_imperfect_attempts_at/",
+        "original_post_verification": "not_performed_user_waived",
+        "topic": "手工书／wildcard"
+      },
+      {
+        "date": "2026-11-11",
+        "operation_id": "news-youtube-reddit:2026-11-11",
+        "position": 8,
+        "post_id": "1f01yxr",
+        "title": "Some (not very) visible mending of my favourite shirt",
+        "subreddit": "Visiblemending",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1f01yxr",
+        "original_post_verification": "not_performed_user_waived",
+        "topic": "衣物修补／expansion"
+      },
+      {
+        "date": "2026-11-11",
+        "operation_id": "news-youtube-reddit:2026-11-11",
+        "position": 9,
+        "post_id": "1ter15j",
+        "title": "A question about confidence intervals",
+        "subreddit": "AskStatistics",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/1ter15j/a_question_about_confidence_intervals/",
+        "original_post_verification": "not_performed_user_waived",
+        "topic": "统计推断"
+      },
+      {
+        "date": "2026-11-11",
+        "operation_id": "news-youtube-reddit:2026-11-11",
+        "position": 10,
+        "post_id": "1xefqzb",
+        "title": "Small findings or negative results",
+        "subreddit": "labrats",
+        "url": "https://www.reddit.com/r/labrats/comments/1xefqzb/small_findings_or_negative_results/",
+        "original_post_verification": "not_performed_user_waived",
+        "topic": "研究记录"
+      }
+    ],
+    "observed_at": "2026-11-11T00:39:16.452179+00:00"
+  },
+  "source_verification": {
+    "youtube": [
+      {
+        "video_id": "PCwtsK_FhUw",
+        "url": "https://longnow.org/talks/02017-case/",
+        "observations": "Official Long Now page, title Seeing Whole Systems, Nicky Case, recorded Aug 7 2017; exact original embed PCwtsK_FhUw found in raw HTML. Substantive publisher summary describes balancing/reinforcing loops, attractors, emergence, variation and evolution.",
+        "observed_on": "2026-11-11",
+        "verification_method": "creator_official_page",
+        "playback_tested": false,
+        "scope": "identity and publisher-provided content verified; complete video playback and mainland access untested"
+      },
+      {
+        "video_id": "yOyaJXpAYZQ",
+        "url": "https://eater.net/8bit",
+        "observations": "Official Ben Eater project page, exact linked title Comparing C to machine language, 10:01; page explains programmable breadboard computer and positions this video as background on its operation. Exact watch link observed in raw HTML.",
+        "observed_on": "2026-11-11",
+        "verification_method": "creator_official_page",
+        "playback_tested": false,
+        "scope": "identity and publisher-provided content verified; complete video playback and mainland access untested"
+      },
+      {
+        "video_id": "kRlSFm519Bo",
+        "url": "https://eater.net/8bit/clock",
+        "observations": "Official Ben Eater clock-module page, exact original link/title Astable 555 timer - 8-bit computer clock - part 1, 27:50; describes 555 IC, adjustable clock and manual stepping, supplies schematic and datasheets.",
+        "observed_on": "2026-11-11",
+        "verification_method": "creator_official_page",
+        "playback_tested": false,
+        "scope": "identity and publisher-provided content verified; complete video playback and mainland access untested"
+      },
+      {
+        "video_id": "vcoRoP3Abt8",
+        "url": "https://www.vam.ac.uk/articles/donatello-a-master-at-work",
+        "observations": "V&A official material/technique article explicitly introduces Charlotte Hubbard's clay modelling film; exact embedded ID observed. Additional YouTube indexed first-party result identifies full title/channel and chaptered sequence from sketching through firing.",
+        "observed_on": "2026-11-11",
+        "verification_method": "creator_official_page",
+        "playback_tested": false,
+        "scope": "identity and publisher-provided content verified; complete video playback and mainland access untested"
+      },
+      {
+        "video_id": "kIzFz9T5rhI",
+        "url": "https://ed.ted.com/lessons/how-did-english-evolve-kate-gardoqui",
+        "observations": "TED-Ed official lesson title, Kate Gardoqui educator/narrator and Ben Tobitt director, substantive opening on synonymous phrases with different social imagery; raw page contains exact original YouTube ID kIzFz9T5rhI.",
+        "observed_on": "2026-11-11",
+        "verification_method": "creator_official_page",
+        "playback_tested": false,
+        "scope": "identity and publisher-provided content verified; complete video playback and mainland access untested"
+      }
+    ],
+    "news": [
+      {
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/09/taxation-council-approves-further-vat-simplification-rules-for-online-sales/",
+        "event_date": "2026-11-09",
+        "observations": "Direct Council text: IOSS scope, warehouses, platform deemed supplier; consultation then formal adoption; applicability from 1 July 2028. Commission counterpart directly checked and explicitly says no new VAT tax."
+      },
+      {
+        "url": "https://www.who.int/europe/news/item/10-11-2026-who-europe-launches-new-platform-to-improve-access-to-new-and-innovative-medicines",
+        "event_date": "2026-11-02",
+        "publication_date": "2026-11-10",
+        "observations": "Direct WHO article: EADP launch on November 2; voluntary/nonbinding; excludes product-specific commercially sensitive information; evidence/payment/access discussion."
+      },
+      {
+        "url": "https://www.eia.gov/outlooks/steo/report/elec_coal_renew.php",
+        "event_date": "2026-11-10",
+        "observations": "Direct EIA November release with forecast completion November5, rising demand/generation and renewable capacity. Reuters November10 report read independently. Differing consumption/generation/sector scopes explicitly kept separate; exact demand/total generation numbers omitted from note."
+      }
+    ],
+    "reddit": "All ten original_post_verification=not_performed_user_waived; assessment from accessible search evidence only"
+  },
+  "original_history": {
+    "ZJFILOVE/obsidian-vault:.recommendation/history/youtube.jsonl": {
+      "bytes": 64977,
+      "sha256": "adca8d0c9414ccfd5cfcb530538a02e52bc8276581484c42ce60e5287e32a3c4",
+      "rows": 300
+    },
+    "ZJFILOVE/obsidian-vault:.recommendation/history/reddit.jsonl": {
+      "bytes": 109384,
+      "sha256": "20e7481a9246a6a2408f437fb737196575c54dca8f827987c448fba0fe0c0209",
+      "rows": 580
+    }
+  },
+  "bundle": {
+    "plan_sha256": "c6ddc869e50f15d6f7fd2a8a619267fad89d18859f358d40cfbf5f57b1009cba",
+    "bundle_sha256": "07160167302a306b6296d2f374ad138dd55da80f3b5409866efa13a8fb1fa0e1",
+    "path": ".recommendation/transactions/news-youtube-reddit/2026-11-11.json",
+    "creation_commit": "947d6d4a9e9fdd777f631733ed693d246b36c813",
+    "prepared_blob": "d07ba0e693f352875d11e96c958a3b105dfe8527"
+  },
+  "publication": {
+    "commit": "b86646b5a15c433eb65a07013deda1f5b97ed780",
+    "parent": "947d6d4a9e9fdd777f631733ed693d246b36c813",
+    "base_tree": "795dada1429429b93750b6d66997e6b16833322b",
+    "tree": "16041b4707fef2b0490356ca864b93ab429b476a",
+    "method": "Git Data ordinary commit, expected-head non-force ref update",
+    "targets": [
+      {
+        "path": "News/Daily/2026-11-11.md",
+        "sha": "d9165076da92cd45f3f6114f33f42d9cc3ea3987",
+        "exact_bytes": true
+      },
+      {
+        "path": "Resources/YouTube/Daily/2026-11-11.md",
+        "sha": "27feae5d6b7c5582ec1a31af87e27fbf0e9e9fb4",
+        "exact_bytes": true
+      },
+      {
+        "path": "Resources/Reddit/Daily/2026-11-11.md",
+        "sha": "b078e73eecf05b4f7aa9bc4a4c6dde37d29e1ede",
+        "exact_bytes": true
+      },
+      {
+        "path": ".recommendation/history/youtube.jsonl",
+        "sha": "02275f73936d3a92c671a5b40ad8a993665d176d",
+        "exact_bytes": true
+      },
+      {
+        "path": ".recommendation/history/reddit.jsonl",
+        "sha": "243f9f03e0b35ea450b3ddeb73fbcbb7a662aedb",
+        "exact_bytes": true
+      }
+    ]
+  },
+  "quality_gates": {
+    "status": "passed_current_publication",
+    "source_identity": "pass within explicitly recorded scope",
+    "freshness": "pass against original 300 YouTube and 580 Reddit rows; complete ancestral reservations also passed",
+    "ordered_counts": {
+      "youtube": 5,
+      "reddit": 10
+    },
+    "semantic_dedup": "manual distinct-work/question review plus normalized title+creator comparison against original YouTube history; no reuploads selected",
+    "required_sections": "all three notes have YAML, AUTO markers, external Notes; News 3 items with required sections; YouTube5 with Why watch/priority/checkboxes; Reddit10 with dates/Why read/waiver/discussion notes/checkboxes",
+    "history": {
+      "youtube": {
+        "original": 300,
+        "final": 305,
+        "added_once": 5
+      },
+      "reddit": {
+        "original": 580,
+        "final": 590,
+        "added_once": 10
+      },
+      "prior_bytes_preserved": true
+    },
+    "diversity": {
+      "youtube_narrow_topic_max": 0.4,
+      "youtube_wildcard": "Donatello clay modelling",
+      "reddit_narrow_topic_max": 0.2,
+      "reddit_expansion_picks": [
+        "1qw1mbd",
+        "1f01yxr"
+      ],
+      "youtube_mix": "2 high-confidence, 2 adjacent, 1 wildcard",
+      "same_creator_penalty": "Two Ben Eater videos retained deliberately: software representation and clock circuitry form complementary distinct lessons; concentration penalty acknowledged rather than ignored."
+    },
+    "validators": {
+      "local_health": {
+        "status": "passed_local_checks",
+        "integrity": "passed_local_integrity",
+        "immutable": {
+          "status": "passed_immutable_publication_bundles",
+          "bundles": 91,
+          "base_ref": "947d6d4a9e9fdd777f631733ed693d246b36c813",
+          "content_qa": "not_evaluated"
+        }
+      },
+      "regression_tests": {
+        "count": 322,
+        "exit_code": 0
+      },
+      "planner": {
+        "operation_id": "news-youtube-reddit:2026-11-11",
+        "plan_sha256": "c6ddc869e50f15d6f7fd2a8a619267fad89d18859f358d40cfbf5f57b1009cba",
+        "status": "artifacts_match",
+        "next_stage": null,
+        "decisions": [
+          {
+            "repository": "ZJFILOVE/obsidian-vault",
+            "path": "News/Daily/2026-11-11.md",
+            "stage": 1,
+            "action": "no_op",
+            "reason": "target already present, including a lost successful response",
+            "expected_sha": null,
+            "target_sha": "d9165076da92cd45f3f6114f33f42d9cc3ea3987"
+          },
+          {
+            "repository": "ZJFILOVE/obsidian-vault",
+            "path": "Resources/YouTube/Daily/2026-11-11.md",
+            "stage": 1,
+            "action": "no_op",
+            "reason": "target already present, including a lost successful response",
+            "expected_sha": null,
+            "target_sha": "27feae5d6b7c5582ec1a31af87e27fbf0e9e9fb4"
+          },
+          {
+            "repository": "ZJFILOVE/obsidian-vault",
+            "path": "Resources/Reddit/Daily/2026-11-11.md",
+            "stage": 1,
+            "action": "no_op",
+            "reason": "target already present, including a lost successful response",
+            "expected_sha": null,
+            "target_sha": "b078e73eecf05b4f7aa9bc4a4c6dde37d29e1ede"
+          },
+          {
+            "repository": "ZJFILOVE/obsidian-vault",
+            "path": ".recommendation/history/youtube.jsonl",
+            "stage": 1,
+            "action": "no_op",
+            "reason": "target already present, including a lost successful response",
+            "expected_sha": "e2ab17882168fc0cf9ac99be190e007926b98486",
+            "target_sha": "02275f73936d3a92c671a5b40ad8a993665d176d"
+          },
+          {
+            "repository": "ZJFILOVE/obsidian-vault",
+            "path": ".recommendation/history/reddit.jsonl",
+            "stage": 1,
+            "action": "no_op",
+            "reason": "target already present, including a lost successful response",
+            "expected_sha": "511a9ca539e7eace9dc7900505d0f05f3668d344",
+            "target_sha": "243f9f03e0b35ea450b3ddeb73fbcbb7a662aedb"
+          }
+        ],
+        "content_qa": "not_evaluated",
+        "github_writes_performed": 0
+      },
+      "history_reservation_gate": {
+        "status": "passed_permanent_discovery_reservations",
+        "scope": "worktree_and_all_HEAD_ancestors",
+        "prepared_path_blob_versions": 27,
+        "historical_resource_count": 893
+      }
+    },
+    "actual_ci": [
+      {
+        "id": 42933175957,
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/42933175957"
+      }
+    ]
+  },
+  "source_errors": [
+    {
+      "route": "YouTube direct watch",
+      "id": "QcmNVSFyExQ",
+      "error": "Online fetch throttled",
+      "action": "Stopped watch route; not selected because full uploader identity evidence insufficient"
+    },
+    {
+      "route": "YouTube direct watch",
+      "id": "PCwtsK_FhUw",
+      "error": "Error fetching https://www.youtube.com/watch?v=PCwtsK_FhUw",
+      "action": "Official publisher page and exact embed verified instead"
+    },
+    {
+      "route": "Native HTTPS NOAA official page",
+      "error": "HTTP Error 403: Forbidden",
+      "action": "No credential or route changes; candidate not selected"
+    }
+  ],
+  "historical_backlog": [
+    "Existing legacy YouTube duplicate groups and the November8 truncation recovery remain preserved; removed reservations remain blocked",
+    "Historical November6 music failure/withdrawal retained, unrelated to today's discovery content"
+  ],
+  "limitations": [
+    "Full YouTube playback and mainland access untested",
+    "Original Reddit pages/comments unexamined under user waiver",
+    "Repository integrity and CI do not certify device synchronization or notification delivery"
+  ],
+  "publication_errors": []
+}
