@@ -4,6 +4,7 @@ tags: [journal]
 ---
 # Journal 文献精选
 <!-- AUTO:START -->
+- [[00-inbox/Journal/2026-11-11|2026-11-11 · 从同位素效应到质子通道重接：GFP 的超快 ESPT]] — 3 篇；精读 Stoner-Ma et al. 2008。
 - [[00-inbox/Journal/2026-11-10|2026-11-10 · 从差分密度到机制模型：PYP 与 bR 的超快结构电影]] — 3 篇；精读 Pande et al. 2016。
 - [[00-inbox/Journal/2026-11-09|2026-11-09 · 从光敏色素到近红外荧光蛋白：光化学通道的工程改写]] — 3 篇；精读 Filonov et al. 2011。
 - [[00-inbox/Journal/2026-11-08|2026-11-08 · 可编程蛋白开关：能量景观、竞争结合与协同组装]] — 3 篇；精读 Pillai et al. 2024。
