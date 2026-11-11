@@ -1,0 +1,2285 @@
+{
+  "schema_version": 1,
+  "project": "music",
+  "date": "2026-11-11",
+  "operation_id": "music:2026-11-11",
+  "status": "passed_current_publication",
+  "recorded_at": "2026-11-11T01:19:18.290497+00:00",
+  "bundle": {
+    "path": ".recommendation/transactions/music/2026-11-11.json",
+    "bundle_sha256": "f89184bd347948abf4f5f229db412364e6af7c23d828a478d1352d01545b2c53",
+    "plan_sha256": "f96e028cd9abf54810e96dcf3120e644612182c865321178d45ff88033d20e58",
+    "creation_commit": "c44da44175252215975e75bb3eeef98ad28f9d59",
+    "blob_sha": "5581ad3371bf4c6cf096ee21526d324ef6af4b03",
+    "immutable_readback_exact": true
+  },
+  "authorization": {
+    "observed_at": "2026-11-11T01:12:46.083Z",
+    "repositories": [
+      {
+        "repo": "obsidian-vault",
+        "permissions": {
+          "admin": true,
+          "maintain": true,
+          "pull": true,
+          "push": true,
+          "triage": true
+        },
+        "head": "361a85dd8410c2ddaf8fc861356d83e425a2a706",
+        "tree": "07eccef897ffea50085f7a544a52bf58e95f172e",
+        "protected": false,
+        "rulesets": []
+      },
+      {
+        "repo": "music-daily",
+        "permissions": {
+          "admin": true,
+          "maintain": true,
+          "pull": true,
+          "push": true,
+          "triage": true
+        },
+        "head": "f7aacf492d9bc60aa66a0925d5349ba0fbea5a4e",
+        "tree": "a15f043e2503a03f34c83abe73806f1275551a87",
+        "protected": false,
+        "rulesets": []
+      }
+    ]
+  },
+  "source_and_candidates": {
+    "minimum_required": 15,
+    "actual_count": 20,
+    "candidates": [
+      {
+        "song_id": "1497571880",
+        "candidate_title": "The Windmills of Your Mind",
+        "candidate_artist": "Dorothy Ashby",
+        "url": "https://music.apple.com/cn/song/1497571880",
+        "observed_at_utc": "2026-11-11T01:09:13.247046+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/the-windmills-of-your-mind/1497571880",
+        "page_sha256": "f6add1a3c6880f5b18b12bc25a8a37adabb675a4540f6c25cee7adf5ade9b945",
+        "title": "The Windmills of Your Mind",
+        "artist": "Dorothy Ashby",
+        "album": "Dorothy's Harp",
+        "date_published": "1969-03-01",
+        "duration": "PT3M18S",
+        "storefront": "cn",
+        "observed_song_id": "1497571880",
+        "canonical_url": "https://music.apple.com/cn/song/the-windmills-of-your-mind/1497571880",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": true,
+        "decision_reason": "入选：五位艺人各占一席，CN身份验证通过且永久历史无碰撞"
+      },
+      {
+        "song_id": "1443482197",
+        "candidate_title": "The Look of Love",
+        "candidate_artist": "Dorothy Ashby",
+        "url": "https://music.apple.com/cn/song/1443482197",
+        "observed_at_utc": "2026-11-11T01:09:13.247782+00:00",
+        "status": "unverified",
+        "error": "HTTPError: HTTP Error 404: Not Found",
+        "selected": false,
+        "decision_reason": "中国区精确歌曲页404，未通过来源门槛"
+      },
+      {
+        "song_id": "1497564546",
+        "candidate_title": "Drink",
+        "candidate_artist": "Dorothy Ashby",
+        "url": "https://music.apple.com/cn/song/1497564546",
+        "observed_at_utc": "2026-11-11T01:09:13.248311+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/drink/1497564546",
+        "page_sha256": "619f9c04c0091896fcb0a3a0932f933461d18c27dc9aa177a59b17b6f8c07a8a",
+        "title": "Drink",
+        "artist": "Dorothy Ashby",
+        "album": "The Rubáiyát Of Dorothy Ashby",
+        "date_published": "1970-01-01",
+        "duration": "PT2M31S",
+        "storefront": "cn",
+        "observed_song_id": "1497564546",
+        "canonical_url": "https://music.apple.com/cn/song/drink/1497564546",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": false,
+        "decision_reason": "同艺人竞争：竖琴的旋律与短曲结构由Windmills更清楚地承担"
+      },
+      {
+        "song_id": "1765583656",
+        "candidate_title": "Soul Vibrations",
+        "candidate_artist": "Dorothy Ashby",
+        "url": "https://music.apple.com/cn/song/1765583656",
+        "observed_at_utc": "2026-11-11T01:09:13.249005+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/soul-vibrations/1765583656",
+        "page_sha256": "756738d4f56c2198764cc6af0d4f5b056e9fbee473ca601e043af2e009f7ff2f",
+        "title": "Soul Vibrations",
+        "artist": "Dorothy Ashby",
+        "album": "Afro-Harping (Deluxe)",
+        "date_published": "1968-05-01",
+        "duration": "PT3M25S",
+        "storefront": "cn",
+        "observed_song_id": "1765583656",
+        "canonical_url": "https://music.apple.com/cn/song/soul-vibrations/1765583656",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": false,
+        "decision_reason": "永久录音重复：2026-10-21已曝光"
+      },
+      {
+        "song_id": "701395518",
+        "candidate_title": "The Rainbow",
+        "candidate_artist": "Talk Talk",
+        "url": "https://music.apple.com/cn/song/701395518",
+        "observed_at_utc": "2026-11-11T01:09:13.250075+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/the-rainbow/701395518",
+        "page_sha256": "7be5a3116c9ed76cc12c0256ebc81e3ab64dc47372be119f138429282defce24",
+        "title": "The Rainbow",
+        "artist": "Talk Talk",
+        "album": "Spirit of Eden",
+        "date_published": "1988-09-16",
+        "duration": "PT9M9S",
+        "storefront": "cn",
+        "observed_song_id": "701395518",
+        "canonical_url": "https://music.apple.com/cn/song/the-rainbow/701395518",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": true,
+        "decision_reason": "入选：五位艺人各占一席，CN身份验证通过且永久历史无碰撞"
+      },
+      {
+        "song_id": "701395521",
+        "candidate_title": "Eden",
+        "candidate_artist": "Talk Talk",
+        "url": "https://music.apple.com/cn/song/701395521",
+        "observed_at_utc": "2026-11-11T01:09:17.857945+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/eden/701395521",
+        "page_sha256": "a3b97e29c2eddcd553b66aac9f1c7a3c1931a70e8dbc9bd7a7578327071c917e",
+        "title": "Eden",
+        "artist": "Talk Talk",
+        "album": "Spirit of Eden",
+        "date_published": "1988-09-16",
+        "duration": "PT6M34S",
+        "storefront": "cn",
+        "observed_song_id": "701395521",
+        "canonical_url": "https://music.apple.com/cn/song/eden/701395521",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": false,
+        "decision_reason": "同专辑浓度：只留开篇The Rainbow"
+      },
+      {
+        "song_id": "701395523",
+        "candidate_title": "Desire",
+        "candidate_artist": "Talk Talk",
+        "url": "https://music.apple.com/cn/song/701395523",
+        "observed_at_utc": "2026-11-11T01:09:21.333357+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/desire/701395523",
+        "page_sha256": "6817fe757a07fe8f78365243fd42a7d500dbe5550108b85a7ceca8f6fcbefc49",
+        "title": "Desire",
+        "artist": "Talk Talk",
+        "album": "Spirit of Eden",
+        "date_published": "1988-09-16",
+        "duration": "PT6M57S",
+        "storefront": "cn",
+        "observed_song_id": "701395523",
+        "canonical_url": "https://music.apple.com/cn/song/desire/701395523",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": false,
+        "decision_reason": "同专辑浓度：避免与The Rainbow占据两席"
+      },
+      {
+        "song_id": "701395527",
+        "candidate_title": "I Believe In You",
+        "candidate_artist": "Talk Talk",
+        "url": "https://music.apple.com/cn/song/701395527",
+        "observed_at_utc": "2026-11-11T01:09:21.432298+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/i-believe-in-you/701395527",
+        "page_sha256": "b10e7217629b6ad801b7c5c1d8e74dea200aa49a3011851be818fbcd8539b7b9",
+        "title": "I Believe In You",
+        "artist": "Talk Talk",
+        "album": "Spirit of Eden",
+        "date_published": "1988-09-16",
+        "duration": "PT6M10S",
+        "storefront": "cn",
+        "observed_song_id": "701395527",
+        "canonical_url": "https://music.apple.com/cn/song/i-believe-in-you/701395527",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": false,
+        "decision_reason": "同艺人竞争：今天保留更明显的长篇结构变化"
+      },
+      {
+        "song_id": "701395547",
+        "candidate_title": "Wealth",
+        "candidate_artist": "Talk Talk",
+        "url": "https://music.apple.com/cn/song/701395547",
+        "observed_at_utc": "2026-11-11T01:09:21.447727+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/wealth/701395547",
+        "page_sha256": "afcba9518f8600aaf7b239e2cb28222cd802e5aafeb8d6d123d47a65eb7f6537",
+        "title": "Wealth",
+        "artist": "Talk Talk",
+        "album": "Spirit of Eden",
+        "date_published": "1988-09-16",
+        "duration": "PT6M43S",
+        "storefront": "cn",
+        "observed_song_id": "701395547",
+        "canonical_url": "https://music.apple.com/cn/song/wealth/701395547",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": false,
+        "decision_reason": "同专辑浓度：今天不把Spirit of Eden拆成多首"
+      },
+      {
+        "song_id": "1442531594",
+        "candidate_title": "New Grass",
+        "candidate_artist": "Talk Talk",
+        "url": "https://music.apple.com/cn/song/1442531594",
+        "observed_at_utc": "2026-11-11T01:09:21.795070+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/new-grass/1442531594",
+        "page_sha256": "269f560d9937dd05161161314fb0acd3aa848491549c5f516ada38c429903478",
+        "title": "New Grass",
+        "artist": "Talk Talk",
+        "album": "Laughing Stock",
+        "date_published": "1991-01-01",
+        "duration": "PT9M46S",
+        "storefront": "cn",
+        "observed_song_id": "1442531594",
+        "canonical_url": "https://music.apple.com/cn/song/new-grass/1442531594",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": false,
+        "decision_reason": "永久录音重复：2026-10-22已曝光"
+      },
+      {
+        "song_id": "1714305048",
+        "candidate_title": "Dawn in the Adan",
+        "candidate_artist": "Ichiko Aoba",
+        "url": "https://music.apple.com/cn/song/1714305048",
+        "observed_at_utc": "2026-11-11T01:09:25.843543+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/dawn-in-the-adan/1714305048",
+        "page_sha256": "34615c670c08797a60038d55645f911cdd7379e516bdfd14cab25dad0c758b3c",
+        "title": "Dawn in the Adan",
+        "artist": "青叶市子",
+        "album": "Windswept Adan",
+        "date_published": "2020-12-02",
+        "duration": "PT4M45S",
+        "storefront": "cn",
+        "observed_song_id": "1714305048",
+        "canonical_url": "https://music.apple.com/cn/song/dawn-in-the-adan/1714305048",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": true,
+        "decision_reason": "入选：五位艺人各占一席，CN身份验证通过且永久历史无碰撞"
+      },
+      {
+        "song_id": "1714303654",
+        "candidate_title": "Dawn in the Adan - roots ver.",
+        "candidate_artist": "Ichiko Aoba",
+        "url": "https://music.apple.com/cn/song/1714303654",
+        "observed_at_utc": "2026-11-11T01:09:29.307217+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/dawn-in-the-adan-roots-ver/1714303654",
+        "page_sha256": "3b0b2bd5616a9a7cc98b9a1ac02fd032dd98384e5263b2127b3db5b0d9c412de",
+        "title": "Dawn in the Adan - roots ver.",
+        "artist": "青叶市子",
+        "album": "Windswept Adan roots - Single",
+        "date_published": "2021-06-16",
+        "duration": "PT5M42S",
+        "storefront": "cn",
+        "observed_song_id": "1714303654",
+        "canonical_url": "https://music.apple.com/cn/song/dawn-in-the-adan-roots-ver/1714303654",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": false,
+        "decision_reason": "同一作品另一版本：最终明确选录音室专辑版，不并列重复"
+      },
+      {
+        "song_id": "1714307717",
+        "candidate_title": "Dawn in the Adan (live at Bunkamura Orchard Hall, Tokyo, 2021)",
+        "candidate_artist": "Ichiko Aoba",
+        "url": "https://music.apple.com/cn/song/1714307717",
+        "observed_at_utc": "2026-11-11T01:09:29.311042+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/dawn-in-the-adan-live-at-bunkamura-orchard-hall-tokyo-2021/1714307717",
+        "page_sha256": "225fae1354422794c58b23281d2374444b7a7300ee0d79997e8fa1ff13077ad8",
+        "title": "Dawn in the Adan (live at Bunkamura Orchard Hall, Tokyo, 2021)",
+        "artist": "青叶市子",
+        "album": "\"Windswept Adan\" Concert at Bunkamura Orchard Hall (Live)",
+        "date_published": "2021-08-18",
+        "duration": "PT5M17S",
+        "storefront": "cn",
+        "observed_song_id": "1714307717",
+        "canonical_url": "https://music.apple.com/cn/song/dawn-in-the-adan-live-at-bunkamura-orchard-hall-tokyo-2021/1714307717",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": false,
+        "decision_reason": "同一作品现场版本：最终选录音室专辑版，不静默替代"
+      },
+      {
+        "song_id": "1783205716",
+        "candidate_title": "Gentleman",
+        "candidate_artist": "Fela Kuti",
+        "url": "https://music.apple.com/cn/song/1783205716",
+        "observed_at_utc": "2026-11-11T01:09:29.312826+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/gentleman/1783205716",
+        "page_sha256": "7b2d4701c78634df59e82923dc15e34d06b0a6c85ab2aa7447c981a7007a54cc",
+        "title": "Gentleman",
+        "artist": "Fela Kuti",
+        "album": "Gentleman",
+        "date_published": "1973-01-01",
+        "duration": "PT14M41S",
+        "storefront": "cn",
+        "observed_song_id": "1783205716",
+        "canonical_url": "https://music.apple.com/cn/song/gentleman/1783205716",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": true,
+        "decision_reason": "入选：五位艺人各占一席，CN身份验证通过且永久历史无碰撞"
+      },
+      {
+        "song_id": "1783206092",
+        "candidate_title": "Buy Africa",
+        "candidate_artist": "Fela Kuti",
+        "url": "https://music.apple.com/cn/song/1783206092",
+        "observed_at_utc": "2026-11-11T01:09:29.430968+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/buy-africa/1783206092",
+        "page_sha256": "f6c8eda72cf7ef35158bfd963788e3411b6266be4003beee550a86b50cc66d5d",
+        "title": "Buy Africa",
+        "artist": "Fela Kuti",
+        "album": "Fela's London Scene",
+        "date_published": "1971-01-01",
+        "duration": "PT5M50S",
+        "storefront": "cn",
+        "observed_song_id": "1783206092",
+        "canonical_url": "https://music.apple.com/cn/song/buy-africa/1783206092",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": false,
+        "decision_reason": "同艺人竞争：Gentleman更适合完整展示长篇Afrobeat声部交错"
+      },
+      {
+        "song_id": "1783206087",
+        "candidate_title": "Who’re You",
+        "candidate_artist": "Fela Kuti",
+        "url": "https://music.apple.com/cn/song/1783206087",
+        "observed_at_utc": "2026-11-11T01:09:32.967747+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/whore-you/1783206087",
+        "page_sha256": "e2bc3c9df474d314cd92fbe8bc4ba1ddfb4efbb1ff9e2c7f960925c232d15923",
+        "title": "Who're You",
+        "artist": "Fela Kuti",
+        "album": "Fela's London Scene",
+        "date_published": "1971-01-01",
+        "duration": "PT9M30S",
+        "storefront": "cn",
+        "observed_song_id": "1783206087",
+        "canonical_url": "https://music.apple.com/cn/song/whore-you/1783206087",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": false,
+        "decision_reason": "同艺人竞争：保留一首Fela，避免律动主题集中"
+      },
+      {
+        "song_id": "1783198916",
+        "candidate_title": "Ako",
+        "candidate_artist": "Fela Kuti",
+        "url": "https://music.apple.com/cn/song/1783198916",
+        "observed_at_utc": "2026-11-11T01:09:37.560650+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/ako/1783198916",
+        "page_sha256": "ca45f77cb8cdd696470abfa9f9f6e1c806705e12035883ed88c9adda26b410e2",
+        "title": "Ako",
+        "artist": "Fela Kuti",
+        "album": "The '69 Los Angeles Sessions",
+        "date_published": "1993-01-01",
+        "duration": "PT2M43S",
+        "storefront": "cn",
+        "observed_song_id": "1783198916",
+        "canonical_url": "https://music.apple.com/cn/song/ako/1783198916",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": false,
+        "decision_reason": "同艺人竞争：篇幅紧凑，今天选择较长发展的Gentleman"
+      },
+      {
+        "song_id": "1783198925",
+        "candidate_title": "Witchcraft",
+        "candidate_artist": "Fela Kuti",
+        "url": "https://music.apple.com/cn/song/1783198925",
+        "observed_at_utc": "2026-11-11T01:09:37.615522+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/witchcraft/1783198925",
+        "page_sha256": "7686c5328b95330271c15f5a090235dc275706d5fc0692f128e414b368317a28",
+        "title": "Witchcraft",
+        "artist": "Fela Kuti",
+        "album": "The '69 Los Angeles Sessions",
+        "date_published": "1993-01-01",
+        "duration": "PT5M27S",
+        "storefront": "cn",
+        "observed_song_id": "1783198925",
+        "canonical_url": "https://music.apple.com/cn/song/witchcraft/1783198925",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": false,
+        "decision_reason": "同艺人竞争：本期Afrobeat位置已由Gentleman承担"
+      },
+      {
+        "song_id": "1776781586",
+        "candidate_title": "橄欖樹",
+        "candidate_artist": "Chyi Yu",
+        "url": "https://music.apple.com/cn/song/1776781586",
+        "observed_at_utc": "2026-11-11T01:09:37.622844+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/%E6%A9%84%E6%A6%84%E6%A0%91/1776781586",
+        "page_sha256": "e9387c7bf0b3448fa657c03b52df6e8bac2695006ad85e52b1e0f5a5b289284a",
+        "title": "橄榄树",
+        "artist": "齐豫",
+        "album": "重逢 齐豫 民歌精选辑",
+        "date_published": "1998-09-07",
+        "duration": "PT3M43S",
+        "storefront": "cn",
+        "observed_song_id": "1776781586",
+        "canonical_url": "https://music.apple.com/cn/song/%E6%A9%84%E6%A6%84%E6%A0%91/1776781586",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": true,
+        "decision_reason": "入选：五位艺人各占一席，CN身份验证通过且永久历史无碰撞"
+      },
+      {
+        "song_id": "1580672119",
+        "candidate_title": "橄欖樹",
+        "candidate_artist": "Chyi Yu",
+        "url": "https://music.apple.com/cn/song/1580672119",
+        "observed_at_utc": "2026-11-11T01:09:37.704918+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/%E6%A9%84%E6%A6%84%E6%A0%91/1580672119",
+        "page_sha256": "dc64af0a32bca110eb5cb823b63fe36069e9948d96c35cedd44c3200cdfc77af",
+        "title": "橄榄树",
+        "artist": "齐豫",
+        "album": "金韵民歌经典系列3 花间随笔",
+        "date_published": "1990-01-01",
+        "duration": "PT3M45S",
+        "storefront": "cn",
+        "observed_song_id": "1580672119",
+        "canonical_url": "https://music.apple.com/cn/song/%E6%A9%84%E6%A6%84%E6%A0%91/1580672119",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified",
+        "selected": false,
+        "decision_reason": "相同作品另一合辑：不把不同发行ID算成两首新作"
+      }
+    ],
+    "selected": [
+      {
+        "id": "1497571880",
+        "title": "The Windmills of Your Mind",
+        "artist": "Dorothy Ashby",
+        "album": "Dorothy's Harp",
+        "url": "https://music.apple.com/cn/song/1497571880",
+        "storefront": "cn",
+        "verification": {
+          "song_id": "1497571880",
+          "candidate_title": "The Windmills of Your Mind",
+          "candidate_artist": "Dorothy Ashby",
+          "url": "https://music.apple.com/cn/song/1497571880",
+          "observed_at_utc": "2026-11-11T01:09:13.247046+00:00",
+          "http_status": 200,
+          "final_url": "https://music.apple.com/cn/song/the-windmills-of-your-mind/1497571880",
+          "page_sha256": "f6add1a3c6880f5b18b12bc25a8a37adabb675a4540f6c25cee7adf5ade9b945",
+          "title": "The Windmills of Your Mind",
+          "artist": "Dorothy Ashby",
+          "album": "Dorothy's Harp",
+          "date_published": "1969-03-01",
+          "duration": "PT3M18S",
+          "storefront": "cn",
+          "observed_song_id": "1497571880",
+          "canonical_url": "https://music.apple.com/cn/song/the-windmills-of-your-mind/1497571880",
+          "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+          "playback_tested": false,
+          "status": "metadata_verified",
+          "selected": true,
+          "decision_reason": "入选：五位艺人各占一席，CN身份验证通过且永久历史无碰撞"
+        },
+        "playback_tested": false
+      },
+      {
+        "id": "1776781586",
+        "title": "橄榄树",
+        "artist": "齐豫",
+        "album": "重逢 齐豫 民歌精选辑",
+        "url": "https://music.apple.com/cn/song/1776781586",
+        "storefront": "cn",
+        "verification": {
+          "song_id": "1776781586",
+          "candidate_title": "橄欖樹",
+          "candidate_artist": "Chyi Yu",
+          "url": "https://music.apple.com/cn/song/1776781586",
+          "observed_at_utc": "2026-11-11T01:09:37.622844+00:00",
+          "http_status": 200,
+          "final_url": "https://music.apple.com/cn/song/%E6%A9%84%E6%A6%84%E6%A0%91/1776781586",
+          "page_sha256": "e9387c7bf0b3448fa657c03b52df6e8bac2695006ad85e52b1e0f5a5b289284a",
+          "title": "橄榄树",
+          "artist": "齐豫",
+          "album": "重逢 齐豫 民歌精选辑",
+          "date_published": "1998-09-07",
+          "duration": "PT3M43S",
+          "storefront": "cn",
+          "observed_song_id": "1776781586",
+          "canonical_url": "https://music.apple.com/cn/song/%E6%A9%84%E6%A6%84%E6%A0%91/1776781586",
+          "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+          "playback_tested": false,
+          "status": "metadata_verified",
+          "selected": true,
+          "decision_reason": "入选：五位艺人各占一席，CN身份验证通过且永久历史无碰撞"
+        },
+        "playback_tested": false
+      },
+      {
+        "id": "1714305048",
+        "title": "Dawn in the Adan",
+        "artist": "青叶市子",
+        "album": "Windswept Adan",
+        "url": "https://music.apple.com/cn/song/1714305048",
+        "storefront": "cn",
+        "verification": {
+          "song_id": "1714305048",
+          "candidate_title": "Dawn in the Adan",
+          "candidate_artist": "Ichiko Aoba",
+          "url": "https://music.apple.com/cn/song/1714305048",
+          "observed_at_utc": "2026-11-11T01:09:25.843543+00:00",
+          "http_status": 200,
+          "final_url": "https://music.apple.com/cn/song/dawn-in-the-adan/1714305048",
+          "page_sha256": "34615c670c08797a60038d55645f911cdd7379e516bdfd14cab25dad0c758b3c",
+          "title": "Dawn in the Adan",
+          "artist": "青叶市子",
+          "album": "Windswept Adan",
+          "date_published": "2020-12-02",
+          "duration": "PT4M45S",
+          "storefront": "cn",
+          "observed_song_id": "1714305048",
+          "canonical_url": "https://music.apple.com/cn/song/dawn-in-the-adan/1714305048",
+          "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+          "playback_tested": false,
+          "status": "metadata_verified",
+          "selected": true,
+          "decision_reason": "入选：五位艺人各占一席，CN身份验证通过且永久历史无碰撞"
+        },
+        "playback_tested": false
+      },
+      {
+        "id": "701395518",
+        "title": "The Rainbow",
+        "artist": "Talk Talk",
+        "album": "Spirit of Eden",
+        "url": "https://music.apple.com/cn/song/701395518",
+        "storefront": "cn",
+        "verification": {
+          "song_id": "701395518",
+          "candidate_title": "The Rainbow",
+          "candidate_artist": "Talk Talk",
+          "url": "https://music.apple.com/cn/song/701395518",
+          "observed_at_utc": "2026-11-11T01:09:13.250075+00:00",
+          "http_status": 200,
+          "final_url": "https://music.apple.com/cn/song/the-rainbow/701395518",
+          "page_sha256": "7be5a3116c9ed76cc12c0256ebc81e3ab64dc47372be119f138429282defce24",
+          "title": "The Rainbow",
+          "artist": "Talk Talk",
+          "album": "Spirit of Eden",
+          "date_published": "1988-09-16",
+          "duration": "PT9M9S",
+          "storefront": "cn",
+          "observed_song_id": "701395518",
+          "canonical_url": "https://music.apple.com/cn/song/the-rainbow/701395518",
+          "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+          "playback_tested": false,
+          "status": "metadata_verified",
+          "selected": true,
+          "decision_reason": "入选：五位艺人各占一席，CN身份验证通过且永久历史无碰撞"
+        },
+        "playback_tested": false
+      },
+      {
+        "id": "1783205716",
+        "title": "Gentleman",
+        "artist": "Fela Kuti",
+        "album": "Gentleman",
+        "url": "https://music.apple.com/cn/song/1783205716",
+        "storefront": "cn",
+        "verification": {
+          "song_id": "1783205716",
+          "candidate_title": "Gentleman",
+          "candidate_artist": "Fela Kuti",
+          "url": "https://music.apple.com/cn/song/1783205716",
+          "observed_at_utc": "2026-11-11T01:09:29.312826+00:00",
+          "http_status": 200,
+          "final_url": "https://music.apple.com/cn/song/gentleman/1783205716",
+          "page_sha256": "7b2d4701c78634df59e82923dc15e34d06b0a6c85ab2aa7447c981a7007a54cc",
+          "title": "Gentleman",
+          "artist": "Fela Kuti",
+          "album": "Gentleman",
+          "date_published": "1973-01-01",
+          "duration": "PT14M41S",
+          "storefront": "cn",
+          "observed_song_id": "1783205716",
+          "canonical_url": "https://music.apple.com/cn/song/gentleman/1783205716",
+          "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+          "playback_tested": false,
+          "status": "metadata_verified",
+          "selected": true,
+          "decision_reason": "入选：五位艺人各占一席，CN身份验证通过且永久历史无碰撞"
+        },
+        "playback_tested": false
+      }
+    ],
+    "diversity": {
+      "distinct_artists": 5,
+      "recent_artist_reuse": false,
+      "wildcard": "Dorothy Ashby：以竖琴主导的爵士器乐",
+      "languages": [
+        "instrumental",
+        "Mandarin",
+        "Japanese",
+        "English",
+        "Nigerian English/Pidgin"
+      ],
+      "eras": [
+        "1960s",
+        "1970s",
+        "1980s",
+        "2020s"
+      ],
+      "same_work_dedup": "同曲roots/live及多合辑候选被淘汰；最终五首互异"
+    },
+    "editorial_review": "五位艺人各一席，三个导听小节逐首完整，明确合辑与录音室版本；内容为原创作品导听，不声称本次完整播放。未引用歌词。"
+  },
+  "freshness": {
+    "basis": "ORIGINAL pre-selection complete available Git history, not the newly written same-operation state",
+    "original_heads": {
+      "vault": "361a85dd8410c2ddaf8fc861356d83e425a2a706",
+      "music": "f7aacf492d9bc60aa66a0925d5349ba0fbea5a4e"
+    },
+    "identity_index_sha256": "14b747d5179ec37193bcf872235e850459e12dd095dbfda68ea6910dce787644",
+    "record_count": 429,
+    "prepared_reservations": 27,
+    "unresolved_identities": [],
+    "same_recording_or_canonical_collisions": 0,
+    "normalized_title_collisions": 0,
+    "recent_artist_reuse": false
+  },
+  "publication": {
+    "operation_id": "music:2026-11-11",
+    "attempt": "20261111T0114-production",
+    "prepared_creation_commit": "c44da44175252215975e75bb3eeef98ad28f9d59",
+    "original_bundle_sha256": "f89184bd347948abf4f5f229db412364e6af7c23d828a478d1352d01545b2c53",
+    "prepared_blob_sha": "5581ad3371bf4c6cf096ee21526d324ef6af4b03",
+    "prepared_readback_exact_utf8": true,
+    "stages": [
+      {
+        "stage": 1,
+        "commit": "6c93b11701d8471408583ee584689687ec8bdd5a",
+        "readbacks": [
+          {
+            "repository": "ZJFILOVE/music-daily",
+            "path": "recommendations/2026/11/2026-11-11.json",
+            "sha": "a0853d753ef6433ee16fa375872ecb51de2ebdb8",
+            "exact_frozen_payload": true
+          },
+          {
+            "repository": "ZJFILOVE/music-daily",
+            "path": "state/tracks.json",
+            "sha": "d38444da51fb56c7c37c8763eee3224e05553a6e",
+            "exact_frozen_payload": true
+          }
+        ],
+        "completed_at": "2026-11-11T01:14:44.038Z"
+      },
+      {
+        "stage": 2,
+        "commit": "22627ffe05cce25b6d879869bff8259cf02d5581",
+        "readbacks": [
+          {
+            "repository": "ZJFILOVE/obsidian-vault",
+            "path": "Music/Daily/2026-11-11.md",
+            "commit": "22627ffe05cce25b6d879869bff8259cf02d5581",
+            "blob_sha": "89dbd92cb417aae673d0f68037f7f2b217b80598",
+            "exact_frozen_payload": true
+          },
+          {
+            "repository": "ZJFILOVE/obsidian-vault",
+            "path": "Music/Daily/manifests/2026-11-11.json",
+            "commit": "22627ffe05cce25b6d879869bff8259cf02d5581",
+            "blob_sha": "a0853d753ef6433ee16fa375872ecb51de2ebdb8",
+            "exact_frozen_payload": true
+          },
+          {
+            "repository": "ZJFILOVE/obsidian-vault",
+            "path": "Music/Daily/state/tracks.json",
+            "commit": "22627ffe05cce25b6d879869bff8259cf02d5581",
+            "blob_sha": "d38444da51fb56c7c37c8763eee3224e05553a6e",
+            "exact_frozen_payload": true
+          }
+        ],
+        "completed_at": "2026-11-11T01:16:29.493Z"
+      }
+    ],
+    "errors": [],
+    "final_all_five_readbacks": [
+      {
+        "repository": "ZJFILOVE/music-daily",
+        "path": "recommendations/2026/11/2026-11-11.json",
+        "commit": "6c93b11701d8471408583ee584689687ec8bdd5a",
+        "blob_sha": "a0853d753ef6433ee16fa375872ecb51de2ebdb8",
+        "exact_frozen_payload": true
+      },
+      {
+        "repository": "ZJFILOVE/music-daily",
+        "path": "state/tracks.json",
+        "commit": "6c93b11701d8471408583ee584689687ec8bdd5a",
+        "blob_sha": "d38444da51fb56c7c37c8763eee3224e05553a6e",
+        "exact_frozen_payload": true
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Music/Daily/2026-11-11.md",
+        "commit": "22627ffe05cce25b6d879869bff8259cf02d5581",
+        "blob_sha": "89dbd92cb417aae673d0f68037f7f2b217b80598",
+        "exact_frozen_payload": true
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Music/Daily/manifests/2026-11-11.json",
+        "commit": "22627ffe05cce25b6d879869bff8259cf02d5581",
+        "blob_sha": "a0853d753ef6433ee16fa375872ecb51de2ebdb8",
+        "exact_frozen_payload": true
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Music/Daily/state/tracks.json",
+        "commit": "22627ffe05cce25b6d879869bff8259cf02d5581",
+        "blob_sha": "d38444da51fb56c7c37c8763eee3224e05553a6e",
+        "exact_frozen_payload": true
+      }
+    ],
+    "tests": {
+      "vault_music_regressions": {
+        "count": 105,
+        "exit_code": 0
+      },
+      "vault_bundle_regressions": {
+        "count": 41,
+        "exit_code": 0
+      },
+      "vault_tree_snapshot_regressions": {
+        "count": 15,
+        "exit_code": 0
+      },
+      "music_regressions": {
+        "count": 87,
+        "exit_code": 0
+      }
+    },
+    "notes": [
+      "原始PREPARED全文及digest不变；各阶段使用expected-head且force=false",
+      "无原生Git push；无歌单同步；未修改其他项目或任务"
+    ]
+  },
+  "checks": {
+    "freeze_and_baselines": "passed",
+    "state_values_preserved": true,
+    "old_state_entries": 328,
+    "new_state_entries": 333,
+    "order_fields_and_sections": "passed",
+    "mirror_check": {
+      "status": "passed_current_music_mirrors",
+      "manifests": 65,
+      "manifest_blobs": {
+        "2026-09-04.json": "c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+        "2026-09-05.json": "425068f9d2850f6174758c01adee37d25f3bb336",
+        "2026-09-06.json": "cbe1822dfb00e97d8f4aa537dbfd1f52f48dcccf",
+        "2026-09-07.json": "43c49954065383de75f28c4bfd239b7473f1c324",
+        "2026-09-08.json": "1aff7797664028e9729b0b42925909206fbdef2e",
+        "2026-09-09.json": "5b883498386208ef9809ec552e12bd30e5ae0510",
+        "2026-09-10.json": "6981929543fd31c36649815397d89b2bf1632551",
+        "2026-09-11.json": "66b29d99e17bc6da20987d9accd71e57851aa9fa",
+        "2026-09-12.json": "9e852ec43b70c9612f836c60eb55f8d44164dadc",
+        "2026-09-13.json": "b576357c8a83b6e618ce52984d43efb9ccd1e0fa",
+        "2026-09-14.json": "a7e1729f60debf70fd3c922c83508286868bb83a",
+        "2026-09-15.json": "e348cea20ac3b39edfad8d26cd2de5b49d4724c6",
+        "2026-09-16.json": "7a672e648529aa290ace44f78f43f217d29e5b0d",
+        "2026-09-17.json": "b62ae078472ac906c381bf246a59818507688f72",
+        "2026-09-18.json": "e2ad0074519697a2f402427996a212b3831f8290",
+        "2026-09-19.json": "2d2999277022bc329e15ce43477453edc5e8fc21",
+        "2026-09-20.json": "03cf1cc76eebfd74b0342fb74a8c1e616942c737",
+        "2026-09-21.json": "125ab7faf9a2fd4c08812b1bffc57686f65a1e4d",
+        "2026-09-22.json": "08788b30503a3d320b0343f015c213050b43cb21",
+        "2026-09-23.json": "07a2dddee1f9d38067afced0d678e4c578197d64",
+        "2026-09-24.json": "6bb9b98980a1f6dc7883d45cf2a4744879ea40c7",
+        "2026-09-25.json": "03f0f440b402f65da5fbd32943b70ac631e885ff",
+        "2026-09-26.json": "2a6e8cacaec306279f64685e6f4ddd3ddcaedb11",
+        "2026-09-28.json": "a40e31e20b92f129bf2b21f1073e3a69b120e33b",
+        "2026-09-29.json": "05ac05fdddcc456cd6103fb8854a5e77d8882dfe",
+        "2026-09-30.json": "4e2ed9d2f5a7f7a4f8df41a4d4407b6429c8695f",
+        "2026-10-01.json": "08c0655ae1e1a430b803cedfaee28265d9bca7c4",
+        "2026-10-02.json": "977590adad74f3530dc571b9578648372d99b460",
+        "2026-10-03.json": "c0d1ba2c8088bee2b9bfe73c0491112db013d040",
+        "2026-10-04.json": "e21086438c1609a5c65e4dfad5eb17efa390197c",
+        "2026-10-05.json": "bd8e8944afd975565557ac3a88f1ac3b8e16a8f7",
+        "2026-10-06.json": "1edfce17fd8094efd866e294b8cac1cf02f5e72d",
+        "2026-10-07.json": "ed9f6ab90943f1a35219cc8b41017559955aec86",
+        "2026-10-08.json": "2e8c9efd842d7d12ec5e76582d3098b2904de3f7",
+        "2026-10-09.json": "76dff8dedee8c861d72f158e73de4afb106f8d42",
+        "2026-10-11.json": "3da7d2fcf2f9f1417a32ad0e313118646cdc04ea",
+        "2026-10-12.json": "35f974e89bd209addcfef98ba16f5b7bc5e0ace3",
+        "2026-10-15.json": "661d359f6937ddfde4e9e7db220fa5ca1a8cee26",
+        "2026-10-16.json": "08a0e041348374b67cc59fe08080364ce92b4973",
+        "2026-10-17.json": "28d482f6649e2b6cb3d67817ed0ecbfbf18e0a65",
+        "2026-10-18.json": "ecbdb7dbd5007784bdfb7eee4a9c3cc7706aa054",
+        "2026-10-19.json": "250f0308b004cf080611a943c55d896f47b6cab8",
+        "2026-10-20.json": "3cb0f6c54d5a27fa00adc0a0f5031c119fc69563",
+        "2026-10-21.json": "91677ae6a1c440bedb3ba1e5fb20753f52b797db",
+        "2026-10-22.json": "1c2c2b36491baf68396d30660ce3a3885e4c32c9",
+        "2026-10-23.json": "ccd649a467320f7caa9e7dfb45cb5046677e9f81",
+        "2026-10-24.json": "dedcb8a16ec3de4da60179d16f0552ca79ac7046",
+        "2026-10-25.json": "612db9ac80c1b59f2cfdb35e6afd6c801f7d6894",
+        "2026-10-26.json": "0b3edb0e598e9c51c7eab9b712033708bbb622ba",
+        "2026-10-27.json": "f5d258201e8314123f25868c21406fd00f1f06ae",
+        "2026-10-28.json": "5d471f096b853aa5b11fb921a147c94da89bc27c",
+        "2026-10-29.json": "039f0414cc8caddde495ce6cc42165177477d67d",
+        "2026-10-30.json": "892c30ed154fdaa66a2b7c523aa0625a7eeefa26",
+        "2026-10-31.json": "30a032fe72d9ccaa945d473c060ce8af105d42aa",
+        "2026-11-01.json": "d10d12138f1d4e898b2edfd3a6ddadeed1a779b7",
+        "2026-11-02.json": "be969586eb651c2593a2d3b2a9c1dff1caae6eb1",
+        "2026-11-03.json": "960b07f0b51caf7c97b71f8eeee066761231d486",
+        "2026-11-04.json": "d9bfac176ba8fde35bad8c440b115c9651eba715",
+        "2026-11-05.json": "4e488a99d94bf1c04208b065d760f52a3f45c1d6",
+        "2026-11-06.json": "de69236647a44e52ece517afb18fc9091bd9e46e",
+        "2026-11-07.json": "a2416cfea285c7ecec7e674c318c2b0ac055a2cc",
+        "2026-11-08.json": "dcc5da7e883405f4c1ebbd0d643464441a336637",
+        "2026-11-09.json": "462c782da393299f544a48bd11860e2726212964",
+        "2026-11-10.json": "098bf0a67a29c8ce6745b2e8c903e765092701f2",
+        "2026-11-11.json": "a0853d753ef6433ee16fa375872ecb51de2ebdb8"
+      },
+      "state_blob_sha": "d38444da51fb56c7c37c8763eee3224e05553a6e",
+      "heads": {
+        "music": "6c93b11701d8471408583ee584689687ec8bdd5a",
+        "vault": "22627ffe05cce25b6d879869bff8259cf02d5581"
+      },
+      "checked": [
+        "all manifest names and blob hashes",
+        "state blob hash",
+        "corresponding music notes exist",
+        "tree evidence completeness",
+        "stable branch observations"
+      ],
+      "not_certified": [
+        "state semantic coverage (run local CI)",
+        "live sources",
+        "editorial quality",
+        "device synchronization",
+        "notification delivery"
+      ]
+    },
+    "full_history_consistency": {
+      "known_incidents": [],
+      "publication_authorized": false,
+      "status": "passed_structural_with_url_warnings",
+      "legacy_url_warnings": [
+        {
+          "manifest": "2026-09-24.json",
+          "song_id": "1443209403",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-24.json",
+          "song_id": "1440788744",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-24.json",
+          "song_id": "1472549630",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-24.json",
+          "song_id": "258200075",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-24.json",
+          "song_id": "1668862649",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-26.json",
+          "song_id": "1752629180",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-26.json",
+          "song_id": "300865222",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-26.json",
+          "song_id": "1673536432",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-26.json",
+          "song_id": "1675123649",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-26.json",
+          "song_id": "1598994872",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-28.json",
+          "song_id": "1443363499",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-28.json",
+          "song_id": "1440841917",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-28.json",
+          "song_id": "1078914485",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-28.json",
+          "song_id": "1477652823",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-28.json",
+          "song_id": "1440719297",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-29.json",
+          "song_id": "1442363759",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-29.json",
+          "song_id": "1440837273",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-29.json",
+          "song_id": "300202271",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-29.json",
+          "song_id": "1675560578",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-09-29.json",
+          "song_id": "1447442939",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-17.json",
+          "song_id": "1491316305",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-17.json",
+          "song_id": "1710206776",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-17.json",
+          "song_id": "1763223953",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-17.json",
+          "song_id": "1551592392",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-17.json",
+          "song_id": "715651844",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-18.json",
+          "song_id": "1707829783",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-18.json",
+          "song_id": "1876508755",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-18.json",
+          "song_id": "1445769464",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-18.json",
+          "song_id": "1528519982",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-18.json",
+          "song_id": "1830552219",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-19.json",
+          "song_id": "1600888923",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-19.json",
+          "song_id": "29168235",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-19.json",
+          "song_id": "1440947068",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-19.json",
+          "song_id": "1443767437",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-19.json",
+          "song_id": "1449208109",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-20.json",
+          "song_id": "1720694629",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-20.json",
+          "song_id": "581741461",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-20.json",
+          "song_id": "871146612",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-20.json",
+          "song_id": "1440629980",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-20.json",
+          "song_id": "1504283285",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-21.json",
+          "song_id": "1547211375",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-21.json",
+          "song_id": "1728144213",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-21.json",
+          "song_id": "1419804182",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-21.json",
+          "song_id": "1629109827",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-21.json",
+          "song_id": "1765583656",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-22.json",
+          "song_id": "818079152",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-22.json",
+          "song_id": "984653862",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-22.json",
+          "song_id": "1442531594",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-22.json",
+          "song_id": "1717830675",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-22.json",
+          "song_id": "78928247",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-23.json",
+          "song_id": "1520370546",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-23.json",
+          "song_id": "1526437442",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-23.json",
+          "song_id": "1688995997",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-23.json",
+          "song_id": "1725397777",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-23.json",
+          "song_id": "1452634948",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-24.json",
+          "song_id": "1443379471",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-24.json",
+          "song_id": "697240265",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-24.json",
+          "song_id": "1579312329",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-24.json",
+          "song_id": "1827140846",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-25.json",
+          "song_id": "1606465804",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-25.json",
+          "song_id": "1745718088",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-25.json",
+          "song_id": "485458057",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        },
+        {
+          "manifest": "2026-10-25.json",
+          "song_id": "1443127171",
+          "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+        }
+      ],
+      "manifests": 65,
+      "current_tracks": 324,
+      "state_entries": 333,
+      "historical_exposures_checked": 333,
+      "retired_entries_retained": 9,
+      "cross_repository": "passed_byte_exact",
+      "unverified": [
+        "live source availability and metadata",
+        "semantic quality and artist diversity",
+        "local Obsidian sync",
+        "task scheduling and delivery"
+      ],
+      "english_notes_with_history": 65,
+      "recording_history": {
+        "status": "structural_history_checked",
+        "recording_identities": 336,
+        "unresolved_historical_occurrences": [
+          "2026-09-04:孙燕姿::我怀念的",
+          "2026-09-04:王菲::暧昧",
+          "2026-09-04:蔡健雅::陌生人",
+          "2026-09-04:陈奕迅::单车",
+          "2026-09-04:陶喆::流沙"
+        ],
+        "unlinked_historical_occurrences": [],
+        "search_only_history_mappings": [
+          {
+            "occurrence": "2026-09-04:孙燕姿::我怀念的",
+            "original_recording_id": null,
+            "historically_linked_identities": [
+              "apple_music:cn:905226305",
+              "apple_music:us:905226305"
+            ],
+            "evidence": [
+              {
+                "identity": "apple_music:cn:905226305",
+                "source": "music:recommendations/2026/09/2026-09-04.json@c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "866163946895a5e8bfd61c3ec3ad7ec29e7f43d8"
+              },
+              {
+                "identity": "apple_music:us:905226305",
+                "source": "music:recommendations/2026/09/2026-09-04.json@b56cc22c68fbe8834d099e3ad5978c32bf5eb083",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "c132241515fe8f6cd549320a25b6796907db8a9c"
+              },
+              {
+                "identity": "apple_music:us:905226305",
+                "source": "music:recommendations/2026/09/2026-09-04.json@0feb49c6762a3f78252307512d3c138dbb5adb43",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "a7053bad1e35742c9ad598648d82b879502f125a"
+              },
+              {
+                "identity": "apple_music:cn:905226305",
+                "source": "working:recommendations/2026/09/2026-09-04.json",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "866163946895a5e8bfd61c3ec3ad7ec29e7f43d8"
+              }
+            ]
+          },
+          {
+            "occurrence": "2026-09-04:孙燕姿::我怀念的",
+            "original_recording_id": null,
+            "historically_linked_identities": [
+              "apple_music:cn:905226305",
+              "apple_music:us:905226305"
+            ],
+            "evidence": [
+              {
+                "identity": "apple_music:cn:905226305",
+                "source": "vault:Music/Daily/manifests/2026-09-04.json@c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+                "original_source": "vault:Music/Daily/manifests/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "867d941c9bc2b39e5685c61a3d990c9565ae5631",
+                "later_commit": "38b1281abf4ceec175f87af6e67fa8fb5a6ef174"
+              },
+              {
+                "identity": "apple_music:us:905226305",
+                "source": "vault:Music/Daily/manifests/2026-09-04.json@b56cc22c68fbe8834d099e3ad5978c32bf5eb083",
+                "original_source": "vault:Music/Daily/manifests/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "867d941c9bc2b39e5685c61a3d990c9565ae5631",
+                "later_commit": "f2f911e8851be8c0efde12856dd12c94a96b1f19"
+              },
+              {
+                "identity": "apple_music:us:905226305",
+                "source": "vault:Music/Daily/manifests/2026-09-04.json@0feb49c6762a3f78252307512d3c138dbb5adb43",
+                "original_source": "vault:Music/Daily/manifests/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "867d941c9bc2b39e5685c61a3d990c9565ae5631",
+                "later_commit": "db745c011eb380259f60a6dfcf6d5158a72b8563"
+              }
+            ]
+          },
+          {
+            "occurrence": "2026-09-04:王菲::暧昧",
+            "original_recording_id": null,
+            "historically_linked_identities": [
+              "apple_music:cn:1463501518",
+              "apple_music:us:1463501518"
+            ],
+            "evidence": [
+              {
+                "identity": "apple_music:cn:1463501518",
+                "source": "music:recommendations/2026/09/2026-09-04.json@c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "866163946895a5e8bfd61c3ec3ad7ec29e7f43d8"
+              },
+              {
+                "identity": "apple_music:us:1463501518",
+                "source": "music:recommendations/2026/09/2026-09-04.json@b56cc22c68fbe8834d099e3ad5978c32bf5eb083",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "c132241515fe8f6cd549320a25b6796907db8a9c"
+              },
+              {
+                "identity": "apple_music:us:1463501518",
+                "source": "music:recommendations/2026/09/2026-09-04.json@0feb49c6762a3f78252307512d3c138dbb5adb43",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "a7053bad1e35742c9ad598648d82b879502f125a"
+              },
+              {
+                "identity": "apple_music:cn:1463501518",
+                "source": "working:recommendations/2026/09/2026-09-04.json",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "866163946895a5e8bfd61c3ec3ad7ec29e7f43d8"
+              }
+            ]
+          },
+          {
+            "occurrence": "2026-09-04:王菲::暧昧",
+            "original_recording_id": null,
+            "historically_linked_identities": [
+              "apple_music:cn:1463501518",
+              "apple_music:us:1463501518"
+            ],
+            "evidence": [
+              {
+                "identity": "apple_music:cn:1463501518",
+                "source": "vault:Music/Daily/manifests/2026-09-04.json@c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+                "original_source": "vault:Music/Daily/manifests/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "867d941c9bc2b39e5685c61a3d990c9565ae5631",
+                "later_commit": "38b1281abf4ceec175f87af6e67fa8fb5a6ef174"
+              },
+              {
+                "identity": "apple_music:us:1463501518",
+                "source": "vault:Music/Daily/manifests/2026-09-04.json@b56cc22c68fbe8834d099e3ad5978c32bf5eb083",
+                "original_source": "vault:Music/Daily/manifests/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "867d941c9bc2b39e5685c61a3d990c9565ae5631",
+                "later_commit": "f2f911e8851be8c0efde12856dd12c94a96b1f19"
+              },
+              {
+                "identity": "apple_music:us:1463501518",
+                "source": "vault:Music/Daily/manifests/2026-09-04.json@0feb49c6762a3f78252307512d3c138dbb5adb43",
+                "original_source": "vault:Music/Daily/manifests/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "867d941c9bc2b39e5685c61a3d990c9565ae5631",
+                "later_commit": "db745c011eb380259f60a6dfcf6d5158a72b8563"
+              }
+            ]
+          },
+          {
+            "occurrence": "2026-09-04:蔡健雅::陌生人",
+            "original_recording_id": null,
+            "historically_linked_identities": [
+              "apple_music:cn:280787202",
+              "apple_music:us:1785870257"
+            ],
+            "evidence": [
+              {
+                "identity": "apple_music:cn:280787202",
+                "source": "music:recommendations/2026/09/2026-09-04.json@c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "866163946895a5e8bfd61c3ec3ad7ec29e7f43d8"
+              },
+              {
+                "identity": "apple_music:us:1785870257",
+                "source": "music:recommendations/2026/09/2026-09-04.json@b56cc22c68fbe8834d099e3ad5978c32bf5eb083",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "c132241515fe8f6cd549320a25b6796907db8a9c"
+              },
+              {
+                "identity": "apple_music:us:1785870257",
+                "source": "music:recommendations/2026/09/2026-09-04.json@0feb49c6762a3f78252307512d3c138dbb5adb43",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "a7053bad1e35742c9ad598648d82b879502f125a"
+              },
+              {
+                "identity": "apple_music:cn:280787202",
+                "source": "working:recommendations/2026/09/2026-09-04.json",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "866163946895a5e8bfd61c3ec3ad7ec29e7f43d8"
+              }
+            ]
+          },
+          {
+            "occurrence": "2026-09-04:蔡健雅::陌生人",
+            "original_recording_id": null,
+            "historically_linked_identities": [
+              "apple_music:cn:280787202",
+              "apple_music:us:1785870257"
+            ],
+            "evidence": [
+              {
+                "identity": "apple_music:cn:280787202",
+                "source": "vault:Music/Daily/manifests/2026-09-04.json@c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+                "original_source": "vault:Music/Daily/manifests/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "867d941c9bc2b39e5685c61a3d990c9565ae5631",
+                "later_commit": "38b1281abf4ceec175f87af6e67fa8fb5a6ef174"
+              },
+              {
+                "identity": "apple_music:us:1785870257",
+                "source": "vault:Music/Daily/manifests/2026-09-04.json@b56cc22c68fbe8834d099e3ad5978c32bf5eb083",
+                "original_source": "vault:Music/Daily/manifests/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "867d941c9bc2b39e5685c61a3d990c9565ae5631",
+                "later_commit": "f2f911e8851be8c0efde12856dd12c94a96b1f19"
+              },
+              {
+                "identity": "apple_music:us:1785870257",
+                "source": "vault:Music/Daily/manifests/2026-09-04.json@0feb49c6762a3f78252307512d3c138dbb5adb43",
+                "original_source": "vault:Music/Daily/manifests/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "867d941c9bc2b39e5685c61a3d990c9565ae5631",
+                "later_commit": "db745c011eb380259f60a6dfcf6d5158a72b8563"
+              }
+            ]
+          },
+          {
+            "occurrence": "2026-09-04:陈奕迅::单车",
+            "original_recording_id": null,
+            "historically_linked_identities": [
+              "apple_music:cn:542593707",
+              "apple_music:hk:542580755"
+            ],
+            "evidence": [
+              {
+                "identity": "apple_music:cn:542593707",
+                "source": "music:recommendations/2026/09/2026-09-04.json@c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "866163946895a5e8bfd61c3ec3ad7ec29e7f43d8"
+              },
+              {
+                "identity": "apple_music:hk:542580755",
+                "source": "music:recommendations/2026/09/2026-09-04.json@b56cc22c68fbe8834d099e3ad5978c32bf5eb083",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "c132241515fe8f6cd549320a25b6796907db8a9c"
+              },
+              {
+                "identity": "apple_music:hk:542580755",
+                "source": "music:recommendations/2026/09/2026-09-04.json@0feb49c6762a3f78252307512d3c138dbb5adb43",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "a7053bad1e35742c9ad598648d82b879502f125a"
+              },
+              {
+                "identity": "apple_music:cn:542593707",
+                "source": "working:recommendations/2026/09/2026-09-04.json",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "866163946895a5e8bfd61c3ec3ad7ec29e7f43d8"
+              }
+            ]
+          },
+          {
+            "occurrence": "2026-09-04:陈奕迅::单车",
+            "original_recording_id": null,
+            "historically_linked_identities": [
+              "apple_music:cn:542593707",
+              "apple_music:hk:542580755"
+            ],
+            "evidence": [
+              {
+                "identity": "apple_music:cn:542593707",
+                "source": "vault:Music/Daily/manifests/2026-09-04.json@c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+                "original_source": "vault:Music/Daily/manifests/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "867d941c9bc2b39e5685c61a3d990c9565ae5631",
+                "later_commit": "38b1281abf4ceec175f87af6e67fa8fb5a6ef174"
+              },
+              {
+                "identity": "apple_music:hk:542580755",
+                "source": "vault:Music/Daily/manifests/2026-09-04.json@b56cc22c68fbe8834d099e3ad5978c32bf5eb083",
+                "original_source": "vault:Music/Daily/manifests/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "867d941c9bc2b39e5685c61a3d990c9565ae5631",
+                "later_commit": "f2f911e8851be8c0efde12856dd12c94a96b1f19"
+              },
+              {
+                "identity": "apple_music:hk:542580755",
+                "source": "vault:Music/Daily/manifests/2026-09-04.json@0feb49c6762a3f78252307512d3c138dbb5adb43",
+                "original_source": "vault:Music/Daily/manifests/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "867d941c9bc2b39e5685c61a3d990c9565ae5631",
+                "later_commit": "db745c011eb380259f60a6dfcf6d5158a72b8563"
+              }
+            ]
+          },
+          {
+            "occurrence": "2026-09-04:陶喆::流沙",
+            "original_recording_id": null,
+            "historically_linked_identities": [
+              "apple_music:cn:1416149940",
+              "apple_music:us:1416149940"
+            ],
+            "evidence": [
+              {
+                "identity": "apple_music:cn:1416149940",
+                "source": "music:recommendations/2026/09/2026-09-04.json@c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "866163946895a5e8bfd61c3ec3ad7ec29e7f43d8"
+              },
+              {
+                "identity": "apple_music:us:1416149940",
+                "source": "music:recommendations/2026/09/2026-09-04.json@b56cc22c68fbe8834d099e3ad5978c32bf5eb083",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "c132241515fe8f6cd549320a25b6796907db8a9c"
+              },
+              {
+                "identity": "apple_music:us:1416149940",
+                "source": "music:recommendations/2026/09/2026-09-04.json@0feb49c6762a3f78252307512d3c138dbb5adb43",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "a7053bad1e35742c9ad598648d82b879502f125a"
+              },
+              {
+                "identity": "apple_music:cn:1416149940",
+                "source": "working:recommendations/2026/09/2026-09-04.json",
+                "original_source": "music:recommendations/2026/09/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "208a5d966b24462c3aaa42c5c3af51c450eb8693",
+                "later_commit": "866163946895a5e8bfd61c3ec3ad7ec29e7f43d8"
+              }
+            ]
+          },
+          {
+            "occurrence": "2026-09-04:陶喆::流沙",
+            "original_recording_id": null,
+            "historically_linked_identities": [
+              "apple_music:cn:1416149940",
+              "apple_music:us:1416149940"
+            ],
+            "evidence": [
+              {
+                "identity": "apple_music:cn:1416149940",
+                "source": "vault:Music/Daily/manifests/2026-09-04.json@c4074fe4298941f0bbb6fe5d00fb8f58d2271c18",
+                "original_source": "vault:Music/Daily/manifests/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "867d941c9bc2b39e5685c61a3d990c9565ae5631",
+                "later_commit": "38b1281abf4ceec175f87af6e67fa8fb5a6ef174"
+              },
+              {
+                "identity": "apple_music:us:1416149940",
+                "source": "vault:Music/Daily/manifests/2026-09-04.json@b56cc22c68fbe8834d099e3ad5978c32bf5eb083",
+                "original_source": "vault:Music/Daily/manifests/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "867d941c9bc2b39e5685c61a3d990c9565ae5631",
+                "later_commit": "f2f911e8851be8c0efde12856dd12c94a96b1f19"
+              },
+              {
+                "identity": "apple_music:us:1416149940",
+                "source": "vault:Music/Daily/manifests/2026-09-04.json@0feb49c6762a3f78252307512d3c138dbb5adb43",
+                "original_source": "vault:Music/Daily/manifests/2026-09-04.json@9dbecb729f9f08f8a181651895e28b0ec11187b4",
+                "original_commit": "867d941c9bc2b39e5685c61a3d990c9565ae5631",
+                "later_commit": "db745c011eb380259f60a6dfcf6d5158a72b8563"
+              }
+            ]
+          }
+        ],
+        "retired_note_evidence": [
+          [
+            "万能青年旅店::杀死那个石家庄人",
+            "1538548895",
+            "vault-note:Music/Daily/2026-09-26.md@97bf8ede16139ca01a79b32136b08df1c4a909ac"
+          ]
+        ],
+        "unmapped_canonical_keys": [],
+        "identity_format": "apple_music:<storefront>:<song_id>",
+        "known_incidents": [
+          "music-2026-11-06-same-recording"
+        ],
+        "publication_authorized": false,
+        "prepared_history": "checked",
+        "prepared_blob_versions": 28,
+        "music_head": "6c93b11701d8471408583ee584689687ec8bdd5a",
+        "vault_head": "22627ffe05cce25b6d879869bff8259cf02d5581"
+      }
+    },
+    "local_commands": [
+      {
+        "name": "vault-validate",
+        "command": [
+          "python3",
+          "scripts/validate_daily_recommendations.py"
+        ],
+        "cwd": "/workspace/scratch/5eda201f1b19/daily5-production-wkxVP9/vault",
+        "exit_code": 0,
+        "log": "/workspace/scratch/5eda201f1b19/daily5-production-wkxVP9/vault-validate.log"
+      },
+      {
+        "name": "vault-integrity",
+        "command": [
+          "python3",
+          "scripts/check_daily_integrity.py",
+          "--base-ref",
+          "361a85dd8410c2ddaf8fc861356d83e425a2a706"
+        ],
+        "cwd": "/workspace/scratch/5eda201f1b19/daily5-production-wkxVP9/vault",
+        "exit_code": 0,
+        "log": "/workspace/scratch/5eda201f1b19/daily5-production-wkxVP9/vault-integrity.log"
+      },
+      {
+        "name": "vault-bundle-audit",
+        "command": [
+          "python3",
+          "scripts/publication_bundle.py",
+          "--journal-root",
+          ".",
+          "--base-ref",
+          "361a85dd8410c2ddaf8fc861356d83e425a2a706"
+        ],
+        "cwd": "/workspace/scratch/5eda201f1b19/daily5-production-wkxVP9/vault",
+        "exit_code": 0,
+        "log": "/workspace/scratch/5eda201f1b19/daily5-production-wkxVP9/vault-bundle-audit.log"
+      },
+      {
+        "name": "music-validate",
+        "command": [
+          "python3",
+          "scripts/validate.py"
+        ],
+        "cwd": "/workspace/scratch/5eda201f1b19/daily5-production-wkxVP9/music",
+        "exit_code": 0,
+        "log": "/workspace/scratch/5eda201f1b19/daily5-production-wkxVP9/music-validate.log"
+      },
+      {
+        "name": "two-checkout-mirror-history",
+        "command": [
+          "python3",
+          "scripts/check_consistency.py",
+          "--vault-root",
+          "/workspace/scratch/5eda201f1b19/daily5-production-wkxVP9/vault",
+          "--base-ref",
+          "f7aacf492d9bc60aa66a0925d5349ba0fbea5a4e"
+        ],
+        "cwd": "/workspace/scratch/5eda201f1b19/daily5-production-wkxVP9/music",
+        "exit_code": 0,
+        "log": "/workspace/scratch/5eda201f1b19/daily5-production-wkxVP9/two-checkout-mirror-history.log"
+      },
+      {
+        "name": "pinned-tree-mirror-audit",
+        "command": [
+          "python3",
+          "scripts/check_remote_music_snapshot.py",
+          "/workspace/scratch/5eda201f1b19/daily5-production-wkxVP9/final-mirror-snapshot.json"
+        ],
+        "cwd": "/workspace/scratch/5eda201f1b19/daily5-production-wkxVP9/vault",
+        "exit_code": 0,
+        "log": "/workspace/scratch/5eda201f1b19/daily5-production-wkxVP9/pinned-tree-mirror-audit.log"
+      }
+    ],
+    "regressions": {
+      "vault_music_regressions": {
+        "count": 105,
+        "exit_code": 0
+      },
+      "vault_bundle_regressions": {
+        "count": 41,
+        "exit_code": 0
+      },
+      "vault_tree_snapshot_regressions": {
+        "count": 15,
+        "exit_code": 0
+      },
+      "music_regressions": {
+        "count": 87,
+        "exit_code": 0
+      }
+    },
+    "final_planner": {
+      "operation_id": "music:2026-11-11",
+      "plan_sha256": "f96e028cd9abf54810e96dcf3120e644612182c865321178d45ff88033d20e58",
+      "status": "artifacts_match",
+      "next_stage": null,
+      "decisions": [
+        {
+          "repository": "ZJFILOVE/music-daily",
+          "path": "recommendations/2026/11/2026-11-11.json",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "a0853d753ef6433ee16fa375872ecb51de2ebdb8"
+        },
+        {
+          "repository": "ZJFILOVE/music-daily",
+          "path": "state/tracks.json",
+          "stage": 1,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "290c40611c5385bd171acbdad4e50a408983672f",
+          "target_sha": "d38444da51fb56c7c37c8763eee3224e05553a6e"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Music/Daily/2026-11-11.md",
+          "stage": 2,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "89dbd92cb417aae673d0f68037f7f2b217b80598"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Music/Daily/manifests/2026-11-11.json",
+          "stage": 2,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": null,
+          "target_sha": "a0853d753ef6433ee16fa375872ecb51de2ebdb8"
+        },
+        {
+          "repository": "ZJFILOVE/obsidian-vault",
+          "path": "Music/Daily/state/tracks.json",
+          "stage": 2,
+          "action": "no_op",
+          "reason": "target already present, including a lost successful response",
+          "expected_sha": "290c40611c5385bd171acbdad4e50a408983672f",
+          "target_sha": "d38444da51fb56c7c37c8763eee3224e05553a6e"
+        }
+      ],
+      "content_qa": "not_evaluated",
+      "github_writes_performed": 0
+    },
+    "music_recovery_gate": "passed_music_recovery_gate",
+    "source_identity": "five direct CN song pages with JSON-LD plus exact server ID/storefront"
+  },
+  "readbacks": {
+    "ZJFILOVE/music-daily:recommendations/2026/11/2026-11-11.json": {
+      "sha": "a0853d753ef6433ee16fa375872ecb51de2ebdb8",
+      "sha256": "114d00412f0b2272dcb0b64b3d31703f3e3d75bef53d18764482f495c397b814",
+      "bytes": 7986,
+      "method": "GitHub connector readback plus native pinned checkout; exact frozen UTF-8 equality"
+    },
+    "ZJFILOVE/music-daily:state/tracks.json": {
+      "sha": "d38444da51fb56c7c37c8763eee3224e05553a6e",
+      "sha256": "1ac41d04581c00d65819de4b2a39130dcb72d77a74bdd6a6aedc4f621d1f65cd",
+      "bytes": 34750,
+      "method": "GitHub connector readback plus native pinned checkout; exact frozen UTF-8 equality"
+    },
+    "ZJFILOVE/obsidian-vault:Music/Daily/2026-11-11.md": {
+      "sha": "89dbd92cb417aae673d0f68037f7f2b217b80598",
+      "sha256": "ea5486230d114c9604ecf53b16e3d857367158c69515f11cf9fc28399a416e8a",
+      "bytes": 8985,
+      "method": "GitHub connector readback plus native pinned checkout; exact frozen UTF-8 equality"
+    },
+    "ZJFILOVE/obsidian-vault:Music/Daily/manifests/2026-11-11.json": {
+      "sha": "a0853d753ef6433ee16fa375872ecb51de2ebdb8",
+      "sha256": "114d00412f0b2272dcb0b64b3d31703f3e3d75bef53d18764482f495c397b814",
+      "bytes": 7986,
+      "method": "GitHub connector readback plus native pinned checkout; exact frozen UTF-8 equality"
+    },
+    "ZJFILOVE/obsidian-vault:Music/Daily/state/tracks.json": {
+      "sha": "d38444da51fb56c7c37c8763eee3224e05553a6e",
+      "sha256": "1ac41d04581c00d65819de4b2a39130dcb72d77a74bdd6a6aedc4f621d1f65cd",
+      "bytes": 34750,
+      "method": "GitHub connector readback plus native pinned checkout; exact frozen UTF-8 equality"
+    }
+  },
+  "ci": {
+    "22627ffe05cce25b6d879869bff8259cf02d5581": [
+      {
+        "id": 42937722890,
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "22627ffe05cce25b6d879869bff8259cf02d5581",
+        "html_url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/42937722890",
+        "jobs": [
+          {
+            "id": 130251820933,
+            "name": "validate",
+            "status": "completed",
+            "conclusion": "success",
+            "run_id": 42937722890,
+            "logs_url": null,
+            "steps": [
+              {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1
+              },
+              {
+                "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2
+              },
+              {
+                "name": "Validate publications and full source-history coverage",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3
+              },
+              {
+                "name": "Negative regressions and interrupted-publication recovery",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4
+              },
+              {
+                "name": "Compare permanent history with the actual base commit",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5
+              },
+              {
+                "name": "Record scope of checks",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6
+              },
+              {
+                "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 12
+              },
+              {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 13
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "6c93b11701d8471408583ee584689687ec8bdd5a": [
+      {
+        "id": 42937497047,
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "6c93b11701d8471408583ee584689687ec8bdd5a",
+        "html_url": "https://github.com/ZJFILOVE/music-daily/actions/runs/42937497047",
+        "jobs": [
+          {
+            "id": 130251079592,
+            "name": "validate",
+            "status": "completed",
+            "conclusion": "success",
+            "run_id": 42937497047,
+            "logs_url": null,
+            "steps": [
+              {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1
+              },
+              {
+                "name": "Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2
+              },
+              {
+                "name": "Run actions/setup-python@v5",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3
+              },
+              {
+                "name": "Run python scripts/validate.py",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4
+              },
+              {
+                "name": "Run python -m unittest discover -s scripts -p 'test_*.py' -v",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5
+              },
+              {
+                "name": "Preserve all historically exposed tracks and existing state values",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6
+              },
+              {
+                "name": "Post Run actions/setup-python@v5",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 11
+              },
+              {
+                "name": "Post Run actions/checkout@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 12
+              },
+              {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 13
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "backlog": {
+    "historical_slug_urls": [
+      {
+        "manifest": "2026-09-24.json",
+        "song_id": "1443209403",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-24.json",
+        "song_id": "1440788744",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-24.json",
+        "song_id": "1472549630",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-24.json",
+        "song_id": "258200075",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-24.json",
+        "song_id": "1668862649",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-26.json",
+        "song_id": "1752629180",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-26.json",
+        "song_id": "300865222",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-26.json",
+        "song_id": "1673536432",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-26.json",
+        "song_id": "1675123649",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-26.json",
+        "song_id": "1598994872",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-28.json",
+        "song_id": "1443363499",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-28.json",
+        "song_id": "1440841917",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-28.json",
+        "song_id": "1078914485",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-28.json",
+        "song_id": "1477652823",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-28.json",
+        "song_id": "1440719297",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-29.json",
+        "song_id": "1442363759",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-29.json",
+        "song_id": "1440837273",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-29.json",
+        "song_id": "300202271",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-29.json",
+        "song_id": "1675560578",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-09-29.json",
+        "song_id": "1447442939",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-17.json",
+        "song_id": "1491316305",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-17.json",
+        "song_id": "1710206776",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-17.json",
+        "song_id": "1763223953",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-17.json",
+        "song_id": "1551592392",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-17.json",
+        "song_id": "715651844",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-18.json",
+        "song_id": "1707829783",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-18.json",
+        "song_id": "1876508755",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-18.json",
+        "song_id": "1445769464",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-18.json",
+        "song_id": "1528519982",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-18.json",
+        "song_id": "1830552219",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-19.json",
+        "song_id": "1600888923",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-19.json",
+        "song_id": "29168235",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-19.json",
+        "song_id": "1440947068",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-19.json",
+        "song_id": "1443767437",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-19.json",
+        "song_id": "1449208109",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-20.json",
+        "song_id": "1720694629",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-20.json",
+        "song_id": "581741461",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-20.json",
+        "song_id": "871146612",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-20.json",
+        "song_id": "1440629980",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-20.json",
+        "song_id": "1504283285",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-21.json",
+        "song_id": "1547211375",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-21.json",
+        "song_id": "1728144213",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-21.json",
+        "song_id": "1419804182",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-21.json",
+        "song_id": "1629109827",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-21.json",
+        "song_id": "1765583656",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-22.json",
+        "song_id": "818079152",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-22.json",
+        "song_id": "984653862",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-22.json",
+        "song_id": "1442531594",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-22.json",
+        "song_id": "1717830675",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-22.json",
+        "song_id": "78928247",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-23.json",
+        "song_id": "1520370546",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-23.json",
+        "song_id": "1526437442",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-23.json",
+        "song_id": "1688995997",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-23.json",
+        "song_id": "1725397777",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-23.json",
+        "song_id": "1452634948",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-24.json",
+        "song_id": "1443379471",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-24.json",
+        "song_id": "697240265",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-24.json",
+        "song_id": "1579312329",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-24.json",
+        "song_id": "1827140846",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-25.json",
+        "song_id": "1606465804",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-25.json",
+        "song_id": "1745718088",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-25.json",
+        "song_id": "485458057",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      },
+      {
+        "manifest": "2026-10-25.json",
+        "song_id": "1443127171",
+        "issue": "schema-valid slug URL; not requested shortest /cn/song/ID form"
+      }
+    ],
+    "withdrawn_failed_date": "2026-11-06 retains exactly four tracks and permanent withdrawn-recording exclusion; not repaired or republished",
+    "historical_source_quality": "historical structural checks do not retroactively certify live source metadata or teaching/editorial quality"
+  },
+  "scope": {
+    "repository_notes_written": 1,
+    "manifest_copies": 2,
+    "state_copies": 2,
+    "only_current_date": true,
+    "backfill": false,
+    "native_git_pushes": 0,
+    "playlist_writes": 0,
+    "task_changes": 0,
+    "source_full_playback": "not_tested",
+    "device_sync": "not_verified",
+    "notification_delivery": "not_verified",
+    "structural_ci_does_not_certify_editorial_or_live_playback": true
+  }
+}
