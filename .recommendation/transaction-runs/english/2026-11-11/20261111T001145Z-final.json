@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-11-11",
+  "attempt_id": "20261111T001145Z-final",
+  "recorded_at": "2026-11-11T00:11:45Z",
+  "status": "published_readback_complete",
+  "prepared": {
+    "path": ".recommendation/transactions/english/2026-11-11.json",
+    "creation_commit": "7011a85d56594eeab2f07a3bb244f2856d82d21b",
+    "blob_sha": "c74f30b2a0949d09e9f10299232b3658ec2ad7ba",
+    "plan_sha256": "f7d01728197c9fbb319c669a44e30a0963796ad6852a4b9044bf7e01b68103ac",
+    "bundle_sha256": "b0249f828f3ac9de3a68728a256405d0b3d63c0a60f36422056e0287424ab889"
+  },
+  "publication": {
+    "stage": 1,
+    "commit": "f683c9e3b72697698e78a3f5cc4752fa83c8ebae",
+    "parent": "7011a85d56594eeab2f07a3bb244f2856d82d21b",
+    "base_tree": "c2440ac529697d2eccd0ca249584c6055fe0ab90",
+    "tree": "567e36ebc707d0caa71ee542d20296d1690ccf5f",
+    "write_method": "git_data_expected_head_non_force",
+    "lost_response_recovery": "not_needed"
+  },
+  "readbacks": [
+    {
+      "path": "50-courses/English/Daily/2026-11-11.md",
+      "blob_sha": "528a9a25444810bde2ba5a9d3853560ff686cb98",
+      "matches_frozen_target": true
+    },
+    {
+      "path": "50-courses/English/Translation/2026-11-11.md",
+      "blob_sha": "51e563a6e4248d4fc286bebe7d50b8e850421eb4",
+      "matches_frozen_target": true
+    },
+    {
+      "path": "50-courses/English/Vocabulary/2026-11-11.md",
+      "blob_sha": "a13c0fc2f9b38bf78f54549a396e7307b2204535",
+      "matches_frozen_target": true
+    },
+    {
+      "path": ".recommendation/history/english.jsonl",
+      "blob_sha": "3e553e449eb403b3a3e9823d1f4c29369d2e9ae9",
+      "matches_frozen_target": true
+    },
+    {
+      "path": ".recommendation/transactions/english/2026-11-11.json",
+      "blob_sha": "c74f30b2a0949d09e9f10299232b3658ec2ad7ba",
+      "matches_original_prepared": true
+    }
+  ],
+  "recovery_planner": {
+    "status": "artifacts_match",
+    "next_stage": null,
+    "expected_original_plan_digest": "f7d01728197c9fbb319c669a44e30a0963796ad6852a4b9044bf7e01b68103ac"
+  },
+  "checks": {
+    "source_identity_and_content": {
+      "status": "pass",
+      "scope": "Direct CERN institutional page exposed the exact Accelerators title, definition, mechanism, accelerator types, performance characteristics, and current/future equipment sections. Page update date was not exposed; time-sensitive numerical and planning statements were explicitly caveated."
+    },
+    "source_freshness": {
+      "status": "pass",
+      "scope": "Exact URL absent from the original 64-row permanent history and all 27 earlier English PREPARED reservations."
+    },
+    "weekday_targets": {
+      "status": "pass",
+      "expected": 4,
+      "observed": 4
+    },
+    "history_registration": {
+      "status": "pass",
+      "occurrences_for_date_and_url": 1,
+      "original_rows": 64,
+      "final_rows": 65,
+      "prior_bytes_preserved": true
+    },
+    "teaching_semantics": {
+      "status": "pass",
+      "details": [
+        "Daily has YAML, direct verified source, scope caveat, two timed passes, output task, three questions, and all cross-links",
+        "Translation has two substantial independently authored exercises with folded answers, structures, transfer errors, precision work, and two spaced-review sentences",
+        "Vocabulary has eight reusable items with meanings, collocations, examples, families or contrasts, and retrieval quiz",
+        "All three new notes have one AUTO block and a manual Notes boundary"
+      ]
+    },
+    "repository_validators": {
+      "status": "pass",
+      "commands": [
+        "validate_daily_recommendations.py: strict daily recommendations validated",
+        "check_publication_health.py --base-ref 7011a85...: passed_local_checks; 65 unique English resources; 90 immutable bundles",
+        "publication_bundle.py prepared bundle: bundle_valid",
+        "130 focused regression tests: passed",
+        "custom semantic/history checks: passed"
+      ]
+    },
+    "github_actions": {
+      "status": "pass",
+      "workflow": "Recommendation integrity (read-only)",
+      "run_id": 42929112399,
+      "run_url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/42929112399",
+      "conclusion": "success"
+    }
+  },
+  "limitations": [
+    "The source page does not expose a clear last-updated date; numerical and planning statements were not treated as independently current.",
+    "Structural checks do not by themselves certify teaching quality; a separate semantic review was performed.",
+    "Local device synchronization and notification delivery were not verified."
+  ],
+  "errors": []
+}

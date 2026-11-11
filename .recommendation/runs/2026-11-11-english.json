@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "operation_id": "english:2026-11-11",
+  "date": "2026-11-11",
+  "business_timezone": "Asia/Shanghai",
+  "weekday": "Wednesday",
+  "mode": "new_generation",
+  "candidate_pool": [
+    {
+      "url": "https://home.web.cern.ch/science/accelerators/",
+      "title": "Accelerators",
+      "publisher": "CERN",
+      "topic": "particle accelerators and scientific instrumentation",
+      "decision": "selected",
+      "score": 89,
+      "evidence": "Direct official page inspected for exact title, definitions, mechanism, accelerator types, performance indicators, and equipment sections; estimated 8–10 minutes. Time-sensitive statements were caveated."
+    },
+    {
+      "url": "https://oceanexplorer.noaa.gov/ocean-fact/climate/",
+      "title": "How does the ocean affect climate and weather on land?",
+      "publisher": "NOAA Ocean Exploration",
+      "topic": "ocean and climate",
+      "decision": "not_selected",
+      "score": 74,
+      "reason": "Authoritative and clear, but the single fact page is likely shorter than the 5-minute lower target and offers a narrower argument structure."
+    },
+    {
+      "url": "https://science.nasa.gov/missions/hubble/why-is-earth-so-dry/",
+      "title": "Why Is Earth So Dry?",
+      "publisher": "NASA Science",
+      "topic": "planet formation and water",
+      "decision": "not_selected",
+      "score": 78,
+      "reason": "Authentic 5-minute candidate with useful hypothesis language, but it centers a 2012 study and would require more scientific-update checking than today’s mechanism lesson."
+    },
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/an-epic-view-of-the-seasons/",
+      "title": "An Epic View of the Seasons",
+      "publisher": "NASA Earth Observatory",
+      "topic": "seasons and Earth observation",
+      "decision": "not_selected",
+      "score": 76,
+      "reason": "Authentic 6-minute explainer, but the core concept is comparatively elementary for today’s target level."
+    },
+    {
+      "url": "https://www.afro.who.int/countries/democratic-republic-congo/news/why-community-trust-critical-health-emergency-response?trk=article-ssr-frontend-pulse_little-text-block",
+      "title": "Why community trust is critical to health emergency response",
+      "publisher": "WHO Regional Office for Africa",
+      "topic": "public-health response and trust",
+      "decision": "not_selected",
+      "score": 75,
+      "reason": "Strong real-world institutional case, but the stated four-minute length is below the weekday target and the outbreak context needs more background."
+    },
+    {
+      "url": "https://asia.si.edu/whats-on/blog/posts/an-introduction-to-conservation-and-scientific-research/",
+      "title": "An Introduction to Conservation and Scientific Research",
+      "publisher": "Smithsonian National Museum of Asian Art",
+      "topic": "museum conservation science",
+      "decision": "not_selected",
+      "score": 79,
+      "reason": "Substantive official article, but too close to the 2026-11-05 museum scientific-research topic inside the seven-day diversity window."
+    },
+    {
+      "url": "https://royalsociety.org/blog/2022/05/healthy-online-info-environment/",
+      "title": "Building a healthy online information environment",
+      "publisher": "Royal Society",
+      "topic": "scientific uncertainty and information quality",
+      "decision": "rejected_unverified",
+      "score": null,
+      "reason": "Search evidence was promising, but the direct source returned HTTP 403 in this run, so content verification was incomplete."
+    },
+    {
+      "url": "https://blogs.loc.gov/category/digital-preservation/",
+      "title": "Library of Congress Blogs: Digital Preservation",
+      "publisher": "Library of Congress",
+      "topic": "digital preservation",
+      "decision": "not_selected",
+      "score": 60,
+      "reason": "Accessible institutional collection index, but not a single final article and therefore unsuitable as the direct selected input."
+    },
+    {
+      "url": "https://ippog.web.cern.ch/news/how-particle-accelerator-works",
+      "title": "How a particle accelerator works",
+      "publisher": "International Particle Physics Outreach Group at CERN",
+      "topic": "particle-accelerator process",
+      "decision": "not_selected",
+      "score": 80,
+      "reason": "Detailed first-party-adjacent candidate on the same narrow topic; the main CERN overview was more concise and better matched the 5–15 minute target."
+    }
+  ],
+  "candidate_count": 9,
+  "selection": {
+    "title": "Accelerators",
+    "source_url": "https://home.web.cern.ch/science/accelerators/",
+    "source_type": "institutional science explainer",
+    "estimated_time": "8–10 minutes",
+    "verification": {
+      "observed_at": "2026-11-11T00:11:45Z",
+      "method": "direct_source_page",
+      "identity": "verified",
+      "content": "verified by inspecting the official page body",
+      "observations": [
+        "Exact title Accelerators was visible on CERN’s official domain",
+        "The page defined accelerators and described radiofrequency cavities and magnets",
+        "It distinguished circular and linear accelerators and described colliders",
+        "It explained energy, luminosity, current accelerators, and future projects"
+      ],
+      "caveat": "The page exposes no clear last-updated date and includes time-sensitive numerical and planning statements. The lesson labels those statements as potentially dated and does not treat the page as current operational proof."
+    }
+  },
+  "freshness_and_diversity": {
+    "original_history_rows": 64,
+    "prepared_reservations_checked": 27,
+    "exact_url_fresh": true,
+    "same_operation_reservation_handling": "After PREPARED creation, the same source was treated as expected for this operation.",
+    "recent_topic_window": [
+      "Macintosh interface history",
+      "plant stress ultrasound",
+      "Black and Irish cultural exchange",
+      "American ethical comedy",
+      "language cartography",
+      "museum painting science",
+      "light perception"
+    ],
+    "today_topic": "particle accelerators, system mechanisms, and scale-dependent measurement",
+    "result": "pass; exact source was fresh and the narrow topic did not repeat within seven days"
+  },
+  "artifacts": [
+    "50-courses/English/Daily/2026-11-11.md",
+    "50-courses/English/Translation/2026-11-11.md",
+    "50-courses/English/Vocabulary/2026-11-11.md",
+    ".recommendation/history/english.jsonl"
+  ],
+  "bundle": {
+    "transaction_path": ".recommendation/transactions/english/2026-11-11.json",
+    "prepared_creation_commit": "7011a85d56594eeab2f07a3bb244f2856d82d21b",
+    "plan_sha256": "f7d01728197c9fbb319c669a44e30a0963796ad6852a4b9044bf7e01b68103ac",
+    "bundle_sha256": "b0249f828f3ac9de3a68728a256405d0b3d63c0a60f36422056e0287424ab889",
+    "publication_commit": "f683c9e3b72697698e78a3f5cc4752fa83c8ebae",
+    "final_planner_status": "artifacts_match"
+  },
+  "readbacks": [
+    {
+      "path": "50-courses/English/Daily/2026-11-11.md",
+      "blob_sha": "528a9a25444810bde2ba5a9d3853560ff686cb98",
+      "matches_frozen_target": true
+    },
+    {
+      "path": "50-courses/English/Translation/2026-11-11.md",
+      "blob_sha": "51e563a6e4248d4fc286bebe7d50b8e850421eb4",
+      "matches_frozen_target": true
+    },
+    {
+      "path": "50-courses/English/Vocabulary/2026-11-11.md",
+      "blob_sha": "a13c0fc2f9b38bf78f54549a396e7307b2204535",
+      "matches_frozen_target": true
+    },
+    {
+      "path": ".recommendation/history/english.jsonl",
+      "blob_sha": "3e553e449eb403b3a3e9823d1f4c29369d2e9ae9",
+      "matches_frozen_target": true
+    },
+    {
+      "path": ".recommendation/transactions/english/2026-11-11.json",
+      "blob_sha": "c74f30b2a0949d09e9f10299232b3658ec2ad7ba",
+      "matches_original_prepared": true
+    }
+  ],
+  "quality_gates": {
+    "source_identity_and_content": {
+      "status": "pass",
+      "scope": "Direct CERN institutional page exposed the exact Accelerators title, definition, mechanism, accelerator types, performance characteristics, and current/future equipment sections. Page update date was not exposed; time-sensitive numerical and planning statements were explicitly caveated."
+    },
+    "source_freshness": {
+      "status": "pass",
+      "scope": "Exact URL absent from the original 64-row permanent history and all 27 earlier English PREPARED reservations."
+    },
+    "weekday_targets": {
+      "status": "pass",
+      "expected": 4,
+      "observed": 4
+    },
+    "history_registration": {
+      "status": "pass",
+      "occurrences_for_date_and_url": 1,
+      "original_rows": 64,
+      "final_rows": 65,
+      "prior_bytes_preserved": true
+    },
+    "teaching_semantics": {
+      "status": "pass",
+      "details": [
+        "Daily has YAML, direct verified source, scope caveat, two timed passes, output task, three questions, and all cross-links",
+        "Translation has two substantial independently authored exercises with folded answers, structures, transfer errors, precision work, and two spaced-review sentences",
+        "Vocabulary has eight reusable items with meanings, collocations, examples, families or contrasts, and retrieval quiz",
+        "All three new notes have one AUTO block and a manual Notes boundary"
+      ]
+    },
+    "repository_validators": {
+      "status": "pass",
+      "commands": [
+        "validate_daily_recommendations.py: strict daily recommendations validated",
+        "check_publication_health.py --base-ref 7011a85...: passed_local_checks; 65 unique English resources; 90 immutable bundles",
+        "publication_bundle.py prepared bundle: bundle_valid",
+        "130 focused regression tests: passed",
+        "custom semantic/history checks: passed"
+      ]
+    },
+    "github_actions": {
+      "status": "pass",
+      "workflow": "Recommendation integrity (read-only)",
+      "run_id": 42929112399,
+      "run_url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/42929112399",
+      "conclusion": "success"
+    }
+  },
+  "historical_backlog": "Historical format or source warnings remain recorded in prior data. They did not waive today’s verification; permanent English history was readable, unique, and append-only for this publication.",
+  "honest_scope": [
+    "Selected source identity and substantive page content were inspected directly before and after publication.",
+    "Repository validators, focused regression tests, immutable-bundle audit, and the actual GitHub Actions workflow passed.",
+    "Teaching semantics received a separate content checklist review.",
+    "Device sync and notification delivery remain unverified."
+  ]
+}
