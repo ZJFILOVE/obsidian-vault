@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "project": "journal",
+  "date": "2026-11-11",
+  "operation_id": "journal:2026-11-11",
+  "status": "passed_current_publication",
+  "completed_at_utc": "2026-11-11T00:06:14.137Z",
+  "business_timezone": "Asia/Shanghai",
+  "theme": "从同位素效应到质子通道重接：GFP 的超快 ESPT",
+  "papers": [
+    {
+      "title": "Ultra-fast excited state dynamics in green fluorescent protein: multiple states and proton transfer",
+      "doi": "10.1073/pnas.93.16.8362",
+      "authors": "M. Chattoraj et al.",
+      "year": 1996,
+      "journal": "Proceedings of the National Academy of Sciences"
+    },
+    {
+      "title": "Balance between ultrafast parallel reactions in the green fluorescent protein has a structural origin",
+      "doi": "10.1529/biophysj.108.129957",
+      "authors": "Jasper J. van Thor et al.",
+      "year": 2008,
+      "journal": "Biophysical Journal"
+    },
+    {
+      "title": "An alternate proton acceptor for excited-state proton transfer in green fluorescent protein: rewiring GFP",
+      "doi": "10.1021/ja0754507",
+      "authors": "Deborah Stoner-Ma et al.",
+      "year": 2008,
+      "journal": "Journal of the American Chemical Society",
+      "deep_read": true
+    }
+  ],
+  "selection": {
+    "candidate_count": 6,
+    "selected_count": 3,
+    "rejected_count": 3,
+    "selected_resource_ids": [
+      "doi:10.1073/pnas.93.16.8362",
+      "doi:10.1529/biophysj.108.129957",
+      "doi:10.1021/ja0754507"
+    ],
+    "exact_duplicates": 0,
+    "semantic_duplicates": 0,
+    "recent_topic_review": "passed",
+    "quality_padding": "not_used",
+    "prior_history_and_prepared_reservations": "checked_before_selection"
+  },
+  "sources": [
+    {
+      "doi": "10.1073/pnas.93.16.8362",
+      "identity_sources": [
+        "PubMed 8710876",
+        "PMC38676"
+      ],
+      "reading_scope": "PubMed bibliography and abstract; PMC full-text entry opened but page-text/PDF/SI not fully read",
+      "publication_status": "peer-reviewed published"
+    },
+    {
+      "doi": "10.1529/biophysj.108.129957",
+      "identity_sources": [
+        "PubMed 18469081",
+        "PMC2483774",
+        "ScienceDirect publisher record"
+      ],
+      "reading_scope": "PubMed/PMC bibliography, abstract, searchable main-text passages and main figure captions; publication PDF/SI not opened",
+      "publication_status": "peer-reviewed published"
+    },
+    {
+      "doi": "10.1021/ja0754507",
+      "identity_sources": [
+        "PubMed 18179211",
+        "PMC2552410",
+        "ACS publisher record"
+      ],
+      "reading_scope": "PubMed page with PMC full text, abstract, main-text sections and Fig. 1-11 captions; publication PDF/SI not opened",
+      "publication_status": "peer-reviewed published"
+    }
+  ],
+  "bundle": {
+    "path": ".recommendation/transactions/journal/2026-11-11.json",
+    "bundle_sha256": "cb86de7a4a4ee750370ee33acc3b92ea189f9d5f6e31a72cbff46a0ed9d836cc",
+    "plan_sha256": "7167e1ba840b2b0408434c8ae5433b0513e60da494f9adbf1d0bf9dc10a263d9",
+    "prepared_creation_commit": "857dc1db1d9b84e41b8e678f8022186da1b6c3fe",
+    "prepared_blob_sha": "69452016aebcd423aa77134847fc14664f9975b1",
+    "exact_prepared_readback": true
+  },
+  "publication": {
+    "commit_sha": "5f153c8945d4feb89ebaebaa8f7df06480979d5a",
+    "parent_commit": "6c3bac6a9571794897fca85cbf348ab9761c3e19",
+    "tree_sha": "f42ba151d12aac8e9de2dc627bd9e7a68d4f7d0a",
+    "force_push": false,
+    "readbacks": {
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/2026-11-11.md": {
+        "status": "ok",
+        "sha": "2aefac269c1ee7622cae280ba3d04c31b865abcf",
+        "exact_payload": true
+      },
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/Index.md": {
+        "status": "ok",
+        "sha": "f25d64fbc20a9d9dbe230914b0b2ace48a905d72",
+        "exact_payload": true
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/history/journal.jsonl": {
+        "status": "ok",
+        "sha": "c894a3582a06bd8938dee3a66568255930a8405e",
+        "exact_payload": true
+      }
+    },
+    "planner_after_readback": "artifacts_match",
+    "note_url": "https://github.com/ZJFILOVE/obsidian-vault/blob/main/00-inbox/Journal/2026-11-11.md"
+  },
+  "checks": {
+    "bibliography_identity": "passed",
+    "publication_status": "peer_reviewed_published_all_three",
+    "correction_retraction_search": "no_matching_notice_found_at_check_time",
+    "evidence_layer_separation": "passed",
+    "numeric_context_and_construct_conditions": "passed",
+    "quantum_yield_pss_lifetime_distinctions": "passed",
+    "experiment_model_distinction": "passed",
+    "links": {
+      "doi_links": 3,
+      "authoritative_readable_sources": 3,
+      "dead_links": 0,
+      "unverified_links": 0
+    },
+    "markdown": {
+      "bold_pairs": "passed",
+      "bold_label_spacing": "passed",
+      "blank_line_structure": "passed",
+      "renderer": "pandoc_gfm_to_html5",
+      "raw_double_asterisk_in_rendered_html": 0,
+      "visual_browser_screenshot": "not_performed"
+    },
+    "note_structure": {
+      "paper_count": 3,
+      "reading_order": true,
+      "deep_read_marked": true,
+      "reading_scope_each": true,
+      "pending_information_each": true
+    },
+    "local_journal_validator": {
+      "status": "passed_journal_integrity",
+      "days": 10,
+      "papers": 30,
+      "append_only": "not_checked_locally_without_git_ancestry",
+      "content_qa": "not_evaluated_by_validator"
+    },
+    "local_bundle_validator": {
+      "status": "bundle_valid",
+      "baselines": "passed",
+      "planner": "artifacts_match"
+    },
+    "local_global_immutable_audit": {
+      "status": "not_run_to_completion",
+      "reason": "managed scratch snapshot has no full Git ancestry"
+    },
+    "exact_repository_ci": {
+      "run_id": 42928483761,
+      "head_sha": "3ea75ffd40cb8e71a60d2fa3d9023baae3bd2f7e",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/42928483761",
+      "relationship_to_publication_commit": {
+        "status": "ahead",
+        "ahead_by": 1,
+        "behind_by": 0
+      },
+      "journal_payloads_unchanged_at_tested_head": true,
+      "workflow_blob_sha": "849a96bd7d4bca5bb1d1201d9af403830df5d62d",
+      "workflow_expected_checks_present": true,
+      "jobs": [
+        {
+          "id": 130221021511,
+          "name": "validate",
+          "status": "completed",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 1
+            },
+            {
+              "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 2
+            },
+            {
+              "name": "Validate publications and full source-history coverage",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 3
+            },
+            {
+              "name": "Negative regressions and interrupted-publication recovery",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 4
+            },
+            {
+              "name": "Compare permanent history with the actual base commit",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 5
+            },
+            {
+              "name": "Record scope of checks",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 6
+            },
+            {
+              "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 12
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 13
+            }
+          ]
+        }
+      ]
+    },
+    "user_notes_preserved": true,
+    "post_write_complete_readback": true
+  },
+  "scope_notice": "Repository validators certify structure, history and frozen-bundle integrity; literature content QA is based on the recorded source reading and is not certified by CI.",
+  "device_sync_tested": false
+}
