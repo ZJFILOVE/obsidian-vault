@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "project": "journal",
+  "date": "2026-11-11",
+  "operation_id": "journal:2026-11-11",
+  "phase": "prepared",
+  "status": "passed_prepublication_checks",
+  "recorded_at_utc": "2026-11-11T00:02:48.244Z",
+  "prepared": {
+    "path": ".recommendation/transactions/journal/2026-11-11.json",
+    "creation_commit": "857dc1db1d9b84e41b8e678f8022186da1b6c3fe",
+    "blob_sha": "69452016aebcd423aa77134847fc14664f9975b1",
+    "bundle_sha256": "cb86de7a4a4ee750370ee33acc3b92ea189f9d5f6e31a72cbff46a0ed9d836cc",
+    "plan_sha256": "7167e1ba840b2b0408434c8ae5433b0513e60da494f9adbf1d0bf9dc10a263d9",
+    "exact_payload_readback": true
+  },
+  "preflight": {
+    "business_timezone": "Asia/Shanghai",
+    "date_absence_confirmed": true,
+    "transaction_absence_confirmed_before_create": true,
+    "target_baselines_verified": true,
+    "preparation_observed_main_head": "876438faa9ad2887ffedb6f2887001df74e1ad1b"
+  },
+  "selection": {
+    "candidate_count": 6,
+    "selected_resource_ids": [
+      "doi:10.1073/pnas.93.16.8362",
+      "doi:10.1529/biophysj.108.129957",
+      "doi:10.1021/ja0754507"
+    ],
+    "candidates": [
+      {
+        "doi": "10.1073/pnas.93.16.8362",
+        "decision": "selected",
+        "reason": "classic fluorescence-upconversion and isotope-effect evidence for GFP ESPT"
+      },
+      {
+        "doi": "10.1529/biophysj.108.129957",
+        "decision": "selected",
+        "reason": "site-specific vibrational evidence connecting E222 structure to parallel ultrafast pathways"
+      },
+      {
+        "doi": "10.1021/ja0754507",
+        "decision": "selected",
+        "reason": "mutational rewiring test that replaces the native relay with a proximal acceptor"
+      },
+      {
+        "doi": "10.1021/ja042466d",
+        "decision": "rejected",
+        "reason": "important E222-localization communication but accessible evidence was limited to bibliography/abstract and overlaps paper 2"
+      },
+      {
+        "doi": "10.1021/jp065326u",
+        "decision": "rejected",
+        "reason": "isotopic-editing follow-up is valuable but would overconcentrate the issue on one spectroscopy series"
+      },
+      {
+        "doi": "10.1021/bi7009053",
+        "decision": "rejected",
+        "reason": "same S65T/H148D system and question as paper 3; retained for a future pH/KDIE-focused issue"
+      }
+    ],
+    "permanent_history_dedup": "passed",
+    "prior_prepared_reservation_dedup": "passed",
+    "recent_14_day_topic_review": "passed",
+    "same_work_preprint_formal_dedup": "passed"
+  },
+  "source_observations": [
+    {
+      "doi": "10.1073/pnas.93.16.8362",
+      "identity_sources": [
+        "PubMed 8710876",
+        "PMC38676"
+      ],
+      "reading_scope": "PubMed bibliography and abstract; PMC full-text entry opened but page-text/PDF/SI not fully read",
+      "publication_status": "peer-reviewed published"
+    },
+    {
+      "doi": "10.1529/biophysj.108.129957",
+      "identity_sources": [
+        "PubMed 18469081",
+        "PMC2483774",
+        "ScienceDirect publisher record"
+      ],
+      "reading_scope": "PubMed/PMC bibliography, abstract, searchable main-text passages and main figure captions; publication PDF/SI not opened",
+      "publication_status": "peer-reviewed published"
+    },
+    {
+      "doi": "10.1021/ja0754507",
+      "identity_sources": [
+        "PubMed 18179211",
+        "PMC2552410",
+        "ACS publisher record"
+      ],
+      "reading_scope": "PubMed page with PMC full text, abstract, main-text sections and Fig. 1-11 captions; publication PDF/SI not opened",
+      "publication_status": "peer-reviewed published"
+    }
+  ],
+  "checks": {
+    "bibliography_identity": "passed",
+    "author_first_et_al": "passed",
+    "status_notice_search": "no_matching_correction_or_retraction_notice_found",
+    "evidence_layer_separation": "passed",
+    "numeric_context": "passed",
+    "paper_count": 3,
+    "doi_links": 3,
+    "markdown_bold_pairing": "passed",
+    "markdown_label_spacing": "passed",
+    "markdown_render": "passed_no_raw_double_asterisk",
+    "user_notes_preserved": "passed",
+    "journal_validator": {
+      "status": "passed_journal_integrity",
+      "days": 10,
+      "papers": 30,
+      "append_only": "not_checked_without_git_base",
+      "content_qa": "not_evaluated"
+    },
+    "prepared_bundle": {
+      "status": "bundle_valid",
+      "baselines": "passed"
+    },
+    "global_immutable_audit": {
+      "status": "pending_exact_repository_ci",
+      "local_reason": "managed scratch snapshot has no full Git ancestry"
+    }
+  }
+}
