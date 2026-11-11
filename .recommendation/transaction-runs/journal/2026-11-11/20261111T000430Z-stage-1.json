@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "project": "journal",
+  "date": "2026-11-11",
+  "operation_id": "journal:2026-11-11",
+  "phase": "stage_1_publication",
+  "status": "published_pending_exact_ci",
+  "recorded_at_utc": "2026-11-11T00:04:30.507Z",
+  "bundle": {
+    "path": ".recommendation/transactions/journal/2026-11-11.json",
+    "bundle_sha256": "cb86de7a4a4ee750370ee33acc3b92ea189f9d5f6e31a72cbff46a0ed9d836cc",
+    "plan_sha256": "7167e1ba840b2b0408434c8ae5433b0513e60da494f9adbf1d0bf9dc10a263d9",
+    "prepared_creation_commit": "857dc1db1d9b84e41b8e678f8022186da1b6c3fe"
+  },
+  "publication": {
+    "repository": "ZJFILOVE/obsidian-vault",
+    "stage": 1,
+    "parent_commit": "6c3bac6a9571794897fca85cbf348ab9761c3e19",
+    "base_tree_sha": "954e701ad68c819d975416202f67e47721495d08",
+    "tree_sha": "f42ba151d12aac8e9de2dc627bd9e7a68d4f7d0a",
+    "commit_sha": "5f153c8945d4feb89ebaebaa8f7df06480979d5a",
+    "ref_update": {
+      "branch": "main",
+      "force": false,
+      "expected_sha": "6c3bac6a9571794897fca85cbf348ab9761c3e19",
+      "success": true
+    }
+  },
+  "planner": {
+    "before_write": "ready_to_resume",
+    "next_stage": 1,
+    "after_readback": "artifacts_match",
+    "next_stage_after": null,
+    "content_qa": "not_evaluated"
+  },
+  "readbacks": {
+    "ZJFILOVE/obsidian-vault:00-inbox/Journal/2026-11-11.md": {
+      "status": "ok",
+      "sha": "2aefac269c1ee7622cae280ba3d04c31b865abcf",
+      "exact_payload": true
+    },
+    "ZJFILOVE/obsidian-vault:00-inbox/Journal/Index.md": {
+      "status": "ok",
+      "sha": "f25d64fbc20a9d9dbe230914b0b2ace48a905d72",
+      "exact_payload": true
+    },
+    "ZJFILOVE/obsidian-vault:.recommendation/history/journal.jsonl": {
+      "status": "ok",
+      "sha": "c894a3582a06bd8938dee3a66568255930a8405e",
+      "exact_payload": true
+    }
+  },
+  "checks": {
+    "exact_frozen_payloads": true,
+    "append_only_history_target": true,
+    "index_target": true,
+    "dated_note_target": true,
+    "user_notes_preserved": true,
+    "ci_status": "pending"
+  }
+}
