@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "project": "music",
+  "date": "2026-11-12",
+  "operation_id": "music:2026-11-12",
+  "attempt": "20261112T011457542Z-manual-retry",
+  "recorded_at": "2026-11-12T01:14:57.542Z",
+  "status": "artifacts_match",
+  "prepared_creation_commit": "b8edb919f0b2fb683960f18d6449406d98b2e509",
+  "prepared_blob_sha": "9411009503e6674597436b0e9aebd5dec2811dd1",
+  "original_bundle_sha256": "339a4431ecb16735844a64a2417cbbca99444755d3ea6b6dde042a4970c1d70c",
+  "prepared_readback_exact_utf8": true,
+  "stages": [
+    {
+      "stage": 1,
+      "repository": "ZJFILOVE/music-daily",
+      "commit": "79e24becad4c9d043bae37229fd333f5646877af",
+      "parent": "6c93b11701d8471408583ee584689687ec8bdd5a",
+      "tree": "339fd45dca7aa6b5ba0e94f3e4cf913bbbc3ac0a",
+      "files": [
+        {
+          "path": "recommendations/2026/11/2026-11-12.json",
+          "sha": "32ee902f350a2e88b295e9df090d7cf3f4b31e25"
+        },
+        {
+          "path": "state/tracks.json",
+          "sha": "2a06e846d477e9e1a66170e21cdb8f5f93ed4857"
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "repository": "ZJFILOVE/obsidian-vault",
+      "commit": "411c51ac0a5bafbe78154b333174bb52929aabc8",
+      "parent": "b8edb919f0b2fb683960f18d6449406d98b2e509",
+      "tree": "7c28274e9ebca116e8e59e2cfc783bbd39d11fce",
+      "files": [
+        {
+          "path": "Music/Daily/2026-11-12.md",
+          "sha": "2560dfab260da86790b4f04ab209d28f2ee7b206"
+        },
+        {
+          "path": "Music/Daily/manifests/2026-11-12.json",
+          "sha": "32ee902f350a2e88b295e9df090d7cf3f4b31e25"
+        },
+        {
+          "path": "Music/Daily/state/tracks.json",
+          "sha": "2a06e846d477e9e1a66170e21cdb8f5f93ed4857"
+        }
+      ]
+    }
+  ],
+  "final_planner": {
+    "operation_id": "music:2026-11-12",
+    "plan_sha256": "f4979c28f60162b94d7d9bb23ca4bdbbc1a11d00e404c16282c1568d42191cc0",
+    "status": "artifacts_match",
+    "next_stage": null,
+    "decisions": [
+      {
+        "repository": "ZJFILOVE/music-daily",
+        "path": "recommendations/2026/11/2026-11-12.json",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "32ee902f350a2e88b295e9df090d7cf3f4b31e25"
+      },
+      {
+        "repository": "ZJFILOVE/music-daily",
+        "path": "state/tracks.json",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": "d38444da51fb56c7c37c8763eee3224e05553a6e",
+        "target_sha": "2a06e846d477e9e1a66170e21cdb8f5f93ed4857"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Music/Daily/2026-11-12.md",
+        "stage": 2,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "2560dfab260da86790b4f04ab209d28f2ee7b206"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Music/Daily/manifests/2026-11-12.json",
+        "stage": 2,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "32ee902f350a2e88b295e9df090d7cf3f4b31e25"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Music/Daily/state/tracks.json",
+        "stage": 2,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": "d38444da51fb56c7c37c8763eee3224e05553a6e",
+        "target_sha": "2a06e846d477e9e1a66170e21cdb8f5f93ed4857"
+      }
+    ],
+    "content_qa": "not_evaluated",
+    "github_writes_performed": 0
+  },
+  "errors": []
+}
