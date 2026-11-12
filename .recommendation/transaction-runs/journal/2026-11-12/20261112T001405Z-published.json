@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "project": "journal",
+  "date": "2026-11-12",
+  "operation_id": "journal:2026-11-12",
+  "phase": "published",
+  "status": "passed_postpublication_checks_with_correction",
+  "recorded_at_utc": "2026-11-12T00:14:05Z",
+  "preflight": {
+    "business_timezone": "Asia/Shanghai",
+    "date_absence_confirmed": true,
+    "transaction_absence_confirmed_before_create": true,
+    "target_baselines_verified": true,
+    "preparation_observed_main_head": "44f5437acbd3f5cff1b46b4b2f6666d94223a26a"
+  },
+  "selection": {
+    "candidate_count": 5,
+    "selected_count": 3,
+    "rejected_count": 2,
+    "selected_resource_ids": [
+      "doi:10.1073/pnas.0506586102",
+      "doi:10.1021/ja2105009",
+      "doi:10.1021/acs.jpcb.8b04333"
+    ],
+    "candidates": [
+      {
+        "doi": "10.1073/pnas.0506586102",
+        "url": "https://doi.org/10.1073/pnas.0506586102",
+        "decision": "selected",
+        "reason": "Classic primary experiment; PMC HTML evidence for femtosecond fluorescence up-conversion, transient absorption and FADH• radical-cycle observation."
+      },
+      {
+        "doi": "10.1021/ja2105009",
+        "url": "https://doi.org/10.1021/ja2105009",
+        "decision": "selected",
+        "reason": "Full PMC HTML; visible-to-UV femtosecond TA, four T/U substrate variants, full photocycle timing, quantum-yield accounting and Marcus analysis."
+      },
+      {
+        "doi": "10.1021/acs.jpcb.8b04333",
+        "url": "https://doi.org/10.1021/acs.jpcb.8b04333",
+        "decision": "selected",
+        "reason": "Published computational primary study; PubMed abstract reports GMH/bridge-GF, MD sampling of 20 structures and ab initio MO pathway analysis."
+      },
+      {
+        "doi": "10.1073/pnas.1110927108",
+        "url": "https://doi.org/10.1073/pnas.1110927108",
+        "decision": "rejected",
+        "reason": "The 2012 JACS full text explicitly identifies this 2011 PNAS article as an earlier brief report of the same extensive study; excluded to avoid same-work duplication."
+      },
+      {
+        "doi": "10.1021/jp048376c",
+        "url": "https://doi.org/10.1021/jp048376c",
+        "decision": "rejected",
+        "reason": "The 2004 study focuses on antenna energy transfer/cofactor photoreduction rather than CPD substrate-cleavage and repair-pathway resolution; publisher full text was not accessible in this run."
+      }
+    ],
+    "exact_duplicates": 0,
+    "semantic_duplicates": 0,
+    "recent_topic_review": "passed; reviewed 2026-11-02 through 2026-11-11; photolyase repair cycle is distinct from the recent FAP, photoredox-enzyme, phytochrome, PYP/bR and GFP ESPT issues",
+    "recent_topics_reviewed": [
+      {
+        "date": "2026-11-02",
+        "theme": "FAP 光驱动脱羧：光化学证据与催化调控"
+      },
+      {
+        "date": "2026-11-03",
+        "theme": "蛋白质设计：骨架、序列与荧光素酶"
+      },
+      {
+        "date": "2026-11-04",
+        "theme": "DrBphP：皮秒口袋响应与全长输出"
+      },
+      {
+        "date": "2026-11-05",
+        "theme": "Bathy 光敏色素初级光化学与功能产率"
+      },
+      {
+        "date": "2026-11-06",
+        "theme": "光激发、自由基选择性与酶功能重编程"
+      },
+      {
+        "date": "2026-11-07",
+        "theme": "二维谱振荡、振电耦合与功能证据"
+      },
+      {
+        "date": "2026-11-08",
+        "theme": "de novo 蛋白开关与协同组装"
+      },
+      {
+        "date": "2026-11-09",
+        "theme": "近红外荧光蛋白与光化学通道工程"
+      },
+      {
+        "date": "2026-11-10",
+        "theme": "PYP/bR 时间分辨结构电影"
+      },
+      {
+        "date": "2026-11-11",
+        "theme": "GFP 超快 ESPT 与质子通道重接"
+      }
+    ],
+    "quality_padding": "not_used",
+    "prior_history_and_prepared_reservations": "checked_before_selection",
+    "permanent_history_dedup": "passed",
+    "prior_prepared_reservation_dedup": "passed",
+    "same_work_short_report_full_account_dedup": "passed"
+  },
+  "source_observations": [
+    {
+      "doi": "10.1073/pnas.0506586102",
+      "identity_sources": [
+        "PMC:PMC1283438",
+        "PubMed:PMID 16169906",
+        "DOI record"
+      ],
+      "reading_scope": "PMC HTML 主文重点段落、方法及 Fig. 1–3 图注；PDF/SI 未打开",
+      "publication_status": "peer-reviewed published",
+      "checked_at_utc": "2026-11-12T00:14:05Z"
+    },
+    {
+      "doi": "10.1021/ja2105009",
+      "identity_sources": [
+        "PMC:PMC3354007",
+        "PubMed:PMID 22533849",
+        "DOI record"
+      ],
+      "reading_scope": "PMC HTML 主文摘要、引言、方法、结果/讨论、Fig. 1–6 图注及 Table 1–2；PDF/SI 未打开",
+      "publication_status": "peer-reviewed published",
+      "checked_at_utc": "2026-11-12T00:14:05Z"
+    },
+    {
+      "doi": "10.1021/acs.jpcb.8b04333",
+      "identity_sources": [
+        "PubMed:PMID 29890068",
+        "ACS publisher record (open returned 403)",
+        "Nagoya repository record (open returned 429)"
+      ],
+      "reading_scope": "PubMed 书目与摘要；ACS 出版商页与 Nagoya 仓储记录本次未成功打开；PDF/SI 未读",
+      "publication_status": "peer-reviewed published",
+      "checked_at_utc": "2026-11-12T00:14:05Z"
+    }
+  ],
+  "prepared": {
+    "path": ".recommendation/transactions/journal/2026-11-12.json",
+    "bundle_sha256": "d3748e7cec8cf13ac7c7570942a072b5f98afe5f805399595b39810b00e7b7d8",
+    "plan_sha256": "8355ec6eaefa7d490aa590a810ec8a96514366b22d5cad5648f812be92c29865",
+    "prepared_creation_commit": "b2f5424fb9314859eb3b020ff8d303121f45b237",
+    "prepared_parent_commit": "44f5437acbd3f5cff1b46b4b2f6666d94223a26a",
+    "prepared_blob_sha": "d0d1c2927a22c51653922ec31290871f894dd3f4",
+    "exact_prepared_readback": true,
+    "immutable_after_correction": true
+  },
+  "publication": {
+    "commit_sha": "461c628db76818223bb38ad026a29dba80348f00",
+    "parent_commit": "b2f5424fb9314859eb3b020ff8d303121f45b237",
+    "tree_sha": "6ef859b6790e01932eb22ba6aeb9948ea0ed916a",
+    "force_push": false,
+    "original_readbacks": {
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/2026-11-12.md": {
+        "status": "ok",
+        "sha": "73c7f4177a597a545348d3fcfb8888550e52af3b",
+        "exact_payload": true
+      },
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/Index.md": {
+        "status": "ok",
+        "sha": "1acc7b692b4ecde295a6272f810903da92be6c1b",
+        "exact_payload": true
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/history/journal.jsonl": {
+        "status": "ok",
+        "sha": "7ec71030ef4b938122b219250a13d40d965e45af",
+        "exact_payload": true
+      }
+    },
+    "correction": {
+      "commit_sha": "4e73d4215d6c7eb28233b564df93db8303306fe5",
+      "parent_commit": "44ae9ff99453b2df7d80444d6db9fde7e9ea1fd1",
+      "path": ".recommendation/corrections/journal/2026-11-12-correction-01.json",
+      "record_sha": "59bf942496b726b125e7b8543a699068ea94d9be",
+      "original_note_sha": "73c7f4177a597a545348d3fcfb8888550e52af3b",
+      "corrected_note_sha": "e87f7cb27e0a898fd369b68da6617e2546459b91",
+      "unsupported_mutation_attribution_removed": true,
+      "prepared_bundle_unchanged": true
+    },
+    "corrected_readbacks": {
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/2026-11-12.md": {
+        "status": "ok",
+        "sha": "e87f7cb27e0a898fd369b68da6617e2546459b91",
+        "correction_recorded": true
+      },
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/Index.md": {
+        "status": "ok",
+        "sha": "1acc7b692b4ecde295a6272f810903da92be6c1b",
+        "unchanged": true
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/history/journal.jsonl": {
+        "status": "ok",
+        "sha": "7ec71030ef4b938122b219250a13d40d965e45af",
+        "unchanged_append_only": true
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/corrections/journal/2026-11-12-correction-01.json": {
+        "status": "ok",
+        "sha": "59bf942496b726b125e7b8543a699068ea94d9be",
+        "exact_record": true
+      }
+    },
+    "planner_after_readback": "artifacts_match_with_documented_correction",
+    "note_url": "https://github.com/ZJFILOVE/obsidian-vault/blob/main/00-inbox/Journal/2026-11-12.md"
+  },
+  "checks": {
+    "bibliography_identity": "passed",
+    "publication_status": "peer_reviewed_published_all_three",
+    "correction_retraction_search": "no_matching_notice_found_in_DOI/title searches at check time",
+    "evidence_layer_separation": "passed; observations, author interpretation and reviewer_synthesis separated",
+    "numeric_context_and_construct_conditions": "passed; construct, substrate and conditions retained",
+    "quantum_yield_pss_lifetime_distinctions": "passed; PSS not applicable; repair QY, branching efficiencies, stretched-exponential tau and <10 ps upper limit kept distinct",
+    "experiment_model_distinction": "passed; 2018 ET time and pathway are computed, not measured",
+    "links": {
+      "doi_links": 3,
+      "authoritative_readable_sources": 3,
+      "dead_links": 0,
+      "unverified_links": 1
+    },
+    "markdown": {
+      "bold_pairs": "passed",
+      "bold_label_spacing": "passed",
+      "blank_line_structure": "passed",
+      "renderer": "pandoc_markdown_to_html",
+      "raw_double_asterisk_in_rendered_html": 0,
+      "strong_tags": 21,
+      "field_spacing_issues": 0,
+      "visual_browser_screenshot": "not_performed"
+    },
+    "note_structure": {
+      "paper_count": 3,
+      "reading_order": true,
+      "deep_read_marked": true,
+      "reading_scope_each": true,
+      "pending_information_each": true
+    },
+    "journal_validator": {
+      "status": "passed_in_exact_repository_CI",
+      "run_id": 43125656792,
+      "scope": "check_daily_integrity.py invoked validate_journal.audit; append-only compared with actual base commit"
+    },
+    "bundle_validator": {
+      "status": "passed_in_exact_repository_CI",
+      "run_ids": [
+        43124951345,
+        43125117406,
+        43125656792
+      ],
+      "scope": "publication_bundle.py --journal-root . --base-ref"
+    },
+    "global_immutable_audit": {
+      "status": "passed_in_exact_repository_CI",
+      "run_id": 43125656792,
+      "scope": "check_daily_integrity.py --base-ref"
+    },
+    "user_notes_preserved": true,
+    "post_write_complete_readback": true,
+    "exact_repository_ci": {
+      "prepared_bundle": {
+        "run_id": 43124951345,
+        "head_sha": "b2f5424fb9314859eb3b020ff8d303121f45b237",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/43124951345"
+      },
+      "publication": {
+        "run_id": 43125117406,
+        "head_sha": "461c628db76818223bb38ad026a29dba80348f00",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/43125117406"
+      },
+      "correction": {
+        "run_id": 43125656792,
+        "head_sha": "4e73d4215d6c7eb28233b564df93db8303306fe5",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/43125656792",
+        "steps": [
+          "Validate publications and full source-history coverage",
+          "Negative regressions and interrupted-publication recovery",
+          "Compare permanent history with the actual base commit",
+          "Record scope of checks"
+        ]
+      }
+    }
+  },
+  "correction": {
+    "path": ".recommendation/corrections/journal/2026-11-12-correction-01.json",
+    "record_sha": "59bf942496b726b125e7b8543a699068ea94d9be",
+    "commit_sha": "4e73d4215d6c7eb28233b564df93db8303306fe5",
+    "corrected_note_sha": "e87f7cb27e0a898fd369b68da6617e2546459b91",
+    "prepared_bundle_preserved": true
+  },
+  "exact_repository_ci": {
+    "prepared_bundle": {
+      "run_id": 43124951345,
+      "head_sha": "b2f5424fb9314859eb3b020ff8d303121f45b237",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/43124951345"
+    },
+    "publication": {
+      "run_id": 43125117406,
+      "head_sha": "461c628db76818223bb38ad026a29dba80348f00",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/43125117406"
+    },
+    "correction": {
+      "run_id": 43125656792,
+      "head_sha": "4e73d4215d6c7eb28233b564df93db8303306fe5",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/43125656792",
+      "steps": [
+        "Validate publications and full source-history coverage",
+        "Negative regressions and interrupted-publication recovery",
+        "Compare permanent history with the actual base commit",
+        "Record scope of checks"
+      ]
+    }
+  },
+  "user_notes_preserved": true,
+  "device_sync_tested": false
+}
