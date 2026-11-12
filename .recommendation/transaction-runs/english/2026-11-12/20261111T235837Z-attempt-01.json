@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-12",
+  "operation_id": "english:2026-11-12",
+  "attempt": "20261111T235837Z-attempt-01",
+  "created_at_utc": "2026-11-11T23:58:37Z",
+  "status": "prepared_ready_to_resume",
+  "prepared": {
+    "path": ".recommendation/transactions/english/2026-11-12.json",
+    "creation_commit": "7bd40751c1d1116c31d2c92da38deb0c35578590",
+    "blob_sha": "652765b4f957016ed72c2e64729dd7bed1a66679",
+    "plan_sha256": "5cdad486262b85d342336a8f0446feba8d40ef3b6b9b0e58d6b19793930b93aa",
+    "bundle_sha256": "60507fffee16d7ec8307e26b8d9eaeea5a9201b63773cfd429188362c556b056"
+  },
+  "original_history_sha": "3e553e449eb403b3a3e9823d1f4c29369d2e9ae9",
+  "fresh_head_before_stage": "7bd40751c1d1116c31d2c92da38deb0c35578590",
+  "observations": {
+    "ZJFILOVE/obsidian-vault:50-courses/English/Daily/2026-11-12.md": {
+      "status": "missing",
+      "sha": null,
+      "confirmed": true
+    },
+    "ZJFILOVE/obsidian-vault:50-courses/English/Translation/2026-11-12.md": {
+      "status": "missing",
+      "sha": null,
+      "confirmed": true
+    },
+    "ZJFILOVE/obsidian-vault:50-courses/English/Vocabulary/2026-11-12.md": {
+      "status": "missing",
+      "sha": null,
+      "confirmed": true
+    },
+    "ZJFILOVE/obsidian-vault:.recommendation/history/english.jsonl": {
+      "status": "ok",
+      "sha": "3e553e449eb403b3a3e9823d1f4c29369d2e9ae9",
+      "confirmed": false
+    }
+  },
+  "planner": {
+    "operation_id": "english:2026-11-12",
+    "plan_sha256": "5cdad486262b85d342336a8f0446feba8d40ef3b6b9b0e58d6b19793930b93aa",
+    "status": "ready_to_resume",
+    "next_stage": 1,
+    "decisions": [
+      {
+        "path": "50-courses/English/Daily/2026-11-12.md",
+        "stage": 1,
+        "action": "create"
+      },
+      {
+        "path": "50-courses/English/Translation/2026-11-12.md",
+        "stage": 1,
+        "action": "create"
+      },
+      {
+        "path": "50-courses/English/Vocabulary/2026-11-12.md",
+        "stage": 1,
+        "action": "create"
+      },
+      {
+        "path": ".recommendation/history/english.jsonl",
+        "stage": 1,
+        "action": "update"
+      }
+    ],
+    "content_qa": "not_evaluated",
+    "github_writes_performed": 0
+  },
+  "stage_commits": [],
+  "readbacks": [],
+  "errors": []
+}
