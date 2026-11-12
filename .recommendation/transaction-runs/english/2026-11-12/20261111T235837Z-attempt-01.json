@@ -5,7 +5,7 @@
   "operation_id": "english:2026-11-12",
   "attempt": "20261111T235837Z-attempt-01",
   "created_at_utc": "2026-11-11T23:58:37Z",
-  "status": "prepared_ready_to_resume",
+  "status": "stage_1_published_readback_passed",
   "prepared": {
     "path": ".recommendation/transactions/english/2026-11-12.json",
     "creation_commit": "7bd40751c1d1116c31d2c92da38deb0c35578590",
@@ -67,7 +67,57 @@
     "content_qa": "not_evaluated",
     "github_writes_performed": 0
   },
-  "stage_commits": [],
-  "readbacks": [],
-  "errors": []
+  "stage_commits": [
+    {
+      "stage": 1,
+      "commit_sha": "34a32c372f5e3522ae729ea98d0302c3677916ec",
+      "tree_sha": "3756370b6236c5615aca44f7396af9a480c69305",
+      "parent_sha": "e08add68281a1fb65e0cf611e021f1955fb61d87",
+      "strategy": "single ordinary Git commit; non-force expected-head ref update"
+    }
+  ],
+  "readbacks": [
+    {
+      "path": "50-courses/English/Daily/2026-11-12.md",
+      "blob_sha": "06e14b6b8993e13cbb2e5c5f7b9b8a57a2ec45e5",
+      "expected_blob_sha": "06e14b6b8993e13cbb2e5c5f7b9b8a57a2ec45e5",
+      "matches": true
+    },
+    {
+      "path": "50-courses/English/Translation/2026-11-12.md",
+      "blob_sha": "13a0e0da739f6e5a65b2f7b6d5cdcdd2b8aa23a3",
+      "expected_blob_sha": "13a0e0da739f6e5a65b2f7b6d5cdcdd2b8aa23a3",
+      "matches": true
+    },
+    {
+      "path": "50-courses/English/Vocabulary/2026-11-12.md",
+      "blob_sha": "b913e21c3bb19330fcdfbc01d1323ace6a60108a",
+      "expected_blob_sha": "b913e21c3bb19330fcdfbc01d1323ace6a60108a",
+      "matches": true
+    },
+    {
+      "path": ".recommendation/history/english.jsonl",
+      "blob_sha": "73e913028c2414c842aa5be36936b02e6689fc5e",
+      "expected_blob_sha": "73e913028c2414c842aa5be36936b02e6689fc5e",
+      "matches": true
+    }
+  ],
+  "errors": [],
+  "content_checks": {
+    "dailySections": true,
+    "translationExercises": true,
+    "foldedAnswerCallouts": 4,
+    "vocabCount": 8,
+    "retrievalQuiz": true,
+    "crosslinks": true,
+    "autoMarkers": true,
+    "sourceIdentity": true,
+    "historyRows": 66,
+    "historyPrefixPreserved": true,
+    "historyExactOnce": true,
+    "sourceFreshAgainstOriginal": true,
+    "noDuplicateHistoryUrls": true,
+    "targetBlobMatches": true
+  },
+  "fresh_head_after_stage": "34a32c372f5e3522ae729ea98d0302c3677916ec"
 }
