@@ -285,7 +285,7 @@
   "ci": {
     "workflow": "Recommendation integrity (read-only)",
     "run_id": 43125117406,
-    "head_sha": "461c628db76818223bb3b020ff8d303121f45f00",
+    "head_sha": "461c628db76818223bb3b020ff8d303121f45b237",
     "conclusion": "success",
     "checks": {
       "validate_daily_recommendations.py": "success",
