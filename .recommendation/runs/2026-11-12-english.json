@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-12",
+  "weekday": "Thursday",
+  "operation_id": "english:2026-11-12",
+  "status": "published_and_verified",
+  "selection": {
+    "mode": "new_generation",
+    "candidate_pool_minimum": 8,
+    "candidate_pool_size": 12,
+    "dimensions": [
+      "quality",
+      "usefulness",
+      "curiosity",
+      "novelty",
+      "CET-6-to-introductory-TOEFL fit"
+    ],
+    "selected": {
+      "title": "How to Understand and Use the Nutrition Facts Label",
+      "source_url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+      "source": "U.S. Food and Drug Administration",
+      "source_type": "official government consumer explainer",
+      "estimated_reading_time_minutes": "10-12 (editorial estimate; not publisher-provided)",
+      "assessment": {
+        "quality": "high: official, structured, detailed explanatory page",
+        "usefulness": "high: trains denominator/unit checking and numerical comparison",
+        "curiosity": "medium-high: familiar object, commonly misread quantities",
+        "novelty": "high: no exact prior URL and no recent same-topic concentration",
+        "level_fit": "CET-6 to introductory TOEFL; manageable vocabulary with useful quantitative reasoning"
+      },
+      "reason": "Best balance of an authentic, directly readable 10-15-minute input, clear explanatory structure, reusable comparison language, and topic diversity. The source is not selected because of the user's research interests."
+    },
+    "candidates": [
+      {
+        "title": "How to Understand and Use the Nutrition Facts Label",
+        "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+        "source": "FDA",
+        "search_ref": "turn837707search1",
+        "decision": "selected",
+        "reason": "Official, detailed, clearly segmented, directly verified."
+      },
+      {
+        "title": "Nutrition Facts Label and Your Health",
+        "url": "https://www.cdc.gov/healthy-weight-growth/healthy-eating/nutrition-label.html",
+        "source": "CDC",
+        "search_ref": "turn837707search2",
+        "decision": "rejected",
+        "reason": "Strong official alternative, but same narrow label-reading topic and overlapping instructional objective; FDA page offers the fuller sequence needed for today's exercise."
+      },
+      {
+        "title": "Food labels",
+        "url": "https://www.nhs.uk/Live-well/eat-well/food-guidelines-and-food-labels/how-to-read-food-labels/",
+        "source": "NHS",
+        "search_ref": "turn837707search3",
+        "decision": "rejected",
+        "reason": "Same narrow topic; UK traffic-light criteria would broaden the lesson into a jurisdiction comparison."
+      },
+      {
+        "title": "How to Read Food and Beverage Labels",
+        "url": "https://www.nia.nih.gov/health/healthy-eating-nutrition-and-diet/how-read-food-and-beverage-labels",
+        "source": "National Institute on Aging",
+        "search_ref": "turn837707search6",
+        "decision": "rejected",
+        "reason": "Same label-reading topic and audience-specific framing; less diverse than the selected FDA input."
+      },
+      {
+        "title": "Signal Priority",
+        "url": "https://www.transit.dot.gov/research-innovation/signal-priority",
+        "source": "Federal Transit Administration",
+        "search_ref": "turn342688search4",
+        "decision": "rejected",
+        "reason": "Authentic technical material, but narrower transit-engineering vocabulary and a short page make it a weaker general CET-6/TOEFL input."
+      },
+      {
+        "title": "Fare Collection",
+        "url": "https://www.transit.dot.gov/research-innovation/fare-collection",
+        "source": "Federal Transit Administration",
+        "search_ref": "turn342688search6",
+        "decision": "rejected",
+        "reason": "Useful operational detail, but specialized transit terminology and older policy examples reduce present-day general relevance."
+      },
+      {
+        "title": "Heat Pump Systems",
+        "url": "https://www.energy.gov/energysaver/heat-pump-systems",
+        "source": "U.S. Department of Energy",
+        "search_ref": "turn342688search7",
+        "decision": "rejected",
+        "reason": "Good official explainer, but HVAC terminology and a wider systems scope make it more technical than the selected source."
+      },
+      {
+        "title": "Introduction of the ZIP Code",
+        "url": "https://facts.usps.com/decoding-the-zip-code/",
+        "source": "U.S. Postal Service",
+        "search_ref": "turn342688search0",
+        "decision": "rejected",
+        "reason": "Authentic and accessible, but a short fact page falls below the requested 5-15-minute input window."
+      },
+      {
+        "title": "Juror Selection Process",
+        "url": "https://www.uscourts.gov/court-programs/jury-service/juror-selection-process",
+        "source": "U.S. Courts",
+        "search_ref": "turn342688search13",
+        "decision": "rejected",
+        "reason": "Clear civic explainer, but too short for the requested study session."
+      },
+      {
+        "title": "Why Public Health Researchers Are Looking to Urban Trees",
+        "url": "https://www.smithsonianmag.com/science-nature/why-public-health-researchers-are-looking-urban-trees-180960985/",
+        "source": "Smithsonian Magazine",
+        "search_ref": "turn342688search11",
+        "decision": "rejected",
+        "reason": "Older report-specific figures may be stale, and the environmental/plant topic is too close to the 2026-11-09 plant-sounds input."
+      },
+      {
+        "title": "Caring for The Met: 150 Years of Conservation",
+        "url": "https://www.metmuseum.org/ko/essays/history-of-conservation",
+        "source": "The Metropolitan Museum of Art",
+        "search_ref": "turn342688search17",
+        "decision": "rejected",
+        "reason": "Topic is too close to the 2026-11-05 Met scientific-research input; the localized /ko/ route also makes the English reading path less certain."
+      },
+      {
+        "title": "Laughter",
+        "url": "https://www.psychologytoday.com/us/basics/laughter",
+        "source": "Psychology Today",
+        "search_ref": "turn342688search9",
+        "decision": "rejected",
+        "reason": "Broad overview with claims that require more careful qualification; lower evidence discipline for today's explanatory-reading task."
+      }
+    ],
+    "search_queries": [
+      "short accessible English explainer articles 5 minute read how public libraries support communities official source",
+      "short educational article 5-15 minute read why cities use street trees urban heat official source",
+      "short explainer article how food labels nutrition facts work government source",
+      "short article how museums preserve objects conservation process official museum",
+      "short explainer how jury selection works US courts educational source",
+      "short article why people laugh psychology science 5 minute read university",
+      "short explainer how public transit systems coordinate buses and schedules official source",
+      "short article how postal codes work geography logistics educational source",
+      "heat pump systems explainer U.S. Department of Energy"
+    ]
+  },
+  "diversity": {
+    "recent_history_topics": [
+      {
+        "date": "2026-11-05",
+        "topic": "scientific research on paintings at a museum"
+      },
+      {
+        "date": "2026-11-06",
+        "topic": "cartography and language"
+      },
+      {
+        "date": "2026-11-07",
+        "topic": "American comedy television"
+      },
+      {
+        "date": "2026-11-08",
+        "topic": "documentary and cultural exchange"
+      },
+      {
+        "date": "2026-11-09",
+        "topic": "plant stress and ultrasonic sounds"
+      },
+      {
+        "date": "2026-11-10",
+        "topic": "personal-computing user experience history"
+      },
+      {
+        "date": "2026-11-11",
+        "topic": "particle accelerators"
+      }
+    ],
+    "selected_topic": "consumer numeracy and reading a standardized food label",
+    "cooldown_result": "no same narrow topic in the preceding seven business dates; candidates adjacent to recent Met and plant topics were rejected",
+    "format": "official government article/explainer"
+  },
+  "source_verification": {
+    "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+    "title": "How to Understand and Use the Nutrition Facts Label",
+    "publisher": "U.S. Food and Drug Administration",
+    "prepublication_direct_open_ref": "turn497014view0",
+    "prepublication_verification_date": "2026-11-12",
+    "latest_reverification_ref": "turn990578view0",
+    "latest_reverification_time_local": "2026-11-12T08:09:02+08:00",
+    "direct_content_evidence": {
+      "page_lines": 265,
+      "title_line": 65,
+      "overview_and_sections_read": "lines 71-237",
+      "sections": [
+        "Overview",
+        "Serving Information",
+        "Calories",
+        "Nutrients",
+        "The Percent Daily Value (%DV)",
+        "Nutrition Facts Label Variations"
+      ]
+    },
+    "result": "page title and body matched; full explanatory sections were readable on direct open, not inferred from a search snippet or HTTP status",
+    "source_date_caveat": "No clear last-updated date was visible in the page content read.",
+    "scope_caveats": [
+      "U.S. Nutrition Facts label rules are not a substitute for Chinese labeling standards.",
+      "The 2,000-calorie figure is presented as general guidance, not an individualized target.",
+      "%DV is per nutrient and per serving; it is not a vertical total across all nutrients."
+    ]
+  },
+  "history": {
+    "path": ".recommendation/history/english.jsonl",
+    "original_blob_sha": "3e553e449eb403b3a3e9823d1f4c29369d2e9ae9",
+    "final_blob_sha": "73e913028c2414c842aa5be36936b02e6689fc5e",
+    "rows_before": 65,
+    "rows_after": 66,
+    "append_only": true,
+    "exactly_one_registration_for_date_and_url": true,
+    "unique_source_urls_after_append": true,
+    "original_preselection_history_used_for_freshness": true
+  },
+  "prepared": {
+    "path": ".recommendation/transactions/english/2026-11-12.json",
+    "creation_commit": "7bd40751c1d1116c31d2c92da38deb0c35578590",
+    "blob_sha": "652765b4f957016ed72c2e64729dd7bed1a66679",
+    "plan_sha256": "5cdad486262b85d342336a8f0446feba8d40ef3b6b9b0e58d6b19793930b93aa",
+    "bundle_sha256": "60507fffee16d7ec8307e26b8d9eaeea5a9201b63773cfd429188362c556b056",
+    "exposed_resource_ids": [
+      "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+    ],
+    "immutable_readback": "matched"
+  },
+  "publication": {
+    "strategy": "one ordinary Git tree/commit for all three English notes plus append-only history",
+    "stage": 1,
+    "commit": "34a32c372f5e3522ae729ea98d0302c3677916ec",
+    "tree": "3756370b6236c5615aca44f7396af9a480c69305",
+    "parent": "e08add68281a1fb65e0cf611e021f1955fb61d87",
+    "ref_update": "non-force expected-head update confirmed",
+    "subsequent_unrelated_commits": [
+      "b2f5424fb9314859eb3b020ff8d303121f45b237",
+      "461c628db76818223bb3b020ff8d303121f45b237"
+    ],
+    "attempt_receipt": {
+      "path": ".recommendation/transaction-runs/english/2026-11-12/20261111T235837Z-attempt-01.json",
+      "initial_commit": "e08add68281a1fb65e0cf611e021f1955fb61d87",
+      "updated_commit": "44f5437acbd3f5cff1b46b4b2f6666d94223a26a",
+      "blob_sha": "2ce4305e309abaee1eb2357f8d0969d51457d059",
+      "status": "stage_1_published_readback_passed"
+    }
+  },
+  "readbacks": [
+    {
+      "path": "50-courses/English/Daily/2026-11-12.md",
+      "blob_sha": "06e14b6b8993e13cbb2e5c5f7b9b8a57a2ec45e5",
+      "matches_frozen_payload": true
+    },
+    {
+      "path": "50-courses/English/Translation/2026-11-12.md",
+      "blob_sha": "13a0e0da739f6e5a65b2f7b6d5cdcdd2b8aa23a3",
+      "matches_frozen_payload": true
+    },
+    {
+      "path": "50-courses/English/Vocabulary/2026-11-12.md",
+      "blob_sha": "b913e21c3bb19330fcdfbc01d1323ace6a60108a",
+      "matches_frozen_payload": true
+    },
+    {
+      "path": ".recommendation/history/english.jsonl",
+      "blob_sha": "73e913028c2414c842aa5be36936b02e6689fc5e",
+      "matches_frozen_payload": true
+    }
+  ],
+  "content_qa": {
+    "daily_required_sections": true,
+    "translation_independent_exercises": 2,
+    "folded_answer_callouts": 4,
+    "vocabulary_entries": 8,
+    "retrieval_quiz_present": true,
+    "all_three_notes_cross_linked_to_each_other_and_English": true,
+    "auto_markers_and_manual_Notes_regions_preserved": true,
+    "source_identity_matches_note_and_history": true,
+    "history_exact_once": true,
+    "history_prefix_preserved": true,
+    "source_fresh_against_original_history": true,
+    "manual_review": "completed; structural checks do not certify pedagogical quality"
+  },
+  "ci": {
+    "workflow": "Recommendation integrity (read-only)",
+    "run_id": 43125117406,
+    "head_sha": "461c628db76818223bb3b020ff8d303121f45f00",
+    "conclusion": "success",
+    "checks": {
+      "validate_daily_recommendations.py": "success",
+      "negative regression and publication recovery unit tests": "success",
+      "check_daily_integrity.py": "success",
+      "publication_bundle.py --journal-root": "success; 93 PREPARED bundles validated"
+    },
+    "scope_limit": "CI is read-only and does not certify live-source semantics, teaching quality, local device sync, or delivery."
+  },
+  "errors": []
+}
