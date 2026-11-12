@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "project": "journal",
+  "date": "2026-11-12",
+  "operation_id": "journal:2026-11-12",
+  "correction_id": "journal:2026-11-12:correction-01",
+  "recorded_at_utc": "2026-11-12T00:10:45Z",
+  "type": "scientific_attribution_correction",
+  "reason": "The original note incorrectly attributed E274A/N378C site-mutant quantum-yield data to the 2012 JACS photolyase article. The opened PMC full text identifies its experimental constraints as T/U substrate variants, visible-to-UV femtosecond transient absorption, structural distances and Marcus analysis; searches within the article for 'mutant' and 'E274A' returned no matching text. The mutation statement was unsupported for this paper and has been removed.",
+  "changes": [
+    {
+      "location": "今日科学问题与选文主线",
+      "before": "2012 年…位点突变约束通道；…突变体和 Marcus 分析",
+      "after": "2012 年…T/U 底物位置异构体和多波长动力学约束通道；…底物位置异构体、Marcus 分析和结构距离"
+    },
+    {
+      "location": "② 作者解释",
+      "before": "E274A（靠近底物侧）和 N378C（靠近辅基侧）突变使总修复量子产率分别降至约 0.40 和 0.69，说明活性位点电性与几何共同影响催化分流。注意：突变编号 E274/N378 对应 *E. coli* 构建体；文中用于展示复合物的 *A. nidulans* 结构编号为 E283/N386，不能混用。",
+      "after": "本篇没有提供 E274A/N378C 等位点突变的验证；通道证据来自 T/U 底物位置异构体的动力学差异、结构距离与 Marcus 分析。"
+    }
+  ],
+  "evidence": [
+    {
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3354007/",
+      "observation": "Opened PMC HTML main text, including Methods, substrate-variant design, Results/Discussion, Table 1–2 and Fig. 1–7 captions; full-text searches for 'mutant' and 'E274A' found no match.",
+      "source_refs": [
+        "turn489468view0",
+        "turn294950view0",
+        "turn540287view0",
+        "turn834469view0"
+      ]
+    },
+    {
+      "source": "https://doi.org/10.1021/ja2105009",
+      "observation": "DOI identity cross-checked against the PMC article record."
+    }
+  ],
+  "preservation": {
+    "prepared_bundle_path": ".recommendation/transactions/journal/2026-11-12.json",
+    "prepared_bundle_sha256": "d3748e7cec8cf13ac7c7570942a072b5f98afe5f805399595b39810b00e7b7d8",
+    "original_note_sha": "73c7f4177a597a545348d3fcfb8888550e52af3b",
+    "original_bundle_target_sha": "73c7f4177a597a545348d3fcfb8888550e52af3b",
+    "original_bundle_unchanged": true,
+    "corrected_note_path": "00-inbox/Journal/2026-11-12.md"
+  }
+}
