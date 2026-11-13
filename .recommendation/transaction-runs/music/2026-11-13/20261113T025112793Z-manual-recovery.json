@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "project": "music",
+  "date": "2026-11-13",
+  "operation_id": "music:2026-11-13",
+  "attempt": "20261113T025112793Z-manual-recovery",
+  "recorded_at": "2026-11-13T02:51:12.794Z",
+  "status": "artifacts_match",
+  "content_qa": "incomplete_original_candidate_evidence",
+  "qa_success_receipt_written": false,
+  "prepared_creation_commit": "1628c6ce5e3b0fc7aec8ec8c0074642036572b7f",
+  "prepared_blob_sha": "8e426235bdd34e4ac50069b3f4992e571662de65",
+  "original_bundle_sha256": "6d1111484727532f87dd71293caf51e9d38751595133783033a7aa6d1ca3db32",
+  "original_plan_sha256": "178fd6c7cd1e170ca614f6b1162dea14ff07e6f09b40433ab3a3df61e4292cbf",
+  "original_scheduled_run": "249fc437-e814-832c-80b7-a538a485190b",
+  "stages": [
+    {
+      "stage": 1,
+      "repository": "ZJFILOVE/music-daily",
+      "commit": "eb483210f7665a498e776766554bb4db8fb757ab",
+      "action": "no_op",
+      "files": [
+        {
+          "path": "recommendations/2026/11/2026-11-13.json",
+          "sha": "5af2acfb725ea19f6384f2b603b5b642e3021a4a"
+        },
+        {
+          "path": "state/tracks.json",
+          "sha": "1505338ca160964c4c2412d2bd9343e48cd02570"
+        }
+      ],
+      "readback_exact": true
+    },
+    {
+      "stage": 2,
+      "repository": "ZJFILOVE/obsidian-vault",
+      "commit": "cff75fe91c6225d18537898d59823bcc68e11665",
+      "parent": "1628c6ce5e3b0fc7aec8ec8c0074642036572b7f",
+      "tree": "b69c171f013ea1884d331d592062e71a1223b2be",
+      "files": [
+        {
+          "path": "Music/Daily/2026-11-13.md",
+          "sha": "18b819fddb4c33375b05ebaac422930d78ce9d2f"
+        },
+        {
+          "path": "Music/Daily/manifests/2026-11-13.json",
+          "sha": "5af2acfb725ea19f6384f2b603b5b642e3021a4a"
+        },
+        {
+          "path": "Music/Daily/state/tracks.json",
+          "sha": "1505338ca160964c4c2412d2bd9343e48cd02570"
+        }
+      ],
+      "readback_exact": true
+    }
+  ],
+  "final_planner": {
+    "operation_id": "music:2026-11-13",
+    "plan_sha256": "178fd6c7cd1e170ca614f6b1162dea14ff07e6f09b40433ab3a3df61e4292cbf",
+    "status": "artifacts_match",
+    "next_stage": null,
+    "decisions": [
+      {
+        "repository": "ZJFILOVE/music-daily",
+        "path": "recommendations/2026/11/2026-11-13.json",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "5af2acfb725ea19f6384f2b603b5b642e3021a4a"
+      },
+      {
+        "repository": "ZJFILOVE/music-daily",
+        "path": "state/tracks.json",
+        "stage": 1,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": "2a06e846d477e9e1a66170e21cdb8f5f93ed4857",
+        "target_sha": "1505338ca160964c4c2412d2bd9343e48cd02570"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Music/Daily/2026-11-13.md",
+        "stage": 2,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "18b819fddb4c33375b05ebaac422930d78ce9d2f"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Music/Daily/manifests/2026-11-13.json",
+        "stage": 2,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": null,
+        "target_sha": "5af2acfb725ea19f6384f2b603b5b642e3021a4a"
+      },
+      {
+        "repository": "ZJFILOVE/obsidian-vault",
+        "path": "Music/Daily/state/tracks.json",
+        "stage": 2,
+        "action": "no_op",
+        "reason": "target already present, including a lost successful response",
+        "expected_sha": "2a06e846d477e9e1a66170e21cdb8f5f93ed4857",
+        "target_sha": "1505338ca160964c4c2412d2bd9343e48cd02570"
+      }
+    ],
+    "content_qa": "not_evaluated",
+    "github_writes_performed": 0
+  },
+  "music_recovery_gate": "passed_music_recovery_gate",
+  "validations": {
+    "vault_validate": "passed",
+    "vault_integrity": "passed",
+    "vault_bundle_audit": "passed",
+    "music_validate": "passed",
+    "two_checkout_mirror_history": "passed"
+  },
+  "ci": {
+    "music-daily:eb483210f7665a498e776766554bb4db8fb757ab": [
+      {
+        "id": 43341671891,
+        "head_sha": "eb483210f7665a498e776766554bb4db8fb757ab",
+        "name": "validate",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/ZJFILOVE/music-daily/actions/runs/43341671891",
+        "jobs": [
+          {
+            "id": 131611200661,
+            "name": "validate",
+            "status": "completed",
+            "conclusion": "success"
+          }
+        ]
+      }
+    ],
+    "obsidian-vault:cff75fe91c6225d18537898d59823bcc68e11665": [
+      {
+        "id": 43354787621,
+        "head_sha": "cff75fe91c6225d18537898d59823bcc68e11665",
+        "name": "Recommendation integrity (read-only)",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/43354787621",
+        "jobs": [
+          {
+            "id": 131654113449,
+            "name": "validate",
+            "status": "completed",
+            "conclusion": "success"
+          }
+        ]
+      }
+    ]
+  },
+  "recovery_observations": {
+    "checked_original_parent": "4a4a73185f85860043b3e04853fa08cbcb3a11a5",
+    "recording_identity": {
+      "status": "passed_recording_identity",
+      "operation_id": "music:2026-11-13",
+      "identity_index_sha256": "0b0e28b13231dc262959109e5bac3836983aa48c1da8aa9e699f012c39db9f6d",
+      "history_head": "4a4a73185f85860043b3e04853fa08cbcb3a11a5",
+      "identities": [
+        "apple_music:cn:1643009587",
+        "apple_music:cn:1607100336",
+        "apple_music:cn:1833283533",
+        "apple_music:cn:3735675",
+        "apple_music:cn:1032611724"
+      ],
+      "historical_failed_dates": [
+        "2026-11-06"
+      ],
+      "content_qa": "not_evaluated",
+      "transport": "not_evaluated"
+    },
+    "source_observations": [
+      {
+        "song_id": "1643009587",
+        "candidate_title": "Muerte",
+        "candidate_artist": "Natalia Lafourcade",
+        "url": "https://music.apple.com/cn/song/1643009587",
+        "observed_at_utc": "2026-11-13T02:49:05.346368+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/muerte/1643009587",
+        "page_sha256": "c3851c5d327af36f508b6efe13f7e4306d5b38e85e2b1fc7dc085fe6595b752f",
+        "title": "Muerte",
+        "artist": "Natalia Lafourcade",
+        "album": "De Todas las Flores",
+        "date_published": "2022-10-28",
+        "duration": "PT5M49S",
+        "storefront": "cn",
+        "observed_song_id": "1643009587",
+        "canonical_url": "https://music.apple.com/cn/song/muerte/1643009587",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified"
+      },
+      {
+        "song_id": "1607100336",
+        "candidate_title": "Plastic 100°C",
+        "candidate_artist": "Sampha",
+        "url": "https://music.apple.com/cn/song/1607100336",
+        "observed_at_utc": "2026-11-13T02:49:05.347026+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/plastic-100-c/1607100336",
+        "page_sha256": "83506e44839768a685daa74226c8b8b0775cc2a00267af4fec469de03583b04f",
+        "title": "Plastic 100°C",
+        "artist": "Sampha",
+        "album": "Process (Bonus Edition)",
+        "date_published": "2017-02-03",
+        "duration": "PT5M16S",
+        "storefront": "cn",
+        "observed_song_id": "1607100336",
+        "canonical_url": "https://music.apple.com/cn/song/plastic-100-c/1607100336",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified"
+      },
+      {
+        "song_id": "1833283533",
+        "candidate_title": "Tobiume (2025 Remaster)",
+        "candidate_artist": "Susumu Yokota",
+        "url": "https://music.apple.com/cn/song/1833283533",
+        "observed_at_utc": "2026-11-13T02:49:05.347554+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/tobiume-2025-remaster/1833283533",
+        "page_sha256": "840ddc69b31c86016e7812a1e88a73783410ad9ee020d94f53b621b98b916f4d",
+        "title": "Tobiume (2025 Remaster)",
+        "artist": "Susumu Yokota",
+        "album": "Sakura (2025 Remaster)",
+        "date_published": "2025-10-03",
+        "duration": "PT4M37S",
+        "storefront": "cn",
+        "observed_song_id": "1833283533",
+        "canonical_url": "https://music.apple.com/cn/song/tobiume-2025-remaster/1833283533",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified"
+      },
+      {
+        "song_id": "3735675",
+        "candidate_title": "O Leaozinho",
+        "candidate_artist": "Caetano Veloso",
+        "url": "https://music.apple.com/cn/song/3735675",
+        "observed_at_utc": "2026-11-13T02:49:05.348097+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/o-leaozinho/3735675",
+        "page_sha256": "7e5b662b1e32a11b4b65969cbe8647b177d18901354a7c32c4d9f0516d4f0597",
+        "title": "O Leaozinho",
+        "artist": "Caetano Veloso",
+        "album": "Brazil Classics 1: Beleza Tropical",
+        "date_published": "1985-01-11",
+        "duration": "PT3M6S",
+        "storefront": "cn",
+        "observed_song_id": "3735675",
+        "canonical_url": "https://music.apple.com/cn/song/o-leaozinho/3735675",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified"
+      },
+      {
+        "song_id": "1032611724",
+        "candidate_title": "Trouble of the World",
+        "candidate_artist": "Mahalia Jackson",
+        "url": "https://music.apple.com/cn/song/1032611724",
+        "observed_at_utc": "2026-11-13T02:49:05.348564+00:00",
+        "http_status": 200,
+        "final_url": "https://music.apple.com/cn/song/trouble-of-the-world/1032611724",
+        "page_sha256": "1cf1643beacefe7ebe4e59f91e9d9d4fa11570ba453df5d6e2b16525d5a1ad10",
+        "title": "Trouble of the World",
+        "artist": "玛哈莉雅·杰克森",
+        "album": "Gospels, Spirituals, & Hymns",
+        "date_published": "1956-01-01",
+        "duration": "PT4M46S",
+        "storefront": "cn",
+        "observed_song_id": "1032611724",
+        "canonical_url": "https://music.apple.com/cn/song/trouble-of-the-world/1032611724",
+        "verification_method": "direct_cn_song_html_jsonld_and_server_descriptor",
+        "playback_tested": false,
+        "status": "metadata_verified"
+      }
+    ],
+    "all_note_sections_passed": true,
+    "localized_artist_display": {
+      "manifest": "Mahalia Jackson",
+      "cn_song_page": "玛哈莉雅·杰克森"
+    },
+    "original_candidate_pool": "unavailable",
+    "original_candidate_count": null
+  },
+  "blockers": [
+    {
+      "step": "publication_qa",
+      "reason": "Original pre-selection pool IDs, count, verification observations and rejection evidence could not be recovered. The five frozen selections were reverified only at recovery time."
+    }
+  ],
+  "playlist": {
+    "id": "p.YJXV7dEIeb3GzZX",
+    "added": 0,
+    "api_confirmed": null,
+    "status": "blocked_by_incomplete_publication_qa"
+  }
+}
