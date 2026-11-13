@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-13",
+  "operation_id": "english:2026-11-13",
+  "mode": "new_publication",
+  "created_at_utc": "2026-11-13T00:13:48Z",
+  "selection": {
+    "candidate_pool_count": 9,
+    "policy_minimum": 8,
+    "selected_url": "https://www.nps.gov/articles/000/home-front-illicit-trade-and-black-markets-in-world-war-ii.htm",
+    "selected_title": "Home Front Illicit Trade and Black Markets in World War II",
+    "selection_rationale": "highest combined teaching value and topic novelty; supports institutional, causal and evidence-strength reading without repeating the prior seven-day narrow themes",
+    "candidates": [
+      {
+        "url": "https://www.nps.gov/articles/000/home-front-illicit-trade-and-black-markets-in-world-war-ii.htm",
+        "title": "Home Front Illicit Trade and Black Markets in World War II",
+        "publisher": "U.S. National Park Service",
+        "topic": "wartime institutions, rationing, incentives and enforcement",
+        "estimated_minutes": "9-12",
+        "verification": "direct official page opened; title, body, author note, 25 notes/source list and last-updated date observed",
+        "score": {
+          "quality": 9,
+          "usefulness": 9,
+          "curiosity": 9,
+          "novelty": 9,
+          "fit": 9
+        },
+        "decision": "selected"
+      },
+      {
+        "url": "https://oceanservice.noaa.gov/facts/ocean_weather.html",
+        "title": "What role does the ocean play in the weather?",
+        "publisher": "NOAA National Ocean Service",
+        "topic": "ocean-weather systems",
+        "estimated_minutes": "3-5",
+        "verification": "direct official page opened; title, body and 2026-09-23 update observed",
+        "score": {
+          "quality": 8,
+          "usefulness": 7,
+          "curiosity": 6,
+          "novelty": 6,
+          "fit": 6
+        },
+        "decision": "rejected",
+        "reason": "shorter than the preferred 5-15 minute input and adjacent to recent science topics"
+      },
+      {
+        "url": "https://www.bankofengland.co.uk/explainers/what-is-money",
+        "title": "What is money?",
+        "publisher": "Bank of England",
+        "topic": "money, commodity and fiat systems",
+        "estimated_minutes": "7-10",
+        "verification": "direct official page opened; definitions, examples and video transcript observed",
+        "score": {
+          "quality": 9,
+          "usefulness": 9,
+          "curiosity": 7,
+          "novelty": 5,
+          "fit": 8
+        },
+        "decision": "rejected",
+        "reason": "money and institutional trust were used recently enough to reduce novelty"
+      },
+      {
+        "url": "https://www.nist.gov/blogs/taking-measure/putting-einstein-test-worlds-most-accurate-clocks",
+        "title": "Putting Einstein to the Test With the World’s Most Accurate Clocks",
+        "publisher": "NIST",
+        "topic": "atomic clocks and relativity",
+        "estimated_minutes": "12-15",
+        "verification": "direct official page opened; title, author, publication date and substantive body observed",
+        "score": {
+          "quality": 9,
+          "usefulness": 8,
+          "curiosity": 9,
+          "novelty": 7,
+          "fit": 8
+        },
+        "decision": "rejected",
+        "reason": "physics and large scientific instruments were the immediately preceding week's narrow theme"
+      },
+      {
+        "url": "https://www.archives.gov/education/teaching-with-documents",
+        "title": "Teaching With Documents",
+        "publisher": "U.S. National Archives",
+        "topic": "primary-source analysis",
+        "estimated_minutes": "5-7",
+        "verification": "direct official page opened; document-analysis guidance and resource structure observed",
+        "score": {
+          "quality": 9,
+          "usefulness": 9,
+          "curiosity": 6,
+          "novelty": 7,
+          "fit": 8
+        },
+        "decision": "rejected",
+        "reason": "useful but more of a resource hub than a single cohesive authentic input"
+      },
+      {
+        "url": "https://oceanservice.noaa.gov/facts/wavesinocean.html",
+        "title": "Why does the ocean have waves?",
+        "publisher": "NOAA National Ocean Service",
+        "topic": "wave energy and misconceptions",
+        "estimated_minutes": "3-4",
+        "verification": "direct official page opened; title, explanation, transcript and update date observed",
+        "score": {
+          "quality": 8,
+          "usefulness": 7,
+          "curiosity": 7,
+          "novelty": 7,
+          "fit": 6
+        },
+        "decision": "rejected",
+        "reason": "below the preferred reading duration"
+      },
+      {
+        "url": "https://www.archives.gov/legislative/resources/education/studying-the-constitution",
+        "title": "Studying the Constitution with Primary Sources",
+        "publisher": "U.S. National Archives",
+        "topic": "constitutional structure and primary sources",
+        "estimated_minutes": "10-15 plus activities",
+        "verification": "direct official page opened; lesson summary, rationale, guiding question and materials observed",
+        "score": {
+          "quality": 9,
+          "usefulness": 8,
+          "curiosity": 6,
+          "novelty": 8,
+          "fit": 6
+        },
+        "decision": "rejected",
+        "reason": "lesson-plan format requires worksheets and is less self-contained for today's input"
+      },
+      {
+        "url": "https://americanhistory.si.edu/explore/stories/new-cart-gives-visitors-hands-experience-conservation-museum",
+        "title": "A new cart gives visitors hands-on experience with conservation at the museum",
+        "publisher": "Smithsonian National Museum of American History",
+        "topic": "museum conservation and public education",
+        "estimated_minutes": "6-8",
+        "verification": "official search result exposed title, author, date and substantive excerpt; direct open timed out",
+        "score": {
+          "quality": 8,
+          "usefulness": 7,
+          "curiosity": 8,
+          "novelty": 6,
+          "fit": 7
+        },
+        "decision": "rejected",
+        "reason": "direct verification was incomplete and museum material analysis was used within the recent-topic window"
+      },
+      {
+        "url": "https://americanhistory.si.edu/collections-care",
+        "title": "Collections Care",
+        "publisher": "Smithsonian National Museum of American History",
+        "topic": "display, light damage and preservation",
+        "estimated_minutes": "5-7",
+        "verification": "official page content observed in search retrieval, including rotation and rest-period rationale",
+        "score": {
+          "quality": 8,
+          "usefulness": 8,
+          "curiosity": 7,
+          "novelty": 6,
+          "fit": 7
+        },
+        "decision": "rejected",
+        "reason": "museum preservation overlaps the recent Met material-science lesson"
+      }
+    ]
+  },
+  "diversity": {
+    "recent_topics_reviewed": [
+      "food labels and quantities",
+      "particle accelerators",
+      "user experience history",
+      "plant stress acoustics",
+      "culture exchange documentary"
+    ],
+    "selected_topic": "wartime rationing, incentives and enforcement",
+    "narrow_topic_repeat_within_about_seven_days": false,
+    "pedagogical_fit": "CET-6 to introductory TOEFL institutional vocabulary and cautious historical evidence"
+  },
+  "source_verification": {
+    "url": "https://www.nps.gov/articles/000/home-front-illicit-trade-and-black-markets-in-world-war-ii.htm",
+    "method": "direct official-page retrieval before and after publication",
+    "publisher": "U.S. National Park Service",
+    "observed_title": "Home Front Illicit Trade and Black Markets in World War II",
+    "observed_last_updated": "2023-11-16",
+    "observed_scope": [
+      "article body",
+      "author and funding note",
+      "25 numbered notes",
+      "sources cited list"
+    ],
+    "accessibility": "official HTML page retrieved successfully",
+    "verification_limits": "the 25 underlying historical references were not independently reverified one by one",
+    "verified_at_utc": [
+      "2026-11-13T00:05:00Z",
+      "2026-11-13T00:13:48Z"
+    ]
+  },
+  "history": {
+    "original_preselection_blob_sha": "73e913028c2414c842aa5be36936b02e6689fc5e",
+    "original_entries": 66,
+    "selected_url_in_original_history": false,
+    "prepared_reservations_read": 95,
+    "selected_url_in_prior_unrelated_reservations": false,
+    "final_blob_sha": "19e5e7654fb0dc714ee41c527fcfa2636cfc29bf",
+    "final_entries": 67,
+    "same_date_registration_count": 1,
+    "selected_url_registration_count": 1,
+    "prefix_preserved": true
+  },
+  "bundle": {
+    "path": ".recommendation/transactions/english/2026-11-13.json",
+    "creation_commit": "6d8ac4ca2fb9de40d2cc1edc8ad9b112fbc67e2f",
+    "blob_sha": "bac7781137cc1cc810d257b6e148561a3734751d",
+    "plan_sha256": "337576e4319cffb78f0aa64a55e52bae0caa686f2927e05694c998cbfda45f03",
+    "bundle_sha256": "f874869670736d5c48f9f75803cf78ae55714f004f67f6957e0f2f3ae604dad4",
+    "readback_exact": true
+  },
+  "publication": {
+    "strategy": "one ordinary Git-data commit for three notes and history; non-force expected-head update",
+    "commit": "5b766c9738a4dbb7c1cc4fb67103c14cbbb3c860",
+    "parent": "7d50f430b6d315d22f3b201c7416fce2027c766f",
+    "readbacks": {
+      "50-courses/English/Daily/2026-11-13.md": "f82b814ba2490f3fa62105c126cb7474fe82564e",
+      "50-courses/English/Translation/2026-11-13.md": "04fe37189cb007d9184b029e5003eb641639ac40",
+      "50-courses/English/Vocabulary/2026-11-13.md": "aabf1f591c7b66f19223767384d71ab11eaaefd4",
+      ".recommendation/history/english.jsonl": "19e5e7654fb0dc714ee41c527fcfa2636cfc29bf"
+    },
+    "all_readbacks_match_frozen_payloads": true,
+    "planner_status": "artifacts_match",
+    "planner_next_stage": null
+  },
+  "teaching_qa": {
+    "daily_required_sections": true,
+    "daily_questions": 3,
+    "translation_independently_authored_exercises": 2,
+    "translation_levels": [
+      "CET-6",
+      "TOEFL/academic"
+    ],
+    "folded_answer_callouts": 3,
+    "vocabulary_chunks": 8,
+    "retrieval_quiz": true,
+    "cross_links_complete": true,
+    "auto_markers_and_manual_notes_boundary": true,
+    "copyright": "summaries, original exercises and brief phrase-level examples only"
+  },
+  "checks": {
+    "validate_daily_recommendations": {
+      "status": "passed",
+      "summary": "strict daily recommendations validated — youtube=280, reddit=560, english=61, music=294"
+    },
+    "check_daily_integrity": {
+      "status": "passed_local_checks",
+      "base_ref": "7d50f430b6d315d22f3b201c7416fce2027c766f"
+    },
+    "unit_tests": {
+      "status": "passed",
+      "count": 322
+    },
+    "publication_bundle_planner": {
+      "status": "artifacts_match",
+      "decisions": 4,
+      "all_no_op": true
+    },
+    "live_source_identity": {
+      "status": "passed",
+      "scope": "official page identity and article content"
+    },
+    "device_sync": "unverified",
+    "notification_delivery": "unverified"
+  },
+  "historical_backlog": {
+    "status": "retained",
+    "note": "Historical source/format findings remain recorded and were not used to alter earlier recommendations."
+  }
+}
