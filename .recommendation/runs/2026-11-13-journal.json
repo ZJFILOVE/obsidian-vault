@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "project": "journal",
+  "date": "2026-11-13",
+  "operation_id": "journal:2026-11-13",
+  "phase": "published",
+  "status": "passed_postpublication_checks",
+  "completed_at_utc": "2026-11-13T00:12:59Z",
+  "business_timezone": "Asia/Shanghai",
+  "theme": "经典型光敏色素反向过程为什么快：Cph1 与 Agp1 的 Pfr→Pr 初级分叉",
+  "papers": [
+    {
+      "title": "Ultrafast dynamics of phytochrome from the cyanobacterium Synechocystis, reconstituted with phycocyanobilin and phycoerythrobilin",
+      "doi": "10.1016/S0006-3495(02)75460-X",
+      "authors": "Karsten Heyne et al.",
+      "year": 2002,
+      "journal": "Biophysical Journal",
+      "deep_read": false
+    },
+    {
+      "title": "Subpicosecond Midinfrared Spectroscopy of the Pfr Reaction of Phytochrome Agp1 from Agrobacterium tumefaciens",
+      "doi": "10.1529/biophysj.107.119297",
+      "authors": "Christian Schumann et al.",
+      "year": 2008,
+      "journal": "Biophysical Journal",
+      "deep_read": false
+    },
+    {
+      "title": "Ultrafast E to Z photoisomerization dynamics of the Cph1 phytochrome",
+      "doi": "10.1016/j.cplett.2012.08.044",
+      "authors": "Peter W. Kim et al.",
+      "year": 2012,
+      "journal": "Chemical Physics Letters",
+      "deep_read": true
+    }
+  ],
+  "selection": {
+    "candidate_count": 6,
+    "selected_count": 3,
+    "rejected_count": 3,
+    "selected_resource_ids": [
+      "doi:10.1016/s0006-3495(02)75460-x",
+      "doi:10.1529/biophysj.107.119297",
+      "doi:10.1016/j.cplett.2012.08.044"
+    ],
+    "rejected_candidates": [
+      {
+        "doi": "10.1002/cphc.201501073",
+        "decision": "rejected",
+        "reason": "Cph1 Raman/IR study retained for a later focused issue; selecting it here would over-concentrate the issue on one construct and accessible evidence was less complete."
+      },
+      {
+        "doi": "10.1021/bi5005359",
+        "decision": "rejected",
+        "reason": "Cph1 Pfr heterogeneity is relevant but secondary to today's EADS/branching question and is reserved for a future heterogeneity-focused issue."
+      },
+      {
+        "doi": "10.1039/c8cp01696h",
+        "decision": "rejected",
+        "reason": "Broader biliverdin D-ring coordination study; not as tightly focused on the reverse-process timing and branching question."
+      }
+    ],
+    "quality_padding": "not_used",
+    "permanent_history_dedup": "passed",
+    "prior_prepared_reservation_dedup": "passed_for_all_existing_journal_transactions_2026-11-02_through_2026-11-12",
+    "recent_topic_review": "passed; reviewed 2026-11-02 through 2026-11-12 and used a distinct reverse-phytochrome/EADS question"
+  },
+  "sources": [
+    {
+      "doi": "10.1016/S0006-3495(02)75460-X",
+      "identity_sources": [
+        "PubMed:PMID 11806940",
+        "PMC:PMC1301907",
+        "DOI record"
+      ],
+      "reading_scope": "PubMed bibliography and abstract; PMC full-text record and searchable passages opened; publication PDF/SI not opened",
+      "publication_status": "peer-reviewed published"
+    },
+    {
+      "doi": "10.1529/biophysj.107.119297",
+      "identity_sources": [
+        "PubMed:PMID 18192363",
+        "PMC:PMC2275684",
+        "DOI record"
+      ],
+      "reading_scope": "PMC HTML abstract, methods, results/discussion and Fig. 2–7 captions; publication PDF/SI not opened",
+      "publication_status": "peer-reviewed published"
+    },
+    {
+      "doi": "10.1016/j.cplett.2012.08.044",
+      "identity_sources": [
+        "PubMed:PMID 23554514",
+        "PMC:PMC3611326",
+        "DOI record"
+      ],
+      "reading_scope": "PMC HTML/searchable main text, methods, results and Fig. 1, 5 and 6 captions; publication PDF/SI not opened",
+      "publication_status": "peer-reviewed published"
+    }
+  ],
+  "bundle": {
+    "path": ".recommendation/transactions/journal/2026-11-13.json",
+    "bundle_sha256": "a09e2c75b22e8bf5585bf1747edc4aa3675a3728ba555cfdf3b136aa17bfc9e5",
+    "plan_sha256": "71516bcd74fe3a04206aee5383fbedb3dfc99de176101159e96887b6592daf96",
+    "prepared_creation_commit": "a6d173676c958cd1cd97e1edd75a1df2f89ee3b3",
+    "prepared_parent_commit": "69a29592bc2a8d001de5857aa49a43d1617b47d2",
+    "prepared_blob_sha": "31d501b3adb3b5f68e1df254f0d3af7da0831130",
+    "exact_prepared_readback": true
+  },
+  "publication": {
+    "commit_sha": "7d50f430b6d315d22f3b201c7416fce2027c766f",
+    "parent_commit": "6d8ac4ca2fb9de40d2cc1edc8ad9b112fbc67e2f",
+    "tree_sha": "6ce6548ce9a76af30f20fb879e64d381c7fac7e3",
+    "force_push": false,
+    "concurrent_commit_reconciled": "English PREPARED commit 6d8ac4ca2fb9de40d2cc1edc8ad9b112fbc67e2f was read and retained before the Journal publication commit",
+    "readbacks": {
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/2026-11-13.md": {
+        "status": "ok",
+        "sha": "8da54ae314fb7412cc50709dc2c687bf52038622",
+        "exact_payload": true
+      },
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/Index.md": {
+        "status": "ok",
+        "sha": "a0c4ce61a3148fc586632cb4994d2dfe5aef0513",
+        "exact_payload": true
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/history/journal.jsonl": {
+        "status": "ok",
+        "sha": "44ae0922d8bc0cea6a5f2032f79915851df78771",
+        "exact_payload": true
+      }
+    },
+    "planner_after_readback": "artifacts_match",
+    "note_url": "https://github.com/ZJFILOVE/obsidian-vault/blob/main/00-inbox/Journal/2026-11-13.md"
+  },
+  "checks": {
+    "bibliography_identity": "passed",
+    "publication_status": "peer_reviewed_published_all_three",
+    "correction_retraction_search": "no_matching_notice_found_in_DOI/title searches at check time",
+    "evidence_layer_separation": "passed; observations, author interpretation and reviewer_synthesis separated",
+    "numeric_context_and_construct_conditions": "passed",
+    "quantum_yield_pss_lifetime_distinctions": "passed; primary Lumi-F yield, final Pr quantum yield, PSS, kinetic constants and upper limits kept distinct",
+    "experiment_model_distinction": "passed; EADS and target-model assignments are identified as model representations rather than automatically pure species",
+    "note_structure": {
+      "paper_count": 3,
+      "reading_order": true,
+      "deep_read_marked": true,
+      "reading_scope_each": true,
+      "pending_information_each": true
+    },
+    "markdown": {
+      "bold_pairs": "passed",
+      "bold_label_spacing": "passed",
+      "blank_line_structure": "passed",
+      "renderer": "pandoc_markdown_to_html",
+      "raw_double_asterisk_in_rendered_html": 0,
+      "strong_tags": 21,
+      "visual_browser_screenshot": "not_performed"
+    },
+    "local_journal_validator": {
+      "status": "passed",
+      "days": 12,
+      "papers": 36,
+      "append_only_against_git_base": "not_run_in_partial_local_checkout"
+    },
+    "local_bundle_validator": {
+      "status": "passed",
+      "bundle_sha256": "a09e2c75b22e8bf5585bf1747edc4aa3675a3728ba555cfdf3b136aa17bfc9e5"
+    },
+    "exact_repository_ci": {
+      "run_id": 43335070969,
+      "tested_head_sha": "95305d65b928735b7de26b172ab5b25ef97a391c",
+      "journal_publication_commit_is_ancestor": true,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/43335070969",
+      "scope": "Recommendation integrity (read-only), including Journal validation, global integrity and immutable publication-bundle audit"
+    },
+    "user_notes_preserved": true,
+    "post_write_complete_readback": true
+  },
+  "scope_notice": "Repository validators certify structure, permanent-history append-only behavior and frozen-bundle integrity; literature content QA is based on the recorded source reading and is not certified by CI.",
+  "device_sync_tested": false
+}
