@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "operation_id": "news-youtube-reddit:2026-11-12",
+  "date": "2026-11-12",
+  "recorded_at": "2026-11-13T03:51:56.638Z",
+  "status": "artifacts_read_back",
+  "prepared_commit": "1a6bbda50e1e4beddd20df1515f958ae9e48498d",
+  "bundle_sha256": "8663abff0c41b18b9e5272a37dd4a9a7c1eaa49d4983f7b8ddf87519644c0f81",
+  "plan_sha256": "54e5ceddbcf577292ecc3c5d5bc27e6fe70044ad801d39bd8b03b9f44aed8021",
+  "stage": 1,
+  "stage_commit": "e7c39bae53ab9feb490cbcce705dd1e00637818e",
+  "readbacks": {
+    "News/Daily/2026-11-12.md": "7747242bd3051bd2923d089c4030e8cadbea7aac",
+    "Resources/YouTube/Daily/2026-11-12.md": "a99c10dc028d14084d1a6215ade8940e3a0362f1",
+    "Resources/Reddit/Daily/2026-11-12.md": "96440e09f3a8aea6ba9cd8b8a408aee05ff9ec5a",
+    ".recommendation/history/youtube.jsonl": "08fcdf0c921fd68b58bd38146d98722d89e809d9",
+    ".recommendation/history/reddit.jsonl": "4e12f98966fad4de495ca5e1d88fb8667d992085"
+  },
+  "errors": []
+}
