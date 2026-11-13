@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-13",
+  "operation_id": "english:2026-11-13",
+  "attempt_id": "20261113T001122Z-attempt-01",
+  "started_at_utc": "2026-11-13T00:08:00Z",
+  "completed_at_utc": "2026-11-13T00:11:22Z",
+  "prepared": {
+    "path": ".recommendation/transactions/english/2026-11-13.json",
+    "creation_commit": "6d8ac4ca2fb9de40d2cc1edc8ad9b112fbc67e2f",
+    "blob_sha": "bac7781137cc1cc810d257b6e148561a3734751d",
+    "bundle_sha256": "f874869670736d5c48f9f75803cf78ae55714f004f67f6957e0f2f3ae604dad4",
+    "readback_exact": true
+  },
+  "stage_commits": [
+    {
+      "stage": 1,
+      "repository": "ZJFILOVE/obsidian-vault",
+      "initial_parent": "6d8ac4ca2fb9de40d2cc1edc8ad9b112fbc67e2f",
+      "initial_commit": "eebfefe1e1547706b41be209f38624392c1371e8",
+      "initial_ref_update": "unknown_error_then_readback_not_applied",
+      "error": {
+        "classification": "graphql_unknown_with_concurrent_head_change",
+        "code": "UNKNOWN",
+        "message_reference": "ED5F:1573AB:1F071FB:6314AD1:6AF6556E"
+      },
+      "fresh_parent": "7d50f430b6d315d22f3b201c7416fce2027c766f",
+      "commit": "5b766c9738a4dbb7c1cc4fb67103c14cbbb3c860",
+      "expected_head_update": true,
+      "force": false
+    }
+  ],
+  "readbacks": [
+    {
+      "path": "50-courses/English/Daily/2026-11-13.md",
+      "blob_sha": "f82b814ba2490f3fa62105c126cb7474fe82564e",
+      "matches_frozen_payload": true
+    },
+    {
+      "path": "50-courses/English/Translation/2026-11-13.md",
+      "blob_sha": "04fe37189cb007d9184b029e5003eb641639ac40",
+      "matches_frozen_payload": true
+    },
+    {
+      "path": "50-courses/English/Vocabulary/2026-11-13.md",
+      "blob_sha": "aabf1f591c7b66f19223767384d71ab11eaaefd4",
+      "matches_frozen_payload": true
+    },
+    {
+      "path": ".recommendation/history/english.jsonl",
+      "blob_sha": "19e5e7654fb0dc714ee41c527fcfa2636cfc29bf",
+      "matches_frozen_payload": true
+    }
+  ],
+  "repository_writes_performed": {
+    "prepared": 1,
+    "publication_commit": 1,
+    "history_appends": 1
+  },
+  "result": "stage_1_published_and_read_back"
+}
