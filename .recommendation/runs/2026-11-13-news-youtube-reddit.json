@@ -1,0 +1,1736 @@
+{
+  "schema_version": 1,
+  "project": "news-youtube-reddit",
+  "date": "2026-11-13",
+  "operation_id": "news-youtube-reddit:2026-11-13",
+  "status": "passed_current_publication",
+  "candidate_counts": {
+    "youtube": 60,
+    "reddit": 147
+  },
+  "candidate_evidence": {
+    "youtube": [
+      {
+        "id": "1ZUIrDTN6wo",
+        "url": "https://www.youtube.com/watch?v=1ZUIrDTN6wo",
+        "title": "William Wegman on His Early Video Work",
+        "channel": "The Metropolitan Museum of Art",
+        "official_page": "https://www.metmuseum.org/pt/perspectives/metcollects-william-wegman",
+        "topic": "录像艺术 · wildcard",
+        "assessment": "用艺术家的早期录像回看媒介怎样改变创作：有限的取景和很短的动作，也能靠观众对下一秒的预期构成笑点或反转。可以先观察画面里有哪些限制，再听艺术家如何解释选择。",
+        "verification_method": "creator_official_page",
+        "full_playback": "not_verified",
+        "observation_date": "2026-11-13",
+        "decision": "selected"
+      },
+      {
+        "id": "NRjwG1Ru7N8",
+        "url": "https://www.youtube.com/watch?v=NRjwG1Ru7N8",
+        "title": "The Art of the Copyist",
+        "channel": "The Metropolitan Museum of Art",
+        "official_page": "https://www.metmuseum.org/es/perspectives/copyist-jas-knight",
+        "topic": "绘画学习",
+        "assessment": "跟着临摹者重新看委拉斯开兹的肖像。临摹的价值是让许多一眼略过的决定重新可见：先定明暗还是先辨色温，面部边缘什么时候该收住？看时给自己定一个具体观察任务，例如追踪脸与背景交界的处理。",
+        "verification_method": "creator_official_page",
+        "full_playback": "not_verified",
+        "observation_date": "2026-11-13",
+        "decision": "selected"
+      },
+      {
+        "id": "WrGRomn5pEQ",
+        "url": "https://www.youtube.com/watch?v=WrGRomn5pEQ",
+        "title": "Incorruptible by Design",
+        "channel": "Long Now",
+        "official_page": "https://longnow.org/talks/02026-ries/",
+        "topic": "组织治理",
+        "assessment": "从治理结构看使命为何会在融资和管理层更替后偏移。适合边看边把口号、约束和执行者分开：谁有权改规则，谁承受规则失效的代价？演讲提供的是组织设计观点，不能单凭案例推断通用效果。",
+        "verification_method": "creator_official_page",
+        "full_playback": "not_verified",
+        "observation_date": "2026-11-13",
+        "decision": "selected"
+      },
+      {
+        "id": "EQ4xjOTwhec",
+        "url": "https://www.youtube.com/watch?v=EQ4xjOTwhec",
+        "title": "Webb Telescope Reveals the Protostar L1527 IRS",
+        "channel": "NASA Science",
+        "official_page": "https://science.nasa.gov/asset/webb/webb-telescope-reveals-the-protostar-l1527-irs/",
+        "topic": "恒星形成",
+        "assessment": "这里值得追的是形状如何帮助定位原恒星：先找遮挡光的结构，再观察亮区在它两侧怎样分布。配套页面明确使用基于韦布图像的三维模型，可顺手对照哪些结构来自二维影像，哪些位置是重建。",
+        "verification_method": "creator_official_page",
+        "full_playback": "not_verified",
+        "observation_date": "2026-11-13",
+        "decision": "selected"
+      },
+      {
+        "id": "L1MI-6kaeKo",
+        "url": "https://www.youtube.com/watch?v=L1MI-6kaeKo",
+        "title": "MDMAP Training Video 2: Choosing a Site and Gathering Gear",
+        "channel": "NOAA Marine Debris Program",
+        "official_page": "https://marinedebris.noaa.gov/mdmap-training-video-2-choosing-site-and-gathering-gear",
+        "topic": "现场采样",
+        "assessment": "选地点和准备工具往往决定调查结果能否跨时间比较。看时把注意力放在现场可达性、重复采样和装备一致性之间的取舍。这个训练视频可借来反思实验记录：下次换人，别人能不能复现同一套选择？",
+        "verification_method": "creator_official_page",
+        "full_playback": "not_verified",
+        "observation_date": "2026-11-13",
+        "decision": "selected"
+      },
+      {
+        "id": "lUUte2o2Sn8",
+        "url": "https://www.youtube.com/watch?v=lUUte2o2Sn8",
+        "title": "Gil Strang's Final 18.06 Linear Algebra Lecture - YouTube",
+        "evidence": "Gil Strang's Final 18.06 Linear Algebra Lecture - YouTube (https://www.youtube.com/watch?v=lUUte2o2Sn8)\n【turn1112youtube180】 [wordlim: 200] Published: 3.5 years ago; Crawled: last month; Source query: site:youtube.com/watch mit opencourseware linear algebra thermodynamics lecture; By: MIT OpenCourseWare (6500000 followers) ... Revered mathematics professor Gilbert Strang capped a 61-year career as a faculty member at MIT by delivering his final 18.06 Linear Algebra lecture before retiring at the age of 88. In addition to a brief review for the ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "hNDFwVVKVk0",
+        "url": "https://www.youtube.com/watch?v=hNDFwVVKVk0",
+        "title": "Course Introduction | MIT 18.06SC Linear Algebra - YouTube",
+        "evidence": "\nCourse Introduction | MIT 18.06SC Linear Algebra - YouTube (https://www.youtube.com/watch?v=hNDFwVVKVk0)\n【turn1112youtube181】 [wordlim: 200] Published: 14.3 years ago; Crawled: last month; Source query: site:youtube.com/watch mit opencourseware linear algebra thermodynamics lecture; # Course Introduction | MIT 18.06SC Linear Algebra\nBy: MIT OpenCourseWare (6500000 followers)\n# Course Introduction | MIT 18.06SC Linear Algebra\nBy: MIT OpenCourseWare (6500000 followers)\nPublished: 2012-08-09, 254582 views, 2700 likes\n\n## Description\nCourse Introd",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "4RX_lpoGRBg",
+        "url": "https://www.youtube.com/watch?v=4RX_lpoGRBg",
+        "title": "1. Thermodynamics Part 1 - YouTube",
+        "evidence": "\n1. Thermodynamics Part 1 - YouTube (https://www.youtube.com/watch?v=4RX_lpoGRBg)\n【turn1112youtube182】 [wordlim: 200] Published: 11.9 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch mit opencourseware linear algebra thermodynamics lecture; By: MIT OpenCourseWare (6490000 followers) ... YouTube playlist: View the complete course: URL ... This is the first of four lectures on Thermodynamics.\n# 1. Thermodynamics Part 1\nBy: MIT OpenCourseWare (6490000 followers)\nPublished: 2014-12-21, 1099445 views, 12000 likes\n\n## Descriptio",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "J7DzL2_Na80",
+        "url": "https://www.youtube.com/watch?v=J7DzL2_Na80",
+        "title": "1. The Geometry of Linear Equations - YouTube",
+        "evidence": "\n1. The Geometry of Linear Equations - YouTube (https://www.youtube.com/watch?v=J7DzL2_Na80)\n【turn1112youtube183】 [wordlim: 200] Published: 7.1 years ago; Crawled: last month; Source query: site:youtube.com/watch mit opencourseware linear algebra thermodynamics lecture; By: MIT OpenCourseWare (6500000 followers) ... YouTube Playlist:    • MIT 18.06 Linear Algebra, Spring 2005\n# 1. The Geometry of Linear Equations\nBy: MIT OpenCourseWare (6500000 followers)\nPublished: 2019-09-24, 2858304 views, 40000 likes\n\n## Description\nMIT 18.06 Linear Algebra",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "YeyrH-Oc2p4",
+        "url": "https://www.youtube.com/watch?v=YeyrH-Oc2p4",
+        "title": "Course Introduction | MIT 18.06SC Linear Algebra - YouTube",
+        "evidence": "\nCourse Introduction | MIT 18.06SC Linear Algebra - YouTube (https://www.youtube.com/watch?v=YeyrH-Oc2p4)\n【turn1112youtube184】 [wordlim: 200] Published: 7.0 years ago; Crawled: last month; Source query: site:youtube.com/watch mit opencourseware linear algebra thermodynamics lecture; By: MIT OpenCourseWare (6500000 followers) ... YouTube Playlist:    • MIT 18.06SC Linear Algebra, Fall 2011\n# Course Introduction | MIT 18.06SC Linear Algebra\nBy: MIT OpenCourseWare (6500000 followers)\nPublished: 2019-11-26, 227360 views, 3300 likes\n\n## Description\n",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "kLqduWF6GXE",
+        "url": "https://www.youtube.com/watch?v=kLqduWF6GXE",
+        "title": "Lec 1 | MIT 5.60 Thermodynamics & Kinetics, Spring 2008 - YouTube",
+        "evidence": "\nLec 1 | MIT 5.60 Thermodynamics & Kinetics, Spring 2008 - YouTube (https://www.youtube.com/watch?v=kLqduWF6GXE)\n【turn1112youtube185】 [wordlim: 200] Published: 17.9 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch mit opencourseware linear algebra thermodynamics lecture; # Lec 1 | MIT 5.60 Thermodynamics & Kinetics, Spring 2008\nBy: MIT OpenCourseWare (6490000 followers) ... Lecture 1: State of a system, 0th law, equation of state.\n# Lec 1 | MIT 5.60 Thermodynamics & Kinetics, Spring 2008\nBy: MIT OpenCourseWare (6490000 fol",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "IZqwi0wJovM",
+        "url": "https://www.youtube.com/watch?v=IZqwi0wJovM",
+        "title": "- YouTube",
+        "evidence": "\n- YouTube (https://www.youtube.com/watch?v=IZqwi0wJovM)\n【turn1112youtube186】 [wordlim: 200] Published: 17.5 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch mit opencourseware linear algebra thermodynamics lecture; By: MIT OpenCourseWare (6490000 followers) ... YouTube Playlist:    • MIT 18.06 Linear Algebra, Spring 2005\n# \nBy: MIT OpenCourseWare (6490000 followers)\nPublished: 2009-05-06, 420641 views, 3000 likes\n\n## Description\nMIT 18.06 Linear Algebra, Spring 2005\nInstructor: Gilbert Strang\nView the complete course: URL",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "DqEmrt_xQTg",
+        "url": "https://www.youtube.com/watch?v=DqEmrt_xQTg",
+        "title": "Lec 9 | MIT 5.60 Thermodynamics & Kinetics, Spring 2008 - YouTube",
+        "evidence": "\nLec 9 | MIT 5.60 Thermodynamics & Kinetics, Spring 2008 - YouTube (https://www.youtube.com/watch?v=DqEmrt_xQTg)\n【turn1112youtube187】 [wordlim: 200] Published: 17.9 years ago; Crawled: last month; Source query: site:youtube.com/watch mit opencourseware linear algebra thermodynamics lecture; # Lec 9 | MIT 5.60 Thermodynamics & Kinetics, Spring 2008\nBy: MIT OpenCourseWare (6490000 followers) ... Lecture 09: Entropy and the Clausius inequality.\n# Lec 9 | MIT 5.60 Thermodynamics & Kinetics, Spring 2008\nBy: MIT OpenCourseWare (6490000 followers)\nPub",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "RIqVnFtOSr4",
+        "url": "https://www.youtube.com/watch?v=RIqVnFtOSr4",
+        "title": "When Physics Fails: The Problem of Space-Time - YouTube",
+        "evidence": "\nWhen Physics Fails: The Problem of Space-Time - YouTube (https://www.youtube.com/watch?v=RIqVnFtOSr4)\n【turn1113youtube199】 [wordlim: 200] Published: 2.1 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch quanta magazine mathematics physics explained; In this Quanta explainer, Vijay Balasubramanian, a physicist at the University of Pennsylvania, takes us on a journey through space-time to investigate what it's made of, why it's failing us, and where physics can go next. ... Quanta Magazine is an editorially independent publi",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "UhG56kltfP4",
+        "url": "https://www.youtube.com/watch?v=UhG56kltfP4",
+        "title": "- YouTube",
+        "evidence": "\n- YouTube (https://www.youtube.com/watch?v=UhG56kltfP4)\n【turn1113youtube200】 [wordlim: 200] Published: 1.9 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch quanta magazine mathematics physics explained; The year's biggest breakthroughs in physics included evidence that dark energy may be weakening, the discovery of a supersolid, and new advances in quantum geometry. ... Quanta Magazine is an editorially independent publication supported by the Simons Foundation: URL\n# \nBy: Quanta Magazine (1220000 followers, Verified)\nPub",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "6aBQCZIeonc",
+        "url": "https://www.youtube.com/watch?v=6aBQCZIeonc",
+        "title": "Climate Change and the Future of Cities | Eric Klinenberg - YouTube",
+        "evidence": "\nClimate Change and the Future of Cities | Eric Klinenberg - YouTube (https://www.youtube.com/watch?v=6aBQCZIeonc)\n【turn1113youtube201】 [wordlim: 200] Published: 6.6 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch long now talks future history climate urbanism; \"Climate Change and the Future of Cities\" was given on March 07, 02017 as part of The Long Now Foundation's \"Conversations at The Interval\" Salon Talks. ... Since 02014 this series has presented artists, authors, entrepreneurs, scientists (and more) taking a long-t",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "FUQwijSDzg8",
+        "url": "https://www.youtube.com/watch?v=FUQwijSDzg8",
+        "title": "The Stein Paradox - Numberphile - YouTube",
+        "evidence": "\nThe Stein Paradox - Numberphile - YouTube (https://www.youtube.com/watch?v=FUQwijSDzg8)\n【turn1113youtube202】 [wordlim: 200] Published: 1.4 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch numberphile paradox integers probability; # The Stein Paradox - Numberphile\n# The Stein Paradox - Numberphile\nBy: Numberphile (4770000 followers, Verified)\nPublished: 2025-07-02, 322510 views, 8300 likes\n\n## Description\nProfessor Chris Oates discusses one of the most puzzling paradoxes in statistics. Extra footage:    • The Stein Paradox",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "bubU53arcsM",
+        "url": "https://www.youtube.com/watch?v=bubU53arcsM",
+        "title": "Climate Change will Change our Cities | Peter Calthorpe - YouTube",
+        "evidence": "\nClimate Change will Change our Cities | Peter Calthorpe - YouTube (https://www.youtube.com/watch?v=bubU53arcsM)\n【turn1113youtube203】 [wordlim: 200] Published: 6.2 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch long now talks future history climate urbanism; # Climate Change will Change our Cities | Peter Calthorpe ... From the Long Now Seminar, \"Urban Planet: Ecology, Community, and Growth Through the Next Century\" by Peter Calthorpe. Watch the full talk here: ... Throughout Peter Calthorpe's decade-spanning career in u",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "ud_frfkt1t0",
+        "url": "https://www.youtube.com/watch?v=ud_frfkt1t0",
+        "title": "- YouTube",
+        "evidence": "\n- YouTube (https://www.youtube.com/watch?v=ud_frfkt1t0)\n【turn1113youtube204】 [wordlim: 200] Published: 11.5 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch numberphile paradox integers probability; By: Numberphile (4770000 followers, Verified)\n# \nBy: Numberphile (4770000 followers, Verified)\nPublished: 2015-05-21, 598877 views, 8300 likes\n\n## Description\nA clever use of random numbers to improve your odds in a number guessing game.\nMore links & stuff in full description below ↓↓↓\n\nAlex Bellos Books: URL\nMonty Hall proble",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "dDl7g_2x74Q",
+        "url": "https://www.youtube.com/watch?v=dDl7g_2x74Q",
+        "title": "Infinity Paradoxes - Numberphile - YouTube",
+        "evidence": "\nInfinity Paradoxes - Numberphile - YouTube (https://www.youtube.com/watch?v=dDl7g_2x74Q)\n【turn1113youtube205】 [wordlim: 200] Published: 13.3 years ago; Crawled: last month; Source query: site:youtube.com/watch numberphile paradox integers probability; # Infinity Paradoxes - Numberphile ... Petersburg Paradox - it is quite famous!\n# Infinity Paradoxes - Numberphile\nBy: Numberphile (4770000 followers, Verified)\nPublished: 2013-07-15, 1775271 views, 22000 likes\n\n## Description\nInfinity can throw up some interesting paradoxes, from filling Hilbert",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "7u6kFlWZOWg",
+        "url": "https://www.youtube.com/watch?v=7u6kFlWZOWg",
+        "title": "- YouTube",
+        "evidence": "\n- YouTube (https://www.youtube.com/watch?v=7u6kFlWZOWg)\n【turn1113youtube206】 [wordlim: 200] Published: 12.5 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch numberphile paradox integers probability; By: Numberphile (4770000 followers, Verified)\n# \nBy: Numberphile (4770000 followers, Verified)\nPublished: 2014-05-28, 681428 views, 16000 likes\n\n## Description\nAnother pass at the Monty Hall Problem - see the last video and a new \"express explanation\" at: URL\nMore links & stuff in full description below ↓↓↓\n\nSupport us on Patr",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "G7zT9MljJ3Y",
+        "url": "https://www.youtube.com/watch?v=G7zT9MljJ3Y",
+        "title": "Fair Dice (Part 1) - Numberphile - YouTube",
+        "evidence": "\nFair Dice (Part 1) - Numberphile - YouTube (https://www.youtube.com/watch?v=G7zT9MljJ3Y)\n【turn1113youtube207】 [wordlim: 200] Published: 10.2 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch numberphile paradox integers probability; Probability expert Professor Persi Diaconis (Stanford University) talking about dice. ... Tadashi and Dice:    • The Most Powerful Dice - Numberphile\n# Fair Dice (Part 1) - Numberphile\nBy: Numberphile (4770000 followers, Verified)\nPublished: 2016-09-14, 1269294 views, 22000 likes\n\n## Descriptio",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "PZRI1IfStY0",
+        "url": "https://www.youtube.com/watch?v=PZRI1IfStY0",
+        "title": "Floating Point Numbers - Computerphile - YouTube",
+        "evidence": "Floating Point Numbers - Computerphile - YouTube (https://www.youtube.com/watch?v=PZRI1IfStY0)\n【turn1124youtube12】 [wordlim: 200] Published: 12.8 years ago; Crawled: last month; Source query: site:youtube.com/watch computerphile floating point cache; # Floating Point Numbers - Computerphile\n# Floating Point Numbers - Computerphile\nBy: Computerphile (2640000 followers, Verified)\nPublished: 2014-01-22, 2531284 views, 66000 likes\n\n## Description\nWhy can't floating point do money? It's a brilliant solution for speed of calculations in the computer,",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "f4ekifyijIg",
+        "url": "https://www.youtube.com/watch?v=f4ekifyijIg",
+        "title": "- YouTube",
+        "evidence": "\n- YouTube (https://www.youtube.com/watch?v=f4ekifyijIg)\n【turn1124youtube13】 [wordlim: 200] Published: 7.7 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch computerphile floating point cache; By: Computerphile (2630000 followers, Verified) ... How much does a floating point processor improve floating point operations?\n# \nBy: Computerphile (2630000 followers, Verified)\nPublished: 2019-03-01, 171500 views, 4000 likes\n\n## Description\nHow much does a floating point processor improve floating point operations? Dr Bagley install",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "m5evLoL0xwg",
+        "url": "https://www.youtube.com/watch?v=m5evLoL0xwg",
+        "title": "The Three Square Geometry Problem - Numberphile - YouTube",
+        "evidence": "The Three Square Geometry Problem - Numberphile - YouTube (https://www.youtube.com/watch?v=m5evLoL0xwg)\n【turn1121youtube12】 [wordlim: 200] Published: 12.2 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch numberphile geometry probability; # The Three Square Geometry Problem - Numberphile\n# The Three Square Geometry Problem - Numberphile\nBy: Numberphile (4770000 followers, Verified)\nPublished: 2014-09-18, 1075624 views, 19000 likes\n\n## Description\nThree Square Geometry Problem\nMore links & stuff in full description below ↓↓↓",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "Yajonhixy4g",
+        "url": "https://www.youtube.com/watch?v=Yajonhixy4g",
+        "title": "- YouTube",
+        "evidence": "\n- YouTube (https://www.youtube.com/watch?v=Yajonhixy4g)\n【turn1121youtube13】 [wordlim: 200] Published: 12.0 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch numberphile geometry probability; Numberphile is supported by the Mathematical Sciences Research Institute (MSRI): URL\n# \nBy: Numberphile (4770000 followers, Verified)\nPublished: 2014-11-05, 723226 views, 11000 likes\n\n## Description\nA proof that all triangles are equilateral - can you see a problem with it? Featuring Carlo Séquin.\nDiscuss on reddit: URL\nMore links & st",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "aFDOzpTeg0s",
+        "url": "https://www.youtube.com/watch?v=aFDOzpTeg0s",
+        "title": "The Essence of Linear Regression!!! - YouTube",
+        "evidence": "The Essence of Linear Regression!!! - YouTube (https://www.youtube.com/watch?v=aFDOzpTeg0s)\n【turn1119youtube12】 [wordlim: 200] Published: 6 months ago; Crawled: last month; Source query: site:youtube.com/watch statquest regression validation; This StatQuest takes you through basic linear regression, step-by-step, explaining both the method and the motivation behind the method. ... YouTube Membership:    / @statquest\n# The Essence of Linear Regression!!!\nBy: StatQuest with Josh Starmer (1690000 followers, Verified)\nPublished: 2026-05-17, 51486 v",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "7ArmBVF2dCs",
+        "url": "https://www.youtube.com/watch?v=7ArmBVF2dCs",
+        "title": "Linear Regression, Clearly Explained!!! - YouTube",
+        "evidence": "\nLinear Regression, Clearly Explained!!! - YouTube (https://www.youtube.com/watch?v=7ArmBVF2dCs)\n【turn1119youtube13】 [wordlim: 200] Published: 4.0 years ago; Crawled: last month; Source query: site:youtube.com/watch statquest regression validation; NOTE: This StatQuest comes with a companion video for how to do linear regression in R:    • Linear Regression in R, Step-by-Step ... YouTube Membership:    / @statquest\n# Linear Regression, Clearly Explained!!!\nBy: StatQuest with Josh Starmer (1690000 followers, Verified)\nPublished: 2022-11-18, 7129",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "EACkiMRT0pc",
+        "url": "https://www.youtube.com/watch?v=EACkiMRT0pc",
+        "title": "- YouTube",
+        "evidence": "- YouTube (https://www.youtube.com/watch?v=EACkiMRT0pc)\n【turn1115youtube12】 [wordlim: 200] Published: 10.7 years ago; Crawled: last month; Source query: site:youtube.com/watch practical engineering levees dams; Watch this video and the entire Practical Engineering catalog ad-free on Nebula: URL...\n# \nBy: Practical Engineering (4830000 followers, Verified)\nPublished: 2016-03-06, 2274860 views, 63000 likes\n\n## Description\nToday on Practical Engineering we're talking about hydrology, and I took a little walk through my neighborhood to show you som",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "ji8lQ1W4YsU",
+        "url": "https://www.youtube.com/watch?v=ji8lQ1W4YsU",
+        "title": "The measurement of time - Reginald Victor Jones' 1981 Christmas Lectures 2/6 - YouTube",
+        "evidence": "The measurement of time - Reginald Victor Jones' 1981 Christmas Lectures 2/6 - YouTube (https://www.youtube.com/watch?v=ji8lQ1W4YsU)\n【turn1122youtube12】 [wordlim: 200] Published: 1.3 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch royal institution history of time; RV Jones explores the history of man's attempt to measure time, from early hourglasses and pendulum clocks to quartz and atom measuring devices. ... Every Saturday, we'll upload a classic lecture to our YouTube channel - some not seen since they aired on TV. ..",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "TS3DLBOIABw",
+        "url": "https://www.youtube.com/watch?v=TS3DLBOIABw",
+        "title": "- YouTube",
+        "evidence": "\n- YouTube (https://www.youtube.com/watch?v=TS3DLBOIABw)\n【turn1122youtube13】 [wordlim: 200] Published: 9 months ago; Crawled: 2 months ago; Source query: site:youtube.com/watch royal institution history of time; This year marks 200 years of the Royal Institution Christmas Lectures - a world famous series showcasing science, curiosity, and mind-blowing demos, and started by the legendary Michael Faraday himself. ... Every Saturday, we'll upload a classic lecture to our YouTube channel - some not seen since they aired on TV. ... Anyone who has fo",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "wZAW_t4ir2Y",
+        "url": "https://www.youtube.com/watch?v=wZAW_t4ir2Y",
+        "title": "1986: Making the MUNDANE into the ICONIC | Designers | World of Work | BBC Archive - YouTube",
+        "evidence": "1986: Making the MUNDANE into the ICONIC | Designers | World of Work | BBC Archive - YouTube (https://www.youtube.com/watch?v=wZAW_t4ir2Y)\n【turn1117youtube11】 [wordlim: 200] Published: 2.4 years ago; Source query: site:youtube.com/watch bbc archive design history; The series Designers took a look at the functional design that surrounds our everyday lives. ... You have now entered the BBC Archive, a time machine that will transport you back to the golden age of TV to educate, entertain and enlighten you with classic clips from the BBC vaults.\n# ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "udNXMAflbU8",
+        "url": "https://www.youtube.com/watch?v=udNXMAflbU8",
+        "title": "- YouTube",
+        "evidence": "- YouTube (https://www.youtube.com/watch?v=udNXMAflbU8)\n【turn1118youtube12】 [wordlim: 200] Published: 5.1 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch technology connections appliances; By: Technology Connections (3210000 followers, Verified)\n# \nBy: Technology Connections (3210000 followers, Verified)\nPublished: 2021-10-09, 6632960 views, 165000 likes\n\n## Description\nThe answer may surprise you.\nLinks 'n stuff\nI've made a playlist of my various electrical shenanigans. You can get to it here:\n   • Electrical topics  \n\nT",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "ff04ecF9Dfw",
+        "url": "https://www.youtube.com/watch?v=ff04ecF9Dfw",
+        "title": "- YouTube",
+        "evidence": "\n- YouTube (https://www.youtube.com/watch?v=ff04ecF9Dfw)\n【turn1118youtube13】 [wordlim: 200] Published: 2.6 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch technology connections appliances; By: Technology Connections (3210000 followers, Verified) ... Technology Connections on Mastodon:\n# \nBy: Technology Connections (3210000 followers, Verified)\nPublished: 2024-04-24, 2438636 views, 60000 likes\n\n## Description\nHehe. Doody cycle.\n\nLinks 'n' stuff:\n\nMy video on turn signal flashers\n   • Why it's not possible to synchronize t",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "Cg8KQfaT9xY",
+        "url": "https://www.youtube.com/watch?v=Cg8KQfaT9xY",
+        "title": "The Pythagorean Siphon Inside Your Washing Machine - YouTube",
+        "evidence": "The Pythagorean Siphon Inside Your Washing Machine - YouTube (https://www.youtube.com/watch?v=Cg8KQfaT9xY)\n【turn1164youtube12】 [wordlim: 200] Published: 6.2 years ago; Crawled: 3 months ago; Source query: site:youtube.com/watch steve mould siphon physics; By: Steve Mould (3590000 followers, Verified) ... There's a greedy cup siphon in your washing machine fabric softener try.\n# The Pythagorean Siphon Inside Your Washing Machine\nBy: Steve Mould (3590000 followers, Verified)\nPublished: 2020-09-10, 13044273 views, 152000 likes\n\n## Description\nFor ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "IxXaizglscw",
+        "url": "https://www.youtube.com/watch?v=IxXaizglscw",
+        "title": "I Made A Water Computer And It Actually Works - YouTube",
+        "evidence": "\nI Made A Water Computer And It Actually Works - YouTube (https://www.youtube.com/watch?v=IxXaizglscw)\n【turn1164youtube13】 [wordlim: 200] Published: 5.6 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch steve mould siphon physics; By: Steve Mould (3610000 followers, Verified) ... Here's my greedy cup siphon video:\n# I Made A Water Computer And It Actually Works\nBy: Steve Mould (3610000 followers, Verified)\nPublished: 2021-04-23, 7292507 views, 182000 likes\n\n## Description\nThe first 200 people to sign up at URL will get 20% ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "lcjdwSY2AzM",
+        "url": "https://www.youtube.com/watch?v=lcjdwSY2AzM",
+        "title": "The Biggest Misconception in Physics - YouTube",
+        "evidence": "The Biggest Misconception in Physics - YouTube (https://www.youtube.com/watch?v=lcjdwSY2AzM)\n【turn1162youtube12】 [wordlim: 200] Published: 1.6 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch veritasium measurement physics; # The Biggest Misconception in Physics ... Sign up to the Veritasium newsletter for weekly science updates - URL\n# The Biggest Misconception in Physics\nBy: Veritasium (21200000 followers, Verified)\nPublished: 2025-04-14, 13708419 views, 291000 likes\n\n## Description\nWhy does energy disappear in General R",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "Oo0jm1PPRuo",
+        "url": "https://www.youtube.com/watch?v=Oo0jm1PPRuo",
+        "title": "How We're Redefining the kg - YouTube",
+        "evidence": "\nHow We're Redefining the kg - YouTube (https://www.youtube.com/watch?v=Oo0jm1PPRuo)\n【turn1162youtube13】 [wordlim: 200] Published: 9.3 years ago; Crawled: last month; Source query: site:youtube.com/watch veritasium measurement physics; By: Veritasium (21300000 followers, Verified) ... I have been obsessed with measurement for a long time and I'm not sure quite how it happened. ... Interferometer video by TSG Physics:    • Michelson Interferometer (P12) [6D40.10]\n# How We're Redefining the kg\nBy: Veritasium (21300000 followers, Verified)\nPublish",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "eNhJY-R3Gwg",
+        "url": "https://www.youtube.com/watch?v=eNhJY-R3Gwg",
+        "title": "General Relativity Explained in 7 Levels of Difficulty - YouTube",
+        "evidence": "General Relativity Explained in 7 Levels of Difficulty - YouTube (https://www.youtube.com/watch?v=eNhJY-R3Gwg)\n【turn1161youtube12】 [wordlim: 200] Published: 5.7 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch minutephysics relativity; By: minutephysics (5980000 followers, Verified) ... Go to URL to get access to Nebula (where you can watch the extended version of this video), plus you'll get a 20% discount on an annual subscription.\n\nThis video covers the General theory of Relativity, developed by Albert Einstein, from ba",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1rLWVZVWfdY",
+        "url": "https://www.youtube.com/watch?v=1rLWVZVWfdY",
+        "title": "Why is Relativity Hard? | Special Relativity Chapter 1 - YouTube",
+        "evidence": "\nWhy is Relativity Hard? | Special Relativity Chapter 1 - YouTube (https://www.youtube.com/watch?v=1rLWVZVWfdY)\n【turn1161youtube13】 [wordlim: 200] Published: 8.8 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch minutephysics relativity; This is definitely not an academic course, but it's going to be a more in depth and developed exploration of a single topic than a typical standalone MinutePhysics video. ... Special relativity is one of the most popularly famous ideas in physics - it's that thing that Einstein figured out ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "yPvEalfpyQI",
+        "url": "https://www.youtube.com/watch?v=yPvEalfpyQI",
+        "title": "What People Ate Before Modern Food | Tasting History with Max Miller - YouTube",
+        "evidence": "What People Ate Before Modern Food | Tasting History with Max Miller - YouTube (https://www.youtube.com/watch?v=yPvEalfpyQI)\n【turn1166youtube12】 [wordlim: 200] Published: 2 months ago; Crawled: 2 months ago; Source query: site:youtube.com/watch tasting history food history; # What People Ate Before Modern Food | Tasting History with Max Miller\n# What People Ate Before Modern Food | Tasting History with Max Miller\nBy: Tasting History with Max Miller Top Videos (30200 followers)\nPublished: 2026-08-19, 82301 views, 2400 likes\n\n## Description\n💥 Don",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "B4z6n21D6cE",
+        "url": "https://www.youtube.com/watch?v=B4z6n21D6cE",
+        "title": "The Foods That Took Us Around The World | Tasting History with Max Miller - YouTube",
+        "evidence": "\nThe Foods That Took Us Around The World | Tasting History with Max Miller - YouTube (https://www.youtube.com/watch?v=B4z6n21D6cE)\n【turn1166youtube13】 [wordlim: 200] Published: 3 months ago; Crawled: last month; Source query: site:youtube.com/watch tasting history food history; # The Foods That Took Us Around The World | Tasting History with Max Miller\n# The Foods That Took Us Around The World | Tasting History with Max Miller\nBy: Tasting History with Max Miller Top Videos (31300 followers)\nPublished: 2026-08-03, 43189 views, 1200 likes\n\n## Des",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "zufbJelyCqs",
+        "url": "https://www.youtube.com/watch?v=zufbJelyCqs",
+        "title": "- YouTube",
+        "evidence": "- YouTube (https://www.youtube.com/watch?v=zufbJelyCqs)\n【turn1171youtube12】 [wordlim: 200] Published: 2.1 years ago; Crawled: 3 months ago; Source query: site:youtube.com/watch townsends historical cooking; By: Townsends (2980000 followers, Verified) ... Contains Season 6 of 18th Century Cooking ... 6:29 - 17:54 Top 6 Historical Preservation Techniques\n# \nBy: Townsends (2980000 followers, Verified)\nPublished: 2024-10-04, 127325 views\n\n## Description\nContains Season 6 of 18th Century Cooking\n\nClick here to get your Townsends catalog! ➧ URL... ➧➧",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "gJNOxMaNvRk",
+        "url": "https://www.youtube.com/watch?v=gJNOxMaNvRk",
+        "title": "- YouTube",
+        "evidence": "\n- YouTube (https://www.youtube.com/watch?v=gJNOxMaNvRk)\n【turn1171youtube13】 [wordlim: 200] Published: 2.4 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch townsends historical cooking; By: Townsends (2980000 followers, Verified) ... Contains Season 18 of 18th Century Cooking ... 8:47 - 31:53 Sailor, Soldier, & Explorer Rations: Food for the Commoner - Salt Pork\n# \nBy: Townsends (2980000 followers, Verified)\nPublished: 2024-07-05, 585543 views\n\n## Description\nContains Season 18 of 18th Century Cooking\n0:00 - 8:47 Too Much ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "43XKfuptnik",
+        "url": "https://www.youtube.com/watch?v=43XKfuptnik",
+        "title": "Heat Pumps are Not Hard: Here's what it will take to start pumping - YouTube",
+        "evidence": "Heat Pumps are Not Hard: Here's what it will take to start pumping - YouTube (https://www.youtube.com/watch?v=43XKfuptnik)\n【turn1169youtube12】 [wordlim: 200] Published: 4.6 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch technology connections heat pump; By: Technology Connections (3210000 followers, Verified) ... 27:18 Getting a cold-climate heat pump is difficult\n# Heat Pumps are Not Hard: Here's what it will take to start pumping\nBy: Technology Connections (3210000 followers, Verified)\nPublished: 2022-04-13, 1170635 vi",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "DTsQjiPlksA",
+        "url": "https://www.youtube.com/watch?v=DTsQjiPlksA",
+        "title": "Old HVAC industry practices are holding us back and costing us money. But we can fix it. - YouTube",
+        "evidence": "\nOld HVAC industry practices are holding us back and costing us money. But we can fix it. - YouTube (https://www.youtube.com/watch?v=DTsQjiPlksA)\n【turn1169youtube13】 [wordlim: 200] Published: 2.7 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch technology connections heat pump; By: Technology Connections (3200000 followers, Verified) ... got told they'd need a giant heat pump\n# Old HVAC industry practices are holding us back and costing us money. But we can fix it.\nBy: Technology Connections (3200000 followers, Verified)\nP",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "7hRPs64NOf8",
+        "url": "https://www.youtube.com/watch?v=7hRPs64NOf8",
+        "title": "How to make ampoules from glass test tubes - YouTube",
+        "evidence": "How to make ampoules from glass test tubes - YouTube (https://www.youtube.com/watch?v=7hRPs64NOf8)\n【turn1170youtube12】 [wordlim: 200] Published: 11.4 years ago; Crawled: last month; Source query: site:youtube.com/watch nilered glass chemistry; By: NileRed (10900000 followers, Verified) ... In this video, I show how to make glass ampoules. ... Nile talks about lab safety:    • Chemistry is dangerous.\n# How to make ampoules from glass test tubes\nBy: NileRed (10900000 followers, Verified)\nPublished: 2015-06-22, 3949333 views, 18000 likes\n\n## Descr",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "RGw6fXprV9U",
+        "url": "https://www.youtube.com/watch?v=RGw6fXprV9U",
+        "title": "Making uranium glass - YouTube",
+        "evidence": "\nMaking uranium glass - YouTube (https://www.youtube.com/watch?v=RGw6fXprV9U)\n【turn1170youtube13】 [wordlim: 200] Published: 6.7 years ago; Crawled: last month; Source query: site:youtube.com/watch nilered glass chemistry; # Making uranium glass ... ■ Pre-order the NileRed BZ Reaction Kit - URL ... Nile talks about lab safety:    • Chemistry is dangerous.\n# Making uranium glass\nBy: NileRed (10900000 followers, Verified)\nPublished: 2020-02-15, 15075187 views, 338000 likes\n\n## Description\nVisit URL to get 20% off a year of Brilliant Premium! \n\nFor",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "qIfD7ZN5FYI",
+        "url": "https://www.youtube.com/watch?v=qIfD7ZN5FYI",
+        "title": "How to improve your rhythm - YouTube",
+        "evidence": "How to improve your rhythm - YouTube (https://www.youtube.com/watch?v=qIfD7ZN5FYI)\n【turn1158youtube12】 [wordlim: 200] Published: 9.5 years ago; Crawled: 3 months ago; Source query: site:youtube.com/watch adam neely rhythm; # How to improve your rhythm\nBy: Adam Neely (1830000 followers, Verified)\n# How to improve your rhythm\nBy: Adam Neely (1830000 followers, Verified)\nPublished: 2017-05-01, 814524 views, 29000 likes\n\n## Description\nDrastically improve your timing and rhythmic feel by tapping into your natural ability to speak language, all with",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "U9CgR2Y6XO4",
+        "url": "https://www.youtube.com/watch?v=U9CgR2Y6XO4",
+        "title": "- YouTube",
+        "evidence": "\n- YouTube (https://www.youtube.com/watch?v=U9CgR2Y6XO4)\n【turn1158youtube13】 [wordlim: 200] Published: 7.7 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch adam neely rhythm; By: Adam Neely (1830000 followers, Verified) ... This video teaches you exactly how to break down a 7 against 11 polyrhythm, and play it.\n# \nBy: Adam Neely (1830000 followers, Verified)\nPublished: 2019-02-25, 1463939 views, 64000 likes\n\n## Description\nThis video teaches you exactly how to break down a 7 against 11 polyrhythm, and play it. Why? Because",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "UFaZeXHBpsA",
+        "url": "https://www.youtube.com/watch?v=UFaZeXHBpsA",
+        "title": "- YouTube",
+        "evidence": "- YouTube (https://www.youtube.com/watch?v=UFaZeXHBpsA)\n【turn1163youtube12】 [wordlim: 200] Published: 1.5 years ago; Crawled: 2 months ago; Source query: site:youtube.com/watch nasa webb visualization; This visualization brings Webb's iconic image to life - helping us imagine the true, three-dimensional structure of the universe... and our place within it. ... If you liked this video, subscribe to the NASA Webb Telescope YouTube channel:\n# \nBy: James Webb Space Telescope (JWST) (313000 followers, Verified)\nPublished: 2025-05-07, 34526 views, 82",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "y0bOi3kVIBs",
+        "url": "https://www.youtube.com/watch?v=y0bOi3kVIBs",
+        "title": "Webb's Field of Regard - YouTube",
+        "evidence": "\nWebb's Field of Regard - YouTube (https://www.youtube.com/watch?v=y0bOi3kVIBs)\n【turn1163youtube13】 [wordlim: 200] Published: 8.4 years ago; Crawled: last month; Source query: site:youtube.com/watch nasa webb visualization; Watch to get a better understanding of how Webb has access to the entire span of the sky from this location. ... #NASAWebb #JWST #jameswebbspacetelescope #webbspacetelescope #webbtelescope #universe #astronomy #fieldofview\n# Webb's Field of Regard\nBy: Space Telescope Science Institute (128000 followers, Verified)\nPublished: ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "VeMZDSe6jPo",
+        "url": "https://www.youtube.com/watch?v=VeMZDSe6jPo",
+        "evidence": "Internal Error ()\n【turn1142view0】 [wordlim: 200] Source: click({\"ref_id\":\"turn1141view0\",\"id\":4}); \nFailed to fetch https://www.youtube.com/embed/VeMZDSe6jPo?autoplay=1&clip=UgkxpZZV2ot04cCzmRIjyz-o2XuaPL39RFfK&clipt=ELBUGMCJAQ&loop=1&mo",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "djDt8J2_YVs",
+        "url": "https://www.youtube.com/watch?v=djDt8J2_YVs",
+        "title": "In Conversation with Boris Cherny, Creator of Claude Code",
+        "channel": "Computer History Museum",
+        "official_page": "https://computerhistory.org/events/in-conversation-with-boris-cherny-creator-of-claude-code/",
+        "topic": "软件工具史",
+        "assessment": "把这段访谈当作产品开发的一手口述。听到有关未来的判断时，记下它来自个人经历、可复现数据，还是预测；再用同样的分类检查自己为什么觉得某个自动化流程更省时间。制作方访谈不能替代独立评测。",
+        "verification_method": "creator_official_page",
+        "full_playback": "not_verified",
+        "observation_date": "2026-11-13",
+        "decision": "selected_for_other_date"
+      },
+      {
+        "id": "cEfwbnMf3jM",
+        "url": "https://www.youtube.com/watch?v=cEfwbnMf3jM",
+        "title": "De Artificiali Perspectiva, or Anamorphosis, 1991",
+        "channel": "The Metropolitan Museum of Art",
+        "official_page": "https://www.metmuseum.org/fr/perspectives/from-the-vaults-de-artificiali-perspectiva",
+        "topic": "艺术与投影 · wildcard",
+        "assessment": "兄弟奎的短片用动画展示变形透视：画面随着观察角度或曲面反射才显出隐藏形象。先猜观看者该移向哪里，再观察画面变形如何被抵消。它把投影几何变成一个无需先看公式的视觉谜题。",
+        "verification_method": "creator_official_page",
+        "full_playback": "not_verified",
+        "observation_date": "2026-11-13",
+        "decision": "selected_for_other_date"
+      },
+      {
+        "id": "wUVPpSKB_VU",
+        "url": "https://www.youtube.com/watch?v=wUVPpSKB_VU",
+        "evidence": "------------------\nInternal Error ()\n【turn1142view5】 [wordlim: 200] Source: click({\"ref_id\":\"turn1141view5\",\"id\":9}); \nFailed to fetch https://www.youtube.com/embed/wUVPpSKB_VU?autoplay=1&clip=UgkxIis1pXQElX6C4wt4cidWPUYl69jNNsTI&clipt=ELzmARi4kQI&loop=1&m",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "iyR65PeAEEg",
+        "url": "https://www.youtube.com/watch?v=iyR65PeAEEg",
+        "evidence": "------------------\nInternal Error ()\n【turn1142view8】 [wordlim: 200] Source: click({\"ref_id\":\"turn1141view8\",\"id\":4}); \nFailed to fetch https://www.youtube.com/embed/iyR65PeAEEg?modestbranding=1: Online fetch throttled",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "wXAgwid1oeg",
+        "url": "https://www.youtube.com/watch?v=wXAgwid1oeg",
+        "title": "Ocean Memory",
+        "channel": "Long Now",
+        "official_page": "https://longnow.org/talks/02026-jue/",
+        "topic": "海洋与知识",
+        "assessment": "从海洋环境出发，追问记录与记忆为什么会依赖媒介。看时做两栏：一栏写物理世界留下了什么痕迹，另一栏写人用什么仪器、语言或制度才能读出这些痕迹。讲座的类比可以帮助提出问题，但不宜当作海洋监测的定量结论。",
+        "verification_method": "creator_official_page",
+        "full_playback": "not_verified",
+        "observation_date": "2026-11-13",
+        "decision": "selected_for_other_date"
+      },
+      {
+        "id": "dEnHVL0FjhI",
+        "url": "https://www.youtube.com/watch?v=dEnHVL0FjhI",
+        "title": "Exploring the Cosmic Cliffs in 3D",
+        "channel": "NASA Science",
+        "official_page": "https://science.nasa.gov/asset/webb/exploring-the-cosmic-cliffs-in-3d/",
+        "topic": "天文数据可视化",
+        "assessment": "平面天文照片如何变成有深度的飞越？暂停比较突出的尘埃柱和背景，问哪些特征来自观测图像，哪些空间位置来自建模。适合用来练习辨认科学可视化里的数据与演绎。",
+        "verification_method": "creator_official_page",
+        "full_playback": "not_verified",
+        "observation_date": "2026-11-13",
+        "decision": "selected_for_other_date"
+      },
+      {
+        "id": "J276vYNcyxA",
+        "url": "https://www.youtube.com/watch?v=J276vYNcyxA",
+        "title": "Improved Flood Forecasting with CI-FLOW",
+        "channel": "NOAA National Severe Storms Laboratory",
+        "official_page": "https://www.nssl.noaa.gov/news/video/ciflow/",
+        "topic": "洪水预报",
+        "assessment": "用沿海洪水理解模型接口：河流、海潮、降水与风暴增水会一起改变水位。看时画一张输入输出图，指出漏掉哪一项会改变对风险的判断。页面介绍的是项目原型，不代表所有地区现行预报采用同一方法。",
+        "verification_method": "creator_official_page",
+        "full_playback": "not_verified",
+        "observation_date": "2026-11-13",
+        "decision": "selected_for_other_date"
+      }
+    ],
+    "reddit": [
+      {
+        "id": "1xbhwk8",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1xbhwk8/obsidian_annotationsnotes_into_zotero/",
+        "title": "Obsidian Annotations/Notes into Zotero??",
+        "subreddit": "ObsidianMD",
+        "evidence": "\nObsidian Annotations/Notes into Zotero?? (https://www.reddit.com/r/ObsidianMD/comments/1xbhwk8/obsidian_annotationsnotes_into_zotero/)\n【turn1111reddit182】 [wordlim: 200] Published: 3 weeks ago; Source query: site:reddit.com/r/obsidianmd/comments annotations linking pdf zotero research notes; Is there a way to link the Obsidian file back into Zotero (so the reverse of what I normally do), so that the final result in Zotero is a pdf of the paper with my original annotations an",
+        "decision": "selected",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1r5fpzn",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1r5fpzn/is_it_normal_for_thick_cotton_paper_to_not_open/",
+        "title": "Is it normal for thick cotton paper to not open fully after drying?",
+        "subreddit": "bookbinding",
+        "evidence": "\nIs it normal for thick cotton paper to not open fully after drying? (https://www.reddit.com/r/bookbinding/comments/1r5fpzn/is_it_normal_for_thick_cotton_paper_to_not_open/)\n【turn1114reddit204】 [wordlim: 200] Published: 9 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; My first attempt. ... I think either there is just too much paper for your spine, the spine is too narrow,or the hinges are not open enough.\n[Sunday February 1",
+        "decision": "selected",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1xna4ty",
+        "url": "https://www.reddit.com/r/bicycling/comments/1xna4ty/tips_for_bicycling_to_work/",
+        "title": "tips for bicycling to work",
+        "subreddit": "bicycling",
+        "evidence": "\ntips for bicycling to work (https://www.reddit.com/r/bicycling/comments/1xna4ty/tips_for_bicycling_to_work/)\n【turn1148reddit17】 [wordlim: 200] Published: last week; Source query: commuting cycling tips winter route site:reddit.com/r/bikecommuting/comments; /r/bikecommuting  was super helpful for me when I got started.\nwhat's the distance and elevation gain on your route?\n",
+        "decision": "selected",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1n0o4w0",
+        "url": "https://www.reddit.com/r/instrumentation/comments/1n0o4w0",
+        "title": "Termocouples Calibration",
+        "subreddit": "instrumentation",
+        "evidence": "Termocouples Calibration (https://www.reddit.com/r/instrumentation/comments/1n0o4w0)\n【turn1151reddit12】 [wordlim: 200] Published: 1.2 years ago; Crawled: 1.2 years ago; Source query: why do instrument calibrations drift site:reddit.com/r/askengineers/comments;       ±5% \"Field Calibration\"\n      ±10% \"Night Shift On-Demand Field Calibration\"\n[Tuesday August 26 2025] [+33 votes]\nSHARED URL\nHi everyone,\nI’m currently calibrating Honeywell thermocouples using a Beamex calibrator",
+        "decision": "selected",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "17mdj6k",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/17mdj6k",
+        "title": "How to interpret this residual plot?",
+        "subreddit": "AskStatistics",
+        "evidence": "\nHow to interpret this residual plot? (https://www.reddit.com/r/AskStatistics/comments/17mdj6k)\n【turn1152reddit13】 [wordlim: 200] Published: 3.0 years ago; Crawled: 3.0 years ago; Source query: what does a regression residual measure site:reddit.com/r/askstatistics/comments; This is the residual plot from a simple linear regression. ... But specifically, does this plot indicate non-linearity and/or heteroscedasticity?\n[Thursday November 02 2023] [+3 votes]\nThis is the residua",
+        "decision": "selected",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1uln6zr",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1uln6zr/how_were_maps_and_war_plans_duplicated_during_the/",
+        "title": "How were maps and war plans duplicated during the Civil War? Was it different between the Union and the Confederacy? If it was, what impact did it have on the outcome of battles/ the war?",
+        "subreddit": "AskHistorians",
+        "evidence": "\nHow were maps and war plans duplicated during the Civil War? Was it different between the Union and the Confederacy? If it was, what impact did it have on the outcome of battles/ the war? (https://www.reddit.com/r/AskHistorians/comments/1uln6zr/how_were_maps_and_war_plans_duplicated_during_the/)\n【turn1155reddit15】 [wordlim: 200] Published: 4 months ago; Source query: why were ancient maps inaccurate site:reddit.com/r/askhistorians/comments; Prior to that, they were experimen",
+        "decision": "selected",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1xc5cgc",
+        "url": "https://www.reddit.com/r/MuseumPros/comments/1xc5cgc/thoughts_on_allowing_people_free_copies_of/",
+        "title": "Thoughts on allowing people free copies of archival photos of themselves?",
+        "subreddit": "MuseumPros",
+        "evidence": "\nThoughts on allowing people free copies of archival photos of themselves? (https://www.reddit.com/r/MuseumPros/comments/1xc5cgc/thoughts_on_allowing_people_free_copies_of/)\n【turn1154reddit15】 [wordlim: 200] Published: 3 weeks ago; Source query: how do museums preserve photographs site:reddit.com/r/askhistorians/comments; I work in a museum/archive in a small, young town (less than 75 years old, at least as a municipal entity), so the bulk of our collections were created with",
+        "decision": "selected",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1n2nq5j",
+        "url": "https://www.reddit.com/r/urbanplanning/comments/1n2nq5j/why_has_the_us_buried_so_many_of_its_historic/",
+        "title": "Why has the U.S. buried so many of its historic rivers and creeks?",
+        "subreddit": "urbanplanning",
+        "evidence": "\nWhy has the U.S. buried so many of its historic rivers and creeks? (https://www.reddit.com/r/urbanplanning/comments/1n2nq5j/why_has_the_us_buried_so_many_of_its_historic/)\n【turn1149reddit13】 [wordlim: 200] Published: 1.2 years ago; Source query: why do cities have combined sewers site:reddit.com/r/urbanplanning/comments; Why did so many cities bury their rivers rather than integrate them into urban design, especially given their ecological, commerce, and historical significa",
+        "decision": "selected",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1v2df2i",
+        "url": "https://www.reddit.com/r/AskEconomics/comments/1v2df2i/how_do_cpi_deflators_take_into_account_the/",
+        "title": "How do CPI deflators take into account the improvement in quality of goods and services and their increase in quantity?",
+        "subreddit": "AskEconomics",
+        "evidence": "How do CPI deflators take into account the improvement in quality of goods and services and their increase in quantity? (https://www.reddit.com/r/AskEconomics/comments/1v2df2i/how_do_cpi_deflators_take_into_account_the/)\n【turn1153reddit12】 [wordlim: 200] Published: 3 months ago; Source query: how do economic statisticians adjust inflation quality site:reddit.com/r/askeconomics/comments; Or similarly, if 30 years ago people are using their limited budget to pay for just food, ",
+        "decision": "selected",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1wmzfgu",
+        "url": "https://www.reddit.com/r/PhysicsStudents/comments/1wmzfgu/do_you_read_textbooks_as_if_they_were_casual/",
+        "title": "Do you read textbooks as if they were casual literature?",
+        "subreddit": "PhysicsStudents",
+        "evidence": "\nDo you read textbooks as if they were casual literature? (https://www.reddit.com/r/PhysicsStudents/comments/1wmzfgu/do_you_read_textbooks_as_if_they_were_casual/)\n【turn1150reddit13】 [wordlim: 200] Published: last month; Source query: reading science textbooks for fun site:reddit.com/r/books/comments; So I had the idea of reading my textbook instead of my usual novel before going to bed. ... Do you read textbooks for fun? ... A lot of intro level books are pretty dry.\n[Tuesda",
+        "decision": "selected",
+        "original_post_verification": "not_performed_user_waived"
+      },
+      {
+        "id": "1xg4lc0",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1xg4lc0/whip_stitch_running_stitch_repair/",
+        "title": "Whip Stitch + Running Stitch Repair",
+        "subreddit": "Visiblemending",
+        "evidence": "Whip Stitch + Running Stitch Repair (https://www.reddit.com/r/Visiblemending/comments/1xg4lc0/whip_stitch_running_stitch_repair/)\n【turn1111reddit179】 [wordlim: 200] Published: 2 weeks ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; used a scrap of denim left over from another project + 100% cotton sashiko thread. pleasantly surprised by how much I like the way the gradient thread looked with this repair ... I’m literally working on a pa",
+        "decision": "selected_for_other_date"
+      },
+      {
+        "id": "1n4aaff",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1n4aaff",
+        "title": "Is it possible to make a link to a zotero pdf on obsidian?",
+        "subreddit": "ObsidianMD",
+        "evidence": "\nIs it possible to make a link to a zotero pdf on obsidian? (https://www.reddit.com/r/ObsidianMD/comments/1n4aaff)\n【turn1111reddit180】 [wordlim: 200] Published: 1.2 years ago; Crawled: 1.1 years ago; Source query: site:reddit.com/r/obsidianmd/comments annotations linking pdf zotero research notes; It will link to the file in your Zotero library not the open PDF though. ... You can use annotation links: Copy an annotation in Zotero and then paste it as a link into obsdian (Ctr",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1wo967e",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1wo967e/progress_update_wip_jeans/",
+        "title": "Progress update! WIP jeans",
+        "subreddit": "Visiblemending",
+        "evidence": "\nProgress update! WIP jeans (https://www.reddit.com/r/Visiblemending/comments/1wo967e/progress_update_wip_jeans/)\n【turn1111reddit181】 [wordlim: 200] Published: last month; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; Also they had a previous trip to a denim repair place that put heavy, gluey patches on the crotch, which \"fixed\" them for like a few months before causing the denim inside the legs to disintegrate. ... I had started with a di",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1we628n",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1we628n/how_would_you_fix/",
+        "title": "How would you fix?",
+        "subreddit": "Visiblemending",
+        "evidence": "\nHow would you fix? (https://www.reddit.com/r/Visiblemending/comments/1we628n/how_would_you_fix/)\n【turn1111reddit183】 [wordlim: 200] Published: 2 months ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; The end goal is to sashiko over the jeans in various places, but in this area I would like to do something somewhat invisible.\n[Saturday September 12 2026] [+9 votes]\nSHARED URL\nI want to save these jeans. The fabric is thinning in the cro",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1kvxelk",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1kvxelk",
+        "title": "Jeans repair",
+        "subreddit": "Visiblemending",
+        "evidence": "\nJeans repair (https://www.reddit.com/r/Visiblemending/comments/1kvxelk)\n【turn1111reddit184】 [wordlim: 200] Published: 1.5 years ago; Crawled: 1.4 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; I’ve made several mends on these jeans - this latest one I removed two older Speedweve repairs and replaced them with a much larger repair to cover all the bits that needed it.\nI used a large piece of denim in behind the tears, pinned it i",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1sp0ytl",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1sp0ytl/repair_advice/",
+        "title": "Repair advice",
+        "subreddit": "Visiblemending",
+        "evidence": "\nRepair advice (https://www.reddit.com/r/Visiblemending/comments/1sp0ytl/repair_advice/)\n【turn1111reddit185】 [wordlim: 200] Published: 6 months ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; Wondering what yall recommend to repair these holes (one big and a bunch of small ones)?\nMy best idea has been to patch it with some other heavy fabric behind and embroider the fuck out of every space I can get thread in (kind of like Japanese sash",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1qwkcz8",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1qwkcz8/better_obsidian_zotero_annotation_export/",
+        "title": "Better Obsidian + Zotero annotation export",
+        "subreddit": "ObsidianMD",
+        "evidence": "\nBetter Obsidian + Zotero annotation export (https://www.reddit.com/r/ObsidianMD/comments/1qwkcz8/better_obsidian_zotero_annotation_export/)\n【turn1111reddit186】 [wordlim: 200] Published: 9 months ago; Crawled: 9 months ago; Source query: site:reddit.com/r/obsidianmd/comments annotations linking pdf zotero research notes; Import research paper into Zotero -> annotate interesting things in the zotero viewer (highlighting in different colors + commenting stuff when needed) -> cr",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1wjz07a",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1wjz07a/how_do_you_handle_pdfs_and_annotations_inside/",
+        "title": "How do you handle PDFs and annotations inside Obsidian?",
+        "subreddit": "ObsidianMD",
+        "evidence": "\nHow do you handle PDFs and annotations inside Obsidian? (https://www.reddit.com/r/ObsidianMD/comments/1wjz07a/how_do_you_handle_pdfs_and_annotations_inside/)\n【turn1111reddit187】 [wordlim: 200] Published: last month; Source query: site:reddit.com/r/obsidianmd/comments annotations linking pdf zotero research notes; Right now I use an Android app to read PDFs, highlight and annotate them, but I’d like to do as much of that as possible inside Obsidian so I can easily link things",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1fi9c3s",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1fi9c3s",
+        "title": "Failed mend on jeans",
+        "subreddit": "Visiblemending",
+        "evidence": "\nFailed mend on jeans (https://www.reddit.com/r/Visiblemending/comments/1fi9c3s)\n【turn1111reddit188】 [wordlim: 200] Published: 2.2 years ago; Crawled: 1.6 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; I had some jeans that were worn in the inner thighs so I patched them with some sashiko and darning along the seams, but after a couple of wears they split again near the mend.\n[Monday September 16 2024] [+495 votes]\nSHARED URL\nHey",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1b8oess",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1b8oess",
+        "title": "Help!!",
+        "subreddit": "Visiblemending",
+        "evidence": "\nHelp!! (https://www.reddit.com/r/Visiblemending/comments/1b8oess)\n【turn1111reddit189】 [wordlim: 200] Published: 2.7 years ago; Crawled: 2.7 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; I was wearing my sashiko repaired stretch denim jeans today and honestly I am surprised by how well they are holding up.  They were a serious newbie repair as well, which may actually help because they don't have the tight stitch structure some ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1l14637",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1l14637",
+        "title": "My favorite jeans in the world- now 100% repaired and covered in sashiko!",
+        "subreddit": "Visiblemending",
+        "evidence": "\nMy favorite jeans in the world- now 100% repaired and covered in sashiko! (https://www.reddit.com/r/Visiblemending/comments/1l14637)\n【turn1111reddit190】 [wordlim: 200] Published: 1.4 years ago; Crawled: 1.4 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; At first I just repaired the holes, but the denim on the thighs was thin, so I added a big panel on the inside and started my sashiko work. ... I made this subreddit when I was j",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1mmkklz",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1mmkklz",
+        "title": "Are these repairable",
+        "subreddit": "Visiblemending",
+        "evidence": "\nAre these repairable (https://www.reddit.com/r/Visiblemending/comments/1mmkklz)\n【turn1111reddit191】 [wordlim: 200] Published: 1.3 years ago; Crawled: 1.3 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; I am a complete novice when it comes to mending and sewing so im up for the challenge! ... I would put a denim patch on the inside. You could then do a sashiko pattern to strengthen it, or just stitch the edges.\n[Sunday August 10 2",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1hakrn3",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1hakrn3",
+        "title": "Need help, how to repair this tough area?",
+        "subreddit": "Visiblemending",
+        "evidence": "\nNeed help, how to repair this tough area? (https://www.reddit.com/r/Visiblemending/comments/1hakrn3)\n【turn1111reddit192】 [wordlim: 200] Published: 1.9 years ago; Crawled: 1.9 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; Hello, I’m doing patchwork repair to these jeans and have been struggling to mend this section of the jeans. ... I would attempt to patch this with a super large patch in denim that extends up and over the patc",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1r9fnem",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1r9fnem/importing_annotationsnotes_from_zotero_formatting/",
+        "title": "Importing annotations+notes from Zotero: Formatting?",
+        "subreddit": "ObsidianMD",
+        "evidence": "\nImporting annotations+notes from Zotero: Formatting? (https://www.reddit.com/r/ObsidianMD/comments/1r9fnem/importing_annotationsnotes_from_zotero_formatting/)\n【turn1111reddit193】 [wordlim: 200] Published: 8 months ago; Source query: site:reddit.com/r/obsidianmd/comments annotations linking pdf zotero research notes; As I get up to speed with utilizing both Obsidian and Zotero for my research, one thing I particularly like is being able to make annotations with notes on a PDF",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1w2ot5r",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1w2ot5r/multiple_repairs_overlapping/",
+        "title": "Multiple Repairs Overlapping",
+        "subreddit": "Visiblemending",
+        "evidence": "\nMultiple Repairs Overlapping (https://www.reddit.com/r/Visiblemending/comments/1w2ot5r/multiple_repairs_overlapping/)\n【turn1111reddit194】 [wordlim: 200] Published: 2 months ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; These ripped down the middle a few years ago and I did a Sashiko patch (the blue threads) then in the past two years both sides ripped and I just layered over more Sashiko in white. ... The more they rip and I repair I",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1mv1234",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1mv1234",
+        "title": "Best way to repair/reinforce?",
+        "subreddit": "Visiblemending",
+        "evidence": "\nBest way to repair/reinforce? (https://www.reddit.com/r/Visiblemending/comments/1mv1234)\n【turn1111reddit195】 [wordlim: 200] Published: 1.2 years ago; Crawled: 1.2 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; These holes have appeared around the pockets on my denim shorts and I’m wondering the best way to repair them? ... I was considering sewing around the edges of the patch with my machine and a denim coloured thread and then",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1wpsirz",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1wpsirz/zotero_cite_links/",
+        "title": "Zotero Cite Links",
+        "subreddit": "ObsidianMD",
+        "evidence": "\nZotero Cite Links (https://www.reddit.com/r/ObsidianMD/comments/1wpsirz/zotero_cite_links/)\n【turn1111reddit196】 [wordlim: 200] Published: last month; Source query: site:reddit.com/r/obsidianmd/comments annotations linking pdf zotero research notes; > Cmd-click a Pandoc-style u/citekey in an Obsidian note to open the cited PDF in Zotero — at the page locator from the citation, with annotation-aware page-label offsetting.\n[Friday September 25 2026] [+1 votes]\nI'm trying to use",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1uu7qkc",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1uu7qkc/first_try_at_sashiko/",
+        "title": "First Try at Sashiko!",
+        "subreddit": "Visiblemending",
+        "evidence": "\nFirst Try at Sashiko! (https://www.reddit.com/r/Visiblemending/comments/1uu7qkc/first_try_at_sashiko/)\n【turn1111reddit197】 [wordlim: 200] Published: 4 months ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; My first try at visible mending, it was definitely harder than I thought, I ended up doing more embroidery than sashiko, I just could not load my needle and get the stitches to come out even, obviously they aren’t perfect  anyway. ..",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1qew6bf",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1qew6bf/how_do_you_link_notes_on_research_articles_with/",
+        "title": "How do you link notes on research articles with master notes for your own projects?",
+        "subreddit": "ObsidianMD",
+        "evidence": "\nHow do you link notes on research articles with master notes for your own projects? (https://www.reddit.com/r/ObsidianMD/comments/1qew6bf/how_do_you_link_notes_on_research_articles_with/)\n【turn1111reddit198】 [wordlim: 200] Published: 10 months ago; Source query: site:reddit.com/r/obsidianmd/comments annotations linking pdf zotero research notes; I've been using Obsidian badly (just notes organized inside folders), but recently I've started using more features—lots of linking",
+        "decision": "selected_for_other_date"
+      },
+      {
+        "id": "1x99bxl",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1x99bxl/my_first_mend_howd_ido/",
+        "title": "My first mend! How'd Ido?",
+        "subreddit": "Visiblemending",
+        "evidence": "\nMy first mend! How'd Ido? (https://www.reddit.com/r/Visiblemending/comments/1x99bxl/my_first_mend_howd_ido/)\n【turn1111reddit199】 [wordlim: 200] Published: 3 weeks ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; For a mend like this, I would recommend sashiko mending, or minimally a patch under/over the tear to reinforce the tear. ... Another scrap of denim underneath would work great.\n[Sunday October 18 2026] [+5 votes]\nSHARED URL\nGot ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1f2mr60",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1f2mr60",
+        "title": "Any ideas on how to repair and reinforce these jeans",
+        "subreddit": "Visiblemending",
+        "evidence": "\nAny ideas on how to repair and reinforce these jeans (https://www.reddit.com/r/Visiblemending/comments/1f2mr60)\n【turn1111reddit200】 [wordlim: 200] Published: 2.2 years ago; Crawled: 2.2 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; 7 years of wear and repair on these bad boys, I wear them almost every day. ... I patch my rips with boro stitching on top of a denim layer!! ... I’d take a large piece of fabric that is at least 2 i",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1x33av7",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1x33av7/how_would_you_all_go_about_mending_this/",
+        "title": "How would you all go about mending this:",
+        "subreddit": "Visiblemending",
+        "evidence": "\nHow would you all go about mending this: (https://www.reddit.com/r/Visiblemending/comments/1x33av7/how_would_you_all_go_about_mending_this/)\n【turn1111reddit201】 [wordlim: 200] Published: last month; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; Patch on the inside (usually I'd say always patch with a fabric of similar weight and stretch, but denim can get bulky, and the crotch is an area where I often resort to a piece of old sweatshirt/s",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1kbgavl",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1kbgavl",
+        "title": "Advice on how to fix my second-favourite pair of jeans?",
+        "subreddit": "Visiblemending",
+        "evidence": "\nAdvice on how to fix my second-favourite pair of jeans? (https://www.reddit.com/r/Visiblemending/comments/1kbgavl)\n【turn1111reddit202】 [wordlim: 200] Published: 1.5 years ago; Crawled: 1.5 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; patch it with another piece of similar weight denim + maybe some sashiko for decoration / stability if you're feeling up to it ... r/visiblemending\n[Wednesday April 30 2025] [+24 votes]\nSHARED URL",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1696zrx",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1696zrx",
+        "title": "2nd repair on these jeans",
+        "subreddit": "Visiblemending",
+        "evidence": "\n2nd repair on these jeans (https://www.reddit.com/r/Visiblemending/comments/1696zrx)\n【turn1111reddit203】 [wordlim: 200] Published: 3.2 years ago; Crawled: 3.0 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; The pocket comments were poking out through this hole. Second amateur repair on my husband's favorite jeans. ... Check out the book Mending Matters for some great visible mending techniques specifically for denim! ... \\- there",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "ydmtbv",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/ydmtbv",
+        "title": "How to Link My Obsidian Notes with PDF Annotations?",
+        "subreddit": "ObsidianMD",
+        "evidence": "\nHow to Link My Obsidian Notes with PDF Annotations? (https://www.reddit.com/r/ObsidianMD/comments/ydmtbv)\n【turn1111reddit204】 [wordlim: 200] Published: 4.1 years ago; Crawled: 3.2 years ago; Source query: site:reddit.com/r/obsidianmd/comments annotations linking pdf zotero research notes; I would like to annotate certain keywords or phrases and have them linked to notes that are in my obsidian library. ... However, when I try to link to a note [[]] in the annotation it does ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1uhwh3e",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1uhwh3e/is_it_possible_to_import_annotations_from_a_pdf/",
+        "title": "Is it possible to import annotations from a pdf with existing annotations to a Obsidiannote in a pdf++ linkable style. (Click on the importet annnotation and get directly to the Position in the PDF)",
+        "subreddit": "ObsidianMD",
+        "evidence": "\nIs it possible to import annotations from a pdf with existing annotations to a Obsidiannote in a pdf++ linkable style. (Click on the importet annnotation and get directly to the Position in the PDF) (https://www.reddit.com/r/ObsidianMD/comments/1uhwh3e/is_it_possible_to_import_annotations_from_a_pdf/)\n【turn1111reddit205】 [wordlim: 200] Published: 4 months ago; Source query: site:reddit.com/r/obsidianmd/comments annotations linking pdf zotero research notes; Is it possible to",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "17vrbir",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/17vrbir",
+        "title": "Pull notes from Zotero into Obsidian",
+        "subreddit": "ObsidianMD",
+        "evidence": "\nPull notes from Zotero into Obsidian (https://www.reddit.com/r/ObsidianMD/comments/17vrbir)\n【turn1111reddit206】 [wordlim: 200] Published: 3.0 years ago; Crawled: 3.0 years ago; Source query: site:reddit.com/r/obsidianmd/comments annotations linking pdf zotero research notes; I could of course first go over the whole article, making annotations, then extracting them, then making notes in obsidian, but this is not how I work. Does anyone know if there is a method to pull the a",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1tqizut",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1tqizut/import_zotero_notes_in_wikipedia_style_now_with/",
+        "title": "Import Zotero notes in Wikipedia style (now with ZotFlow)",
+        "subreddit": "ObsidianMD",
+        "evidence": "\nImport Zotero notes in Wikipedia style (now with ZotFlow) (https://www.reddit.com/r/ObsidianMD/comments/1tqizut/import_zotero_notes_in_wikipedia_style_now_with/)\n【turn1111reddit207】 [wordlim: 200] Published: 5 months ago; Source query: site:reddit.com/r/obsidianmd/comments annotations linking pdf zotero research notes; Five months ago I share my workflow to import Zotero highlights, comments,  and annotations into Obsidian notes using the Zotero Integration plugin (you can s",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1miaqn8",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1miaqn8",
+        "title": "First attempt at mending jeans",
+        "subreddit": "Visiblemending",
+        "evidence": "\nFirst attempt at mending jeans (https://www.reddit.com/r/Visiblemending/comments/1miaqn8)\n【turn1111reddit208】 [wordlim: 200] Published: 1.3 years ago; Crawled: 1.2 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; Used iron on denim material for the crotch repair, and sewed it to secure with multi toned blue thread, and that part is mostly invisible unless you stare intensely 👀. Also fixed wear and tear around the pockets and belt ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1p5qywh",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1p5qywh/import_zotero_annotations_to_obsidian_not_working/",
+        "title": "Import Zotero Annotations to Obsidian not working (maybe because of system language)",
+        "subreddit": "ObsidianMD",
+        "evidence": "\nImport Zotero Annotations to Obsidian not working (maybe because of system language) (https://www.reddit.com/r/ObsidianMD/comments/1p5qywh/import_zotero_annotations_to_obsidian_not_working/)\n【turn1111reddit209】 [wordlim: 200] Published: last year; Source query: site:reddit.com/r/obsidianmd/comments annotations linking pdf zotero research notes; I'm trying to import my annotations from Zotero to Obsidian using Better BibTex, Templater, Zotero Integration etc. ... After hittin",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1jiwyga",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1jiwyga",
+        "title": "Ideas for this repair?",
+        "subreddit": "Visiblemending",
+        "evidence": "\nIdeas for this repair? (https://www.reddit.com/r/Visiblemending/comments/1jiwyga)\n【turn1111reddit210】 [wordlim: 200] Published: 1.6 years ago; Crawled: 1.6 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; This is a pair of second-hand jeans I bought and after a few months the denim gave out - I gave up on them briefly but have been recently reinspired to mend them. ... Then reinforce it with sashiko or similar additional stitching",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "u19rph",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/u19rph/recommended_pdf_reader_for_academic/",
+        "title": "Recommended PDF reader for academic obsidian-zotero workflow?",
+        "subreddit": "ObsidianMD",
+        "evidence": "\nRecommended PDF reader for academic obsidian-zotero workflow? (https://www.reddit.com/r/ObsidianMD/comments/u19rph/recommended_pdf_reader_for_academic/)\n【turn1111reddit211】 [wordlim: 200] Published: 4.6 years ago; Crawled: 8 months ago; Source query: site:reddit.com/r/obsidianmd/comments annotations linking pdf zotero research notes; Pasting this comment I made on another post, using the Zotero PDF reader: ... Copy paste the .md content into Obsidian. ... •\t⁠extensions.zoter",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1rcprdl",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1rcprdl/zotero_pdf_management_obsidian_annotation/",
+        "title": "Zotero PDF management + Obsidian annotation?",
+        "subreddit": "ObsidianMD",
+        "evidence": "\nZotero PDF management + Obsidian annotation? (https://www.reddit.com/r/ObsidianMD/comments/1rcprdl/zotero_pdf_management_obsidian_annotation/)\n【turn1111reddit212】 [wordlim: 200] Published: 8 months ago; Source query: site:reddit.com/r/obsidianmd/comments annotations linking pdf zotero research notes; I love having a split-screen Obsidian with the PDF next to the notes file and using PDF++ to connect annotations directly to the text. ... I mean, why not work with your PDFs on",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1it6sow",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1it6sow",
+        "title": "How to repair the worn thighs of my jeans?",
+        "subreddit": "Visiblemending",
+        "evidence": "\nHow to repair the worn thighs of my jeans? (https://www.reddit.com/r/Visiblemending/comments/1it6sow)\n【turn1111reddit213】 [wordlim: 200] Published: 1.7 years ago; Crawled: 1.7 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko;     I fixed the crotch and zipper area of some jeans with a denim patch and Sashiko in a matching blue embroidery thread.\n",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1u1d3yl",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1u1d3yl/how_to_mend_these_jeans/",
+        "title": "How to mend these jeans?",
+        "subreddit": "Visiblemending",
+        "evidence": "\nHow to mend these jeans? (https://www.reddit.com/r/Visiblemending/comments/1u1d3yl/how_to_mend_these_jeans/)\n【turn1111reddit214】 [wordlim: 200] Published: 5 months ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; Would sashiko work? ... These are technical Rohan jeans, not cotton denim, and I wanted something quick-drying!\n",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1nrhhpb",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1nrhhpb",
+        "title": "I accidentally bought jeans online that are “distressed”, aka they have a tear above the knee. Give me your best suggestions for some cool visible mending!!!",
+        "subreddit": "Visiblemending",
+        "evidence": "\nI accidentally bought jeans online that are “distressed”, aka they have a tear above the knee. Give me your best suggestions for some cool visible mending!!! (https://www.reddit.com/r/Visiblemending/comments/1nrhhpb)\n【turn1111reddit215】 [wordlim: 200] Published: 1.1 years ago; Crawled: 1.1 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; Get a piece of denim 1-2\" larger than the hole, pin it and baste stitch (running stitch with l",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1vkrf5h",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1vkrf5h/help_with_favorite_pants/",
+        "title": "Help with favorite pants!",
+        "subreddit": "Visiblemending",
+        "evidence": "\nHelp with favorite pants! (https://www.reddit.com/r/Visiblemending/comments/1vkrf5h/help_with_favorite_pants/)\n【turn1111reddit216】 [wordlim: 200] Published: 3 months ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; Patch the inside with a piece of denim, and then when I did mine I sewed back and forth in a grid to make it hold to the outer fabric - though you could embroider it or sashiko it or really anything to make sure the inside pa",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1qj2agi",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1qj2agi/fixing_beloved_jeans/",
+        "title": "Fixing beloved jeans",
+        "subreddit": "Visiblemending",
+        "evidence": "\nFixing beloved jeans (https://www.reddit.com/r/Visiblemending/comments/1qj2agi/fixing_beloved_jeans/)\n【turn1111reddit217】 [wordlim: 200] Published: 9 months ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; This is my favorite pair of jeans and I want to revive them but having visible mending around the crotch area is considered tasteless around here at best. ... A lot of denim heads who blow out their crotch do a Sashiko style repair on",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1gi3bso",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1gi3bso",
+        "title": "Repair options that aren't (super) visible in the crotch of my favorite jeans?",
+        "subreddit": "Visiblemending",
+        "evidence": "\nRepair options that aren't (super) visible in the crotch of my favorite jeans? (https://www.reddit.com/r/Visiblemending/comments/1gi3bso)\n【turn1111reddit218】 [wordlim: 200] Published: 2.0 years ago; Crawled: 1.7 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko;   you might want to check out r/invisiblemending this sub is mainly for mending jobs that are meant to be visible ... Sashiko is a great method for repairs like this.\n",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1rodmby",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1rodmby/using_obsidian_to_sync_zotero_library_and/",
+        "title": "Using Obsidian to sync Zotero library and attachments?",
+        "subreddit": "ObsidianMD",
+        "evidence": "\nUsing Obsidian to sync Zotero library and attachments? (https://www.reddit.com/r/ObsidianMD/comments/1rodmby/using_obsidian_to_sync_zotero_library_and/)\n【turn1111reddit219】 [wordlim: 200] Published: 8 months ago; Source query: site:reddit.com/r/obsidianmd/comments annotations linking pdf zotero research notes; I use Obsidian with Zotero on two seperate devices. ...     Try it with one pdf: link to it, annotate it and see what happens.\n",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "11tasgj",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/11tasgj",
+        "title": "My sashiko repair: jeans",
+        "subreddit": "Visiblemending",
+        "evidence": "\nMy sashiko repair: jeans (https://www.reddit.com/r/Visiblemending/comments/11tasgj)\n【turn1111reddit220】 [wordlim: 200] Published: 3.7 years ago; Crawled: 2.6 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; Wear pattern appreciation is how an addiction to raw denim starts. ... The jeans faded, but that repair didn’t. ...     \\#1: My Studio D’artisan Keychain almost 2 years of constant use dangling on my keys, no washes lol | 56 co",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1bcbog2",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1bcbog2",
+        "title": "What the actual F#@!",
+        "subreddit": "Visiblemending",
+        "evidence": "\nWhat the actual F#@! (https://www.reddit.com/r/Visiblemending/comments/1bcbog2)\n【turn1111reddit221】 [wordlim: 200] Published: 2.7 years ago; Crawled: 2.4 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; Maybe I should just stop trying to repair these stretchy jeans for my boyfriend.  So disappointed that I've tried a whip stitch patch and then a denim patch with Boro. I've done sashiko on another pair which I'm sure will fail now ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1nix2hs",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1nix2hs",
+        "title": "Just tore my favorite jeans",
+        "subreddit": "Visiblemending",
+        "evidence": "\nJust tore my favorite jeans (https://www.reddit.com/r/Visiblemending/comments/1nix2hs)\n【turn1111reddit222】 [wordlim: 200] Published: 1.2 years ago; Crawled: 1.2 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; Any ideas for a lasting repair? ... A big patch over or under the hole and some sashiko embroidery would do really well here!\n",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1kbubms",
+        "url": "https://www.reddit.com/r/Visiblemending/comments/1kbubms",
+        "title": "Is it possible to repair this tear?",
+        "subreddit": "Visiblemending",
+        "evidence": "\nIs it possible to repair this tear? (https://www.reddit.com/r/Visiblemending/comments/1kbubms)\n【turn1111reddit223】 [wordlim: 200] Published: 1.5 years ago; Crawled: 1.5 years ago; Source query: site:reddit.com/r/visiblemending/comments repair wool denim sashiko; I’ve seen lots of people mend jeans with shashiko style visible mending. ... Sashiko is absolutely an option. ... There aren’t many invisible mending options but you can repair to the point that it’s just a white fra",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1w93urg",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1w93urg/first_bookbind_attempt_advise_for_second_attempt/",
+        "title": "first bookbind attempt, advise for second attempt needed",
+        "subreddit": "bookbinding",
+        "evidence": "first bookbind attempt, advise for second attempt needed (https://www.reddit.com/r/bookbinding/comments/1w93urg/first_bookbind_attempt_advise_for_second_attempt/)\n【turn1114reddit199】 [wordlim: 200] Published: 2 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; I made my very first bookbinding attempt because I really liked the Webster's dictionary with built-in stand... ... The tutorial I watched (for a normal book bind) said t",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1upz5dz",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1upz5dz/first_bookbinding_attempt_had_to_handdraw_the/",
+        "title": "First bookbinding attempt (had to hand-draw the cover after my printer gave up)",
+        "subreddit": "bookbinding",
+        "evidence": "\nFirst bookbinding attempt (had to hand-draw the cover after my printer gave up) (https://www.reddit.com/r/bookbinding/comments/1upz5dz/first_bookbinding_attempt_had_to_handdraw_the/)\n【turn1114reddit200】 [wordlim: 200] Published: 4 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; Finally tried my hand at bookbinding! ... I also decided to make the cover with paper instead of book cloth for this first attempt. ... If the grain ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1r6qy3s",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1r6qy3s/my_very_first_rebind_lots_of_mistakes_were_made/",
+        "title": "My very first (re-)bind - lots of mistakes were made",
+        "subreddit": "bookbinding",
+        "evidence": "\nMy very first (re-)bind - lots of mistakes were made (https://www.reddit.com/r/bookbinding/comments/1r6qy3s/my_very_first_rebind_lots_of_mistakes_were_made/)\n【turn1114reddit201】 [wordlim: 200] Published: 8 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; My very first attempt a book-(re-)binding. I bound it in paper rather than cloth.\n[Tuesday February 17 2026] [+50 votes]\nSHARED URL\nMy very first attempt a book-(re-)binding.",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1v7027z",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1v7027z/paste_papers_gone_wrong_need_advice/",
+        "title": "Paste Papers Gone Wrong! - Need Advice",
+        "subreddit": "bookbinding",
+        "evidence": "\nPaste Papers Gone Wrong! - Need Advice (https://www.reddit.com/r/bookbinding/comments/1v7027z/paste_papers_gone_wrong_need_advice/)\n【turn1114reddit202】 [wordlim: 200] Published: 3 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; I tried to make paste papers for the first time, which was tons of fun, but when I removed them from my press this morning, I was greeted with less-than-ideal outputs 🙁 ... As an attempt to save them,",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1sbbma7",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1sbbma7/my_first_attempt/",
+        "title": "My first attempt",
+        "subreddit": "bookbinding",
+        "evidence": "\nMy first attempt (https://www.reddit.com/r/bookbinding/comments/1sbbma7/my_first_attempt/)\n【turn1114reddit203】 [wordlim: 200] Published: 7 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; Hi everyone, finished my first attempt at bookbinding and wanted to share it here.\n[Friday April 03 2026] [+402 votes]\nSHARED URL\nHi everyone, finished my first attempt at bookbinding and wanted to share it here. Had a lot of fun, but it has",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1tm06y9",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1tm06y9/first_attempt/",
+        "title": "First attempt",
+        "subreddit": "bookbinding",
+        "evidence": "\nFirst attempt (https://www.reddit.com/r/bookbinding/comments/1tm06y9/first_attempt/)\n【turn1114reddit205】 [wordlim: 200] Published: 5 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; For your first attempt at book binding this isn't bad. ... Once the sewing is done, the spine needs a layer of mull with a thin paper layer on top to consolidate the sewing.\n[Sunday May 24 2026] [+90 votes]\nSHARED URL\nNot the best materials and my",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1qm2t76",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1qm2t76/firsttime_book_restoration_advice_needed/",
+        "title": "First-time book restoration - advice needed",
+        "subreddit": "bookbinding",
+        "evidence": "\nFirst-time book restoration - advice needed (https://www.reddit.com/r/bookbinding/comments/1qm2t76/firsttime_book_restoration_advice_needed/)\n【turn1114reddit206】 [wordlim: 200] Published: 9 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; This is my first book restoration project. ... I haven’t been able to find any videos showing how to repair this type of damage (I’m mainly concerned about the damaged pages, as I can make a",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1n8d59w",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1n8d59w",
+        "title": "First bookbinding attempt. Looking for some insight into how to improve",
+        "subreddit": "bookbinding",
+        "evidence": "\nFirst bookbinding attempt. Looking for some insight into how to improve (https://www.reddit.com/r/bookbinding/comments/1n8d59w)\n【turn1114reddit207】 [wordlim: 200] Published: 1.2 years ago; Crawled: 1.2 years ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; This was my first ever attempt at bookbinding.\n[Thursday September 04 2025] [+61 votes]\nSHARED URL\nHello everyone! This was my first ever attempt at bookbinding. For a first attem",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1i51r62",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1i51r62",
+        "title": "Just another noob posting his first rebind :)",
+        "subreddit": "bookbinding",
+        "evidence": "\nJust another noob posting his first rebind :) (https://www.reddit.com/r/bookbinding/comments/1i51r62)\n【turn1114reddit208】 [wordlim: 200] Published: 1.8 years ago; Crawled: 1.8 years ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; I am very happy with them for my first attempt! ... Only the second book ended up with major wrinkling, and only on the cover side of the endpaper. ... I didn't account for grain, which I have seen some pe",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1vtmtfc",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1vtmtfc/paper_grain/",
+        "title": "Paper grain",
+        "subreddit": "bookbinding",
+        "evidence": "\nPaper grain (https://www.reddit.com/r/bookbinding/comments/1vtmtfc/paper_grain/)\n【turn1114reddit210】 [wordlim: 200] Published: 2 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; i am new to bookbinding (one try so far) and i just read about papergrain. ... You will see one direction is easier on the folding attempt. ...   I know how to test for the grain, but my question is how do i buy the right grain in the first place.\n[Th",
+        "decision": "historical_id_repeat"
+      },
+      {
+        "id": "1kwa10u",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1kwa10u",
+        "title": "my first attempt at a rebind!",
+        "subreddit": "bookbinding",
+        "evidence": "\nmy first attempt at a rebind! (https://www.reddit.com/r/bookbinding/comments/1kwa10u)\n【turn1114reddit211】 [wordlim: 200] Published: 1.5 years ago; Crawled: 1.4 years ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; after about a month and a half of working on this on and off, my first rebind is finally finished! ... endpapers are korean hanji paper (pro tip, if you're using thin paper like i did, reinforce it with another layer befo",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "os1rmw",
+        "url": "https://www.reddit.com/r/bookbinding/comments/os1rmw",
+        "title": "First binding project + advice for decorating?",
+        "subreddit": "bookbinding",
+        "evidence": "\nFirst binding project + advice for decorating? (https://www.reddit.com/r/bookbinding/comments/os1rmw)\n【turn1114reddit212】 [wordlim: 200] Published: 5.3 years ago; Crawled: 5.3 years ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; I tried bookbinding for the first time this weekend, using casebinding. I'm quite pleased with the results (especially for a first attempt). ... (I'm assuming this is probably due to paper grain and maybe ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1aw4fp4",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1aw4fp4",
+        "title": "First Attempt: successful failure",
+        "subreddit": "bookbinding",
+        "evidence": "\nFirst Attempt: successful failure (https://www.reddit.com/r/bookbinding/comments/1aw4fp4)\n【turn1114reddit213】 [wordlim: 200] Published: 2.7 years ago; Crawled: 2.7 years ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; While my first attempt is, well, quite obviously a first attempt, I learned a lot and am excited to get right back into action. ... I'll move on to other aspects of book binding once I've mastered this bit. ... I used",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1vqj4l4",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1vqj4l4/got_this_book_from_a_little_free_library_and/",
+        "title": "Got this book from a little free library and would love advice on how to clean/repair",
+        "subreddit": "bookbinding",
+        "evidence": "\nGot this book from a little free library and would love advice on how to clean/repair (https://www.reddit.com/r/bookbinding/comments/1vqj4l4/got_this_book_from_a_little_free_library_and/)\n【turn1114reddit214】 [wordlim: 200] Published: 2 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; Advice on what to do to clean and repair? ... What book is it, and how old is it? ... Hard to say what the edge discoloration is, but a kneaded ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1vyy3xq",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1vyy3xq/my_first_binding/",
+        "title": "My first binding",
+        "subreddit": "bookbinding",
+        "evidence": "\nMy first binding (https://www.reddit.com/r/bookbinding/comments/1vyy3xq/my_first_binding/)\n【turn1114reddit215】 [wordlim: 200] Published: 2 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; Also, as it was the first project and not a thick one, I didn't round the spine. Used long grain paper. ...   Thanks for your comments ...   Do I have to worry about grain direction on book boards?\n[Wednesday August 26 2026] [+12 votes]\nSHAR",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1h293xt",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1h293xt",
+        "title": "How to prevent my book edges from becoming uneven in the future?",
+        "subreddit": "bookbinding",
+        "evidence": "\nHow to prevent my book edges from becoming uneven in the future? (https://www.reddit.com/r/bookbinding/comments/1h293xt)\n【turn1114reddit216】 [wordlim: 200] Published: 2.0 years ago; Crawled: 2.0 years ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; Second time bookbinding, and I am once again unhappy with how the edges came out. My first attempt was similar just more deckled but this one came out to more of a point, any advice or t",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1pememy",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1pememy/threepiece_bradel_first_attempt/",
+        "title": "Three-piece Bradel - First Attempt",
+        "subreddit": "bookbinding",
+        "evidence": "\nThree-piece Bradel - First Attempt (https://www.reddit.com/r/bookbinding/comments/1pememy/threepiece_bradel_first_attempt/)\n【turn1114reddit217】 [wordlim: 200] Published: 11 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; I just completed my first bookbinding project, a three-piece Bradel binding. ... I used 20lb short-grain printer paper.\n[Friday December 05 2025] [+2 votes]\nI just completed my first bookbinding project, a t",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1opkl7b",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/1opkl7b/people_whove_taken_stats_how_did_you_learn_what/",
+        "title": "“People who’ve taken stats — how did you learn what the ‘error’ in a regression line really means?”",
+        "subreddit": "AskStatistics",
+        "evidence": "\n“People who’ve taken stats — how did you learn what the ‘error’ in a regression line really means?” (https://www.reddit.com/r/AskStatistics/comments/1opkl7b/people_whove_taken_stats_how_did_you_learn_what/)\n【turn1152reddit18】 [wordlim: 200] Published: last year; Source query: what does a regression residual measure site:reddit.com/r/askstatistics/comments; *I’m working through a statistics section on the least squares method and regression lines. ... *I’m not asking for some",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1q5ro6x",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1q5ro6x/what_went_wrong_here/",
+        "title": "What went wrong here?",
+        "subreddit": "bookbinding",
+        "evidence": "\nWhat went wrong here? (https://www.reddit.com/r/bookbinding/comments/1q5ro6x/what_went_wrong_here/)\n【turn1114reddit219】 [wordlim: 200] Published: 10 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; My first book attempt did the same thing because I didn’t use enough glue on the spine, I used burlap for mulling cloth.\n[Tuesday January 06 2026] [+32 votes]\nSHARED URL\nI’m making this book for my sister. I’m not sure what happene",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1pp1xxh",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1pp1xxh/first_project_pretty_happy_with_it/",
+        "title": "First project, pretty happy with it",
+        "subreddit": "bookbinding",
+        "evidence": "\nFirst project, pretty happy with it (https://www.reddit.com/r/bookbinding/comments/1pp1xxh/first_project_pretty_happy_with_it/)\n【turn1114reddit220】 [wordlim: 200] Published: 11 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; This was my first go at bookbinding! I did a case bind, mostly following a tutorial from Bitter Melon Bindery, but watching some others on YouTube to get other tips, validation to use regular cotton fabr",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1dzjw8h",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1dzjw8h",
+        "title": "First time binding, need help with pages laying flat",
+        "subreddit": "bookbinding",
+        "evidence": "\nFirst time binding, need help with pages laying flat (https://www.reddit.com/r/bookbinding/comments/1dzjw8h)\n【turn1114reddit221】 [wordlim: 200] Published: 2.3 years ago; Crawled: 2.3 years ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; Hello, I tried my first ever bookbind and I have an issue. ... I’m having a hard time searching for a solution online because I’m not well familiar with bookbinding terms, so in the end I went here ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1iwqz4j",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1iwqz4j",
+        "title": "First finished book! (what do y’all think?)",
+        "subreddit": "bookbinding",
+        "evidence": "\nFirst finished book! (what do y’all think?) (https://www.reddit.com/r/bookbinding/comments/1iwqz4j)\n【turn1114reddit222】 [wordlim: 200] Published: 1.7 years ago; Crawled: 1.7 years ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; Very good first attempt! Probably the first pages are like that because of the glue,  make sure to not close the book too early, to not use too much glue and in between to use a paper to not let the glue go ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1x3nh5d",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1x3nh5d/gluing_in_the_textblock_tips/",
+        "title": "Gluing in the textblock: Tips?",
+        "subreddit": "bookbinding",
+        "evidence": "\nGluing in the textblock: Tips? (https://www.reddit.com/r/bookbinding/comments/1x3nh5d/gluing_in_the_textblock_tips/)\n【turn1114reddit223】 [wordlim: 200] Published: last month; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; Well, my paper started to tear when I attempted to peel it off so I just shut it again and I guess it’s *fine*, but it’s not straight and I’m frustrated.  Still better than the first try at least. ... I’ve watched Abo",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1v3mt9f",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1v3mt9f/received_a_new_book_in_the_mail_can_this_be/",
+        "title": "Received a \"new\" book in the mail. Can this be easily fixed?",
+        "subreddit": "bookbinding",
+        "evidence": "\nReceived a \"new\" book in the mail. Can this be easily fixed? (https://www.reddit.com/r/bookbinding/comments/1v3mt9f/received_a_new_book_in_the_mail_can_this_be/)\n【turn1114reddit224】 [wordlim: 200] Published: 3 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; Ordered a book, and once it arrived it was broken after the first few pages. It was a self published, no returns situation, so I don't think a replacement is possible and",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1ugdwlr",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1ugdwlr/what_went_wrong_here/",
+        "title": "What went wrong here?",
+        "subreddit": "bookbinding",
+        "evidence": "\nWhat went wrong here? (https://www.reddit.com/r/bookbinding/comments/1ugdwlr/what_went_wrong_here/)\n【turn1114reddit225】 [wordlim: 200] Published: 4 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; This is my first ever rebind so I am very much learning. ... I ordered some custom endpapers from an online printing place but I have no way to know their grain directions for future! ... Use blotting paper and plastic sheets?\n[Frid",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1p4u6am",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1p4u6am/how_to_fix_this_softcover_binding/",
+        "title": "How to fix this softcover binding",
+        "subreddit": "bookbinding",
+        "evidence": "\nHow to fix this softcover binding (https://www.reddit.com/r/bookbinding/comments/1p4u6am/how_to_fix_this_softcover_binding/)\n【turn1114reddit226】 [wordlim: 200] Published: last year; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; Strictly speaking there's nothing much to repair here: this is what a well read paperback looks like. ... You can absolutely rebind it: DAS bookbinding on YouTube has an excellent guide that'll teach you a lot.",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1r29rbf",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1r29rbf/my_first_books_7_years_later/",
+        "title": "My first books (7 years later)",
+        "subreddit": "bookbinding",
+        "evidence": "\nMy first books (7 years later) (https://www.reddit.com/r/bookbinding/comments/1r29rbf/my_first_books_7_years_later/)\n【turn1114reddit227】 [wordlim: 200] Published: 9 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; Wanted to share some of first ever book binding projects I did when I was in high school for sketching. ... I reused the board from the original cover and rapped it in some paper that was floating around.\nThe next o",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1qut54e",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1qut54e/my_first_bookbinding_attempt_thoughts_s/",
+        "title": "My first bookbinding attempt. thoughts? /s",
+        "subreddit": "bookbinding",
+        "evidence": "\nMy first bookbinding attempt. thoughts? /s (https://www.reddit.com/r/bookbinding/comments/1qut54e/my_first_bookbinding_attempt_thoughts_s/)\n【turn1114reddit228】 [wordlim: 200] Published: 9 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; Sorry about the sarcasm, but why do so many submissions to this sub include the disclaimer “my first book” or something to that effect while showing a high-quality project with no beginner def",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "138m61f",
+        "url": "https://www.reddit.com/r/bookbinding/comments/138m61f",
+        "title": "First try... fail. But I'm proud anyway.",
+        "subreddit": "bookbinding",
+        "evidence": "\nFirst try... fail. But I'm proud anyway. (https://www.reddit.com/r/bookbinding/comments/138m61f)\n【turn1114reddit229】 [wordlim: 200] Published: 3.5 years ago; Crawled: 3.5 years ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; So my first try at perfect binding loose sheets. ... Then the paper warped when I glued it all to the cover even though it dried in a 'press'. ... DAS bookbinding probably has a video for this.\n[Friday May 05 2",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1uv08r8",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1uv08r8/first_rebind_project/",
+        "title": "First rebind project!",
+        "subreddit": "bookbinding",
+        "evidence": "\nFirst rebind project! (https://www.reddit.com/r/bookbinding/comments/1uv08r8/first_rebind_project/)\n【turn1114reddit230】 [wordlim: 200] Published: 4 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; This is my first full case-bound rebind attempt! ... Check the grain direction on your boards - it's probably running the wrong way to get warping in that direction.\nWhen you are covering the boards, always apply glue to the thinner",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1q7rvoz",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1q7rvoz/first_book_need_feedback/",
+        "title": "First book, need feedback",
+        "subreddit": "bookbinding",
+        "evidence": "\nFirst book, need feedback (https://www.reddit.com/r/bookbinding/comments/1q7rvoz/first_book_need_feedback/)\n【turn1114reddit231】 [wordlim: 200] Published: 10 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; I just finished my first book binding ever 😀 ... I believe mine is probably a bit too round because I can see steps in the paper at the front that I tried to sand without success.\n[Thursday January 08 2026] [+110 votes]\nSHA",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1xr0xep",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1xr0xep/im_mesmerized_please_help/",
+        "title": "Im mesmerized 😭 please help",
+        "subreddit": "bookbinding",
+        "evidence": "\nIm mesmerized 😭 please help (https://www.reddit.com/r/bookbinding/comments/1xr0xep/im_mesmerized_please_help/)\n【turn1114reddit232】 [wordlim: 200] Published: 4 days ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; Or, you can try to look for some other ways of repairing the paperback books through the YouTube, as there are a banch of useful guides, like I'm in bookbinding for around a year, nonetheless I've produced my own handmade b",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1kok2wp",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1kok2wp",
+        "title": "First Rebind - Critique me please",
+        "subreddit": "bookbinding",
+        "evidence": "\nFirst Rebind - Critique me please (https://www.reddit.com/r/bookbinding/comments/1kok2wp)\n【turn1114reddit233】 [wordlim: 200] Published: 1.5 years ago; Crawled: 1.5 years ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; This is my first attempt at binding or re-covering I guess. ... I did take some photos I can maybe add in the comments?\n[Saturday May 17 2025] [+27 votes]\nSHARED URL\nThis is my first attempt at binding or re-covering ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1ue02xa",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1ue02xa/when_i_open_my_books_they_are_a_bit_wrinkled_near/",
+        "title": "When I open my books they are a bit wrinkled near the stitches. What am I getting wrong and how to fix It?",
+        "subreddit": "bookbinding",
+        "evidence": "\nWhen I open my books they are a bit wrinkled near the stitches. What am I getting wrong and how to fix It? (https://www.reddit.com/r/bookbinding/comments/1ue02xa/when_i_open_my_books_they_are_a_bit_wrinkled_near/)\n【turn1114reddit234】 [wordlim: 200] Published: 4 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; It's the direction of the paper grain. ... So the paper I bought is basically nof fit for bookbinding, right?\n[Wednesd",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "15kbv9q",
+        "url": "https://www.reddit.com/r/bookbinding/comments/15kbv9q",
+        "title": "First Bookbinding Attempt, Need Advice",
+        "subreddit": "bookbinding",
+        "evidence": "\nFirst Bookbinding Attempt, Need Advice (https://www.reddit.com/r/bookbinding/comments/15kbv9q)\n【turn1114reddit235】 [wordlim: 200] Published: 3.3 years ago; Crawled: 3.3 years ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; I just got into this hobby, and decided to post my first attempt at rebinding a book and making a cover here, to solicit advice and feedback before I try again. ...     You fold some paper and glue the folded edg",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1n14yi5",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1n14yi5",
+        "title": "First bookbinding project done, she’s a little rough but I’m happy with it.",
+        "subreddit": "bookbinding",
+        "evidence": "\nFirst bookbinding project done, she’s a little rough but I’m happy with it. (https://www.reddit.com/r/bookbinding/comments/1n14yi5)\n【turn1114reddit236】 [wordlim: 200] Published: 1.2 years ago; Crawled: 1.2 years ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; This is my first bookbinding attempt so far, I used hemp cords to sew on, suede leather, and  some random Home Depot wood that I used a mini planer on to round the edges. ... ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1tk3iji",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1tk3iji/first_case_building_issues/",
+        "title": "First case building issues.",
+        "subreddit": "bookbinding",
+        "evidence": "\nFirst case building issues. (https://www.reddit.com/r/bookbinding/comments/1tk3iji/first_case_building_issues/)\n【turn1114reddit237】 [wordlim: 200] Published: 5 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; This is the first hardcover case binding that I’m doing. ... Do I need to repair this or do something about the fraying before I glue in the text block? ...   another solution is to glue the cloth to the board like you d",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1t2bzel",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1t2bzel/i_finished_my_first_project_im_ready_to_be/",
+        "title": "I finished my first project! I’m ready to be roasted in the name of improvement.",
+        "subreddit": "bookbinding",
+        "evidence": "\nI finished my first project! I’m ready to be roasted in the name of improvement. (https://www.reddit.com/r/bookbinding/comments/1t2bzel/i_finished_my_first_project_im_ready_to_be/)\n【turn1114reddit238】 [wordlim: 200] Published: 6 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; A supermassive rabbit hole later, the hours of which I did not (would rather not) track, I’d consumed half of DAS’s bookbinding videos (twice), some of",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1fmsiq5",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1fmsiq5",
+        "title": "First ever bind. Was trying to do things on a budget.",
+        "subreddit": "bookbinding",
+        "evidence": "\nFirst ever bind. Was trying to do things on a budget. (https://www.reddit.com/r/bookbinding/comments/1fmsiq5)\n【turn1114reddit239】 [wordlim: 200] Published: 2.1 years ago; Crawled: 2.1 years ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; I'm poor, but I wanted cheap, physical copies of books, so I took up book binding. ... Trying to cut the paper straight was definitely the most challenging part lol\n[Sunday September 22 2024] [+270",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1uwo0nr",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1uwo0nr/asking_for_feedback_third_attempt/",
+        "title": "Asking for Feedback - Third Attempt",
+        "subreddit": "bookbinding",
+        "evidence": "\nAsking for Feedback - Third Attempt (https://www.reddit.com/r/bookbinding/comments/1uwo0nr/asking_for_feedback_third_attempt/)\n【turn1114reddit240】 [wordlim: 200] Published: 4 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; I've sewn a couple of text blocks (this is attempt three) and have been pressing this one for a while.\n[Tuesday July 14 2026] [+12 votes]\nSHARED URL\nHi friends! I've sewn a couple of text blocks (this is a",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1r8ubav",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1r8ubav/i_dont_think_im_doing_the_lumbeck_binding/",
+        "title": "I don't think I'm doing the Lumbeck Binding technique properly",
+        "subreddit": "bookbinding",
+        "evidence": "\nI don't think I'm doing the Lumbeck Binding technique properly (https://www.reddit.com/r/bookbinding/comments/1r8ubav/i_dont_think_im_doing_the_lumbeck_binding/)\n【turn1114reddit241】 [wordlim: 200] Published: 8 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; I've wanted to try my hand at rebinding the pages, into paperbacks again, since I didn't want to do anything too complicated with paperback-to-hardcover transfers. ... Ag",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1kczsdz",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1kczsdz",
+        "title": "What did I do wrong?",
+        "subreddit": "bookbinding",
+        "evidence": "\nWhat did I do wrong? (https://www.reddit.com/r/bookbinding/comments/1kczsdz)\n【turn1114reddit242】 [wordlim: 200] Published: 1.5 years ago; Crawled: 1.5 years ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; Hi all, I’ve just completed my first rebind. I used a book I wasn’t too worried about out ruining if it all went to pot but I’m generally pleased with how it came out.\n",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "134d8u6",
+        "url": "https://www.reddit.com/r/bookbinding/comments/134d8u6/how_to_prevent_glue_seepage_into_the_text_block/",
+        "title": "How to prevent glue seepage into the text block when applying glue onto the spine?",
+        "subreddit": "bookbinding",
+        "evidence": "\nHow to prevent glue seepage into the text block when applying glue onto the spine? (https://www.reddit.com/r/bookbinding/comments/134d8u6/how_to_prevent_glue_seepage_into_the_text_block/)\n【turn1114reddit243】 [wordlim: 200] Published: 3.5 years ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; I folded at 9”x12” paper in half (worked out the direction of the grain etc) so the book is 6” x 9”. the paper is so thick that in one signatur",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1qjbtwz",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1qjbtwz/yall/",
+        "title": "Yall 😭",
+        "subreddit": "bookbinding",
+        "evidence": "\nYall 😭 (https://www.reddit.com/r/bookbinding/comments/1qjbtwz/yall/)\n【turn1114reddit244】 [wordlim: 200] Published: 9 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; i made all this paper and i’m scared i ruined it. do i just keep going? ... Or maybe try a different binding, like sewing each signature directly to the cover. ... (Or you could just turn each section into abln individual pamphlet book!)\n",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1hj37r8",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1hj37r8",
+        "title": "My first attempt. I gave up after this, hoping to give it a 2nd attempt one of these days",
+        "subreddit": "bookbinding",
+        "evidence": "\nMy first attempt. I gave up after this, hoping to give it a 2nd attempt one of these days (https://www.reddit.com/r/bookbinding/comments/1hj37r8)\n【turn1114reddit245】 [wordlim: 200] Published: 1.9 years ago; Crawled: 1.6 years ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; First attempt meaning that the first paper object you ever tried to bind was an actual tome sewn on cords?? ... I took a multi-session workshop in order to learn",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1u2mmqk",
+        "url": "https://www.reddit.com/r/bookbinding/comments/1u2mmqk/rebinding_a_novel_before_or_after_reading/",
+        "title": "Rebinding a novel before or after reading?",
+        "subreddit": "bookbinding",
+        "evidence": "\nRebinding a novel before or after reading? (https://www.reddit.com/r/bookbinding/comments/1u2mmqk/rebinding_a_novel_before_or_after_reading/)\n【turn1114reddit246】 [wordlim: 200] Published: 5 months ago; Source query: site:reddit.com/r/bookbinding/comments first attempt paper grain repair; Standard bookbinding glues frequently have adhesion issues on coated paper, and grain-perpendicular paper actively fights glue-only bindings like double fan.\n",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1l4sarg",
+        "url": "https://www.reddit.com/r/powerengineering/comments/1l4sarg",
+        "title": "How Reliable Are Your DCS and Instrumentation Systems in Canadian Plants and Who’s Responsible When They Drift?",
+        "subreddit": "powerengineering",
+        "evidence": "\nHow Reliable Are Your DCS and Instrumentation Systems in Canadian Plants and Who’s Responsible When They Drift? (https://www.reddit.com/r/powerengineering/comments/1l4sarg)\n【turn1151reddit13】 [wordlim: 200] Published: 1.4 years ago; Crawled: 1.3 years ago; Source query: why do instrument calibrations drift site:reddit.com/r/askengineers/comments; Maintenance blames weather swings, ops blames calibration schedules, and engineering says it’s “within tolerance.” ... What type o",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1fhc5we",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/1fhc5we",
+        "title": "How is a precision instrument's margin of error determined?",
+        "subreddit": "AskEngineers",
+        "evidence": "\nHow is a precision instrument's margin of error determined? (https://www.reddit.com/r/AskEngineers/comments/1fhc5we)\n【turn1151reddit14】 [wordlim: 200] Published: 2.2 years ago; Crawled: 2.2 years ago; Source query: why do instrument calibrations drift site:reddit.com/r/askengineers/comments; My question is straightforward, how is a percision instrument's margin of error determined? ... And isn't there always going to be an uncertainty in any measurement, so that when we cali",
+        "decision": "selected_for_other_date"
+      },
+      {
+        "id": "1k5nwj1",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/1k5nwj1",
+        "title": "How do you calibrate tempreture, gravitaty, acceleration, and axis on cheap IMUs?",
+        "subreddit": "AskEngineers",
+        "evidence": "\nHow do you calibrate tempreture, gravitaty, acceleration, and axis on cheap IMUs? (https://www.reddit.com/r/AskEngineers/comments/1k5nwj1)\n【turn1151reddit15】 [wordlim: 200] Published: 1.6 years ago; Crawled: 1.6 years ago; Source query: why do instrument calibrations drift site:reddit.com/r/askengineers/comments; Calibration requires a procedure, traceability and a standard. ... What accuracy do you need from the standard? Standards must, by definition, have lower uncertaint",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1rmi1r5",
+        "url": "https://www.reddit.com/r/instrumentation/comments/1rmi1r5/low_pressure_calibration/",
+        "title": "Low pressure calibration",
+        "subreddit": "instrumentation",
+        "evidence": "\nLow pressure calibration (https://www.reddit.com/r/instrumentation/comments/1rmi1r5/low_pressure_calibration/)\n【turn1151reddit16】 [wordlim: 200] Published: 8 months ago; Source query: why do instrument calibrations drift site:reddit.com/r/askengineers/comments; I work for a contract company going from plant to plant performing calibrations.i am currently exploring others opinions on doing calibrations on low pressure calibrations, for instance, I had a DP transmitter ranged ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "oo8u7k",
+        "url": "https://www.reddit.com/r/instrumentation/comments/oo8u7k",
+        "title": "Permitted error in the calibration of pressure transmitters",
+        "subreddit": "instrumentation",
+        "evidence": "\nPermitted error in the calibration of pressure transmitters (https://www.reddit.com/r/instrumentation/comments/oo8u7k)\n【turn1151reddit17】 [wordlim: 200] Published: 5.3 years ago; Crawled: 5.3 years ago; Source query: why do instrument calibrations drift site:reddit.com/r/askengineers/comments; For most applications the expectation would be \"Calibrate the instrument so that it's as accurate as possible\" by either changing the scaling on the instrument itself or the scaling on",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "em336a",
+        "url": "https://www.reddit.com/r/AskEngineers/comments/em336a",
+        "title": "What calibrates the calibraters?",
+        "subreddit": "AskEngineers",
+        "evidence": "\nWhat calibrates the calibraters? (https://www.reddit.com/r/AskEngineers/comments/em336a)\n【turn1151reddit18】 [wordlim: 200] Published: 6.8 years ago; Crawled: 6.8 years ago; Source query: why do instrument calibrations drift site:reddit.com/r/askengineers/comments; Typically there is a different process to perform this calibration. ... Scientists, like those at NIST, are the calibrator's calibrator -- they are using methods that are the best of what humans can do right now.\n",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "wj9wbf",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/wj9wbf",
+        "title": "Which residuals are calculated in multiple regression?",
+        "subreddit": "AskStatistics",
+        "evidence": "Which residuals are calculated in multiple regression? (https://www.reddit.com/r/AskStatistics/comments/wj9wbf)\n【turn1152reddit12】 [wordlim: 200] Published: 4.3 years ago; Crawled: 4.3 years ago; Source query: what does a regression residual measure site:reddit.com/r/askstatistics/comments; I am doing some assumption checking for a multiple regression and I was wondering how the residuals are calculated. ... Residuals are always the actual observed values of Y minus what the ",
+        "decision": "selected_for_other_date"
+      },
+      {
+        "id": "1cph83t",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/1cph83t",
+        "title": "How to interpret the residual plot?",
+        "subreddit": "AskStatistics",
+        "evidence": "\nHow to interpret the residual plot? (https://www.reddit.com/r/AskStatistics/comments/1cph83t)\n【turn1152reddit14】 [wordlim: 200] Published: 2.5 years ago; Crawled: 2.5 years ago; Source query: what does a regression residual measure site:reddit.com/r/askstatistics/comments;       While that's literally what they asked, that's not what they're seeking. They're after some way of getting at the conditional mean of residuals in a residual plot\n[Saturday May 11 2024] [+5 votes]\nHo",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "qtz7wn",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/qtz7wn",
+        "title": "How does one interpret a residual plot?",
+        "subreddit": "AskStatistics",
+        "evidence": "\nHow does one interpret a residual plot? (https://www.reddit.com/r/AskStatistics/comments/qtz7wn)\n【turn1152reddit15】 [wordlim: 200] Published: 5.0 years ago; Crawled: 5.0 years ago; Source query: what does a regression residual measure site:reddit.com/r/askstatistics/comments; I will be real with you, I don’t quite understand the purpose of a residual plot. ... Also, If I’m doing a regression analysis, the 0 line was previously the regression line, right? ...     The residual",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "10iir20",
+        "url": "https://www.reddit.com/r/AskStatistics/comments/10iir20",
+        "title": "How to create a new variable from residual (e) of regression.",
+        "subreddit": "AskStatistics",
+        "evidence": "\nHow to create a new variable from residual (e) of regression. (https://www.reddit.com/r/AskStatistics/comments/10iir20)\n【turn1152reddit16】 [wordlim: 200] Published: 3.8 years ago; Crawled: 3.8 years ago; Source query: what does a regression residual measure site:reddit.com/r/askstatistics/comments; One of the variable of my study is the residual of the regression model, and I have all the required data (variables) for the regression model. ... I know there’s a Excel Add-In f",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "tjiyin",
+        "url": "https://www.reddit.com/r/statistics/comments/tjiyin",
+        "title": "[Question] When looking at the residuals of a regression to check normality, are residuals the difference between the data points and the mean of Y, or the data points and the regression line?",
+        "subreddit": "statistics",
+        "evidence": "\n[Question] When looking at the residuals of a regression to check normality, are residuals the difference between the data points and the mean of Y, or the data points and the regression line? (https://www.reddit.com/r/statistics/comments/tjiyin)\n【turn1152reddit17】 [wordlim: 200] Published: 4.6 years ago; Crawled: 4.5 years ago; Source query: what does a regression residual measure site:reddit.com/r/askstatistics/comments; > When looking at the residuals of a regression to c",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "dwmg19",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/dwmg19",
+        "title": "Why did European maps from the middle ages (Mappa Mundi?) differ so greatly from other maps of the same period, or from classical maps?",
+        "subreddit": "AskHistorians",
+        "evidence": "Why did European maps from the middle ages (Mappa Mundi?) differ so greatly from other maps of the same period, or from classical maps? (https://www.reddit.com/r/AskHistorians/comments/dwmg19)\n【turn1155reddit12】 [wordlim: 200] Published: 7.0 years ago; Crawled: 7.0 years ago; Source query: why were ancient maps inaccurate site:reddit.com/r/askhistorians/comments; In extremely casually looking into the history of world maps out of curiosity, I've found it seems that European w",
+        "decision": "selected_for_other_date"
+      },
+      {
+        "id": "f08bge",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/f08bge",
+        "title": "How inaccurate were maps before satelite imagery?",
+        "subreddit": "AskHistorians",
+        "evidence": "\nHow inaccurate were maps before satelite imagery? (https://www.reddit.com/r/AskHistorians/comments/f08bge)\n【turn1155reddit13】 [wordlim: 200] Published: 6.8 years ago; Crawled: 6.8 years ago; Source query: why were ancient maps inaccurate site:reddit.com/r/askhistorians/comments; Welcome to /r/AskHistorians. ... Understand that rule breaking comments get removed.\n[Friday February 07 2020] [+4 votes]\n\n\n[Friday February 07 2020] [+1 votes]\nWelcome to /r/AskHistorians. **Please ",
+        "decision": "historical_id_repeat"
+      },
+      {
+        "id": "18p71u2",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/18p71u2",
+        "title": "Why do so many old world maps depict Scandinavia so inaccurately?",
+        "subreddit": "AskHistorians",
+        "evidence": "\nWhy do so many old world maps depict Scandinavia so inaccurately? (https://www.reddit.com/r/AskHistorians/comments/18p71u2)\n【turn1155reddit14】 [wordlim: 200] Published: 2.9 years ago; Crawled: 2.9 years ago; Source query: why were ancient maps inaccurate site:reddit.com/r/askhistorians/comments; The Martellus world map makes Scandinavia this big blot with only a tiny sliver of Finland connecting it to the mainland, with a separate, thinner peninsula above it. ... It's strang",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "le2ub2",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/le2ub2/ancient_peoples_didnt_have_really_accurate_maps/",
+        "title": "Ancient peoples didn't have really accurate maps like we have today. How did large empires like Rome divide their lands into provinces without having an easy way to know where those boundaries were?",
+        "subreddit": "AskHistorians",
+        "evidence": "\nAncient peoples didn't have really accurate maps like we have today. How did large empires like Rome divide their lands into provinces without having an easy way to know where those boundaries were? (https://www.reddit.com/r/AskHistorians/comments/le2ub2/ancient_peoples_didnt_have_really_accurate_maps/)\n【turn1155reddit16】 [wordlim: 200] Published: 5.8 years ago; Source query: why were ancient maps inaccurate site:reddit.com/r/askhistorians/comments; How were the boundaries o",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1rdmxqf",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1rdmxqf/how_were_maps_made_with_any_certainty_without_the/",
+        "title": "How were maps made with any certainty without the benefit or aerial or above atmosphere photographs?",
+        "subreddit": "AskHistorians",
+        "evidence": "\nHow were maps made with any certainty without the benefit or aerial or above atmosphere photographs? (https://www.reddit.com/r/AskHistorians/comments/1rdmxqf/how_were_maps_made_with_any_certainty_without_the/)\n【turn1155reddit17】 [wordlim: 200] Published: 8 months ago; Source query: why were ancient maps inaccurate site:reddit.com/r/askhistorians/comments; How did cartographers or anyone using or creating maps know with any certainty the shape and/or scope of territory of a p",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1dxx0wz",
+        "url": "https://www.reddit.com/r/AskHistory/comments/1dxx0wz",
+        "title": "Why are 2000+ year old world maps from Ancient Greece so much more accurate than world maps from the Middle Ages?",
+        "subreddit": "AskHistory",
+        "evidence": "\nWhy are 2000+ year old world maps from Ancient Greece so much more accurate than world maps from the Middle Ages? (https://www.reddit.com/r/AskHistory/comments/1dxx0wz)\n【turn1155reddit18】 [wordlim: 200] Published: 2.4 years ago; Crawled: 2.3 years ago; Source query: why were ancient maps inaccurate site:reddit.com/r/askhistorians/comments;       I think op is asking if this map is older why wasn’t it in use? ... They were not supposed to be accurate. ... Those \"Ancient Greek",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1eojts3",
+        "url": "https://www.reddit.com/r/bikecommuting/comments/1eojts3",
+        "title": "Winter commuting tips",
+        "subreddit": "bikecommuting",
+        "evidence": "Winter commuting tips (https://www.reddit.com/r/bikecommuting/comments/1eojts3)\n【turn1148reddit12】 [wordlim: 200] Published: 2.3 years ago; Crawled: 2.1 years ago; Source query: commuting cycling tips winter route site:reddit.com/r/bikecommuting/comments; I'm in the great white north, but want to commute as close to year round as I can manage.\n\nThis is my first year commuting. What tips can anyone give me about ebiking through the winter.\n\nMy route is about 15km round trip. P",
+        "decision": "selected_for_other_date"
+      },
+      {
+        "id": "1fwwv8c",
+        "url": "https://www.reddit.com/r/bikecommuting/comments/1fwwv8c",
+        "title": "Cold af commutes are just around the corner. Here are some of things I’d like to improve this year for winter commuting. Any tips?",
+        "subreddit": "bikecommuting",
+        "evidence": "\nCold af commutes are just around the corner. Here are some of things I’d like to improve this year for winter commuting. Any tips? (https://www.reddit.com/r/bikecommuting/comments/1fwwv8c)\n【turn1148reddit13】 [wordlim: 200] Published: 2.1 years ago; Crawled: 2.1 years ago; Source query: commuting cycling tips winter route site:reddit.com/r/bikecommuting/comments; But once I bundle up for a winter commute, I can’t get to my watch. ... Seeing the time is super important for com",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1oy4ohm",
+        "url": "https://www.reddit.com/r/bikecommuting/comments/1oy4ohm/winter_advice_for_a_new_commuter_pls/",
+        "title": "Winter advice for a new commuter pls",
+        "subreddit": "bikecommuting",
+        "evidence": "\nWinter advice for a new commuter pls (https://www.reddit.com/r/bikecommuting/comments/1oy4ohm/winter_advice_for_a_new_commuter_pls/)\n【turn1148reddit14】 [wordlim: 200] Published: last year; Source query: commuting cycling tips winter route site:reddit.com/r/bikecommuting/comments; Starting next week i will finally be able to make the switch from commuting via car to using my bike. ... My route to and from work will be around 15 km each trip. So i was wondering if any experien",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1p449tq",
+        "url": "https://www.reddit.com/r/cycling/comments/1p449tq/best_tips_for_commuting_in_the_winter/",
+        "title": "best tips for commuting in the winter",
+        "subreddit": "cycling",
+        "evidence": "\nbest tips for commuting in the winter (https://www.reddit.com/r/cycling/comments/1p449tq/best_tips_for_commuting_in_the_winter/)\n【turn1148reddit15】 [wordlim: 200] Published: last year; Source query: commuting cycling tips winter route site:reddit.com/r/bikecommuting/comments; Hey all, I just wanted to ask if you guys have any tips to help with commuting to work by bike this winter? ... You need some proper thermal equipment: base layer long sleeves, merino wool socks, cyclin",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "16uuzwv",
+        "url": "https://www.reddit.com/r/bikecommuting/comments/16uuzwv/why_dont_you_commute_in_the_winter/",
+        "title": "Why don't you commute in the winter?",
+        "subreddit": "bikecommuting",
+        "evidence": "\nWhy don't you commute in the winter? (https://www.reddit.com/r/bikecommuting/comments/16uuzwv/why_dont_you_commute_in_the_winter/)\n【turn1148reddit16】 [wordlim: 200] Published: 3.1 years ago; Source query: commuting cycling tips winter route site:reddit.com/r/bikecommuting/comments; I'm working on a video that will cover reasons people typically skip bike commuting in the winter and I'd love to know from those who stop riding in late fall, why you don't ride in the winter.\n",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1pz0ma8",
+        "url": "https://www.reddit.com/r/ebikes/comments/1pz0ma8/1_year_of_commutes_lets_hear_some_tips/",
+        "title": "1 year of commutes - let’s hear some tips",
+        "subreddit": "ebikes",
+        "evidence": "\n1 year of commutes - let’s hear some tips (https://www.reddit.com/r/ebikes/comments/1pz0ma8/1_year_of_commutes_lets_hear_some_tips/)\n【turn1148reddit18】 [wordlim: 200] Published: 10 months ago; Source query: commuting cycling tips winter route site:reddit.com/r/bikecommuting/comments; Days the weather shut down the bike: 2\n\nFirst off, very mild winter thus far, but lowest temp has been 10 degrees Fahrenheit. currently have some snow and residual ice spots.\n",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1t4rlur",
+        "url": "https://www.reddit.com/r/Archivists/comments/1t4rlur/advice_on_processing_and_archiving_unregistered/",
+        "title": "Advice on processing and archiving unregistered photos in a museum",
+        "subreddit": "Archivists",
+        "evidence": "Advice on processing and archiving unregistered photos in a museum (https://www.reddit.com/r/Archivists/comments/1t4rlur/advice_on_processing_and_archiving_unregistered/)\n【turn1154reddit12】 [wordlim: 200] Published: 6 months ago; Source query: how do museums preserve photographs site:reddit.com/r/askhistorians/comments; My museum is proud of its photography collection. ... A few weeks ago, I discovered another drawer filled with unprocessed photographs.\n[Tuesday May 05 2026] ",
+        "decision": "selected_for_other_date"
+      },
+      {
+        "id": "ki5qz7",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/ki5qz7",
+        "title": "Most museum and art gallery pieces have extreme display conditions (ie no photos with a flash, humidity and temp control) to preserve them long term. And yet for a long time it used to be to normal to smoke EVERYWHERE , use flash photography etc , how are most artifacts still intact?",
+        "subreddit": "AskHistorians",
+        "evidence": "\nMost museum and art gallery pieces have extreme display conditions (ie no photos with a flash, humidity and temp control) to preserve them long term. And yet for a long time it used to be to normal to smoke EVERYWHERE , use flash photography etc , how are most artifacts still intact? (https://www.reddit.com/r/AskHistorians/comments/ki5qz7)\n【turn1154reddit13】 [wordlim: 200] Published: 5.9 years ago; Crawled: 5.8 years ago; Source query: how do museums preserve photographs sit",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1lllqf2",
+        "url": "https://www.reddit.com/r/AskPhotography/comments/1lllqf2",
+        "title": "How Do You Photograph Museums Without Losing the Atmosphere?",
+        "subreddit": "AskPhotography",
+        "evidence": "\nHow Do You Photograph Museums Without Losing the Atmosphere? (https://www.reddit.com/r/AskPhotography/comments/1lllqf2)\n【turn1154reddit14】 [wordlim: 200] Published: 1.4 years ago; Crawled: 1.4 years ago; Source query: how do museums preserve photographs site:reddit.com/r/askhistorians/comments; I want to preserve not just the exhibits but the atmosphere—the quiet, the curiosity, the way the light falls on a sculpture or painting. I’d love to hear how other photographers appr",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1p058g0",
+        "url": "https://www.reddit.com/r/MuseumPros/comments/1p058g0/how_to_care_for_old_photos/",
+        "title": "How to care for old photos?",
+        "subreddit": "MuseumPros",
+        "evidence": "\nHow to care for old photos? (https://www.reddit.com/r/MuseumPros/comments/1p058g0/how_to_care_for_old_photos/)\n【turn1154reddit16】 [wordlim: 200] Published: last year; Source query: how do museums preserve photographs site:reddit.com/r/askhistorians/comments; As an average person with no access to the fancy stuff museums have for photos, what is everyone’s recommendations to keep them as safe as possible? ... I recommend the info on this page as a good starting point - scroll",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1rr6jnm",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1rr6jnm/where_to_donate_nazi_photographs/",
+        "title": "Where to donate Nazi photographs?",
+        "subreddit": "AskHistorians",
+        "evidence": "\nWhere to donate Nazi photographs? (https://www.reddit.com/r/AskHistorians/comments/1rr6jnm/where_to_donate_nazi_photographs/)\n【turn1154reddit17】 [wordlim: 200] Published: 8 months ago; Source query: how do museums preserve photographs site:reddit.com/r/askhistorians/comments; photo albums containing many black and white photographs that his father brought back from the war. ... Welcome to /r/AskHistorians.\n",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "co3fzs",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/co3fzs",
+        "title": "How do museums sometimes make \"discoveries\" of items that are found in their own collections?",
+        "subreddit": "AskHistorians",
+        "evidence": "\nHow do museums sometimes make \"discoveries\" of items that are found in their own collections? (https://www.reddit.com/r/AskHistorians/comments/co3fzs)\n【turn1154reddit18】 [wordlim: 200] Published: 7.3 years ago; Crawled: 7.3 years ago; Source query: how do museums preserve photographs site:reddit.com/r/askhistorians/comments; Welcome to /r/AskHistorians. ... A lot of museums are themselves very long-running institutions which have undergone changes in personnel, management, o",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1ogk6wz",
+        "url": "https://www.reddit.com/r/civilengineering/comments/1ogk6wz",
+        "title": "Hello Stormwater Engineers. Questions re: combined and separated and partially separated sewers",
+        "subreddit": "civilengineering",
+        "evidence": "Hello Stormwater Engineers. Questions re: combined and separated and partially separated sewers (https://www.reddit.com/r/civilengineering/comments/1ogk6wz)\n【turn1149reddit12】 [wordlim: 200] Published: last year; Crawled: last year; Source query: why do cities have combined sewers site:reddit.com/r/urbanplanning/comments; Does the fact that there are two sets of pipes there make complete sewer separation easier? ... This is an urban area that discharges untreated combined sew",
+        "decision": "selected_for_other_date"
+      },
+      {
+        "id": "jbiq9f",
+        "url": "https://www.reddit.com/r/HomeImprovement/comments/jbiq9f",
+        "title": "Downspout to sewer cleanout",
+        "subreddit": "HomeImprovement",
+        "evidence": "\nDownspout to sewer cleanout (https://www.reddit.com/r/HomeImprovement/comments/jbiq9f)\n【turn1149reddit14】 [wordlim: 200] Published: 6.1 years ago; Source query: why do cities have combined sewers site:reddit.com/r/urbanplanning/comments; In cities with very old infrastructure, the sewers are typically \"combined\", like in Philadelphia where I live. most residences are still required to have the gutter leaders connected to the sewer. ... All rowhouse gutter downspouts go into ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1mp7qdr",
+        "url": "https://www.reddit.com/r/milwaukee/comments/1mp7qdr",
+        "title": "Understanding Milwaukee County Sanitation systems",
+        "subreddit": "milwaukee",
+        "evidence": "\nUnderstanding Milwaukee County Sanitation systems (https://www.reddit.com/r/milwaukee/comments/1mp7qdr)\n【turn1149reddit15】 [wordlim: 200] Published: 1.2 years ago; Crawled: 1.2 years ago; Source query: why do cities have combined sewers site:reddit.com/r/urbanplanning/comments; From my short stint in researching this, i learned that many municipalities actually have separate storm drains and sanitary sewers. ... So why would sanitary sewer systems be backing up during a stor",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "104j8r8",
+        "url": "https://www.reddit.com/r/Wastewater/comments/104j8r8",
+        "title": "Combined Sewer Systems",
+        "subreddit": "Wastewater",
+        "evidence": "\nCombined Sewer Systems (https://www.reddit.com/r/Wastewater/comments/104j8r8)\n【turn1149reddit16】 [wordlim: 200] Published: 3.9 years ago; Crawled: 1.3 years ago; Source query: why do cities have combined sewers site:reddit.com/r/urbanplanning/comments; I've been reading in other reddits about San Francisco's combined sewer program. ... My question is, are storm drains connected to the sewer line the same way a house has a lateral to the line, or is it a separate line that le",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "comaje",
+        "url": "https://www.reddit.com/r/Wastewater/comments/comaje",
+        "title": "The joy of combined sewer plants...",
+        "subreddit": "Wastewater",
+        "evidence": "\nThe joy of combined sewer plants... (https://www.reddit.com/r/Wastewater/comments/comaje)\n【turn1149reddit17】 [wordlim: 200] Published: 7.3 years ago; Crawled: 7.2 years ago; Source query: why do cities have combined sewers site:reddit.com/r/urbanplanning/comments;   Yeah we have that in Nashville. The more modern parts of the city are separate but the rest, downtown, all the old parts where everyone lives, all combined.\n  Chattanooga is the only other city in Tennessee with ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1s4dd7u",
+        "url": "https://www.reddit.com/r/Wastewater/comments/1s4dd7u/question_about_sanitary_fraction_analysis/",
+        "title": "question about Sanitary Fraction Analysis",
+        "subreddit": "Wastewater",
+        "evidence": "\nquestion about Sanitary Fraction Analysis (https://www.reddit.com/r/Wastewater/comments/1s4dd7u/question_about_sanitary_fraction_analysis/)\n【turn1149reddit18】 [wordlim: 200] Published: 7 months ago; Source query: why do cities have combined sewers site:reddit.com/r/urbanplanning/comments; Very old sewer systems commonly interconnect with storm drainage systems, hence the term combined sewer.\n",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "vubktz",
+        "url": "https://www.reddit.com/r/AskEconomics/comments/vubktz",
+        "title": "How is quality/performance adjusted when calculating inflation?",
+        "subreddit": "AskEconomics",
+        "evidence": "\nHow is quality/performance adjusted when calculating inflation? (https://www.reddit.com/r/AskEconomics/comments/vubktz)\n【turn1153reddit13】 [wordlim: 200] Published: 4.4 years ago; Crawled: 4.0 years ago; Source query: how do economic statisticians adjust inflation quality site:reddit.com/r/askeconomics/comments; But how does it work if the economy is dominated by tech? ... Did these 2 world have the same inflation? ... This is part of our policy to maintain a high quality of",
+        "decision": "selected_for_other_date"
+      },
+      {
+        "id": "1ivj2v1",
+        "url": "https://www.reddit.com/r/AskEconomics/comments/1ivj2v1",
+        "title": "Do economists account for reduction in ‘quality’ when calculating inflation?",
+        "subreddit": "AskEconomics",
+        "evidence": "\nDo economists account for reduction in ‘quality’ when calculating inflation? (https://www.reddit.com/r/AskEconomics/comments/1ivj2v1)\n【turn1153reddit14】 [wordlim: 200] Published: 1.7 years ago; Crawled: 1.6 years ago; Source query: how do economic statisticians adjust inflation quality site:reddit.com/r/askeconomics/comments; Calculating the change in quality seems pretty unquantifiable, but regardless, it is essentially a reduction in purchasing power, which is what inflati",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1bn4l6a",
+        "url": "https://www.reddit.com/r/AskEconomics/comments/1bn4l6a",
+        "title": "How is inflation calculated when quality of goods also increases?",
+        "subreddit": "AskEconomics",
+        "evidence": "\nHow is inflation calculated when quality of goods also increases? (https://www.reddit.com/r/AskEconomics/comments/1bn4l6a)\n【turn1153reddit15】 [wordlim: 200] Published: 2.6 years ago; Crawled: 2.6 years ago; Source query: how do economic statisticians adjust inflation quality site:reddit.com/r/askeconomics/comments; For example: let's say latest model of iPhone is 30% costlier, some should get attributed to inflation and some should actually contribute to real GDP increase. .",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1oat0rq",
+        "url": "https://www.reddit.com/r/AskEconomics/comments/1oat0rq/how_is_inflation_calculated_whenever_i_try_and/",
+        "title": "How is inflation calculated? Whenever I try and see how expensive a product from 10-20 years ago would be today, it’s almost always below the current price. How can so many prices grow faster than inflation if that’s literally what inflation measures?",
+        "subreddit": "AskEconomics",
+        "evidence": "\nHow is inflation calculated? Whenever I try and see how expensive a product from 10-20 years ago would be today, it’s almost always below the current price. How can so many prices grow faster than inflation if that’s literally what inflation measures? (https://www.reddit.com/r/AskEconomics/comments/1oat0rq/how_is_inflation_calculated_whenever_i_try_and/)\n【turn1153reddit16】 [wordlim: 200] Published: 1.1 years ago; Source query: how do economic statisticians adjust inflation q",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "10g8kky",
+        "url": "https://www.reddit.com/r/AskEconomics/comments/10g8kky",
+        "title": "When calculating Real GDP, how do they calculate the price of things that did not exist in the base year?",
+        "subreddit": "AskEconomics",
+        "evidence": "\nWhen calculating Real GDP, how do they calculate the price of things that did not exist in the base year? (https://www.reddit.com/r/AskEconomics/comments/10g8kky)\n【turn1153reddit17】 [wordlim: 200] Published: 3.8 years ago; Crawled: 3.8 years ago; Source query: how do economic statisticians adjust inflation quality site:reddit.com/r/askeconomics/comments; As the title says. ... How do they adjust the price for inflation if it didn't exist in the base year? ... This is part of",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "102644z",
+        "url": "https://www.reddit.com/r/AskEconomics/comments/102644z",
+        "title": "If a real GDP is a nominal GDP adjusted for inflation, what if part of the inflation is due to a quality increase of the goods sold? Doesn’t this factor get ignored even though quality improvement is an economic growth too?",
+        "subreddit": "AskEconomics",
+        "evidence": "\nIf a real GDP is a nominal GDP adjusted for inflation, what if part of the inflation is due to a quality increase of the goods sold? Doesn’t this factor get ignored even though quality improvement is an economic growth too? (https://www.reddit.com/r/AskEconomics/comments/102644z)\n【turn1153reddit18】 [wordlim: 200] Published: 3.9 years ago; Crawled: 3.8 years ago; Source query: how do economic statisticians adjust inflation quality site:reddit.com/r/askeconomics/comments; Plea",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "9anci4",
+        "url": "https://www.reddit.com/r/books/comments/9anci4/reading_science_texts_for_fun/",
+        "title": "Reading Science Texts for Fun",
+        "subreddit": "books",
+        "evidence": "Reading Science Texts for Fun (https://www.reddit.com/r/books/comments/9anci4/reading_science_texts_for_fun/)\n【turn1150reddit12】 [wordlim: 200] Published: 8.2 years ago; Source query: reading science textbooks for fun site:reddit.com/r/books/comments; Does anyone on here enjoy reading Science texts for pure enjoyment? ... The sort of texts I'm talking about here are less of a Popular Science bent and more of a Textbook about a certain subject (for example: \"The Insect Societi",
+        "decision": "selected_for_other_date"
+      },
+      {
+        "id": "1wlzssj",
+        "url": "https://www.reddit.com/r/booksuggestions/comments/1wlzssj/books_that_combine_casual_reading_and_education/",
+        "title": "Books that combine casual reading and education?",
+        "subreddit": "booksuggestions",
+        "evidence": "\nBooks that combine casual reading and education? (https://www.reddit.com/r/booksuggestions/comments/1wlzssj/books_that_combine_casual_reading_and_education/)\n【turn1150reddit14】 [wordlim: 200] Published: last month; Source query: reading science textbooks for fun site:reddit.com/r/books/comments; I’m in school for biology and wondering if they’re books or authors that combine education with casual reading? Textbooks are nice and full of knowledge but I want something easy to ",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1tbhwjx",
+        "url": "https://www.reddit.com/r/suggestmeabook/comments/1tbhwjx/first_time_reader_looking_for_engaging_science/",
+        "title": "First time reader looking for engaging science books",
+        "subreddit": "suggestmeabook",
+        "evidence": "\nFirst time reader looking for engaging science books (https://www.reddit.com/r/suggestmeabook/comments/1tbhwjx/first_time_reader_looking_for_engaging_science/)\n【turn1150reddit15】 [wordlim: 200] Published: 6 months ago; Source query: reading science textbooks for fun site:reddit.com/r/books/comments; Hi everyone, I have never actually read a book for fun before, but I’m ready to start. ... Yes it's science fiction.\n[Tuesday May 12 2026] [+7 votes]\nHi everyone, I have never ac",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "21p0p7",
+        "url": "https://www.reddit.com/r/books/comments/21p0p7/what_textbook_is_so_interesting_youd_read_it_for/",
+        "title": "What textbook is so interesting you'd read it for fun? And why?",
+        "subreddit": "books",
+        "evidence": "\nWhat textbook is so interesting you'd read it for fun? And why? (https://www.reddit.com/r/books/comments/21p0p7/what_textbook_is_so_interesting_youd_read_it_for/)\n【turn1150reddit16】 [wordlim: 200] Published: 12.6 years ago; Source query: reading science textbooks for fun site:reddit.com/r/books/comments; I can't be the only one that enjoys reading textbooks. My current book isn't a textbook exactly. ... I am reading principles of neural science, and feynmann books.\n[Saturday",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1k94djj",
+        "url": "https://www.reddit.com/r/booksuggestions/comments/1k94djj",
+        "title": "Academic books/textbooks to read for fun",
+        "subreddit": "booksuggestions",
+        "evidence": "\nAcademic books/textbooks to read for fun (https://www.reddit.com/r/booksuggestions/comments/1k94djj)\n【turn1150reddit17】 [wordlim: 200] Published: 1.5 years ago; Crawled: 1.5 years ago; Source query: reading science textbooks for fun site:reddit.com/r/books/comments; Maybe a weird suggestion but I was thinking the other day that I kind of like the idea of finding a few interesting academic books or textbooks on completely random subjects that I know nothing about and just div",
+        "decision": "not_selected_no_final_verification"
+      },
+      {
+        "id": "1bl5ege",
+        "url": "https://www.reddit.com/r/Teachers/comments/1bl5ege",
+        "title": "Science teachers: do you still use textbooks and assign reading’s from them?",
+        "subreddit": "Teachers",
+        "evidence": "\nScience teachers: do you still use textbooks and assign reading’s from them? (https://www.reddit.com/r/Teachers/comments/1bl5ege)\n【turn1150reddit18】 [wordlim: 200] Published: 2.6 years ago; Crawled: 2.3 years ago; Source query: reading science textbooks for fun site:reddit.com/r/books/comments; I’m a textbook nerd because I was the kid that read them for fun. As part of combatting tech *but also* as a way of trying to incorporate more reading and writing skills and general l",
+        "decision": "not_selected_no_final_verification"
+      }
+    ]
+  },
+  "news_source_evidence": [
+    {
+      "title": "COP31 把甲烷和废弃物纳入领导人讨论",
+      "event": "2026-11-12（安塔利亚峰会发言，13 日早报收录）",
+      "sources": [
+        "https://unfccc.int/news/super-pollutants-are-a-supersize-opportunity-methane-cuts-provide-rapid-results-un-climate-chief-at"
+      ]
+    },
+    {
+      "title": "欧盟发布纺织废物流量数据，暴露回收统计口径差距",
+      "event": "2026-11-12（Eurostat 发布 2024 年统计，13 日早报收录）",
+      "sources": [
+        "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261112-1"
+      ]
+    },
+    {
+      "title": "酸性水电解催化研究提出用相邻位点缓冲过氧化",
+      "event": "2026-11-12（论文发表，13 日早报收录）",
+      "sources": [
+        "https://www.nature.com/articles/s41563-026-02783-4"
+      ]
+    }
+  ],
+  "diversity": {
+    "youtube_wildcard": 1,
+    "reddit_wildcard": 2,
+    "topic_review": "each topic distinct within its issue",
+    "creator_reuse_across_dates": "Some publishers recur; selections differ in topic and work.",
+    "reddit_search_only": true
+  },
+  "bundle": {
+    "bundle_sha256": "6936b82a5573f145e87ea7fed7a1db71e9e2082cf7de6ddae627b8c9fc9fece0",
+    "plan_sha256": "28c1468027104133a71406ac5242b1435291df059c85206abab00c79c70bada5",
+    "prepared_commit": "b784f423f774d0a9a843e5cbff967e40d034fc16"
+  },
+  "publication_commit": "f66aad0dedf01bfdde97de3fb3e1d6d53986d8fa",
+  "readbacks": {
+    "News/Daily/2026-11-13.md": "1138068f1ae6c50befdf157d4ac212cb0d7059cf",
+    "Resources/YouTube/Daily/2026-11-13.md": "fd1e50d2e32a620e7f5efb44ec27373236a597c6",
+    "Resources/Reddit/Daily/2026-11-13.md": "0fbf5d7373c76081de5b9f880b61e5ef1c38b34c",
+    ".recommendation/history/youtube.jsonl": "d43eb54886201fb489763237cc9e87796489bdf4",
+    ".recommendation/history/reddit.jsonl": "ae02d41d1cb2e92f43fbf1f75bfc513a181217ce"
+  },
+  "checks": {
+    "local_integrity": "passed",
+    "immutable_bundles": "passed",
+    "baseline_history_append": "passed",
+    "exact_readback": "passed",
+    "ci": {
+      "status": "success",
+      "commit": "d3c00baf46b5271148240a44c630bc6a3e0919ea",
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/43361762262"
+    },
+    "source_scope": "Publisher pages with original embeds and content; complete video playback unverified. Reddit assessed from search under user waiver.",
+    "website_sync": "not_verified"
+  }
+}
