@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-14",
+  "operation_id": "english:2026-11-14",
+  "attempt_id": "20261114T000832Z-prepared-01",
+  "recorded_at_utc": "2026-11-14T00:08:32Z",
+  "stage": "prepared",
+  "transaction_path": ".recommendation/transactions/english/2026-11-14.json",
+  "transaction_creation_commit": "dacec57d86e9af01e5248e6dc3036270dfcd37c4",
+  "transaction_blob_sha": "efcbd4bd36cd3c484a2cd2c1714083d114bcbec3",
+  "bundle_sha256": "e413e887f2a6d2f93cc7d8c284c1b40ab4cd73400965f42d468e88afa9947cba",
+  "plan_sha256": "e42339e15b8b535867a18f107e91fadb9a86c179226b6d68e721eb4421576344",
+  "readback_exact": true,
+  "errors": []
+}
