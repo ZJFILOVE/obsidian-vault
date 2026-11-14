@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-14",
+  "operation_id": "english:2026-11-14",
+  "attempt_id": "20261114T001037Z-stage1-01",
+  "recorded_at_utc": "2026-11-14T00:10:37Z",
+  "stage": "stage1",
+  "status": "completed",
+  "bundle_sha256": "e413e887f2a6d2f93cc7d8c284c1b40ab4cd73400965f42d468e88afa9947cba",
+  "parent_commit": "25f2d750ca2a3b093b58a39667015676e5fae536",
+  "base_tree_sha": "620fb75e728c6e7bb13a12493677c5155239b847",
+  "publication_tree_sha": "7a11259274864e9fb3fe0094e5939b3ce587dd86",
+  "publication_commit": "c6214b410f3bed094d6367003238c0a3046e9544",
+  "expected_head_update": true,
+  "force": false,
+  "readbacks": {
+    "50-courses/English/Weekly/TV/2026-11-14.md": {
+      "sha": "274970d4c9051592cd2f76a4da0ecacf6473221c",
+      "exact": true
+    },
+    ".recommendation/history/english.jsonl": {
+      "sha": "1ab1c35898cdbf16e5318a8bf368e84ea67f7567",
+      "exact": true,
+      "rows": 68,
+      "exact_once_registration": true
+    },
+    ".recommendation/transactions/english/2026-11-14.json": {
+      "sha": "efcbd4bd36cd3c484a2cd2c1714083d114bcbec3",
+      "exact": true
+    }
+  },
+  "planner_before": "ready_to_resume",
+  "planner_after": "artifacts_match",
+  "errors": []
+}
