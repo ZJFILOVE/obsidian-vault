@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "project": "journal",
+  "date": "2026-11-14",
+  "operation_id": "journal:2026-11-14",
+  "phase": "published",
+  "status": "passed_postpublication_checks",
+  "completed_at_utc": "2026-11-14T00:11:48Z",
+  "business_timezone": "Asia/Shanghai",
+  "theme": "低样本蛋白质工程：主动学习、组合库与天然序列先验",
+  "papers": [
+    {
+      "title": "Navigating the protein fitness landscape with Gaussian processes",
+      "doi": "10.1073/pnas.1215251110",
+      "authors": "Philip A. Romero et al.",
+      "year": 2013,
+      "journal": "Proceedings of the National Academy of Sciences",
+      "deep_read": false
+    },
+    {
+      "title": "Machine learning-assisted directed protein evolution with combinatorial libraries",
+      "doi": "10.1073/pnas.1901979116",
+      "authors": "Zachary Wu et al.",
+      "year": 2019,
+      "journal": "Proceedings of the National Academy of Sciences",
+      "deep_read": true
+    },
+    {
+      "title": "Low-N protein engineering with data-efficient deep learning",
+      "doi": "10.1038/s41592-021-01100-y",
+      "authors": "Surojit Biswas et al.",
+      "year": 2021,
+      "journal": "Nature Methods",
+      "deep_read": false
+    }
+  ],
+  "selection": {
+    "candidate_count": 4,
+    "selected_count": 3,
+    "rejected_count": 1,
+    "selected_resource_ids": [
+      "doi:10.1073/pnas.1215251110",
+      "doi:10.1073/pnas.1901979116",
+      "doi:10.1038/s41592-021-01100-y"
+    ],
+    "rejected_candidates": [
+      {
+        "doi": "10.1016/j.cels.2021.07.008",
+        "title": "Informed training set design enables efficient machine learning-assisted directed protein evolution",
+        "decision": "rejected",
+        "reason": "High-quality adjacent study, but it primarily extends the same GB1 simulation framework; retained for a later issue focused on hole-filled landscapes and training-set design so today's three-paper line keeps two prospective wet-lab demonstrations."
+      }
+    ],
+    "quality_padding": "not_used",
+    "exact_duplicates": 0,
+    "semantic_duplicates": 0,
+    "permanent_history_dedup": "passed",
+    "prior_prepared_reservation_dedup": "passed_for_all_existing_journal_transactions_2026-11-02_through_2026-11-13",
+    "all_transaction_tree": "complete recursive repository tree inspected; non-Journal projects reserve non-DOI resource types",
+    "recent_topic_review": "passed; reviewed 2026-11-02 through 2026-11-13 and selected a distinct experimental-design/low-N sequence-function question"
+  },
+  "sources": [
+    {
+      "doi": "10.1073/pnas.1215251110",
+      "identity_sources": [
+        "PubMed:PMID 23277561",
+        "PMC:PMC3549130",
+        "PNAS published PDF hosted by the authors' Caltech group",
+        "Crossmark current-status record"
+      ],
+      "reading_scope": "Published PDF main text opened; abstract, methods framework, main results and discussion read; SI not opened",
+      "publication_status": "peer-reviewed published; Crossmark current"
+    },
+    {
+      "doi": "10.1073/pnas.1901979116",
+      "identity_sources": [
+        "PubMed:PMID 30979809",
+        "PMC:PMC6500146",
+        "formal correction PubMed:PMID 31888994 / PMC:PMC6955331"
+      ],
+      "reading_scope": "PMC HTML full text including GB1 simulations, Rma NOD experiments, Fig. 1–4 and Table 1–2; formal correction opened; SI PDF not opened",
+      "publication_status": "peer-reviewed published with formal erratum; not retracted; corrected values used"
+    },
+    {
+      "doi": "10.1038/s41592-021-01100-y",
+      "identity_sources": [
+        "PubMed:PMID 33828272",
+        "Nature Methods publisher record",
+        "MIT DSpace submitted-version record"
+      ],
+      "reading_scope": "Nature Methods landing page and PubMed bibliography/abstract opened; MIT record checked; PDF returned HTTP 429; main text/SI not read",
+      "publication_status": "peer-reviewed published"
+    }
+  ],
+  "bundle": {
+    "path": ".recommendation/transactions/journal/2026-11-14.json",
+    "bundle_sha256": "a12a02b79dbc73dbe470b0a44d41b42e541d835f382fad09aaf546e73af022c9",
+    "plan_sha256": "9cdbbbf30fe0180d7759acad1dc09bc7881fbeadda0ef3c64f4204812483c5ab",
+    "prepared_creation_commit": "6f6366459c9b0a90876e61884f5e075f4cd0d734",
+    "prepared_parent_commit": "dacec57d86e9af01e5248e6dc3036270dfcd37c4",
+    "prepared_blob_sha": "6e20463c9a44092acb292493e58304437a58e5e0",
+    "exact_prepared_readback": true
+  },
+  "publication": {
+    "commit_sha": "25f2d750ca2a3b093b58a39667015676e5fae536",
+    "parent_commit": "427a62d58f548a5881a5022457ac1c1f54c6007f",
+    "tree_sha": "620fb75e728c6e7bb13a12493677c5155239b847",
+    "force_push": false,
+    "concurrent_commit_reconciled": "English PREPARED commit 427a62d58f548a5881a5022457ac1c1f54c6007f was read and retained before the Journal publication commit",
+    "readbacks": {
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/2026-11-14.md": {
+        "status": "ok",
+        "sha": "5df106c78c8bfbf7d979047c40038deada8410ce",
+        "exact_payload": true
+      },
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/Index.md": {
+        "status": "ok",
+        "sha": "3ec4caee5a04b903f4087be403f3722ade2d4950",
+        "exact_payload": true
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/history/journal.jsonl": {
+        "status": "ok",
+        "sha": "4781225984d700f2e81331775ee248b0ecda7ce0",
+        "exact_payload": true
+      }
+    },
+    "planner_after_readback": "artifacts_match",
+    "note_url": "https://github.com/ZJFILOVE/obsidian-vault/blob/main/00-inbox/Journal/2026-11-14.md"
+  },
+  "checks": {
+    "bibliography_identity": "passed",
+    "publication_status": "peer_reviewed_published_all_three",
+    "correction_retraction_status": "Romero Crossmark current; Wu formal erratum identified and corrected values used; no retraction found; no matching correction/retraction notice found for Biswas at check time",
+    "evidence_layer_separation": "passed; observations, author interpretation and reviewer_synthesis separated",
+    "numeric_context_and_construct_conditions": "passed; T50 distinguished from Tm, simulated GB1 landscape distinguished from prospective Rma NOD wet lab, ee distinguished from total activity",
+    "experiment_model_distinction": "passed; cross-validation, replay simulation, in-silico screening and physically tested variants kept distinct",
+    "note_structure": {
+      "paper_count": 3,
+      "reading_order": true,
+      "deep_read_marked": true,
+      "reading_scope_each": true,
+      "pending_information_each": true
+    },
+    "markdown": {
+      "bold_pairs": "passed",
+      "bold_label_spacing": "passed",
+      "blank_line_structure": "passed",
+      "renderer": "pandoc_markdown_to_html",
+      "raw_double_asterisk_in_rendered_html": 0,
+      "strong_tags": 22,
+      "visual_browser_screenshot": "not_performed"
+    },
+    "local_journal_validator": {
+      "status": "passed",
+      "days": 13,
+      "papers": 39,
+      "append_only_against_git_base": "not_run_in_partial_local_checkout"
+    },
+    "local_bundle_validator": {
+      "status": "passed",
+      "bundle_sha256": "a12a02b79dbc73dbe470b0a44d41b42e541d835f382fad09aaf546e73af022c9"
+    },
+    "exact_repository_ci": {
+      "run_id": 43532387374,
+      "tested_head_sha": "95ec1f71eb0437a8c1dd26c516a8de5b39114c4b",
+      "journal_publication_commit_is_ancestor": true,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/43532387374",
+      "scope": "Recommendation integrity (read-only), including Journal validation, global integrity, append-only history comparison and immutable publication-bundle audit"
+    },
+    "user_notes_preserved": true,
+    "post_write_complete_readback": true
+  },
+  "scope_notice": "Repository validators certify structure, permanent-history append-only behavior and frozen-bundle integrity; literature content QA is based on the recorded source reading and is not certified by CI.",
+  "device_sync_tested": false
+}
