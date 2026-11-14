@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-14",
+  "operation_id": "english:2026-11-14",
+  "status": "passed_current_publication",
+  "recorded_at_utc": "2026-11-14T00:13:50Z",
+  "selection": {
+    "title": "Poker Face",
+    "source_url": "https://www.peacocktv.com/stream-tv/poker-face",
+    "source": "Peacock / NBCUniversal",
+    "component": "weekly-tv",
+    "candidate_pool_size": 8,
+    "candidates": [
+      {
+        "title": "Poker Face",
+        "url": "https://www.peacocktv.com/stream-tv/poker-face",
+        "official_owner": "Peacock / NBCUniversal",
+        "verification": "direct_official_page_opened_2026-11-14",
+        "observations": [
+          "Peacock Original",
+          "Comedy / mystery-of-the-week",
+          "2 seasons and 22 episodes",
+          "2023, TV-MA",
+          "created by Rian Johnson",
+          "Natasha Lyonne identified as Charlie Cale",
+          "official premise and episode catalogue visible"
+        ],
+        "scores": {
+          "quality": 9.2,
+          "usefulness": 9.2,
+          "curiosity": 9.3,
+          "novelty": 9,
+          "fit": 9
+        },
+        "weighted_score": 9.17,
+        "decision": "selected",
+        "reason": "Strong entertainment value, highly varied American spoken registers, a reusable claim-versus-evidence listening frame, and an episodic entry point distinct from last week's philosophical ensemble comedy."
+      },
+      {
+        "title": "Severance",
+        "url": "https://tv.apple.com/us/show/severance/umc.cmc.1srk2goyh2q2zdxcx605w8vtx",
+        "official_owner": "Apple TV",
+        "verification": "direct_official_page",
+        "observations": [
+          "Thriller / mystery",
+          "2022",
+          "57-minute listing",
+          "official premise, cast and US origin visible"
+        ],
+        "scores": {
+          "quality": 9.7,
+          "usefulness": 8.7,
+          "curiosity": 9.6,
+          "novelty": 8.9,
+          "fit": 8.4
+        },
+        "weighted_score": 9.15,
+        "decision": "rejected_final_cut",
+        "reason": "Exceptional design and conceptual dialogue, but its long episodes, controlled corporate register and sustained mystery are a less forgiving Saturday start."
+      },
+      {
+        "title": "Only Murders in the Building",
+        "url": "https://www.hulu.com/series/only-murders-in-the-building-ef31c7e1-cd0f-4e07-848d-1cbfedb50ddf",
+        "official_owner": "Hulu",
+        "verification": "direct_official_page",
+        "observations": [
+          "Comedy TV series",
+          "2021",
+          "official premise and creators visible",
+          "Steve Martin, Martin Short and Selena Gomez identified",
+          "episode catalogue visible"
+        ],
+        "scores": {
+          "quality": 9.1,
+          "usefulness": 9,
+          "curiosity": 8.8,
+          "novelty": 8.2,
+          "fit": 8.9
+        },
+        "weighted_score": 8.86,
+        "decision": "rejected_final_cut",
+        "reason": "Accessible intergenerational dialogue, but it overlaps with the selected cozy-mystery space and offers less regional and occupational variety."
+      },
+      {
+        "title": "Shrinking",
+        "url": "https://tv.apple.com/us/show/shrinking/umc.cmc.apzybj6eqf6pzccd97kev7bs",
+        "official_owner": "Apple TV",
+        "verification": "direct_official_page",
+        "observations": [
+          "US comedy",
+          "2023",
+          "TV-MA",
+          "official grief, parenting and therapy premise visible",
+          "original English audio listed"
+        ],
+        "scores": {
+          "quality": 9,
+          "usefulness": 9.2,
+          "curiosity": 8.6,
+          "novelty": 8.4,
+          "fit": 9.1
+        },
+        "weighted_score": 8.88,
+        "decision": "rejected_recent_similarity",
+        "reason": "Excellent emotionally direct dialogue, but its self-improvement ensemble comedy is closer to last week's The Good Place than today's selected evidence-and-inference focus."
+      },
+      {
+        "title": "The Chair",
+        "url": "https://www.netflix.com/title/81206259",
+        "official_owner": "Netflix",
+        "verification": "direct_official_page",
+        "observations": [
+          "2021",
+          "six episodes",
+          "comedy",
+          "university English-department premise",
+          "Sandra Oh, Jay Duplass and Holland Taylor identified"
+        ],
+        "scores": {
+          "quality": 8.2,
+          "usefulness": 8.9,
+          "curiosity": 8.3,
+          "novelty": 8.7,
+          "fit": 8.8
+        },
+        "weighted_score": 8.55,
+        "decision": "rejected_final_cut",
+        "reason": "Useful academic and institutional English, though its campus-specific context and narrower tonal range offer less entertainment and speech variety."
+      },
+      {
+        "title": "Jury Duty",
+        "url": "https://www.primevideo.com/detail/0PHVBBBNLOS0UDCDQH3FI3YSL4",
+        "official_owner": "Prime Video / Amazon Studios",
+        "verification": "direct_official_page",
+        "observations": [
+          "2023 comedy",
+          "TV-14",
+          "eight Season 1 episodes listed",
+          "unsuspecting-person scripted-scenario premise visible",
+          "Amazon Studios identified"
+        ],
+        "scores": {
+          "quality": 9,
+          "usefulness": 8.7,
+          "curiosity": 9.4,
+          "novelty": 9.2,
+          "fit": 8.5
+        },
+        "weighted_score": 9.01,
+        "decision": "rejected_final_cut_wildcard",
+        "reason": "A genuine wildcard with natural group interaction, but the hybrid reality premise requires more ethical and format framing before it becomes a clean early-episode learning plan."
+      },
+      {
+        "title": "Hacks",
+        "url": "https://www.max.com/shows/hacks",
+        "official_owner": "Max / Warner Bros. Discovery",
+        "verification": "official_press_search_evidence_direct_series_page_not_verified",
+        "observations": [
+          "Max Original comedy identity observed in official press results",
+          "current direct US series page was not sufficiently verified in this run"
+        ],
+        "scores": {
+          "quality": 9.4,
+          "usefulness": 9.3,
+          "curiosity": 8.9,
+          "novelty": 8.7,
+          "fit": 8.7
+        },
+        "weighted_score": 9.08,
+        "decision": "rejected_source_gap",
+        "reason": "Fast professional comedy dialogue would be valuable, but the direct official series source did not meet today's complete verification gate."
+      },
+      {
+        "title": "Somebody Somewhere",
+        "url": "https://www.hbo.com/series",
+        "official_owner": "HBO",
+        "verification": "official_catalogue_identity_only",
+        "observations": [
+          "Official HBO catalogue lists Somebody Somewhere",
+          "individual current series page and full premise were not directly verified"
+        ],
+        "scores": {
+          "quality": 9.3,
+          "usefulness": 9.3,
+          "curiosity": 8.5,
+          "novelty": 9,
+          "fit": 8.8
+        },
+        "weighted_score": 9.08,
+        "decision": "rejected_source_gap",
+        "reason": "Natural conversation and cultural specificity are promising, but catalogue identity alone is insufficient for final selection."
+      }
+    ],
+    "scoring_weights": {
+      "quality": 0.3,
+      "usefulness": 0.25,
+      "curiosity": 0.2,
+      "novelty": 0.15,
+      "fit": 0.1
+    },
+    "topic_diversity": "Selected episodic road mystery and evidence-language listening after recent daily topics on plant acoustics, interface history, accelerators, nutrition labels and wartime black markets; also distinct from last week's philosophical afterlife comedy. Candidate set spans workplace satire, university dialogue, grief comedy, speculative corporate drama, cozy mystery and hybrid reality comedy."
+  },
+  "source_verification": {
+    "method": "direct_official_page",
+    "url": "https://www.peacocktv.com/stream-tv/poker-face",
+    "verified_before_freeze": true,
+    "verified_after_publication": true,
+    "observed_fields": [
+      "title",
+      "Peacock Original identity",
+      "core road mystery-of-the-week premise",
+      "Comedy / TV Series",
+      "2 seasons",
+      "22 episodes",
+      "2023",
+      "TV-MA",
+      "creator Rian Johnson",
+      "lead Natasha Lyonne",
+      "episode catalogue"
+    ],
+    "verified_at_utc": "2026-11-14T00:13:50Z",
+    "scope_limitations": [
+      "No full episode playback was tested.",
+      "China-mainland account entitlement, subtitle availability, audio tracks and downloads were not tested."
+    ]
+  },
+  "preflight": {
+    "required_current_files_read": true,
+    "read_via_github_connector": true,
+    "policy_sha": "cf9d1b486e07ca1efe965cf6af6f0ea422497670",
+    "publishing_sha": "1463649c436174db743ea6332698a5637d4dcb11",
+    "publication_bundle_sha": "681b7120abeabc3b8de1c4451d6475886dcac407",
+    "publication_recovery_sha": "b0a737ee33cbbf7bb0b453e6091a872f29be3358",
+    "original_history_sha": "19e5e7654fb0dc714ee41c527fcfa2636cfc29bf",
+    "original_history_rows": 67,
+    "recent_daily_translation_vocabulary_weekly_tv_read": true,
+    "prepared_transactions_read_via_connector": 102,
+    "prepared_reads_complete": true,
+    "prepared_read_errors": 0,
+    "reserved_resource_ids_examined": 642,
+    "selected_url_in_original_history": false,
+    "selected_url_in_unrelated_prepared_transactions": false,
+    "same_operation_reservation_expected": true,
+    "same_day_transaction_initially_absent": true,
+    "same_day_note_initially_absent": true
+  },
+  "freeze": {
+    "transaction_path": ".recommendation/transactions/english/2026-11-14.json",
+    "transaction_blob_sha": "efcbd4bd36cd3c484a2cd2c1714083d114bcbec3",
+    "transaction_creation_commit": "dacec57d86e9af01e5248e6dc3036270dfcd37c4",
+    "bundle_sha256": "e413e887f2a6d2f93cc7d8c284c1b40ab4cd73400965f42d468e88afa9947cba",
+    "plan_sha256": "e42339e15b8b535867a18f107e91fadb9a86c179226b6d68e721eb4421576344",
+    "transaction_readback_exact": true,
+    "prepared_receipt_path": ".recommendation/transaction-runs/english/2026-11-14/prepared-20261114T000832Z.json",
+    "prepared_receipt_commit": "427a62d58f548a5881a5022457ac1c1f54c6007f",
+    "planner_before_apply": "ready_to_resume",
+    "planner_after_apply": "artifacts_match"
+  },
+  "publication": {
+    "commit": "c6214b410f3bed094d6367003238c0a3046e9544",
+    "note_path": "50-courses/English/Weekly/TV/2026-11-14.md",
+    "note_blob_sha": "274970d4c9051592cd2f76a4da0ecacf6473221c",
+    "history_path": ".recommendation/history/english.jsonl",
+    "history_blob_sha": "1ab1c35898cdbf16e5318a8bf368e84ea67f7567",
+    "stage_receipt_path": ".recommendation/transaction-runs/english/2026-11-14/stage1-20261114T001037Z.json",
+    "stage_receipt_commit": "95ec1f71eb0437a8c1dd26c516a8de5b39114c4b",
+    "readback_exact": {
+      "note": true,
+      "history": true,
+      "transaction": true
+    },
+    "history_rows_after": 68,
+    "exact_once_registration": true
+  },
+  "qa": {
+    "content_checks": "passed",
+    "exactly_one_series": true,
+    "required_sections": true,
+    "three_viewing_modes": true,
+    "original_language_chunks": 12,
+    "early_episode_strategy": true,
+    "auto_markers": true,
+    "manual_notes_outside_markers": true,
+    "history_prefix_append_only": true,
+    "freshness_checked_against_original_history": true,
+    "source_reverified_after_write": true,
+    "repository_validation": {
+      "strict_validator": "passed (youtube=290, reddit=580, english=62, music=299)",
+      "regression_tests": "passed (203 + 41 + 15 + 20 = 279 tests)",
+      "integrity": "passed_local_checks; English 68 rows and 68 unique resources",
+      "immutable_bundles": "passed (102 bundles)",
+      "base_ref": "25f2d750ca2a3b093b58a39667015676e5fae536"
+    },
+    "current_publication_gates": "passed"
+  },
+  "historical_backlog": [
+    {
+      "project": "music",
+      "date": "2026-11-06",
+      "issue": "registered withdrawn duplicate recording incident",
+      "effect_on_current_english_publication": "none; retained as historical failure evidence"
+    },
+    {
+      "project": "youtube",
+      "issue": "three pre-policy duplicate ID groups retained and permanently blocked",
+      "effect_on_current_english_publication": "none"
+    }
+  ],
+  "limitations": [
+    "Repository checks do not certify teaching quality by themselves; teaching content was separately reviewed.",
+    "No device synchronization or notification delivery check was performed.",
+    "No full episode playback, regional entitlement, subtitle-track or audio-track check was performed.",
+    "The final QA receipt commit's GitHub Actions status is recorded after this file is created and read back; it cannot be self-certified inside the receipt without a later circular update."
+  ]
+}
