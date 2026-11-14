@@ -4,6 +4,7 @@ tags: [journal]
 ---
 # Journal 文献精选
 <!-- AUTO:START -->
+- [[00-inbox/Journal/2026-11-14|2026-11-14 · 低样本蛋白质工程：主动学习、组合库与天然序列先验]] — 3 篇；精读 Wu et al. 2019。
 - [[00-inbox/Journal/2026-11-13|2026-11-13 · Cph1 与 Agp1：Pfr→Pr 初级分叉与 EADS 证据边界]] — 3 篇；精读 Kim et al. 2012。
 - [[00-inbox/Journal/2026-11-12|2026-11-12 · DNA 光解酶：从自由基循环到电子隧穿路径]] — 3 篇；精读 Liu et al. 2012。
 - [[00-inbox/Journal/2026-11-11|2026-11-11 · 从同位素效应到质子通道重接：GFP 的超快 ESPT]] — 3 篇；精读 Stoner-Ma et al. 2008。
