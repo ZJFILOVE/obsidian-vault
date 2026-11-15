@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-15",
+  "operation_id": "english:2026-11-15",
+  "status": "passed_current_publication",
+  "recorded_at_utc": "2026-11-15T00:12:33Z",
+  "selection": {
+    "title": "Designing a Life that Matters",
+    "source_url": "https://www.hiddenbrain.org/podcast/designing-a-life-that-matters/",
+    "source": "Hidden Brain",
+    "component": "weekly-long",
+    "format": "podcast interview",
+    "duration": "51 minutes",
+    "candidate_pool_size": 9,
+    "candidates": [
+      {
+        "title": "Designing a Life that Matters",
+        "url": "https://www.hiddenbrain.org/podcast/designing-a-life-that-matters/",
+        "official_owner": "Hidden Brain Media",
+        "verification": "direct_official_page_opened_before_freeze_and_after_publication",
+        "observations": [
+          "official title and publication date 2026-04-27",
+          "Dave Evans identified as guest",
+          "official synopsis and full transcript visible",
+          "official transcript warns it may differ from audio",
+          "51-minute duration confirmed on Apple Podcasts distribution page"
+        ],
+        "scores": {
+          "quality": 9.1,
+          "usefulness": 9.4,
+          "curiosity": 8.5,
+          "novelty": 8.6,
+          "fit": 9
+        },
+        "weighted_score": 8.97,
+        "decision": "selected",
+        "reason": "Best verified balance of clear long-form spoken English, transferable reasoning language, manageable duration, and a topic distinct from the previous seven days."
+      },
+      {
+        "title": "History by a Hair",
+        "url": "https://www.si.edu/sidedoor/history-hair",
+        "official_owner": "Smithsonian Institution",
+        "verification": "search_identity_plus_official_collection_record; direct_episode_page_returned_404",
+        "observations": [
+          "Smithsonian collection record verified title, creator, description, audio MIME type and duration 58:50",
+          "main Sidedoor episode URL returned 404 during direct re-open"
+        ],
+        "scores": {
+          "quality": 9.3,
+          "usefulness": 8.8,
+          "curiosity": 9.5,
+          "novelty": 9.3,
+          "fit": 8.4
+        },
+        "weighted_score": 9.13,
+        "decision": "rejected_source_access_inconsistency",
+        "reason": "Excellent archival-history and genomics story, but the intended direct episode page failed the final accessibility gate.",
+        "evidence_url": "https://collections.si.edu/search/detail/edanmdm:podcasts_f00c2573f14e2948a9dc6bea299be4d9"
+      },
+      {
+        "title": "Meet the Beetles!",
+        "url": "https://www.si.edu/sidedoor/meet-beetles",
+        "official_owner": "Smithsonian Institution",
+        "verification": "search_identity_plus_official_collection_record; direct_episode_page_returned_404",
+        "observations": [
+          "official collection evidence showed duration 35:07 and Smithsonian expert guests",
+          "main episode URL returned 404",
+          "biology topic would follow the 2026-11-09 plant-science input within seven days"
+        ],
+        "scores": {
+          "quality": 8.8,
+          "usefulness": 8.3,
+          "curiosity": 9.1,
+          "novelty": 8.7,
+          "fit": 8
+        },
+        "weighted_score": 8.64,
+        "decision": "rejected_source_and_recent_topic",
+        "reason": "Source-route inconsistency and recent biology concentration made it unsuitable for final selection."
+      },
+      {
+        "title": "The Past is Never Dead",
+        "url": "https://www.hiddenbrain.org/podcast/the-past-is-never-dead/",
+        "official_owner": "Hidden Brain Media",
+        "verification": "direct_official_page_plus_duration_distribution_record",
+        "observations": [
+          "official page title, guest Joseph Henrich, synopsis and transcript verified",
+          "duration 51:51 verified on episode distribution record"
+        ],
+        "scores": {
+          "quality": 9.1,
+          "usefulness": 8.9,
+          "curiosity": 8.6,
+          "novelty": 7.7,
+          "fit": 8.4
+        },
+        "weighted_score": 8.67,
+        "decision": "rejected_recent_topic_similarity",
+        "reason": "High quality, but collective culture and historical inheritance sit too close to the 2026-11-08 cultural-history documentary."
+      },
+      {
+        "title": "Can the U.S. Close Its Fertility Gap?",
+        "url": "https://freakonomics.com/podcast/can-the-u-s-close-its-fertility-gap/",
+        "official_owner": "Freakonomics Radio",
+        "verification": "direct_official_page",
+        "observations": [
+          "official episode 695, publication date 2026-11-13 and transcript verified",
+          "duration 56:27 shown in official archive",
+          "identified as part one of a two-part series"
+        ],
+        "scores": {
+          "quality": 8.9,
+          "usefulness": 8.5,
+          "curiosity": 8.9,
+          "novelty": 9,
+          "fit": 7.6
+        },
+        "weighted_score": 8.69,
+        "decision": "rejected_scope_and_stability",
+        "reason": "A strong candidate, but it is the first half of an unfinished current-policy series and would require extra fact-checking of fast-moving demographic claims."
+      },
+      {
+        "title": "The Mind of an Architect",
+        "url": "https://99percentinvisible.org/episode/the-mind-of-an-architect/",
+        "official_owner": "99% Invisible",
+        "verification": "official_search_identity_and_transcript; live_open_timeout",
+        "observations": [
+          "official result identified episode 220, producer Avery Trufelman and transcript",
+          "direct open timed out and exact duration was not verified"
+        ],
+        "scores": {
+          "quality": 9,
+          "usefulness": 8.4,
+          "curiosity": 9.2,
+          "novelty": 8.3,
+          "fit": 8.2
+        },
+        "weighted_score": 8.71,
+        "decision": "rejected_verification_gap",
+        "reason": "The source could not pass the final direct-access and duration gate."
+      },
+      {
+        "title": "To the Moon and Back Again",
+        "url": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/to-the-moon-and-back-again/",
+        "official_owner": "NASA Johnson Space Center",
+        "verification": "direct_official_page",
+        "observations": [
+          "official episode 440 page, publication date, crew identities, summary, audio links and transcript verified",
+          "episode belongs to NASA's typical 45–50 minute interview format but exact duration was not established in this run"
+        ],
+        "scores": {
+          "quality": 9.2,
+          "usefulness": 8.5,
+          "curiosity": 8.8,
+          "novelty": 8.2,
+          "fit": 8.8
+        },
+        "weighted_score": 8.75,
+        "decision": "rejected_recent_topic_and_duration_gap",
+        "reason": "Recent accelerator/physics material made another technical-science input less diverse, and exact duration remained unverified."
+      },
+      {
+        "title": "Ishtar, the Mesopotamian goddess of love, sex and war",
+        "url": "https://www.bbc.co.uk/programmes/m003339v",
+        "official_owner": "BBC Radio 4 In Our Time",
+        "verification": "search_identity_only; official_route_blocked_by_robots",
+        "observations": [
+          "program identity and approximately 53-minute duration appeared in search evidence",
+          "official BBC route could not be directly inspected",
+          "a nonofficial mirror redirected to unrelated unsafe content and was rejected"
+        ],
+        "scores": {
+          "quality": 9.4,
+          "usefulness": 8.9,
+          "curiosity": 9.3,
+          "novelty": 9.2,
+          "fit": 8
+        },
+        "weighted_score": 9.09,
+        "decision": "rejected_source_verification_gap",
+        "reason": "No direct official-page verification was available; third-party mirrors were not accepted."
+      },
+      {
+        "title": "What Art Does For Your Brain",
+        "url": "https://www.hiddenbrain.org/podcast/what-art-does-for-your-brain/",
+        "official_owner": "Hidden Brain Media",
+        "verification": "direct_official_page",
+        "observations": [
+          "official title, publication date 2026-08-24, guest Daisy Fancourt, synopsis and transcript verified",
+          "duration 49:18 observed in podcast archive evidence"
+        ],
+        "scores": {
+          "quality": 9,
+          "usefulness": 8.8,
+          "curiosity": 8.7,
+          "novelty": 8.3,
+          "fit": 8.7
+        },
+        "weighted_score": 8.76,
+        "decision": "rejected_final_cut",
+        "reason": "Verified and useful, but the selected episode supplied a cleaner reasoning-and-prototyping structure and avoided returning to arts/culture after the previous Sunday."
+      }
+    ],
+    "scoring_weights": {
+      "quality": 0.3,
+      "usefulness": 0.25,
+      "curiosity": 0.2,
+      "novelty": 0.15,
+      "fit": 0.1
+    },
+    "selection_rule": "Hard source, accessibility, duration, freshness and permanent-dedup gates precede weighted ranking.",
+    "topic_diversity": "Candidate pool spans design thinking, archival history/genomics, entomology, cultural psychology, demography, architecture, spaceflight, ancient religion and arts/health. The selected human-behavior and decision-design topic is distinct from the prior seven days' plant acoustics, user-interface history, accelerators, nutrition labels, wartime black markets, cultural exchange documentary and mystery TV."
+  },
+  "source_verification": {
+    "method": "direct_official_page_plus_distribution_duration",
+    "url": "https://www.hiddenbrain.org/podcast/designing-a-life-that-matters/",
+    "verified_before_freeze": true,
+    "verified_after_publication": true,
+    "observed_fields": [
+      "exact title",
+      "Hidden Brain publisher identity",
+      "publication date 2026-04-27",
+      "guest Dave Evans",
+      "official synopsis",
+      "full transcript",
+      "transcript-version caveat",
+      "51-minute duration on Apple Podcasts distribution page"
+    ],
+    "verified_at_utc": "2026-11-15T00:12:33Z",
+    "scope_limitations": [
+      "The full 51-minute audio was not played end to end in this runtime.",
+      "The official page states that the transcript may be from an earlier version and may differ from the audio.",
+      "The episode's behavioral framework was treated as a viewpoint for English study, not as clinical advice or a universally proven life formula."
+    ]
+  },
+  "preflight": {
+    "required_current_files_read": true,
+    "read_via_github_connector": true,
+    "source_head_initial": "c934b6ad845c1b98fa2ee1ae977b3d2cb67ab146",
+    "policy_blob_sha": "cf9d1b486e07ca1efe965cf6af6f0ea422497670",
+    "publishing_blob_sha": "1463649c436174db743ea6332698a5637d4dcb11",
+    "publication_bundle_blob_sha": "681b7120abeabc3b8de1c4451d6475886dcac407",
+    "publication_recovery_blob_sha": "b0a737ee33cbbf7bb0b453e6091a872f29be3358",
+    "original_history_blob_sha": "1ab1c35898cdbf16e5318a8bf368e84ea67f7567",
+    "original_history_rows": 68,
+    "recent_daily_translation_vocabulary_weekly_tv_read": 18,
+    "prepared_transactions_read_via_connector": 104,
+    "prepared_reads_complete": true,
+    "prepared_read_errors": 0,
+    "reserved_resource_ids_examined": 660,
+    "selected_url_in_original_history": false,
+    "selected_url_in_unrelated_prepared_transactions": false,
+    "same_operation_reservation_expected": true,
+    "same_day_transaction_initially_absent": true,
+    "same_day_note_initially_absent": true,
+    "concurrent_head_changes": "Journal publication advanced main during preparation; fresh trees, history baseline and all newly added PREPARED evidence were re-read before the English PREPARED record was created."
+  },
+  "freeze": {
+    "transaction_path": ".recommendation/transactions/english/2026-11-15.json",
+    "transaction_blob_sha": "cc796a50355cb3dddf1b2b8972cac6c6d8d88f7d",
+    "transaction_creation_commit": "cf34f7b18249fd634bbfadd8488cfad338e074b8",
+    "bundle_sha256": "6ef29c23f2936de236fca56ea673ba09d189e93f5e5d54c6b2a43e16ab002b31",
+    "plan_sha256": "f1f4a1b7b57a8854f88dfef2a82d519c76cd4bfe9750dc743ad5d20da72d99f6",
+    "transaction_readback_exact": true,
+    "planner_before_apply": "ready_to_resume",
+    "planner_after_apply": "artifacts_match"
+  },
+  "publication": {
+    "commit": "59beb121863fa22bf850f02d4c782bba2d3d1efd",
+    "parent_commit": "cf34f7b18249fd634bbfadd8488cfad338e074b8",
+    "tree_sha": "3cb061d6f7c164bda8e912a9f0f30046da5e52e0",
+    "note_path": "50-courses/English/Weekly/2026-11-15.md",
+    "note_blob_sha": "45941e628696d448c79d622a48c585ff8d452979",
+    "history_path": ".recommendation/history/english.jsonl",
+    "history_blob_sha": "ef8aa217c287c78f5aa4c3e3339dac34f1af95b7",
+    "stage_receipt_path": ".recommendation/transaction-runs/english/2026-11-15/stage1-20261115T000727Z.json",
+    "stage_receipt_blob_sha": "7b4d32073678da03a9d3b186e9c89dad204799e5",
+    "stage_receipt_commit": "c6f08c61194fb9161f9a9247417ff27cb3ba0742",
+    "readback_exact": {
+      "note": true,
+      "history": true,
+      "transaction": true,
+      "stage_receipt": true
+    },
+    "history_rows_after": 69,
+    "exact_once_registration": true
+  },
+  "qa": {
+    "content_checks": "passed",
+    "weekday_or_weekend": "Sunday",
+    "required_weekend_target_set": true,
+    "format_length_difficulty": true,
+    "three_pass_plan": true,
+    "reusable_chunks": 12,
+    "comprehension_questions": 5,
+    "output_shadowing_tasks": 2,
+    "independent_translation_exercises": 1,
+    "folded_answer_callouts": true,
+    "auto_markers": true,
+    "manual_notes_outside_markers": true,
+    "history_prefix_append_only": true,
+    "freshness_checked_against_original_history": true,
+    "source_reverified_after_write": true,
+    "repository_validation": {
+      "strict_validator": "passed (youtube=290, reddit=580, english=63, music=299)",
+      "regression_tests": "passed (203 + 41 + 15 + 20 = 279 tests)",
+      "targeted_bundle_recovery_tests": "passed after correcting PYTHONPATH invocation; initial root-level invocation failed with ModuleNotFoundError and was not counted",
+      "integrity": "passed_local_checks; English 69 rows and 69 unique resources",
+      "immutable_bundles": "passed (105 bundles)",
+      "base_ref": "cf34f7b18249fd634bbfadd8488cfad338e074b8"
+    },
+    "actual_ci": [
+      {
+        "commit": "59beb121863fa22bf850f02d4c782bba2d3d1efd",
+        "run_id": 43656518970,
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/43656518970"
+      },
+      {
+        "commit": "c6f08c61194fb9161f9a9247417ff27cb3ba0742",
+        "run_id": 43656606151,
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/43656606151"
+      }
+    ],
+    "current_publication_gates": "passed"
+  },
+  "historical_backlog": [
+    {
+      "project": "music",
+      "date": "2026-11-06",
+      "issue": "registered withdrawn duplicate recording incident",
+      "effect_on_current_english_publication": "none; retained as historical failure evidence"
+    },
+    {
+      "project": "youtube",
+      "issue": "three pre-policy duplicate ID groups remain retained and permanently blocked",
+      "effect_on_current_english_publication": "none"
+    }
+  ],
+  "limitations": [
+    "Structural validation and CI do not certify teaching quality by themselves; the note was separately reviewed for task count, evidence boundaries, originality and pedagogy.",
+    "No full audio playback or regional device entitlement test was performed.",
+    "No local Obsidian device synchronization or notification-delivery check was performed.",
+    "The final QA receipt commit cannot self-certify its own later GitHub Actions run without a circular follow-up mutation."
+  ]
+}
