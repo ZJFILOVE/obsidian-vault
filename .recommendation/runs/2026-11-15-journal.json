@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "project": "journal",
+  "date": "2026-11-15",
+  "operation_id": "journal:2026-11-15",
+  "phase": "published",
+  "status": "published_with_global_integrity_unverified",
+  "completed_at_utc": "2026-11-15T00:05:30Z",
+  "business_timezone": "Asia/Shanghai",
+  "theme": "从静态活性位点到构象景观：定向进化如何修补酶设计",
+  "papers": [
+    {
+      "title": "Precision is essential for efficient catalysis in an evolved Kemp eliminase",
+      "doi": "10.1038/nature12623",
+      "authors": "Rebecca Blomberg et al.",
+      "year": 2013,
+      "journal": "Nature",
+      "deep_read": false
+    },
+    {
+      "title": "How directed evolution reshapes energy landscapes in enzymes to boost catalysis",
+      "doi": "10.1126/science.abd3623",
+      "authors": "Renee Otten et al.",
+      "year": 2020,
+      "journal": "Science",
+      "deep_read": true
+    },
+    {
+      "title": "The role of distant mutations and allosteric regulation on LovD active site dynamics",
+      "doi": "10.1038/nchembio.1503",
+      "authors": "Gonzalo Jiménez-Osés et al.",
+      "year": 2014,
+      "journal": "Nature Chemical Biology",
+      "deep_read": false
+    }
+  ],
+  "selection": {
+    "candidate_count": 4,
+    "selected_count": 3,
+    "rejected_count": 1,
+    "selected_resource_ids": [
+      "doi:10.1038/nature12623",
+      "doi:10.1126/science.abd3623",
+      "doi:10.1038/nchembio.1503"
+    ],
+    "rejected_candidates": [
+      {
+        "doi": "10.1016/j.sbi.2017.09.005",
+        "title": "Laboratory evolution of protein conformational dynamics",
+        "type": "review",
+        "decision": "rejected",
+        "reason": "Useful review for discovery and framing, but today's three primary studies provide direct structure, kinetics, NMR and molecular-dynamics evidence; excluded rather than using a review to pad the issue."
+      }
+    ],
+    "quality_padding": "not_used",
+    "exact_duplicates": 0,
+    "semantic_duplicates": 0,
+    "permanent_history_dedup": "passed",
+    "prepared_reservation_dedup": "passed_for_all_existing_journal_transactions_2026-11-02_through_2026-11-14",
+    "recent_topic_review": "passed; reviewed 2026-11-02 through 2026-11-14 and selected a distinct enzyme-conformational-landscape question"
+  },
+  "sources": [
+    {
+      "doi": "10.1038/nature12623",
+      "identity_sources": [
+        "Nature publisher record",
+        "PubMed:PMID 24132235",
+        "CaltechAUTHORS repository record"
+      ],
+      "reading_scope": "Nature publisher record and PubMed bibliography/abstract; main-text PDF and SI not opened",
+      "publication_status": "peer-reviewed published"
+    },
+    {
+      "doi": "10.1126/science.abd3623",
+      "identity_sources": [
+        "PubMed:PMID 33214289",
+        "PMC:PMC9616100",
+        "Science final-edited-form metadata"
+      ],
+      "reading_scope": "PMC author-manuscript HTML full main text, Results/Discussion and Fig. 1–4 captions; independent SI PDF not opened",
+      "publication_status": "peer-reviewed published"
+    },
+    {
+      "doi": "10.1038/nchembio.1503",
+      "identity_sources": [
+        "PubMed:PMID 24727900",
+        "PMC:PMC4028369",
+        "Nature Chemical Biology publisher record",
+        "UC eScholarship open author-manuscript PDF"
+      ],
+      "reading_scope": "Open author-manuscript PDF main text, Online Methods, Table 1 and Fig. 1–6 captions; independent SI not opened",
+      "publication_status": "peer-reviewed published"
+    }
+  ],
+  "bundle": {
+    "path": ".recommendation/transactions/journal/2026-11-15.json",
+    "bundle_sha256": "202c91b6f69e80235e460bbd6b1fa810a83df78097c3ac89391d91f29db2a183",
+    "plan_sha256": "e443fec440bcae01cab23dfc621c25bb70c9d08f6a63e00eebd319750652f262",
+    "prepared_creation_commit": "9c2b3fad6671a1906240f8edc8c564d6a3236074",
+    "prepared_blob_sha": "3c378d7a46306ec51d0f72f93a9dba620d07045d",
+    "exact_prepared_readback": true
+  },
+  "publication": {
+    "commits": {
+      "note": "cc6023995286f767d7f47008823e8e18f217c910",
+      "index": "ccd24ce54ca57687bec4306ba412154e7469ed87",
+      "history": "a203e377db3caa05152c35eb519d3bd8f168acaa"
+    },
+    "contents_api_recoverable_sequence": true,
+    "force_push": false,
+    "readbacks": {
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/2026-11-15.md": {
+        "status": "ok",
+        "sha": "5f8e3a8fb5d625ec35896859d6922c0a63558148",
+        "exact_payload": true
+      },
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/Index.md": {
+        "status": "ok",
+        "sha": "cad727a7dcfe58118330859d709ddf13e9e18937",
+        "exact_payload": true
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/history/journal.jsonl": {
+        "status": "ok",
+        "sha": "f4125d92afe48d8eeb87085391f9076ec79d5415",
+        "exact_payload": true
+      }
+    },
+    "planner_before_apply": "ready_to_resume",
+    "planner_after_readback": "artifacts_match",
+    "note_url": "https://github.com/ZJFILOVE/obsidian-vault/blob/main/00-inbox/Journal/2026-11-15.md"
+  },
+  "checks": {
+    "bibliography_identity": "passed",
+    "publication_status": "peer_reviewed_published_all_three",
+    "correction_retraction_status": "No matching formal correction or retraction notice found in the publisher/PubMed records and targeted status searches opened during this run; future publisher updates remain possible.",
+    "evidence_layer_separation": "passed; observations, author interpretation and reviewer_synthesis separated",
+    "numeric_context_and_construct_conditions": "passed; purified-enzyme kcat/KM separated from cell-lysate turnover, crystal snapshots separated from solution populations, simulation occupancy not reported as experimental population",
+    "experiment_model_distinction": "passed; experimental crystal/NMR/kinetics distinguished from MD, homology and docking models",
+    "note_structure": {
+      "paper_count": 3,
+      "reading_order": true,
+      "deep_read_marked": true,
+      "reading_scope_each": true,
+      "pending_information_each": true
+    },
+    "markdown": {
+      "bold_pairs": "passed",
+      "bold_label_spacing": "passed",
+      "blank_line_structure": "passed",
+      "renderer": "pandoc_markdown_to_html",
+      "raw_double_asterisk_in_rendered_html": 0,
+      "strong_tags": 22,
+      "visual_browser_screenshot": "not_performed"
+    },
+    "local_journal_validator": {
+      "status": "passed",
+      "days": 14,
+      "papers": 42,
+      "append_only_against_git_base": "not_run_in_partial_local_checkout"
+    },
+    "local_bundle_validator": {
+      "status": "passed",
+      "bundle_sha256": "202c91b6f69e80235e460bbd6b1fa810a83df78097c3ac89391d91f29db2a183"
+    },
+    "local_global_integrity": {
+      "status": "not_run_to_completion",
+      "reason": "The selected temporary environment contains the Journal subset and current Journal scripts but not the complete repository module set; check_daily_integrity.py stopped at import music_identity. This is recorded as unverified, not passed."
+    },
+    "exact_repository_ci": {
+      "status": "not_observed_after_publication",
+      "tested_head_sha": null,
+      "conclusion": null,
+      "run_id": null,
+      "url": null,
+      "reason": "No workflow run was returned for the Journal publication commits or the later descendant heads during this execution; no unrelated earlier green run is being substituted."
+    },
+    "user_notes_preserved": true,
+    "post_write_complete_readback": true
+  },
+  "scope_notice": "Repository validators certify structure, permanent-history append-only behavior and frozen-bundle integrity; literature content QA is based on the recorded source reading and is not certified by CI.",
+  "device_sync_tested": false
+}
