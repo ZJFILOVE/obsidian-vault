@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "project": "journal",
+  "date": "2026-11-16",
+  "operation_id": "journal:2026-11-16",
+  "phase": "published",
+  "status": "published_with_global_integrity_unverified",
+  "completed_at_utc": "2026-11-16T00:02:17Z",
+  "business_timezone": "Asia/Shanghai",
+  "theme": "酶电场能否被测量与设计：从 VSE 到非天然氨基酸与预组织",
+  "papers": [
+    {
+      "title": "Extreme electric fields power catalysis in the active site of ketosteroid isomerase",
+      "doi": "10.1126/science.1259802",
+      "authors": "Stephen D. Fried et al.",
+      "year": 2014,
+      "journal": "Science",
+      "deep_read": false
+    },
+    {
+      "title": "A Critical Test of the Electrostatic Contribution to Catalysis with Non-canonical Amino Acids in Ketosteroid Isomerase",
+      "doi": "10.1021/jacs.6b06843",
+      "authors": "Yufan Wu and Steven G. Boxer",
+      "year": 2016,
+      "journal": "Journal of the American Chemical Society",
+      "deep_read": true
+    },
+    {
+      "title": "A Preorganized Electric Field Leads to Minimal Geometrical Reorientation in the Catalytic Reaction of Ketosteroid Isomerase",
+      "doi": "10.1021/jacs.0c00383",
+      "authors": "Yufan Wu et al.",
+      "year": 2020,
+      "journal": "Journal of the American Chemical Society",
+      "deep_read": false
+    }
+  ],
+  "selection": {
+    "candidate_count": 4,
+    "selected_count": 3,
+    "rejected_count": 1,
+    "selected_resource_ids": [
+      "doi:10.1126/science.1259802",
+      "doi:10.1021/jacs.6b06843",
+      "doi:10.1021/jacs.0c00383"
+    ],
+    "rejected_candidates": [
+      {
+        "doi": "10.1146/annurev-biochem-061516-044432",
+        "title": "Electric Fields and Enzyme Catalysis",
+        "type": "review",
+        "decision": "rejected",
+        "reason": "Useful review for discovery and historical framing, but the three selected primary studies form a direct experimental progression; excluded rather than padding the issue with a review."
+      }
+    ],
+    "quality_padding": "not_used",
+    "exact_duplicates": 0,
+    "semantic_duplicates": 0,
+    "permanent_history_dedup": "passed",
+    "prepared_reservation_dedup": "passed_for_all_existing_journal_transactions_2026-11-02_through_2026-11-15",
+    "recent_topic_review": "passed; reviewed 2026-11-02 through 2026-11-15 and selected a distinct vibrational-Stark/electrostatic-preorganization question"
+  },
+  "sources": [
+    {
+      "doi": "10.1126/science.1259802",
+      "identity_sources": [
+        "PubMed:PMID 25525245",
+        "PMC:PMC4668018",
+        "Science 2015 Comments:PMID 26315426 and related record",
+        "Science 2015 Response:PMID 26315428"
+      ],
+      "reading_scope": "PubMed and PMC original-research records and searchable main-text passages, plus 2015 Comment/Response records; independent main PDF/SI not opened",
+      "publication_status": "peer-reviewed published; subject of formal scientific comments and author response, not retracted"
+    },
+    {
+      "doi": "10.1021/jacs.6b06843",
+      "identity_sources": [
+        "PubMed:PMID 27545569",
+        "PMC:PMC5063566",
+        "JACS final-edited-form metadata"
+      ],
+      "reading_scope": "PMC author-manuscript HTML full main text, Results/Discussion, Tables 1–3 and Fig. 1–6 captions; independent SI PDF not opened",
+      "publication_status": "peer-reviewed published"
+    },
+    {
+      "doi": "10.1021/jacs.0c00383",
+      "identity_sources": [
+        "PubMed:PMID 32378409",
+        "PMC:PMC7474534",
+        "ACS publisher record"
+      ],
+      "reading_scope": "ACS publisher full-text access returned 403; PubMed bibliography/abstract and visible figure captions plus PMC article record opened; complete main text/PDF/SI not read",
+      "publication_status": "peer-reviewed published"
+    }
+  ],
+  "bundle": {
+    "path": ".recommendation/transactions/journal/2026-11-16.json",
+    "bundle_sha256": "65d7c8a3e511ee1262942f4165afcc24071c9c21afdc121c622ce5a013cb9101",
+    "plan_sha256": "1f588e44ce4756ff21288a20b0111162c0e779e03f0ba78358a6028c7150affa",
+    "prepared_creation_commit": "3ac22222500a6e55f1b805d8b73066ead28a7c0d",
+    "prepared_blob_sha": "b30aa2d251dcc301cdadb5c2695c80184976d6df",
+    "exact_prepared_readback": true
+  },
+  "publication": {
+    "commits": {
+      "note": "e9fb26a1d028c21255d256f9b428448de44630c6",
+      "index": "aa9913c0cac51b6ccc5dbc1d136e05a1703f2cb6",
+      "history": "ff896a8d87323540eb3e417b1946badd924a7295"
+    },
+    "contents_api_recoverable_sequence": true,
+    "force_push": false,
+    "readbacks": {
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/2026-11-16.md": {
+        "status": "ok",
+        "sha": "a7bd03785020ea035db26a1a439467b8c3fe52f4",
+        "exact_payload": true
+      },
+      "ZJFILOVE/obsidian-vault:00-inbox/Journal/Index.md": {
+        "status": "ok",
+        "sha": "be4dc849dd3988d2b863eb5d9100155a13ef66d3",
+        "exact_payload": true
+      },
+      "ZJFILOVE/obsidian-vault:.recommendation/history/journal.jsonl": {
+        "status": "ok",
+        "sha": "1d0eab38f7cc953b778bcc73a2da8e773a60bc4c",
+        "exact_payload": true
+      }
+    },
+    "planner_before_apply": "ready_to_resume",
+    "planner_after_readback": "artifacts_match",
+    "note_url": "https://github.com/ZJFILOVE/obsidian-vault/blob/main/00-inbox/Journal/2026-11-16.md"
+  },
+  "checks": {
+    "bibliography_identity": "passed",
+    "publication_status": "peer_reviewed_published_all_three",
+    "correction_retraction_status": "No matching formal correction or retraction notice found. The 2014 Science paper has two formal scientific Comments and an author Response; these were read and explicitly separated from corrections/retractions.",
+    "evidence_layer_separation": "passed; observations, author interpretation and reviewer_synthesis separated",
+    "numeric_context_and_construct_conditions": "passed; 19NT-bound projected fields tied to named variants; the debated 70 percent estimate marked as reference-model dependent; VSE observations separated from simplified DFT decomposition",
+    "experiment_model_distinction": "passed; IR/VSE, kinetics and crystal structures distinguished from solvatochromic calibration, MD and DFT models",
+    "note_structure": {
+      "paper_count": 3,
+      "reading_order": true,
+      "deep_read_marked": true,
+      "reading_scope_each": true,
+      "pending_information_each": true
+    },
+    "markdown": {
+      "bold_pairs": "passed",
+      "bold_label_spacing": "passed",
+      "blank_line_structure": "passed",
+      "renderer": "pandoc_markdown_to_html",
+      "raw_double_asterisk_in_rendered_html": 0,
+      "strong_tags": 24,
+      "visual_browser_screenshot": "not_performed"
+    },
+    "local_journal_validator": {
+      "status": "passed",
+      "days": 15,
+      "papers": 45,
+      "append_only_against_git_base": "not_run_in_partial_local_checkout"
+    },
+    "local_bundle_validator": {
+      "status": "passed",
+      "bundle_sha256": "65d7c8a3e511ee1262942f4165afcc24071c9c21afdc121c622ce5a013cb9101"
+    },
+    "local_global_integrity": {
+      "status": "not_run_to_completion",
+      "reason": "The selected temporary environment contains the Journal subset and current Journal scripts but not the complete repository module set; check_daily_integrity.py stopped at import music_identity. This is recorded as unverified, not passed."
+    },
+    "exact_repository_ci": {
+      "status": "not_observed_after_publication",
+      "tested_head_sha": null,
+      "conclusion": null,
+      "run_id": null,
+      "url": null,
+      "reason": "No workflow run was returned for the latest Journal publication commit during this execution; no unrelated earlier green run is being substituted."
+    },
+    "user_notes_preserved": true,
+    "post_write_complete_readback": true
+  },
+  "scope_notice": "Repository validators certify structure, permanent-history append-only behavior and frozen-bundle integrity; literature content QA is based on the recorded source reading and is not certified by CI.",
+  "device_sync_tested": false
+}
