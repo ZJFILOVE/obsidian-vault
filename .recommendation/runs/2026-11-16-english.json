@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-16",
+  "operation_id": "english:2026-11-16",
+  "status": "passed_current_publication",
+  "recorded_at_utc": "2026-11-16T00:10:30Z",
+  "selection": {
+    "title": "What’s the difference between climate and weather?",
+    "source_url": "https://www.noaa.gov/explainers/what-s-difference-between-climate-and-weather",
+    "source": "National Oceanic and Atmospheric Administration (NOAA)",
+    "component": "daily",
+    "format": "official government science explainer",
+    "estimated_time": "8-10 minutes",
+    "candidate_pool_size": 8,
+    "candidates": [
+      {
+        "title": "What’s the difference between climate and weather?",
+        "url": "https://www.noaa.gov/explainers/what-s-difference-between-climate-and-weather",
+        "official_owner": "National Oceanic and Atmospheric Administration",
+        "verification": "direct_official_page_opened_before_freeze_and_after_publication",
+        "observations": [
+          "exact title and NOAA publisher identity visible",
+          "three substantive sections on weather, climate data and climate change/global warming visible",
+          "30-year comparison window, observing networks, averaging and quality-control discussion visible",
+          "page contains historical examples that are not treated as current records"
+        ],
+        "scores": {"quality": 9.0, "usefulness": 9.2, "curiosity": 8.2, "novelty": 8.7, "fit": 9.2},
+        "weighted_score": 8.86,
+        "decision": "selected",
+        "reason": "Best combination of direct official verification, 8-10 minute scope, transferable evidence language and a topic distinct from the prior seven days."
+      },
+      {
+        "title": "How did a French pocket sundial end up buried in a field in Indiana?",
+        "url": "https://americanhistory.si.edu/explore/stories/pocket-sundial",
+        "official_owner": "Smithsonian National Museum of American History",
+        "verification": "substantive search evidence; direct open returned 520",
+        "observations": ["search evidence identified object provenance, curator investigation and unresolved uncertainty", "direct final inspection failed with 520"],
+        "scores": {"quality": 8.9, "usefulness": 8.5, "curiosity": 9.1, "novelty": 9.2, "fit": 8.6},
+        "weighted_score": 8.86,
+        "decision": "rejected_direct_verification_gap",
+        "reason": "Strong material-culture candidate, but the direct official page did not pass the final access gate."
+      },
+      {
+        "title": "How the Lowly Answering Machine Contributed to our Culture of Continuous Communication",
+        "url": "https://blogs.loc.gov/kluge/2022/08/how-the-lowly-answering-machine-contributed-to-our-anxiety-ridden-culture-of-continuous-communication/",
+        "official_owner": "Library of Congress, John W. Kluge Center",
+        "verification": "direct_official_page",
+        "observations": ["title, author context and full interview-style body visible", "material examines availability, privacy, call screening and social norms"],
+        "scores": {"quality": 9.2, "usefulness": 9.0, "curiosity": 8.8, "novelty": 8.1, "fit": 8.8},
+        "weighted_score": 8.87,
+        "decision": "rejected_recent_topic_penalty",
+        "reason": "Excellent source, but a communication-technology history input six days after the Mac user-experience article would narrow recent topic diversity."
+      },
+      {
+        "title": "Tracking sea level rise ... and fall",
+        "url": "https://www.noaa.gov/explainers/tracking-sea-level-rise-and-fall",
+        "official_owner": "National Oceanic and Atmospheric Administration",
+        "verification": "direct_official_page",
+        "observations": ["five-part official explainer visible", "definitions distinguish global, local and mean sea level and introduce measurement"],
+        "scores": {"quality": 9.0, "usefulness": 8.8, "curiosity": 8.4, "novelty": 8.3, "fit": 8.5},
+        "weighted_score": 8.68,
+        "decision": "rejected_final_cut",
+        "reason": "Verified and useful, but denser and more specialized than the selected scale-and-evidence lesson."
+      },
+      {
+        "title": "Pathways Through American History: Every Place Has a History",
+        "url": "https://www.nps.gov/articles/000/every-place-has-a-history.htm",
+        "official_owner": "U.S. National Park Service",
+        "verification": "direct_official_page",
+        "observations": ["official title and four-marker structure visible", "page functions as a pathway to many linked resources rather than a single compact argument"],
+        "scores": {"quality": 8.5, "usefulness": 8.4, "curiosity": 8.3, "novelty": 8.6, "fit": 7.8},
+        "weighted_score": 8.38,
+        "decision": "rejected_scope",
+        "reason": "The page is a broad learning pathway and would require too much link-following for one 5-15 minute input."
+      },
+      {
+        "title": "Science Explainers",
+        "url": "https://science.nasa.gov/mission/webb/science-overview/science-explainers/",
+        "official_owner": "NASA Science",
+        "verification": "direct_official_collection_page",
+        "observations": ["official collection lists multiple 2-15 minute explainers", "collection page is not one self-contained final source"],
+        "scores": {"quality": 9.0, "usefulness": 8.2, "curiosity": 8.8, "novelty": 8.4, "fit": 7.2},
+        "weighted_score": 8.47,
+        "decision": "rejected_collection_not_single_input",
+        "reason": "Authentic and promising, but the observed URL is a collection rather than one directly verified 5-15 minute item."
+      },
+      {
+        "title": "The importance of small things",
+        "url": "https://americanhistory.si.edu/explore/stories/importance-small-things",
+        "official_owner": "Smithsonian National Museum of American History",
+        "verification": "full substantive search evidence; direct open returned 520",
+        "observations": ["search evidence showed exact title, author, date and complete short object story", "direct official re-open failed"],
+        "scores": {"quality": 8.6, "usefulness": 8.7, "curiosity": 8.5, "novelty": 8.9, "fit": 8.7},
+        "weighted_score": 8.66,
+        "decision": "rejected_direct_verification_and_length",
+        "reason": "Direct access failed and the observed text was likely shorter than the policy target."
+      },
+      {
+        "title": "Household Hits = Transformation",
+        "url": "https://www.americanhistory.si.edu/explore/exhibitions/object-project/online/household-hits",
+        "official_owner": "Smithsonian National Museum of American History",
+        "verification": "official search evidence; direct open timed out",
+        "observations": ["official evidence identified a household-technology object collection", "direct page timed out and the page is a multi-object portal"],
+        "scores": {"quality": 8.7, "usefulness": 8.7, "curiosity": 8.5, "novelty": 8.8, "fit": 8.1},
+        "weighted_score": 8.59,
+        "decision": "rejected_access_and_scope",
+        "reason": "Access was not directly verified and the observed source was a portal, not one coherent article."
+      }
+    ],
+    "scoring_weights": {"quality": 0.3, "usefulness": 0.25, "curiosity": 0.2, "novelty": 0.15, "fit": 0.1},
+    "selection_rule": "Direct source identity, access, duration, permanent deduplication and recent-topic gates precede weighted ranking.",
+    "topic_diversity": "The pool spans atmospheric data, sea-level measurement, communication norms, material culture, place-based history, astronomy and household innovation. The selected scale-and-data-literacy lesson is distinct from the prior seven days' plant acoustics, interface history, accelerators, nutrition labels, wartime markets, mystery TV and life design."
+  },
+  "source_verification": {
+    "method": "direct_official_page",
+    "url": "https://www.noaa.gov/explainers/what-s-difference-between-climate-and-weather",
+    "verified_before_freeze": true,
+    "verified_after_publication": true,
+    "observed_fields": [
+      "exact title",
+      "NOAA and U.S. Department of Commerce identity",
+      "weather/climate time-scale distinction",
+      "long-term observing-network and quality-control explanation",
+      "climate change/global warming containment relationship"
+    ],
+    "verified_at_utc": "2026-11-16T00:09:30Z",
+    "scope_limitations": [
+      "The page is a public explainer, not the latest National Climate Assessment.",
+      "Its 2015 record example is historical and was explicitly flagged as not current.",
+      "Estimated reading time was assessed from the three-part page; no user-specific reading speed was measured."
+    ]
+  },
+  "preflight": {
+    "required_current_files_read": true,
+    "read_via_github_connector": true,
+    "source_head_initial": "0c299678dc18ab5219f24468549609da3fcd70fa",
+    "source_head_after_journal_history": "ff896a8d87323540eb3e417b1946badd924a7295",
+    "source_head_before_prepared": "3c004c091d76bc0ef0f0db9e81af570e7e97b93e",
+    "policy_blob_sha": "cf9d1b486e07ca1efe965cf6af6f0ea422497670",
+    "publishing_blob_sha": "1463649c436174db743ea6332698a5637d4dcb11",
+    "publication_bundle_blob_sha": "681b7120abeabc3b8de1c4451d6475886dcac407",
+    "publication_recovery_blob_sha": "b0a737ee33cbbf7bb0b453e6091a872f29be3358",
+    "original_history_blob_sha": "ef8aa217c287c78f5aa4c3e3339dac34f1af95b7",
+    "original_history_rows": 69,
+    "recent_daily_translation_vocabulary_weekly_tv_read": 19,
+    "prepared_transactions_read_via_connector_initial": 105,
+    "prepared_transactions_read_via_connector_after_refresh": 106,
+    "prepared_reads_complete": true,
+    "prepared_read_errors": 0,
+    "reserved_resource_ids_examined_after_refresh": 664,
+    "selected_url_in_original_history": false,
+    "selected_url_in_unrelated_prepared_transactions": false,
+    "same_operation_reservation_expected": true,
+    "same_day_transaction_initially_absent": true,
+    "same_day_notes_initially_absent": true,
+    "concurrent_head_changes": "Journal publication advanced main twice during preparation. Current policy and English history hashes remained unchanged; the new Journal PREPARED record was read through the connector, targets were re-observed, and the English PREPARED commit used the fresh current parent/tree."
+  },
+  "freeze": {
+    "transaction_path": ".recommendation/transactions/english/2026-11-16.json",
+    "transaction_blob_sha": "ce07b0e7c9e97a2604d9789873f6cfc08d71476d",
+    "transaction_creation_commit": "2e3e9a8d9510778584e53cd00bf640c27b3c1a89",
+    "bundle_sha256": "a19ce642a5498e21fd0f6aa62df169622a20155d71249b240ffbdb5b580d034b",
+    "plan_sha256": "64561b54987c1c7e2daf6e46e576fa12b6ffa4f95aa38d621d33653a9f5e3a4b",
+    "transaction_readback_exact": true,
+    "planner_before_apply": "ready_to_resume",
+    "planner_after_apply": "artifacts_match"
+  },
+  "publication": {
+    "commit": "771bf0dfa0b6f6606c0672c9e03db7f643d18cbc",
+    "parent_commit": "2e3e9a8d9510778584e53cd00bf640c27b3c1a89",
+    "tree_sha": "d51770a9c27bd072ae269dbd1394dba04127ef75",
+    "daily_path": "50-courses/English/Daily/2026-11-16.md",
+    "daily_blob_sha": "d280df4f9093e74f46ad3bd92fd0212a5f3156f8",
+    "translation_path": "50-courses/English/Translation/2026-11-16.md",
+    "translation_blob_sha": "aca610443bbc54dc83a1d92f564432e57e13ade5",
+    "vocabulary_path": "50-courses/English/Vocabulary/2026-11-16.md",
+    "vocabulary_blob_sha": "c279592b6dacd20ef12d7b7ffd53ab5945983606",
+    "history_path": ".recommendation/history/english.jsonl",
+    "history_blob_sha": "e21b7da701676d30827d6906420edd3219962962",
+    "stage_receipt_path": ".recommendation/transaction-runs/english/2026-11-16/stage1-20261116T000749Z.json",
+    "stage_receipt_blob_sha": "f2bfa8b31bf1115cf524e6793c526afe6c660b18",
+    "stage_receipt_commit": "749e9503d3b17fa9937a086fc9d501eba418da7b",
+    "readback_exact": {"daily": true, "translation": true, "vocabulary": true, "history": true, "transaction": true, "stage_receipt": true},
+    "history_rows_after": 70,
+    "exact_once_registration": true
+  },
+  "qa": {
+    "content_checks": "passed",
+    "weekday_or_weekend": "Monday",
+    "required_weekday_target_set": true,
+    "daily_required_sections": true,
+    "daily_comprehension_output_questions": 3,
+    "translation_exercises": 2,
+    "translation_exercises_independently_authored": true,
+    "translation_folded_answer_callouts": true,
+    "vocabulary_items": 8,
+    "vocabulary_meaning_collocations_examples_families_contrasts": true,
+    "retrieval_quiz": true,
+    "cross_links_all_three_and_english_index": true,
+    "auto_markers": true,
+    "manual_notes_outside_markers": true,
+    "history_prefix_append_only": true,
+    "freshness_checked_against_original_history": true,
+    "source_reverified_after_write": true,
+    "repository_validation": {
+      "strict_validator": "passed (youtube=290, reddit=580, english=64, music=299)",
+      "regression_tests": "passed (203 + 41 + 15 + 20 = 279 tests)",
+      "integrity": "passed_local_checks; English 70 rows and 70 unique resources",
+      "immutable_bundles": "passed (107 bundles)",
+      "base_ref": "2e3e9a8d9510778584e53cd00bf640c27b3c1a89"
+    },
+    "actual_ci": [
+      {"commit": "771bf0dfa0b6f6606c0672c9e03db7f643d18cbc", "run_id": 43778441665, "event": "push", "status": "completed", "conclusion": "success", "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/43778441665"},
+      {"commit": "749e9503d3b17fa9937a086fc9d501eba418da7b", "run_id": 43778559645, "event": "push", "status": "completed", "conclusion": "success", "url": "https://github.com/ZJFILOVE/obsidian-vault/actions/runs/43778559645"}
+    ],
+    "current_publication_gates": "passed"
+  },
+  "historical_backlog": [
+    {"project": "music", "date": "2026-11-06", "issue": "registered withdrawn duplicate recording incident", "effect_on_current_english_publication": "none; retained as historical failure evidence"},
+    {"project": "youtube", "issue": "three pre-policy duplicate ID groups remain retained and permanently blocked", "effect_on_current_english_publication": "none"}
+  ],
+  "limitations": [
+    "Structural validation and CI do not certify teaching quality by themselves; the three notes were separately reviewed for task count, evidence boundaries, originality, vocabulary depth and pedagogy.",
+    "Live-source verification confirms the official page and inspected content, not every linked downstream report or real-time weather service.",
+    "No local Obsidian device synchronization or notification-delivery check was performed.",
+    "The final QA receipt commit cannot self-certify its own later GitHub Actions run without a circular follow-up mutation."
+  ]
+}
