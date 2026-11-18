@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-10-10",
+  "operation_id": "english:2026-10-10",
+  "status": "passed_current_publication",
+  "recorded_at_utc": "2026-11-18T09:17:50Z",
+  "bundle_sha256": "ebf28c00683d9216269a4e3ebc5af6d38fe2bc60a2fb3a939ac7c8c78b793775",
+  "commit_sha": "0cf13c50254d86d3c76869b982e30a75fb085800",
+  "selection": {
+    "title": "Parks and Recreation",
+    "source_url": "https://www.nbc.com/parks-and-recreation",
+    "source": "NBC",
+    "component": "weekly-tv"
+  }
+}
