@@ -638,3 +638,13 @@
 {"date": "2026-10-12", "post_id": "1xz5lex", "subreddit": "LocalLLaMA", "title": "Langchain 101: Qwen3 4B scored 70/99 on agent tasks in a plain loop and 55/99 inside LangChain Deep Agents, while sending 3.6 - 4.3x the prompt tokens"}
 {"date": "2026-10-12", "post_id": "1xz4msh", "subreddit": "LocalLLaMA", "title": "I made VoxCPM2 5.3x smaller with TTF. Same quality, voice cloning, runs real-time on a laptop CPU with no Python"}
 {"date": "2026-10-12", "post_id": "1xz3f4w", "subreddit": "LocalLLaMA", "title": "Running SenseNova-Loop-9B nvfp4 looped transformer with 300-500 tok/s on a laptop 5090"}
+{"date": "2026-10-13", "post_id": "1xz9x49", "subreddit": "rust", "title": "Stoolap 0.5.0: One Query, One Answer"}
+{"date": "2026-10-13", "post_id": "1xz9dmn", "subreddit": "rust", "title": "Mutex poisoning is not for everyone"}
+{"date": "2026-10-13", "post_id": "1xz5l2f", "subreddit": "rust", "title": "Curvine: an open-source (Apache-2.0) distributed POSIX filesystem on top of S3, written in Rust — architecture, numbers, and honest trade-offs"}
+{"date": "2026-10-13", "post_id": "1xz5dg6", "subreddit": "rust", "title": "Cross compilation targets add up fast in rustup"}
+{"date": "2026-10-13", "post_id": "1xz13zo", "subreddit": "rust", "title": "Pruning old cargo-installed tools freed more space than expected"}
+{"date": "2026-10-13", "post_id": "1xz0pfp", "subreddit": "rust", "title": "An approach to fixing lifetime annotation errors that rustc's suggestions can't"}
+{"date": "2026-10-13", "post_id": "1xyztxn", "subreddit": "rust", "title": "catfive v0.3: zero-dependency, macro-free schema validation with built-in XSS, SQLi, and invisible Unicode checks"}
+{"date": "2026-10-13", "post_id": "1xyy8ps", "subreddit": "rust", "title": "starting with 3D gamedev in Rust"}
+{"date": "2026-10-13", "post_id": "1xza1hp", "subreddit": "linux", "title": "Using s3backer to Run a Real ext4 Filesystem on S3 Object Storage"}
+{"date": "2026-10-13", "post_id": "1xz9kme", "subreddit": "linux", "title": "Unkernel : A real Linux kernel, compiled to WebAssembly"}
