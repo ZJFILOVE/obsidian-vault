@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-18",
+  "operation_id": "english:2026-11-18",
+  "status": "passed_current_publication",
+  "recorded_at_utc": "2026-11-18T09:17:51Z",
+  "bundle_sha256": "7413f54ef0bd859e266d7d16be1743db9d5c292b43833bfc7ff063771f7b67d2",
+  "commit_sha": "e2d7428a43d9c6772628fed274ebbff0dc53e3bc",
+  "selection": {
+    "title": "Dark matter",
+    "source_url": "https://home.web.cern.ch/science/physics/dark-matter",
+    "source": "CERN",
+    "component": "daily"
+  }
+}
