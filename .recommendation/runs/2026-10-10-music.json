@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "project": "music",
+  "date": "2026-10-10",
+  "operation_id": "music:2026-10-10",
+  "status": "passed_current_publication",
+  "recorded_at": "2026-11-18T09:15:26Z",
+  "bundle": {
+    "path": ".recommendation/transactions/music/2026-10-10.json",
+    "bundle_sha256": "149fc8e2bcf09fade379f5b1ec5d3bf8e4ead07ebc87362039d0088995f62b9e",
+    "plan_sha256": "0b7d504524ab4a32ff4d2156dcdaeef3e7483614f9156cfd03922e3225c1bcbf"
+  },
+  "commits": {
+    "music_daily": "a7c83c7bd366aa4c73228b0b11b953519d681162",
+    "obsidian_vault": "9bc897842670e4f0717f8977ab90b904d30a7473"
+  },
+  "track_ids": [
+    "1625060892",
+    "1197789431",
+    "1708115306",
+    "1440876460",
+    "1416149931"
+  ],
+  "verification": "apple_music_live_catalog_cn"
+}
