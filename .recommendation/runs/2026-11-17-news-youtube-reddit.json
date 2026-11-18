@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "project": "news-youtube-reddit",
+  "date": "2026-11-17",
+  "operation_id": "news-youtube-reddit:2026-11-17",
+  "status": "passed_current_publication",
+  "recorded_at_utc": "2026-11-18T09:19:10Z",
+  "bundle_sha256": "31d6cf130c181f082f927d0c0b54aee878da4b06c58619213c9ddbee87f7e8ae",
+  "commit_sha": "98d603c1188f86e8a05aff2a1933e37bd4beab99",
+  "counts": {
+    "news": 3,
+    "youtube": 5,
+    "reddit": 10
+  }
+}
