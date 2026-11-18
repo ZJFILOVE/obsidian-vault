@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "project": "journal",
+  "date": "2026-11-17",
+  "operation_id": "journal:2026-11-17",
+  "phase": "published",
+  "status": "passed_current_publication",
+  "completed_at_utc": "2026-11-18T09:17:48Z",
+  "theme": "细菌光敏色素的光循环：从飞秒逆时针异构化到毫秒级信号分叉",
+  "bundle_sha256": "2899c765ae8497c4b1ad26134315a0c44a78752072e91cc913435c312d5f5e01",
+  "commit_sha": "d6f4bfaf04714f7a47c8fe4c72a49668b7ba8c21",
+  "papers": [
+    {
+      "title": "High-resolution crystal structures of transient intermediates in the phytochrome photocycle",
+      "doi": "10.1016/j.str.2021.03.004",
+      "pmid": "33756101",
+      "pmcid": "PMC8405169"
+    },
+    {
+      "title": "Protein control of photochemistry and transient intermediates in phytochromes",
+      "doi": "10.1038/s41467-022-34640-8",
+      "pmid": "36369284",
+      "pmcid": "PMC9652276"
+    },
+    {
+      "title": "The Photocycle of Bacteriophytochrome Is Initiated by Counterclockwise Chromophore Isomerization",
+      "doi": "10.1021/acs.jpclett.2c00899",
+      "pmid": "35576453",
+      "pmcid": "PMC9150100"
+    }
+  ]
+}
