@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-11-17",
+  "operation_id": "english:2026-11-17",
+  "status": "passed_current_publication",
+  "recorded_at_utc": "2026-11-18T09:17:51Z",
+  "bundle_sha256": "5de707f2d1d68e497d4a3e7c69eb93f02fdb7afea20362e0dcd68efef15ffe07",
+  "commit_sha": "d00514f2299cc4b90508ced3a00deca8e497b0fa",
+  "selection": {
+    "title": "The Higgs boson",
+    "source_url": "https://home.web.cern.ch/science/physics/higgs-boson",
+    "source": "CERN",
+    "component": "daily"
+  }
+}
