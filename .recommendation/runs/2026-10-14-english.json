@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "project": "english",
+  "date": "2026-10-14",
+  "operation_id": "english:2026-10-14",
+  "status": "passed_current_publication",
+  "recorded_at_utc": "2026-11-18T09:17:51Z",
+  "bundle_sha256": "8ee62af8e7069b44822bb81a5100cb84cddf50cbd2670a68c90409df09d55437",
+  "commit_sha": "186fb1f026888a518bde1d03b3b1a3a33995e549",
+  "selection": {
+    "title": "The Standard Model",
+    "source_url": "https://home.web.cern.ch/science/physics/standard-model",
+    "source": "CERN",
+    "component": "daily"
+  }
+}
