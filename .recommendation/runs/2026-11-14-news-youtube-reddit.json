@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "project": "news-youtube-reddit",
+  "date": "2026-11-14",
+  "operation_id": "news-youtube-reddit:2026-11-14",
+  "status": "passed_current_publication",
+  "resumed_from_prepared": true,
+  "bundle": {
+    "path": ".recommendation/transactions/news-youtube-reddit/2026-11-14.json",
+    "bundle_sha256": "b1df35649327ee4e03f3c2037a4dcaebb554ed59119ec4b6244123a088c6f8e8",
+    "plan_sha256": "bad825390272e86bef8dfcd61bc601b20f4491306f6d8290986b84da62e10102"
+  },
+  "commit_sha": "b3e8156e2d47768b7e0e2f2502f0c45300bf08a1",
+  "recorded_at_utc": "2026-11-18T09:02:16Z",
+  "checks": {
+    "validate_daily_recommendations": "passed"
+  }
+}
